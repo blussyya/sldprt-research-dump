@@ -29,28 +29,3 @@ The project-wide knowledge base is maintained under `knowledge/`:
 | v0.4.0 | Three verified structural invariants (I1/I2/I3), EXP-011, corpus analysis |
 
 Each version directory (e.g., `v0.4.0/`) contains the research scripts and docs for that milestone.
-
-## Project Structure
-
-```
-sldprt-converter/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── knowledge/               # Project-wide research knowledge base
-│   ├── KNOWN_INVARIANTS.md
-│   ├── EXPERIMENT_LOG.md
-│   ├── FAILED_HYPOTHESES.md
-│   ├── RESEARCH_DASHBOARD.md
-│   ├── NEXT_QUESTIONS.md
-│   ├── OPEN_QUESTIONS.md
-│   ├── ASSUMPTIONS.md
-│   ├── FORMAT_TIMELINE.md
-│   ├── EVIDENCE_PRESERVATION_POLICY.md
-│   └── evidence/
-└── v0.4.0/                  # v0.4.0 research scripts and docs
-```
-
-## License
-
-MIT
