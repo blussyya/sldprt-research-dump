@@ -1,8 +1,8 @@
 # SLDPRT Reverse-Engineering Research
 
-This is a research project to recover the serialization grammar of the SolidWorks SLDPRT binary format — syntax before semantics, never guessing meanings.
+This repository is a complete backup of the [SLDPRT reverse-engineering project.](https://github.com/blussyya/sldprt-format-research "go to main repo")
 
-This is **not** a production converter. The old converter code (`src/`, `test/`) was removed in v0.4.0 to focus purely on format research. The goal is to understand the format well enough to build a read-only parser.
+Development does NOT occur here.
 
 ## Knowledge Base
 
