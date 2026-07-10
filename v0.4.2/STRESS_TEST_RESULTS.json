@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "version": "v0.4.2",
+    "date": "2026-07-10T13:10:48.066Z",
+    "corpusSize": 8,
+    "filesSkipped": 3,
+    "totalFaces": 1232
+  },
+  "summary": {
+    "INV-001": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-002": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-003": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-004": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-005": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-006": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-007": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-008": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-009": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-010": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-016": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-017": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-018": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-011": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-012": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-014": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    },
+    "INV-015": {
+      "pass": 1232,
+      "fail": 0,
+      "skip": 0,
+      "rate": "100.0%"
+    }
+  },
+  "exceptions": []
+}

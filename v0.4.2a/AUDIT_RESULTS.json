@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "version": "v0.4.2a",
+    "date": "2026-07-10T13:34:24.718Z",
+    "filesAudited": 8,
+    "totalMarkers": 4936,
+    "totalAccepted": 1232,
+    "totalRejected": 3704
+  },
+  "audit1_circularity": {
+    "summary": {
+      "BOTTOM": {
+        "markers": 156,
+        "accepted": 39,
+        "rejected": 117,
+        "reasons": {
+          "F2_EDGECOUNT_RANGE": 78,
+          "F4_VERTEXCOUNT_RANGE": 39
+        }
+      },
+      "TOP": {
+        "markers": 272,
+        "accepted": 68,
+        "rejected": 204,
+        "reasons": {
+          "F2_EDGECOUNT_RANGE": 136,
+          "F4_VERTEXCOUNT_RANGE": 68
+        }
+      },
+      "GEAR": {
+        "markers": 452,
+        "accepted": 113,
+        "rejected": 339,
+        "reasons": {
+          "F2_EDGECOUNT_RANGE": 226,
+          "F4_VERTEXCOUNT_RANGE": 113
+        }
+      },
+      "DEKOR": {
+        "markers": 1500,
+        "accepted": 373,
+        "rejected": 1127,
+        "reasons": {
+          "F4_VERTEXCOUNT_RANGE": 377,
+          "F2_EDGECOUNT_RANGE": 750
+        }
+      },
+      "HEADPHONE": {
+        "markers": 248,
+        "accepted": 62,
+        "rejected": 186,
+        "reasons": {
+          "F2_EDGECOUNT_RANGE": 124,
+          "F4_VERTEXCOUNT_RANGE": 62
+        }
+      },
+      "DISTRIBUTOR": {
+        "markers": 204,
+        "accepted": 51,
+        "rejected": 153,
+        "reasons": {
+          "F2_EDGECOUNT_RANGE": 102,
+          "F4_VERTEXCOUNT_RANGE": 51
+        }
+      },
+      "POCKET": {
+        "markers": 1600,
+        "accepted": 400,
+        "rejected": 1200,
+        "reasons": {
+          "F2_EDGECOUNT_RANGE": 800,
+          "F4_VERTEXCOUNT_RANGE": 400
+        }
+      },
+      "PTC": {
+        "markers": 504,
+        "accepted": 126,
+        "rejected": 378,
+        "reasons": {
+          "F2_EDGECOUNT_RANGE": 252,
+          "F4_VERTEXCOUNT_RANGE": 126
+        }
+      }
+    },
+    "circularFilters": [
+      "F8_B1_HEADER_MAGIC: Filters on Block 1 header [4,8,2,N] — this IS INV-005",
+      "F11_B2_HEADER_MAGIC: Filters on Block 2 header [4,8,2,M] — this IS INV-006"
+    ],
+    "note": "Every face accepted by the pipeline already satisfies INV-002, INV-004, INV-005, INV-006 by construction."
+  },
+  "audit2_dekor_faces": {
+    "note": "Faces that fail INV-016/017/018 after passing extraction filters.",
+    "results": {}
+  },
+  "audit3_inv018_independence": {
+    "conclusion": "INV-018 is a mathematical consequence of INV-017 + section splitting.",
+    "inv017PassCount": 1232,
+    "inv018AlsoPassCount": 1232,
+    "inv018FailCount": 0
+  },
+  "audit4_inv012_rootCause": {
+    "matchRaw": 0,
+    "matchRawMinus1": 8763,
+    "matchNeither": 0,
+    "totalSections": 8763,
+    "conclusion": "Documentation mistake: formula reduces to len=raw, but actual data is len=raw-1."
+  }
+}

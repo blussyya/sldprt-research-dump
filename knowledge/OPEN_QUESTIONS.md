@@ -217,3 +217,42 @@ Source migrated from `v0.3.5/docs/research/OPEN_QUESTIONS.md`.
 **Confidence**: Medium that structural decoding can go further; low that full decoding can be completed without geometry checks.
 
 **Date last updated**: 2026-06-27
+
+---
+
+## OQ-012: Why Do Structurally Equivalent Faces Require Position-Dependent VALUE Mappings In Some File Pairs But Only A Global Bijection In Others?
+
+**Status**: Open Question
+
+**Evidence so far**: Experiment EXP-012 (v0.4.1 rewrite analysis) found that BOTTOM↔TOP requires (section index, position) context to resolve VALUE→VALUE mappings, while BOTTOM→GEAR forms a global bijection (0 ambiguous mappings). The same VALUE at the same position can map to different targets in different sections for BOTTOM↔TOP, but for BOTTOM→GEAR the mapping is consistent across all sections.
+
+This asymmetry is unexplained. It does not correlate with file size, face count, or vertex count in any obvious way.
+
+**Files tested**: BOTTOM, TOP, GEAR, DEKOR
+
+**Faces/models tested**: 595 faces; 28 BOTTOM↔TOP face pairs for deep analysis.
+
+**Confidence**: High that the asymmetry exists; low on explanation.
+
+**Date last updated**: 2026-07-10
+
+---
+
+## OQ-013: Can The Position-Dependent VALUE Mapping Function Be Expressed As Arithmetic?
+
+**Status**: Open Question
+
+**Evidence so far**: The rewrite function `f(src, secIdx, pos) → tgt` is deterministic (EXP-012), but the current evidence does not distinguish between:
+- An arithmetic function (linear, affine, or modular transform on src, secIdx, pos)
+- A lookup-table model where each (secIdx, pos) position has a specific expected value independent of arithmetic context
+- A hybrid model where some positions are arithmetic and others are table-driven
+
+**Why current evidence cannot distinguish**: The v0.4.1 analysis only verified existence and determinism of the mapping. No attempt was made to derive or fit an arithmetic formula.
+
+**Files tested**: BOTTOM, TOP
+
+**Faces/models tested**: 28 BOTTOM↔TOP face pairs.
+
+**Confidence**: High that the function is deterministic; low on its form.
+
+**Date last updated**: 2026-07-10

@@ -64,9 +64,11 @@ Statuses:
 
 **Depends on**: EXP-004, EXP-009, EXP-011
 
-**Answer**: This formula has been verified as INV-017 (Verified Structural Invariant). For every ONE-delimited section, `sectionBodyTokenCount = Block2[i] - 1`, which is equivalent to `len = 2 * loopSize - 2`. Verified across 593/593 validated faces (100%).
+**Answer**: This formula has been verified as INV-017 (Verified Structural Invariant). For every ONE-delimited section, `sectionBodyTokenCount = Block2[i] - 1`, which is equivalent to `len = 2 * loopSize - 3`. Verified across 8,763/8,763 sections (100%) across 8 files by EXP-013, with independent reproduction by EXP-016.
 
-**Evidence archive**: `knowledge/evidence/2026-06-27_v0.4.0-invariant-validation.md`
+**Note on INV-012 equivalence**: The original INV-012 formula `len = 2 * loopSize - 2` was found to be incorrect (off by +1). The correct equivalent is `len = 2 * loopSize - 3`. See INV-012 correction note for details.
+
+**Evidence archive**: `knowledge/evidence/2026-06-27_v0.4.0-invariant-validation.md`, `knowledge/evidence/2026-07-10_v0.4.2-stress-test.md`, `knowledge/evidence/2026-07-10_v0.4.2a-independent-parser.md`
 
 **Will eliminate or constrain**: OQ-001, OQ-001A, OQ-002, ASM-003.
 

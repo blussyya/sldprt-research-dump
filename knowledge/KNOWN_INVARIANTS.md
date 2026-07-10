@@ -271,7 +271,7 @@ Those subclasses are retained only as descriptive range bins for old reports and
 
 ## INV-012: Observed Section Forms
 
-**Status**: Observation
+**Status**: Observation (formula incorrect — see correction note)
 
 **Evidence**: Earlier measurements found that Block 1 section length follows:
 
@@ -292,6 +292,35 @@ This observation has since been verified as INV-017 (Verified Structural Invaria
 **Date last updated**: 2026-06-27
 
 **Related experiments**: EXP-009, EXP-011; formal verification in INV-017
+
+---
+### CORRECTION NOTE (2026-07-10)
+
+**The documented formula `len = 2 * loopSize - 2` is mathematically incorrect.**
+
+Algebraic substitution:
+```
+len = 2 * loopSize - 2
+loopSize = (raw + 2) / 2    (from INV-007)
+len = 2 * ((raw + 2) / 2) - 2 = raw + 2 - 2 = raw
+```
+
+So INV-012's formula predicts `sectionBodyTokenCount = raw` (the raw Block 2 value).
+
+**Corpus verification (8,763 sections across 8 files, v0.4.2a):**
+- Matches `len = raw` (INV-012 prediction): **0 / 8,763 (0.0%)**
+- Matches `len = raw - 1` (INV-017): **8,763 / 8,763 (100.0%)**
+
+**Root cause:** Off-by-one documentation error. The constant should be `-3`, not `-2`:
+```
+len = 2 * loopSize - 3    (correct, equivalent to INV-017's `raw - 1`)
+```
+
+INV-012 remains as the historical observation record. INV-017 supersedes it with the correct formula.
+
+**Discovered by:** EXP-013 (v0.4.2 stress test), confirmed by EXP-014 (v0.4.2a audit).
+
+**Raw evidence:** `knowledge/evidence/2026-07-10_v0.4.2-stress-test.md`, `knowledge/evidence/2026-07-10_v0.4.2a-audit.md`
 
 ---
 
@@ -372,6 +401,15 @@ where `sectionCount` is the number of ONE-delimited sections in the Block 1 body
 **Related experiments**: EXP-011
 
 ---
+### CORPUS EXTENSION NOTE (2026-07-10)
+
+- v0.4.2 stress test (EXP-013): 1,232/1,232 faces pass (8 files, 6,859 sections). Strengthened by +639 new faces (HEADPHONE, DISTRIBUTOR, POCKET, PTC).
+- v0.4.2a expanded corpus test (EXP-017): 1,234/1,234 faces pass (vc limit 6000, includes 2 previously-excluded DEKOR vc=5862 faces).
+- v0.4.2a independent parser (EXP-016): 1,234/1,234 faces pass — eliminates implementation-specific bias.
+
+**Raw evidence:** `knowledge/evidence/2026-07-10_v0.4.2-stress-test.md`, `knowledge/evidence/2026-07-10_v0.4.2a-expanded-corpus.md`, `knowledge/evidence/2026-07-10_v0.4.2a-independent-parser.md`
+
+---
 
 ## INV-017: ONE-Delimited Section Length
 
@@ -396,10 +434,20 @@ This formula is equivalent to the earlier observed relation `len = 2 * loopSize 
 **Related experiments**: EXP-011
 
 ---
+### CORPUS EXTENSION NOTE (2026-07-10)
+
+- v0.4.2 stress test (EXP-013): 8,763/8,763 sections match (100%) across 8 files, 1,232 faces. Formula `sectionBodyTokenCount = Block2[i] - 1` holds universally.
+- v0.4.2a expanded corpus test (EXP-017): 1,234/1,234 faces pass. High-vc faces (vc=5862) with 1,044 sections each also satisfy the formula.
+- v0.4.2a independent parser (EXP-016): 1,234/1,234 faces pass — independent implementation confirms.
+- INV-012's formula `len = 2 * loopSize - 2` has been corrected: it reduces to `len = raw`, but the correct relationship is `len = raw - 1` (= `2 * loopSize - 3`). See INV-012 correction note.
+
+**Raw evidence:** `knowledge/evidence/2026-07-10_v0.4.2-stress-test.md`, `knowledge/evidence/2026-07-10_v0.4.2a-expanded-corpus.md`, `knowledge/evidence/2026-07-10_v0.4.2a-independent-parser.md`
+
+---
 
 ## INV-018: Block 2 Sum
 
-**Status**: Verified Structural Invariant
+**Status**: Verified Structural Invariant (mathematical consequence of INV-017 — see dependency note)
 
 **Evidence**: The sum of all Block 2 body values equals the Block 1 body length:
 
@@ -416,3 +464,33 @@ sum(Block2[i]) = b1len
 **Date last updated**: 2026-06-27
 
 **Related experiments**: EXP-011
+
+---
+### CORPUS EXTENSION NOTE (2026-07-10)
+
+- v0.4.2 stress test (EXP-013): 1,232/1,232 faces pass.
+- v0.4.2a expanded corpus test (EXP-017): 1,234/1,234 faces pass.
+- v0.4.2a independent parser (EXP-016): 1,234/1,234 faces pass.
+
+**Raw evidence:** `knowledge/evidence/2026-07-10_v0.4.2-stress-test.md`, `knowledge/evidence/2026-07-10_v0.4.2a-expanded-corpus.md`, `knowledge/evidence/2026-07-10_v0.4.2a-independent-parser.md`
+
+---
+### MATHEMATICAL DEPENDENCY NOTE (2026-07-10)
+
+INV-018 is **not mathematically independent**. It follows from INV-017 plus the definition of section splitting. Proven by EXP-014 (v0.4.2a audit).
+
+**Proof:**
+1. From section splitting: `sum(sectionLen[i]) = b1len - sectionCount` (the ONE delimiters are removed from the body).
+2. From INV-017: `sectionLen[i] = Block2[i] - 1` for all sections.
+3. Substituting: `sum(Block2[i] - 1) = b1len - sectionCount`
+   → `sum(Block2) - sectionCount = b1len - sectionCount`
+   → `sum(Block2) = b1len`
+4. This is exactly INV-018. QED.
+
+**Empirical verification:** 1,232/1,232 faces where INV-017 passes also pass INV-018. Zero counterexamples.
+
+INV-018 adds zero independent information beyond INV-017. It is retained as a derived relationship for convenience, not an independent structural invariant.
+
+**Discovered by:** EXP-014 (v0.4.2a audit).
+
+**Raw evidence:** `knowledge/evidence/2026-07-10_v0.4.2a-audit.md`
