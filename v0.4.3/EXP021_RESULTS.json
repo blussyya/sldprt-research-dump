@@ -1,0 +1,1269 @@
+{
+  "meta": {
+    "version": "v0.4.3",
+    "experiment": "EXP-021",
+    "description": "Alternative [4,8,2,N] header investigation",
+    "date": "2026-07-16T19:43:43.053Z",
+    "searchRange": 256,
+    "totalFaces": 1234,
+    "totalAlternatives": 332,
+    "facesWithAlternatives": 332,
+    "facesWithMultiple": 0
+  },
+  "nValueDistribution": {
+    "1": 240,
+    "2": 92
+  },
+  "directionCounts": {
+    "BEFORE": 332,
+    "AFTER": 0
+  },
+  "nByDirection": {
+    "BEFORE": {
+      "1": 240,
+      "2": 92
+    },
+    "AFTER": {}
+  },
+  "deltaDistribution": {
+    "-148": 229,
+    "-244": 3,
+    "-248": 92,
+    "-220": 4,
+    "-196": 3,
+    "-172": 1
+  },
+  "perFile": {
+    "BOTTOM": {
+      "faceCount": 39,
+      "totalAlternatives": 5,
+      "facesWithAlternatives": 5,
+      "facesWithMultiple": 0,
+      "nValues": {
+        "1": 5
+      },
+      "directionCounts": {
+        "BEFORE": 5,
+        "AFTER": 0
+      },
+      "b2Count": 39,
+      "overlapsB1Count": 0,
+      "overlapsB2Count": 0
+    },
+    "TOP": {
+      "faceCount": 68,
+      "totalAlternatives": 16,
+      "facesWithAlternatives": 16,
+      "facesWithMultiple": 0,
+      "nValues": {
+        "1": 16
+      },
+      "directionCounts": {
+        "BEFORE": 16,
+        "AFTER": 0
+      },
+      "b2Count": 68,
+      "overlapsB1Count": 0,
+      "overlapsB2Count": 0
+    },
+    "GEAR": {
+      "faceCount": 113,
+      "totalAlternatives": 57,
+      "facesWithAlternatives": 57,
+      "facesWithMultiple": 0,
+      "nValues": {
+        "1": 43,
+        "2": 14
+      },
+      "directionCounts": {
+        "BEFORE": 57,
+        "AFTER": 0
+      },
+      "b2Count": 113,
+      "overlapsB1Count": 0,
+      "overlapsB2Count": 0
+    },
+    "DEKOR": {
+      "faceCount": 375,
+      "totalAlternatives": 75,
+      "facesWithAlternatives": 75,
+      "facesWithMultiple": 0,
+      "nValues": {
+        "1": 41,
+        "2": 34
+      },
+      "directionCounts": {
+        "BEFORE": 75,
+        "AFTER": 0
+      },
+      "b2Count": 375,
+      "overlapsB1Count": 0,
+      "overlapsB2Count": 0
+    },
+    "HEADPHONE": {
+      "faceCount": 62,
+      "totalAlternatives": 0,
+      "facesWithAlternatives": 0,
+      "facesWithMultiple": 0,
+      "nValues": {},
+      "directionCounts": {
+        "BEFORE": 0,
+        "AFTER": 0
+      },
+      "b2Count": 62,
+      "overlapsB1Count": 0,
+      "overlapsB2Count": 0
+    },
+    "DISTRIBUTOR": {
+      "faceCount": 51,
+      "totalAlternatives": 2,
+      "facesWithAlternatives": 2,
+      "facesWithMultiple": 0,
+      "nValues": {
+        "2": 2
+      },
+      "directionCounts": {
+        "BEFORE": 2,
+        "AFTER": 0
+      },
+      "b2Count": 51,
+      "overlapsB1Count": 0,
+      "overlapsB2Count": 0
+    },
+    "POCKET": {
+      "faceCount": 400,
+      "totalAlternatives": 75,
+      "facesWithAlternatives": 75,
+      "facesWithMultiple": 0,
+      "nValues": {
+        "1": 33,
+        "2": 42
+      },
+      "directionCounts": {
+        "BEFORE": 75,
+        "AFTER": 0
+      },
+      "b2Count": 400,
+      "overlapsB1Count": 0,
+      "overlapsB2Count": 0
+    },
+    "PTC": {
+      "faceCount": 126,
+      "totalAlternatives": 102,
+      "facesWithAlternatives": 102,
+      "facesWithMultiple": 0,
+      "nValues": {
+        "1": 102
+      },
+      "directionCounts": {
+        "BEFORE": 102,
+        "AFTER": 0
+      },
+      "b2Count": 126,
+      "overlapsB1Count": 0,
+      "overlapsB2Count": 0
+    }
+  },
+  "correlationSample": [
+    {
+      "file": "BOTTOM",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "BOTTOM",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "BOTTOM",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "BOTTOM",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "BOTTOM",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 8,
+      "edgeCount": 8,
+      "b1Len": 14,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -244,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 8,
+      "edgeCount": 8,
+      "b1Len": 14,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -244,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "TOP",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 7,
+      "edgeCount": 7,
+      "b1Len": 12,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -220,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 7,
+      "edgeCount": 7,
+      "b1Len": 12,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -220,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 6,
+      "edgeCount": 6,
+      "b1Len": 10,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -196,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 5,
+      "edgeCount": 5,
+      "b1Len": 8,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -172,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "GEAR",
+      "vertexCount": 8,
+      "edgeCount": 5,
+      "b1Len": 12,
+      "b2Len": 2,
+      "sectionCount": 2,
+      "altN": 2,
+      "altDelta": -248,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 4,
+      "edgeCount": 4,
+      "b1Len": 6,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -148,
+      "altDirection": "BEFORE"
+    },
+    {
+      "file": "DEKOR",
+      "vertexCount": 8,
+      "edgeCount": 8,
+      "b1Len": 14,
+      "b2Len": 1,
+      "sectionCount": 1,
+      "altN": 1,
+      "altDelta": -244,
+      "altDirection": "BEFORE"
+    }
+  ]
+}

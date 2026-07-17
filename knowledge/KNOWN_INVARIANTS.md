@@ -58,6 +58,23 @@ Forensic byte-offset dumps of simple and complex gear faces support the layout, 
 
 ---
 
+### v0.4.3 VALIDATION NOTE (2026-07-16)
+
+**INV-002 layout validated by EXP-018 and EXP-019:**
+
+- EXP-018: 1,234/1,234 genuine faces match the layout exactly
+- EXP-019: Only H1 (normals are unit vectors, max deviation = 4.14e-8) is a genuine test
+  - H2 "no extra bytes between normals and B1" is a **tautology** — tests same variable
+  - H3 "gap is always 16 bytes" is a **tautology** — normalsStart defined as gapStart + 16
+  - H5 "block ordering is always correct" is a **tautology** — guaranteed by offset definitions
+- Alternative `[4,8,2,N]` patterns found in 332 non-B2 positions (not 525 as originally reported)
+- **N=2 body[0] = prev_edgeCount claim FALSIFIED** (EXP-021 critical review): 292/299 cross-face checks fail (97.7%)
+- The `[4,8,2,N]` container semantics are unknown for both N=1 and N=2 cases
+
+**Raw evidence:** `knowledge/evidence/2026-07-16_v0.4.3-EXP018.md`, `knowledge/evidence/2026-07-16_v0.4.3-EXP019.md`, `knowledge/evidence/2026-07-16_v0.4.3-EXP021.md`, `v0.4.4/FALSIFICATION_REVIEW.md`
+
+---
+
 ## INV-003: Position Records And Normal Records Are Distinct
 
 **Status**: Verified Conclusion

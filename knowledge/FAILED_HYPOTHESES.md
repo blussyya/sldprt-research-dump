@@ -273,3 +273,48 @@ These observations return VALUE semantics to UNKNOWN. `VALUE` remains only an ob
 **Date last updated**: 2026-06-27
 
 **Cross-reference**: EXP-011 records that section length alone does not uniquely determine token-class sequence across 3429 sections. This corpus statistic is consistent with — but does not prove — the falsification of uniform VALUE semantics.
+
+---
+
+## FH-014: EXP-019 H2/H3/H5 Are Genuine Structural Tests
+
+**Status**: Falsified — these are tautologies, not data tests.
+
+**Original hypothesis**: H2 (no extra bytes between normals and B1), H3 (gap is exactly 16 bytes), and H5 (block ordering is correct) were claimed as "surviving" structural tests.
+
+**Evidence against**: Each test verifies its own variable definition, not a data property:
+- H2: `normalsEnd` and `block1Start` are the same variable.
+- H3: `normalsStart` is defined as `gapStart + 16`.
+- H5: Block ordering is mathematically guaranteed by offset construction.
+
+These tests cannot fail by design and provide no information about the data.
+
+**Disproving experiment**: v0.4.5 Critical Review — code analysis of EXP-019.
+
+**Files tested**: EXP-019 source code.
+
+**Faces/models tested**: N/A — methodological analysis.
+
+**Confidence**: High
+
+**Date last updated**: 2026-07-16
+
+---
+
+## FH-015: N=2 Alternative Body[0] Is Previous Face's EdgeCount
+
+**Status**: Falsified
+
+**Original hypothesis**: For faces with N=2 alternative header `[4,8,2,2]` at mp-24, the body[0] value at mp-8 is the previous face's edgeCount.
+
+**Evidence against**: Cross-face traversal in DisplayLists order across 8 files shows 292/299 (97.7%) failures. The value at mp-8 is overwhelmingly `3` (241/300 = 80.3%), not the previous face's edgeCount.
+
+**Disproving experiment**: `v0.4.3/docs/research/exp021_prev_edgecount_falsification.js`
+
+**Files tested**: BOTTOM, TOP, GEAR, DEKOR, HEADPHONE, DISTRIBUTOR, POCKET, PTC
+
+**Faces/models tested**: 300 N=2 faces across 8 files.
+
+**Confidence**: High
+
+**Date last updated**: 2026-07-16

@@ -256,3 +256,67 @@ This asymmetry is unexplained. It does not correlate with file size, face count,
 **Confidence**: High that the function is deterministic; low on its form.
 
 **Date last updated**: 2026-07-10
+
+---
+
+## OQ-014: What Does The [4,8,2,N] Pattern Mean In DisplayLists?
+
+**Status**: Open Question
+
+**Evidence so far**: The pattern [4,8,2,N] appears 3,516 times across 7 files (0.96 per 1KB). N ranges from 1 to 9,636 (175 distinct values). 661 occurrences are at face-relative positions mp - 16 - 4*N (face containers). The remaining 2,855 occurrences are elsewhere in the stream. Classification attempts in EXP-022/025 failed due to offset bugs (see FALSIFICATION_REVIEW.md). Whether this is one container format with variable N or multiple unrelated structures is unknown.
+
+**Files tested**: BOTTOM, TOP, GEAR, DEKOR, DISTRIBUTOR, POCKET, PTC
+
+**Faces/models tested**: 7 files, stream-level scan. Face-level: 1,172 faces with 661 face containers.
+
+**Confidence**: Low for meaning; medium that the pattern is non-random.
+
+**Date last updated**: 2026-07-16
+
+---
+
+## OQ-015: What Does The N=2 Body[0] Value At mp-8 Represent?
+
+**Status**: Open Question
+
+**Evidence so far**: For N=2 face containers ([4,8,2,2] at mp-24), the body[0] at mp-8 is overwhelmingly 3 (241/300 = 80.3%). It is NOT the previous face edgeCount (falsified by FH-015). Does not correlate with ec, vc, or face index. Other values observed: 4 (3x), 5 (21x), 7 (5x), 9 (7x), 11 (1x), 13 (2x), 21 (1x), 25 (1x), 33 (1x). Non-3 values appear only in GEAR, DEKOR, DISTRIBUTOR, and PTC.
+
+**Files tested**: BOTTOM, TOP, GEAR, DEKOR, HEADPHONE, DISTRIBUTOR, POCKET, PTC
+
+**Faces/models tested**: 300 N=2 alternative faces across 8 files.
+
+**Confidence**: High that it is not prev_edgeCount; low for what it actually is.
+
+**Date last updated**: 2026-07-16
+
+---
+
+## OQ-016: What Is The Correct B2 Offset In The Face Layout?
+
+**Status**: Open Question
+
+**Evidence so far**: Multiple experiments read B2 at block1Start + b1Word0 * 4 (EXP-023/024). Byte-level inspection shows this reads B1 body data (large index values), not clean section lengths. Three candidate offsets produce mixed data: none yields consistently [1,500] values. The B2 section-length model itself may be incomplete or the B1 header size (4 vs 8 bytes) is unknown.
+
+**Files tested**: BOTTOM, GEAR (selected faces)
+
+**Faces/models tested**: 10 representative faces across 2 files.
+
+**Confidence**: Low -- fundamental uncertainty about B2 position and structure.
+
+**Date last updated**: 2026-07-16
+
+---
+
+## OQ-017: Why Does HEADPHONE Have Zero [4,8,2,N] Alternatives?
+
+**Status**: Open Question
+
+**Evidence so far**: HEADPHONE (62 faces) has 0 alternatives at mp - 16 - 4*N for N=1 or N=2. PTC (126 faces) has 92.9% alternative rate. The bimodal distribution (0% vs 92.9%) is unexplained.
+
+**Files tested**: HEADPHONE, PTC, and 6 other files for comparison.
+
+**Faces/models tested**: 1,234 faces across 8 files.
+
+**Confidence**: Medium that the pattern is version or exporter-specific.
+
+**Date last updated**: 2026-07-16

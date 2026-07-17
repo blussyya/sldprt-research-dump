@@ -1,0 +1,1378 @@
+{
+  "meta": {
+    "version": "v0.4.3",
+    "experiment": "EXP-019",
+    "description": "Normal/Layout falsification",
+    "date": "2026-07-16T19:31:55.189Z",
+    "epsilon": 0.001,
+    "totalFaces": 1234
+  },
+  "aggregate": {
+    "normalUnitTest": {
+      "pass": 1234,
+      "fail": 0,
+      "maxDeviation": 4.1447107967940156e-8
+    },
+    "altB1Test": {
+      "onlyExpected": 709,
+      "multipleFound": 525
+    },
+    "extraBytesTest": {
+      "clean": 1234,
+      "hasExtraBytes": 0
+    },
+    "gapSizeTest": {
+      "is16Bytes": 1234
+    },
+    "blockOrderingTest": {
+      "correct": 1234
+    }
+  },
+  "survived": [
+    "H1: Normals are unit vectors — 1234/1234 pass",
+    "H2: No extra bytes between normals and B1 — 1234/1234 pass",
+    "H3: Gap is exactly 16 bytes — 1234/1234 pass",
+    "H5: Block ordering is correct — 1234/1234 pass"
+  ],
+  "falsified": [
+    "H4: No alternative B1 positions — 525 faces have alternatives"
+  ],
+  "perFile": {
+    "BOTTOM": {
+      "faceCount": 39,
+      "normalTest": {
+        "totalFaces": 39,
+        "pass": 39,
+        "fail": 0,
+        "maxDeviation": 2.9122697142724974e-8,
+        "failures": []
+      },
+      "altB1Test": {
+        "totalFaces": 39,
+        "onlyExpected": 28,
+        "multipleFound": 11,
+        "alternatives": [
+          {
+            "faceStart": "0x179e",
+            "expectedB1": "0x1822",
+            "alternatives": [
+              {
+                "offset": 6218,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1b08",
+            "expectedB1": "0x1b8c",
+            "alternatives": [
+              {
+                "offset": 7092,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1e72",
+            "expectedB1": "0x1ef6",
+            "alternatives": [
+              {
+                "offset": 7966,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x21dc",
+            "expectedB1": "0x2260",
+            "alternatives": [
+              {
+                "offset": 8840,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x64ec",
+            "expectedB1": "0x6570",
+            "alternatives": [
+              {
+                "offset": 26008,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x861a",
+            "expectedB1": "0x878e",
+            "alternatives": [
+              {
+                "offset": 34822,
+                "delta": 120,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x980e",
+            "expectedB1": "0x9982",
+            "alternatives": [
+              {
+                "offset": 39418,
+                "delta": 120,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x9cc0",
+            "expectedB1": "0x9e64",
+            "alternatives": [
+              {
+                "offset": 40676,
+                "delta": 128,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0xa1b0",
+            "expectedB1": "0xa354",
+            "alternatives": [
+              {
+                "offset": 41940,
+                "delta": 128,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0xa6a0",
+            "expectedB1": "0xa844",
+            "alternatives": [
+              {
+                "offset": 43204,
+                "delta": 128,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "extraBytesTest": {
+        "totalFaces": 39,
+        "clean": 39,
+        "hasExtraBytes": 0,
+        "examples": []
+      },
+      "gapSizeTest": {
+        "totalFaces": 39,
+        "is16Bytes": 39,
+        "not16Bytes": 0,
+        "examples": []
+      },
+      "orderingTest": {
+        "totalFaces": 39,
+        "correctOrder": 39,
+        "incorrectOrder": 0,
+        "examples": []
+      }
+    },
+    "TOP": {
+      "faceCount": 68,
+      "normalTest": {
+        "totalFaces": 68,
+        "pass": 68,
+        "fail": 0,
+        "maxDeviation": 3.938304016237737e-8,
+        "failures": []
+      },
+      "altB1Test": {
+        "totalFaces": 68,
+        "onlyExpected": 44,
+        "multipleFound": 24,
+        "alternatives": [
+          {
+            "faceStart": "0x39dc",
+            "expectedB1": "0x3b80",
+            "alternatives": [
+              {
+                "offset": 15352,
+                "delta": 120,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x3ffa",
+            "expectedB1": "0x419e",
+            "alternatives": [
+              {
+                "offset": 16918,
+                "delta": 120,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x4634",
+            "expectedB1": "0x46b8",
+            "alternatives": [
+              {
+                "offset": 18144,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x49c6",
+            "expectedB1": "0x4a4a",
+            "alternatives": [
+              {
+                "offset": 19058,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x5cf4",
+            "expectedB1": "0x5dd8",
+            "alternatives": [
+              {
+                "offset": 24096,
+                "delta": 72,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x6176",
+            "expectedB1": "0x61fa",
+            "alternatives": [
+              {
+                "offset": 25122,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x64e0",
+            "expectedB1": "0x65c4",
+            "alternatives": [
+              {
+                "offset": 26124,
+                "delta": 72,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0xee02",
+            "expectedB1": "0xef76",
+            "alternatives": [
+              {
+                "offset": 61422,
+                "delta": 120,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0xfa1c",
+            "expectedB1": "0xfb90",
+            "alternatives": [
+              {
+                "offset": 64520,
+                "delta": 120,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1ec86",
+            "expectedB1": "0x1ee2a",
+            "alternatives": [
+              {
+                "offset": 126634,
+                "delta": 128,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "extraBytesTest": {
+        "totalFaces": 68,
+        "clean": 68,
+        "hasExtraBytes": 0,
+        "examples": []
+      },
+      "gapSizeTest": {
+        "totalFaces": 68,
+        "is16Bytes": 68,
+        "not16Bytes": 0,
+        "examples": []
+      },
+      "orderingTest": {
+        "totalFaces": 68,
+        "correctOrder": 68,
+        "incorrectOrder": 0,
+        "examples": []
+      }
+    },
+    "GEAR": {
+      "faceCount": 113,
+      "normalTest": {
+        "totalFaces": 113,
+        "pass": 113,
+        "fail": 0,
+        "maxDeviation": 4.027220801283704e-8,
+        "failures": []
+      },
+      "altB1Test": {
+        "totalFaces": 113,
+        "onlyExpected": 46,
+        "multipleFound": 67,
+        "alternatives": [
+          {
+            "faceStart": "0x1955e",
+            "expectedB1": "0x19672",
+            "alternatives": [
+              {
+                "offset": 104130,
+                "delta": 80,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1999c",
+            "expectedB1": "0x19a98",
+            "alternatives": [
+              {
+                "offset": 105184,
+                "delta": 72,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x19db8",
+            "expectedB1": "0x19ecc",
+            "alternatives": [
+              {
+                "offset": 106268,
+                "delta": 80,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1a1f6",
+            "expectedB1": "0x1a2f2",
+            "alternatives": [
+              {
+                "offset": 107322,
+                "delta": 72,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1a612",
+            "expectedB1": "0x1a726",
+            "alternatives": [
+              {
+                "offset": 108406,
+                "delta": 80,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1aa50",
+            "expectedB1": "0x1ab34",
+            "alternatives": [
+              {
+                "offset": 109428,
+                "delta": 64,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1ae4a",
+            "expectedB1": "0x1af5e",
+            "alternatives": [
+              {
+                "offset": 110510,
+                "delta": 80,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1b284",
+            "expectedB1": "0x1b350",
+            "alternatives": [
+              {
+                "offset": 111504,
+                "delta": 64,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1b662",
+            "expectedB1": "0x1b776",
+            "alternatives": [
+              {
+                "offset": 112582,
+                "delta": 80,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1ba9c",
+            "expectedB1": "0x1bb68",
+            "alternatives": [
+              {
+                "offset": 113576,
+                "delta": 64,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "extraBytesTest": {
+        "totalFaces": 113,
+        "clean": 113,
+        "hasExtraBytes": 0,
+        "examples": []
+      },
+      "gapSizeTest": {
+        "totalFaces": 113,
+        "is16Bytes": 113,
+        "not16Bytes": 0,
+        "examples": []
+      },
+      "orderingTest": {
+        "totalFaces": 113,
+        "correctOrder": 113,
+        "incorrectOrder": 0,
+        "examples": []
+      }
+    },
+    "DEKOR": {
+      "faceCount": 375,
+      "normalTest": {
+        "totalFaces": 375,
+        "pass": 375,
+        "fail": 0,
+        "maxDeviation": 4.1447107967940156e-8,
+        "failures": []
+      },
+      "altB1Test": {
+        "totalFaces": 375,
+        "onlyExpected": 187,
+        "multipleFound": 188,
+        "alternatives": [
+          {
+            "faceStart": "0x684ae",
+            "expectedB1": "0x68532",
+            "alternatives": [
+              {
+                "offset": 427354,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x68b0b",
+            "expectedB1": "0x68b8f",
+            "alternatives": [
+              {
+                "offset": 428983,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x68e7d",
+            "expectedB1": "0x68f01",
+            "alternatives": [
+              {
+                "offset": 429865,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x6933b",
+            "expectedB1": "0x693bf",
+            "alternatives": [
+              {
+                "offset": 431079,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x696ad",
+            "expectedB1": "0x69731",
+            "alternatives": [
+              {
+                "offset": 431961,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x6d6d5",
+            "expectedB1": "0x6d759",
+            "alternatives": [
+              {
+                "offset": 448385,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x6da47",
+            "expectedB1": "0x6dacb",
+            "alternatives": [
+              {
+                "offset": 449267,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x6ddb9",
+            "expectedB1": "0x6de3d",
+            "alternatives": [
+              {
+                "offset": 450149,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x6e20b",
+            "expectedB1": "0x6e28f",
+            "alternatives": [
+              {
+                "offset": 451255,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x6e57d",
+            "expectedB1": "0x6e601",
+            "alternatives": [
+              {
+                "offset": 452137,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "extraBytesTest": {
+        "totalFaces": 375,
+        "clean": 375,
+        "hasExtraBytes": 0,
+        "examples": []
+      },
+      "gapSizeTest": {
+        "totalFaces": 375,
+        "is16Bytes": 375,
+        "not16Bytes": 0,
+        "examples": []
+      },
+      "orderingTest": {
+        "totalFaces": 375,
+        "correctOrder": 375,
+        "incorrectOrder": 0,
+        "examples": []
+      }
+    },
+    "HEADPHONE": {
+      "faceCount": 62,
+      "normalTest": {
+        "totalFaces": 62,
+        "pass": 62,
+        "fail": 0,
+        "maxDeviation": 4.044195456298638e-8,
+        "failures": []
+      },
+      "altB1Test": {
+        "totalFaces": 62,
+        "onlyExpected": 58,
+        "multipleFound": 4,
+        "alternatives": [
+          {
+            "faceStart": "0x48226",
+            "expectedB1": "0x483ca",
+            "alternatives": [
+              {
+                "offset": 296010,
+                "delta": 128,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x4db30",
+            "expectedB1": "0x4dcd4",
+            "alternatives": [
+              {
+                "offset": 318804,
+                "delta": 128,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x5e450",
+            "expectedB1": "0x5e5f4",
+            "alternatives": [
+              {
+                "offset": 386676,
+                "delta": 128,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x63aca",
+            "expectedB1": "0x63c6e",
+            "alternatives": [
+              {
+                "offset": 408814,
+                "delta": 128,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "extraBytesTest": {
+        "totalFaces": 62,
+        "clean": 62,
+        "hasExtraBytes": 0,
+        "examples": []
+      },
+      "gapSizeTest": {
+        "totalFaces": 62,
+        "is16Bytes": 62,
+        "not16Bytes": 0,
+        "examples": []
+      },
+      "orderingTest": {
+        "totalFaces": 62,
+        "correctOrder": 62,
+        "incorrectOrder": 0,
+        "examples": []
+      }
+    },
+    "DISTRIBUTOR": {
+      "faceCount": 51,
+      "normalTest": {
+        "totalFaces": 51,
+        "pass": 51,
+        "fail": 0,
+        "maxDeviation": 3.5384400076665656e-8,
+        "failures": []
+      },
+      "altB1Test": {
+        "totalFaces": 51,
+        "onlyExpected": 49,
+        "multipleFound": 2,
+        "alternatives": [
+          {
+            "faceStart": "0x28f48",
+            "expectedB1": "0x2902c",
+            "alternatives": [
+              {
+                "offset": 168044,
+                "delta": 64,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x293ae",
+            "expectedB1": "0x29492",
+            "alternatives": [
+              {
+                "offset": 169170,
+                "delta": 64,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "extraBytesTest": {
+        "totalFaces": 51,
+        "clean": 51,
+        "hasExtraBytes": 0,
+        "examples": []
+      },
+      "gapSizeTest": {
+        "totalFaces": 51,
+        "is16Bytes": 51,
+        "not16Bytes": 0,
+        "examples": []
+      },
+      "orderingTest": {
+        "totalFaces": 51,
+        "correctOrder": 51,
+        "incorrectOrder": 0,
+        "examples": []
+      }
+    },
+    "POCKET": {
+      "faceCount": 400,
+      "normalTest": {
+        "totalFaces": 400,
+        "pass": 400,
+        "fail": 0,
+        "maxDeviation": 4.107997941815711e-8,
+        "failures": []
+      },
+      "altB1Test": {
+        "totalFaces": 400,
+        "onlyExpected": 277,
+        "multipleFound": 123,
+        "alternatives": [
+          {
+            "faceStart": "0x99c2",
+            "expectedB1": "0x9ad6",
+            "alternatives": [
+              {
+                "offset": 39726,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x9e1a",
+            "expectedB1": "0x9f2e",
+            "alternatives": [
+              {
+                "offset": 40838,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0xa272",
+            "expectedB1": "0xa386",
+            "alternatives": [
+              {
+                "offset": 41950,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0xa6ca",
+            "expectedB1": "0xa7de",
+            "alternatives": [
+              {
+                "offset": 43062,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0xab22",
+            "expectedB1": "0xac36",
+            "alternatives": [
+              {
+                "offset": 44174,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0xaf7a",
+            "expectedB1": "0xb08e",
+            "alternatives": [
+              {
+                "offset": 45286,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0xb3d2",
+            "expectedB1": "0xb4e6",
+            "alternatives": [
+              {
+                "offset": 46398,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0xb82a",
+            "expectedB1": "0xb93e",
+            "alternatives": [
+              {
+                "offset": 47510,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x3c404",
+            "expectedB1": "0x3c518",
+            "alternatives": [
+              {
+                "offset": 247152,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x3c85c",
+            "expectedB1": "0x3c970",
+            "alternatives": [
+              {
+                "offset": 248264,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "extraBytesTest": {
+        "totalFaces": 400,
+        "clean": 400,
+        "hasExtraBytes": 0,
+        "examples": []
+      },
+      "gapSizeTest": {
+        "totalFaces": 400,
+        "is16Bytes": 400,
+        "not16Bytes": 0,
+        "examples": []
+      },
+      "orderingTest": {
+        "totalFaces": 400,
+        "correctOrder": 400,
+        "incorrectOrder": 0,
+        "examples": []
+      }
+    },
+    "PTC": {
+      "faceCount": 126,
+      "normalTest": {
+        "totalFaces": 126,
+        "pass": 126,
+        "fail": 0,
+        "maxDeviation": 1.711427100037355e-8,
+        "failures": []
+      },
+      "altB1Test": {
+        "totalFaces": 126,
+        "onlyExpected": 20,
+        "multipleFound": 106,
+        "alternatives": [
+          {
+            "faceStart": "0x12d8",
+            "expectedB1": "0x1434",
+            "alternatives": [
+              {
+                "offset": 5268,
+                "delta": 96,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x1802",
+            "expectedB1": "0x192e",
+            "alternatives": [
+              {
+                "offset": 6534,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x2ad0",
+            "expectedB1": "0x2b54",
+            "alternatives": [
+              {
+                "offset": 11132,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x2e68",
+            "expectedB1": "0x2eec",
+            "alternatives": [
+              {
+                "offset": 12052,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x3200",
+            "expectedB1": "0x3284",
+            "alternatives": [
+              {
+                "offset": 12972,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x359c",
+            "expectedB1": "0x36c8",
+            "alternatives": [
+              {
+                "offset": 14112,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x4850",
+            "expectedB1": "0x48d4",
+            "alternatives": [
+              {
+                "offset": 18684,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x4be8",
+            "expectedB1": "0x4c6c",
+            "alternatives": [
+              {
+                "offset": 19604,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x4f80",
+            "expectedB1": "0x5004",
+            "alternatives": [
+              {
+                "offset": 20524,
+                "delta": 40,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "faceStart": "0x531c",
+            "expectedB1": "0x5448",
+            "alternatives": [
+              {
+                "offset": 21664,
+                "delta": 88,
+                "header": [
+                  4,
+                  8,
+                  2,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "extraBytesTest": {
+        "totalFaces": 126,
+        "clean": 126,
+        "hasExtraBytes": 0,
+        "examples": []
+      },
+      "gapSizeTest": {
+        "totalFaces": 126,
+        "is16Bytes": 126,
+        "not16Bytes": 0,
+        "examples": []
+      },
+      "orderingTest": {
+        "totalFaces": 126,
+        "correctOrder": 126,
+        "incorrectOrder": 0,
+        "examples": []
+      }
+    }
+  }
+}

@@ -10,7 +10,7 @@ Branch-local notebooks remain under version directories such as `v0.3.5/docs/res
 
 **Primary goal**: Recover the grammar of SLDPRT binary serialization well enough to build a read-only parser.
 
-**Current phase**: DisplayLists Block 1 invariant validation and cross-file rewrite analysis (v0.4.1–v0.4.2a).
+**Current phase**: Alternative header investigation and serialization container analysis (v0.4.3–v0.4.4).
 
 **Active research queue**: `NEXT_QUESTIONS.md`
 
@@ -58,6 +58,11 @@ See `KNOWN_INVARIANTS.md` for evidence details.
 - Section length alone does not uniquely determine token-class sequence (only 30.2% of lengths have a single unique pattern).
 - Why structurally equivalent faces require position-dependent VALUE mappings in some file pairs but only a global bijection in others (OQ-012).
 - Whether the deterministic VALUE rewrite function can be expressed as arithmetic (OQ-013).
+- **What does the `[4,8,2,N]` pattern mean?** Present 3,516 times across DisplayLists (0.96/KB). N ranges 1-9636 (175 distinct values). Not exclusive to faces. Semantics unknown.
+- **What determines which faces get the `[4,8,2,N]` outer container?** 56.4% have it. Some files 0% (HEADPHONE), some 92.9% (PTC). VC=4,8,10 strongly correlated but not proven causal.
+- **What is the N=2 body[0] value at mp-8?** Overwhelmingly `3` (80.3%). Not prev_edgeCount, not ec, not vc. Semantics unknown.
+- **What is the correct B2 offset?** B2 read at `block1Start + b1w0 * 4` (used by EXP-023/024) appears wrong. Correct offset may include B1 header (4 or 8 bytes). B2 section-length model may be incomplete.
+- **Why do EXP-022/025 have identical but separate script files?** Redundant. Should be consolidated.
 
 See `OPEN_QUESTIONS.md`.
 
@@ -78,6 +83,14 @@ See `OPEN_QUESTIONS.md`.
 - EXP-015: Non-circular validation — strengthens INV-005/006 confidence with documented remaining assumptions.
 - EXP-016: Independent implementation reproducing INV-016/017/018 — 1,234/1,234 faces pass.
 - EXP-017: Expanded corpus test (vc<=6000) — 2 previously-excluded DEKOR faces confirmed genuine.
+- **EXP-018**: Independent face extraction — 1,234 FULL candidates match previous parser exactly. Gap marker analysis: all genuine faces have exact match [12,100,2,vc].
+- **EXP-019**: Normal/Layout falsification — **CRITICAL REVIEW: Only H1 (normals are unit vectors) was a genuine test. H2/H3/H5 are tautological (test variable definitions, not data).** Alternative B1 positions still valid: 332 non-B2 alternatives across 1,234 faces.
+- **EXP-020**: Geometry validation — blocked by missing `pako` dependency.
+- **EXP-021**: Alternative [4,8,2,N] header investigation — 332 alternatives (332/1,234 faces, 26.9%). Delta formula proven: `delta = -48 - 24*vc - 4*N`. **N=2 body[0]=prev_edgeCount claim FALSIFIED** — 292/299 cross-face checks fail (97.7%). Body[0] is overwhelmingly `3` (80.3%), semantics unknown.
+- **EXP-022**: Global container survey — 3,516 [4,8,2,N] patterns across 7 files. **Classification logic structurally broken** — offset math in FACE_B1/FACE_HEADER checks cannot reach face markers from container positions. 100% UNKNOWN classification is a foregone conclusion.
+- **EXP-023**: Alternative header characterization — 661/1,172 faces (56.4%) have alternatives. VC=4,8,10 strongly correlated. **Section count data unreliable** — B2 read offset wrong by 4-8 bytes; secCount=0 for ALL 1,172 faces.
+- **EXP-024**: Rejected candidate audit — 4,688 candidates, 0 VALID. **Methodological artifact** — same B2 offset bug causes 100% B2 failure. INV-016/017/018 never execute. Result contradicts EXP-023 (unacknowledged).
+- **EXP-025**: Serialization primitive frequency — **redundant with EXP-022.** Same corpus, same scan, same classification bug.
 
 See `NEXT_QUESTIONS.md`.
 
@@ -92,6 +105,10 @@ See `NEXT_QUESTIONS.md`.
 - FH-012: DisplayLists contains only face data.
 - FH-013: VALUE tokens encode a property table.
 - INV-012: Formula `len = 2 * loopSize - 2` is incorrect (off by +1). Correction appended in-place.
+- **EXP-019 H2/H3/H5**: Claimed "4/5 hypotheses survived." Only H1 (normals unit vectors) was a genuine test. H2/H3/H5 are tautologies — they test variable definitions, not data. **3 of the "surviving" hypotheses are invalid.** See `v0.4.4/FALSIFICATION_REVIEW.md`.
+- **EXP-021 N=2 body[0] = prev_edgeCount**: Claim FALSIFIED. 292/299 cross-face checks fail (97.7%). Body[0] at mp-8 is overwhelmingly `3` (80.3%), not previous face's edgeCount. See `v0.4.3/docs/research/exp021_prev_edgecount_falsification.js`.
+- **EXP-022/025 classification**: 100% UNKNOWN classification is a methodological artifact. FACE_B1/FACE_HEADER offset math is structurally incapable of detecting face-container [4,8,2,N] patterns. See `v0.4.4/FALSIFICATION_REVIEW.md`.
+- **EXP-024 0 VALID**: Methodological artifact. B2 offset bug causes 100% failure at B2 validation; INV-016/017/018 never execute. Result contradicts EXP-023's 1,172 valid faces. See `v0.4.4/FALSIFICATION_REVIEW.md`.
 
 See `FAILED_HYPOTHESES.md` and INV-012 correction note in `KNOWN_INVARIANTS.md`.
 
