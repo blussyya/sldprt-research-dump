@@ -174,6 +174,42 @@ Statuses:
 
 ---
 
+## NQ-009: Does Correcting The EXP-023/024 Block1->Block2 Offset Change Their Reported Results?
+
+**Status**: Answered
+
+**Depends on**: EXP-023, EXP-024, v0.4.4/FALSIFICATION_REVIEW.md, INV-005, EXP-018, EXP-021
+
+**Answer**: Yes, substantially. The bug (EXP-023/024 read the Block1 header's constant first word, always `4`, and mislabeled it as the body length `N`, causing `block1Start + b1Word0*4` to always land on Block1's own body instead of Block2) was corrected using the already-established formula `block2Start = block1Start + (N+4)*4` with `N` read from `block1Start+12`. Results: (1) `secCount=0 for ALL 1,172 faces` is corrected -- at the right offset, Block2 header is valid for 1,172/1,172 faces and `secCount` matches an independent INV-009 cross-check 1,172/1,172. (2) `0 VALID candidates in EXP-024` is corrected -- 1,172/4,688 candidates are now VALID, exactly matching EXP-023's face count and resolving the previously unacknowledged contradiction between the two experiments. INV-016/017/018 all pass 100% under the corrected pipeline. (3) The `661/1,172 alternative-header correlation` is **unchanged** -- that detection logic never used the buggy offset. A new, exceptionless correlation was found between `secCount` and alternative-header presence/N-value (see OQ-018); this is recorded as an observation only, with no semantic meaning assigned.
+
+**Evidence archive**: `v0.4.5/CORRECTION_NOTE.md`, `v0.4.5/SUMMARY.md`, `knowledge/evidence/2026-08-13_v0.4.5-EXP023-corrected.md`, `knowledge/evidence/2026-08-13_v0.4.5-EXP024-corrected.md`
+
+**Will eliminate or constrain**: OQ-016 (answered), OQ-018 (new).
+
+**Evidence to archive**: Corrected scripts, corrected raw JSON results, before/after comparison tables, root-cause analysis. (Complete -- see evidence archive above.)
+
+**Last updated**: 2026-08-13
+
+---
+
+## NQ-010: Is The secCount / Alternative-Header Correlation (OQ-018) Exceptionless?
+
+**Status**: Answered
+
+**Depends on**: NQ-009, EXP-023-CORRECTED (v0.4.5), OQ-018
+
+**Answer**: Yes, on the tested corpus. EXP-026 (v0.4.6) independently re-derived the 1,172-face set using the v0.4.5-corrected Block1/Block2 offset formula (not the buggy v0.4.4 arithmetic) and hunted for counterexamples in four directions: secCount=1 without an N=1 alternative; secCount=2 without an N=2 alternative; secCount>=3 with any alternative; alternative N inconsistent with secCount. Result: 0 counterexamples in all four directions, across all 1,172 faces and each of the 7 files individually. The correlation is recorded as INV-019 (Status: Correlation, not a proven causal or structural law). Causal direction and semantic meaning remain explicitly unresolved. The alternative-header detection window (N∈{1,2} at fixed offsets mp-20/mp-24) was not extended, and HEADPHONE (62 faces) was not tested (not present in this repository checkout) — both noted as known gaps, not resolved by this experiment.
+
+**Evidence archive**: `v0.4.6/SUMMARY.md`, `knowledge/evidence/2026-08-13_v0.4.6-EXP026.md`, `knowledge/KNOWN_INVARIANTS.md` INV-019.
+
+**Will eliminate or constrain**: OQ-018 (causal-direction question narrowed, not closed).
+
+**Evidence to archive**: Corrected extraction script, raw per-face JSON, counterexample counts by direction and by file. (Complete — see evidence archive above.)
+
+**Last updated**: 2026-08-13
+
+---
+
 ## NQ-008: Can Normal-Gap Loop-Splitting Failure Be Reproduced And Archived?
 
 **Status**: Deferred

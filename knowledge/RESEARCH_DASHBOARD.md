@@ -10,7 +10,7 @@ Branch-local notebooks remain under version directories such as `v0.3.5/docs/res
 
 **Primary goal**: Recover the grammar of SLDPRT binary serialization well enough to build a read-only parser.
 
-**Current phase**: Alternative header investigation and serialization container analysis (v0.4.3–v0.4.4).
+**Current phase**: Alternative header investigation and serialization container analysis (v0.4.3–v0.4.4). v0.4.5 corrected a Block1→Block2 offset bug in EXP-023/024 (see Recently Falsified Or Corrected below); no new research direction opened.
 
 **Active research queue**: `NEXT_QUESTIONS.md`
 
@@ -59,9 +59,9 @@ See `KNOWN_INVARIANTS.md` for evidence details.
 - Why structurally equivalent faces require position-dependent VALUE mappings in some file pairs but only a global bijection in others (OQ-012).
 - Whether the deterministic VALUE rewrite function can be expressed as arithmetic (OQ-013).
 - **What does the `[4,8,2,N]` pattern mean?** Present 3,516 times across DisplayLists (0.96/KB). N ranges 1-9636 (175 distinct values). Not exclusive to faces. Semantics unknown.
-- **What determines which faces get the `[4,8,2,N]` outer container?** 56.4% have it. Some files 0% (HEADPHONE), some 92.9% (PTC). VC=4,8,10 strongly correlated but not proven causal.
+- **What determines which faces get the `[4,8,2,N]` outer container?** 56.4% have it. Some files 0% (HEADPHONE), some 92.9% (PTC). VC=4,8,10 strongly correlated but not proven causal. **UPDATE (2026-08-13, INV-019):** a much tighter, exceptionless correlation exists between secCount and alternative-header presence/N-value (secCount=1⟺N=1, secCount=2⟺N=2, secCount>=3⟺none; 0/1,172 counterexamples, confirmed by dedicated counterexample hunt EXP-026). Still a correlation only — causal direction and semantics remain unresolved. See INV-019, OQ-018.
 - **What is the N=2 body[0] value at mp-8?** Overwhelmingly `3` (80.3%). Not prev_edgeCount, not ec, not vc. Semantics unknown.
-- **What is the correct B2 offset?** B2 read at `block1Start + b1w0 * 4` (used by EXP-023/024) appears wrong. Correct offset may include B1 header (4 or 8 bytes). B2 section-length model may be incomplete.
+- **What is the correct B2 offset?** B2 read at `block1Start + b1w0 * 4` (used by EXP-023/024) appears wrong. Correct offset may include B1 header (4 or 8 bytes). B2 section-length model may be incomplete. **RESOLVED (2026-08-13, v0.4.5).** Root cause: EXP-023/024 read `block1Start + 0` (the header's constant tag word, always `4`) and mislabeled it `N`, so `block1Start + b1Word0*4` always evaluated to `block1Start + 16` — the start of Block1's own body, not Block2. Corrected formula (already established by EXP-018/021, INV-005): `block2Start = block1Start + (N + 4) * 4`, with `N` read from `block1Start + 12` after validating the header shape `[4,8,2,N]`. At the corrected offset, Block2 header is valid for 1,172/1,172 faces (100%), and INV-016/017/018 all pass 100%. See `v0.4.5/CORRECTION_NOTE.md`, `knowledge/evidence/2026-08-13_v0.4.5-EXP023-corrected.md`, `knowledge/evidence/2026-08-13_v0.4.5-EXP024-corrected.md`.
 - **Why do EXP-022/025 have identical but separate script files?** Redundant. Should be consolidated.
 
 See `OPEN_QUESTIONS.md`.
@@ -91,6 +91,8 @@ See `OPEN_QUESTIONS.md`.
 - **EXP-023**: Alternative header characterization — 661/1,172 faces (56.4%) have alternatives. VC=4,8,10 strongly correlated. **Section count data unreliable** — B2 read offset wrong by 4-8 bytes; secCount=0 for ALL 1,172 faces.
 - **EXP-024**: Rejected candidate audit — 4,688 candidates, 0 VALID. **Methodological artifact** — same B2 offset bug causes 100% B2 failure. INV-016/017/018 never execute. Result contradicts EXP-023 (unacknowledged).
 - **EXP-025**: Serialization primitive frequency — **redundant with EXP-022.** Same corpus, same scan, same classification bug.
+- **EXP-023-CORRECTED / EXP-024-CORRECTED** (v0.4.5): Reran EXP-023/024 with the Block1→Block2 offset bug fixed (see Recently Falsified Or Corrected below). Block2 header now valid for 1,172/1,172 faces (100%, was 0%). `secCount` no longer degenerate; matches an independent INV-009 cross-check 1,172/1,172. EXP-024 now reports 1,172/4,688 VALID (was 0), exactly matching EXP-023's face count and resolving the previously unacknowledged EXP-023/EXP-024 contradiction. INV-016/017/018 all pass 100% (1,172/1,172) under the corrected pipeline — corroborating these invariants on a third independent implementation. New observation: `secCount` and alternative-header presence/N-value correlate with zero exceptions across all 1,172 faces (`secCount=1`⟺altN=1, `secCount=2`⟺altN=2, `secCount>=3`⟺no alternative) — recorded as correlation only, no semantic interpretation assigned. See `v0.4.5/SUMMARY.md`, `v0.4.5/CORRECTION_NOTE.md`.
+- **EXP-026** (v0.4.6): Narrow OQ-018 discriminating test. Independently re-derived the 1,172-face set (v0.4.5-corrected offset formula, not the buggy v0.4.4 arithmetic) and hunted for counterexamples to the secCount/alternative-header correlation in 4 directions. **0 counterexamples found**, across all 1,172 faces and all 7 files individually. Correlation recorded as INV-019 (Status: Correlation, not causal). Causality and semantics remain unresolved; alternative-header detection window (N∈{1,2} at fixed offsets) not extended. See `v0.4.6/SUMMARY.md`.
 
 See `NEXT_QUESTIONS.md`.
 
@@ -109,6 +111,7 @@ See `NEXT_QUESTIONS.md`.
 - **EXP-021 N=2 body[0] = prev_edgeCount**: Claim FALSIFIED. 292/299 cross-face checks fail (97.7%). Body[0] at mp-8 is overwhelmingly `3` (80.3%), not previous face's edgeCount. See `v0.4.3/docs/research/exp021_prev_edgecount_falsification.js`.
 - **EXP-022/025 classification**: 100% UNKNOWN classification is a methodological artifact. FACE_B1/FACE_HEADER offset math is structurally incapable of detecting face-container [4,8,2,N] patterns. See `v0.4.4/FALSIFICATION_REVIEW.md`.
 - **EXP-024 0 VALID**: Methodological artifact. B2 offset bug causes 100% failure at B2 validation; INV-016/017/018 never execute. Result contradicts EXP-023's 1,172 valid faces. See `v0.4.4/FALSIFICATION_REVIEW.md`.
+- **CORRECTION (2026-08-13, v0.4.5)**: EXP-023's `secCount=0` and EXP-024's `0 VALID` are confirmed methodological artifacts of the same root cause: `block1Start + b1Word0*4` misread the header's constant first word (`4`) as the body length `N`, always landing on Block1's own body instead of Block2. Corrected offset (`block1Start + (N+4)*4`, with `N` read from `block1Start+12`) yields Block2-header-valid for 1,172/1,172 faces, `secCount` matching INV-009 for 1,172/1,172, and EXP-024 VALID = 1,172/4,688 — exactly matching EXP-023's face count, resolving the contradiction. INV-016/017/018 pass 100% under the corrected pipeline. The original v0.4.4 scripts, results, and evidence are unmodified; this is an additive corrected rerun. See `v0.4.5/CORRECTION_NOTE.md`, `v0.4.5/SUMMARY.md`, `knowledge/evidence/2026-08-13_v0.4.5-EXP023-corrected.md`, `knowledge/evidence/2026-08-13_v0.4.5-EXP024-corrected.md`.
 
 See `FAILED_HYPOTHESES.md` and INV-012 correction note in `KNOWN_INVARIANTS.md`.
 

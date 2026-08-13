@@ -293,7 +293,7 @@ This asymmetry is unexplained. It does not correlate with file size, face count,
 
 ## OQ-016: What Is The Correct B2 Offset In The Face Layout?
 
-**Status**: Open Question
+**Status**: Answered (2026-08-13, see correction note below) -- original entry retained per evidence-preservation policy.
 
 **Evidence so far**: Multiple experiments read B2 at block1Start + b1Word0 * 4 (EXP-023/024). Byte-level inspection shows this reads B1 body data (large index values), not clean section lengths. Three candidate offsets produce mixed data: none yields consistently [1,500] values. The B2 section-length model itself may be incomplete or the B1 header size (4 vs 8 bytes) is unknown.
 
@@ -304,6 +304,25 @@ This asymmetry is unexplained. It does not correlate with file size, face count,
 **Confidence**: Low -- fundamental uncertainty about B2 position and structure.
 
 **Date last updated**: 2026-07-16
+
+---
+### CORRECTION NOTE (2026-08-13)
+
+**Root cause identified.** EXP-023/024's `b1Word0` was read at `block1Start + 0`, which is the Block1 header's constant first word (always `4`, per INV-005), not the body length `N`. Direct inspection of `v0.4.4/EXP023_RESULTS.json` confirms `b1Len` (== `b1Word0`) is exactly `4` for all 1,172 faces with zero exceptions. Because of this, `block1Start + b1Word0*4` always evaluated to `block1Start + 16` -- the start of Block1's own body, not Block2. This explains the byte-level observation in this entry ("reads B1 body data, not clean section lengths") exactly.
+
+**Correct offset**, per the already-established layout (INV-005, EXP-018, EXP-021): read the true 4-word header `[4,8,2,N]` at `block1Start`, validate its shape, then
+
+```
+block2Start = block1Start + (N + 4) * 4
+```
+
+with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start + 0`. The B1 header size is 16 bytes (4 words), not 4 or 8 bytes as this entry speculated.
+
+**Verification**: at the corrected offset, the real Block2 header `[4,8,2,M]` is valid for 1,172/1,172 faces (100%) across the 7-file corpus, and the resulting `M` (section count) matches an independent cross-check (count of `ONE` values in the Block1 body, per INV-009) for 1,172/1,172 faces (100%).
+
+**Discovered by:** EXP-023-CORRECTED / EXP-024-CORRECTED (v0.4.5).
+
+**Raw evidence:** `v0.4.5/CORRECTION_NOTE.md`, `knowledge/evidence/2026-08-13_v0.4.5-EXP023-corrected.md`, `knowledge/evidence/2026-08-13_v0.4.5-EXP024-corrected.md`.
 
 ---
 
@@ -320,3 +339,32 @@ This asymmetry is unexplained. It does not correlate with file size, face count,
 **Confidence**: Medium that the pattern is version or exporter-specific.
 
 **Date last updated**: 2026-07-16
+
+---
+
+## OQ-018: Does Section Count Fully Determine Alternative-Header Presence?
+
+**Status**: Correlation confirmed exceptionless (2026-08-13, EXP-026); causal direction remains Open. See correction note below. Original entry retained per evidence-preservation policy.
+
+**Evidence so far**: Once the Block1->Block2 offset bug in EXP-023/024 was corrected (v0.4.5), the true `secCount` (Block2 body length M) was cross-tabulated against alternative-header presence/N-value for all 1,172 faces in the 7-file corpus. The correlation has zero exceptions: `secCount=1` occurs in exactly the 368 faces with an N=1 alternative header (and no others); `secCount=2` occurs in exactly the 293 faces with an N=2 alternative header (and no others); `secCount>=3` occurs in exactly the 511 faces with no alternative header (and no others). This is stronger than the previously-reported "VC=4,8,10 always have alternatives" correlation (OQ-014/EXP-023) and may subsume it, since VC and secCount are likely correlated with each other via INV-016 (`b1len = 2*(vc - secCount)`). No causal mechanism or semantic meaning is established. Per project rules, do not infer that the alternative header "encodes" secCount or vice versa without a discriminating experiment (e.g., testing whether N always equals secCount for secCount in {1,2}, and why the pattern stops being observed at secCount=3, which could be a container-format cutoff or filtering artifact of the mp-20/mp-24 search window used to detect the alternative header).
+
+**Files tested**: BOTTOM, TOP, GEAR, DEKOR, DISTRIBUTOR, POCKET, PTC.
+
+**Faces/models tested**: 1,172 faces across 7 files. HEADPHONE (62 faces, known to have 0% alternative rate per OQ-017) is untested for this specific correlation -- file not present in this repository checkout.
+
+**Confidence**: High that the correlation is exact and non-random on the tested corpus; zero confidence on causal direction or semantics.
+
+**Date last updated**: 2026-08-13
+
+**Related evidence**: `knowledge/evidence/2026-08-13_v0.4.5-EXP023-corrected.md`, `v0.4.5/SUMMARY.md`.
+
+---
+### DISCRIMINATING TEST NOTE (2026-08-13)
+
+**EXP-026 (v0.4.6)** ran the narrow counterexample hunt this entry called for: an independently-derived extraction pass (reusing only the v0.4.5-corrected offset formula, not the buggy v0.4.4 arithmetic) checked all 1,172 faces for four specific counterexample patterns (secCount=1 without an N=1 alternative; secCount=2 without an N=2 alternative; secCount>=3 with any alternative; alternative N inconsistent with secCount).
+
+**Result: 0 counterexamples in all four directions, across all 1,172 faces and all 7 files individually.** The correlation is now recorded as **INV-019** (`knowledge/KNOWN_INVARIANTS.md`, Status: Correlation) — an empirical pattern with zero known exceptions on the tested corpus, not a proven causal or structural law. Causality (which variable determines the other, if either) remains unresolved. Two caveats carried forward, not resolved by this test: (1) the alternative-header detection window is limited to N∈{1,2} at fixed offsets, so "no alternative" for secCount>=3 faces is not a general absence claim; (2) HEADPHONE (62 faces) is untested (not present in this repository checkout).
+
+**Discovered by:** EXP-026 (v0.4.6).
+
+**Raw evidence:** `knowledge/evidence/2026-08-13_v0.4.6-EXP026.md`, `v0.4.6/SUMMARY.md`.
