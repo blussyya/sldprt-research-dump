@@ -368,3 +368,23 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 **Discovered by:** EXP-026 (v0.4.6).
 
 **Raw evidence:** `knowledge/evidence/2026-08-13_v0.4.6-EXP026.md`, `v0.4.6/SUMMARY.md`.
+
+---
+
+## OQ-019: Is Sequential Loop Segmentation The Correct Vertex-To-Loop Mapping?
+
+**Status**: Open Question
+
+**Evidence so far**: INV-007 proves that loop vertex counts decoded from Block2 (`(raw+2)/2`) sum to the face's total vertex count. It does not establish which vertices belong to which loop, or in what order loops appear relative to the vertex array. The v0.5 parser/viewer (`v0.5/src/parser-core.js`) introduces a labeled, unverified rendering hypothesis (`loopModel: 'sequential-assumed'`): vertices are segmented sequentially into runs matching the Block2-decoded loop sizes, in Block2 order, and each run is fan-triangulated for display. Empirical observation from browser verification (`knowledge/evidence/2026-08-13_v0.5-parser-validation.md`): faces with `secCount=1` (single loop) render as clean, plausible geometry under this assumption (e.g. USB hub case BOTTOM). Faces with large `secCount` (e.g. Dekor's `secCount=1044` faces) render as a visually chaotic, implausible starburst. This is *consistent with* the sequential-ordering assumption being wrong for multi-loop faces, but does **not prove** it -- alternative explanations not yet ruled out: (a) loops are not simple/convex polygons, so fan triangulation is inappropriate even with correct membership; (b) the loop order in the vertex array does not match Block2's order, but some other grouping (e.g. interleaved, or a different sequential order) would render correctly; (c) the visual "wrongness" for large-secCount faces is expected even with fully correct topology, if the underlying geometry is itself complex/non-convex.
+
+**Files tested**: BOTTOM (secCount=1 faces, plausible render), DEKOR (secCount up to 1044, implausible render). Qualitative visual observation only, not a quantitative test.
+
+**Faces/models tested**: 2 files spot-checked visually; not a systematic corpus-wide test.
+
+**Confidence**: Low. This is a hypothesis about a hypothesis (the render result is suggestive, not diagnostic).
+
+**Date last updated**: 2026-08-13
+
+**Related evidence**: `knowledge/evidence/2026-08-13_v0.5-parser-validation.md`, `v0.5/README.md`, `v0.5/SUMMARY.md`.
+
+**Will eliminate or constrain**: Whether the v0.5 viewer's rendered mesh can be trusted for multi-loop (secCount>1) faces; whether a future experiment should target loop-membership/ordering directly (e.g. via geometric planarity/adjacency analysis of candidate loop segmentations) before further viewer work.

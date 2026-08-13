@@ -10,7 +10,7 @@ Branch-local notebooks remain under version directories such as `v0.3.5/docs/res
 
 **Primary goal**: Recover the grammar of SLDPRT binary serialization well enough to build a read-only parser.
 
-**Current phase**: Alternative header investigation and serialization container analysis (v0.4.3–v0.4.4). v0.4.5 corrected a Block1→Block2 offset bug in EXP-023/024 (see Recently Falsified Or Corrected below); no new research direction opened.
+**Current phase**: Alternative header investigation and serialization container analysis (v0.4.3–v0.4.4). v0.4.5 corrected a Block1→Block2 offset bug in EXP-023/024 (see Recently Falsified Or Corrected below); no new research direction opened. v0.5 is the first implementation phase: a read-only geometry parser and viewer built on the validated state (see Implementation Milestones below). Parser-first, converter-second rule (above) still applies — v0.5 has no writer.
 
 **Active research queue**: `NEXT_QUESTIONS.md`
 
@@ -95,6 +95,12 @@ See `OPEN_QUESTIONS.md`.
 - **EXP-026** (v0.4.6): Narrow OQ-018 discriminating test. Independently re-derived the 1,172-face set (v0.4.5-corrected offset formula, not the buggy v0.4.4 arithmetic) and hunted for counterexamples to the secCount/alternative-header correlation in 4 directions. **0 counterexamples found**, across all 1,172 faces and all 7 files individually. Correlation recorded as INV-019 (Status: Correlation, not causal). Causality and semantics remain unresolved; alternative-header detection window (N∈{1,2} at fixed offsets) not extended. See `v0.4.6/SUMMARY.md`.
 
 See `NEXT_QUESTIONS.md`.
+
+---
+
+## Implementation Milestones
+
+- **v0.5** (2026-08-13): First read-only SLDPRT geometry parser and browser visualizer, built directly on the validated research state through v0.4.6. `v0.5/src/parser-core.js` is an isomorphic (Node + browser) reimplementation of the corrected extraction pipeline (v0.4.5's Block1→Block2 offset formula, INV-016/017/018), plus an added INV-003-backed normals check. Passes exact parity against the v0.4.5/v0.4.6 reference data: 1,172/1,172 faces, per-face marker offset/edgeCount/vertexCount/secCount match exactly (`v0.5/test/compare-with-reference.js`). Browser viewer (drag-and-drop, orbit/pan/zoom, shaded/wireframe/vertex/normal toggles, face selection with source-offset metadata, rejected-candidate reporting) verified functional against real corpus files in a real browser session. Does NOT reuse the pre-v0.4 heuristic extractors in `v0.2.x`/`v0.3.x` (predate the Block1/Block2 grammar research, rely on falsified loop-splitting heuristics — FH-005). Introduces one clearly-labeled, non-verified rendering hypothesis (`loopModel: 'sequential-assumed'`, sequential loop segmentation for triangulation) — see OQ-019. No writer/converter; read-only prototype only. See `v0.5/README.md`, `v0.5/SUMMARY.md`, `knowledge/evidence/2026-08-13_v0.5-parser-validation.md`.
 
 ---
 
