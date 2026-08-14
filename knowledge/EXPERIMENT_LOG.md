@@ -471,3 +471,388 @@ Source migrated from `v0.3.5/docs/research/EXPERIMENT_LOG.md`.
 **Date last updated**: 2026-07-10
 
 **Raw evidence**: `knowledge/evidence/2026-07-10_v0.4.2a-expanded-corpus.md`
+
+---
+
+## EXP-027: Binary Differential Analysis of Controlled Corpus
+
+**Status**: Observation
+
+**Goal**: Investigate how known geometric changes (scale, translation, hole diameter/position, fillet, chamfer, shell) manifest in decompressed DisplayLists streams using controlled differential pairs.
+
+**Method**: Byte-level differential analysis of 9 controlled model pairs with known geometric differences, plus vertex position extraction and structural comparison. All 11 controlled models (C00-C10) parsed with the validated v0.4.5/v0.4.6 pipeline.
+
+**Evidence / facts**:
+
+- **Scale (C00↔C01)**: 355 bytes changed (2.95%). DL sizes identical. 0/6 structural differences. Vertex positions scaled by factor of 2.0. Pure position-data transformation.
+- **Translation (C00↔C02)**: 1,141 bytes changed (9.47%). DL sizes identical. 0/6 structural differences. Vertex positions translated by (50,50,0)mm. Pure position-data transformation.
+- **Hole Diameter (C04↔C05)**: 6,853 bytes changed (36.00%). DL sizes different (19,036 vs 17,688). 3/7 structural differences. Cylindrical surface vc scales with diameter (70 for 5mm, 56 for 3mm).
+- **Hole Position (C04↔C06)**: 6,075 bytes changed (31.80%). DL sizes slightly different. 2/7 structural differences. Top/bottom face vc changes, cylindrical vc unchanged.
+- **Fillet (C00↔C03)**: 7,477 bytes changed (52.10%). DL sizes different (12,050 vs 14,350). +1 face. Fillet surface ec=13, vc=16.
+- **Hole Introduction (C00↔C04)**: 14,218 bytes changed (74.69%). DL sizes very different (12,050 vs 19,036). +1 face. Cylindrical surface ec=70, vc=70.
+- **Second Hole Modified (C07↔C08)**: 9,682 bytes changed (37.28%). DL sizes different. 3/8 structural differences. Only affected hole's faces change.
+- **Chamfer (C00↔C09)**: 6,444 bytes changed (48.30%). DL sizes different (12,050 vs 13,342). +1 face. Chamfer surface ec=4, vc=4 (flat).
+- **Shell (C00↔C10)**: 9,413 bytes changed (54.47%). DL sizes very different (12,050 vs 17,280). +5 faces. Inner walls ec=4, vc=4 each.
+
+**Key findings**:
+1. Vertex positions are Float32. Scale/translation are pure position-data transformations.
+2. Feature operations change face counts and vertex/edge counts.
+3. Hole diameter affects cylindrical surface vc (approximately linear scaling).
+4. Feature operations are localized to affected faces.
+5. Curved surfaces (fillet, cylinder) have high ec/vc; flat chamfer has low ec/vc.
+
+**Files tested**: C00-C10 (11 controlled models)
+
+**Faces/models tested**: 85 faces across 11 models. All pass INV-016/017/018.
+
+**Confidence**: High for structural observations. Medium for vertex position interpretations (limited to matching-structure faces).
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP027.md`, `v0.4.7/CORPUS_AUDIT.json`, `v0.4.7/BINARY_DIFF_SUMMARY.json`, `v0.4.7/VERTEX_ANALYSIS.json`
+
+---
+
+## EXP-028: Validation/Falsification of EXP-027 Conclusions
+
+**Status**: Verified (with falsifications)
+
+**Goal**: Validate or falsify EXP-027's conclusions through three targeted investigations: (1) hole-diameter relationship, (2) feature-change localization, (3) SLDPRT↔STEP/STL vertex correspondence.
+
+**Method**: Three dedicated scripts analyzing controlled corpus pairs with explicit tolerance thresholds and numerical comparison.
+
+**Evidence / facts**:
+
+- **Investigation 1 (Hole-Diameter)**: C04 cylindrical vc=70, C05 cylindrical vc=56. Ratio 70/56=1.25 ≠ diameter ratio 5/3=1.67. **EXP-027's "linear scaling" claim FALSIFIED.** With only 2 data points, exact relationship unknown.
+- **Investigation 2 (Feature Localization)**: Binary diffs dominated by inter-face metadata (50-80%), not face geometry. Face start offsets shift globally. **EXP-027's "localized to affected faces" claim WEAKENED.** DL is re-serialized entirely on face changes.
+- **Investigation 3 (Vertex Correspondence)**: SLDPRT↔STEP exact matches: 3/24 (C00), 6/212 (C04), 4/60 (C03). Mean distance ~0.01mm. **SLDPRT vertices are tessellated approximations, NOT exact B-rep vertices.**
+
+**Key findings**:
+1. VC-diameter relationship is NOT linear (ratio mismatch).
+2. Feature changes are NOT localized in binary representation.
+3. SLDPRT vertices are DisplayList tessellation, not exact geometry.
+4. DL is re-serialized entirely on any face change.
+
+**Files tested**: C00, C03, C04, C05, C07, C08, C09, C10
+
+**Faces/models tested**: 8 models, 3 investigations
+
+**Confidence**: High for all three investigations. Explicit tolerance thresholds used.
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP028.md`, `v0.4.7/EXP028_HOLE_DIAMETER.json`, `v0.4.7/EXP028_FEATURE_LOCALIZATION.json`, `v0.4.7/EXP028_VERTEX_CORRESPONDENCE.json`
+
+---
+
+## EXP-029: Block1/Block2 Geometry-Encoding Differential
+
+**Status**: Complete
+
+**Goal**: Determine whether Block1/Block2 section-body values contain geometry-dependent information, using the controlled C00–C10 corpus.
+
+**Method**: Extract Block1/Block2 token sequences for all faces, match faces between models using structural properties, compare token sequences, analyze C04↔C05 cylindrical face tokens specifically.
+
+**Evidence / facts**:
+
+- **Cube face tokens consistent**: All cube faces (ec=4, vc=4) have identical tokens across C00, C03, C04, C09. Face 0 tokens: `[1, 5, 82, 0, 79, 62]` in all four models.
+- **Cylindrical face tokens identical up to length**: C04 (vc=70) and C05 (vc=56) cylindrical faces have identical first 110 tokens. Pattern: `1, 0, 150, 0, 153, 0, 150, 0, 153, ...`
+- **Token length correlates with vc**: Length = 2 * vc - 2 (matches INV-017 for secCount=1).
+- **Face matching ambiguous**: All 6 cube faces in C00 have ec=4, vc=4, secCount=1 but different tokens.
+- **Token values follow pattern**: Cube face tokens show correlation between token 1 and token 2 (sum increases with token 1).
+
+**Key findings**:
+1. Tokens are NOT random or structural-only (identical across models for same geometry).
+2. Tokens do NOT encode diameter-specific information (identical up to length for different diameters).
+3. Token length is determined by vc via INV-017 (structural invariant).
+4. Face matching is ambiguous when using only ec/vc/secCount.
+5. Token values may encode tessellation parameters or face orientation.
+
+**Files tested**: C00, C03, C04, C05, C09
+
+**Faces/models tested**: 30 faces across 5 models
+
+**Confidence**: High for structural observations. Medium for token semantics (unknown).
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP029.md`, `v0.4.7/EXP029_BLOCK1_GEOMETRY.json`, `v0.4.7/EXP029_SUMMARY.md`
+
+---
+
+## EXP-030: Block1 Token Structural Correspondence
+
+**Status**: Complete
+
+**Goal**: Determine whether Block1 body tokens correspond to structural/topological information rather than geometry-specific parameters.
+
+**Method**: Test tokens against structural candidates (vertex indices, edge counts, loop sizes, Block2 values, etc.) across 6 controlled models.
+
+**Evidence / facts**:
+
+- **Cylindrical face pattern identical**: C04 (vc=70), C05 (vc=56), C11 (vc=64) all have same alternating pattern: `1, 0, 150, 0, 153, 0, 150, 0, 153, 0, ...`
+- **Cube face tokens identical**: All cube faces (ec=4, vc=4) have identical tokens `[1, 5, 82, 0, 79, 62]` across all models.
+- **No structural correspondence found**: Tokens do NOT correspond to vertex indices, edge counts, loop sizes, or Block2 values.
+- **B1Len formula explained**: `b1Len = 2*(vc - secCount)` holds for all 41 faces.
+- **Token values not vertex indices**: Token values exceed vertex count for all faces tested.
+
+**Key findings**:
+1. Cylindrical face pattern (150, 153) is a structural signature, not geometry-specific.
+2. Cube face tokens are a structural signature.
+3. No structural correspondence found for any tested candidate.
+4. B1Len formula is a structural invariant.
+5. Tokens cannot be vertex/edge indices.
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High for structural observations. Medium for token semantics (unknown).
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP030.md`, `v0.4.7/EXP030_STRUCTURAL_CORRESPONDENCE.json`, `v0.4.7/EXP030_SUMMARY.md`
+
+---
+
+## EXP-031: Block1 Token Signature Classification
+
+**Status**: Complete
+
+**Goal**: Determine whether Block1 token sequences have reproducible signatures associated with face/serialization structure or face type.
+
+**Method**: Classify faces by type (planar_cube, cylindrical, chamfer, multi_loop) and compute token signatures.
+
+**Evidence / facts**:
+
+- **C11 discrepancy resolved**: Preliminary output incorrectly identified face 5 (vc=57) as cylindrical. Actual cylindrical face is face 6 (vc=64).
+- **Cylindrical faces share identical token signature**: C04 (vc=70), C05 (vc=56), C11 (vc=64) all have same alternating pattern: `1,0,150,0,153,0,...`
+- **Planar cube faces have diverse token signatures**: 27 faces have 9 unique first-20 patterns.
+- **Chamfer faces have diverse token signatures**: 2 faces have 2 unique patterns.
+- **Multi-loop faces have diverse token signatures**: 9 faces have 9 unique patterns.
+- **H1 (planar faces share one signature)**: FALSIFIED.
+- **H2 (cylindrical faces share one signature)**: SUPPORTED.
+- **H4 (geometry dimensions determine signature)**: FALSIFIED.
+
+**Key findings**:
+1. Cylindrical faces share a structural token signature regardless of hole diameter.
+2. Planar cube faces have diverse token signatures that differ by face orientation.
+3. Token signatures are partially determined by face type.
+4. C11 confirms cylindrical face signature consistency.
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High for structural observations. Medium for token semantics (unknown).
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP031.md`, `v0.4.7/EXP031_TOKEN_SIGNATURES.json`, `v0.4.7/EXP031_SUMMARY.md`
+
+---
+
+## EXP-032: Token Signatures vs Face Orientation
+
+**Status**: Complete
+
+**Goal**: Determine whether Block1 token signature differences observed among planar cube faces correlate with face orientation / surface normal direction.
+
+**Method**: Determine face orientation from normal records (authoritative source) and compare token signatures across faces with same/different orientations.
+
+**Evidence / facts**:
+
+- **Planar cube faces have consistent token signatures for same orientation**: -X, -Y orientations have identical patterns across all models. +X, +Y orientations have two variants (standard and modified).
+- **Token signature variation correlates with model type**: C03 (fillet) and C09 (chamfer) have modified patterns for +X and +Y orientations.
+- **Cylindrical faces have consistent token signature regardless of orientation**: All 3 cylindrical faces have pattern `[1,0,150,0,153,0]`.
+- **Multi-loop and chamfer faces have diverse token signatures**: 6 unique patterns for each orientation.
+- **Opposite orientations have identical patterns**: +X/-X, +Y/-Y, +Z/-Z have same patterns.
+- **H2 (orientation invariance)**: FALSIFIED - same orientation has different tokens across models.
+- **H4 (serialization position)**: FALSIFIED - same face index has different tokens across models.
+- **H5 (topology/vertex ordering)**: FALSIFIED - faces with same vertex position have different tokens.
+
+**Key findings**:
+1. Token signatures correlate with face orientation for planar cube faces.
+2. Token signatures are influenced by model type (fillet/chamfer features).
+3. Cylindrical faces share a structural token signature regardless of orientation.
+4. Multi-loop and chamfer faces have diverse token signatures.
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High for structural observations. Medium for token semantics (unknown).
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP032.md`, `v0.4.7/EXP032_TOKEN_ORIENTATION.json`, `v0.4.7/EXP032_SUMMARY.md`
+
+---
+
+## EXP-033: Token Signatures vs Feature-Induced Model State
+
+**Status**: Complete
+
+**Goal**: Determine why C03 (fillet) and C09 (chamfer) produce modified Block1 token signatures for otherwise comparable planar orientations, while C00/C04/C05/C11 retain the standard signatures.
+
+**Method**: Controlled comparison of token signatures across models with different features (fillet, chamfer, hole), testing hypotheses about feature type, local topology, direct modification, adjacency, and global model state.
+
+**Evidence / facts**:
+
+- **Fillet and chamfer produce identical signature changes**: Both produce same changes for +X and +Y (4 changes each, identical patterns).
+- **Signature changes occur without structural changes**: +X/+Y faces have identical ec=4, vc=4, secCount=1, b1Len=6 across all models.
+- **Signature changes occur without direct modification**: +X/+Y faces are NOT directly modified by fillet/chamfer.
+- **Signature changes occur without adjacency**: +X/+Y faces are NOT adjacent to modified geometry.
+- **Signature changes occur with same face index**: +X at index 2, +Y at index 3 across all models.
+- **Hole models do NOT produce signature changes**: C04/C05/C11 retain standard +X/+Y signatures.
+- **+Z/-Z faces are replaced in feature models**: Planar_cube → multi_loop/chamfer.
+- **H1 (feature type)**: SUPPORTED — fillet and chamfer produce identical changes.
+- **H2 (local topology)**: FALSIFIED — signature changes occur without structural changes.
+- **H3 (direct modification)**: FALSIFIED — signature changes occur without direct modification.
+- **H4 (adjacency)**: FALSIFIED — signature changes occur without adjacency.
+- **H5 (global model state)**: SUPPORTED — signature changes correlate with model type.
+- **H6 (orientation plus structural variable)**: SUPPORTED — orientation alone explains variation within C00.
+
+**Key findings**:
+1. Signature changes are caused by global model state, not local topology or feature type specifically.
+2. Fillet and chamfer share a common property that affects token signatures.
+3. Hole models do not have this property.
+4. Token signatures encode information about global model state, not just local face properties.
+
+**Files tested**: C00, C03, C04, C05, C09, C10, C11
+
+**Faces/models tested**: 41 faces across 6 models (C10 unparseable)
+
+**Confidence**: High for structural observations. Medium for semantic interpretation (global model state mechanism unknown).
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP033.md`, `v0.4.7/EXP033_FEATURE_STATE.json`, `v0.4.7/EXP033_SUMMARY.md`
+
+---
+
+## EXP-034: Controlled Transformation Invariance of Block1/Block2
+
+**Status**: Complete
+
+**Goal**: Determine whether the validated Block1/Block2 token structures are invariant under known geometric transformations (scale, translation) when topology and feature state remain unchanged.
+
+**Method**: Compared C00 (baseline), C01 (2x scale), C02 (50mm translate) for all face structures: Block1 header/body, Block2 header/body, ec/vc/secCount/b1Len, gap markers, loop sizes, section lens, vertex coordinates, marker offsets.
+
+**Evidence / facts**:
+
+- **Block1 tokens are COMPLETELY INVARIANT**: All Block1 body tokens identical across C00/C01/C02 for all 6 faces (18 comparisons).
+- **Block2 is COMPLETELY INVARIANT**: All Block2 body values identical across C00/C01/C02 for all 6 faces.
+- **Structural properties are INVARIANT**: ec=4, vc=4, secCount=1, b1Len=6 identical across all models.
+- **Block1/Block2 headers are INVARIANT**: [4,8,2,6] and [4,8,2,1] respectively.
+- **Gap markers, loop sizes, section lens are INVARIANT**: All identical across models.
+- **Marker offsets are INVARIANT**: All face positions identical (Face 0: 5140, Face 1: 6024, etc.).
+- **Vertex coordinates CHANGE as expected**: C01 shows 2x ratio, C02 shows 50mm offset.
+- **Byte-level differential**: C00 vs C01 = 355 bytes (2.95%), C00 vs C02 = 1141 bytes (9.47%). All changes in vertex coordinate regions.
+- **All invariants PASS**: INV-005/006/008/009/016/017/018 all pass across all models.
+- **H1 (Block1 invariant under scale)**: SUPPORTED.
+- **H2 (Block1 invariant under translation)**: SUPPORTED.
+- **H3 (Block2 invariant under scale)**: SUPPORTED.
+- **H4 (Block2 invariant under translation)**: SUPPORTED.
+- **H5 (structural properties invariant)**: SUPPORTED.
+- **H6 (vertex coordinates encode geometry)**: SUPPORTED (expected).
+
+**Key findings**:
+1. Block1/Block2 structures are invariant under geometric transformations (2× scaling and translation).
+2. Geometric transformations (scale, translate) do NOT affect Block1/Block2 tokens.
+3. Only vertex coordinates change under geometric transformations.
+4. This clarifies EXP-033: ordinary geometric transformations do NOT produce token-signature changes.
+5. Block1 tokens are NOT vertex indices, NOT coordinate-dependent, NOT geometry-encoded.
+6. **Unknown:** Exact semantic meaning of Block1/Block2 tokens.
+7. **Not established:** That Block1/Block2 specifically encode topology.
+
+**Files tested**: C00, C01, C02
+
+**Faces/models tested**: 18 face comparisons across 3 models (6 faces each)
+
+**Confidence**: High for structural invariance claims. All 18 face comparisons show identical Block1/Block2 tokens.
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP034.md`, `v0.4.7/EXP034_TRANSFORMATION_INVARIANCE.json`, `v0.4.7/EXP034_SUMMARY.md`
+
+---
+
+## EXP-035: Shell Feature Token Analysis
+
+**Status**: Complete
+
+**Goal**: Determine whether the shell operation produces Block1/Block2 token-signature changes in the remaining faces, and whether those changes resemble the fillet/chamfer behavior observed in EXP-033.
+
+**Method**: Parsed C10 (shell) and C00 (baseline). Investigated why C10 was reported as "no parseable faces" in EXP-033. Compared Block1 tokens for corresponding faces. Tested hypotheses H1-H4.
+
+**Evidence / facts**:
+
+- **C10 IS parseable**: Parser extracted 11 faces from C10, all passing INV-016/017/018.
+- **EXP-033 failure was a tooling/filtering issue**: The EXP-033 script filtered on `faceType === 'planar_cube'`, but C10's Face 0 has `faceType=planar_other` (ec=10, vc=10). Faces 1-10 have `faceType=planar_cube`.
+- **C10 has 11 faces**: 5 original outer faces (Faces 1-5), 1 modified top face (Face 0, ec=10, vc=10, multi-loop), 5 new inner wall faces (Faces 6-10).
+- **Original outer faces are TOKEN-IDENTICAL to C00**: All 5 original outer faces (Faces 1-5) have IDENTICAL Block1 tokens to C00.
+- **New inner wall faces have unique tokens**: All 5 new inner faces (Faces 6-10) have unique token signatures not found in C00.
+- **Shell does NOT change tokens on existing faces**: Original outer face tokens are identical to C00.
+- **All C10 faces pass structural invariants**: INV-016 and INV-018 pass for all 11 faces.
+- **H1 (shell causes changes)**: FALSIFIED.
+- **H2 (shell no changes)**: SUPPORTED.
+- **H3 (distinct pattern)**: NOT APPLICABLE.
+- **H4 (outside extraction model)**: FALSIFIED.
+
+**Key findings**:
+1. C10 IS parseable under the validated extraction model.
+2. EXP-033's "no parseable faces" was a filtering issue, not a structural failure.
+3. Shell does NOT change tokens on existing outer faces.
+4. Shell adds 5 new inner wall faces with unique token signatures.
+5. Shell modifies the +Z face from ec=4/vc=4 to ec=10/vc=10 (multi-loop).
+6. Fillet/chamfer are unique in producing global token changes; shell and holes do not.
+
+**Files tested**: C00, C10
+
+**Faces/models tested**: 17 faces across 2 models (6 + 11)
+
+**Confidence**: High for original outer face invariance. High for new inner face uniqueness. High for structural invariant compliance.
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP035.md`, `v0.4.7/EXP035_RESULTS.json`, `v0.4.7/EXP035_SUMMARY.md`
+
+---
+
+## EXP-036: Fillet/Chamfer vs Hole/Shell Structural Differential
+
+**Status**: Complete
+
+**Goal**: Identify the concrete structural difference between C03/C09 (fillet/chamfer) which cause global token-signature changes, and C04/C05/C11 (holes) and C10 (shell) which do not.
+
+**Method**: For each feature model against C00, characterized number of faces added/removed, face types, ec/vc/secCount distributions, Block1/Block2 sizes, which faces retain identical tokens, which faces receive changed tokens, and whether new faces have distinctive structural properties.
+
+**Evidence / facts**:
+
+- **Fillet/chamfer add a new face at an edge location**: C03/C09 have 1 added face. C04/C05/C10/C11 have 0 added faces.
+- **Fillet/chamfer produce token changes on unrelated faces**: +X/+Y faces have IDENTICAL structural properties but different tokens. Holes/shell do NOT produce token changes on unrelated faces.
+- **Multi-loop faces do NOT distinguish the groups**: C09 (chamfer) has 0 multi-loop faces but produces global token changes. C04/C05/C11 (holes) have 2 multi-loop faces but do NOT produce global token changes.
+- **Face count does NOT distinguish the groups**: All models except C10 have 7 faces.
+- **Block1 size correlates**: Fillet/chamfer have smaller avg B1 sizes (10.14) than holes/shell (37.34). But C10 (shell) has small B1 (7.1) similar to fillet/chamfer.
+- **H1 (external boundary modification)**: FALSIFIED. Shell modifies external boundary but does not cause global token changes.
+- **H2 (number of faces)**: FALSIFIED. All models except C10 have 7 faces.
+- **H3 (multi-loop faces)**: FALSIFIED. C09 has 0 multi-loop faces but produces global token changes.
+- **H8 (adding a new face at an edge)**: SUPPORTED. C03/C09 add a new face; C04/C05/C10/C11 do not.
+
+**Key findings**:
+1. Fillet/chamfer add a new face at an edge location. Holes/shell do not.
+2. Fillet/chamfer produce token changes on +X/+Y faces with identical structural properties.
+3. Multi-loop faces do NOT distinguish the groups.
+4. Face count does NOT distinguish the groups.
+5. The distinguishing factor is adding a new face at an edge location.
+
+**Files tested**: C00, C03, C04, C05, C09, C10, C11
+
+**Faces/models tested**: 52 faces across 7 models
+
+**Confidence**: High for the observation that fillet/chamfer add a new face while holes/shell do not. High for the observation that fillet/chamfer produce token changes on unrelated faces while holes/shell do not. Medium for the hypothesis that adding a new face at an edge is the distinguishing factor.
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP036.md`, `v0.4.7/EXP036_RESULTS.json`, `v0.4.7/EXP036_SUMMARY.md`

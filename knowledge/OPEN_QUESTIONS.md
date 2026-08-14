@@ -375,8 +375,7 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 
 **Status**: Open Question
 
-**Evidence so far**: INV-007 proves that loop vertex counts decoded from Block2 (`(raw+2)/2`) sum to the face's total vertex count. It does not establish which vertices belong to which loop, or in what order loops appear relative to the vertex array. The v0.5 parser/viewer (`v0.5/src/parser-core.js`) introduces a labeled, unverified rendering hypothesis (`loopModel: 'sequential-assumed'`): vertices are segmented sequentially into runs matching the Block2-decoded loop sizes, in Block2 order, and each run is fan-triangulated for display. Empirical observation from browser verification (`knowledge/evidence/2026-08-13_v0.5-parser-validation.md`): faces with `secCount=1` (single loop) render as clean, plausible geometry under this assumption (e.g. USB hub case BOTTOM). Faces with large `secCount` (e.g. Dekor's `secCount=1044` faces) render as a visually chaotic, implausible starburst. This is *consistent with* the sequential-ordering assumption being wrong for multi-loop faces, but does **not prove** it -- alternative explanations not yet ruled out: (a) loops are not simple/convex polygons, so fan triangulation is inappropriate even with correct membership; (b) the loop order in the vertex array does not match Block2's order, but some other grouping (e.g. interleaved, or a different sequential order) would render correctly; (c) the visual "wrongness" for large-secCount faces is expected even with fully correct topology, if the underlying geometry is itself complex/non-convex.
-
+**Evidence so far**: INV-007 proves that loop vertex counts decoded from Block2 (`(raw+2)/2`) sum to the face's total vertex count. It does not establish which vertices belong to which loop, or in what order loops appear relative to the vertex array. The parser/viewer (`parser/v0.1/src/parser-core.js`, originally produced as v0.5) introduces a labeled, unverified rendering hypothesis (`loopModel: 'sequential-assumed'`): vertices are segmented sequentially into runs matching the Block2-decoded loop sizes, in Block2 order, and each run is fan-triangulated for display. Empirical observation from browser verification (`knowledge/evidence/2026-08-13_v0.5-parser-validation.md`): faces with `secCount=1` (single loop) render as clean, plausible geometry under this assumption (e.g. USB hub case BOTTOM). Faces with large `secCount` (e.g. Dekor's `secCount=1044` faces) render as a visually chaotic, implausible starburst. This is *consistent with* the sequential-ordering assumption being wrong for multi-loop faces, but does **not prove** it -- alternative explanations not yet ruled out: (a) loops are not simple/convex polygons, so fan triangulation is inappropriate even with correct membership; (b) the loop order in the vertex array does not match Block2's order, but some other grouping (e.g. interleaved, or a different sequential order) would render correctly; (c) the visual "wrongness" for large-secCount faces is expected even with fully correct topology, if the underlying geometry is itself complex/non-convex.
 **Files tested**: BOTTOM (secCount=1 faces, plausible render), DEKOR (secCount up to 1044, implausible render). Qualitative visual observation only, not a quantitative test.
 
 **Faces/models tested**: 2 files spot-checked visually; not a systematic corpus-wide test.
@@ -385,6 +384,324 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 
 **Date last updated**: 2026-08-13
 
-**Related evidence**: `knowledge/evidence/2026-08-13_v0.5-parser-validation.md`, `v0.5/README.md`, `v0.5/SUMMARY.md`.
+**Related evidence**: `knowledge/evidence/2026-08-13_v0.5-parser-validation.md`, `parser/v0.1/README.md`, `parser/v0.1/SUMMARY.md`.
 
-**Will eliminate or constrain**: Whether the v0.5 viewer's rendered mesh can be trusted for multi-loop (secCount>1) faces; whether a future experiment should target loop-membership/ordering directly (e.g. via geometric planarity/adjacency analysis of candidate loop segmentations) before further viewer work.
+**Will eliminate or constrain**: Whether the parser/v0.1 viewer's rendered mesh can be trusted for multi-loop (secCount>1) faces; whether a future experiment should target loop-membership/ordering directly (e.g. via geometric planarity/adjacency analysis of candidate loop segmentations) before further viewer work.
+
+---
+
+## OQ-021: What Determines Cylindrical Surface Vertex Count?
+
+**Status**: Hypothesis
+
+**Evidence so far**: EXP-027 claimed vc ≈ 14 * diameter_mm (linear scaling). EXP-028 FALSIFIED this: vc ratio 70/56=1.25 ≠ diameter ratio 5/3=1.67. With only 2 data points (3mm, 5mm), exact relationship unknown. C07/C08 confirm consistent vc values across models (5mm→70, 3mm→56).
+
+**Hypotheses**: (1) Power law vc = a * diameter^b; (2) Chord-error tessellation with constant tolerance; (3) Fixed angular step with diameter-dependent subdivision.
+
+**Files tested**: C04, C05, C07, C08
+
+**Faces/models tested**: 4 models with holes
+
+**Confidence**: High that linear scaling is falsified; low on exact relationship.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP028.md`, `v0.4.7/EXP028_HOLE_DIAMETER.json`.
+
+---
+
+## OQ-022: Is DisplayList Re-Serialized on Any Face Change?
+
+**Status**: Verified Conclusion
+
+**Evidence so far**: EXP-028 confirmed binary diffs dominated by inter-face metadata (50-80%). Face start offsets shift globally. DL is re-serialized entirely when faces are added/modified.
+
+**Conclusion**: Yes, DL is re-serialized on any face change. Incremental parsing not possible.
+
+**Files tested**: C00↔C03, C00↔C04, C00↔C09, C00↔C10
+
+**Faces/models tested**: 4 pairs
+
+**Confidence**: High.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP028.md`, `v0.4.7/EXP028_FEATURE_LOCALIZATION.json`.
+
+---
+
+## OQ-023: Do SLDPRT Vertices Represent Exact B-Rep Geometry?
+
+**Status**: Falsified
+
+**Evidence so far**: EXP-028 FALSIFIED exact correspondence. SLDPRT↔STEP exact matches: 3/24 (C00), 6/212 (C04), 4/60 (C03). Mean distance ~0.01mm. SLDPRT vertices are DisplayList tessellation, not exact B-rep vertices.
+
+**Conclusion**: No, SLDPRT vertices are tessellated approximations. Parser output cannot be directly compared to STEP geometry with tight tolerances.
+
+**Files tested**: C00, C03, C04
+
+**Faces/models tested**: 3 models
+
+**Confidence**: High.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP028.md`, `v0.4.7/EXP028_VERTEX_CORRESPONDENCE.json`.
+
+---
+
+## OQ-024: What Is the Chord-Error Tolerance for DisplayList Tessellation?
+
+**Status**: Hypothesis
+
+**Evidence so far**: EXP-028 observed consistent ~0.01mm offset from STEP/STL vertices. This suggests a chord-error tolerance, but exact value unknown.
+
+**Hypothesis**: SolidWorks uses constant chord-error tessellation with tolerance ~0.01mm.
+
+**Files tested**: C00, C03, C04
+
+**Faces/models tested**: 3 models
+
+**Confidence**: Medium. Consistent offset observed, but tolerance not precisely measured.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP028.md`, `v0.4.7/EXP028_VERTEX_CORRESPONDENCE.json`.
+
+---
+
+## OQ-025: Do Block1 Tokens Encode Tessellation Parameters?
+
+**Status**: Hypothesis
+
+**Evidence so far**: EXP-029 found that cylindrical face tokens are identical up to length between C04 (vc=70) and C05 (vc=56). The alternating pattern (150, 153) suggests fixed tessellation angles. However, token semantics remain unknown.
+
+**Hypothesis**: Block1 tokens encode tessellation parameters (e.g., angular step, chord error) rather than geometry-specific data.
+
+**Files tested**: C00, C03, C04, C05, C09
+
+**Faces/models tested**: 30 faces across 5 models
+
+**Confidence**: Medium. Pattern observed, but semantics unknown.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP029.md`, `v0.4.7/EXP029_BLOCK1_GEOMETRY.json`.
+
+---
+
+## OQ-026: Do Block1 Tokens Encode Face Orientation?
+
+**Status**: Hypothesis
+
+**Evidence so far**: EXP-029 found that token values differ between cube faces with identical ec/vc/secCount. The correlation between token 1 and token 2 in cube faces suggests a relationship to face coordinates.
+
+**Hypothesis**: Token values encode face orientation or position in the model space.
+
+**Files tested**: C00, C03, C04, C05, C09
+
+**Faces/models tested**: 30 faces across 5 models
+
+**Confidence**: Low. Correlation observed, but semantics unknown.
+
+**Date last updated**: 2026-08-14
+
+---
+
+## OQ-027: What Do the Specific Token Values (150, 153, 5, 82, etc.) Represent?
+
+**Status**: Open Question
+
+**Evidence so far**: EXP-030 found that cylindrical faces have alternating tokens (150, 153) across all hole diameters. Cube faces have tokens [1, 5, 82, 0, 79, 62] across all models. Token values do NOT correspond to vertex indices, edge counts, loop sizes, or Block2 values.
+
+**Hypothesis**: Token values encode tessellation parameters, face type signatures, or other structural information.
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: Low. Pattern observed, but semantics unknown.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP030.md`, `v0.4.7/EXP030_STRUCTURAL_CORRESPONDENCE.json`.
+
+---
+
+## OQ-028: Why Do Planar Cube Faces Have Diverse Token Signatures?
+
+**Status**: Open Question
+
+**Evidence so far**: EXP-031 found that 27 planar cube faces (ec=4, vc=4, secCount=1) have 9 unique first-20 patterns. Token signatures differ by face orientation but are consistent across models for the same face orientation.
+
+**Hypothesis**: Token signatures encode face orientation or position in the model space.
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: Low. Pattern observed, but semantics unknown.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP031.md`, `v0.4.7/EXP031_TOKEN_SIGNATURES.json`.
+
+---
+
+## OQ-029: Can Token Signatures Be Used for Face Classification?
+
+**Status**: Hypothesis
+
+**Evidence so far**: EXP-031 found that cylindrical faces can be classified by their token signature (alternating 150/153 pattern), but planar cube faces cannot be classified by their token signature.
+
+**Hypothesis**: Token signatures can be used to classify face types (cylindrical vs non-cylindrical).
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: Medium. Cylindrical faces can be classified, but planar faces cannot.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP031.md`, `v0.4.7/EXP031_TOKEN_SIGNATURES.json`.
+
+---
+
+## OQ-030: Why Do C03 and C09 Have Different Token Patterns for +X and +Y?
+
+**Status**: Open Question
+
+**Evidence so far**: EXP-032 found that C03 (fillet) and C09 (chamfer) have modified token patterns for +X and +Y orientations compared to C00, C04, C05, C11.
+
+**Hypothesis**: Token signatures are influenced by model type (fillet/chamfer features).
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: Medium. Pattern observed, but relationship to features not understood.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP032.md`, `v0.4.7/EXP032_TOKEN_ORIENTATION.json`.
+
+---
+
+## OQ-031: Can Token Signatures Be Used for Model Type Classification?
+
+**Status**: Hypothesis
+
+**Evidence so far**: EXP-032 found that token signatures correlate with model type (fillet/chamfer/hole). C03 and C09 have modified patterns for +X and +Y orientations.
+
+**Hypothesis**: Token signatures can be used to classify model type (fillet, chamfer, hole).
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: Medium. Pattern observed, but more data needed.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP032.md`, `v0.4.7/EXP032_TOKEN_ORIENTATION.json`.
+
+---
+
+## OQ-032: What Global Model State Property Causes Token Signature Changes?
+
+**Status**: Open Question
+
+**Evidence so far**: EXP-033 found that fillet and chamfer produce identical signature changes for +X and +Y, while hole models do not. Signature changes occur without structural changes (ec/vc/secCount/b1Len identical), without direct modification, and without adjacency. This suggests global model state affects token signatures.
+
+**Hypothesis**: Global model state (e.g., feature type, model complexity, serialization context) affects token signatures of unrelated faces.
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: Medium. Pattern observed, but mechanism unknown.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP033.md`, `v0.4.7/EXP033_FEATURE_STATE.json`.
+
+---
+
+## OQ-033: Why Do Fillet and Chamfer Produce Identical Signature Changes?
+
+**Status**: Open Question
+
+**Evidence so far**: EXP-033 found that fillet (C03) and chamfer (C09) produce identical signature changes for +X and +Y, despite being different feature types. This suggests they share a common property that affects token signatures.
+
+**Hypothesis**: Fillet and chamfer share a common property (e.g., edge modification, surface replacement) that affects global model state and thus token signatures.
+
+**Files tested**: C00, C03, C09
+
+**Faces/models tested**: 20 faces across 3 models
+
+**Confidence**: Low. Pattern observed, but common property not identified.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP033.md`, `v0.4.7/EXP033_FEATURE_STATE.json`.
+
+---
+
+## OQ-034: What Do Block1/Block2 Tokens Encode?
+
+**Status**: Open Question
+
+**Evidence so far**: EXP-034 found that Block1/Block2 tokens are COMPLETELY INVARIANT under geometric transformations (scale, translation), while vertex coordinates change as expected. This provides strong evidence that these structures are independent of the tested absolute vertex coordinates. The exact semantic meaning of Block1/Block2 tokens remains unknown.
+
+**Hypothesis**: Block1/Block2 tokens encode some structural property of the face that is independent of absolute vertex coordinates. The hypothesis that they encode topology is plausible but not established by EXP-034 alone.
+
+**Files tested**: C00, C01, C02
+
+**Faces/models tested**: 18 face comparisons across 3 models
+
+**Confidence**: High for invariance claims. Unknown for semantic meaning.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP034.md`, `v0.4.7/EXP034_TRANSFORMATION_INVARIANCE.json`.
+
+---
+
+## OQ-035: Why Do Feature Operations Cause Token Changes While Geometric Transformations Do Not?
+
+**Status**: Open Question
+
+**Evidence so far**: EXP-033 found that fillet/chamfer features cause token signature changes on unrelated faces (global model state effect). EXP-034 found that geometric transformations (scale, translation) do NOT cause token changes. This establishes that the EXP-033 effect cannot be explained simply by absolute scale or translation. The exact mechanism remains unknown.
+
+**Hypothesis**: Feature operations affect some property of the model that is captured by Block1/Block2 tokens, while geometric transformations do not. The hypothesis that this property is topological is plausible but not established.
+
+**Files tested**: C00, C01, C02, C03, C09
+
+**Faces/models tested**: 24 faces across 5 models
+
+**Confidence**: Medium. Pattern observed, but mechanism not fully understood.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP033.md`, `knowledge/evidence/2026-08-14_v0.4.7-EXP034.md`.
+
+---
+
+## OQ-036: Why Do Fillet/Chamfer Produce Global Token Changes While Shell and Holes Do Not?
+
+**Status**: Open Question
+
+**Evidence so far**: EXP-033 found that fillet/chamfer cause token changes on unrelated faces (+X/+Y). EXP-035 found that shell does NOT cause token changes on existing outer faces (5/5 IDENTICAL to C00). EXP-033 also found that holes do NOT cause token changes. This establishes that fillet/chamfer are unique in producing global token changes.
+
+**Hypothesis**: Fillet/chamfer have some property that shell and holes lack, which causes Block1 tokens to change on unrelated faces. The hypothesis that this property is "external boundary modification" is NOT supported by EXP-035 (shell modifies external boundary but does not cause token changes). EXP-036 found that the distinguishing factor is adding a new face at an edge location.
+
+**Files tested**: C00, C03, C04, C05, C09, C10, C11
+
+**Faces/models tested**: 48 faces across 7 models
+
+**Confidence**: Medium. Pattern observed (fillet/chamfer unique), but mechanism unknown.
+
+**Date last updated**: 2026-08-14
+
+**Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP033.md`, `knowledge/evidence/2026-08-14_v0.4.7-EXP035.md`, `knowledge/evidence/2026-08-14_v0.4.7-EXP036.md`.
