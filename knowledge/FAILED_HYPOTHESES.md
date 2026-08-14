@@ -318,3 +318,403 @@ These tests cannot fail by design and provide no information about the data.
 **Confidence**: High
 
 **Date last updated**: 2026-07-16
+
+---
+
+## FH-016: Cylindrical Surface VC Scales Linearly with Hole Diameter
+
+**Status**: Falsified
+
+**Original hypothesis**: The cylindrical surface vertex count scales approximately linearly with hole diameter: vc ≈ 14 * diameter_mm.
+
+**Evidence against**: EXP-028 measured vc=70 for 5mm hole (C04) and vc=56 for 3mm hole (C05). Ratio 70/56=1.25 ≠ diameter ratio 5/3=1.67. Linear scaling rejected.
+
+**Disproving experiment**: EXP-028 Investigation 1
+
+**Files tested**: C04, C05, C07, C08
+
+**Faces/models tested**: 4 models with holes
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-017: Feature Changes Are Localized to Affected Faces in Binary Representation
+
+**Status**: Falsified
+
+**Original hypothesis**: Feature operations (fillet, chamfer, hole, shell) only affect the binary data of affected faces; unrelated faces remain completely unchanged in the binary diff.
+
+**Evidence against**: EXP-028 showed binary diffs dominated by inter-face metadata (50-80%). Face start offsets shift globally. The entire DL is re-serialized on any face change.
+
+**Disproving experiment**: EXP-028 Investigation 2
+
+**Files tested**: C00↔C03, C00↔C04, C00↔C09, C00↔C10
+
+**Faces/models tested**: 4 pairs
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-018: SLDPRT Vertices Are Exact B-Rep Geometry
+
+**Status**: Falsified
+
+**Original hypothesis**: SLDPRT vertex coordinates correspond exactly to STEP B-rep vertices.
+
+**Evidence against**: EXP-028 showed SLDPRT↔STEP exact matches only 3-12.5% (3/24 for C00, 6/212 for C04, 4/60 for C03). Mean distance ~0.01mm. SLDPRT vertices are tessellated approximations.
+
+**Disproving experiment**: EXP-028 Investigation 3
+
+**Files tested**: C00, C03, C04
+
+**Faces/models tested**: 3 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-019: Block1 Tokens Encode Geometry-Specific Parameters
+
+**Status**: Falsified
+
+**Original hypothesis**: Block1 section-body tokens encode geometry-specific parameters that change predictably when geometry changes.
+
+**Evidence against**: EXP-029 found that cylindrical face tokens are identical up to length between C04 (vc=70, diameter=5mm) and C05 (vc=56, diameter=3mm). Tokens do NOT change with diameter. Token length is determined by vc via INV-017 (structural invariant).
+
+**Disproving experiment**: EXP-029
+
+**Files tested**: C00, C03, C04, C05, C09
+
+**Faces/models tested**: 30 faces across 5 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-020: Block1 Tokens Encode Vertex Indices
+
+**Status**: Falsified
+
+**Original hypothesis**: Block1 tokens correspond to vertex indices (0 to vc-1) in the face's tessellation.
+
+**Evidence against**: EXP-030 found that token values exceed vertex count for all faces tested. For cube face with 4 vertices, tokens are [1, 5, 82, 0, 79, 62] — values 5, 82, 79, 62 are OUT OF RANGE for 4 vertices.
+
+**Disproving experiment**: EXP-030
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-021: Block1 Tokens Encode Edge Counts
+
+**Status**: Falsified
+
+**Original hypothesis**: Block1 tokens correspond to edge counts or identifiers in the face's topology.
+
+**Evidence against**: EXP-030 found only 2 matches across all faces tested. No consistent mapping between tokens and edge counts.
+
+**Disproving experiment**: EXP-030
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-022: Block1 Tokens Encode Loop Sizes
+
+**Status**: Falsified
+
+**Original hypothesis**: Block1 tokens correspond to loop sizes or boundaries in the face's topology.
+
+**Evidence against**: EXP-030 found only 5 matches across all faces tested. No consistent mapping between tokens and loop sizes.
+
+**Disproving experiment**: EXP-030
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-023: Block1 Tokens Correlate with Block2 Values
+
+**Status**: Falsified
+
+**Original hypothesis**: Block1 tokens correspond to Block2 values (loop vertex counts) in the face's data.
+
+**Evidence against**: EXP-030 found only 5 matches across all faces tested. No consistent mapping between tokens and Block2 values.
+
+**Disproving experiment**: EXP-030
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-024: All Planar Faces Share One Normalized Token Signature
+
+**Status**: Falsified
+
+**Original hypothesis**: All planar faces (ec=4, vc=4, secCount=1) share one normalized token signature.
+
+**Evidence against**: EXP-031 found that 27 planar cube faces have 9 unique first-20 patterns. Token signatures differ by face orientation.
+
+**Disproving experiment**: EXP-031
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-025: Token Signatures Are Determined Primarily by Geometry Dimensions
+
+**Status**: Falsified
+
+**Original hypothesis**: Token signatures are determined primarily by geometry dimensions (e.g., hole diameter).
+
+**Evidence against**: EXP-031 found that cylindrical faces with different diameters (C04 vc=70, C05 vc=56, C11 vc=64) have identical token patterns.
+
+**Disproving experiment**: EXP-031
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-026: Token Signatures Are Invariant for the Same Orientation Across Models
+
+**Status**: Falsified
+
+**Original hypothesis**: Token signatures are invariant for the same orientation across models.
+
+**Evidence against**: EXP-032 found that same orientation has different tokens across models for +X and +Y orientations. C03 and C09 have modified patterns compared to C00, C04, C05, C11.
+
+**Disproving experiment**: EXP-032
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-027: Token Signatures Are Primarily Determined by Serialization Position
+
+**Status**: Falsified
+
+**Original hypothesis**: Token signatures are primarily determined by serialization position (face index).
+
+**Evidence against**: EXP-032 found that same face index has different tokens across models.
+
+**Disproving experiment**: EXP-032
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-028: Token Signatures Are Primarily Determined by Topology/Vertex Ordering
+
+**Status**: Falsified
+
+**Original hypothesis**: Token signatures are primarily determined by topology/vertex ordering.
+
+**Evidence against**: EXP-032 found that faces with same vertex position have different tokens.
+
+**Disproving experiment**: EXP-032
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-029: Token Signatures Are Determined Primarily by Local Topology
+
+**Status**: Falsified
+
+**Original hypothesis**: Token signatures are determined primarily by local topology (ec, vc, secCount, b1Len).
+
+**Evidence against**: EXP-033 found that signature changes occur while all structural properties (ec=4, vc=4, secCount=1, b1Len=6) remain identical across models.
+
+**Disproving experiment**: EXP-033
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-030: Token Signatures Depend on Direct Feature Modification
+
+**Status**: Falsified
+
+**Original hypothesis**: Token signatures depend on whether a face is directly modified by a feature.
+
+**Evidence against**: EXP-033 found that signature changes occur on +X/+Y faces, which are NOT directly modified by fillet/chamfer features.
+
+**Disproving experiment**: EXP-033
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-031: Token Signatures Depend on Adjacency to Modified Geometry
+
+**Status**: Falsified
+
+**Original hypothesis**: Token signatures depend on adjacency to modified geometry.
+
+**Evidence against**: EXP-033 found that signature changes occur on +X/+Y faces, which are NOT adjacent to modified geometry.
+
+**Disproving experiment**: EXP-033
+
+**Files tested**: C00, C03, C04, C05, C09, C11
+
+**Faces/models tested**: 41 faces across 6 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-032: Block1 Tokens Encode Geometric Transformations
+
+**Status**: Falsified
+
+**Original hypothesis**: Block1 tokens encode geometric transformations (scale, translation) and change when geometry is transformed.
+
+**Evidence against**: EXP-034 found that Block1 tokens are COMPLETELY INVARIANT under scale (C00→C01, 2x) and translation (C00→C02, 50mm). All 18 face comparisons show identical Block1 tokens despite vertex coordinate changes. **Strong evidence:** Block1/Block2 structures are independent of the tested absolute vertex coordinates. Unknown: exact semantic meaning. Not established: that they specifically encode topology.
+
+**Disproving experiment**: EXP-034
+
+**Files tested**: C00, C01, C02
+
+**Faces/models tested**: 18 face comparisons across 3 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-033: Shell Causes Token Changes on Remaining Faces
+
+**Status**: Falsified
+
+**Original hypothesis**: Shell operation causes Block1 token-signature changes on remaining faces, consistent with the fillet/chamfer pattern observed in EXP-033.
+
+**Evidence against**: EXP-035 found that C10's 5 original outer faces have IDENTICAL Block1 tokens to C00. Shell does NOT change tokens on existing faces. Shell adds 5 new inner wall faces with unique token signatures, but these are NEW faces, not changes to existing faces.
+
+**Disproving experiment**: EXP-035
+
+**Files tested**: C00, C10
+
+**Faces/models tested**: 17 faces across 2 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-034: Number of Faces Distinguishes Global Token Change Models
+
+**Status**: Falsified
+
+**Original hypothesis**: The number of faces distinguishes fillet/chamfer (global token changes) from holes/shell (no global token changes).
+
+**Evidence against**: EXP-036 found that C03/C09/C04/C05/C11 all have 7 faces. Face count does NOT distinguish the groups. Only C10 (shell) has 11 faces, but it does NOT produce global token changes.
+
+**Disproving experiment**: EXP-036
+
+**Files tested**: C00, C03, C04, C05, C09, C10, C11
+
+**Faces/models tested**: 52 faces across 7 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14
+
+---
+
+## FH-035: Multi-Loop Faces Distinguish Global Token Change Models
+
+**Status**: Falsified
+
+**Original hypothesis**: The presence of multi-loop faces distinguishes fillet/chamfer (global token changes) from holes/shell (no global token changes).
+
+**Evidence against**: EXP-036 found that C09 (chamfer) has 0 multi-loop faces but produces global token changes. C04/C05/C11 (holes) have 2 multi-loop faces but do NOT produce global token changes. Multi-loop faces do NOT distinguish the groups.
+
+**Disproving experiment**: EXP-036
+
+**Files tested**: C00, C03, C04, C05, C09, C10, C11
+
+**Faces/models tested**: 52 faces across 7 models
+
+**Confidence**: High
+
+**Date last updated**: 2026-08-14

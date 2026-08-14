@@ -427,6 +427,13 @@ where `sectionCount` is the number of ONE-delimited sections in the Block 1 body
 **Raw evidence:** `knowledge/evidence/2026-07-10_v0.4.2-stress-test.md`, `knowledge/evidence/2026-07-10_v0.4.2a-expanded-corpus.md`, `knowledge/evidence/2026-07-10_v0.4.2a-independent-parser.md`
 
 ---
+### CORPUS EXTENSION NOTE (2026-08-13)
+
+EXP-024-CORRECTED (v0.4.5) — a third, independently-written pipeline — confirms INV-016 on 1,172/1,172 faces across 7 files (BOTTOM, TOP, GEAR, DEKOR, DISTRIBUTOR, POCKET, PTC; HEADPHONE not included in this corpus). This run corrects a prior Block1→Block2 offset bug in EXP-023/024 (v0.4.4) that had caused INV-016 to never execute; see `v0.4.5/CORRECTION_NOTE.md`.
+
+**Raw evidence:** `knowledge/evidence/2026-08-13_v0.4.5-EXP024-corrected.md`
+
+---
 
 ## INV-017: ONE-Delimited Section Length
 
@@ -459,6 +466,13 @@ This formula is equivalent to the earlier observed relation `len = 2 * loopSize 
 - INV-012's formula `len = 2 * loopSize - 2` has been corrected: it reduces to `len = raw`, but the correct relationship is `len = raw - 1` (= `2 * loopSize - 3`). See INV-012 correction note.
 
 **Raw evidence:** `knowledge/evidence/2026-07-10_v0.4.2-stress-test.md`, `knowledge/evidence/2026-07-10_v0.4.2a-expanded-corpus.md`, `knowledge/evidence/2026-07-10_v0.4.2a-independent-parser.md`
+
+---
+### CORPUS EXTENSION NOTE (2026-08-13)
+
+EXP-024-CORRECTED (v0.4.5) confirms INV-017 on 1,172/1,172 sections/faces across 7 files, using the section-splitting algorithm already established in `v0.4.2a/audit_v042a.js` (trailing partial section included). Same corrected pipeline as the INV-016 note above.
+
+**Raw evidence:** `knowledge/evidence/2026-08-13_v0.4.5-EXP024-corrected.md`
 
 ---
 
@@ -511,3 +525,40 @@ INV-018 adds zero independent information beyond INV-017. It is retained as a de
 **Discovered by:** EXP-014 (v0.4.2a audit).
 
 **Raw evidence:** `knowledge/evidence/2026-07-10_v0.4.2a-audit.md`
+
+---
+### CORPUS EXTENSION NOTE (2026-08-13)
+
+EXP-024-CORRECTED (v0.4.5) confirms INV-018 on 1,172/1,172 faces across 7 files. This is the same corrected pipeline referenced in the INV-016/INV-017 notes above; it fixes a Block1→Block2 offset bug in the original v0.4.4 EXP-023/024 that had prevented INV-016/017/018 from ever executing (the pipeline failed at B2 validation for 100% of candidates). See `v0.4.5/CORRECTION_NOTE.md` for the root-cause analysis.
+
+**Raw evidence:** `knowledge/evidence/2026-08-13_v0.4.5-EXP024-corrected.md`
+
+---
+
+## INV-019: secCount / Alternative-Header Correlation
+
+**Status**: Correlation (not causal; see notes — modeled on INV-013's precedent for high-confidence, non-causal patterns)
+
+**Evidence**: Once Block2 is read at the corrected offset (`block1Start + (N+4)*4`), the Block2 body length (`secCount`, i.e. `M`) and the presence/N-value of the alternative `[4,8,2,N']` header (detected at the established fixed positions `mp-20` for N'=1, `mp-24` for N'=2) correlate with zero known counterexamples:
+
+```text
+secCount = 1   <->  alternative header present with N' = 1
+secCount = 2   <->  alternative header present with N' = 2
+secCount >= 3  <->  no alternative header (within the tested N'∈{1,2} detection window)
+```
+
+This was first observed in EXP-023-CORRECTED (v0.4.5) and then specifically stress-tested by EXP-026 (v0.4.6), which independently re-derived the same face set and hunted for counterexamples in four directions (secCount=1 without N'=1; secCount=2 without N'=2; secCount>=3 with any alternative; alternative N' inconsistent with secCount). Result: 0 counterexamples in any direction, across 1,172/1,172 faces, in every one of the 7 tested files individually.
+
+**No causal or semantic claim is made.** This entry does NOT establish: which variable (if either) determines the other; what `secCount` or the alternative header represent; behavior outside the tested corpus (HEADPHONE, 62 faces, is excluded — not present in this repository checkout); or whether an N'>=3 alternative exists at a different offset for `secCount>=3` faces (the detection window was not extended — see Known gaps in the EXP-026 evidence file).
+
+**Files tested**: BOTTOM, TOP, GEAR, DEKOR, DISTRIBUTOR, POCKET, PTC.
+
+**Faces/models tested**: 1,172 faces across 7 files.
+
+**Confidence**: High that the correlation holds with zero exceptions on the tested corpus. Zero confidence on causal direction or semantics.
+
+**Date last updated**: 2026-08-13
+
+**Related experiments**: EXP-023-CORRECTED (v0.4.5, first observation), EXP-026 (v0.4.6, discriminating counterexample hunt).
+
+**Raw evidence:** `knowledge/evidence/2026-08-13_v0.4.5-EXP023-corrected.md`, `knowledge/evidence/2026-08-13_v0.4.6-EXP026.md`

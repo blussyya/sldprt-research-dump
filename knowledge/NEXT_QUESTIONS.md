@@ -174,6 +174,42 @@ Statuses:
 
 ---
 
+## NQ-009: Does Correcting The EXP-023/024 Block1->Block2 Offset Change Their Reported Results?
+
+**Status**: Answered
+
+**Depends on**: EXP-023, EXP-024, v0.4.4/FALSIFICATION_REVIEW.md, INV-005, EXP-018, EXP-021
+
+**Answer**: Yes, substantially. The bug (EXP-023/024 read the Block1 header's constant first word, always `4`, and mislabeled it as the body length `N`, causing `block1Start + b1Word0*4` to always land on Block1's own body instead of Block2) was corrected using the already-established formula `block2Start = block1Start + (N+4)*4` with `N` read from `block1Start+12`. Results: (1) `secCount=0 for ALL 1,172 faces` is corrected -- at the right offset, Block2 header is valid for 1,172/1,172 faces and `secCount` matches an independent INV-009 cross-check 1,172/1,172. (2) `0 VALID candidates in EXP-024` is corrected -- 1,172/4,688 candidates are now VALID, exactly matching EXP-023's face count and resolving the previously unacknowledged contradiction between the two experiments. INV-016/017/018 all pass 100% under the corrected pipeline. (3) The `661/1,172 alternative-header correlation` is **unchanged** -- that detection logic never used the buggy offset. A new, exceptionless correlation was found between `secCount` and alternative-header presence/N-value (see OQ-018); this is recorded as an observation only, with no semantic meaning assigned.
+
+**Evidence archive**: `v0.4.5/CORRECTION_NOTE.md`, `v0.4.5/SUMMARY.md`, `knowledge/evidence/2026-08-13_v0.4.5-EXP023-corrected.md`, `knowledge/evidence/2026-08-13_v0.4.5-EXP024-corrected.md`
+
+**Will eliminate or constrain**: OQ-016 (answered), OQ-018 (new).
+
+**Evidence to archive**: Corrected scripts, corrected raw JSON results, before/after comparison tables, root-cause analysis. (Complete -- see evidence archive above.)
+
+**Last updated**: 2026-08-13
+
+---
+
+## NQ-010: Is The secCount / Alternative-Header Correlation (OQ-018) Exceptionless?
+
+**Status**: Answered
+
+**Depends on**: NQ-009, EXP-023-CORRECTED (v0.4.5), OQ-018
+
+**Answer**: Yes, on the tested corpus. EXP-026 (v0.4.6) independently re-derived the 1,172-face set using the v0.4.5-corrected Block1/Block2 offset formula (not the buggy v0.4.4 arithmetic) and hunted for counterexamples in four directions: secCount=1 without an N=1 alternative; secCount=2 without an N=2 alternative; secCount>=3 with any alternative; alternative N inconsistent with secCount. Result: 0 counterexamples in all four directions, across all 1,172 faces and each of the 7 files individually. The correlation is recorded as INV-019 (Status: Correlation, not a proven causal or structural law). Causal direction and semantic meaning remain explicitly unresolved. The alternative-header detection window (N∈{1,2} at fixed offsets mp-20/mp-24) was not extended, and HEADPHONE (62 faces) was not tested (not present in this repository checkout) — both noted as known gaps, not resolved by this experiment.
+
+**Evidence archive**: `v0.4.6/SUMMARY.md`, `knowledge/evidence/2026-08-13_v0.4.6-EXP026.md`, `knowledge/KNOWN_INVARIANTS.md` INV-019.
+
+**Will eliminate or constrain**: OQ-018 (causal-direction question narrowed, not closed).
+
+**Evidence to archive**: Corrected extraction script, raw per-face JSON, counterexample counts by direction and by file. (Complete — see evidence archive above.)
+
+**Last updated**: 2026-08-13
+
+---
+
 ## NQ-008: Can Normal-Gap Loop-Splitting Failure Be Reproduced And Archived?
 
 **Status**: Deferred
@@ -187,3 +223,243 @@ Statuses:
 **Evidence to archive**: Diagnostic output showing false splits on strip diagonals, input files, face ids, threshold settings.
 
 **Last updated**: 2026-06-27
+
+---
+
+## NQ-013: What Is the Exact VC-Diameter Relationship for Cylindrical Surfaces?
+
+**Status**: Answered (relationship NOT linear)
+
+**Depends on**: EXP-027, EXP-028
+
+**Answer**: EXP-028 FALSIFIED the linear scaling hypothesis. C04 (5mm) vc=70, C05 (3mm) vc=56. Ratio 70/56=1.25 ≠ diameter ratio 5/3=1.67. With only 2 data points, exact relationship cannot be determined. Need third diameter (e.g., 4mm) to fit power law vc = a * diameter^b.
+
+**Will eliminate or constrain**: OQ-021 (hole geometry encoding). Linear scaling rejected.
+
+**Evidence to archive**: `v0.4.7/EXP028_HOLE_DIAMETER.json`, `knowledge/evidence/2026-08-14_v0.4.7-EXP028.md`.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-014: Is the DisplayList Re-Serialized on Any Face Change?
+
+**Status**: Answered (YES, re-serialized)
+
+**Depends on**: EXP-027, EXP-028
+
+**Answer**: EXP-028 confirmed that binary diffs are dominated by inter-face metadata (50-80%). Face start offsets shift globally when faces are added/modified. The entire DL is re-serialized, not just affected faces.
+
+**Will eliminate or constrain**: OQ-022 (feature locality). Incremental parsing not possible.
+
+**Evidence to archive**: `v0.4.7/EXP028_FEATURE_LOCALIZATION.json`, `knowledge/evidence/2026-08-14_v0.4.7-EXP028.md`.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-015: Do SLDPRT Vertices Correspond to Exact STEP/STL Vertices?
+
+**Status**: Answered (NO, tessellated approximations)
+
+**Depends on**: EXP-027, EXP-028
+
+**Answer**: EXP-028 FALSIFIED exact correspondence. SLDPRT↔STEP exact matches: 3/24 (C00), 6/212 (C04), 4/60 (C03). Mean distance ~0.01mm. SLDPRT vertices are DisplayList tessellation, not exact B-rep vertices.
+
+**Will eliminate or constrain**: OQ-023 (vertex semantics). Parser output cannot be directly compared to STEP geometry.
+
+**Evidence to archive**: `v0.4.7/EXP028_VERTEX_CORRESPONDENCE.json`, `knowledge/evidence/2026-08-14_v0.4.7-EXP028.md`.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-016: What Is the Chord-Error Tolerance for DisplayList Tessellation?
+
+**Status**: Ready
+
+**Depends on**: EXP-028
+
+**If answered**: Determines the maximum distance from SLDPRT vertices to true B-rep surfaces.
+
+**Will eliminate or constrain**: OQ-024 (tessellation parameters), provides validation tolerance for parser output.
+
+**Evidence to archive**: Distance from SLDPRT vertices to STEP surfaces, chord error calculation, tolerance bounds.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-017: Does a Third Diameter Data Point Confirm VC-Diameter Relationship?
+
+**Status**: Ready
+
+**Depends on**: EXP-028, new controlled model (C11 with 4mm hole)
+
+**If answered**: Fits power law vc = a * diameter^b, distinguishes linear from non-linear relationships.
+
+**Will eliminate or constrain**: OQ-021 (hole geometry encoding), provides exact vc prediction formula.
+
+**Evidence to archive**: vc for 4mm hole, power law fit, R² value, residual analysis.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-018: Do Block1 Tokens Change with Scale or Translation?
+
+**Status**: Ready
+
+**Depends on**: EXP-029, C01 (20mm cube), C02 (translated cube)
+
+**If answered**: Determines if tokens encode face orientation or tessellation parameters.
+
+**Will eliminate or constrain**: OQ-001 (Block 1 grammar), H5 (tessellation parameters), H6 (face orientation).
+
+**Evidence to archive**: Token comparison between C00 (10mm) and C01 (20mm), C00 and C02 (translated).
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-019: What Do the Alternating Tokens (150, 153) in Cylindrical Faces Represent?
+
+**Status**: Ready
+
+**Depends on**: EXP-029
+
+**If answered**: Determines if tokens encode tessellation angles or other parameters.
+
+**Will eliminate or constrain**: H5 (tessellation parameters), OQ-003A (VALUE semantics).
+
+**Evidence to archive**: Token analysis across multiple cylindrical faces, correlation with geometry.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-020: Do Different Face Types Have Different Token Signatures?
+
+**Status**: Ready
+
+**Depends on**: EXP-030
+
+**If answered**: Determines if token patterns can be used to classify face types (cube, cylindrical, fillet, etc.).
+
+**Will eliminate or constrain**: OQ-001 (Block 1 grammar), H5 (tessellation parameters), OQ-003A (VALUE semantics).
+
+**Evidence to archive**: Token comparison across face types (cube, cylindrical, fillet, chamfer), correlation with surface geometry.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-021: Do Token Signatures Correlate with Face Orientation?
+
+**Status**: Ready
+
+**Depends on**: EXP-031
+
+**If answered**: Determines if token signatures can be used to predict face orientation.
+
+**Will eliminate or constrain**: OQ-001 (Block 1 grammar), H5 (tessellation parameters), OQ-026 (face orientation).
+
+**Evidence to archive**: Token comparison across faces with different orientations, correlation with face coordinates.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-022: Do Token Signatures Correlate with Model Type (Fillet/Chamfer/Hole)?
+
+**Status**: Ready
+
+**Depends on**: EXP-032
+
+**If answered**: Determines if token signatures can be used to predict model type or feature type.
+
+**Will eliminate or constrain**: OQ-001 (Block 1 grammar), H5 (tessellation parameters), OQ-028 (face orientation).
+
+**Evidence to archive**: Token comparison across models with different features (fillet, chamfer, hole), correlation with model type.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-023: What Global Model State Property Causes Signature Changes?
+
+**Status**: Ready
+
+**Depends on**: EXP-033
+
+**If answered**: Determines what property is common to fillet/chamfer models but absent in hole models that causes token signature changes.
+
+**Will eliminate or constrain**: OQ-032 (global model state mechanism), provides predictive model for signature changes.
+
+**Evidence to archive**: Comparison of global model state properties across C00, C03, C09, C04; identification of distinguishing property; prediction test on new models.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-024: Why Do -X/-Y Signatures Remain Unchanged While +X/+Y Change?
+
+**Status**: Ready
+
+**Depends on**: EXP-033
+
+**If answered**: Determines the mechanism by which global model state affects some orientations but not others.
+
+**Will eliminate or constrain**: OQ-032 (global model state mechanism), OQ-030 (C03/C09 signature differences).
+
+**Evidence to archive**: Analysis of -X/-Y vs +X/+Y face properties, adjacency patterns, serialization order.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-025: What Distinguishes Feature-Induced Changes from Geometric Transformations?
+
+**Status**: Ready
+
+**Depends on**: EXP-033, EXP-034
+
+**If answered**: Determines why fillet/chamfer features cause token signature changes on unrelated faces, while scale/translation do not. Identifies the specific property that distinguishes feature-induced changes from geometric transformations.
+
+**Will eliminate or constrain**: OQ-032 (global model state mechanism), OQ-033 (fillet/chamfer common property), provides predictive model for token signature changes.
+
+**Evidence to archive**: Comparison of C00/C03/C09 (feature models) vs C00/C01/C02 (transformation models); identification of distinguishing property; analysis of topological changes vs geometric changes.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-026: Why Do Fillet/Chamfer Produce Global Token Changes While Shell and Holes Do Not?
+
+**Status**: Ready
+
+**Depends on**: EXP-033, EXP-034, EXP-035
+
+**If answered**: Determines the specific property that distinguishes fillet/chamfer from shell and holes. Identifies why fillet/chamfer cause token changes on unrelated faces while shell and holes do not.
+
+**Will eliminate or constrain**: OQ-032 (global model state mechanism), OQ-033 (fillet/chamfer common property), OQ-035 (why feature operations cause token changes).
+
+**Evidence to archive**: Comparison of C00/C03/C09 (fillet/chamfer) vs C00/C04/C05/C10/C11 (hole/shell); analysis of what fillet/chamfer have in common that shell/holes do not; analysis of external boundary modification hypothesis.
+
+**Last updated**: 2026-08-14
+
+---
+
+## NQ-027: Why Does Adding a New Face at an Edge Cause Global Token Changes?
+
+**Status**: Ready
+
+**Depends on**: EXP-036
+
+**If answered**: Determines the mechanism by which adding a new face at an edge location causes token changes on unrelated faces. Identifies what property of the added face causes the token changes.
+
+**Will eliminate or constrain**: OQ-036 (why fillet/chamfer produce global token changes), OQ-032 (global model state mechanism), OQ-033 (fillet/chamfer common property).
+
+**Evidence to archive**: Comparison of C03/C09 (which add a new face) vs C04/C05/C10/C11 (which do not); analysis of the added face's properties; analysis of token change patterns.
+
+**Last updated**: 2026-08-14
