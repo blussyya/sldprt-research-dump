@@ -511,6 +511,15 @@ Source migrated from `v0.3.5/docs/research/EXPERIMENT_LOG.md`.
 
 **Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP027.md`, `v0.4.7/CORPUS_AUDIT.json`, `v0.4.7/BINARY_DIFF_SUMMARY.json`, `v0.4.7/VERTEX_ANALYSIS.json`
 
+### CORRECTION NOTE (2026-08-14, Archivist Audit)
+
+Key findings (3) "Hole diameter affects cylindrical surface vc (approximately linear scaling)" and (4) "Feature operations are localized to affected faces" are **falsified/weakened by the very next experiment, EXP-028**, run the same day:
+
+- (3) is **FALSIFIED**: EXP-028 Investigation 1 found vc ratio 70/56=1.25 ≠ diameter ratio 5/3=1.67 (only 2 data points; "linear" was an overclaim from n=2 without checking the ratio). See `FAILED_HYPOTHESES.md`.
+- (4) is **WEAKENED**: EXP-028 Investigation 2 found binary diffs are dominated by inter-face metadata (50–80%), not face geometry, because the DisplayLists stream is re-serialized in full whenever any face changes (global byte offsets shift). "Localized" overstated what byte-level differencing can show.
+
+This entry (EXP-027) is retained unmodified above for historical continuity per the append-only policy. See EXP-028 below and `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding C).
+
 ---
 
 ## EXP-028: Validation/Falsification of EXP-027 Conclusions
@@ -729,6 +738,20 @@ Source migrated from `v0.3.5/docs/research/EXPERIMENT_LOG.md`.
 
 **Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP033.md`, `v0.4.7/EXP033_FEATURE_STATE.json`, `v0.4.7/EXP033_SUMMARY.md`
 
+### CORRECTION NOTE (2026-08-14, Archivist Audit)
+
+**"H4 (adjacency) FALSIFIED" is not a genuine test of topological adjacency and should not be relied upon.**
+
+`isAdjacentToModified()` in `v0.4.7/exp033_feature_state.js` (lines 122–140) tests only whether a face shares an **orientation label** with a directly-modified face — its own source comment states "This is a simplification - true adjacency would require topology analysis." On an axis-aligned cube, no two distinct faces ever share an orientation, and the fillet/chamfer face itself is `NON_AXIS`, so this function is structurally incapable of ever returning `true` for +X/+Y against a fillet/chamfer/hole feature, regardless of real edge-sharing topology. Geometrically, a fillet/chamfer along the edge shared by the +X and +Y faces is, by construction (SolidWorks edge features operate on an edge shared by exactly two faces), adjacent to both faces. The claim "signature changes occur without adjacency" (§5.4, §6.3 of the evidence file) is therefore **not established** by this experiment; real topological adjacency was never measured. The "Adjacent to Modified" counts in EXP-033 §4.4 use the same flawed heuristic and should not be cited as adjacency counts.
+
+This does not affect EXP-033's H1/H2/H3/H5/H6 conclusions, which do not depend on `isAdjacentToModified()`.
+
+Downstream: `OPEN_QUESTIONS.md` OQ-032/OQ-033 restate "without adjacency" — corrected there. `FAILED_HYPOTHESES.md` FH-031 records this as Falsified/Confidence:High — corrected there (status downgraded to reflect that the test was invalid, not that the hypothesis was confirmed).
+
+**Recommended fix if corpus becomes available:** replace the orientation-collision heuristic with a real edge/vertex-sharing adjacency check computed from vertex coordinates (available in the same face records), then re-run H4.
+
+See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding A).
+
 ---
 
 ## EXP-034: Controlled Transformation Invariance of Block1/Block2
@@ -856,3 +879,15 @@ Source migrated from `v0.3.5/docs/research/EXPERIMENT_LOG.md`.
 **Date last updated**: 2026-08-14
 
 **Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP036.md`, `v0.4.7/EXP036_RESULTS.json`, `v0.4.7/EXP036_SUMMARY.md`
+
+### CORRECTION NOTE (2026-08-14, Archivist Audit)
+
+**The quantitative "added" column in the Cross-Model Analysis table is unreliable and should not be cited as evidence.**
+
+`computeTokenDiff()` in `v0.4.7/exp036_feature_class_differential.js` (lines 104–191) buckets faces by orientation label and only classifies a model face as `'added'` if its orientation is entirely absent from C00's 6 occupied buckets. Verified directly against `v0.4.7/EXP036_RESULTS.json`: `structuralComparison.C04_cube_hole_5mm.tokenDiffSummary.added = 0` and `structuralComparison.C10_cube_shell_1mm.tokenDiffSummary.added = 0`, with empty `addedFaceDetails` in both — even though C04 genuinely gained a 7th (cylindrical) face and C10 genuinely gained 5 new inner-wall faces (both independently established: C04's face count in `CORPUS_AUDIT.json`/EXP-027's "+1 face" language; C10's 5 new faces directly in EXP-035, `knowledge/evidence/2026-08-14_v0.4.7-EXP035.md`). Both new-face sets were silently dropped from the diff because their orientation labels collided with an already-occupied C00 bucket (a hole's near-zero-average-normal cylindrical face, and shell's inward-facing walls that mirror an existing outer wall's bucket) and lost the greedy best-match competition. Only the fillet/chamfer's new face happens to land on a genuinely novel `NON_AXIS(...)` orientation, which is why it is the only one detected.
+
+Consequence: the table's claim `added: avg=1.00 (fillet/chamfer) vs avg=0.00 (holes/shell) — Distinguishes: YES` is misleading — holes and shell add faces too; the metric just fails to see it. "Adds a face" is therefore **not, by itself,** what distinguishes fillet/chamfer from hole/shell in this corpus (all four feature types add at least one face). What may still distinguish them — untested directly here — is whether the added face shares an edge with a **pre-existing** face (splitting that face's original boundary) versus being bounded entirely by brand-new edges. EXP-036 itself is appropriately conservative about this: H4 (Topology), H6 (Serialization position), and H7 (Feature type) are correctly marked **UNKNOWN**, not falsified, and H8 ("adding a new face at an edge") is offered as a plausible domain-informed inference (fillet/chamfer are CAD "edge features" by definition) rather than as something this script directly measured.
+
+This does not overturn EXP-036's core qualitative finding — independently corroborated in EXP-033/EXP-035 by direct per-face comparison, not by this orientation-bucket algorithm — that +X/+Y token changes occur under fillet/chamfer and not under hole/shell. It does mean the "added" statistic should not be cited as supporting evidence for *why*.
+
+See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) and the confound analysis appended to `NEXT_QUESTIONS.md` NQ-027.

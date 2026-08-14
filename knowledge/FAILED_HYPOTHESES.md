@@ -640,6 +640,17 @@ These tests cannot fail by design and provide no information about the data.
 **Date last updated**: 2026-08-14
 
 ---
+### CORRECTION NOTE (2026-08-14, Archivist Audit)
+
+**Status effectively downgraded: this hypothesis was never genuinely tested, so it cannot be recorded as Falsified with High confidence.**
+
+The disproving script's adjacency check (`isAdjacentToModified()` in `v0.4.7/exp033_feature_state.js`) tests only whether a face shares an orientation *label* with a directly-modified face, not real topological (edge/vertex-sharing) adjacency — see the function's own source comment. On this cube corpus the test is structurally incapable of ever returning `true` for +X/+Y against a fillet/chamfer feature, so "signature changes occur without adjacency" does not follow from the data; adjacency (in the geometric sense) was never computed. Geometrically, a fillet/chamfer along the edge shared by +X and +Y is, by construction, adjacent to both.
+
+**Corrected status: Unknown (test invalid) — not Falsified, not Verified.** The original entry above is retained unmodified for historical continuity per policy. Re-testing requires a real edge/vertex-sharing adjacency computation from vertex coordinates, which the corpus data supports but which was not implemented in `v0.4.7/exp033_feature_state.js`.
+
+See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding A).
+
+---
 
 ## FH-032: Block1 Tokens Encode Geometric Transformations
 

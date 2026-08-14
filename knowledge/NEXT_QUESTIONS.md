@@ -463,3 +463,36 @@ Statuses:
 **Evidence to archive**: Comparison of C03/C09 (which add a new face) vs C04/C05/C10/C11 (which do not); analysis of the added face's properties; analysis of token change patterns.
 
 **Last updated**: 2026-08-14
+
+**AUDIT NOTE (2026-08-14, Archivist Audit) — confound analysis before running any follow-up experiment:**
+
+This question's premise ("adding a new face at an edge correlates with global token-signature changes") is plausible but not yet cleanly isolated from several confounds present in the current corpus. Full detail in `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md`.
+
+1. **"Adds a face" is not the discriminator.** EXP-036's own "added" metric (0 for holes/shell) is a measurement artifact of an orientation-bucket-collision bug in `exp036_feature_class_differential.js` — holes and shell also add faces (C04: +1 cylindrical face; C10: +5 inner walls, per EXP-035), the script just fails to detect them. So all four feature types tested (fillet, chamfer, hole, shell) add at least one face; "adding a face" per se cannot be what separates the two groups.
+2. **"At an edge" has not been directly measured.** No script in EXP-027–036 computes real topological adjacency (shared edges/vertices) between the new face and existing faces. EXP-033's `isAdjacentToModified()` uses a same-orientation-label heuristic that cannot detect true adjacency on this corpus (Finding A in the audit file) — its "FALSIFIED" adjacency conclusion should be treated as untested, not as ruling adjacency out. "Adding a face at an edge" is currently a plausible domain-informed inference (fillet/chamfer are CAD edge features by definition) rather than a measured discriminator.
+3. **Single edge location tested.** C03 (fillet) and C09 (chamfer) both consistently change face index 2/3 (+X/+Y) — see EXP-033 §4.3. No evidence in the archive shows the fillet and chamfer were applied to *different* edges of the cube. If both were applied to the same edge, the corpus has tested one edge-feature location with two feature types, not multiple independent locations, and cannot distinguish "faces adjacent to *the* modified edge change" from "faces at index 2/3 change whenever any edge-type feature is applied, regardless of which edge."
+4. **Confounded variables not yet separated**, per the task's own list: feature type (edge feature vs. cut/hole feature) is perfectly confounded with "adds a face touching a pre-existing edge" in this corpus, because SolidWorks has no edge-modifying feature that doesn't also add a face, and no non-edge feature in the corpus that adds a face touching a pre-existing edge. Face ordering/serialization order is not ruled out either (face index happens to be identical across all compared models, so index-based and adjacency-based explanations remain indistinguishable with the current data).
+
+**Recommendation**: NQ-027 is a reasonable next research direction in principle, but should not be pursued via a repeat of EXP-036's methodology. See NQ-028 for the smallest experiment that would discriminate "location-specific/adjacency-based" from "feature-type/global-state-based" explanations. Do not promote H8 ("adding a new face at an edge") beyond Hypothesis status until that test (or an equivalent one) is run.
+
+---
+
+## NQ-028: Does Fillet/Chamfer Applied to a Different Edge Move the Affected Faces? (Smallest Discriminating Test for NQ-027)
+
+**Status**: Ready
+
+**Depends on**: EXP-033, EXP-036, and the confound analysis in NQ-027 above.
+
+**If answered**: Directly discriminates two competing explanations for the EXP-033/036 "global token change" effect: (a) **location/adjacency-based** — the specific faces that change are always the ones topologically adjacent to whichever edge was actually modified; vs. (b) **feature-type/global-state-based** — the same faces (index 2/3, +X/+Y) change whenever *any* edge-type feature (fillet/chamfer) is applied anywhere on the model, independent of which edge. The current corpus cannot distinguish these because only one edge (the one between +X and +Y) has ever been filleted/chamfered.
+
+**Proposed method** (not executed by this audit): Generate one additional controlled model — the same C00 base cube with a 1mm fillet (or chamfer) applied to a *different* edge, e.g. the edge shared by -X and -Y (or by +X and -Y), rather than the +X/+Y edge used by C03/C09. Parse it with the validated pipeline, compute face orientation via normals (as in EXP-032/033), and check which faces' Block1 token signatures change relative to C00.
+- If the changed faces are now -X/-Y (i.e., track the new edge location) → supports the location/adjacency-based explanation. This would justify implementing a real edge/vertex-sharing adjacency computation (replacing `isAdjacentToModified()`) and re-running EXP-033's H4.
+- If the changed faces are still +X/+Y (i.e., independent of which edge was modified) → falsifies the adjacency-based explanation and supports a feature-type or global-serialization-counter explanation instead (e.g., "the first edge-type feature in the tree always perturbs faces 2/3" or a monotonically-incrementing internal ID unrelated to geometric location).
+
+Either outcome is a clean falsification of one branch, making this the highest information-gain single experiment available for NQ-027. It requires generating exactly one new SLDPRT file (not currently in the archived corpus) — no new tooling.
+
+**Will eliminate or constrain**: NQ-027, OQ-032, OQ-033, OQ-036.
+
+**Evidence to archive**: New model's Block1 token signatures by orientation, side-by-side with C00/C03/C09; explicit statement of which edge was modified; face index/orientation table matching EXP-033 §4.3's format.
+
+**Last updated**: 2026-08-14 (added by Archivist Audit)

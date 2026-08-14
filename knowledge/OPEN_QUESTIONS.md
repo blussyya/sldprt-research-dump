@@ -626,6 +626,8 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 
 **Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP033.md`, `v0.4.7/EXP033_FEATURE_STATE.json`.
 
+**CORRECTION NOTE (2026-08-14, Archivist Audit)**: The "Evidence so far" text above states signature changes occur "without adjacency" — this is not established. EXP-033's adjacency test (`isAdjacentToModified()`) uses a same-orientation-label heuristic, not real topological adjacency, and is structurally incapable of detecting the +X/+Y faces as adjacent to a fillet/chamfer edge regardless of whether they truly are (geometrically, they should be, since a fillet/chamfer edge is shared by exactly those two faces). Treat "adjacency" as **untested**, not ruled out, when reasoning about this question. See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding A).
+
 ---
 
 ## OQ-033: Why Do Fillet and Chamfer Produce Identical Signature Changes?
@@ -705,3 +707,5 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 **Date last updated**: 2026-08-14
 
 **Related evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP033.md`, `knowledge/evidence/2026-08-14_v0.4.7-EXP035.md`, `knowledge/evidence/2026-08-14_v0.4.7-EXP036.md`.
+
+**CORRECTION NOTE (2026-08-14, Archivist Audit)**: EXP-036's own cross-model "added" statistic (used to argue holes/shell add 0 faces vs. fillet/chamfer's 1) is a measurement artifact, not a real count — see `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B). Holes and shell also add faces (C04 gains a cylindrical face; C10 gains 5 inner-wall faces, per EXP-035); the orientation-bucket algorithm in `exp036_feature_class_differential.js` silently drops them because their orientation collides with an existing C00 bucket. "Adds a face" is therefore not, by itself, the discriminator. The narrower "adding a new face at an edge [shared with a pre-existing face]" framing may still be correct, but it has not been directly measured (no edge/topology computation was performed) — it is currently a plausible domain-informed inference, not a tested result. Also unverified: whether the effect is specific to *which* edge is modified, since the corpus's fillet (C03) and chamfer (C09) appear to modify the same physical edge (both consistently change face index 2/3, i.e. +X/+Y) — see Finding E in the same audit file, and the confound analysis appended to `NEXT_QUESTIONS.md` NQ-027.
