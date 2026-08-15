@@ -479,13 +479,13 @@ This question's premise ("adding a new face at an edge correlates with global to
 
 ## NQ-028: Does Fillet/Chamfer Applied to a Different Edge Move the Affected Faces? (Smallest Discriminating Test for NQ-027)
 
-**Status**: Ready
+**Status**: Blocked — attempted 2026-08-14 (EXP-037), core question NOT answered. The controlled-corpus SLDPRT files are absent from this repository/environment entirely, and the archived JSON corpus contains exactly one fillet model (C03) and one chamfer model (C09), both confirmed (independently, by face-index tables in EXP-033 §4.3 and by EXP-037's own vertex-based adjacency computation) to modify the same physical edge. A new model is required; see `knowledge/evidence/2026-08-14_v0.4.7-EXP037.md` §6 for the exact specification (base = C00, 1mm fillet or chamfer on the edge shared by -X/-Y, suggested name `C12_cube_fillet_1mm_edge2`). EXP-037 did build and validate the analysis tooling this question needs (`v0.4.7/exp037_edge_location_and_adjacency.js`: real vertex/edge-sharing adjacency, centroid-distance face correspondence) — re-running it against the new model once generated requires no new code, only a new `VERTEX_ANALYSIS.json`-shaped entry for the new pair.
 
-**Depends on**: EXP-033, EXP-036, and the confound analysis in NQ-027 above.
+**Depends on**: EXP-033, EXP-036, EXP-037, and the confound analysis in NQ-027 above.
 
 **If answered**: Directly discriminates two competing explanations for the EXP-033/036 "global token change" effect: (a) **location/adjacency-based** — the specific faces that change are always the ones topologically adjacent to whichever edge was actually modified; vs. (b) **feature-type/global-state-based** — the same faces (index 2/3, +X/+Y) change whenever *any* edge-type feature (fillet/chamfer) is applied anywhere on the model, independent of which edge. The current corpus cannot distinguish these because only one edge (the one between +X and +Y) has ever been filleted/chamfered.
 
-**Proposed method** (not executed by this audit): Generate one additional controlled model — the same C00 base cube with a 1mm fillet (or chamfer) applied to a *different* edge, e.g. the edge shared by -X and -Y (or by +X and -Y), rather than the +X/+Y edge used by C03/C09. Parse it with the validated pipeline, compute face orientation via normals (as in EXP-032/033), and check which faces' Block1 token signatures change relative to C00.
+**Proposed method** (generation not executed — analysis tooling built and validated in EXP-037, 2026-08-14): Generate one additional controlled model — the same C00 base cube with a 1mm fillet (or chamfer) applied to a *different* edge, e.g. the edge shared by -X and -Y (or by +X and -Y), rather than the +X/+Y edge used by C03/C09. Parse it with the validated pipeline (or, for consistency with EXP-037, extract full per-face vertex arrays the way `vertex_analysis.js` does), and run `v0.4.7/exp037_edge_location_and_adjacency.js`'s `analyzePair`/`computeAdjacency`/`matchFaces` against a new `C00_cube_10mm_vs_C12_...` pair to check which faces' Block1 token signatures change relative to C00, and whether the real (vertex-computed) adjacency set moves with the new edge.
 - If the changed faces are now -X/-Y (i.e., track the new edge location) → supports the location/adjacency-based explanation. This would justify implementing a real edge/vertex-sharing adjacency computation (replacing `isAdjacentToModified()`) and re-running EXP-033's H4.
 - If the changed faces are still +X/+Y (i.e., independent of which edge was modified) → falsifies the adjacency-based explanation and supports a feature-type or global-serialization-counter explanation instead (e.g., "the first edge-type feature in the tree always perturbs faces 2/3" or a monotonically-incrementing internal ID unrelated to geometric location).
 
@@ -495,4 +495,4 @@ Either outcome is a clean falsification of one branch, making this the highest i
 
 **Evidence to archive**: New model's Block1 token signatures by orientation, side-by-side with C00/C03/C09; explicit statement of which edge was modified; face index/orientation table matching EXP-033 §4.3's format.
 
-**Last updated**: 2026-08-14 (added by Archivist Audit)
+**Last updated**: 2026-08-14 (added by Archivist Audit; status updated same day after EXP-037 attempt)

@@ -891,3 +891,32 @@ Consequence: the table's claim `added: avg=1.00 (fillet/chamfer) vs avg=0.00 (ho
 This does not overturn EXP-036's core qualitative finding — independently corroborated in EXP-033/EXP-035 by direct per-face comparison, not by this orientation-bucket algorithm — that +X/+Y token changes occur under fillet/chamfer and not under hole/shell. It does mean the "added" statistic should not be cited as supporting evidence for *why*.
 
 See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) and the confound analysis appended to `NEXT_QUESTIONS.md` NQ-027.
+
+---
+
+## EXP-037: NQ-028 — Edge-Location Discrimination + Corrected Adjacency/Correspondence Tooling
+
+**Question**: NQ-028 — does moving a fillet/chamfer to a *different* physical cube edge move the Block1 token changes to the corresponding faces (spatial/adjacency, Hypothesis A), or do the same +X/+Y faces change regardless of feature location (global/feature-type state, Hypothesis B)?
+
+**Status**: **NQ-028's core question NOT answered.** Before writing any analysis code, checked whether the existing corpus could answer it: the controlled-corpus SLDPRT files (`test files original/controlled/`) are absent from this repository and from the entire container filesystem (confirmed by search), and the archived JSON corpus contains exactly one fillet model (C03) and one chamfer model (C09), both confirmed (independently, via face-index tables in EXP-033 §4.3 and via this experiment's own vertex-based adjacency computation) to modify the *same* physical edge (shared by +X and +Y). No second-edge model exists anywhere. Per the task constraint against faking an answer from C03/C09, NQ-028 is left unanswered, and a full specification for the required new model (`C12_cube_fillet_1mm_edge2` or equivalent, 1mm fillet/chamfer on the edge shared by -X/-Y, all else identical to C00/C03/C09) is documented for a future session.
+
+**What was done instead**, using only already-archived data (no SLDPRT files needed): built and validated a corrected, reusable adjacency + face-correspondence tool, addressing both defects flagged by the 2026-08-14 archivist audit as NQ-028 prerequisites.
+
+- **Corrected face correspondence** (fixes Finding B / EXP-036's orientation-bucket bug): scores every (C00 face, feature-model face) pair by **centroid distance** rather than orientation label or raw vertex-overlap fraction (an initial vertex-overlap version produced tied, ambiguous scores between the true corresponding face and an unrelated face, because every cube corner is shared by three faces). Re-derives, with zero discrepancies against independently-established ground truth (EXP-027/EXP-035), that fillet/chamfer/hole/shell **all** add at least one new face: C03 +1, C09 +1, C04 +1 (cylindrical), C10 +5 (inner walls) — where EXP-036's algorithm reported 0 for the hole and shell.
+- **Corrected adjacency** (fixes Finding A / EXP-033's same-orientation-label `isAdjacentToModified()`): counts genuinely shared vertices (≥2 = shares an edge) between faces, computed from the full per-face vertex coordinate arrays already archived in `VERTEX_ANALYSIS.json`. For both C03 and C09, the new feature face's real within-model adjacency set is exactly {+X, +Y, +Z, -Z} — i.e. the two directly-modified faces (+Z/-Z) plus the two faces whose token signature changed without direct modification (+X/+Y) — and excludes -X/-Y, whose tokens are unchanged.
+- **Cross-check**: for the one edge this corpus contains, the real-adjacency set (computed from vertex coordinates) is **exactly equal** to the set of faces with a changed Block1 token array, for both fillet and chamfer. This upgrades "the +X/+Y faces that change are genuinely adjacent to the new feature face" from an unmeasured "by construction" assumption to a directly measured fact — but remains correlational (not causal) and single-edge (not general).
+- **Contrast case (shell)**: shell's 5 new inner-wall faces ARE, by the same real-adjacency test, adjacent to several of its unmodified outer walls — yet EXP-035 independently established those outer walls keep identical tokens to C00. Real adjacency to a new face is therefore **not universally sufficient** for a token change across the feature types tested; the fillet/chamfer correlation does not generalize into a universal law.
+
+**Hypotheses strengthened**: "+X/+Y faces changed in C03/C09 are genuinely topologically adjacent to the new feature face" (now measured, not assumed). "All four feature types tested add at least one new face" (now reproduced by a second, independent, geometry-based method).
+
+**Hypotheses weakened/falsified**: None newly falsified. "Adjacency causes token change," if read as a *universal* cross-feature-type rule, is weakened by the shell contrast — scope-narrowed to "correlated for fillet/chamfer, on this edge," not falsified for that narrower claim.
+
+**Files tested**: No SLDPRT files (none available). Data sources: `v0.4.7/VERTEX_ANALYSIS.json`, `v0.4.7/EXP033_FEATURE_STATE.json`, `v0.4.7/EXP035_RESULTS.json` — covering C00, C03, C04, C09, C10.
+
+**Faces/models tested**: 56 face-records across 4 model pairs (C00↔C03, C00↔C09, C00↔C04, C00↔C10).
+
+**Confidence**: High for the corrected added-face census (reproduces independent ground truth with zero discrepancies). Strong Evidence (not Verified — single edge, correlational) for the real-adjacency-equals-token-change-set finding. None for NQ-028's core edge-location-generality question — explicitly not attempted; requires new data.
+
+**Date last updated**: 2026-08-14
+
+**Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP037.md`, `v0.4.7/EXP037_RESULTS.json`, `v0.4.7/EXP037_SUMMARY.md`, `v0.4.7/exp037_edge_location_and_adjacency.js`

@@ -651,6 +651,13 @@ The disproving script's adjacency check (`isAdjacentToModified()` in `v0.4.7/exp
 See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding A).
 
 ---
+### UPDATE (2026-08-14, EXP-037)
+
+The re-test recommended above was performed, using a real edge/vertex-sharing adjacency computation (`v0.4.7/exp037_edge_location_and_adjacency.js`) against archived per-face vertex coordinates. Result: for the one edge this corpus contains (C03/C09), the real adjacency set of the new feature face is exactly {+X, +Y, +Z, -Z} — precisely the set of faces whose token signature changed. This is the **opposite** of this hypothesis's original "Falsified" claim: it is evidence *for*, not against, "token signatures depend on adjacency to modified geometry" — at least for fillet/chamfer, on this one edge.
+
+**This hypothesis should NOT be re-recorded as Falsified.** It also should not yet be promoted to Verified/Strong-Evidence-general: (a) it is correlational, not causal, on a single edge (NQ-028, still blocked on a new model, is the test that would generalize or falsify it); (b) the shell contrast case in EXP-037 shows real adjacency to a new face does NOT reliably produce a token change for shell (its new inner walls are adjacent to unmodified, token-identical outer walls per EXP-035) — so "adjacency" is not a universal sufficient condition across feature types, only a fillet/chamfer-specific correlation so far. **Current status: Strong Evidence (fillet/chamfer, single edge) — not Falsified, not a general Verified invariant.** See `knowledge/evidence/2026-08-14_v0.4.7-EXP037.md` §3–§5.
+
+---
 
 ## FH-032: Block1 Tokens Encode Geometric Transformations
 
