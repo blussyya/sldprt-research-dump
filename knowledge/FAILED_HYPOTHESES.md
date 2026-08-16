@@ -603,21 +603,21 @@ These tests cannot fail by design and provide no information about the data.
 
 ## FH-030: Token Signatures Depend on Direct Feature Modification
 
-**Status**: Falsified
+**Status**: Falsified (EXP-033, original claim) — **CORRECTION (2026-08-16, EXP-039): this falsification is unreliable, mirroring the correction already applied to FH-031 on 2026-08-14/15.** EXP-033's claim that +X/+Y are "NOT directly modified" used `ec`/`vc`/`secCount`/`b1Len` staying constant as the modification criterion. But `exp037_edge_location_and_adjacency.js`'s `facesIdentical()` (built 2026-08-14, used ever since) already compares full per-vertex coordinates, and its own raw output (`EXP037_RESULTS.json`, `EXP038_RESULTS.json`) records `identical: false` for exactly these faces — their corner vertex nearest the fillet/chamfer moves from `0.01` to `~0.009` while vertex count stays 4. This signal existed since 2026-08-14 but was never used to revisit FH-030, even though the equivalent adjacency signal was used to correct FH-031 on the same/following days. EXP-039 (2026-08-16) surfaced it explicitly and cross-tabulated it against token-changed status: every face with `identical: false` that has a token comparison recorded also has a changed token (11/11, no counterexamples across the corpus tested through EXP-039). **The original hypothesis (H3, direct modification) is NOT falsified; on the vertex-coordinate-based definition it holds with 0 counterexamples in the tested corpus.** This entry is retained per evidence-preservation policy; do not delete the original text below.
 
 **Original hypothesis**: Token signatures depend on whether a face is directly modified by a feature.
 
-**Evidence against**: EXP-033 found that signature changes occur on +X/+Y faces, which are NOT directly modified by fillet/chamfer features.
+**Evidence against (EXP-033, now known unreliable)**: EXP-033 found that signature changes occur on +X/+Y faces, which are NOT directly modified by fillet/chamfer features.
 
-**Disproving experiment**: EXP-033
+**Disproving experiment**: EXP-033 — **superseded by EXP-039**, which found the disproof relied on a modification criterion (ec/vc/secCount/b1Len) that the project's own later, more careful tooling (EXP-037/038) already contradicts via vertex-coordinate comparison. See `knowledge/evidence/2026-08-16_v0.4.7-EXP039.md`.
 
 **Files tested**: C00, C03, C04, C05, C09, C11
 
 **Faces/models tested**: 41 faces across 6 models
 
-**Confidence**: High
+**Confidence**: High (original claim) — **now Low/rejected**, see correction. EXP-039's corrected finding carries High confidence (real vertex-coordinate measurement, already computed by validated tooling, 11/11 consistent, 0 counterexamples in the tested corpus).
 
-**Date last updated**: 2026-08-14
+**Date last updated**: 2026-08-16 (correction); original 2026-08-14
 
 ---
 

@@ -504,3 +504,23 @@ Either outcome is a clean falsification of one branch, making this the highest i
 **Evidence to archive**: New model's Block1 token signatures by orientation, side-by-side with C00/C03/C09; explicit statement of which edge was modified; face index/orientation table matching EXP-033 §4.3's format. **Archived**: `knowledge/evidence/2026-08-15_v0.4.7-EXP038.md`, `v0.4.7/EXP038_RESULTS.json`, `v0.4.7/EXP038_SUMMARY.md`.
 
 **Last updated**: 2026-08-15 (answered by EXP-038; originally added 2026-08-14 by Archivist Audit)
+
+---
+
+## NQ-029: Is Adjacency-Without-Modification Ever Sufficient, and Can a Model Fully Isolate It From Direct Modification?
+
+**Status**: Partially Answered (EXP-039); fully isolating the co-occurring case is Blocked (requires a new SolidWorks model, design-stage only)
+
+**Depends on**: EXP-037, EXP-038, EXP-039
+
+**Answer (partial, EXP-039, 2026-08-16)**: Using shell (C10) and hole (C04) as controls where real adjacency and direct vertex modification come apart (unlike fillet/chamfer/C12, where they always co-occur), adjacency to changed/added geometry WITHOUT the face's own vertices moving never causes a token change: 0/12 across fillet, chamfer, hole, and shell, extending EXP-037's single qualitative shell observation to a quantified, multi-feature-type result. This makes direct modification the parsimonious explanation for every case tested (11/11 modified faces changed token, 0 counterexamples).
+
+**What remains unanswered**: the complementary cell — direct modification WITHOUT any adjacency to new/changed geometry — has zero examples in this corpus, and EXP-039 argues (topologically) that no feature which creates a new face by editing an existing face's boundary loop can produce one: gaining a shared boundary with a new face is itself a boundary change for the neighbor, so "adjacent to new face" and "directly modified" are coextensive for that class of feature by construction. Testing modification-in-total-isolation from adjacency would need a fundamentally different mechanism.
+
+**Proposed model** (`C14`, design-stage only, NOT built, NOT verified against real SolidWorks behavior): same `C00_cube_10mm` base, with a Split Line (or equivalent projected-curve/sketch-split feature) bisecting the +Z face into two coplanar rectangular halves (e.g. a line at `x=0.005`, spanning `y=0` to `y=0.01`, projected onto +Z). Predicted (unverified) effect: adds one new internal edge and two new vertices to +Z, splitting it into two new faces, without moving any of +Z's four original corner vertices and without touching any of the four side walls' own vertices at all. If the four side walls remain token-unchanged despite each now bordering one of the two new half-faces instead of the single original +Z face, that extends EXP-039's finding to a case with zero vertex perturbation anywhere near the new boundary. If their tokens DO change, that is the first case where pure new-face adjacency (with provably zero modification) causes a change, overturning EXP-039's interpretation. See `knowledge/RESEARCH_HANDOFF.md` "Possible Future Directions" for the same spec.
+
+**Will eliminate or constrain**: OQ-032, OQ-033, OQ-036, Current Unknown #5 in `RESEARCH_HANDOFF.md`.
+
+**Evidence to archive**: C14's Block1 tokens for the four side walls, before/after comparison against C00, real vertex-coordinate identity check for the side walls (expect: 100% identical), real adjacency check between each side wall and the two new split-half faces (expect: newly adjacent, 0 shared vertices with old +Z beyond the unchanged corners).
+
+**Last updated**: 2026-08-16

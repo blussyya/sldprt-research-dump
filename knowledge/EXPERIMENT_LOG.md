@@ -944,3 +944,33 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) an
 **No further experiment begun** (per instruction). See `knowledge/evidence/2026-08-15_v0.4.7-EXP038.md` Section 6 "Highest-information next experiment" for context only.
 
 **Raw evidence**: `knowledge/evidence/2026-08-15_v0.4.7-EXP038.md`, `v0.4.7/EXP038_RESULTS.json`, `v0.4.7/EXP038_SUMMARY.md`, `v0.4.7/exp038_nq028_c12_second_edge.js`
+
+---
+
+## EXP-039: Is Direct Vertex Modification Necessary for a Token Change?
+
+**Status**: Complete
+
+**Continuity note**: This session started on a stale branch cut before EXP-037/038 existed, and initially built an independent re-derivation under the same "EXP-037" name before discovering the real `claude` branch (via a git push ref conflict) already contained the genuine EXP-037/038 plus a 2026-08-14 archivist audit. That independent work is superseded; EXP-039 continues from the real EXP-037/038 state rather than restating it.
+
+**Question**: EXP-038 states that "real topological adjacency to the new face" and "this face's own vertices were directly, if minutely, modified by the trim" are indistinguishable for any single edge-type feature (fillet/chamfer/C12) in this corpus, because a trim that creates adjacency is itself a modification of the trimmed face's boundary. Is there anything in the existing corpus that separates these two properties, and if so, does adjacency alone (without the face's own vertices moving) ever produce a token change?
+
+**Method**: Reused `vertClose`/`sharedVertexCount` (copied verbatim, cited in-file) from the already-validated `exp037_edge_location_and_adjacency.js`. Read all correspondence/adjacency/token data from `EXP037_RESULTS.json`, `EXP038_RESULTS.json`, `EXP035_RESULTS.json` — no Block1/Block2 extraction, correspondence, or adjacency logic re-implemented. For every face recorded `identical: true` (full vertex-coordinate equality — this is what the existing `facesIdentical()` already checks, not merely ec/vc/secCount/b1Len) in a modified model, computed real adjacency (>=2 shared vertices) to any `identical: false` or newly `added` face in the same model, cross-referenced against the already-validated token-changed verdict.
+
+**Evidence / facts**:
+
+- `EXP037_RESULTS.json`/`EXP038_RESULTS.json` already record `identical: false` (real vertex-coordinate mismatch, not just ec/vc/secCount/b1Len) for C03/C09's +X/+Y and C12's -X/-Y — the exact faces every prose write-up (including `FAILED_HYPOTHESES.md` FH-030) still describes as "not directly modified." This signal existed since 2026-08-14 but was never used to correct FH-030, even though the matching adjacency signal WAS used to correct FH-031 on the same dates.
+- Cross-tabulation across C03, C09, C04, C10, C12 (12 genuinely-unmodified-and-real-adjacent-to-changed/added-geometry face instances, 3 genuinely-unmodified-and-not-adjacent controls): **0/12 token-changed** in the adjacent-without-modification cell, **0/3** in the not-adjacent control cell.
+- This extends EXP-037's single qualitative shell observation ("shell's new inner walls are adjacent to unmodified, token-identical outer walls") into a quantified result spanning 4 feature types (fillet, chamfer, hole, shell) and 2 independent edge locations (C03/C09's edge, C12's edge).
+- **FH-030 is corrected** (see FAILED_HYPOTHESES.md): its "Falsified" verdict used ec/vc/secCount/b1Len as the modification criterion; the same validated pipeline's own `identical` field already contradicts it.
+- The confound EXP-038 identified for the co-occurring case (adjacency and direct modification both present, as in C03/C09/C12) is not resolved by this experiment, and is argued — not just observed — to be structurally unresolvable for any feature that creates a new face by editing an existing face's boundary loop: gaining a shared boundary with a new face is, by construction, a change to the neighbor's own boundary.
+
+**Files tested**: No new SLDPRT parsing; reused already-validated JSON covering C00, C03, C04, C09, C10, C12.
+
+**Faces/models tested**: 15 face-instances with known token status, across 5 model pairs.
+
+**Confidence**: High (real, verified vertex-coordinate data, 0 counterexamples) that adjacency alone, without direct modification, does not cause a token change, across the feature types tested. Medium-high (structural/topological argument, not exhaustive search) that the co-occurring case is unresolvable for this feature class without a fundamentally different feature type.
+
+**Date last updated**: 2026-08-16
+
+**Raw evidence**: `knowledge/evidence/2026-08-16_v0.4.7-EXP039.md`, `v0.4.7/EXP039_DIRECT_MODIFICATION_NECESSITY.json`, `v0.4.7/EXP039_SUMMARY.md`, `v0.4.7/exp039_direct_modification_necessity.js`
