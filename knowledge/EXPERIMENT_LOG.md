@@ -921,6 +921,8 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) an
 
 **Raw evidence**: `knowledge/evidence/2026-08-14_v0.4.7-EXP037.md`, `v0.4.7/EXP037_RESULTS.json`, `v0.4.7/EXP037_SUMMARY.md`, `v0.4.7/exp037_edge_location_and_adjacency.js`
 
+**CORRECTION NOTE (2026-08-16, Audit + EXP-040)**: The "Contrast case (shell)" bullet above is factually wrong. It names C10 indices 7 and 9 (via the underlying summary) as "unmodified outer walls" adjacent to the new inner-wall faces — indices 6-10 are all new inner-wall faces (per this same entry's own face-record description), not outer walls. Two independent recomputations (reusing EXP-037's own already-computed adjacency records, and a from-scratch shared-vertex recount from raw `VERTEX_ANALYSIS.json` coordinates) both find zero shared vertices between any new C10 inner-wall face and any of its five genuinely unmodified outer walls — the new faces are real-adjacent only to the shell's own directly-modified opening face and to each other. Shell therefore is not a counterexample to the adjacency correlation; it supplies no adjacent-but-unchanged test case at all. The "Hypotheses weakened/falsified" line above (shell contrast narrowing the claim's scope) is likewise withdrawn — nothing in this corpus currently weakens the fillet/chamfer adjacency correlation. `EXP037_RESULTS.json`'s own computed data was correct throughout; only this entry's and the source documents' prose interpretation was wrong. See `knowledge/evidence/2026-08-16_v0.4.7-EXP040.md` and the EXP-040 entry below.
+
 ---
 
 ## EXP-038: NQ-028 — C12 (Second-Edge Fillet) vs C00 and C03
@@ -974,3 +976,33 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) an
 **Date last updated**: 2026-08-16
 
 **Raw evidence**: `knowledge/evidence/2026-08-16_v0.4.7-EXP039.md`, `v0.4.7/EXP039_DIRECT_MODIFICATION_NECESSITY.json`, `v0.4.7/EXP039_SUMMARY.md`, `v0.4.7/exp039_direct_modification_necessity.js`
+
+**Note added by the following EXP-040 (2026-08-16, reconciliation of two independently-run "EXP-039"s)**: this experiment's own adjacency data (freshly computed via `sharedVertexCount`, not taken from EXP-037's prose) already agrees with EXP-040's correction below — none of its 12 "adjacent-and-unmodified" data points rely on the erroneous "shell inner walls adjacent to unmodified outer walls" claim (verified by re-running this experiment's script and inspecting its per-row output: shell's contribution to the 12 comes entirely from outer walls' real adjacency to shell's own directly-modified opening face, not to the new inner walls). No correction to this entry's own findings is needed.
+
+---
+
+## EXP-040: Full-Corpus Adjacency Cross-Check + Correction of EXP-037's Shell Contrast Case
+
+**Question**: Follow-up to a 2026-08-16 independent audit of EXP-037/038. Two parts: (1) extend EXP-037's real-adjacency-vs-token-change crossCheck (built only for C03/C09) to the two feature types it skipped (C04 hole, C10 shell), using only already-archived `EXP037_RESULTS.json` data; (2) independently re-derive C10's real adjacency from raw vertex coordinates, after the audit found EXP-037's written "shell contrast case" claim named the wrong faces as "unmodified outer walls."
+
+**Status**: Complete. **Result**: (1) Full-corpus tally across all four feature types (24 pre-existing-face checks): 10 adjacent+changed, 0 adjacent+unchanged, 0 non-adjacent+changed, 13 non-adjacent+unchanged, 1 unknown (no archived comparison data for C10's own opening face). Zero exceptions in either direction. (2) C10's five new inner-wall faces (indices 6-10) have **zero** shared vertices with any of C10's five genuinely unmodified outer walls (indices 1-5) — confirmed by two independent methods (reusing EXP-037's own `adjacentToModelFaces` records, and a from-scratch shared-vertex recount from `VERTEX_ANALYSIS.json` raw coordinates). The new faces are real-adjacent only to the shell's own directly-modified opening face (index 0) and to each other. `EXP037_SUMMARY.md` §4 and `knowledge/evidence/2026-08-14_v0.4.7-EXP037.md` §5 had named indices 7 and 9 as "outer walls" the new faces were adjacent to — both are themselves new inner-wall faces, not outer walls, per the same documents' own face census. This was an error in the written interpretation only; `EXP037_RESULTS.json`'s own computed adjacency data was correct throughout and required no changes.
+
+**Consequence**: shell no longer counts as a counterexample to "real adjacency correlates with a token change" — it contributes zero adjacent-but-unchanged data points, not a disconfirming one. This does not newly prove the correlation universal (shell also contributes no new confirming case beyond fillet/chamfer's own). Correction notes appended (append-only, nothing rewritten) to `FAILED_HYPOTHESES.md` (FH-031), `OPEN_QUESTIONS.md` (OQ-032, OQ-036), the EXP-037 entry above, `RESEARCH_DASHBOARD.md`, `RESEARCH_HANDOFF.md`, `v0.4.7/EXP037_SUMMARY.md`, and `knowledge/evidence/2026-08-14_v0.4.7-EXP037.md`.
+
+**Independently-run, differently-scoped EXP-039 note**: this experiment was developed on a separate branch in parallel with the EXP-039 entry immediately above (which corrects FH-030 using adjacency-vs-direct-modification cross-tabulation). Both independently used the "EXP-039" number; this one is renumbered to EXP-040 during reconciliation. The two findings are compatible, not contradictory: EXP-039's own adjacency data was computed fresh (not taken from EXP-037's erroneous prose) and already agrees with this entry's correction — see the note appended to the EXP-039 entry above.
+
+**Methodological note**: this script's own first draft had a sign-inversion bug (token-equality read backwards, so "unchanged" was reported as "changed") — caught before use by checking the first run's C03 row against EXP-038's already-published table, not by post-hoc review. Fixed and re-run; corrected output matches EXP-038 exactly.
+
+**Hypotheses strengthened**: "Token signature changes correlate with real geometric adjacency to modified geometry" (FH-031) — the specific counter-evidence previously cited against generalizing past fillet/chamfer is retracted. Status remains Strong Evidence (fillet/chamfer, n=2 edges), not promoted further — this removes contrary evidence, it does not add new confirming evidence.
+
+**Hypotheses weakened/falsified**: None. This is a documentation correction, not a new geometric finding.
+
+**Files tested**: No SLDPRT files. Data sources: `v0.4.7/EXP037_RESULTS.json`, `v0.4.7/EXP033_FEATURE_STATE.json`, `v0.4.7/EXP035_RESULTS.json`, `v0.4.7/VERTEX_ANALYSIS.json`.
+
+**Faces/models tested**: 24 pre-existing-face checks across 4 model pairs (tabulation) + 25 pairwise shared-vertex checks for the C10 independent recheck (5 new faces × 5 outer walls).
+
+**Confidence**: High — the tally is a direct read of already-validated data, and the shell recheck was independently reproduced two ways with matching results.
+
+**Date last updated**: 2026-08-16
+
+**Raw evidence**: `knowledge/evidence/2026-08-16_v0.4.7-EXP040.md`, `v0.4.7/EXP040_RESULTS.json`, `v0.4.7/EXP040_SUMMARY.md`, `v0.4.7/exp040_full_corpus_adjacency_crosscheck.js`

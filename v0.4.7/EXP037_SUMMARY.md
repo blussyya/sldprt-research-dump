@@ -138,6 +138,24 @@ about what happens at a different edge — see Interpretation below.
   fillet/chamfer specifically, on this one edge. Do not generalize past this without further
   testing.
 
+  > **CORRECTION NOTE (2026-08-16, Audit + EXP-040): the claim above is factually wrong and
+  > should not be relied on.** "Outer walls +Y and -Y" (or, in the more specific version of
+  > this claim in `knowledge/evidence/2026-08-14_v0.4.7-EXP037.md` §5, "outer walls at C10
+  > indices 7 and 9") are not outer walls at all — indices 6-10 are *all* new inner-wall
+  > faces, per this same document's own §1 face census. The claim named two members of the
+  > *added* set as if they were members of the *unchanged* set. Two independent
+  > recomputations (reusing this script's own already-computed `adjacentToModelFaces`
+  > records, and a from-scratch shared-vertex recount directly from `VERTEX_ANALYSIS.json`'s
+  > raw coordinates) both find **zero** shared vertices between any new inner-wall face and
+  > any of C10's five actual unmodified outer walls — the new faces are real-adjacent only to
+  > the shell's own directly-modified opening face and to each other. Shell therefore
+  > contributes no adjacent-but-unchanged counterexample; it supplies no adjacency test case
+  > in either direction, since none of its unmodified faces are ever adjacent to new geometry.
+  > This does not newly prove universal sufficiency — it withdraws a specific piece of
+  > evidence that had been cited against it. `EXP037_RESULTS.json`'s own computed data was
+  > correct throughout; the error was in this prose paragraph only. See
+  > `knowledge/evidence/2026-08-16_v0.4.7-EXP040.md`.
+
 ## NEW MODEL REQUIRED (to actually answer NQ-028)
 
 This experiment could not, and does not claim to, discriminate Hypothesis A (spatial) from
