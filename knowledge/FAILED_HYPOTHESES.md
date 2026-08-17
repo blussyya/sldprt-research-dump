@@ -619,6 +619,8 @@ These tests cannot fail by design and provide no information about the data.
 
 **Date last updated**: 2026-08-16 (correction); original 2026-08-14
 
+**CORRECTION NOTE (2026-08-17, audit of EXP-037→EXP-040)**: The "11/11" figure in the 2026-08-16 correction above (and in "Confidence") is not supported by `EXP039_DIRECT_MODIFICATION_NECESSITY.json` — that script's `rows` array structurally excludes every directly-modified face by design (it only evaluates unmodified faces), so it never computed 11/11. Recomputed directly from `EXP037_RESULTS.json`/`EXP038_RESULTS.json`: 15 directly-modified (vertex-position) faces exist across the tested corpus, 14 with a confirmed token change, 1 with no archived token data. **Correct figure: 14/14 known cases, 1 unknown — not 11/11.** This does not change the correction's conclusion (FH-030 should read Unknown, not Falsified — the vertex-coordinate-based definition still holds with 0 counterexamples among the known cases); only the specific count is fixed. See `v0.4.7/EXP039_SUMMARY.md`'s matching correction note for the full derivation.
+
 ---
 
 ## FH-031: Token Signatures Depend on Adjacency to Modified Geometry
