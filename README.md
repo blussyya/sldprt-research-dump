@@ -10,6 +10,7 @@ The project-wide knowledge base is maintained under `knowledge/`:
 
 | File | Purpose |
 |------|---------|
+| `RESEARCH_HANDOFF.md` | Compact operational handoff for fresh Cowork/Claude Code sessions — read this first |
 | `KNOWN_INVARIANTS.md` | Verified structural properties demonstrated across the corpus |
 | `EXPERIMENT_LOG.md` | Ledger of every experiment with facts, hypotheses, and confidence |
 | `FAILED_HYPOTHESES.md` | Hypotheses that have been disproven |

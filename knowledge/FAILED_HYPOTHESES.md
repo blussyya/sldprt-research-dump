@@ -603,21 +603,23 @@ These tests cannot fail by design and provide no information about the data.
 
 ## FH-030: Token Signatures Depend on Direct Feature Modification
 
-**Status**: Falsified
+**Status**: Falsified (EXP-033, original claim) — **CORRECTION (2026-08-16, EXP-039): this falsification is unreliable, mirroring the correction already applied to FH-031 on 2026-08-14/15.** EXP-033's claim that +X/+Y are "NOT directly modified" used `ec`/`vc`/`secCount`/`b1Len` staying constant as the modification criterion. But `exp037_edge_location_and_adjacency.js`'s `facesIdentical()` (built 2026-08-14, used ever since) already compares full per-vertex coordinates, and its own raw output (`EXP037_RESULTS.json`, `EXP038_RESULTS.json`) records `identical: false` for exactly these faces — their corner vertex nearest the fillet/chamfer moves from `0.01` to `~0.009` while vertex count stays 4. This signal existed since 2026-08-14 but was never used to revisit FH-030, even though the equivalent adjacency signal was used to correct FH-031 on the same/following days. EXP-039 (2026-08-16) surfaced it explicitly and cross-tabulated it against token-changed status: every face with `identical: false` that has a token comparison recorded also has a changed token (11/11, no counterexamples across the corpus tested through EXP-039). **The original hypothesis (H3, direct modification) is NOT falsified; on the vertex-coordinate-based definition it holds with 0 counterexamples in the tested corpus.** This entry is retained per evidence-preservation policy; do not delete the original text below.
 
 **Original hypothesis**: Token signatures depend on whether a face is directly modified by a feature.
 
-**Evidence against**: EXP-033 found that signature changes occur on +X/+Y faces, which are NOT directly modified by fillet/chamfer features.
+**Evidence against (EXP-033, now known unreliable)**: EXP-033 found that signature changes occur on +X/+Y faces, which are NOT directly modified by fillet/chamfer features.
 
-**Disproving experiment**: EXP-033
+**Disproving experiment**: EXP-033 — **superseded by EXP-039**, which found the disproof relied on a modification criterion (ec/vc/secCount/b1Len) that the project's own later, more careful tooling (EXP-037/038) already contradicts via vertex-coordinate comparison. See `knowledge/evidence/2026-08-16_v0.4.7-EXP039.md`.
 
 **Files tested**: C00, C03, C04, C05, C09, C11
 
 **Faces/models tested**: 41 faces across 6 models
 
-**Confidence**: High
+**Confidence**: High (original claim) — **now Low/rejected**, see correction. EXP-039's corrected finding carries High confidence (real vertex-coordinate measurement, already computed by validated tooling, 11/11 consistent, 0 counterexamples in the tested corpus).
 
-**Date last updated**: 2026-08-14
+**Date last updated**: 2026-08-16 (correction); original 2026-08-14
+
+**CORRECTION NOTE (2026-08-17, audit of EXP-037→EXP-040)**: The "11/11" figure in the 2026-08-16 correction above (and in "Confidence") is not supported by `EXP039_DIRECT_MODIFICATION_NECESSITY.json` — that script's `rows` array structurally excludes every directly-modified face by design (it only evaluates unmodified faces), so it never computed 11/11. Recomputed directly from `EXP037_RESULTS.json`/`EXP038_RESULTS.json`: 15 directly-modified (vertex-position) faces exist across the tested corpus, 14 with a confirmed token change, 1 with no archived token data. **Correct figure: 14/14 known cases, 1 unknown — not 11/11.** This does not change the correction's conclusion (FH-030 should read Unknown, not Falsified — the vertex-coordinate-based definition still holds with 0 counterexamples among the known cases); only the specific count is fixed. See `v0.4.7/EXP039_SUMMARY.md`'s matching correction note for the full derivation.
 
 ---
 
@@ -638,6 +640,34 @@ These tests cannot fail by design and provide no information about the data.
 **Confidence**: High
 
 **Date last updated**: 2026-08-14
+
+---
+### CORRECTION NOTE (2026-08-14, Archivist Audit)
+
+**Status effectively downgraded: this hypothesis was never genuinely tested, so it cannot be recorded as Falsified with High confidence.**
+
+The disproving script's adjacency check (`isAdjacentToModified()` in `v0.4.7/exp033_feature_state.js`) tests only whether a face shares an orientation *label* with a directly-modified face, not real topological (edge/vertex-sharing) adjacency — see the function's own source comment. On this cube corpus the test is structurally incapable of ever returning `true` for +X/+Y against a fillet/chamfer feature, so "signature changes occur without adjacency" does not follow from the data; adjacency (in the geometric sense) was never computed. Geometrically, a fillet/chamfer along the edge shared by +X and +Y is, by construction, adjacent to both.
+
+**Corrected status: Unknown (test invalid) — not Falsified, not Verified.** The original entry above is retained unmodified for historical continuity per policy. Re-testing requires a real edge/vertex-sharing adjacency computation from vertex coordinates, which the corpus data supports but which was not implemented in `v0.4.7/exp033_feature_state.js`.
+
+See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding A).
+
+---
+### UPDATE (2026-08-14, EXP-037)
+
+The re-test recommended above was performed, using a real edge/vertex-sharing adjacency computation (`v0.4.7/exp037_edge_location_and_adjacency.js`) against archived per-face vertex coordinates. Result: for the one edge this corpus contains (C03/C09), the real adjacency set of the new feature face is exactly {+X, +Y, +Z, -Z} — precisely the set of faces whose token signature changed. This is the **opposite** of this hypothesis's original "Falsified" claim: it is evidence *for*, not against, "token signatures depend on adjacency to modified geometry" — at least for fillet/chamfer, on this one edge.
+
+**This hypothesis should NOT be re-recorded as Falsified.** It also should not yet be promoted to Verified/Strong-Evidence-general: (a) it is correlational, not causal, on a single edge (NQ-028, still blocked on a new model, is the test that would generalize or falsify it); (b) the shell contrast case in EXP-037 shows real adjacency to a new face does NOT reliably produce a token change for shell (its new inner walls are adjacent to unmodified, token-identical outer walls per EXP-035) — so "adjacency" is not a universal sufficient condition across feature types, only a fillet/chamfer-specific correlation so far. **Current status: Strong Evidence (fillet/chamfer, single edge) — not Falsified, not a general Verified invariant.** See `knowledge/evidence/2026-08-14_v0.4.7-EXP037.md` §3–§5.
+
+### UPDATE (2026-08-15, EXP-038)
+
+NQ-028's blocking condition (no second edge in the corpus) is resolved: a real C12 model (1mm fillet, edge shared by -X/-Y, supplied by the user) was tested. Result: the real adjacency set again exactly equals the token-changed set — {-X,-Y,+Z,-Z} for C12, mirroring C03's {+X,+Y,+Z,-Z} — replicating (a) from the update above at a second, independent edge location. **This hypothesis should still NOT be recorded as Falsified, and is further strengthened toward (but still short of) Verified: current status upgraded to Strong Evidence, n=2 independently tested edges** (was: single edge). Caveats (a)/(b) from the 2026-08-14 update still apply unchanged: still correlational, not causal (mechanism unknown); shell's contrasting behavior (adjacency without a token change) still means this is not a universal cross-feature-type law. A new caveat identified by EXP-038: for edge-type features (fillet/chamfer) specifically, "real topological adjacency to the new face" and "this face's own vertices were directly, if minutely, modified by the trim" are indistinguishable in this corpus — both hypotheses predict the identical face set, since an edge fillet by construction trims exactly its two bordering faces. See `knowledge/evidence/2026-08-15_v0.4.7-EXP038.md` §6–§7.
+
+### CORRECTION NOTE (2026-08-16, Audit + EXP-040)
+
+**The "shell's contrasting behavior" caveat in the update immediately above is not supported by the data and should not be relied on.** A 2026-08-16 audit, followed up by EXP-040, found that EXP-037's claim of shell adjacency-without-a-token-change rests on a face-indexing error: `EXP037_SUMMARY.md` and its evidence file named C10 indices 7 and 9 as "unmodified outer walls" that the new inner-wall faces are adjacent to — but indices 7 and 9 are themselves new inner-wall faces (per the same documents' own face census), not outer walls. Two independent recomputations (one reusing EXP-037's own already-archived `adjacentToModelFaces` records, one a from-scratch shared-vertex recount directly from `VERTEX_ANALYSIS.json`'s raw coordinates, bypassing EXP-037's code entirely) both show **zero** shared vertices between any of C10's five new inner-wall faces and any of its five unmodified, token-identical outer walls. The new inner-wall faces are real-adjacent only to the shell's own directly-modified opening face and to each other. Shell therefore contributes **no** adjacent-but-unchanged counterexample at all — it simply supplies no adjacency test case in either direction, since none of its unmodified faces are ever adjacent to new geometry.
+
+**This does not newly prove "adjacency causes a token change" is a universal, cross-feature-type law** — it removes a specific piece of evidence that had been cited against that generalization; it does not add a new confirming case beyond what fillet/chamfer already established. Also unaffected: the n=2-edges caveat that the two tested edges (C03's +X/+Y, C12's -X/-Y) are related by the cube's own 180°-rotation symmetry, not fully independent samples (this was already disclosed in `EXP038_SUMMARY.md`'s "What This Does NOT Establish" point 4, but is repeated here since headline text elsewhere in this knowledge base sometimes drops that qualifier). **Current status unchanged at Strong Evidence, n=2 independently tested edges (symmetry-related) — not Verified, not Falsified.** A full corpus-wide adjacency/token-change tally (all four feature types, not just fillet/chamfer) is now 0 exceptions in either direction (10 adjacent+changed, 0 adjacent+unchanged, 0 non-adjacent+changed, 13 non-adjacent+unchanged, 1 unknown) — see `knowledge/evidence/2026-08-16_v0.4.7-EXP040.md`. This is compatible with, not contradicted by, the separately-run EXP-039 above (its own "0/12" figure already used fresh adjacency data, not the erroneous claim being corrected here).
 
 ---
 
