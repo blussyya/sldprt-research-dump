@@ -35,6 +35,7 @@ The project-wide knowledge base is maintained under `knowledge/`:
 | v0.4.4 | Global container survey (EXP-022), alternative header characterization (EXP-023), rejected candidate audit (EXP-024), serialization primitive frequency (EXP-025). Critical review of EXP-022-025 methodology. |
 | v0.4.5 | Corrected rerun of EXP-023/024 with the Block1→Block2 offset bug fixed. Block2 header valid 1,172/1,172; `secCount` non-degenerate; EXP-024 VALID = 1,172; INV-016/017/018 pass 100%. |
 | v0.4.6 | EXP-026 counterexample hunt for the secCount/alternative-header correlation. 0 counterexamples in 1,172 faces; recorded as INV-019 (correlation, not causal). |
+| v0.4.7 | Block1/Block2 token-semantics investigation on the controlled corpus (EXP-027–EXP-041). Includes the 2026-08-14 archivist audit, EXP-038's NQ-028 answer via C12, the EXP-039/EXP-040 corrections, and EXP-041 — the first from-source verification of the whole v0.4.7 record after the C00–C11 binaries were added. |
 
 > **Note:** The `v0.5` slot was an implementation (a parser), not a research version. It now lives under `parser/v0.1/` — see below.
 
@@ -75,6 +76,7 @@ sldprt-research-dump/
 │   ├── sldprt-faces.js
 │   └── step-parse.js
 ├── test files original/                 # Original .SLDPRT test files
+│   └── controlled/                      # C00–C12 controlled corpus (SLDPRT + STEP + STL each)
 ├── v0.2.1/                              # Early converter prototypes
 ├── v0.2.2/
 ├── v0.3.0/                              # Pre-knowledge-base research
@@ -90,5 +92,6 @@ sldprt-research-dump/
 ├── v0.4.3/                              # Alternative header investigation
 ├── v0.4.4/                              # Container survey & critical review
 ├── v0.4.5/                              # Corrected EXP-023/024 reruns (B2 offset fix)
-└── v0.4.6/                              # EXP-026 secCount/header correlation hunt
+├── v0.4.6/                              # EXP-026 secCount/header correlation hunt
+└── v0.4.7/                              # Token-semantics investigation (EXP-027–EXP-041)
 ```

@@ -1008,3 +1008,52 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) an
 **Date last updated**: 2026-08-16
 
 **Raw evidence**: `knowledge/evidence/2026-08-16_v0.4.7-EXP040.md`, `v0.4.7/EXP040_RESULTS.json`, `v0.4.7/EXP040_SUMMARY.md`, `v0.4.7/exp040_full_corpus_adjacency_crosscheck.js`
+
+---
+
+## EXP-041: Controlled Corpus Unblocked — From-Source Verification of the v0.4.7 Record
+
+**Question**: Commit `d0c6c54` (2026-09-13) added the real `model.SLDPRT`/`model.step`/`model.STL` files for C00–C11, removing the standing blocker recorded in `RESEARCH_HANDOFF.md` ("C00 through C11 are still archive-only", reconfirmed by EXP-037 via a full-filesystem search). Three questions become answerable for the first time: (1) are the supplied binaries the same models the entire v0.4.7 archive was derived from, or regenerated look-alikes? (2) do INV-016/017/018 hold when recomputed from source rather than from archived JSON? (3) do the five models no prior experiment analyzed for tokens or adjacency (C06, C07, C08, C11, and the C04↔C11 pair) change the H1b-vs-H2 confound described in `v0.4.7/RESEARCH_DESIGN_next_experiment.md`?
+
+**Status**: Complete.
+
+**Result (1) — Provenance: 11/11 EXACT_MATCH.** Every model in `CORPUS_AUDIT.json` re-parsed from its binary and compared field by field — per-face byte offsets (`verticesStart`, `gapStart`, `normalsStart`, `block1Start`, `block2Start`), `edgeCount`/`vertexCount`/`secCount`/`b1Len`, `sectionLens`, `loopSizes`, `b2Body`, vertex previews, normal previews, Block1 token previews. **0 mismatches in any field, in any face, in any model.** The supplied binaries are the models the v0.4.7 archive came from. This was a genuine risk worth checking first: a re-run of the SolidWorks COM build could have produced different tessellation and silently invalidated any comparison between fresh and archived measurements, and every EXP-027→EXP-040 conclusion is archive-based.
+
+**Result (2) — Invariants from source.** INV-016 94/94 faces; INV-017 273/273 sections; INV-018 94/94 faces; across all 13 controlled models, all PASS individually. *Anti-overclaim*: this is a new **data** path (binaries rather than archived JSON), not a new **code** path — extraction reuses `parser/v0.1`. It is not a fourth independent implementation in the sense EXP-016 was and must not be cited as one.
+
+**Result (3a) — C04→C06 (hole position only), NEW.** The cylindrical face's 70 vertices are translated by a single uniform delta, `[0.002, 0, 0]` exactly (one distinct delta across all 70, matching hole centre (5,5)→(7,5)), while `vc`(70), `secCount`(1) and `b1Len`(138) are unchanged — so both token arrays have equal length and are comparable element-wise. **Block1 tokens and `b2Body` are byte-identical.** First case in the corpus of a face whose own vertex coordinates all changed while its tokens did not, *inside a model pair where other faces did change* (faces 4/5 change, length-forced by INV-016). The prior evidence that raw vertex modification is not sufficient (H1a) rested entirely on C01/C02, whole-model similarity transforms that `matchFaces` cannot correspond at all (0 matched rows), so they never appear in a cross-tabulation. C06 supplies the same conclusion from a **local** change inside a non-similarity model edit. Does **not** falsify H1b (a pure translation is a similarity transform of the face itself). Sharpens H4: within one model pair, one face translates with unchanged tokens while two others change — the token change behaves as a per-face property, not a model-global one. Confirms, by measurement, the Candidate-E forecast in `RESEARCH_DESIGN_next_experiment.md` §4.
+
+**Result (3b) — C07→C08 (second hole only, 5→3 mm), NEW.** Face count 8→8, nothing added or removed. Side walls 0–3 **and** face 6 — the *first* hole's cylinder at centre (3,3), untouched by the edit — are identical in both vertices and Block1 tokens; faces 4, 5 and 7 change. Face 6 shares **35 vertices with face 4 and 35 with face 5**, both of which undergo large token changes. Per EXP-028 the DisplayList is re-serialized wholesale on any face change, yet five of eight faces come through byte-identical: **strongest H4 (global/serialization state) control in the project**, and the first on a pair with a genuine *non-similarity* feature edit. Also extends EXP-039's R2 relation ("one-hop propagation from an already-modified neighbour does not occur", previously 12/12) to the highest-contact case in the corpus.
+
+**Result (3c) — C04→C11 and C04→C07.** C04→C11 behaves as C04→C05: every changed face is `b1Len`-forced by INV-016, therefore low-information, exactly as `RESEARCH_DESIGN_next_experiment.md` §2/H5 predicted for the diameter series. C04→C07 reports `removed=[6], added=[6,7]` — `matchFaces` correctly declines to force-match C04's centre-(5,5) cylinder to either of C07's (3,3)/(7,7) cylinders.
+
+**Result (4) — The discriminating cell is still empty, now corpus-wide.** Cross-tabulation over 12 pairs and 65 matched face correspondences:
+
+| | adjacent to a NEW face | not adjacent to a new face |
+|---|---|---|
+| vertices changed | 17 rows — 17 token-changed, 0 unchanged | 12 rows — 11 changed, 1 unchanged (C06 cylinder) |
+| vertices unchanged | **0 rows — EMPTY** | 36 rows — 0 changed, 36 unchanged |
+
+`RESEARCH_DESIGN_next_experiment.md` §1 established the empty cell over five feature models; it now holds over the **complete 13-model corpus**. The confound between H1b (non-similarity modification of the face itself) and H2 (adjacency to newly created geometry) is confirmed **structural to this corpus**, not an artifact of which subset had been examined. **The five newly supplied models do not break it and cannot.** The `C13` split-line model specified in `RESEARCH_DESIGN_next_experiment.md` §6 remains required and remains unbuilt. Outside the empty cell the table is exceptionless in both directions (17/17 and 36/36).
+
+**Reconciliation note**: §0.1 of the design document counts 12 faces (C01/C02) as "vertices changed, tokens unchanged". Those 12 do **not** appear in the table above — `matchFaces` returns zero correspondences for both pairs by construction. The "1 unchanged" cell above is the C06 cylinder only. The two figures are different row sets, not a contradiction.
+
+**Methodological caution (carried into `RESEARCH_HANDOFF.md`)**: the C06 cylinder correspondence passed at `centroidDist = 0.0019999998616 m` against the inherited `CENTROID_THRESHOLD = 0.002 m` — a margin of ~1.4 × 10⁻¹⁰ m. The match is genuine (independently confirmed by the uniform delta and identical `vc`), but it passed by luck. **Any feature translated further than 2 mm will fail correspondence outright and be reported as removed+added**, as C04→C07 already is. Do not retune the threshold to force matches; a principled revision needs re-validation across all archived pairs, as EXP-038 did.
+
+**Hypotheses strengthened**: H4 further weakened (3a, 3b) — not falsified. EXP-039's R2 finding extended to a 35-shared-vertex case.
+
+**Hypotheses weakened/falsified**: None newly falsified. H1a remains falsified and now has a local, in-table instance. H1b and H2 remain live and remain mutually inseparable.
+
+**Nothing promoted**: no v0.4.7 finding, including this one, is promoted to `KNOWN_INVARIANTS.md`. No semantic meaning assigned to any token value.
+
+**Tooling**: reused, not rewritten, per the binding constraints in `RESEARCH_HANDOFF.md` — `computeAdjacency`/`sharedVertexCount` from `exp037_edge_location_and_adjacency.js` (real ≥2-shared-vertex test), `matchFaces` with bounding-box-centre centroid from `exp038_nq028_c12_second_edge.js`, `facesIdentical` (full per-vertex comparison, tol 1e-6) as the modification criterion. Face correspondence never uses token similarity. `parser/` was not modified.
+
+**Files tested**: all 13 controlled models — `test files original/controlled/C00..C12/model.SLDPRT`. Archive baseline: `v0.4.7/CORPUS_AUDIT.json`.
+
+**Faces/models tested**: 13 models, 94 faces, 273 sections; 12 pairwise comparisons; 65 matched face correspondences.
+
+**Confidence**: High for (1), (2), (3a), (3b) — all are direct measurements from source with exact, reproducible outputs. High for (4) as a statement about this corpus; it is a negative result and carries no claim beyond the corpus.
+
+**Date last updated**: 2026-09-13
+
+**Raw evidence**: `knowledge/evidence/2026-09-13_v0.4.7-EXP041.md`, `v0.4.7/EXP041_RESULTS.json`, `v0.4.7/EXP041_SUMMARY.md`, `v0.4.7/exp041_corpus_unblocked_from_source.js`
