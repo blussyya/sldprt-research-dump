@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "version": "v0.4.2a",
+    "vcLimit": 6000,
+    "date": "2026-07-10T13:47:21.471Z",
+    "corpusSize": 8,
+    "totalFaces": 1234,
+    "totalHighVc": 2
+  },
+  "invariantStats": {
+    "INV-002": {
+      "pass": 1234,
+      "fail": 0,
+      "exceptions": []
+    },
+    "INV-003": {
+      "pass": 1234,
+      "fail": 0,
+      "exceptions": []
+    },
+    "INV-004": {
+      "pass": 1234,
+      "fail": 0,
+      "exceptions": []
+    },
+    "INV-007": {
+      "pass": 1234,
+      "fail": 0,
+      "exceptions": []
+    },
+    "INV-008": {
+      "pass": 1234,
+      "fail": 0,
+      "exceptions": []
+    },
+    "INV-009": {
+      "pass": 1234,
+      "fail": 0,
+      "exceptions": []
+    },
+    "INV-010": {
+      "pass": 1234,
+      "fail": 0,
+      "exceptions": []
+    },
+    "INV-016": {
+      "pass": 1234,
+      "fail": 0,
+      "exceptions": []
+    },
+    "INV-017": {
+      "pass": 1234,
+      "fail": 0,
+      "exceptions": []
+    },
+    "INV-018": {
+      "pass": 1234,
+      "fail": 0,
+      "exceptions": []
+    }
+  },
+  "highVcFaces": [
+    {
+      "file": "DEKOR",
+      "marker": "0x2636",
+      "vc": 5862,
+      "ec": 9,
+      "b1len": 9636,
+      "b2sum": 9636,
+      "b2count": 1044,
+      "b2range": "4..44",
+      "invResults": "INV-002:PASS INV-003:PASS INV-004:PASS INV-007:PASS INV-008:PASS INV-009:PASS INV-010:PASS INV-016:PASS INV-017:PASS INV-018:PASS"
+    },
+    {
+      "file": "DEKOR",
+      "marker": "0x35d7d",
+      "vc": 5862,
+      "ec": 9,
+      "b1len": 9636,
+      "b2sum": 9636,
+      "b2count": 1044,
+      "b2range": "4..52",
+      "invResults": "INV-002:PASS INV-003:PASS INV-004:PASS INV-007:PASS INV-008:PASS INV-009:PASS INV-010:PASS INV-016:PASS INV-017:PASS INV-018:PASS"
+    }
+  ]
+}

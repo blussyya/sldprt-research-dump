@@ -1,0 +1,1550 @@
+{
+  "meta": {
+    "version": "v0.4.3",
+    "experiment": "EXP-018",
+    "date": "2026-07-16T19:30:15.779Z",
+    "totalCandidates": 4936
+  },
+  "classificationCounts": {
+    "FULL": 1234,
+    "REJECTED": 2468,
+    "PARTIAL_GAP": 1234
+  },
+  "perFile": {
+    "BOTTOM": {
+      "rawCandidates": 156,
+      "classifications": {
+        "FULL": 39,
+        "REJECTED": 78,
+        "PARTIAL_GAP": 39
+      },
+      "partialGapExamples": [
+        {
+          "marker": "0x190c",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x1c76",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x1fe0",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x234a",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x3012",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x5078",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x598c",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x6260",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x665a",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x6f6a",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        }
+      ]
+    },
+    "TOP": {
+      "rawCandidates": 272,
+      "classifications": {
+        "FULL": 68,
+        "REJECTED": 136,
+        "PARTIAL_GAP": 68
+      },
+      "partialGapExamples": [
+        {
+          "marker": "0x318c",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            1,
+            4,
+            100,
+            2
+          ],
+          "b2Header": [
+            1048576000,
+            1052770304,
+            1049370223,
+            1048576000
+          ]
+        },
+        {
+          "marker": "0x3cd6",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x42f4",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x47a2",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x4b34",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x5126",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x59dc",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x5eea",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x62e4",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x66d6",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        }
+      ]
+    },
+    "GEAR": {
+      "rawCandidates": 452,
+      "classifications": {
+        "FULL": 113,
+        "REJECTED": 226,
+        "PARTIAL_GAP": 113
+      },
+      "partialGapExamples": [
+        {
+          "marker": "0x19792",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x19bae",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x19fec",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x1a408",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x1a846",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x1ac40",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x1b07e",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x1b458",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x1b896",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x1bc70",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        }
+      ]
+    },
+    "DEKOR": {
+      "rawCandidates": 1500,
+      "classifications": {
+        "FULL": 375,
+        "REJECTED": 750,
+        "PARTIAL_GAP": 375
+      },
+      "partialGapExamples": [
+        {
+          "marker": "0x31932",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x65079",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x6861c",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x68c79",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x68feb",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x694a9",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x6981b",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x6a609",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            1,
+            4,
+            100,
+            2
+          ],
+          "b2Header": [
+            951403226,
+            1065474041,
+            1065353091,
+            1065353164
+          ]
+        },
+        {
+          "marker": "0x6b475",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            1,
+            4,
+            100,
+            2
+          ],
+          "b2Header": [
+            712638464,
+            1065528256,
+            1015872571,
+            1065353280
+          ]
+        },
+        {
+          "marker": "0x6c597",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        }
+      ]
+    },
+    "HEADPHONE": {
+      "rawCandidates": 248,
+      "classifications": {
+        "FULL": 62,
+        "REJECTED": 124,
+        "PARTIAL_GAP": 62
+      },
+      "partialGapExamples": [
+        {
+          "marker": "0x26ae",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x39e4",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x4884",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x6472",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x716c",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x8aee",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x97e8",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0xacba",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0xbebc",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0xcee2",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        }
+      ]
+    },
+    "DISTRIBUTOR": {
+      "rawCandidates": 204,
+      "classifications": {
+        "FULL": 51,
+        "REJECTED": 102,
+        "PARTIAL_GAP": 51
+      },
+      "partialGapExamples": [
+        {
+          "marker": "0x3574",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x43f6",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x5930",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x80c0",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x8d96",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0xac9c",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0xb838",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0xc3b2",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0xd20e",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0xe084",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        }
+      ]
+    },
+    "POCKET": {
+      "rawCandidates": 1600,
+      "classifications": {
+        "FULL": 400,
+        "REJECTED": 800,
+        "PARTIAL_GAP": 400
+      },
+      "partialGapExamples": [
+        {
+          "marker": "0x5988",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x68ac",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x6f3c",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x75cc",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x7c9e",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x8370",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x8a42",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x9114",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x97a4",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x9bfc",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        }
+      ]
+    },
+    "PTC": {
+      "rawCandidates": 504,
+      "classifications": {
+        "FULL": 126,
+        "REJECTED": 252,
+        "PARTIAL_GAP": 126
+      },
+      "partialGapExamples": [
+        {
+          "marker": "0x156c",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x1a58",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x25d6",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x2c3e",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x2fd6",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x336e",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x37f2",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x4356",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x49be",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        },
+        {
+          "marker": "0x4d56",
+          "ec": 1,
+          "vc": 0,
+          "gap": [
+            12,
+            100,
+            2,
+            0
+          ],
+          "b1Header": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "b2Header": null
+        }
+      ]
+    }
+  }
+}

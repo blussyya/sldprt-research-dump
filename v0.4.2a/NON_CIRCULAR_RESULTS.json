@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "version": "v0.4.2a",
+    "pipeline": "non-circular (no header pre-filtering)",
+    "date": "2026-07-10T13:50:14.508Z",
+    "corpusSize": 8,
+    "totalCandidates": 4936
+  },
+  "inv005": {
+    "pass": 1234,
+    "fail": 3702
+  },
+  "inv006": {
+    "pass": 1234,
+    "fail": 0
+  },
+  "b1ValidCount": 1234,
+  "b2ValidCount": 1234,
+  "bothValidCount": 1234,
+  "b1FailExamples": [
+    {
+      "file": "BOTTOM",
+      "marker": "0x17e2",
+      "ec": 3164048720,
+      "vc": 4,
+      "b1Header": [
+        8,
+        2,
+        6,
+        0
+      ]
+    },
+    {
+      "file": "BOTTOM",
+      "marker": "0x190c",
+      "ec": 1,
+      "vc": 0,
+      "b1Header": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "BOTTOM",
+      "marker": "0x191c",
+      "ec": 0,
+      "vc": 0,
+      "b1Header": [
+        90,
+        0,
+        1072693248,
+        0
+      ]
+    },
+    {
+      "file": "BOTTOM",
+      "marker": "0x1b4c",
+      "ec": 3165122462,
+      "vc": 4,
+      "b1Header": [
+        8,
+        2,
+        6,
+        0
+      ]
+    },
+    {
+      "file": "BOTTOM",
+      "marker": "0x1c76",
+      "ec": 1,
+      "vc": 0,
+      "b1Header": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "BOTTOM",
+      "marker": "0x1c86",
+      "ec": 0,
+      "vc": 0,
+      "b1Header": [
+        88,
+        0,
+        2147483648,
+        0
+      ]
+    },
+    {
+      "file": "BOTTOM",
+      "marker": "0x1eb6",
+      "ec": 1016565072,
+      "vc": 4,
+      "b1Header": [
+        8,
+        2,
+        6,
+        0
+      ]
+    },
+    {
+      "file": "BOTTOM",
+      "marker": "0x1fe0",
+      "ec": 1,
+      "vc": 0,
+      "b1Header": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "BOTTOM",
+      "marker": "0x1ff0",
+      "ec": 0,
+      "vc": 0,
+      "b1Header": [
+        86,
+        0,
+        3220176896,
+        0
+      ]
+    },
+    {
+      "file": "BOTTOM",
+      "marker": "0x2220",
+      "ec": 1017638814,
+      "vc": 4,
+      "b1Header": [
+        8,
+        2,
+        6,
+        0
+      ]
+    }
+  ],
+  "b2FailExamples": []
+}
