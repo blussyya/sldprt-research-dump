@@ -1158,3 +1158,35 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) an
 **Date last updated**: 2026-09-15
 
 **Raw evidence**: `knowledge/evidence/2026-09-15_v0.4.8-EXP049.md`, `v0.4.8/EXP049_RESULTS.json`, `v0.4.8/exp049_independent_replication.js`
+
+---
+
+## EXP-050: Off-Cone Display Samples Are Chord Points, Not a Metadata Failure
+
+**Question**: EXP-048's closing open thread — localize the off-cone samples on USB hub bottom face 35 and the 19 Pocket Wheel faces from EXP-047, and distinguish chord/interpolation samples from stale display data and correspondence issues, without altering original coordinates.
+
+**Status**: Complete. Open thread resolved. No new invariant; no parser change.
+
+**Method**: EXP-047 scores each tag-4003 face by `coneMinus = MAX over vertices of |rho − |radius − h·tan(angle)||` at 1e-7 m (27/47 pass). Being a maximum, one deviant vertex fails a whole face and the metric cannot separate "the stored surface is wrong" from "one sample is not on it". This replaces the max with the per-vertex distribution and applies four discriminators: **D1** deviation sign (inside vs outside the cone), **D2** distance to a chord joining two vertices of the same face that *do* satisfy the stored cone, **D3** an independent least-squares cone refit, **D4** the surface tags of faces co-owning each failing vertex. EXP-047's threshold was held at exactly 1e-7 m; no failure was rescued by loosening it, and no coordinate was modified.
+
+**Result — 20 failing faces (19 Pocket Wheel, 1 USB hub bottom face 35), 250 failing vertices:**
+- **D1: 250 inside the cone, 0 outside.** Perfectly one-sided. Random error, stale data or wrong parameters would deviate both ways; a secant of a convex surface can only fall inside.
+- **D2: 250/250 lie on a chord** joining two on-cone vertices of the same face, worst distance **7.596e-9 m** — about 13× tighter than the tolerance they fail, and four orders of magnitude below their own residuals (up to 1.2e-4 m). They are interpolated points on a straight span, not independent surface samples.
+- **D3: 0/20 faces rescued by a refit.** The stored parameters are not the problem — the failing vertices lie on chords *of the stored cone itself*.
+- **D4: all 250 sit on boundaries shared with a face of a different surface type** (247 × tag-4002 cylinder, 3 × tag-4001 plane).
+
+**Conclusion**: **The cone metadata is correct on all 47 tag-4003 faces.** EXP-047's 27/47 measures display-mesh interpolation, not metadata validity. Where a cone's boundary is shared with a cylinder or plane whose tessellation subdivides that edge more finely, the extra vertices are inserted along the straight span and therefore fall inside the cone — the same mechanism EXP-046 measured from the other direction as its 389 `different-sampling` edge-ID groups. This is exactly the separation EXP-048 asked for ("Metadata validity and tessellation fidelity must be evaluated separately"): they are now separated and the metadata side is clean. The discrepancy is resolved, not explained away — the vertices genuinely are off the cone, for a measured, one-sided geometric reason that says nothing against the stored surface.
+
+**Corpus note**: this could not use the controlled C00–C12 models because **they contain no cone faces**. Per-model tags from `EXP045_RESULTS.json`: the controlled corpus covers only tag-4001 (plane) and tag-4002 (cylinder); tag-4003 occurs only in `distributor main boss rev a` (17), `Pocket Wheel` (20), `USB hub case BOTTOM` (8), `Helical Bevel Gear` (2), and tags 4005/4006/4007/4009 occur in no controlled model at all. A corpus gap, not a methodological choice — recorded as NQ-030.
+
+**Hypotheses affected**: none falsified. EXP-047's and EXP-048's archived numbers stand exactly as recorded; only the interpretation of the 20 failures changes. INV-020–024 unaffected.
+
+**Files tested**: all modern models with tag-4003 faces; 47 cone faces total.
+
+**Confidence**: High. The signals are categorical (250/0 one-sided; 250/250 on-chord at 7.6e-9 m) and deterministic.
+
+**Known gaps**: cone faces only, other surface tags untested for the same behaviour; the chord search is local (six nearest on-cone vertices — none required a wider search); the *reason* the exporter inserts these subdivision points is not established.
+
+**Date last updated**: 2026-09-15
+
+**Raw evidence**: `knowledge/evidence/2026-09-15_v0.4.8-EXP050.md`, `v0.4.8/EXP050_RESULTS.json`, `v0.4.8/exp050_offcone_localization.js`
