@@ -1,5 +1,22 @@
 # Research Handoff
 
+## STOP checkpoint — 2026-09-15, after EXP-048
+
+User requested an immediate wrap-up before the usage limit. **No EXP-049 was started.** Continue only when asked. Work/push exclusively on staging; main is manually merged by the user. Push every completed finding with its executable evidence immediately. Remaining-usage percentage is not exposed to the agent.
+
+Original EXP-042–046 work was recovered intact and published as commit 10822be (same complete tree as local d180b20). Temporary reconstruction commits were removed from staging at user request. Current new research is EXP-047 and EXP-048; parser/v0.2 was not modified.
+
+- [EXP-047](evidence/2026-09-15_v0.4.8-EXP047.md): scalar-array census and angular/negative-axial interpretation on four distributor tag-4003 faces, with failed swapped/reversed/sign controls. Internal corroboration only. Candidate cone vertex equation passes 27/47 faces; failures are **19 Pocket Wheel faces and bottom USB-hub face 35**, not all 20 Pocket Wheel faces (the evidence note preserves an explicit correction).
+- [EXP-048](evidence/2026-09-15_v0.4.8-EXP048.md): all eight USB-hub bottom cone metadata records match independent original STEP axis/half-angle/apex. Seven pass the strict all-vertex surface test; face 35 has about 16 micrometres residual despite matching metadata. STEP entities are not uniquely matched trimmed faces. No broad invariant or exact B-rep claim is justified.
+
+Scripts and raw hashed-input results: v0.4.8/exp047_scalar_cone.js, EXP047_RESULTS.json, exp048_step_cones.js, EXP048_RESULTS.json. Run each script with node from repository root; full methods, limitations and commands are in the linked notes. EXP-047 source has a comment saying two angular anchors; actual code uses one anchor and tests both signs, as explicitly documented in its evidence note.
+
+**Next proposed experiment: EXP-049**, not started: localize off-cone vertices (boundary/interior, strip/edge ownership, signed residual) and test whether chord interpolation explains them. Do not loosen tolerances, silently project coordinates, or assume display samples are exact CAD points. Scalar interpretation outside the four distributor faces, Block3 nonzero semantics, other surface tags and raw edge-type packing remain unresolved.
+
+**Local Git caution:** direct Git transport authentication failed, so checkpoint publishing used the GitHub connector. Local staging may still descend from d180b20 with stale origin/staging tracking, while remote staging descends from 10822be. Fetch/reconcile remote staging before further commits; do not force-push local history over these checkpoints. No pasted token was used.
+
+---
+
 > **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
 
 ## Active handoff — 2026-09-14, after EXP-046
