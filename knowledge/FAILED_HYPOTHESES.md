@@ -1,5 +1,7 @@
 # Failed Hypotheses
 
+> **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
+
 Project-wide list of hypotheses that have been falsified or made unusable by later experiments.
 
 Source migrated from `v0.3.5/docs/research/FAILED_HYPOTHESES.md`.
@@ -563,6 +565,8 @@ These tests cannot fail by design and provide no information about the data.
 
 ## FH-028: Token Signatures Are Primarily Determined by Topology/Vertex Ordering
 
+> **Correction, 2026-09-14 (EXP-042–046):** The broad rejection of topology/vertex-order involvement is superseded by the explicit strip-edge mapping in EXP-043/045. The historical test did not test this mapping. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Falsified
 
 **Original hypothesis**: Token signatures are primarily determined by topology/vertex ordering.
@@ -582,6 +586,8 @@ These tests cannot fail by design and provide no information about the data.
 ---
 
 ## FH-029: Token Signatures Are Determined Primarily by Local Topology
+
+> **Correction, 2026-09-14 (EXP-042–046):** The broad rejection of local topology is superseded by the edge-ID/metadata correspondence. Preserve the narrow original comparison, not the universal interpretation. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Falsified
 

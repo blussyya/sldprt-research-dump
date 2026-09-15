@@ -1,5 +1,27 @@
 # Next Questions
 
+> **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
+
+## NQ-030: Decode the optional scalar arrays and remaining surface records
+
+**Status/date:** Open, 2026-09-14. EXP-045 reads the optional arrays and raw parameters but validates external geometry only for controlled planes/cylinders. Match appropriate independent surface exports before naming the arrays UV or naming remaining tag values. Evidence: [EXP-045](evidence/2026-09-14_v0.4.8-EXP045.md).
+
+## NQ-031: Obtain a discriminating nonzero Block3 sample
+
+**Status/date:** Open, 2026-09-14. All current payload bytes are zero. Try controlled visibility/edge-style changes only as candidate interventions; archive the real binaries and failed interventions too. No specific trigger is established. Evidence: [EXP-042](evidence/2026-09-14_v0.4.8-EXP042.md).
+
+## NQ-032: Decode raw edge-type families and following object records
+
+**Status/date:** Open, 2026-09-14. EXP-044/045 gives an ID bridge and raw 300x/480xx families. Establish curve-type/flag meaning against independent geometry, then parse the variable serialization following the edge table. Do not infer a universal packing formula from approximate numeric similarity.
+
+## NQ-033: Validate container and body/configuration scoping
+
+**Status/date:** Open, 2026-09-14. The new local grammar reuses the existing openswx decompressor. Directory-based discovery, CRC validation, duplicate stream/configuration policy and cross-body edge-ID namespaces remain unvalidated. This is distinct from the successful face-local grammar.
+
+---
+
+Historical queue follows; use the dated resolution notes and current handoff when prioritizing.
+
 Operational research queue for the SLDPRT reverse-engineering project.
 
 This is not the same as `OPEN_QUESTIONS.md`. Open questions describe broad unknowns. Next questions are concrete, experiment-driving questions that can be answered, falsified, or retired.
@@ -27,6 +49,8 @@ Statuses:
 ---
 
 ## NQ-001: Can Block 1 Be Parsed By A Finite-State Grammar Over Observed Section Forms?
+
+> **Correction, 2026-09-14 (EXP-042–046):** The corpus grammar is decoded as length-delimited strip-edge annotation sections; no inferred finite-state language is needed for these records. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Active
 
@@ -324,6 +348,8 @@ Statuses:
 
 ## NQ-019: What Do the Alternating Tokens (150, 153) in Cylindrical Faces Represent?
 
+> **Correction, 2026-09-14 (EXP-042–046):** Answered by geometric edge mapping and downstream metadata. Values 150/153 label the two cylinder boundary curves in the corresponding controlled models. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Ready
 
 **Depends on**: EXP-029
@@ -508,6 +534,8 @@ Either outcome is a clean falsification of one branch, making this the highest i
 ---
 
 ## NQ-029: Is Adjacency-Without-Modification Ever Sufficient, and Can a Model Fully Isolate It From Direct Modification?
+
+> **Correction, 2026-09-14 (EXP-042–046):** C13 is no longer a prerequisite for parsing B1/B2. Its causal/persistent-ID question is distinct from the now-established format mapping; keep it as optional future input. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Partially Answered (EXP-039); fully isolating the co-occurring case is Blocked (requires a new SolidWorks model, design-stage only)
 

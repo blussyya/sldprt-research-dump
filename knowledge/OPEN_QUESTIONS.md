@@ -1,5 +1,7 @@
 # Open Questions
 
+> **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
+
 Project-wide unresolved questions. Do not promote any item here into a fact without a falsifiable experiment and evidence update.
 
 Source migrated from `v0.3.5/docs/research/OPEN_QUESTIONS.md`.
@@ -125,6 +127,8 @@ Source migrated from `v0.3.5/docs/research/OPEN_QUESTIONS.md`.
 ---
 
 ## OQ-006: What Is The Meaning Of Block 2's Raw Encoding?
+
+> **Correction, 2026-09-14 (EXP-042–046):** Answered operationally: each B2 element is the word length of a B1 strip section, 2*L-2. The precursor separately stores L. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Hypothesis
 
@@ -261,6 +265,8 @@ This asymmetry is unexplained. It does not correlate with file size, face count,
 
 ## OQ-014: What Does The [4,8,2,N] Pattern Mean In DisplayLists?
 
+> **Correction, 2026-09-14 (EXP-042–046):** A local typed-array interpretation now parses the face sequence. This does not establish a complete global object serialization grammar. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Open Question
 
 **Evidence so far**: The pattern [4,8,2,N] appears 3,516 times across 7 files (0.96 per 1KB). N ranges from 1 to 9,636 (175 distinct values). 661 occurrences are at face-relative positions mp - 16 - 4*N (face containers). The remaining 2,855 occurrences are elsewhere in the stream. Classification attempts in EXP-022/025 failed due to offset bugs (see FALSIFICATION_REVIEW.md). Whether this is one container format with variable N or multiple unrelated structures is unknown.
@@ -276,6 +282,8 @@ This asymmetry is unexplained. It does not correlate with file size, face count,
 ---
 
 ## OQ-015: What Does The N=2 Body[0] Value At mp-8 Represent?
+
+> **Correction, 2026-09-14 (EXP-042–046):** Answered: it is the first of two serialized strip lengths, not a previous face edgeCount. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Open Question
 
@@ -344,6 +352,8 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 
 ## OQ-018: Does Section Count Fully Determine Alternative-Header Presence?
 
+> **Correction, 2026-09-14 (EXP-042–046):** Resolved as a detector-window artifact; the full precursor exists for all observed strip counts. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Correlation confirmed exceptionless (2026-08-13, EXP-026); causal direction remains Open. See correction note below. Original entry retained per evidence-preservation policy.
 
 **Evidence so far**: Once the Block1->Block2 offset bug in EXP-023/024 was corrected (v0.4.5), the true `secCount` (Block2 body length M) was cross-tabulated against alternative-header presence/N-value for all 1,172 faces in the 7-file corpus. The correlation has zero exceptions: `secCount=1` occurs in exactly the 368 faces with an N=1 alternative header (and no others); `secCount=2` occurs in exactly the 293 faces with an N=2 alternative header (and no others); `secCount>=3` occurs in exactly the 511 faces with no alternative header (and no others). This is stronger than the previously-reported "VC=4,8,10 always have alternatives" correlation (OQ-014/EXP-023) and may subsume it, since VC and secCount are likely correlated with each other via INV-016 (`b1len = 2*(vc - secCount)`). No causal mechanism or semantic meaning is established. Per project rules, do not infer that the alternative header "encodes" secCount or vice versa without a discriminating experiment (e.g., testing whether N always equals secCount for secCount in {1,2}, and why the pattern stops being observed at secCount=3, which could be a container-format cutoff or filtering artifact of the mp-20/mp-24 search window used to detect the alternative header).
@@ -372,6 +382,8 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 ---
 
 ## OQ-019: Is Sequential Loop Segmentation The Correct Vertex-To-Loop Mapping?
+
+> **Correction, 2026-09-14 (EXP-042–046):** Resolved for the corpus: sequential strip grouping and alternating strip winding pass EXP-042/043. Sequential polygon/fan interpretation is falsified. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Open Question
 
@@ -510,6 +522,8 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 ---
 
 ## OQ-027: What Do the Specific Token Values (150, 153, 5, 82, etc.) Represent?
+
+> **Correction, 2026-09-14 (EXP-042–046):** Answered on the corpus: nonzero words label boundary edges; EXP-043 maps them geometrically and EXP-045 matches the downstream ID table. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Open Question
 
@@ -669,6 +683,8 @@ Neither observation falsifies a global-state mechanism outright, but nothing in 
 ---
 
 ## OQ-034: What Do Block1/Block2 Tokens Encode?
+
+> **Correction, 2026-09-14 (EXP-042–046):** Answered at the display-mesh level by EXP-042–046: B1 edge annotations, B2 strip-section lengths, precursor vertex counts. Whole-format semantics remain open. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Open Question
 

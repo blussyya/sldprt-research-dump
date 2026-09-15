@@ -1,5 +1,7 @@
 # SLDPRT Format Research — Working Dump
 
+**Latest, 2026-09-14:** [v0.4.8 / EXP-042–046](v0.4.8/README.md) decodes the triangle-strip, Block1 edge-ID, Block2 section-length and downstream metadata relationship on the modern corpus. [parser/v0.2](parser/v0.2/README.md) implements the validated read-only path. This supersedes the old “loop size” interpretation; full exact B-rep and several metadata semantics remain open. All work goes to `staging`; the user merges to `main`.
+
 This repository is a working dump of all local research files for the SLDPRT reverse-engineering project. It mirrors the local working directory and is used to back up experiments, evidence, and knowledge as they are produced.
 
 **Main research repo:** [sldprt-format-research](https://github.com/blussyya/sldprt-format-research)

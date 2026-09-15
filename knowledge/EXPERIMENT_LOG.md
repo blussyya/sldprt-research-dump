@@ -1,5 +1,7 @@
 # Experiment Log
 
+> **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
+
 Project-wide experiment ledger. Each experiment should end with facts, hypotheses, tested files/counts, confidence, and follow-up.
 
 Source migrated from `v0.3.5/docs/research/EXPERIMENT_LOG.md`.
@@ -524,6 +526,8 @@ This entry (EXP-027) is retained unmodified above for historical continuity per 
 
 ## EXP-028: Validation/Falsification of EXP-027 Conclusions
 
+> **Correction, 2026-09-14 (EXP-042–046):** Low STEP endpoint equality is not a surface-error measurement. EXP-045 compares all controlled face vertices to analytic STEP surfaces and validates plane/cylinder metadata; original mismatches remain recorded. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Verified (with falsifications)
 
 **Goal**: Validate or falsify EXP-027's conclusions through three targeted investigations: (1) hole-diameter relationship, (2) feature-change localization, (3) SLDPRT↔STEP/STL vertex correspondence.
@@ -591,6 +595,8 @@ This entry (EXP-027) is retained unmodified above for historical continuity per 
 
 ## EXP-030: Block1 Token Structural Correspondence
 
+> **Correction, 2026-09-14 (EXP-042–046):** Rejected indices/counts do not exclude edge IDs. EXP-043/045 demonstrates an explicit geometry-to-ID mapping that this candidate list did not test. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Complete
 
 **Goal**: Determine whether Block1 body tokens correspond to structural/topological information rather than geometry-specific parameters.
@@ -625,6 +631,8 @@ This entry (EXP-027) is retained unmodified above for historical continuity per 
 ---
 
 ## EXP-031: Block1 Token Signature Classification
+
+> **Correction, 2026-09-14 (EXP-042–046):** Cylinder values are boundary edge IDs, not a universal face-type signature. EXP-043/045 supplies the explicit mapping; retain the original observed patterns only. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Complete
 
@@ -663,6 +671,8 @@ This entry (EXP-027) is retained unmodified above for historical continuity per 
 
 ## EXP-032: Token Signatures vs Face Orientation
 
+> **Correction, 2026-09-14 (EXP-042–046):** The topology/vertex-order falsification does not cover the correct strip-edge interpretation, now demonstrated by EXP-043/045. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Complete
 
 **Goal**: Determine whether Block1 token signature differences observed among planar cube faces correlate with face orientation / surface normal direction.
@@ -699,6 +709,8 @@ This entry (EXP-027) is retained unmodified above for historical continuity per 
 ---
 
 ## EXP-033: Token Signatures vs Feature-Induced Model State
+
+> **Correction, 2026-09-14 (EXP-042–046):** The global-state framing is superseded by source edge labels and metadata. This is in addition to, not a replacement for, the earlier adjacency-method corrections. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Complete
 
@@ -844,6 +856,8 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding A).
 ---
 
 ## EXP-036: Fillet/Chamfer vs Hole/Shell Structural Differential
+
+> **Correction, 2026-09-14 (EXP-042–046):** Use the explicit edge-ID mapping in EXP-043/045 rather than inferring global token effects from feature categories. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Complete
 
@@ -1057,3 +1071,58 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) an
 **Date last updated**: 2026-09-13
 
 **Raw evidence**: `knowledge/evidence/2026-09-13_v0.4.7-EXP041.md`, `v0.4.7/EXP041_RESULTS.json`, `v0.4.7/EXP041_SUMMARY.md`, `v0.4.7/exp041_corpus_unblocked_from_source.js`
+
+
+## EXP-042: Forward strip-layout and winding validation
+
+**Date:** 2026-09-14. **Status:** Verified observations on the supplied modern corpus; interpretations scoped as in the v0.4.8 report.
+
+1,272 faces in 21 decoded modern files; 50,976 positive-winding triangles; zero measured relation failures. Original STL comparisons retain all matches and mismatches.
+
+**Method:** `node v0.4.8/exp042_strip_layout.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
+
+**Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP042.md), [raw JSON](../v0.4.8/EXP042_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).
+
+
+## EXP-043: Strip-edge annotation semantics
+
+**Date:** 2026-09-14. **Status:** Verified observations on the supplied modern corpus; interpretations scoped as in the v0.4.8 report.
+
+41,010 nonzero boundary annotations, 71,037 zero interior annotations; no exceptions and no shared-label conflicts. Exact mesh incidence and the fan control are preserved.
+
+**Method:** `node v0.4.8/exp043_edge_tokens.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
+
+**Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP043.md), [raw JSON](../v0.4.8/EXP043_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).
+
+
+## EXP-044: Initial downstream metadata scan
+
+**Date:** 2026-09-14. **Status:** Verified observations on the supplied modern corpus; interpretations scoped as in the v0.4.8 report.
+
+1,271 uniquely located records all match Block1 label sets; one ambiguous scan is recorded. Superseded for locating records by EXP-045, not edited to remove the ambiguity.
+
+**Method:** `node v0.4.8/exp044_metadata_bridge.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
+
+**Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP044.md), [raw JSON](../v0.4.8/EXP044_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).
+
+
+## EXP-045: Forward metadata grammar and independent STEP comparison
+
+**Date:** 2026-09-14. **Status:** Verified observations on the supplied modern corpus; interpretations scoped as in the v0.4.8 report.
+
+1,272 records parse; all edge-ID sets and optional scalar counts match. All 94 controlled faces match the tested independent STEP planes/cylinders.
+
+**Method:** `node v0.4.8/exp045_forward_metadata.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
+
+**Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP045.md), [raw JSON](../v0.4.8/EXP045_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).
+
+
+## EXP-046: Boundary cycles and cross-face edge pairing
+
+**Date:** 2026-09-14. **Status:** Verified observations on the supplied modern corpus; interpretations scoped as in the v0.4.8 report.
+
+1,698 cycles across all 1,272 faces, zero branching ambiguities. All 3,278 IDs have two face owners; 389 differ in segment sampling. Maximum endpoint-to-polyline discrepancy 8.32697841716346e-9 m.
+
+**Method:** `node v0.4.8/exp046_boundary_cycles.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
+
+**Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP046.md), [raw JSON](../v0.4.8/EXP046_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).

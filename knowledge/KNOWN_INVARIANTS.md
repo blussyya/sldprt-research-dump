@@ -1,5 +1,51 @@
 # Known Invariants
 
+> **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
+
+## INV-020: Explicit Strip-Length Precursor and Triangle Ordering
+
+**Status:** Verified on the supplied modern corpus; not a universal file-version claim.
+**Evidence:** `[4,8,2,S] + u32[S]` directly precedes the position array. Its entries sum to V and satisfy `B2[i]=2*L[i]-2`. Alternating triangle-strip winding produces 50,976 triangles, all agreeing with stored normals. The controlled fan alternative fails; the simple cubes and shell agree with original STL triangles at the documented comparison tolerance.
+**Files/counts:** All 21 decoded modern files under `test files original`, 1,272 faces; three OLE2 inputs unsupported. Exact input list/hashes in raw output.
+**Confidence/date:** High within corpus, 2026-09-14.
+**Sources:** [EXP-042](evidence/2026-09-14_v0.4.8-EXP042.md), [EXP-043](evidence/2026-09-14_v0.4.8-EXP043.md). Header recognition is part of candidate selection; arithmetic, geometry and external comparisons are separate checks.
+
+## INV-021: Block1 Strip-Edge Annotations
+
+**Status:** Verified correspondence on the supplied corpus.
+**Evidence:** Each section contains leading control `1`, then `ID(0,1)`, followed by `ID(i-2,i), ID(i-1,i)` for each new vertex i. All 41,010 boundary annotations are nonzero; all 71,037 internal annotations are zero. All nonzero label sets match independently reached downstream metadata. No conflict for geometrically shared edge segments.
+**Files/counts:** Same 21 modern files / 1,272 faces; 10,095 strips, with all per-face measurements archived.
+**Confidence/date:** High, 2026-09-14. Label allocation, persistence across arbitrary edits, and control-word enum remain unknown; numeric `1` is not assumed globally forbidden as an ID.
+**Sources:** [EXP-043](evidence/2026-09-14_v0.4.8-EXP043.md), [EXP-045](evidence/2026-09-14_v0.4.8-EXP045.md).
+
+## INV-022: Block3 Byte-Array Layout
+
+**Status:** Verified syntax; semantics unknown.
+**Evidence:** `[1,8,2,N]` directly follows Block2; payload is N bytes, where N is Block1's word count. All 122,142 observed payload bytes are zero.
+**Files/counts:** 21 modern files / 1,272 faces.
+**Confidence/date:** High for observed shape/count; no semantic confidence, 2026-09-14.
+**Source:** [EXP-042](evidence/2026-09-14_v0.4.8-EXP042.md). Do not infer flag meanings from constant data.
+
+## INV-023: Forward Metadata Edge-ID Link
+
+**Status:** Verified local grammar and ID correspondence, not full metadata semantics.
+**Evidence:** The forward sequence documented in the v0.4.8 report reaches a surface record and counted edge-ID/type pairs on all 1,272 faces; ID sets equal the nonzero Block1 sets. Optional scalar arrays on 390 faces each have one scalar per serialized vertex. All 94 controlled face records agree with independently exported STEP on tested plane/cylinder properties.
+**Files/counts:** 21 modern files / 1,272 faces; STEP check uses 13 controlled models / 94 faces.
+**Confidence/date:** High within scope, 2026-09-14. Opaque prefix, other surface tags, and optional-array purpose remain unknown.
+**Source:** [EXP-045](evidence/2026-09-14_v0.4.8-EXP045.md); [byte map](../v0.4.8/README.md).
+
+## INV-024: Display Boundary Cycles and Two-Face Edge-ID Ownership
+
+**Status:** Verified topology of the supplied display data; not exact B-rep coedge reconstruction.
+**Evidence:** Exact-coordinate boundary graphs have degree two everywhere, producing 1,698 cycles on 1,272 faces. All 3,278 file-scoped edge-ID groups have two face owners. Paired sampling is identical for 2,889 groups and differs for 389; no welding is performed.
+**Files/counts:** 21 modern files / 1,272 faces.
+**Confidence/date:** High within corpus, 2026-09-14. No universal multi-body ID namespace, outer/hole orientation, or watertight-export claim.
+**Source:** [EXP-046](evidence/2026-09-14_v0.4.8-EXP046.md).
+
+---
+
+The entries below are historical; their dated corrections take precedence over the original semantic names.
+
 Project-wide SLDPRT reverse-engineering knowledge. These entries are version-independent unless the files tested say otherwise.
 
 Source migrated from `v0.3.5/docs/research/KNOWN_INVARIANTS.md` and related experiment notes.
@@ -27,6 +73,8 @@ Source migrated from `v0.3.5/docs/research/KNOWN_INVARIANTS.md` and related expe
 ---
 
 ## INV-002: Face Block Layout
+
+> **Correction, 2026-09-14 (EXP-042–046):** The old `edgeCount` name and start diagram are superseded. The position header is [12,100,2,V]; its preceding word is the last precursor strip length. Positions and normals remain valid. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Verified Conclusion
 
@@ -172,6 +220,8 @@ u32[3] = M
 ---
 
 ## INV-007: Block 2 Encodes Loop Vertex Counts
+
+> **Correction, 2026-09-14 (EXP-042–046):** The formula remains correct but yields strip vertex counts, not boundary-loop sizes. See INV-020/024 and EXP-042/046. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Verified Conclusion
 
@@ -536,6 +586,8 @@ EXP-024-CORRECTED (v0.4.5) confirms INV-018 on 1,172/1,172 faces across 7 files.
 ---
 
 ## INV-019: secCount / Alternative-Header Correlation
+
+> **Correction, 2026-09-14 (EXP-042–046):** This is a fixed-window detection result, not actual optional-header absence. EXP-042 reads the precursor at its variable-length position on every recovered face. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Correlation (not causal; see notes — modeled on INV-013's precedent for high-confidence, non-causal patterns)
 
