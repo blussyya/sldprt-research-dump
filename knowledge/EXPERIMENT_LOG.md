@@ -1126,3 +1126,35 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) an
 **Method:** `node v0.4.8/exp046_boundary_cycles.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
 
 **Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP046.md), [raw JSON](../v0.4.8/EXP046_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).
+
+---
+
+## EXP-049: Independent Replication of INV-020/021/022, Edge-Order Control, and Correction of EXP-042's STL Residual Attribution
+
+**Question**: v0.4.8's EXP-042–046 were produced by a single implementation (`v0.4.8/research-common.js`, forward precursor-array scan). Do the strip layout, the Block1 edge-annotation partition, and the Block3 byte array replicate through a *different* code path? Is the edge ordering actually load-bearing, or would any ordering produce a clean partition? And are EXP-042's unexplained STL residuals really tessellation differences?
+
+**Status**: Complete. Replication plus one corrective finding. **No new invariant proposed; nothing promoted.**
+
+**Independence (stated precisely, not assumed)**: *Independent* — face discovery (`parser/v0.1` scans for the gap marker `[12,100,2,vertexCount]`, a different strategy from the forward precursor scan), Block3 offsets (computed from `parser/v0.1`'s own `block2Start`/`secCount`; v0.1 has no concept of Block3 and never reads it), plus the strip triangulation, edge enumeration, face-level incidence classification and STL reader written in this experiment. *Not independent* — the openswx container decompressor is shared, so a container-level decoding error would affect both paths identically. v0.4.8 flags the same limitation for itself; it is not resolved here.
+
+**Result (replication) — all three replicate exactly.** 21 modern files decoded (3 legacy OLE2 unsupported), **1,272 faces, 10,095 strips, 71,166 serialized vertices, 50,976 strip triangles, all 50,976 agreeing with the stored normals** — identical to EXP-042. Block1: **112,047 edge tokens, 41,010 nonzero on face-boundary edges, 71,037 zero on face-interior edges, 0 nonzero-on-interior, 0 zero-on-boundary** — identical to EXP-043. Block3: **1,272/1,272 valid `[1,8,2,N]` headers, 0 malformed, N equal to the Block1 word count on all 1,272, 122,142 payload bytes, 0 nonzero** — identical to EXP-042. Two different face-discovery strategies converging on the same 1,272 faces is the substantive part of this check.
+
+**Result (new control, absent from v0.4.8) — the edge ordering is load-bearing.** The partition is only meaningful if the *specific* ordering carries the information; if any ordering split cleanly, the finding would be vacuous. Control: same tokens, same incidence map, edge order deterministically shuffled within each strip. **0 exceptions with the documented order vs 44,640 with the shuffled order.** The result is not an artifact of the classification.
+
+**Derivation note**: the section edge ordering (`ID(0,1)`, then `ID(i-2,i), ID(i-1,i)` per new vertex) was derived here independently from the `2L-3` edge count of an L-vertex strip, before v0.4.8's write-up was readable. The two derivations agree. Independent convergence on the ordering is stronger evidence than either alone.
+
+**Result (correction to EXP-042) — part of its STL residual is a defective export, not tessellation.** `v0.4.8/README.md` attributes STL mismatches to tessellation ("Different STL tessellation remains visible and is archived; curved-model triangle equality is not claimed"). **That cannot apply to C09**, which is a chamfered cube — entirely planar, no curved surface — yet `EXP042_RESULTS.json` records `unmatchedGenerated: 2, unmatchedReference: 0`. Auditing every controlled `model.STL` by facet-normal group: **C03, C09 and C11 each contain no `-1,0,0` group at all — the −X face is absent from the export.** A missing axis-aligned normal group cannot arise from tessellation choice, since a differently-tessellated planar face still produces facets with that normal. Therefore: (1) **C09's residual is fully explained** — it needs 16 triangles, the STL has 14, and the 2 unmatched generated triangles are the two 50 mm² halves of the absent face (`unmatchedReference: 0`, i.e. the strip reading reproduces every triangle the STL does contain and adds the ones it lacks); (2) for C03/C11, 2 unmatched triangles are this missing face and the rest is genuine tessellation difference; (3) **the SLDPRT display mesh is more complete than the STL export**, consistent with EXP-046's finding that all 13 controlled SLDPRT meshes are closed under exact triangle-edge matching — the meshes are closed, three of the exports are not; (4) **C03/C09/C11's STL must not be used as watertight ground truth** without accounting for the missing face. This strengthens v0.4.8's conclusions: the residual it conservatively left unexplained is not a defect in the strip reading.
+
+**Hypotheses affected**: none falsified. INV-020/021/022 corroborated through a partly-independent path and keep exactly the status and scope v0.4.8 gave them.
+
+**Files tested**: all 24 `.sldprt` under `test files original` (21 decoded, 3 legacy OLE2 unsupported) and the 13 controlled `model.STL` exports.
+
+**Faces/models tested**: 1,272 faces / 21 modern models; 112,047 edge tokens; 122,142 Block3 bytes; 13 STL exports.
+
+**Confidence**: High for the replication and the control (exact, deterministic, reproducible). High for the missing-face finding (a facet-normal group is either present or absent). The *cause* of the omission is not established.
+
+**Known gaps**: shared decompressor (partial pipeline independence); same corpus, not an independent holdout; no semantic claim about Block3, surface tags or scalar arrays; cause of the missing −X exports uninvestigated.
+
+**Date last updated**: 2026-09-15
+
+**Raw evidence**: `knowledge/evidence/2026-09-15_v0.4.8-EXP049.md`, `v0.4.8/EXP049_RESULTS.json`, `v0.4.8/exp049_independent_replication.js`

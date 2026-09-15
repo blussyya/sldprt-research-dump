@@ -4,6 +4,8 @@
 
 ## INV-020: Explicit Strip-Length Precursor and Triangle Ordering
 
+> **Corroboration, 2026-09-15 (EXP-049):** Replicated through a different face-discovery path (`parser/v0.1`'s gap-marker scan rather than the forward precursor scan): same 21 files, 1,272 faces, 10,095 strips, 71,166 vertices, 50,976 triangles, all 50,976 agreeing with stored normals. The openswx decompressor is shared, so pipeline independence is partial. Status and scope unchanged. Evidence: [EXP-049](evidence/2026-09-15_v0.4.8-EXP049.md).
+
 **Status:** Verified on the supplied modern corpus; not a universal file-version claim.
 **Evidence:** `[4,8,2,S] + u32[S]` directly precedes the position array. Its entries sum to V and satisfy `B2[i]=2*L[i]-2`. Alternating triangle-strip winding produces 50,976 triangles, all agreeing with stored normals. The controlled fan alternative fails; the simple cubes and shell agree with original STL triangles at the documented comparison tolerance.
 **Files/counts:** All 21 decoded modern files under `test files original`, 1,272 faces; three OLE2 inputs unsupported. Exact input list/hashes in raw output.
@@ -12,6 +14,8 @@
 
 ## INV-021: Block1 Strip-Edge Annotations
 
+> **Corroboration, 2026-09-15 (EXP-049):** Independently replicated (112,047 tokens; 41,010 nonzero on face-boundary edges, 71,037 zero on face-interior edges, 0 exceptions either way), with the edge ordering derived independently before this write-up was readable. **New control:** shuffling the edge order within each strip, holding tokens and incidence fixed, yields 44,640 exceptions versus 0 — so the specific ordering is load-bearing and the partition is not an artifact of the classification. Status and scope unchanged. Evidence: [EXP-049](evidence/2026-09-15_v0.4.8-EXP049.md).
+
 **Status:** Verified correspondence on the supplied corpus.
 **Evidence:** Each section contains leading control `1`, then `ID(0,1)`, followed by `ID(i-2,i), ID(i-1,i)` for each new vertex i. All 41,010 boundary annotations are nonzero; all 71,037 internal annotations are zero. All nonzero label sets match independently reached downstream metadata. No conflict for geometrically shared edge segments.
 **Files/counts:** Same 21 modern files / 1,272 faces; 10,095 strips, with all per-face measurements archived.
@@ -19,6 +23,8 @@
 **Sources:** [EXP-043](evidence/2026-09-14_v0.4.8-EXP043.md), [EXP-045](evidence/2026-09-14_v0.4.8-EXP045.md).
 
 ## INV-022: Block3 Byte-Array Layout
+
+> **Corroboration, 2026-09-15 (EXP-049):** Replicated from offsets computed independently of v0.4.8 (`parser/v0.1`'s `block2Start` + `secCount`; v0.1 never reads Block3): 1,272/1,272 valid `[1,8,2,N]` headers, 0 malformed, N equal to the Block1 word count on all faces, 122,142 payload bytes, 0 nonzero. The caution against inferring meaning from constant data stands. Evidence: [EXP-049](evidence/2026-09-15_v0.4.8-EXP049.md).
 
 **Status:** Verified syntax; semantics unknown.
 **Evidence:** `[1,8,2,N]` directly follows Block2; payload is N bytes, where N is Block1's word count. All 122,142 observed payload bytes are zero.

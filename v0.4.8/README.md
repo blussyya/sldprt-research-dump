@@ -140,3 +140,22 @@ node parser/v0.2/test/validate.js > v0.4.8/PARSER_V02_VALIDATION.json
 ```
 
 The experiment JSON outputs are deterministic for these source files. No original model or archived experiment is modified. `research-common.js` reuses only the existing container decompressor; its forward geometry scan does not filter candidates using INV-016–018, ONE counts, or alleged edgeCount bounds. Structural header recognition is still part of selection and cannot be presented as an independent test of those header values.
+
+---
+
+## Correction, 2026-09-15 (EXP-049): part of the STL residual is a defective export, not tessellation
+
+Appended by a later, partly-independent replication ([EXP-049](../knowledge/evidence/2026-09-15_v0.4.8-EXP049.md)). Nothing above is rewritten.
+
+This report attributes the EXP-042 STL comparison mismatches to tessellation ("Different STL tessellation remains visible and is archived; curved-model triangle equality is **not** claimed"). That explanation cannot cover **C09**, which is a chamfered cube — entirely planar, no curved surface anywhere — yet `EXP042_RESULTS.json` records `unmatchedGenerated: 2, unmatchedReference: 0` for it.
+
+Auditing every controlled `model.STL` by facet-normal group: **C03, C09 and C11 each contain no `-1,0,0` group at all — the −X face is absent from the export.** A missing axis-aligned normal group cannot arise from tessellation choice, since a differently-tessellated planar face still produces facets with that normal.
+
+- **C09's residual is fully explained**: it needs 16 triangles, the STL has 14, and the two unmatched generated triangles are the two 50 mm² halves of the absent −X face. `unmatchedReference: 0` means the strip reading reproduces every triangle the STL *does* contain and adds the ones it lacks.
+- For **C03** and **C11**, 2 unmatched triangles are this missing face; the remainder is genuine tessellation difference.
+- **The SLDPRT display mesh is more complete than the STL export.** This agrees with EXP-046's own result that all 13 controlled SLDPRT meshes are closed under exact triangle-edge matching: the meshes are closed, three of the exports are not.
+- **C03/C09/C11's STL must not be used as watertight ground truth** for parser validation without accounting for the missing face.
+
+This strengthens the strip interpretation rather than qualifying it — the residual left conservatively unexplained here is not a defect in the strip reading. The *cause* of the omission (exporter bug, export setting, or something in how those three models were generated) is not established.
+
+EXP-049 also replicates INV-020/021/022 through a different face-discovery path and adds an edge-order falsification control absent from this report: shuffling the edge order within each strip, holding tokens and incidence fixed, produces 44,640 exceptions versus 0 for the documented order — so the ordering documented above is load-bearing, not an artifact of the classification.
