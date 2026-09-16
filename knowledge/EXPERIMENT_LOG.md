@@ -1190,3 +1190,33 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) an
 **Date last updated**: 2026-09-15
 
 **Raw evidence**: `knowledge/evidence/2026-09-15_v0.4.8-EXP050.md`, `v0.4.8/EXP050_RESULTS.json`, `v0.4.8/exp050_offcone_localization.js`
+
+---
+
+## EXP-051: Visual Validation of parser/v0.2 Output
+
+**Question**: Every check through EXP-050 has been numerical. A mesh can satisfy correct triangle counts, correct per-triangle normals, correct residual thresholds and every invariant while still rendering as webbing, spikes or an inside-out shell — a triangulation connecting the right vertices in the wrong order would pass all of them. Does the parser's output actually look like the part?
+
+**Status**: Complete. Visual verification only. No new invariant, no parser change.
+
+**Method**: A self-contained software rasteriser written for this experiment — no three.js, no CDN, no external dependency. Orthographic isometric projection, z-buffer, flat shading from the geometric face normal, one hue per face index, plus an overlay drawing every edge whose Block1 annotation is **nonzero** (INV-021's boundary edges) onto the mesh. Input is `parser/v0.2`'s own `triangleIndices` and `edgeAnnotations`, consumed verbatim — nothing re-derived, welded, re-ordered or repaired.
+
+**Result — all seven models render correctly.** C03 (7 faces/36 tris): 1 mm fillet on exactly one vertical edge with the top face's corner correctly rounded. C04 (7/152): clean circular through-hole, cylinder wall with correct facet banding, diameter reading 50% of the face — 5 mm in a 10 mm cube. C07 (8/292): two separate clean through-holes. **C10 (11/28): the decisive case** — 1 mm rim at the opening, hollow interior with inner walls visible through it, wall thickness ~10% of the edge. USB hub TOP (68/4,704): recognisable enclosure with walls, cutout, screw bosses, counterbored holes and lip. Pocket Wheel (400/17,078): sprocket with pocketed teeth, raised hub, central bore with a resolved keyway notch. Dekor (375/15,282): ornate fretwork panel with a phoenix cutout, fine detail intact.
+
+**No webbing, no stray triangles spanning unrelated vertices, no inverted or missing faces.** The boundary-edge overlay lands on real face outlines in every model — an independent visual confirmation of INV-021's partition, since a wrong edge classification would decorate face interiors rather than their borders. C10 is the strongest single check: a fan triangulation, a mis-ordered strip or a dropped section would close or web across the opening rather than produce a correctly hollowed box with a uniform rim.
+
+**Note on Dekor**: 311 of its 375 faces are tag-4009, the surface type with no external validation anywhere in this project (NQ-030). Its mesh renders as coherent fine detail — which says the display mesh for those faces is well-formed, and nothing about the 4009 metadata.
+
+**Rasteriser bugs found and fixed before accepting results** (rasteriser faults, not parser faults): an inverted depth test rendering back faces over front faces, and a wrong field name in the edge overlay (`ids`/`token` rather than `vertices`/`id`) which silently drew nothing. Both were caught by noticing the first C10 image showed a solid cube where a shell was expected.
+
+**Hypotheses affected**: none. This complements the numerical work and does not strengthen it — visual inspection asserts no tolerance.
+
+**Files tested**: C03, C04, C07, C10, USB hub TOP, Pocket Wheel, Dekor.
+
+**Confidence**: High that the display mesh is well-formed for these seven. Scope is the display tessellation only — nothing about B-rep fidelity, trim accuracy or surface parameters.
+
+**Known gaps**: one viewpoint per model, so a defect hidden by self-occlusion would not appear; colour is per face index and carries no semantic meaning; validates display mesh, not CAD surfaces.
+
+**Date last updated**: 2026-09-16
+
+**Raw evidence**: `knowledge/evidence/2026-09-16_v0.4.8-EXP051.md`, `v0.4.8/EXP051_renders/` (7 PNGs), `v0.4.8/exp051_render_validation.js`
