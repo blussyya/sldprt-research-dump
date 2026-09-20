@@ -1,5 +1,7 @@
 # Failed Hypotheses
 
+> **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
+
 Project-wide list of hypotheses that have been falsified or made unusable by later experiments.
 
 Source migrated from `v0.3.5/docs/research/FAILED_HYPOTHESES.md`.
@@ -563,6 +565,8 @@ These tests cannot fail by design and provide no information about the data.
 
 ## FH-028: Token Signatures Are Primarily Determined by Topology/Vertex Ordering
 
+> **Correction, 2026-09-14 (EXP-042–046):** The broad rejection of topology/vertex-order involvement is superseded by the explicit strip-edge mapping in EXP-043/045. The historical test did not test this mapping. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Falsified
 
 **Original hypothesis**: Token signatures are primarily determined by topology/vertex ordering.
@@ -582,6 +586,8 @@ These tests cannot fail by design and provide no information about the data.
 ---
 
 ## FH-029: Token Signatures Are Determined Primarily by Local Topology
+
+> **Correction, 2026-09-14 (EXP-042–046):** The broad rejection of local topology is superseded by the edge-ID/metadata correspondence. Preserve the narrow original comparison, not the universal interpretation. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Falsified
 
@@ -620,6 +626,8 @@ These tests cannot fail by design and provide no information about the data.
 **Date last updated**: 2026-08-16 (correction); original 2026-08-14
 
 **CORRECTION NOTE (2026-08-17, audit of EXP-037→EXP-040)**: The "11/11" figure in the 2026-08-16 correction above (and in "Confidence") is not supported by `EXP039_DIRECT_MODIFICATION_NECESSITY.json` — that script's `rows` array structurally excludes every directly-modified face by design (it only evaluates unmodified faces), so it never computed 11/11. Recomputed directly from `EXP037_RESULTS.json`/`EXP038_RESULTS.json`: 15 directly-modified (vertex-position) faces exist across the tested corpus, 14 with a confirmed token change, 1 with no archived token data. **Correct figure: 14/14 known cases, 1 unknown — not 11/11.** This does not change the correction's conclusion (FH-030 should read Unknown, not Falsified — the vertex-coordinate-based definition still holds with 0 counterexamples among the known cases); only the specific count is fixed. See `v0.4.7/EXP039_SUMMARY.md`'s matching correction note for the full derivation.
+
+**UPDATE NOTE (2026-09-13, EXP-041)**: A new data point from the first from-source parse of the controlled corpus (`d0c6c54` added the C00–C11 binaries). In `C04 → C06` (hole position moved only), the cylindrical face's 70 vertices are translated by a single uniform delta — `[0.002, 0, 0]` exactly, one distinct delta across all 70 — while `vc`(70), `secCount`(1) and `b1Len`(138) stay constant, so both token arrays have equal length and are comparable element-wise. **Its Block1 tokens and `b2Body` are byte-identical.** This is the first face in the corpus whose own vertex coordinates *all* changed with no token change *inside a model pair where other faces did change* (faces 4/5 change, length-forced by INV-016). It matters for this entry because the existing evidence that raw vertex modification is not *sufficient* (see `v0.4.7/RESEARCH_DESIGN_next_experiment.md` §0.1) rested entirely on C01/C02 — whole-model similarity transforms, which `matchFaces` cannot correspond at all (0 matched rows), so they never appear in any cross-tabulation and that figure had to be assembled by hand from EXP-034. C06 supplies the same conclusion from a **local** change inside a non-similarity model edit, and it appears directly in the table. **This does not revive the falsification of this entry and does not alter its corrected status (Unknown, not Falsified)**: a pure translation is a similarity transform of the face itself, so the refined form of the hypothesis — that a *non-similarity* change to the face's own shape is what matters — is untouched. What it does is sharpen the distinction between "the face's own vertices moved" (not sufficient) and "the face's own shape changed" (still live). See `knowledge/evidence/2026-09-13_v0.4.7-EXP041.md` §4.1.
 
 ---
 

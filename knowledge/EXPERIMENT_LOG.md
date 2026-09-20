@@ -1,5 +1,7 @@
 # Experiment Log
 
+> **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
+
 Project-wide experiment ledger. Each experiment should end with facts, hypotheses, tested files/counts, confidence, and follow-up.
 
 Source migrated from `v0.3.5/docs/research/EXPERIMENT_LOG.md`.
@@ -524,6 +526,8 @@ This entry (EXP-027) is retained unmodified above for historical continuity per 
 
 ## EXP-028: Validation/Falsification of EXP-027 Conclusions
 
+> **Correction, 2026-09-14 (EXP-042–046):** Low STEP endpoint equality is not a surface-error measurement. EXP-045 compares all controlled face vertices to analytic STEP surfaces and validates plane/cylinder metadata; original mismatches remain recorded. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Verified (with falsifications)
 
 **Goal**: Validate or falsify EXP-027's conclusions through three targeted investigations: (1) hole-diameter relationship, (2) feature-change localization, (3) SLDPRT↔STEP/STL vertex correspondence.
@@ -591,6 +595,8 @@ This entry (EXP-027) is retained unmodified above for historical continuity per 
 
 ## EXP-030: Block1 Token Structural Correspondence
 
+> **Correction, 2026-09-14 (EXP-042–046):** Rejected indices/counts do not exclude edge IDs. EXP-043/045 demonstrates an explicit geometry-to-ID mapping that this candidate list did not test. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Complete
 
 **Goal**: Determine whether Block1 body tokens correspond to structural/topological information rather than geometry-specific parameters.
@@ -625,6 +631,8 @@ This entry (EXP-027) is retained unmodified above for historical continuity per 
 ---
 
 ## EXP-031: Block1 Token Signature Classification
+
+> **Correction, 2026-09-14 (EXP-042–046):** Cylinder values are boundary edge IDs, not a universal face-type signature. EXP-043/045 supplies the explicit mapping; retain the original observed patterns only. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Complete
 
@@ -663,6 +671,8 @@ This entry (EXP-027) is retained unmodified above for historical continuity per 
 
 ## EXP-032: Token Signatures vs Face Orientation
 
+> **Correction, 2026-09-14 (EXP-042–046):** The topology/vertex-order falsification does not cover the correct strip-edge interpretation, now demonstrated by EXP-043/045. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Complete
 
 **Goal**: Determine whether Block1 token signature differences observed among planar cube faces correlate with face orientation / surface normal direction.
@@ -699,6 +709,8 @@ This entry (EXP-027) is retained unmodified above for historical continuity per 
 ---
 
 ## EXP-033: Token Signatures vs Feature-Induced Model State
+
+> **Correction, 2026-09-14 (EXP-042–046):** The global-state framing is superseded by source edge labels and metadata. This is in addition to, not a replacement for, the earlier adjacency-method corrections. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Complete
 
@@ -844,6 +856,8 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding A).
 ---
 
 ## EXP-036: Fillet/Chamfer vs Hole/Shell Structural Differential
+
+> **Correction, 2026-09-14 (EXP-042–046):** Use the explicit edge-ID mapping in EXP-043/045 rather than inferring global token effects from feature categories. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Complete
 
@@ -1008,3 +1022,205 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) an
 **Date last updated**: 2026-08-16
 
 **Raw evidence**: `knowledge/evidence/2026-08-16_v0.4.7-EXP040.md`, `v0.4.7/EXP040_RESULTS.json`, `v0.4.7/EXP040_SUMMARY.md`, `v0.4.7/exp040_full_corpus_adjacency_crosscheck.js`
+
+---
+
+## EXP-041: Controlled Corpus Unblocked — From-Source Verification of the v0.4.7 Record
+
+**Question**: Commit `d0c6c54` (2026-09-13) added the real `model.SLDPRT`/`model.step`/`model.STL` files for C00–C11, removing the standing blocker recorded in `RESEARCH_HANDOFF.md` ("C00 through C11 are still archive-only", reconfirmed by EXP-037 via a full-filesystem search). Three questions become answerable for the first time: (1) are the supplied binaries the same models the entire v0.4.7 archive was derived from, or regenerated look-alikes? (2) do INV-016/017/018 hold when recomputed from source rather than from archived JSON? (3) do the five models no prior experiment analyzed for tokens or adjacency (C06, C07, C08, C11, and the C04↔C11 pair) change the H1b-vs-H2 confound described in `v0.4.7/RESEARCH_DESIGN_next_experiment.md`?
+
+**Status**: Complete.
+
+**Result (1) — Provenance: 11/11 EXACT_MATCH.** Every model in `CORPUS_AUDIT.json` re-parsed from its binary and compared field by field — per-face byte offsets (`verticesStart`, `gapStart`, `normalsStart`, `block1Start`, `block2Start`), `edgeCount`/`vertexCount`/`secCount`/`b1Len`, `sectionLens`, `loopSizes`, `b2Body`, vertex previews, normal previews, Block1 token previews. **0 mismatches in any field, in any face, in any model.** The supplied binaries are the models the v0.4.7 archive came from. This was a genuine risk worth checking first: a re-run of the SolidWorks COM build could have produced different tessellation and silently invalidated any comparison between fresh and archived measurements, and every EXP-027→EXP-040 conclusion is archive-based.
+
+**Result (2) — Invariants from source.** INV-016 94/94 faces; INV-017 273/273 sections; INV-018 94/94 faces; across all 13 controlled models, all PASS individually. *Anti-overclaim*: this is a new **data** path (binaries rather than archived JSON), not a new **code** path — extraction reuses `parser/v0.1`. It is not a fourth independent implementation in the sense EXP-016 was and must not be cited as one.
+
+**Result (3a) — C04→C06 (hole position only), NEW.** The cylindrical face's 70 vertices are translated by a single uniform delta, `[0.002, 0, 0]` exactly (one distinct delta across all 70, matching hole centre (5,5)→(7,5)), while `vc`(70), `secCount`(1) and `b1Len`(138) are unchanged — so both token arrays have equal length and are comparable element-wise. **Block1 tokens and `b2Body` are byte-identical.** First case in the corpus of a face whose own vertex coordinates all changed while its tokens did not, *inside a model pair where other faces did change* (faces 4/5 change, length-forced by INV-016). The prior evidence that raw vertex modification is not sufficient (H1a) rested entirely on C01/C02, whole-model similarity transforms that `matchFaces` cannot correspond at all (0 matched rows), so they never appear in a cross-tabulation. C06 supplies the same conclusion from a **local** change inside a non-similarity model edit. Does **not** falsify H1b (a pure translation is a similarity transform of the face itself). Sharpens H4: within one model pair, one face translates with unchanged tokens while two others change — the token change behaves as a per-face property, not a model-global one. Confirms, by measurement, the Candidate-E forecast in `RESEARCH_DESIGN_next_experiment.md` §4.
+
+**Result (3b) — C07→C08 (second hole only, 5→3 mm), NEW.** Face count 8→8, nothing added or removed. Side walls 0–3 **and** face 6 — the *first* hole's cylinder at centre (3,3), untouched by the edit — are identical in both vertices and Block1 tokens; faces 4, 5 and 7 change. Face 6 shares **35 vertices with face 4 and 35 with face 5**, both of which undergo large token changes. Per EXP-028 the DisplayList is re-serialized wholesale on any face change, yet five of eight faces come through byte-identical: **strongest H4 (global/serialization state) control in the project**, and the first on a pair with a genuine *non-similarity* feature edit. Also extends EXP-039's R2 relation ("one-hop propagation from an already-modified neighbour does not occur", previously 12/12) to the highest-contact case in the corpus.
+
+**Result (3c) — C04→C11 and C04→C07.** C04→C11 behaves as C04→C05: every changed face is `b1Len`-forced by INV-016, therefore low-information, exactly as `RESEARCH_DESIGN_next_experiment.md` §2/H5 predicted for the diameter series. C04→C07 reports `removed=[6], added=[6,7]` — `matchFaces` correctly declines to force-match C04's centre-(5,5) cylinder to either of C07's (3,3)/(7,7) cylinders.
+
+**Result (4) — The discriminating cell is still empty, now corpus-wide.** Cross-tabulation over 12 pairs and 65 matched face correspondences:
+
+| | adjacent to a NEW face | not adjacent to a new face |
+|---|---|---|
+| vertices changed | 17 rows — 17 token-changed, 0 unchanged | 12 rows — 11 changed, 1 unchanged (C06 cylinder) |
+| vertices unchanged | **0 rows — EMPTY** | 36 rows — 0 changed, 36 unchanged |
+
+`RESEARCH_DESIGN_next_experiment.md` §1 established the empty cell over five feature models; it now holds over the **complete 13-model corpus**. The confound between H1b (non-similarity modification of the face itself) and H2 (adjacency to newly created geometry) is confirmed **structural to this corpus**, not an artifact of which subset had been examined. **The five newly supplied models do not break it and cannot.** The `C13` split-line model specified in `RESEARCH_DESIGN_next_experiment.md` §6 remains required and remains unbuilt. Outside the empty cell the table is exceptionless in both directions (17/17 and 36/36).
+
+**Reconciliation note**: §0.1 of the design document counts 12 faces (C01/C02) as "vertices changed, tokens unchanged". Those 12 do **not** appear in the table above — `matchFaces` returns zero correspondences for both pairs by construction. The "1 unchanged" cell above is the C06 cylinder only. The two figures are different row sets, not a contradiction.
+
+**Methodological caution (carried into `RESEARCH_HANDOFF.md`)**: the C06 cylinder correspondence passed at `centroidDist = 0.0019999998616 m` against the inherited `CENTROID_THRESHOLD = 0.002 m` — a margin of ~1.4 × 10⁻¹⁰ m. The match is genuine (independently confirmed by the uniform delta and identical `vc`), but it passed by luck. **Any feature translated further than 2 mm will fail correspondence outright and be reported as removed+added**, as C04→C07 already is. Do not retune the threshold to force matches; a principled revision needs re-validation across all archived pairs, as EXP-038 did.
+
+**Hypotheses strengthened**: H4 further weakened (3a, 3b) — not falsified. EXP-039's R2 finding extended to a 35-shared-vertex case.
+
+**Hypotheses weakened/falsified**: None newly falsified. H1a remains falsified and now has a local, in-table instance. H1b and H2 remain live and remain mutually inseparable.
+
+**Nothing promoted**: no v0.4.7 finding, including this one, is promoted to `KNOWN_INVARIANTS.md`. No semantic meaning assigned to any token value.
+
+**Tooling**: reused, not rewritten, per the binding constraints in `RESEARCH_HANDOFF.md` — `computeAdjacency`/`sharedVertexCount` from `exp037_edge_location_and_adjacency.js` (real ≥2-shared-vertex test), `matchFaces` with bounding-box-centre centroid from `exp038_nq028_c12_second_edge.js`, `facesIdentical` (full per-vertex comparison, tol 1e-6) as the modification criterion. Face correspondence never uses token similarity. `parser/` was not modified.
+
+**Files tested**: all 13 controlled models — `test files original/controlled/C00..C12/model.SLDPRT`. Archive baseline: `v0.4.7/CORPUS_AUDIT.json`.
+
+**Faces/models tested**: 13 models, 94 faces, 273 sections; 12 pairwise comparisons; 65 matched face correspondences.
+
+**Confidence**: High for (1), (2), (3a), (3b) — all are direct measurements from source with exact, reproducible outputs. High for (4) as a statement about this corpus; it is a negative result and carries no claim beyond the corpus.
+
+**Date last updated**: 2026-09-13
+
+**Raw evidence**: `knowledge/evidence/2026-09-13_v0.4.7-EXP041.md`, `v0.4.7/EXP041_RESULTS.json`, `v0.4.7/EXP041_SUMMARY.md`, `v0.4.7/exp041_corpus_unblocked_from_source.js`
+
+
+## EXP-042: Forward strip-layout and winding validation
+
+**Date:** 2026-09-14. **Status:** Verified observations on the supplied modern corpus; interpretations scoped as in the v0.4.8 report.
+
+1,272 faces in 21 decoded modern files; 50,976 positive-winding triangles; zero measured relation failures. Original STL comparisons retain all matches and mismatches.
+
+**Method:** `node v0.4.8/exp042_strip_layout.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
+
+**Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP042.md), [raw JSON](../v0.4.8/EXP042_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).
+
+
+## EXP-043: Strip-edge annotation semantics
+
+**Date:** 2026-09-14. **Status:** Verified observations on the supplied modern corpus; interpretations scoped as in the v0.4.8 report.
+
+41,010 nonzero boundary annotations, 71,037 zero interior annotations; no exceptions and no shared-label conflicts. Exact mesh incidence and the fan control are preserved.
+
+**Method:** `node v0.4.8/exp043_edge_tokens.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
+
+**Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP043.md), [raw JSON](../v0.4.8/EXP043_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).
+
+
+## EXP-044: Initial downstream metadata scan
+
+**Date:** 2026-09-14. **Status:** Verified observations on the supplied modern corpus; interpretations scoped as in the v0.4.8 report.
+
+1,271 uniquely located records all match Block1 label sets; one ambiguous scan is recorded. Superseded for locating records by EXP-045, not edited to remove the ambiguity.
+
+**Method:** `node v0.4.8/exp044_metadata_bridge.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
+
+**Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP044.md), [raw JSON](../v0.4.8/EXP044_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).
+
+
+## EXP-045: Forward metadata grammar and independent STEP comparison
+
+**Date:** 2026-09-14. **Status:** Verified observations on the supplied modern corpus; interpretations scoped as in the v0.4.8 report.
+
+1,272 records parse; all edge-ID sets and optional scalar counts match. All 94 controlled faces match the tested independent STEP planes/cylinders.
+
+**Method:** `node v0.4.8/exp045_forward_metadata.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
+
+**Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP045.md), [raw JSON](../v0.4.8/EXP045_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).
+
+
+## EXP-046: Boundary cycles and cross-face edge pairing
+
+**Date:** 2026-09-14. **Status:** Verified observations on the supplied modern corpus; interpretations scoped as in the v0.4.8 report.
+
+1,698 cycles across all 1,272 faces, zero branching ambiguities. All 3,278 IDs have two face owners; 389 differ in segment sampling. Maximum endpoint-to-polyline discrepancy 8.32697841716346e-9 m.
+
+**Method:** `node v0.4.8/exp046_boundary_cycles.js`. Candidate extraction is independent of the numerical relation being tested where described in the source; container decompression is shared. No full format-support claim.
+
+**Evidence:** [evidence note](evidence/2026-09-14_v0.4.8-EXP046.md), [raw JSON](../v0.4.8/EXP046_RESULTS.json), [interpretation and limits](../v0.4.8/README.md).
+
+---
+
+## EXP-049: Independent Replication of INV-020/021/022, Edge-Order Control, and Correction of EXP-042's STL Residual Attribution
+
+**Question**: v0.4.8's EXP-042–046 were produced by a single implementation (`v0.4.8/research-common.js`, forward precursor-array scan). Do the strip layout, the Block1 edge-annotation partition, and the Block3 byte array replicate through a *different* code path? Is the edge ordering actually load-bearing, or would any ordering produce a clean partition? And are EXP-042's unexplained STL residuals really tessellation differences?
+
+**Status**: Complete. Replication plus one corrective finding. **No new invariant proposed; nothing promoted.**
+
+**Independence (stated precisely, not assumed)**: *Independent* — face discovery (`parser/v0.1` scans for the gap marker `[12,100,2,vertexCount]`, a different strategy from the forward precursor scan), Block3 offsets (computed from `parser/v0.1`'s own `block2Start`/`secCount`; v0.1 has no concept of Block3 and never reads it), plus the strip triangulation, edge enumeration, face-level incidence classification and STL reader written in this experiment. *Not independent* — the openswx container decompressor is shared, so a container-level decoding error would affect both paths identically. v0.4.8 flags the same limitation for itself; it is not resolved here.
+
+**Result (replication) — all three replicate exactly.** 21 modern files decoded (3 legacy OLE2 unsupported), **1,272 faces, 10,095 strips, 71,166 serialized vertices, 50,976 strip triangles, all 50,976 agreeing with the stored normals** — identical to EXP-042. Block1: **112,047 edge tokens, 41,010 nonzero on face-boundary edges, 71,037 zero on face-interior edges, 0 nonzero-on-interior, 0 zero-on-boundary** — identical to EXP-043. Block3: **1,272/1,272 valid `[1,8,2,N]` headers, 0 malformed, N equal to the Block1 word count on all 1,272, 122,142 payload bytes, 0 nonzero** — identical to EXP-042. Two different face-discovery strategies converging on the same 1,272 faces is the substantive part of this check.
+
+**Result (new control, absent from v0.4.8) — the edge ordering is load-bearing.** The partition is only meaningful if the *specific* ordering carries the information; if any ordering split cleanly, the finding would be vacuous. Control: same tokens, same incidence map, edge order deterministically shuffled within each strip. **0 exceptions with the documented order vs 44,640 with the shuffled order.** The result is not an artifact of the classification.
+
+**Derivation note**: the section edge ordering (`ID(0,1)`, then `ID(i-2,i), ID(i-1,i)` per new vertex) was derived here independently from the `2L-3` edge count of an L-vertex strip, before v0.4.8's write-up was readable. The two derivations agree. Independent convergence on the ordering is stronger evidence than either alone.
+
+**Result (correction to EXP-042) — part of its STL residual is a defective export, not tessellation.** `v0.4.8/README.md` attributes STL mismatches to tessellation ("Different STL tessellation remains visible and is archived; curved-model triangle equality is not claimed"). **That cannot apply to C09**, which is a chamfered cube — entirely planar, no curved surface — yet `EXP042_RESULTS.json` records `unmatchedGenerated: 2, unmatchedReference: 0`. Auditing every controlled `model.STL` by facet-normal group: **C03, C09 and C11 each contain no `-1,0,0` group at all — the −X face is absent from the export.** A missing axis-aligned normal group cannot arise from tessellation choice, since a differently-tessellated planar face still produces facets with that normal. Therefore: (1) **C09's residual is fully explained** — it needs 16 triangles, the STL has 14, and the 2 unmatched generated triangles are the two 50 mm² halves of the absent face (`unmatchedReference: 0`, i.e. the strip reading reproduces every triangle the STL does contain and adds the ones it lacks); (2) for C03/C11, 2 unmatched triangles are this missing face and the rest is genuine tessellation difference; (3) **the SLDPRT display mesh is more complete than the STL export**, consistent with EXP-046's finding that all 13 controlled SLDPRT meshes are closed under exact triangle-edge matching — the meshes are closed, three of the exports are not; (4) **C03/C09/C11's STL must not be used as watertight ground truth** without accounting for the missing face. This strengthens v0.4.8's conclusions: the residual it conservatively left unexplained is not a defect in the strip reading.
+
+**Hypotheses affected**: none falsified. INV-020/021/022 corroborated through a partly-independent path and keep exactly the status and scope v0.4.8 gave them.
+
+**Files tested**: all 24 `.sldprt` under `test files original` (21 decoded, 3 legacy OLE2 unsupported) and the 13 controlled `model.STL` exports.
+
+**Faces/models tested**: 1,272 faces / 21 modern models; 112,047 edge tokens; 122,142 Block3 bytes; 13 STL exports.
+
+**Confidence**: High for the replication and the control (exact, deterministic, reproducible). High for the missing-face finding (a facet-normal group is either present or absent). The *cause* of the omission is not established.
+
+**Known gaps**: shared decompressor (partial pipeline independence); same corpus, not an independent holdout; no semantic claim about Block3, surface tags or scalar arrays; cause of the missing −X exports uninvestigated.
+
+**Date last updated**: 2026-09-15
+
+**Raw evidence**: `knowledge/evidence/2026-09-15_v0.4.8-EXP049.md`, `v0.4.8/EXP049_RESULTS.json`, `v0.4.8/exp049_independent_replication.js`
+
+---
+
+## EXP-050: Off-Cone Display Samples Are Chord Points, Not a Metadata Failure
+
+**Question**: EXP-048's closing open thread — localize the off-cone samples on USB hub bottom face 35 and the 19 Pocket Wheel faces from EXP-047, and distinguish chord/interpolation samples from stale display data and correspondence issues, without altering original coordinates.
+
+**Status**: Complete. Open thread resolved. No new invariant; no parser change.
+
+**Method**: EXP-047 scores each tag-4003 face by `coneMinus = MAX over vertices of |rho − |radius − h·tan(angle)||` at 1e-7 m (27/47 pass). Being a maximum, one deviant vertex fails a whole face and the metric cannot separate "the stored surface is wrong" from "one sample is not on it". This replaces the max with the per-vertex distribution and applies four discriminators: **D1** deviation sign (inside vs outside the cone), **D2** distance to a chord joining two vertices of the same face that *do* satisfy the stored cone, **D3** an independent least-squares cone refit, **D4** the surface tags of faces co-owning each failing vertex. EXP-047's threshold was held at exactly 1e-7 m; no failure was rescued by loosening it, and no coordinate was modified.
+
+**Result — 20 failing faces (19 Pocket Wheel, 1 USB hub bottom face 35), 250 failing vertices:**
+- **D1: 250 inside the cone, 0 outside.** Perfectly one-sided. Random error, stale data or wrong parameters would deviate both ways; a secant of a convex surface can only fall inside.
+- **D2: 250/250 lie on a chord** joining two on-cone vertices of the same face, worst distance **7.596e-9 m** — about 13× tighter than the tolerance they fail, and four orders of magnitude below their own residuals (up to 1.2e-4 m). They are interpolated points on a straight span, not independent surface samples.
+- **D3: 0/20 faces rescued by a refit.** The stored parameters are not the problem — the failing vertices lie on chords *of the stored cone itself*.
+- **D4: all 250 sit on boundaries shared with a face of a different surface type** (247 × tag-4002 cylinder, 3 × tag-4001 plane).
+
+**Conclusion**: **The cone metadata is correct on all 47 tag-4003 faces.** EXP-047's 27/47 measures display-mesh interpolation, not metadata validity. Where a cone's boundary is shared with a cylinder or plane whose tessellation subdivides that edge more finely, the extra vertices are inserted along the straight span and therefore fall inside the cone — the same mechanism EXP-046 measured from the other direction as its 389 `different-sampling` edge-ID groups. This is exactly the separation EXP-048 asked for ("Metadata validity and tessellation fidelity must be evaluated separately"): they are now separated and the metadata side is clean. The discrepancy is resolved, not explained away — the vertices genuinely are off the cone, for a measured, one-sided geometric reason that says nothing against the stored surface.
+
+**Corpus note**: this could not use the controlled C00–C12 models because **they contain no cone faces**. Per-model tags from `EXP045_RESULTS.json`: the controlled corpus covers only tag-4001 (plane) and tag-4002 (cylinder); tag-4003 occurs only in `distributor main boss rev a` (17), `Pocket Wheel` (20), `USB hub case BOTTOM` (8), `Helical Bevel Gear` (2), and tags 4005/4006/4007/4009 occur in no controlled model at all. A corpus gap, not a methodological choice — recorded as NQ-030.
+
+**Hypotheses affected**: none falsified. EXP-047's and EXP-048's archived numbers stand exactly as recorded; only the interpretation of the 20 failures changes. INV-020–024 unaffected.
+
+**Files tested**: all modern models with tag-4003 faces; 47 cone faces total.
+
+**Confidence**: High. The signals are categorical (250/0 one-sided; 250/250 on-chord at 7.6e-9 m) and deterministic.
+
+**Known gaps**: cone faces only, other surface tags untested for the same behaviour; the chord search is local (six nearest on-cone vertices — none required a wider search); the *reason* the exporter inserts these subdivision points is not established.
+
+**Date last updated**: 2026-09-15
+
+**Raw evidence**: `knowledge/evidence/2026-09-15_v0.4.8-EXP050.md`, `v0.4.8/EXP050_RESULTS.json`, `v0.4.8/exp050_offcone_localization.js`
+
+---
+
+## EXP-051: Visual Validation of parser/v0.2 Output
+
+**Question**: Every check through EXP-050 has been numerical. A mesh can satisfy correct triangle counts, correct per-triangle normals, correct residual thresholds and every invariant while still rendering as webbing, spikes or an inside-out shell — a triangulation connecting the right vertices in the wrong order would pass all of them. Does the parser's output actually look like the part?
+
+**Status**: Complete. Visual verification only. No new invariant, no parser change.
+
+**Method**: A self-contained software rasteriser written for this experiment — no three.js, no CDN, no external dependency. Orthographic isometric projection, z-buffer, flat shading from the geometric face normal, one hue per face index, plus an overlay drawing every edge whose Block1 annotation is **nonzero** (INV-021's boundary edges) onto the mesh. Input is `parser/v0.2`'s own `triangleIndices` and `edgeAnnotations`, consumed verbatim — nothing re-derived, welded, re-ordered or repaired.
+
+**Result — all seven models render correctly.** C03 (7 faces/36 tris): 1 mm fillet on exactly one vertical edge with the top face's corner correctly rounded. C04 (7/152): clean circular through-hole, cylinder wall with correct facet banding, diameter reading 50% of the face — 5 mm in a 10 mm cube. C07 (8/292): two separate clean through-holes. **C10 (11/28): the decisive case** — 1 mm rim at the opening, hollow interior with inner walls visible through it, wall thickness ~10% of the edge. USB hub TOP (68/4,704): recognisable enclosure with walls, cutout, screw bosses, counterbored holes and lip. Pocket Wheel (400/17,078): sprocket with pocketed teeth, raised hub, central bore with a resolved keyway notch. Dekor (375/15,282): ornate fretwork panel with a phoenix cutout, fine detail intact.
+
+**No webbing, no stray triangles spanning unrelated vertices, no inverted or missing faces.** The boundary-edge overlay lands on real face outlines in every model — an independent visual confirmation of INV-021's partition, since a wrong edge classification would decorate face interiors rather than their borders. C10 is the strongest single check: a fan triangulation, a mis-ordered strip or a dropped section would close or web across the opening rather than produce a correctly hollowed box with a uniform rim.
+
+**Note on Dekor**: 311 of its 375 faces are tag-4009, the surface type with no external validation anywhere in this project (NQ-030). Its mesh renders as coherent fine detail — which says the display mesh for those faces is well-formed, and nothing about the 4009 metadata.
+
+**Rasteriser bugs found and fixed before accepting results** (rasteriser faults, not parser faults): an inverted depth test rendering back faces over front faces, and a wrong field name in the edge overlay (`ids`/`token` rather than `vertices`/`id`) which silently drew nothing. Both were caught by noticing the first C10 image showed a solid cube where a shell was expected.
+
+**Hypotheses affected**: none. This complements the numerical work and does not strengthen it — visual inspection asserts no tolerance.
+
+**Files tested**: C03, C04, C07, C10, USB hub TOP, Pocket Wheel, Dekor.
+
+**Confidence**: High that the display mesh is well-formed for these seven. Scope is the display tessellation only — nothing about B-rep fidelity, trim accuracy or surface parameters.
+
+**Known gaps**: one viewpoint per model, so a defect hidden by self-occlusion would not appear; colour is per face index and carries no semantic meaning; validates display mesh, not CAD surfaces.
+
+**Date last updated**: 2026-09-16
+
+**Raw evidence**: `knowledge/evidence/2026-09-16_v0.4.8-EXP051.md`, `v0.4.8/EXP051_renders/` (7 PNGs), `v0.4.8/exp051_render_validation.js`
+
+**Extension, 2026-09-20 (EXP-051 continued — six viewpoints, four more models, mesh-closure check).** The original entry recorded "one viewpoint per model" as a limitation. Each model now renders as a 3×2 contact sheet of six labelled viewpoints (ISO FRONT/BACK/LEFT at 35.264° elevation, ISO UNDER at −35.264°, TOP at 89.9°, BOTTOM at −89.9°; 520 px panels, exact angles archived in `v0.4.8/EXP051_RENDER_INDEX.json`). Four models added — USB hub BOTTOM (39 faces), Helical Bevel Gear (113), distributor main boss rev a (51), PTC GE8080-8 (126) — giving **11 sheets, 66 renders**. All remain coherent from every angle. C10's TOP view resolves the shell opening as a clean square annulus with the interior floor visible through it and BOTTOM shows a closed base; the gear shows correct helical tooth twist, splined shaft and hollow bore. A second rasteriser fault was fixed: malformed 3×5 label glyph bitmaps (17-character strings where 15 are needed) rendered panel labels as garbage.
+
+**A visual doubt checked rather than assumed.** In the gear's isometric views, background is visible between the bevel teeth where a root-cone surface might be expected — the signature a missing face would produce. Counting triangles per exact-coordinate edge: **Pocket Wheel, USB hub TOP, C04 and C10 are fully closed (0 open edges)**; the gear has 32 open edges of 9,079 (0.35%) and Dekor 72 of 22,959 (0.31%); **no edge anywhere is shared by more than two triangles**. Testing those open edges: **32/32 on the gear and 72/72 on Dekor are collinearly paired with another open edge**, i.e. the same physical edge subdivided differently by the two faces sharing it, so coordinate-exact matching fails while the geometry coincides; 16 of the gear's 32 additionally carry a vertex strictly in their interior (a T-junction, worst offset 8.33e-9 m). This is exactly the phenomenon EXP-046 recorded from the other direction (its 389 `different-sampling` groups and its 7,048 single-occurrence triangle edges "although the labeled boundaries pair"). **Conclusion: no missing faces** — a visible hole would need hundreds or thousands of open edges bounding it; 32, all collinearly paired, cannot bound any visible region, so the gaps between teeth are genuine open geometry. The single-viewpoint limitation is resolved; the other limits (display mesh not CAD surfaces, no tolerance asserted, no invariant proposed) stand.

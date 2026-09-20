@@ -1,5 +1,27 @@
 # Next Questions
 
+> **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
+
+## NQ-030: Decode the optional scalar arrays and remaining surface records
+
+**Status/date:** Open, 2026-09-14. EXP-045 reads the optional arrays and raw parameters but validates external geometry only for controlled planes/cylinders. Match appropriate independent surface exports before naming the arrays UV or naming remaining tag values. Evidence: [EXP-045](evidence/2026-09-14_v0.4.8-EXP045.md).
+
+## NQ-031: Obtain a discriminating nonzero Block3 sample
+
+**Status/date:** Open, 2026-09-14. All current payload bytes are zero. Try controlled visibility/edge-style changes only as candidate interventions; archive the real binaries and failed interventions too. No specific trigger is established. Evidence: [EXP-042](evidence/2026-09-14_v0.4.8-EXP042.md).
+
+## NQ-032: Decode raw edge-type families and following object records
+
+**Status/date:** Open, 2026-09-14. EXP-044/045 gives an ID bridge and raw 300x/480xx families. Establish curve-type/flag meaning against independent geometry, then parse the variable serialization following the edge table. Do not infer a universal packing formula from approximate numeric similarity.
+
+## NQ-033: Validate container and body/configuration scoping
+
+**Status/date:** Open, 2026-09-14. The new local grammar reuses the existing openswx decompressor. Directory-based discovery, CRC validation, duplicate stream/configuration policy and cross-body edge-ID namespaces remain unvalidated. This is distinct from the successful face-local grammar.
+
+---
+
+Historical queue follows; use the dated resolution notes and current handoff when prioritizing.
+
 Operational research queue for the SLDPRT reverse-engineering project.
 
 This is not the same as `OPEN_QUESTIONS.md`. Open questions describe broad unknowns. Next questions are concrete, experiment-driving questions that can be answered, falsified, or retired.
@@ -27,6 +49,8 @@ Statuses:
 ---
 
 ## NQ-001: Can Block 1 Be Parsed By A Finite-State Grammar Over Observed Section Forms?
+
+> **Correction, 2026-09-14 (EXP-042–046):** The corpus grammar is decoded as length-delimited strip-edge annotation sections; no inferred finite-state language is needed for these records. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Active
 
@@ -324,6 +348,8 @@ Statuses:
 
 ## NQ-019: What Do the Alternating Tokens (150, 153) in Cylindrical Faces Represent?
 
+> **Correction, 2026-09-14 (EXP-042–046):** Answered by geometric edge mapping and downstream metadata. Values 150/153 label the two cylinder boundary curves in the corresponding controlled models. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Ready
 
 **Depends on**: EXP-029
@@ -509,6 +535,8 @@ Either outcome is a clean falsification of one branch, making this the highest i
 
 ## NQ-029: Is Adjacency-Without-Modification Ever Sufficient, and Can a Model Fully Isolate It From Direct Modification?
 
+> **Correction, 2026-09-14 (EXP-042–046):** C13 is no longer a prerequisite for parsing B1/B2. Its causal/persistent-ID question is distinct from the now-established format mapping; keep it as optional future input. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Partially Answered (EXP-039); fully isolating the co-occurring case is Blocked (requires a new SolidWorks model, design-stage only)
 
 **Depends on**: EXP-037, EXP-038, EXP-039
@@ -526,3 +554,37 @@ Either outcome is a clean falsification of one branch, making this the highest i
 **Last updated**: 2026-08-16
 
 **CORRECTION NOTE (2026-08-17, audit of EXP-037→EXP-040)**: The "0/12 ... 11/11" answer above needs two corrections. (1) "11/11" is wrong — `EXP039_DIRECT_MODIFICATION_NECESSITY.json` never computed it (its `rows` array excludes every directly-modified face by construction); recomputed directly from `EXP037_RESULTS.json`/`EXP038_RESULTS.json`, the real figure is **14/14 known cases (1 unknown)**. (2) More importantly for this question specifically: re-checking which faces make up the 12 "adjacent" cases against `EXP037_RESULTS.json`'s own `added[].adjacentToModelFaces` data shows every one of them is adjacent only to an already-*directly-modified* neighbor (hole's -X/-Y/+X/+Y are adjacent to the hole's own modified +Z/-Z, not to the new cylindrical face; shell's four "adjacent" faces are adjacent to the shell's own modified opening, not to any of the five new inner walls; fillet/chamfer's -X/-Y are adjacent to +Y/+Z/-Z, not to the new face). **None of the 12 cases actually test "adjacent to newly-created geometry without modification" — they test "adjacent to a directly-modified neighbor without modification," which is a different, weaker claim.** This means NQ-029's title question ("Is Adjacency-Without-Modification Ever Sufficient?") is not actually answered even partially by the existing corpus — the confound this question was meant to test around is universal across all four feature types tested here, not specific to edge-type features as EXP-038 originally scoped it. The `C14` proposal below is unaffected by this correction and remains the way to actually test the question — if anything, this correction strengthens the case for it, since no existing model in this corpus can substitute. Full derivation: `v0.4.7/EXP039_SUMMARY.md`'s matching correction note. No new experiment was run to produce this note.
+
+**UPDATE (2026-09-13, EXP-041)**: The controlled-corpus SLDPRT files for C00–C11 were committed (`d0c6c54`), so this question can now be attacked with real binaries instead of archived JSON for the first time. It was, and **the answer is unchanged: still unanswered, and now demonstrably unanswerable within this corpus.** EXP-041 recomputed the full cross-tabulation from source across all 13 models, 12 pairs and 65 matched face correspondences — including C06, C07, C08 and C11, which no prior experiment had analyzed for tokens or adjacency at all. The discriminating cell {vertices unchanged} × {adjacent to a newly created face} contains **0 rows**. The 2026-08-17 correction above established this over five feature models; it now holds over the complete corpus. **The five newly supplied models do not break the confound and cannot** — no feature in this corpus's vocabulary creates a new face without perturbing its neighbour's own vertices. The `C13` split-line model specified in `v0.4.7/RESEARCH_DESIGN_next_experiment.md` §6 (called `C14` in the proposal below) remains **required and unbuilt**; it is now the single highest-value missing input in the project, and the case for it is strictly stronger than before, since the corpus expansion that might have substituted for it has been tried and did not. See `knowledge/evidence/2026-09-13_v0.4.7-EXP041.md` §5 and `v0.4.7/EXP041_SUMMARY.md` §5.
+
+---
+
+## NQ-030: Controlled models covering surface tags beyond plane and cylinder
+
+**Status**: Open. Requires new models from the user; no analysis can substitute.
+
+**Why**: The controlled corpus C00–C12 exercises only **tag-4001 (plane)** and **tag-4002 (cylinder)** — cubes, through-holes, fillets, chamfers and a shell produce nothing else (per-model tags verified from `EXP045_RESULTS.json`, 2026-09-15). Every other surface tag is validated only against complex production models with no analytic ground truth and no controlled single-variable structure:
+
+| tag | occurrences | models containing it |
+|---|---|---|
+| 4003 | 47 | distributor (17), Pocket Wheel (20), USB hub BOTTOM (8), Helical Bevel Gear (2) |
+| 4005 | 35 | Pocket Wheel (26), USB hub TOP (7), distributor (1), Helical Bevel Gear (1) |
+| 4006 | 42 | Helical Bevel Gear (32), Dekor (8), USB hub TOP (2) |
+| 4007 | 33 | Pocket Wheel (32), USB hub TOP (1) |
+| 4009 | 311 | Dekor (311) |
+
+Consequences already visible: EXP-047/048 had to validate cone metadata against production models; EXP-050 resolved their open thread but only for tag-4003; and tags 4005/4006/4007/4009 have **no external validation at all** — only `4001` and `4002` have been checked against independently exported STEP geometry (EXP-045, 94/94 controlled faces).
+
+**What would close it** — controlled models in the C-series style (one primitive each, built in SolidWorks 2022, exported as `model.SLDPRT` + `model.step` + `model.STL`, volume-verified at build time):
+
+- **C13_cone** — a simple revolved or lofted cone of known half-angle and base radius (exercises tag-4003 with analytic ground truth, which no current controlled model provides).
+- **C14_torus** — a revolved circular profile (a likely candidate for one of 4005/4006).
+- **C15_sphere** — a revolved semicircle.
+- **C16_spline_surface** — a lofted or swept surface over a known spline (a likely candidate for 4009, which currently occurs *only* in Dekor).
+- **C17_cube_splitline** — the Split Line model specified in `v0.4.7/RESEARCH_DESIGN_next_experiment.md` §6, still unbuilt and still the only construction that populates the empty adjacency/modification cell (see NQ-029).
+
+Each should be a single feature on a known base so the surface parameters are analytically predictable, matching how C00–C12 were built.
+
+**Blocking**: no SolidWorks access exists from this environment; these must be supplied the same way C12 and C00–C11 were.
+
+**Date raised**: 2026-09-15 (EXP-050).

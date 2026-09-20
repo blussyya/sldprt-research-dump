@@ -1,5 +1,7 @@
 # Open Questions
 
+> **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
+
 Project-wide unresolved questions. Do not promote any item here into a fact without a falsifiable experiment and evidence update.
 
 Source migrated from `v0.3.5/docs/research/OPEN_QUESTIONS.md`.
@@ -125,6 +127,8 @@ Source migrated from `v0.3.5/docs/research/OPEN_QUESTIONS.md`.
 ---
 
 ## OQ-006: What Is The Meaning Of Block 2's Raw Encoding?
+
+> **Correction, 2026-09-14 (EXP-042–046):** Answered operationally: each B2 element is the word length of a B1 strip section, 2*L-2. The precursor separately stores L. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Hypothesis
 
@@ -261,6 +265,8 @@ This asymmetry is unexplained. It does not correlate with file size, face count,
 
 ## OQ-014: What Does The [4,8,2,N] Pattern Mean In DisplayLists?
 
+> **Correction, 2026-09-14 (EXP-042–046):** A local typed-array interpretation now parses the face sequence. This does not establish a complete global object serialization grammar. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Open Question
 
 **Evidence so far**: The pattern [4,8,2,N] appears 3,516 times across 7 files (0.96 per 1KB). N ranges from 1 to 9,636 (175 distinct values). 661 occurrences are at face-relative positions mp - 16 - 4*N (face containers). The remaining 2,855 occurrences are elsewhere in the stream. Classification attempts in EXP-022/025 failed due to offset bugs (see FALSIFICATION_REVIEW.md). Whether this is one container format with variable N or multiple unrelated structures is unknown.
@@ -276,6 +282,8 @@ This asymmetry is unexplained. It does not correlate with file size, face count,
 ---
 
 ## OQ-015: What Does The N=2 Body[0] Value At mp-8 Represent?
+
+> **Correction, 2026-09-14 (EXP-042–046):** Answered: it is the first of two serialized strip lengths, not a previous face edgeCount. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Open Question
 
@@ -344,6 +352,8 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 
 ## OQ-018: Does Section Count Fully Determine Alternative-Header Presence?
 
+> **Correction, 2026-09-14 (EXP-042–046):** Resolved as a detector-window artifact; the full precursor exists for all observed strip counts. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Correlation confirmed exceptionless (2026-08-13, EXP-026); causal direction remains Open. See correction note below. Original entry retained per evidence-preservation policy.
 
 **Evidence so far**: Once the Block1->Block2 offset bug in EXP-023/024 was corrected (v0.4.5), the true `secCount` (Block2 body length M) was cross-tabulated against alternative-header presence/N-value for all 1,172 faces in the 7-file corpus. The correlation has zero exceptions: `secCount=1` occurs in exactly the 368 faces with an N=1 alternative header (and no others); `secCount=2` occurs in exactly the 293 faces with an N=2 alternative header (and no others); `secCount>=3` occurs in exactly the 511 faces with no alternative header (and no others). This is stronger than the previously-reported "VC=4,8,10 always have alternatives" correlation (OQ-014/EXP-023) and may subsume it, since VC and secCount are likely correlated with each other via INV-016 (`b1len = 2*(vc - secCount)`). No causal mechanism or semantic meaning is established. Per project rules, do not infer that the alternative header "encodes" secCount or vice versa without a discriminating experiment (e.g., testing whether N always equals secCount for secCount in {1,2}, and why the pattern stops being observed at secCount=3, which could be a container-format cutoff or filtering artifact of the mp-20/mp-24 search window used to detect the alternative header).
@@ -372,6 +382,8 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 ---
 
 ## OQ-019: Is Sequential Loop Segmentation The Correct Vertex-To-Loop Mapping?
+
+> **Correction, 2026-09-14 (EXP-042–046):** Resolved for the corpus: sequential strip grouping and alternating strip winding pass EXP-042/043. Sequential polygon/fan interpretation is falsified. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Open Question
 
@@ -511,6 +523,8 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 
 ## OQ-027: What Do the Specific Token Values (150, 153, 5, 82, etc.) Represent?
 
+> **Correction, 2026-09-14 (EXP-042–046):** Answered on the corpus: nonzero words label boundary edges; EXP-043 maps them geometrically and EXP-045 matches the downstream ID table. Evidence: [v0.4.8 report](../v0.4.8/README.md).
+
 **Status**: Open Question
 
 **Evidence so far**: EXP-030 found that cylindrical faces have alternating tokens (150, 153) across all hole diameters. Cube faces have tokens [1, 5, 82, 0, 79, 62] across all models. Token values do NOT correspond to vertex indices, edge counts, loop sizes, or Block2 values.
@@ -639,6 +653,13 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 
 **CORRECTION NOTE (2026-08-16, Audit + EXP-040)**: EXP-037's shell "contrast case" — cited above and elsewhere via `OQ-036` as evidence that adjacency is "not universally sufficient" across feature types — is retracted. It was based on a face-indexing error (naming two of shell's own new inner-wall faces as "unmodified outer walls"); a corrected recheck (two independent methods, both bypassing the original error) finds shell's new inner-wall faces have **zero** real adjacency to any of its unmodified outer walls at all — only to the shell's own directly-modified opening face and to each other. Shell therefore no longer counts as a counterexample, though this does not newly prove universality either (see `knowledge/evidence/2026-08-16_v0.4.7-EXP040.md`). A full four-feature-type tally is now 0 exceptions in either direction (10 adjacent+changed / 0 adjacent+unchanged / 0 non-adjacent+changed / 13 non-adjacent+unchanged / 1 unknown). This is consistent with, not contradicted by, EXP-039's "0/12" figure immediately above: EXP-039's 12 adjacent-and-unmodified data points come from real adjacency to each shell model's own directly-modified opening face (not from the erroneous outer-wall claim), and its own freshly-computed adjacency data already agreed with this correction. "Global model state" (the phenomenon description, i.e. that fillet/chamfer change tokens on faces not directly touched) is unaffected by this — only the specific "shell disproves universality" caveat is withdrawn.
 
+**UPDATE (2026-09-13, EXP-041)**: First from-source analysis of the controlled corpus (`d0c6c54` added the C00–C11 binaries). Two new observations bear on "global model state" as a candidate mechanism, and both weaken it further:
+
+1. **`C07 → C08`** changes *only* the second hole (5 mm → 3 mm Ø), face count 8→8, nothing added or removed. The four side walls **and** face 6 — the *first* hole's cylinder at centre (3,3), untouched by the edit — are identical in both vertices and Block1 tokens, while faces 4, 5 and 7 change. Face 6 shares **35 vertices with face 4 and 35 with face 5**, both of which undergo large token changes. Per EXP-028 the DisplayList is re-serialized wholesale on any face change, yet five of eight faces come through byte-identical. This is the strongest global-state control in the project and the first on a pair with a genuine **non-similarity** feature edit (C01/C02, the only prior evidence of this kind, are similarity transforms). It also extends EXP-039's R2 relation — one-hop propagation from an already-modified neighbour does not occur — to the highest-contact case in the corpus.
+2. **`C04 → C06`** (hole position only): within a single model pair, the cylindrical face translates rigidly (`[0.002, 0, 0]`, all 70 vertices) with **byte-identical** tokens while faces 4/5 change. The token change behaves as a **per-face** property, not a model-global one.
+
+Neither observation falsifies a global-state mechanism outright, but nothing in the corpus now requires one. See `knowledge/evidence/2026-09-13_v0.4.7-EXP041.md` §4.1–4.2.
+
 ---
 
 ## OQ-033: Why Do Fillet and Chamfer Produce Identical Signature Changes?
@@ -662,6 +683,8 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 ---
 
 ## OQ-034: What Do Block1/Block2 Tokens Encode?
+
+> **Correction, 2026-09-14 (EXP-042–046):** Answered at the display-mesh level by EXP-042–046: B1 edge annotations, B2 strip-section lengths, precursor vertex counts. Whole-format semantics remain open. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
 **Status**: Open Question
 
@@ -730,3 +753,8 @@ with `N` taken from `block1Start + 12` (the header's 4th word), not `block1Start
 **CORRECTION NOTE (2026-08-17, audit of EXP-037→EXP-040)**: "11/11" is wrong (correct: **14/14 known, 1 unknown** — the script never actually computed this figure; see `v0.4.7/EXP039_SUMMARY.md`'s correction note). More substantively for this entry: "adjacency alone never causes a change (0/12)" should not be read as a real test of adjacency-to-new-geometry specifically — every one of the 12 cases is adjacent only to a face that was already directly modified for other reasons (hole's/shell's own directly-modified faces), never to the genuinely new geometry (cylindrical wall / inner walls) itself. So this entry's claim that fillet/chamfer are distinguished from hole/shell by something other than "adjacency to a new face" is not actually tested here — no case in this corpus isolates that comparison. The distinguishing-property question remains as open as before this experiment.
 
 **CORRECTION NOTE (2026-08-16, Audit + EXP-040)**: This question's title and framing ("...While Shell and Holes Do Not") remain correct — shell/hole genuinely do not change tokens on unrelated faces, independently established by EXP-035/033. What is corrected is a claim used to explain *why* fillet/chamfer differ from shell: EXP-037 had argued shell's new inner-wall faces ARE adjacent to unmodified outer walls (yet don't change them), positioned as a disanalogy limiting any adjacency-based explanation. That claim was a face-indexing error (see `FAILED_HYPOTHESES.md` FH-031's 2026-08-16 correction note and `knowledge/evidence/2026-08-16_v0.4.7-EXP040.md`) — shell's new faces are, in fact, never real-adjacent to its unmodified outer walls at all. Shell is therefore consistent with, not a disanalogy against, an adjacency-based explanation of the fillet/chamfer effect; it just doesn't itself generate any new-face-adjacent-to-old-unmodified-face case to test the explanation with. The open "why" question this entry asks is unaffected — still unresolved — but one previously-cited piece of contrary evidence for it is withdrawn, and it is fully compatible with EXP-039's finding immediately above (EXP-039's own adjacency data for shell already reflected zero adjacency to outer walls, since it was computed fresh rather than taken from EXP-037's prose).
+
+
+**UPDATE (2026-09-13, EXP-041)**: The premise of this question is now known to rest on a distinction the corrected tooling does not reproduce. EXP-040 already showed a single uniform rule across all four feature types once adjacency is measured with real vertex sharing rather than orientation labels (0 exceptions in either direction). EXP-041 recomputed the whole table from source across all 13 models, 12 pairs and 65 matched face correspondences — adding C06, C07, C08 and C11, which no prior experiment had analyzed for tokens or adjacency — and found the same: **17/17 faces adjacent to newly created geometry changed; 36/36 unmodified non-adjacent faces did not.** No feature-type-specific behaviour is visible. The apparent fillet/chamfer-vs-hole/shell split this question was named after is attributable to EXP-033's broken orientation-label adjacency test, not to the format.
+
+The question that remains is **not** "why do fillet/chamfer differ from hole/shell" but the H1b-vs-H2 confound: every face adjacent to new geometry in this corpus also had its own vertices perturbed, so "adjacency to new geometry" and "non-similarity change to the face's own shape" cannot be separated. EXP-041 confirms the discriminating cell {vertices unchanged} × {adjacent to a new face} is **empty across the complete corpus** — 0 rows — so this is structural to the corpus, not an artifact of which subset had been examined. The `C13` split-line model (`v0.4.7/RESEARCH_DESIGN_next_experiment.md` §6) remains required and unbuilt. See `knowledge/evidence/2026-09-13_v0.4.7-EXP041.md` §5.
