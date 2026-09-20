@@ -11,8 +11,16 @@ This repository is a working dump of all local research files for the SLDPRT rev
 Two layers of the `Contents/DisplayLists` per-face record are now read end to end, and the
 link between them is explicit:
 
-- **Block2** encodes **triangle-strip vertex counts** — not CAD boundary-loop sizes. The old
-  “loop” naming was a misnomer and is superseded throughout (INV-020).
+- **A precursor array** `[4,8,2,S]` immediately before the positions stores the **triangle-strip
+  vertex counts** directly, one entry per strip, summing to the face's vertex count (INV-020).
+  This is what `parser/v0.2` reads as `stripLengths`.
+- **Block2** is the **Block1 section-length table**, one entry per strip, storing `2·L − 2` — the
+  strip's leading control word plus its `2L − 3` edge tokens — and summing to Block1's word count
+  (INV-018). A strip length is recoverable from it as `(Block2[i] + 2) / 2`, which is INV-007's
+  decode and what `parser/v0.1` used; what that decode yields is strip vertex counts, not the CAD
+  boundary-loop sizes the old `loopSizes` name implied. **Block2's stored words are not strip
+  lengths** — every stored word exceeds its strip length (`2L − 2` against `L`, for the observed
+  `L ≥ 3`), so reading them as lengths produces invalid triangle indices.
 - **Block1** is a **per-edge annotation array** over those strips: one control word per strip,
   then one token per strip edge. Zero marks a face-interior edge, nonzero a face-boundary edge,
   and the nonzero IDs are shared with the adjoining face (INV-021, INV-024).
