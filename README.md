@@ -48,6 +48,39 @@ The parser is versioned independently from the research progression and lives un
 | Version | Description |
 |---------|-------------|
 | `parser/v0.1` | Read-only SLDPRT geometry parser & browser viewer, originally produced as research slot `v0.5`. Built on the validated state through v0.4.6; passes exact parity (1,172/1,172 faces) against the v0.4.5/v0.4.6 reference data. See `parser/v0.1/README.md` and `parser/v0.1/SUMMARY.md`. |
+| `parser/v0.2` | Read-only parser implementing the verified strip/edge layout and forward metadata read (v0.4.8, EXP-042–046). Returns triangle indices, boundary cycles, edge IDs and linked metadata; retains unknown data and original coordinates. Not a converter. See `parser/v0.2/README.md` and `v0.4.8/PARSER_V02_VALIDATION.json`. |
+
+## Parser Output
+
+Renders produced directly from `parser/v0.2` output by `v0.4.8/exp051_render_validation.js`
+(EXP-051) — a self-contained software rasteriser with no external dependencies, consuming the
+parser's own `triangleIndices` and `edgeAnnotations` verbatim. Nothing is re-derived, welded or
+repaired: **what these images show is what the parser emits.** Black lines are the edges whose
+Block1 annotation is nonzero (INV-021's boundary edges), drawn onto the mesh.
+
+Each sheet is six viewpoints — ISO front/back/left, ISO under, top, bottom.
+
+**C10, the 1 mm shell** — the controlled model that pins the strip triangulation. The TOP view
+resolves the opening as a clean square annulus with the interior floor visible through it;
+BOTTOM shows a closed base. A fan triangulation or a mis-ordered strip would close or web
+across the opening.
+
+![C10 shell, six views](v0.4.8/EXP051_renders/C10.png)
+
+**USB hub case TOP** — 68 faces, 4,704 triangles: enclosure walls, cutout, screw bosses,
+counterbored holes and lip, coherent from every angle.
+
+![USB hub case top, six views](v0.4.8/EXP051_renders/usbtop.png)
+
+All eleven sheets are in [`v0.4.8/EXP051_renders/`](v0.4.8/EXP051_renders):
+
+| controlled | production |
+|---|---|
+| [C03 fillet](v0.4.8/EXP051_renders/C03.png) · [C04 hole](v0.4.8/EXP051_renders/C04.png) · [C07 two holes](v0.4.8/EXP051_renders/C07.png) · [C10 shell](v0.4.8/EXP051_renders/C10.png) | [USB hub TOP](v0.4.8/EXP051_renders/usbtop.png) · [USB hub BOTTOM](v0.4.8/EXP051_renders/usbbottom.png) · [Pocket Wheel](v0.4.8/EXP051_renders/pocket.png) · [Dekor](v0.4.8/EXP051_renders/dekor.png) · [Helical Bevel Gear](v0.4.8/EXP051_renders/gear.png) · [distributor](v0.4.8/EXP051_renders/distributor.png) · [PTC GE8080-8](v0.4.8/EXP051_renders/ptc.png) |
+
+Regenerate with `node v0.4.8/exp051_render_validation.js --all`. Scope and limits — this
+validates the display mesh, not the CAD surfaces, and asserts no tolerance — are recorded in
+[the EXP-051 evidence file](knowledge/evidence/2026-09-16_v0.4.8-EXP051.md).
 
 ## Project Structure
 

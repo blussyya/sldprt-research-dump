@@ -159,3 +159,25 @@ Auditing every controlled `model.STL` by facet-normal group: **C03, C09 and C11 
 This strengthens the strip interpretation rather than qualifying it — the residual left conservatively unexplained here is not a defect in the strip reading. The *cause* of the omission (exporter bug, export setting, or something in how those three models were generated) is not established.
 
 EXP-049 also replicates INV-020/021/022 through a different face-discovery path and adds an edge-order falsification control absent from this report: shuffling the edge order within each strip, holding tokens and incidence fixed, produces 44,640 exceptions versus 0 for the documented order — so the ordering documented above is load-bearing, not an artifact of the classification.
+
+---
+
+## Visual validation, 2026-09-16 / 2026-09-20 (EXP-051)
+
+Appended by a later experiment; nothing above is rewritten.
+
+`parser/v0.2`'s output is rendered directly by [`exp051_render_validation.js`](exp051_render_validation.js)
+— a self-contained software rasteriser, no external dependencies, consuming this parser's own
+`triangleIndices` and `edgeAnnotations` verbatim. Eleven models, six viewpoints each, in
+[`EXP051_renders/`](EXP051_renders); view angles in [`EXP051_RENDER_INDEX.json`](EXP051_RENDER_INDEX.json).
+All render coherently, and the nonzero-annotation overlay lands on real face outlines in every
+model — an independent visual check on the Block1 edge partition described above.
+
+A mesh-closure check prompted by one of the images: Pocket Wheel, USB hub TOP, C04 and C10 are
+fully closed (0 open edges); the Helical Bevel Gear has 32 open edges of 9,079 and Dekor 72 of
+22,959, **all of them collinearly paired with another open edge** — the differing-subdivision
+phenomenon this report already records as 389 `different-sampling` edge-ID groups, not missing
+faces. No edge anywhere is shared by more than two triangles.
+
+Scope: this validates the display mesh, not the CAD surfaces, and asserts no tolerance. See
+[the evidence file](../knowledge/evidence/2026-09-16_v0.4.8-EXP051.md).
