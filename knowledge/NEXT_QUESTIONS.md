@@ -641,3 +641,81 @@ two edge IDs is a hint for (a).
 **Not blocked on new models** — the existing corpus has 276 tag-4002 faces with parameters.
 
 **Date raised**: 2026-09-20 (EXP-053). **Measured same day**; left open.
+
+---
+
+## NQ-034 — Does the DisplayLists record layout vary across `_DL_VERSION_*`?
+
+The modern container declares a DisplayLists format version in a stream we have never read.
+Across the 21-file modern corpus: `_DL_VERSION_13000` (2 files), `14000` (1), `15000` (15),
+`16000` (1), `17000` (2).
+
+Our parser treats the format as monolithic and has been validated across all five versions
+without ever consulting the declaration. That our invariants hold across five declared versions
+strengthens them. But being right by accident is not the same as being right on purpose: if a
+future version changes the record layout, we will misparse it silently rather than reject it.
+
+**What would settle it**: read the tag, group corpus results by it, and check whether any
+per-face invariant (array order, `Block2[i] = 2L[i] − 2`, Block3 count) correlates with version.
+If nothing correlates, the tag is advisory and the parser should still surface it and warn on
+unseen values.
+
+**Not blocked** — the data is already in the corpus.
+
+**Date raised**: 2026-09-20 (EXP-054).
+
+## NQ-035 — Can a face record legitimately carry zero normals?
+
+XRTC5/sldprt-export's code explicitly permits a face record with zero normals entries. Our
+parser requires `normals.count === positions.count` and would reject such a record outright.
+
+Tested against our corpus: 21 files, 1,272 faces accepted, **0 records rejected**. The case does
+not occur here.
+
+**This does not refute their claim.** Our corpus is 21 curated files and absence in it is weak
+evidence about the wild. The asymmetry matters: if the case is real, we reject a valid face and
+lose geometry silently from the user's point of view.
+
+**What would settle it**: a part that exhibits it. Failing that, decide the policy deliberately —
+either keep rejecting and say so in the error, or accept and synthesise normals from strip
+winding, flagged in output.
+
+**Blocked on** a model exhibiting the case, or on reading sldprt-export's source closely enough
+to learn what produces it.
+
+**Date raised**: 2026-09-20 (EXP-054).
+
+## NQ-036 — Does the "extended" tessellation-table header (cadmpeg AL-03) occur here?
+
+cadmpeg's open-items document describes an extended per-face tessellation-table header form
+carrying a nonzero token in a slot we have only ever observed at a fixed value. Our parser
+throws `Unsupported strip control` on anything but `1`.
+
+**What would settle it**: scan the corpus for face records whose control token is not 1, and for
+signature matches our `findAll` currently walks past. If none occur, record the negative result
+with the corpus size so the claim is bounded rather than ignored.
+
+**Not blocked**.
+
+**Date raised**: 2026-09-20 (EXP-054).
+
+## NQ-037 — Enumerate node types in the inflated `Config-0-Partition`
+
+EXP-054 §1 established that the partition inflates to a Parasolid XT transmit file in 21/21
+modern files, schema base `13006` in every case. Nothing has been decoded.
+
+The right first milestone is deliberately small and does not require a schema table: confirm the
+header, length-delimit the node stream, and enumerate node types and counts **without resolving
+fields**. That alone tells us whether the body is the full B-rep or a reduced partition, and
+gives a falsifiable target before any field-level work begins.
+
+**The schema problem is not solved by this.** Per EXP-054 §5, machine-usable Parasolid schema
+data in the public ecosystem is either sourced from a Siemens SDK, of undocumented provenance,
+or derived from a decompiled kernel. None of those is a clean dependency for this project. The
+plane/cylinder/cone entities we care about are simple fixed structs, so deriving a minimal
+schema for them independently is plausible — but that is the hard part, and it should not be
+started by copying someone else's asset.
+
+**Not blocked** for the enumeration milestone.
+
+**Date raised**: 2026-09-20 (EXP-054).
