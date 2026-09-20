@@ -6,11 +6,12 @@ browser. No dependencies, no build step.
 | file | what it is |
 |---|---|
 | `cli-viewer.js` | Interactive terminal viewer (ANSI truecolor) |
+| `serve.js` | Zero-dependency static server for the browser viewer |
 | `web/index.html` | Interactive browser viewer (hand-written WebGL) |
 | `inflate.js` | Synchronous DEFLATE/zlib decoder, so the parser runs client-side |
 | `test-inflate.js` | Verifies `inflate.js` against Node's zlib |
 | `export-mesh-data.js` | Builds the browser viewer's pre-parsed geometry payload |
-| `mesh-data.json` | That payload — seven models |
+| `mesh-data.js` | That payload — seven models |
 | `renders/` | Screenshots used in the READMEs |
 
 ## Terminal viewer
@@ -45,16 +46,25 @@ therefore defaults on only when the window is tall enough to resolve it (≥55 r
 
 ## Browser viewer
 
-`web/index.html` is the source published as an artifact. Open it locally with any static server
-(it needs its sibling files, so `file://` works only if they sit next to it):
-
 ```bash
-node viewer/export-mesh-data.js > viewer/mesh-data.json    # regenerate the payload
-npx http-server viewer/web                                  # or any static server
+node viewer/serve.js --open
 ```
 
-The published copy also carries `mesh-data.js` (the payload wrapped as a global), `inflate.js`
-and the two parser cores, so it parses files entirely in the browser.
+Starts a local web server and opens `http://localhost:8080/viewer/web/index.html`.
+`serve.js` uses only Node's built-in `http` and `fs`: no dependencies, no build step, nothing
+installed. Flags: `--port N`, `--host 0.0.0.0` (default is localhost only), `--open`.
+
+It serves the **repository root** on purpose. `web/index.html` loads the repository's own files
+by relative path — `../mesh-data.js`, `../inflate.js`, `../../parser/v0.1/src/parser-core.js`,
+`../../parser/v0.2/src/parser-core.js` — so the page runs against the same parser source as the
+CLI tools, with no duplicated copies to drift. Opening the file directly over `file://` works
+too, for the same reason.
+
+Regenerate the geometry payload after a parser change:
+
+```bash
+node viewer/export-mesh-data.js     # rewrites viewer/mesh-data.js
+```
 
 ![Six-view sheet exported from the browser viewer](renders/webgl-sheet-c10.png)
 

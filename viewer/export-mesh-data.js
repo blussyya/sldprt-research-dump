@@ -6,7 +6,10 @@
  * per-face colouring EXP-051 uses), and the INV-021 boundary edges as index pairs.
  * Indices are uint16 where the model fits, uint32 otherwise.
  *
- *   node viewer/export-mesh-data.js > viewer/mesh-data.json
+ *   node viewer/export-mesh-data.js        writes viewer/mesh-data.js
+
+ * The payload is emitted as JavaScript rather than JSON so viewer/web/index.html can load it
+ * with a plain <script> tag and therefore work over file:// as well as from a static server.
  */
 const fs=require('fs'),path=require('path'),zlib=require('zlib');
 const ROOT=path.join(__dirname,'..');
@@ -74,7 +77,10 @@ for(const [id,label,rel,note] of TARGETS){
  models.push({id,label,note,source:rel,...m});
  process.stderr.write(id.padEnd(8)+m.faceCount+' faces  '+m.triangleCount+' tris  '+m.edgeCount+' edges\n');
 }
-process.stdout.write(JSON.stringify({
+const payload=JSON.stringify({
  generated:'viewer/export-mesh-data.js',parser:'parser/v0.2',
  note:'Positions are centred and divided by the largest bounding-box extent. sizeMm carries the real dimensions.',
- models},null,1));
+ models},null,1);
+const outFile=path.join(__dirname,'mesh-data.js');
+fs.writeFileSync(outFile,'window.MESH_DATA='+payload+';\n');
+process.stderr.write('wrote '+outFile+' ('+(fs.statSync(outFile).size/1048576).toFixed(2)+' MB)\n');

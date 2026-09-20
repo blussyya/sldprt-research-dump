@@ -99,9 +99,22 @@ The edge overlay defaults on only in windows tall enough to resolve it; see
 
 ### 4. Interactive browser viewer
 
-**Live:** [DisplayLists Inspector](https://claude.ai/artifact/MjsdikiKfYmkjxpY8EyMiK) — orbit
-seven models with the boundary-edge overlay and a live readout of face/triangle/edge counts and
-the real bounding box in millimetres. Hand-written WebGL, no external library.
+```bash
+node viewer/serve.js --open
+```
+
+Starts a local web server and opens the viewer at
+`http://localhost:8080/viewer/web/index.html`. `viewer/serve.js` uses only Node's built-in
+`http` and `fs` — no dependencies, no build step, nothing installed. Flags: `--port N`,
+`--host 0.0.0.0` (default is localhost only), `--open`. Ctrl-C stops it.
+
+It serves the repository root, which is what lets `viewer/web/index.html` load the real
+`viewer/mesh-data.js`, `viewer/inflate.js` and both parser cores by relative path rather than
+carrying duplicate copies. Opening the file directly over `file://` also works.
+
+Orbit seven pre-parsed models with the boundary-edge overlay and a live readout of
+face/triangle/edge counts and the real bounding box in millimetres. Hand-written WebGL, no
+external library, no CDN.
 
 **Drop a `.SLDPRT` onto the view to check the parser against a file it has never seen.** The
 part is parsed in your browser and never uploaded; the status line reports faces, triangles,
@@ -114,14 +127,13 @@ byte-for-byte against Node's zlib over the whole corpus (`node viewer/test-infla
 
 ![Six-view sheet exported from the browser viewer](viewer/renders/webgl-sheet-c10.png)
 
-The artifact sandbox blocks a page from starting its own download, so the sheet appears inline
-for right-click → *Save image as…*. To write sheets to disk instead, use the renderer in §2.
+The sheet appears inline for right-click → *Save image as…*. To write sheets to disk directly,
+use the renderer in §2.
 
-The page source is `viewer/web/index.html`. Regenerate its geometry payload after a parser
-change:
+Regenerate the geometry payload after a parser change:
 
 ```bash
-node viewer/export-mesh-data.js > viewer/mesh-data.json
+node viewer/export-mesh-data.js     # rewrites viewer/mesh-data.js
 ```
 
 ### 5. Convert to STL / STEP
@@ -272,11 +284,12 @@ sldprt-research-dump/
 │       └── README.md
 ├── viewer/                              # Interactive viewers (see viewer/README.md)
 │   ├── cli-viewer.js                    # ANSI truecolor terminal viewer
+│   ├── serve.js                         # zero-dependency static server for the web viewer
 │   ├── web/index.html                   # browser viewer (hand-written WebGL, drag-and-drop)
 │   ├── inflate.js                       # synchronous DEFLATE, so the parser runs client-side
 │   ├── test-inflate.js                  # verifies inflate.js against Node's zlib
 │   ├── export-mesh-data.js              # geometry payload for the browser viewer
-│   ├── mesh-data.json
+│   ├── mesh-data.js
 │   └── renders/                         # screenshots used in the READMEs
 ├── step-tools/                          # SLDPRT → STEP comparison utilities
 │   ├── compare.js
