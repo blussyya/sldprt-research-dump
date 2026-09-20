@@ -1224,3 +1224,69 @@ See `knowledge/evidence/2026-08-14_archivist-audit-EXP027-036.md` (Finding B) an
 **Extension, 2026-09-20 (EXP-051 continued — six viewpoints, four more models, mesh-closure check).** The original entry recorded "one viewpoint per model" as a limitation. Each model now renders as a 3×2 contact sheet of six labelled viewpoints (ISO FRONT/BACK/LEFT at 35.264° elevation, ISO UNDER at −35.264°, TOP at 89.9°, BOTTOM at −89.9°; 520 px panels, exact angles archived in `v0.4.8/EXP051_RENDER_INDEX.json`). Four models added — USB hub BOTTOM (39 faces), Helical Bevel Gear (113), distributor main boss rev a (51), PTC GE8080-8 (126) — giving **11 sheets, 66 renders**. All remain coherent from every angle. C10's TOP view resolves the shell opening as a clean square annulus with the interior floor visible through it and BOTTOM shows a closed base; the gear shows correct helical tooth twist, splined shaft and hollow bore. A second rasteriser fault was fixed: malformed 3×5 label glyph bitmaps (17-character strings where 15 are needed) rendered panel labels as garbage.
 
 **A visual doubt checked rather than assumed.** In the gear's isometric views, background is visible between the bevel teeth where a root-cone surface might be expected — the signature a missing face would produce. Counting triangles per exact-coordinate edge: **Pocket Wheel, USB hub TOP, C04 and C10 are fully closed (0 open edges)**; the gear has 32 open edges of 9,079 (0.35%) and Dekor 72 of 22,959 (0.31%); **no edge anywhere is shared by more than two triangles**. Testing those open edges: **32/32 on the gear and 72/72 on Dekor are collinearly paired with another open edge**, i.e. the same physical edge subdivided differently by the two faces sharing it, so coordinate-exact matching fails while the geometry coincides; 16 of the gear's 32 additionally carry a vertex strictly in their interior (a T-junction, worst offset 8.33e-9 m). This is exactly the phenomenon EXP-046 recorded from the other direction (its 389 `different-sampling` groups and its 7,048 single-occurrence triangle edges "although the labeled boundaries pair"). **Conclusion: no missing faces** — a visible hole would need hundreds or thousands of open edges bounding it; 32, all collinearly paired, cannot bound any visible region, so the gaps between teeth are genuine open geometry. The single-viewpoint limitation is resolved; the other limits (display mesh not CAD surfaces, no tolerance asserted, no invariant proposed) stand.
+
+---
+
+## EXP-053 — First conversion pass: SLDPRT → STL / STEP (`converter/v0.1`)
+
+> **Numbering note:** originally drafted as EXP-052. A concurrent session pushed its own
+> EXP-052 (parser views compared with the original STL exports, `v0.4.8/exp052_*`) first, so
+> this work was renumbered to 053. The two are unrelated.
+
+**Question**: every experiment through EXP-051 *reads* the format. Is the decoded geometry good
+enough to write back out as STL and STEP, and where exactly does its fidelity stop?
+
+**Method**: new `converter/v0.1` consuming `parser/v0.2`. STL is an exact dump of the display
+mesh. STEP is a boundary representation with tag-4001 faces emitted as analytic `PLANE` surfaces
+trimmed by their INV-024 boundary cycles, all other faces faceted, vertices and edges shared
+across the body; closed meshes become `MANIFOLD_SOLID_BREP`, open ones
+`SHELL_BASED_SURFACE_MODEL`. Two external checks that do not reuse the converter's arithmetic:
+STL compared triangle-for-triangle against SolidWorks' own `.STL` export (unordered vertex sets,
+so winding and strip order cannot mask a mismatch), and the emitted STEP re-parsed by
+`step-tools/step-parse.js` — written for the original SolidWorks exports, not for this writer —
+checking every reference resolves and comparing `CARTESIAN_POINT` sets against the original
+`.step`. Plus independent volume (divergence theorem), bounding box and open-edge counts.
+Tolerance 2e-5 mm, set from float32 resolution rather than chosen to pass.
+
+**Result — 13/13 controlled models convert; 0 dangling references in any emitted STEP; all 13
+exported meshes closed; bounding box delta 0 against the reference STL on all 13.** STL is
+exactly equal to SolidWorks' export on C00, C01, C02 and C10; a strict superset on C09; and
+re-tessellated on the remaining 8. **Volumes reproduce analytic values exactly on every planar
+model** — C00 1000.000000, C01 8000.000000, C02 1000.000000, C10 424.000000, C09 995.000000
+mm³ — and differ by 5.7e-5 to 8.8e-4 relative on the curved ones, which is tessellation density:
+SolidWorks re-tessellates when exporting STL, so its STL and the stored display mesh are two
+different meshes of the same solid (C03's fillet is 8 angular steps in the export, 4 in the
+display mesh). Production models convert without error: USB hub TOP 342 ms, Dekor 570 ms,
+Helical Bevel Gear 288 ms, PTC GE8080-8 94 ms (114 of its 126 faces analytic).
+
+**Corroborates EXP-049 from a new direction.** C03, C09 and C11's reference STL exports each
+have 4 open edges where ours have 0, and for C09 the *entire* difference between the two meshes
+is the `-1,0,0` facet group: 0 triangles in SolidWorks' export, 2 in ours. EXP-049 found the
+missing −X face by grouping facet normals in the STL files; this finds it from mesh topology on
+a re-exported mesh. Where those models read "mismatch" against the reference, the reference is
+incomplete, not the converter.
+
+**Hypotheses affected**: none proposed or promoted. This is an implementation result that
+measures existing decode quality; it introduces no new structural claim.
+
+**What this does not show** — the limits are structural, not polish. Curved faces are faceted
+because exact trimming curves are not recovered, and EXP-050 established why they cannot be
+re-fitted from this data: display vertices on a cone lie *inside* it, on chords between
+on-surface vertices, so the mesh approximates the surface rather than sampling it. Coordinates
+are float32, so a 10 mm cube round-trips as 9.9999998 mm — the stored precision, which bounds
+every tolerance above. Cylinders and cones *do* carry validated analytic parameters (EXP-045,
+EXP-048), so `CYLINDRICAL_SURFACE`/`CONICAL_SURFACE` emission is reachable and blocked only on
+exact circular trim curves. No feature history, sketches, constraints, materials,
+configurations or assembly structure. Legacy OLE2 unsupported. Nothing claimed for tags
+4005/4006/4007/4009 (NQ-030).
+
+**Files tested**: C00–C12 (13 controlled models) for validation; USB hub TOP, Dekor, Helical
+Bevel Gear, PTC GE8080-8 for scale.
+
+**Confidence**: High that display-mesh conversion is correct and its fidelity is as measured.
+No confidence claimed about B-rep equivalence — explicitly not demonstrated.
+
+**Date last updated**: 2026-09-20
+
+**Raw evidence**: `knowledge/evidence/2026-09-20_converter-v0.1-EXP053.md`,
+`converter/v0.1/VALIDATION.json`, `converter/v0.1/README.md`

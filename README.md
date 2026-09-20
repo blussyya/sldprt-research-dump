@@ -78,6 +78,30 @@ The parser is versioned independently from the research progression and lives un
 | `parser/v0.1` | Read-only SLDPRT geometry parser & browser viewer, originally produced as research slot `v0.5`. Built on the validated state through v0.4.6; passes exact parity (1,172/1,172 faces) against the v0.4.5/v0.4.6 reference data. See `parser/v0.1/README.md` and `parser/v0.1/SUMMARY.md`. |
 | `parser/v0.2` | Read-only parser implementing the verified strip/edge layout and forward metadata read (v0.4.8, EXP-042–046). Returns triangle indices, boundary cycles, edge IDs and linked metadata; retains unknown data and original coordinates. Not a converter. See `parser/v0.2/README.md` and `v0.4.8/PARSER_V02_VALIDATION.json`. |
 
+## Converter
+
+`converter/` is versioned independently, like the parser.
+
+| Version | Description |
+|---------|-------------|
+| `converter/v0.1` | SLDPRT → STL / STEP, consuming `parser/v0.2`. STL is an exact dump of the display mesh. STEP is a boundary representation with tag-4001 faces as analytic `PLANE` surfaces trimmed by their INV-024 boundary cycles and all other faces faceted. Validated in EXP-053 across C00–C12. See `converter/v0.1/README.md` and `converter/v0.1/VALIDATION.json`. |
+
+```bash
+node converter/v0.1/src/node-cli.js <model.SLDPRT> [--stl out.stl] [--step out.step]
+node converter/v0.1/test/validate.js            # 13-model validation against the SolidWorks exports
+```
+
+**Measured fidelity (EXP-053).** 13/13 controlled models convert; 0 dangling references in any
+emitted STEP; all 13 exported meshes closed; bounding-box delta 0 against SolidWorks' own STL on
+all 13. Volumes reproduce analytic values exactly on every planar model — C00 1000.000000,
+C01 8000.000000, C10 424.000000, C09 995.000000 mm³ — and differ by under 0.09% on curved
+models, which is tessellation density rather than decode error.
+
+**What it is not.** Curved faces are exported as facets because exact trim curves are not
+recovered, and EXP-050 established they cannot be re-fitted from this data. Coordinates are
+float32, so a 10 mm cube round-trips as 9.9999998 mm. No feature history, sketches, constraints
+or assembly structure. The scope section of `converter/v0.1/README.md` is the authoritative list.
+
 ## Parser Output
 
 Renders produced directly from `parser/v0.2` output by `v0.4.8/exp051_render_validation.js`
@@ -140,6 +164,12 @@ sldprt-research-dump/
 │       ├── test/                        # validate.js
 │       ├── README.md
 │       └── package.json
+├── converter/                            # Converter implementation (own versioning)
+│   └── v0.1/                             # SLDPRT -> STL / STEP (EXP-053)
+│       ├── src/                          # convert-core.js + node-cli.js
+│       ├── test/                         # validate.js (13-model corpus check)
+│       ├── VALIDATION.json
+│       └── README.md
 ├── step-tools/                          # SLDPRT → STEP comparison utilities
 │   ├── compare.js
 │   ├── sldprt-faces.js
