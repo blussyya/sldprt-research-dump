@@ -132,7 +132,7 @@ function toHalfBlocks(rgb,W,H){
 function main(argv){
  const a=argv.slice(2);
  if(!a.length||a[0]==='-h'||a[0]==='--help'){
-  console.log('usage: node viewer/cli-viewer.js <model.SLDPRT> [--still] [--dark]');
+  console.log('usage: node viewer/cli-viewer.js <model.SLDPRT> [--still] [--dark] [--edges|--no-edges]');
   console.log('keys : arrows/hjkl orbit, +/- zoom, e edges, c colour, r reset, q quit');
   return 0;
  }
@@ -140,7 +140,14 @@ function main(argv){
  let mesh;
  try{mesh=loadMesh(file);}catch(e){console.error('cannot open: '+e.message);return 1;}
 
- const opts={edges:true,color:true,dark:a.indexOf('--dark')>=0};
+ // A terminal row is two pixels tall, so a modest window gives a very small raster and a
+ // 1-pixel edge overlay covers a large fraction of each face. Default the overlay on only
+ // where there are enough pixels to resolve it; 'e' overrides either way, and the status bar
+ // always shows the current state. --edges / --no-edges force it explicitly.
+ const startRows=(process.stdout.rows||+process.env.LINES||30)-2;
+ const opts={edges:startRows*2>=110,color:true,dark:a.indexOf('--dark')>=0};
+ if(a.indexOf('--edges')>=0)opts.edges=true;
+ if(a.indexOf('--no-edges')>=0)opts.edges=false;
  let az=0.85,el=0.60,zoom=1;
  const HOME={az:0.85,el:0.60,zoom:1};
 
