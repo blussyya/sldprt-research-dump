@@ -588,3 +588,56 @@ Each should be a single feature on a known base so the surface parameters are an
 **Blocking**: no SolidWorks access exists from this environment; these must be supplied the same way C12 and C00–C11 were.
 
 **Date raised**: 2026-09-15 (EXP-050).
+
+---
+
+## NQ-031: Can curved faces be exported as analytic STEP surfaces rather than facets?
+
+**Raised by**: EXP-053 (`converter/v0.1`).
+
+`converter/v0.1` emits analytic `PLANE` surfaces for tag-4001 faces and facets everything else.
+The blocker is *not* the surface definitions — cylinders and cones carry axis point, direction
+and radius, validated against independently exported STEP in EXP-045 (94/94 controlled faces)
+and EXP-048 (8/8 USB hub cone records). C04's cylinder, for instance, gives axis base
+`(0.005, 0.005, 0)`, direction `(0,0,1)`, radius `0.0025` — a complete `CYLINDRICAL_SURFACE`.
+
+The blocker is the **trim curves**. A cylindrical face's boundary is a circle, but the stored
+boundary cycle is a polygon (34 segments on C04's hole). Emitting `CYLINDRICAL_SURFACE` trimmed
+by a 34-gon would be worse than faceting: it claims an exact surface while bounding it with an
+inexact curve.
+
+**Measured immediately, 2026-09-20, and the answer is "not yet".** Radial residual of tag-4002
+boundary-cycle vertices against the stored radius:
+
+| corpus | 4002 faces | vertices | worst residual | worse than 1e-5 mm |
+|---|---|---|---|---|
+| controlled C00–C12 | 10 | 538 | **6.05e-7 mm** | 0 |
+| full corpus (24 files) | 276 | 9,669 | **1.20e-1 mm** | **1,518** |
+
+On the controlled corpus the boundary vertices *are* on the cylinder — worst residual 6e-7 mm,
+at float32 noise for these dimensions (~1.2e-7 mm at a 2.5 mm radius), mean below 4e-7 mm on
+every face. Taken alone that would say circles are directly fittable and analytic export is
+straightforward.
+
+It does not generalise. Across the full corpus 1,518 of 9,669 boundary vertices lie more than
+1e-5 mm off the stored radius, the worst by 0.12 mm in Pocket Wheel — five orders of magnitude
+beyond float32 noise. Those vertices are not on the cylinder at all. This is the EXP-050
+situation generalised: some boundary-cycle vertices are interpolated or chord points rather than
+surface samples, and the controlled corpus's simple full-circle through-holes happen to avoid
+the case entirely.
+
+**So the caution was right and the controlled corpus is not sufficient to settle this.** Building
+`CYLINDRICAL_SURFACE` export on the controlled-corpus result would produce exact output for
+cubes with holes and silently wrong trim curves on real parts.
+
+**What would settle it**: characterise *which* boundary vertices deviate. Candidate
+explanations to separate — (a) the cycle includes vertices belonging to an adjoining face rather
+than the cylinder, (b) the face is a partial or trimmed cylinder whose boundary is not a circle,
+(c) the stored radius applies to a different portion of a compound face. The per-vertex data
+needed is already in `parser/v0.2` output; no new models are required. Worth also checking
+whether the deviating vertices correlate with the `edgeIds` on the cycle, since a cycle mixing
+two edge IDs is a hint for (a).
+
+**Not blocked on new models** — the existing corpus has 276 tag-4002 faces with parameters.
+
+**Date raised**: 2026-09-20 (EXP-053). **Measured same day**; left open.

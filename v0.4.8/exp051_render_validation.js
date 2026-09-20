@@ -21,6 +21,9 @@
  *
  * Usage:
  *   node v0.4.8/exp051_render_validation.js --all              regenerate every committed sheet
+ *   node v0.4.8/exp051_render_validation.js --sheet <model.SLDPRT> [out.png]
+ *                                                              six-view sheet for one model;
+ *                                                              defaults out.png to EXP051_renders/<name>.png
  *   node v0.4.8/exp051_render_validation.js <model.SLDPRT> <out.png>   single default view
  */
 const fs=require('fs'),zlib=require('zlib'),path=require('path');
@@ -205,6 +208,13 @@ if(require.main===module){
     views:VIEWS.map(v=>({name:v.name,azimuthDeg:+(v.az/D).toFixed(3),elevationDeg:+(v.el/D).toFixed(3)})),
     panelPx:520,layout:'3x2',sheets:summary},null,2)+'\n');
   console.log('\nWrote EXP051_RENDER_INDEX.json');
+ } else if(a[0]==='--sheet'){
+  if(!a[1]){console.error('usage: node exp051_render_validation.js --sheet <model.SLDPRT> [out.png]');process.exit(1);}
+  const out=a[2]||path.join(__dirname,'EXP051_renders',path.basename(a[1]).replace(/\.[^.]*$/,'')+'.png');
+  fs.mkdirSync(path.dirname(out),{recursive:true});
+  const s=renderSheet(a[1],out,{});
+  console.log(out);
+  console.log(JSON.stringify(s,null,2));
  } else if(a[0]){
   console.log(JSON.stringify(render(a[0],a[1],{})));
  }

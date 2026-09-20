@@ -1,5 +1,11 @@
 # Research Handoff
 
+## Current checkpoint — 2026-09-20, EXP-052
+
+Reviewed staging b529ade and rendered eight matching views of parser/v0.2 versus original STL for 15 models, plus parser-only views of Pocket Wheel/Dekor. [EXP-052 evidence](evidence/2026-09-20_v0.4.8-EXP052.md) includes regeneration commands, images, hashes, metrics and limitations. C10 agrees in all views. USB exports need the documented (-33.5,0,-20.5) mm origin translation; minimum silhouette IoU then exceeds 99.97%. C03/C09/C11 reference missing faces are visible in depth comparison. Parser validation passes unchanged. No parser edits or new invariant. Winding and watertightness remain unproven; see the report's qualifications to EXP-050/051 claims. Historical STOP/next-experiment text below is superseded by this checkpoint and EXP-049–051.
+
+Continue only on staging; main is user-managed. Preserve the older worktree's dirty Pocket Wheel input and untracked research. This review used a detached snapshot to avoid overwriting them; publication targets staging only. Next work is suggested in EXP-052, not started.
+
 ## STOP checkpoint — 2026-09-15, after EXP-048
 
 User requested an immediate wrap-up before the usage limit. **No EXP-049 was started.** Continue only when asked. Work/push exclusively on staging; main is manually merged by the user. Push every completed finding with its executable evidence immediately. Remaining-usage percentage is not exposed to the agent.

@@ -33,6 +33,106 @@ Still open: exact B-rep, feature history, `Config-0-Partition`, Block3 semantics
 scalar arrays, and surface tags 4005/4006/4007/4009 — the controlled corpus covers only planes
 and cylinders, recorded as NQ-030. Legacy OLE2 containers remain unsupported.
 
+## Using the tools
+
+Node.js only. **No dependencies to install** — no npm install, no build step, nothing fetched at
+runtime. Everything below runs from a fresh clone. Legacy OLE2 parts are unsupported throughout
+and report `No readable modern DisplayLists stream`.
+
+### 1. Parse a part file
+
+```bash
+node parser/v0.2/src/node-cli.js "test files original/controlled/C04_cube_hole_5mm/model.SLDPRT" > parsed.json
+```
+
+Prints the whole decode as JSON — one object per face carrying `stripLengths`, `vertices`,
+`normals`, `triangleIndices`, `edgeAnnotations` (the INV-021 per-edge tokens), `block1/2/3`,
+`boundaryCycles` and the forward `metadata` with its surface tag and parameters. Byte `offsets`
+are included per face so any claim can be checked against the file itself. Exits nonzero if any
+face failed.
+
+Validation:
+
+```bash
+node parser/v0.1/test/run-corpus-tests.js   # 1,172/1,172 faces, parity with the v0.4.5/v0.4.6 reference
+node parser/v0.2/test/validate.js           # v0.2's own per-face strip/edge/metadata report
+```
+
+### 2. Render contact sheets (PNG)
+
+Six viewpoints per model — ISO front/back/left, ISO under, top, bottom — written as one 3×2 sheet.
+
+```bash
+node v0.4.8/exp051_render_validation.js --sheet "path/to/YourPart.SLDPRT"   # one model
+node v0.4.8/exp051_render_validation.js --all                               # regenerate all 11
+```
+
+Output defaults to `v0.4.8/EXP051_renders/<name>.png`; pass a second path to redirect it. This is
+a self-contained software rasteriser with its own PNG encoder — no GPU, no browser, no library.
+Black lines are Block1 boundary edges drawn onto the mesh.
+
+### 3. Interactive terminal viewer
+
+```bash
+node viewer/cli-viewer.js "test files original/controlled/C10_cube_shell_1mm/model.SLDPRT"
+```
+
+![CLI viewer showing the USB hub case](viewer/renders/cli-usbtop.png)
+
+That is the actual terminal output. Rendering uses ANSI truecolor and the half-block character
+`▀` — the foreground paints the upper pixel, the background the lower — so one character row is
+two pixels tall and the raster is `columns × rows×2`. Needs a truecolor terminal (Windows
+Terminal, iTerm2, most Linux terminals); it adapts to the window size and redraws on resize.
+
+| key | action |
+|---|---|
+| arrows or `h` `j` `k` `l` | orbit |
+| `+` `-` | zoom |
+| `e` | boundary edges on/off |
+| `c` | colour by face on/off |
+| `r` | reset view |
+| `q` | quit |
+
+Flags: `--still` (one frame, no input — works when piped), `--dark`, `--edges` / `--no-edges`.
+The edge overlay defaults on only in windows tall enough to resolve it; see
+[`viewer/README.md`](viewer/README.md) for why.
+
+### 4. Interactive browser viewer
+
+**Live:** [DisplayLists Inspector](https://claude.ai/artifact/MjsdikiKfYmkjxpY8EyMiK) — orbit
+seven models with the boundary-edge overlay and a live readout of face/triangle/edge counts and
+the real bounding box in millimetres. Hand-written WebGL, no external library.
+
+**Drop a `.SLDPRT` onto the view to check the parser against a file it has never seen.** The
+part is parsed in your browser and never uploaded; the status line reports faces, triangles,
+boundary edges and parse time, or the parser's own error if the file cannot be read. This works
+because `viewer/inflate.js` supplies the synchronous DEFLATE decoder browsers lack — verified
+byte-for-byte against Node's zlib over the whole corpus (`node viewer/test-inflate.js`:
+21 streams, 3,892,180 bytes, 0 differences).
+
+**Export 6-view sheet** renders the EXP-051 viewpoints into one PNG:
+
+![Six-view sheet exported from the browser viewer](viewer/renders/webgl-sheet-c10.png)
+
+The artifact sandbox blocks a page from starting its own download, so the sheet appears inline
+for right-click → *Save image as…*. To write sheets to disk instead, use the renderer in §2.
+
+The page source is `viewer/web/index.html`. Regenerate its geometry payload after a parser
+change:
+
+```bash
+node viewer/export-mesh-data.js > viewer/mesh-data.json
+```
+
+### 5. Convert to STL / STEP
+
+```bash
+node converter/v0.1/src/node-cli.js <model.SLDPRT> [--stl out.stl] [--step out.step]
+node converter/v0.1/test/validate.js      # 13-model check against the SolidWorks exports
+```
+
+See the Converter section below for measured fidelity and the scope limits.
+
 ## Knowledge Base
 
 The project-wide knowledge base is maintained under `knowledge/`:
@@ -77,6 +177,30 @@ The parser is versioned independently from the research progression and lives un
 |---------|-------------|
 | `parser/v0.1` | Read-only SLDPRT geometry parser & browser viewer, originally produced as research slot `v0.5`. Built on the validated state through v0.4.6; passes exact parity (1,172/1,172 faces) against the v0.4.5/v0.4.6 reference data. See `parser/v0.1/README.md` and `parser/v0.1/SUMMARY.md`. |
 | `parser/v0.2` | Read-only parser implementing the verified strip/edge layout and forward metadata read (v0.4.8, EXP-042–046). Returns triangle indices, boundary cycles, edge IDs and linked metadata; retains unknown data and original coordinates. Not a converter. See `parser/v0.2/README.md` and `v0.4.8/PARSER_V02_VALIDATION.json`. |
+
+## Converter
+
+`converter/` is versioned independently, like the parser.
+
+| Version | Description |
+|---------|-------------|
+| `converter/v0.1` | SLDPRT → STL / STEP, consuming `parser/v0.2`. STL is an exact dump of the display mesh. STEP is a boundary representation with tag-4001 faces as analytic `PLANE` surfaces trimmed by their INV-024 boundary cycles and all other faces faceted. Validated in EXP-053 across C00–C12. See `converter/v0.1/README.md` and `converter/v0.1/VALIDATION.json`. |
+
+```bash
+node converter/v0.1/src/node-cli.js <model.SLDPRT> [--stl out.stl] [--step out.step]
+node converter/v0.1/test/validate.js            # 13-model validation against the SolidWorks exports
+```
+
+**Measured fidelity (EXP-053).** 13/13 controlled models convert; 0 dangling references in any
+emitted STEP; all 13 exported meshes closed; bounding-box delta 0 against SolidWorks' own STL on
+all 13. Volumes reproduce analytic values exactly on every planar model — C00 1000.000000,
+C01 8000.000000, C10 424.000000, C09 995.000000 mm³ — and differ by under 0.09% on curved
+models, which is tessellation density rather than decode error.
+
+**What it is not.** Curved faces are exported as facets because exact trim curves are not
+recovered, and EXP-050 established they cannot be re-fitted from this data. Coordinates are
+float32, so a 10 mm cube round-trips as 9.9999998 mm. No feature history, sketches, constraints
+or assembly structure. The scope section of `converter/v0.1/README.md` is the authoritative list.
 
 ## Parser Output
 
@@ -140,6 +264,20 @@ sldprt-research-dump/
 │       ├── test/                        # validate.js
 │       ├── README.md
 │       └── package.json
+├── converter/                            # Converter implementation (own versioning)
+│   └── v0.1/                             # SLDPRT -> STL / STEP (EXP-053)
+│       ├── src/                          # convert-core.js + node-cli.js
+│       ├── test/                         # validate.js (13-model corpus check)
+│       ├── VALIDATION.json
+│       └── README.md
+├── viewer/                              # Interactive viewers (see viewer/README.md)
+│   ├── cli-viewer.js                    # ANSI truecolor terminal viewer
+│   ├── web/index.html                   # browser viewer (hand-written WebGL, drag-and-drop)
+│   ├── inflate.js                       # synchronous DEFLATE, so the parser runs client-side
+│   ├── test-inflate.js                  # verifies inflate.js against Node's zlib
+│   ├── export-mesh-data.js              # geometry payload for the browser viewer
+│   ├── mesh-data.json
+│   └── renders/                         # screenshots used in the READMEs
 ├── step-tools/                          # SLDPRT → STEP comparison utilities
 │   ├── compare.js
 │   ├── sldprt-faces.js
