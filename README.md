@@ -33,6 +33,88 @@ Still open: exact B-rep, feature history, `Config-0-Partition`, Block3 semantics
 scalar arrays, and surface tags 4005/4006/4007/4009 — the controlled corpus covers only planes
 and cylinders, recorded as NQ-030. Legacy OLE2 containers remain unsupported.
 
+## Using the tools
+
+Node.js only. **No dependencies to install** — no npm install, no build step, nothing fetched at
+runtime. Everything below runs from a fresh clone. Legacy OLE2 parts are unsupported throughout
+and report `No readable modern DisplayLists stream`.
+
+### 1. Parse a part file
+
+```bash
+node parser/v0.2/src/node-cli.js "test files original/controlled/C04_cube_hole_5mm/model.SLDPRT" > parsed.json
+```
+
+Prints the whole decode as JSON — one object per face carrying `stripLengths`, `vertices`,
+`normals`, `triangleIndices`, `edgeAnnotations` (the INV-021 per-edge tokens), `block1/2/3`,
+`boundaryCycles` and the forward `metadata` with its surface tag and parameters. Byte `offsets`
+are included per face so any claim can be checked against the file itself. Exits nonzero if any
+face failed.
+
+Validation:
+
+```bash
+node parser/v0.1/test/run-corpus-tests.js   # 1,172/1,172 faces, parity with the v0.4.5/v0.4.6 reference
+node parser/v0.2/test/validate.js           # v0.2's own per-face strip/edge/metadata report
+```
+
+### 2. Render contact sheets (PNG)
+
+Six viewpoints per model — ISO front/back/left, ISO under, top, bottom — written as one 3×2 sheet.
+
+```bash
+node v0.4.8/exp051_render_validation.js --sheet "path/to/YourPart.SLDPRT"   # one model
+node v0.4.8/exp051_render_validation.js --all                               # regenerate all 11
+```
+
+Output defaults to `v0.4.8/EXP051_renders/<name>.png`; pass a second path to redirect it. This is
+a self-contained software rasteriser with its own PNG encoder — no GPU, no browser, no library.
+Black lines are Block1 boundary edges drawn onto the mesh.
+
+### 3. Interactive terminal viewer
+
+```bash
+node viewer/cli-viewer.js "test files original/controlled/C10_cube_shell_1mm/model.SLDPRT"
+```
+
+Orbit the model in the terminal. Rendering uses ANSI truecolor and the half-block character
+`▀` — foreground is the upper pixel, background the lower — so one character row is two pixels
+tall. Needs a truecolor terminal (Windows Terminal, iTerm2, most Linux terminals); it adapts to
+the window size and redraws on resize.
+
+| key | action |
+|---|---|
+| arrows or `h` `j` `k` `l` | orbit |
+| `+` `-` | zoom |
+| `e` | boundary edges on/off |
+| `c` | colour by face on/off |
+| `r` | reset view |
+| `q` | quit |
+
+Add `--still` for a single frame with no input (useful for piping or a non-TTY), `--dark` for a
+dark ground.
+
+### 4. Interactive browser viewer
+
+**Live:** [DisplayLists Inspector](https://claude.ai/artifact/MjsdikiKfYmkjxpY8EyMiK) — orbit
+seven models with the boundary-edge overlay, a live readout of face/triangle/edge counts and the
+real bounding box in millimetres. Hand-written WebGL, no external library.
+
+Regenerate its geometry payload after a parser change:
+
+```bash
+node viewer/export-mesh-data.js > viewer/mesh-data.json
+```
+
+### 5. Convert to STL / STEP
+
+```bash
+node converter/v0.1/src/node-cli.js <model.SLDPRT> [--stl out.stl] [--step out.step]
+node converter/v0.1/test/validate.js      # 13-model check against the SolidWorks exports
+```
+
+See the Converter section below for measured fidelity and the scope limits.
+
 ## Knowledge Base
 
 The project-wide knowledge base is maintained under `knowledge/`:
@@ -170,6 +252,10 @@ sldprt-research-dump/
 │       ├── test/                         # validate.js (13-model corpus check)
 │       ├── VALIDATION.json
 │       └── README.md
+├── viewer/                              # Interactive viewers
+│   ├── cli-viewer.js                    # ANSI truecolor terminal viewer
+│   ├── export-mesh-data.js              # geometry payload for the browser viewer
+│   └── mesh-data.json
 ├── step-tools/                          # SLDPRT → STEP comparison utilities
 │   ├── compare.js
 │   ├── sldprt-faces.js
