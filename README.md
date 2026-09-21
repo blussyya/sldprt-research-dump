@@ -29,9 +29,15 @@ link between them is explicit:
 - A third byte array (Block3, INV-022) and a forward metadata grammar reaching the surface
   record and edge table (INV-023) are documented but not fully decoded.
 
-Still open: exact B-rep, feature history, `Config-0-Partition`, Block3 semantics, the optional
+Still open: exact B-rep, feature history, Block3 semantics, the optional
 scalar arrays, and surface tags 4005/4006/4007/4009 — the controlled corpus covers only planes
 and cylinders, recorded as NQ-030. Legacy OLE2 containers remain unsupported.
+
+`Contents/Config-0-Partition` was previously listed here as unreadable high-entropy data. That was
+wrong, and EXP-054 corrects it: past a 28-byte header the stream is plain zlib, and inflating it
+exposes a Parasolid XT transmit file — the native B-rep — in 21/21 modern corpus files. Readable is
+not the same as decoded; no node has been read yet. See
+`knowledge/evidence/2026-09-20_ecosystem-survey-EXP054.md`.
 
 ## Using the tools
 

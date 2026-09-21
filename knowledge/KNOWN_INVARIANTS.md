@@ -64,7 +64,13 @@ Source migrated from `v0.3.5/docs/research/KNOWN_INVARIANTS.md` and related expe
 
 **Status**: Verified Conclusion
 
-**Evidence**: Modern test files expose readable face geometry in the main `Contents/DisplayLists` stream. Other readable streams examined contain metadata, configuration, feature, preview, or third-party data. `Contents/Config-0-Partition` remains unreadable/high entropy in current tooling.
+**Evidence**: Modern test files expose readable face geometry in the main `Contents/DisplayLists` stream. Other readable streams examined contain metadata, configuration, feature, preview, or third-party data. ~~`Contents/Config-0-Partition` remains unreadable/high entropy in current tooling.~~
+**Corrected 2026-09-20 (EXP-054).** The entropy measurement was right (H = 7.93–8.00 raw) but the
+conclusion was wrong. The stream carries a 28-byte header followed by ordinary zlib; inflating past it
+drops entropy to H = 4.26–6.68 and exposes a Parasolid XT transmit banner
+(`PS...?: TRANSMIT FILE (partition) created by modeller version …`, schema `SCH_*_13006`) in **21/21**
+modern files. The stream is the native B-rep and is readable. It is not yet *decoded* — no node has been
+read — but it is no longer opaque. See `evidence/2026-09-20_ecosystem-survey-EXP054.md` §1.
 
 **Files tested**: `USB hub case BOTTOM.SLDPRT`, `USB hub case TOP.SLDPRT`, `Helical Bevel Gear.SLDPRT`, `Dekor.SLDPRT`
 
