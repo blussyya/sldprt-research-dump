@@ -12,6 +12,13 @@
 **Confidence/date:** High within corpus, 2026-09-14.
 **Sources:** [EXP-042](evidence/2026-09-14_v0.4.8-EXP042.md), [EXP-043](evidence/2026-09-14_v0.4.8-EXP043.md). Header recognition is part of candidate selection; arithmetic, geometry and external comparisons are separate checks.
 
+> **Block2 closed, 2026-09-21 (EXP-061):** Block2 is completely determined by the strip-length
+> precursor and carries **no independent information**. Read directly from the stream rather than
+> through the parser's validation gate: `Block2[i] != 2·L[i] − 2` in **0** of 11,515 strips,
+> entry count != strip count in **0** of 1,414 faces, and a single header form (`4, 8, 2`) across
+> all of them, over 45 modern files. No further decoding work on Block2 is warranted; why a
+> redundant table is stored is a design question, not a format one.
+
 ## INV-021: Block1 Strip-Edge Annotations
 
 > **Corroboration, 2026-09-15 (EXP-049):** Independently replicated (112,047 tokens; 41,010 nonzero on face-boundary edges, 71,037 zero on face-interior edges, 0 exceptions either way), with the edge ordering derived independently before this write-up was readable. **New control:** shuffling the edge order within each strip, holding tokens and incidence fixed, yields 44,640 exceptions versus 0 — so the specific ordering is load-bearing and the partition is not an artifact of the classification. Status and scope unchanged. Evidence: [EXP-049](evidence/2026-09-15_v0.4.8-EXP049.md).
@@ -107,6 +114,42 @@ include surfaces of revolution, sweeps along splines, offset surfaces and non-fi
 
 **Source:** [EXP-055](evidence/2026-09-21_tag-identification-EXP055.md), reproducible via
 `evidence/scripts/EXP055/tag-join.js`.
+
+## INV-026: Per-Face Bounding Box and Sphere
+
+> **Established 2026-09-21 (EXP-061).** The 132-byte region `parser/v0.2` skipped as an opaque
+> prefix between Block3 and the forward metadata record.
+
+**Status:** Verified layout and analytic character; several words in the region remain undecoded.
+
+**Evidence:** Within the 132-byte record, in metres:
+
+| offset | type | field |
+|---|---|---|
+| `+12`, `+20`, `+28` | `f64` × 3 | centre |
+| `+36`, `+44`, `+52` | `f64` × 3 | max corner |
+| `+60`, `+68`, `+76` | `f64` × 3 | min corner |
+| `+84` | `f64` | radius |
+
+The assignment is self-proving: `+12/+20/+28` is the exact midpoint of the `+36…+76` pair on
+**142/142** faces, and `+84` is the exact corner distance `|max − centre|` on **142/142**, both
+below 1e-12 absolute. A wrong assignment cannot satisfy both simultaneously on every face.
+
+The bounds are **analytic, not tessellated**: the record contains the mesh bounding box on
+140/142 faces and equals it on **0/142**, with the worst containment violation 1.341e-9 m — below
+`float32` vertex resolution, so the two exceptions are rounding in the stored vertices. Holds
+across every surface tag (4001–4006) and on faces carrying no metadata.
+
+This is the first analytic geometry read out of DisplayLists; all prior geometry was tessellation
+plus the surface record's own parameters.
+
+**Files/counts:** 24 SolidWorks 2022 models under `test files new/SW2022`, 142 faces.
+
+**Confidence/date:** High within corpus, 2026-09-21. Bytes `+0…+11`, `+32`, `+56`, `+80` and
+`+88…+131` are **not** decoded; the leading words are small integers matching no known count.
+
+**Source:** [EXP-061](evidence/2026-09-21_v0.4.9-EXP061.md), reproducible via
+`evidence/scripts/EXP061/bbox-layout.js`.
 
 ---
 

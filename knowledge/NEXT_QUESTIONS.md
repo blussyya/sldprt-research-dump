@@ -933,3 +933,32 @@ on the whole corpus, and would be the first geometry we read outside the positio
 **Not blocked.**
 
 **Date raised**: 2026-09-21 (EXP-060 §3).
+
+
+---
+
+## NQ-044 — RESOLVED 2026-09-21 (EXP-061)
+
+The 132-byte per-face record is a bounding box plus bounding sphere in metres: centre at
+`+12/+20/+28`, max at `+36/+44/+52`, min at `+60/+68/+76`, radius at `+84`. Self-consistent
+142/142 on both the midpoint and the corner-radius relations. Recorded as INV-026.
+
+The bounds are **analytic**, not tessellated — they contain the mesh bbox on 140/142 and equal it
+on 0/142, the two exceptions being float32 vertex rounding at 1.3 nm.
+
+**Still open in that record**: bytes `+0…+11`, `+32`, `+56`, `+80` and `+88…+131`. The leading
+three words are small integers (`0 0 1` on the cube's face 0) matching no count we know — the
+vertex, strip, Block1 and Block3 counts there are 4, 1, 6 and 6. Tail words include `4294967295`,
+a plausible sentinel. Worth a pass now that the geometry half of the record is anchored.
+
+## NQ-045 — Does the bounding record survive into the legacy container?
+
+INV-026 is verified on the 24 SolidWorks 2022 models only. EXP-060 showed the Parasolid layer is
+identical back to 2011 while the container is not; the DisplayLists side has not been checked at
+all, because `parser/v0.2` rejects legacy files before reaching any face record.
+
+The legacy corpus is geometry-matched (`C22`/`C25`/`C26` to `C00`/`C13`/`C04`), so if the legacy
+per-face record can be located, the bounding box is an ideal first probe: its values are known in
+advance from the model dimensions, and the two self-consistency relations hold or they do not.
+
+**Date raised**: 2026-09-21 (EXP-061).
