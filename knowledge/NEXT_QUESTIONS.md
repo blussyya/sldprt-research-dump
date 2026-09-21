@@ -899,6 +899,14 @@ identical topology and differ only in the hole's position; the field reads 316 a
 > modern outlier, so **the node-count reading is live again**. See
 > [EXP-064 §6](evidence/2026-09-21_v0.4.9-EXP064.md).
 
+> **Refined 2026-09-21 (EXP-065).** The "unexplained modern outlier" is explained: C04 has a
+> different feature tree (`Cut-Extrude1`) from C05/C06/C11 (`Cut-Extrude2`, i.e. carrying a
+> deleted feature). Z tracks **topology and feature history together** — identical topology with
+> identical history gives identical Z (SW2011 4/4), identical topology with different history
+> does not. A plain node count is therefore still not established, and the ID-ceiling variant is
+> falsified (C15: 57 > 44, C16: 369 > 355). Eleven structural candidates match 0/24 and 0/25.
+> **This now needs the Parasolid node record grammar, not another correlation.**
+
 What it does have is an exact relationship to the text form of the same body:
 `binary − text == SolidWorks face count` in **24 of 24** models, over face counts 1 to 11.
 
@@ -1013,7 +1021,26 @@ genuinely multi-configuration.
 
 **Date raised**: 2026-09-21 (EXP-064).
 
-## NQ-047 — Why is `C04_cube_hole_5mm` an outlier in the SW2022 `Z+3` field?
+## NQ-047 — ANSWERED 2026-09-21 (EXP-065): the premise was wrong
+
+**C04 is not an outlier; it is a different model.** Its feature tree is
+`Sketch1, Boss-Extrude1, Sketch2, Cut-Extrude1`. C05, C06 and C11 all read `Cut-Extrude2` — and a
+tree whose only cut is numbered 2 is one where a `Cut-Extrude1` existed and was deleted. Those
+three share an edit history; C04 is the cleanly built one.
+
+The 2011 corpus is the control: there all four are `Cut-Extrude1` and all four read **297**. Same
+topology throughout, identical build-log volume. Where history matches, Z matches.
+
+This also withdraws EXP-060's position-sensitivity claim: C05, C06 and C11 differ from each other
+in both hole size and position and all read 286. Z is sensitive to **feature history**, not to
+feature position. Excluded by the same experiment: byte count, content count (identical file
+lengths and integer counts, and C04 has *less* content with a *larger* value), and the ID
+allocation ceiling (falsified by C15, dense prefix 57 against Z 44, and C16, 369 against 355).
+
+Eleven structural candidates scored 0/24 and 0/25 against both corpora. See
+[EXP-065](evidence/2026-09-21_v0.4.9-EXP065.md).
+
+## NQ-047 — original question (superseded)
 
 `C05`, `C06` and `C11` all read 293; `C04` reads 316, though the build log records identical
 volume and identical build settings to `C06`. In the legacy corpus all four read 297. This single

@@ -125,7 +125,9 @@ include surfaces of revolution, sweeps along splines, offset surfaces and non-fi
 > in either era: 1,461/1,461 modern records are ordered against a background where 65% of
 > identity-satisfying garbage is unordered, which closes EXP-062's min/max-swap countermodel
 > empirically. The undecoded head `+0..+11` is **constant** `0,0,1` on 1,414/1,414 faces and is not
-> a count. A **second record class** uses the same layout: one box per configuration, preceded by
+> a count. The scan's radius floor is needed because ~53% of stream offsets hold **small integers**
+> (counts, indices, array headers) that decode as tiny `f64` when read at 8-byte width — integer
+> data being misread, not noise (EXP-065 §6). A **second record class** uses the same layout: one box per configuration, preceded by
 > the configuration name in UTF-16LE, in 45/45 modern files. EXP-063's C16 padding is confirmed by
 > a third independent route (no OCP, no STEP) and occurs in both eras at different magnitudes.
 > [Method, controls and the failed first run](evidence/2026-09-21_v0.4.9-EXP064.md).
