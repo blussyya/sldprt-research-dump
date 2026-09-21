@@ -889,6 +889,16 @@ record boundary. The field is `u32be` at `Z+3`.
 **It is not a node or topology count.** `C04_cube_hole_5mm` and `C06_cube_hole_moved` have
 identical topology and differ only in the hole's position; the field reads 316 and 293.
 
+> **WITHDRAWN 2026-09-21 (EXP-064).** That comparison was the wrong one. `C05` (3 mm hole),
+> `C06` (5 mm hole moved) and `C11` (4 mm hole) **all read 293** while differing from each other
+> in both hole size and position; `C04` is a lone outlier at 316 with identical build-log volume
+> to C06. In the **legacy** corpus the field is constant within *every* equal-topology group
+> (cube 251, +1 hole 297, +2 holes 357, fillet 319) — invariant to dimension and position alike,
+> which is how a topology-determined count must behave. Modern: constant in 3 of 4 groups.
+> The field is topology-determined in 22/22 legacy and 21/22 modern models with one unexplained
+> modern outlier, so **the node-count reading is live again**. See
+> [EXP-064 §6](evidence/2026-09-21_v0.4.9-EXP064.md).
+
 What it does have is an exact relationship to the text form of the same body:
 `binary − text == SolidWorks face count` in **24 of 24** models, over face counts 1 to 11.
 
@@ -964,3 +974,50 @@ per-face record can be located, the bounding box is an ideal first probe: its va
 advance from the model dimensions, and the two self-consistency relations hold or they do not.
 
 **Date raised**: 2026-09-21 (EXP-061).
+
+## NQ-045 — RESOLVED, 2026-09-21 (EXP-064)
+
+**Yes, unchanged.** The legacy stream `DisplayLists__ZLB` inflates in 25/25 files and carries the
+same 132-byte record at the same offsets. Located by arithmetic alone — no parser, no walker,
+which legacy makes unavoidable since `parser/v0.2` rejects these files outright.
+
+| check | result |
+|---|---|
+| files yielding at least one record | **25/25** |
+| bounding records found | **145** |
+| `min <= max` on all axes (not a selection criterion) | **145/145** |
+| record count == native face count | every model cross-checked against the build log |
+| legacy box == modern box, geometry-matched | **21/22**, to 1e-6 m |
+
+Boxes are correct against dimensions known in advance: `C00` `[0,0.01]³`, `C01` `[0,0.02]³`,
+`C02` translated 50 mm, `C14` sphere `±0.005`, `C15` torus `±0.007 / ±0.002`.
+
+INV-026 is a **format property**, not a SolidWorks 2022 property — it survives a complete
+container change. Analytic per-face geometry is readable out of 2011 files today with no legacy
+DisplayLists parser, extending EXP-060's conclusion from the Parasolid layer to the tessellation
+container.
+
+The single cross-era disagreement is `C16_loft_spline`, independently confirming EXP-063: the
+spline box is padded in both eras, ~7.0 µm in 2011 and 1.036515329e-5 m in 2022 — the latter
+being EXP-063's figure reproduced without OpenCascade or STEP.
+
+## NQ-046 — What is the configuration-level bounding record for?
+
+EXP-064 found a second record class at the INV-026 layout: one per configuration, preceded by the
+configuration name in UTF-16LE, carrying that configuration's overall box. Present in 45/45 modern
+files (1 in 43 files, 2 in 2 files); the box equals the union of that file's face boxes in 45/47.
+
+Open: whether it also exists in the legacy container (the legacy scan found 145 records equal to
+the face count, with no surplus, suggesting it may not), and whether the two-record files are
+genuinely multi-configuration.
+
+**Date raised**: 2026-09-21 (EXP-064).
+
+## NQ-047 — Why is `C04_cube_hole_5mm` an outlier in the SW2022 `Z+3` field?
+
+`C05`, `C06` and `C11` all read 293; `C04` reads 316, though the build log records identical
+volume and identical build settings to `C06`. In the legacy corpus all four read 297. This single
+outlier is the only thing standing between the `Z+3` field and a clean topology-determined count
+across both eras. Resolving it would settle NQ-043's direction.
+
+**Date raised**: 2026-09-21 (EXP-064).

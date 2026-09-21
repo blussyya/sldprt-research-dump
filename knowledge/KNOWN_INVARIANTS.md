@@ -117,6 +117,19 @@ include surfaces of revolution, sweeps along splines, offset surfaces and non-fi
 
 ## INV-026: Per-Face Bounding Box and Sphere
 
+> **Scope extended and corrections applied, 2026-09-21 (EXP-064; takes precedence over everything below):**
+> The record is present in the **legacy SolidWorks 2011 OLE2 container** at the identical layout —
+> 145 records across 25/25 files, all ordered, boxes correct against dimensions known in advance,
+> and equal to the modern box on 21/22 geometry-matched models (NQ-045 **resolved**). INV-026 is a
+> format property, not a 2022 property. Located by arithmetic alone with **no parser and no walker**
+> in either era: 1,461/1,461 modern records are ordered against a background where 65% of
+> identity-satisfying garbage is unordered, which closes EXP-062's min/max-swap countermodel
+> empirically. The undecoded head `+0..+11` is **constant** `0,0,1` on 1,414/1,414 faces and is not
+> a count. A **second record class** uses the same layout: one box per configuration, preceded by
+> the configuration name in UTF-16LE, in 45/45 modern files. EXP-063's C16 padding is confirmed by
+> a third independent route (no OCP, no STEP) and occurs in both eras at different magnitudes.
+> [Method, controls and the failed first run](evidence/2026-09-21_v0.4.9-EXP064.md).
+
 > **External check, EXP-063:** Whole-model box unions agree with STEP geometry within 1 nm on 23/24 modern controlled models. C16 spline loft is enlarged by about 10.365 micrometres on all six sides relative to STEP; these must not be assumed universally tight bounds. [Method, controls and limits](evidence/2026-09-21_v0.4.9-EXP063.md).
 
 > **Audit correction, 2026-09-21 (EXP-062; takes precedence over the historical wording below):** A fresh walker confirms ordered min/max, midpoint and corner-radius identities on 1,414 faces across 45 modern files. This strongly supports the layout but does not prove exact analytic origin/tightness or uniqueness from the identities alone. The original 140/142 containment result uses a 1e-9 m allowance; it is not strict containment. Decoded float64 fields occupy bytes 12–91 inclusive; only 0–11 and 92–131 remain unassigned in this 132-byte record. [Controls, independent outputs and scope](evidence/2026-09-21_v0.4.9-EXP062.md). EXP-062 also independently upholds the Block2 relation, correcting EXP-061's use of parser-selected candidates in its claimed independent check.
@@ -138,6 +151,12 @@ include surfaces of revolution, sweeps along splines, offset surfaces and non-fi
 The assignment is self-proving: `+12/+20/+28` is the exact midpoint of the `+36…+76` pair on
 **142/142** faces, and `+84` is the exact corner distance `|max − centre|` on **142/142**, both
 below 1e-12 absolute. A wrong assignment cannot satisfy both simultaneously on every face.
+
+> **Correction (EXP-062, EXP-064):** the last sentence is too strong. Swapping the min and max
+> triples preserves *both* identities, so they cannot distinguish that one case; they exclude
+> every other misassignment. What settles it is **ordering**, which EXP-064 measures rather than
+> assumes: `min <= max` on 1,461/1,461 modern and 145/145 legacy records, selected without using
+> ordering, against a control background that is 65% unordered.
 
 The bounds are **analytic, not tessellated**: the record contains the mesh bounding box on
 140/142 faces and equals it on **0/142**, with the worst containment violation 1.341e-9 m — below
