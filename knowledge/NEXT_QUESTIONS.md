@@ -876,3 +876,60 @@ total is predictable from 6 faces, 12 edges and 8 vertices plus their surfaces a
 **Not blocked.**
 
 **Date raised**: 2026-09-21 (EXP-059 §7).
+
+
+---
+
+## NQ-043 — ANSWERED in part, 2026-09-21 (EXP-060)
+
+The field is real: only two byte positions vary in the 40 bytes after `Z`, and the surrounding
+constants include the transmit's size box (1000.0) and resolution (1e-8), so it is a genuine
+record boundary. The field is `u32be` at `Z+3`.
+
+**It is not a node or topology count.** `C04_cube_hole_5mm` and `C06_cube_hole_moved` have
+identical topology and differ only in the hole's position; the field reads 316 and 293.
+
+What it does have is an exact relationship to the text form of the same body:
+`binary − text == SolidWorks face count` in **24 of 24** models, over face counts 1 to 11.
+
+Still open: what it counts. A node count remains plausible — every integer 1..176 appears in
+C00's text stream — but that is a pattern, not a decode.
+
+## NQ-038 — materially narrowed, 2026-09-21 (EXP-060)
+
+"Legacy OLE2 unsupported" is a statement about the **DisplayLists path only**. The Parasolid
+partition in the 25 SolidWorks 2011 files parses with the existing readers, unchanged:
+
+```
+16-byte section magic at offset 4   25/25
+inner zlib inflated                 25/25
+PS transmit header parsed           25/25
+declaration prefix parsed           25/25
+schema SCH_2201236_20000_13006      25/25   (base 13006, same as modern)
+```
+
+The container changed completely between 2011 and 2022; the Parasolid layer did not. B-rep
+geometry in legacy files is reachable today and does **not** require legacy tessellation work
+first. That reorders the remaining v0.4.9 targets: decoding the node stream now serves both
+corpora at once.
+
+Legacy specifics confirmed: the geometry stream is `DisplayLists__ZLB` (25/25) and the declared
+version is `_DL_VERSION_4700`.
+
+## NQ-044 — What is the 132-byte per-face record between Block3 and the metadata?
+
+`parser/v0.2` skips it as an opaque prefix. EXP-060 shows it is **not** a fourth
+`[stride,8,2,N]` block: it is a per-face numeric record whose bulk decodes as `f64` in metres.
+On `C00_cube_10mm` every value is 0, 0.005 or 0.010 — exactly the cube's extents and
+half-extents.
+
+Open: the exact field layout. A centre point plus extents is the obvious reading but the window
+alignment is not pinned down, and the first five words are small integers that match no known
+count (`0 0 1 0 0` where vertex/strip/Block1 counts are 4, 1 and 6).
+
+Worth doing because a per-face bounding box would be directly checkable against parsed vertices
+on the whole corpus, and would be the first geometry we read outside the position array.
+
+**Not blocked.**
+
+**Date raised**: 2026-09-21 (EXP-060 §3).
