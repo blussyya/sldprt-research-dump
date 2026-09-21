@@ -1,6 +1,6 @@
 # SLDPRT Format Research — Working Dump
 
-**Latest, 2026-09-16:** [v0.4.8 / EXP-042–051](v0.4.8/README.md) decodes the triangle-strip layout, Block1 edge-ID annotations, Block2 section lengths and the downstream metadata relationship on the modern corpus, then validates that decode three independent ways — against externally exported STEP, through a second face-discovery path with a falsification control, and visually. [parser/v0.2](parser/v0.2/README.md) implements the validated read-only path. This supersedes the old “loop size” interpretation; full exact B-rep and several metadata semantics remain open. All work goes to `staging`; the user merges to `main`.
+**Latest, 2026-09-21:** [v0.4.9](v0.4.9/README.md) is open, going after the Parasolid node stream. Surface tags 4001–4006 are identified against SolidWorks' own per-face ground truth (INV-025), `Contents/Config-0-Partition` is established as the native Parasolid B-rep and its transmit header decoded ([parasolid/v0.1](parasolid/v0.1/README.md)), and six open format questions are settled on our own corpus. No Parasolid node has been read yet — readable is not decoded. [v0.4.8](v0.4.8/README.md) remains the DisplayLists geometry reference; [parser/v0.2](parser/v0.2/README.md) implements the validated read-only path. All work goes to `staging`; the user merges to `main`.
 
 This repository is a working dump of all local research files for the SLDPRT reverse-engineering project. It mirrors the local working directory and is used to back up experiments, evidence, and knowledge as they are produced.
 
@@ -206,6 +206,7 @@ The project-wide knowledge base is maintained under `knowledge/`:
 | v0.4.6 | EXP-026 counterexample hunt for the secCount/alternative-header correlation. 0 counterexamples in 1,172 faces; recorded as INV-019 (correlation, not causal). |
 | v0.4.7 | Block1/Block2 token-semantics investigation on the controlled corpus (EXP-027–EXP-041). Includes the 2026-08-14 archivist audit, EXP-038's NQ-028 answer via C12, the EXP-039/EXP-040 corrections, and EXP-041 — the first from-source verification of the whole v0.4.7 record after the C00–C11 binaries were added. |
 | v0.4.8 | Triangle-strip and edge-ID decode (EXP-042–046), cone metadata validated against externally exported STEP (EXP-047/048), independent replication with a falsification control (EXP-049), resolution of the off-cone residuals (EXP-050), and visual validation of parser output (EXP-051). Promotes INV-020–024, supersedes the “loop size” interpretation, and corrects the interpretive layer of INV-002/007/019 and EXP-031–036. |
+| v0.4.9 | **Open.** Parasolid node stream, tags 4007/4009, legacy OLE2. Surface tags 4001–4006 identified against SolidWorks per-face ground truth (EXP-055), Parasolid transmit header and schema table read (EXP-056), six open format questions settled on our own corpus (EXP-057). Brief: [v0.4.9/README.md](v0.4.9/README.md). |
 
 > **Note:** The `v0.5` slot was an implementation (a parser), not a research version. It now lives under `parser/v0.1/` — see below.
 
