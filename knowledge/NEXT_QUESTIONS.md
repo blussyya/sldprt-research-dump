@@ -939,6 +939,8 @@ on the whole corpus, and would be the first geometry we read outside the positio
 
 ## NQ-044 — RESOLVED 2026-09-21 (EXP-061)
 
+> **EXP-062 qualification, 2026-09-21:** The bounding layout is independently corroborated on 1,414 modern faces; exact analytic tightness/provenance remains open. The genuine unknown byte ranges are 0–11 and 92–131; the other alleged unknown words below overlap decoded doubles. NQ-045 remains open. Legacy partition wrapper/header compatibility does not establish identical decoded Parasolid content across versions. See [independent audit](evidence/2026-09-21_v0.4.9-EXP062.md).
+
 The 132-byte per-face record is a bounding box plus bounding sphere in metres: centre at
 `+12/+20/+28`, max at `+36/+44/+52`, min at `+60/+68/+76`, radius at `+84`. Self-consistent
 142/142 on both the midpoint and the corner-radius relations. Recorded as INV-026.

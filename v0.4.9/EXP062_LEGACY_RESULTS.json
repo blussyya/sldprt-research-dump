@@ -1,0 +1,282 @@
+{
+  "scriptSHA256": "73ab0731e253d9c73c6d6a5cbc50fbaa2fa6e6dff4ca14ceabc8fba33dbae19b",
+  "files": 25,
+  "method": "Independent stdlib FAT/mini-FAT traversal, exact inner zlib offset 28, independently read PS lengths. No node/DisplayLists decode.",
+  "rows": [
+    {
+      "file": "test files new/SW2011/C00_cube_10mm/model.SLDPRT",
+      "sha256": "7054cfc0fb771980a2170df80a8fc38718225a2d193213834245334257604bf5",
+      "partitionSHA256": "a4cd17d123b6b0944c4eec7834048bdd34af6cdfb62313858d340c3ac34619bd",
+      "inflatedSHA256": "2867c40249c872242647adcf291020561f7be09d2da98d2cdb9d0edbdbbf2125",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C01_cube_20mm/model.SLDPRT",
+      "sha256": "1841f3ef52c46512d2a7544d54c2ef7ab817f376c82ad3e3e15e68d2c01d0729",
+      "partitionSHA256": "b163c1d7abaaae99753a335ddf35c0a1dbfcc11baaf9c792c42f930b82fb4fd5",
+      "inflatedSHA256": "50d376a1c35298da1078d8db7a012e7dedcf3bc6ef6ac7f416179bba870d01e9",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C02_cube_translated/model.SLDPRT",
+      "sha256": "5b088c2eb8bdf4d0709f38d8583ff43b559e9fbdd852b0ca3b0de53ca1214e2e",
+      "partitionSHA256": "27fd8dc5fdb55f92a98ea8d8ff1b5179aabf06100c1bd4229d8e278d7c37698c",
+      "inflatedSHA256": "357121b126800081d4559884ddb40c46455ae0cc9166420a0c37156df19a50f1",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT",
+      "sha256": "456a2c8cef38cbaa7b375a2632ee8f044a2513687935016ba74c2a24730b75b0",
+      "partitionSHA256": "fa9ef0d71398f976e0b4a59d24151aedb83157c8b93b84c17f347d8c43347e0b",
+      "inflatedSHA256": "50578205d7a60e5167f37a4153b7327fcc5d73e89c9c097370115131f3232fe2",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT",
+      "sha256": "b472a5bb9a1e5bfd6e210042f5d1cc0e52bc8ec5fcc819d1d652e82c7218a55e",
+      "partitionSHA256": "e18d5a291186ddd77db3dc11321536abf6adde14fcb60027eec7e3c2b73dd54b",
+      "inflatedSHA256": "08b56ddd680366b0515bc4dd5abdda972771d0204bf617cd0c77961dfcb92ea8",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT",
+      "sha256": "b9b08de9eff27b10f790f772a7b97b437133b5ba7d89d9cfd3177ef4ec97908b",
+      "partitionSHA256": "4fe54e9a4778ea1901bbea7259828b7f2c471ffd06cf50f33bbf101d40a82299",
+      "inflatedSHA256": "338f77315aa66dc7e81517e52dffda3052b150e23a13f9d090ea3acc2d2bc035",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C06_cube_hole_moved/model.SLDPRT",
+      "sha256": "60c71002393a2618fdda2a587bbe925592617bcaf6c4c38d5e17c713431b8ee7",
+      "partitionSHA256": "acaccff869e3c1c7e29137cf659e647ccb6755b218389dbd3613b335560b3c08",
+      "inflatedSHA256": "5b1d97b3477a4a0802342930ab866df4c356e9a8183980bf3bf654796149c9fb",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C07_cube_two_holes/model.SLDPRT",
+      "sha256": "ebcb5f13ab28f078ae9f2f8f4b4f68fa8e0bd083a655f65097a3c51b1af22cf0",
+      "partitionSHA256": "6d955238b5e5909cc91a2dacefe01dd5d3769a40e01f012541e427c3231a6246",
+      "inflatedSHA256": "22e7fd95f7819d8b6f901fc1429614f37acd13adcb78e9e05c5ed810d93bbe48",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT",
+      "sha256": "b01658e263595eeee875a9cc1807d615ec5ae0feb4752fac6f85c3292d4a8276",
+      "partitionSHA256": "85bb7810c785e6a1f474d278e1c81ad7854a1a648c587d70058c09dc5e3eeb6f",
+      "inflatedSHA256": "d43b220c9b0b1524ae95f90e2e146597e38e9a13bccf91c23f4ce3ee15dcf579",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT",
+      "sha256": "2882ba660e04b907b40724aa92b162dc759db7e6e383fe0daec181e9d8994ce8",
+      "partitionSHA256": "a8b128a1258df1bc6d2e902381c79d19b70d446eea734aca822e763aae2f6308",
+      "inflatedSHA256": "5c22b60cfb3409bf49c6afccc8a4e6304195c5baa42c9d9b2f80c076e17ae6f6",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT",
+      "sha256": "5001239cf49ccc7e2f85d2f6bbf7ee63fdef51d7eb002389b0788071b0f4e15c",
+      "partitionSHA256": "3e66b57a4fae86575c97129c9628506c884ff5ac7102671a9ffc6d45122f9561",
+      "inflatedSHA256": "194d07d60504988a2dbae5144da28da92e133fdf24c96b9e315f7d6264f6362c",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT",
+      "sha256": "fd324092ec6e6aa4c1fb138dd027023761420b5765fa2727c3c4cda39cf3e505",
+      "partitionSHA256": "649c08b8f67855d0d1dfa1b2d68dda6f1bec6fb2671c6e13902d47105aec5626",
+      "inflatedSHA256": "8901789695f16691ee96e383212712b3f428217efa3cf4f2d057620de1a0be85",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "sha256": "355ac304653d6d236e2eefc5408be78011436e479d6f248bf51520edecbf5999",
+      "partitionSHA256": "8f96d32ac2e3910ab7a4f37cc4c69ee6ff61d7a4add006356b4cff3f3a7fd83e",
+      "inflatedSHA256": "a32f1838a83726b990f4642d0aaae3ff349aa9d57e45bf48bb571662ba4e4972",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C13_cone/model.SLDPRT",
+      "sha256": "e241ae1143bae9d6492436779c305c31aa443151f9bc767ce2edcdd230d712fd",
+      "partitionSHA256": "31a90424aa7d73000416b1cf27217fd1c34deccb58151d10668f73371fd17c48",
+      "inflatedSHA256": "1136b0430bd3bcf80119747be808901d73fa1a6c220a7e75ed096e73576c83d8",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C14_sphere/model.SLDPRT",
+      "sha256": "4811427e99a684c8076a502f433c06c6887e1205bbe836d7c9acceb226471ca7",
+      "partitionSHA256": "f0095b3ac85170bcc45e56429d57ced9af306f57ceb56c0288c660c63b8c5d3f",
+      "inflatedSHA256": "cf336338b75a9e354fd3e8264bb4419f242c5ec22bd24697d714e05717f4bd84",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C15_torus/model.SLDPRT",
+      "sha256": "7a8913cb596e547045b6e0c81aea11559b2c49350331334cd3cdcd2c33fa527e",
+      "partitionSHA256": "25c0b195be2fbf319e67ac3d07764d89028f3666e7e928b5acdc0eec6f57f1ab",
+      "inflatedSHA256": "34da43a5919e788f9cfad223bb2cbe6fbd7f8cb51287094a94b10b0dd5178b06",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C16_loft_spline/model.SLDPRT",
+      "sha256": "3f7e6dc3be2bb6a584f277f0a4ab455013cdab9d551ee5d038c698e35d46f031",
+      "partitionSHA256": "d24d9ec3acf9124ca4ae2c268f38776a4e59c5b71e62974f5b3bcaf95fab8b7a",
+      "inflatedSHA256": "35283e7628edbd9755180a35dc298488c1736e67e40bf298782642218c10617e",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C17_torus_quarter/model.SLDPRT",
+      "sha256": "c81ff69b02e1c71f004f6667f56053a2c6f3b525075a4954dd612cba5ad8f2dc",
+      "partitionSHA256": "edcf386ffdcf3c613707ad57342b9fe90fe75dc105c998022ce3cf0fa55cd84e",
+      "inflatedSHA256": "b8c92e57461950d56c7177a1a2d2d3e198f25f0428d3d24b5e0b125b7c3b75e4",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C18_cube_split_line/model.SLDPRT",
+      "sha256": "68faf7994a15211583554edb8e46ba30258c20e803380fbd1d8a8683e8f0d583",
+      "partitionSHA256": "c13fdf365e1c725d3e3278ca0dbfd5ea4feba414ea3ab52f75989cd71eaf4257",
+      "inflatedSHA256": "8d52ccae9800e326e2e266fb1a408e23f77a870f1bf2fb4bfaf1542cddbee04c",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C19_half_cylinder/model.SLDPRT",
+      "sha256": "9d2882cf496006b302ebe6a2978f08703e8ec56b86d47bf7c5bb40b2e6795c3d",
+      "partitionSHA256": "0021238dbbae18dd9b0b69c82416070e4b276569331daf063fdc86fb3c8a20ad",
+      "inflatedSHA256": "b413808b4e2dc2f2401201d98a9a52440d38433a507bee192a056e20ede8eeb9",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C20_cylinders_crossed/model.SLDPRT",
+      "sha256": "1c9e2d957e8c974502f441921288dc3ab68cf108958359acfbe01d1e0998bca5",
+      "partitionSHA256": "b8e4ee74f492f12ad660c8330a1d48403ba21f7fe8c3f67b8243c8451b91988a",
+      "inflatedSHA256": "a87abeff1518d10575cb842fe86cb05674577e915e2eba59ebe9ad75bb325fbd",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C21_cylinder_fillet/model.SLDPRT",
+      "sha256": "138bb3ea7fcd29ea2fe8d0a572e921143aa6ef114768a19a5fe58f8195ec68dc",
+      "partitionSHA256": "f270f6e1da2e0a1c9ac8e18fdf28065d26942dfa7254fe4298bb50f1d8c1cad8",
+      "inflatedSHA256": "fb68fe5ab1b989c8999ff8586b07c99fa45d3a9bbede3d8a63d054ffd52b251f",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT",
+      "sha256": "c14e9fd4de73865aad4c9b0134382f263295cf441ac65df987f3c05e5c884886",
+      "partitionSHA256": "354eaeeb94fb72041b0b286f2edb5a4a03c19902c890dacbf9284b8e51eb8bf2",
+      "inflatedSHA256": "1cd7fe7fdde1e9c81ed20eb11eb445b11864945ad53c11407b97817ab5a977e8",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT",
+      "sha256": "093c84118ec7c9d0e3f66212aef46e27bf2350192a1def920ae461dc10e5305f",
+      "partitionSHA256": "009315ee7be2dbb87d482526939d96b2198aeedafbb9aec8ec6043fa1e4928e3",
+      "inflatedSHA256": "1187be65add29214697a6c2ce027eeccbc2402429c150ff65b5d5841dbe81ce5",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT",
+      "sha256": "3312824fd9748bd24e5c5c87a228825e097c6f55ea88c896703e2cdb43d45df2",
+      "partitionSHA256": "14834c7fe5282f0465b467e7b816261844bd923a5e814ac0310326ab73249773",
+      "inflatedSHA256": "f8a8d30253902d8a26292a4d8bdfb786b4ed5308e73e4e6f401342fb4d5b4a37",
+      "description": ": TRANSMIT FILE (partition) created by modeller version 2201236",
+      "schema": "SCH_2201236_20000_13006",
+      "displayNames": [
+        "DisplayLists__ZLB"
+      ]
+    }
+  ]
+}

@@ -117,6 +117,8 @@ include surfaces of revolution, sweeps along splines, offset surfaces and non-fi
 
 ## INV-026: Per-Face Bounding Box and Sphere
 
+> **Audit correction, 2026-09-21 (EXP-062; takes precedence over the historical wording below):** A fresh walker confirms ordered min/max, midpoint and corner-radius identities on 1,414 faces across 45 modern files. This strongly supports the layout but does not prove exact analytic origin/tightness or uniqueness from the identities alone. The original 140/142 containment result uses a 1e-9 m allowance; it is not strict containment. Decoded float64 fields occupy bytes 12–91 inclusive; only 0–11 and 92–131 remain unassigned in this 132-byte record. [Controls, independent outputs and scope](evidence/2026-09-21_v0.4.9-EXP062.md). EXP-062 also independently upholds the Block2 relation, correcting EXP-061's use of parser-selected candidates in its claimed independent check.
+
 > **Established 2026-09-21 (EXP-061).** The 132-byte region `parser/v0.2` skipped as an opaque
 > prefix between Block3 and the forward metadata record.
 

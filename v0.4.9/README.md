@@ -2,6 +2,8 @@
 
 Opened 2026-09-21. Working brief.
 
+> **EXP-062 audit checkpoint, 2026-09-21:** [Independent evidence and handoff](../knowledge/evidence/2026-09-21_v0.4.9-EXP062.md). EXP-059–061 reproduced with checkout-path relocation. A fresh walker confirms Block2 on 11,515 strips and the bounding layout on 1,414 faces; an independent OLE reader confirms 25 legacy partition wrappers. Exact analytic bounds and the post-Z field's meaning remain unproven. The modern face-count delta does not generalize to SW2011. Bounding bytes 12–91 are decoded; unknown ranges are 0–11 and 92–131. Scripts and hashed results are under this directory. Next: external exact-bound comparison, legacy DisplayLists, and node framing. Next experiment number at this checkpoint: EXP-063; recheck staging for concurrent work.
+
 > **EXP-058 checkpoint, 2026-09-21:** [Evidence and handoff](../knowledge/evidence/2026-09-21_v0.4.9-EXP058.md). Across 24 SW2022 export pairs, the contiguous declaration prefix has 13 entries (312 matched), ending at `Z` at PS-relative byte 349. Embedded partitions have 8 initial declarations. The old text scanner's 19 matches include later declarations; they are not one contiguous initial table. Binary stored flag word 1 versus text 0 remains uninterpreted. Next: frame records after `Z`; no nodes decoded yet. Code/results are saved under this directory. The original working brief below is retained with this correction.
 
 
