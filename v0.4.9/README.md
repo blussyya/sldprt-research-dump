@@ -2,6 +2,9 @@
 
 Opened 2026-09-21. Working brief.
 
+> **EXP-058 checkpoint, 2026-09-21:** [Evidence and handoff](../knowledge/evidence/2026-09-21_v0.4.9-EXP058.md). Across 24 SW2022 export pairs, the contiguous declaration prefix has 13 entries (312 matched), ending at `Z` at PS-relative byte 349. Embedded partitions have 8 initial declarations. The old text scanner's 19 matches include later declarations; they are not one contiguous initial table. Binary stored flag word 1 versus text 0 remains uninterpreted. Next: frame records after `Z`; no nodes decoded yet. Code/results are saved under this directory. The original working brief below is retained with this correction.
+
+
 The previous version line (v0.4.8, EXP-042–051) closed the DisplayLists geometry layer. v0.4.9
 goes after what is left: the **Parasolid node stream**, the **two unidentified surface tags**,
 and the **legacy container**.
@@ -130,7 +133,7 @@ These are not bureaucracy; every one of them exists because something went wrong
 
 ## Numbering
 
-Next experiment number is **EXP-058**. Taken: EXP-042–051 (v0.4.8), EXP-052 (concurrent session),
+Next experiment number is **EXP-059**. EXP-058 is the declaration-prefix checkpoint linked above. Taken: EXP-042–051 (v0.4.8), EXP-052 (concurrent session),
 EXP-053 (converter), EXP-055 (tag identification), EXP-056 (Parasolid header), EXP-057
 (independent verification). EXP-054 was withdrawn and its content now lives in
 `knowledge/CONTAINER_AND_STREAMS.md` and `knowledge/PRIOR_ART.md`.
