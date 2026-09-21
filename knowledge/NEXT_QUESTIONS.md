@@ -772,3 +772,51 @@ Not yet applied, because it changes what a populated `metadata` field means and 
 validation runs should be re-run against the change rather than after it.
 
 **Date raised**: 2026-09-21 (EXP-055).
+
+
+---
+
+## NQ-034 — RESOLVED 2026-09-21 (EXP-057)
+
+One per-face record grammar parses all five declared format versions with zero rejections:
+13000 (2 files, 107 faces), 14000 (1, 375), 15000 (39, 355), 16000 (1, 400), 17000 (2, 177) —
+1,414 faces total. The declared version does not select a record layout across this range.
+
+The parser should still surface the tag and warn on a value outside 13000–17000: the evidence
+bounds the range tested, it does not establish that no version ever differs.
+
+## NQ-036 — RESOLVED as a bounded negative, 2026-09-21 (EXP-057)
+
+Every one of 11,515 strips across 45 files carries strip control token `1`. No extended
+tessellation-table header form occurs anywhere in the corpus, which spans five declared format
+versions, a curated corpus and a purpose-built one.
+
+This bounds rather than refutes the possibility. Our parser's `Unsupported strip control` error
+is reachable only by a file unlike anything we hold — which is the right behaviour, so no change
+is warranted.
+
+## NQ-035 — still open, now bounded (EXP-057)
+
+Zero of 1,414 faces carry zero normals, and zero have a normals/positions count mismatch. The
+case does not occur in 45 files. Still open because absence in our corpus is weak evidence about
+the wild, but the parser's strict check costs nothing on anything we have seen.
+
+## NQ-040 — Verify container CRC-32 in the parser
+
+EXP-057 established that the `u32` at stream-header + 14 is a CRC-32 of the inflated stream
+bytes: 1,730 named streams verified, 0 mismatches, 0 undecompressible.
+
+`parser/v0.1`'s container reader currently uses that field only as a heuristic filter
+(`>= 65536`) and never checks it. Container extraction has been flagged as unvalidated since it
+was inherited unchanged; this is the check that would validate it.
+
+Proposed: verify the CRC after inflating and report a stream that fails as corrupt or misframed
+rather than parsing it. Deliberately not applied yet — it changes which inputs the parser
+accepts, and the invariant runs should be re-run against the change rather than after it.
+
+Note on the scan: a 6-byte signature swept across a whole file produces false positives. In this
+corpus 1,465 spurious hits failed to decompress and 10 mismatched, all with non-printable names,
+none with a printable one. Any implementation must separate those or it will report phantom CRC
+failures.
+
+**Date raised**: 2026-09-21 (EXP-057).

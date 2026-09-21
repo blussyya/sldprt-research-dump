@@ -16,10 +16,22 @@
 
 > **Corroboration, 2026-09-15 (EXP-049):** Independently replicated (112,047 tokens; 41,010 nonzero on face-boundary edges, 71,037 zero on face-interior edges, 0 exceptions either way), with the edge ordering derived independently before this write-up was readable. **New control:** shuffling the edge order within each strip, holding tokens and incidence fixed, yields 44,640 exceptions versus 0 — so the specific ordering is load-bearing and the partition is not an artifact of the classification. Status and scope unchanged. Evidence: [EXP-049](evidence/2026-09-15_v0.4.8-EXP049.md).
 
+> **Competing reading tested and eliminated, 2026-09-21 (EXP-057):** the alternative that
+> Block1 holds "finite f32 values" was measured directly over 162,018 words. **100.00% are
+> finite when reinterpreted as f32**, so a finiteness test accepts every word in the corpus and
+> discriminates nothing in either direction. **100.00% also have magnitude below 1e-30** as
+> floats, because small integers land in the subnormal range — an array of 162,018 floats all
+> equal to ~0 is not a plausible value array. Read as u32 the same words are bounded small
+> integers (max 22,163) partitioning interior from boundary edges with 0 exceptions. INV-021 is
+> therefore held by measurement, not by preference between readings.
+
 **Status:** Verified correspondence on the supplied corpus.
 **Evidence:** Each section contains leading control `1`, then `ID(0,1)`, followed by `ID(i-2,i), ID(i-1,i)` for each new vertex i. All 41,010 boundary annotations are nonzero; all 71,037 internal annotations are zero. All nonzero label sets match independently reached downstream metadata. No conflict for geometrically shared edge segments.
 **Files/counts:** Same 21 modern files / 1,272 faces; 10,095 strips, with all per-face measurements archived.
-**Confidence/date:** High, 2026-09-14. Label allocation, persistence across arbitrary edits, and control-word enum remain unknown; numeric `1` is not assumed globally forbidden as an ID.
+**Confidence/date:** High, 2026-09-14; element type independently re-tested 2026-09-21. Label
+allocation, persistence across arbitrary edits, and control-word enum remain unknown; numeric
+`1` is not assumed globally forbidden as an ID. Strip control token is `1` on all 11,515 strips
+in the 45-file corpus (EXP-057).
 **Sources:** [EXP-043](evidence/2026-09-14_v0.4.8-EXP043.md), [EXP-045](evidence/2026-09-14_v0.4.8-EXP045.md).
 
 ## INV-022: Block3 Byte-Array Layout
@@ -62,7 +74,7 @@ remain unknown. Other surface tags are resolved by INV-025 as of 2026-09-21.
 > **Established 2026-09-21 (EXP-055).** Supersedes the earlier state in which 4001/4002 were
 > verified, 4003 was asserted without a controlled model, and 4005/4006/4007/4009 were unknown.
 
-**Status:** Verified for five values against SolidWorks-reported ground truth; 4007 and 4009 remain unobserved.
+**Status:** Verified for six values against SolidWorks-reported ground truth; 4007 and 4009 remain unobserved.
 
 **Evidence:** The forward metadata record's `typeTag` maps to the face's surface type:
 
