@@ -1,0 +1,953 @@
+{
+  "experiment": "EXP-063",
+  "date": "2026-09-21",
+  "baseCommit": "32cc4410b0b130242791ba2984640bc268b65a4d",
+  "scriptSHA256": "9bcc33c96503f7e75d75492d9ad4125c8649de5d41c357120c042643deacb12a",
+  "auditSHA256": "146a588b68d5f6bc567fd43625e87628f3be296508e7e0b2e8fdef84d18f4af7",
+  "ocpVersion": "7.8.1.1.post1",
+  "method": "OCP BRepBndLib.AddOptimal(shape, box, useTriangulation=False, useShapeTolerance=False); default STEP target mm converted to metres; whole-model union only",
+  "rows": [
+    {
+      "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+      "nativeSHA256": "ecef0ce6fbcfb101dfd6000ce32b7cf56ff560bc8f200ac33dc52b7cac1fa4d5",
+      "stepSHA256": "12b74010971390737d35a1778d406954e31a2d037dfcf16558c754d4906ada74",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C01_cube_20mm/model.SLDPRT",
+      "nativeSHA256": "894f71955d59a990456467ec8abcaed5188025542e9660760b93f2236c0bae5e",
+      "stepSHA256": "711c2b8a1dfc547e09f9792562730d208e94d3f2f715daf06134e480464ee0d2",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.02,
+        0.02,
+        0.02
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.020000000100000002,
+        0.020000000100000002,
+        0.020000000100000002
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.02,
+        0.02,
+        0.02
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.019999999552965164,
+        0.019999999552965164,
+        0.019999999552965164
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 4.470348362317633e-10
+    },
+    {
+      "file": "test files new/SW2022/C02_cube_translated/model.SLDPRT",
+      "nativeSHA256": "ec86dbb80a83125d0b428bb739006c45a8e8537f32825d11e03037f3e403880e",
+      "stepSHA256": "b0d36055747ccc4bf4817969ade957d3b9fa32590b02621a2c4fa530541a7d5b",
+      "stepBoundsMetres": [
+        0.05,
+        0.05,
+        0.0,
+        0.06,
+        0.06,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        0.0499999999,
+        0.0499999999,
+        -9.999999999999999e-11,
+        0.0600000001,
+        0.0600000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0.05,
+        0.05,
+        0,
+        0.06,
+        0.06,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0.05000000074505806,
+        0.05000000074505806,
+        0,
+        0.05999999865889549,
+        0.05999999865889549,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 1.341104505225843e-09
+    },
+    {
+      "file": "test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT",
+      "nativeSHA256": "66d392854ce50a7e0595376a5bdc1d9bc26fac88a8e53cfb6b94769f9752a792",
+      "stepSHA256": "8b2d2c1e4e88ee371ba9d776091a3eb44de090a493965793ad2b82015d4f069a",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.010000000000000004,
+        0.010000000000000004,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.010000000100000003,
+        0.010000000100000003,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.010000000000000002,
+        0.010000000000000002,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 1.734723475976807e-18,
+      "meshMaxAbsError": 2.235174215853286e-10
+    },
+    {
+      "file": "test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT",
+      "nativeSHA256": "992519fdcf8c213d04c6226d19fb20a1e3ed4db3f8a86f8043c2f268b4799066",
+      "stepSHA256": "aa6977184f18eca1dc8dcb9a7e14bb9d4fa430f8a506906bee1af2eb627ab628",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT",
+      "nativeSHA256": "e9e28586f4980b901c0e29af2927c7cf37eaad0ecda6492c045ad03d9e43eee9",
+      "stepSHA256": "f4502af6fd765010251579e935ad257bddca1439168648c4adc22f153bcf3eeb",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C06_cube_hole_moved/model.SLDPRT",
+      "nativeSHA256": "a6b03cf80fc1bd6e58a8dcd2cd01c0f10b24f91439a561565b9e09f42519e359",
+      "stepSHA256": "e90921f733f950e60a948e589f9207bbe72d61891dc97e26cae85216e34986fc",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C07_cube_two_holes/model.SLDPRT",
+      "nativeSHA256": "79d429ac3fe0858fd93e49a0f36df219e7f7075db1f6f5af4ee39d709cc05afb",
+      "stepSHA256": "5299adbb1455c6997b8c399dbf6db494f5ffafe1af8d0ba2b6ccf4e145fc8d5b",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT",
+      "nativeSHA256": "f839f6afbf6067012b245e65737a5107fd03fd1acade40600c4f519e4c0904e3",
+      "stepSHA256": "df3f6f7f7db59af090f5997b60c7c924d4d709a50b738c98c283afe6d41b7ab8",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT",
+      "nativeSHA256": "aa82e4cc7bfb4cd427dcfa8e581be19ae887eace99a19b4a37d34bbf8419b0d0",
+      "stepSHA256": "b5366190e413a0d2dfc7f6994757ca3da05f0644e3aa9c41792043b4958c442b",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT",
+      "nativeSHA256": "158442be99857410c04684a08597259bde962c4e91e545633ea6a9c3e5bdfbc8",
+      "stepSHA256": "cdcab091a51d460b6746fd3168f8bb294120a805fd672e1d5d2c9e16bee42d31",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT",
+      "nativeSHA256": "b836bf47b51ee257321253a6772ad62acb4853133857d58fc6c331dcfb67b47f",
+      "stepSHA256": "13bbe0e79da1ef95d4c63b0572cc2f091d2c3ef417ccc3b0cc92a19b3a889733",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "nativeSHA256": "61ea581033dfd7a246ba264fb645e7545fb121e2c7829ce01d58856f436f43c7",
+      "stepSHA256": "e74e316959d8fd95136ecd45844925d7367236a09bfde3f2e535028078f0a084",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+      "nativeSHA256": "6c0a13cae5a8df74a463681cc50f3dd550359e463da0935a293fec3865db87b0",
+      "stepSHA256": "ee18cc9c1f563347d015b6804f79488703f012123e8a2b3a3f0ee9d453e4f77d",
+      "stepBoundsMetres": [
+        -0.005,
+        0.0,
+        -0.005,
+        0.005,
+        0.01,
+        0.005
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -0.005000000100000001,
+        -9.999999999999999e-11,
+        -0.005000000100000001,
+        0.005000000100000001,
+        0.0100000001,
+        0.005000000100000001
+      ],
+      "storedBoundsMetres": [
+        -0.005,
+        0,
+        -0.005,
+        0.005,
+        0.01,
+        0.005
+      ],
+      "meshBoundsMetres": [
+        -0.004999999888241291,
+        0,
+        -0.004999999888241291,
+        0.004999999888241291,
+        0.009999999776482582,
+        0.004999999888241291
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+      "nativeSHA256": "03b72028c5a3169a2af63cb3da896f5df1546641f6a660f583d27e39431a36a1",
+      "stepSHA256": "8997139d676a549ba1562e30c218395a5e4ccf1b8681ac58903b515153a4826b",
+      "stepBoundsMetres": [
+        -0.005,
+        -0.005,
+        -0.005,
+        0.005,
+        0.005,
+        0.005
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -0.005000000100000001,
+        -0.005000000100000001,
+        -0.005000000100000001,
+        0.005000000100000001,
+        0.005000000100000001,
+        0.005000000100000001
+      ],
+      "storedBoundsMetres": [
+        -0.005,
+        -0.005,
+        -0.005,
+        0.005,
+        0.005,
+        0.005
+      ],
+      "meshBoundsMetres": [
+        -0.004999999888241291,
+        -0.004999999888241291,
+        -0.004999999888241291,
+        0.004999999888241291,
+        0.004999999888241291,
+        0.004999999888241291
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 1.1175870905794083e-10
+    },
+    {
+      "file": "test files new/SW2022/C15_torus/model.SLDPRT",
+      "nativeSHA256": "f2981cb684eb6bb0d3ad697ff223bf061c0dce4ff729d5254473579f0d194cee",
+      "stepSHA256": "3ed2ee3128f6d9f1c5fdac5479470ae026cda84148dd68ea08e46ff5693c8585",
+      "stepBoundsMetres": [
+        -0.007000000100000001,
+        -0.0020000001,
+        -0.007000000000000001,
+        0.007000000000000001,
+        0.0020000001,
+        0.007000000000000001
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -0.007000000100000001,
+        -0.0020000001,
+        -0.007000000100000001,
+        0.007000000100000001,
+        0.0020000001,
+        0.007000000100000001
+      ],
+      "storedBoundsMetres": [
+        -0.007000000000000001,
+        -0.0020000000000000005,
+        -0.007000000000000001,
+        0.007000000000000001,
+        0.0020000000000000005,
+        0.007000000000000001
+      ],
+      "meshBoundsMetres": [
+        -0.006993692833930254,
+        -0.0020000000949949026,
+        -0.007000000216066837,
+        0.006993692833930254,
+        0.0020000000949949026,
+        0.007000000216066837
+      ],
+      "storedMaxAbsError": 9.999999960041972e-11,
+      "meshMaxAbsError": 6.307266069746631e-06
+    },
+    {
+      "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+      "nativeSHA256": "3ec02e9bf6446f32040260f5924535892d2961e61fdf11afaf5c0bf8e8758973",
+      "stepSHA256": "d57f3dd48fcfc4fbd18004569ad7cfd9eb8bad9a1202b2a2696f543372773662",
+      "stepBoundsMetres": [
+        -0.005,
+        0.0,
+        -0.005,
+        0.005000000000000001,
+        0.01,
+        0.005
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -0.005000829440157337,
+        -8.294401573367315e-07,
+        -0.005000829440157336,
+        0.005000829440157337,
+        0.010000829440157335,
+        0.005000829440157337
+      ],
+      "storedBoundsMetres": [
+        -0.005010365153286359,
+        -1.0365153286359439e-05,
+        -0.005010365153286359,
+        0.005010365153286359,
+        0.01001036515328636,
+        0.005010365153286359
+      ],
+      "meshBoundsMetres": [
+        -0.004999999888241291,
+        0,
+        -0.004999999888241291,
+        0.004999999888241291,
+        0.009999999776482582,
+        0.004999999888241291
+      ],
+      "storedMaxAbsError": 1.0365153286359439e-05,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C17_torus_quarter/model.SLDPRT",
+      "nativeSHA256": "ebb542a67576f19f8831e665e265fc0a970cc4529383b3c8a79c38e2cf784926",
+      "stepSHA256": "da8f55b1b06227a1a1631642d2dd31ff912f1c5505db8b329667f8f6b949587c",
+      "stepBoundsMetres": [
+        0.0,
+        -0.0020000001,
+        -0.007000000000000001,
+        0.007000000000000001,
+        0.0020000001,
+        0.0
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -0.0020000001000000005,
+        -0.0070000001000000015,
+        0.0070000001000000015,
+        0.0020000001000000005,
+        9.999999999999999e-11
+      ],
+      "storedBoundsMetres": [
+        4.2862637970157364e-19,
+        -0.0020000000000000005,
+        -0.007000000000000001,
+        0.007000000000000001,
+        0.0020000000000000005,
+        0
+      ],
+      "meshBoundsMetres": [
+        1.8369701341211446e-19,
+        -0.001999184489250183,
+        -0.007000000216066837,
+        0.007000000216066837,
+        0.001999184489250183,
+        0
+      ],
+      "storedMaxAbsError": 9.999999960041972e-11,
+      "meshMaxAbsError": 8.156107498169703e-07
+    },
+    {
+      "file": "test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+      "nativeSHA256": "9fb2105af09af974e38550fc698aca9874a6e9dff775b2d1bdb07ea983567076",
+      "stepSHA256": "05da9d5740ba5892c87ce95b79e947938d592b692d1a004b356040267379f1f6",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C19_half_cylinder/model.SLDPRT",
+      "nativeSHA256": "6c850643f2f5c0cc10e21e66823d5ffb886be7b5a12aaf71d1cac953024cf8cf",
+      "stepSHA256": "29921a5ad6541f621852f50e3e32299cb3183a586656a2d97d135c20c956d63c",
+      "stepBoundsMetres": [
+        -0.005,
+        0.0,
+        -0.005,
+        0.005,
+        0.01,
+        3.061616997868383e-19
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -0.005000000100000001,
+        -9.999999999999999e-11,
+        -0.005000000100000001,
+        0.005000000100000001,
+        0.0100000001,
+        1.000000003061617e-10
+      ],
+      "storedBoundsMetres": [
+        -0.005,
+        0,
+        -0.005,
+        0.005,
+        0.01,
+        0
+      ],
+      "meshBoundsMetres": [
+        -0.004999999888241291,
+        0,
+        -0.004999999888241291,
+        0.004999999888241291,
+        0.009999999776482582,
+        9.184851187593606e-19
+      ],
+      "storedMaxAbsError": 3.061616997868383e-19,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+      "nativeSHA256": "eeb0d04faa29c60272e987b93fce54fc9694e6f335589cc115fb25b760a51a53",
+      "stepSHA256": "7f8225ead7b914f49ec2f50942032b7a67afab7ee29c3d093f4aefa47de7cb37",
+      "stepBoundsMetres": [
+        -0.0100000001,
+        -0.005000000100000001,
+        -0.0100000001,
+        0.0100000001,
+        0.005000000100000001,
+        0.0100000001
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -0.0100000001,
+        -0.005000000100000001,
+        -0.0100000001,
+        0.0100000001,
+        0.005000000100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        -0.01,
+        -0.005,
+        -0.01,
+        0.01,
+        0.005,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        -0.009999999776482582,
+        -0.004999999888241291,
+        -0.009999999776482582,
+        0.009999999776482582,
+        0.004999999888241291,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 1.0000000046778146e-10,
+      "meshMaxAbsError": 3.235174177163014e-10
+    },
+    {
+      "file": "test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+      "nativeSHA256": "c8a83ed6c000378a72f03ea4f0e36278348a0681a8ce205af936e7310cdcda37",
+      "stepSHA256": "efb3f08406934c2d5687394bc23493b5e4c4bf5b10dfbb092c5cf9d255bf7316",
+      "stepBoundsMetres": [
+        -0.005000000100000001,
+        0.0,
+        -0.005,
+        0.005,
+        0.010000000000000002,
+        0.005
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -0.005000000100000001,
+        -9.999999999999999e-11,
+        -0.005000000100000001,
+        0.005000000100000001,
+        0.010000000100000002,
+        0.005000000100000001
+      ],
+      "storedBoundsMetres": [
+        -0.005,
+        0,
+        -0.005,
+        0.005,
+        0.01,
+        0.005
+      ],
+      "meshBoundsMetres": [
+        -0.004999999888241291,
+        0,
+        -0.004999999888241291,
+        0.004999999888241291,
+        0.009999999776482582,
+        0.004999999888241291
+      ],
+      "storedMaxAbsError": 1.0000000046778146e-10,
+      "meshMaxAbsError": 2.2351741985060514e-10
+    },
+    {
+      "file": "test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT",
+      "nativeSHA256": "d9939775821bdc95399dda59df8625b855106d5d9df25606478b953fa176d4bc",
+      "stepSHA256": "f82789df9673ddde7af1cb1f37cc418533ce12ad39cfa52bae9b055eab50dcef",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    },
+    {
+      "file": "test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+      "nativeSHA256": "9d50b4a4ccd2bb40bc067bd8d7a175ad79d5b1fc20b24319d0338b19bb98d611",
+      "stepSHA256": "33e2cb6b417bd679a4e5fa07c7cc6ac272f7ed49a00fa4e41341a71356b51f91",
+      "stepBoundsMetres": [
+        0.0,
+        0.0,
+        0.0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "stepBoundsWithShapeToleranceMetres": [
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        -9.999999999999999e-11,
+        0.0100000001,
+        0.0100000001,
+        0.0100000001
+      ],
+      "storedBoundsMetres": [
+        0,
+        0,
+        0,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "meshBoundsMetres": [
+        0,
+        0,
+        0,
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "storedMaxAbsError": 0.0,
+      "meshMaxAbsError": 2.2351741811588166e-10
+    }
+  ],
+  "summary": {
+    "1e-12": 19,
+    "1e-09": 23,
+    "1e-07": 23,
+    "1e-06": 23
+  }
+}
