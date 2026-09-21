@@ -1,0 +1,1432 @@
+{
+  "method": "STL mm converted to m; no fit; up to 256 deterministic vertex/centroid samples in each direction; Euclidean point-to-triangle distance",
+  "numpyVersion": "2.3.5",
+  "scriptSHA256": "b2ace0316f85b0fe16b70c85e41e6f61b6b4caf5714446cf41bc5d0b7bbe3653",
+  "rows": [
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 2.2351741811588166e-10,
+      "translatedSTLToParserSampledMaxMetres": 3.871435245533232e-10,
+      "file": "test files new/SW2011/C00_cube_10mm/model.SLDPRT",
+      "sha256": "7054cfc0fb771980a2170df80a8fc38718225a2d193213834245334257604bf5",
+      "stlSHA256": "e560ea68fa0dec31995fa1fc44623335525751efe175b4a833f1d7329b85d441",
+      "parserTriangles": 12,
+      "stlTriangles": 12,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0005999999731779102,
+      "stlAreaM2": 0.0006000000000000001,
+      "parserToSTLSampledMaxMetres": 2.2351741811588166e-10,
+      "stlToParserSampledMaxMetres": 3.871435245533232e-10,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 4.470348362317633e-10,
+      "translatedSTLToParserSampledMaxMetres": 7.742870491066464e-10,
+      "file": "test files new/SW2011/C01_cube_20mm/model.SLDPRT",
+      "sha256": "1841f3ef52c46512d2a7544d54c2ef7ab817f376c82ad3e3e15e68d2c01d0729",
+      "stlSHA256": "2934080475c165c06468a841773aeba4ddf4b8e73af074d94a5d16f7f8fdfe02",
+      "parserTriangles": 12,
+      "stlTriangles": 12,
+      "bboxMaxDifferenceMetres": 4.470348362317633e-10,
+      "parserAreaM2": 0.0023999998927116406,
+      "stlAreaM2": 0.0024000000000000002,
+      "parserToSTLSampledMaxMetres": 4.470348362317633e-10,
+      "stlToParserSampledMaxMetres": 7.742870491066464e-10,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.019999999552965164,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.019999999552965164,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.019999999552965164,
+          "parser": 2,
+          "stl": 2
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 1.341104505225843e-09,
+      "translatedSTLToParserSampledMaxMetres": 1.909733652652981e-09,
+      "file": "test files new/SW2011/C02_cube_translated/model.SLDPRT",
+      "sha256": "5b088c2eb8bdf4d0709f38d8583ff43b559e9fbdd852b0ca3b0de53ca1214e2e",
+      "stlSHA256": "31df94835229bb4656756029cf5591d3553ce121aa05df1e5dc3a1f62f730e45",
+      "parserTriangles": 12,
+      "stlTriangles": 12,
+      "bboxMaxDifferenceMetres": 1.341104505225843e-09,
+      "parserAreaM2": 0.0005999998241663085,
+      "stlAreaM2": 0.0005999999999999995,
+      "parserToSTLSampledMaxMetres": 1.341104505225843e-09,
+      "stlToParserSampledMaxMetres": 1.909733652652981e-09,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.05000000074505806,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.05999999865889549,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.05000000074505806,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.05999999865889549,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.0033333332588275275,
+      "translatedSTLToParserSampledMaxMetres": 8.213541578821797e-06,
+      "file": "test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT",
+      "sha256": "456a2c8cef38cbaa7b375a2632ee8f044a2513687935016ba74c2a24730b75b0",
+      "stlSHA256": "11b3741308d94e1b73cfe13bae6acd4c1bc970cca4a6cdf5ada6c83f60f09649",
+      "parserTriangles": 36,
+      "stlTriangles": 50,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0005952160330668679,
+      "stlAreaM2": 0.0004952561688167823,
+      "parserToSTLSampledMaxMetres": 0.0033333332588275275,
+      "stlToParserSampledMaxMetres": 8.213541578821797e-06,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 8,
+          "stl": 12
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 8,
+          "stl": 12
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.0015236446857482204,
+      "translatedSTLToParserSampledMaxMetres": 6.9929017641544756e-06,
+      "file": "test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT",
+      "sha256": "b472a5bb9a1e5bfd6e210042f5d1cc0e52bc8ec5fcc819d1d652e82c7218a55e",
+      "stlSHA256": "c9676a15112c535577393570f56e807f75c662f98ff30e742291a1204395092b",
+      "parserTriangles": 152,
+      "stlTriangles": 132,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0007178094079086257,
+      "stlAreaM2": 0.0006373613178916348,
+      "parserToSTLSampledMaxMetres": 0.0015236446857482204,
+      "stlToParserSampledMaxMetres": 6.9929017641544756e-06,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 38,
+          "stl": 44
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 38,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.0018538766908911715,
+      "translatedSTLToParserSampledMaxMetres": 5.3330635199844184e-06,
+      "file": "test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT",
+      "sha256": "b9b08de9eff27b10f790f772a7b97b437133b5ba7d89d9cfd3177ef4ec97908b",
+      "stlSHA256": "2d68b017136039b22594bde37dccce80c75899dd68a87dd44eec2eedd98e9b5b",
+      "parserTriangles": 128,
+      "stlTriangles": 126,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0006800276864508898,
+      "stlAreaM2": 0.000587101523935364,
+      "parserToSTLSampledMaxMetres": 0.0018538766908911715,
+      "stlToParserSampledMaxMetres": 5.3330635199844184e-06,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 32,
+          "stl": 42
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 32,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.002027211084364258,
+      "translatedSTLToParserSampledMaxMetres": 6.993355547302959e-06,
+      "file": "test files new/SW2011/C06_cube_hole_moved/model.SLDPRT",
+      "sha256": "60c71002393a2618fdda2a587bbe925592617bcaf6c4c38d5e17c713431b8ee7",
+      "stlSHA256": "092e08a76b91fc47efd1c76cb4f3c532bf580f57ccabc1896d8bf5b8923fd09b",
+      "parserTriangles": 152,
+      "stlTriangles": 132,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.000717809408953604,
+      "stlAreaM2": 0.0006373613194873586,
+      "parserToSTLSampledMaxMetres": 0.002027211084364258,
+      "stlToParserSampledMaxMetres": 6.993355547302959e-06,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 38,
+          "stl": 44
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 38,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.0016792667511766537,
+      "translatedSTLToParserSampledMaxMetres": 6.993308451496559e-06,
+      "file": "test files new/SW2011/C07_cube_two_holes/model.SLDPRT",
+      "sha256": "ebcb5f13ab28f078ae9f2f8f4b4f68fa8e0bd083a655f65097a3c51b1af22cf0",
+      "stlSHA256": "c9b2f03191a2233dcca538ec7e6f5197a3fd60c526170de9126175049f06e133",
+      "parserTriangles": 292,
+      "stlTriangles": 254,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0008356188438442858,
+      "stlAreaM2": 0.0007747226366893794,
+      "parserToSTLSampledMaxMetres": 0.0016792667511766537,
+      "stlToParserSampledMaxMetres": 6.993308451496559e-06,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 74,
+          "stl": 86
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 74,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.002014923298425438,
+      "translatedSTLToParserSampledMaxMetres": 6.82539494521656e-06,
+      "file": "test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT",
+      "sha256": "b01658e263595eeee875a9cc1807d615ec5ae0feb4752fac6f85c3292d4a8276",
+      "stlSHA256": "2f19abc550f5712c2c7725976747b57b1bd445f859c0d201bac55c3d0655871d",
+      "parserTriangles": 268,
+      "stlTriangles": 248,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0007978371233115342,
+      "stlAreaM2": 0.0007244628437079997,
+      "parserToSTLSampledMaxMetres": 0.002014923298425438,
+      "stlToParserSampledMaxMetres": 6.82539494521656e-06,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 68,
+          "stl": 84
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 68,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.0033333332588275275,
+      "translatedSTLToParserSampledMaxMetres": 4.864036660556808e-10,
+      "file": "test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT",
+      "sha256": "2882ba660e04b907b40724aa92b162dc759db7e6e383fe0daec181e9d8994ce8",
+      "stlSHA256": "2c0e678bada05b1b5f67d380eb3bb1a98158360359aca579f030305a4d037978",
+      "parserTriangles": 16,
+      "stlTriangles": 14,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0005931421076445702,
+      "stlAreaM2": 0.000493142135623731,
+      "parserToSTLSampledMaxMetres": 0.0033333332588275275,
+      "stlToParserSampledMaxMetres": 4.864036660556808e-10,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": -3.469446951953614e-18,
+          "parser": 3,
+          "stl": 3
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 3,
+          "stl": 3
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.0003333336114883425,
+      "translatedSTLToParserSampledMaxMetres": 5.499639193628521e-10,
+      "file": "test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT",
+      "sha256": "5001239cf49ccc7e2f85d2f6bbf7ee63fdef51d7eb002389b0788071b0f4e15c",
+      "stlSHA256": "1dcaac99d85b193249f86d21fdf27aa28db11e3fb01adf3377c043a0fcaf5767",
+      "parserTriangles": 28,
+      "stlTriangles": 20,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0008879999488480396,
+      "stlAreaM2": 0.0008520000000000001,
+      "parserToSTLSampledMaxMetres": 0.0003333336114883425,
+      "stlToParserSampledMaxMetres": 5.499639193628521e-10,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 8,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.0016774244570858796,
+      "translatedSTLToParserSampledMaxMetres": 6.017667494921066e-06,
+      "file": "test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT",
+      "sha256": "fd324092ec6e6aa4c1fb138dd027023761420b5765fa2727c3c4cda39cf3e505",
+      "stlSHA256": "8c170ca128eb5eecd1a5944666e7d5ca088f436c045608a501e66f39411906f0",
+      "parserTriangles": 144,
+      "stlTriangles": 126,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0007004887212703475,
+      "stlAreaM2": 0.0006130085458180417,
+      "parserToSTLSampledMaxMetres": 0.0016774244570858796,
+      "stlToParserSampledMaxMetres": 6.017667494921066e-06,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 36,
+          "stl": 42
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 36,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.0030000001331791284,
+      "translatedSTLToParserSampledMaxMetres": 8.212466708865133e-06,
+      "file": "test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "sha256": "355ac304653d6d236e2eefc5408be78011436e479d6f248bf51520edecbf5999",
+      "stlSHA256": "e6b96a7285b440fdca3f4bb8faa529be5dc2ded664e382d6c0595ad83b68cfbd",
+      "parserTriangles": 36,
+      "stlTriangles": 50,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.000595216030560956,
+      "stlAreaM2": 0.0005052561637828069,
+      "parserToSTLSampledMaxMetres": 0.0030000001331791284,
+      "stlToParserSampledMaxMetres": 8.212466708865133e-06,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 8,
+          "stl": 12
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 8,
+          "stl": 12
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.005,
+        0.0,
+        0.005
+      ],
+      "translatedParserToSTLSampledMaxMetres": 8.154757320881154e-06,
+      "translatedSTLToParserSampledMaxMetres": 1.0701913360153006e-05,
+      "file": "test files new/SW2011/C13_cone/model.SLDPRT",
+      "sha256": "e241ae1143bae9d6492436779c305c31aa443151f9bc767ce2edcdd230d712fd",
+      "stlSHA256": "d5a5a71903b3181c3b46f6e81ce2293e76b3543dc98f0aa75455a75299170b0f",
+      "parserTriangles": 94,
+      "stlTriangles": 108,
+      "bboxMaxDifferenceMetres": 0.005002039019018412,
+      "parserAreaM2": 0.0002537356395351961,
+      "stlAreaM2": 0.0002538367633619466,
+      "parserToSTLSampledMaxMetres": 0.0070719377908394325,
+      "stlToParserSampledMaxMetres": 0.007069723393741114,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 46,
+          "stl": 53
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.005,
+        0.005,
+        0.005
+      ],
+      "translatedParserToSTLSampledMaxMetres": 8.035965218374069e-06,
+      "translatedSTLToParserSampledMaxMetres": 1.0558981708747986e-05,
+      "file": "test files new/SW2011/C14_sphere/model.SLDPRT",
+      "sha256": "4811427e99a684c8076a502f433c06c6887e1205bbe836d7c9acceb226471ca7",
+      "stlSHA256": "0ba1207e61cdcd29335c79e6401fc021e7ffe370fa6a5b1152961c784ada1d44",
+      "parserTriangles": 4488,
+      "stlTriangles": 5852,
+      "bboxMaxDifferenceMetres": 0.005005094222724438,
+      "parserAreaM2": 0.0003136007859693916,
+      "stlAreaM2": 0.0003137303130032047,
+      "parserToSTLSampledMaxMetres": 0.00865907431342044,
+      "stlToParserSampledMaxMetres": 0.008656060692398505,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.007,
+        0.002,
+        0.007
+      ],
+      "translatedParserToSTLSampledMaxMetres": 8.603625638307266e-06,
+      "translatedSTLToParserSampledMaxMetres": 1.1552261115301719e-05,
+      "file": "test files new/SW2011/C15_torus/model.SLDPRT",
+      "sha256": "7a8913cb596e547045b6e0c81aea11559b2c49350331334cd3cdcd2c33fa527e",
+      "stlSHA256": "ccc39ebd486fb243a4ba14f83d03416d5c25073a82fb6e2f8b8ade5a21fd040d",
+      "parserTriangles": 5920,
+      "stlTriangles": 7820,
+      "bboxMaxDifferenceMetres": 0.007005112212151289,
+      "parserAreaM2": 0.00039408237443598875,
+      "stlAreaM2": 0.0003942528797456614,
+      "parserToSTLSampledMaxMetres": 0.010088361964315338,
+      "stlToParserSampledMaxMetres": 0.010053553294777726,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": -0.006993692833930254,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.006993692833930254,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": -0.0020000000949949026,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0020000000949949026,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": -0.007000000216066837,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.007000000216066837,
+          "parser": 0,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.005,
+        0.0,
+        0.005
+      ],
+      "translatedParserToSTLSampledMaxMetres": 1.5539750765500666e-05,
+      "translatedSTLToParserSampledMaxMetres": 1.3989441366020852e-05,
+      "file": "test files new/SW2011/C16_loft_spline/model.SLDPRT",
+      "sha256": "3f7e6dc3be2bb6a584f277f0a4ab455013cdab9d551ee5d038c698e35d46f031",
+      "stlSHA256": "b65092f1c2650282af1e44796125a12ca06bb78c03e6db0bf5eef7ab1fa8261c",
+      "parserTriangles": 1796,
+      "stlTriangles": 2268,
+      "bboxMaxDifferenceMetres": 0.0050070080906152725,
+      "parserAreaM2": 0.0005307655721584715,
+      "stlAreaM2": 0.0005307319680142345,
+      "parserToSTLSampledMaxMetres": 0.006934413102354536,
+      "stlToParserSampledMaxMetres": 0.006980205178050057,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": -0.004999999888241291,
+          "parser": 2,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.004999999888241291,
+          "parser": 2,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 70,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 218,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": -0.004999999888241291,
+          "parser": 2,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.004999999888241291,
+          "parser": 2,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        -0.0,
+        0.002,
+        0.007
+      ],
+      "translatedParserToSTLSampledMaxMetres": 4.63240378361157e-06,
+      "translatedSTLToParserSampledMaxMetres": 6.163502425546654e-06,
+      "file": "test files new/SW2011/C17_torus_quarter/model.SLDPRT",
+      "sha256": "c81ff69b02e1c71f004f6667f56053a2c6f3b525075a4954dd612cba5ad8f2dc",
+      "stlSHA256": "043c00d461d779e81194037fccb7d2d7563c432f919f4017913f5227192d4446",
+      "parserTriangles": 2970,
+      "stlTriangles": 3906,
+      "bboxMaxDifferenceMetres": 0.007000000216066837,
+      "parserAreaM2": 0.00012368380550562257,
+      "stlAreaM2": 0.00012371860216311856,
+      "parserToSTLSampledMaxMetres": 0.007277349973121528,
+      "stlToParserSampledMaxMetres": 0.007275944341194046,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 1.8369701341211446e-19,
+          "parser": 54,
+          "stl": 62
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.007000000216066837,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": -0.001999184489250183,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.001999184489250183,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": -0.007000000216066837,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 54,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 2.2351741811588166e-10,
+      "translatedSTLToParserSampledMaxMetres": 3.871435245533232e-10,
+      "file": "test files new/SW2011/C18_cube_split_line/model.SLDPRT",
+      "sha256": "68faf7994a15211583554edb8e46ba30258c20e803380fbd1d8a8683e8f0d583",
+      "stlSHA256": "7178b64b7107ab951dbcaa7c2f29479d5d859c2a329c536e9c56681ef1f77055",
+      "parserTriangles": 16,
+      "stlTriangles": 16,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0005999999731779102,
+      "stlAreaM2": 0.0006000000000000001,
+      "parserToSTLSampledMaxMetres": 2.2351741811588166e-10,
+      "stlToParserSampledMaxMetres": 3.871435245533232e-10,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 3,
+          "stl": 3
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 3,
+          "stl": 3
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 4,
+          "stl": 4
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.005,
+        0.0,
+        0.005
+      ],
+      "translatedParserToSTLSampledMaxMetres": 8.091538788182136e-06,
+      "translatedSTLToParserSampledMaxMetres": 9.082005731134963e-06,
+      "file": "test files new/SW2011/C19_half_cylinder/model.SLDPRT",
+      "sha256": "9d2882cf496006b302ebe6a2978f08703e8ec56b86d47bf7c5bb40b2e6795c3d",
+      "stlSHA256": "93c3fab24292beb435eb6d468ebb9ad94dd9c83cdb27ca6217386d78b922e546",
+      "parserTriangles": 104,
+      "stlTriangles": 120,
+      "bboxMaxDifferenceMetres": 0.005000000111758709,
+      "parserAreaM2": 0.00033533292432711434,
+      "stlAreaM2": 0.00033540422653901886,
+      "parserToSTLSampledMaxMetres": 0.007068912183278187,
+      "stlToParserSampledMaxMetres": 0.00707106789089082,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 25,
+          "stl": 29
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 25,
+          "stl": 29
+        },
+        {
+          "axis": 2,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": 9.184851187593606e-19,
+          "parser": 2,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.01,
+        0.005,
+        0.01
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.002956620563442509,
+      "translatedSTLToParserSampledMaxMetres": 2.0441598660569353e-05,
+      "file": "test files new/SW2011/C20_cylinders_crossed/model.SLDPRT",
+      "sha256": "1c9e2d957e8c974502f441921288dc3ab68cf108958359acfbe01d1e0998bca5",
+      "stlSHA256": "e8d058dfba3add485c892c38dc1c505ddf1761dabe04399668c18dc29bfea78b",
+      "parserTriangles": 686,
+      "stlTriangles": 562,
+      "bboxMaxDifferenceMetres": 0.010000000223517418,
+      "parserAreaM2": 0.0011690768328723974,
+      "stlAreaM2": 0.0009553227965485588,
+      "parserToSTLSampledMaxMetres": 0.014999566766063885,
+      "stlToParserSampledMaxMetres": 0.015006560163754326,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": -0.009999999776482582,
+          "parser": 35,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 35,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": -0.009999999776482582,
+          "parser": 35,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 35,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.005,
+        0.0,
+        0.005
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.003000001792675604,
+      "translatedSTLToParserSampledMaxMetres": 1.0418333555776465e-05,
+      "file": "test files new/SW2011/C21_cylinder_fillet/model.SLDPRT",
+      "sha256": "138bb3ea7fcd29ea2fe8d0a572e921143aa6ef114768a19a5fe58f8195ec68dc",
+      "stlSHA256": "2a4a097b677f4c5257ec530357a889ecab88eb9990465040962700d9d640f608",
+      "parserTriangles": 1404,
+      "stlTriangles": 1724,
+      "bboxMaxDifferenceMetres": 0.0050010401755571365,
+      "parserAreaM2": 0.000456730421910456,
+      "stlAreaM2": 0.00017425198388112018,
+      "parserToSTLSampledMaxMetres": 0.0076339772081222565,
+      "stlToParserSampledMaxMetres": 0.007069941175164492,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 46,
+          "stl": 54
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 66,
+          "stl": 75
+        },
+        {
+          "axis": 2,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 2.2351741811588166e-10,
+      "translatedSTLToParserSampledMaxMetres": 3.871435245533232e-10,
+      "file": "test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT",
+      "sha256": "c14e9fd4de73865aad4c9b0134382f263295cf441ac65df987f3c05e5c884886",
+      "stlSHA256": "e560ea68fa0dec31995fa1fc44623335525751efe175b4a833f1d7329b85d441",
+      "parserTriangles": 12,
+      "stlTriangles": 12,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0005999999731779102,
+      "stlAreaM2": 0.0006000000000000001,
+      "parserToSTLSampledMaxMetres": 2.2351741811588166e-10,
+      "stlToParserSampledMaxMetres": 3.871435245533232e-10,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.005,
+        0.0,
+        0.005
+      ],
+      "translatedParserToSTLSampledMaxMetres": 8.154757320881154e-06,
+      "translatedSTLToParserSampledMaxMetres": 1.0701913360153006e-05,
+      "file": "test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT",
+      "sha256": "093c84118ec7c9d0e3f66212aef46e27bf2350192a1def920ae461dc10e5305f",
+      "stlSHA256": "d5a5a71903b3181c3b46f6e81ce2293e76b3543dc98f0aa75455a75299170b0f",
+      "parserTriangles": 94,
+      "stlTriangles": 108,
+      "bboxMaxDifferenceMetres": 0.005002039019018412,
+      "parserAreaM2": 0.0002537356395351961,
+      "stlAreaM2": 0.0002538367633619466,
+      "parserToSTLSampledMaxMetres": 0.0070719377908394325,
+      "stlToParserSampledMaxMetres": 0.007069723393741114,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 46,
+          "stl": 53
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": -0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.004999999888241291,
+          "parser": 0,
+          "stl": 0
+        }
+      ]
+    },
+    {
+      "candidateSTLTranslationMetres": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translatedParserToSTLSampledMaxMetres": 0.0015236446857482204,
+      "translatedSTLToParserSampledMaxMetres": 6.9929017641544756e-06,
+      "file": "test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT",
+      "sha256": "3312824fd9748bd24e5c5c87a228825e097c6f55ea88c896703e2cdb43d45df2",
+      "stlSHA256": "c9676a15112c535577393570f56e807f75c662f98ff30e742291a1204395092b",
+      "parserTriangles": 152,
+      "stlTriangles": 132,
+      "bboxMaxDifferenceMetres": 2.2351741811588166e-10,
+      "parserAreaM2": 0.0007178094079086257,
+      "stlAreaM2": 0.0006373613178916348,
+      "parserToSTLSampledMaxMetres": 0.0015236446857482204,
+      "stlToParserSampledMaxMetres": 6.9929017641544756e-06,
+      "outerPlaneTriangles": [
+        {
+          "axis": 0,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 0,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.0,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 1,
+          "coordinate": 0.009999999776482582,
+          "parser": 2,
+          "stl": 2
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.0,
+          "parser": 38,
+          "stl": 44
+        },
+        {
+          "axis": 2,
+          "coordinate": 0.009999999776482582,
+          "parser": 38,
+          "stl": 0
+        }
+      ]
+    }
+  ]
+}
