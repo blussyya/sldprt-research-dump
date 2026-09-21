@@ -719,3 +719,56 @@ started by copying someone else's asset.
 **Not blocked** for the enumeration milestone.
 
 **Date raised**: 2026-09-20 (EXP-054).
+
+
+---
+
+## NQ-030 status update, 2026-09-21 (EXP-055) — PARTIALLY RESOLVED
+
+Four of the unknown tags are identified against SolidWorks-reported ground truth and recorded
+as INV-025: **4003 cone** (previously asserted but never confirmed), **4004 sphere**,
+**4005 torus**, **4006 B-surface/parametric**.
+
+**Still open: 4007 and 4009.** Neither occurs anywhere in either corpus, so no amount of
+analysis on the current files will settle them — this needs new models. Surface types not yet
+exercised: surface of revolution with a non-circular profile, sweep along a spline, offset
+surface, ruled surface, and blends other than a simple fillet torus. A model per candidate,
+built the same way as C13–C16, would close it.
+
+Also settled in passing: the tag encodes the **surface type, not the trimmed patch**. A 90°
+torus (`C17_torus_quarter`) carries the same 4005 as a full one.
+
+## NQ-038 — Legacy OLE2 support, now testable
+
+All 25 SolidWorks 2011 models in `test files new/SW2011` are rejected with `Legacy OLE2 is not
+supported`. That is expected behaviour, not a regression.
+
+What changed is that the target is no longer blind. We now hold a controlled legacy corpus with
+known geometry, known volumes and known per-face surface types, including curved primitives
+(`C25_cone_sw2011_native`) and a cylindrical hole (`C26_cube_hole_sw2011_native`). Any legacy
+decode can be checked against known answers instead of inferred ones.
+
+Open sub-questions: does legacy DisplayLists use the same per-face record grammar? Does it carry
+the same surface tag values (INV-025), or a different numbering? Is Block1's edge-ID annotation
+present? `C22`/`C25`/`C26` are matched by geometry to `C00`/`C13`/`C04`, so each question can be
+asked as a direct comparison.
+
+**Not blocked** — the corpus exists.
+
+**Date raised**: 2026-09-21 (EXP-055).
+
+## NQ-039 — Metadata gate discards valid tags on upgraded files
+
+`parser/v0.2` gates the entire forward metadata record on INV-023's edge-ID correspondence.
+In `C23_cube_sw2011_to_2022` — a 2011 part opened in 2022 and resaved — the metadata edge table
+is empty (`count = 0`) while Block1 still carries its edge IDs. The check fails and the parser
+discards the whole record, including a surface tag that is present and correct (4001).
+
+The fix is to separate the two cases: an **empty** edge table should be recorded as such with a
+warning, leaving `typeTag` readable; a **non-empty** table that disagrees with Block1 should keep
+failing loudly, since that is the corruption INV-023 actually guards against.
+
+Not yet applied, because it changes what a populated `metadata` field means and the invariant
+validation runs should be re-run against the change rather than after it.
+
+**Date raised**: 2026-09-21 (EXP-055).

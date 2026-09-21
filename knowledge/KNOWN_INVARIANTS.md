@@ -37,7 +37,16 @@
 **Status:** Verified local grammar and ID correspondence, not full metadata semantics.
 **Evidence:** The forward sequence documented in the v0.4.8 report reaches a surface record and counted edge-ID/type pairs on all 1,272 faces; ID sets equal the nonzero Block1 sets. Optional scalar arrays on 390 faces each have one scalar per serialized vertex. All 94 controlled face records agree with independently exported STEP on tested plane/cylinder properties.
 **Files/counts:** 21 modern files / 1,272 faces; STEP check uses 13 controlled models / 94 faces.
-**Confidence/date:** High within scope, 2026-09-14. Opaque prefix, other surface tags, and optional-array purpose remain unknown.
+**Scope limit, 2026-09-21 (EXP-055):** verified on **natively authored** modern files. It does
+not hold on a file upgraded from a legacy version: in `C23_cube_sw2011_to_2022` the metadata
+edge table is **empty** (`count = 0`) while Block1 still carries its four per-face edge IDs, so
+the correspondence fails by absence rather than by conflict. The surface tag itself survives the
+upgrade and is correct. `parser/v0.2` currently gates the whole metadata record on this
+correspondence and therefore discards a valid tag when the table is empty — a parser defect
+recorded in EXP-055 §2, not a property of the format.
+
+**Confidence/date:** High within scope, 2026-09-14. Opaque prefix and optional-array purpose
+remain unknown. Other surface tags are resolved by INV-025 as of 2026-09-21.
 **Source:** [EXP-045](evidence/2026-09-14_v0.4.8-EXP045.md); [byte map](../v0.4.8/README.md).
 
 ## INV-024: Display Boundary Cycles and Two-Face Edge-ID Ownership
@@ -47,6 +56,45 @@
 **Files/counts:** 21 modern files / 1,272 faces.
 **Confidence/date:** High within corpus, 2026-09-14. No universal multi-body ID namespace, outer/hole orientation, or watertight-export claim.
 **Source:** [EXP-046](evidence/2026-09-14_v0.4.8-EXP046.md).
+
+## INV-025: Surface Type Tag Values
+
+> **Established 2026-09-21 (EXP-055).** Supersedes the earlier state in which 4001/4002 were
+> verified, 4003 was asserted without a controlled model, and 4005/4006/4007/4009 were unknown.
+
+**Status:** Verified for five values against SolidWorks-reported ground truth; 4007 and 4009 remain unobserved.
+
+**Evidence:** The forward metadata record's `typeTag` maps to the face's surface type:
+
+| tag | surface |
+|---|---|
+| 4001 | plane |
+| 4002 | cylinder |
+| 4003 | cone |
+| 4004 | sphere |
+| 4005 | torus |
+| 4006 | B-surface / parametric |
+
+Each of 4003–4006 was forced by a bare single-surface controlled model (`C13_cone`,
+`C14_sphere`, `C15_torus`, `C16_loft_spline`) whose face-type list SolidWorks itself reports in
+the corpus build log. The table then reproduces **136 of 136** faces across the 22 natively
+authored SolidWorks 2022 models with **0 disagreements**.
+
+Corroborated by three models not used in the derivation: `C17_torus_quarter` (a 90° torus
+reports 4005, so the tag encodes the **surface type, not the trimmed patch**),
+`C21_cylinder_fillet` (fillet face reports torus), and `C20_cylinders_crossed` (four cylinders
+trimmed by non-planar curves, all 4002).
+
+**Files/counts:** 24 SolidWorks 2022 models under `test files new/SW2022`, 142 faces total;
+136 faces in the 22 natively authored models participate in the check. Face counts agree with
+SolidWorks on all 24.
+
+**Confidence/date:** High within corpus, 2026-09-21. **4007 and 4009 do not occur in this
+corpus and remain unidentified** — NQ-030 stays open for them. Surfaces not yet exercised
+include surfaces of revolution, sweeps along splines, offset surfaces and non-fillet blends.
+
+**Source:** [EXP-055](evidence/2026-09-21_tag-identification-EXP055.md), reproducible via
+`evidence/scripts/EXP055/tag-join.js`.
 
 ---
 

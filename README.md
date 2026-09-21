@@ -29,9 +29,29 @@ link between them is explicit:
 - A third byte array (Block3, INV-022) and a forward metadata grammar reaching the surface
   record and edge table (INV-023) are documented but not fully decoded.
 
-Still open: exact B-rep, feature history, Block3 semantics, the optional
-scalar arrays, and surface tags 4005/4006/4007/4009 — the controlled corpus covers only planes
-and cylinders, recorded as NQ-030. Legacy OLE2 containers remain unsupported.
+- **Surface tags** are resolved for six values (INV-025, EXP-055): 4001 plane, 4002 cylinder,
+  4003 cone, 4004 sphere, 4005 torus, 4006 B-surface/parametric. Each of the four new ones was
+  forced by a bare single-surface controlled model and the table then reproduces 136/136 faces
+  with 0 disagreements. A 90° torus carries the same tag as a full one, so the tag encodes the
+  **surface type, not the trimmed patch**.
+
+Still open: exact B-rep, feature history, Block3 semantics, the optional scalar arrays, and
+surface tags **4007 and 4009**, which do not occur anywhere in the corpus (NQ-030). Legacy OLE2
+containers remain unsupported — though a 25-model controlled legacy corpus now exists to test
+against (NQ-038).
+
+### Test corpora
+
+| directory | what |
+|---|---|
+| `test files original/` | the inherited parts plus the C00–C12 controlled cubes (SolidWorks 2022) |
+| `test files new/SW2022/` | 24 controlled models, C00–C24, including curved primitives |
+| `test files new/SW2011/` | 25 controlled models, C00–C26, legacy OLE2 — currently unreadable by the parser |
+
+Every model under `test files new/` ships `model.SLDPRT`, `model.step`, `model.STL`,
+`model.x_t` and `model.x_b`, with a `BUILD_LOG.md` recording the measured volume, face count and
+the surface type SolidWorks reports for each individual face. That per-face list is the ground
+truth INV-025 is checked against.
 
 `Contents/Config-0-Partition` was previously listed here as unreadable high-entropy data. That was
 wrong, and EXP-054 corrects it: past a 28-byte header the stream is plain zlib, and inflating it
