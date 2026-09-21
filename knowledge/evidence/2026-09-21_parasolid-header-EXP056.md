@@ -1,5 +1,13 @@
 # EXP-056 — Parasolid XT transmit header and schema table
 
+> **Corrected 2026-09-21 by EXP-058 and EXP-059.** Two claims below are wrong and one headline
+> number is misleading. (a) "the text form continues to 19" — those 19 matches are not one table;
+> gaps of 148, 203 and 4,572 characters separate the tail entries, the last sitting 5.4 KB into
+> node data. The contiguous prefix is **13**. (b) the schema-entry grammar's fourth field was
+> called `flag`; it is **undecoded**, and the reader no longer names it. (c) "24/24 agreeing,
+> 168 entries" is **n = 1** — bytes 0–349 are byte-identical across all 24 models. See
+> [EXP-059](2026-09-21_v0.4.9-EXP059.md).
+
 Date: 2026-09-21
 Scope: NQ-037 milestone 1 — read the header, enumerate what the file declares, locate the node
 stream. **No entity fields are resolved and no geometry is produced.** Nothing here is a B-rep
@@ -56,7 +64,7 @@ type letters      one or more uppercase ASCII (A, C, D, I, Z, …)
 u8 nameLen
 nameLen bytes     lowercase identifier
 u16be code
-u16be flag
+2 bytes           UNDECODED — always 00 01; see EXP-059 §3
 ```
 
 The text form writes the same entry as `<letters><nameLen> <name><code> <flag>`, e.g.

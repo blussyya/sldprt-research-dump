@@ -44,7 +44,8 @@ const BASE = path.join(ROOT, 'test files new/SW2022');
 const models = fs.readdirSync(BASE, { withFileTypes: true })
   .filter(e => e.isDirectory()).map(e => e.name).sort();
 
-let fail = 0, nPart = 0, nXb = 0, nAgree = 0, entriesChecked = 0;
+let fail = 0, nPart = 0, nXb = 0, nAgree = 0, entriesChecked = 0, lengthDiff = 0;
+const trailingSeen = new Set(), textFlagSeen = new Set();
 const stops = new Map();
 const schemas = new Set();
 
@@ -71,18 +72,33 @@ for (const m of models) {
   let r;
   try { r = XT.read(xb); nXb++; } catch (e) { console.log(`${m}: x_b header: ${e.message}`); fail++; continue; }
 
+  // EXP-059: the original form of this check compared only name and code, and
+  // looped to Math.min of the two lengths. It therefore could not detect a flag
+  // mismatch or a length disagreement, while reporting "tables agreeing" — a
+  // narrower check than it sounded like. Compare every field, and report the
+  // length relationship separately instead of silently truncating to it.
+  //
+  // readTextSchemaTable scans the whole transmit, so its tail entries are later
+  // declarations separated by node data, not members of the initial table
+  // (EXP-059 §1.1). Only the contiguous prefix is comparable here.
   const text = XT.readTextSchemaTable(fs.readFileSync(xtF, 'latin1'));
   const bin = r.schemaEntries;
   const n = Math.min(bin.length, text.length);
   let mismatch = null;
   for (let i = 0; i < n; i++) {
-    if (bin[i].name !== text[i].name || bin[i].code !== text[i].code) {
-      mismatch = `entry ${i}: binary ${bin[i].name}/${bin[i].code} vs text ${text[i].name}/${text[i].code}`;
-      break;
-    }
+    const b = bin[i], t = text[i];
+    if (b.name !== t.name) mismatch = `entry ${i} name: ${b.name} vs ${t.name}`;
+    else if (b.code !== t.code) mismatch = `entry ${i} code: ${b.code} vs ${t.code}`;
+    if (mismatch) break;
+    // The two bytes after `code` are undecoded (EXP-059 §3). Record what they
+    // hold rather than asserting an interpretation; a value other than 00 01,
+    // or a text flag other than 0, would be the observation that settles it.
+    trailingSeen.add(b.trailing.join(' '));
+    textFlagSeen.add(t.flag);
   }
   if (mismatch) { console.log(`${m}: SCHEMA MISMATCH ${mismatch}`); fail++; }
   else { nAgree++; entriesChecked += n; }
+  if (bin.length !== text.length) lengthDiff++;
 
   stops.set(r.schemaTableStop || '(ran to end)', (stops.get(r.schemaTableStop || '(ran to end)') || 0) + 1);
 }
@@ -93,7 +109,30 @@ console.log(`partition headers parsed               ${nPart}/${models.length}`);
 console.log(`x_b headers parsed                     ${nXb}/${models.length}`);
 console.log(`schema tables agreeing with x_t text   ${nAgree}/${models.length}`);
 console.log(`schema entries compared                ${entriesChecked}`);
+console.log(`models where the two lengths differ    ${lengthDiff}/${models.length}`);
+console.log(`undecoded trailing bytes seen          ${[...trailingSeen].map(x => '[' + x + ']').join(', ')}`);
+console.log(`text flag values seen                  ${[...textFlagSeen].join(', ')}`);
+if (trailingSeen.size === 1 && textFlagSeen.size === 1)
+  console.log('   both constant, so this corpus cannot decide the field split (EXP-059 §3)');
 console.log(`distinct schemas seen                  ${[...schemas].join(', ')}`);
+
+// EXP-059 §2: these models share one byte-identical declaration prefix, so the
+// per-model counts above are one observation repeated, not independent samples.
+// Report that explicitly rather than letting "24/24" imply replication.
+const prefixes = new Set();
+for (const m of models) {
+  const f = path.join(BASE, m, 'model.x_b');
+  if (!fs.existsSync(f)) continue;
+  const b = xbBody(f);
+  try {
+    const rr = XT.read(b);
+    prefixes.add(require('crypto').createHash('sha1')
+      .update(b.subarray(0, rr.schemaTableEnd)).digest('hex'));
+  } catch (e) {}
+}
+console.log(`DISTINCT declaration prefixes          ${prefixes.size}  <- effective sample size`);
+if (prefixes.size === 1)
+  console.log('   all models share one prefix: agreement above is n=1, not n=' + models.length);
 console.log('\nbinary schema-table terminator reasons:');
 for (const [k, v] of stops) console.log(`  ${String(v).padStart(3)}  ${k}`);
 console.log('='.repeat(66));

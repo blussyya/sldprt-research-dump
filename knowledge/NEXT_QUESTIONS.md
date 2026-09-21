@@ -821,3 +821,58 @@ none with a printable one. Any implementation must separate those or it will rep
 failures.
 
 **Date raised**: 2026-09-21 (EXP-057).
+
+
+---
+
+## NQ-041 — `textPrefix()` is schema-locked
+
+`v0.4.9/exp058_schema_boundary.js`'s text reader asserts a hardcoded preamble
+`/^230 0 \d+ \d+ /`. SolidWorks 2011 writes `186 0 12 27`.
+
+```
+SW2011 exports:  binary() parsed 25, failed 0
+                 textPrefix() parsed 0, failed 25   ("unknown text preamble")
+```
+
+This matters more than a parsing inconvenience: the text reader is the *cross-validation half*
+of the method. Without it the binary read has nothing independent to check against, so the
+reader generalizes to other schemas precisely where its verification does not.
+
+Fix: read the preamble by its declared structure rather than matching a literal, the same
+mistake-and-correction as the greedy name regex in EXP-056.
+
+**Date raised**: 2026-09-21 (EXP-059 §5).
+
+## NQ-042 — The declaration trailing bytes cannot be decoded from any corpus we hold
+
+Every schema entry has `00 01` after `code`; every corresponding text value is `0`. Two readings
+fit equally well — `u16be` (disagreeing with the text) or `u8` flag + a separate always-1 byte
+(agreeing) — and nothing in 312 export entries, 192 partition entries or the SW2011 set can
+separate them, because every candidate is constant.
+
+`parasolid/v0.1/src/xt-reader.js` now exposes the raw bytes and refuses to name the field.
+
+**What would settle it**: any file whose text flag is nonzero, or whose trailing bytes are not
+`00 01`. None exists in our corpora. This is genuinely blocked on new material, not on analysis.
+
+**Date raised**: 2026-09-21 (EXP-059 §3).
+
+## NQ-043 — The value at `Z + 5` may be a node count
+
+At the declaration boundary, `u16be` at `Z + 5` varies with model complexity while everything
+before it is byte-identical:
+
+| model | value | faces |
+|---|---|---|
+| `C14_sphere` | 68 | 1 |
+| `C00_cube_10mm` | 232 | 6 |
+| `C20_cylinders_crossed` | 297 | 8 |
+| `C16_loft_spline` | 361 | 6 (four B-surfaces) |
+
+If it is a node count it is the natural next milestone for NQ-037, and it is checkable: a cube's
+total is predictable from 6 faces, 12 edges and 8 vertices plus their surfaces and curves.
+
+**Not blocked.**
+
+**Date raised**: 2026-09-21 (EXP-059 §7).

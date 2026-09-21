@@ -20,11 +20,20 @@
  *   u8 nameLen
  *   nameLen bytes             lowercase identifier, e.g. "lattice"
  *   u16be code                e.g. 222 for lattice, 1006 for mesh
- *   u16be flag
+ *   2 bytes  UNRESOLVED         see below
  *
  * The same entries appear in the .x_t text form as
  *   <letters><nameLen> <name><code> <flag>
  * which is what lets this be checked rather than guessed.
+ *
+ * The two bytes after `code` are NOT decoded, and this reader deliberately does
+ * not name them `flag` (EXP-059 §3). Every observation is `00 01` while the text
+ * form's corresponding value is always 0. Two readings fit equally well — a
+ * u16be that disagrees with the text, or a u8 flag of 0 followed by a separate
+ * always-1 byte that agrees with it — and the corpus cannot separate them,
+ * because every text flag and every candidate byte is constant. Naming this
+ * field would assert a reading the evidence does not support, so the raw bytes
+ * are exposed instead.
  *
  * No external dependencies, consistent with the rest of the project.
  */
@@ -101,9 +110,14 @@
 
       if (o + 4 > b.length) { stop = 'truncated after name ' + name; break; }
       var code = u16be(b, o); o += 2;
-      var flag = u16be(b, o); o += 2;
+      var trailing = [b[o], b[o + 1]]; o += 2;
 
-      entries.push({ letters: letters, name: name, code: code, flag: flag, offset: t0 });
+      entries.push({
+        letters: letters, name: name, code: code, offset: t0,
+        // Undecoded. See the header comment: do not read these as a flag.
+        trailing: trailing,
+        trailingU16be: (trailing[0] << 8) | trailing[1]
+      });
     }
     return { entries: entries, end: o, stop: stop };
   }
