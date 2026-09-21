@@ -662,7 +662,7 @@ unseen values.
 
 **Not blocked** — the data is already in the corpus.
 
-**Date raised**: 2026-09-20 (EXP-054).
+**Date raised**: 2026-09-20.
 
 ## NQ-035 — Can a face record legitimately carry zero normals?
 
@@ -683,7 +683,7 @@ winding, flagged in output.
 **Blocked on** a model exhibiting the case, or on reading sldprt-export's source closely enough
 to learn what produces it.
 
-**Date raised**: 2026-09-20 (EXP-054).
+**Date raised**: 2026-09-20.
 
 ## NQ-036 — Does the "extended" tessellation-table header (cadmpeg AL-03) occur here?
 
@@ -697,11 +697,12 @@ with the corpus size so the claim is bounded rather than ignored.
 
 **Not blocked**.
 
-**Date raised**: 2026-09-20 (EXP-054).
+**Date raised**: 2026-09-20.
 
 ## NQ-037 — Enumerate node types in the inflated `Config-0-Partition`
 
-EXP-054 §1 established that the partition inflates to a Parasolid XT transmit file in 21/21
+[CONTAINER_AND_STREAMS.md](CONTAINER_AND_STREAMS.md) §5 establishes that the partition inflates
+to a Parasolid XT transmit file in 21/21
 modern files, schema base `13006` in every case. Nothing has been decoded.
 
 The right first milestone is deliberately small and does not require a schema table: confirm the
@@ -709,7 +710,7 @@ header, length-delimit the node stream, and enumerate node types and counts **wi
 fields**. That alone tells us whether the body is the full B-rep or a reduced partition, and
 gives a falsifiable target before any field-level work begins.
 
-**The schema problem is not solved by this.** Per EXP-054 §5, machine-usable Parasolid schema
+**The schema problem is not solved by this.** Per [PRIOR_ART.md](PRIOR_ART.md) §3, machine-usable Parasolid schema
 data in the public ecosystem is either sourced from a Siemens SDK, of undocumented provenance,
 or derived from a decompiled kernel. None of those is a clean dependency for this project. The
 plane/cylinder/cone entities we care about are simple fixed structs, so deriving a minimal
@@ -718,7 +719,7 @@ started by copying someone else's asset.
 
 **Not blocked** for the enumeration milestone.
 
-**Date raised**: 2026-09-20 (EXP-054).
+**Date raised**: 2026-09-20.
 
 
 ---

@@ -54,10 +54,10 @@ the surface type SolidWorks reports for each individual face. That per-face list
 truth INV-025 is checked against.
 
 `Contents/Config-0-Partition` was previously listed here as unreadable high-entropy data. That was
-wrong, and EXP-054 corrects it: past a 28-byte header the stream is plain zlib, and inflating it
+wrong: past a 28-byte header the stream is plain zlib, and inflating it
 exposes a Parasolid XT transmit file — the native B-rep — in 21/21 modern corpus files. Readable is
 not the same as decoded; no node has been read yet. See
-`knowledge/evidence/2026-09-20_ecosystem-survey-EXP054.md`.
+[`knowledge/CONTAINER_AND_STREAMS.md`](knowledge/CONTAINER_AND_STREAMS.md).
 
 ## Using the tools
 
@@ -185,6 +185,8 @@ The project-wide knowledge base is maintained under `knowledge/`:
 | `NEXT_QUESTIONS.md` | Concrete operational research queue |
 | `ASSUMPTIONS.md` | Working assumptions |
 | `FORMAT_TIMELINE.md` | Version and container observations |
+| `CONTAINER_AND_STREAMS.md` | What the modern container holds — stream inventory, CRC-32, format version, the Parasolid partition |
+| `PRIOR_ART.md` | What other public projects do and claim. Not evidence; a field guide |
 | `EVIDENCE_PRESERVATION_POLICY.md` | Rules for reproducible evidence |
 | `evidence/` | Archived raw experiment outputs |
 | `RESEARCH_DASHBOARD.md` | Current research posture |
