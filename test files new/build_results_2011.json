@@ -1,0 +1,1253 @@
+{
+  "solidworks_version": "2011",
+  "solidworks_revision": "19.0.0",
+  "solidworks_base_build": "sw2011_SP0",
+  "solidworks_current_build": "d101004.001",
+  "results": {
+    "C00_cube_10mm": {
+      "volume_mm3": 1000.0000000000001,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 6,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 90624
+        },
+        "model.step": {
+          "success": true,
+          "size": 15901
+        },
+        "model.STL": {
+          "success": true,
+          "size": 684
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5135
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5175
+        }
+      },
+      "expected_volume_mm3": 1000.0,
+      "volume_delta_mm3": 1.1368683772161603e-13,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C01_cube_20mm": {
+      "volume_mm3": 8000.000000000001,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 6,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 90624
+        },
+        "model.step": {
+          "success": true,
+          "size": 15909
+        },
+        "model.STL": {
+          "success": true,
+          "size": 684
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5141
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5175
+        }
+      },
+      "expected_volume_mm3": 8000.0,
+      "volume_delta_mm3": 9.094947017729282e-13,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C02_cube_translated": {
+      "volume_mm3": 999.9999999999991,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 6,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 89088
+        },
+        "model.step": {
+          "success": true,
+          "size": 15897
+        },
+        "model.STL": {
+          "success": true,
+          "size": 684
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5205
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5175
+        }
+      },
+      "expected_volume_mm3": 1000.0,
+      "volume_delta_mm3": -9.094947017729282e-13,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C03_cube_fillet_1mm": {
+      "volume_mm3": 997.8539816339747,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 7,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "cylinder"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 105472
+        },
+        "model.step": {
+          "success": true,
+          "size": 18460
+        },
+        "model.STL": {
+          "success": true,
+          "size": 2584
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 6103
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 6062
+        }
+      },
+      "expected_volume_mm3": 997.854,
+      "volume_delta_mm3": -1.836602530147502e-05,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C04_cube_hole_5mm": {
+      "volume_mm3": 803.6504591506382,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 7,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "cylinder"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 104448
+        },
+        "model.step": {
+          "success": true,
+          "size": 21206
+        },
+        "model.STL": {
+          "success": true,
+          "size": 6684
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5851
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5829
+        }
+      },
+      "expected_volume_mm3": 803.651,
+      "volume_delta_mm3": -0.0005408493617551358,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C05_cube_hole_3mm": {
+      "volume_mm3": 929.3141652942297,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 7,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "cylinder"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 101888
+        },
+        "model.step": {
+          "success": true,
+          "size": 21214
+        },
+        "model.STL": {
+          "success": true,
+          "size": 6384
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5851
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5829
+        }
+      },
+      "expected_volume_mm3": 929.314,
+      "volume_delta_mm3": 0.00016529422975963826,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C06_cube_hole_moved": {
+      "volume_mm3": 803.6504591506382,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 7,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "cylinder"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 104448
+        },
+        "model.step": {
+          "success": true,
+          "size": 21219
+        },
+        "model.STL": {
+          "success": true,
+          "size": 6684
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5851
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5829
+        }
+      },
+      "expected_volume_mm3": 803.651,
+      "volume_delta_mm3": -0.0005408493617551358,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C07_cube_two_holes": {
+      "volume_mm3": 607.3009183012763,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 8,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "cylinder",
+        "cylinder"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 114688
+        },
+        "model.step": {
+          "success": true,
+          "size": 26543
+        },
+        "model.STL": {
+          "success": true,
+          "size": 12784
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 6555
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 6481
+        }
+      },
+      "expected_volume_mm3": 607.301,
+      "volume_delta_mm3": -8.169872376129206e-05,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C08_cube_second_hole_modified": {
+      "volume_mm3": 732.9646244448679,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 8,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "cylinder",
+        "cylinder"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 111616
+        },
+        "model.step": {
+          "success": true,
+          "size": 26522
+        },
+        "model.STL": {
+          "success": true,
+          "size": 12484
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 6559
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 6481
+        }
+      },
+      "expected_volume_mm3": 732.965,
+      "volume_delta_mm3": -0.00037555513210918434,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C09_cube_chamfer_1mm": {
+      "volume_mm3": 995.0000000000002,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 7,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 99840
+        },
+        "model.step": {
+          "success": true,
+          "size": 18198
+        },
+        "model.STL": {
+          "success": true,
+          "size": 784
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 6191
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5988
+        }
+      },
+      "expected_volume_mm3": 995.0,
+      "volume_delta_mm3": 2.2737367544323206e-13,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C10_cube_shell_1mm": {
+      "volume_mm3": 424.00000000000017,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 11,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 104960
+        },
+        "model.step": {
+          "success": true,
+          "size": 25693
+        },
+        "model.STL": {
+          "success": true,
+          "size": 1084
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 9131
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 8685
+        }
+      },
+      "expected_volume_mm3": 424.0,
+      "volume_delta_mm3": 1.7053025658242404e-13,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C11_cube_hole_4mm": {
+      "volume_mm3": 874.3362938564084,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 7,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "cylinder"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 103424
+        },
+        "model.step": {
+          "success": true,
+          "size": 21209
+        },
+        "model.STL": {
+          "success": true,
+          "size": 6384
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5855
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5829
+        }
+      },
+      "expected_volume_mm3": 874.336,
+      "volume_delta_mm3": 0.0002938564083478923,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C12_cube_fillet_1mm_edge2": {
+      "volume_mm3": 997.8539816339745,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 7,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "cylinder"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 96256
+        },
+        "model.step": {
+          "success": true,
+          "size": 18476
+        },
+        "model.STL": {
+          "success": true,
+          "size": 2584
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 6106
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 6062
+        }
+      },
+      "expected_volume_mm3": 997.854,
+      "volume_delta_mm3": -1.8366025528848695e-05,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C13_cone": {
+      "volume_mm3": 261.7993877991495,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 2,
+      "face_types": [
+        "cone",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 98304
+        },
+        "model.step": {
+          "success": true,
+          "size": 10022
+        },
+        "model.STL": {
+          "success": true,
+          "size": 5484
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 2317
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 2232
+        }
+      },
+      "expected_volume_mm3": 261.799,
+      "volume_delta_mm3": 0.00038779914950737293,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C14_sphere": {
+      "volume_mm3": 523.598775598299,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 1,
+      "face_types": [
+        "sphere"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 155136
+        },
+        "model.step": {
+          "success": true,
+          "size": 8316
+        },
+        "model.STL": {
+          "success": true,
+          "size": 292684
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 1745
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 1667
+        }
+      },
+      "expected_volume_mm3": 523.599,
+      "volume_delta_mm3": -0.0002244017010752941,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C15_torus": {
+      "volume_mm3": 394.7841760435745,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 1,
+      "face_types": [
+        "torus"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 204800
+        },
+        "model.step": {
+          "success": true,
+          "size": 13534
+        },
+        "model.STL": {
+          "success": true,
+          "size": 391084
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 1749
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 1675
+        }
+      },
+      "expected_volume_mm3": 394.784,
+      "volume_delta_mm3": 0.00017604357452682962,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C16_loft_spline": {
+      "volume_mm3": 893.8249101823831,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 6,
+      "face_types": [
+        "plane",
+        "plane",
+        "B-surface/parametric",
+        "B-surface/parametric",
+        "B-surface/parametric",
+        "B-surface/parametric"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 155136
+        },
+        "model.step": {
+          "success": true,
+          "size": 29525
+        },
+        "model.STL": {
+          "success": true,
+          "size": 113484
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 18863
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 14147
+        }
+      },
+      "expected_volume_mm3": null,
+      "volume_delta_mm3": null,
+      "volume_match_0_001mm3": null,
+      "status": "built"
+    },
+    "C17_torus_quarter": {
+      "volume_mm3": 98.69604401089364,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 3,
+      "face_types": [
+        "torus",
+        "plane",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 155136
+        },
+        "model.step": {
+          "success": true,
+          "size": 12229
+        },
+        "model.STL": {
+          "success": true,
+          "size": 195384
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 2692
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 2550
+        }
+      },
+      "expected_volume_mm3": 98.696,
+      "volume_delta_mm3": 4.401089364591826e-05,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C18_cube_split_line": {
+      "volume_mm3": 1000.0000000000001,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 7,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 103424
+        },
+        "model.step": {
+          "success": true,
+          "size": 18173
+        },
+        "model.STL": {
+          "success": true,
+          "size": 884
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5921
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5763
+        }
+      },
+      "expected_volume_mm3": 1000.0,
+      "volume_delta_mm3": 1.1368683772161603e-13,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C19_half_cylinder": {
+      "volume_mm3": 392.6990816987242,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 4,
+      "face_types": [
+        "cylinder",
+        "plane",
+        "plane",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 88064
+        },
+        "model.step": {
+          "success": true,
+          "size": 14166
+        },
+        "model.STL": {
+          "success": true,
+          "size": 6084
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 3595
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 3623
+        }
+      },
+      "expected_volume_mm3": 392.699,
+      "volume_delta_mm3": 8.169872421603941e-05,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C20_cylinders_crossed": {
+      "volume_mm3": 2474.9268066015584,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 8,
+      "face_types": [
+        "cylinder",
+        "plane",
+        "plane",
+        "cylinder",
+        "plane",
+        "cylinder",
+        "cylinder",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 143872
+        },
+        "model.step": {
+          "success": true,
+          "size": 31665
+        },
+        "model.STL": {
+          "success": true,
+          "size": 28184
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5160
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 4859
+        }
+      },
+      "expected_volume_mm3": 2474.926,
+      "volume_delta_mm3": 0.0008066015584518027,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C21_cylinder_fillet": {
+      "volume_mm3": 778.9574334197122,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 4,
+      "face_types": [
+        "cylinder",
+        "plane",
+        "plane",
+        "torus"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 129536
+        },
+        "model.step": {
+          "success": true,
+          "size": 15845
+        },
+        "model.STL": {
+          "success": true,
+          "size": 86284
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 2998
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 2994
+        }
+      },
+      "expected_volume_mm3": null,
+      "volume_delta_mm3": null,
+      "volume_match_0_001mm3": null,
+      "status": "built"
+    },
+    "C22_cube_sw2011_native": {
+      "volume_mm3": 1000.0000000000001,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 6,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 90624
+        },
+        "model.step": {
+          "success": true,
+          "size": 15921
+        },
+        "model.STL": {
+          "success": true,
+          "size": 684
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5153
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5175
+        }
+      },
+      "expected_volume_mm3": 1000.0,
+      "volume_delta_mm3": 1.1368683772161603e-13,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C25_cone_sw2011_native": {
+      "volume_mm3": 261.7993877991495,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 2,
+      "face_types": [
+        "cone",
+        "plane"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 98304
+        },
+        "model.step": {
+          "success": true,
+          "size": 10047
+        },
+        "model.STL": {
+          "success": true,
+          "size": 5484
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 2319
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 2232
+        }
+      },
+      "expected_volume_mm3": 261.799,
+      "volume_delta_mm3": 0.00038779914950737293,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    },
+    "C26_cube_hole_sw2011_native": {
+      "volume_mm3": 803.6504591506382,
+      "solid_body_count": 1,
+      "configuration_count": 1,
+      "configuration_names": [
+        "Default"
+      ],
+      "face_count": 7,
+      "face_types": [
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "plane",
+        "cylinder"
+      ],
+      "units": [
+        0,
+        1,
+        8,
+        2,
+        0
+      ],
+      "exports": {
+        "model.SLDPRT": {
+          "success": true,
+          "size": 104448
+        },
+        "model.step": {
+          "success": true,
+          "size": 21244
+        },
+        "model.STL": {
+          "success": true,
+          "size": 6684
+        },
+        "model.x_t": {
+          "success": true,
+          "size": 5866
+        },
+        "model.x_b": {
+          "success": true,
+          "size": 5829
+        }
+      },
+      "expected_volume_mm3": 803.651,
+      "volume_delta_mm3": -0.0005408493617551358,
+      "volume_match_0_001mm3": true,
+      "status": "built"
+    }
+  }
+}

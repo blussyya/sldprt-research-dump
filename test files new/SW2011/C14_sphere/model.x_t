@@ -1,0 +1,36 @@
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=AMD64;
+MC_MODEL=Intel64 Family 6 Model 183 Stepping 1, GenuineIntel;
+MC_ID=unknown;
+OS=Windows_NT;
+OS_RELEASE=unknown;
+FRU=Parasolid Version 22.1, build 236,  8- 5-2010;
+APPL=SolidWorks 2011-2010276;
+SITE=;
+USER=unknown;
+FORMAT=text;
+GUISE=transmit;
+KEY=model;
+FILE=model.x_t;
+DATE=Mon Sep 21 12:40:49 2026;
+**PART2;
+SCH=SCH_2201236_20000;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+T51 : TRANSMIT FILE created by modeller version 220123623 SCH_2201236_20000_1300
+6186 0 12 27 CCCCCCCCCCCCCCCCCCCCCCCA16 index_map_offset0 0 1 dA9 index_map82 0
+ A17 node_id_index_map82 0 A20 schema_embedding_map82 0 Z1 69 2 3 0 0 0 0 1e3 1e
+-8 0 4 0 1 0 1 1 5 6 0 0 7 0 0 0 0 0 0 81 255 2 2 52 8 1 0 0 0 0 9 0 70 11 CI9 l
+ist_type0 0 1 uI10 notransmit0 0 1 lCCCDCCDI12 finger_index0 0 1 dI12 finger_blo
+ck1012 0 CZ3 0 4 T1 0 0 3 20 1 10 10 13 255 5 17 0 1 0 11 0 0 12 0 53 255 6 34 0
+ 11 0 0 0 +0 0 0 .005 0 -1 0 -1 0 0 19 255 7 21 0 1 12 0 13 V19 12 16 0 1 0 7 5
+ S13 13 20 0 0 0 0 0 0 7 11 14 255 11 31 14 ?0 0 0 5 6 +0 0 0 0 13 81 1 14 69 15
+ 11 16 0 0 0 17 80 255 1 15 18 19 9000 1 1 1 1 1 1 1 1 0 FFFFTFTFFFFFFF1 81 1 16
+ 66 20 11 0 14 0 0 21 82 255 1 17 1997144168 80 1 20 0 22 8001 0 0 0 0 3 5 0 0 0
+ FFFFTFTFFFFFFF2 83 255 3 21 .792156862745098 .819607843137255 .933333333333333
+ 79 255 15 22 SDL/TYSA_COLOUR79 14 19 SWEntUnchanged74 4 CI16 index_map_offset0
+ 0 1 dCCZ20 10 3 0 0 2 16 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 2 8 23 24 8004
+ 0 0 0 0 3 5 0 0 0 FFTFFFFFFFFFFF2 3 83 1 9 1e3 79 16 24 SDL/TYSA_DENSITY1 0 
