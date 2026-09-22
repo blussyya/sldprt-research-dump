@@ -880,6 +880,34 @@ total is predictable from 6 faces, 12 edges and 8 vertices plus their surfaces a
 
 ---
 
+## NQ-043 — ANSWERED 2026-09-22 (EXP-067): it is `BODY.highest_node_id`
+
+The published XT spec gives `struct BODY_s` as `int highest_node_id` followed by six pointer
+fields, then `double res_size` ("size box", normally 1000) and `double res_linear` (linear
+precision, normally 1.0e-8). Since `Z` terminates a schema-delta edit script rather than a record,
+the tokens after it are the rest of the BODY node: `<index> <highest_node_id> <pointers> 1e3 1e-8`.
+
+Verified on our own corpus, three independent positional predictions:
+
+| check | SW2022 | SW2011 |
+|---|---|---|
+| `index == 1` (spec: index 1 is the root node) | **24/24** | **25/25** |
+| `res_size == 1000` present | **24/24** | **25/25** |
+| `res_linear == 1e-8` immediately after | **24/24** | **25/25** |
+| fields between candidate and `res_size` | 9, constant | **6**, constant |
+
+SW2011's gap of **6 matches the 2006 spec's struct exactly**, as does its worked example
+(`12 1 12 0 2 0 0 0 0 1e3 1e-8`). SW2022 has three more pointer fields — which is what the
+`C/D/I/A` edit script exists to encode.
+
+This explains every prior measurement: the field tracks topology *and* feature history because
+node ids are allocated as a body is edited (EXP-065's `Cut-Extrude1` vs `Cut-Extrude2` split), and
+is invariant to dimension and position because ids do not depend on geometry.
+
+Still open: whether the value equals the maximum `node_id` over the body's nodes. That needs
+entity records enumerated, and `node_id` is the first field of each entity struct. See
+[EXP-067](evidence/2026-09-22_v0.5-EXP067.md).
+
 ## NQ-043 — ANSWERED in part, 2026-09-21 (EXP-060)
 
 The field is real: only two byte positions vary in the 40 bytes after `Z`, and the surrounding

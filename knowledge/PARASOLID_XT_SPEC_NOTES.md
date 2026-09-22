@@ -123,14 +123,14 @@ Retained regardless: `binary − text == SolidWorks face count` on 24/24 modern 
 Each is falsifiable on the corpus we already hold. Report confirmed / falsified /
 untestable-here, with counts over 24 SW2022 + 25 SW2011 + 21 original partitions.
 
-| # | prediction |
-|---|---|
+| # | prediction | status |
+|---|---|---|
 | a | `C/D/I/A` are edit opcodes; opcode counts track field-count deltas against base 13006 |
 | b | `255` = "type matches base schema exactly" |
 | c | our "code" is `ptr_class`; values match the spec's node-class table |
 | d | trailing `d`/`u`/`l` are type letters, present iff `ptr_class == 0` → closes NQ-042 |
-| e | `Z` is not a record boundary → re-pose NQ-043 |
-| f | `highest_node_id` (BODY/ASSEMBLY), `highest_id`/`current_id` (WORLD) are the real ceilings |
+| e | `Z` is not a record boundary → re-pose NQ-043 | **CONFIRMED (EXP-067)** |
+| f | `highest_node_id` (BODY/ASSEMBLY), `highest_id`/`current_id` (WORLD) are the real ceilings | **CONFIRMED (EXP-067)** — 49/49 |
 | g | 9-byte preamble contains max-node-types as a short |
 | h | field type `b` = box, 6 doubles, non-PK ordering — cross-check against INV-026 |
 
@@ -156,3 +156,31 @@ above. It still states the `u16be` flag as established, still reports the "24/24
 headline EXP-059 §2 showed is n=1, and still says the reader stops at 7 entries "where the text
 form has 19" — corrected to a contiguous prefix of 13 in EXP-059 §1.1. The source and the test
 were updated; the README was not.
+
+
+---
+
+## 7. Results so far
+
+**(e) and (f) are confirmed** on our own corpus by [EXP-067](evidence/2026-09-22_v0.5-EXP067.md):
+`Z` ends a schema-delta edit script, and the value after it is `BODY.highest_node_id`, with
+`res_size`/`res_linear` following a fixed number of pointer fields later — 49/49 across both eras,
+and SW2011's struct matching the 2006 spec field-for-field. **NQ-043 is answered.**
+
+Two further spec facts, recorded here because they answer questions raised elsewhere and are
+cheap to test whenever someone reaches them:
+
+- **Logical values are written `T`/`F` in text, and `c`/`l` fields are NOT followed by a space.**
+  So a run like `FFFFTFTFFFFFF` is a sequence of logical fields, and a bare letter immediately
+  followed by digits (`V0`, `S74`, `+0`) is a **char field** running straight into the next
+  numeric field. The spec's worked example shows exactly this: `19 6 5 0 1 0 0 3 V` (region) and
+  `17 ... 0 0 +` / `17 ... 0 0 -` (fins).
+- **`?` marks an unset/null value** — the spec: two sentinel values (−32764 integral, −3.14158e13
+  floating point) "are represented in a text transmit file as the question mark". A null vector
+  prints as a single `?`.
+- **Variable-length nodes** carry their element count between the nodetype and the index, so an
+  attribute-definition name reads `<nodetype> <n_elts> <index> <chars>` — the spec's example is
+  `79 15 16 SDL/TYSA_COLOUR`, i.e. type 79, 15 characters, index 16, then the name.
+- **Node type numbers** from the worked example: 1 terminator, 12 body, 13 shell, 14 face,
+  15 loop, 16 edge, 17 fin, 19 region, 31 circle, 50 plane, 70 list, 74 pointer_lis_block,
+  79 att_def_id, 80 attrib_def, 81 attribute, 83 real_values.
