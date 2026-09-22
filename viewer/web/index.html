@@ -100,7 +100,7 @@ code{font-family:"IBM Plex Mono",monospace; font-size:.92em; background:var(--pa
 <div class="wrap">
   <header>
     <div>
-      <p class="eyebrow">Contents/DisplayLists &middot; parser/v0.2</p>
+      <p class="eyebrow">Modern + legacy DisplayLists &middot; parser/v0.3</p>
       <h1>DisplayLists Inspector</h1>
       <p class="sub">The triangle strips and boundary-edge annotations read straight out of a SolidWorks
       part file. Nothing is welded, re-ordered or repaired &mdash; this is what the parser emits.</p>
@@ -172,9 +172,10 @@ code{font-family:"IBM Plex Mono",monospace; font-size:.92em; background:var(--pa
 </div>
 
 <script src="../mesh-data.js"></script>
-<script src="../inflate.js"></script>
+<script src="../../parser/v0.3/src/inflate.js"></script>
 <script src="../../parser/v0.1/src/parser-core.js"></script>
-<script src="../../parser/v0.2/src/parser-core.js"></script>
+<script src="../../parser/v0.3/src/ole-reader.js"></script>
+<script src="../../parser/v0.3/src/parser-core.js"></script>
 <script>
 (function(){
  "use strict";
@@ -492,7 +493,7 @@ code{font-family:"IBM Plex Mono",monospace; font-size:.92em; background:var(--pa
 
  function handleFile(file){
    if(!file) return;
-   if(!window.SLDPRTParserV2 || !window.SLDPRTInflate){
+   if(!window.SLDPRTParserV3 || !window.SLDPRTInflate){
      say('Parser did not load, so dropped files cannot be read.', 'err'); return;
    }
    say('Parsing ' + file.name + '\u2026');
@@ -502,7 +503,7 @@ code{font-family:"IBM Plex Mono",monospace; font-size:.92em; background:var(--pa
      var t0 = performance.now();
      try{
        var bytes = new Uint8Array(fr.result);
-       var parsed = window.SLDPRTParserV2.parseSLDPRT(
+       var parsed = window.SLDPRTParserV3.parseSLDPRT(
          bytes, window.SLDPRTInflate.inflateRaw, window.SLDPRTInflate.inflate);
        if(!parsed.faces || !parsed.faces.length){
          say((parsed.errors && parsed.errors.length ? parsed.errors.join('; ')
@@ -512,9 +513,14 @@ code{font-family:"IBM Plex Mono",monospace; font-size:.92em; background:var(--pa
        var m = arraysFromParsed(parsed, file.name);
        DATA.push(m); addChip(m); setModel(m);
        var ms = Math.round(performance.now() - t0);
-       var warn = (parsed.errors && parsed.errors.length)
-         ? '  \u2502  ' + parsed.errors.length + ' face error(s)' : '';
-       say(m.faceCount + ' faces  \u2502  ' + m.triangleCount.toLocaleString() + ' triangles  \u2502  '
+       var issues = (parsed.errors || []).slice();
+       if(parsed.rejected && parsed.rejected.length)
+         issues.push(parsed.rejected.length + ' unsupported face record(s) skipped');
+       (parsed.warnings || []).forEach(function(w){
+         if(w.message && issues.indexOf(w.message) < 0) issues.push(w.message);
+       });
+       var warn = issues.length ? '  \u2502  ' + issues.join('; ') : '';
+       say(parsed.format + '  \u2502  ' + m.faceCount + ' faces  \u2502  ' + m.triangleCount.toLocaleString() + ' triangles  \u2502  '
            + m.edgeCount.toLocaleString() + ' boundary edges  \u2502  ' + ms + ' ms' + warn,
            warn ? 'err' : 'ok');
      }catch(err){
