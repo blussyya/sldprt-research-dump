@@ -1,7 +1,7 @@
 # viewer/ — interactive viewers for parser output
 
-Two ways to look at what `parser/v0.2` emits, plus the pieces that let the parser run in a
-browser. No dependencies, no build step.
+The terminal viewer and bundled examples use `parser/v0.2`; browser file imports use
+`parser/v0.3` for modern and supported legacy OLE2 DisplayLists. No dependencies, no build step.
 
 | file | what it is |
 |---|---|
@@ -55,9 +55,9 @@ Starts a local web server and opens `http://localhost:8080/viewer/web/index.html
 installed. Flags: `--port N`, `--host 0.0.0.0` (default is localhost only), `--open`.
 
 It serves the **repository root** on purpose. `web/index.html` loads the repository's own files
-by relative path — `../mesh-data.js`, `../inflate.js`, `../../parser/v0.1/src/parser-core.js`,
-`../../parser/v0.2/src/parser-core.js` — so the page runs against the same parser source as the
-CLI tools, with no duplicated copies to drift. Opening the file directly over `file://` works
+by relative path: `../mesh-data.js`, the v0.1 container reader, and the v0.3 inflater,
+OLE reader, and parser core. Imported files use the same v0.3 source as its dedicated webapp,
+with no duplicated parser copies. Opening the file directly over `file://` works
 too, for the same reason.
 
 Regenerate the geometry payload after a parser change:
@@ -71,8 +71,11 @@ node viewer/export-mesh-data.js     # rewrites viewer/mesh-data.js
 **Drop a `.SLDPRT` onto the view** and it is parsed client-side — nothing is uploaded. The
 readout updates and the status line reports faces, triangles, boundary edges and parse time, or
 the parser's own error if the file cannot be read. That is the point: it is a way to check the
-parser against a file it has never seen. Legacy OLE2 parts correctly report
-`No readable modern DisplayLists stream`.
+parser against a file it has never seen. Modern and supported legacy OLE2 parts are detected
+from their bytes. The status identifies the format and reports warnings or skipped records.
+Legacy surface/edge metadata remains undecoded; files without a readable DisplayLists stream
+or with unsupported geometry layouts can still fail. Supporting OLE2 does not mean every older
+SLDPRT is supported.
 
 **Export 6-view sheet** renders the EXP-051 viewpoints (ISO front/back/left, ISO under, top,
 bottom) into a single PNG. The artifact sandbox blocks a page from starting a download, so the
