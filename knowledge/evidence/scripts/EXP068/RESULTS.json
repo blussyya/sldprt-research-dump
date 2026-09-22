@@ -1,0 +1,7247 @@
+{
+  "experiment": "EXP-068",
+  "scope": "Initial BODY schema only; no entity graph decoding",
+  "summary": [
+    {
+      "era": "SW2011",
+      "files": 25,
+      "variants": [
+        "{\"declared\":27,\"counts\":{\"C\":23,\"D\":0,\"I\":0,\"A\":4},\"baseConsumed\":23,\"pointerGap\":6}"
+      ]
+    },
+    {
+      "era": "SW2022",
+      "files": 24,
+      "variants": [
+        "{\"declared\":35,\"counts\":{\"C\":22,\"D\":1,\"I\":6,\"A\":7},\"baseConsumed\":23,\"pointerGap\":9}"
+      ]
+    }
+  ],
+  "controls": {
+    "copyToDeleteMutantsDetected": 49
+  },
+  "rows": [
+    {
+      "file": "test files new/SW2011/C00_cube_10mm/model.x_t",
+      "sha256": "0b877145b94f61af41c2978db90a50dc5c49b8fc72838074da7e93acc421a922",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C01_cube_20mm/model.x_t",
+      "sha256": "d947ce302e86394d9aecd20e22e79da67fd659701d775818441afe1b47b3da51",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C02_cube_translated/model.x_t",
+      "sha256": "c7027e3479c5041e2190b629ba80bd6ca2145719fda8553a0175b4df2ed60bbf",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C03_cube_fillet_1mm/model.x_t",
+      "sha256": "549c67b2d8331bc9c209cd1d25d1871ed74bace7e4979a7c48428494b0379e98",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C04_cube_hole_5mm/model.x_t",
+      "sha256": "3e9bb44ed61e484ef14b2e6f09d8951e8a49983c2e3766f3ea1cfd1c600162b0",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C05_cube_hole_3mm/model.x_t",
+      "sha256": "bef597a01fcf7fa067964256d014fa38393bfba314bdec80dc64df54390f55e6",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C06_cube_hole_moved/model.x_t",
+      "sha256": "77c7400938dbe4777721d667f486c548cc7f2359a55d18d3ef7c33fd7eb73761",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C07_cube_two_holes/model.x_t",
+      "sha256": "47263a24d38e4ae5276d937d6bc601b9e9440863f0817972f8ec61bb16d707cb",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C08_cube_second_hole_modified/model.x_t",
+      "sha256": "2b942ca454a7cbf34e620ecd873f717c8a648ef50df125df57b06da80de5286f",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C09_cube_chamfer_1mm/model.x_t",
+      "sha256": "c156cf61f812dfdfbc3d20c291fa6404ff391971ef0f9038772f6216912aaaa0",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C10_cube_shell_1mm/model.x_t",
+      "sha256": "2e20bf2e2860013523c28c342c878ee1e4fc83a617a6b4ea4aa2de3238b1a233",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C11_cube_hole_4mm/model.x_t",
+      "sha256": "d9a036c7bed130537e6e4509123bc2831945947f2d8e3d24f214c2e6d37071b6",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C12_cube_fillet_1mm_edge2/model.x_t",
+      "sha256": "bb0942d5cbcdaebc4fd0d3a951f22104148c677765f27579a6e915a7e91ab4ea",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C13_cone/model.x_t",
+      "sha256": "ac0438c7c6faaf659bc3484b1e6a9568638afd6265a6cfedc1611fccd8080d61",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C14_sphere/model.x_t",
+      "sha256": "ef2fb7ade7700a6182c6ee117608d3270486a06e3f592f18de8248e8ec13d91c",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C15_torus/model.x_t",
+      "sha256": "2fd485822ccece528bfa43195b8545bb57295147e2decb6d99f583bb916e2779",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C16_loft_spline/model.x_t",
+      "sha256": "e88faf6876c23d1c22fdf4b688b37ee00883b642b32ca73ea2bb50ad3b944129",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C17_torus_quarter/model.x_t",
+      "sha256": "52ac6528b584f9051227f98c8dc0a3f7933cc1d79b9bc2692effc15771716543",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C18_cube_split_line/model.x_t",
+      "sha256": "18a48624172caadaf3eaffaafe5455039b3ec2033e91dc620f031dc1acd839fc",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C19_half_cylinder/model.x_t",
+      "sha256": "d4bfba0df2ee1ee77881e65877c6522e1393fae382101dc2df28d24f0b6ea0a5",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C20_cylinders_crossed/model.x_t",
+      "sha256": "a332d9e247852cf073db3c93b66642247b5a730abf2ad628b02a8d6b4866b10c",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C21_cylinder_fillet/model.x_t",
+      "sha256": "bb022783459c6b218fb3a3350f7d1041b2febaecb27fa97d0b80ce1277a30247",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C22_cube_sw2011_native/model.x_t",
+      "sha256": "cd5c158741154d5ba014ed7ea1780d372f00ad898426034097dd7b0a493a8f09",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C25_cone_sw2011_native/model.x_t",
+      "sha256": "7a0bfd05dea9da08503be14fd774e74afa3d08d55e197831c7bb3fe41c369a1d",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2011/C26_cube_hole_sw2011_native/model.x_t",
+      "sha256": "04e92a97ada6a045a321e174152152223f5ea69b1e7a9149c56a28f7f61946aa",
+      "schema": "SCH_2201236_20000_13006",
+      "maxTypes": 186,
+      "nodeType": 12,
+      "declared": 27,
+      "counts": {
+        "C": 23,
+        "D": 0,
+        "I": 0,
+        "A": 4
+      },
+      "baseConsumed": 23,
+      "produced": 27,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "base": 13
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 6,
+      "baseResSizeOutputIndex": 7
+    },
+    {
+      "file": "test files new/SW2022/C00_cube_10mm/model.x_t",
+      "sha256": "b0b33e71dfa6e48de4be7b10413b143ea401dbaa91d293b79c4ebac5c87ed01c",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C01_cube_20mm/model.x_t",
+      "sha256": "8a63d9a6e9a74f5f220faa27f14298a014fd2227853da1c1990225b429883699",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C02_cube_translated/model.x_t",
+      "sha256": "cf15238e54c3a7dceb6fa10e19551e6622f16722a2e98915cacedc4e789d7578",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C03_cube_fillet_1mm/model.x_t",
+      "sha256": "12d12ce5bfd7cb9c311309cbf1dde7747462885c5f0614179051f26562643d27",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C04_cube_hole_5mm/model.x_t",
+      "sha256": "9f23af8d9411d73d77ce8c270cdca4f0b3b04788ceda50d5b9d880d2cbe7de73",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C05_cube_hole_3mm/model.x_t",
+      "sha256": "2a6c65736baa3017f34134d09dddbe4ceb5e8eb57f9c51e1f000515750a6fa44",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C06_cube_hole_moved/model.x_t",
+      "sha256": "0e9de881c522f05c113819ffcf2ffe9f64ac73ab7cfc1bb634c29ee7641cd6a2",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C07_cube_two_holes/model.x_t",
+      "sha256": "c14bc086b8307c5d5c5d04ca4d2e351aa314e18882dee644b4cf1341f1285343",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C08_cube_second_hole_modified/model.x_t",
+      "sha256": "960ab81fc8bb21f9d8bdcdd88f942a9f2f1c56b6de111e3d856d3e69ba01a99c",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C09_cube_chamfer_1mm/model.x_t",
+      "sha256": "9b3077c8db94ab416cdf0bbe992c89625365cce5985f0983a2266a9b6b7efe37",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C10_cube_shell_1mm/model.x_t",
+      "sha256": "bb0f8b2691434b556c4d2d4e51b06a119d949af68b50d9e553b16d182baf0af5",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C11_cube_hole_4mm/model.x_t",
+      "sha256": "40f5aa8fe2a1f4b03a945d3e2356824ed152575b94e4b5dcdded624d29a29e16",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C12_cube_fillet_1mm_edge2/model.x_t",
+      "sha256": "b2e3145de038adb30153027d07c6bca03083554dc3616d384bba4671c9d60301",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C13_cone/model.x_t",
+      "sha256": "221e3c5b672bc1563d1da14f47eb2f1c7685d67a5d32e13059749d1b7af077f4",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C14_sphere/model.x_t",
+      "sha256": "5c0d70322a629dc10c01967f8432d53213e357071c79ae1328634b152d764898",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C15_torus/model.x_t",
+      "sha256": "66dbb48b264ae76b681f6a61f4379af5b51e8da971ce1b81dfe6a252dec151dd",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C16_loft_spline/model.x_t",
+      "sha256": "4dba153bd86719415d63ca1bafbf7323707336a15f920d32ebbe9e80a3987ae9",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C17_torus_quarter/model.x_t",
+      "sha256": "f70a9ffd82bfc153f110e334c40b84c4ea79277a6a72c868f1c26f52653c7d5a",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C18_cube_split_line/model.x_t",
+      "sha256": "c25674f1c5d4ef32087bfb47d988759aa4cc88f8bae3d152ffbd4280db8e2b7f",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C19_half_cylinder/model.x_t",
+      "sha256": "c06752786164cd6a66bbd9b17b7b5ffa604b80801cfad21f8363e7cda1d85340",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C20_cylinders_crossed/model.x_t",
+      "sha256": "d89df5e91f9b9e03e47fa4d48dda0d13a83d67f0648a90abe871c17d83ac40be",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C21_cylinder_fillet/model.x_t",
+      "sha256": "7b653f1c65ea7fcb537f919693f0664fca9e37148bc9d13b7d64c7d6620feb37",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C23_cube_sw2011_to_2022/model.x_t",
+      "sha256": "021de421912180f30d724d381c4d499e6eeb846722968f1d9e4783efdc6ef139",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    },
+    {
+      "file": "test files new/SW2022/C24_cube_sw2022_native/model.x_t",
+      "sha256": "27a9f0ad840880cdb4e963fd97139730ed0261fc50792ccfed92a2643fb02607",
+      "schema": "SCH_3301247_33103_13006",
+      "maxTypes": 230,
+      "nodeType": 12,
+      "declared": 35,
+      "counts": {
+        "C": 22,
+        "D": 1,
+        "I": 6,
+        "A": 7
+      },
+      "baseConsumed": 23,
+      "produced": 35,
+      "output": [
+        {
+          "base": 0
+        },
+        {
+          "base": 1
+        },
+        {
+          "base": 2
+        },
+        {
+          "op": "I",
+          "name": "lattice",
+          "ptrClass": 222,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 3
+        },
+        {
+          "base": 4
+        },
+        {
+          "base": 5
+        },
+        {
+          "op": "I",
+          "name": "mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 6
+        },
+        {
+          "base": 7
+        },
+        {
+          "base": 8
+        },
+        {
+          "base": 9
+        },
+        {
+          "base": 10
+        },
+        {
+          "base": 11
+        },
+        {
+          "base": 12
+        },
+        {
+          "op": "I",
+          "name": "owner",
+          "ptrClass": 1040,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 14
+        },
+        {
+          "base": 15
+        },
+        {
+          "base": 16
+        },
+        {
+          "base": 17
+        },
+        {
+          "base": 18
+        },
+        {
+          "base": 19
+        },
+        {
+          "op": "I",
+          "name": "boundary_mesh",
+          "ptrClass": 1006,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "I",
+          "name": "boundary_polyline",
+          "ptrClass": 1008,
+          "type": null,
+          "elements": null
+        },
+        {
+          "base": 20
+        },
+        {
+          "base": 21
+        },
+        {
+          "base": 22
+        },
+        {
+          "op": "A",
+          "name": "index_map_offset",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "node_id_index_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "schema_embedding_map",
+          "ptrClass": 82,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "child",
+          "ptrClass": 12,
+          "type": null,
+          "elements": null
+        },
+        {
+          "op": "A",
+          "name": "lowest_node_id",
+          "ptrClass": 0,
+          "type": "d",
+          "elements": 1
+        },
+        {
+          "op": "A",
+          "name": "mesh_offset_data",
+          "ptrClass": 206,
+          "type": null,
+          "elements": null
+        }
+      ],
+      "rootIndex": 1,
+      "pointerGap": 9,
+      "baseResSizeOutputIndex": 10
+    }
+  ]
+}
