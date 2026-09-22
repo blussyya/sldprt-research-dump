@@ -62,8 +62,15 @@ not the same as decoded; no node has been read yet. See
 ## Using the tools
 
 Node.js only. **No dependencies to install** — no npm install, no build step, nothing fetched at
-runtime. Everything below runs from a fresh clone. Legacy OLE2 parts are unsupported throughout
-and report `No readable modern DisplayLists stream`.
+runtime. Everything below runs from a fresh clone.
+
+**Legacy SolidWorks 2011 OLE2 parts are supported from `parser/v0.3` onward** (25/25 files,
+145 faces; geometry independently verified in
+[EXP-066](knowledge/evidence/2026-09-22_v0.5-EXP066.md)). `parser/v0.1` and `parser/v0.2` remain
+modern-only and report `No readable modern DisplayLists stream` on legacy input.
+
+One caveat on "nothing fetched at runtime": the older `viewer/web/index.html` does load fonts
+from a CDN. The `parser/v0.3` page does not.
 
 ### 1. Parse a part file
 

@@ -913,6 +913,29 @@ What it does have is an exact relationship to the text form of the same body:
 Still open: what it counts. A node count remains plausible — every integer 1..176 appears in
 C00's text stream — but that is a pattern, not a decode.
 
+## NQ-038 — ANSWERED 2026-09-22 (parser v0.3, verified by EXP-066)
+
+Legacy OLE2 **tessellation** is now decoded. `parser/v0.3` reads `DisplayLists__ZLB` out of the
+SolidWorks 2011 compound file: 25/25 files, **145 faces**, matching the build-log native face
+counts in every model, with no rejected records.
+
+Independently verified in [EXP-066](evidence/2026-09-22_v0.5-EXP066.md), against ground truth
+rather than against the parser that produced it:
+
+| check | result |
+|---|---|
+| legacy mesh box == dimensions declared in the build spec | **7/7** |
+| legacy mesh box == modern mesh box, geometry-matched models | **22/22** |
+| per-face mesh inside its own stored INV-026 bounds | **145/145** |
+
+Worst excursion 1.341e-9 m, the same float32 figure EXP-061 and EXP-064 report. The 145 also
+matches EXP-064's independent count of legacy bounding records exactly — different method,
+different code path, same number.
+
+Both halves of the legacy container are therefore readable: the Parasolid partition (below) and
+the tessellation. Remaining legacy gap: `SW2000-s01` and `chainwheel` carry no named DisplayLists
+stream, and `plate4` uses an array layout the parser does not accept.
+
 ## NQ-038 — materially narrowed, 2026-09-21 (EXP-060)
 
 "Legacy OLE2 unsupported" is a statement about the **DisplayLists path only**. The Parasolid
