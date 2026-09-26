@@ -760,6 +760,8 @@ asked as a direct comparison.
 
 ## NQ-039 — Metadata gate discards valid tags on upgraded files
 
+**Status 2026-09-26: fixed in `parser/v0.2` and `parser/v0.3`.** The empty-table case now retains the tag with a correspondence warning; a populated disagreement still rejects the metadata. Six upgraded-cube faces and a mutated non-empty control are covered by [the parser follow-up](evidence/2026-09-26_parser-metadata-crc.md). The original diagnosis below is retained as history.
+
 `parser/v0.2` gates the entire forward metadata record on INV-023's edge-ID correspondence.
 In `C23_cube_sw2011_to_2022` — a 2011 part opened in 2022 and resaved — the metadata edge table
 is empty (`count = 0`) while Block1 still carries its edge IDs. The check fails and the parser
@@ -804,6 +806,8 @@ the wild, but the parser's strict check costs nothing on anything we have seen.
 
 ## NQ-040 — Verify container CRC-32 in the parser
 
+**Status 2026-09-26: applied to the modern container reader.** Successfully inflated, plausibly named streams have their stored CRC-32 verified; a DisplayLists CRC mutation fails and the existing corpus passes. The scan's false-hit and candidate-selection limits remain explicit in [the parser follow-up](evidence/2026-09-26_parser-metadata-crc.md). The original proposal below is retained as history.
+
 EXP-057 established that the `u32` at stream-header + 14 is a CRC-32 of the inflated stream
 bytes: 1,730 named streams verified, 0 mismatches, 0 undecompressible.
 
@@ -826,6 +830,8 @@ failures.
 ---
 
 ## NQ-041 — `textPrefix()` is schema-locked
+
+**Status 2026-09-26: independently addressed for the initial BODY declaration prefix by EXP-069.** A length-driven text reader agrees with the binary declaration reader on all 49 export pairs (two distinct era-specific prefixes). The historical EXP-058 script itself is unchanged, and later declaration types are not covered. See [EXP-069](evidence/2026-09-26_v0.4.9-EXP069.md).
 
 `v0.4.9/exp058_schema_boundary.js`'s text reader asserts a hardcoded preamble
 `/^230 0 \d+ \d+ /`. SolidWorks 2011 writes `186 0 12 27`.

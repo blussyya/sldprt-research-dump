@@ -26,6 +26,8 @@ node parser/v0.3/test/worker.js
 
 The CommonJS API remains `parseSLDPRT(bytes, inflateRaw, inflateZlib)`. For Node, use bounded zlib callbacks like the CLI. For browsers, the provided inflater checks Adler-32 and limits output. Modern geometry/metadata follows v0.2. Legacy results include strip triangles, normals, Block1 edge annotations, stored bounding records, and uninterpreted downstream bytes/ranges. Stored bounds may be conservative, particularly on splines.
 
+An upgraded modern file may have an empty metadata edge table even when Block1 contains edge IDs. In that case the surface tag is retained with a warning; populated tables still require exact ID correspondence. The modern container reader verifies the stored CRC-32 of successfully inflated named streams. See the [2026-09-26 parser follow-up](../../knowledge/evidence/2026-09-26_parser-metadata-crc.md).
+
 This reads saved tessellation; it does not reconstruct exact B-rep solids, feature history or separate configurations. Legacy surface/edge metadata is **not decoded**. Support is demonstrated on the supplied **25 SW2011 files / 145 faces**, not every historical SolidWorks version. The three older original OLE files remain explicitly unsupported. Modern regression covers **45 files / 1,414 faces**.
 
 Limits: 128 MiB input and decompressed streams; 2 million vertices / 50,000 accepted faces in the core; 300,000 triangles in the web viewer. Unsupported wrappers, malformed chains and invalid geometry are reported rather than guessed or repaired. These limits and tests are not a comprehensive hostile-input security audit.

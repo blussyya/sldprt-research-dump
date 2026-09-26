@@ -102,6 +102,15 @@
     return ((b << s) | (b >>> (8 - s))) & 0xFF;
   }
 
+  function crc32(bytes) {
+    var crc = 0xFFFFFFFF;
+    for (var i = 0; i < bytes.length; i++) {
+      crc ^= bytes[i];
+      for (var k = 0; k < 8; k++) crc = (crc >>> 1) ^ ((crc & 1) ? 0xEDB88320 : 0);
+    }
+    return (crc ^ 0xFFFFFFFF) >>> 0;
+  }
+
   // ---------------------------------------------------------------------
   // openswx container decompression (v2/v3 "modern" SLDPRT format).
   // `inflateRaw`/`inflateZlib` are injected so this file stays isomorphic:
@@ -151,6 +160,15 @@
           } catch (e2) { /* leave data null */ }
         }
 
+        if (data && data.length > 0) {
+          // EXP-057: header+14 is the CRC-32 of inflated bytes. The six-byte
+          // signature also occurs inside unrelated data; those false hits
+          // carry non-printable decoded names. Do not turn them into apparent
+          // corruption of a real named stream.
+          var declaredCrc = dv.getUint32(sigStart + 14, true);
+          if (/^[\x20-\x7e]+$/.test(name) && crc32(data) !== declaredCrc)
+            throw Error('CRC-32 mismatch in stream ' + name);
+        }
         if (data && data.length > 0 && !streams[name]) {
           streams[name] = data;
         }

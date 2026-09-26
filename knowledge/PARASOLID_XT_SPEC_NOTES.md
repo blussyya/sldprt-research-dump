@@ -130,7 +130,7 @@ untestable-here, with counts over 24 SW2022 + 25 SW2011 + 21 original partitions
 | c | our "code" is `ptr_class`; values match the spec's node-class table |
 | d | trailing `d`/`u`/`l` are type letters, present iff `ptr_class == 0` → closes NQ-042 |
 | e | `Z` is not a record boundary → re-pose NQ-043 | **CONFIRMED (EXP-067)** |
-| f | `highest_node_id` (BODY/ASSEMBLY), `highest_id`/`current_id` (WORLD) are the real ceilings | **CONFIRMED (EXP-067)** — 49/49 |
+| f | `highest_node_id` (BODY/ASSEMBLY), `highest_id`/`current_id` (WORLD) are the named ID-ceiling fields | **BODY field position corroborated (EXP-067)** — 49/49; actual node IDs unenumerated |
 | g | 9-byte preamble contains max-node-types as a short |
 | h | field type `b` = box, 6 doubles, non-PK ordering — cross-check against INV-026 |
 

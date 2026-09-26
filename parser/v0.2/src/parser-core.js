@@ -80,9 +80,10 @@
         const meta=metadata(r,f.geometryEnd,faces[i+1]?.offset||r.b.length);
         const labels=[...new Set(f.edgeAnnotations.map(e=>e.id).filter(x=>x!==0))].sort((a,b)=>a-b);
         const ids=[...new Set(meta.edgeRecords.map(e=>e.id))].sort((a,b)=>a-b);
-        if(JSON.stringify(labels)!==JSON.stringify(ids))throw Error('Metadata edge labels disagree with Block1');
+        if(ids.length&&JSON.stringify(labels)!==JSON.stringify(ids))throw Error('Metadata edge labels disagree with Block1');
         if(meta.scalarArrays.some(a=>a.values.length!==f.vertexCount))throw Error('Optional scalar count mismatch');
         f.metadata=meta;
+        if(!ids.length&&labels.length)warnings.push({offset:meta.offset,message:'Metadata edge table empty; Block1 edge IDs retained without correspondence validation'});
         if(meta.reserved.some(x=>x!==0)||meta.auxiliaryFlag!==1||meta.auxiliaryArrays.some(a=>a.header[3]!==0))
           warnings.push({offset:meta.offset,message:'Unvalidated metadata auxiliary values retained raw'});
       }catch(e){f.metadataError=e.message;warnings.push({offset:f.geometryEnd,message:e.message});}

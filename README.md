@@ -36,9 +36,9 @@ link between them is explicit:
   **surface type, not the trimmed patch**.
 
 Still open: exact B-rep, feature history, Block3 semantics, the optional scalar arrays, and
-surface tags **4007 and 4009**, which do not occur anywhere in the corpus (NQ-030). Legacy OLE2
-containers remain unsupported — though a 25-model controlled legacy corpus now exists to test
-against (NQ-038).
+surface tags **4007 and 4009**, which do not occur anywhere in the corpus (NQ-030). The 25-model
+controlled SW2011 OLE2 corpus is supported by `parser/v0.3`; three older original OLE2 parts
+remain unsupported (NQ-038).
 
 ### Test corpora
 
@@ -225,6 +225,7 @@ The parser is versioned independently from the research progression and lives un
 |---------|-------------|
 | `parser/v0.1` | Read-only SLDPRT geometry parser & browser viewer, originally produced as research slot `v0.5`. Built on the validated state through v0.4.6; passes exact parity (1,172/1,172 faces) against the v0.4.5/v0.4.6 reference data. See `parser/v0.1/README.md` and `parser/v0.1/SUMMARY.md`. |
 | `parser/v0.2` | Read-only parser implementing the verified strip/edge layout and forward metadata read (v0.4.8, EXP-042–046). Returns triangle indices, boundary cycles, edge IDs and linked metadata; retains unknown data and original coordinates. Not a converter. See `parser/v0.2/README.md` and `v0.4.8/PARSER_V02_VALIDATION.json`. |
+| `parser/v0.3` | Modern and controlled SW2011 OLE2 display-mesh reader with local browser viewer. See `parser/v0.3/README.md`; the 2026-09-26 [parser follow-up](knowledge/evidence/2026-09-26_parser-metadata-crc.md) covers empty metadata edge tables and modern stream CRC verification. |
 
 ## Converter
 
