@@ -71,9 +71,10 @@ function textPrefix(raw) {
   p++;
   const rootIndex = integer(); space();
   const textHighestNodeId = integer();
-  return {schema,maxTypes,declaredFields,entries,rootIndex,textHighestNodeId};
+  return {schema,maxTypes,declaredFields,entries,rootIndex,textHighestNodeId,afterHighestNodeId:s.slice(p)};
 }
 
+function run() {
 const rows = [];
 for (const era of ['SW2011','SW2022']) {
   const base = path.join(ROOT, 'test files new', era);
@@ -111,3 +112,6 @@ const summary = ['SW2011','SW2022'].map(era=>{
     declarations:[...new Set(group.map(r=>r.entries))],rootDeltas:[...new Set(group.map(r=>r.delta))]};
 });
 console.log(JSON.stringify({experiment:'EXP-069',scope:'Initial BODY declarations and post-Z scalar only',summary,rows},null,2));
+}
+if (require.main === module) run();
+module.exports = {stripBanner,textPrefix};

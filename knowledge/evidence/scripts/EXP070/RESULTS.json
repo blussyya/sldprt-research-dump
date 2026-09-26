@@ -1,0 +1,89 @@
+{
+  "experiment": "EXP-070",
+  "scope": "Initial BODY index and pointer values, precision doubles; no target resolution",
+  "summary": [
+    {
+      "era": "SW2011",
+      "files": 25,
+      "pointerSlots": 6,
+      "distinctPointerPatterns": [
+        "2,3,0,0,0,0"
+      ],
+      "sizeHex": [
+        "408f400000000001"
+      ],
+      "linearHex": [
+        "3e45798ee2308c3a"
+      ]
+    },
+    {
+      "era": "SW2022",
+      "files": 24,
+      "pointerSlots": 9,
+      "distinctPointerPatterns": [
+        "2,3,0,0,0,0,0,0,0"
+      ],
+      "sizeHex": [
+        "408f400000000001"
+      ],
+      "linearHex": [
+        "3e45798ee2308c3a"
+      ]
+    }
+  ],
+  "controls": [
+    "pointer-word mutation",
+    "precision-byte mutation"
+  ],
+  "models": [
+    "SW2011/C00_cube_10mm",
+    "SW2011/C01_cube_20mm",
+    "SW2011/C02_cube_translated",
+    "SW2011/C03_cube_fillet_1mm",
+    "SW2011/C04_cube_hole_5mm",
+    "SW2011/C05_cube_hole_3mm",
+    "SW2011/C06_cube_hole_moved",
+    "SW2011/C07_cube_two_holes",
+    "SW2011/C08_cube_second_hole_modified",
+    "SW2011/C09_cube_chamfer_1mm",
+    "SW2011/C10_cube_shell_1mm",
+    "SW2011/C11_cube_hole_4mm",
+    "SW2011/C12_cube_fillet_1mm_edge2",
+    "SW2011/C13_cone",
+    "SW2011/C14_sphere",
+    "SW2011/C15_torus",
+    "SW2011/C16_loft_spline",
+    "SW2011/C17_torus_quarter",
+    "SW2011/C18_cube_split_line",
+    "SW2011/C19_half_cylinder",
+    "SW2011/C20_cylinders_crossed",
+    "SW2011/C21_cylinder_fillet",
+    "SW2011/C22_cube_sw2011_native",
+    "SW2011/C25_cone_sw2011_native",
+    "SW2011/C26_cube_hole_sw2011_native",
+    "SW2022/C00_cube_10mm",
+    "SW2022/C01_cube_20mm",
+    "SW2022/C02_cube_translated",
+    "SW2022/C03_cube_fillet_1mm",
+    "SW2022/C04_cube_hole_5mm",
+    "SW2022/C05_cube_hole_3mm",
+    "SW2022/C06_cube_hole_moved",
+    "SW2022/C07_cube_two_holes",
+    "SW2022/C08_cube_second_hole_modified",
+    "SW2022/C09_cube_chamfer_1mm",
+    "SW2022/C10_cube_shell_1mm",
+    "SW2022/C11_cube_hole_4mm",
+    "SW2022/C12_cube_fillet_1mm_edge2",
+    "SW2022/C13_cone",
+    "SW2022/C14_sphere",
+    "SW2022/C15_torus",
+    "SW2022/C16_loft_spline",
+    "SW2022/C17_torus_quarter",
+    "SW2022/C18_cube_split_line",
+    "SW2022/C19_half_cylinder",
+    "SW2022/C20_cylinders_crossed",
+    "SW2022/C21_cylinder_fillet",
+    "SW2022/C23_cube_sw2011_to_2022",
+    "SW2022/C24_cube_sw2022_native"
+  ]
+}

@@ -906,9 +906,11 @@ SW2011's gap of **6 matches the 2006 spec's struct exactly**, as does its worked
 (`12 1 12 0 2 0 0 0 0 1e3 1e-8`). SW2022 has three more pointer fields — which is what the
 `C/D/I/A` edit script exists to encode.
 
-This explains every prior measurement: the field tracks topology *and* feature history because
-node ids are allocated as a body is edited (EXP-065's `Cut-Extrude1` vs `Cut-Extrude2` split), and
-is invariant to dimension and position because ids do not depend on geometry.
+The positional identification is compatible with prior correlations involving topology and
+feature history, but does not establish whether the stored ceiling includes deleted entities.
+EXP-070 additionally checks the first six/nine pointer slots and two precision doubles against
+paired binary exports, 49/49, with only one repeated pointer pattern. See
+[EXP-070](evidence/2026-09-26_v0.4.9-EXP070.md).
 
 Still open: whether the value equals the maximum `node_id` over the body's nodes. That needs
 entity records enumerated, and `node_id` is the first field of each entity struct. See
