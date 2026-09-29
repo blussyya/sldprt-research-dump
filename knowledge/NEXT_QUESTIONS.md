@@ -888,6 +888,8 @@ total is predictable from 6 faces, 12 edges and 8 vertices plus their surfaces a
 
 ## NQ-043 — ANSWERED 2026-09-22 (EXP-067): it is `BODY.highest_node_id`
 
+**Update 2026-09-29 UTC:** Actual entity IDs are now enumerated by [EXP-071](evidence/2026-09-29_v0.4.9-EXP071.md). Equality with the largest surviving decoded ID holds in 94/98 controlled exports and fails with gap 16 in both eras' lofts, in both formats. Every positive decoded ID is unique and at or below the ceiling. Only BODY ceiling and ATTRIBUTE node-ID fields differ as non-floating values between paired formats; no FACE node ID differs. Allocation-history semantics remain unproven. [EXP-072](evidence/2026-09-29_v0.4.9-EXP072.md) records native/export graph comparisons and the loft's geometry differences.
+
 The published XT spec gives `struct BODY_s` as `int highest_node_id` followed by six pointer
 fields, then `double res_size` ("size box", normally 1000) and `double res_linear` (linear
 precision, normally 1.0e-8). Since `Z` terminates a schema-delta edit script rather than a record,

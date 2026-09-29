@@ -1,0 +1,1192 @@
+{
+  "experiment": "EXP-073",
+  "capturedUTC": "2026-09-29",
+  "scope": "Original corpus primary Config-0-Partition only",
+  "summary": {
+    "files": 24,
+    "complete": 21,
+    "blocked": 3,
+    "nodes": 38825,
+    "nativeFaces": 1146,
+    "topologyChecks": 82598,
+    "faceCountMismatches": [
+      {
+        "file": "test files original/PTC GE8080-8.SLDPRT",
+        "native": 0,
+        "display": 126
+      }
+    ]
+  },
+  "rows": [
+    {
+      "file": "test files original/chainwheel.sldprt",
+      "sha256": "77b81e1ca94b266e4c977bb3ec8fbb9cac294f394ff9d5a2b2b208fb401e0f1a",
+      "status": "blocked",
+      "reason": "Expected one Config-0-Partition stream; found 0"
+    },
+    {
+      "file": "test files original/controlled/C00_cube_10mm/model.SLDPRT",
+      "sha256": "89ad8d93148d853dc07bd2a2a8b3e6b3be27cd10dbae212d42da11eb2b215877",
+      "status": "complete",
+      "innerSHA256": "ef4a7c157ee1fd4f441b285cc6d39ce03757463b419e05c691899b10d317b1da",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 161,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 9,
+        "ATT_DEF_ID": 9,
+        "ATTRIBUTE": 24,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 6,
+        "LINE": 12,
+        "POINT": 8,
+        "REGION": 2,
+        "EDGE": 12,
+        "VERTEX": 8,
+        "FIN": 24,
+        "LOOP": 6,
+        "FACE": 6,
+        "REAL_VALUES": 6,
+        "INT_VALUES": 23,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 6008,
+        "totalBytes": 6008,
+        "ranges": 1572
+      },
+      "topologyChecks": 308,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 6,
+        "errors": []
+      },
+      "nativeFaces": 6
+    },
+    {
+      "file": "test files original/controlled/C01_cube_20mm/model.SLDPRT",
+      "sha256": "1da2b075fd3492e49699bd4cf0065e11411b1017e88e1822e1cded9ee51f9af0",
+      "status": "complete",
+      "innerSHA256": "f0525a38769fd32416d2dfeab4e5bbcf94d55638eb3db114b6903b2eedc23c50",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 165,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 25,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 6,
+        "LINE": 12,
+        "POINT": 8,
+        "REGION": 2,
+        "EDGE": 12,
+        "VERTEX": 8,
+        "FIN": 24,
+        "LOOP": 6,
+        "FACE": 6,
+        "REAL_VALUES": 7,
+        "INT_VALUES": 23,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 6118,
+        "totalBytes": 6118,
+        "ranges": 1601
+      },
+      "topologyChecks": 308,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 6,
+        "errors": []
+      },
+      "nativeFaces": 6
+    },
+    {
+      "file": "test files original/controlled/C02_cube_translated/model.SLDPRT",
+      "sha256": "cc73f8cbc0f9e4fce2c4f4cdf8ab3d5fcaaa3bdd593318e2f8f74108d91b50d5",
+      "status": "complete",
+      "innerSHA256": "ae74481e1aa8f55d050044a020d2ffd978ab2c232b452fadc203199915312a31",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 165,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 25,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 6,
+        "LINE": 12,
+        "POINT": 8,
+        "REGION": 2,
+        "EDGE": 12,
+        "VERTEX": 8,
+        "FIN": 24,
+        "LOOP": 6,
+        "FACE": 6,
+        "REAL_VALUES": 7,
+        "INT_VALUES": 23,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 6118,
+        "totalBytes": 6118,
+        "ranges": 1601
+      },
+      "topologyChecks": 308,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 6,
+        "errors": []
+      },
+      "nativeFaces": 6
+    },
+    {
+      "file": "test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT",
+      "sha256": "a14df0089bbc7cc5bf47e1d0d2cfbe50ba17be21c636cef4540d509164a514d2",
+      "status": "complete",
+      "innerSHA256": "43c16db63ce8b3f40448f9324279f97668493faabeedd78a0a7684d8224f4be7",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 191,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 28,
+        "LIST": 1,
+        "SHELL": 2,
+        "CYLINDER": 1,
+        "CIRCLE": 2,
+        "POINT": 10,
+        "REGION": 2,
+        "EDGE": 15,
+        "VERTEX": 10,
+        "FIN": 30,
+        "LOOP": 7,
+        "LINE": 13,
+        "FACE": 7,
+        "PLANE": 6,
+        "REAL_VALUES": 8,
+        "INT_VALUES": 26,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 7081,
+        "totalBytes": 7081,
+        "ranges": 1869
+      },
+      "topologyChecks": 382,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 7,
+        "errors": []
+      },
+      "nativeFaces": 7
+    },
+    {
+      "file": "test files original/controlled/C04_cube_hole_5mm/model.SLDPRT",
+      "sha256": "38ff0e82f9f92002e2cb6092345bbd76b19e5a40e3d085f1e36a0d3139f4f8e3",
+      "status": "complete",
+      "innerSHA256": "ce4cbd7d7ee93e3a2eb23daba02d9640c43e1644762599f19691f3709da18cd8",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 186,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 28,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 6,
+        "LINE": 12,
+        "POINT": 8,
+        "REGION": 2,
+        "EDGE": 14,
+        "VERTEX": 8,
+        "FIN": 28,
+        "LOOP": 10,
+        "CIRCLE": 2,
+        "FACE": 7,
+        "REAL_VALUES": 8,
+        "INT_VALUES": 26,
+        "CYLINDER": 1,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 6856,
+        "totalBytes": 6856,
+        "ranges": 1807
+      },
+      "topologyChecks": 367,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 7,
+        "errors": []
+      },
+      "nativeFaces": 7
+    },
+    {
+      "file": "test files original/controlled/C05_cube_hole_3mm/model.SLDPRT",
+      "sha256": "3dd9eaf83e44f81d769e852b6468bf04de7a565e75cb49fcfc34f3aeaf6cbd96",
+      "status": "complete",
+      "innerSHA256": "c9ae9e3fe2af0ae4df16110b8e3cfa5c89b17fa060433cbd549512d1c8f121db",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 186,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 28,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 6,
+        "LINE": 12,
+        "POINT": 8,
+        "REGION": 2,
+        "EDGE": 14,
+        "VERTEX": 8,
+        "FIN": 28,
+        "LOOP": 10,
+        "CIRCLE": 2,
+        "FACE": 7,
+        "REAL_VALUES": 8,
+        "INT_VALUES": 26,
+        "CYLINDER": 1,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 6856,
+        "totalBytes": 6856,
+        "ranges": 1807
+      },
+      "topologyChecks": 367,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 7,
+        "errors": []
+      },
+      "nativeFaces": 7
+    },
+    {
+      "file": "test files original/controlled/C06_cube_hole_moved/model.SLDPRT",
+      "sha256": "b4880b5a192c29f52cfc2036563caad3b8ff6384a863c4ea949d3eaa1e3404ed",
+      "status": "complete",
+      "innerSHA256": "cd43fc307654f57fb40412aa63ac206f66e4d02bf7aae5cccdf650fcadde9701",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 186,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 28,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 6,
+        "LINE": 12,
+        "POINT": 8,
+        "REGION": 2,
+        "EDGE": 14,
+        "VERTEX": 8,
+        "FIN": 28,
+        "LOOP": 10,
+        "CIRCLE": 2,
+        "FACE": 7,
+        "REAL_VALUES": 8,
+        "INT_VALUES": 26,
+        "CYLINDER": 1,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 6856,
+        "totalBytes": 6856,
+        "ranges": 1807
+      },
+      "topologyChecks": 367,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 7,
+        "errors": []
+      },
+      "nativeFaces": 7
+    },
+    {
+      "file": "test files original/controlled/C07_cube_two_holes/model.SLDPRT",
+      "sha256": "1fca948b6ab1a3ea94eec6f1013cdf60c81dcf9a4fbdb0b2fe100afdd9ba07c9",
+      "status": "complete",
+      "innerSHA256": "a9bf392b9ad50e0691403955ef3266835126730703a522c97f0751a06caa0245",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 207,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 31,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 6,
+        "LINE": 12,
+        "POINT": 8,
+        "REGION": 2,
+        "EDGE": 16,
+        "VERTEX": 8,
+        "FIN": 32,
+        "LOOP": 14,
+        "CIRCLE": 4,
+        "FACE": 8,
+        "CYLINDER": 2,
+        "REAL_VALUES": 9,
+        "INT_VALUES": 29,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 7592,
+        "totalBytes": 7592,
+        "ranges": 2011
+      },
+      "topologyChecks": 426,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 8,
+        "errors": []
+      },
+      "nativeFaces": 8
+    },
+    {
+      "file": "test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT",
+      "sha256": "0213ffbcba1f2d95de22445b62d35faaa2ee26d43fc644b03a91cca06159b811",
+      "status": "complete",
+      "innerSHA256": "2fe24baddcd995159086a421c6a31a877f188b6388d86ee51ad29bd4d2b08c4b",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 207,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 31,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 6,
+        "LINE": 12,
+        "POINT": 8,
+        "REGION": 2,
+        "EDGE": 16,
+        "VERTEX": 8,
+        "FIN": 32,
+        "LOOP": 14,
+        "CIRCLE": 4,
+        "FACE": 8,
+        "CYLINDER": 2,
+        "REAL_VALUES": 9,
+        "INT_VALUES": 29,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 7592,
+        "totalBytes": 7592,
+        "ranges": 2011
+      },
+      "topologyChecks": 426,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 8,
+        "errors": []
+      },
+      "nativeFaces": 8
+    },
+    {
+      "file": "test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT",
+      "sha256": "a76902070b7f47e97ee7cb7c76a9064796b8b4ab182f1c25ded41e97e2b61246",
+      "status": "complete",
+      "innerSHA256": "b616c9277168f93466edab34fd9c83c387c7cc83dcc4bf4ef69847e0b01f9902",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 196,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 11,
+        "ATT_DEF_ID": 11,
+        "ATTRIBUTE": 29,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 7,
+        "LINE": 15,
+        "POINT": 10,
+        "REGION": 2,
+        "EDGE": 15,
+        "VERTEX": 10,
+        "FIN": 30,
+        "LOOP": 7,
+        "FACE": 7,
+        "REAL_VALUES": 9,
+        "INT_VALUES": 26,
+        "CHAR_VALUES": 1,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 7149,
+        "totalBytes": 7149,
+        "ranges": 1896
+      },
+      "topologyChecks": 382,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 7,
+        "errors": []
+      },
+      "nativeFaces": 7
+    },
+    {
+      "file": "test files original/controlled/C10_cube_shell_1mm/model.SLDPRT",
+      "sha256": "12668ec6b393b765a5d4076a5a2b49378886d08ea8ffef0e2aa8d9c71c911cce",
+      "status": "complete",
+      "innerSHA256": "351cc8d05d14411915ec05c68a8550afa1757b9e6704dfd112a3f97e96604afc",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 280,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 40,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 11,
+        "LINE": 24,
+        "POINT": 16,
+        "REGION": 2,
+        "EDGE": 24,
+        "VERTEX": 16,
+        "FIN": 48,
+        "LOOP": 12,
+        "FACE": 11,
+        "REAL_VALUES": 12,
+        "INT_VALUES": 38,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 10112,
+        "totalBytes": 10112,
+        "ranges": 2736
+      },
+      "topologyChecks": 613,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 11,
+        "errors": []
+      },
+      "nativeFaces": 11
+    },
+    {
+      "file": "test files original/controlled/C11_cube_hole_4mm/model.SLDPRT",
+      "sha256": "fb78c483202368cd9d50a340be17b269048c285ae58dc1d5ca2b1f118243fa9e",
+      "status": "complete",
+      "innerSHA256": "d4349a3a71c3604f5495852295987f8580443d9d71058f8c5f2598b5bbde07a1",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 186,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 28,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 6,
+        "LINE": 12,
+        "POINT": 8,
+        "REGION": 2,
+        "EDGE": 14,
+        "VERTEX": 8,
+        "FIN": 28,
+        "LOOP": 10,
+        "CIRCLE": 2,
+        "FACE": 7,
+        "REAL_VALUES": 8,
+        "INT_VALUES": 26,
+        "CYLINDER": 1,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 6856,
+        "totalBytes": 6856,
+        "ranges": 1807
+      },
+      "topologyChecks": 367,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 7,
+        "errors": []
+      },
+      "nativeFaces": 7
+    },
+    {
+      "file": "test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "sha256": "8c835c79e0b30e4ba2ae4a0f6d9aa37ceedf0f6aa181624935f663700475a8e4",
+      "status": "complete",
+      "innerSHA256": "610482fb7bb892f5d267ea2a8bcaeb17dc2ecb64b850d5f2a23b56e71f048656",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 191,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 28,
+        "LIST": 1,
+        "SHELL": 2,
+        "CYLINDER": 1,
+        "CIRCLE": 2,
+        "POINT": 10,
+        "REGION": 2,
+        "EDGE": 15,
+        "VERTEX": 10,
+        "FIN": 30,
+        "LOOP": 7,
+        "LINE": 13,
+        "FACE": 7,
+        "PLANE": 6,
+        "REAL_VALUES": 8,
+        "INT_VALUES": 26,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 7081,
+        "totalBytes": 7081,
+        "ranges": 1869
+      },
+      "topologyChecks": 382,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 7,
+        "errors": []
+      },
+      "nativeFaces": 7
+    },
+    {
+      "file": "test files original/cube.SLDPRT",
+      "sha256": "e002c483df1faab6c635d52dd190311e2b0fd4a36758e54020efdd7512026cb1",
+      "status": "complete",
+      "innerSHA256": "aafafc7aa5e19f510f5cdeae52d95b6a0e28b7fa8a95a738da24a7dd51b8eaf7",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 164,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 25,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 6,
+        "LINE": 12,
+        "POINT": 8,
+        "REGION": 2,
+        "EDGE": 12,
+        "VERTEX": 8,
+        "FIN": 24,
+        "LOOP": 6,
+        "FACE": 6,
+        "REAL_VALUES": 6,
+        "INT_VALUES": 23,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 6108,
+        "totalBytes": 6108,
+        "ranges": 1597
+      },
+      "topologyChecks": 308,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 6,
+        "errors": []
+      },
+      "nativeFaces": 6
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "sha256": "865142829c7d91aa85f65771d2a6e60dad4f58d0093422cb56c94ce6c8959c89",
+      "status": "complete",
+      "innerSHA256": "310c2cc3f1f62e6499d1bd7f5d7426b5841c544e2226a574a5e03e899b5a83ab",
+      "schema": "SCH_3201230_32001_13006",
+      "nodes": 16019,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "B_CURVE": 1000,
+        "POINT": 746,
+        "ATTRIB_DEF": 12,
+        "ATT_DEF_ID": 12,
+        "NURBS_CURVE": 1000,
+        "CURVE_DATA": 1000,
+        "BSPLINE_VERTICES": 1008,
+        "KNOT_MULT": 1016,
+        "KNOT_SET": 1016,
+        "LINE": 482,
+        "ATTRIBUTE": 1185,
+        "LIST": 1,
+        "SHELL": 2,
+        "PLANE": 48,
+        "REGION": 2,
+        "EDGE": 1087,
+        "VERTEX": 714,
+        "FIN": 2174,
+        "LOOP": 615,
+        "GEOMETRIC_OWNER": 447,
+        "SWEPT_SURF": 311,
+        "FACE": 375,
+        "TRIMMED_CURVE": 80,
+        "SP_CURVE": 40,
+        "CYLINDER": 8,
+        "B_SURFACE": 8,
+        "NURBS_SURF": 8,
+        "SURFACE_DATA": 8,
+        "INTERSECTION": 8,
+        "CHART": 8,
+        "LIMIT": 16,
+        "INTERSECTION_DATA": 8,
+        "REAL_VALUES": 376,
+        "CHAR_VALUES": 3,
+        "INT_VALUES": 1192,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 693859,
+        "totalBytes": 693859,
+        "ranges": 138169
+      },
+      "topologyChecks": 33678,
+      "unresolved": [],
+      "newSchemas": [
+        {
+          "type": 204,
+          "name": "INTERSECTION_DATA",
+          "description": "Intersection data",
+          "start": 349354,
+          "end": 349419,
+          "declared": 2,
+          "ops": "NEW",
+          "fields": [
+            {
+              "name": "uv_type",
+              "kind": "u",
+              "count": 1,
+              "ptrClass": 0,
+              "transmit": true
+            },
+            {
+              "name": "values",
+              "kind": "f",
+              "count": "*",
+              "ptrClass": 0,
+              "transmit": true
+            }
+          ]
+        }
+      ],
+      "display": {
+        "faces": 375,
+        "errors": []
+      },
+      "nativeFaces": 375
+    },
+    {
+      "file": "test files original/distributor main boss rev a.SLDPRT",
+      "sha256": "72454b269924d6361d3b88a1e7f4ce217751abdf5e413580ac62d23392897711",
+      "status": "complete",
+      "innerSHA256": "46e6823549798f03cab9fe0ec8baf45c24563d63f68338c678c2f1e79720d471",
+      "schema": "SCH_3501251_35102_13006",
+      "nodes": 1375,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 15,
+        "ATT_DEF_ID": 15,
+        "ATTRIBUTE": 298,
+        "LIST": 1,
+        "PLANE": 18,
+        "SHELL": 2,
+        "CONE": 17,
+        "CIRCLE": 48,
+        "POINT": 28,
+        "REGION": 2,
+        "EDGE": 76,
+        "VERTEX": 28,
+        "FIN": 156,
+        "LOOP": 98,
+        "FACE": 51,
+        "INTERSECTION": 20,
+        "CHART": 20,
+        "LIMIT": 36,
+        "INTERSECTION_DATA": 20,
+        "CYLINDER": 18,
+        "GEOMETRIC_OWNER": 40,
+        "TORUS": 1,
+        "LINE": 4,
+        "CHAR_VALUES": 19,
+        "REAL_VALUES": 113,
+        "INT_VALUES": 227,
+        "POINTER_LIS_BLOCK": 1,
+        "UNICODE_VALUES": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 51432,
+        "totalBytes": 51432,
+        "ranges": 12303
+      },
+      "topologyChecks": 2175,
+      "unresolved": [],
+      "newSchemas": [
+        {
+          "type": 204,
+          "name": "INTERSECTION_DATA",
+          "description": "Intersection data",
+          "start": 8635,
+          "end": 8700,
+          "declared": 2,
+          "ops": "NEW",
+          "fields": [
+            {
+              "name": "uv_type",
+              "kind": "u",
+              "count": 1,
+              "ptrClass": 0,
+              "transmit": true
+            },
+            {
+              "name": "values",
+              "kind": "f",
+              "count": "*",
+              "ptrClass": 0,
+              "transmit": true
+            }
+          ]
+        }
+      ],
+      "display": {
+        "faces": 51,
+        "errors": []
+      },
+      "nativeFaces": 51
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "sha256": "d694ebd12683ffd1b6b225f465fd358005b6015388b1cc4fc1867cb38c371a92",
+      "status": "complete",
+      "innerSHA256": "25697ab89b437ea5579c2116d88f535a4f3baea86bb033390215609d8b4f7543",
+      "schema": "SCH_3301247_33103_13006",
+      "nodes": 4388,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "B_CURVE": 160,
+        "ATTRIB_DEF": 14,
+        "ATT_DEF_ID": 14,
+        "NURBS_CURVE": 160,
+        "CURVE_DATA": 160,
+        "BSPLINE_VERTICES": 192,
+        "KNOT_MULT": 224,
+        "KNOT_SET": 224,
+        "ATTRIBUTE": 366,
+        "LIST": 1,
+        "SHELL": 2,
+        "CONE": 2,
+        "CIRCLE": 54,
+        "POINT": 172,
+        "REGION": 2,
+        "EDGE": 283,
+        "VERTEX": 172,
+        "FIN": 566,
+        "LOOP": 127,
+        "LINE": 136,
+        "TRIMMED_CURVE": 144,
+        "GEOMETRIC_OWNER": 256,
+        "SP_CURVE": 64,
+        "B_SURFACE": 32,
+        "FACE": 113,
+        "NURBS_SURF": 32,
+        "SURFACE_DATA": 32,
+        "INTERSECTION": 24,
+        "PLANE": 60,
+        "CHART": 24,
+        "LIMIT": 48,
+        "INTERSECTION_DATA": 24,
+        "CYLINDER": 6,
+        "REAL_VALUES": 119,
+        "INT_VALUES": 370,
+        "CHAR_VALUES": 5,
+        "TORUS": 1,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 170939,
+        "totalBytes": 170939,
+        "ranges": 39748
+      },
+      "topologyChecks": 8398,
+      "unresolved": [],
+      "newSchemas": [
+        {
+          "type": 204,
+          "name": "INTERSECTION_DATA",
+          "description": "Intersection data",
+          "start": 52796,
+          "end": 52861,
+          "declared": 2,
+          "ops": "NEW",
+          "fields": [
+            {
+              "name": "uv_type",
+              "kind": "u",
+              "count": 1,
+              "ptrClass": 0,
+              "transmit": true
+            },
+            {
+              "name": "values",
+              "kind": "f",
+              "count": "*",
+              "ptrClass": 0,
+              "transmit": true
+            }
+          ]
+        }
+      ],
+      "display": {
+        "faces": 113,
+        "errors": []
+      },
+      "nativeFaces": 113
+    },
+    {
+      "file": "test files original/plate4.sldprt",
+      "sha256": "ab35db15d337f808f9ce9ee8fc72cc243c2fb2d78d033cf8514ef96e0f65d399",
+      "status": "blocked",
+      "reason": "Expected one Config-0-Partition stream; found 0"
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "sha256": "678a73af7c6eca8b5e6df60905a96f437bd5d1f85a2eed19277332c25629bb8c",
+      "status": "complete",
+      "innerSHA256": "2ab8c57f498689b984db0836e141ead1eafdbbc04f461e6d211f39dd079c7066",
+      "schema": "SCH_3401247_34101_13006",
+      "nodes": 11692,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 13,
+        "ATT_DEF_ID": 13,
+        "ATTRIBUTE": 1627,
+        "LIST": 1,
+        "SHELL": 2,
+        "CYLINDER": 125,
+        "ELLIPSE": 128,
+        "POINT": 684,
+        "REGION": 2,
+        "EDGE": 1082,
+        "VERTEX": 684,
+        "FIN": 2164,
+        "LOOP": 410,
+        "LINE": 410,
+        "INTERSECTION": 204,
+        "TORUS": 5,
+        "PLANE": 89,
+        "CHART": 204,
+        "LIMIT": 472,
+        "INTERSECTION_DATA": 204,
+        "FACE": 400,
+        "GEOMETRIC_OWNER": 504,
+        "CIRCLE": 198,
+        "BLENDED_EDGE": 32,
+        "CONE": 6,
+        "REAL_VALUES": 400,
+        "INT_VALUES": 1605,
+        "CHAR_VALUES": 21,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 455681,
+        "totalBytes": 455681,
+        "ranges": 110925
+      },
+      "topologyChecks": 26918,
+      "unresolved": [],
+      "newSchemas": [
+        {
+          "type": 204,
+          "name": "INTERSECTION_DATA",
+          "description": "Intersection data",
+          "start": 49868,
+          "end": 49933,
+          "declared": 2,
+          "ops": "NEW",
+          "fields": [
+            {
+              "name": "uv_type",
+              "kind": "u",
+              "count": 1,
+              "ptrClass": 0,
+              "transmit": true
+            },
+            {
+              "name": "values",
+              "kind": "f",
+              "count": "*",
+              "ptrClass": 0,
+              "transmit": true
+            }
+          ]
+        }
+      ],
+      "display": {
+        "faces": 400,
+        "errors": []
+      },
+      "nativeFaces": 400
+    },
+    {
+      "file": "test files original/PTC GE8080-8.SLDPRT",
+      "sha256": "162e6293b95508072f65d39b4d933553d2f3fa6c77863e29e6135afd026c8f94",
+      "status": "complete",
+      "innerSHA256": "ea9d3ed0e282805ec3cbdd0166914000aa55cb6aa1a08b50c050a0cf2b8ae34e",
+      "schema": "SCH_3501251_35102_13006",
+      "nodes": 1,
+      "counts": {
+        "WORLD": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 307,
+        "totalBytes": 307,
+        "ranges": 31
+      },
+      "topologyChecks": 0,
+      "unresolved": [],
+      "newSchemas": [],
+      "display": {
+        "faces": 126,
+        "errors": []
+      },
+      "nativeFaces": 0
+    },
+    {
+      "file": "test files original/SW2000-s01.SLDPRT",
+      "sha256": "3a1007ea37bc19bec8a2398b83db204bc36db0c1687fba264160e898335c1ab2",
+      "status": "blocked",
+      "reason": "Expected one Config-0-Partition stream; found 0"
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+      "sha256": "851f385248ed25cf7c9a2677df3169738c139f34120cb8734ae6ef89d26521a1",
+      "status": "complete",
+      "innerSHA256": "c197d4f684c058026df05b80dd2d3dd8e6a505dc1b3f1e43cb95b7ecba0f1300",
+      "schema": "SCH_3101290_31100_13006",
+      "nodes": 924,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 10,
+        "ATT_DEF_ID": 10,
+        "ATTRIBUTE": 131,
+        "LIST": 1,
+        "SHELL": 2,
+        "CONE": 8,
+        "CIRCLE": 38,
+        "POINT": 40,
+        "REGION": 2,
+        "EDGE": 80,
+        "VERTEX": 40,
+        "FIN": 160,
+        "LOOP": 64,
+        "LINE": 32,
+        "INTERSECTION": 8,
+        "PLANE": 15,
+        "CHART": 8,
+        "LIMIT": 16,
+        "INTERSECTION_DATA": 8,
+        "FACE": 39,
+        "GEOMETRIC_OWNER": 16,
+        "CYLINDER": 16,
+        "REAL_VALUES": 47,
+        "INT_VALUES": 122,
+        "CHAR_VALUES": 8,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 34696,
+        "totalBytes": 34696,
+        "ranges": 8894
+      },
+      "topologyChecks": 2109,
+      "unresolved": [],
+      "newSchemas": [
+        {
+          "type": 204,
+          "name": "INTERSECTION_DATA",
+          "description": "Intersection data",
+          "start": 11527,
+          "end": 11592,
+          "declared": 2,
+          "ops": "NEW",
+          "fields": [
+            {
+              "name": "uv_type",
+              "kind": "u",
+              "count": 1,
+              "ptrClass": 0,
+              "transmit": true
+            },
+            {
+              "name": "values",
+              "kind": "f",
+              "count": "*",
+              "ptrClass": 0,
+              "transmit": true
+            }
+          ]
+        }
+      ],
+      "display": {
+        "faces": 39,
+        "errors": []
+      },
+      "nativeFaces": 39
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "sha256": "b2928e16b72dd92f085e5d3cb83c101777acf075d2abf1b268563fdd564c14fc",
+      "status": "complete",
+      "innerSHA256": "139db0ae27b3ae384a1c4b7096d956fa287dcfc5eaf4faf2cd0c9a51cd58dc29",
+      "schema": "SCH_3101290_31100_13006",
+      "nodes": 1755,
+      "counts": {
+        "WORLD": 1,
+        "BODY": 1,
+        "ATTRIB_DEF": 11,
+        "ATT_DEF_ID": 11,
+        "ATTRIBUTE": 217,
+        "LIST": 1,
+        "SHELL": 2,
+        "B_SURFACE": 2,
+        "SP_CURVE": 14,
+        "POINT": 82,
+        "REGION": 2,
+        "EDGE": 151,
+        "VERTEX": 82,
+        "FIN": 302,
+        "LOOP": 99,
+        "LINE": 74,
+        "CIRCLE": 53,
+        "INTERSECTION": 10,
+        "TORUS": 8,
+        "PLANE": 34,
+        "CHART": 10,
+        "LIMIT": 20,
+        "INTERSECTION_DATA": 10,
+        "FACE": 68,
+        "GEOMETRIC_OWNER": 60,
+        "CYLINDER": 23,
+        "TRIMMED_CURVE": 19,
+        "B_CURVE": 14,
+        "NURBS_CURVE": 14,
+        "CURVE_DATA": 14,
+        "BSPLINE_VERTICES": 16,
+        "KNOT_MULT": 18,
+        "KNOT_SET": 18,
+        "NURBS_SURF": 2,
+        "SURFACE_DATA": 2,
+        "BLENDED_EDGE": 2,
+        "REAL_VALUES": 70,
+        "INT_VALUES": 214,
+        "BLEND_BOUND": 1,
+        "CHAR_VALUES": 2,
+        "POINTER_LIS_BLOCK": 1
+      },
+      "coverage": {
+        "bannerBytes": 0,
+        "typedBytes": 64242,
+        "totalBytes": 64242,
+        "ranges": 16857
+      },
+      "topologyChecks": 4009,
+      "unresolved": [],
+      "newSchemas": [
+        {
+          "type": 204,
+          "name": "INTERSECTION_DATA",
+          "description": "Intersection data",
+          "start": 17883,
+          "end": 17948,
+          "declared": 2,
+          "ops": "NEW",
+          "fields": [
+            {
+              "name": "uv_type",
+              "kind": "u",
+              "count": 1,
+              "ptrClass": 0,
+              "transmit": true
+            },
+            {
+              "name": "values",
+              "kind": "f",
+              "count": "*",
+              "ptrClass": 0,
+              "transmit": true
+            }
+          ]
+        }
+      ],
+      "display": {
+        "faces": 68,
+        "errors": []
+      },
+      "nativeFaces": 68
+    }
+  ]
+}

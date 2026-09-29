@@ -1,5 +1,13 @@
 # Research Handoff
 
+## Current checkpoint — 2026-09-29 UTC, EXP-071–073
+
+Read [BINARY_ATLAS.md](BINARY_ATLAS.md) and the three linked evidence notes before older handoffs. The typed research reader in `evidence/scripts/EXP071/` now handles complete held text/binary transmit streams, topology, analytic and NURBS fields, schema edits and full new-type declarations. EXP-072 extracts the first native partition member; EXP-073 audits the original corpus. Generated results preserve input hashes, unresolved references, differences and byte coverage; gzip JSON maps preserve raw hex and values for the reference cubes. Reproduction commands are in the atlas. Production viewer code was not changed.
+
+Concrete next work: explain the loft's native/export curve changes and nominal-geometry state; determine body authority for PTC's empty primary partition; decode the additional compressed partition members; continue older Zip/Body wrappers. Full mathematical evaluation and conversion remain separate validation work. LIST base fields remain a documented candidate reconstruction. Node-ID surviving-maximum equality is falsified by the loft gap; do not restore earlier high-water explanations as established semantics. No new global invariant has been promoted.
+
+Publish only verified public-source/corpus evidence to staging. Preserve raw unknown bytes and offset coordinate systems. Main remains user-managed.
+
 ## Current checkpoint — 2026-09-20, EXP-052
 
 Reviewed staging b529ade and rendered eight matching views of parser/v0.2 versus original STL for 15 models, plus parser-only views of Pocket Wheel/Dekor. [EXP-052 evidence](evidence/2026-09-20_v0.4.8-EXP052.md) includes regeneration commands, images, hashes, metrics and limitations. C10 agrees in all views. USB exports need the documented (-33.5,0,-20.5) mm origin translation; minimum silhouette IoU then exceeds 99.97%. C03/C09/C11 reference missing faces are visible in depth comparison. Parser validation passes unchanged. No parser edits or new invariant. Winding and watertightness remain unproven; see the report's qualifications to EXP-050/051 claims. Historical STOP/next-experiment text below is superseded by this checkpoint and EXP-049–051.
