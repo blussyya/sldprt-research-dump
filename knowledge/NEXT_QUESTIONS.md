@@ -724,6 +724,15 @@ started by copying someone else's asset.
 
 ---
 
+## NQ-030 status update, 2026-09-29 (EXP-074) — 4007/4009 IDENTIFIED BY NATIVE JOIN
+
+The "no analysis can substitute" premise below no longer holds: the native B-rep is now decoded and the display
+`rawId` is the native `FACE.node_id` (1272/1272 original faces). Through that join **4007 = BLENDED_EDGE** (33/33:
+Pocket Wheel 32, USB TOP 1) and **4009 = SWEPT_SURF** (311/311: Dekor). Each tag maps to exactly one native type.
+Remaining: a controlled model per tag to confirm against SolidWorks-reported ground truth before INV-025's table
+changes, and geometric evaluation of BLENDED_EDGE/SWEPT_SURF/B_SURFACE (EXP-074 counts them, does not evaluate).
+See [EXP-074](evidence/2026-09-29_v0.4.9-EXP074.md).
+
 ## NQ-030 status update, 2026-09-21 (EXP-055) — PARTIALLY RESOLVED
 
 Four of the unknown tags are identified against SolidWorks-reported ground truth and recorded
@@ -760,7 +769,7 @@ asked as a direct comparison.
 
 ## NQ-039 — Metadata gate discards valid tags on upgraded files
 
-**Status 2026-09-26: fixed in `parser/v0.2` and `parser/v0.3`.** The empty-table case now retains the tag with a correspondence warning; a populated disagreement still rejects the metadata. Six upgraded-cube faces and a mutated non-empty control are covered by [the parser follow-up](evidence/2026-09-26_parser-metadata-crc.md). The original diagnosis below is retained as history.
+**Status 2026-09-29 (EXP-074):** C23's surviving Block1 edge IDs equal the native loop→fin→edge `node_id` sets — the empty metadata table loses no edge identity. **Status 2026-09-26: fixed in `parser/v0.2` and `parser/v0.3`.** The empty-table case now retains the tag with a correspondence warning; a populated disagreement still rejects the metadata. Six upgraded-cube faces and a mutated non-empty control are covered by [the parser follow-up](evidence/2026-09-26_parser-metadata-crc.md). The original diagnosis below is retained as history.
 
 `parser/v0.2` gates the entire forward metadata record on INV-023's edge-ID correspondence.
 In `C23_cube_sw2011_to_2022` — a 2011 part opened in 2022 and resaved — the metadata edge table
@@ -1109,3 +1118,22 @@ outlier is the only thing standing between the `Z+3` field and a clean topology-
 across both eras. Resolving it would settle NQ-043's direction.
 
 **Date raised**: 2026-09-21 (EXP-064).
+
+---
+
+## NQ-048 — What are the 1-face ResolvedFeatures bodies, and the remaining section framing bytes?
+
+EXP-074 decoded the partition section frame (`u32le size | GUID | u32le inflated | u32le compressed | zlib | 8 bytes`)
+and found it outside the Partition streams. Open:
+
+1. **`Config-N-ResolvedFeatures`** holds 36 valid sections in 14 files, every one a **1-face PLANE body**
+   (`body_type` value 3, 20–169 nodes). In the controlled cubes the count follows cuts/split lines (C04/C05/C06/C11: 1;
+   C07/C08: 2; C18: 1). USB BOTTOM's three sections have the node counts of USB TOP's first three. Which feature
+   produced each, how that is recorded in the surrounding stream bytes, and what the planar face bounds (a sketch
+   region?) are untested. Test: compare the face's loop against each file's sketch geometry and feature tree.
+2. **LocalBodies 64-byte prefix** (PTC only): `01000000`, `fffeff13` + UTF-16LE `PTC GE8080-8.stp<1>`, then fields
+   including `0xf535`/`0xf530`. n = 1; an imported-body model with a second import would discriminate.
+3. **The 8 trailing section bytes** are zero in 242/242 sections. Zero on every input tells us nothing about their
+   role; a file where they are not zero is needed.
+
+**Date raised**: 2026-09-29 (EXP-074).

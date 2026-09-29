@@ -83,6 +83,12 @@ remain unknown. Other surface tags are resolved by INV-025 as of 2026-09-21.
 
 **Status:** Verified for six values against SolidWorks-reported ground truth; 4007 and 4009 remain unobserved.
 
+> **Status note 2026-09-29 (EXP-074), not a promotion:** joining display metadata to the decoded native B-rep by face
+> `node_id` maps **4007 → BLENDED_EDGE (33/33)** and **4009 → SWEPT_SURF (311/311)** in the original corpus, and
+> reproduces the six values above with 0 disagreements (142 SW2022 + 928 original faces). 4007/4009 rest on two
+> production files (Pocket Wheel + USB TOP; Dekor), not on a controlled model with SolidWorks-reported ground truth,
+> so the table is unchanged. See [EXP-074](evidence/2026-09-29_v0.4.9-EXP074.md).
+
 **Evidence:** The forward metadata record's `typeTag` maps to the face's surface type:
 
 | tag | surface |

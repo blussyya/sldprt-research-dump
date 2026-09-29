@@ -8,7 +8,7 @@ Checkpoint: 2026-09-29 UTC. This is the navigation layer for byte maps, field re
 |---|---|---|
 | SLDPRT physical container | Modern stream extraction; bounded OLE/FAT/mini-FAT reader | Complete modern directory/stream allocation grammar and old wrapper variants |
 | Saved display geometry | `parser/v0.3`, verified strip/metadata layouts | Older Zip streams, multi-chunk wrappers outside controlled samples, unknown auxiliary semantics |
-| Partition stream wrapper | First zlib member at stream +28 in held modern/SW2011 corpus | Remaining members, delta/GhostPartition roles and saved-body selection |
+| Partition stream wrapper | Section frame `u32 size, GUID, u32 inflated, u32 compressed, zlib, 8 zero bytes` (EXP-074): Partition = partition + deltas (70/70), GhostPartition = partition (65/65); same frame in LocalBodies and ResolvedFeatures | Deltas and GhostPartition semantics; ResolvedFeatures 1-face bodies; LocalBodies 64-byte prefix; tail-byte role |
 | Inflated Parasolid transmit | Typed header, embedded edits/new schemas, records and terminator | Unseen base schemas, bare binary, userfields and unsupported node types |
 | Solid topology | Typed references and reciprocal graph checks | General non-manifold support and configuration/body authority |
 | Analytic/NURBS geometry | Parameters, control arrays, knots and trimming references | Full independent evaluation of curved/trimmed solids and export semantics |
@@ -26,6 +26,7 @@ Regenerate from repository root:
 node knowledge/evidence/scripts/EXP071/audit.js --write
 node knowledge/evidence/scripts/EXP072/native-partitions.js --write
 node knowledge/evidence/scripts/EXP073/original-partitions.js --write
+node knowledge/evidence/scripts/EXP074/display-native-join.js --write
 ```
 
 Map files end in `.json.gz`. To inspect one without a separate gzip utility:

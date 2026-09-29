@@ -1,0 +1,3225 @@
+{
+  "experiment": "EXP-074",
+  "thresholds": {
+    "onSurface": 0.000001,
+    "onChord": 1e-7
+  },
+  "counts": {
+    "SW2022": {
+      "files": 24,
+      "display_faces": 142,
+      "native_faces": 142,
+      "A_face_id_matched": 142,
+      "A_edge_set_equal": 136,
+      "A_block1_edge_set_equal": 140,
+      "B_INV025_agree": 142,
+      "C_on_surface": 132,
+      "A_native_faces_not_joined": 0,
+      "C_unevaluated_B_SURFACE": 4,
+      "C_off_surface": 6,
+      "A_edge_table_empty": 6
+    },
+    "SW2011": {
+      "files": 25,
+      "display_faces": 145,
+      "native_faces": 145,
+      "C_on_surface": 135,
+      "C_legacy_no_analytic_fit": 10,
+      "C_legacy_fit_reused": 1
+    },
+    "original": {
+      "files_native_unread": 3,
+      "files": 21,
+      "display_faces": 1272,
+      "native_faces": 1272,
+      "A_face_id_matched": 1272,
+      "A_edge_set_equal": 1272,
+      "A_block1_edge_set_equal": 1272,
+      "B_INV025_agree": 928,
+      "C_on_surface": 664,
+      "A_native_faces_not_joined": 0,
+      "C_unevaluated_B_SURFACE": 42,
+      "C_off_surface": 222,
+      "B_tag_outside_INV025": 344,
+      "C_unevaluated_SWEPT_SURF": 311,
+      "C_unevaluated_BLENDED_EDGE": 33
+    }
+  },
+  "typeCrosstab": {
+    "SW2022": {
+      "4001->PLANE": 117,
+      "4002->CYLINDER": 16,
+      "4003->CONE": 1,
+      "4004->SPHERE": 1,
+      "4005->TORUS": 3,
+      "4006->B_SURFACE": 4
+    },
+    "original": {
+      "4001->PLANE": 528,
+      "4002->CYLINDER": 276,
+      "4006->B_SURFACE": 42,
+      "4009->SWEPT_SURF": 311,
+      "4003->CONE": 47,
+      "4005->TORUS": 35,
+      "4007->BLENDED_EDGE": 33
+    }
+  },
+  "geometry": {
+    "SW2022/plane": {
+      "faces": 117,
+      "vertices": 2552,
+      "facesOn": 117,
+      "maxResidualOnFaces": 1.341104505225843e-9,
+      "maxResidualAll": 1.341104505225843e-9,
+      "normalAgree": 2552,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    },
+    "SW2022/cylinder": {
+      "faces": 16,
+      "vertices": 1612,
+      "facesOn": 11,
+      "maxResidualOnFaces": 6.04551743084783e-10,
+      "maxResidualAll": 0.000009007013443532857,
+      "normalAgree": 1612,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    },
+    "SW2022/cone": {
+      "faces": 1,
+      "vertices": 144,
+      "facesOn": 1,
+      "maxResidualOnFaces": 1.5744005146231914e-10,
+      "maxResidualAll": 1.5744005146231914e-10,
+      "normalAgree": 96,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 48
+    },
+    "SW2022/sphere": {
+      "faces": 1,
+      "vertices": 5004,
+      "facesOn": 1,
+      "maxResidualOnFaces": 2.2269571776922792e-10,
+      "maxResidualAll": 2.2269571776922792e-10,
+      "normalAgree": 5004,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    },
+    "SW2022/torus": {
+      "faces": 3,
+      "vertices": 10270,
+      "facesOn": 2,
+      "maxResidualOnFaces": 2.5612678124231625e-10,
+      "maxResidualAll": 0.000005335033655788635,
+      "normalAgree": 10270,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    },
+    "SW2011/plane": {
+      "faces": 118,
+      "vertices": 2720,
+      "facesOn": 118,
+      "maxResidualOnFaces": 1.341104505225843e-9,
+      "maxResidualAll": 1.341104505225843e-9,
+      "normalAgree": 2720,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    },
+    "SW2011/cylinder": {
+      "faces": 12,
+      "vertices": 702,
+      "facesOn": 12,
+      "maxResidualOnFaces": 6.04551743084783e-10,
+      "maxResidualAll": 6.04551743084783e-10,
+      "normalAgree": 702,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    },
+    "SW2011/cone": {
+      "faces": 2,
+      "vertices": 288,
+      "facesOn": 2,
+      "maxResidualOnFaces": 1.5744005146231914e-10,
+      "maxResidualAll": 1.5744005146231914e-10,
+      "normalAgree": 192,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 96
+    },
+    "SW2011/sphere": {
+      "faces": 1,
+      "vertices": 4884,
+      "facesOn": 1,
+      "maxResidualOnFaces": 2.2269571776922792e-10,
+      "maxResidualAll": 2.2269571776922792e-10,
+      "normalAgree": 4884,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    },
+    "SW2011/torus": {
+      "faces": 2,
+      "vertices": 8882,
+      "facesOn": 2,
+      "maxResidualOnFaces": 2.5612678124231625e-10,
+      "maxResidualAll": 2.5612678124231625e-10,
+      "normalAgree": 8882,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    },
+    "original/plane": {
+      "faces": 528,
+      "vertices": 24059,
+      "facesOn": 528,
+      "maxResidualOnFaces": 2.4795532388140853e-8,
+      "maxResidualAll": 2.4795532388140853e-8,
+      "normalAgree": 24059,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    },
+    "original/cylinder": {
+      "faces": 276,
+      "vertices": 12115,
+      "facesOn": 109,
+      "maxResidualOnFaces": 4.416049411565259e-9,
+      "maxResidualAll": 0.0001199533323092139,
+      "normalAgree": 12115,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    },
+    "original/cone": {
+      "faces": 47,
+      "vertices": 3051,
+      "facesOn": 27,
+      "maxResidualOnFaces": 3.012798969001041e-9,
+      "maxResidualAll": 0.0000848198041664497,
+      "normalAgree": 2955,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 96
+    },
+    "original/torus": {
+      "faces": 35,
+      "vertices": 12214,
+      "facesOn": 0,
+      "maxResidualOnFaces": 0,
+      "maxResidualAll": 0.0000586543809459948,
+      "normalAgree": 12214,
+      "normalOppose": 0,
+      "normalOther": 0,
+      "normalUndefined": 0
+    }
+  },
+  "offSurfaceLocalisation": {
+    "SW2022": {
+      "vertices": 158,
+      "boundary": 156,
+      "interior": 2,
+      "onChord": 158,
+      "notOnChord": 0,
+      "boundaryByCurve": {
+        "ELLIPSE": 18,
+        "CIRCLE": 138
+      },
+      "interiorOnChord": 2,
+      "chordT": {
+        "1/3": 41,
+        "other": 85,
+        "1/4": 21,
+        "1/2": 11
+      },
+      "maxResidual": 0.000009007013443532857,
+      "facesWithDeclaredTolerance": 0,
+      "withinDeclaredTolerance": 0
+    },
+    "original": {
+      "vertices": 3461,
+      "boundary": 3353,
+      "interior": 108,
+      "onChord": 3147,
+      "notOnChord": 314,
+      "boundaryByCurve": {
+        "TRIMMED_CURVE": 263,
+        "no-curve": 309,
+        "INTERSECTION": 1089,
+        "CIRCLE": 1270,
+        "ELLIPSE": 422
+      },
+      "interiorOnChord": 78,
+      "chordT": {
+        "other": 2702,
+        "1/4": 87,
+        "1/3": 58,
+        "1/2": 300
+      },
+      "maxResidual": 0.0001199533323092139,
+      "facesWithDeclaredTolerance": 12,
+      "withinDeclaredTolerance": 83
+    }
+  },
+  "partitionSections": {
+    "streams": {
+      "Config-N-GhostPartition: chains exactly to end": 65,
+      "Config-N-Partition: chains exactly to end": 70,
+      "Config-N-ResolvedFeatures: 1 embedded section(s)": 7,
+      "Config-N-ResolvedFeatures: 2 embedded section(s)": 3,
+      "Config-N-ResolvedFeatures: 7 embedded section(s)": 1,
+      "Config-N-ResolvedFeatures: 3 embedded section(s)": 2,
+      "LocalBodies: 1 embedded section(s)": 1,
+      "Config-N-ResolvedFeatures: 10 embedded section(s)": 1
+    },
+    "sectionSequence": {
+      "Config-N-GhostPartition: partition": 65,
+      "Config-N-Partition: partition | deltas": 70
+    },
+    "tailBytes": {
+      "0000000000000000": 242
+    },
+    "prefixBeforeFirstSection": {
+      "Config-N-GhostPartition: 0 bytes": 65,
+      "Config-N-Partition: 0 bytes": 70
+    },
+    "bodyFallback": [
+      {
+        "file": "test files original/PTC GE8080-8.SLDPRT",
+        "stream": "Config-0-FeatureBodies/LocalBodies",
+        "sectionOffset": 64,
+        "kind": "plain",
+        "prefixHex": "01000000fffeff1350005400430020004700450038003000380030002d0038002e007300740070003c0031003e000000000001000000000000000035f5000000",
+        "faces": 126,
+        "displayFaces": 126
+      }
+    ],
+    "embedded": [
+      {
+        "file": "test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 19895,
+        "sections": [
+          {
+            "offset": 14810,
+            "kind": "plain",
+            "nodes": 46,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files new/SW2011/C18_cube_split_line/model.SLDPRT",
+        "stream": "Config-0-ResolvedFeatures",
+        "streamBytes": 15984,
+        "sections": [
+          {
+            "offset": 11372,
+            "kind": "plain",
+            "nodes": 46,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/controlled/C04_cube_hole_5mm/model.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 16958,
+        "sections": [
+          {
+            "offset": 12924,
+            "kind": "plain",
+            "nodes": 46,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/controlled/C05_cube_hole_3mm/model.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 16957,
+        "sections": [
+          {
+            "offset": 12924,
+            "kind": "plain",
+            "nodes": 46,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/controlled/C06_cube_hole_moved/model.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 16959,
+        "sections": [
+          {
+            "offset": 12926,
+            "kind": "plain",
+            "nodes": 46,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/controlled/C07_cube_two_holes/model.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 22308,
+        "sections": [
+          {
+            "offset": 13156,
+            "kind": "plain",
+            "nodes": 46,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 18167,
+            "kind": "plain",
+            "nodes": 49,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 22307,
+        "sections": [
+          {
+            "offset": 13156,
+            "kind": "plain",
+            "nodes": 46,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 18166,
+            "kind": "plain",
+            "nodes": 49,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/controlled/C11_cube_hole_4mm/model.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 16953,
+        "sections": [
+          {
+            "offset": 12924,
+            "kind": "plain",
+            "nodes": 46,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/Dekor.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 514938,
+        "sections": [
+          {
+            "offset": 457005,
+            "kind": "plain",
+            "nodes": 62,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/distributor main boss rev a.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 195343,
+        "sections": [
+          {
+            "offset": 56972,
+            "kind": "plain",
+            "nodes": 35,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 119315,
+            "kind": "plain",
+            "nodes": 90,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 132609,
+            "kind": "plain",
+            "nodes": 105,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 142508,
+            "kind": "plain",
+            "nodes": 105,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 166835,
+            "kind": "plain",
+            "nodes": 39,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 180317,
+            "kind": "plain",
+            "nodes": 39,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 189333,
+            "kind": "plain",
+            "nodes": 39,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/Helical Bevel Gear.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 181543,
+        "sections": [
+          {
+            "offset": 66599,
+            "kind": "plain",
+            "nodes": 24,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 151750,
+            "kind": "plain",
+            "nodes": 31,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 173186,
+            "kind": "plain",
+            "nodes": 28,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/Pocket Wheel.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 719141,
+        "sections": [
+          {
+            "offset": 348394,
+            "kind": "plain",
+            "nodes": 35,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 425058,
+            "kind": "plain",
+            "nodes": 35,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/PTC GE8080-8.SLDPRT",
+        "stream": "Config-0-FeatureBodies/LocalBodies",
+        "streamBytes": 62836,
+        "sections": [
+          {
+            "offset": 64,
+            "kind": "plain",
+            "nodes": 4334,
+            "faces": 126,
+            "surfaces": "PLANE+CYLINDER",
+            "bodyTypeValues": "1"
+          }
+        ]
+      },
+      {
+        "file": "test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 85484,
+        "sections": [
+          {
+            "offset": 22235,
+            "kind": "plain",
+            "nodes": 54,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 54116,
+            "kind": "plain",
+            "nodes": 86,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 68806,
+            "kind": "plain",
+            "nodes": 28,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      },
+      {
+        "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+        "stream": "Contents/Config-0-ResolvedFeatures",
+        "streamBytes": 198141,
+        "sections": [
+          {
+            "offset": 23031,
+            "kind": "plain",
+            "nodes": 54,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 47216,
+            "kind": "plain",
+            "nodes": 86,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 61390,
+            "kind": "plain",
+            "nodes": 28,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 80433,
+            "kind": "plain",
+            "nodes": 102,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 102101,
+            "kind": "plain",
+            "nodes": 139,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 120954,
+            "kind": "plain",
+            "nodes": 169,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 136547,
+            "kind": "plain",
+            "nodes": 20,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 150019,
+            "kind": "plain",
+            "nodes": 106,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 168828,
+            "kind": "plain",
+            "nodes": 116,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          },
+          {
+            "offset": 180657,
+            "kind": "plain",
+            "nodes": 42,
+            "faces": 1,
+            "surfaces": "PLANE",
+            "bodyTypeValues": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "offSurfaceFaces": [
+    {
+      "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+      "face": 0,
+      "surface": "cylinder",
+      "maxResidual": 0.000009007,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 1.52e-11
+    },
+    {
+      "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+      "face": 3,
+      "surface": "cylinder",
+      "maxResidual": 0.000009007,
+      "declaredTolerance": null,
+      "offVertices": 6,
+      "boundary": 6,
+      "onChord": 6,
+      "maxChordDistance": 1.52e-11
+    },
+    {
+      "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+      "face": 5,
+      "surface": "cylinder",
+      "maxResidual": 0.000009007,
+      "declaredTolerance": null,
+      "offVertices": 5,
+      "boundary": 4,
+      "onChord": 5,
+      "maxChordDistance": 1.52e-11
+    },
+    {
+      "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+      "face": 6,
+      "surface": "cylinder",
+      "maxResidual": 0.000009007,
+      "declaredTolerance": null,
+      "offVertices": 5,
+      "boundary": 4,
+      "onChord": 5,
+      "maxChordDistance": 1.52e-11
+    },
+    {
+      "file": "test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+      "face": 0,
+      "surface": "cylinder",
+      "maxResidual": 0.000005335,
+      "declaredTolerance": null,
+      "offVertices": 66,
+      "boundary": 66,
+      "onChord": 66,
+      "maxChordDistance": 2.64e-10
+    },
+    {
+      "file": "test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+      "face": 3,
+      "surface": "torus",
+      "maxResidual": 0.000005335,
+      "declaredTolerance": null,
+      "offVertices": 72,
+      "boundary": 72,
+      "onChord": 72,
+      "maxChordDistance": 2.64e-10
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "face": 9,
+      "surface": "cylinder",
+      "maxResidual": 0.0000249,
+      "declaredTolerance": 5.049999999999999e-7,
+      "offVertices": 49,
+      "boundary": 46,
+      "onChord": 22,
+      "maxChordDistance": 4.81e-8
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "face": 10,
+      "surface": "cylinder",
+      "maxResidual": 0.00002558,
+      "declaredTolerance": 5.049999999999999e-7,
+      "offVertices": 59,
+      "boundary": 54,
+      "onChord": 27,
+      "maxChordDistance": 4.75e-8
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "face": 18,
+      "surface": "cylinder",
+      "maxResidual": 0.00002469,
+      "declaredTolerance": 5.049999999999999e-7,
+      "offVertices": 61,
+      "boundary": 52,
+      "onChord": 25,
+      "maxChordDistance": 4.62e-8
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "face": 19,
+      "surface": "cylinder",
+      "maxResidual": 0.00002765,
+      "declaredTolerance": 5.049999999999999e-7,
+      "offVertices": 60,
+      "boundary": 56,
+      "onChord": 17,
+      "maxChordDistance": 3.43e-8
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "face": 27,
+      "surface": "cylinder",
+      "maxResidual": 0.00002469,
+      "declaredTolerance": 5.049999999999999e-7,
+      "offVertices": 61,
+      "boundary": 52,
+      "onChord": 26,
+      "maxChordDistance": 3.87e-8
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "face": 28,
+      "surface": "cylinder",
+      "maxResidual": 0.00002764,
+      "declaredTolerance": 5.049999999999999e-7,
+      "offVertices": 57,
+      "boundary": 55,
+      "onChord": 6,
+      "maxChordDistance": 1.62e-8
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "face": 31,
+      "surface": "cylinder",
+      "maxResidual": 0.00002555,
+      "declaredTolerance": 5.049999999999999e-7,
+      "offVertices": 65,
+      "boundary": 58,
+      "onChord": 36,
+      "maxChordDistance": 4.86e-8
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "face": 32,
+      "surface": "cylinder",
+      "maxResidual": 0.00002842,
+      "declaredTolerance": 5.049999999999999e-7,
+      "offVertices": 65,
+      "boundary": 58,
+      "onChord": 19,
+      "maxChordDistance": 3.4e-8
+    },
+    {
+      "file": "test files original/distributor main boss rev a.SLDPRT",
+      "face": 0,
+      "surface": "cylinder",
+      "maxResidual": 0.000005106,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 3.08e-9
+    },
+    {
+      "file": "test files original/distributor main boss rev a.SLDPRT",
+      "face": 5,
+      "surface": "cylinder",
+      "maxResidual": 0.000003394,
+      "declaredTolerance": null,
+      "offVertices": 6,
+      "boundary": 6,
+      "onChord": 6,
+      "maxChordDistance": 3.87e-9
+    },
+    {
+      "file": "test files original/distributor main boss rev a.SLDPRT",
+      "face": 12,
+      "surface": "cylinder",
+      "maxResidual": 0.00002457,
+      "declaredTolerance": null,
+      "offVertices": 45,
+      "boundary": 45,
+      "onChord": 45,
+      "maxChordDistance": 6.63e-10
+    },
+    {
+      "file": "test files original/distributor main boss rev a.SLDPRT",
+      "face": 20,
+      "surface": "torus",
+      "maxResidual": 0.00002457,
+      "declaredTolerance": null,
+      "offVertices": 53,
+      "boundary": 50,
+      "onChord": 53,
+      "maxChordDistance": 6.63e-10
+    },
+    {
+      "file": "test files original/distributor main boss rev a.SLDPRT",
+      "face": 42,
+      "surface": "cylinder",
+      "maxResidual": 0.00002017,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 3.87e-9
+    },
+    {
+      "file": "test files original/distributor main boss rev a.SLDPRT",
+      "face": 43,
+      "surface": "cylinder",
+      "maxResidual": 0.00002017,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 3.56e-9
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 0,
+      "surface": "cylinder",
+      "maxResidual": 0.00006949,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 6.28e-10
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 1,
+      "surface": "cylinder",
+      "maxResidual": 0.00004139,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 1.13e-9
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 2,
+      "surface": "cylinder",
+      "maxResidual": 0.00007724,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 2.58e-9
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 3,
+      "surface": "cylinder",
+      "maxResidual": 0.00002069,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 4.31e-10
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 4,
+      "surface": "cylinder",
+      "maxResidual": 0.00008111,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 1.09e-9
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 6,
+      "surface": "cylinder",
+      "maxResidual": 0.00008111,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 1.09e-9
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 7,
+      "surface": "cylinder",
+      "maxResidual": 0.00002069,
+      "declaredTolerance": null,
+      "offVertices": 1,
+      "boundary": 1,
+      "onChord": 1,
+      "maxChordDistance": 4.31e-10
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 8,
+      "surface": "cylinder",
+      "maxResidual": 0.00007724,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 2.58e-9
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 9,
+      "surface": "cylinder",
+      "maxResidual": 0.00004139,
+      "declaredTolerance": null,
+      "offVertices": 1,
+      "boundary": 1,
+      "onChord": 1,
+      "maxChordDistance": 1.13e-9
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 10,
+      "surface": "cylinder",
+      "maxResidual": 0.00006949,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 6.28e-10
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 11,
+      "surface": "cylinder",
+      "maxResidual": 0.00005789,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 1.12e-9
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 15,
+      "surface": "cylinder",
+      "maxResidual": 0.00005789,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 1.12e-9
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 16,
+      "surface": "torus",
+      "maxResidual": 0.00002662,
+      "declaredTolerance": null,
+      "offVertices": 24,
+      "boundary": 23,
+      "onChord": 24,
+      "maxChordDistance": 2.58e-9
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "face": 17,
+      "surface": "cylinder",
+      "maxResidual": 0.00008859,
+      "declaredTolerance": null,
+      "offVertices": 42,
+      "boundary": 42,
+      "onChord": 42,
+      "maxChordDistance": 1.17e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 1,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 2,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 3,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 4,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 5,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 6,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 7,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 8,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 9,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 10,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 11,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 12,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 13,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 14,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 15,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 16,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 17,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 18,
+      "boundary": 18,
+      "onChord": 18,
+      "maxChordDistance": 8e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 18,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 21,
+      "boundary": 21,
+      "onChord": 21,
+      "maxChordDistance": 9.91e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 19,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 20,
+      "boundary": 20,
+      "onChord": 20,
+      "maxChordDistance": 8e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 20,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 20,
+      "boundary": 20,
+      "onChord": 20,
+      "maxChordDistance": 9.91e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 21,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 20,
+      "boundary": 20,
+      "onChord": 20,
+      "maxChordDistance": 8e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 22,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 19,
+      "boundary": 19,
+      "onChord": 19,
+      "maxChordDistance": 9.91e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 23,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 20,
+      "boundary": 20,
+      "onChord": 20,
+      "maxChordDistance": 8e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 24,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 18,
+      "boundary": 18,
+      "onChord": 18,
+      "maxChordDistance": 9.91e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 33,
+      "surface": "torus",
+      "maxResidual": 0.00004828,
+      "declaredTolerance": null,
+      "offVertices": 34,
+      "boundary": 34,
+      "onChord": 34,
+      "maxChordDistance": 6.34e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 34,
+      "surface": "torus",
+      "maxResidual": 0.00004828,
+      "declaredTolerance": null,
+      "offVertices": 34,
+      "boundary": 34,
+      "onChord": 34,
+      "maxChordDistance": 6.34e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 35,
+      "surface": "torus",
+      "maxResidual": 0.00004828,
+      "declaredTolerance": null,
+      "offVertices": 33,
+      "boundary": 33,
+      "onChord": 33,
+      "maxChordDistance": 6.34e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 36,
+      "surface": "torus",
+      "maxResidual": 0.00004828,
+      "declaredTolerance": null,
+      "offVertices": 34,
+      "boundary": 34,
+      "onChord": 34,
+      "maxChordDistance": 6.34e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 37,
+      "surface": "torus",
+      "maxResidual": 0.00004828,
+      "declaredTolerance": null,
+      "offVertices": 33,
+      "boundary": 33,
+      "onChord": 33,
+      "maxChordDistance": 6.34e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 38,
+      "surface": "torus",
+      "maxResidual": 0.00004828,
+      "declaredTolerance": null,
+      "offVertices": 33,
+      "boundary": 33,
+      "onChord": 33,
+      "maxChordDistance": 6.34e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 39,
+      "surface": "torus",
+      "maxResidual": 0.00004828,
+      "declaredTolerance": null,
+      "offVertices": 33,
+      "boundary": 33,
+      "onChord": 33,
+      "maxChordDistance": 6.34e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 48,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 21,
+      "boundary": 21,
+      "onChord": 21,
+      "maxChordDistance": 9.91e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 49,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 18,
+      "boundary": 18,
+      "onChord": 18,
+      "maxChordDistance": 8e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 50,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 18,
+      "boundary": 18,
+      "onChord": 18,
+      "maxChordDistance": 9.91e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 51,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 18,
+      "boundary": 18,
+      "onChord": 18,
+      "maxChordDistance": 8e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 52,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 19,
+      "boundary": 19,
+      "onChord": 19,
+      "maxChordDistance": 9.91e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 53,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 20,
+      "boundary": 20,
+      "onChord": 20,
+      "maxChordDistance": 8e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 54,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 18,
+      "boundary": 18,
+      "onChord": 18,
+      "maxChordDistance": 9.91e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 55,
+      "surface": "torus",
+      "maxResidual": 0.00005494,
+      "declaredTolerance": null,
+      "offVertices": 20,
+      "boundary": 20,
+      "onChord": 20,
+      "maxChordDistance": 8e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 56,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 57,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 58,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 59,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 60,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 61,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 62,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 63,
+      "surface": "cylinder",
+      "maxResidual": 0.00012,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 64,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 65,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 66,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 67,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 68,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 69,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 70,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 71,
+      "surface": "cone",
+      "maxResidual": 0.00008482,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 7.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 73,
+      "surface": "torus",
+      "maxResidual": 0.00005865,
+      "declaredTolerance": null,
+      "offVertices": 82,
+      "boundary": 80,
+      "onChord": 81,
+      "maxChordDistance": 5.04e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 74,
+      "surface": "cylinder",
+      "maxResidual": 0.0001193,
+      "declaredTolerance": null,
+      "offVertices": 141,
+      "boundary": 141,
+      "onChord": 141,
+      "maxChordDistance": 5.04e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 75,
+      "surface": "cone",
+      "maxResidual": 0.00008438,
+      "declaredTolerance": null,
+      "offVertices": 101,
+      "boundary": 100,
+      "onChord": 101,
+      "maxChordDistance": 4.16e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 77,
+      "surface": "cone",
+      "maxResidual": 0.00008256,
+      "declaredTolerance": null,
+      "offVertices": 53,
+      "boundary": 53,
+      "onChord": 53,
+      "maxChordDistance": 2.1e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 78,
+      "surface": "cylinder",
+      "maxResidual": 0.0001168,
+      "declaredTolerance": null,
+      "offVertices": 72,
+      "boundary": 72,
+      "onChord": 72,
+      "maxChordDistance": 2.1e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 79,
+      "surface": "cone",
+      "maxResidual": 0.00008256,
+      "declaredTolerance": null,
+      "offVertices": 53,
+      "boundary": 53,
+      "onChord": 53,
+      "maxChordDistance": 2.1e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 82,
+      "surface": "cylinder",
+      "maxResidual": 0.00005865,
+      "declaredTolerance": null,
+      "offVertices": 84,
+      "boundary": 84,
+      "onChord": 84,
+      "maxChordDistance": 5.04e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 83,
+      "surface": "torus",
+      "maxResidual": 0.00005865,
+      "declaredTolerance": null,
+      "offVertices": 115,
+      "boundary": 96,
+      "onChord": 105,
+      "maxChordDistance": 5.04e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 84,
+      "surface": "torus",
+      "maxResidual": 0.00004828,
+      "declaredTolerance": null,
+      "offVertices": 33,
+      "boundary": 33,
+      "onChord": 33,
+      "maxChordDistance": 6.34e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 87,
+      "surface": "cylinder",
+      "maxResidual": 0.00001674,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 6.29e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 88,
+      "surface": "cylinder",
+      "maxResidual": 0.00001641,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 3.72e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 89,
+      "surface": "cylinder",
+      "maxResidual": 0.00001641,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 3.72e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 90,
+      "surface": "cylinder",
+      "maxResidual": 0.00001674,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 6.29e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 93,
+      "surface": "cylinder",
+      "maxResidual": 0.00001287,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.62e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 95,
+      "surface": "cylinder",
+      "maxResidual": 0.00001287,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.62e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 98,
+      "surface": "cylinder",
+      "maxResidual": 0.00001673,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 99,
+      "surface": "cylinder",
+      "maxResidual": 0.00001642,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.3e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 100,
+      "surface": "cylinder",
+      "maxResidual": 0.00001642,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.3e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 101,
+      "surface": "cylinder",
+      "maxResidual": 0.00001673,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 104,
+      "surface": "cylinder",
+      "maxResidual": 0.00001286,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 3.5e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 106,
+      "surface": "cylinder",
+      "maxResidual": 0.00001286,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 3.5e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 109,
+      "surface": "cylinder",
+      "maxResidual": 0.00002356,
+      "declaredTolerance": null,
+      "offVertices": 5,
+      "boundary": 5,
+      "onChord": 5,
+      "maxChordDistance": 6.29e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 110,
+      "surface": "cylinder",
+      "maxResidual": 0.00000512,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 5.42e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 111,
+      "surface": "cylinder",
+      "maxResidual": 0.00001641,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 3.72e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 112,
+      "surface": "cylinder",
+      "maxResidual": 0.00001674,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 6.29e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 115,
+      "surface": "cylinder",
+      "maxResidual": 0.00001287,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.62e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 117,
+      "surface": "cylinder",
+      "maxResidual": 0.00001287,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.62e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 120,
+      "surface": "cylinder",
+      "maxResidual": 0.00001673,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 121,
+      "surface": "cylinder",
+      "maxResidual": 0.00001642,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.3e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 122,
+      "surface": "cylinder",
+      "maxResidual": 0.00001642,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.3e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 123,
+      "surface": "cylinder",
+      "maxResidual": 0.00001673,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 126,
+      "surface": "cylinder",
+      "maxResidual": 0.00001286,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 3.5e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 128,
+      "surface": "cylinder",
+      "maxResidual": 0.00001286,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 3.5e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 131,
+      "surface": "cylinder",
+      "maxResidual": 0.00001674,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 6.29e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 132,
+      "surface": "cylinder",
+      "maxResidual": 0.00001641,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 3.72e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 133,
+      "surface": "cylinder",
+      "maxResidual": 0.00000512,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 5.42e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 134,
+      "surface": "cylinder",
+      "maxResidual": 0.00002356,
+      "declaredTolerance": null,
+      "offVertices": 5,
+      "boundary": 5,
+      "onChord": 5,
+      "maxChordDistance": 6.29e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 137,
+      "surface": "cylinder",
+      "maxResidual": 0.00001287,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.62e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 139,
+      "surface": "cylinder",
+      "maxResidual": 0.00001287,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.62e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 142,
+      "surface": "cylinder",
+      "maxResidual": 0.00001673,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 143,
+      "surface": "cylinder",
+      "maxResidual": 0.00001642,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.3e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 144,
+      "surface": "cylinder",
+      "maxResidual": 0.00001642,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.3e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 145,
+      "surface": "cylinder",
+      "maxResidual": 0.00001673,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 148,
+      "surface": "cylinder",
+      "maxResidual": 0.00001286,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 3.5e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 150,
+      "surface": "cylinder",
+      "maxResidual": 0.00001286,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 3.5e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 153,
+      "surface": "cylinder",
+      "maxResidual": 0.00001674,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 6.29e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 154,
+      "surface": "cylinder",
+      "maxResidual": 0.00001641,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 3.72e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 155,
+      "surface": "cylinder",
+      "maxResidual": 0.00000512,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 5.42e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 156,
+      "surface": "cylinder",
+      "maxResidual": 0.00001674,
+      "declaredTolerance": null,
+      "offVertices": 4,
+      "boundary": 4,
+      "onChord": 4,
+      "maxChordDistance": 6.29e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 159,
+      "surface": "cylinder",
+      "maxResidual": 0.00001287,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.62e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 161,
+      "surface": "cylinder",
+      "maxResidual": 0.00001287,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.62e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 164,
+      "surface": "cylinder",
+      "maxResidual": 0.00002356,
+      "declaredTolerance": null,
+      "offVertices": 5,
+      "boundary": 5,
+      "onChord": 5,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 165,
+      "surface": "cylinder",
+      "maxResidual": 0.000005117,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 8.1e-10
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 166,
+      "surface": "cylinder",
+      "maxResidual": 0.000005117,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 8.1e-10
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 167,
+      "surface": "cylinder",
+      "maxResidual": 0.00002356,
+      "declaredTolerance": null,
+      "offVertices": 5,
+      "boundary": 5,
+      "onChord": 5,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 170,
+      "surface": "cylinder",
+      "maxResidual": 0.00001286,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 3.5e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 172,
+      "surface": "cylinder",
+      "maxResidual": 0.00001286,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 3.5e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 304,
+      "surface": "cylinder",
+      "maxResidual": 0.00003986,
+      "declaredTolerance": null,
+      "offVertices": 11,
+      "boundary": 11,
+      "onChord": 11,
+      "maxChordDistance": 6.35e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 306,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.68e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 307,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.95e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 309,
+      "surface": "cylinder",
+      "maxResidual": 0.00002996,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 9.61e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 310,
+      "surface": "cylinder",
+      "maxResidual": 0.00005227,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.3e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 312,
+      "surface": "cylinder",
+      "maxResidual": 0.00004956,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 9.04e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 313,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 315,
+      "surface": "cylinder",
+      "maxResidual": 0.00004956,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.04e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 316,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 318,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.38e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 319,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 6,
+      "boundary": 6,
+      "onChord": 6,
+      "maxChordDistance": 4.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 321,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 322,
+      "surface": "cylinder",
+      "maxResidual": 0.00008118,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 5.42e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 324,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 5.73e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 325,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.09e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 327,
+      "surface": "cylinder",
+      "maxResidual": 0.00008118,
+      "declaredTolerance": null,
+      "offVertices": 11,
+      "boundary": 11,
+      "onChord": 11,
+      "maxChordDistance": 5.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 328,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.95e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 330,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.68e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 331,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 6,
+      "boundary": 6,
+      "onChord": 6,
+      "maxChordDistance": 4.95e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 333,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.68e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 334,
+      "surface": "cylinder",
+      "maxResidual": 0.00005227,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.3e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 336,
+      "surface": "cylinder",
+      "maxResidual": 0.00004956,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 9.04e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 337,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 339,
+      "surface": "cylinder",
+      "maxResidual": 0.00004956,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.04e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 340,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 6,
+      "boundary": 6,
+      "onChord": 6,
+      "maxChordDistance": 4.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 342,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 343,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 345,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.38e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 346,
+      "surface": "cylinder",
+      "maxResidual": 0.00005227,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.09e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 348,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 5.73e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 349,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.09e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 351,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 5.73e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 352,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 6,
+      "boundary": 6,
+      "onChord": 6,
+      "maxChordDistance": 4.95e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 354,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.68e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 355,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.95e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 357,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.68e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 358,
+      "surface": "cylinder",
+      "maxResidual": 0.00008118,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 6.17e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 360,
+      "surface": "cylinder",
+      "maxResidual": 0.00004956,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 9.04e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 361,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 363,
+      "surface": "cylinder",
+      "maxResidual": 0.00008118,
+      "declaredTolerance": null,
+      "offVertices": 11,
+      "boundary": 11,
+      "onChord": 11,
+      "maxChordDistance": 8.48e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 364,
+      "surface": "cylinder",
+      "maxResidual": 0.00003986,
+      "declaredTolerance": null,
+      "offVertices": 11,
+      "boundary": 11,
+      "onChord": 11,
+      "maxChordDistance": 4.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 366,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 367,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 369,
+      "surface": "cylinder",
+      "maxResidual": 0.00002996,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.3e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 370,
+      "surface": "cylinder",
+      "maxResidual": 0.00005227,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.09e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 372,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 5.73e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 373,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.09e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 375,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 5.73e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 376,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 6,
+      "boundary": 6,
+      "onChord": 6,
+      "maxChordDistance": 4.95e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 378,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.68e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 379,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.95e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 381,
+      "surface": "cylinder",
+      "maxResidual": 0.00002996,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 9.61e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 382,
+      "surface": "cylinder",
+      "maxResidual": 0.00005227,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.09e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 384,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 5.73e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 385,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 6.09e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 387,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 5.73e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 388,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 6,
+      "boundary": 6,
+      "onChord": 6,
+      "maxChordDistance": 4.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 390,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 391,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 4.6e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 393,
+      "surface": "cylinder",
+      "maxResidual": 0.00006907,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.38e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 394,
+      "surface": "cylinder",
+      "maxResidual": 0.00005227,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.3e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 396,
+      "surface": "cylinder",
+      "maxResidual": 0.00004956,
+      "declaredTolerance": null,
+      "offVertices": 9,
+      "boundary": 9,
+      "onChord": 9,
+      "maxChordDistance": 9.04e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 397,
+      "surface": "cylinder",
+      "maxResidual": 0.00004955,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.45e-9
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "face": 399,
+      "surface": "cylinder",
+      "maxResidual": 0.00004956,
+      "declaredTolerance": null,
+      "offVertices": 8,
+      "boundary": 8,
+      "onChord": 8,
+      "maxChordDistance": 9.04e-9
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+      "face": 35,
+      "surface": "cone",
+      "maxResidual": 0.00001128,
+      "declaredTolerance": null,
+      "offVertices": 3,
+      "boundary": 3,
+      "onChord": 3,
+      "maxChordDistance": 1.37e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 16,
+      "surface": "cylinder",
+      "maxResidual": 0.000002126,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 7.84e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 18,
+      "surface": "cylinder",
+      "maxResidual": 0.000001493,
+      "declaredTolerance": null,
+      "offVertices": 2,
+      "boundary": 2,
+      "onChord": 2,
+      "maxChordDistance": 4.68e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 20,
+      "surface": "cylinder",
+      "maxResidual": 0.00001437,
+      "declaredTolerance": null,
+      "offVertices": 26,
+      "boundary": 26,
+      "onChord": 26,
+      "maxChordDistance": 2.72e-9
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 22,
+      "surface": "cylinder",
+      "maxResidual": 0.00001437,
+      "declaredTolerance": null,
+      "offVertices": 26,
+      "boundary": 26,
+      "onChord": 26,
+      "maxChordDistance": 1.08e-9
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 24,
+      "surface": "cylinder",
+      "maxResidual": 0.00001437,
+      "declaredTolerance": null,
+      "offVertices": 26,
+      "boundary": 26,
+      "onChord": 26,
+      "maxChordDistance": 8.08e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 26,
+      "surface": "cylinder",
+      "maxResidual": 0.00001437,
+      "declaredTolerance": null,
+      "offVertices": 26,
+      "boundary": 26,
+      "onChord": 26,
+      "maxChordDistance": 2.69e-9
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 36,
+      "surface": "cylinder",
+      "maxResidual": 0.00001326,
+      "declaredTolerance": 0.00001,
+      "offVertices": 38,
+      "boundary": 37,
+      "onChord": 38,
+      "maxChordDistance": 6.75e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 38,
+      "surface": "cylinder",
+      "maxResidual": 0.0000137,
+      "declaredTolerance": null,
+      "offVertices": 18,
+      "boundary": 18,
+      "onChord": 18,
+      "maxChordDistance": 9.34e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 56,
+      "surface": "cylinder",
+      "maxResidual": 0.000017,
+      "declaredTolerance": 0.00001,
+      "offVertices": 16,
+      "boundary": 16,
+      "onChord": 16,
+      "maxChordDistance": 7.24e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 57,
+      "surface": "cylinder",
+      "maxResidual": 0.00001438,
+      "declaredTolerance": null,
+      "offVertices": 5,
+      "boundary": 5,
+      "onChord": 5,
+      "maxChordDistance": 7.52e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 59,
+      "surface": "torus",
+      "maxResidual": 0.00001437,
+      "declaredTolerance": null,
+      "offVertices": 62,
+      "boundary": 54,
+      "onChord": 62,
+      "maxChordDistance": 1.08e-9
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 60,
+      "surface": "torus",
+      "maxResidual": 0.00001437,
+      "declaredTolerance": null,
+      "offVertices": 77,
+      "boundary": 68,
+      "onChord": 75,
+      "maxChordDistance": 2.72e-9
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 61,
+      "surface": "torus",
+      "maxResidual": 0.00001437,
+      "declaredTolerance": null,
+      "offVertices": 73,
+      "boundary": 68,
+      "onChord": 71,
+      "maxChordDistance": 2.69e-9
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 62,
+      "surface": "torus",
+      "maxResidual": 0.00001437,
+      "declaredTolerance": null,
+      "offVertices": 69,
+      "boundary": 63,
+      "onChord": 69,
+      "maxChordDistance": 8.08e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 63,
+      "surface": "torus",
+      "maxResidual": 0.0000137,
+      "declaredTolerance": null,
+      "offVertices": 35,
+      "boundary": 30,
+      "onChord": 35,
+      "maxChordDistance": 9.34e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 65,
+      "surface": "torus",
+      "maxResidual": 0.00001705,
+      "declaredTolerance": 0.00001,
+      "offVertices": 40,
+      "boundary": 39,
+      "onChord": 40,
+      "maxChordDistance": 8.05e-10
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "face": 66,
+      "surface": "torus",
+      "maxResidual": 0.00001705,
+      "declaredTolerance": 0.00001,
+      "offVertices": 71,
+      "boundary": 70,
+      "onChord": 71,
+      "maxChordDistance": 9.28e-10
+    }
+  ],
+  "notes": [
+    "test files new/SW2011/C18_cube_split_line/model.SLDPRT: legacy display face 5 best-fits native face node 1, already taken",
+    "test files original/chainwheel.sldprt: native not read (Expected one Config-0-Partition stream; found 0)",
+    "test files original/plate4.sldprt: native not read (Expected one Config-0-Partition stream; found 0)",
+    "test files original/PTC GE8080-8.SLDPRT: primary partition has 0 faces; body read from Config-0-FeatureBodies/LocalBodies",
+    "test files original/SW2000-s01.SLDPRT: native not read (Expected one Config-0-Partition stream; found 0)"
+  ],
+  "failures": []
+}
