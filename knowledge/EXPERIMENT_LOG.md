@@ -1311,3 +1311,28 @@ Promoted as INV-027.
 
 **Raw evidence**: `knowledge/evidence/2026-10-03_v0.5-EXP075.md`, `knowledge/evidence/scripts/EXP075/`
 
+---
+
+## EXP-076 — Exact STEP written from the native body
+
+**Question**: Can the decoded body be written as exact STEP that is the same solid as SolidWorks' export?
+
+**Result**: A one-to-one writer round-tripped 42/49 controlled models. The 7 failures were two
+missing translation rules: the cone apex is a Parasolid loop with one fin and no edge (3 files),
+and a whole sphere or torus is a face with no loops, which STEP cannot express (4 files). With
+vertex loops and sphere/torus splitting, 49/49 read back as the native body at 1e-8 m, OpenCascade
+reads all 49 as valid single solids, and the boolean difference with SolidWorks' `model.step` is 0
+both ways on 49/49. A new exact volume integrator (divergence + Green's theorem in surface
+parameters, no tessellation) agrees with SolidWorks' STEP to 5.6e-15 and with closed forms to
+4.3e-15. OpenCascade's own volume differs only on C20, where it gives three values for three
+decompositions of one solid. C16's tolerant loft edges bound its volume to about 0.025 mm³.
+Production: 2 of 8 independent real parts with a body are exact; the other 6 are blocked by
+INTERSECTION curves or curveless edges (NQ-049). Promoted as INV-028.
+
+**Files tested**: 49 controlled models; 24 files in `test files original/`.
+
+**Known gaps**: NQ-049 types; no colours, names or assemblies.
+
+**Date**: 2026-10-03
+
+**Raw evidence**: `knowledge/evidence/2026-10-03_v0.5-EXP076.md`, `knowledge/evidence/scripts/EXP076/`

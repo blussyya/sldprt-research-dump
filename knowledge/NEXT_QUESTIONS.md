@@ -1154,6 +1154,12 @@ None has a STEP export to compare against. They can be checked against the displ
 EXP-074, once evaluated. A controlled model per type, exported to STEP the same way as C13–C16,
 would settle each one directly.
 
+Since EXP-076 these are also what stands between the real parts and exact STEP: INTERSECTION
+curves block distributor, Helical Bevel Gear, Pocket Wheel and USB hub BOTTOM; curveless edges
+block Dekor and USB hub TOP. Those 6 fall back to the display mesh. An INTERSECTION curve can be
+written to STEP as a B-spline through its stored chart points, or as an `INTERSECTION_CURVE` of its
+two surfaces; either needs the chart decoded and checked against the mesh first.
+
 **Not blocked** for the display-mesh check. Controlled models need SolidWorks.
 
 **Date raised**: 2026-10-03 (EXP-075).

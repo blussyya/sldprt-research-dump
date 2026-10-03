@@ -1,6 +1,16 @@
 # Research Handoff
 
-## Current checkpoint — 2026-10-03 UTC, EXP-075
+## Current checkpoint — 2026-10-03 UTC, EXP-076
+
+The package now writes exact STEP from the native body ([EXP-076](evidence/2026-10-03_v0.5-EXP076.md), INV-028).
+On all 49 controlled models the file reads back as the body, OpenCascade reads it as one valid
+solid, and the boolean difference with SolidWorks' export is zero. The first writer got 42/49; the
+7 failures were the cone apex (a loop with no edge) and whole spheres/tori (faces with no loops).
+Exact volumes come from a tessellation-free integrator and match closed forms to 4e-15. Real parts:
+PTC and cube are exact; 6 others fall back to the mesh because of INTERSECTION curves or curveless
+edges. Next: NQ-049, starting with the INTERSECTION chart, checked against the display mesh.
+
+## Checkpoint — 2026-10-03 UTC, EXP-075
 
 The decoded native body equals SolidWorks' STEP export on all 49 controlled models, modulo seam
 splitting, worst deviation 9e-18 m, with 20/20 controls detected ([EXP-075](evidence/2026-10-03_v0.5-EXP075.md), INV-027). The

@@ -1,0 +1,504 @@
+{
+ "experiment": "EXP-076",
+ "date": "2026-10-03T11:06:12.809Z",
+ "summary": {
+  "parts": 24,
+  "exact": 15,
+  "blocked": 6,
+  "noBody": 3,
+  "roundTrip": 15,
+  "blockedBy": {
+   "Dekor.SLDPRT": "B-rep: edge 8472 has no curve",
+   "Helical Bevel Gear.SLDPRT": "B-rep: unsupported curve INTERSECTION (node 1697)",
+   "Pocket Wheel.SLDPRT": "B-rep: unsupported curve INTERSECTION (node 51)",
+   "distributor main boss rev a.SLDPRT": "B-rep: unsupported curve INTERSECTION (node 242)",
+   "usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT": "B-rep: unsupported curve INTERSECTION (node 331)",
+   "usb hub case (ultimate test)/USB hub case TOP.SLDPRT": "B-rep: edge 2611 has no curve"
+  }
+ },
+ "rows": [
+  {
+   "part": "Dekor.SLDPRT",
+   "sha256": "865142829c7d91aa85f65771d2a6e60dad4f58d0093422cb56c94ce6c8959c89",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "blocked",
+   "reason": "B-rep: edge 8472 has no curve"
+  },
+  {
+   "part": "Helical Bevel Gear.SLDPRT",
+   "sha256": "d694ebd12683ffd1b6b225f465fd358005b6015388b1cc4fc1867cb38c371a92",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "blocked",
+   "reason": "B-rep: unsupported curve INTERSECTION (node 1697)"
+  },
+  {
+   "part": "PTC GE8080-8.SLDPRT",
+   "sha256": "162e6293b95508072f65d39b4d933553d2f3fa6c77863e29e6135afd026c8f94",
+   "bodySource": "Config-0-FeatureBodies/LocalBodies",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 126,
+    "edges": 314,
+    "vertices": 212,
+    "surfaces": {
+     "plane": 114,
+     "cylinder": 12
+    },
+    "curves": {
+     "line": 290,
+     "circle": 24
+    },
+    "seams": 0,
+    "ringVertices": 0,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 81662.18597035615,
+    "ours": 81662.18597035615
+   }
+  },
+  {
+   "part": "Pocket Wheel.SLDPRT",
+   "sha256": "678a73af7c6eca8b5e6df60905a96f437bd5d1f85a2eed19277332c25629bb8c",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "blocked",
+   "reason": "B-rep: unsupported curve INTERSECTION (node 51)"
+  },
+  {
+   "part": "SW2000-s01.SLDPRT",
+   "sha256": "3a1007ea37bc19bec8a2398b83db204bc36db0c1687fba264160e898335c1ab2",
+   "result": "no body",
+   "reason": "Expected one Config-0-Partition stream; found 0"
+  },
+  {
+   "part": "chainwheel.sldprt",
+   "sha256": "77b81e1ca94b266e4c977bb3ec8fbb9cac294f394ff9d5a2b2b208fb401e0f1a",
+   "result": "no body",
+   "reason": "Expected one Config-0-Partition stream; found 0"
+  },
+  {
+   "part": "controlled/C00_cube_10mm/model.SLDPRT",
+   "sha256": "89ad8d93148d853dc07bd2a2a8b3e6b3be27cd10dbae212d42da11eb2b215877",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 6,
+    "edges": 12,
+    "vertices": 8,
+    "surfaces": {
+     "plane": 6
+    },
+    "curves": {
+     "line": 12
+    },
+    "seams": 0,
+    "ringVertices": 0,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 1000.0000000000008,
+    "ours": 1000.0000000000008
+   }
+  },
+  {
+   "part": "controlled/C01_cube_20mm/model.SLDPRT",
+   "sha256": "1da2b075fd3492e49699bd4cf0065e11411b1017e88e1822e1cded9ee51f9af0",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 6,
+    "edges": 12,
+    "vertices": 8,
+    "surfaces": {
+     "plane": 6
+    },
+    "curves": {
+     "line": 12
+    },
+    "seams": 0,
+    "ringVertices": 0,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 8000.000000000006,
+    "ours": 8000.000000000006
+   }
+  },
+  {
+   "part": "controlled/C02_cube_translated/model.SLDPRT",
+   "sha256": "cc73f8cbc0f9e4fce2c4f4cdf8ab3d5fcaaa3bdd593318e2f8f74108d91b50d5",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 6,
+    "edges": 12,
+    "vertices": 8,
+    "surfaces": {
+     "plane": 6
+    },
+    "curves": {
+     "line": 12
+    },
+    "seams": 0,
+    "ringVertices": 0,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 1000.0000000000118,
+    "ours": 1000.0000000000118
+   }
+  },
+  {
+   "part": "controlled/C03_cube_fillet_1mm/model.SLDPRT",
+   "sha256": "a14df0089bbc7cc5bf47e1d0d2cfbe50ba17be21c636cef4540d509164a514d2",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 7,
+    "edges": 15,
+    "vertices": 10,
+    "surfaces": {
+     "plane": 6,
+     "cylinder": 1
+    },
+    "curves": {
+     "circle": 2,
+     "line": 13
+    },
+    "seams": 0,
+    "ringVertices": 0,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 997.8539816339752,
+    "ours": 997.8539816339754
+   }
+  },
+  {
+   "part": "controlled/C04_cube_hole_5mm/model.SLDPRT",
+   "sha256": "38ff0e82f9f92002e2cb6092345bbd76b19e5a40e3d085f1e36a0d3139f4f8e3",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 7,
+    "edges": 14,
+    "vertices": 10,
+    "surfaces": {
+     "cylinder": 1,
+     "plane": 6
+    },
+    "curves": {
+     "line": 12,
+     "circle": 2
+    },
+    "seams": 0,
+    "ringVertices": 2,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 803.6504591506387,
+    "ours": 803.6504591506387
+   }
+  },
+  {
+   "part": "controlled/C05_cube_hole_3mm/model.SLDPRT",
+   "sha256": "3dd9eaf83e44f81d769e852b6468bf04de7a565e75cb49fcfc34f3aeaf6cbd96",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 7,
+    "edges": 14,
+    "vertices": 10,
+    "surfaces": {
+     "cylinder": 1,
+     "plane": 6
+    },
+    "curves": {
+     "line": 12,
+     "circle": 2
+    },
+    "seams": 0,
+    "ringVertices": 2,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 929.3141652942304,
+    "ours": 929.3141652942304
+   }
+  },
+  {
+   "part": "controlled/C06_cube_hole_moved/model.SLDPRT",
+   "sha256": "b4880b5a192c29f52cfc2036563caad3b8ff6384a863c4ea949d3eaa1e3404ed",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 7,
+    "edges": 14,
+    "vertices": 10,
+    "surfaces": {
+     "cylinder": 1,
+     "plane": 6
+    },
+    "curves": {
+     "line": 12,
+     "circle": 2
+    },
+    "seams": 0,
+    "ringVertices": 2,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 803.6504591506387,
+    "ours": 803.6504591506387
+   }
+  },
+  {
+   "part": "controlled/C07_cube_two_holes/model.SLDPRT",
+   "sha256": "1fca948b6ab1a3ea94eec6f1013cdf60c81dcf9a4fbdb0b2fe100afdd9ba07c9",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 8,
+    "edges": 16,
+    "vertices": 12,
+    "surfaces": {
+     "cylinder": 2,
+     "plane": 6
+    },
+    "curves": {
+     "line": 12,
+     "circle": 4
+    },
+    "seams": 0,
+    "ringVertices": 4,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 607.3009183012767,
+    "ours": 607.3009183012767
+   }
+  },
+  {
+   "part": "controlled/C08_cube_second_hole_modified/model.SLDPRT",
+   "sha256": "0213ffbcba1f2d95de22445b62d35faaa2ee26d43fc644b03a91cca06159b811",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 8,
+    "edges": 16,
+    "vertices": 12,
+    "surfaces": {
+     "cylinder": 2,
+     "plane": 6
+    },
+    "curves": {
+     "line": 12,
+     "circle": 4
+    },
+    "seams": 0,
+    "ringVertices": 4,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 732.9646244448683,
+    "ours": 732.9646244448683
+   }
+  },
+  {
+   "part": "controlled/C09_cube_chamfer_1mm/model.SLDPRT",
+   "sha256": "a76902070b7f47e97ee7cb7c76a9064796b8b4ab182f1c25ded41e97e2b61246",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 7,
+    "edges": 15,
+    "vertices": 10,
+    "surfaces": {
+     "plane": 7
+    },
+    "curves": {
+     "line": 15
+    },
+    "seams": 0,
+    "ringVertices": 0,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 995.0000000000008,
+    "ours": 995.0000000000008
+   }
+  },
+  {
+   "part": "controlled/C10_cube_shell_1mm/model.SLDPRT",
+   "sha256": "12668ec6b393b765a5d4076a5a2b49378886d08ea8ffef0e2aa8d9c71c911cce",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 11,
+    "edges": 24,
+    "vertices": 16,
+    "surfaces": {
+     "plane": 11
+    },
+    "curves": {
+     "line": 24
+    },
+    "seams": 0,
+    "ringVertices": 0,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 424.0000000000003,
+    "ours": 423.9999999999999
+   }
+  },
+  {
+   "part": "controlled/C11_cube_hole_4mm/model.SLDPRT",
+   "sha256": "fb78c483202368cd9d50a340be17b269048c285ae58dc1d5ca2b1f118243fa9e",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 7,
+    "edges": 14,
+    "vertices": 10,
+    "surfaces": {
+     "cylinder": 1,
+     "plane": 6
+    },
+    "curves": {
+     "line": 12,
+     "circle": 2
+    },
+    "seams": 0,
+    "ringVertices": 2,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 874.336293856409,
+    "ours": 874.336293856409
+   }
+  },
+  {
+   "part": "controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+   "sha256": "8c835c79e0b30e4ba2ae4a0f6d9aa37ceedf0f6aa181624935f663700475a8e4",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 7,
+    "edges": 15,
+    "vertices": 10,
+    "surfaces": {
+     "cylinder": 1,
+     "plane": 6
+    },
+    "curves": {
+     "circle": 2,
+     "line": 13
+    },
+    "seams": 0,
+    "ringVertices": 0,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 997.8539816339754,
+    "ours": 997.8539816339754
+   }
+  },
+  {
+   "part": "cube.SLDPRT",
+   "sha256": "e002c483df1faab6c635d52dd190311e2b0fd4a36758e54020efdd7512026cb1",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "exact",
+   "report": {
+    "source": "brep",
+    "faces": 6,
+    "edges": 12,
+    "vertices": 8,
+    "surfaces": {
+     "plane": 6
+    },
+    "curves": {
+     "line": 12
+    },
+    "seams": 0,
+    "ringVertices": 0,
+    "splitFaces": 0
+   },
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": {
+    "native": 64000.00000000011,
+    "ours": 64000.00000000012
+   }
+  },
+  {
+   "part": "distributor main boss rev a.SLDPRT",
+   "sha256": "72454b269924d6361d3b88a1e7f4ce217751abdf5e413580ac62d23392897711",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "blocked",
+   "reason": "B-rep: unsupported curve INTERSECTION (node 242)"
+  },
+  {
+   "part": "plate4.sldprt",
+   "sha256": "ab35db15d337f808f9ce9ee8fc72cc243c2fb2d78d033cf8514ef96e0f65d399",
+   "result": "no body",
+   "reason": "Expected one Config-0-Partition stream; found 0"
+  },
+  {
+   "part": "usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+   "sha256": "851f385248ed25cf7c9a2677df3169738c139f34120cb8734ae6ef89d26521a1",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "blocked",
+   "reason": "B-rep: unsupported curve INTERSECTION (node 331)"
+  },
+  {
+   "part": "usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+   "sha256": "b2928e16b72dd92f085e5d3cb83c101777acf075d2abf1b268563fdd564c14fc",
+   "bodySource": "Contents/Config-0-Partition",
+   "result": "blocked",
+   "reason": "B-rep: edge 2611 has no curve"
+  }
+ ]
+}

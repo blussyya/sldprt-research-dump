@@ -2,6 +2,23 @@
 
 > **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
 
+## INV-028: STEP Written From the Native Body Is the Same Solid
+
+> **Established 2026-10-03 (EXP-076).**
+
+**Status:** Verified on the controlled corpus.
+
+**Evidence:** STEP written from the native body (vertex loops for edgeless fins, whole spheres split
+into halves and whole tori into quarters, ring edges given one vertex) reads back as the native
+body on 49/49 controlled models. OpenCascade reads 49/49 as valid single solids; boolean difference
+with SolidWorks' `model.step` is zero in both directions on 49/49. Exact volumes agree with
+SolidWorks' STEP to 5.6e-15 relative and with closed forms to 4.3e-15 (24 files).
+
+**Confidence/date:** High within the controlled corpus, 2026-10-03. Not covered: NQ-049 types,
+which block 6 of 8 independent real parts.
+
+**Source:** [EXP-076](evidence/2026-10-03_v0.5-EXP076.md).
+
 ## INV-027: The Native Partition Body Is the Part SolidWorks Exports
 
 > **Established 2026-10-03 (EXP-075).**
