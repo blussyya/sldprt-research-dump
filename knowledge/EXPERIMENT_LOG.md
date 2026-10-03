@@ -1336,3 +1336,27 @@ INTERSECTION curves or curveless edges (NQ-049). Promoted as INV-028.
 **Date**: 2026-10-03
 
 **Raw evidence**: `knowledge/evidence/2026-10-03_v0.5-EXP076.md`, `knowledge/evidence/scripts/EXP076/`
+
+---
+
+## EXP-077 — Where the remaining geometry is stored
+
+**Question**: Where do the pre-2011 parts keep their body and mesh, and what is stored for INTERSECTION curves and curveless edges?
+
+**Result**: Pre-2011 streams are PKWARE DCL implode, not zlib (decoder consumes 3/3 streams
+exactly). chainwheel's `Config-0-Body` is neutral binary written in schema 13006 itself (no edit
+scripts; LIST has twelve fields); plate4's body is stream `Default`, a Parasolid 9 little-endian
+bare binary file with five layout differences from 13006. Both parse to the last byte with 0 graph
+failures; plate4 exports exact STEP (38,400,000 mm³, OpenCascade agrees). Both meshes read
+(189/189, 14/14 faces) in two older face-record variants. SW2000-s01 is an empty part. INTERSECTION
+curves are two surfaces plus a CHART of points that lie on both surfaces to 3e-15 m (2,170 points,
+392 curves). The 27 curveless edges are tolerant edges with a 2D SP_CURVE per fin; trim points match
+to 1e-16 m and the two fin curves agree within tolerance on 27/27. No invariant promoted.
+
+**Files tested**: the 3 pre-2011 parts; the 7 real parts with INTERSECTION curves or tolerant edges.
+
+**Known gaps**: writing intersections and tolerant edges; SWEPT_SURF, BLENDED_EDGE; strip control 0.
+
+**Date**: 2026-10-03
+
+**Raw evidence**: `knowledge/evidence/2026-10-03_v0.5-EXP077.md`, `knowledge/evidence/scripts/EXP077/`

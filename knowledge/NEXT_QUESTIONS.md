@@ -1154,6 +1154,11 @@ None has a STEP export to compare against. They can be checked against the displ
 EXP-074, once evaluated. A controlled model per type, exported to STEP the same way as C13–C16,
 would settle each one directly.
 
+**Located, 2026-10-03 (EXP-077).** INTERSECTION = two surfaces + a CHART of exact points (on both
+surfaces to 3e-15 m) + two LIMITs. Curveless edges are tolerant edges: one 2D SP_CURVE per fin,
+agreeing within the edge tolerance. What remains is writing them and evaluating SWEPT_SURF and
+BLENDED_EDGE. chainwheel (pre-2011) adds 120 more INTERSECTION curves.
+
 Since EXP-076 these are also what stands between the real parts and exact STEP: INTERSECTION
 curves block distributor, Helical Bevel Gear, Pocket Wheel and USB hub BOTTOM; curveless edges
 block Dekor and USB hub TOP. Those 6 fall back to the display mesh. An INTERSECTION curve can be

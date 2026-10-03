@@ -1,0 +1,539 @@
+{
+ "experiment": "EXP-077",
+ "date": "2026-10-03T21:10:08.901Z",
+ "pre2011": {
+  "SW2000-s01.SLDPRT": {
+   "sha256": "3a1007ea37bc19bec8a2398b83db204bc36db0c1687fba264160e898335c1ab2",
+   "streams": {
+    "Header": 481,
+    "Preview": 5300,
+    "\u0005DocumentSummaryInformation": 148,
+    "\u0005SummaryInformation": 252,
+    "ISolidWorksInformation": 120,
+    "DLUpdateStamp": 6,
+    "DisplayLists__Zip": 592,
+    "OleItems": 4,
+    "CMgr": 343,
+    "CMgrHdr": 69,
+    "Config-0": 5456,
+    "Definition": 957,
+    "Biography": 840,
+    "History": 98
+   },
+   "DisplayLists__Zip": {
+    "prefixLengthMatches": null,
+    "header": "0106",
+    "in": 592,
+    "consumed": 592,
+    "out": 1697,
+    "startsWith": "\"\\u0001\\u0000\\u0000\\u0000\\u0001\\u0000\\u0000\\u0000\""
+   },
+   "featureTreeClasses": [
+    "moPart_c",
+    "moHeader_c",
+    "moLogs_c",
+    "moStamp_c",
+    "moNodeName_c",
+    "moDetailCabinet_c",
+    "moEnvFolder_c",
+    "moAmbientLight_c",
+    "moDirectionLight_c",
+    "moRefPlane_c",
+    "moDefaultRefPlnData_c",
+    "moOriginProfileFeature_c",
+    "sgSketch",
+    "sgPointHandle",
+    "moCompRefPlane_c",
+    "moUnitComponent_c",
+    "moVisualProperties_c",
+    "moRelMgr_c",
+    "moUnitsTable_c",
+    "moLengthUserUnits_c",
+    "moAngleUserUnits_c",
+    "moNumberUserUnits_c",
+    "moDensityUnits_c",
+    "moFloatNumberUserUnits_c",
+    "moView_c",
+    "moFeatColorTab_c",
+    "gcXhatch_c",
+    "moMaterial_c",
+    "moDensityParameter_c",
+    "uoPart_c"
+   ],
+   "body": {
+    "error": "No Parasolid body: no Config-0-Partition, Config-N-Body or transmit stream (a part with no solid has none)"
+   },
+   "display": {
+    "errors": [
+     "No supported face records found"
+    ],
+    "faces": 0,
+    "triangles": 0,
+    "rejected": 0,
+    "withBounds": 0,
+    "noEdgeTable": 0,
+    "extraArrays": 0,
+    "stripControls": {}
+   }
+  },
+  "chainwheel.sldprt": {
+   "sha256": "77b81e1ca94b266e4c977bb3ec8fbb9cac294f394ff9d5a2b2b208fb401e0f1a",
+   "streams": {
+    "Header": 1851,
+    "Preview": 17090,
+    "\u0005DocumentSummaryInformation": 284,
+    "\u0005SummaryInformation": 248,
+    "ISolidWorksInformation": 712,
+    "DLUpdateStamp": 6,
+    "DisplayLists__Zip": 79857,
+    "OleItems": 4,
+    "CMgr": 475,
+    "CMgrHdr": 79,
+    "Config-0": 42205,
+    "Config-0-Body": 93391,
+    "Definition": 1719,
+    "Biography": 6217,
+    "History": 101
+   },
+   "DisplayLists__Zip": {
+    "prefixLengthMatches": null,
+    "header": "0106",
+    "in": 79857,
+    "consumed": 79857,
+    "out": 212677,
+    "startsWith": "\"\\u0001\\u0000\\u0000\\u0000\\u0001\\u0000\\u0000\\u0000\""
+   },
+   "Config-0-Body": {
+    "prefixLengthMatches": true,
+    "header": "0106",
+    "in": 93387,
+    "consumed": 93387,
+    "out": 158309,
+    "startsWith": "\"PS\\u0000\\u0000\\u00003: \""
+   },
+   "featureTreeClasses": [
+    "moPart_c",
+    "moHeader_c",
+    "moLogs_c",
+    "moStamp_c",
+    "moExtObject_c",
+    "moObjFileDef_c",
+    "moNodeName_c",
+    "moDefaultRefPlnData_c",
+    "sgSketch",
+    "sgPointHandle",
+    "moCompRefPlane_c",
+    "moUnitComponent_c",
+    "sgExtEnt_c",
+    "sgLineHandle",
+    "sgArcHandle",
+    "sgCircleDim",
+    "sgPntPntDist",
+    "sgLLDist",
+    "sgPntLineDist",
+    "moDisplayRadialDim_c",
+    "moSkDimHandleRadial_c",
+    "moFavoriteHandle_c",
+    "moDisplayDistanceDim_c",
+    "moSkDimHandleValG2_c",
+    "moDisplayRevolveDim_c",
+    "moDisplayAngularDim_c",
+    "moFeatureDimHandle_c",
+    "AngleDim_c",
+    "moEdgeRef_c",
+    "moFromSktEntSurfIdRep_c",
+    "moFR_c",
+    "sgAnglDim",
+    "moEndSpec_c",
+    "moPlaneInterAxisData_c",
+    "moDisplayDim_c",
+    "moNumberDim_c",
+    "ParallelPlaneDistanceDim_c",
+    "moVisualProperties_c",
+    "moRelMgr_c",
+    "moRelation_c",
+    "moUnitsTable_c",
+    "moLengthUserUnits_c",
+    "moAngleUserUnits_c",
+    "moNumberUserUnits_c",
+    "moDensityUnits_c",
+    "moFloatNumberUserUnits_c",
+    "moView_c",
+    "moFeatColorTab_c",
+    "gcCurvatureObject_c",
+    "moTransRefPlaneData_c",
+    "moLPatternSurfIdRep_c",
+    "moCirPatternSurfIdRep_c",
+    "gcXhatch_c",
+    "moMaterial_c",
+    "moDensityParameter_c",
+    "uoPart_c"
+   ],
+   "body": {
+    "source": "Config-0-Body",
+    "kind": "body (PKWARE implode)",
+    "schema": "SCH_1300242_13006",
+    "description": ": TRANSMIT FILE created by modeller version 1300242",
+    "littleEndian": false,
+    "error": null,
+    "terminated": true,
+    "consumed": 158309,
+    "total": 158309,
+    "nodes": 4279,
+    "faces": 189,
+    "graphChecks": 13527,
+    "graphErrors": 0,
+    "unresolved": 3,
+    "schemaLayouts": [
+     {
+      "type": 12,
+      "name": "BODY",
+      "fields": [
+       "highest_node_id",
+       "attributes_groups",
+       "attribute_chains",
+       "surface",
+       "curve",
+       "point",
+       "key",
+       "res_size",
+       "res_linear",
+       "ref_instance",
+       "next",
+       "previous",
+       "state",
+       "owner",
+       "body_type",
+       "nom_geom_state",
+       "shell",
+       "boundary_surface",
+       "boundary_curve",
+       "boundary_point",
+       "region",
+       "edge",
+       "vertex"
+      ]
+     },
+     {
+      "type": 70,
+      "name": "LIST",
+      "fields": [
+       "node_id",
+       "owner",
+       "next",
+       "previous",
+       "list_type",
+       "list_length",
+       "block_length",
+       "size_of_entry",
+       "list_block",
+       "current_block",
+       "current_position",
+       "finished"
+      ]
+     },
+     {
+      "type": 17,
+      "name": "FIN",
+      "fields": [
+       "attributes_groups",
+       "loop",
+       "forward",
+       "backward",
+       "vertex",
+       "other",
+       "edge",
+       "curve",
+       "next_at_vx",
+       "sense"
+      ]
+     },
+     {
+      "type": 80,
+      "name": "ATTRIB_DEF",
+      "fields": [
+       "next",
+       "identifier",
+       "type_id",
+       "actions",
+       "field_names",
+       "legal_owners",
+       "fields"
+      ]
+     }
+    ]
+   },
+   "exactStep": {
+    "blockedBy": "B-rep: unsupported curve INTERSECTION (node 1132)"
+   },
+   "display": {
+    "errors": [],
+    "faces": 189,
+    "triangles": 2924,
+    "rejected": 0,
+    "withBounds": 189,
+    "noEdgeTable": 0,
+    "extraArrays": 189,
+    "stripControls": {
+     "1:7": 110,
+     "1:8": 16,
+     "1:11": 43,
+     "1:4": 21,
+     "1:5": 145,
+     "1:9": 31,
+     "1:3": 91,
+     "0:3": 276,
+     "1:6": 104,
+     "1:24": 2,
+     "1:50": 3,
+     "1:12": 13,
+     "1:10": 12
+    },
+    "onSurface": {
+     "vertices": 4658,
+     "offOver1um": 890,
+     "offOnBoundaryEdges": 833,
+     "worstM": 0.0000357898317886185
+    }
+   }
+  },
+  "plate4.sldprt": {
+   "sha256": "ab35db15d337f808f9ce9ee8fc72cc243c2fb2d78d033cf8514ef96e0f65d399",
+   "streams": {
+    "Header": 1631,
+    "Preview": 6554,
+    "\u0005DocumentSummaryInformation": 126,
+    "\u0005SummaryInformation": 237,
+    "Default": 9412,
+    "DisplayLists": 6038,
+    "Definition": 20671,
+    "History": 111
+   },
+   "featureTreeClasses": [],
+   "body": {
+    "source": "Default",
+    "kind": "body (bare binary)",
+    "schema": "SCH_900203_9008",
+    "description": ": TRANSMIT FILE created by modeller version 900203",
+    "littleEndian": true,
+    "error": null,
+    "terminated": true,
+    "consumed": 9408,
+    "total": 9408,
+    "nodes": 277,
+    "faces": 14,
+    "graphChecks": 900,
+    "graphErrors": 0,
+    "unresolved": 4,
+    "schemaLayouts": [
+     {
+      "type": 12,
+      "name": "BODY",
+      "fields": [
+       "highest_node_id",
+       "attributes_groups",
+       "attribute_chains",
+       "surface",
+       "curve",
+       "point",
+       "key",
+       "res_size",
+       "res_linear",
+       "ref_instance",
+       "next",
+       "previous",
+       "state",
+       "owner",
+       "body_type",
+       "shell",
+       "boundary_surface",
+       "boundary_curve",
+       "boundary_point",
+       "region",
+       "edge",
+       "vertex"
+      ]
+     },
+     {
+      "type": 70,
+      "name": "LIST",
+      "fields": [
+       "node_id",
+       "owner",
+       "next",
+       "previous",
+       "list_type",
+       "list_length",
+       "block_length",
+       "size_of_entry",
+       "list_block",
+       "current_block",
+       "current_position",
+       "finished"
+      ]
+     },
+     {
+      "type": 102,
+      "name": "KEY",
+      "fields": [
+       "string"
+      ]
+     },
+     {
+      "type": 17,
+      "name": "FIN",
+      "fields": [
+       "loop",
+       "forward",
+       "backward",
+       "vertex",
+       "other",
+       "edge",
+       "curve",
+       "next_at_vx",
+       "sense"
+      ]
+     },
+     {
+      "type": 80,
+      "name": "ATTRIB_DEF",
+      "fields": [
+       "next",
+       "identifier",
+       "type_id",
+       "actions",
+       "legal_owners",
+       "fields"
+      ]
+     }
+    ]
+   },
+   "exactStep": {
+    "roundTrip": true,
+    "surfaces": {
+     "plane": 14
+    },
+    "volumeMm3": 38399999.99999998
+   },
+   "display": {
+    "errors": [],
+    "faces": 14,
+    "triangles": 44,
+    "rejected": 0,
+    "withBounds": 14,
+    "noEdgeTable": 14,
+    "extraArrays": 0,
+    "stripControls": {},
+    "meshVolumeMm3": 38400000.725686535
+   }
+  }
+ },
+ "intersections": {
+  "Dekor.SLDPRT": {
+   "curves": 8,
+   "skippedUnsupportedSurface": 0,
+   "points": 48,
+   "pointsPerChart": [
+    6,
+    6
+   ],
+   "maxChordalErrorM": 0.00023091453764732836,
+   "worstDistanceToEitherSurfaceM": 4.423544863740858e-16
+  },
+  "Helical Bevel Gear.SLDPRT": {
+   "curves": 24,
+   "skippedUnsupportedSurface": 0,
+   "points": 96,
+   "pointsPerChart": [
+    4,
+    4
+   ],
+   "maxChordalErrorM": 0.0025168951989172003,
+   "worstDistanceToEitherSurfaceM": 2.943982461207542e-17
+  },
+  "Pocket Wheel.SLDPRT": {
+   "curves": 204,
+   "skippedUnsupportedSurface": 0,
+   "points": 1332,
+   "pointsPerChart": [
+    2,
+    13
+   ],
+   "maxChordalErrorM": 0.0014283384545435837,
+   "worstDistanceToEitherSurfaceM": 2.706168622523819e-15
+  },
+  "chainwheel.sldprt": {
+   "curves": 120,
+   "skippedUnsupportedSurface": 0,
+   "points": 496,
+   "pointsPerChart": [
+    4,
+    6
+   ],
+   "maxChordalErrorM": 0.001693645510120223,
+   "worstDistanceToEitherSurfaceM": 2.7755575615628914e-17
+  },
+  "distributor main boss rev a.SLDPRT": {
+   "curves": 20,
+   "skippedUnsupportedSurface": 0,
+   "points": 120,
+   "pointsPerChart": [
+    2,
+    20
+   ],
+   "maxChordalErrorM": 0.00029334520574563925,
+   "worstDistanceToEitherSurfaceM": 4.1705580933786565e-17
+  },
+  "usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT": {
+   "curves": 8,
+   "skippedUnsupportedSurface": 0,
+   "points": 44,
+   "pointsPerChart": [
+    5,
+    7
+   ],
+   "maxChordalErrorM": 0.0007068748072735285,
+   "worstDistanceToEitherSurfaceM": 4.3107878378023656e-16
+  },
+  "usb hub case (ultimate test)/USB hub case TOP.SLDPRT": {
+   "curves": 10,
+   "skippedUnsupportedSurface": 2,
+   "points": 34,
+   "pointsPerChart": [
+    3,
+    6
+   ],
+   "maxChordalErrorM": 0.0009831767891563053,
+   "worstDistanceToEitherSurfaceM": 2.688821387764051e-17
+  }
+ },
+ "tolerantEdges": {
+  "Dekor.SLDPRT": {
+   "edges": 20,
+   "tolerancesM": [
+    5.049999999999999e-7,
+    5e-7
+   ],
+   "finCurveChain": [
+    "TRIMMED_CURVE>SP_CURVE>B_CURVE>NURBS_CURVE>dim2"
+   ],
+   "finCurves": 40,
+   "worstTrimPointMissM": 1.1666015375944028e-16,
+   "worstGapBetweenFinCurvesM": 2.1106962167661333e-7,
+   "edgesWithinTolerance": 20
+  },
+  "usb hub case (ultimate test)/USB hub case TOP.SLDPRT": {
+   "edges": 7,
+   "tolerancesM": [
+    0.00001
+   ],
+   "finCurveChain": [
+    "TRIMMED_CURVE>SP_CURVE>B_CURVE>NURBS_CURVE>dim2"
+   ],
+   "finCurves": 14,
+   "worstTrimPointMissM": 0,
+   "worstGapBetweenFinCurvesM": 0.000001755094802859998,
+   "edgesWithinTolerance": 7
+  }
+ }
+}

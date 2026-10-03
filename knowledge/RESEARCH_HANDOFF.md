@@ -1,6 +1,15 @@
 # Research Handoff
 
-## Current checkpoint — 2026-10-03 UTC, EXP-076
+## Current checkpoint — 2026-10-03 UTC, EXP-077
+
+Every geometry-bearing stream in the corpus is now read ([EXP-077](evidence/2026-10-03_v0.5-EXP077.md)).
+Pre-2011 streams are PKWARE implode; chainwheel's body is base-schema 13006 neutral binary and
+plate4's is a Parasolid 9 little-endian bare binary file in stream `Default`; both meshes read in
+older face-record variants; SW2000-s01 is empty. INTERSECTION curves are two surfaces plus exact
+chart points; curveless edges are tolerant edges with a 2D curve per fin. Next: march intersection
+curves and write tolerant edges as STEP surface curves, then SWEPT_SURF and BLENDED_EDGE.
+
+## Checkpoint — 2026-10-03 UTC, EXP-076
 
 The package now writes exact STEP from the native body ([EXP-076](evidence/2026-10-03_v0.5-EXP076.md), INV-028).
 On all 49 controlled models the file reads back as the body, OpenCascade reads it as one valid
