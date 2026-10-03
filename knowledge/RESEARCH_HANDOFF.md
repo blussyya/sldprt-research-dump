@@ -1,5 +1,14 @@
 # Research Handoff
 
+## Current checkpoint — 2026-10-03 UTC, EXP-075
+
+The decoded native body equals SolidWorks' STEP export on all 49 controlled models, modulo seam
+splitting, worst deviation 9e-18 m, with 20/20 controls detected ([EXP-075](evidence/2026-10-03_v0.5-EXP075.md), INV-027). The
+readers, converter and viewers now live as one package in sldprt-format-research (`src/`,
+`bin/sldprt.js`); research scripts here vendor a snapshot of the modules they use. Next: an exact
+STEP writer from the native body, validated by reading its output back against the body and
+against SolidWorks' volumes; then NQ-049, the production-only geometry types.
+
 ## Current checkpoint — 2026-09-29 UTC, EXP-074
 
 [EXP-074](evidence/2026-09-29_v0.4.9-EXP074.md) joins `parser/v0.3`'s display layer to the EXP-071 native decode. Display `rawId` = native FACE `node_id` (142/142 SW2022, 1272/1272 original), metadata and Block1 edge IDs = native edge sets, every tag maps to one native surface type (4007 = BLENDED_EDGE, 4009 = SWEPT_SURF, identified here), and analytic faces carry the display mesh to ≤ 2.5e-8 m with 0 opposed normals. Off-surface display vertices are boundary chord points (158/158 SW2022; 314 original vertices still unexplained); declared tolerance does not explain them. The partition section frame is decoded (Partition = partition + deltas, Ghost = partition, 8 zero tail bytes); PTC's body is in `Config-0-FeatureBodies/LocalBodies`, answering EXP-073's body-authority question for that file. Next: NQ-048 (ResolvedFeatures 1-face bodies, LocalBodies prefix), the 314 off-chord vertices, evaluation of B/swept/blended surfaces, legacy SW2011 metadata. No invariant was promoted.

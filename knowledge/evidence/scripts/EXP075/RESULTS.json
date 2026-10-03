@@ -1,0 +1,4281 @@
+{
+ "experiment": "EXP-075",
+ "date": "2026-10-03",
+ "tolerance": 1e-8,
+ "summary": {
+  "models": 49,
+  "pass": 49,
+  "nativeFaces": 287,
+  "stepFaces": 331,
+  "nativeEdges": 531,
+  "stepEdges": 688,
+  "seams": 90,
+  "worstDeviationMetres": {
+   "vertex": 2.4532694666933987e-18,
+   "edge": 9.011605141513788e-18,
+   "surface": 3.903127820947816e-18,
+   "length": 4.163336342344337e-17
+  },
+  "controlsCaught": "20/20"
+ },
+ "rows": [
+  {
+   "model": "SW2011/C00_cube_10mm",
+   "sha256": {
+    "sldprt": "7054cfc0fb771980a2170df80a8fc38718225a2d193213834245334257604bf5",
+    "step": "10fc6653a308d88efbb17a7859830fb2071f8623405826b5565268acf3494889"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 232,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 228,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 226,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 227,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 230,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 224,
+     "native": 43,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C01_cube_20mm",
+   "sha256": {
+    "sldprt": "1841f3ef52c46512d2a7544d54c2ef7ab817f376c82ad3e3e15e68d2c01d0729",
+    "step": "e2c828c30b7b782c10838c000cedb8a3c88fa68886ef82b57439001800255512"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 232,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 230,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 235,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 231,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 233,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 234,
+     "native": 43,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C02_cube_translated",
+   "sha256": {
+    "sldprt": "5b088c2eb8bdf4d0709f38d8583ff43b559e9fbdd852b0ca3b0de53ca1214e2e",
+    "step": "292598812fb1e45a1da0ba9e9c2e33e12546d02876687ca9bfa600f563b8f205"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 208,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 212,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 228,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 226,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 217,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 216,
+     "native": 43,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C03_cube_fillet_1mm",
+   "sha256": {
+    "sldprt": "456a2c8cef38cbaa7b375a2632ee8f044a2513687935016ba74c2a24730b75b0",
+    "step": "9948147aaf7bbd416e1e424f564d92991fb9ad1520839f770429b730a7b5b13a"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 10,
+     "step": 10,
+     "matched": 10
+    },
+    "edges": {
+     "native": 15,
+     "step": 15,
+     "onNativeEdges": 15,
+     "seams": 0
+    },
+    "faces": {
+     "native": 7,
+     "step": 7,
+     "mapped": 7
+    }
+   },
+   "deviation": {
+    "vertex": 1.734723475976807e-18,
+    "edge": 3.878959614448864e-18,
+    "surface": 3.903127820947816e-18,
+    "length": 1.734723475976807e-18
+   },
+   "surfaceParameters": [
+    {
+     "step": 50,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 70,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 52,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 46,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 66,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 49,
+     "native": 43,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 53,
+     "native": 171,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 2.4532694666933987e-18,
+     "radius": 8.673617379884035e-19
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C04_cube_hole_5mm",
+   "sha256": {
+    "sldprt": "b472a5bb9a1e5bfd6e210042f5d1cc0e52bc8ec5fcc819d1d652e82c7218a55e",
+    "step": "a9f3060196cac89886331b5435d7f15387b949d7464c22f992ed77f2cf68be0e"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 12,
+     "matched": 8
+    },
+    "edges": {
+     "native": 14,
+     "step": 18,
+     "onNativeEdges": 16,
+     "seams": 2
+    },
+    "faces": {
+     "native": 7,
+     "step": 8,
+     "mapped": 8
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 9.69739903612216e-19,
+    "surface": 4.336808689942018e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 19,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 11,
+     "native": 142,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 29,
+     "native": 136,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 33,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 3,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 4,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 36,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 23,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C05_cube_hole_3mm",
+   "sha256": {
+    "sldprt": "b9b08de9eff27b10f790f772a7b97b437133b5ba7d89d9cfd3177ef4ec97908b",
+    "step": "fa471b0a61876d631f62c9a7d8e08d958a34be65d6f5504604ef142a6fd854bf"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 12,
+     "matched": 8
+    },
+    "edges": {
+     "native": 14,
+     "step": 18,
+     "onNativeEdges": 16,
+     "seams": 2
+    },
+    "faces": {
+     "native": 7,
+     "step": 8,
+     "mapped": 8
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 8.673617379884035e-19,
+    "surface": 6.505213034913027e-19,
+    "length": 3.469446951953614e-18
+   },
+   "surfaceParameters": [
+    {
+     "step": 86,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 2.168404344971009e-19
+    },
+    {
+     "step": 77,
+     "native": 142,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 90,
+     "native": 136,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 93,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 92,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 91,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 94,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 83,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 2.168404344971009e-19
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C06_cube_hole_moved",
+   "sha256": {
+    "sldprt": "60c71002393a2618fdda2a587bbe925592617bcaf6c4c38d5e17c713431b8ee7",
+    "step": "5ec71f689643592a44c6dbf2109b605d5aa047db75ef19ac91be45796ddb777b"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 12,
+     "matched": 8
+    },
+    "edges": {
+     "native": 14,
+     "step": 18,
+     "onNativeEdges": 16,
+     "seams": 2
+    },
+    "faces": {
+     "native": 7,
+     "step": 8,
+     "mapped": 8
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.2266347333466993e-18,
+    "surface": 8.673617379884035e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 66,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 67,
+     "native": 142,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 68,
+     "native": 136,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 80,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 69,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 81,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 79,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 97,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C07_cube_two_holes",
+   "sha256": {
+    "sldprt": "ebcb5f13ab28f078ae9f2f8f4b4f68fa8e0bd083a655f65097a3c51b1af22cf0",
+    "step": "cb87276f0d1345b4b96b121ab4988a1ac3ef61ef68dd5967bc0efb07bbbaaaaa"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 16,
+     "matched": 8
+    },
+    "edges": {
+     "native": 16,
+     "step": 24,
+     "onNativeEdges": 20,
+     "seams": 4
+    },
+    "faces": {
+     "native": 8,
+     "step": 10,
+     "mapped": 10
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.2266347333466993e-18,
+    "surface": 8.673617379884035e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 149,
+     "native": 189,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 147,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 139,
+     "native": 180,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 156,
+     "native": 174,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 145,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 143,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 146,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 154,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 155,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 144,
+     "native": 189,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C08_cube_second_hole_modified",
+   "sha256": {
+    "sldprt": "b01658e263595eeee875a9cc1807d615ec5ae0feb4752fac6f85c3292d4a8276",
+    "step": "94efce62b5a51689d91569002ee7b44a7ea7b334d883f9c67ac792a9b9aeeb7f"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 16,
+     "matched": 8
+    },
+    "edges": {
+     "native": 16,
+     "step": 24,
+     "onNativeEdges": 20,
+     "seams": 4
+    },
+    "faces": {
+     "native": 8,
+     "step": 10,
+     "mapped": 10
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.939479807224432e-18,
+    "surface": 1.0842021724855044e-18,
+    "length": 4.163336342344337e-17
+   },
+   "surfaceParameters": [
+    {
+     "step": 351,
+     "native": 189,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 2.168404344971009e-19
+    },
+    {
+     "step": 359,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 373,
+     "native": 180,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 343,
+     "native": 174,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 358,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 346,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 372,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 344,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 345,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 348,
+     "native": 189,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 2.168404344971009e-19
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C09_cube_chamfer_1mm",
+   "sha256": {
+    "sldprt": "2882ba660e04b907b40724aa92b162dc759db7e6e383fe0daec181e9d8994ce8",
+    "step": "29f17b68600117192f777739355b8aa2c9b9183fa2b617a9a6a889967862a64c"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 10,
+     "step": 10,
+     "matched": 10
+    },
+    "edges": {
+     "native": 15,
+     "step": 15,
+     "onNativeEdges": 15,
+     "seams": 0
+    },
+    "faces": {
+     "native": 7,
+     "step": 7,
+     "mapped": 7
+    }
+   },
+   "deviation": {
+    "vertex": 1.734723475976807e-18,
+    "edge": 2.4532694666933987e-18,
+    "surface": 2.4665599424045226e-18,
+    "length": 1.734723475976807e-18
+   },
+   "surfaceParameters": [
+    {
+     "step": 246,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 236,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 247,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 242,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 248,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 239,
+     "native": 43,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 245,
+     "native": 171,
+     "type": "plane",
+     "angle": 0,
+     "offset": 1.2266347333467036e-18
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C10_cube_shell_1mm",
+   "sha256": {
+    "sldprt": "5001239cf49ccc7e2f85d2f6bbf7ee63fdef51d7eb002389b0788071b0f4e15c",
+    "step": "8c2603ff4283ecb3a17bb955d0f8b909e1f76a0f3ad73557af5914af97c34f9f"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 16,
+     "step": 16,
+     "matched": 16
+    },
+    "edges": {
+     "native": 24,
+     "step": 24,
+     "onNativeEdges": 24,
+     "seams": 0
+    },
+    "faces": {
+     "native": 11,
+     "step": 11,
+     "mapped": 11
+    }
+   },
+   "deviation": {
+    "vertex": 2.4532694666933987e-18,
+    "edge": 2.4532694666933987e-18,
+    "surface": 1.734723475976807e-18,
+    "length": 1.734723475976807e-18
+   },
+   "surfaceParameters": [
+    {
+     "step": 328,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 332,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 333,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 339,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 326,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 378,
+     "native": 43,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 325,
+     "native": 174,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 357,
+     "native": 178,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 340,
+     "native": 182,
+     "type": "plane",
+     "angle": 0,
+     "offset": 1.734723475976807e-18
+    },
+    {
+     "step": 342,
+     "native": 186,
+     "type": "plane",
+     "angle": 0,
+     "offset": 1.734723475976807e-18
+    },
+    {
+     "step": 353,
+     "native": 193,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C11_cube_hole_4mm",
+   "sha256": {
+    "sldprt": "fd324092ec6e6aa4c1fb138dd027023761420b5765fa2727c3c4cda39cf3e505",
+    "step": "4a7ed5df3c9aa37b8ba76e6ceeef5254cd5bcc39c1f8a52a113b08a01b685bb8"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 12,
+     "matched": 8
+    },
+    "edges": {
+     "native": 14,
+     "step": 18,
+     "onNativeEdges": 16,
+     "seams": 2
+    },
+    "faces": {
+     "native": 7,
+     "step": 8,
+     "mapped": 8
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.788112030672749e-18,
+    "surface": 4.336808689942018e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 279,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 281,
+     "native": 142,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 280,
+     "native": 136,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 284,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 278,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 276,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 277,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 268,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C12_cube_fillet_1mm_edge2",
+   "sha256": {
+    "sldprt": "355ac304653d6d236e2eefc5408be78011436e479d6f248bf51520edecbf5999",
+    "step": "3bec95c74a4a46dfe7f61bac1fb419abb4e3eb05445daab0e96f35680dc863b7"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 10,
+     "step": 10,
+     "matched": 10
+    },
+    "edges": {
+     "native": 15,
+     "step": 15,
+     "onNativeEdges": 15,
+     "seams": 0
+    },
+    "faces": {
+     "native": 7,
+     "step": 7,
+     "mapped": 7
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 6.505213034913027e-19,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 61,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 58,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 67,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 51,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 55,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 49,
+     "native": 43,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 52,
+     "native": 171,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C13_cone",
+   "sha256": {
+    "sldprt": "e241ae1143bae9d6492436779c305c31aa443151f9bc767ce2edcdd230d712fd",
+    "step": "1bc218510decffa126511e8ae40b34fe1daae51b371a7bcaeb54c86a133c2739"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 1,
+     "step": 3,
+     "matched": 1
+    },
+    "edges": {
+     "native": 1,
+     "step": 4,
+     "onNativeEdges": 2,
+     "seams": 2
+    },
+    "faces": {
+     "native": 2,
+     "step": 3,
+     "mapped": 3
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 2.335442953235085e-18,
+    "surface": 1.5515838457795456e-18,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 50,
+     "native": 39,
+     "type": "cone",
+     "angle": 0,
+     "halfAngle": 0,
+     "apex": 0
+    },
+    {
+     "step": 35,
+     "native": 39,
+     "type": "cone",
+     "angle": 0,
+     "halfAngle": 0,
+     "apex": 0
+    },
+    {
+     "step": 36,
+     "native": 34,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C14_sphere",
+   "sha256": {
+    "sldprt": "4811427e99a684c8076a502f433c06c6887e1205bbe836d7c9acceb226471ca7",
+    "step": "10f4922bd9eedb591956d0086cbac63e9edf58aafa5396a9daed8068e7f46cb4"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 0,
+     "step": 2,
+     "matched": 0
+    },
+    "edges": {
+     "native": 0,
+     "step": 2,
+     "onNativeEdges": 0,
+     "seams": 2
+    },
+    "faces": {
+     "native": 1,
+     "step": 2,
+     "mapped": 2
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 8.673617379884035e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 43,
+     "native": 31,
+     "type": "sphere",
+     "centre": 0,
+     "radius": 0
+    },
+    {
+     "step": 28,
+     "native": 31,
+     "type": "sphere",
+     "centre": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C15_torus",
+   "sha256": {
+    "sldprt": "7a8913cb596e547045b6e0c81aea11559b2c49350331334cd3cdcd2c33fa527e",
+    "step": "6239127702d4788ef802944f5929192ac0fc633e198e4d966b6e8b5e7156669b"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 0,
+     "step": 4,
+     "matched": 0
+    },
+    "edges": {
+     "native": 0,
+     "step": 8,
+     "onNativeEdges": 0,
+     "seams": 8
+    },
+    "faces": {
+     "native": 1,
+     "step": 4,
+     "mapped": 4
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 1.3010426069826053e-18,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 67,
+     "native": 10,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 58,
+     "native": 10,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 51,
+     "native": 10,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 65,
+     "native": 10,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C16_loft_spline",
+   "sha256": {
+    "sldprt": "3f7e6dc3be2bb6a584f277f0a4ab455013cdab9d551ee5d038c698e35d46f031",
+    "step": "c8b84e499647b2b5e197e74a6cfe85cc00c17938867970cd037fa1b17ef15ebd"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 2.335442953235085e-18,
+    "surface": 1.3010426069826053e-18,
+    "length": 3.469446951953614e-18
+   },
+   "surfaceParameters": [
+    {
+     "step": 93,
+     "native": 136,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 89,
+     "native": 23,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 91,
+     "native": 39,
+     "type": "bspline"
+    },
+    {
+     "step": 99,
+     "native": 42,
+     "type": "bspline"
+    },
+    {
+     "step": 103,
+     "native": 45,
+     "type": "bspline"
+    },
+    {
+     "step": 100,
+     "native": 48,
+     "type": "bspline"
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C17_torus_quarter",
+   "sha256": {
+    "sldprt": "c81ff69b02e1c71f004f6667f56053a2c6f3b525075a4954dd612cba5ad8f2dc",
+    "step": "32ab1260de05c11bebc5992ca741c7ba70f8db9449345a6630aeab65c4e9b137"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 0,
+     "step": 4,
+     "matched": 0
+    },
+    "edges": {
+     "native": 2,
+     "step": 6,
+     "onNativeEdges": 4,
+     "seams": 2
+    },
+    "faces": {
+     "native": 3,
+     "step": 4,
+     "mapped": 4
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.788112030672749e-18,
+    "surface": 4.336808689942018e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 54,
+     "native": 10,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 62,
+     "native": 10,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 52,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 53,
+     "native": 18,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C18_cube_split_line",
+   "sha256": {
+    "sldprt": "68faf7994a15211583554edb8e46ba30258c20e803380fbd1d8a8683e8f0d583",
+    "step": "7c805701c7f783c4d28f33da8d7dedf8d81b6a3d327148a579f6d404a76ba47a"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 10,
+     "step": 10,
+     "matched": 10
+    },
+    "edges": {
+     "native": 15,
+     "step": 15,
+     "onNativeEdges": 15,
+     "seams": 0
+    },
+    "faces": {
+     "native": 7,
+     "step": 7,
+     "mapped": 7
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 63,
+     "native": 143,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 48,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 47,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 56,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 55,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 256,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 267,
+     "native": 43,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C19_half_cylinder",
+   "sha256": {
+    "sldprt": "9d2882cf496006b302ebe6a2978f08703e8ec56b86d47bf7c5bb40b2e6795c3d",
+    "step": "b74de70a5a0d37f37012b3a2baf5094e49fd0ff14d82ac038f31bc1af0b4e9f2"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 4,
+     "step": 6,
+     "matched": 4
+    },
+    "edges": {
+     "native": 6,
+     "step": 9,
+     "onNativeEdges": 8,
+     "seams": 1
+    },
+    "faces": {
+     "native": 4,
+     "step": 5,
+     "mapped": 5
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 2.335442953235085e-18,
+    "surface": 8.673617379884035e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 44,
+     "native": 49,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 43,
+     "native": 49,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 42,
+     "native": 47,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 56,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 55,
+     "native": 27,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C20_cylinders_crossed",
+   "sha256": {
+    "sldprt": "1c9e2d957e8c974502f441921288dc3ab68cf108958359acfbe01d1e0998bca5",
+    "step": "c760db1498f02fbfed5cbe533f3f569f36fc726e942707d9d991ef87b497f220"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 2,
+     "step": 14,
+     "matched": 2
+    },
+    "edges": {
+     "native": 8,
+     "step": 24,
+     "onNativeEdges": 16,
+     "seams": 8
+    },
+    "faces": {
+     "native": 8,
+     "step": 12,
+     "mapped": 12
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 9.011605141513788e-18,
+    "surface": 1.734723475976807e-18,
+    "length": 2.42861286636753e-17
+   },
+   "surfaceParameters": [
+    {
+     "step": 367,
+     "native": 126,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 395,
+     "native": 88,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 369,
+     "native": 121,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 147,
+     "native": 25,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 144,
+     "native": 25,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 145,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 143,
+     "native": 134,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 146,
+     "native": 121,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 394,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 374,
+     "native": 88,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 378,
+     "native": 126,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 389,
+     "native": 131,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C21_cylinder_fillet",
+   "sha256": {
+    "sldprt": "138bb3ea7fcd29ea2fe8d0a572e921143aa6ef114768a19a5fe58f8195ec68dc",
+    "step": "943ceeab2598dfa3f589acd7ca101e13ce8c89d5abf3cfa32af0ab1f6abd38ab"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 0,
+     "step": 6,
+     "matched": 0
+    },
+    "edges": {
+     "native": 3,
+     "step": 10,
+     "onNativeEdges": 6,
+     "seams": 4
+    },
+    "faces": {
+     "native": 4,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 3.4216843416934276e-18,
+    "surface": 2.3852447794681098e-18,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 198,
+     "native": 71,
+     "type": "torus",
+     "angle": 0,
+     "centre": 1.734723475976807e-18,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 209,
+     "native": 25,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 222,
+     "native": 25,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 218,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 207,
+     "native": 16,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 208,
+     "native": 71,
+     "type": "torus",
+     "angle": 0,
+     "centre": 1.734723475976807e-18,
+     "major": 0,
+     "minor": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C22_cube_sw2011_native",
+   "sha256": {
+    "sldprt": "c14e9fd4de73865aad4c9b0134382f263295cf441ac65df987f3c05e5c884886",
+    "step": "b44d697a8a9e970e6c172020355a9b3fc6955a5bdc03a7a33bfa946f4971608f"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 202,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 201,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 203,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 215,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 204,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 218,
+     "native": 43,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C25_cone_sw2011_native",
+   "sha256": {
+    "sldprt": "093c84118ec7c9d0e3f66212aef46e27bf2350192a1def920ae461dc10e5305f",
+    "step": "a18bcb54b057757e879bcfd9172a9446a2d38335b23fdc2566fe5454b2606dba"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 1,
+     "step": 3,
+     "matched": 1
+    },
+    "edges": {
+     "native": 1,
+     "step": 4,
+     "onNativeEdges": 2,
+     "seams": 2
+    },
+    "faces": {
+     "native": 2,
+     "step": 3,
+     "mapped": 3
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 2.335442953235085e-18,
+    "surface": 1.5515838457795456e-18,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 136,
+     "native": 39,
+     "type": "cone",
+     "angle": 0,
+     "halfAngle": 0,
+     "apex": 0
+    },
+    {
+     "step": 139,
+     "native": 39,
+     "type": "cone",
+     "angle": 0,
+     "halfAngle": 0,
+     "apex": 0
+    },
+    {
+     "step": 143,
+     "native": 34,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2011/C26_cube_hole_sw2011_native",
+   "sha256": {
+    "sldprt": "3312824fd9748bd24e5c5c87a228825e097c6f55ea88c896703e2cdb43d45df2",
+    "step": "f786f741476493a3daaf2e786882750962c3a40675f6904383f93411db028ad0"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 12,
+     "matched": 8
+    },
+    "edges": {
+     "native": 14,
+     "step": 18,
+     "onNativeEdges": 16,
+     "seams": 2
+    },
+    "faces": {
+     "native": 7,
+     "step": 8,
+     "mapped": 8
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 9.69739903612216e-19,
+    "surface": 4.336808689942018e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 294,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 309,
+     "native": 142,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 303,
+     "native": 136,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 300,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 306,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 295,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 293,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 310,
+     "native": 151,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C00_cube_10mm",
+   "sha256": {
+    "sldprt": "ecef0ce6fbcfb101dfd6000ce32b7cf56ff560bc8f200ac33dc52b7cac1fa4d5",
+    "step": "12b74010971390737d35a1778d406954e31a2d037dfcf16558c754d4906ada74"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 232,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 174,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 214,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 3,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 74,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 136,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C01_cube_20mm",
+   "sha256": {
+    "sldprt": "894f71955d59a990456467ec8abcaed5188025542e9660760b93f2236c0bae5e",
+    "step": "711c2b8a1dfc547e09f9792562730d208e94d3f2f715daf06134e480464ee0d2"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 229,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 203,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 31,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 151,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 131,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 184,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C02_cube_translated",
+   "sha256": {
+    "sldprt": "ec86dbb80a83125d0b428bb739006c45a8e8537f32825d11e03037f3e403880e",
+    "step": "b0d36055747ccc4bf4817969ade957d3b9fa32590b02621a2c4fa530541a7d5b"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 218,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 83,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 201,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 113,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 127,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 59,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C03_cube_fillet_1mm",
+   "sha256": {
+    "sldprt": "66d392854ce50a7e0595376a5bdc1d9bc26fac88a8e53cfb6b94769f9752a792",
+    "step": "8b2d2c1e4e88ee371ba9d776091a3eb44de090a493965793ad2b82015d4f069a"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 10,
+     "step": 10,
+     "matched": 10
+    },
+    "edges": {
+     "native": 15,
+     "step": 15,
+     "onNativeEdges": 15,
+     "seams": 0
+    },
+    "faces": {
+     "native": 7,
+     "step": 7,
+     "mapped": 7
+    }
+   },
+   "deviation": {
+    "vertex": 1.734723475976807e-18,
+    "edge": 3.878959614448864e-18,
+    "surface": 3.903127820947816e-18,
+    "length": 1.734723475976807e-18
+   },
+   "surfaceParameters": [
+    {
+     "step": 248,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 127,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 113,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 67,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 152,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 121,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 187,
+     "native": 176,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 2.4532694666933987e-18,
+     "radius": 8.673617379884035e-19
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C04_cube_hole_5mm",
+   "sha256": {
+    "sldprt": "992519fdcf8c213d04c6226d19fb20a1e3ed4db3f8a86f8043c2f268b4799066",
+    "step": "aa6977184f18eca1dc8dcb9a7e14bb9d4fa430f8a506906bee1af2eb627ab628"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 12,
+     "matched": 8
+    },
+    "edges": {
+     "native": 14,
+     "step": 18,
+     "onNativeEdges": 16,
+     "seams": 2
+    },
+    "faces": {
+     "native": 7,
+     "step": 8,
+     "mapped": 8
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 9.69739903612216e-19,
+    "surface": 4.336808689942018e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 91,
+     "native": 180,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 88,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 197,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 210,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 23,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 38,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 72,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 150,
+     "native": 180,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C05_cube_hole_3mm",
+   "sha256": {
+    "sldprt": "e9e28586f4980b901c0e29af2927c7cf37eaad0ecda6492c045ad03d9e43eee9",
+    "step": "f4502af6fd765010251579e935ad257bddca1439168648c4adc22f153bcf3eeb"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 12,
+     "matched": 8
+    },
+    "edges": {
+     "native": 14,
+     "step": 18,
+     "onNativeEdges": 16,
+     "seams": 2
+    },
+    "faces": {
+     "native": 7,
+     "step": 8,
+     "mapped": 8
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 8.673617379884035e-19,
+    "surface": 6.505213034913027e-19,
+    "length": 3.469446951953614e-18
+   },
+   "surfaceParameters": [
+    {
+     "step": 161,
+     "native": 156,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 2.168404344971009e-19
+    },
+    {
+     "step": 143,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 261,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 235,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 190,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 173,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 78,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 274,
+     "native": 156,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 2.168404344971009e-19
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C06_cube_hole_moved",
+   "sha256": {
+    "sldprt": "a6b03cf80fc1bd6e58a8dcd2cd01c0f10b24f91439a561565b9e09f42519e359",
+    "step": "e90921f733f950e60a948e589f9207bbe72d61891dc97e26cae85216e34986fc"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 12,
+     "matched": 8
+    },
+    "edges": {
+     "native": 14,
+     "step": 18,
+     "onNativeEdges": 16,
+     "seams": 2
+    },
+    "faces": {
+     "native": 7,
+     "step": 8,
+     "mapped": 8
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.2266347333466993e-18,
+    "surface": 8.673617379884035e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 265,
+     "native": 156,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 56,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 160,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 20,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 117,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 278,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 86,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 110,
+     "native": 156,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C07_cube_two_holes",
+   "sha256": {
+    "sldprt": "79d429ac3fe0858fd93e49a0f36df219e7f7075db1f6f5af4ee39d709cc05afb",
+    "step": "5299adbb1455c6997b8c399dbf6db494f5ffafe1af8d0ba2b6ccf4e145fc8d5b"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 16,
+     "matched": 8
+    },
+    "edges": {
+     "native": 16,
+     "step": 24,
+     "onNativeEdges": 20,
+     "seams": 4
+    },
+    "faces": {
+     "native": 8,
+     "step": 10,
+     "mapped": 10
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.2266347333466993e-18,
+    "surface": 8.673617379884035e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 368,
+     "native": 168,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 38,
+     "native": 186,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 152,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 60,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 293,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 376,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 371,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 56,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 40,
+     "native": 186,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 83,
+     "native": 168,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C08_cube_second_hole_modified",
+   "sha256": {
+    "sldprt": "f839f6afbf6067012b245e65737a5107fd03fd1acade40600c4f519e4c0904e3",
+    "step": "df3f6f7f7db59af090f5997b60c7c924d4d709a50b738c98c283afe6d41b7ab8"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 16,
+     "matched": 8
+    },
+    "edges": {
+     "native": 16,
+     "step": 24,
+     "onNativeEdges": 20,
+     "seams": 4
+    },
+    "faces": {
+     "native": 8,
+     "step": 10,
+     "mapped": 10
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.939479807224432e-18,
+    "surface": 1.0842021724855044e-18,
+    "length": 4.163336342344337e-17
+   },
+   "surfaceParameters": [
+    {
+     "step": 5,
+     "native": 168,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 2.168404344971009e-19
+    },
+    {
+     "step": 348,
+     "native": 186,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 237,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 23,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 385,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 109,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 145,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 34,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 166,
+     "native": 186,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 198,
+     "native": 168,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 2.168404344971009e-19
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C09_cube_chamfer_1mm",
+   "sha256": {
+    "sldprt": "aa82e4cc7bfb4cd427dcfa8e581be19ae887eace99a19b4a37d34bbf8419b0d0",
+    "step": "b5366190e413a0d2dfc7f6994757ca3da05f0644e3aa9c41792043b4958c442b"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 10,
+     "step": 10,
+     "matched": 10
+    },
+    "edges": {
+     "native": 15,
+     "step": 15,
+     "onNativeEdges": 15,
+     "seams": 0
+    },
+    "faces": {
+     "native": 7,
+     "step": 7,
+     "mapped": 7
+    }
+   },
+   "deviation": {
+    "vertex": 1.734723475976807e-18,
+    "edge": 2.4532694666933987e-18,
+    "surface": 1.3010426069826053e-18,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 223,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 195,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 226,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 237,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 251,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 132,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 147,
+     "native": 176,
+     "type": "plane",
+     "angle": 0,
+     "offset": 1.2266347333467036e-18
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C10_cube_shell_1mm",
+   "sha256": {
+    "sldprt": "158442be99857410c04684a08597259bde962c4e91e545633ea6a9c3e5bdfbc8",
+    "step": "cdcab091a51d460b6746fd3168f8bb294120a805fd672e1d5d2c9e16bee42d31"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 16,
+     "step": 16,
+     "matched": 16
+    },
+    "edges": {
+     "native": 24,
+     "step": 24,
+     "onNativeEdges": 24,
+     "seams": 0
+    },
+    "faces": {
+     "native": 11,
+     "step": 11,
+     "mapped": 11
+    }
+   },
+   "deviation": {
+    "vertex": 2.4532694666933987e-18,
+    "edge": 2.4532694666933987e-18,
+    "surface": 1.734723475976807e-18,
+    "length": 1.734723475976807e-18
+   },
+   "surfaceParameters": [
+    {
+     "step": 99,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 58,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 18,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 292,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 33,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 134,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 109,
+     "native": 179,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 270,
+     "native": 183,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 5,
+     "native": 187,
+     "type": "plane",
+     "angle": 0,
+     "offset": 1.734723475976807e-18
+    },
+    {
+     "step": 297,
+     "native": 191,
+     "type": "plane",
+     "angle": 0,
+     "offset": 1.734723475976807e-18
+    },
+    {
+     "step": 340,
+     "native": 198,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C11_cube_hole_4mm",
+   "sha256": {
+    "sldprt": "b836bf47b51ee257321253a6772ad62acb4853133857d58fc6c331dcfb67b47f",
+    "step": "13bbe0e79da1ef95d4c63b0572cc2f091d2c3ef417ccc3b0cc92a19b3a889733"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 12,
+     "matched": 8
+    },
+    "edges": {
+     "native": 14,
+     "step": 18,
+     "onNativeEdges": 16,
+     "seams": 2
+    },
+    "faces": {
+     "native": 7,
+     "step": 8,
+     "mapped": 8
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.788112030672749e-18,
+    "surface": 4.336808689942018e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 124,
+     "native": 156,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 60,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 300,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 222,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 229,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 256,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 3,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 72,
+     "native": 156,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C12_cube_fillet_1mm_edge2",
+   "sha256": {
+    "sldprt": "61ea581033dfd7a246ba264fb645e7545fb121e2c7829ce01d58856f436f43c7",
+    "step": "e74e316959d8fd95136ecd45844925d7367236a09bfde3f2e535028078f0a084"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 10,
+     "step": 10,
+     "matched": 10
+    },
+    "edges": {
+     "native": 15,
+     "step": 15,
+     "onNativeEdges": 15,
+     "seams": 0
+    },
+    "faces": {
+     "native": 7,
+     "step": 7,
+     "mapped": 7
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 6.505213034913027e-19,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 191,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 249,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 92,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 68,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 52,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 251,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 125,
+     "native": 176,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C13_cone",
+   "sha256": {
+    "sldprt": "6c0a13cae5a8df74a463681cc50f3dd550359e463da0935a293fec3865db87b0",
+    "step": "ee18cc9c1f563347d015b6804f79488703f012123e8a2b3a3f0ee9d453e4f77d"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 1,
+     "step": 3,
+     "matched": 1
+    },
+    "edges": {
+     "native": 1,
+     "step": 4,
+     "onNativeEdges": 2,
+     "seams": 2
+    },
+    "faces": {
+     "native": 2,
+     "step": 3,
+     "mapped": 3
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 2.335442953235085e-18,
+    "surface": 1.5515838457795456e-18,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 35,
+     "native": 43,
+     "type": "cone",
+     "angle": 0,
+     "halfAngle": 0,
+     "apex": 0
+    },
+    {
+     "step": 129,
+     "native": 43,
+     "type": "cone",
+     "angle": 0,
+     "halfAngle": 0,
+     "apex": 0
+    },
+    {
+     "step": 104,
+     "native": 38,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C14_sphere",
+   "sha256": {
+    "sldprt": "03b72028c5a3169a2af63cb3da896f5df1546641f6a660f583d27e39431a36a1",
+    "step": "8997139d676a549ba1562e30c218395a5e4ccf1b8681ac58903b515153a4826b"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 0,
+     "step": 2,
+     "matched": 0
+    },
+    "edges": {
+     "native": 0,
+     "step": 2,
+     "onNativeEdges": 0,
+     "seams": 2
+    },
+    "faces": {
+     "native": 1,
+     "step": 2,
+     "mapped": 2
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 8.673617379884035e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 2,
+     "native": 34,
+     "type": "sphere",
+     "centre": 0,
+     "radius": 0
+    },
+    {
+     "step": 93,
+     "native": 34,
+     "type": "sphere",
+     "centre": 0,
+     "radius": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C15_torus",
+   "sha256": {
+    "sldprt": "f2981cb684eb6bb0d3ad697ff223bf061c0dce4ff729d5254473579f0d194cee",
+    "step": "3ed2ee3128f6d9f1c5fdac5479470ae026cda84148dd68ea08e46ff5693c8585"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 0,
+     "step": 4,
+     "matched": 0
+    },
+    "edges": {
+     "native": 0,
+     "step": 8,
+     "onNativeEdges": 0,
+     "seams": 8
+    },
+    "faces": {
+     "native": 1,
+     "step": 4,
+     "mapped": 4
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 1.3010426069826053e-18,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 50,
+     "native": 12,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 61,
+     "native": 12,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 188,
+     "native": 12,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 140,
+     "native": 12,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C16_loft_spline",
+   "sha256": {
+    "sldprt": "3ec02e9bf6446f32040260f5924535892d2961e61fdf11afaf5c0bf8e8758973",
+    "step": "d57f3dd48fcfc4fbd18004569ad7cfd9eb8bad9a1202b2a2696f543372773662"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.788112030672749e-18,
+    "surface": 2.1245936804851847e-18,
+    "length": 1.734723475976807e-18
+   },
+   "surfaceParameters": [
+    {
+     "step": 139,
+     "native": 136,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 159,
+     "native": 23,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 35,
+     "native": 39,
+     "type": "bspline"
+    },
+    {
+     "step": 230,
+     "native": 42,
+     "type": "bspline"
+    },
+    {
+     "step": 198,
+     "native": 45,
+     "type": "bspline"
+    },
+    {
+     "step": 189,
+     "native": 48,
+     "type": "bspline"
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C17_torus_quarter",
+   "sha256": {
+    "sldprt": "ebb542a67576f19f8831e665e265fc0a970cc4529383b3c8a79c38e2cf784926",
+    "step": "da8f55b1b06227a1a1631642d2dd31ff912f1c5505db8b329667f8f6b949587c"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 0,
+     "step": 4,
+     "matched": 0
+    },
+    "edges": {
+     "native": 2,
+     "step": 6,
+     "onNativeEdges": 4,
+     "seams": 2
+    },
+    "faces": {
+     "native": 3,
+     "step": 4,
+     "mapped": 4
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 1.788112030672749e-18,
+    "surface": 4.336808689942018e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 66,
+     "native": 12,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 70,
+     "native": 12,
+     "type": "torus",
+     "angle": 0,
+     "centre": 0,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 93,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 176,
+     "native": 20,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C18_cube_split_line",
+   "sha256": {
+    "sldprt": "9fb2105af09af974e38550fc698aca9874a6e9dff775b2d1bdb07ea983567076",
+    "step": "05da9d5740ba5892c87ce95b79e947938d592b692d1a004b356040267379f1f6"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 10,
+     "step": 10,
+     "matched": 10
+    },
+    "edges": {
+     "native": 15,
+     "step": 15,
+     "onNativeEdges": 15,
+     "seams": 0
+    },
+    "faces": {
+     "native": 7,
+     "step": 7,
+     "mapped": 7
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 190,
+     "native": 148,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 99,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 113,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 41,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 59,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 269,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 261,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C19_half_cylinder",
+   "sha256": {
+    "sldprt": "6c850643f2f5c0cc10e21e66823d5ffb886be7b5a12aaf71d1cac953024cf8cf",
+    "step": "29921a5ad6541f621852f50e3e32299cb3183a586656a2d97d135c20c956d63c"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 4,
+     "step": 6,
+     "matched": 4
+    },
+    "edges": {
+     "native": 6,
+     "step": 9,
+     "onNativeEdges": 8,
+     "seams": 1
+    },
+    "faces": {
+     "native": 4,
+     "step": 5,
+     "mapped": 5
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 2.335442953235085e-18,
+    "surface": 8.673617379884035e-19,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 198,
+     "native": 52,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 144,
+     "native": 52,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 129,
+     "native": 50,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 19,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 164,
+     "native": 30,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C20_cylinders_crossed",
+   "sha256": {
+    "sldprt": "eeb0d04faa29c60272e987b93fce54fc9694e6f335589cc115fb25b760a51a53",
+    "step": "7f8225ead7b914f49ec2f50942032b7a67afab7ee29c3d093f4aefa47de7cb37"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 2,
+     "step": 14,
+     "matched": 2
+    },
+    "edges": {
+     "native": 8,
+     "step": 24,
+     "onNativeEdges": 16,
+     "seams": 8
+    },
+    "faces": {
+     "native": 8,
+     "step": 12,
+     "mapped": 12
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 9.011605141513788e-18,
+    "surface": 1.734723475976807e-18,
+    "length": 2.42861286636753e-17
+   },
+   "surfaceParameters": [
+    {
+     "step": 113,
+     "native": 128,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 46,
+     "native": 90,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 394,
+     "native": 123,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 163,
+     "native": 27,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 216,
+     "native": 27,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 44,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 109,
+     "native": 136,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 345,
+     "native": 123,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 397,
+     "native": 50,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 287,
+     "native": 90,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 79,
+     "native": 128,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 254,
+     "native": 133,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C21_cylinder_fillet",
+   "sha256": {
+    "sldprt": "c8a83ed6c000378a72f03ea4f0e36278348a0681a8ce205af936e7310cdcda37",
+    "step": "efb3f08406934c2d5687394bc23493b5e4c4bf5b10dfbb092c5cf9d255bf7316"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 0,
+     "step": 6,
+     "matched": 0
+    },
+    "edges": {
+     "native": 3,
+     "step": 10,
+     "onNativeEdges": 6,
+     "seams": 4
+    },
+    "faces": {
+     "native": 4,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 3.4216843416934276e-18,
+    "surface": 2.3852447794681098e-18,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 211,
+     "native": 73,
+     "type": "torus",
+     "angle": 0,
+     "centre": 1.734723475976807e-18,
+     "major": 0,
+     "minor": 0
+    },
+    {
+     "step": 53,
+     "native": 27,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 47,
+     "native": 27,
+     "type": "cylinder",
+     "angle": 0,
+     "axis": 0,
+     "radius": 0
+    },
+    {
+     "step": 155,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 168,
+     "native": 18,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 66,
+     "native": 73,
+     "type": "torus",
+     "angle": 0,
+     "centre": 1.734723475976807e-18,
+     "major": 0,
+     "minor": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C23_cube_sw2011_to_2022",
+   "sha256": {
+    "sldprt": "d9939775821bdc95399dda59df8625b855106d5d9df25606478b953fa176d4bc",
+    "step": "f82789df9673ddde7af1cb1f37cc418533ce12ad39cfa52bae9b055eab50dcef"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 114,
+     "native": 85,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 12,
+     "native": 83,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 94,
+     "native": 81,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 35,
+     "native": 79,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 122,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 63,
+     "native": 43,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  },
+  {
+   "model": "SW2022/C24_cube_sw2022_native",
+   "sha256": {
+    "sldprt": "9d50b4a4ccd2bb40bc067bd8d7a175ad79d5b1fc20b24319d0338b19bb98d611",
+    "step": "33e2cb6b417bd679a4e5fa07c7cc6ac272f7ed49a00fa4e41341a71356b51f91"
+   },
+   "pass": true,
+   "problems": [],
+   "stats": {
+    "vertices": {
+     "native": 8,
+     "step": 8,
+     "matched": 8
+    },
+    "edges": {
+     "native": 12,
+     "step": 12,
+     "onNativeEdges": 12,
+     "seams": 0
+    },
+    "faces": {
+     "native": 6,
+     "step": 6,
+     "mapped": 6
+    }
+   },
+   "deviation": {
+    "vertex": 0,
+    "edge": 0,
+    "surface": 0,
+    "length": 0
+   },
+   "surfaceParameters": [
+    {
+     "step": 42,
+     "native": 90,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 66,
+     "native": 88,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 166,
+     "native": 86,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 97,
+     "native": 84,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 49,
+     "native": 1,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    },
+    {
+     "step": 161,
+     "native": 48,
+     "type": "plane",
+     "angle": 0,
+     "offset": 0
+    }
+   ]
+  }
+ ],
+ "controls": [
+  {
+   "name": "vertex moved 1e-7 m",
+   "model": "C00_cube_10mm",
+   "against": "C00_cube_10mm",
+   "caught": true,
+   "firstProblem": "vertex 21: nearest STEP vertex #230 is 1.00e-7 m away"
+  },
+  {
+   "name": "plane offset 1e-7 m",
+   "model": "C00_cube_10mm",
+   "against": "C00_cube_10mm",
+   "caught": true,
+   "firstProblem": "STEP face #232: 1.00e-7 m from native face 90"
+  },
+  {
+   "name": "plane tilted 1e-5 rad",
+   "model": "C00_cube_10mm",
+   "against": "C00_cube_10mm",
+   "caught": true,
+   "firstProblem": "STEP face #232: 1.00e-7 m from native face 90"
+  },
+  {
+   "name": "face orientation flipped",
+   "model": "C00_cube_10mm",
+   "against": "C00_cube_10mm",
+   "caught": true,
+   "firstProblem": "STEP face #214: outward normal disagrees with native face 86 (cos -1.000000)"
+  },
+  {
+   "name": "cylinder radius +1e-7 m",
+   "model": "C04_cube_hole_5mm",
+   "against": "C04_cube_hole_5mm",
+   "caught": true,
+   "firstProblem": "STEP face #91: 1.00e-7 m from native face 180"
+  },
+  {
+   "name": "circle radius +1e-7 m",
+   "model": "C04_cube_hole_5mm",
+   "against": "C04_cube_hole_5mm",
+   "caught": true,
+   "firstProblem": "STEP edge #198: 1.00e-7 m from native edge 174"
+  },
+  {
+   "name": "cone half-angle +1e-6 rad",
+   "model": "C13_cone",
+   "against": "C13_cone",
+   "caught": true,
+   "firstProblem": "STEP face #35: 1.12e-8 m from native face 43"
+  },
+  {
+   "name": "sphere radius +1e-7 m",
+   "model": "C14_sphere",
+   "against": "C14_sphere",
+   "caught": true,
+   "firstProblem": "STEP face #2: 1.00e-7 m from native face 34"
+  },
+  {
+   "name": "torus minor radius +1e-7 m",
+   "model": "C15_torus",
+   "against": "C15_torus",
+   "caught": true,
+   "firstProblem": "STEP face #50: 1.00e-7 m from native face 12"
+  },
+  {
+   "name": "torus major radius +1e-7 m",
+   "model": "C17_torus_quarter",
+   "against": "C17_torus_quarter",
+   "caught": true,
+   "firstProblem": "STEP face #66: 1.00e-7 m from native face 12"
+  },
+  {
+   "name": "B-spline control point +1e-6 m",
+   "model": "C16_loft_spline",
+   "against": "C16_loft_spline",
+   "caught": true,
+   "firstProblem": "STEP face #230: 7.07e-7 m from native face 42"
+  },
+  {
+   "name": "B-spline knot moved",
+   "model": "C16_loft_spline",
+   "against": "C16_loft_spline",
+   "caught": true,
+   "firstProblem": "STEP face #230: 4.21e-6 m from native face 42"
+  },
+  {
+   "name": "ellipse minor radius +1e-7 m",
+   "model": "C20_cylinders_crossed",
+   "against": "C20_cylinders_crossed",
+   "caught": true,
+   "firstProblem": "STEP edge #169: 1.00e-7 m from native edge 97"
+  },
+  {
+   "name": "trimmed line shortened 1e-6",
+   "model": "C16_loft_spline",
+   "against": "C16_loft_spline",
+   "caught": true,
+   "firstProblem": "native edge 11 (trimmed): no STEP edge on it"
+  },
+  {
+   "name": "face removed",
+   "model": "C07_cube_two_holes",
+   "against": "C07_cube_two_holes",
+   "caught": true,
+   "firstProblem": "STEP face #368 (cylinder): no native face with the same surface type and edges"
+  },
+  {
+   "name": "edge removed",
+   "model": "C10_cube_shell_1mm",
+   "against": "C10_cube_shell_1mm",
+   "caught": true,
+   "firstProblem": "STEP edge #123 (line): on no native edge and not a seam (faces → native 187, 198)"
+  },
+  {
+   "name": "C04 body vs C11 STEP (4 mm hole)",
+   "model": "C04_cube_hole_5mm",
+   "against": "C11_cube_hole_4mm",
+   "caught": true,
+   "firstProblem": "native edge 174 (circle): no STEP edge on it"
+  },
+  {
+   "name": "C04 body vs C06 STEP (hole moved)",
+   "model": "C04_cube_hole_5mm",
+   "against": "C06_cube_hole_moved",
+   "caught": true,
+   "firstProblem": "native edge 174 (circle): no STEP edge on it"
+  },
+  {
+   "name": "C03 body vs C12 STEP (fillet on another edge)",
+   "model": "C03_cube_fillet_1mm",
+   "against": "C12_cube_fillet_1mm_edge2",
+   "caught": true,
+   "firstProblem": "vertex 157: nearest STEP vertex #264 is 1.00e-3 m away"
+  },
+  {
+   "name": "C00 body vs C18 STEP (split line)",
+   "model": "C00_cube_10mm",
+   "against": "C18_cube_split_line",
+   "caught": true,
+   "firstProblem": "native face 1 (plane): split into 2 STEP faces, but its surface is not closed"
+  }
+ ]
+}

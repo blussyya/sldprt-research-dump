@@ -2,6 +2,32 @@
 
 > **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
 
+## INV-027: The Native Partition Body Is the Part SolidWorks Exports
+
+> **Established 2026-10-03 (EXP-075).**
+
+**Status:** Verified on the controlled corpus.
+
+**Evidence:** The body decoded from `Config-0-Partition` corresponds to SolidWorks' own
+`model.step` of the same part, modulo seam splitting of closed faces. Every native vertex is a STEP
+vertex. Every STEP edge lies on exactly one native edge, or is a seam on a closed surface. Edge
+lengths sum exactly. Every STEP face lies on one native face's surface with the same outward side,
+and adjacency corresponds. Worst deviations are 2.5e-18 m (vertex), 9.0e-18 m (edge), 3.9e-18 m
+(surface) and 4.2e-17 m (length), below the 1e-8 m `res_linear` used as tolerance. B-spline control
+nets and knots are identical. Twenty mutations of 1e-7 m or less, and four wrong-model pairings,
+are all detected.
+
+Measured conventions: `FIN.vertex` is the fin's end vertex (432/432 lines, 24/24 trimmed curves);
+B-spline control points are stored with v fastest.
+
+**Files/counts:** 49 models (25 SW2011, 24 SW2022); 287 native faces, 331 STEP faces; 531 native
+edges, 688 STEP edges, 90 seams.
+
+**Confidence/date:** High within the controlled corpus, 2026-10-03. Types absent from it
+(INTERSECTION curves, curveless edges, SWEPT_SURF, BLENDED_EDGE) are not covered (NQ-049).
+
+**Source:** [EXP-075](evidence/2026-10-03_v0.5-EXP075.md).
+
 ## INV-020: Explicit Strip-Length Precursor and Triangle Ordering
 
 > **Corroboration, 2026-09-15 (EXP-049):** Replicated through a different face-discovery path (`parser/v0.1`'s gap-marker scan rather than the forward precursor scan): same 21 files, 1,272 faces, 10,095 strips, 71,166 vertices, 50,976 triangles, all 50,976 agreeing with stored normals. The openswx decompressor is shared, so pipeline independence is partial. Status and scope unchanged. Evidence: [EXP-049](evidence/2026-09-15_v0.4.8-EXP049.md).

@@ -1290,3 +1290,24 @@ No confidence claimed about B-rep equivalence — explicitly not demonstrated.
 
 **Raw evidence**: `knowledge/evidence/2026-09-20_converter-v0.1-EXP053.md`,
 `converter/v0.1/VALIDATION.json`, `converter/v0.1/README.md`
+
+---
+
+## EXP-075 — The native body against SolidWorks' STEP export
+
+**Question**: Is the body decoded from `Config-0-Partition` the part SolidWorks itself exports to STEP?
+
+**Result**: 49/49 controlled models correspond modulo seam splitting at 1e-8 m. The worst
+deviation is 9.0e-18 m, which is double-precision rounding. B-spline control nets and knots are
+identical. 20/20 controls (mutations of 1e-7 m or less, wrong-model pairings) are detected. A
+first version accepted a split-line edge as a seam; seams are now restricted to closed surfaces.
+Promoted as INV-027.
+
+**Files tested**: 25 SW2011 + 24 SW2022 controlled models, `model.SLDPRT` and `model.step`.
+
+**Known gaps**: production-only types (NQ-049).
+
+**Date**: 2026-10-03
+
+**Raw evidence**: `knowledge/evidence/2026-10-03_v0.5-EXP075.md`, `knowledge/evidence/scripts/EXP075/`
+

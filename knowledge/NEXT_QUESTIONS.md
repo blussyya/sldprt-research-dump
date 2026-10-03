@@ -1137,3 +1137,24 @@ and found it outside the Partition streams. Open:
    role; a file where they are not zero is needed.
 
 **Date raised**: 2026-09-29 (EXP-074).
+
+---
+
+## NQ-049 — Production-only geometry: INTERSECTION curves, curveless edges, swept and blended surfaces
+
+EXP-075 shows the decoded body equals SolidWorks' STEP export on every type the controlled corpus
+contains. The 21 original parts additionally use:
+
+- `INTERSECTION` curves: 265 edges, plus 16 trimmed ones;
+- edges with no curve whose fins carry trimmed curves: 27;
+- `SWEPT_SURF`: 311 faces, all Dekor;
+- `BLENDED_EDGE`: 33 faces.
+
+None has a STEP export to compare against. They can be checked against the display mesh, as in
+EXP-074, once evaluated. A controlled model per type, exported to STEP the same way as C13–C16,
+would settle each one directly.
+
+**Not blocked** for the display-mesh check. Controlled models need SolidWorks.
+
+**Date raised**: 2026-10-03 (EXP-075).
+
