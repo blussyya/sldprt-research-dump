@@ -110,7 +110,7 @@ R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)
 // a face or edge picked by name: u32 1, u32 0, u32 kind (6 face, 4 edge), u8, u16 (3 face, 2 edge), u8,
 // u32 (an edge's Parasolid tag?), two copies of a
 // 64-bit value, u16, the naming tree, 20 bytes
-function topoRef(r,o){o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.c===3){o.reps=nullList(r,'face rep');o.x1=r.bytes(18).toString('hex');}else{o.rep=r.object('edge rep');o.x1=r.bytes(18).toString('hex');o.next=r.object('edge next');}}
+function topoRef(r,o){o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes(18).toString('hex');}else{o.rep=r.object('edge rep');o.x1=r.bytes(18).toString('hex');o.next=r.object('edge next');}}
 // objects up to a null
 function nullList(r,w){const out=[];for(;;){const x=r.object(w);if(!x)return out;out.push(x);}}
 R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
@@ -118,9 +118,9 @@ R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
 // the face (moFR_c: the document/config object, feature id, feature creation time, sketch entity id)
 R.moEndFaceSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.end=r.u32();o.b=r.u32();o.child=r.object('surf child');};
 R.moFromSktEntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.entity=r.u32();o.child=r.object('surf child');};
-// side face from a sketch entity, with two more integers (−1, 0 in C04)
+// "3Int" variants carry three integers: side face (entity, −1, 0 in C04), cap face (end, b, c)
 R.moFromSktEnt3IntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.ints=[r.i32(),r.i32(),r.i32()];o.child=r.object('surf child');};
-R.moEndFace3IntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.end=r.u32();o.b=r.u32();o.ints=[r.i32(),r.i32()];o.child=r.object('surf child');};
+R.moEndFace3IntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.end=r.u32();o.b=r.u32();o.c=r.i32();o.child=r.object('surf child');};
 R.moSurfaceIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.items=[r.object('surf a'),r.object('surf b'),r.object('surf c')];};
 R.moFilletSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.u32();};
 R.moFR_c=(r,o)=>{o.ext=r.object('fr ext');o.feature=r.u32();o.stamp=r.u32();};
