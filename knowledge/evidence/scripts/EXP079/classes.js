@@ -16,8 +16,8 @@ R.moMaterialFolder_c=(r,o)=>{feature(r,o);o.x0=r.u32();o.material=r.str();o.x=r.
 R.moRefPlane_c=(r,o)=>{feature(r,o);o.x=r.bytes(150).toString('hex');o.data=r.object('ref plane data');};
 // default plane: origin, normal, optional 3×3 rotation (Top and Right have one, Front doesn't), then display data
 R.moDefaultRefPlnData_c=(r,o)=>{o.origin=r.vec();o.normal=r.vec();o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];o.v=r.vec();o.display=r.bytes(96).toString('hex');};
-// profile features (the Origin, sketches): node, 10 bytes, the sketch, then i32, u32 order?, u32, 12 bytes
-function profileTail(r,o){o.t=[r.i32(),r.u32(),r.u32(),r.u32()];o.t1=r.bytes(12).toString('hex');}
+// profile features (the Origin, sketches): node, 10 bytes, the sketch, then i32, u32, u32 (101 Origin, 102 sketch), 12 bytes
+function profileTail(r,o){o.t=[r.i32(),r.u32(),r.u32()];o.t1=r.bytes(12).toString('hex');}
 R.moOriginProfileFeature_c=(r,o)=>{feature(r,o);o.x=r.bytes(10).toString('hex');o.sketch=r.object('origin sketch');profileTail(r,o);};
 R.moProfileFeature_c=(r,o)=>{feature(r,o);if(process.env.PF)console.error('profile after node',r.p,r.b.subarray(r.p,r.p+60).toString('hex'));o.x=r.bytes(10).toString('hex');o.sketch=r.object('sketch');profileTail(r,o);};
 // the Annotations folder: u16, two doubles (1.0, 1.0), 10 bytes
@@ -71,8 +71,10 @@ R.sgSketch=(r,o)=>{const n=r.u16();o.x0=r.u16();o.points=[];for(let i=0;i<n;i++)
 R.moSketchRegion_c=(r,o)=>{o.edges=r.object('region edges');};
 // chain: u16 n, the entities' P numbers, u16, u32 (1 for a single closed curve), u32 6, i32 -1, 8 bytes
 R.moSketchChain_c=(r,o)=>{const n=r.u16();o.ents=[];for(let i=0;i<n;i++)o.ents.push(r.u32());o.a=r.u16();o.b=r.u32();o.c=r.u32();o.d=r.i32();o.x0=r.bytes(8).toString('hex');};
-// reference to a plane feature: component object (feature id + creation time), u16, u32 3, 24 bytes, f64 1.0, u32 4
-R.moCompRefPlane_c=(r,o)=>{o.comp=r.object('plane comp');o.a=r.u16();o.b=r.u32();o.x0=r.bytes(24).toString('hex');o.scale=r.f64();o.c=r.u32();};
+// reference to a plane feature: component object (feature id + creation time), u16, u32 (3, or 2
+// when a rotation follows), u8 has-rotation, 3×3 rotation, 24 bytes, f64 1.0, 3 bytes, u32 4
+R.moCompRefPlane_c=(r,o)=>{o.comp=r.object('plane comp');o.a=r.u16();o.b=r.u32();o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];
+  o.x0=r.bytes(24).toString('hex');o.scale=r.f64();o.x1=r.bytes(3).toString('hex');o.c=r.u32();};
 // a sketch entity tied to outside geometry: sgExtEnt_c → moSketchExtRef_w → the referenced entity
 // (moCompSketchEntHandle_c: the owning feature as a component object, the entity handle, 62 bytes)
 // and a backed-up copy of it (moPointBackedUpData_c: 30 bytes and its name, e.g. "Point1@Origin")
@@ -83,7 +85,10 @@ R.moPointBackedUpData_c=(r,o)=>{o.x0=r.bytes(30).toString('hex');o.name=r.str();
 R.moExtrusion_c=(r,o)=>{feature(r,o);o.x0=r.bytes(44).toString('hex');o.bodies=r.object('per body chooser');
   o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('extrusion owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();
   o.spec=r.objectAs('@x66','extrusion spec');
-  o.end=r.object('end spec');o.x4=r.bytes(74).toString('hex');o.from=r.object('from end spec');
+  o.end=r.object('end spec');
+  // u8 flag (1 in the cube models, 0 in C19); when set, u16, u32 1 and 36 bytes follow
+  o.flag=r.u8();if(o.flag){o.x4=[r.u16(),r.u32()];o.x5=r.bytes(36).toString('hex');}o.x6=r.bytes(19).toString('hex');o.x7=r.u32();o.x8=r.bytes(8).toString('hex');
+  o.from=r.object('from end spec');
 };
 R.moFromEndSpec_c=(r,o)=>{o.x0=r.bytes(32).toString('hex');};
 // bounding box of what the feature made: u32 1, centre, diagonal, 18 bytes, the feature
