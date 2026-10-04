@@ -5,8 +5,8 @@ const R=READ;
 R.moCommentsFolder_c=(r,o)=>{feature(r,o);o.x=r.u32();};
 R.moFavoriteFolder_c=(r,o)=>{feature(r,o);o.x=[r.u32(),r.u32(),r.u32()];};
 R.moHistoryFolder_c=(r,o)=>{feature(r,o);o.x=r.u32();const n=r.count();o.items=[];for(let i=0;i<n;i++)o.items.push(r.object('history item'));};
-R.moHistoryFeatItemData_c=(r,o)=>{o.raw=r.bytes(22).toString('hex');o.comp=r.object('history comp');};
-R.moCompFeature_c=(r,o)=>{o.comp=r.object('comp');o.feature=r.u32();o.stamp=r.u32();};
+R.moHistoryFeatItemData_c=(r,o)=>{o.raw=r.bytes(22).toString('hex');o.comp=r.objectAs('@comp','history comp');};
+R.moCompFeature_c=(r,o)=>{o.comp=r.objectAs('@comp','comp');o.feature=r.u32();o.stamp=r.u32();};
 // component reference data (pre-loaded class): u16 2, u32 flags, u8, u32 kind (0, or 101 for some
 // bodies, faces and edges), u32, 28 bytes, 16 × ff, 20 bytes. The owning class adds its own fields:
 // references to features name the feature by id and creation time (unix seconds)
@@ -88,14 +88,14 @@ R.moSketchRegion_c=(r,o)=>{o.edges=r.object('region edges');};
 R.moSketchChain_c=(r,o)=>{const n=r.u16();o.ents=[];for(let i=0;i<n;i++)o.ents.push(r.u32());o.a=r.u16();o.b=r.u32();o.c=r.u32();o.d=r.i32();o.x0=r.bytes(8).toString('hex');};
 // reference to a plane feature: component object, the plane's feature id and creation time. What
 // follows belongs to the owner (the sketch: its placement on the plane)
-R.moCompRefPlane_c=(r,o)=>{o.comp=r.object('plane comp');o.feature=r.u32();o.stamp=r.u32();};
+R.moCompRefPlane_c=(r,o)=>{o.comp=r.objectAs('@comp','plane comp');o.feature=r.u32();o.stamp=r.u32();};
 // a sketch entity tied to outside geometry: sgExtEnt_c → moSketchExtRef_w → the referenced entity
 // (moCompSketchEntHandle_c: the owning feature as a component object, the entity handle, 10 bytes; or a model
 // edge, moCompEdge_c), 52 bytes (u32 0x66/0x6a, three i32 -12345, version 15000)
 // and a backed-up copy of it (moPointBackedUpData_c: 30 bytes and its name, e.g. "Point1@Origin")
 R.sgExtEnt_c=(r,o)=>{o.ref=r.object('ext ref');};
 R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');o.x0=r.bytes(52).toString('hex');o.backup=r.object('ext backup');};
-R.moCompSketchEntHandle_c=(r,o)=>{o.comp=r.object('ext comp');o.feature=r.u32();o.stamp=r.u32();o.handle=r.object('ext handle');o.x0=r.bytes(10).toString('hex');};
+R.moCompSketchEntHandle_c=(r,o)=>{o.comp=r.objectAs('@comp','ext comp');o.feature=r.u32();o.stamp=r.u32();o.handle=r.object('ext handle');o.x0=r.bytes(10).toString('hex');};
 R.moPointBackedUpData_c=(r,o)=>{o.p=r.vec();o.next=r.object('point next');o.a=r.u32();o.name=r.str();};
 // header shared by features that make or change a body (extrude, cut, revolve, loft): u32, u16, u32;
 // (u16 1, u16 code 0x3a/0x3b), u32 n and n more such pairs (cuts add 0x3b), u16; u32, u32 (101 boss, 102 cut), u32 3;
@@ -162,7 +162,7 @@ R.ThreeDRadiusDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');};
 R.edgeRadiusObject_c=(r,o)=>{o.dim=r.object('edge radius dim');};
 // an edge: component object, u8, the edge reference (often a back-reference to the one the feature named),
 // a second object slot (null so far), 60 bytes
-R.moCompEdge_c=(r,o)=>{o.comp=r.object('edge comp');o.a=r.u8();o.edge=r.object('edge ref');o.x0=r.bytes(62).toString('hex');};
+R.moCompEdge_c=(r,o)=>{o.comp=r.objectAs('@comp','edge comp');o.a=r.u8();o.edge=r.object('edge ref');o.x0=r.bytes(62).toString('hex');};
 R.moFavoriteHandle_c=(r,o)=>{o.a=r.u32();o.b=r.i32();};
 R.moFeatureDimHandle_c=(r,o)=>{o.x0=r.bytes(103).toString('hex');o.dim=r.object('dim');};
 R.ParallelPlaneDistanceDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');if(process.env.EX)console.error('after param',r.p,peek(r));};
@@ -172,7 +172,7 @@ R.moAngleParameter_c=R.moLengthParameter_c;
 // cut-extrude (ICE): laid out as the extrusion, with the cut body in the header's scope list
 R.moICE_c=(r,o)=>R.moExtrusion_c(r,o);
 // a solid body, named by one of its faces: component object, face reference
-R.moCompSolidBody_c=(r,o)=>{o.comp=r.object('body comp');o.face=r.object('body face');};
+R.moCompSolidBody_c=(r,o)=>{o.comp=r.objectAs('@comp','body comp');o.face=r.object('body face');};
 // applied features (fillet, chamfer, shell): node, 58 bytes, the pre-loaded data object, u32, ...
 function applied(r,o){feature(r,o);o.x0=r.bytes(58).toString('hex');o.data=r.objectAs('@x66','feature data');o.n=r.u32();o.target=r.object('applied target');
   if(process.env.AP)console.error('applied after ref',r.p,r.b.subarray(r.p,r.p+100).toString('hex'));}
@@ -182,7 +182,7 @@ R.Fillet_c=(r,o)=>{applied(r,o);o.edges=r.object('fillet edges');o.lists=[r.obje
   o.edge2=r.object('fillet edge 2');o.z00=[r.u32(),r.u16()];o.z0=[r.u32(),r.i32(),r.i32(),r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.radius=r.f64();o.edge3=r.object('fillet edge 3');o.z2=[r.u32(),r.u16()];
   o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.z1=r.bytes(16).toString('hex');};
 // a face: component object, u8, the face reference, a second object slot (null so far)
-R.moCompFace_c=(r,o)=>{o.comp=r.object('face comp');o.a=r.u8();o.face=r.object('face ref');o.b=r.object('face 2');};
+R.moCompFace_c=(r,o)=>{o.comp=r.objectAs('@comp','face comp');o.a=r.u8();o.face=r.object('face ref');o.b=r.object('face 2');};
 R.Chamfer_c=(r,o)=>{applied(r,o);o.edges=r.object('chamfer edges');o.lists=[r.object(),r.object()];o.dim=r.object('chamfer dim');o.dim2=r.object('chamfer dim 2');o.c0=[r.u8(),r.u16(),r.u16()];o.edge=r.object('chamfer edge');o.c1=[r.u32(),r.u32(),r.u32(),r.u16()];o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.c2=r.bytes(19).toString('hex');o.c3=r.u8();};
 R.moShell_c=(r,o)=>{applied(r,o);o.dim=r.object('shell dim');o.s0=r.u8();o.lists=[r.object(),r.object()];o.edge=r.object('shell edge');o.s1=r.u16();};
 for(const c of ['Fillet_c','Chamfer_c','moShell_c','moRevolution_c','moLoft_c','moSplitLine_c'])if(!R[c])R[c]=(r,o)=>{feature(r,o);let h='';for(let p=r.p;p<r.p+72;p++){h+=r.b[p]===0?'..':r.b[p].toString(16).padStart(2,'0');if((p-r.p)%2==1)h+=' ';}console.error(c,'after node',r.p,h);throw Error(c+' at '+r.p);};
@@ -211,7 +211,7 @@ R.moBlend_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.owner=r.object('loft owner');
 // a curve or profile reference: the profile (moCompProfile_c: the sketch feature by id and time, 60 bytes),
 // 4 bytes, f64 1.0, u8, two i32 -1, 6 bytes
 R.moGeneralCurveRef_w=(r,o)=>{o.profile=r.object('curve profile');o.x0=r.bytes(4).toString('hex');o.s=r.f64();o.a=r.u8();o.b=[r.i32(),r.i32()];o.x1=r.bytes(6).toString('hex');};
-R.moCompProfile_c=(r,o)=>{o.comp=r.object('profile comp');o.feature=r.u32();o.stamp=r.u32();o.x0=r.bytes(60).toString('hex');};
+R.moCompProfile_c=(r,o)=>{o.comp=r.objectAs('@comp','profile comp');o.feature=r.u32();o.stamp=r.u32();o.x0=r.bytes(60).toString('hex');};
 // backed-up copies of outside geometry a sketch entity is tied to: a point (position, the next point, u32, name)
 // and a line (its points as a linked pair, u16, name such as "Edge")
 R.moLineBackedUpData_c=(r,o)=>{o.p=r.object('line points');o.a=r.u16();o.name=r.str();};
