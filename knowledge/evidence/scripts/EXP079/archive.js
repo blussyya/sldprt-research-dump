@@ -84,7 +84,7 @@ function node(r,o){
   o.created={version:r.u32(),build:r.u32()};o.modified={version:r.u32(),x:r.f64(),build:r.u32()};
   o.h=r.u16();o.str2=r.str();
   o.tail=r.bytes(62).toString('hex');   // flags, -1s, a float -1.0, a FILETIME and fixed words; to split
-  o.base2=[r.u16(),r.u32(),r.u32()];
+  o.base2=[r.u16(),r.u32()];   // ends here: the Annotations folder's own data (two doubles) starts 2 bytes later
 }
 
 const READ={'@node':node};
