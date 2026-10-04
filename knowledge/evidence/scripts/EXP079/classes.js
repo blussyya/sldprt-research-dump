@@ -86,7 +86,14 @@ R.sgExtEnt_c=(r,o)=>{o.ref=r.object('ext ref');};
 R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');o.backup=r.object('ext backup');};
 R.moCompSketchEntHandle_c=(r,o)=>{o.comp=r.object('ext comp');o.feature=r.u32();o.stamp=r.u32();o.handle=r.object('ext handle');o.x0=r.bytes(62).toString('hex');};
 R.moPointBackedUpData_c=(r,o)=>{o.x0=r.bytes(30).toString('hex');o.name=r.str();};
-R.moExtrusion_c=(r,o)=>{feature(r,o);o.x0=r.bytes(44).toString('hex');o.bodies=r.object('per body chooser');
+// header shared by features that make or change a body (extrude, cut, revolve, loft): u32, u16, u32;
+// (u16 1, u16 code 0x3a/0x3b), u32 n and n more such pairs (cuts add 0x3b), u16; u32, u32 (101 boss, 102 cut), u32 3;
+// the bodies acted on (u32 count; per body u16, the body, u32, u32, the creating feature's id, u32, u32);
+// u32 1, u16, u16
+function bodyHeader(r,o){o.h0=[r.u32(),r.u16(),r.u32()];o.codes=[[r.u16(),r.u16()]];const nc=r.u32();for(let i=0;i<nc;i++)o.codes.push([r.u16(),r.u16()]);o.z=r.u16();
+  o.h1=[r.u32(),r.u32(),r.u32()];const n=r.u32();o.scope=[];for(let i=0;i<n;i++)o.scope.push({a:r.u16(),body:r.object('scope body'),x:[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()]});
+  o.h2=[r.u32(),r.u16(),r.u16()];}
+R.moExtrusion_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.bodies=r.object('per body chooser');
   o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('extrusion owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();
   o.spec=r.objectAs('@x66','extrusion spec');
   o.end=r.object('end spec');
@@ -95,8 +102,9 @@ R.moExtrusion_c=(r,o)=>{feature(r,o);o.x0=r.bytes(44).toString('hex');o.bodies=r
   o.from=r.object('from end spec');
 };
 R.moFromEndSpec_c=(r,o)=>{o.x0=r.bytes(32).toString('hex');};
-// bounding box of what the feature made: u32 1, centre, diagonal, 18 bytes, the feature
-R.moBBoxCenterData_c=(r,o)=>{o.a=r.u32();o.centre=r.vec();o.diagonal=r.f64();o.x0=r.bytes(18).toString('hex');o.owner=r.object('bbox owner');};
+// bounding box of what the feature made: u32 1, centre, diagonal, u32, u32, u32 n + n × u32 (n = 1 for
+// the cube boss, 0 for the cut), u16, the feature
+R.moBBoxCenterData_c=(r,o)=>{o.a=r.u32();o.centre=r.vec();o.diagonal=r.f64();o.b=[r.u32(),r.u32()];const n=r.u32();o.list=[];for(let i=0;i<n;i++)o.list.push(r.u32());o.c=r.u16();o.owner=r.object('bbox owner');};
 R['@x66']=(r,o)=>{o.a=r.u32();o.x0=r.bytes(62).toString('hex');};
 R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)o.faces.push(r.object('chooser face'));};
 // a face or edge picked by name: u32 1, u32 0, u32 kind (6 face, 4 edge), u8, u16 (3 face, 2 edge), u8,
@@ -110,6 +118,9 @@ R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
 // the face (moFR_c: the document/config object, feature id, feature creation time, sketch entity id)
 R.moEndFaceSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.end=r.u32();o.b=r.u32();o.child=r.object('surf child');};
 R.moFromSktEntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.entity=r.u32();o.child=r.object('surf child');};
+// side face from a sketch entity, with two more integers (−1, 0 in C04)
+R.moFromSktEnt3IntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.ints=[r.i32(),r.i32(),r.i32()];o.child=r.object('surf child');};
+R.moEndFace3IntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.end=r.u32();o.b=r.u32();o.ints=[r.i32(),r.i32()];o.child=r.object('surf child');};
 R.moSurfaceIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.items=[r.object('surf a'),r.object('surf b'),r.object('surf c')];};
 R.moFilletSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.u32();};
 R.moFR_c=(r,o)=>{o.ext=r.object('fr ext');o.feature=r.u32();o.stamp=r.u32();};
@@ -146,8 +157,8 @@ R.ParallelPlaneDistanceDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter
 // a dimension's value: the short node form (name, id -1), then the value in metres or radians
 R.moLengthParameter_c=(r,o)=>{o.node=r.object('parameter node');o.value=r.f64();};
 R.moAngleParameter_c=R.moLengthParameter_c;
-// cut-extrude (ICE): node, 42 bytes, the body it cuts, ...
-R.moICE_c=(r,o)=>{feature(r,o);o.x0=r.bytes(42).toString('hex');o.body=r.object('cut body');console.error('ICE after body',r.p,r.b.subarray(r.p,r.p+160).toString('hex'));throw Error('ICE at '+r.p);};
+// cut-extrude (ICE): laid out as the extrusion, with the cut body in the header's scope list
+R.moICE_c=(r,o)=>R.moExtrusion_c(r,o);
 // a solid body, named by one of its faces: component object, face reference
 R.moCompSolidBody_c=(r,o)=>{o.comp=r.object('body comp');o.face=r.object('body face');};
 // applied features (fillet, chamfer, shell): node, 58 bytes, the pre-loaded data object, u32, ...
