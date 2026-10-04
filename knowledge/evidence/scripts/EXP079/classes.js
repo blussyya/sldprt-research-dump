@@ -215,6 +215,14 @@ R.moCompProfile_c=(r,o)=>{o.comp=r.object('profile comp');o.feature=r.u32();o.st
 // backed-up copies of outside geometry a sketch entity is tied to: a point (position, the next point, u32, name)
 // and a line (its points as a linked pair, u16, name such as "Edge")
 R.moLineBackedUpData_c=(r,o)=>{o.p=r.object('line points');o.a=r.u16();o.name=r.str();};
-R.moPLine_c=(r,o)=>{feature(r,o);o.p0=[r.u16(),r.u16()];o.rep=r.object('pline rep');bodyHeader(r,o,r=>[r.u32(),r.u32()]);o.chooser=r.object('pline chooser');console.error('PLINE after chooser',r.p,r.b.subarray(r.p,r.p+200).toString('hex'));throw Error('pline at '+r.p);};
-R.moPLineProjIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.child=r.object('surf child');};
-R.moPLineSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.object('pls a');o.b=r.object('pls b');o.c=r.object('pls c');};
+// split line: node, u16 ×2, the projected-curve rep, the body header (with a shorter first block), chooser,
+// bbox, owner, feature data, the faces it split (moPLineSurfIdRep_c), their references, one CDWordArray
+// each, flags, the new face, u32 list, the projection (moPLineProject_c), 8 bytes
+R.moPLine_c=(r,o)=>{feature(r,o);o.p0=[r.u16(),r.u16()];o.rep=r.object('pline rep');bodyHeader(r,o,(r=>[r.u32(),r.u32()]));o.bodies=r.object('pline chooser');
+  o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('pline owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();o.spec=r.objectAs('@x66','pline spec');{const n=r.u32();o.faces=[];for(let i=0;i<n;i++)o.faces.push(r.object('pline face'));}{const n=r.u16();o.faceRefs=[];for(let i=0;i<n;i++)o.faceRefs.push(r.object('pline face ref'));}{const n=r.u16();o.arrays=[];for(let i=0;i<n;i++)o.arrays.push(r.object('pline array'));}{const n=r.u16();o.flags=[];for(let i=0;i<n;i++)o.flags.push(r.u8());}o.q=[r.u16(),r.u16(),r.u16()];o.face=r.object('pline new face');{const n=r.u16();o.w=[];for(let i=0;i<n;i++)o.w.push(r.u32());}o.w2=[r.i32(),r.i32(),r.u32()];o.project=r.object('pline project');o.t=r.bytes(8).toString('hex');};
+R.moPLineProjIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.items=[];const k=+(process.env.K2||1);for(let i=0;i<k;i++)o.items.push(r.object('proj item'));if(process.env.K3)o.u=r.u32();};
+R.moPLineSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.items=[];const k=o.ctx?2:4;   // fitted: 4 object slots when the context is null (chooser faces), 2 otherwise
+  for(let i=0;i<k;i++)o.items.push(r.object('pls item'));};
+// MFC CDWordArray: count + 32-bit values
+R.su_CDWordArray=(r,o)=>{const n=r.count();o.v=[];for(let i=0;i<n;i++)o.v.push(r.u32());};
+R.moPLineProject_c=(r,o)=>{o.ref=r.object('project ref');o.a=r.u32();const n=r.u16();o.faces=[];for(let i=0;i<n;i++)o.faces.push(r.object('project face'));};
