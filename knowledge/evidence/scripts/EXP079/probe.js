@@ -17,7 +17,7 @@ try{
   if(!process.env.SYNC)head.count=r.u16();
   const n=Math.min(limit,head.count!==undefined?head.count:1e9);
   const tops=[];
-  for(let i=0;i<n;i++){if(r.p>=b.length)break;const o=r.object('top');tops.push(o);if(o&&o.ref!==undefined&&!process.env.LOOSE)throw Error('top-level object '+i+' is '+JSON.stringify(o)+' at '+r.p);if(!quiet)console.log(String(o&&o.at).padStart(6),o&&o.class,o&&o.index,JSON.stringify(o,(k,v)=>['at','index','class','end'].includes(k)?undefined:v).slice(0,400));}
+  for(let i=0;i<n;i++){if(r.p>=b.length)break;const o=r.object('top');tops.push(o);if(o&&o.class===undefined&&!process.env.LOOSE)throw Error('top-level object '+i+' is '+JSON.stringify(o)+' at '+r.p);if(!quiet)console.log(String(o&&o.at).padStart(6),o&&o.class,o&&o.index,JSON.stringify(o,(k,v)=>['at','index','class','end'].includes(k)?undefined:v).slice(0,400));}
   const rest=b.length-r.p;
   console.log(rest<=2?'END':'STOP: unread bytes:','at',r.p,'of',b.length,'after',n,'top-level slots ('+tops.filter(x=>!x).length+' null); rest',b.subarray(r.p).toString('hex').slice(0,80));
 }catch(e){console.log('STOP:',e.message);console.log('classes',[...r.classes.values()].map(c=>c.index+':'+c.name).join(' '));console.log('next index',r.next);console.log('next bytes',b.subarray(r.p,r.p+96).toString('hex'));}

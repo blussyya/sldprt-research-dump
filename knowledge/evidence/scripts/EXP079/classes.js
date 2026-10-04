@@ -6,8 +6,12 @@ R.moCommentsFolder_c=(r,o)=>{feature(r,o);o.x=r.u32();};
 R.moFavoriteFolder_c=(r,o)=>{feature(r,o);o.x=[r.u32(),r.u32(),r.u32()];};
 R.moHistoryFolder_c=(r,o)=>{feature(r,o);o.x=r.u32();const n=r.count();o.items=[];for(let i=0;i<n;i++)o.items.push(r.object('history item'));};
 R.moHistoryFeatItemData_c=(r,o)=>{o.raw=r.bytes(22).toString('hex');o.comp=r.object('history comp');};
-R.moCompFeature_c=(r,o)=>{o.comp=r.object('comp');};
-R['@comp']=(r,o)=>{o.raw=r.bytes(87).toString('hex');};
+R.moCompFeature_c=(r,o)=>{o.comp=r.object('comp');o.feature=r.u32();o.stamp=r.u32();};
+// component reference data (pre-loaded class): u16 2, u32 flags, u8, u32 kind (0, or 101 for some
+// bodies, faces and edges), u32, 28 bytes, 16 × ff, 20 bytes. The owning class adds its own fields:
+// references to features name the feature by id and creation time (unix seconds)
+R['@comp']=(r,o)=>{o.v=r.u16();o.flags=r.u32();o.a=r.u8();o.kind=r.u32();o.kind2=r.u32();o.x0=r.bytes(28).toString('hex');o.ff=r.bytes(16).toString('hex');o.x1=r.bytes(20).toString('hex');
+};
 R.moSelectionSetFolder_c=(r,o)=>{feature(r,o);o.x=[r.u32(),r.u16(),r.u32()];};
 for(const c of ['moSensorFolder_c','moDocsFolder_c','moInkMarkupFolder_c','moEqnFolder_c'])R[c]=(r,o)=>{feature(r,o);o.x=r.u32();};
 R.moSurfaceBodyFolder_c=(r,o)=>{feature(r,o);o.x=r.bytes(16).toString('hex');};
@@ -73,14 +77,14 @@ R.moSketchRegion_c=(r,o)=>{o.edges=r.object('region edges');};
 R.moSketchChain_c=(r,o)=>{const n=r.u16();o.ents=[];for(let i=0;i<n;i++)o.ents.push(r.u32());o.a=r.u16();o.b=r.u32();o.c=r.u32();o.d=r.i32();o.x0=r.bytes(8).toString('hex');};
 // reference to a plane feature: component object (feature id + creation time), u16, u32 (3, or 2
 // when a rotation follows), u8 has-rotation, 3×3 rotation, 24 bytes, f64 1.0, 3 bytes, u32 4
-R.moCompRefPlane_c=(r,o)=>{o.comp=r.object('plane comp');o.a=r.u16();o.b=r.u32();o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];
+R.moCompRefPlane_c=(r,o)=>{o.comp=r.object('plane comp');o.feature=r.u32();o.stamp=r.u32();o.a=r.u16();o.b=r.u32();o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];
   o.x0=r.bytes(24).toString('hex');o.scale=r.f64();o.x1=r.bytes(3).toString('hex');o.c=r.u32();};
 // a sketch entity tied to outside geometry: sgExtEnt_c → moSketchExtRef_w → the referenced entity
 // (moCompSketchEntHandle_c: the owning feature as a component object, the entity handle, 62 bytes)
 // and a backed-up copy of it (moPointBackedUpData_c: 30 bytes and its name, e.g. "Point1@Origin")
 R.sgExtEnt_c=(r,o)=>{o.ref=r.object('ext ref');};
 R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');o.backup=r.object('ext backup');};
-R.moCompSketchEntHandle_c=(r,o)=>{o.comp=r.object('ext comp');o.handle=r.object('ext handle');o.x0=r.bytes(62).toString('hex');};
+R.moCompSketchEntHandle_c=(r,o)=>{o.comp=r.object('ext comp');o.feature=r.u32();o.stamp=r.u32();o.handle=r.object('ext handle');o.x0=r.bytes(62).toString('hex');};
 R.moPointBackedUpData_c=(r,o)=>{o.x0=r.bytes(30).toString('hex');o.name=r.str();};
 R.moExtrusion_c=(r,o)=>{feature(r,o);o.x0=r.bytes(44).toString('hex');o.bodies=r.object('per body chooser');
   o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('extrusion owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();
@@ -95,12 +99,18 @@ R.moFromEndSpec_c=(r,o)=>{o.x0=r.bytes(32).toString('hex');};
 R.moBBoxCenterData_c=(r,o)=>{o.a=r.u32();o.centre=r.vec();o.diagonal=r.f64();o.x0=r.bytes(18).toString('hex');o.owner=r.object('bbox owner');};
 R['@x66']=(r,o)=>{o.a=r.u32();o.x0=r.bytes(62).toString('hex');};
 R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)o.faces.push(r.object('chooser face'));};
-R.moFaceRef_c=(r,o)=>{o.x0=r.bytes(38).toString('hex');o.rep=r.object('face rep');o.x1=r.bytes(20).toString('hex');};
+// a face or edge picked by name: u32 1, u32 0, u32 kind (6 face, 4 edge), u8, u16 (3 face, 2 edge), u8,
+// u32 (an edge's Parasolid tag?), two copies of a
+// 64-bit value, u16, the naming tree, 20 bytes
+function topoRef(r,o){o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();o.rep=r.object('topo rep');o.x1=r.bytes(20).toString('hex');}
+R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
 // how a face is named: a tree of surface-id representations, each pointing at the feature that made
 // the face (moFR_c: the document/config object, feature id, feature creation time, sketch entity id)
-R.moEndFaceSurfIdRep_c=(r,o)=>{o.a=r.u16();o.fr=r.object('surf fr');o.b=r.u32();o.child=r.object('surf child');};
-R.moFromSktEntSurfIdRep_c=(r,o)=>{o.a=r.u16();o.fr=r.object('surf fr');o.child=r.object('surf child');};
-R.moFR_c=(r,o)=>{o.ext=r.object('fr ext');o.feature=r.u32();o.stamp=r.u32();o.entity=r.u32();};
+R.moEndFaceSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.end=r.u32();o.b=r.u32();o.child=r.object('surf child');};
+R.moFromSktEntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.entity=r.u32();o.child=r.object('surf child');};
+R.moSurfaceIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.child=r.object('surf child');};
+R.moFilletSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.u32();o.x=r.object('fillet rep x');o.y=r.object('fillet rep y');};
+R.moFR_c=(r,o)=>{o.ext=r.object('fr ext');o.feature=r.u32();o.stamp=r.u32();};
 // the document a reference lives in: two string handles (path, document name), u8, u16, creation
 // time, three strings, 18 bytes, configuration name, 12 bytes
 R.moExtObject_c=(r,o)=>{o.h=[r.object('ext path'),r.object('ext doc')];o.a=[r.u8(),r.u16()];o.stamp=r.u32();o.s=[r.str(),r.str(),r.str()];o.x0=r.bytes(18).toString('hex');o.config=r.str();o.x1=r.bytes(12).toString('hex');};
@@ -113,11 +123,38 @@ R.moEndSpec_c=(r,o)=>{o.x0=r.bytes(24).toString('hex');o.dim=r.object('end spec 
 // a displayed dimension (SW2022 sizes): 556 bytes of annotation settings, the handle to the dimension
 // and its value, 587 bytes of placement, a favourites handle, 428 bytes. Where the placement data
 // belongs (handle, dimension or display) is not settled yet; the sizes hold on every SW2022 file.
-R.moDisplayDistanceDim_c=(r,o)=>{o.x0=r.bytes(556).toString('hex');o.handle=r.object('display dim handle');o.x1=r.bytes(587).toString('hex');
-  o.fav=r.object('display dim favourite');o.x2=r.bytes(428).toString('hex');};
+// placement data after the dimension's value: its length varies with the geometry measured (587 bytes
+// for the cube extrusions, 515 for the cylinder ones, 541 for fillet radii); not decoded yet, so the
+// reader goes to the favourites handle that follows it
+const FAV_SIG=Buffer.from('00000000ffffffff','hex');
+function displayDim(r,o,x){o.x0=r.bytes(556).toString('hex');o.handle=r.object('display dim handle');o.x1=r.skipToObject('moFavoriteHandle_c',FAV_SIG);o.x1len=o.x1.length/2;
+  o.fav=r.object('display dim favourite');o.x2=r.bytes(374).toString('hex');}
+R.moDisplayDistanceDim_c=(r,o)=>{displayDim(r,o,587);o.x3=r.bytes(54).toString('hex');};
+// radius dimension: as above, then 124 bytes, the edge it measures, ...
+R.moDisplayRadialDim_c=(r,o)=>{displayDim(r,o,541);o.x3=r.bytes(124).toString('hex');o.edge=r.object('radial dim edge');
+  if(process.env.AP)console.error('radial after edge',r.p,r.b.subarray(r.p,r.p+200).toString('hex'));};
+R.ThreeDRadiusDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');};
+R.edgeRadiusObject_c=(r,o)=>{o.dim=r.object('edge radius dim');};
+// an edge: component object, u8, the edge reference (often a back-reference to the one the feature named), 62 bytes
+R.moCompEdge_c=(r,o)=>{o.comp=r.object('edge comp');o.a=r.u8();o.edge=r.object('edge ref');o.x0=r.bytes(62).toString('hex');};
 R.moFavoriteHandle_c=(r,o)=>{o.a=r.u32();o.b=r.i32();};
 R.moFeatureDimHandle_c=(r,o)=>{o.x0=r.bytes(103).toString('hex');o.dim=r.object('dim');};
 R.ParallelPlaneDistanceDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');if(process.env.EX)console.error('after param',r.p,peek(r));};
 // a dimension's value: the short node form (name, id -1), then the value in metres or radians
 R.moLengthParameter_c=(r,o)=>{o.node=r.object('parameter node');o.value=r.f64();};
 R.moAngleParameter_c=R.moLengthParameter_c;
+// cut-extrude (ICE): node, 42 bytes, the body it cuts, ...
+R.moICE_c=(r,o)=>{feature(r,o);o.x0=r.bytes(42).toString('hex');o.body=r.object('cut body');console.error('ICE after body',r.p,r.b.subarray(r.p,r.p+160).toString('hex'));throw Error('ICE at '+r.p);};
+// a solid body, named by one of its faces: component object, face reference
+R.moCompSolidBody_c=(r,o)=>{o.comp=r.object('body comp');o.face=r.object('body face');};
+// applied features (fillet, chamfer, shell): node, 58 bytes, the pre-loaded data object, u32, ...
+function applied(r,o){feature(r,o);o.x0=r.bytes(58).toString('hex');o.data=r.objectAs('@x66','feature data');o.n=r.u32();o.target=r.object('applied target');
+  if(process.env.AP)console.error('applied after ref',r.p,r.b.subarray(r.p,r.p+100).toString('hex'));}
+R.Fillet_c=(r,o)=>{applied(r,o);o.edges=r.object('fillet edges');o.lists=[r.object(),r.object(),r.object()];o.x1=r.bytes(12).toString('hex');o.radii=r.object('fillet radii');
+  o.y0=[r.u32(),r.u8()];o.list4=r.object('fillet list 4');o.y1=r.bytes(8).toString('hex');o.y2=r.bytes(4).toString('hex');o.y3=r.bytes(9).toString('hex');
+  o.rho=[r.f64(),r.f64()];o.y4=[r.u8(),r.bytes(6).toString('hex'),r.u32()];o.y5=r.bytes(10).toString('hex');o.y6=r.u32();o.face=r.object('fillet face');
+  o.edge2=r.object('fillet edge 2');o.z0=[r.u32(),r.i32(),r.i32(),r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.radius=r.f64();o.edge3=r.object('fillet edge 3');
+  o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.z1=r.bytes(16).toString('hex');};
+// a face: component object, u8, the face reference, ...
+R.moCompFace_c=(r,o)=>{o.comp=r.object('face comp');o.a=r.u8();o.face=r.object('face ref');if(process.env.AP)console.error('compface after ref',r.p,r.b.subarray(r.p,r.p+100).toString('hex'));};
+for(const c of ['Fillet_c','Chamfer_c','moShell_c','moRevolution_c','moLoft_c','moSplitLine_c'])if(!R[c])R[c]=(r,o)=>{feature(r,o);let h='';for(let p=r.p;p<r.p+72;p++){h+=r.b[p]===0?'..':r.b[p].toString(16).padStart(2,'0');if((p-r.p)%2==1)h+=' ';}console.error(c,'after node',r.p,h);throw Error(c+' at '+r.p);};

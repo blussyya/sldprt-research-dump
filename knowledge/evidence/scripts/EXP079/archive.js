@@ -41,6 +41,17 @@ class Reader {
     return this.bytes(n).toString('latin1');
   }
   expect(v,got,what){if(v!==got)throw Error(`${what}: expected ${v}, got ${got} at ${this.p}`);}
+  // Undecoded stretch ending at the next object of class `name`: the only forward search in the reader,
+  // used where a block's layout is known to vary but not yet decoded (dimension placement). The
+  // stretch must not contain a class definition, so no object can hide in it; the index count stays right.
+  skipToObject(name,sig){const k=[...this.classes.values()].find(c=>c.name===name);const tag=k?Buffer.from([k.index&0xff,0x80|(k.index>>8)]):null;
+    const def=Buffer.concat([Buffer.from([0xff,0xff,1,0,name.length,0]),Buffer.from(name)]);
+    for(let p=this.p;p<this.b.length-8;p++){
+      const isDef=this.b.subarray(p,p+def.length).equals(def),isTag=tag&&this.b[p]===tag[0]&&this.b[p+1]===tag[1];
+      if(!isDef&&!isTag)continue;const body=p+(isDef?def.length:2);if(sig&&!this.b.subarray(body,body+sig.length).equals(sig))continue;
+      const skipped=this.b.subarray(this.p,p);for(let q=0;q+5<skipped.length;q++)if(skipped[q]===0xff&&skipped[q+1]===0xff&&skipped[q+2]===1&&skipped[q+3]===0&&skipped[q+5]===0&&skipped[q+6]>=0x41)throw Error('class definition inside skipped stretch at '+(this.p+q));
+      this.p=p;return skipped.toString('hex');}
+    throw Error('no '+name+' after '+this.p);}
   // an object whose class may be a pre-loaded one not yet named: name it by the role it plays here
   objectAs(role,where){const t=this.b.readUInt16LE(this.p);if((t&0x8000)&&t!==0xffff&&t!==0x7fff){const k=t&0x7fff;if(k<this.start&&!this.pre[k])this.pre[k]=role;}return this.object(where||role);}
   object(where){
