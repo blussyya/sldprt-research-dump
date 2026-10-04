@@ -94,7 +94,12 @@ R.moCompRefPlane_c=(r,o)=>{o.comp=r.objectAs('@comp','plane comp');o.feature=r.u
 // edge, moCompEdge_c), 52 bytes (u32 0x66/0x6a, three i32 -12345, version 15000)
 // and a backed-up copy of it (moPointBackedUpData_c: 30 bytes and its name, e.g. "Point1@Origin")
 R.sgExtEnt_c=(r,o)=>{o.ref=r.object('ext ref');};
-R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');o.x0=r.bytes(52).toString('hex');o.backup=r.object('ext backup');};
+R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');extRefTail(r,o);};
+// the 52 bytes after a referenced entity: u16 0, u32 0x66/0x6a, 12 bytes, three i32 -12345, u32 0, u32 version (offset 34),
+// 14 bytes. Version 15000 (SW2022) follows with a backed-up copy object; version 4700 (made in SW2011) has
+// no object, only 8 bytes and the entity's name ("Point1@Origin")
+function extRefTail(r,o){const at=r.p;o.x0=r.bytes(52).toString('hex');o.version=r.b.readUInt32LE(at+34);
+  if(o.version>=15000)o.backup=r.object('ext backup');else{o.old=[r.u32(),r.u32()];o.name=r.str();}}
 R.moCompSketchEntHandle_c=(r,o)=>{o.comp=r.objectAs('@comp','ext comp');o.feature=r.u32();o.stamp=r.u32();o.handle=r.object('ext handle');o.x0=r.bytes(10).toString('hex');};
 R.moPointBackedUpData_c=(r,o)=>{o.p=r.vec();o.next=r.object('point next');o.a=r.u32();o.name=r.str();};
 // header shared by features that make or change a body (extrude, cut, revolve, loft): u32, u16, u32;
