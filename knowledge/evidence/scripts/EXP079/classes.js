@@ -69,16 +69,18 @@ R.sgSketch=(r,o)=>{const n=r.u16();o.x0=r.u16();o.points=[];for(let i=0;i<n;i++)
   o.x9=[r.u32(),r.u32()];o.x10=r.bytes(7).toString('hex');o.x11=[r.u32(),r.u16()];o.axis=r.object('sketch axis');   // u32 100000; the centreline handle a revolve uses (null otherwise)
   
   o.plane=r.object('sketch plane');
+  // placement on the plane: u16, u32 (3, or 2), u8 has-rotation, 3×3 rotation (Top: [[1,0,0],[0,0,1],[0,−1,0]]),
+  // 24 bytes, f64 1.0, 3 bytes, u32 4
+  o.pl=[r.u16(),r.u32()];o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];o.pl1=r.bytes(24).toString('hex');o.scale=r.f64();o.pl2=r.bytes(3).toString('hex');o.pl3=r.u32();
   if(process.env.SKETCH_REST)console.error('sketch rest at',r.p,r.b.subarray(r.p,r.p+(+process.env.SKETCH_REST)).toString('hex'));
   if(process.env.SKETCH_STOP)throw Error('sketch stop at '+r.p);};
 // a closed region of the sketch: its boundary handles
 R.moSketchRegion_c=(r,o)=>{o.edges=r.object('region edges');};
 // chain: u16 n, the entities' P numbers, u16, u32 (1 for a single closed curve), u32 6, i32 -1, 8 bytes
 R.moSketchChain_c=(r,o)=>{const n=r.u16();o.ents=[];for(let i=0;i<n;i++)o.ents.push(r.u32());o.a=r.u16();o.b=r.u32();o.c=r.u32();o.d=r.i32();o.x0=r.bytes(8).toString('hex');};
-// reference to a plane feature: component object (feature id + creation time), u16, u32 (3, or 2
-// when a rotation follows), u8 has-rotation, 3×3 rotation, 24 bytes, f64 1.0, 3 bytes, u32 4
-R.moCompRefPlane_c=(r,o)=>{o.comp=r.object('plane comp');o.feature=r.u32();o.stamp=r.u32();o.a=r.u16();o.b=r.u32();o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];
-  o.x0=r.bytes(24).toString('hex');o.scale=r.f64();o.x1=r.bytes(3).toString('hex');o.c=r.u32();};
+// reference to a plane feature: component object, the plane's feature id and creation time. What
+// follows belongs to the owner (the sketch: its placement on the plane)
+R.moCompRefPlane_c=(r,o)=>{o.comp=r.object('plane comp');o.feature=r.u32();o.stamp=r.u32();};
 // a sketch entity tied to outside geometry: sgExtEnt_c → moSketchExtRef_w → the referenced entity
 // (moCompSketchEntHandle_c: the owning feature as a component object, the entity handle, 62 bytes)
 // and a backed-up copy of it (moPointBackedUpData_c: 30 bytes and its name, e.g. "Point1@Origin")
@@ -187,3 +189,17 @@ R.moRevEndSpec_c=(r,o)=>{o.a=r.u32();o.x0=r.bytes(24).toString('hex');o.v=[r.f64
 // directions and points), u32
 R.moDisplayAngularDim_c=(r,o)=>{displayDim(r,o,0);if(process.env.ANG)console.error('ANG',r.p,r.b.subarray(r.p,r.p+130).toString('hex'));o.t0=[r.u16(),r.u8(),r.u8(),r.u8()];o.arc=[];for(let i=0;i<10;i++)o.arc.push(r.f64());o.t1=r.u32();};
 R.AngleDim_c=R.ParallelPlaneDistanceDim_c;
+// plane defined from another plane or face: origin, normal, u8 has-rotation, rotation, a vector, f64 1.0, u8,
+// display box (4 doubles), 6 bytes, u32, i32, u8, 16 bytes, the reference plane (moCompRefPlane_c), a handle
+// slot, 60 bytes, the plane again (box, origin, normal, rotation, vector, f64, 25 bytes), the offset dimension,
+// u32, u32, 8 bytes
+R.moFaceRefPlnData_c=(r,o)=>{o.origin=r.vec();o.normal=r.vec();o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];o.v=r.vec();o.s=r.f64();o.a=r.u8();o.box=[r.f64(),r.f64(),r.f64(),r.f64()];
+  o.x0=r.bytes(6).toString('hex');o.b=[r.u32(),r.i32(),r.u8()];o.x1=r.bytes(16).toString('hex');o.ref=r.object('plane ref');o.h=r.object('ref handle');o.t=r.bytes(60).toString('hex');o.box2=[r.f64(),r.f64(),r.f64(),r.f64()];o.origin2=r.vec();o.normal2=r.vec();o.hasRot2=r.u8();if(o.hasRot2)o.rot2=[r.vec(),r.vec(),r.vec()];o.v2=r.vec();o.s2=r.f64();o.t2=r.bytes(25).toString('hex');o.dim=r.object('plane offset dim');o.t3=[r.u32(),r.u32()];o.t4=r.bytes(8).toString('hex');};
+// loft: the body header, owner slot, 16 bytes, feature data, u32 and u16 profile counts, the profiles
+// (moGeneralCurveRef_w), then settings: five u32, six doubles, u32 1, u32 5000, … (fields named by position)
+R.moBlend_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.owner=r.object('loft owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();o.spec=r.objectAs('@x66','loft spec');o.nprof=r.u32();const np=r.u16();o.profiles=[];for(let i=0;i<np;i++)o.profiles.push(r.object('loft profile'));o.l0=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.v=[];for(let k=0;k<6;k++)o.v.push(r.f64());o.l1=[r.u32(),r.u32()];o.l2=r.bytes(27).toString('hex');o.l3=r.f64();
+  o.l4=[r.u8(),r.u32(),r.u32()];o.l5=r.bytes(7).toString('hex');o.l6=[r.f64(),r.f64()];o.l7=r.bytes(21).toString('hex');o.l8=r.u32();o.l9=r.bytes(8).toString('hex');o.l10=[r.u32(),r.u32()];o.l11=r.bytes(12).toString('hex');o.flags=[r.u8(),r.u8(),r.u8(),r.u8(),r.u8()];};
+// a curve or profile reference: the profile (moCompProfile_c: the sketch feature by id and time, 60 bytes),
+// 4 bytes, f64 1.0, u8, two i32 -1, 6 bytes
+R.moGeneralCurveRef_w=(r,o)=>{o.profile=r.object('curve profile');o.x0=r.bytes(4).toString('hex');o.s=r.f64();o.a=r.u8();o.b=[r.i32(),r.i32()];o.x1=r.bytes(6).toString('hex');};
+R.moCompProfile_c=(r,o)=>{o.comp=r.object('profile comp');o.feature=r.u32();o.stamp=r.u32();o.x0=r.bytes(60).toString('hex');};
