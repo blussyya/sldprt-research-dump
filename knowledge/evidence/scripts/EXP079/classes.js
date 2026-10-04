@@ -108,8 +108,8 @@ R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
 // the face (moFR_c: the document/config object, feature id, feature creation time, sketch entity id)
 R.moEndFaceSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.end=r.u32();o.b=r.u32();o.child=r.object('surf child');};
 R.moFromSktEntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.entity=r.u32();o.child=r.object('surf child');};
-R.moSurfaceIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.child=r.object('surf child');};
-R.moFilletSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.u32();o.x=r.object('fillet rep x');o.y=r.object('fillet rep y');};
+R.moSurfaceIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.child=r.object('surf child');o.edge=r.object('surf edge');};
+R.moFilletSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.u32();o.child=r.object('surf child');};
 R.moFR_c=(r,o)=>{o.ext=r.object('fr ext');o.feature=r.u32();o.stamp=r.u32();};
 // the document a reference lives in: two string handles (path, document name), u8, u16, creation
 // time, three strings, 18 bytes, configuration name, 12 bytes
@@ -152,7 +152,7 @@ function applied(r,o){feature(r,o);o.x0=r.bytes(58).toString('hex');o.data=r.obj
   if(process.env.AP)console.error('applied after ref',r.p,r.b.subarray(r.p,r.p+100).toString('hex'));}
 R.Fillet_c=(r,o)=>{applied(r,o);o.edges=r.object('fillet edges');o.lists=[r.object(),r.object(),r.object()];o.x1=r.bytes(12).toString('hex');o.radii=r.object('fillet radii');
   o.y0=[r.u32(),r.u8()];o.list4=r.object('fillet list 4');o.y1=r.bytes(8).toString('hex');o.y2=r.bytes(4).toString('hex');o.y3=r.bytes(9).toString('hex');
-  o.rho=[r.f64(),r.f64()];o.y4=[r.u8(),r.bytes(6).toString('hex'),r.u32()];o.y5=r.bytes(10).toString('hex');o.y6=r.u32();o.face=r.object('fillet face');
+  o.rho=[r.f64(),r.f64()];o.y4=[r.u8(),r.bytes(6).toString('hex'),r.u32()];o.y5=r.bytes(10).toString('hex');o.y6=r.u32();o.face=r.object('fillet face');o.face2=r.object('fillet face 2');
   o.edge2=r.object('fillet edge 2');o.z0=[r.u32(),r.i32(),r.i32(),r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.radius=r.f64();o.edge3=r.object('fillet edge 3');
   o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.z1=r.bytes(16).toString('hex');};
 // a face: component object, u8, the face reference, ...

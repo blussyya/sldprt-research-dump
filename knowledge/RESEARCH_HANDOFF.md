@@ -4,10 +4,13 @@
 
 Exact STEP now writes blends and curves in SolidWorks' own forms at our tolerance (EXP-079 part A,
 in `package/`). The feature tree reader is under way in `knowledge/evidence/scripts/EXP079/`: run
-`node probe.js "<model.SLDPRT>"` from that folder. It parses SW2022 C00 byte-exact through the
-default planes; the note's "Reader status" lists what is decoded and what comes next. Key rule:
-the index sequence starts at the stream's first u32, and low class numbers are inline objects of
-pre-loaded classes. All work goes to dump staging; the main repo only gets it when the format is done.
+`node probe.js "<model.SLDPRT>"` from that folder. It reads SW2022 C00, C01, C02, C03, C12, C19
+and C24 strictly from the first byte to the last (sketches, extrusion, fillet, face and edge
+naming, dimensions); the note's section "The sequential reader" has the layouts. Key rules: the
+index sequence starts at the stream's first u32, low class numbers are inline objects of
+pre-loaded classes, index 1 is the document. Next: cut-extrude (moICE_c), revolve, chamfer, shell,
+loft, split line, then the SW2011 and upgraded layouts, then production parts. All work goes to
+dump staging; the main repo only gets it when the format is done.
 
 ## Checkpoint — 2026-10-04 UTC, EXP-078
 
