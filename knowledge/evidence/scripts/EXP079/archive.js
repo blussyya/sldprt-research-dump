@@ -78,15 +78,18 @@ class Reader {
 /* ---- the base of every feature (moFeature_c and kin), 2022 layout ---- */
 function feature(r,o){
   o.node=r.object('feature node');   // a new object of the pre-loaded node-name class (#4 in 2022 files)
+  // a feature written inside another object (the hidden plane of a sketch on a face) has a null node
+  // pointer and its node fields inline, without the name
+  if(!o.node){o.node={inline:true};node(r,o.node,true);if(process.env.FS)console.error('INLINE NODE',JSON.stringify(o.node),r.p);}
   Object.assign(o,{name:o.node.name,id:o.node.id,flags:o.node.flags});
 }
 // The node-name object (pre-loaded class, probably moNodeName_c): name, flags, feature id, comment,
 // child objects, order, version stamps, display state.
-function node(r,o){
-  o.name=r.str();
+function node(r,o,noName){
+  o.name=noName?'':r.str();
   o.a=r.u32();o.flags=r.u32();o.id=r.u32();o.b=r.u32();   // id = KeyWords feature id
   o.comment=r.str();
-  if(o.id===0xffffffff){o.short=true;o.d=r.u16();return;}   // parameters (D1 …) carry the short form
+  if(o.id===0xffffffff&&!noName){o.short=true;o.d=r.u16();return;}   // parameters (D1 …) carry the short form
   o.c=r.u32();o.d=r.u16();
   const n=r.u16();o.children=[];for(let i=0;i<n;i++)o.children.push(r.object('feature children'));   // objects: back-references (an extrude's sketch) or whole child features (Annotations' folders)
   o.e=r.bytes(12).toString('hex');

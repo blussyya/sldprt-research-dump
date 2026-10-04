@@ -66,12 +66,20 @@ R.sgSketch=(r,o)=>{const n=r.u16();o.x0=r.u16();o.points=[];for(let i=0;i<n;i++)
   o.regions=r.object('sketch regions');o.x6b=r.bytes(30).toString('hex');
   // chains (closed contours): u32 count, u32 (same as count in every file), then per chain the chain object and 38 bytes
   const nc=r.u32();o.nc2=r.u32();o.chains=[];for(let i=0;i<nc;i++){const c=r.object('sketch chain');c.after=[r.u32(),r.u32(),r.bytes(4).toString('hex'),r.u16(),r.i32()];c.after2=r.bytes(20).toString('hex');o.chains.push(c);}
-  o.x9=[r.u32(),r.u32()];o.x10=r.bytes(7).toString('hex');o.x11=[r.u32(),r.u16()];o.axis=r.object('sketch axis');   // u32 100000; the centreline handle a revolve uses (null otherwise)
+  o.x9=r.u32();o.onPlane=r.u8();
+  if(!o.onPlane){   // sketch on a face: the face geometry as an embedded, zlib-compressed Parasolid transmit file
+    o.f=[r.u32(),r.u8(),r.u32()];o.guid=r.bytes(16).toString('hex');o.rawSize=r.u32();const n=r.u32();o.parasolid=r.bytes(n);
+    o.g0=r.bytes(12).toString('hex');const ne=r.u16();o.faceEdges=[];for(let i=0;i<ne;i++)o.faceEdges.push(r.object('face edge'));
+    const nk=r.u32();o.k=[r.u32(),r.u32(),r.u32()];o.edgeIdx=[];for(let i=0;i<nk;i++)o.edgeIdx.push(r.u32());o.k2=r.u32();}
+  else o.x10=r.bytes(10).toString('hex');
+  o.x11=[r.u32(),r.u16()];o.axis=r.object('sketch axis');   // u32 100000; the centreline handle a revolve uses (null otherwise)
   
   o.plane=r.object('sketch plane');
   // placement on the plane: u16, u32 (3, or 2), u8 has-rotation, 3×3 rotation (Top: [[1,0,0],[0,0,1],[0,−1,0]]),
   // 24 bytes, f64 1.0, 3 bytes, u32 4
-  o.pl=[r.u16(),r.u32()];o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];o.pl1=r.bytes(24).toString('hex');o.scale=r.f64();o.pl2=r.bytes(3).toString('hex');o.pl3=r.u32();
+  if(!o.onPlane){o.facePlane=r.object('face sketch plane');   // sketch on a face: a hidden plane feature, then 72 bytes of placement
+    o.pl=[r.u16(),r.u32(),r.u8()];o.offset=r.vec();o.pl1=[r.u8(),r.u32()];o.pl2=r.bytes(23).toString('hex');o.scale=r.f64();o.pl3=[r.u8(),r.u32()];}
+  else{o.pl=[r.u16(),r.u32()];o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];o.pl1=r.bytes(24).toString('hex');o.scale=r.f64();o.pl2=r.bytes(3).toString('hex');o.pl3=r.u32();}
   if(process.env.SKETCH_REST)console.error('sketch rest at',r.p,r.b.subarray(r.p,r.p+(+process.env.SKETCH_REST)).toString('hex'));
   if(process.env.SKETCH_STOP)throw Error('sketch stop at '+r.p);};
 // a closed region of the sketch: its boundary handles
@@ -82,17 +90,18 @@ R.moSketchChain_c=(r,o)=>{const n=r.u16();o.ents=[];for(let i=0;i<n;i++)o.ents.p
 // follows belongs to the owner (the sketch: its placement on the plane)
 R.moCompRefPlane_c=(r,o)=>{o.comp=r.object('plane comp');o.feature=r.u32();o.stamp=r.u32();};
 // a sketch entity tied to outside geometry: sgExtEnt_c → moSketchExtRef_w → the referenced entity
-// (moCompSketchEntHandle_c: the owning feature as a component object, the entity handle, 62 bytes)
+// (moCompSketchEntHandle_c: the owning feature as a component object, the entity handle, 10 bytes; or a model
+// edge, moCompEdge_c), 52 bytes (u32 0x66/0x6a, three i32 -12345, version 15000)
 // and a backed-up copy of it (moPointBackedUpData_c: 30 bytes and its name, e.g. "Point1@Origin")
 R.sgExtEnt_c=(r,o)=>{o.ref=r.object('ext ref');};
-R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');o.backup=r.object('ext backup');};
-R.moCompSketchEntHandle_c=(r,o)=>{o.comp=r.object('ext comp');o.feature=r.u32();o.stamp=r.u32();o.handle=r.object('ext handle');o.x0=r.bytes(62).toString('hex');};
-R.moPointBackedUpData_c=(r,o)=>{o.x0=r.bytes(30).toString('hex');o.name=r.str();};
+R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');o.x0=r.bytes(52).toString('hex');o.backup=r.object('ext backup');};
+R.moCompSketchEntHandle_c=(r,o)=>{o.comp=r.object('ext comp');o.feature=r.u32();o.stamp=r.u32();o.handle=r.object('ext handle');o.x0=r.bytes(10).toString('hex');};
+R.moPointBackedUpData_c=(r,o)=>{o.p=r.vec();o.next=r.object('point next');o.a=r.u32();o.name=r.str();};
 // header shared by features that make or change a body (extrude, cut, revolve, loft): u32, u16, u32;
 // (u16 1, u16 code 0x3a/0x3b), u32 n and n more such pairs (cuts add 0x3b), u16; u32, u32 (101 boss, 102 cut), u32 3;
 // the bodies acted on (u32 count; per body u16, the body, u32, u32, the creating feature's id, u32, u32);
 // u32 1, u16, u16
-function bodyHeader(r,o){o.h0=[r.u32(),r.u16(),r.u32()];o.codes=[[r.u16(),r.u16()]];const nc=r.u32();for(let i=0;i<nc;i++)o.codes.push([r.u16(),r.u16()]);o.z=r.u16();
+function bodyHeader(r,o,h0){o.h0=h0?h0(r):[r.u32(),r.u16(),r.u32()];o.codes=[[r.u16(),r.u16()]];const nc=r.u32();for(let i=0;i<nc;i++)o.codes.push([r.u16(),r.u16()]);o.z=r.u16();
   o.h1=[r.u32(),r.u32(),r.u32()];const n=r.u32();o.scope=[];for(let i=0;i<n;i++)o.scope.push({a:r.u16(),body:r.object('scope body'),x:[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()]});
   o.h2=[r.u32(),r.u16(),r.u16()];}
 R.moExtrusion_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.bodies=r.object('per body chooser');
@@ -182,7 +191,7 @@ R.moRevolution_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.bodies=r.object('per bod
   o.spec=r.objectAs('@x66','revolve spec');o.r0=[r.u8(),r.u32(),r.u32()];o.list=r.object('revolve list');o.r1=[r.u32(),r.u32()];o.axis=r.object('revolve axis');o.endSpec=r.object('revolve end');o.t=r.u32();};
 // a reference to a sketch line (the revolve axis): the entity handle, 6 bytes, seven doubles (C13: 0.01, 0, 0,
 // 0, 0, 1, 0; C17: 0.006, 0, −0.003, 0, 0, 1, 0: the line's length, then where it starts?), a byte
-R.moLineRef_w=(r,o)=>{o.ent=r.object('line ref');o.x0=r.bytes(6).toString('hex');o.v=[];for(let i=0;i<7;i++)o.v.push(r.f64());o.x1=r.u8();};
+R.moLineRef_w=(r,o)=>{o.ent=r.object('line ref');o.g=r.bytes(52).toString('hex');o.x0=r.bytes(6).toString('hex');o.v=[];for(let i=0;i<7;i++)o.v.push(r.f64());o.x1=r.u8();};
 // revolve end condition: u32 1, 24 bytes, two doubles (0.01 in every revolve so far), 8 bytes, the angle dimension, a second one
 R.moRevEndSpec_c=(r,o)=>{o.a=r.u32();o.x0=r.bytes(24).toString('hex');o.v=[r.f64(),r.f64()];o.x1=r.bytes(8).toString('hex');o.dim=r.object('rev dim');o.dim2=r.object('rev dim 2');};
 // angle dimension: the common display layout, then u16, three bytes, ten doubles (the dimension arc: two
@@ -203,3 +212,9 @@ R.moBlend_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.owner=r.object('loft owner');
 // 4 bytes, f64 1.0, u8, two i32 -1, 6 bytes
 R.moGeneralCurveRef_w=(r,o)=>{o.profile=r.object('curve profile');o.x0=r.bytes(4).toString('hex');o.s=r.f64();o.a=r.u8();o.b=[r.i32(),r.i32()];o.x1=r.bytes(6).toString('hex');};
 R.moCompProfile_c=(r,o)=>{o.comp=r.object('profile comp');o.feature=r.u32();o.stamp=r.u32();o.x0=r.bytes(60).toString('hex');};
+// backed-up copies of outside geometry a sketch entity is tied to: a point (position, the next point, u32, name)
+// and a line (its points as a linked pair, u16, name such as "Edge")
+R.moLineBackedUpData_c=(r,o)=>{o.p=r.object('line points');o.a=r.u16();o.name=r.str();};
+R.moPLine_c=(r,o)=>{feature(r,o);o.p0=[r.u16(),r.u16()];o.rep=r.object('pline rep');bodyHeader(r,o,r=>[r.u32(),r.u32()]);o.chooser=r.object('pline chooser');console.error('PLINE after chooser',r.p,r.b.subarray(r.p,r.p+200).toString('hex'));throw Error('pline at '+r.p);};
+R.moPLineProjIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.child=r.object('surf child');};
+R.moPLineSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.object('pls a');o.b=r.object('pls b');o.c=r.object('pls c');};
