@@ -110,7 +110,8 @@ R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)
 // a face or edge picked by name: u32 1, u32 0, u32 kind (6 face, 4 edge), u8, u16 (3 face, 2 edge), u8,
 // u32 (an edge's Parasolid tag?), two copies of a
 // 64-bit value, u16, the naming tree, 20 bytes
-function topoRef(r,o){o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes(18).toString('hex');}else{o.rep=r.object('edge rep');o.x1=r.bytes(18).toString('hex');o.next=r.object('edge next');}}
+// face tail: 18 bytes, 16 when kind is 1 (the sphere's single face); why is open
+function topoRef(r,o){o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes(o.kind===1?16:18).toString('hex');}else{o.rep=r.object('edge rep');o.x1=r.bytes(18).toString('hex');o.next=r.object('edge next');}}
 // objects up to a null
 function nullList(r,w){const out=[];for(;;){const x=r.object(w);if(!x)return out;out.push(x);}}
 R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
@@ -172,3 +173,15 @@ R.Fillet_c=(r,o)=>{applied(r,o);o.edges=r.object('fillet edges');o.lists=[r.obje
 // a face: component object, u8, the face reference, a second object slot (null so far)
 R.moCompFace_c=(r,o)=>{o.comp=r.object('face comp');o.a=r.u8();o.face=r.object('face ref');o.b=r.object('face 2');};
 for(const c of ['Fillet_c','Chamfer_c','moShell_c','moRevolution_c','moLoft_c','moSplitLine_c'])if(!R[c])R[c]=(r,o)=>{feature(r,o);let h='';for(let p=r.p;p<r.p+72;p++){h+=r.b[p]===0?'..':r.b[p].toString(16).padStart(2,'0');if((p-r.p)%2==1)h+=' ';}console.error(c,'after node',r.p,h);throw Error(c+' at '+r.p);};
+R.moRevolution_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.bodies=r.object('per body chooser');
+  o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('revolve owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();
+  o.spec=r.objectAs('@x66','revolve spec');o.r0=[r.u8(),r.u32(),r.u32()];o.list=r.object('revolve list');o.r1=[r.u32(),r.u32()];o.axis=r.object('revolve axis');o.end=r.object('revolve end');o.t=r.u32();};
+// a reference to a sketch line (the revolve axis): the entity handle, 6 bytes, seven doubles (C13: 0.01, 0, 0,
+// 0, 0, 1, 0; C17: 0.006, 0, −0.003, 0, 0, 1, 0: the line's length, then where it starts?), a byte
+R.moLineRef_w=(r,o)=>{o.ent=r.object('line ref');o.x0=r.bytes(6).toString('hex');o.v=[];for(let i=0;i<7;i++)o.v.push(r.f64());o.x1=r.u8();};
+// revolve end condition: u32 1, 24 bytes, two doubles (0.01 in every revolve so far), 8 bytes, the angle dimension, a second one
+R.moRevEndSpec_c=(r,o)=>{o.a=r.u32();o.x0=r.bytes(24).toString('hex');o.v=[r.f64(),r.f64()];o.x1=r.bytes(8).toString('hex');o.dim=r.object('rev dim');o.dim2=r.object('rev dim 2');};
+// angle dimension: the common display layout, then u16, three bytes, ten doubles (the dimension arc: two
+// directions and points), u32
+R.moDisplayAngularDim_c=(r,o)=>{displayDim(r,o,0);o.t0=[r.u16(),r.u8(),r.u8(),r.u8()];o.arc=[];for(let i=0;i<10;i++)o.arc.push(r.f64());o.t1=r.u32();};
+R.AngleDim_c=R.ParallelPlaneDistanceDim_c;
