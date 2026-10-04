@@ -111,7 +111,7 @@ R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)
 // u32 (an edge's Parasolid tag?), two copies of a
 // 64-bit value, u16, the naming tree, 20 bytes
 // face tail: 18 bytes, 16 when kind is 1 (the sphere's single face); why is open
-function topoRef(r,o){const at0=r.p;o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(process.env.TOPO2){const q=r.p;setImmediate(()=>{});}if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');if(process.env.TOPO2)console.error('TOPO2 F',JSON.stringify([o.a,o.kind,o.b,o.c,o.c2,o.tag,o.e]),r.b.subarray(r.p,r.p+26).toString('hex'));o.x1=r.bytes(o.kind===1?16:18).toString('hex');}else{o.rep=r.object('edge rep');o.x1=r.bytes(14).toString('hex');if(o.tag)o.x2=[r.u32(),r.u16()];}}
+function topoRef(r,o){const at0=r.p;o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(process.env.TOPO2){const q=r.p;setImmediate(()=>{});}if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');if(process.env.TOPO2)console.error('TOPO2 F',JSON.stringify([o.a,o.kind,o.b,o.c,o.c2,o.tag,o.e]),r.b.subarray(r.p,r.p+26).toString('hex'));o.x1=r.bytes(o.kind===1?16:18).toString('hex');}else{o.rep=r.object('edge rep');if(process.env.TOPO2)console.error('TOPO2 E tag',o.tag,r.p,r.b.subarray(r.p,r.p+90).toString('hex'));o.x1=r.bytes(14).toString('hex');if(o.tag)o.x2=[r.u32(),r.u16()];}}
 // objects up to a null
 function nullList(r,w){const out=[];for(;;){const x=r.object(w);if(!x)return out;out.push(x);}}
 R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
@@ -151,8 +151,7 @@ R.ThreeDRadiusDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');};
 R.edgeRadiusObject_c=(r,o)=>{o.dim=r.object('edge radius dim');};
 // an edge: component object, u8, the edge reference (often a back-reference to the one the feature named),
 // a second object slot (null so far), 60 bytes
-// 62 bytes after a back-referenced edge, 66 after an edge written inline (the extra 4 are open)
-R.moCompEdge_c=(r,o)=>{o.comp=r.object('edge comp');o.a=r.u8();const t=r.b.readUInt16LE(r.p);o.edge=r.object('edge ref');o.x0=r.bytes((t&0x8000)?66:62).toString('hex');};
+R.moCompEdge_c=(r,o)=>{o.comp=r.object('edge comp');o.a=r.u8();o.edge=r.object('edge ref');o.x0=r.bytes(62).toString('hex');};
 R.moFavoriteHandle_c=(r,o)=>{o.a=r.u32();o.b=r.i32();};
 R.moFeatureDimHandle_c=(r,o)=>{o.x0=r.bytes(103).toString('hex');o.dim=r.object('dim');};
 R.ParallelPlaneDistanceDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');if(process.env.EX)console.error('after param',r.p,peek(r));};
@@ -169,12 +168,12 @@ function applied(r,o){feature(r,o);o.x0=r.bytes(58).toString('hex');o.data=r.obj
 R.Fillet_c=(r,o)=>{applied(r,o);o.edges=r.object('fillet edges');o.lists=[r.object(),r.object(),r.object()];o.x1=r.bytes(12).toString('hex');o.radii=r.object('fillet radii');
   o.y0=[r.u32(),r.u8()];o.list4=r.object('fillet list 4');o.y1=r.bytes(8).toString('hex');o.y2=r.bytes(4).toString('hex');o.y3=r.bytes(9).toString('hex');
   o.rho=[r.f64(),r.f64()];o.y4=[r.u8(),r.bytes(6).toString('hex'),r.u32()];o.y5=r.bytes(10).toString('hex');o.y6=r.u32();o.face=r.object('fillet face');
-  o.edge2=r.object('fillet edge 2');o.z00=r.u16();o.z0=[r.u32(),r.i32(),r.i32(),r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.radius=r.f64();o.edge3=r.object('fillet edge 3');o.z2=r.u16();
+  o.edge2=r.object('fillet edge 2');o.z00=[r.u32(),r.u16()];o.z0=[r.u32(),r.i32(),r.i32(),r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.radius=r.f64();o.edge3=r.object('fillet edge 3');o.z2=[r.u32(),r.u16()];
   o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.z1=r.bytes(16).toString('hex');};
 // a face: component object, u8, the face reference, a second object slot (null so far)
 R.moCompFace_c=(r,o)=>{o.comp=r.object('face comp');o.a=r.u8();o.face=r.object('face ref');o.b=r.object('face 2');};
-R.Chamfer_c=(r,o)=>{applied(r,o);o.edges=r.object('chamfer edges');o.lists=[r.object(),r.object()];o.dim=r.object('chamfer dim');o.dim2=r.object('chamfer dim 2');o.c0=[r.u8(),r.u16(),r.u16()];o.edge=r.object('chamfer edge');o.c1=[r.u32(),r.u32(),r.u16()];o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.c2=r.bytes(19).toString('hex');o.c3=r.u8();};
-R.moShell_c=(r,o)=>{applied(r,o);o.dim=r.object('shell dim');o.s0=r.u8();o.lists=[r.object(),r.object()];o.edge=r.object('shell edge');console.error('SH after target',r.p,r.b.subarray(r.p,r.p+200).toString('hex'));throw Error('shell at '+r.p);};
+R.Chamfer_c=(r,o)=>{applied(r,o);o.edges=r.object('chamfer edges');o.lists=[r.object(),r.object()];o.dim=r.object('chamfer dim');o.dim2=r.object('chamfer dim 2');o.c0=[r.u8(),r.u16(),r.u16()];o.edge=r.object('chamfer edge');o.c1=[r.u32(),r.u32(),r.u32(),r.u16()];o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.c2=r.bytes(19).toString('hex');o.c3=r.u8();};
+R.moShell_c=(r,o)=>{applied(r,o);o.dim=r.object('shell dim');o.s0=r.u8();o.lists=[r.object(),r.object()];o.edge=r.object('shell edge');o.s1=r.u16();};
 for(const c of ['Fillet_c','Chamfer_c','moShell_c','moRevolution_c','moLoft_c','moSplitLine_c'])if(!R[c])R[c]=(r,o)=>{feature(r,o);let h='';for(let p=r.p;p<r.p+72;p++){h+=r.b[p]===0?'..':r.b[p].toString(16).padStart(2,'0');if((p-r.p)%2==1)h+=' ';}console.error(c,'after node',r.p,h);throw Error(c+' at '+r.p);};
 R.moRevolution_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.bodies=r.object('per body chooser');
   o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('revolve owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();
