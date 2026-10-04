@@ -1360,3 +1360,32 @@ to 1e-16 m and the two fin curves agree within tolerance on 27/27. No invariant 
 **Date**: 2026-10-03
 
 **Raw evidence**: `knowledge/evidence/2026-10-03_v0.5-EXP077.md`, `knowledge/evidence/scripts/EXP077/`
+
+---
+
+## EXP-078 — Exact STEP for every real part, the mesh joined in every version, the ghost partition
+
+**Question**: Can INTERSECTION curves, tolerant edges, SWEPT_SURF and BLENDED_EDGE be written so every real part exports exact STEP; can the mesh join the B-rep without face IDs; what is the ghost partition?
+
+**Result**: 10/10 real parts with a solid export exact STEP that reads back as the body and that
+OpenCascade reads as one valid solid; volumes agree with OpenCascade to 3e-8 (Dekor: its analytic
+routine is unstable on extrusions, its triangulation converges on ours; USB TOP 3e-7, tolerant
+edges). Intersections are marched from their charts and fitted to 1e-9 m; tolerant edges come from
+the positive fin's SP curve; SWEPT_SURF is a linear extrusion (311/311 orientations agree with the
+mesh); BLENDED_EDGE is a rolling ball of radius |range| about the spine (every Pocket Wheel interior
+vertex 8.0000 mm from it), fitted as a bicubic B-spline to 1e-8 m. Findings: rational control
+points are homogeneous; BLEND_BOUND `boundary` is 1-based; blend normals point away from the spine;
+a trimmed curve's direction is the product of its and its basis' senses. Every off-surface display
+boundary vertex is a chord point (7,065), settling EXP-074's 314; 11 boundary and 231 interior
+vertices remain. Legacy Block1 edge IDs are EDGE node_ids, so the mesh joins the B-rep by edge set:
+1,762/1,762 faces in 72 parts (INV-029). The ghost partition holds feature input geometry (profile
+wires, section sheets, reference surfaces) and a default single origin vertex.
+
+**Files tested**: 10 real parts with a solid; 72 files for the join; 73 for the ghost survey.
+
+**Known gaps**: one example each of an `E` blend and a radius-0 support; 242 unexplained mesh
+vertices; ghost body ownership (NQ-050).
+
+**Date**: 2026-10-04
+
+**Raw evidence**: `knowledge/evidence/2026-10-04_v0.5-EXP078.md`, `knowledge/evidence/scripts/EXP078/`

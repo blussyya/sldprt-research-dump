@@ -1,0 +1,558 @@
+{
+ "experiment": "EXP-078",
+ "date": "2026-10-03T23:56:30.168Z",
+ "summary": {
+  "parts": 11,
+  "exact": 10,
+  "noSolid": [
+   "SW2000-s01.SLDPRT"
+  ],
+  "roundTrip": 10,
+  "meshVertices": 69344,
+  "onSurface": 62927,
+  "chordPoints": 6241,
+  "unexplainedBoundary": 2,
+  "unexplainedInterior": 174
+ },
+ "rows": [
+  {
+   "part": "Dekor.SLDPRT",
+   "sha256": "865142829c7d91aa85f65771d2a6e60dad4f58d0093422cb56c94ce6c8959c89",
+   "graphErrors": 0,
+   "modelMs": 2305,
+   "fits": {
+    "INTERSECTION": {
+     "count": 8,
+     "worstDeviationM": 9.970841164576383e-10
+    },
+    "SP_CURVE": {
+     "count": 20,
+     "worstDeviationM": 9.850567023077734e-10
+    }
+   },
+   "surfaces": {
+    "extrusion": 311,
+    "plane": 48,
+    "cylinder": 8,
+    "bspline": 8
+   },
+   "writeMs": 50,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 907356.8088408345,
+   "volumeMs": 163509,
+   "meshVolumeMm3": 907154.4184672011,
+   "mesh": {
+    "vertices": 21802,
+    "onSurface": 20225,
+    "chord": 1518,
+    "unexplainedBoundary": 0,
+    "unexplainedInterior": 59,
+    "worstUnexplainedM": 0.00002554953240504901,
+    "byType": {
+     "extrusion": {
+      "vertices": 8566,
+      "onSurface": 7812,
+      "chord": 754,
+      "unexplained": 0,
+      "worstOnSurfaceM": 2.337968368008947e-7
+     },
+     "plane": {
+      "vertices": 11966,
+      "onSurface": 11966,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 2.4795532388140853e-8
+     },
+     "cylinder": {
+      "vertices": 706,
+      "onSurface": 229,
+      "chord": 431,
+      "unexplained": 46,
+      "worstOnSurfaceM": 8.618533577291025e-7
+     },
+     "bspline": {
+      "vertices": 564,
+      "onSurface": 218,
+      "chord": 333,
+      "unexplained": 13,
+      "worstOnSurfaceM": 9.502346564159483e-7
+     }
+    }
+   },
+   "result": "exact"
+  },
+  {
+   "part": "Helical Bevel Gear.SLDPRT",
+   "sha256": "d694ebd12683ffd1b6b225f465fd358005b6015388b1cc4fc1867cb38c371a92",
+   "graphErrors": 0,
+   "modelMs": 1895,
+   "fits": {
+    "INTERSECTION": {
+     "count": 24,
+     "worstDeviationM": 7.969883786711783e-10
+    }
+   },
+   "surfaces": {
+    "bspline": 32,
+    "plane": 60,
+    "cylinder": 18,
+    "torus": 1,
+    "cone": 2
+   },
+   "writeMs": 12,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 1309029.9491346846,
+   "volumeMs": 19225,
+   "meshVolumeMm3": 1307537.7887433176,
+   "mesh": {
+    "vertices": 8470,
+    "onSurface": 7253,
+    "chord": 1170,
+    "unexplainedBoundary": 0,
+    "unexplainedInterior": 47,
+    "worstUnexplainedM": 0.00012575605130585456,
+    "byType": {
+     "bspline": {
+      "vertices": 4879,
+      "onSurface": 3750,
+      "chord": 1083,
+      "unexplained": 46,
+      "worstOnSurfaceM": 7.272660007807346e-7
+     },
+     "plane": {
+      "vertices": 1624,
+      "onSurface": 1624,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 2.503395074571202e-9
+     },
+     "cylinder": {
+      "vertices": 543,
+      "onSurface": 479,
+      "chord": 64,
+      "unexplained": 0,
+      "worstOnSurfaceM": 1.8989860101070732e-9
+     },
+     "torus": {
+      "vertices": 1324,
+      "onSurface": 1300,
+      "chord": 23,
+      "unexplained": 1,
+      "worstOnSurfaceM": 4.23190257501857e-7
+     },
+     "cone": {
+      "vertices": 100,
+      "onSurface": 100,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 2.2233159846557398e-9
+     }
+    }
+   },
+   "result": "exact"
+  },
+  {
+   "part": "PTC GE8080-8.SLDPRT",
+   "sha256": "162e6293b95508072f65d39b4d933553d2f3fa6c77863e29e6135afd026c8f94",
+   "graphErrors": 0,
+   "modelMs": 11,
+   "fits": {},
+   "surfaces": {
+    "plane": 114,
+    "cylinder": 12
+   },
+   "writeMs": 16,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 81662.1859703557,
+   "volumeMs": 560,
+   "meshVolumeMm3": 81679.58182027536,
+   "mesh": {
+    "vertices": 1772,
+    "onSurface": 1772,
+    "chord": 0,
+    "unexplainedBoundary": 0,
+    "unexplainedInterior": 0,
+    "worstUnexplainedM": 0,
+    "byType": {
+     "plane": {
+      "vertices": 1364,
+      "onSurface": 1364,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 3.3378601133060574e-9
+     },
+     "cylinder": {
+      "vertices": 408,
+      "onSurface": 408,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 3.0303965066480476e-9
+     }
+    }
+   },
+   "result": "exact"
+  },
+  {
+   "part": "Pocket Wheel.SLDPRT",
+   "sha256": "678a73af7c6eca8b5e6df60905a96f437bd5d1f85a2eed19277332c25629bb8c",
+   "graphErrors": 0,
+   "modelMs": 2051,
+   "fits": {
+    "INTERSECTION": {
+     "count": 212,
+     "worstDeviationM": 9.056798929695711e-10
+    },
+    "BLENDED_EDGE": {
+     "count": 32,
+     "worstDeviationM": 1.9705066871522438e-9
+    }
+   },
+   "surfaces": {
+    "plane": 151,
+    "torus": 26,
+    "cylinder": 171,
+    "BLENDED_EDGE": 32,
+    "cone": 20
+   },
+   "writeMs": 324,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 3455354.014617605,
+   "volumeMs": 70425,
+   "meshVolumeMm3": 3456530.303938439,
+   "mesh": {
+    "vertices": 24206,
+    "onSurface": 21463,
+    "chord": 2716,
+    "unexplainedBoundary": 0,
+    "unexplainedInterior": 27,
+    "worstUnexplainedM": 0.0000843802464066738,
+    "byType": {
+     "plane": {
+      "vertices": 4451,
+      "onSurface": 4451,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 5.895035208244859e-9
+     },
+     "torus": {
+      "vertices": 7066,
+      "onSurface": 6294,
+      "chord": 751,
+      "unexplained": 21,
+      "worstOnSurfaceM": 6.546166275711585e-9
+     },
+     "cylinder": {
+      "vertices": 6260,
+      "onSurface": 5127,
+      "chord": 1133,
+      "unexplained": 0,
+      "worstOnSurfaceM": 4.7351422606707605e-7
+     },
+     "BLENDED_EDGE": {
+      "vertices": 5189,
+      "onSurface": 4598,
+      "chord": 586,
+      "unexplained": 5,
+      "worstOnSurfaceM": 7.703738802371937e-9
+     },
+     "cone": {
+      "vertices": 1240,
+      "onSurface": 993,
+      "chord": 246,
+      "unexplained": 1,
+      "worstOnSurfaceM": 5.1715489516398765e-9
+     }
+    }
+   },
+   "result": "exact"
+  },
+  {
+   "part": "SW2000-s01.SLDPRT",
+   "sha256": "3a1007ea37bc19bec8a2398b83db204bc36db0c1687fba264160e898335c1ab2",
+   "result": "no solid",
+   "reason": "No Parasolid body: no Config-0-Partition, Config-N-Body or transmit stream (a part with no solid has none)"
+  },
+  {
+   "part": "chainwheel.sldprt",
+   "sha256": "77b81e1ca94b266e4c977bb3ec8fbb9cac294f394ff9d5a2b2b208fb401e0f1a",
+   "graphErrors": 0,
+   "modelMs": 31,
+   "fits": {
+    "INTERSECTION": {
+     "count": 120,
+     "worstDeviationM": 9.692286965669754e-10
+    }
+   },
+   "surfaces": {
+    "cylinder": 123,
+    "torus": 60,
+    "plane": 6
+   },
+   "writeMs": 22,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 1749586.0956419762,
+   "volumeMs": 11206,
+   "meshVolumeMm3": 1744818.7244166273,
+   "mesh": {
+    "skipped": "no face IDs in this mesh layout"
+   },
+   "result": "exact"
+  },
+  {
+   "part": "cube.SLDPRT",
+   "sha256": "e002c483df1faab6c635d52dd190311e2b0fd4a36758e54020efdd7512026cb1",
+   "graphErrors": 0,
+   "modelMs": 0,
+   "fits": {},
+   "surfaces": {
+    "plane": 6
+   },
+   "writeMs": 0,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 64000.00000000043,
+   "volumeMs": 5,
+   "meshVolumeMm3": 64000.000923871936,
+   "mesh": {
+    "vertices": 24,
+    "onSurface": 24,
+    "chord": 0,
+    "unexplainedBoundary": 0,
+    "unexplainedInterior": 0,
+    "worstUnexplainedM": 0,
+    "byType": {
+     "plane": {
+      "vertices": 24,
+      "onSurface": 24,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 1.36373271009127e-9
+     }
+    }
+   },
+   "result": "exact"
+  },
+  {
+   "part": "distributor main boss rev a.SLDPRT",
+   "sha256": "72454b269924d6361d3b88a1e7f4ce217751abdf5e413580ac62d23392897711",
+   "graphErrors": 0,
+   "modelMs": 14,
+   "fits": {
+    "INTERSECTION": {
+     "count": 20,
+     "worstDeviationM": 9.99950697195335e-10
+    }
+   },
+   "surfaces": {
+    "cone": 17,
+    "cylinder": 19,
+    "plane": 14,
+    "torus": 1
+   },
+   "writeMs": 5,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 26264.46852937043,
+   "volumeMs": 1754,
+   "meshVolumeMm3": 26175.00273437228,
+   "mesh": {
+    "vertices": 4792,
+    "onSurface": 4663,
+    "chord": 126,
+    "unexplainedBoundary": 0,
+    "unexplainedInterior": 3,
+    "worstUnexplainedM": 0.000023886090896045663,
+    "byType": {
+     "cone": {
+      "vertices": 1164,
+      "onSurface": 1164,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 1.352527926121152e-9
+     },
+     "cylinder": {
+      "vertices": 1728,
+      "onSurface": 1652,
+      "chord": 76,
+      "unexplained": 0,
+      "worstOnSurfaceM": 2.562392396390778e-7
+     },
+     "plane": {
+      "vertices": 1203,
+      "onSurface": 1203,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 3.2277107375744407e-9
+     },
+     "torus": {
+      "vertices": 697,
+      "onSurface": 644,
+      "chord": 50,
+      "unexplained": 3,
+      "worstOnSurfaceM": 8.674142335397123e-10
+     }
+    }
+   },
+   "result": "exact"
+  },
+  {
+   "part": "plate4.sldprt",
+   "sha256": "ab35db15d337f808f9ce9ee8fc72cc243c2fb2d78d033cf8514ef96e0f65d399",
+   "graphErrors": 0,
+   "modelMs": 0,
+   "fits": {},
+   "surfaces": {
+    "plane": 14
+   },
+   "writeMs": 1,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 38399999.99999977,
+   "volumeMs": 11,
+   "meshVolumeMm3": 38400000.725686535,
+   "mesh": {
+    "skipped": "no face IDs in this mesh layout"
+   },
+   "result": "exact"
+  },
+  {
+   "part": "usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+   "sha256": "851f385248ed25cf7c9a2677df3169738c139f34120cb8734ae6ef89d26521a1",
+   "graphErrors": 0,
+   "modelMs": 3,
+   "fits": {
+    "INTERSECTION": {
+     "count": 8,
+     "worstDeviationM": 9.574652773816961e-10
+    }
+   },
+   "surfaces": {
+    "plane": 15,
+    "cone": 8,
+    "cylinder": 16
+   },
+   "writeMs": 2,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 6967.866949501911,
+   "volumeMs": 957,
+   "meshVolumeMm3": 6967.338599647268,
+   "mesh": {
+    "vertices": 1856,
+    "onSurface": 1853,
+    "chord": 3,
+    "unexplainedBoundary": 0,
+    "unexplainedInterior": 0,
+    "worstUnexplainedM": 0,
+    "byType": {
+     "plane": {
+      "vertices": 759,
+      "onSurface": 759,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 1.5199184548015123e-9
+     },
+     "cone": {
+      "vertices": 547,
+      "onSurface": 544,
+      "chord": 3,
+      "unexplained": 0,
+      "worstOnSurfaceM": 1.1713540818031374e-9
+     },
+     "cylinder": {
+      "vertices": 550,
+      "onSurface": 550,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 1.5288597113565644e-9
+     }
+    }
+   },
+   "result": "exact"
+  },
+  {
+   "part": "usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+   "sha256": "b2928e16b72dd92f085e5d3cb83c101777acf075d2abf1b268563fdd564c14fc",
+   "graphErrors": 0,
+   "modelMs": 173,
+   "fits": {
+    "INTERSECTION": {
+     "count": 9,
+     "worstDeviationM": 9.705095735690481e-10
+    },
+    "SP_CURVE": {
+     "count": 7,
+     "worstDeviationM": 9.797165007617582e-10
+    },
+    "BLENDED_EDGE": {
+     "count": 1,
+     "worstDeviationM": 1.4351053710646382e-9
+    }
+   },
+   "surfaces": {
+    "plane": 36,
+    "cylinder": 22,
+    "torus": 7,
+    "bspline": 2,
+    "BLENDED_EDGE": 1
+   },
+   "writeMs": 11,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 11712.627935627424,
+   "volumeMs": 6253,
+   "meshVolumeMm3": 11702.66524130831,
+   "mesh": {
+    "vertices": 6422,
+    "onSurface": 5674,
+    "chord": 708,
+    "unexplainedBoundary": 2,
+    "unexplainedInterior": 38,
+    "worstUnexplainedM": 0.000016281841087039424,
+    "byType": {
+     "plane": {
+      "vertices": 1404,
+      "onSurface": 1404,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 1.5199184476800158e-9
+     },
+     "cylinder": {
+      "vertices": 1362,
+      "onSurface": 1177,
+      "chord": 184,
+      "unexplained": 1,
+      "worstOnSurfaceM": 8.716775484890471e-7
+     },
+     "torus": {
+      "vertices": 3127,
+      "onSurface": 2700,
+      "chord": 392,
+      "unexplained": 35,
+      "worstOnSurfaceM": 8.690204090335343e-7
+     },
+     "bspline": {
+      "vertices": 397,
+      "onSurface": 295,
+      "chord": 99,
+      "unexplained": 3,
+      "worstOnSurfaceM": 5.709597500194387e-7
+     },
+     "BLENDED_EDGE": {
+      "vertices": 132,
+      "onSurface": 98,
+      "chord": 33,
+      "unexplained": 1,
+      "worstOnSurfaceM": 7.213962852676343e-10
+     }
+    }
+   },
+   "result": "exact"
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "experiment": "EXP-078",
+ "date": "2026-10-04T00:01:28.294Z",
+ "summary": {
+  "parts": 2,
+  "exact": 2,
+  "noSolid": [],
+  "roundTrip": 2,
+  "meshVertices": 4740,
+  "onSurface": 3850,
+  "chordPoints": 824,
+  "unexplainedBoundary": 9,
+  "unexplainedInterior": 57
+ },
+ "rows": [
+  {
+   "part": "chainwheel.sldprt",
+   "sha256": "77b81e1ca94b266e4c977bb3ec8fbb9cac294f394ff9d5a2b2b208fb401e0f1a",
+   "graphErrors": 0,
+   "modelMs": 72,
+   "fits": {
+    "INTERSECTION": {
+     "count": 120,
+     "worstDeviationM": 9.692286965669754e-10
+    }
+   },
+   "surfaces": {
+    "cylinder": 123,
+    "torus": 60,
+    "plane": 6
+   },
+   "writeMs": 26,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 1749586.0956419762,
+   "volumeMs": 10098,
+   "meshVolumeMm3": 1744818.7244166273,
+   "mesh": {
+    "vertices": 4658,
+    "onSurface": 3768,
+    "chord": 824,
+    "unexplainedBoundary": 9,
+    "unexplainedInterior": 57,
+    "worstUnexplainedM": 0.0000357898317886185,
+    "byType": {
+     "cylinder": {
+      "vertices": 2154,
+      "onSurface": 1714,
+      "chord": 374,
+      "unexplained": 66,
+      "worstOnSurfaceM": 3.574111492876675e-9
+     },
+     "torus": {
+      "vertices": 1260,
+      "onSurface": 810,
+      "chord": 450,
+      "unexplained": 0,
+      "worstOnSurfaceM": 2.5306617530695963e-9
+     },
+     "plane": {
+      "vertices": 1244,
+      "onSurface": 1244,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 1.404857660758374e-9
+     }
+    }
+   },
+   "result": "exact"
+  },
+  {
+   "part": "plate4.sldprt",
+   "sha256": "ab35db15d337f808f9ce9ee8fc72cc243c2fb2d78d033cf8514ef96e0f65d399",
+   "graphErrors": 0,
+   "modelMs": 0,
+   "fits": {},
+   "surfaces": {
+    "plane": 14
+   },
+   "writeMs": 1,
+   "roundTrip": true,
+   "firstProblem": null,
+   "volumeMm3": 38399999.99999977,
+   "volumeMs": 14,
+   "meshVolumeMm3": 38400000.725686535,
+   "mesh": {
+    "vertices": 82,
+    "onSurface": 82,
+    "chord": 0,
+    "unexplainedBoundary": 0,
+    "unexplainedInterior": 0,
+    "worstUnexplainedM": 0,
+    "byType": {
+     "plane": {
+      "vertices": 82,
+      "onSurface": 82,
+      "chord": 0,
+      "unexplained": 0,
+      "worstOnSurfaceM": 1.192092874413575e-8
+     }
+    }
+   },
+   "result": "exact"
+  }
+ ]
+}
