@@ -29,7 +29,25 @@ function fitCurve(evalAt,t0,t1,{tol=1e-9,minDepth=2,maxDepth=30,maxPieces=20000}
     ctrl.push(G.add(a.x,G.mul(a.d,h/3)),G.sub(b.x,G.mul(b.d,h/3)),b.x);
     knots.push(b.t,b.t,b.t);}
   knots.push(t1);
-  return {type:'bspline',degree:3,ctrl,weights:null,knots,closed:false,periodic:false,deviation:worst,points:out.length};
+  return toC1({type:'bspline',degree:3,ctrl,weights:null,knots,closed:false,periodic:false,deviation:worst,points:out.length});
 }
 
-module.exports={fitCurve};
+/* Hermite pieces meet with matching first derivatives, so the point shared by two pieces is
+ * fixed by its neighbours (h1·B + h0·A)/(h0 + h1) and knot multiplicity 3 can drop to 2 with no
+ * change at all to the curve. That is also the form SolidWorks writes (knot multiplicities
+ * 4, 2, …, 2, 4). Checked numerically before the point is dropped. */
+function toC1(c,{check=1e-12}={}){
+  if(c.type!=='bspline'||c.degree!==3||c.weights)return c;
+  const K=c.knots,ctrl=[c.ctrl[0]],knots=K.slice(0,4);let i=1;   // ctrl index of the next piece's second point
+  for(let k=4;k<K.length-4;k+=3){
+    const A=c.ctrl[i],B=c.ctrl[i+1],P=c.ctrl[i+2],Nx=c.ctrl[i+3];   // piece: P_prev, A, B, P | next: P, Nx, ...
+    const h0=K[k]-K[k-1]||1e-300,h1=K[k+3]-K[k]||1e-300;
+    const pred=G.mul(G.add(G.mul(B,h1),G.mul(Nx,h0)),1/(h0+h1));
+    if(K[k]!==K[k+1]||K[k]!==K[k+2]||G.dist(pred,P)>check*(1+G.norm(P)))return c;   // not removable: keep as is
+    ctrl.push(A,B);knots.push(K[k],K[k]);i+=3;
+  }
+  ctrl.push(c.ctrl[i],c.ctrl[i+1],c.ctrl[i+2]);knots.push(...K.slice(K.length-4));
+  return {...c,ctrl,knots};
+}
+
+module.exports={fitCurve,toC1};

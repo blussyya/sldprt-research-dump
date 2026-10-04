@@ -1,0 +1,75 @@
+'use strict';
+/* EXP-079 research reader: the MFC CArchive object stream that holds the SolidWorks feature tree
+ * (Config-N-ResolvedFeatures, and Config-0 in pre-2011 files).
+ *
+ * CArchive mechanics (MFC WriteObject/WriteClass):
+ *   u16 0x0000           null object
+ *   u16 0xFFFF           new class: u16 schema, u16 name length, name; the class takes the next
+ *                        index, then the object takes the next one, then its fields follow
+ *   u16 0x8000 | k       new object of the already-seen class with index k
+ *   u16 k (k < 0x7FFF)   reference to an object already read
+ *   u16 0x7FFF + u32     the same with a 32-bit index (bit 31 marks a class)
+ * Classes and objects share one index sequence. In ResolvedFeatures the sequence starts at the
+ * stream's first u32 plus 3 (EXP-079: 109 → 112 … 238 → 241 on every modern file).
+ *
+ * MFC strings: u8 length (0xFF → u16, 0xFFFF → u32); Unicode strings are prefixed FF FE FF and the
+ * length counts UTF-16 units.
+ *
+ * Field layouts per class are research results; each reader stops with the byte offset at the
+ * first thing it can't account for. It never scans forward.
+ */
+class Reader {
+  constructor(b,start){this.b=b;this.p=0;this.next=start;this.classes=new Map();this.objects=new Map();this.log=[];}
+  need(n){if(this.p+n>this.b.length)throw Error('truncated at '+this.p);}
+  u8(){this.need(1);return this.b[this.p++];}
+  u16(){this.need(2);const v=this.b.readUInt16LE(this.p);this.p+=2;return v;}
+  i16(){this.need(2);const v=this.b.readInt16LE(this.p);this.p+=2;return v;}
+  u32(){this.need(4);const v=this.b.readUInt32LE(this.p);this.p+=4;return v;}
+  i32(){this.need(4);const v=this.b.readInt32LE(this.p);this.p+=4;return v;}
+  f32(){this.need(4);const v=this.b.readFloatLE(this.p);this.p+=4;return v;}
+  f64(){this.need(8);const v=this.b.readDoubleLE(this.p);this.p+=8;return v;}
+  bytes(n){this.need(n);const v=this.b.subarray(this.p,this.p+n);this.p+=n;return v;}
+  vec(){return [this.f64(),this.f64(),this.f64()];}
+  count(){let n=this.u16();if(n===0xffff)n=this.u32();return n;}   // MFC WriteCount
+  str(){   // CString, ANSI or Unicode
+    const at=this.p;let n=this.u8(),wide=false;
+    if(n===0xff){n=this.u16();if(n===0xfffe){wide=true;n=this.u8();if(n===0xff){n=this.u16();if(n===0xffff)n=this.u32();}}else if(n===0xffff)n=this.u32();}
+    if(n>1e6)throw Error('string length at '+at);
+    if(wide){const s=this.bytes(2*n).toString('utf16le');return s;}
+    return this.bytes(n).toString('latin1');
+  }
+  expect(v,got,what){if(v!==got)throw Error(`${what}: expected ${v}, got ${got} at ${this.p}`);}
+  object(where){
+    const at=this.p,tag=this.u16();
+    if(tag===0)return null;
+    let cls;
+    if(tag===0xffff){const schema=this.u16(),len=this.u16(),name=this.bytes(len).toString('latin1');
+      if(!/^[A-Za-z_][A-Za-z0-9_]*$/.test(name))throw Error('bad class name at '+at);
+      cls={name,schema,index:this.next++};this.classes.set(cls.index,cls);}
+    else if(tag===0x7fff){const big=this.u32();if(big&0x80000000){cls=this.classes.get(big&0x7fffffff);if(!cls)throw Error('unknown big class '+(big&0x7fffffff)+' at '+at);}else return {ref:big};}
+    else if(tag&0x8000){const k=tag&0x7fff;cls=this.classes.get(k);if(!cls)throw Error(`unknown class index ${k} at ${at}${where?' ('+where+')':''}`);}
+    else return {ref:tag};
+    const obj={class:cls.name,index:this.next++,at};this.objects.set(obj.index,obj);
+    const fn=READ[cls.name];if(!fn)throw Error(`no reader for ${cls.name} (schema ${cls.schema}) at ${this.p}, object at ${at}`);
+    fn(this,obj);obj.end=this.p;return obj;
+  }
+}
+
+/* ---- the base of every feature (moFeature_c and kin), 2022 layout ---- */
+function feature(r,o){
+  o.ownerRef=r.u16();            // varies per file; a reference, meaning not yet established
+  o.name=r.str();
+  o.a=r.u32();o.flags=r.u32();o.id=r.u32();o.b=r.u32();   // id = KeyWords feature id
+  o.comment=r.str();
+  o.c=r.u32();o.d=r.u16();
+  const n=r.u16();o.refs=[];for(let i=0;i<n;i++)o.refs.push(r.u16());   // e.g. an extrude's sketch
+  o.e=r.bytes(12).toString('hex');
+  o.order=r.u32();
+  o.f=r.u8();o.g=r.u32();
+  o.created={version:r.u32(),build:r.u32()};o.modified={version:r.u32(),x:r.f64(),build:r.u32()};
+  o.h=r.u16();o.str2=r.str();
+  o.tail=r.bytes(62).toString('hex');   // flags, -1s, a float -1.0, a FILETIME and fixed words; to split
+}
+
+const READ={};
+module.exports={Reader,READ,feature};

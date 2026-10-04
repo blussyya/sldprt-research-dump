@@ -15,7 +15,7 @@
  *     sense and once for a '-' face sense.
  * Edge, vertex and face ids are Parasolid node_ids, which are also the display-mesh IDs.
  */
-const G=require('../geom/eval'),{intersectionCurve}=require('./intersection'),{fitCurve}=require('./fit'),{blendSurface}=require('./blend');
+const G=require('../geom/eval'),{intersectionCurve}=require('./intersection'),{fitCurve}=require('./fit'),{blendSurface,blendSurfaceRational}=require('./blend');
 const parametrise=(...a)=>require('./volume').parametrise(...a);   // lazy: volume.js loads seams.js
 
 function build(parsed){
@@ -119,9 +119,10 @@ function build(parsed){
     else{t0=Math.min(...ts);t1=Math.max(...ts);}
     const supports=b.supports.map(s=>({foot:c=>{if(s.surface.type==='blend'&&s.surface.R===0)return G.curvePoint(s.surface.spine,G.curveProject(s.surface.spine,c).t);
       const r=G.surfaceDistance(s.surface,c);return G.sub(c,G.mul(r.n,r.d));}}));
-    const fit=blendSurface({spine:b.spine,supports,t0,t1});
+    // SolidWorks' form first (exact arcs across, cubic along the spine); bicubic fit if it can't converge
+    const fit=blendSurfaceRational({spine:b.spine,supports,t0,t1})||blendSurface({spine:b.spine,supports,t0,t1});
     const um=(t0+t1)/2,e=G.bsplineSurface(fit,um,0.5),c=G.curvePoint(b.spine,um);
-    fit.source={type:'BLENDED_EDGE',node:b.node,R:b.R,deviation:fit.deviation,grid:fit.grid};
+    fit.source={type:'BLENDED_EDGE',node:b.node,R:b.R,deviation:fit.deviation,grid:fit.grid,form:fit.form||'bicubic'};
     return {surface:fit,flip:G.dot(G.cross(e.du,e.dv),G.sub(e.p,c))>0?1:-1};
   }
   const vertices=new Map(),edges=new Map(),faces=[];

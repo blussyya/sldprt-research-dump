@@ -14,6 +14,10 @@ here until then. Work since that commit:
 - tests: `test/exact.test.js`, `test/link.test.js`, and updates to the others
 - docs updated to match (README, docs/)
 
-Evidence for all of it: [EXP-078](../knowledge/evidence/2026-10-04_v0.5-EXP078.md).
+- blends written the way SolidWorks writes them (rational arc across, cubic along the spine) and
+  curve knots reduced to multiplicity 2, as SolidWorks does; both exact changes in form, tighter
+  than SolidWorks' own export ([EXP-079](../knowledge/evidence/2026-10-04_v0.5-EXP079.md) part A)
+
+Evidence: [EXP-078](../knowledge/evidence/2026-10-04_v0.5-EXP078.md), EXP-079.
 
 To run it against the corpus in this repo: `cd package && SLDPRT_CORPUS=.. npm test`.

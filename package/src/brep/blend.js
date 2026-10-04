@@ -65,4 +65,41 @@ function blendSurface({spine,supports,t0,t1},{tol=1e-8,nu=8,nv=6,maxN=512}={}){
   }
 }
 
-module.exports={blendSurface,section,interpolate};
+/* The same surface, written the way SolidWorks' own STEP export writes it (USB hub TOP, EXP-079):
+ * rational quadratic across the blend, so every cross-section is an exact circular arc, and cubic
+ * along the spine. The cubic interpolates exact cross-sections in homogeneous coordinates; sections
+ * are added until the surface is within `tol` of the exact blend between them. SolidWorks stops at
+ * about 1.5e-7 m with 10 sections; the default here is 1e-8 m.
+ *
+ * Arcs wider than 0.9π are split in two (five control points, a double knot at v = 0.5). */
+function arcPoints(sct,split){
+  const {c,R,e1,e2,theta}=sct,pt=a=>G.add(c,G.add(G.mul(e1,R*Math.cos(a)),G.mul(e2,R*Math.sin(a))));
+  const seg=(a0,a1)=>{const h=(a1-a0)/2,w=Math.cos(h),m=G.add(c,G.add(G.mul(e1,R*Math.cos(a0+h)/w),G.mul(e2,R*Math.sin(a0+h)/w)));return [[pt(a0),1],[m,w],[pt(a1),1]];};
+  if(!split)return seg(0,theta);
+  const a=seg(0,theta/2),b=seg(theta/2,theta);return [a[0],a[1],a[2],b[1],b[2]];
+}
+function blendSurfaceRational({spine,supports,t0,t1},{tol=1e-8,nu=8,maxN=4096}={}){
+  // A point is on the blend when it is R from the spine (the surface is the envelope of the
+  // rolling ball); its two boundary curves must lie on the supports.
+  const R=section(spine,supports,(t0+t1)/2).R;
+  const off=(P,v)=>{let d=Math.abs(G.curveProject(spine,P).d-R);
+    if(v===0||v===1){const f=supports[v].foot(P);d=Math.max(d,G.dist(f,P));}return d;};
+  let split=false;for(let i=0;i<=16;i++)if(section(spine,supports,t0+(t1-t0)*i/16).theta>0.9*Math.PI)split=true;
+  const kv=split?[0,0,0,0.5,0.5,1,1,1]:[0,0,0,1,1,1],nv=split?5:3;
+  for(;;){
+    const us=Array.from({length:nu+1},(_,i)=>t0+(t1-t0)*i/nu);
+    const H=us.map(u=>arcPoints(section(spine,supports,u),split).map(([p,w])=>[p[0]*w,p[1]*w,p[2]*w,w]));   // homogeneous
+    const cols=[];for(let j=0;j<nv;j++)cols.push(interpolate(us,H.map(r=>r[j])));
+    const ku=cols[0].knots,ctrl=[],weights=[];
+    for(let i=0;i<cols[0].ctrl.length;i++){ctrl.push([]);weights.push([]);
+      for(let j=0;j<nv;j++){const q=cols[j].ctrl[i];ctrl[i].push([q[0]/q[3],q[1]/q[3],q[2]/q[3]]);weights[i].push(q[3]);}}
+    const s={type:'bspline',du:cols[0].degree,dv:2,ctrl,weights,ku,kv,uPeriodic:false,vPeriodic:false};
+    let worst=0,bad=weights.some(r=>r.some(w=>!(w>0)));
+    if(!bad)for(let i=0;i<nu;i++)for(const v of [0,0.125,0.25,0.5,0.75,0.875,1]){const u=(us[i]+us[i+1])/2;worst=Math.max(worst,off(G.bsplineSurface(s,u,v).p,v));}
+    if(!bad&&worst<=tol){s.deviation=worst;s.grid=[nu,nv];s.form='rational arc × cubic';return s;}
+    if(nu>=maxN)return null;   // caller falls back to the bicubic fit
+    nu*=2;
+  }
+}
+
+module.exports={blendSurface,blendSurfaceRational,section,interpolate};

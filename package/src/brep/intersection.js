@@ -108,7 +108,7 @@ function intersectionCurve(s1,s2,chart,{from=null,to=null,closed=false,reverse=f
     ctrl.push(G.add(a.x,G.mul(a.t,h/3)),G.sub(b.x,G.mul(b.t,h/3)));u+=h;
     if(i<out.length-1){ctrl.push(b.x);knots.push(u,u,u);}else{ctrl.push(b.x);knots.push(u,u,u,u);}}
   // interior knots of multiplicity 3 keep every Bezier point (exactly the Hermite pieces)
-  return {type:'bspline',degree:3,ctrl,weights:null,knots,closed:!!closed,periodic:false,deviation:worst,points:out.length};
+  return require('./fit').toC1({type:'bspline',degree:3,ctrl,weights:null,knots,closed:!!closed,periodic:false,deviation:worst,points:out.length});
 }
 
 module.exports={intersectionCurve,refine};
