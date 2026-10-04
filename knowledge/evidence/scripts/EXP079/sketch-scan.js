@@ -43,7 +43,7 @@ function scan(b){
 const R='../../../../';
 const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(d,e.name)):/\.sldprt$/i.test(e.name)?[path.join(d,e.name)]:[]);
 const only=process.argv[2]||'';
-for(const f of walk(R+'test files new/SW2022')){if(!f.includes(only))continue;
+if(require.main===module)for(const f of walk(R+'test files new/SW2022')){if(!f.includes(only))continue;
   const all=P.streams(fs.readFileSync(f));const b=all['Contents/Config-0-ResolvedFeatures'];if(!b)continue;
   const sk=scan(b);console.log('==',path.basename(path.dirname(f)));
   for(const s of sk){if(s.n<2)continue;   // the Origin's sketch

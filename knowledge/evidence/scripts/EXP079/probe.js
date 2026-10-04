@@ -9,7 +9,7 @@ const start=modern?b.readUInt32LE(0):0;
 // pre-loaded classes by role (their indices come from Config-0's archive and vary per file)
 const pre={};const role=(name,off,label)=>{const i=b.indexOf(Buffer.from(name));if(i<0)return;const w=b.readUInt16LE(i+name.length+off);if((w&0x8000)&&(w&0x7fff)<start)pre[w&0x7fff]=label;};
 role('moCommentsFolder_c',0,'@node');role('moCompFeature_c',0,'@comp');
-{const i=b.indexOf(Buffer.from('sgPointHandle'));if(i>0){const w=b.readUInt16LE(i+37);if((w&0x8000)&&(w&0x7fff)<start)pre[w&0x7fff]='@point';}}
+{const i=b.indexOf(Buffer.from('sgPointHandle'));if(i>0){const w=b.readUInt16LE(i+37);if((w&0x8000)&&(w&0x7fff)<start)pre[w&0x7fff]='@oblist';}}
 const r=new Reader(b,start,pre);r.p=modern?4:0;
 const head=modern?{u32:b.readUInt32LE(0)}:{};
 if(process.env.SYNC){const [off,idx]=process.env.SYNC.split(':').map(Number);r.p=off;r.next=idx;}
