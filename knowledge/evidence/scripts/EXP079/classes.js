@@ -102,14 +102,16 @@ R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)
 // a face or edge picked by name: u32 1, u32 0, u32 kind (6 face, 4 edge), u8, u16 (3 face, 2 edge), u8,
 // u32 (an edge's Parasolid tag?), two copies of a
 // 64-bit value, u16, the naming tree, 20 bytes
-function topoRef(r,o){o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();o.rep=r.object('topo rep');o.x1=r.bytes(20).toString('hex');}
+function topoRef(r,o){o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.c===3){o.reps=nullList(r,'face rep');o.x1=r.bytes(18).toString('hex');}else{o.rep=r.object('edge rep');o.x1=r.bytes(18).toString('hex');o.next=r.object('edge next');}}
+// objects up to a null
+function nullList(r,w){const out=[];for(;;){const x=r.object(w);if(!x)return out;out.push(x);}}
 R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
 // how a face is named: a tree of surface-id representations, each pointing at the feature that made
 // the face (moFR_c: the document/config object, feature id, feature creation time, sketch entity id)
 R.moEndFaceSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.end=r.u32();o.b=r.u32();o.child=r.object('surf child');};
 R.moFromSktEntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.entity=r.u32();o.child=r.object('surf child');};
-R.moSurfaceIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.child=r.object('surf child');o.edge=r.object('surf edge');};
-R.moFilletSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.u32();o.child=r.object('surf child');};
+R.moSurfaceIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.items=[r.object('surf a'),r.object('surf b'),r.object('surf c')];};
+R.moFilletSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.u32();};
 R.moFR_c=(r,o)=>{o.ext=r.object('fr ext');o.feature=r.u32();o.stamp=r.u32();};
 // the document a reference lives in: two string handles (path, document name), u8, u16, creation
 // time, three strings, 18 bytes, configuration name, 12 bytes
@@ -135,8 +137,9 @@ R.moDisplayRadialDim_c=(r,o)=>{displayDim(r,o,541);o.x3=r.bytes(124).toString('h
   if(process.env.AP)console.error('radial after edge',r.p,r.b.subarray(r.p,r.p+200).toString('hex'));};
 R.ThreeDRadiusDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');};
 R.edgeRadiusObject_c=(r,o)=>{o.dim=r.object('edge radius dim');};
-// an edge: component object, u8, the edge reference (often a back-reference to the one the feature named), 62 bytes
-R.moCompEdge_c=(r,o)=>{o.comp=r.object('edge comp');o.a=r.u8();o.edge=r.object('edge ref');o.x0=r.bytes(62).toString('hex');};
+// an edge: component object, u8, the edge reference (often a back-reference to the one the feature named),
+// a second object slot (null so far), 60 bytes
+R.moCompEdge_c=(r,o)=>{o.comp=r.object('edge comp');o.a=r.u8();o.edge=r.object('edge ref');o.b=r.object('edge 2');o.x0=r.bytes(60).toString('hex');};
 R.moFavoriteHandle_c=(r,o)=>{o.a=r.u32();o.b=r.i32();};
 R.moFeatureDimHandle_c=(r,o)=>{o.x0=r.bytes(103).toString('hex');o.dim=r.object('dim');};
 R.ParallelPlaneDistanceDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');if(process.env.EX)console.error('after param',r.p,peek(r));};
@@ -152,9 +155,9 @@ function applied(r,o){feature(r,o);o.x0=r.bytes(58).toString('hex');o.data=r.obj
   if(process.env.AP)console.error('applied after ref',r.p,r.b.subarray(r.p,r.p+100).toString('hex'));}
 R.Fillet_c=(r,o)=>{applied(r,o);o.edges=r.object('fillet edges');o.lists=[r.object(),r.object(),r.object()];o.x1=r.bytes(12).toString('hex');o.radii=r.object('fillet radii');
   o.y0=[r.u32(),r.u8()];o.list4=r.object('fillet list 4');o.y1=r.bytes(8).toString('hex');o.y2=r.bytes(4).toString('hex');o.y3=r.bytes(9).toString('hex');
-  o.rho=[r.f64(),r.f64()];o.y4=[r.u8(),r.bytes(6).toString('hex'),r.u32()];o.y5=r.bytes(10).toString('hex');o.y6=r.u32();o.face=r.object('fillet face');o.face2=r.object('fillet face 2');
+  o.rho=[r.f64(),r.f64()];o.y4=[r.u8(),r.bytes(6).toString('hex'),r.u32()];o.y5=r.bytes(10).toString('hex');o.y6=r.u32();o.face=r.object('fillet face');
   o.edge2=r.object('fillet edge 2');o.z0=[r.u32(),r.i32(),r.i32(),r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.radius=r.f64();o.edge3=r.object('fillet edge 3');
   o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.z1=r.bytes(16).toString('hex');};
-// a face: component object, u8, the face reference, ...
-R.moCompFace_c=(r,o)=>{o.comp=r.object('face comp');o.a=r.u8();o.face=r.object('face ref');if(process.env.AP)console.error('compface after ref',r.p,r.b.subarray(r.p,r.p+100).toString('hex'));};
+// a face: component object, u8, the face reference, a second object slot (null so far)
+R.moCompFace_c=(r,o)=>{o.comp=r.object('face comp');o.a=r.u8();o.face=r.object('face ref');o.b=r.object('face 2');};
 for(const c of ['Fillet_c','Chamfer_c','moShell_c','moRevolution_c','moLoft_c','moSplitLine_c'])if(!R[c])R[c]=(r,o)=>{feature(r,o);let h='';for(let p=r.p;p<r.p+72;p++){h+=r.b[p]===0?'..':r.b[p].toString(16).padStart(2,'0');if((p-r.p)%2==1)h+=' ';}console.error(c,'after node',r.p,h);throw Error(c+' at '+r.p);};
