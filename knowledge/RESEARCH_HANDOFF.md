@@ -1,6 +1,16 @@
 # Research Handoff
 
-## Current checkpoint — 2026-10-03 UTC, EXP-077
+## Current checkpoint — 2026-10-04 UTC, EXP-078
+
+Every real part with a solid now exports exact STEP ([EXP-078](evidence/2026-10-04_v0.5-EXP078.md)):
+intersection curves marched from their charts (1e-9 m), tolerant edges from the fin SP curves,
+SWEPT_SURF as linear extrusions, BLENDED_EDGE as rolling-ball blends fitted to 1e-8 m. OpenCascade
+reads all 10 as valid single solids. The mesh joins the B-rep in every version by edge IDs
+(INV-029). The ghost partition holds feature input geometry, not the solid (NQ-050). The package
+side of this is committed locally in sldprt-format-research (`6604ad0`) but not pushed; the user
+merges the dump first and updates the main repo write-up after. Next: the feature tree.
+
+## Checkpoint — 2026-10-03 UTC, EXP-077
 
 Every geometry-bearing stream in the corpus is now read ([EXP-077](evidence/2026-10-03_v0.5-EXP077.md)).
 Pre-2011 streams are PKWARE implode; chainwheel's body is base-schema 13006 neutral binary and

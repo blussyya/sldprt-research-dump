@@ -1169,3 +1169,34 @@ two surfaces; either needs the chart decoded and checked against the mesh first.
 
 **Date raised**: 2026-10-03 (EXP-075).
 
+---
+
+## NQ-049 — resolved for the corpus, 2026-10-04 (EXP-078)
+
+INTERSECTION curves, tolerant edges, SWEPT_SURF (linear extrusions) and BLENDED_EDGE (rolling-ball
+blends) are evaluated and written; all 10 real parts with a solid export exact STEP. Open within it:
+only one `E`-type blend and one radius-0 support exist; no swept surface with a non-planar section;
+no tolerant edge on a cone or sphere. A controlled model per case would settle each.
+
+## NQ-050 — Which feature owns each ghost-partition body, and what is the default origin vertex?
+
+EXP-078: `Config-0-GhostPartition` holds wire and sheet bodies (`body_type` 2 and 3) that coincide
+with feature inputs: C16's two loft profiles and their planes, Helical Bevel Gear's section planes
+and circular wires, Pocket Wheel's conical sheet and wires. 61 files hold only one wire body made of
+a single vertex at the origin (INT attribute 10001; six of them, 10001–10006, in distributor).
+
+Open: which feature each body belongs to (the attribute `GHOST_REF_BODY_ID_2001` is the likely
+key, to be matched against the feature tree), why one Gear plane and Pocket Wheel's cone match no
+part surface, and what the origin vertex stands for. Settling it needs the feature tree decoded far
+enough to read feature body references.
+
+**Date raised**: 2026-10-04 (EXP-078).
+
+## NQ-051 — 231 interior and 11 boundary display vertices off the exact surfaces
+
+EXP-078 explains every other off-surface display vertex (7,065 boundary chord points). The rest:
+Dekor 59 (cylinder 46, B-spline 13; up to 25 µm), chainwheel 57, Helical Bevel Gear 47, USB hub TOP 38
+(plus 2 boundary), Pocket Wheel 27, distributor 3, chainwheel 9 boundary. Candidates: interior
+points SolidWorks moved for mesh quality after sampling, or float32 rounding chains on long strips.
+
+**Date raised**: 2026-10-04 (EXP-078).

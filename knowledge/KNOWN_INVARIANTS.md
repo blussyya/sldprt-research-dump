@@ -2,6 +2,24 @@
 
 > **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
 
+## INV-029: Display Faces Join B-rep Faces by Edge IDs in Every Version
+
+> **Established 2026-10-04 (EXP-078).**
+
+**Status:** Verified on the corpus.
+
+**Evidence:** Block1 edge IDs are native EDGE `node_id`s in SolidWorks 2011 and pre-2011 files as
+in modern ones (28/28 SW2011 C04, 24/24 C16, 16/16 C20, 1,092/1,092 chainwheel), and the set of
+edge IDs on a display face matches exactly one B-rep face. Joining by face ID, then edge set, then
+geometry joins 1,762/1,762 faces in the 72 parts with a solid (1,414 by ID, 328 by edge set, 20 by
+geometry: plate4, which has no edge table, and SW2011's edgeless whole sphere and torus). With face
+IDs stripped from modern files the edge-set join is right on 1,410/1,410; with IDs and edge tables
+stripped, the geometry join is right on 625/625 (parts up to 150 faces).
+
+**Confidence/date:** High within the corpus, 2026-10-04.
+
+**Source:** [EXP-078](evidence/2026-10-04_v0.5-EXP078.md).
+
 ## INV-028: STEP Written From the Native Body Is the Same Solid
 
 > **Established 2026-10-03 (EXP-076).**
