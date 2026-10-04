@@ -10,7 +10,9 @@
  *   u16 k (k < 0x7FFF)   reference to an object already read
  *   u16 0x7FFF + u32     the same with a 32-bit index (bit 31 marks a class)
  * Classes and objects share one index sequence. In ResolvedFeatures the sequence starts at the
- * stream's first u32 plus 3 (EXP-079: 109 → 112 … 238 → 241 on every modern file).
+ * stream's first u32 (N). Indices below N are classes and objects of Config-0's archive, which
+ * this stream continues; three of its classes appear here (node name, component, object list) and
+ * are recognised by role.
  *
  * MFC strings: u8 length (0xFF → u16, 0xFFFF → u32); Unicode strings are prefixed FF FE FF and the
  * length counts UTF-16 units.
@@ -39,6 +41,8 @@ class Reader {
     return this.bytes(n).toString('latin1');
   }
   expect(v,got,what){if(v!==got)throw Error(`${what}: expected ${v}, got ${got} at ${this.p}`);}
+  // an object whose class may be a pre-loaded one not yet named: name it by the role it plays here
+  objectAs(role,where){const t=this.b.readUInt16LE(this.p);if((t&0x8000)&&t!==0xffff&&t!==0x7fff){const k=t&0x7fff;if(k<this.start&&!this.pre[k])this.pre[k]=role;}return this.object(where||role);}
   object(where){
     const at=this.p,tag=this.u16();
     if(tag===0)return null;
@@ -71,6 +75,7 @@ function node(r,o){
   o.name=r.str();
   o.a=r.u32();o.flags=r.u32();o.id=r.u32();o.b=r.u32();   // id = KeyWords feature id
   o.comment=r.str();
+  if(o.id===0xffffffff){o.short=true;o.d=r.u16();return;}   // parameters (D1 …) carry the short form
   o.c=r.u32();o.d=r.u16();
   const n=r.u16();o.children=[];for(let i=0;i<n;i++)o.children.push(r.object('feature children'));   // objects: back-references (an extrude's sketch) or whole child features (Annotations' folders)
   o.e=r.bytes(12).toString('hex');

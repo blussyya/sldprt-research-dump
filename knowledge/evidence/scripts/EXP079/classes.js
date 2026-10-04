@@ -77,7 +77,14 @@ R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');o.backup=r.object('ext b
 R.moCompSketchEntHandle_c=(r,o)=>{o.comp=r.object('ext comp');o.handle=r.object('ext handle');o.x0=r.bytes(62).toString('hex');};
 R.moPointBackedUpData_c=(r,o)=>{o.x0=r.bytes(30).toString('hex');o.name=r.str();};
 R.moExtrusion_c=(r,o)=>{feature(r,o);o.x0=r.bytes(40).toString('hex');o.bodies=r.object('per body chooser');
-  if(process.env.EX)console.error('extrusion after chooser',r.p,r.b.subarray(r.p,r.p+200).toString('hex'));throw Error('extrusion body at '+r.p);};
+  o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('extrusion owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();
+  o.spec=r.objectAs('@x66','extrusion spec');
+  o.end=r.object('end spec');o.x4=r.bytes(74).toString('hex');o.from=r.object('from end spec');
+};
+R.moFromEndSpec_c=(r,o)=>{o.x0=r.bytes(36).toString('hex');};
+// bounding box of what the feature made: u32 1, centre, diagonal, 18 bytes, the feature
+R.moBBoxCenterData_c=(r,o)=>{o.a=r.u32();o.centre=r.vec();o.diagonal=r.f64();o.x0=r.bytes(18).toString('hex');o.owner=r.object('bbox owner');};
+R['@x66']=(r,o)=>{o.a=r.u32();o.x0=r.bytes(62).toString('hex');};
 R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)o.faces.push(r.object('chooser face'));};
 R.moFaceRef_c=(r,o)=>{o.x0=r.bytes(38).toString('hex');o.rep=r.object('face rep');o.x1=r.bytes(20).toString('hex');};
 // how a face is named: a tree of surface-id representations, each pointing at the feature that made
@@ -89,3 +96,19 @@ R.moFR_c=(r,o)=>{o.ext=r.object('fr ext');o.feature=r.u32();o.stamp=r.u32();o.en
 // time, three strings, 18 bytes, configuration name, 12 bytes
 R.moExtObject_c=(r,o)=>{o.h=[r.object('ext path'),r.object('ext doc')];o.a=[r.u8(),r.u16()];o.stamp=r.u32();o.s=[r.str(),r.str(),r.str()];o.x0=r.bytes(18).toString('hex');o.config=r.str();o.x1=r.bytes(12).toString('hex');};
 R.moCStringHandle_c=(r,o)=>{o.s=r.str();};
+// ---- end conditions and dimensions (EXP-079) ----
+const peek=(r,n)=>r.b.subarray(r.p,r.p+(n||80)).toString('hex');
+// end condition: 24 bytes, the depth dimension, and the second direction's dimension (null when
+// there is none; C20 has both)
+R.moEndSpec_c=(r,o)=>{o.x0=r.bytes(24).toString('hex');o.dim=r.object('end spec dim');o.dim2=r.object('end spec dim 2');};
+// a displayed dimension (SW2022 sizes): 556 bytes of annotation settings, the handle to the dimension
+// and its value, 587 bytes of placement, a favourites handle, 428 bytes. Where the placement data
+// belongs (handle, dimension or display) is not settled yet; the sizes hold on every SW2022 file.
+R.moDisplayDistanceDim_c=(r,o)=>{o.x0=r.bytes(556).toString('hex');o.handle=r.object('display dim handle');o.x1=r.bytes(587).toString('hex');
+  o.fav=r.object('display dim favourite');o.x2=r.bytes(428).toString('hex');};
+R.moFavoriteHandle_c=(r,o)=>{o.a=r.u32();o.b=r.i32();};
+R.moFeatureDimHandle_c=(r,o)=>{o.x0=r.bytes(103).toString('hex');o.dim=r.object('dim');};
+R.ParallelPlaneDistanceDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');if(process.env.EX)console.error('after param',r.p,peek(r));};
+// a dimension's value: the short node form (name, id -1), then the value in metres or radians
+R.moLengthParameter_c=(r,o)=>{o.node=r.object('parameter node');o.value=r.f64();};
+R.moAngleParameter_c=R.moLengthParameter_c;
