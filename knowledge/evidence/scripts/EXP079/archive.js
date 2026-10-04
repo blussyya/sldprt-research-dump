@@ -19,7 +19,7 @@
  * first thing it can't account for. It never scans forward.
  */
 class Reader {
-  constructor(b,start){this.b=b;this.p=0;this.next=start;this.classes=new Map();this.objects=new Map();this.log=[];}
+  constructor(b,start,pre){this.b=b;this.p=0;this.next=start;this.start=start;this.pre=pre||{};this.classes=new Map();this.objects=new Map();this.log=[];}
   need(n){if(this.p+n>this.b.length)throw Error('truncated at '+this.p);}
   u8(){this.need(1);return this.b[this.p++];}
   u16(){this.need(2);const v=this.b.readUInt16LE(this.p);this.p+=2;return v;}
@@ -47,29 +47,40 @@ class Reader {
       if(!/^[A-Za-z_][A-Za-z0-9_]*$/.test(name))throw Error('bad class name at '+at);
       cls={name,schema,index:this.next++};this.classes.set(cls.index,cls);}
     else if(tag===0x7fff){const big=this.u32();if(big&0x80000000){cls=this.classes.get(big&0x7fffffff);if(!cls)throw Error('unknown big class '+(big&0x7fffffff)+' at '+at);}else return {ref:big};}
-    else if(tag&0x8000){const k=tag&0x7fff;cls=this.classes.get(k);if(!cls)throw Error(`unknown class index ${k} at ${at}${where?' ('+where+')':''}`);}
+    else if(tag&0x8000){const k=tag&0x7fff;cls=this.classes.get(k);
+      if(!cls&&k<this.start&&this.pre&&this.pre[k])cls={name:this.pre[k],index:k,preloaded:true};
+      if(!cls)throw Error(`unknown class index ${k}${k<this.start?' (pre-loaded)':''} at ${at}${where?' ('+where+')':''}`);}
     else return {ref:tag};
     const obj={class:cls.name,index:this.next++,at};this.objects.set(obj.index,obj);
     const fn=READ[cls.name];if(!fn)throw Error(`no reader for ${cls.name} (schema ${cls.schema}) at ${this.p}, object at ${at}`);
-    fn(this,obj);obj.end=this.p;return obj;
+    if(process.env.TRACE)console.error(' '.repeat(this.depth||0)+'> '+cls.name+' #'+obj.index+' @'+at);
+    this.depth=(this.depth||0)+1;try{fn(this,obj);}finally{this.depth--;}obj.end=this.p;
+    if(process.env.TRACE)console.error(' '.repeat(this.depth)+'< '+cls.name+' #'+obj.index+' end '+this.p+(obj.name!==undefined?' "'+obj.name+'"':''));
+    return obj;
   }
 }
 
 /* ---- the base of every feature (moFeature_c and kin), 2022 layout ---- */
 function feature(r,o){
-  o.ownerRef=r.u16();            // varies per file; a reference, meaning not yet established
+  o.node=r.object('feature node');   // a new object of the pre-loaded node-name class (#4 in 2022 files)
+  Object.assign(o,{name:o.node.name,id:o.node.id,flags:o.node.flags});
+}
+// The node-name object (pre-loaded class, probably moNodeName_c): name, flags, feature id, comment,
+// child objects, order, version stamps, display state.
+function node(r,o){
   o.name=r.str();
   o.a=r.u32();o.flags=r.u32();o.id=r.u32();o.b=r.u32();   // id = KeyWords feature id
   o.comment=r.str();
   o.c=r.u32();o.d=r.u16();
-  const n=r.u16();o.refs=[];for(let i=0;i<n;i++)o.refs.push(r.u16());   // e.g. an extrude's sketch
+  const n=r.u16();o.children=[];for(let i=0;i<n;i++)o.children.push(r.object('feature children'));   // objects: back-references (an extrude's sketch) or whole child features (Annotations' folders)
   o.e=r.bytes(12).toString('hex');
   o.order=r.u32();
   o.f=r.u8();o.g=r.u32();
   o.created={version:r.u32(),build:r.u32()};o.modified={version:r.u32(),x:r.f64(),build:r.u32()};
   o.h=r.u16();o.str2=r.str();
   o.tail=r.bytes(62).toString('hex');   // flags, -1s, a float -1.0, a FILETIME and fixed words; to split
+  o.base2=[r.u16(),r.u32(),r.u32()];
 }
 
-const READ={};
+const READ={'@node':node};
 module.exports={Reader,READ,feature};

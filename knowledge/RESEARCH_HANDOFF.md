@@ -1,6 +1,15 @@
 # Research Handoff
 
-## Current checkpoint — 2026-10-04 UTC, EXP-078
+## Current checkpoint — 2026-10-04 UTC, EXP-079 (feature tree, in progress)
+
+Exact STEP now writes blends and curves in SolidWorks' own forms at our tolerance (EXP-079 part A,
+in `package/`). The feature tree reader is under way in `knowledge/evidence/scripts/EXP079/`: run
+`node probe.js "<model.SLDPRT>"` from that folder. It parses SW2022 C00 byte-exact through the
+default planes; the note's "Reader status" lists what is decoded and what comes next. Key rule:
+the index sequence starts at the stream's first u32, and low class numbers are inline objects of
+pre-loaded classes. All work goes to dump staging; the main repo only gets it when the format is done.
+
+## Checkpoint — 2026-10-04 UTC, EXP-078
 
 Every real part with a solid now exports exact STEP ([EXP-078](evidence/2026-10-04_v0.5-EXP078.md)):
 intersection curves marched from their charts (1e-9 m), tolerant edges from the fin SP curves,

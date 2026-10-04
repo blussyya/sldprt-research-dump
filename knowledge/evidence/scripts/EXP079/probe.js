@@ -2,13 +2,19 @@
 const fs=require('fs'),path=require('path');
 const P=require('../../../../package/src/parasolid/partition');
 const {Reader,READ}=require('./archive');require('./classes');
-const f=process.argv[2],limit=+(process.argv[3]||1e9),quiet=process.argv.includes('-q');
+const f=process.argv[2],limit=+(process.argv.slice(3).find(a=>/^\d+$/.test(a))||1e9),quiet=process.argv.includes('-q');
 const all=P.streams(fs.readFileSync(f));const k=Object.keys(all).find(x=>/Config-0-ResolvedFeatures$/.test(x));const b=all[k];
 const modern=b.readUInt16LE(2)!==0xffff;   // SW2011 streams start u16 count then the first class tag
-const r=new Reader(b,modern?b.readUInt32LE(0)+3:0);r.p=modern?4:0;
+const start=modern?b.readUInt32LE(0):0;
+// pre-loaded classes by role (their indices come from Config-0's archive and vary per file)
+const pre={};const role=(name,off,label)=>{const i=b.indexOf(Buffer.from(name));if(i<0)return;const w=b.readUInt16LE(i+name.length+off);if((w&0x8000)&&(w&0x7fff)<start)pre[w&0x7fff]=label;};
+role('moCommentsFolder_c',0,'@node');role('moCompFeature_c',0,'@comp');
+{const i=b.indexOf(Buffer.from('sgPointHandle'));if(i>0){const w=b.readUInt16LE(i+37);if((w&0x8000)&&(w&0x7fff)<start)pre[w&0x7fff]='@point';}}
+const r=new Reader(b,start,pre);r.p=modern?4:0;
 const head=modern?{u32:b.readUInt32LE(0)}:{};
+if(process.env.SYNC){const [off,idx]=process.env.SYNC.split(':').map(Number);r.p=off;r.next=idx;}
 try{
-  head.count=r.u16();
+  if(!process.env.SYNC)head.count=r.u16();
   for(let i=0;i<limit;i++){if(r.p>=b.length)break;const o=r.object('top');if(!quiet)console.log(String(o&&o.at).padStart(6),o&&o.class,o&&o.index,JSON.stringify(o,(k,v)=>['at','index','class','end'].includes(k)?undefined:v).slice(0,400));}
   console.log('END at',r.p,'of',b.length);
-}catch(e){console.log('STOP:',e.message);console.log('next bytes',b.subarray(r.p,r.p+96).toString('hex'));}
+}catch(e){console.log('STOP:',e.message);console.log('classes',[...r.classes.values()].map(c=>c.index+':'+c.name).join(' '));console.log('next index',r.next);console.log('next bytes',b.subarray(r.p,r.p+96).toString('hex'));}
