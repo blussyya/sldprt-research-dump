@@ -11,7 +11,8 @@ it re-saves it, using C22 (2011), C23 (its 2022 re-save) and C24 (native 2022). 
 inventory, the small streams byte by byte, the layout differences class by class, what survives from
 2011, and what the upgrade sets. Next: the remaining SW2011 feature readers (fillet, chamfer, shell,
 revolve, loft, split line); Config-0's archive (which would give the SW2011 first index directly and
-explain the rest of the upgrade); then production parts.
+explain the rest of the upgrade); then production parts. Postponed (no SolidWorks machine for now):
+re-saving C22 in 2022 with a full rebuild, to settle what node flag bit 31 means.
 
 ## Checkpoint — 2026-10-04 UTC, EXP-079 (feature tree, in progress)
 
