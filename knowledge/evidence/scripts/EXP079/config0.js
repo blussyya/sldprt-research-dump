@@ -1,7 +1,9 @@
 'use strict';
-/* EXP-080 research readers for Config-0, the configuration archive. It is an MFC CArchive like
- * ResolvedFeatures, read from index 2 (index 1 is the document, mapped in advance). Its classes' indices
- * are the "pre-loaded" ones the feature stream refers to (moNodeName_c is the feature node).
+/* EXP-081 research readers for Config-0, the configuration archive. It is an MFC CArchive like
+ * ResolvedFeatures, read from index 2 in SW2022 files (index 1 is mapped in advance) and from index 1 in
+ * SW2011 ones. Its index sequence ends where the configuration's ResolvedFeatures starts, and its classes
+ * are the "pre-loaded" ones that stream refers to (moNodeName_c is the feature node, moUnitComponent_c the
+ * component, suObList the object list).
  *
  * Layouts are written as field lists: "u32 name", "f64*4 name", "str name", "obj name", "b12" (raw bytes);
  * a field prefixed "22:" is read only in SW2022 files, "11:" only in SW2011 ones. */
@@ -131,7 +133,9 @@ R.moAnnotationView_c=(r,o)=>{R.moView_c(r,o);seq(r,o,'b26 a, u32 b, 22:u16 c, 22
 // PMI mark record: u32 version (3, or 4 in the upgraded file), u32 1, u32, u32 n and n marks (each a feature
 // written with its node inline), u32, u32 20, u32, u32 20, 16 bytes, the list of annotation views ("Notes
 // Area"), u32, two strings
-R.moPMarkRecord_c=(r,o)=>{seq(r,o,'u32 version, u32 b, u32 c, u32 n');o.marks=[];for(let i=0;i<o.n;i++){const q={};feature(r,q);o.marks.push(q);}
+const featurePMark=R.moPMarkRecord_c;
+R.moPMarkRecord_c=(r,o)=>{if(r.b.readUInt32LE(r.p)>=5)return featurePMark(r,o);   // the per-feature form (see classes.js)
+  seq(r,o,'u32 version, u32 b, u32 c, u32 n');o.marks=[];for(let i=0;i<o.n;i++){const q={};feature(r,q);o.marks.push(q);}
   if(r.legacy){o.threads={};seq(r,o.threads,'b7 a, '+THREADS_HEAD+', u16 x, '+THREADS);return;}   // SW2011: the thread settings follow the marks directly
   seq(r,o,'u32 c2, u32 d, u32 e, u32 f, b16 g');o.list=r.object('pmark list');seq(r,o,'u32 h, str s1, str s2');
   if(o.version>=4){o.threads={};seq(r,o.threads,'b11 a, '+THREADS_HEAD+', u16 x, '+THREADS);}};   // version 4 (the upgraded file) carries the thread settings itself

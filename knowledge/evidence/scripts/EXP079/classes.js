@@ -112,7 +112,7 @@ function bodyHeader(r,o,h0){o.h0=h0?h0(r):[r.u32(),r.u16(),r.u32()];o.codes=[[r.
   o.h2=[r.u32(),r.u16(),r.u16()];}
 R.moExtrusion_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.bodies=r.object('per body chooser');
   o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('extrusion owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();
-  o.spec=r.objectAs('@x66','extrusion spec');
+  o.spec=r.objectAs('moPMarkRecord_c','extrusion spec');
   o.endSpec=r.object('end spec');
   // u8 flag (1 in the cube models, 0 in C19); when set, u16, u32 1 and 36 bytes follow
   o.flag=r.u8();if(o.flag){o.x4=[r.u16(),r.u32()];o.x5=r.bytes(36).toString('hex');}o.x6=r.bytes(19).toString('hex');o.x7=r.u32();o.x8=r.bytes(r.legacy?4:8).toString('hex');
@@ -122,7 +122,10 @@ R.moFromEndSpec_c=(r,o)=>{o.x0=r.bytes(32).toString('hex');};
 // bounding box of what the feature made: u32 1, centre, diagonal, u32, u32, u32 n + n × u32 (n = 1 for
 // the cube boss, 0 for the cut), u16, the feature
 R.moBBoxCenterData_c=(r,o)=>{o.a=r.u32();o.centre=r.vec();o.diagonal=r.f64();o.b=[r.u32(),r.u32()];const n=r.u32();o.list=[];for(let i=0;i<n;i++)o.list.push(r.u32());o.c=r.u16();o.owner=r.object('bbox owner');};
-R['@x66']=(r,o)=>{o.a=r.u32();o.x0=r.bytes(r.legacy?58:62).toString('hex');};   // SW2011: 58 bytes
+// the data object every feature carries is a moPMarkRecord_c (its class comes from Config-0: 102 in most SW2022
+// files, 160 in C22). Inside a feature it has version 5–10 and 62 bytes after it (58 in SW2011); the
+// version 3/4 form Config-0 itself writes is read in config0.js
+R.moPMarkRecord_c=(r,o)=>{o.version=r.u32();o.x0=r.bytes(r.legacy?58:62).toString('hex');};
 R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)o.faces.push(r.object('chooser face'));};
 // a face or edge picked by name: u32 1, u32 0, u32 kind (6 face, 4 edge), u8, u16 (3 face, 2 edge), u8,
 // u32 (an edge's Parasolid tag?), two copies of a
@@ -185,7 +188,7 @@ R.moICE_c=(r,o)=>R.moExtrusion_c(r,o);
 // a solid body, named by one of its faces: component object, face reference
 R.moCompSolidBody_c=(r,o)=>{o.comp=r.objectAs('@comp','body comp');o.face=r.object('body face');};
 // applied features (fillet, chamfer, shell): node, 58 bytes, the pre-loaded data object, u32, ...
-function applied(r,o){feature(r,o);o.x0=r.bytes(58).toString('hex');o.data=r.objectAs('@x66','feature data');o.n=r.u32();o.target=r.object('applied target');}
+function applied(r,o){feature(r,o);o.x0=r.bytes(58).toString('hex');o.data=r.objectAs('moPMarkRecord_c','feature data');o.n=r.u32();o.target=r.object('applied target');}
 R.Fillet_c=(r,o)=>{applied(r,o);o.t0=[r.u32(),r.u16()];o.edges=r.object('fillet edges');o.lists=[r.object(),r.object(),r.object()];o.x1=r.bytes(12).toString('hex');o.radii=r.object('fillet radii');
   o.y0=[r.u32(),r.u8()];o.list4=r.object('fillet list 4');o.y1=r.bytes(8).toString('hex');o.y2=r.bytes(4).toString('hex');o.y3=r.bytes(9).toString('hex');
   o.rho=[r.f64(),r.f64()];o.y4=[r.u8(),r.bytes(6).toString('hex'),r.u32()];o.y5=r.bytes(10).toString('hex');o.y6=r.u32();o.face=r.object('fillet face');
@@ -197,7 +200,7 @@ R.Chamfer_c=(r,o)=>{applied(r,o);o.edges=r.object('chamfer edges');o.lists=[r.ob
 R.moShell_c=(r,o)=>{applied(r,o);o.dim=r.object('shell dim');o.s0=r.u8();o.lists=[r.object(),r.object()];o.edge=r.object('shell edge');o.s1=r.u16();};
 R.moRevolution_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.bodies=r.object('per body chooser');
   o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('revolve owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();
-  o.spec=r.objectAs('@x66','revolve spec');o.r0=[r.u8(),r.u32(),r.u32()];o.list=r.object('revolve list');o.r1=[r.u32(),r.u32()];o.axis=r.object('revolve axis');o.endSpec=r.object('revolve end');o.t=r.u32();};
+  o.spec=r.objectAs('moPMarkRecord_c','revolve spec');o.r0=[r.u8(),r.u32(),r.u32()];o.list=r.object('revolve list');o.r1=[r.u32(),r.u32()];o.axis=r.object('revolve axis');o.endSpec=r.object('revolve end');o.t=r.u32();};
 // a reference to a sketch line (the revolve axis): the entity handle, 6 bytes, seven doubles (C13: 0.01, 0, 0,
 // 0, 0, 1, 0; C17: 0.006, 0, −0.003, 0, 0, 1, 0: the line's length, then where it starts?), a byte
 R.moLineRef_w=(r,o)=>{o.ent=r.object('line ref');o.g=r.bytes(r.legacy?34:52).toString('hex');o.x0=r.bytes(r.legacy?8:6).toString('hex');   // SW2011: the 34-byte version block, 8 bytes
@@ -217,7 +220,7 @@ R.moFaceRefPlnData_c=(r,o)=>{o.origin=r.vec();o.normal=r.vec();o.hasRot=r.u8();i
   o.x0=r.bytes(6).toString('hex');o.b=[r.u32(),r.i32(),r.u8()];o.x1=r.bytes(r.legacy?8:16).toString('hex');o.ref=r.object('plane ref');o.h=r.object('ref handle');o.t=r.bytes(r.legacy?44:60).toString('hex');o.box2=[r.f64(),r.f64(),r.f64(),r.f64()];o.origin2=r.vec();o.normal2=r.vec();o.hasRot2=r.u8();if(o.hasRot2)o.rot2=[r.vec(),r.vec(),r.vec()];o.v2=r.vec();o.s2=r.f64();o.t2=r.bytes(25).toString('hex');o.dim=r.object('plane offset dim');o.t3=[r.u32(),r.u32()];o.t4=r.bytes(8).toString('hex');};
 // loft: the body header, owner slot, 16 bytes, feature data, u32 and u16 profile counts, the profiles
 // (moGeneralCurveRef_w), then settings: five u32, six doubles, u32 1, u32 5000, … (fields named by position)
-R.moBlend_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.owner=r.object('loft owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();o.spec=r.objectAs('@x66','loft spec');o.nprof=r.u32();const np=r.u16();o.profiles=[];for(let i=0;i<np;i++)o.profiles.push(r.object('loft profile'));o.l0=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.v=[];for(let k=0;k<6;k++)o.v.push(r.f64());o.l1=[r.u32(),r.u32()];o.l2=r.bytes(27).toString('hex');o.l3=r.f64();
+R.moBlend_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.owner=r.object('loft owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();o.spec=r.objectAs('moPMarkRecord_c','loft spec');o.nprof=r.u32();const np=r.u16();o.profiles=[];for(let i=0;i<np;i++)o.profiles.push(r.object('loft profile'));o.l0=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.v=[];for(let k=0;k<6;k++)o.v.push(r.f64());o.l1=[r.u32(),r.u32()];o.l2=r.bytes(27).toString('hex');o.l3=r.f64();
   o.l4=[r.u8(),r.u32(),r.u32()];o.l5=r.bytes(7).toString('hex');o.l6=[r.f64(),r.f64()];o.l7=r.bytes(21).toString('hex');o.l8=r.u32();o.l9=r.bytes(8).toString('hex');o.l10=[r.u32(),r.u32()];o.l11=r.bytes(12).toString('hex');o.flags=[r.u8(),r.u8(),r.u8(),r.u8(),r.u8()];};
 // a curve or profile reference: the profile (moCompProfile_c: the sketch feature by id and time, 60 bytes),
 // 4 bytes, f64 1.0, u8, two i32 -1, 6 bytes
@@ -230,7 +233,7 @@ R.moLineBackedUpData_c=(r,o)=>{o.p=r.object('line points');o.a=r.u16();o.name=r.
 // bbox, owner, feature data, the faces it split (moPLineSurfIdRep_c), their references, one CDWordArray
 // each, flags, the new face, u32 list, the projection (moPLineProject_c), 8 bytes
 R.moPLine_c=(r,o)=>{feature(r,o);o.p0=[r.u16(),r.u16()];o.rep=r.object('pline rep');bodyHeader(r,o,(r=>[r.u32(),r.u32()]));o.bodies=r.object('pline chooser');
-  o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('pline owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();o.spec=r.objectAs('@x66','pline spec');{const n=r.u32();o.faces=[];for(let i=0;i<n;i++)o.faces.push(r.object('pline face'));}{const n=r.u16();o.faceRefs=[];for(let i=0;i<n;i++)o.faceRefs.push(r.object('pline face ref'));}{const n=r.u16();o.arrays=[];for(let i=0;i<n;i++)o.arrays.push(r.object('pline array'));}{const n=r.u16();o.flags=[];for(let i=0;i<n;i++)o.flags.push(r.u8());}o.q=[r.u16(),r.u16(),r.u16()];o.face=r.object('pline new face');{const n=r.u16();o.w=[];for(let i=0;i<n;i++)o.w.push(r.u32());}o.w2=[r.i32(),r.i32(),r.u32()];o.project=r.object('pline project');o.t=r.bytes(8).toString('hex');};
+  o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('pline owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();o.spec=r.objectAs('moPMarkRecord_c','pline spec');{const n=r.u32();o.faces=[];for(let i=0;i<n;i++)o.faces.push(r.object('pline face'));}{const n=r.u16();o.faceRefs=[];for(let i=0;i<n;i++)o.faceRefs.push(r.object('pline face ref'));}{const n=r.u16();o.arrays=[];for(let i=0;i<n;i++)o.arrays.push(r.object('pline array'));}{const n=r.u16();o.flags=[];for(let i=0;i<n;i++)o.flags.push(r.u8());}o.q=[r.u16(),r.u16(),r.u16()];o.face=r.object('pline new face');{const n=r.u16();o.w=[];for(let i=0;i<n;i++)o.w.push(r.u32());}o.w2=[r.i32(),r.i32(),r.u32()];o.project=r.object('pline project');o.t=r.bytes(8).toString('hex');};
 R.moPLineProjIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.items=[r.object('proj item')];};
 R.moPLineSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.items=[];const k=o.ctx?2:4;   // fitted: 4 object slots when the context is null (chooser faces), 2 otherwise
   for(let i=0;i<k;i++)o.items.push(r.object('pls item'));};
