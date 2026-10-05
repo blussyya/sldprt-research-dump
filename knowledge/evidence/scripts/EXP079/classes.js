@@ -23,7 +23,9 @@ R.moRefPlane_c=(r,o)=>{feature(r,o);o.x=r.bytes(r.legacy?140:150).toString('hex'
 // default plane: origin, normal, optional 3×3 rotation (Top and Right have one, Front doesn't), then display data
 R.moDefaultRefPlnData_c=(r,o)=>{o.origin=r.vec();o.normal=r.vec();o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];o.v=r.vec();o.display=r.bytes(r.legacy?88:96).toString('hex');};
 // profile features (the Origin, sketches): node, 10 bytes, the sketch, then i32, u32, u32 (101 Origin, 102 sketch), 12 bytes
-function profileTail(r,o){o.t=[r.i32(),r.u32(),r.u32()];o.t1=r.bytes(r.legacy?8:12).toString('hex');}
+// profile tail: i32, u32, u32 (101 Origin, 102 sketch), u32, u16 n and n objects (cube.SLDPRT has one), and
+// 6 bytes (2 in SW2011)
+function profileTail(r,o){o.t=[r.i32(),r.u32(),r.u32()];o.t1=r.u32();const n=r.u16();o.objs=[];for(let i=0;i<n;i++)o.objs.push(r.object('profile object'));o.t2=r.bytes(r.legacy?2:6).toString('hex');}
 R.moOriginProfileFeature_c=(r,o)=>{feature(r,o);o.x=r.bytes(10).toString('hex');o.sketch=r.object('origin sketch');profileTail(r,o);};
 R.moProfileFeature_c=(r,o)=>{feature(r,o);o.x=r.bytes(10).toString('hex');o.sketch=r.object('sketch');profileTail(r,o);};
 // the Annotations folder: u16, two doubles (1.0, 1.0), 10 bytes
@@ -56,7 +58,9 @@ R.sgLineHandle=R.sgPointHandle;
 R.sgArcHandle=R.sgLineHandle;
 R.sgSketch=(r,o)=>{const n=r.u16();o.x0=r.u16();o.points=[];for(let i=0;i<n;i++)o.points.push(sketchPoint(r));
   o.lines=list(r,segment);o.x1=r.bytes(6).toString('hex');o.arcs=list(r,segment);
-  o.x2=r.bytes(38).toString('hex');   // further entity lists, empty in every controlled model
+  o.x2=r.bytes(32).toString('hex');   // further entity lists, empty in every file so far
+  {const n=r.u16();o.dims=[];for(let i=0;i<n;i++)o.dims.push(r.object('sketch dimension'));}   // sketch dimensions (sgPntPntDist …)
+  o.x2b=r.bytes(4).toString('hex');
   o.rel1=relations(r,1);o.rel2=relations(r,2);o.x3=r.bytes(12).toString('hex');
   o.list1=r.objectAs('@oblist','sketch list 1');
   o.x4=r.bytes(r.legacy?8:12).toString('hex');o.c=[r.u16(),r.u16()];
@@ -240,3 +244,10 @@ R.moPLineSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');
 // MFC CDWordArray: count + 32-bit values
 R.su_CDWordArray=(r,o)=>{const n=r.count();o.v=[];for(let i=0;i<n;i++)o.v.push(r.u32());};
 R.moPLineProject_c=(r,o)=>{o.ref=r.object('project ref');o.a=r.u32();const n=r.u16();o.faces=[];for(let i=0;i<n;i++)o.faces.push(r.object('project face'));};
+// sketch dimension between two points (EXP-082, cube.SLDPRT): u32, the value (moLengthParameter_c: "D1", metres),
+// 3 bytes, u32 the dimension's sketch id, 16 bytes, u32 1, u16 2 (entities), u16 1, u32, the two point
+// handles, three u16 1, 28 bytes
+R.sgPntPntDist=(r,o)=>{o.a=r.u32();o.param=r.object('dimension value');o.x0=r.bytes(3).toString('hex');o.id=r.u32();o.x1=r.bytes(16).toString('hex');
+  o.b=[r.u32(),r.u16(),r.u16(),r.u32()];o.h=[r.object('dimension point 1'),r.object('dimension point 2')];o.c=[r.u16(),r.u16(),r.u16()];o.x2=r.bytes(28).toString('hex');};
+// a face named by the feature alone (cube.SLDPRT: a sketch's profile): context, moFR_c, u32
+R.moSimpleSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.u32();};
