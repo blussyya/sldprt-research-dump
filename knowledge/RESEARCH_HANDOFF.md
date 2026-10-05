@@ -1,6 +1,19 @@
 # Research Handoff
 
-## Current checkpoint — 2026-10-04 UTC, EXP-079 (feature tree, in progress)
+## Current checkpoint — 2026-10-05 UTC, EXP-080 (2011 → 2022 upgrade) and EXP-079 (feature tree)
+
+The feature tree reader (`knowledge/evidence/scripts/EXP079/`, `node probe.js "<model.SLDPRT>"`) reads
+all 24 SW2022 controlled models and 13 of the 25 SW2011 ones strictly from the first byte to the last.
+SW2011 layouts live under `r.legacy`; the SW2011 first index is recovered from the stream. New tools:
+`compare.js` (field-by-field diff of two feature trees), `fieldtrace.js` (every field with its
+offset), `load.js` (load either generation). EXP-080 documents what SW2022 does to a SW2011 file when
+it re-saves it, using C22 (2011), C23 (its 2022 re-save) and C24 (native 2022). It covers the stream
+inventory, the small streams byte by byte, the layout differences class by class, what survives from
+2011, and what the upgrade sets. Next: the remaining SW2011 feature readers (fillet, chamfer, shell,
+revolve, loft, split line); Config-0's archive (which would give the SW2011 first index directly and
+explain the rest of the upgrade); then production parts.
+
+## Checkpoint — 2026-10-04 UTC, EXP-079 (feature tree, in progress)
 
 Exact STEP now writes blends and curves in SolidWorks' own forms at our tolerance (EXP-079 part A,
 in `package/`). The feature tree reader is under way in `knowledge/evidence/scripts/EXP079/`: run
