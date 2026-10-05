@@ -1,6 +1,15 @@
 # Research Handoff
 
-## Current checkpoint — 2026-10-05 UTC, EXP-080 (2011 → 2022 upgrade) and EXP-079 (feature tree)
+## Current checkpoint — 2026-10-05 UTC, EXP-081 (Config-0), EXP-080 (upgrade), EXP-079 (feature tree)
+
+All 49 controlled models (25 SW2011, 24 SW2022) now read byte-exact in both Config-0 and
+Config-0-ResolvedFeatures. Config-0's index sequence ends exactly where the feature stream starts in
+every file, which proves the object structure of both, and gives the SW2011 first index directly
+(`probe0.js`, `config0.js`, EXP-081). Still stepped over: the document-properties block (moRelMgr_c)
+and a few fitted tails. Next: decode the document properties, then production parts in
+"test files original", then the FreeCAD export.
+
+## Checkpoint — 2026-10-05 UTC, EXP-080 (2011 → 2022 upgrade) and EXP-079 (feature tree)
 
 The feature tree reader (`knowledge/evidence/scripts/EXP079/`, `node probe.js "<model.SLDPRT>"`) reads
 all 24 SW2022 controlled models and 13 of the 25 SW2011 ones strictly from the first byte to the last.
