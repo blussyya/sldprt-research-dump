@@ -130,7 +130,7 @@ R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)
 // face tail: 18 bytes, 16 when kind is 1 (the sphere's single face); why is open
 // edge tail: 14 bytes (+ u32, u16 when the tag is set) in SW2022; SW2011 has a u16 only, and a fillet target's
 // extra 6 bytes are read by Fillet_c there
-function topoRef(r,o){const at0=r.p;o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes(r.legacy?6:o.kind===1?16:18).toString('hex');}else{o.rep=r.object('edge rep');if(r.legacy)o.x1=r.bytes(2).toString('hex');else{o.x1=r.bytes(14).toString('hex');if(o.tag)o.x2=[r.u32(),r.u16()];}}}
+function topoRef(r,o){const at0=r.p;o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes((o.kind===1?-2:0)+(r.legacy?6:18)).toString('hex');}else{o.rep=r.object('edge rep');if(r.legacy)o.x1=r.bytes(2).toString('hex');else{o.x1=r.bytes(14).toString('hex');if(o.tag)o.x2=[r.u32(),r.u16()];}}}
 // objects up to a null
 function nullList(r,w){const out=[];for(;;){const x=r.object(w);if(!x)return out;out.push(x);}}
 R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
@@ -162,9 +162,9 @@ R.moEndSpec_c=(r,o)=>{o.x0=r.bytes(24).toString('hex');o.dim=r.object('end spec 
 // for the cube extrusions, 515 for the cylinder ones, 541 for fillet radii); not decoded yet, so the
 // reader goes to the favourites handle that follows it
 const FAV_SIG=Buffer.from('00000000ffffffff','hex');
-function displayDim(r,o,x){o.x0=r.bytes(r.legacy?374:556).toString('hex');   // SW2022 inserts 182 bytes at offset 236
+function displayDim(r,o,x,x2011){o.x0=r.bytes(r.legacy?374:556).toString('hex');   // SW2022 inserts 182 bytes at offset 236
   o.handle=r.object('display dim handle');o.x1=r.skipToObject('moFavoriteHandle_c',FAV_SIG);o.x1len=o.x1.length/2;
-  o.fav=r.object('display dim favourite');o.x2=r.bytes(r.legacy?248:374).toString('hex');}   // SW2011: 126 bytes fewer after offset 240
+  o.fav=r.object('display dim favourite');o.x2=r.bytes(r.legacy?(x2011||248):374).toString('hex');}   // SW2011: 126 bytes fewer after offset 240
 R.moDisplayDistanceDim_c=(r,o)=>{displayDim(r,o,587);o.x3=r.bytes(54).toString('hex');};
 // radius dimension: as above, then 124 bytes, the edge it measures, ...
 R.moDisplayRadialDim_c=(r,o)=>{displayDim(r,o,541);o.x3=r.bytes(r.legacy?122:124).toString('hex');o.edge=r.object('radial dim edge');};
@@ -192,19 +192,21 @@ R.Fillet_c=(r,o)=>{applied(r,o);if(r.legacy)o.t0=[r.u32(),r.u16()];o.edges=r.obj
   o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];if(!r.legacy)o.z1=r.bytes(16).toString('hex');};
 // a face: component object, u8, the face reference, a second object slot (null so far)
 R.moCompFace_c=(r,o)=>{o.comp=r.objectAs('@comp','face comp');o.a=r.u8();o.face=r.object('face ref');o.b=r.object('face 2');};
-R.Chamfer_c=(r,o)=>{applied(r,o);o.edges=r.object('chamfer edges');o.lists=[r.object(),r.object()];o.dim=r.object('chamfer dim');o.dim2=r.object('chamfer dim 2');o.c0=[r.u8(),r.u16(),r.u16()];o.edge=r.object('chamfer edge');o.c1=[r.u32(),r.u32(),r.u32(),r.u16()];o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.c2=r.bytes(19).toString('hex');o.c3=r.u8();};
+R.Chamfer_c=(r,o)=>{applied(r,o);o.edges=r.object('chamfer edges');o.lists=[r.object(),r.object()];o.dim=r.object('chamfer dim');o.dim2=r.object('chamfer dim 2');o.c0=[r.u8(),r.u16(),r.u16()];o.edge=r.object('chamfer edge');o.c1=[r.u32(),r.u32(),r.u32(),r.u16()];o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.c2=r.bytes(19).toString('hex');if(!r.legacy)o.c3=r.u8();};
 R.moShell_c=(r,o)=>{applied(r,o);o.dim=r.object('shell dim');o.s0=r.u8();o.lists=[r.object(),r.object()];o.edge=r.object('shell edge');o.s1=r.u16();};
 R.moRevolution_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.bodies=r.object('per body chooser');
   o.y0=[r.u16(),r.u16()];o.bbox=r.object('bbox');o.y1=[r.u16(),r.u32()];o.owner=r.object('revolve owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();
   o.spec=r.objectAs('@x66','revolve spec');o.r0=[r.u8(),r.u32(),r.u32()];o.list=r.object('revolve list');o.r1=[r.u32(),r.u32()];o.axis=r.object('revolve axis');o.endSpec=r.object('revolve end');o.t=r.u32();};
 // a reference to a sketch line (the revolve axis): the entity handle, 6 bytes, seven doubles (C13: 0.01, 0, 0,
 // 0, 0, 1, 0; C17: 0.006, 0, −0.003, 0, 0, 1, 0: the line's length, then where it starts?), a byte
-R.moLineRef_w=(r,o)=>{o.ent=r.object('line ref');o.g=r.bytes(52).toString('hex');o.x0=r.bytes(6).toString('hex');o.v=[];for(let i=0;i<7;i++)o.v.push(r.f64());o.x1=r.u8();};
+R.moLineRef_w=(r,o)=>{o.ent=r.object('line ref');o.g=r.bytes(r.legacy?34:52).toString('hex');o.x0=r.bytes(r.legacy?8:6).toString('hex');   // SW2011: the 34-byte version block, 8 bytes
+  o.v=[];for(let i=0;i<7;i++)o.v.push(r.f64());o.x1=r.u8();};
 // revolve end condition: u32 1, 24 bytes, two doubles (0.01 in every revolve so far), 8 bytes, the angle dimension, a second one
 R.moRevEndSpec_c=(r,o)=>{o.a=r.u32();o.x0=r.bytes(24).toString('hex');o.v=[r.f64(),r.f64()];o.x1=r.bytes(8).toString('hex');o.dim=r.object('rev dim');o.dim2=r.object('rev dim 2');};
 // angle dimension: the common display layout, then u16, three bytes, ten doubles (the dimension arc: two
 // directions and points), u32
-R.moDisplayAngularDim_c=(r,o)=>{displayDim(r,o,0);o.t0=[r.u16(),r.u8(),r.u8(),r.u8()];o.arc=[];for(let i=0;i<10;i++)o.arc.push(r.f64());o.t1=r.u32();};
+R.moDisplayAngularDim_c=(r,o)=>{displayDim(r,o,0,252);   // SW2011: 252 bytes after the favourite
+  o.t0=[r.u16(),r.u8(),r.u8(),r.u8()];o.arc=[];for(let i=0;i<10;i++)o.arc.push(r.f64());o.t1=r.u32();};
 R.AngleDim_c=R.ParallelPlaneDistanceDim_c;
 // plane defined from another plane or face: origin, normal, u8 has-rotation, rotation, a vector, f64 1.0, u8,
 // display box (4 doubles), 6 bytes, u32, i32, u8, 16 bytes, the reference plane (moCompRefPlane_c), a handle
