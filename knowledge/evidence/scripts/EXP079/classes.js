@@ -128,7 +128,9 @@ R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)
 // u32 (an edge's Parasolid tag?), two copies of a
 // 64-bit value, u16, the naming tree, 20 bytes
 // face tail: 18 bytes, 16 when kind is 1 (the sphere's single face); why is open
-function topoRef(r,o){const at0=r.p;o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes(r.legacy?6:o.kind===1?16:18).toString('hex');}else{o.rep=r.object('edge rep');o.x1=r.bytes(14).toString('hex');if(o.tag)o.x2=[r.u32(),r.u16()];}}
+// edge tail: 14 bytes (+ u32, u16 when the tag is set) in SW2022; SW2011 has a u16 only, and a fillet target's
+// extra 6 bytes are read by Fillet_c there
+function topoRef(r,o){const at0=r.p;o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes(r.legacy?6:o.kind===1?16:18).toString('hex');}else{o.rep=r.object('edge rep');if(r.legacy)o.x1=r.bytes(2).toString('hex');else{o.x1=r.bytes(14).toString('hex');if(o.tag)o.x2=[r.u32(),r.u16()];}}}
 // objects up to a null
 function nullList(r,w){const out=[];for(;;){const x=r.object(w);if(!x)return out;out.push(x);}}
 R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
@@ -165,7 +167,7 @@ function displayDim(r,o,x){o.x0=r.bytes(r.legacy?374:556).toString('hex');   // 
   o.fav=r.object('display dim favourite');o.x2=r.bytes(r.legacy?248:374).toString('hex');}   // SW2011: 126 bytes fewer after offset 240
 R.moDisplayDistanceDim_c=(r,o)=>{displayDim(r,o,587);o.x3=r.bytes(54).toString('hex');};
 // radius dimension: as above, then 124 bytes, the edge it measures, ...
-R.moDisplayRadialDim_c=(r,o)=>{displayDim(r,o,541);o.x3=r.bytes(124).toString('hex');o.edge=r.object('radial dim edge');};
+R.moDisplayRadialDim_c=(r,o)=>{displayDim(r,o,541);o.x3=r.bytes(r.legacy?122:124).toString('hex');o.edge=r.object('radial dim edge');};
 R.ThreeDRadiusDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');};
 R.edgeRadiusObject_c=(r,o)=>{o.dim=r.object('edge radius dim');};
 // an edge: component object, u8, the edge reference (often a back-reference to the one the feature named),
@@ -183,11 +185,11 @@ R.moICE_c=(r,o)=>R.moExtrusion_c(r,o);
 R.moCompSolidBody_c=(r,o)=>{o.comp=r.objectAs('@comp','body comp');o.face=r.object('body face');};
 // applied features (fillet, chamfer, shell): node, 58 bytes, the pre-loaded data object, u32, ...
 function applied(r,o){feature(r,o);o.x0=r.bytes(58).toString('hex');o.data=r.objectAs('@x66','feature data');o.n=r.u32();o.target=r.object('applied target');}
-R.Fillet_c=(r,o)=>{applied(r,o);o.edges=r.object('fillet edges');o.lists=[r.object(),r.object(),r.object()];o.x1=r.bytes(12).toString('hex');o.radii=r.object('fillet radii');
+R.Fillet_c=(r,o)=>{applied(r,o);if(r.legacy)o.t0=[r.u32(),r.u16()];o.edges=r.object('fillet edges');o.lists=[r.object(),r.object(),r.object()];o.x1=r.bytes(12).toString('hex');o.radii=r.object('fillet radii');
   o.y0=[r.u32(),r.u8()];o.list4=r.object('fillet list 4');o.y1=r.bytes(8).toString('hex');o.y2=r.bytes(4).toString('hex');o.y3=r.bytes(9).toString('hex');
   o.rho=[r.f64(),r.f64()];o.y4=[r.u8(),r.bytes(6).toString('hex'),r.u32()];o.y5=r.bytes(10).toString('hex');o.y6=r.u32();o.face=r.object('fillet face');
   o.edge2=r.object('fillet edge 2');o.z00=[r.u32(),r.u16()];o.z0=[r.u32(),r.i32(),r.i32(),r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.radius=r.f64();o.edge3=r.object('fillet edge 3');o.z2=[r.u32(),r.u16()];
-  o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.z1=r.bytes(16).toString('hex');};
+  o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];if(!r.legacy)o.z1=r.bytes(16).toString('hex');};
 // a face: component object, u8, the face reference, a second object slot (null so far)
 R.moCompFace_c=(r,o)=>{o.comp=r.objectAs('@comp','face comp');o.a=r.u8();o.face=r.object('face ref');o.b=r.object('face 2');};
 R.Chamfer_c=(r,o)=>{applied(r,o);o.edges=r.object('chamfer edges');o.lists=[r.object(),r.object()];o.dim=r.object('chamfer dim');o.dim2=r.object('chamfer dim 2');o.c0=[r.u8(),r.u16(),r.u16()];o.edge=r.object('chamfer edge');o.c1=[r.u32(),r.u32(),r.u32(),r.u16()];o.tags=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.c2=r.bytes(19).toString('hex');o.c3=r.u8();};
