@@ -107,6 +107,7 @@ function node(r,o,noName){
   // SW2022 inserts four u16 here: 0x097c, 5, 1, 0 when the feature was made in 2022; 0, 0, 1, 0 when it
   // came from a 2011 file. SW2011 has none of them.
   if(!r.legacy)o.v2022=[r.u16(),r.u16(),r.u16(),r.u16()];
+  if(r.nodeNoState){r.nodeNoState=false;return;}   // the sketch block manager's inline node ends here
   o.state=r.u32();   // 0 or 1 (1 on Sensors, Design Binder, Favorites …): the owning class's data follows
 }
 
