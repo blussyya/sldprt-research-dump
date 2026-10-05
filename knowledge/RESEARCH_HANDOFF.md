@@ -4,13 +4,17 @@
 
 Exact STEP now writes blends and curves in SolidWorks' own forms at our tolerance (EXP-079 part A,
 in `package/`). The feature tree reader is under way in `knowledge/evidence/scripts/EXP079/`: run
-`node probe.js "<model.SLDPRT>"` from that folder. It reads SW2022 C00, C01, C02, C03, C12, C19
-and C24 strictly from the first byte to the last (sketches, extrusion, fillet, face and edge
-naming, dimensions); the note's section "The sequential reader" has the layouts. Key rules: the
-index sequence starts at the stream's first u32, low class numbers are inline objects of
-pre-loaded classes, index 1 is the document. Next: cut-extrude (moICE_c), revolve, chamfer, shell,
-loft, split line, then the SW2011 and upgraded layouts, then production parts. All work goes to
-dump staging; the main repo only gets it when the format is done.
+`node probe.js "<model.SLDPRT>"` from that folder. It reads all 24 SW2022 controlled models
+(C00–C24, including C23 upgraded from SW2011) strictly from the first byte to the last: sketches
+on planes and faces, extrude, cut, revolve, loft, fillet, chamfer, shell, split line, offset
+planes, face and edge naming, dimensions. The note's sections from "The sequential reader" on have
+the layouts. Key rules: the index sequence starts at the stream's first u32, low class numbers are
+inline objects of pre-loaded classes, index 1 is the document. SW2011-saved files have no first
+index; probe.js recovers it from the stream (see "SW2011 files"), and the shorter SW2011 class
+layouts are being added under `r.legacy`. Next: finish the SW2011 set, read Config-0's archive
+(which would give the SW2011 first index directly), then production parts. Still fitted rather
+than explained: face/edge name tails, the split-line rep slot count, the dimension placement block.
+All work goes to dump staging; the main repo only gets it when the format is done.
 
 ## Checkpoint — 2026-10-04 UTC, EXP-078
 
