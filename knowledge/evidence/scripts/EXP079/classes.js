@@ -213,7 +213,7 @@ R.AngleDim_c=R.ParallelPlaneDistanceDim_c;
 // slot, 60 bytes, the plane again (box, origin, normal, rotation, vector, f64, 25 bytes), the offset dimension,
 // u32, u32, 8 bytes
 R.moFaceRefPlnData_c=(r,o)=>{o.origin=r.vec();o.normal=r.vec();o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];o.v=r.vec();o.s=r.f64();o.a=r.u8();o.box=[r.f64(),r.f64(),r.f64(),r.f64()];
-  o.x0=r.bytes(6).toString('hex');o.b=[r.u32(),r.i32(),r.u8()];o.x1=r.bytes(16).toString('hex');o.ref=r.object('plane ref');o.h=r.object('ref handle');o.t=r.bytes(60).toString('hex');o.box2=[r.f64(),r.f64(),r.f64(),r.f64()];o.origin2=r.vec();o.normal2=r.vec();o.hasRot2=r.u8();if(o.hasRot2)o.rot2=[r.vec(),r.vec(),r.vec()];o.v2=r.vec();o.s2=r.f64();o.t2=r.bytes(25).toString('hex');o.dim=r.object('plane offset dim');o.t3=[r.u32(),r.u32()];o.t4=r.bytes(8).toString('hex');};
+  o.x0=r.bytes(6).toString('hex');o.b=[r.u32(),r.i32(),r.u8()];o.x1=r.bytes(r.legacy?8:16).toString('hex');o.ref=r.object('plane ref');o.h=r.object('ref handle');o.t=r.bytes(r.legacy?44:60).toString('hex');o.box2=[r.f64(),r.f64(),r.f64(),r.f64()];o.origin2=r.vec();o.normal2=r.vec();o.hasRot2=r.u8();if(o.hasRot2)o.rot2=[r.vec(),r.vec(),r.vec()];o.v2=r.vec();o.s2=r.f64();o.t2=r.bytes(25).toString('hex');o.dim=r.object('plane offset dim');o.t3=[r.u32(),r.u32()];o.t4=r.bytes(8).toString('hex');};
 // loft: the body header, owner slot, 16 bytes, feature data, u32 and u16 profile counts, the profiles
 // (moGeneralCurveRef_w), then settings: five u32, six doubles, u32 1, u32 5000, … (fields named by position)
 R.moBlend_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.owner=r.object('loft owner');o.y2=r.bytes(16).toString('hex');o.y3=r.u32();o.spec=r.objectAs('@x66','loft spec');o.nprof=r.u32();const np=r.u16();o.profiles=[];for(let i=0;i<np;i++)o.profiles.push(r.object('loft profile'));o.l0=[r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.v=[];for(let k=0;k<6;k++)o.v.push(r.f64());o.l1=[r.u32(),r.u32()];o.l2=r.bytes(27).toString('hex');o.l3=r.f64();
@@ -221,7 +221,7 @@ R.moBlend_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.owner=r.object('loft owner');
 // a curve or profile reference: the profile (moCompProfile_c: the sketch feature by id and time, 60 bytes),
 // 4 bytes, f64 1.0, u8, two i32 -1, 6 bytes
 R.moGeneralCurveRef_w=(r,o)=>{o.profile=r.object('curve profile');o.x0=r.bytes(4).toString('hex');o.s=r.f64();o.a=r.u8();o.b=[r.i32(),r.i32()];o.x1=r.bytes(6).toString('hex');};
-R.moCompProfile_c=(r,o)=>{o.comp=r.objectAs('@comp','profile comp');o.feature=r.u32();o.stamp=r.u32();o.x0=r.bytes(60).toString('hex');};
+R.moCompProfile_c=(r,o)=>{o.comp=r.objectAs('@comp','profile comp');o.feature=r.u32();o.stamp=r.u32();o.x0=r.bytes(r.legacy?44:60).toString('hex');};   // both carry the version block (two or three i32 -12345)
 // backed-up copies of outside geometry a sketch entity is tied to: a point (position, the next point, u32, name)
 // and a line (its points as a linked pair, u16, name such as "Edge")
 R.moLineBackedUpData_c=(r,o)=>{o.p=r.object('line points');o.a=r.u16();o.name=r.str();};
