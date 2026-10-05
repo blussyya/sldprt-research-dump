@@ -92,7 +92,7 @@ R.moCompRefPlane_c=(r,o)=>{o.comp=r.objectAs('@comp','plane comp');o.feature=r.u
 // edge, moCompEdge_c), 52 bytes (u32 0x66/0x6a, three i32 -12345, version 15000)
 // and a backed-up copy of it (moPointBackedUpData_c: 30 bytes and its name, e.g. "Point1@Origin")
 R.sgExtEnt_c=(r,o)=>{o.ref=r.object('ext ref');};
-R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');extRefTail(r,o);};
+R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');if(o.ent&&o.ent.class==='moCompEdge_c')o.e0=[r.u32(),r.u16()];extRefTail(r,o);};   // an edge adds u32, u16
 // the 52 bytes after a referenced entity: u16 0, u32 0x66/0x6a, 12 bytes, three i32 -12345, u32 0, u32 version (offset 34),
 // 14 bytes. Version 15000 (SW2022) follows with a backed-up copy object; version 4700 (made in SW2011) has
 // no object, only 8 bytes and the entity's name ("Point1@Origin")
@@ -128,9 +128,10 @@ R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)
 // u32 (an edge's Parasolid tag?), two copies of a
 // 64-bit value, u16, the naming tree, 20 bytes
 // face tail: 18 bytes, 16 when kind is 1 (the sphere's single face); why is open
-// edge tail: 14 bytes (+ u32, u16 when the tag is set) in SW2022; SW2011 has a u16 only, and a fillet target's
-// extra 6 bytes are read by Fillet_c there
-function topoRef(r,o){const at0=r.p;o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes((o.kind===1?-2:0)+(r.legacy?6:18)).toString('hex');}else{o.rep=r.object('edge rep');if(r.legacy)o.x1=r.bytes(2).toString('hex');else{o.x1=r.bytes(14).toString('hex');if(o.tag)o.x2=[r.u32(),r.u16()];}}}
+// edge tail: 14 bytes in SW2022, a u16 in SW2011. (The u32 + u16 that follow a fillet's edge and an edge a
+// sketch is tied to belong to Fillet_c and moSketchExtRef_w: a chamfer's edge or a dimension's edge with
+// the same tag doesn't have them in SW2011.)
+function topoRef(r,o){const at0=r.p;o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes((o.kind===1?-2:0)+(r.legacy?6:18)).toString('hex');}else{o.rep=r.object('edge rep');o.x1=r.bytes(r.legacy?2:14).toString('hex');}}
 // objects up to a null
 function nullList(r,w){const out=[];for(;;){const x=r.object(w);if(!x)return out;out.push(x);}}
 R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
@@ -185,7 +186,7 @@ R.moICE_c=(r,o)=>R.moExtrusion_c(r,o);
 R.moCompSolidBody_c=(r,o)=>{o.comp=r.objectAs('@comp','body comp');o.face=r.object('body face');};
 // applied features (fillet, chamfer, shell): node, 58 bytes, the pre-loaded data object, u32, ...
 function applied(r,o){feature(r,o);o.x0=r.bytes(58).toString('hex');o.data=r.objectAs('@x66','feature data');o.n=r.u32();o.target=r.object('applied target');}
-R.Fillet_c=(r,o)=>{applied(r,o);if(r.legacy)o.t0=[r.u32(),r.u16()];o.edges=r.object('fillet edges');o.lists=[r.object(),r.object(),r.object()];o.x1=r.bytes(12).toString('hex');o.radii=r.object('fillet radii');
+R.Fillet_c=(r,o)=>{applied(r,o);o.t0=[r.u32(),r.u16()];o.edges=r.object('fillet edges');o.lists=[r.object(),r.object(),r.object()];o.x1=r.bytes(12).toString('hex');o.radii=r.object('fillet radii');
   o.y0=[r.u32(),r.u8()];o.list4=r.object('fillet list 4');o.y1=r.bytes(8).toString('hex');o.y2=r.bytes(4).toString('hex');o.y3=r.bytes(9).toString('hex');
   o.rho=[r.f64(),r.f64()];o.y4=[r.u8(),r.bytes(6).toString('hex'),r.u32()];o.y5=r.bytes(10).toString('hex');o.y6=r.u32();o.face=r.object('fillet face');
   o.edge2=r.object('fillet edge 2');o.z00=[r.u32(),r.u16()];o.z0=[r.u32(),r.i32(),r.i32(),r.u32(),r.u32(),r.u32(),r.u32(),r.u32()];o.radius=r.f64();o.edge3=r.object('fillet edge 3');o.z2=[r.u32(),r.u16()];
