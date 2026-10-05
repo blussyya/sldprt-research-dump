@@ -2,7 +2,7 @@
 const {READ,feature}=require('./archive');
 const R=READ;
 // ---- folders: the feature base, then a class-specific tail ----
-R.moCommentsFolder_c=(r,o)=>{feature(r,o);o.x=r.u32();};
+R.moCommentsFolder_c=(r,o)=>{feature(r,o);if(!r.legacy)o.x=r.u32();};   // SW2011 folders carry no data of their own
 R.moFavoriteFolder_c=(r,o)=>{feature(r,o);o.x=[r.u32(),r.u32(),r.u32()];};
 R.moHistoryFolder_c=(r,o)=>{feature(r,o);o.x=r.u32();const n=r.count();o.items=[];for(let i=0;i<n;i++)o.items.push(r.object('history item'));};
 R.moHistoryFeatItemData_c=(r,o)=>{o.raw=r.bytes(22).toString('hex');o.comp=r.objectAs('@comp','history comp');};
@@ -10,28 +10,30 @@ R.moCompFeature_c=(r,o)=>{o.comp=r.objectAs('@comp','comp');o.feature=r.u32();o.
 // component reference data (pre-loaded class): u16 2, u32 flags, u8, u32 kind (0, or 101 for some
 // bodies, faces and edges), u32, 28 bytes, 16 × ff, 20 bytes. The owning class adds its own fields:
 // references to features name the feature by id and creation time (unix seconds)
-R['@comp']=(r,o)=>{o.v=r.u16();o.flags=r.u32();o.a=r.u8();o.kind=r.u32();o.kind2=r.u32();o.x0=r.bytes(28).toString('hex');o.ff=r.bytes(16).toString('hex');o.x1=r.bytes(20).toString('hex');
+R['@comp']=(r,o)=>{o.v=r.u16();o.flags=r.u32();o.a=r.u8();o.kind=r.u32();o.kind2=r.u32();o.x0=r.bytes(28).toString('hex');
+  if(r.legacy)return;   // SW2011 stops here (43 bytes): no 16 × ff, no 20 bytes
+  o.ff=r.bytes(16).toString('hex');o.x1=r.bytes(20).toString('hex');
 };
 R.moSelectionSetFolder_c=(r,o)=>{feature(r,o);o.x=[r.u32(),r.u16(),r.u32()];};
-for(const c of ['moSensorFolder_c','moDocsFolder_c','moInkMarkupFolder_c','moEqnFolder_c'])R[c]=(r,o)=>{feature(r,o);o.x=r.u32();};
-R.moSurfaceBodyFolder_c=(r,o)=>{feature(r,o);o.x=r.bytes(r.legacy?14:16).toString('hex');};
-R.moSolidBodyFolder_c=(r,o)=>{feature(r,o);o.x=r.bytes(r.legacy?14:16).toString('hex');o.body=r.object('solid body folder');};
-R.moMaterialFolder_c=(r,o)=>{feature(r,o);o.x0=r.u32();o.material=r.str();if(!r.legacy)o.x=r.u32();};   // SW2011 has no trailing u32
-R.moRefPlane_c=(r,o)=>{feature(r,o);o.x=r.bytes(r.legacy?144:150).toString('hex');o.data=r.object('ref plane data');};
+for(const c of ['moSensorFolder_c','moDocsFolder_c','moInkMarkupFolder_c','moEqnFolder_c'])R[c]=(r,o)=>{feature(r,o);if(!r.legacy)o.x=r.u32();};
+R.moSurfaceBodyFolder_c=(r,o)=>{feature(r,o);o.x=r.bytes(r.legacy?10:16).toString('hex');};
+R.moSolidBodyFolder_c=(r,o)=>{feature(r,o);o.x=r.bytes(r.legacy?10:16).toString('hex');o.body=r.object('solid body folder');};
+R.moMaterialFolder_c=(r,o)=>{feature(r,o);if(!r.legacy)o.x0=r.u32();o.material=r.str();if(!r.legacy)o.x=r.u32();};   // SW2011: just the name
+R.moRefPlane_c=(r,o)=>{feature(r,o);o.x=r.bytes(r.legacy?140:150).toString('hex');o.data=r.object('ref plane data');};
 // default plane: origin, normal, optional 3×3 rotation (Top and Right have one, Front doesn't), then display data
 R.moDefaultRefPlnData_c=(r,o)=>{o.origin=r.vec();o.normal=r.vec();o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];o.v=r.vec();o.display=r.bytes(r.legacy?88:96).toString('hex');};
 // profile features (the Origin, sketches): node, 10 bytes, the sketch, then i32, u32, u32 (101 Origin, 102 sketch), 12 bytes
-function profileTail(r,o){o.t=[r.i32(),r.u32(),r.u32()];o.t1=r.bytes(12).toString('hex');}
+function profileTail(r,o){o.t=[r.i32(),r.u32(),r.u32()];o.t1=r.bytes(r.legacy?8:12).toString('hex');}
 R.moOriginProfileFeature_c=(r,o)=>{feature(r,o);o.x=r.bytes(10).toString('hex');o.sketch=r.object('origin sketch');profileTail(r,o);};
 R.moProfileFeature_c=(r,o)=>{feature(r,o);o.x=r.bytes(10).toString('hex');o.sketch=r.object('sketch');profileTail(r,o);};
 // the Annotations folder: u16, two doubles (1.0, 1.0), 10 bytes
-R.moDetailCabinet_c=(r,o)=>{feature(r,o);o.a=r.u16();o.scale=[r.f64(),r.f64()];o.x=r.bytes(r.legacy?4:10).toString('hex');};   // SW2011: 4 bytes after the doubles
+R.moDetailCabinet_c=(r,o)=>{feature(r,o);o.a=r.u16();o.scale=[r.f64(),r.f64()];if(!r.legacy)o.x=r.bytes(10).toString('hex');};   // SW2011: nothing after the doubles
 // the closing note ('…___EndTag___') carries the opening note, 32 bytes of settings and itself
 R.moNotesAreaFtrFolder_c=(r,o)=>{feature(r,o);o.x0=r.u32();if(/___EndTag___$/.test(o.name)){o.open=r.object('notes open');o.x=r.bytes(32).toString('hex');o.self=r.object('notes self');}};
 // ---- sketches (EXP-079) ----
 // shared graphics/attribute block of sketch objects: 35 bytes, one object pointer (an external
 // reference such as "coincident with the Origin", else null), 27 bytes
-function attrs(r){const a={};a.x0=r.bytes(35).toString('hex');a.ext=r.object('entity external ref');a.x1=r.bytes(27).toString('hex');return a;}
+function attrs(r){const a={};a.x0=r.bytes(35).toString('hex');a.ext=r.object('entity external ref');a.x1=r.bytes(r.legacy?19:27).toString('hex');return a;}   // SW2011 lacks 8 zero bytes after the f64 1.0
 // sketch point: u16 q (1 = tied to outside geometry), u32 r, u32 id, attribute block, u16 kind,
 // x, y, u16 flags, u16 number of entities using it, up to two of their handles, u16 number of arcs
 // centred on it, i32 -2, 36 bytes
@@ -44,24 +46,24 @@ function segment(r){const g={};g.p=r.u32();g.id=r.i32();g.attrs=attrs(r);g.s=r.u
 // relations, grouped by how many entities they constrain: u16 count, then per relation 8 bytes,
 // i32 -1, 16 bytes, u32 type (swConstraintType_e), u32 2, u16 0, i16 -2, u16 0, the entity handles,
 // and for two-entity relations 8 bytes, two i32 -1 and 24 bytes
-function relations(r,k){const n=r.u16(),out=[];for(let i=0;i<n;i++){const q={};q.x0=r.bytes(8).toString('hex');q.m1=r.i32();q.x1=r.bytes(16).toString('hex');
-  q.type=r.u32();q.two=r.u32();q.x2=[r.u16(),r.i16(),r.u16()];q.h=[];for(let j=0;j<k;j++)q.h.push(r.object('relation entity'));  if(k===2){q.x3=r.bytes(8).toString('hex');q.m2=[r.i32(),r.i32()];q.x4=r.bytes(24).toString('hex');}out.push(q);}return out;}
+function relations(r,k){const n=r.u16(),out=[];for(let i=0;i<n;i++){const q={};q.x0=r.bytes(8).toString('hex');q.m1=r.i32();q.x1=r.bytes(r.legacy?14:16).toString('hex');
+  q.type=r.u32();q.two=r.u32();if(r.legacy)q.x2b=r.u16();q.x2=[r.u16(),r.i16(),r.u16()];q.h=[];for(let j=0;j<k;j++)q.h.push(r.object('relation entity'));  if(k===2){q.x3=r.bytes(8).toString('hex');q.m2=[r.i32(),r.i32()];q.x4=r.bytes(24).toString('hex');}out.push(q);}return out;}
 // pre-loaded list class (probably suObList from Config-0): u16 count + objects
 R['@oblist']=(r,o)=>{const n=r.count();o.items=[];for(let i=0;i<n;i++)o.items.push(r.object('oblist item'));};
-R.sgPointHandle=(r,o)=>{o.id=r.u16();o.a=r.i32();o.b=r.u32();};
+R.sgPointHandle=(r,o)=>{o.id=r.u16();o.a=r.i32();if(!r.legacy)o.b=r.u32();};   // SW2011 handles have no u32
 function list(r,item){const n=r.u16(),x=r.u32(),items=[];for(let i=0;i<n;i++)items.push(item(r));return {x,items};}
-R.sgLineHandle=(r,o)=>{o.id=r.u16();o.a=r.i32();o.b=r.u32();};
+R.sgLineHandle=R.sgPointHandle;
 R.sgArcHandle=R.sgLineHandle;
 R.sgSketch=(r,o)=>{const n=r.u16();o.x0=r.u16();o.points=[];for(let i=0;i<n;i++)o.points.push(sketchPoint(r));
   o.lines=list(r,segment);o.x1=r.bytes(6).toString('hex');o.arcs=list(r,segment);
   o.x2=r.bytes(38).toString('hex');   // further entity lists, empty in every controlled model
   o.rel1=relations(r,1);o.rel2=relations(r,2);o.x3=r.bytes(12).toString('hex');
-  o.list1=r.object('sketch list 1');
-  o.x4=r.bytes(12).toString('hex');o.c=[r.u16(),r.u16()];
-  o.nextIds=[];for(let i=0;i<14;i++)o.nextIds.push(r.u32());   // next free id per entity kind (C00 Sketch1: 5, 6 points, 5 lines, 1 …)
-  o.y=[r.u32(),r.u32(),r.u32(),r.u32()];o.name=r.str();o.z=[r.u16(),r.f32(),r.i32(),r.u32(),r.i32()];
+  o.list1=r.objectAs('@oblist','sketch list 1');
+  o.x4=r.bytes(r.legacy?8:12).toString('hex');o.c=[r.u16(),r.u16()];
+  o.nextIds=[];for(let i=0;i<(r.legacy?13:14);i++)o.nextIds.push(r.u32());   // SW2011 counts 13 entity kinds   // next free id per entity kind (C00 Sketch1: 5, 6 points, 5 lines, 1 …)
+  o.y=r.legacy?[r.u32(),r.u32(),r.u32(),r.u16()]:[r.u32(),r.u32(),r.u32(),r.u32()];o.name=r.str();o.z=[r.u16(),r.f32(),r.i32(),r.u32(),r.i32()];
   o.x5=r.bytes(24).toString('hex');o.v=[r.u32(),r.u32()];o.x6=r.bytes(28).toString('hex');
-  o.regions=r.object('sketch regions');o.x6b=r.bytes(30).toString('hex');
+  o.regions=r.objectAs('@oblist','sketch regions');o.x6b=r.bytes(r.legacy?10:30).toString('hex');
   // chains (closed contours): u32 count, u32 (same as count in every file), then per chain the chain object and 38 bytes
   const nc=r.u32();o.nc2=r.u32();o.chains=[];for(let i=0;i<nc;i++){const c=r.object('sketch chain');c.after=[r.u32(),r.u32(),r.bytes(4).toString('hex'),r.u16(),r.i32()];c.after2=r.bytes(20).toString('hex');o.chains.push(c);}
   o.x9=r.u32();o.onPlane=r.u8();
@@ -79,7 +81,7 @@ R.sgSketch=(r,o)=>{const n=r.u16();o.x0=r.u16();o.points=[];for(let i=0;i<n;i++)
     o.pl=[r.u16(),r.u32(),r.u8()];o.offset=r.vec();o.pl1=[r.u8(),r.u32()];o.pl2=r.bytes(23).toString('hex');o.scale=r.f64();o.pl3=[r.u8(),r.u32()];}
   else{o.pl=[r.u16(),r.u32()];o.hasRot=r.u8();if(o.hasRot)o.rot=[r.vec(),r.vec(),r.vec()];o.pl1=r.bytes(24).toString('hex');o.scale=r.f64();o.pl2=r.bytes(3).toString('hex');o.pl3=r.u32();}};
 // a closed region of the sketch: its boundary handles
-R.moSketchRegion_c=(r,o)=>{o.edges=r.object('region edges');};
+R.moSketchRegion_c=(r,o)=>{o.edges=r.objectAs('@oblist','region edges');};
 // chain: u16 n, the entities' P numbers, u16, u32 (1 for a single closed curve), u32 6, i32 -1, 8 bytes
 R.moSketchChain_c=(r,o)=>{const n=r.u16();o.ents=[];for(let i=0;i<n;i++)o.ents.push(r.u32());o.a=r.u16();o.b=r.u32();o.c=r.u32();o.d=r.i32();o.x0=r.bytes(8).toString('hex');};
 // reference to a plane feature: component object, the plane's feature id and creation time. What
@@ -94,7 +96,10 @@ R.moSketchExtRef_w=(r,o)=>{o.ent=r.object('ext entity');extRefTail(r,o);};
 // the 52 bytes after a referenced entity: u16 0, u32 0x66/0x6a, 12 bytes, three i32 -12345, u32 0, u32 version (offset 34),
 // 14 bytes. Version 15000 (SW2022) follows with a backed-up copy object; version 4700 (made in SW2011) has
 // no object, only 8 bytes and the entity's name ("Point1@Origin")
-function extRefTail(r,o){const at=r.p;o.x0=r.bytes(52).toString('hex');o.version=r.b.readUInt32LE(at+34);
+// SW2011 writes a 34-byte block (two i32 -12345, version 4700 at offset 30), 10 bytes and the name.
+function extRefTail(r,o){const at=r.p;
+  if(r.legacy){o.x0=r.bytes(34).toString('hex');o.version=r.b.readUInt32LE(at+30);o.x1=r.bytes(10).toString('hex');o.name=r.str();return;}
+  o.x0=r.bytes(52).toString('hex');o.version=r.b.readUInt32LE(at+34);
   if(o.version>=15000)o.backup=r.object('ext backup');else{o.old=[r.u32(),r.u32()];o.name=r.str();}}
 R.moCompSketchEntHandle_c=(r,o)=>{o.comp=r.objectAs('@comp','ext comp');o.feature=r.u32();o.stamp=r.u32();o.handle=r.object('ext handle');o.x0=r.bytes(10).toString('hex');};
 R.moPointBackedUpData_c=(r,o)=>{o.p=r.vec();o.next=r.object('point next');o.a=r.u32();o.name=r.str();};
@@ -110,20 +115,20 @@ R.moExtrusion_c=(r,o)=>{feature(r,o);bodyHeader(r,o);o.bodies=r.object('per body
   o.spec=r.objectAs('@x66','extrusion spec');
   o.endSpec=r.object('end spec');
   // u8 flag (1 in the cube models, 0 in C19); when set, u16, u32 1 and 36 bytes follow
-  o.flag=r.u8();if(o.flag){o.x4=[r.u16(),r.u32()];o.x5=r.bytes(36).toString('hex');}o.x6=r.bytes(19).toString('hex');o.x7=r.u32();o.x8=r.bytes(8).toString('hex');
+  o.flag=r.u8();if(o.flag){o.x4=[r.u16(),r.u32()];o.x5=r.bytes(36).toString('hex');}o.x6=r.bytes(19).toString('hex');o.x7=r.u32();o.x8=r.bytes(r.legacy?4:8).toString('hex');
   o.from=r.object('from end spec');
 };
 R.moFromEndSpec_c=(r,o)=>{o.x0=r.bytes(32).toString('hex');};
 // bounding box of what the feature made: u32 1, centre, diagonal, u32, u32, u32 n + n × u32 (n = 1 for
 // the cube boss, 0 for the cut), u16, the feature
 R.moBBoxCenterData_c=(r,o)=>{o.a=r.u32();o.centre=r.vec();o.diagonal=r.f64();o.b=[r.u32(),r.u32()];const n=r.u32();o.list=[];for(let i=0;i<n;i++)o.list.push(r.u32());o.c=r.u16();o.owner=r.object('bbox owner');};
-R['@x66']=(r,o)=>{o.a=r.u32();o.x0=r.bytes(62).toString('hex');};
+R['@x66']=(r,o)=>{o.a=r.u32();o.x0=r.bytes(r.legacy?58:62).toString('hex');};   // SW2011: 58 bytes
 R.moPerBodyChooserData_c=(r,o)=>{const n=r.u16();o.faces=[];for(let i=0;i<n;i++)o.faces.push(r.object('chooser face'));};
 // a face or edge picked by name: u32 1, u32 0, u32 kind (6 face, 4 edge), u8, u16 (3 face, 2 edge), u8,
 // u32 (an edge's Parasolid tag?), two copies of a
 // 64-bit value, u16, the naming tree, 20 bytes
 // face tail: 18 bytes, 16 when kind is 1 (the sphere's single face); why is open
-function topoRef(r,o){const at0=r.p;o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes(o.kind===1?16:18).toString('hex');}else{o.rep=r.object('edge rep');o.x1=r.bytes(14).toString('hex');if(o.tag)o.x2=[r.u32(),r.u16()];}}
+function topoRef(r,o){const at0=r.p;o.a=[r.u32(),r.u32()];o.kind=r.u32();o.b=r.u8();o.c=r.u16();o.c2=r.u8();o.tag=r.u32();o.key=[r.bytes(8).toString('hex'),r.bytes(8).toString('hex')];o.e=r.u16();if(o.class==='moFaceRef_c'){o.reps=nullList(r,'face rep');o.x1=r.bytes(r.legacy?6:o.kind===1?16:18).toString('hex');}else{o.rep=r.object('edge rep');o.x1=r.bytes(14).toString('hex');if(o.tag)o.x2=[r.u32(),r.u16()];}}
 // objects up to a null
 function nullList(r,w){const out=[];for(;;){const x=r.object(w);if(!x)return out;out.push(x);}}
 R.moFaceRef_c=topoRef;R.moEdgeRef_c=topoRef;
@@ -136,10 +141,12 @@ R.moFromSktEnt3IntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('s
 R.moEndFace3IntSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.endIndex=r.u32();o.b=r.u32();o.c=r.i32();o.child=r.object('surf child');};
 R.moSurfaceIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.items=[r.object('surf a'),r.object('surf b'),r.object('surf c')];};
 R.moFilletSurfIdRep_c=(r,o)=>{o.ctx=r.object('rep ctx');o.fr=r.object('surf fr');o.a=r.u32();};
-R.moFR_c=(r,o)=>{o.ext=r.object('fr ext');o.feature=r.u32();o.stamp=r.u32();};
+R.moFR_c=(r,o)=>{o.ext=r.objectAs('moExtObject_c','fr ext');   // in SW2011 files the document object is pre-loaded from Config-0
+  o.feature=r.u32();o.stamp=r.u32();};
 // the document a reference lives in: two string handles (path, document name), u8, u16, creation
 // time, three strings, 18 bytes, configuration name, 12 bytes
-R.moExtObject_c=(r,o)=>{o.h=[r.object('ext path'),r.object('ext doc')];o.a=[r.u8(),r.u16()];o.stamp=r.u32();o.s=[r.str(),r.str(),r.str()];o.x0=r.bytes(18).toString('hex');o.config=r.str();o.x1=r.bytes(12).toString('hex');};
+// SW2011: one string and 16 bytes where SW2022 has three strings, u16 0 and the same 16 bytes (the path strings are Config-0 objects there)
+R.moExtObject_c=(r,o)=>{o.h=[r.object('ext path'),r.object('ext doc')];o.a=[r.u8(),r.u16()];o.stamp=r.u32();if(r.legacy){o.s=[r.str()];o.x0=r.bytes(16).toString('hex');}else{o.s=[r.str(),r.str(),r.str()];o.x0=r.bytes(18).toString('hex');}o.config=r.str();o.x1=r.bytes(12).toString('hex');};
 R.moCStringHandle_c=(r,o)=>{o.s=r.str();};
 // ---- end conditions and dimensions (EXP-079) ----
 const peek=(r,n)=>r.b.subarray(r.p,r.p+(n||80)).toString('hex');
@@ -153,8 +160,9 @@ R.moEndSpec_c=(r,o)=>{o.x0=r.bytes(24).toString('hex');o.dim=r.object('end spec 
 // for the cube extrusions, 515 for the cylinder ones, 541 for fillet radii); not decoded yet, so the
 // reader goes to the favourites handle that follows it
 const FAV_SIG=Buffer.from('00000000ffffffff','hex');
-function displayDim(r,o,x){o.x0=r.bytes(556).toString('hex');o.handle=r.object('display dim handle');o.x1=r.skipToObject('moFavoriteHandle_c',FAV_SIG);o.x1len=o.x1.length/2;
-  o.fav=r.object('display dim favourite');o.x2=r.bytes(374).toString('hex');}
+function displayDim(r,o,x){o.x0=r.bytes(r.legacy?374:556).toString('hex');   // SW2022 inserts 182 bytes at offset 236
+  o.handle=r.object('display dim handle');o.x1=r.skipToObject('moFavoriteHandle_c',FAV_SIG);o.x1len=o.x1.length/2;
+  o.fav=r.object('display dim favourite');o.x2=r.bytes(r.legacy?248:374).toString('hex');}   // SW2011: 126 bytes fewer after offset 240
 R.moDisplayDistanceDim_c=(r,o)=>{displayDim(r,o,587);o.x3=r.bytes(54).toString('hex');};
 // radius dimension: as above, then 124 bytes, the edge it measures, ...
 R.moDisplayRadialDim_c=(r,o)=>{displayDim(r,o,541);o.x3=r.bytes(124).toString('hex');o.edge=r.object('radial dim edge');};
@@ -164,7 +172,7 @@ R.edgeRadiusObject_c=(r,o)=>{o.dim=r.object('edge radius dim');};
 // a second object slot (null so far), 60 bytes
 R.moCompEdge_c=(r,o)=>{o.comp=r.objectAs('@comp','edge comp');o.a=r.u8();o.edge=r.object('edge ref');o.x0=r.bytes(62).toString('hex');};
 R.moFavoriteHandle_c=(r,o)=>{o.a=r.u32();o.b=r.i32();};
-R.moFeatureDimHandle_c=(r,o)=>{o.x0=r.bytes(103).toString('hex');o.dim=r.object('dim');};
+R.moFeatureDimHandle_c=(r,o)=>{o.x0=r.bytes(r.legacy?63:103).toString('hex');o.dim=r.object('dim');};
 R.ParallelPlaneDistanceDim_c=(r,o)=>{o.a=r.u32();o.param=r.object('dim parameter');};
 // a dimension's value: the short node form (name, id -1), then the value in metres or radians
 R.moLengthParameter_c=(r,o)=>{o.node=r.object('parameter node');o.value=r.f64();};

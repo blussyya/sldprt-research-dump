@@ -87,11 +87,12 @@ function feature(r,o){
 // child objects, order, version stamps, display state.
 function node(r,o,noName){
   o.name=noName?'':r.str();
-  o.a=r.u32();o.flags=r.u32();o.id=r.u32();o.b=r.u32();   // id = KeyWords feature id
-  if(r.legacy){   // SW2011: no comment string and no u32 c
+  o.a=r.u32();o.flags=r.u32();o.id=r.u32();   // id = KeyWords feature id
+  if(r.legacy){   // SW2011: no comment string and no u32 c; the short form has no u32 b either
     if(o.id===0xffffffff&&!noName){o.short=true;o.d=r.u16();return;}
-    o.d=r.u16();
+    o.b=r.u32();o.d=r.u16();
   }else{
+  o.b=r.u32();
   o.comment=r.str();
   if(o.id===0xffffffff&&!noName){o.short=true;o.d=r.u16();return;}   // parameters (D1 …) carry the short form
   o.c=r.u32();o.d=r.u16();}
@@ -101,9 +102,12 @@ function node(r,o,noName){
   o.f=r.u8();o.g=r.u32();
   o.created={version:r.u32(),build:r.u32()};o.modified={version:r.u32(),x:r.f64(),build:r.u32()};
   o.h=r.u16();o.str2=r.str();
-  if(r.legacy){o.tail=r.bytes(54).toString('hex');o.tailEnd=r.u16();return;}   // SW2011 stops after the FILETIME and a u16 2
-  o.tail=r.bytes(62).toString('hex');   // flags, -1s, a float -1.0, a FILETIME and fixed words; to split
-  o.base2=[r.u16(),r.u32()];   // ends here: the Annotations folder's own data (two doubles) starts 2 bytes later
+  o.tail=r.bytes(54).toString('hex');   // flags, -1s, a float -1.0, a FILETIME; to split
+  o.two=r.u16();   // 2 in every file
+  // SW2022 inserts four u16 here: 0x097c, 5, 1, 0 when the feature was made in 2022; 0, 0, 1, 0 when it
+  // came from a 2011 file. SW2011 has none of them.
+  if(!r.legacy)o.v2022=[r.u16(),r.u16(),r.u16(),r.u16()];
+  o.state=r.u32();   // 0 or 1 (1 on Sensors, Design Binder, Favorites …): the owning class's data follows
 }
 
 const READ={'@node':node};
