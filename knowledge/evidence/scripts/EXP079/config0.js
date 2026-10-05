@@ -29,8 +29,8 @@ R.moPart_c=(r,o)=>{seq(r,o,'u32 a, 22:u32 b, 22:u32 version');if(r.legacy)o.head
   o.views=[];for(;;){const t=r.b.readUInt16LE(r.p);const V=[...r.classes.values()].find(c=>c.name==='moView_c');
     const isView=t===0xffff?r.b.toString('latin1',r.p+6,r.p+14)==='moView_c':V&&t===(0x8000|V.index);if(!isView)break;o.views.push(r.object('view'));}
   seq(r,o,'u8 b, u32 c, u32 d');
-  for(const k of ['colors','sketchBlocks','pmark','threadRefs','explodedViews'])o[k]=r.object('part '+k);
-  if(r.p<r.b.length)o.rest=r.bytes(r.b.length-r.p).toString('hex');};
+  for(const k of ['colors','sketchBlocks','pmark'])o[k]=r.object('part '+k);
+  o.more=[];while(r.p<r.b.length)o.more.push(r.object('part member'));};   // thread references, exploded views
 // SW2011 document header: authors, a second string array, and the feature log (suObList of moLogs_c)
 R.moHeader_c=(r,o)=>{o.authors=r.object('authors');o.s=r.object('header strings');o.logs=r.object('feature log');seq(r,o,'u32 created, u32 nextId, u16 a, u32 stampA');o.doc=r.object('document');
   seq(r,o,'u32 stampB, u32*2 c, u32 rebuilt, b22, u32 saved');o.list=r.object('header list');seq(r,o,'u32 d, u32 version');};
@@ -76,15 +76,21 @@ R.moMaterial_c=(r,o)=>{o.density=r.object('density');o.a=r.u8();};
 // (u32 a, u32 flags, i32 id = -1, SW2022: u32 b and a comment, u16), then the value (density in kg/m³: 1000)
 R.moDensityParameter_c=(r,o)=>{o.node=r.object('parameter node');if(!o.node)seq(r,o,'u32 a, u32 flags, i32 id, 22:u32 b, 22:str comment, u16 d');o.value=r.f64();};
 R.uoModelData_c=L('b32, u32 a, u32*2 b, u32 c, u32 d');
-// moAtom_c: a null node object, u32 1, u32 flags, i32 -1, u32, a string, then 27 u32 / i32 (101, 32, 32,
-// 0x74cf twice, 6, version 15000, 10001, 0x20000001, 10001, 20 …)
-R.moAtom_c=(r,o)=>{o.node=r.object('atom node');seq(r,o,'u32 a, u32 flags, i32 id, u32 b, str s, u32*27 v');};
+// moAtom_c: a null node object and the short node fields inline (u32, flags, i32 -1, u32, comment), three u32,
+// u32 kind, u32, two counts, three u32, u32 1, i32 -1, u32, u32 1, u32, u32 6. Kind 102 holds one child atom
+// (an object); kind 101 ends with the version (15000), the last id, u32 0x20000000 | n and n records of eight
+// u32 (id, type 20 or 8, 0, -1, 1, -1 or 30, 0, 0), newest first
+R.moAtom_c=(r,o)=>{o.node=r.object('atom node');seq(r,o,'u32 a, u32 flags, i32 id, u32 b, str s, u32*3 c, u32 kind, u32 d, u32 n1, u32 n2, u32*3 e, u32 f, i32 g, u32 h, u32 k, u32 m, u32 six');
+  if(o.kind===102){o.child=r.object('child atom');return;}
+  seq(r,o,'u32 version, u32 lastId, u32 count');o.records=[];for(let i=0;i<(o.count&0xffff);i++){const q={};seq(r,q,'u32*8 v');o.records.push(q.v);}};
 // Not split yet: the object's data runs to the next class definition. The archive's final index (checked
 // against ResolvedFeatures' first index) shows whether such a stretch hid any object.
 function opaque(r,o){const def=/\xff\xff[\x00-\x09]\x00[\x05-\x40]\x00[A-Za-z_]/g;def.lastIndex=r.p;const t=r.b.toString('latin1');
   let m,end=r.b.length;while((m=def.exec(t))){const n=r.b[m.index+4];const name=t.substr(m.index+6,n);if(/^[A-Za-z_][A-Za-z0-9_]*$/.test(name)){end=m.index;break;}}
   o.opaque=r.bytes(end-r.p).toString('hex');o.opaqueLen=o.opaque.length/2;}
 module.exports={seq,opaque};
+// exploded-view manager (a feature with its node inline): 8 bytes, two i32 -1, u16, u32 20 (28), u32, 16 bytes, u32 101, 8 bytes
+R.moPrtExplViewManager_c=(r,o)=>{feature(r,o);seq(r,o,'b8 a, i32*2 b, u16 c, u32 d, u32 e, b16 f, u32 g, b8 h');};
 // lights (features: node, then): three intensities (ambient, brightness, specular), colour, four u32, the
 // light's name ("Ambient-1"), 12 bytes, f64 1.0, u32 1, f64 16, u32; directional lights add two angles
 // (7.1, 7.1) and 16 bytes
@@ -112,12 +118,18 @@ function nextClassDef(r){const def=/\xff\xff[\x00-\x09]\x00[\x05-\x40]\x00[A-Za-
 R.moFeatColorTab_c=L('u32 a, u16 b, u32 c, b8 d');
 // sketch block manager (a feature written with its node inline): GUID, u32, u32 0x62, 6 bytes, then the list
 // of annotation views
-R.moSketchBlockMgr_c=(r,o)=>{r.nodeNoState=true;feature(r,o);seq(r,o,'b16 guid, u32 a, u32 b, b6 c');o.views=r.object('annotation views');};
-// annotation view ("*Top"): laid out as a view, then 26 bytes, u32 1, u16, i32 -1, u32, i32 -1, i32 -1, u32 200,
-// u32 199, u32 1, u32 199, 30 bytes
-R.moAnnotationView_c=(r,o)=>{R.moView_c(r,o);seq(r,o,'b26 a, u32 b, u16 c, i32 d, u32 e, i32*2 f, u32 g, u32 h, u32 k, u32 m, b30 n');};
-R.moPMarkRecord_c=(r,o)=>{seq(r,o,'u32 a, u32 b, b12 c, u32 d, u32 e, u32 f, b16 g');o.list=r.object('pmark list');seq(r,o,'u32 h, str s1, str s2');};
-// cosmetic-thread reference manager: 19 bytes, three u32 1, u32 101, u32 103, f64 1, three f64 0.005,
-// tolerances, a 3×3 identity rotation …
-R.moCThreadRefMgr_c=L('b19 a, u32*3 b, u32 c, u32 d, f64 e, f64*3 f, f64*3 g, f64*3 h, f64 k, b16 l, u32 m, b16 n, f64 p, b16 q, str s1, str s2, b28 t, f64*9 rot, u32 u, u32 v, u16 w');
-for(const c of ['moRelMgr_c','moEnvFolder_c','moAmbientLight_c','moDirectionLight_c','moView_c','moFeatColorTab_c','moSketchBlockMgr_c','moAnnotationView_c','moPMarkRecord_c','moCThreadRefMgr_c','moPrtExplViewManager_c'])if(!R[c])R[c]=(r,o)=>opaque(r,o);
+R.moSketchBlockMgr_c=(r,o)=>{r.nodeNoState=true;feature(r,o);seq(r,o,'b16 guid, u32 a, u32 b, b6 c');o.views=r.object('annotation views');seq(r,o,'u32 nextNumber, u32 d, u32 n');o.numbers=[];for(let i=0;i<o.n;i++)o.numbers.push(r.u32());seq(r,o,'b30 g');};
+// annotation view ("*Top", "*Back" …): laid out as a view (its number counts from 200), then 26 bytes, u32 1,
+// u16, i32 -1, u32, i32 -1, i32 -1. The sketch block manager follows its list of them with the next number
+// (200 + count), u32 199, u32 n and n view numbers (199, 201 …), and 30 bytes.
+R.moAnnotationView_c=(r,o)=>{R.moView_c(r,o);seq(r,o,'b26 a, u32 b, u16 c, i32 d, u32 e, i32*2 f');};
+// PMI mark record: u32 version (3, or 4 in the upgraded file), u32 1, u32, u32 n and n marks (each a feature
+// written with its node inline), u32, u32 20, u32, u32 20, 16 bytes, the list of annotation views ("Notes
+// Area"), u32, two strings
+R.moPMarkRecord_c=(r,o)=>{seq(r,o,'u32 version, u32 b, u32 c, u32 n');o.marks=[];for(let i=0;i<o.n;i++){const q={};feature(r,q);o.marks.push(q);}seq(r,o,'u32 c2, u32 d, u32 e, u32 f, b16 g');o.list=r.object('pmark list');seq(r,o,'u32 h, str s1, str s2');
+  if(o.version>=4){o.threads={};seq(r,o.threads,'b13 a, '+THREADS);}};   // version 4 (the upgraded file) carries the thread settings itself
+// cosmetic-thread reference manager: 19 bytes, then the thread settings: three u32 1, u32 101, u32 103, f64
+// scale (1, or 1000 in the upgraded file), three f64 0.005, tolerances, two strings, a 3×3 identity rotation …
+const THREADS='u32*3 b, u32 c, u32 d, f64 e, f64*3 f, f64*3 g, f64*3 h, f64 k, b16 l, u32 m, b16 n, f64 p, b16 q, str s1, str s2, b28 t, f64*9 rot, u32 u, u32 v, u16 w';
+R.moCThreadRefMgr_c=L('b19 a, '+THREADS);
+for(const c of ['moRelMgr_c','moEnvFolder_c','moAmbientLight_c','moDirectionLight_c','moView_c','moFeatColorTab_c','moSketchBlockMgr_c','moAnnotationView_c','moPMarkRecord_c','moCThreadRefMgr_c'])if(!R[c])R[c]=(r,o)=>opaque(r,o);
