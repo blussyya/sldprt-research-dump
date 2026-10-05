@@ -13,6 +13,9 @@ function load(file){
       res.end=b.length-r.p<=2;if(!res.end)res.err=Error('unread bytes at '+r.p);}catch(e){res.err=e;}return res;};
   if(modern)return run(b.readUInt32LE(0));
   if(process.env.START)return run(+process.env.START);
+  // SW2011: the sequence continues Config-0's archive, so read that archive to the end
+  const c0=all[Object.keys(all).find(x=>/Config-0$/.test(x))];
+  if(c0&&!process.env.INFER){try{const c=require('./config0').readConfig0(c0);if(c.end){const q=run(c.next);q.fromConfig0=true;return q;}}catch(_){}}
   const S0=0x1000,t=run(S0);const m=t.err&&/unknown class index (\d+)|"ref":(\d+)\}/.exec(t.err.message);if(!m)return t;
   const k=+(m[1]||m[2]);let best=null;
   for(const l of new Set([...t.r.classes.values()].map(c=>c.index-S0))){const s=k-l;if(s<=Math.max(0,...Object.keys(pre).map(Number)))continue;const q=run(s);if(!best||!!q.end>!!best.end||(!!q.end===!!best.end&&q.r.p>best.r.p))best=q;}

@@ -28,13 +28,15 @@ function run(start,print){
 }
 
 // The first index. SW2022 writes it as the stream's first u32. SW2011 doesn't: the sequence just carries on
-// from Config-0's archive. Until Config-0 is read, it is recovered from the stream itself: read with a
-// provisional first index above every pre-loaded class; the first class or object index the reader doesn't
-// know must name one of the stream's own entries, so each of those gives a candidate, and the candidate
-// that reads furthest is the first index.
+// from Config-0's archive, so it is where that archive's index sequence ends (config0.js reads it). The
+// fallback (forced with INFER=1, used when Config-0 can't be read) recovers it from the stream itself: read
+// with a provisional first index above every pre-loaded class; the first class or object index the reader
+// doesn't know must name one of the stream's own entries, so each of those gives a candidate, and the
+// candidate that reads furthest is the first index. Both agree on all 25 SW2011 models.
 let res;
 if(modern)res=run(b.readUInt32LE(0),true);
 else if(process.env.START)res=run(+process.env.START,true);
+else if(!process.env.INFER&&(()=>{try{const c0=all[Object.keys(all).find(x=>/Config-0$/.test(x))];const c=require('./config0').readConfig0(c0);if(c.end){res=run(c.next,true);console.log('first index (from Config-0)',c.next);return true;}}catch(_){}return false;})()){}
 else{
   const S0=0x1000;const t=run(S0,false);
   const m=t.err&&/unknown class index (\d+)|"ref":(\d+)\}/.exec(t.err.message);
