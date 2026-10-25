@@ -1,0 +1,140 @@
+{
+ "experiment": "EXP-078",
+ "summary": {
+  "files": 10,
+  "valid": 10,
+  "singleSolid": 10
+ },
+ "rows": [
+  {
+   "file": "Dekor.step",
+   "read": true,
+   "valid": true,
+   "solids": 1,
+   "faces": 375,
+   "gprop1e-9": 910749.1850131754,
+   "gprop1e-6": 916832.9204936324,
+   "mesh0.01": 907353.4149601408,
+   "triangles0.01": 240924,
+   "mesh0.003": 907353.044349826,
+   "triangles0.003": 394732
+  },
+  {
+   "file": "Helical Bevel Gear.step",
+   "read": true,
+   "valid": true,
+   "solids": 1,
+   "faces": 113,
+   "gprop1e-9": 1309029.987969169,
+   "gprop1e-6": 1309030.070814398,
+   "mesh0.01": 1308880.1995912513,
+   "triangles0.01": 127660,
+   "mesh0.003": 1308994.762163726,
+   "triangles0.003": 426858
+  },
+  {
+   "file": "PTC GE8080-8.step",
+   "read": true,
+   "valid": true,
+   "solids": 1,
+   "faces": 126,
+   "gprop1e-9": 81662.18597053339,
+   "gprop1e-6": 81662.18593293651,
+   "mesh0.01": 81662.81867284203,
+   "triangles0.01": 4436,
+   "mesh0.003": 81662.81867284203,
+   "triangles0.003": 4436
+  },
+  {
+   "file": "Pocket Wheel.step",
+   "read": true,
+   "valid": true,
+   "solids": 1,
+   "faces": 400,
+   "gprop1e-9": 3455354.020517214,
+   "gprop1e-6": 3455354.020519309,
+   "mesh0.01": 3455355.452821024,
+   "triangles0.01": 322630,
+   "mesh0.003": 3455364.5182505646,
+   "triangles0.003": 516862
+  },
+  {
+   "file": "chainwheel.step",
+   "read": true,
+   "valid": true,
+   "solids": 1,
+   "faces": 189,
+   "gprop1e-9": 1749586.096125984,
+   "gprop1e-6": 1749586.0961876875,
+   "mesh0.01": 1749518.1887307728,
+   "triangles0.01": 38144,
+   "mesh0.003": 1749569.0313372014,
+   "triangles0.003": 107072
+  },
+  {
+   "file": "cube.step",
+   "read": true,
+   "valid": true,
+   "solids": 1,
+   "faces": 6,
+   "gprop1e-9": 64000.000000000044,
+   "gprop1e-6": 64000.00000000005,
+   "mesh0.01": 64000.000000000044,
+   "triangles0.01": 12,
+   "mesh0.003": 64000.000000000044,
+   "triangles0.003": 12
+  },
+  {
+   "file": "distributor main boss rev a.step",
+   "read": true,
+   "valid": true,
+   "solids": 1,
+   "faces": 51,
+   "gprop1e-9": 26264.468478250084,
+   "gprop1e-6": 26264.468478512965,
+   "mesh0.01": 26253.964910759943,
+   "triangles0.01": 24836,
+   "mesh0.003": 26261.891976516203,
+   "triangles0.003": 41102
+  },
+  {
+   "file": "plate4.step",
+   "read": true,
+   "valid": true,
+   "solids": 1,
+   "faces": 14,
+   "gprop1e-9": 38399999.99999999,
+   "gprop1e-6": 38400000.0,
+   "mesh0.01": 38400000.00000001,
+   "triangles0.01": 44,
+   "mesh0.003": 38400000.00000001,
+   "triangles0.003": 44
+  },
+  {
+   "file": "usb hub case (ultimate test)_USB hub case BOTTOM.step",
+   "read": true,
+   "valid": true,
+   "solids": 1,
+   "faces": 39,
+   "gprop1e-9": 6967.866980104982,
+   "gprop1e-6": 6967.864787136632,
+   "mesh0.01": 6967.930715129646,
+   "triangles0.01": 10940,
+   "mesh0.003": 6967.890739640782,
+   "triangles0.003": 13852
+  },
+  {
+   "file": "usb hub case (ultimate test)_USB hub case TOP.step",
+   "read": true,
+   "valid": true,
+   "solids": 1,
+   "faces": 68,
+   "gprop1e-9": 11712.631974005486,
+   "gprop1e-6": 11712.631925167738,
+   "mesh0.01": 11712.01830863304,
+   "triangles0.01": 68654,
+   "mesh0.003": 11711.989753802045,
+   "triangles0.003": 91416
+  }
+ ]
+}

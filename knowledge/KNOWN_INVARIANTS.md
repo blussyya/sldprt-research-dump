@@ -2,6 +2,67 @@
 
 > **2026-09-14 current-state correction — EXP-042–046:** Read [the v0.4.8 format report](../v0.4.8/README.md) before using the historical conclusions below. Block2 describes triangle strips, not CAD loops; Block1 annotates strip edges and links exactly to downstream edge IDs. The predecessor array is always present on the tested corpus. A third byte array and a forward metadata grammar are now recorded. `parser/v0.2` implements the verified read-only path. Old text is retained as evidence, not current guidance.
 
+## INV-029: Display Faces Join B-rep Faces by Edge IDs in Every Version
+
+> **Established 2026-10-04 (EXP-078).**
+
+**Status:** Verified on the corpus.
+
+**Evidence:** Block1 edge IDs are native EDGE `node_id`s in SolidWorks 2011 and pre-2011 files as
+in modern ones (28/28 SW2011 C04, 24/24 C16, 16/16 C20, 1,092/1,092 chainwheel), and the set of
+edge IDs on a display face matches exactly one B-rep face. Joining by face ID, then edge set, then
+geometry joins 1,762/1,762 faces in the 72 parts with a solid (1,414 by ID, 328 by edge set, 20 by
+geometry: plate4, which has no edge table, and SW2011's edgeless whole sphere and torus). With face
+IDs stripped from modern files the edge-set join is right on 1,410/1,410; with IDs and edge tables
+stripped, the geometry join is right on 625/625 (parts up to 150 faces).
+
+**Confidence/date:** High within the corpus, 2026-10-04.
+
+**Source:** [EXP-078](evidence/2026-10-04_v0.5-EXP078.md).
+
+## INV-028: STEP Written From the Native Body Is the Same Solid
+
+> **Established 2026-10-03 (EXP-076).**
+
+**Status:** Verified on the controlled corpus.
+
+**Evidence:** STEP written from the native body (vertex loops for edgeless fins, whole spheres split
+into halves and whole tori into quarters, ring edges given one vertex) reads back as the native
+body on 49/49 controlled models. OpenCascade reads 49/49 as valid single solids; boolean difference
+with SolidWorks' `model.step` is zero in both directions on 49/49. Exact volumes agree with
+SolidWorks' STEP to 5.6e-15 relative and with closed forms to 4.3e-15 (24 files).
+
+**Confidence/date:** High within the controlled corpus, 2026-10-03. Not covered: NQ-049 types,
+which block 6 of 8 independent real parts.
+
+**Source:** [EXP-076](evidence/2026-10-03_v0.5-EXP076.md).
+
+## INV-027: The Native Partition Body Is the Part SolidWorks Exports
+
+> **Established 2026-10-03 (EXP-075).**
+
+**Status:** Verified on the controlled corpus.
+
+**Evidence:** The body decoded from `Config-0-Partition` corresponds to SolidWorks' own
+`model.step` of the same part, modulo seam splitting of closed faces. Every native vertex is a STEP
+vertex. Every STEP edge lies on exactly one native edge, or is a seam on a closed surface. Edge
+lengths sum exactly. Every STEP face lies on one native face's surface with the same outward side,
+and adjacency corresponds. Worst deviations are 2.5e-18 m (vertex), 9.0e-18 m (edge), 3.9e-18 m
+(surface) and 4.2e-17 m (length), below the 1e-8 m `res_linear` used as tolerance. B-spline control
+nets and knots are identical. Twenty mutations of 1e-7 m or less, and four wrong-model pairings,
+are all detected.
+
+Measured conventions: `FIN.vertex` is the fin's end vertex (432/432 lines, 24/24 trimmed curves);
+B-spline control points are stored with v fastest.
+
+**Files/counts:** 49 models (25 SW2011, 24 SW2022); 287 native faces, 331 STEP faces; 531 native
+edges, 688 STEP edges, 90 seams.
+
+**Confidence/date:** High within the controlled corpus, 2026-10-03. Types absent from it
+(INTERSECTION curves, curveless edges, SWEPT_SURF, BLENDED_EDGE) are not covered (NQ-049).
+
+**Source:** [EXP-075](evidence/2026-10-03_v0.5-EXP075.md).
+
 ## INV-020: Explicit Strip-Length Precursor and Triangle Ordering
 
 > **Corroboration, 2026-09-15 (EXP-049):** Replicated through a different face-discovery path (`parser/v0.1`'s gap-marker scan rather than the forward precursor scan): same 21 files, 1,272 faces, 10,095 strips, 71,166 vertices, 50,976 triangles, all 50,976 agreeing with stored normals. The openswx decompressor is shared, so pipeline independence is partial. Status and scope unchanged. Evidence: [EXP-049](evidence/2026-09-15_v0.4.8-EXP049.md).

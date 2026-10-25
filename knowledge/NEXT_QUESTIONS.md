@@ -1137,3 +1137,66 @@ and found it outside the Partition streams. Open:
    role; a file where they are not zero is needed.
 
 **Date raised**: 2026-09-29 (EXP-074).
+
+---
+
+## NQ-049 — Production-only geometry: INTERSECTION curves, curveless edges, swept and blended surfaces
+
+EXP-075 shows the decoded body equals SolidWorks' STEP export on every type the controlled corpus
+contains. The 21 original parts additionally use:
+
+- `INTERSECTION` curves: 265 edges, plus 16 trimmed ones;
+- edges with no curve whose fins carry trimmed curves: 27;
+- `SWEPT_SURF`: 311 faces, all Dekor;
+- `BLENDED_EDGE`: 33 faces.
+
+None has a STEP export to compare against. They can be checked against the display mesh, as in
+EXP-074, once evaluated. A controlled model per type, exported to STEP the same way as C13–C16,
+would settle each one directly.
+
+**Located, 2026-10-03 (EXP-077).** INTERSECTION = two surfaces + a CHART of exact points (on both
+surfaces to 3e-15 m) + two LIMITs. Curveless edges are tolerant edges: one 2D SP_CURVE per fin,
+agreeing within the edge tolerance. What remains is writing them and evaluating SWEPT_SURF and
+BLENDED_EDGE. chainwheel (pre-2011) adds 120 more INTERSECTION curves.
+
+Since EXP-076 these are also what stands between the real parts and exact STEP: INTERSECTION
+curves block distributor, Helical Bevel Gear, Pocket Wheel and USB hub BOTTOM; curveless edges
+block Dekor and USB hub TOP. Those 6 fall back to the display mesh. An INTERSECTION curve can be
+written to STEP as a B-spline through its stored chart points, or as an `INTERSECTION_CURVE` of its
+two surfaces; either needs the chart decoded and checked against the mesh first.
+
+**Not blocked** for the display-mesh check. Controlled models need SolidWorks.
+
+**Date raised**: 2026-10-03 (EXP-075).
+
+---
+
+## NQ-049 — resolved for the corpus, 2026-10-04 (EXP-078)
+
+INTERSECTION curves, tolerant edges, SWEPT_SURF (linear extrusions) and BLENDED_EDGE (rolling-ball
+blends) are evaluated and written; all 10 real parts with a solid export exact STEP. Open within it:
+only one `E`-type blend and one radius-0 support exist; no swept surface with a non-planar section;
+no tolerant edge on a cone or sphere. A controlled model per case would settle each.
+
+## NQ-050 — Which feature owns each ghost-partition body, and what is the default origin vertex?
+
+EXP-078: `Config-0-GhostPartition` holds wire and sheet bodies (`body_type` 2 and 3) that coincide
+with feature inputs: C16's two loft profiles and their planes, Helical Bevel Gear's section planes
+and circular wires, Pocket Wheel's conical sheet and wires. 61 files hold only one wire body made of
+a single vertex at the origin (INT attribute 10001; six of them, 10001–10006, in distributor).
+
+Open: which feature each body belongs to (the attribute `GHOST_REF_BODY_ID_2001` is the likely
+key, to be matched against the feature tree), why one Gear plane and Pocket Wheel's cone match no
+part surface, and what the origin vertex stands for. Settling it needs the feature tree decoded far
+enough to read feature body references.
+
+**Date raised**: 2026-10-04 (EXP-078).
+
+## NQ-051 — 231 interior and 11 boundary display vertices off the exact surfaces
+
+EXP-078 explains every other off-surface display vertex (7,065 boundary chord points). The rest:
+Dekor 59 (cylinder 46, B-spline 13; up to 25 µm), chainwheel 57, Helical Bevel Gear 47, USB hub TOP 38
+(plus 2 boundary), Pocket Wheel 27, distributor 3, chainwheel 9 boundary. Candidates: interior
+points SolidWorks moved for mesh quality after sampling, or float32 rounding chains on long strips.
+
+**Date raised**: 2026-10-04 (EXP-078).

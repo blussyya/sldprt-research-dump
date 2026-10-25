@@ -1,0 +1,181 @@
+{
+ "experiment": "EXP-079 part A",
+ "date": "2026-10-04T12:39:35.119Z",
+ "parts": {
+  "TOP": {
+   "sha256": {
+    "sldprt": "b2928e16b72dd92f085e5d3cb83c101777acf075d2abf1b268563fdd564c14fc",
+    "step": "95d6ba4a160764f9d85ba42e87b7e5a65e74d218d362fc9a64c689769704685c"
+   },
+   "vertices": {
+    "native": 82,
+    "step": 149,
+    "nativeMatched": 82,
+    "worst": 3.469446951953614e-18
+   },
+   "uncertainty": "1.000000000000000082E-05",
+   "swCurves": {
+    "count": 22,
+    "worstDeviation": 9.802350208115174e-7,
+    "ctrl": [
+     3,
+     8,
+     8,
+     8,
+     8,
+     4,
+     6,
+     28,
+     35,
+     3,
+     4,
+     8,
+     8,
+     14,
+     16,
+     6,
+     8,
+     10,
+     10,
+     6,
+     4,
+     3
+    ],
+    "oursCtrl": [
+     66,
+     70,
+     62,
+     60,
+     70,
+     18,
+     18,
+     180,
+     166,
+     34,
+     18,
+     70,
+     60,
+     76,
+     72,
+     62,
+     70,
+     42,
+     42,
+     38,
+     180,
+     66
+    ]
+   },
+   "swSurfaces": [
+    {
+     "deg": [
+      2,
+      3
+     ],
+     "ctrl": [
+      3,
+      10
+     ],
+     "rational": true
+    },
+    {
+     "deg": [
+      3,
+      2
+     ],
+     "ctrl": [
+      10,
+      3
+     ],
+     "rational": true
+    },
+    {
+     "deg": [
+      2,
+      3
+     ],
+     "ctrl": [
+      3,
+      10
+     ],
+     "rational": true
+    }
+   ],
+   "oursBlends": [
+    {
+     "form": "rational arc × cubic",
+     "deviation": 1.458563243274258e-9,
+     "ctrl": [
+      17,
+      3
+     ]
+    }
+   ],
+   "volumeMm3": {
+    "native": 11712.62793550678,
+    "solidworksStep": 11712.648479222462
+   },
+   "ours": {
+    "bytes": 176970,
+    "roundTrip": true
+   },
+   "swBytes": 240865
+  },
+  "BOTTOM": {
+   "sha256": {
+    "sldprt": "851f385248ed25cf7c9a2677df3169738c139f34120cb8734ae6ef89d26521a1",
+    "step": "14efb7778b7d7dbdcb14fbf112691026aa03f5f8854194ea132b85c805476c1a"
+   },
+   "vertices": {
+    "native": 40,
+    "step": 88,
+    "nativeMatched": 40,
+    "worst": 3.576224061345498e-18
+   },
+   "uncertainty": "1.000000000000000082E-05",
+   "swCurves": {
+    "count": 12,
+    "worstDeviation": 8.640762710649286e-7,
+    "ctrl": [
+     10,
+     8,
+     12,
+     18,
+     12,
+     16,
+     12,
+     8,
+     10,
+     12,
+     10,
+     10
+    ],
+    "oursCtrl": [
+     72,
+     62,
+     50,
+     64,
+     72,
+     64,
+     50,
+     64,
+     62,
+     72,
+     64,
+     72
+    ]
+   },
+   "swSurfaces": [],
+   "oursBlends": [],
+   "volumeMm3": {
+    "native": 6967.866949501911,
+    "solidworksStep": 6967.885993041396
+   },
+   "ours": {
+    "bytes": 83947,
+    "roundTrip": true
+   },
+   "swBytes": 141968
+  }
+ }
+}

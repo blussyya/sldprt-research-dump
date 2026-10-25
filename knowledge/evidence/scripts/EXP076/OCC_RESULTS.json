@@ -1,0 +1,1351 @@
+{
+ "experiment": "EXP-076",
+ "date": "2026-10-03",
+ "summary": {
+  "models": 49,
+  "oursValidSingleSolid": 49,
+  "naiveValidSingleSolid": 45,
+  "solidworksValid": 49,
+  "booleanDifferenceZero": 49,
+  "occVolumeEqualRel1e12": 47,
+  "occVolumeDiffers": [
+   {
+    "model": "SW2011/C20_cylinders_crossed",
+    "ours": 2474.9261208074013,
+    "solidworks": 2474.926039660644,
+    "common": 2474.9261332565256
+   },
+   {
+    "model": "SW2022/C20_cylinders_crossed",
+    "ours": 2474.9261208074013,
+    "solidworks": 2474.926039660644,
+    "common": 2474.9261332565256
+   }
+  ]
+ },
+ "rows": [
+  {
+   "model": "SW2011/C00_cube_10mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 1000.0000000000003
+  },
+  {
+   "model": "SW2011/C01_cube_20mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 8000.000000000003
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 8000.000000000003
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 8000.000000000003
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 8000.000000000003
+  },
+  {
+   "model": "SW2011/C02_cube_translated",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 1000.0000000000003
+  },
+  {
+   "model": "SW2011/C03_cube_fillet_1mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339745
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339749
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339745
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 997.8539816339745
+  },
+  {
+   "model": "SW2011/C04_cube_hole_5mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 803.6504591506381
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 803.6504591506383
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 803.6504591506381
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 803.6504591506383
+  },
+  {
+   "model": "SW2011/C05_cube_hole_3mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 929.3141652942297
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 929.3141652942301
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 929.3141652942297
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 929.3141652942301
+  },
+  {
+   "model": "SW2011/C06_cube_hole_moved",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 803.6504591506382
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 803.6504591506382
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 803.6504591506382
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 803.6504591506382
+  },
+  {
+   "model": "SW2011/C07_cube_two_holes",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 607.3009183012762
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 10,
+    "volume": 607.3009183012763
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 607.3009183012762
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 607.3009183012763
+  },
+  {
+   "model": "SW2011/C08_cube_second_hole_modified",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 732.96462444488
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 10,
+    "volume": 732.964624444868
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 732.96462444488
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 732.9646244448797
+  },
+  {
+   "model": "SW2011/C09_cube_chamfer_1mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 995.0000000000003
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 995.0000000000002
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 995.0000000000003
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 995.0000000000003
+  },
+  {
+   "model": "SW2011/C10_cube_shell_1mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 11,
+    "volume": 423.9999999999999
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 11,
+    "volume": 423.99999999999983
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 11,
+    "volume": 423.9999999999999
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 423.9999999999999
+  },
+  {
+   "model": "SW2011/C11_cube_hole_4mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 874.3362938564085
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 874.3362938564085
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 874.3362938564085
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 874.3362938564086
+  },
+  {
+   "model": "SW2011/C12_cube_fillet_1mm_edge2",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339744
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339745
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339744
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 997.8539816339744
+  },
+  {
+   "model": "SW2011/C13_cone",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 2,
+    "volume": 261.7993877991495
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 3,
+    "volume": 261.79938779914943
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 2,
+    "volume": 261.79938779914943
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 261.7993877991494
+  },
+  {
+   "model": "SW2011/C14_sphere",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 2,
+    "volume": 523.598775598299
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 2,
+    "volume": 523.5987755982989
+   },
+   "naive": {
+    "read": true,
+    "valid": false,
+    "solids": 0,
+    "faces": 0,
+    "volume": 0.0
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 523.598775598299
+  },
+  {
+   "model": "SW2011/C15_torus",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 394.7841760435744
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 394.7841760435744
+   },
+   "naive": {
+    "read": true,
+    "valid": false,
+    "solids": 0,
+    "faces": 0,
+    "volume": 0.0
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 394.7841760435744
+  },
+  {
+   "model": "SW2011/C16_loft_spline",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 893.8271803471491
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 893.8271803471488
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 893.8271803471491
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 893.8271803471491
+  },
+  {
+   "model": "SW2011/C17_torus_quarter",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 3,
+    "volume": 98.69604401089362
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 98.69604401089362
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 3,
+    "volume": 98.69604401089362
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 98.69604401089364
+  },
+  {
+   "model": "SW2011/C18_cube_split_line",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 1000.0000000000002
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 1000.0000000000002
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 1000.0000000000002
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 1000.0000000000002
+  },
+  {
+   "model": "SW2011/C19_half_cylinder",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 392.6990816987243
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 5,
+    "volume": 392.69908169872417
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 392.6990816987243
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 392.69908169872417
+  },
+  {
+   "model": "SW2011/C20_cylinders_crossed",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 2474.9261208074013
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 12,
+    "volume": 2474.926039660644
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 2474.9261208074013
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 2474.9261332565256
+  },
+  {
+   "model": "SW2011/C21_cylinder_fillet",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 778.9574334197121
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 778.9574334197121
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 778.9574334197121
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 778.9574334197121
+  },
+  {
+   "model": "SW2011/C22_cube_sw2011_native",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 1000.0000000000003
+  },
+  {
+   "model": "SW2011/C25_cone_sw2011_native",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 2,
+    "volume": 261.7993877991495
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 3,
+    "volume": 261.79938779914943
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 2,
+    "volume": 261.79938779914943
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 261.7993877991494
+  },
+  {
+   "model": "SW2011/C26_cube_hole_sw2011_native",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 803.6504591506381
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 803.6504591506383
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 803.6504591506381
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 803.6504591506383
+  },
+  {
+   "model": "SW2022/C00_cube_10mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 1000.0000000000003
+  },
+  {
+   "model": "SW2022/C01_cube_20mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 8000.000000000003
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 8000.000000000003
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 8000.000000000003
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 8000.000000000003
+  },
+  {
+   "model": "SW2022/C02_cube_translated",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 1000.0000000000003
+  },
+  {
+   "model": "SW2022/C03_cube_fillet_1mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339745
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339749
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339745
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 997.8539816339745
+  },
+  {
+   "model": "SW2022/C04_cube_hole_5mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 803.6504591506382
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 803.6504591506382
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 803.6504591506382
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 803.6504591506383
+  },
+  {
+   "model": "SW2022/C05_cube_hole_3mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 929.3141652942298
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 929.31416529423
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 929.3141652942298
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 929.3141652942301
+  },
+  {
+   "model": "SW2022/C06_cube_hole_moved",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 803.6504591506382
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 803.6504591506382
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 803.6504591506382
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 803.6504591506382
+  },
+  {
+   "model": "SW2022/C07_cube_two_holes",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 607.3009183012762
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 10,
+    "volume": 607.300918301276
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 607.3009183012762
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 607.3009183012763
+  },
+  {
+   "model": "SW2022/C08_cube_second_hole_modified",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 732.9646244448799
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 10,
+    "volume": 732.9646244448678
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 732.9646244448799
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 732.9646244448799
+  },
+  {
+   "model": "SW2022/C09_cube_chamfer_1mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 995.0000000000001
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 995.0000000000001
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 995.0000000000001
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 995.0000000000001
+  },
+  {
+   "model": "SW2022/C10_cube_shell_1mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 11,
+    "volume": 423.9999999999999
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 11,
+    "volume": 423.99999999999983
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 11,
+    "volume": 423.9999999999999
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 423.9999999999999
+  },
+  {
+   "model": "SW2022/C11_cube_hole_4mm",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 874.3362938564085
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 874.3362938564085
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 874.3362938564085
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 874.3362938564086
+  },
+  {
+   "model": "SW2022/C12_cube_fillet_1mm_edge2",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339744
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339745
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 997.8539816339744
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 997.8539816339744
+  },
+  {
+   "model": "SW2022/C13_cone",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 2,
+    "volume": 261.7993877991495
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 3,
+    "volume": 261.79938779914943
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 2,
+    "volume": 261.79938779914943
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 261.7993877991494
+  },
+  {
+   "model": "SW2022/C14_sphere",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 2,
+    "volume": 523.598775598299
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 2,
+    "volume": 523.5987755982989
+   },
+   "naive": {
+    "read": true,
+    "valid": false,
+    "solids": 0,
+    "faces": 0,
+    "volume": 0.0
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 523.598775598299
+  },
+  {
+   "model": "SW2022/C15_torus",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 394.7841760435744
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 394.7841760435744
+   },
+   "naive": {
+    "read": true,
+    "valid": false,
+    "solids": 0,
+    "faces": 0,
+    "volume": 0.0
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 394.7841760435744
+  },
+  {
+   "model": "SW2022/C16_loft_spline",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 739.8187610506956
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 739.8187610506955
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 739.8187610506956
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 739.8187610506956
+  },
+  {
+   "model": "SW2022/C17_torus_quarter",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 3,
+    "volume": 98.69604401089362
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 98.69604401089362
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 3,
+    "volume": 98.69604401089362
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 98.69604401089364
+  },
+  {
+   "model": "SW2022/C18_cube_split_line",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 1000.0000000000002
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 1000.0000000000002
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 7,
+    "volume": 1000.0000000000002
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 1000.0000000000002
+  },
+  {
+   "model": "SW2022/C19_half_cylinder",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 392.6990816987243
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 5,
+    "volume": 392.69908169872417
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 392.6990816987243
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 392.69908169872417
+  },
+  {
+   "model": "SW2022/C20_cylinders_crossed",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 2474.9261208074013
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 12,
+    "volume": 2474.926039660644
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 8,
+    "volume": 2474.9261208074013
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 2474.9261332565256
+  },
+  {
+   "model": "SW2022/C21_cylinder_fillet",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 778.9574334197121
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 778.9574334197121
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 4,
+    "volume": 778.9574334197121
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 778.9574334197121
+  },
+  {
+   "model": "SW2022/C23_cube_sw2011_to_2022",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 1000.0000000000003
+  },
+  {
+   "model": "SW2022/C24_cube_sw2022_native",
+   "ours": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "solidworks": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "naive": {
+    "read": true,
+    "valid": true,
+    "solids": 1,
+    "faces": 6,
+    "volume": 1000.0000000000003
+   },
+   "oursMinusSolidworks": 0.0,
+   "solidworksMinusOurs": 0.0,
+   "commonVolume": 1000.0000000000003
+  }
+ ]
+}

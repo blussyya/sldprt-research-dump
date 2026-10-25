@@ -1,5 +1,82 @@
 # Research Handoff
 
+## Current checkpoint — 2026-10-05 UTC, EXP-081 (Config-0), EXP-080 (upgrade), EXP-079 (feature tree)
+
+All 49 controlled models (25 SW2011, 24 SW2022) now read byte-exact in both Config-0 and
+Config-0-ResolvedFeatures. Config-0's index sequence ends exactly where the feature stream starts in
+every file, which proves the object structure of both, and gives the SW2011 first index directly
+(`probe0.js`, `config0.js`, EXP-081). Still stepped over: the document-properties block (moRelMgr_c)
+and a few fitted tails. Next: decode the document properties, then production parts in
+"test files original", then the FreeCAD export.
+
+## Checkpoint — 2026-10-05 UTC, EXP-080 (2011 → 2022 upgrade) and EXP-079 (feature tree)
+
+The feature tree reader (`knowledge/evidence/scripts/EXP079/`, `node probe.js "<model.SLDPRT>"`) reads
+all 24 SW2022 controlled models and 13 of the 25 SW2011 ones strictly from the first byte to the last.
+SW2011 layouts live under `r.legacy`; the SW2011 first index is recovered from the stream. New tools:
+`compare.js` (field-by-field diff of two feature trees), `fieldtrace.js` (every field with its
+offset), `load.js` (load either generation). EXP-080 documents what SW2022 does to a SW2011 file when
+it re-saves it, using C22 (2011), C23 (its 2022 re-save) and C24 (native 2022). It covers the stream
+inventory, the small streams byte by byte, the layout differences class by class, what survives from
+2011, and what the upgrade sets. Next: the remaining SW2011 feature readers (fillet, chamfer, shell,
+revolve, loft, split line); Config-0's archive (which would give the SW2011 first index directly and
+explain the rest of the upgrade); then production parts. Postponed (no SolidWorks machine for now):
+re-saving C22 in 2022 with a full rebuild, to settle what node flag bit 31 means.
+
+## Checkpoint — 2026-10-04 UTC, EXP-079 (feature tree, in progress)
+
+Exact STEP now writes blends and curves in SolidWorks' own forms at our tolerance (EXP-079 part A,
+in `package/`). The feature tree reader is under way in `knowledge/evidence/scripts/EXP079/`: run
+`node probe.js "<model.SLDPRT>"` from that folder. It reads all 24 SW2022 controlled models
+(C00–C24, including C23 upgraded from SW2011) strictly from the first byte to the last: sketches
+on planes and faces, extrude, cut, revolve, loft, fillet, chamfer, shell, split line, offset
+planes, face and edge naming, dimensions. The note's sections from "The sequential reader" on have
+the layouts. Key rules: the index sequence starts at the stream's first u32, low class numbers are
+inline objects of pre-loaded classes, index 1 is the document. SW2011-saved files have no first
+index; probe.js recovers it from the stream (see "SW2011 files"), and the shorter SW2011 class
+layouts are being added under `r.legacy`. Next: finish the SW2011 set, read Config-0's archive
+(which would give the SW2011 first index directly), then production parts. Still fitted rather
+than explained: face/edge name tails, the split-line rep slot count, the dimension placement block.
+All work goes to dump staging; the main repo only gets it when the format is done.
+
+## Checkpoint — 2026-10-04 UTC, EXP-078
+
+Every real part with a solid now exports exact STEP ([EXP-078](evidence/2026-10-04_v0.5-EXP078.md)):
+intersection curves marched from their charts (1e-9 m), tolerant edges from the fin SP curves,
+SWEPT_SURF as linear extrusions, BLENDED_EDGE as rolling-ball blends fitted to 1e-8 m. OpenCascade
+reads all 10 as valid single solids. The mesh joins the B-rep in every version by edge IDs
+(INV-029). The ghost partition holds feature input geometry, not the solid (NQ-050). The package
+side of this is committed locally in sldprt-format-research (`6604ad0`) but not pushed; the user
+merges the dump first and updates the main repo write-up after. Next: the feature tree.
+
+## Checkpoint — 2026-10-03 UTC, EXP-077
+
+Every geometry-bearing stream in the corpus is now read ([EXP-077](evidence/2026-10-03_v0.5-EXP077.md)).
+Pre-2011 streams are PKWARE implode; chainwheel's body is base-schema 13006 neutral binary and
+plate4's is a Parasolid 9 little-endian bare binary file in stream `Default`; both meshes read in
+older face-record variants; SW2000-s01 is empty. INTERSECTION curves are two surfaces plus exact
+chart points; curveless edges are tolerant edges with a 2D curve per fin. Next: march intersection
+curves and write tolerant edges as STEP surface curves, then SWEPT_SURF and BLENDED_EDGE.
+
+## Checkpoint — 2026-10-03 UTC, EXP-076
+
+The package now writes exact STEP from the native body ([EXP-076](evidence/2026-10-03_v0.5-EXP076.md), INV-028).
+On all 49 controlled models the file reads back as the body, OpenCascade reads it as one valid
+solid, and the boolean difference with SolidWorks' export is zero. The first writer got 42/49; the
+7 failures were the cone apex (a loop with no edge) and whole spheres/tori (faces with no loops).
+Exact volumes come from a tessellation-free integrator and match closed forms to 4e-15. Real parts:
+PTC and cube are exact; 6 others fall back to the mesh because of INTERSECTION curves or curveless
+edges. Next: NQ-049, starting with the INTERSECTION chart, checked against the display mesh.
+
+## Checkpoint — 2026-10-03 UTC, EXP-075
+
+The decoded native body equals SolidWorks' STEP export on all 49 controlled models, modulo seam
+splitting, worst deviation 9e-18 m, with 20/20 controls detected ([EXP-075](evidence/2026-10-03_v0.5-EXP075.md), INV-027). The
+readers, converter and viewers now live as one package in sldprt-format-research (`src/`,
+`bin/sldprt.js`); research scripts here vendor a snapshot of the modules they use. Next: an exact
+STEP writer from the native body, validated by reading its output back against the body and
+against SolidWorks' volumes; then NQ-049, the production-only geometry types.
+
 ## Current checkpoint — 2026-09-29 UTC, EXP-074
 
 [EXP-074](evidence/2026-09-29_v0.4.9-EXP074.md) joins `parser/v0.3`'s display layer to the EXP-071 native decode. Display `rawId` = native FACE `node_id` (142/142 SW2022, 1272/1272 original), metadata and Block1 edge IDs = native edge sets, every tag maps to one native surface type (4007 = BLENDED_EDGE, 4009 = SWEPT_SURF, identified here), and analytic faces carry the display mesh to ≤ 2.5e-8 m with 0 opposed normals. Off-surface display vertices are boundary chord points (158/158 SW2022; 314 original vertices still unexplained); declared tolerance does not explain them. The partition section frame is decoded (Partition = partition + deltas, Ghost = partition, 8 zero tail bytes); PTC's body is in `Config-0-FeatureBodies/LocalBodies`, answering EXP-073's body-authority question for that file. Next: NQ-048 (ResolvedFeatures 1-face bodies, LocalBodies prefix), the 314 off-chord vertices, evaluation of B/swept/blended surfaces, legacy SW2011 metadata. No invariant was promoted.

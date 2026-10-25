@@ -1,0 +1,22 @@
+node:fs:1597
+  const result = binding.readdir(
+                         ^
+
+Error: ENOENT: no such file or directory, scandir '../../../../test files new/SW2022'
+    at Object.readdirSync (node:fs:1597:26)
+    at walk (/home/claude/sldprt-research-dump/knowledge/evidence/scripts/EXP079/sketch-scan.js:44:18)
+    at Object.<anonymous> (/home/claude/sldprt-research-dump/knowledge/evidence/scripts/EXP079/sketch-scan.js:46:16)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '../../../../test files new/SW2022'
+}
+
+Node.js v22.22.0

@@ -1290,3 +1290,102 @@ No confidence claimed about B-rep equivalence — explicitly not demonstrated.
 
 **Raw evidence**: `knowledge/evidence/2026-09-20_converter-v0.1-EXP053.md`,
 `converter/v0.1/VALIDATION.json`, `converter/v0.1/README.md`
+
+---
+
+## EXP-075 — The native body against SolidWorks' STEP export
+
+**Question**: Is the body decoded from `Config-0-Partition` the part SolidWorks itself exports to STEP?
+
+**Result**: 49/49 controlled models correspond modulo seam splitting at 1e-8 m. The worst
+deviation is 9.0e-18 m, which is double-precision rounding. B-spline control nets and knots are
+identical. 20/20 controls (mutations of 1e-7 m or less, wrong-model pairings) are detected. A
+first version accepted a split-line edge as a seam; seams are now restricted to closed surfaces.
+Promoted as INV-027.
+
+**Files tested**: 25 SW2011 + 24 SW2022 controlled models, `model.SLDPRT` and `model.step`.
+
+**Known gaps**: production-only types (NQ-049).
+
+**Date**: 2026-10-03
+
+**Raw evidence**: `knowledge/evidence/2026-10-03_v0.5-EXP075.md`, `knowledge/evidence/scripts/EXP075/`
+
+---
+
+## EXP-076 — Exact STEP written from the native body
+
+**Question**: Can the decoded body be written as exact STEP that is the same solid as SolidWorks' export?
+
+**Result**: A one-to-one writer round-tripped 42/49 controlled models. The 7 failures were two
+missing translation rules: the cone apex is a Parasolid loop with one fin and no edge (3 files),
+and a whole sphere or torus is a face with no loops, which STEP cannot express (4 files). With
+vertex loops and sphere/torus splitting, 49/49 read back as the native body at 1e-8 m, OpenCascade
+reads all 49 as valid single solids, and the boolean difference with SolidWorks' `model.step` is 0
+both ways on 49/49. A new exact volume integrator (divergence + Green's theorem in surface
+parameters, no tessellation) agrees with SolidWorks' STEP to 5.6e-15 and with closed forms to
+4.3e-15. OpenCascade's own volume differs only on C20, where it gives three values for three
+decompositions of one solid. C16's tolerant loft edges bound its volume to about 0.025 mm³.
+Production: 2 of 8 independent real parts with a body are exact; the other 6 are blocked by
+INTERSECTION curves or curveless edges (NQ-049). Promoted as INV-028.
+
+**Files tested**: 49 controlled models; 24 files in `test files original/`.
+
+**Known gaps**: NQ-049 types; no colours, names or assemblies.
+
+**Date**: 2026-10-03
+
+**Raw evidence**: `knowledge/evidence/2026-10-03_v0.5-EXP076.md`, `knowledge/evidence/scripts/EXP076/`
+
+---
+
+## EXP-077 — Where the remaining geometry is stored
+
+**Question**: Where do the pre-2011 parts keep their body and mesh, and what is stored for INTERSECTION curves and curveless edges?
+
+**Result**: Pre-2011 streams are PKWARE DCL implode, not zlib (decoder consumes 3/3 streams
+exactly). chainwheel's `Config-0-Body` is neutral binary written in schema 13006 itself (no edit
+scripts; LIST has twelve fields); plate4's body is stream `Default`, a Parasolid 9 little-endian
+bare binary file with five layout differences from 13006. Both parse to the last byte with 0 graph
+failures; plate4 exports exact STEP (38,400,000 mm³, OpenCascade agrees). Both meshes read
+(189/189, 14/14 faces) in two older face-record variants. SW2000-s01 is an empty part. INTERSECTION
+curves are two surfaces plus a CHART of points that lie on both surfaces to 3e-15 m (2,170 points,
+392 curves). The 27 curveless edges are tolerant edges with a 2D SP_CURVE per fin; trim points match
+to 1e-16 m and the two fin curves agree within tolerance on 27/27. No invariant promoted.
+
+**Files tested**: the 3 pre-2011 parts; the 7 real parts with INTERSECTION curves or tolerant edges.
+
+**Known gaps**: writing intersections and tolerant edges; SWEPT_SURF, BLENDED_EDGE; strip control 0.
+
+**Date**: 2026-10-03
+
+**Raw evidence**: `knowledge/evidence/2026-10-03_v0.5-EXP077.md`, `knowledge/evidence/scripts/EXP077/`
+
+---
+
+## EXP-078 — Exact STEP for every real part, the mesh joined in every version, the ghost partition
+
+**Question**: Can INTERSECTION curves, tolerant edges, SWEPT_SURF and BLENDED_EDGE be written so every real part exports exact STEP; can the mesh join the B-rep without face IDs; what is the ghost partition?
+
+**Result**: 10/10 real parts with a solid export exact STEP that reads back as the body and that
+OpenCascade reads as one valid solid; volumes agree with OpenCascade to 3e-8 (Dekor: its analytic
+routine is unstable on extrusions, its triangulation converges on ours; USB TOP 3e-7, tolerant
+edges). Intersections are marched from their charts and fitted to 1e-9 m; tolerant edges come from
+the positive fin's SP curve; SWEPT_SURF is a linear extrusion (311/311 orientations agree with the
+mesh); BLENDED_EDGE is a rolling ball of radius |range| about the spine (every Pocket Wheel interior
+vertex 8.0000 mm from it), fitted as a bicubic B-spline to 1e-8 m. Findings: rational control
+points are homogeneous; BLEND_BOUND `boundary` is 1-based; blend normals point away from the spine;
+a trimmed curve's direction is the product of its and its basis' senses. Every off-surface display
+boundary vertex is a chord point (7,065), settling EXP-074's 314; 11 boundary and 231 interior
+vertices remain. Legacy Block1 edge IDs are EDGE node_ids, so the mesh joins the B-rep by edge set:
+1,762/1,762 faces in 72 parts (INV-029). The ghost partition holds feature input geometry (profile
+wires, section sheets, reference surfaces) and a default single origin vertex.
+
+**Files tested**: 10 real parts with a solid; 72 files for the join; 73 for the ghost survey.
+
+**Known gaps**: one example each of an `E` blend and a radius-0 support; 242 unexplained mesh
+vertices; ghost body ownership (NQ-050).
+
+**Date**: 2026-10-04
+
+**Raw evidence**: `knowledge/evidence/2026-10-04_v0.5-EXP078.md`, `knowledge/evidence/scripts/EXP078/`

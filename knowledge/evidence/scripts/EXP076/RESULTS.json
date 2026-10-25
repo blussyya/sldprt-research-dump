@@ -1,0 +1,2714 @@
+{
+ "experiment": "EXP-076",
+ "date": "2026-10-03",
+ "summary": {
+  "models": 49,
+  "naiveRoundTrip": 42,
+  "fullRoundTrip": 49,
+  "naiveFailures": [
+   "SW2011/C13_cone: vertex 19: nearest STEP vertex #4 is 1.12e-2 m away",
+   "SW2011/C14_sphere: native face 31 (sphere): no STEP face on it",
+   "SW2011/C15_torus: native face 10 (torus): no STEP face on it",
+   "SW2011/C25_cone_sw2011_native: vertex 19: nearest STEP vertex #4 is 1.12e-2 m away",
+   "SW2022/C13_cone: vertex 23: nearest STEP vertex #4 is 1.12e-2 m away",
+   "SW2022/C14_sphere: native face 34 (sphere): no STEP face on it",
+   "SW2022/C15_torus: native face 12 (torus): no STEP face on it"
+  ],
+  "worstOursVsSolidworksRel": 5.645272522619015e-15,
+  "worstOursVsClosedFormRel": 4.342517325091521e-15,
+  "closedFormModels": 24
+ },
+ "rows": [
+  {
+   "model": "SW2011/C00_cube_10mm",
+   "sha256": {
+    "sldprt": "7054cfc0fb771980a2170df80a8fc38718225a2d193213834245334257604bf5",
+    "step": "10fc6653a308d88efbb17a7859830fb2071f8623405826b5565268acf3494889"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 1000.0000000000008,
+    "ours": 1000.0000000000008,
+    "solidworksStep": 1000.0000000000008,
+    "closedForm": 1000,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": 7.958078640513122e-13
+   }
+  },
+  {
+   "model": "SW2011/C01_cube_20mm",
+   "sha256": {
+    "sldprt": "1841f3ef52c46512d2a7544d54c2ef7ab817f376c82ad3e3e15e68d2c01d0729",
+    "step": "e2c828c30b7b782c10838c000cedb8a3c88fa68886ef82b57439001800255512"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 8000.000000000006,
+    "ours": 8000.000000000006,
+    "solidworksStep": 8000.000000000006,
+    "closedForm": 8000,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": 6.366462912410498e-12
+   }
+  },
+  {
+   "model": "SW2011/C02_cube_translated",
+   "sha256": {
+    "sldprt": "5b088c2eb8bdf4d0709f38d8583ff43b559e9fbdd852b0ca3b0de53ca1214e2e",
+    "step": "292598812fb1e45a1da0ba9e9c2e33e12546d02876687ca9bfa600f563b8f205"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 1000.0000000000118,
+    "ours": 1000.0000000000118,
+    "solidworksStep": 1000.0000000000118,
+    "closedForm": null,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C03_cube_fillet_1mm",
+   "sha256": {
+    "sldprt": "456a2c8cef38cbaa7b375a2632ee8f044a2513687935016ba74c2a24730b75b0",
+    "step": "9948147aaf7bbd416e1e424f564d92991fb9ad1520839f770429b730a7b5b13a"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "circle": 2,
+      "line": 13
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "circle": 2,
+      "line": 13
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 997.8539816339752,
+    "ours": 997.8539816339754,
+    "solidworksStep": 997.8539816339756,
+    "closedForm": null,
+    "oursMinusSolidworks": -2.2737367544323206e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C04_cube_hole_5mm",
+   "sha256": {
+    "sldprt": "b472a5bb9a1e5bfd6e210042f5d1cc0e52bc8ec5fcc819d1d652e82c7218a55e",
+    "step": "a9f3060196cac89886331b5435d7f15387b949d7464c22f992ed77f2cf68be0e"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 803.6504591506388,
+    "ours": 803.6504591506388,
+    "solidworksStep": 803.6504591506389,
+    "closedForm": 803.650459150638,
+    "oursMinusSolidworks": -1.1368683772161603e-13,
+    "oursMinusClosedForm": 7.958078640513122e-13
+   }
+  },
+  {
+   "model": "SW2011/C05_cube_hole_3mm",
+   "sha256": {
+    "sldprt": "b9b08de9eff27b10f790f772a7b97b437133b5ba7d89d9cfd3177ef4ec97908b",
+    "step": "fa471b0a61876d631f62c9a7d8e08d958a34be65d6f5504604ef142a6fd854bf"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 929.3141652942303,
+    "ours": 929.3141652942303,
+    "solidworksStep": 929.3141652942309,
+    "closedForm": 929.3141652942296,
+    "oursMinusSolidworks": -5.684341886080801e-13,
+    "oursMinusClosedForm": 6.821210263296962e-13
+   }
+  },
+  {
+   "model": "SW2011/C06_cube_hole_moved",
+   "sha256": {
+    "sldprt": "60c71002393a2618fdda2a587bbe925592617bcaf6c4c38d5e17c713431b8ee7",
+    "step": "5ec71f689643592a44c6dbf2109b605d5aa047db75ef19ac91be45796ddb777b"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 803.650459150639,
+    "ours": 803.650459150639,
+    "solidworksStep": 803.650459150637,
+    "closedForm": null,
+    "oursMinusSolidworks": 2.0463630789890885e-12,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C07_cube_two_holes",
+   "sha256": {
+    "sldprt": "ebcb5f13ab28f078ae9f2f8f4b4f68fa8e0bd083a655f65097a3c51b1af22cf0",
+    "step": "cb87276f0d1345b4b96b121ab4988a1ac3ef61ef68dd5967bc0efb07bbbaaaaa"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 16,
+     "vertices": 12,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 2
+     },
+     "curves": {
+      "line": 12,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 16,
+     "vertices": 12,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 2
+     },
+     "curves": {
+      "line": 12,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 607.3009183012771,
+    "ours": 607.3009183012771,
+    "solidworksStep": 607.3009183012784,
+    "closedForm": null,
+    "oursMinusSolidworks": -1.3642420526593924e-12,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C08_cube_second_hole_modified",
+   "sha256": {
+    "sldprt": "b01658e263595eeee875a9cc1807d615ec5ae0feb4752fac6f85c3292d4a8276",
+    "step": "94efce62b5a51689d91569002ee7b44a7ea7b334d883f9c67ac792a9b9aeeb7f"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 16,
+     "vertices": 12,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 2
+     },
+     "curves": {
+      "line": 12,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 16,
+     "vertices": 12,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 2
+     },
+     "curves": {
+      "line": 12,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 732.9646244448688,
+    "ours": 732.9646244448688,
+    "solidworksStep": 732.9646244448678,
+    "closedForm": null,
+    "oursMinusSolidworks": 1.0231815394945443e-12,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C09_cube_chamfer_1mm",
+   "sha256": {
+    "sldprt": "2882ba660e04b907b40724aa92b162dc759db7e6e383fe0daec181e9d8994ce8",
+    "step": "29f17b68600117192f777739355b8aa2c9b9183fa2b617a9a6a889967862a64c"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 7
+     },
+     "curves": {
+      "line": 15
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 7
+     },
+     "curves": {
+      "line": 15
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 995.0000000000002,
+    "ours": 995.0000000000005,
+    "solidworksStep": 995.0000000000005,
+    "closedForm": 995,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": 4.547473508864641e-13
+   }
+  },
+  {
+   "model": "SW2011/C10_cube_shell_1mm",
+   "sha256": {
+    "sldprt": "5001239cf49ccc7e2f85d2f6bbf7ee63fdef51d7eb002389b0788071b0f4e15c",
+    "step": "8c2603ff4283ecb3a17bb955d0f8b909e1f76a0f3ad73557af5914af97c34f9f"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 11,
+     "edges": 24,
+     "vertices": 16,
+     "surfaces": {
+      "plane": 11
+     },
+     "curves": {
+      "line": 24
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 11,
+     "edges": 24,
+     "vertices": 16,
+     "surfaces": {
+      "plane": 11
+     },
+     "curves": {
+      "line": 24
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 424.00000000000017,
+    "ours": 423.9999999999999,
+    "solidworksStep": 423.99999999999994,
+    "closedForm": 424,
+    "oursMinusSolidworks": -5.684341886080802e-14,
+    "oursMinusClosedForm": -1.1368683772161603e-13
+   }
+  },
+  {
+   "model": "SW2011/C11_cube_hole_4mm",
+   "sha256": {
+    "sldprt": "fd324092ec6e6aa4c1fb138dd027023761420b5765fa2727c3c4cda39cf3e505",
+    "step": "4a7ed5df3c9aa37b8ba76e6ceeef5254cd5bcc39c1f8a52a113b08a01b685bb8"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 874.336293856409,
+    "ours": 874.336293856409,
+    "solidworksStep": 874.3362938564084,
+    "closedForm": null,
+    "oursMinusSolidworks": 6.821210263296962e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C12_cube_fillet_1mm_edge2",
+   "sha256": {
+    "sldprt": "355ac304653d6d236e2eefc5408be78011436e479d6f248bf51520edecbf5999",
+    "step": "3bec95c74a4a46dfe7f61bac1fb419abb4e3eb05445daab0e96f35680dc863b7"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "cylinder": 1,
+      "plane": 6
+     },
+     "curves": {
+      "circle": 2,
+      "line": 13
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "cylinder": 1,
+      "plane": 6
+     },
+     "curves": {
+      "circle": 2,
+      "line": 13
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 997.8539816339754,
+    "ours": 997.8539816339754,
+    "solidworksStep": 997.8539816339752,
+    "closedForm": null,
+    "oursMinusSolidworks": 2.2737367544323206e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C13_cone",
+   "sha256": {
+    "sldprt": "e241ae1143bae9d6492436779c305c31aa443151f9bc767ce2edcdd230d712fd",
+    "step": "1bc218510decffa126511e8ae40b34fe1daae51b371a7bcaeb54c86a133c2739"
+   },
+   "naive": {
+    "roundTrip": false,
+    "firstProblem": "vertex 19: nearest STEP vertex #4 is 1.12e-2 m away",
+    "report": {
+     "source": "brep",
+     "faces": 2,
+     "edges": 1,
+     "vertices": 2,
+     "surfaces": {
+      "cone": 1,
+      "plane": 1
+     },
+     "curves": {
+      "circle": 1
+     },
+     "seams": 0,
+     "ringVertices": 1,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 2,
+     "edges": 1,
+     "vertices": 2,
+     "surfaces": {
+      "cone": 1,
+      "plane": 1
+     },
+     "curves": {
+      "circle": 1
+     },
+     "seams": 0,
+     "ringVertices": 1,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 261.7993877991495,
+    "ours": 261.7993877991495,
+    "solidworksStep": 261.7993877991495,
+    "closedForm": 261.79938779914943,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": 5.684341886080802e-14
+   }
+  },
+  {
+   "model": "SW2011/C14_sphere",
+   "sha256": {
+    "sldprt": "4811427e99a684c8076a502f433c06c6887e1205bbe836d7c9acceb226471ca7",
+    "step": "10f4922bd9eedb591956d0086cbac63e9edf58aafa5396a9daed8068e7f46cb4"
+   },
+   "naive": {
+    "roundTrip": false,
+    "firstProblem": "native face 31 (sphere): no STEP face on it",
+    "report": {
+     "source": "brep",
+     "faces": 0,
+     "edges": 0,
+     "vertices": 0,
+     "surfaces": {},
+     "curves": {},
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 2,
+     "edges": 2,
+     "vertices": 2,
+     "surfaces": {
+      "sphere": 2
+     },
+     "curves": {
+      "circle": 2
+     },
+     "seams": 2,
+     "ringVertices": 0,
+     "splitFaces": 1
+    }
+   },
+   "volumeMm3": {
+    "native": 523.5987755982984,
+    "ours": 523.5987755982984,
+    "solidworksStep": 523.5987755982954,
+    "closedForm": 523.5987755982989,
+    "oursMinusSolidworks": 2.9558577807620168e-12,
+    "oursMinusClosedForm": -4.547473508864641e-13
+   }
+  },
+  {
+   "model": "SW2011/C15_torus",
+   "sha256": {
+    "sldprt": "7a8913cb596e547045b6e0c81aea11559b2c49350331334cd3cdcd2c33fa527e",
+    "step": "6239127702d4788ef802944f5929192ac0fc633e198e4d966b6e8b5e7156669b"
+   },
+   "naive": {
+    "roundTrip": false,
+    "firstProblem": "native face 10 (torus): no STEP face on it",
+    "report": {
+     "source": "brep",
+     "faces": 0,
+     "edges": 0,
+     "vertices": 0,
+     "surfaces": {},
+     "curves": {},
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 4,
+     "edges": 8,
+     "vertices": 4,
+     "surfaces": {
+      "torus": 4
+     },
+     "curves": {
+      "circle": 8
+     },
+     "seams": 8,
+     "ringVertices": 0,
+     "splitFaces": 1
+    }
+   },
+   "volumeMm3": {
+    "native": 394.7841760435746,
+    "ours": 394.7841760435746,
+    "solidworksStep": 394.7841760435746,
+    "closedForm": 394.78417604357435,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": 2.2737367544323206e-13
+   }
+  },
+  {
+   "model": "SW2011/C16_loft_spline",
+   "sha256": {
+    "sldprt": "3f7e6dc3be2bb6a584f277f0a4ab455013cdab9d551ee5d038c698e35d46f031",
+    "step": "c8b84e499647b2b5e197e74a6cfe85cc00c17938867970cd037fa1b17ef15ebd"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "bspline": 4,
+      "plane": 2
+     },
+     "curves": {
+      "line": 8,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "bspline": 4,
+      "plane": 2
+     },
+     "curves": {
+      "line": 8,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 893.8335970783622,
+    "ours": 893.8335970783622,
+    "solidworksStep": 893.8335970783623,
+    "closedForm": null,
+    "oursMinusSolidworks": -1.1368683772161603e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C17_torus_quarter",
+   "sha256": {
+    "sldprt": "c81ff69b02e1c71f004f6667f56053a2c6f3b525075a4954dd612cba5ad8f2dc",
+    "step": "32ab1260de05c11bebc5992ca741c7ba70f8db9449345a6630aeab65c4e9b137"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 3,
+     "edges": 2,
+     "vertices": 2,
+     "surfaces": {
+      "torus": 1,
+      "plane": 2
+     },
+     "curves": {
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 3,
+     "edges": 2,
+     "vertices": 2,
+     "surfaces": {
+      "torus": 1,
+      "plane": 2
+     },
+     "curves": {
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 98.69604401089384,
+    "ours": 98.69604401089384,
+    "solidworksStep": 98.69604401089364,
+    "closedForm": 98.69604401089359,
+    "oursMinusSolidworks": 1.9895196601282805e-13,
+    "oursMinusClosedForm": 2.5579538487363607e-13
+   }
+  },
+  {
+   "model": "SW2011/C18_cube_split_line",
+   "sha256": {
+    "sldprt": "68faf7994a15211583554edb8e46ba30258c20e803380fbd1d8a8683e8f0d583",
+    "step": "7c805701c7f783c4d28f33da8d7dedf8d81b6a3d327148a579f6d404a76ba47a"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 7
+     },
+     "curves": {
+      "line": 15
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 7
+     },
+     "curves": {
+      "line": 15
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 1000.0000000000008,
+    "ours": 1000.0000000000008,
+    "solidworksStep": 1000.0000000000008,
+    "closedForm": null,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C19_half_cylinder",
+   "sha256": {
+    "sldprt": "9d2882cf496006b302ebe6a2978f08703e8ec56b86d47bf7c5bb40b2e6795c3d",
+    "step": "b74de70a5a0d37f37012b3a2baf5094e49fd0ff14d82ac038f31bc1af0b4e9f2"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 4,
+     "edges": 6,
+     "vertices": 4,
+     "surfaces": {
+      "plane": 3,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 4,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 4,
+     "edges": 6,
+     "vertices": 4,
+     "surfaces": {
+      "plane": 3,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 4,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 392.69908169872247,
+    "ours": 392.69908169872247,
+    "solidworksStep": 392.6990816987225,
+    "closedForm": 392.69908169872417,
+    "oursMinusSolidworks": -5.684341886080802e-14,
+    "oursMinusClosedForm": -1.7053025658242404e-12
+   }
+  },
+  {
+   "model": "SW2011/C20_cylinders_crossed",
+   "sha256": {
+    "sldprt": "1c9e2d957e8c974502f441921288dc3ab68cf108958359acfbe01d1e0998bca5",
+    "step": "c760db1498f02fbfed5cbe533f3f569f36fc726e942707d9d991ef87b497f220"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 8,
+     "vertices": 6,
+     "surfaces": {
+      "cylinder": 4,
+      "plane": 4
+     },
+     "curves": {
+      "ellipse": 4,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 8,
+     "vertices": 6,
+     "surfaces": {
+      "cylinder": 4,
+      "plane": 4
+     },
+     "curves": {
+      "ellipse": 4,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 2474.92598692313,
+    "ours": 2474.92598692313,
+    "solidworksStep": 2474.925986923119,
+    "closedForm": 2474.925986923127,
+    "oursMinusSolidworks": 1.0913936421275139e-11,
+    "oursMinusClosedForm": 3.183231456205249e-12
+   }
+  },
+  {
+   "model": "SW2011/C21_cylinder_fillet",
+   "sha256": {
+    "sldprt": "138bb3ea7fcd29ea2fe8d0a572e921143aa6ef114768a19a5fe58f8195ec68dc",
+    "step": "943ceeab2598dfa3f589acd7ca101e13ce8c89d5abf3cfa32af0ab1f6abd38ab"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 4,
+     "edges": 3,
+     "vertices": 3,
+     "surfaces": {
+      "plane": 2,
+      "torus": 1,
+      "cylinder": 1
+     },
+     "curves": {
+      "circle": 3
+     },
+     "seams": 0,
+     "ringVertices": 3,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 4,
+     "edges": 3,
+     "vertices": 3,
+     "surfaces": {
+      "plane": 2,
+      "torus": 1,
+      "cylinder": 1
+     },
+     "curves": {
+      "circle": 3
+     },
+     "seams": 0,
+     "ringVertices": 3,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 778.9574334197126,
+    "ours": 778.9574334197126,
+    "solidworksStep": 778.9574334197135,
+    "closedForm": null,
+    "oursMinusSolidworks": -9.094947017729282e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C22_cube_sw2011_native",
+   "sha256": {
+    "sldprt": "c14e9fd4de73865aad4c9b0134382f263295cf441ac65df987f3c05e5c884886",
+    "step": "b44d697a8a9e970e6c172020355a9b3fc6955a5bdc03a7a33bfa946f4971608f"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 1000.0000000000008,
+    "ours": 1000.0000000000008,
+    "solidworksStep": 1000.0000000000008,
+    "closedForm": null,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C25_cone_sw2011_native",
+   "sha256": {
+    "sldprt": "093c84118ec7c9d0e3f66212aef46e27bf2350192a1def920ae461dc10e5305f",
+    "step": "a18bcb54b057757e879bcfd9172a9446a2d38335b23fdc2566fe5454b2606dba"
+   },
+   "naive": {
+    "roundTrip": false,
+    "firstProblem": "vertex 19: nearest STEP vertex #4 is 1.12e-2 m away",
+    "report": {
+     "source": "brep",
+     "faces": 2,
+     "edges": 1,
+     "vertices": 2,
+     "surfaces": {
+      "cone": 1,
+      "plane": 1
+     },
+     "curves": {
+      "circle": 1
+     },
+     "seams": 0,
+     "ringVertices": 1,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 2,
+     "edges": 1,
+     "vertices": 2,
+     "surfaces": {
+      "cone": 1,
+      "plane": 1
+     },
+     "curves": {
+      "circle": 1
+     },
+     "seams": 0,
+     "ringVertices": 1,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 261.7993877991495,
+    "ours": 261.7993877991495,
+    "solidworksStep": 261.7993877991495,
+    "closedForm": null,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2011/C26_cube_hole_sw2011_native",
+   "sha256": {
+    "sldprt": "3312824fd9748bd24e5c5c87a228825e097c6f55ea88c896703e2cdb43d45df2",
+    "step": "f786f741476493a3daaf2e786882750962c3a40675f6904383f93411db028ad0"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 803.6504591506388,
+    "ours": 803.6504591506388,
+    "solidworksStep": 803.6504591506389,
+    "closedForm": null,
+    "oursMinusSolidworks": -1.1368683772161603e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C00_cube_10mm",
+   "sha256": {
+    "sldprt": "ecef0ce6fbcfb101dfd6000ce32b7cf56ff560bc8f200ac33dc52b7cac1fa4d5",
+    "step": "12b74010971390737d35a1778d406954e31a2d037dfcf16558c754d4906ada74"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 1000.0000000000008,
+    "ours": 1000.0000000000008,
+    "solidworksStep": 1000.0000000000008,
+    "closedForm": 1000,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": 7.958078640513122e-13
+   }
+  },
+  {
+   "model": "SW2022/C01_cube_20mm",
+   "sha256": {
+    "sldprt": "894f71955d59a990456467ec8abcaed5188025542e9660760b93f2236c0bae5e",
+    "step": "711c2b8a1dfc547e09f9792562730d208e94d3f2f715daf06134e480464ee0d2"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 8000.000000000006,
+    "ours": 8000.000000000006,
+    "solidworksStep": 8000.000000000006,
+    "closedForm": 8000,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": 6.366462912410498e-12
+   }
+  },
+  {
+   "model": "SW2022/C02_cube_translated",
+   "sha256": {
+    "sldprt": "ec86dbb80a83125d0b428bb739006c45a8e8537f32825d11e03037f3e403880e",
+    "step": "b0d36055747ccc4bf4817969ade957d3b9fa32590b02621a2c4fa530541a7d5b"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 1000.0000000000118,
+    "ours": 1000.0000000000118,
+    "solidworksStep": 1000.0000000000118,
+    "closedForm": null,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C03_cube_fillet_1mm",
+   "sha256": {
+    "sldprt": "66d392854ce50a7e0595376a5bdc1d9bc26fac88a8e53cfb6b94769f9752a792",
+    "step": "8b2d2c1e4e88ee371ba9d776091a3eb44de090a493965793ad2b82015d4f069a"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "circle": 2,
+      "line": 13
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "circle": 2,
+      "line": 13
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 997.8539816339752,
+    "ours": 997.8539816339754,
+    "solidworksStep": 997.8539816339756,
+    "closedForm": null,
+    "oursMinusSolidworks": -2.2737367544323206e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C04_cube_hole_5mm",
+   "sha256": {
+    "sldprt": "992519fdcf8c213d04c6226d19fb20a1e3ed4db3f8a86f8043c2f268b4799066",
+    "step": "aa6977184f18eca1dc8dcb9a7e14bb9d4fa430f8a506906bee1af2eb627ab628"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 803.6504591506388,
+    "ours": 803.6504591506388,
+    "solidworksStep": 803.6504591506389,
+    "closedForm": 803.650459150638,
+    "oursMinusSolidworks": -1.1368683772161603e-13,
+    "oursMinusClosedForm": 7.958078640513122e-13
+   }
+  },
+  {
+   "model": "SW2022/C05_cube_hole_3mm",
+   "sha256": {
+    "sldprt": "e9e28586f4980b901c0e29af2927c7cf37eaad0ecda6492c045ad03d9e43eee9",
+    "step": "f4502af6fd765010251579e935ad257bddca1439168648c4adc22f153bcf3eeb"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 929.3141652942303,
+    "ours": 929.3141652942303,
+    "solidworksStep": 929.3141652942309,
+    "closedForm": 929.3141652942296,
+    "oursMinusSolidworks": -5.684341886080801e-13,
+    "oursMinusClosedForm": 6.821210263296962e-13
+   }
+  },
+  {
+   "model": "SW2022/C06_cube_hole_moved",
+   "sha256": {
+    "sldprt": "a6b03cf80fc1bd6e58a8dcd2cd01c0f10b24f91439a561565b9e09f42519e359",
+    "step": "e90921f733f950e60a948e589f9207bbe72d61891dc97e26cae85216e34986fc"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 803.650459150639,
+    "ours": 803.650459150639,
+    "solidworksStep": 803.650459150637,
+    "closedForm": null,
+    "oursMinusSolidworks": 2.0463630789890885e-12,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C07_cube_two_holes",
+   "sha256": {
+    "sldprt": "79d429ac3fe0858fd93e49a0f36df219e7f7075db1f6f5af4ee39d709cc05afb",
+    "step": "5299adbb1455c6997b8c399dbf6db494f5ffafe1af8d0ba2b6ccf4e145fc8d5b"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 16,
+     "vertices": 12,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 2
+     },
+     "curves": {
+      "line": 12,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 16,
+     "vertices": 12,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 2
+     },
+     "curves": {
+      "line": 12,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 607.3009183012771,
+    "ours": 607.3009183012771,
+    "solidworksStep": 607.3009183012784,
+    "closedForm": null,
+    "oursMinusSolidworks": -1.3642420526593924e-12,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C08_cube_second_hole_modified",
+   "sha256": {
+    "sldprt": "f839f6afbf6067012b245e65737a5107fd03fd1acade40600c4f519e4c0904e3",
+    "step": "df3f6f7f7db59af090f5997b60c7c924d4d709a50b738c98c283afe6d41b7ab8"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 16,
+     "vertices": 12,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 2
+     },
+     "curves": {
+      "line": 12,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 16,
+     "vertices": 12,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 2
+     },
+     "curves": {
+      "line": 12,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 732.9646244448687,
+    "ours": 732.9646244448687,
+    "solidworksStep": 732.9646244448678,
+    "closedForm": null,
+    "oursMinusSolidworks": 9.094947017729282e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C09_cube_chamfer_1mm",
+   "sha256": {
+    "sldprt": "aa82e4cc7bfb4cd427dcfa8e581be19ae887eace99a19b4a37d34bbf8419b0d0",
+    "step": "b5366190e413a0d2dfc7f6994757ca3da05f0644e3aa9c41792043b4958c442b"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 7
+     },
+     "curves": {
+      "line": 15
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 7
+     },
+     "curves": {
+      "line": 15
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 995.0000000000008,
+    "ours": 995.0000000000008,
+    "solidworksStep": 995.0000000000008,
+    "closedForm": 995,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": 7.958078640513122e-13
+   }
+  },
+  {
+   "model": "SW2022/C10_cube_shell_1mm",
+   "sha256": {
+    "sldprt": "158442be99857410c04684a08597259bde962c4e91e545633ea6a9c3e5bdfbc8",
+    "step": "cdcab091a51d460b6746fd3168f8bb294120a805fd672e1d5d2c9e16bee42d31"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 11,
+     "edges": 24,
+     "vertices": 16,
+     "surfaces": {
+      "plane": 11
+     },
+     "curves": {
+      "line": 24
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 11,
+     "edges": 24,
+     "vertices": 16,
+     "surfaces": {
+      "plane": 11
+     },
+     "curves": {
+      "line": 24
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 424.0000000000003,
+    "ours": 423.9999999999999,
+    "solidworksStep": 423.99999999999994,
+    "closedForm": 424,
+    "oursMinusSolidworks": -5.684341886080802e-14,
+    "oursMinusClosedForm": -1.1368683772161603e-13
+   }
+  },
+  {
+   "model": "SW2022/C11_cube_hole_4mm",
+   "sha256": {
+    "sldprt": "b836bf47b51ee257321253a6772ad62acb4853133857d58fc6c331dcfb67b47f",
+    "step": "13bbe0e79da1ef95d4c63b0572cc2f091d2c3ef417ccc3b0cc92a19b3a889733"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 14,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 6,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 12,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 874.336293856409,
+    "ours": 874.336293856409,
+    "solidworksStep": 874.3362938564084,
+    "closedForm": null,
+    "oursMinusSolidworks": 6.821210263296962e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C12_cube_fillet_1mm_edge2",
+   "sha256": {
+    "sldprt": "61ea581033dfd7a246ba264fb645e7545fb121e2c7829ce01d58856f436f43c7",
+    "step": "e74e316959d8fd95136ecd45844925d7367236a09bfde3f2e535028078f0a084"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "cylinder": 1,
+      "plane": 6
+     },
+     "curves": {
+      "circle": 2,
+      "line": 13
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "cylinder": 1,
+      "plane": 6
+     },
+     "curves": {
+      "circle": 2,
+      "line": 13
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 997.8539816339754,
+    "ours": 997.8539816339754,
+    "solidworksStep": 997.8539816339752,
+    "closedForm": null,
+    "oursMinusSolidworks": 2.2737367544323206e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C13_cone",
+   "sha256": {
+    "sldprt": "6c0a13cae5a8df74a463681cc50f3dd550359e463da0935a293fec3865db87b0",
+    "step": "ee18cc9c1f563347d015b6804f79488703f012123e8a2b3a3f0ee9d453e4f77d"
+   },
+   "naive": {
+    "roundTrip": false,
+    "firstProblem": "vertex 23: nearest STEP vertex #4 is 1.12e-2 m away",
+    "report": {
+     "source": "brep",
+     "faces": 2,
+     "edges": 1,
+     "vertices": 2,
+     "surfaces": {
+      "cone": 1,
+      "plane": 1
+     },
+     "curves": {
+      "circle": 1
+     },
+     "seams": 0,
+     "ringVertices": 1,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 2,
+     "edges": 1,
+     "vertices": 2,
+     "surfaces": {
+      "cone": 1,
+      "plane": 1
+     },
+     "curves": {
+      "circle": 1
+     },
+     "seams": 0,
+     "ringVertices": 1,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 261.7993877991495,
+    "ours": 261.7993877991495,
+    "solidworksStep": 261.7993877991495,
+    "closedForm": 261.79938779914943,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": 5.684341886080802e-14
+   }
+  },
+  {
+   "model": "SW2022/C14_sphere",
+   "sha256": {
+    "sldprt": "03b72028c5a3169a2af63cb3da896f5df1546641f6a660f583d27e39431a36a1",
+    "step": "8997139d676a549ba1562e30c218395a5e4ccf1b8681ac58903b515153a4826b"
+   },
+   "naive": {
+    "roundTrip": false,
+    "firstProblem": "native face 34 (sphere): no STEP face on it",
+    "report": {
+     "source": "brep",
+     "faces": 0,
+     "edges": 0,
+     "vertices": 0,
+     "surfaces": {},
+     "curves": {},
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 2,
+     "edges": 2,
+     "vertices": 2,
+     "surfaces": {
+      "sphere": 2
+     },
+     "curves": {
+      "circle": 2
+     },
+     "seams": 2,
+     "ringVertices": 0,
+     "splitFaces": 1
+    }
+   },
+   "volumeMm3": {
+    "native": 523.5987755982984,
+    "ours": 523.5987755982984,
+    "solidworksStep": 523.5987755982954,
+    "closedForm": 523.5987755982989,
+    "oursMinusSolidworks": 2.9558577807620168e-12,
+    "oursMinusClosedForm": -4.547473508864641e-13
+   }
+  },
+  {
+   "model": "SW2022/C15_torus",
+   "sha256": {
+    "sldprt": "f2981cb684eb6bb0d3ad697ff223bf061c0dce4ff729d5254473579f0d194cee",
+    "step": "3ed2ee3128f6d9f1c5fdac5479470ae026cda84148dd68ea08e46ff5693c8585"
+   },
+   "naive": {
+    "roundTrip": false,
+    "firstProblem": "native face 12 (torus): no STEP face on it",
+    "report": {
+     "source": "brep",
+     "faces": 0,
+     "edges": 0,
+     "vertices": 0,
+     "surfaces": {},
+     "curves": {},
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 4,
+     "edges": 8,
+     "vertices": 4,
+     "surfaces": {
+      "torus": 4
+     },
+     "curves": {
+      "circle": 8
+     },
+     "seams": 8,
+     "ringVertices": 0,
+     "splitFaces": 1
+    }
+   },
+   "volumeMm3": {
+    "native": 394.7841760435746,
+    "ours": 394.7841760435746,
+    "solidworksStep": 394.7841760435746,
+    "closedForm": 394.78417604357435,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": 2.2737367544323206e-13
+   }
+  },
+  {
+   "model": "SW2022/C16_loft_spline",
+   "sha256": {
+    "sldprt": "3ec02e9bf6446f32040260f5924535892d2961e61fdf11afaf5c0bf8e8758973",
+    "step": "d57f3dd48fcfc4fbd18004569ad7cfd9eb8bad9a1202b2a2696f543372773662"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "bspline": 4,
+      "plane": 2
+     },
+     "curves": {
+      "circle": 4,
+      "line": 8
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "bspline": 4,
+      "plane": 2
+     },
+     "curves": {
+      "circle": 4,
+      "line": 8
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 739.8314797655283,
+    "ours": 739.8314797655283,
+    "solidworksStep": 739.8314797655283,
+    "closedForm": null,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C17_torus_quarter",
+   "sha256": {
+    "sldprt": "ebb542a67576f19f8831e665e265fc0a970cc4529383b3c8a79c38e2cf784926",
+    "step": "da8f55b1b06227a1a1631642d2dd31ff912f1c5505db8b329667f8f6b949587c"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 3,
+     "edges": 2,
+     "vertices": 2,
+     "surfaces": {
+      "torus": 1,
+      "plane": 2
+     },
+     "curves": {
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 3,
+     "edges": 2,
+     "vertices": 2,
+     "surfaces": {
+      "torus": 1,
+      "plane": 2
+     },
+     "curves": {
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 2,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 98.69604401089384,
+    "ours": 98.69604401089384,
+    "solidworksStep": 98.69604401089364,
+    "closedForm": 98.69604401089359,
+    "oursMinusSolidworks": 1.9895196601282805e-13,
+    "oursMinusClosedForm": 2.5579538487363607e-13
+   }
+  },
+  {
+   "model": "SW2022/C18_cube_split_line",
+   "sha256": {
+    "sldprt": "9fb2105af09af974e38550fc698aca9874a6e9dff775b2d1bdb07ea983567076",
+    "step": "05da9d5740ba5892c87ce95b79e947938d592b692d1a004b356040267379f1f6"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 7
+     },
+     "curves": {
+      "line": 15
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 7,
+     "edges": 15,
+     "vertices": 10,
+     "surfaces": {
+      "plane": 7
+     },
+     "curves": {
+      "line": 15
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 1000.0000000000008,
+    "ours": 1000.0000000000008,
+    "solidworksStep": 1000.0000000000008,
+    "closedForm": null,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C19_half_cylinder",
+   "sha256": {
+    "sldprt": "6c850643f2f5c0cc10e21e66823d5ffb886be7b5a12aaf71d1cac953024cf8cf",
+    "step": "29921a5ad6541f621852f50e3e32299cb3183a586656a2d97d135c20c956d63c"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 4,
+     "edges": 6,
+     "vertices": 4,
+     "surfaces": {
+      "plane": 3,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 4,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 4,
+     "edges": 6,
+     "vertices": 4,
+     "surfaces": {
+      "plane": 3,
+      "cylinder": 1
+     },
+     "curves": {
+      "line": 4,
+      "circle": 2
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 392.69908169872247,
+    "ours": 392.69908169872247,
+    "solidworksStep": 392.6990816987225,
+    "closedForm": 392.69908169872417,
+    "oursMinusSolidworks": -5.684341886080802e-14,
+    "oursMinusClosedForm": -1.7053025658242404e-12
+   }
+  },
+  {
+   "model": "SW2022/C20_cylinders_crossed",
+   "sha256": {
+    "sldprt": "eeb0d04faa29c60272e987b93fce54fc9694e6f335589cc115fb25b760a51a53",
+    "step": "7f8225ead7b914f49ec2f50942032b7a67afab7ee29c3d093f4aefa47de7cb37"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 8,
+     "vertices": 6,
+     "surfaces": {
+      "cylinder": 4,
+      "plane": 4
+     },
+     "curves": {
+      "ellipse": 4,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 8,
+     "edges": 8,
+     "vertices": 6,
+     "surfaces": {
+      "cylinder": 4,
+      "plane": 4
+     },
+     "curves": {
+      "ellipse": 4,
+      "circle": 4
+     },
+     "seams": 0,
+     "ringVertices": 4,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 2474.92598692313,
+    "ours": 2474.92598692313,
+    "solidworksStep": 2474.925986923119,
+    "closedForm": 2474.925986923127,
+    "oursMinusSolidworks": 1.0913936421275139e-11,
+    "oursMinusClosedForm": 3.183231456205249e-12
+   }
+  },
+  {
+   "model": "SW2022/C21_cylinder_fillet",
+   "sha256": {
+    "sldprt": "c8a83ed6c000378a72f03ea4f0e36278348a0681a8ce205af936e7310cdcda37",
+    "step": "efb3f08406934c2d5687394bc23493b5e4c4bf5b10dfbb092c5cf9d255bf7316"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 4,
+     "edges": 3,
+     "vertices": 3,
+     "surfaces": {
+      "plane": 2,
+      "torus": 1,
+      "cylinder": 1
+     },
+     "curves": {
+      "circle": 3
+     },
+     "seams": 0,
+     "ringVertices": 3,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 4,
+     "edges": 3,
+     "vertices": 3,
+     "surfaces": {
+      "plane": 2,
+      "torus": 1,
+      "cylinder": 1
+     },
+     "curves": {
+      "circle": 3
+     },
+     "seams": 0,
+     "ringVertices": 3,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 778.9574334197126,
+    "ours": 778.9574334197126,
+    "solidworksStep": 778.9574334197135,
+    "closedForm": null,
+    "oursMinusSolidworks": -9.094947017729282e-13,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C23_cube_sw2011_to_2022",
+   "sha256": {
+    "sldprt": "d9939775821bdc95399dda59df8625b855106d5d9df25606478b953fa176d4bc",
+    "step": "f82789df9673ddde7af1cb1f37cc418533ce12ad39cfa52bae9b055eab50dcef"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 1000.0000000000008,
+    "ours": 1000.0000000000008,
+    "solidworksStep": 1000.0000000000008,
+    "closedForm": null,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": null
+   }
+  },
+  {
+   "model": "SW2022/C24_cube_sw2022_native",
+   "sha256": {
+    "sldprt": "9d50b4a4ccd2bb40bc067bd8d7a175ad79d5b1fc20b24319d0338b19bb98d611",
+    "step": "33e2cb6b417bd679a4e5fa07c7cc6ac272f7ed49a00fa4e41341a71356b51f91"
+   },
+   "naive": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "full": {
+    "roundTrip": true,
+    "firstProblem": null,
+    "report": {
+     "source": "brep",
+     "faces": 6,
+     "edges": 12,
+     "vertices": 8,
+     "surfaces": {
+      "plane": 6
+     },
+     "curves": {
+      "line": 12
+     },
+     "seams": 0,
+     "ringVertices": 0,
+     "splitFaces": 0
+    }
+   },
+   "volumeMm3": {
+    "native": 1000.0000000000008,
+    "ours": 1000.0000000000008,
+    "solidworksStep": 1000.0000000000008,
+    "closedForm": null,
+    "oursMinusSolidworks": 0,
+    "oursMinusClosedForm": null
+   }
+  }
+ ]
+}
