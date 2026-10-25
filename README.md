@@ -44,7 +44,7 @@ remain unsupported (NQ-038).
 
 | directory | what |
 |---|---|
-| `test files original/` | the inherited parts plus the C00–C12 controlled cubes (SolidWorks 2022) |
+| `test files original/` | the inherited parts plus the C00–C12 controlled cubes (SolidWorks 2022). The inherited parts aren't mine and aren't licensed for reuse, see [License](#license) |
 | `test files new/SW2022/` | 24 controlled models, C00–C24, including curved primitives |
 | `test files new/SW2011/` | 25 controlled models, C00–C26, legacy OLE2 — currently unreadable by the parser |
 
@@ -360,3 +360,21 @@ sldprt-research-dump/
     ├── REPRODUCTION.json
     └── README.md
 ```
+
+## License
+
+The research notes, write-ups, results and images are licensed under
+[CC BY-SA 4.0](LICENSE), the same as the
+[sldprt-format-research](https://github.com/blussyya/sldprt-format-research) docs. The code
+(the evidence scripts, the old parsers, converter and viewers, and `package/`) is licensed
+under [Apache-2.0](LICENSE-CODE), the same as
+[solidworks-converters](https://github.com/blussyya/solidworks-converters).
+
+**The real parts aren't covered.** Everything in `test files original/` except `controlled/`
+belongs to its owners, along with the STEP and STL exports and the renders made from those
+parts. They're here only as test data. Don't copy, redistribute or reuse them. [NOTICE](NOTICE)
+lists them all. If one is yours and you want it removed, open an issue.
+
+The controlled models in `test files new/` and `test files original/controlled/` are mine and
+are covered by CC BY-SA 4.0. Everything published here before these licenses was released under
+MIT and stays available under it.

@@ -144,4 +144,4 @@ If you want the story in one page, including all the stuff we got wrong along th
 
 ## License
 
-MIT. The Parasolid part follows the public *Parasolid XT Format Reference* (2006). No SolidWorks or Parasolid source code, binaries or SDK files are used.
+Apache-2.0, see [LICENSE](LICENSE). This is a staging copy of [solidworks-converters](https://github.com/blussyya/solidworks-converters). The Parasolid part follows the public *Parasolid XT Format Reference* (2006). No SolidWorks or Parasolid source code, binaries or SDK files are used.
