@@ -1,0 +1,32 @@
+sldprt-research-dump
+Copyright 2026 blussyya
+https://github.com/blussyya/sldprt-research-dump
+
+Two licenses apply to the work in this repository, and some files aren't
+covered by either.
+
+Research notes, write-ups, results and images (Markdown, text, JSON, PNG
+and the like): Creative Commons Attribution-ShareAlike 4.0, in LICENSE.
+
+Code (JavaScript, Python, HTML and the like, including package/, the old
+parser, converter and viewer folders, and the evidence scripts):
+Apache-2.0, in LICENSE-CODE.
+
+NOT COVERED: third-party part files. Everything in "test files original/"
+except "test files original/controlled/" belongs to its owners, not to me:
+Dekor, Helical Bevel Gear, PTC GE8080-8, Pocket Wheel, SW2000-s01,
+chainwheel, cube.SLDPRT, distributor main boss rev a, plate4, the "usb hub
+case (ultimate test)" folder, and sldprt_hex_dump.txt. So are the STEP and
+STL exports of those parts, and the renders made from them
+(v0.4.8/EXP051_renders/, v0.4.8/EXP052_renders/, viewer/renders/*usbtop*,
+package/docs/images/helical-gear.png, pocket-wheel.png, usb-hub-top.png).
+They're here only as test data for the research. Neither license applies
+to them. Don't copy, redistribute or reuse them. If one of them is yours
+and you want it removed, open an issue.
+
+The controlled models in "test files new/" and "test files original/
+controlled/", and their exports, are my own and are covered by
+CC BY-SA 4.0.
+
+Everything published here before this notice was released under the MIT
+License and stays available under it.
