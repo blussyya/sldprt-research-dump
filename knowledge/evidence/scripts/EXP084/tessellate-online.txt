@@ -1,0 +1,141 @@
+05187d94_ChainCL_In.SLDPRT       faces 20 tris 1020 open 0 rep 0 vol 184.6788 exact 185.5147 vsDisp 4.41e-3 rel -4.51e-3 518ms
+065f38b0_等径四节弯头-4.SLDPRT         faces 8 tris 116300 open 0 rep 0 vol 585933.6942 exact -103532009.6838 vsDisp 1.16e-1 rel -1.01e+0 83842ms
+7192bb05_长短脚任意角度裤形三通管-5.SLDPRT   faces 9 tris 7708 open 0 rep 0 vol 5766.7646 exact 5767.7038 vsDisp -2.78e-3 rel -1.63e-4 9904ms
+6ff6c243_通气塞.SLDPRT              faces 25 tris 6272 open 0 rep 0 vol 6872.3774 exact 6874.2905 vsDisp 3.77e-3 rel -2.78e-4 668ms
+e1f38af5_0000380-01.sldprt       faces 25 tris 9492 open 0 rep 4 vol 37328.5099 exact 37329.6076 vsDisp 1.46e-3 rel -2.94e-5 754ms
+82981f2a_head_back.sldprt        ERR surfaceInverse: blend at (src/geom/eval.js:200:14)
+92c393f4_camera_support.sldprt   faces 142 tris 3260 open 0 rep 0 vol 963.0340 exact 963.1804 vsDisp 1.73e-3 rel -1.52e-4 2638ms
+f666f342_head_face.sldprt        ERR surfaceInverse: blend at (src/geom/eval.js:200:14)
+300f9732_Carter2019.SLDPRT       faces 104 tris 11302 open 0 rep 0 vol 99159.0736 exact 99164.2184 vsDisp 1.96e-4 rel -5.19e-5 3021ms
+68cd51b6_20190309-0049.SLDPRT    faces 34 tris 1228 open 0 rep 0 vol 14219.7261 exact 14215.1160 vsDisp -2.57e-3 rel 3.24e-4 985ms
+0739c559_[HEAD-COVR-MIL1-COMN-00 ERR surfaceInverse: blend at (src/geom/eval.js:200:14)
+1214a0ff_[ARM-A-V1-COMN-INNR-COM faces 6 tris 3063 open 3 rep 0 vol 8445.8155 exact 8446.1803 vsDisp 6.63e-4 rel -4.32e-5 448ms
+118a3cb0_cut-z18-b1xh1xl1.SLDPRT faces 30 tris 4416 open 0 rep 4 vol 22109.9075 exact 22112.4444 vsDisp -8.92e-1 rel -1.15e-4 1725ms
+289756ce_cut-z071-b1-l1-l2-typ.S faces 22 tris 2660 open 0 rep 0 vol 36810.9915 exact 36815.4017 vsDisp 1.51e-2 rel -1.20e-4 714ms
+629adcec_cut-z351-d1xl1.SLDPRT   faces 4 tris 252 open 0 rep 0 vol 762.1813 exact 763.4070 vsDisp 1.51e-3 rel -1.61e-3 237ms
+70477058_mt-cut-z085-l1xb1-typ.S faces 26 tris 2996 open 0 rep 0 vol 33664.1355 exact 33671.2045 vsDisp 7.41e-4 rel -2.10e-4 627ms
+3b48d9c5_Body10.sldprt           faces 28 tris 1076 open 0 rep 0 vol 1556.3909 exact 1556.1268 vsDisp - rel 1.70e-4 560ms
+4df87793_21BC-S 1.19-A.sldprt    faces 5 tris 2232 open 0 rep 0 vol 16.2400 exact -0.0000 vsDisp - rel -1.09e+8 215ms
+51065319_Mirror (opt 1-PSA)-HME_ faces 8 tris 20 open 0 rep 0 vol 16780.1176 exact 16780.1176 vsDisp 1.53e-7 rel 5.67e-14 80ms
+516a7dc5_Body1.sldprt            faces 8 tris 20 open 0 rep 0 vol 4772.7160 exact 4772.7160 vsDisp 7.08e-9 rel 2.84e-15 91ms
+afc71d14_Body2.sldprt            faces 28 tris 1076 open 0 rep 0 vol 1556.3909 exact 1556.1268 vsDisp -1.50e-4 rel 1.70e-4 925ms
+d49566bc_AntennaMount.SLDPRT     faces 22 tris 780 open 0 rep 0 vol 1409.1092 exact 1408.6971 vsDisp 1.29e-4 rel 2.93e-4 479ms
+d799e9a3_90751A110_18-8 Stainles ERR split: face 62 chain does not end on a cut line at (src/brep/split.js:237:43)
+0132519a_102_STEM.SLDPRT         ERR surfaceInverse: blend at (src/geom/eval.js:200:14)
+06b5063b_050_MASTER_SKETCH.SLDPR faces 0 tris 0 open 0 rep 0 vol 0.0000 exact 0.0000 vsDisp - rel - 113ms
+15567d51_leva1.SLDPRT TIMEOUT
+361e7dbb_101_HOUSING.SLDPRT      faces 277 tris 4870 open 0 rep 0 vol 629.1073 exact 629.4223 vsDisp -2.66e-4 rel -5.00e-4 8415ms
+ca465363_103_COVER.SLDPRT        faces 118 tris 3860 open 0 rep 0 vol 259.8465 exact 259.8840 vsDisp 7.61e-5 rel -1.44e-4 1965ms
+d2515121_Ecran_128x32oled.SLDPRT ERR intersection: march did not reach the end at (src/brep/fit.js:131:9)
+eefa906d_plancher Dalle 2020.SLD faces 6 tris 12 open 0 rep 0 vol 22032000.0000 exact 22032000.0000 vsDisp -3.55e-1 rel 1.42e-15 98ms
+07ff8da1_shelf.SLDPRT            faces 32 tris 1522 open 0 rep 0 vol 190939.2767 exact 190939.7232 vsDisp 1.21e-6 rel -2.34e-6 712ms
+096d0504_MargayMount_WH10.SLDPRT faces 24 tris 1308 open 0 rep 0 vol 12745.7042 exact 12745.7994 vsDisp 2.87e-4 rel -7.47e-6 654ms
+27377fd2_FE-00006-06.SLDPRT      faces 8 tris 20 open 0 rep 0 vol 301112.3010 exact 301112.3010 vsDisp 2.58e-8 rel 2.16e-15 83ms
+28398415_Raspberry Pi 4.SLDPRT   faces 271 tris 1583 open 26 rep 9 vol 22663.6908 exact 22708.3974 vsDisp -1.96e-3 rel -1.97e-3 828ms
+300d7f07_Bottom Case.SLDPRT      faces 74 tris 6896 open 12 rep 0 vol 21783.6910 exact 21785.1016 vsDisp 1.46e-4 rel -6.48e-5 1320ms
+44afdb7c_back_cushion.SLDPRT     faces 26 tris 39376 open 0 rep 0 vol 48917695.4200 exact 48919532.3554 vsDisp 1.07e-3 rel -3.76e-5 1878ms
+54b05886_bottom_adc.SLDPRT       faces 106 tris 3430 open 6 rep 0 vol 29820.5651 exact 29817.0600 vsDisp -8.36e-4 rel 1.18e-4 1519ms
+636b653d_MountingBracket.SLDPRT  faces 30 tris 1260 open 0 rep 0 vol 21125.0420 exact 21121.5963 vsDisp 4.89e-2 rel 1.63e-4 469ms
+7765d286_NSJ8L.SLDPRT            faces 71 tris 2572 open 0 rep 0 vol 10331.1927 exact 10329.8500 vsDisp -8.45e-4 rel 1.30e-4 638ms
+8cd79ff5_1ESxx.SLDPRT            faces 121 tris 83928 open 737 rep 622 vol 204.4537 exact ? vsDisp -5.09e-1 rel - 10909ms
+91a2d981_Camera Module.SLDPRT    faces 23 tris 684 open 0 rep 0 vol 1011.4280 exact 1011.4111 vsDisp -1.31e-5 rel 1.67e-5 303ms
+a3a44709_FrontPanel-Bezel.sldprt ERR split: face 153 chain does not end on a cut line at (src/brep/split.js:237:43)
+d381ebab_bottom_dac.SLDPRT       faces 94 tris 3078 open 6 rep 0 vol 30070.8876 exact 30067.1900 vsDisp -9.57e-4 rel 1.23e-4 910ms
+e8c40c25_psu.SLDPRT              faces 364 tris 22770 open 7 rep 70 vol 48984.1105 exact 49089.6829 vsDisp -2.05e-3 rel -2.15e-3 14285ms
+fb449daa_Gloworm PCB.SLDPRT      faces 55 tris 7994 open 0 rep 72 vol 6933.3699 exact 6933.6254 vsDisp 2.84e-4 rel -3.68e-5 13474ms
+14f9214b_11.SLDPRT               ERR intersection: surfaces tangent at (src/brep/fit.js:102:34)
+320de1b5_SPEC-PC-MB-MATX-KEEPOUT faces 42 tris 192 open 16 rep 7 vol 373638.7151 exact 371658.6115 vsDisp 5.33e-3 rel 5.33e-3 162ms
+34fe5ff1_Group_44390.stp.SLDPRT  faces 16 tris 40 open 0 rep 0 vol 576458.7211 exact 576458.7211 vsDisp - rel 7.34e-15 115ms
+543861c9_BALL NUT BRACKET_(11-25 faces 95 tris 49234 open 451 rep 413 vol 133472.6311 exact 79430.3022 vsDisp 2.67e+0 rel 6.80e-1 26988ms
+72b08e3e_Hip Cable HOlder.SLDPRT faces 28 tris 84 open 0 rep 0 vol 93.3751 exact 93.3751 vsDisp 1.74e-10 rel -5.17e-14 146ms
+7841a106_6344428.SLDPRT          faces 54 tris 2992 open 0 rep 0 vol 171645.7768 exact 171645.7143 vsDisp 2.28e-4 rel 3.64e-7 4855ms
+9494d959_27_20_4.SLDPRT          faces 18 tris 4584 open 0 rep 0 vol 989.2810 exact 989.2875 vsDisp 1.33e-3 rel -6.58e-6 535ms
+b185085c_Handle 3.SLDPRT         faces 35 tris 6084 open 0 rep 2 vol 16887.1146 exact 16901.6936 vsDisp 2.47e-3 rel -8.63e-4 1895ms
+b32017f5_Engine Compartment - Su ERR resolve: edge 35 vertices are 2.10e-1 m off its curve at (src/brep/procedural.js:114:50)
+60f84235_2022_10_06_17_02_43_061 TIMEOUT
+85aabbde_84T Gear.SLDPRT         faces 694 tris 44434 open 0 rep 0 vol 19620.1720 exact 19624.9998 vsDisp 8.55e-4 rel -2.46e-4 35554ms
+916d4a0a_36T Gear.SLDPRT         faces 308 tris 16386 open 0 rep 0 vol 3927.8409 exact 3929.2959 vsDisp 1.94e-3 rel -3.70e-4 43566ms
+bc3292d7_12T Gear.SLDPRT         faces 142 tris 2384 open 0 rep 0 vol 799.1831 exact 800.4270 vsDisp 3.66e-3 rel -1.55e-3 5707ms
+eb0b2a21_60T Gear.SLDPRT         faces 416 tris 22502 open 0 rep 0 vol 8498.4281 exact 8499.5158 vsDisp 1.80e-3 rel -1.28e-4 39329ms
+073482d3_ReducerBox_1_Reducer.SL TIMEOUT
+0d68d32d_6208K696_Clamping Preci ERR resolve: edge 150 vertices are 5.68e-2 m off its curve at (src/brep/procedural.js:114:50)
+10459a56_A-2605-01_CR1_Right_Ang faces 174 tris 88475 open 541 rep 422 vol 37290.3216 exact 35367.1166 vsDisp 1.11e-1 rel 5.44e-2 6930ms
+1ee60868_z轴皮带固定.SLDPRT           faces 34 tris 372 open 0 rep 0 vol 771.5461 exact 771.2850 vsDisp -2.62e-4 rel 3.39e-4 177ms
+24344735_080-1926-000_3.SLDPRT   faces 678 tris 8834 open 7 rep 25 vol 34.3469 exact 34.3923 vsDisp - rel -1.32e-3 9691ms
+273a8d53_FG-F1.SLDPRT            faces 81 tris 2340 open 0 rep 0 vol 13987.6854 exact 13987.0787 vsDisp -1.86e-5 rel 4.34e-5 17032ms
+3980555c_RASPBERRY_PI_5+cooler-5 faces 39 tris 1532 open 0 rep 0 vol 1818.8234 exact 4913.9562 vsDisp - rel -6.30e-1 813ms
+3c4752f1_A-2226-01_Input_Inline_ TIMEOUT
+40e79d45_Fins.SLDPRT             faces 12 tris 34 open 0 rep 0 vol 139270.3182 exact 139270.3182 vsDisp 4.89e-8 rel 5.06e-15 79ms
+47b2b860_DIN_Flex_Converter_pad_ faces 6 tris 384 open 384 rep 0 vol 3.9682 exact 3.9935 vsDisp - rel -6.34e-3 81ms
+5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT TIMEOUT
+6ccc1814_LB26001-A-04-007.SLDPRT faces 14 tris 1152 open 0 rep 0 vol 1690.9520 exact 1693.1887 vsDisp 7.34e-4 rel -1.32e-3 178ms
+84226163_Fin.SLDPRT              faces 10 tris 28 open 0 rep 0 vol 142854.2304 exact 142854.2304 vsDisp 4.63e-8 rel 1.16e-14 70ms
+9cc04b03_SO-C1.SLDPRT            faces 97 tris 4444 open 0 rep 0 vol 3077.9932 exact 3077.1914 vsDisp -2.09e-4 rel 2.61e-4 40782ms
+a0ab30c8_LB26001-A-04-022.SLDPRT faces 48 tris 2754 open 0 rep 0 vol 22414.1629 exact 22409.8838 vsDisp 7.03e-2 rel 1.91e-4 469ms
+a0fc2e29_Vertical Spar.SLDPRT    faces 13 tris 544 open 0 rep 0 vol 418893.4257 exact 418891.6461 vsDisp -2.59e-5 rel 4.25e-6 121ms
+c0ef9eb3_DIN_Flex_Converter_pad_ faces 22 tris 76 open 45 rep 15 vol -3.2139 exact -3.2139 vsDisp - rel -8.96e-13 158ms
+c72513ca_ASSEMBLY_11.SLDPRT      faces 13 tris 76 open 75 rep 9 vol 0.7423 exact 0.7424 vsDisp - rel -5.70e-5 235ms
+ceefa2a9_CRP320-05.SLDPRT        faces 43 tris 4260 open 2186 rep 0 vol 10911.1954 exact ? vsDisp - rel - 1294ms
+d753195d_ServoMount.SLDPRT       faces 110 tris 3180 open 0 rep 0 vol 6269.8417 exact 6266.0351 vsDisp -6.29e-4 rel 6.07e-4 753ms
+db8a97e2_écrou fileté M5.SLDPRT TIMEOUT
+dc265ce1_Fin.SLDPRT              faces 10 tris 28 open 0 rep 0 vol 141850.5228 exact 141850.5227 vsDisp -2.19e-8 rel 3.25e-15 70ms
+dd156283_637Z flanzi bearing.SLD faces 19 tris 1280 open 0 rep 0 vol 59.8185 exact 59.8380 vsDisp 1.61e-3 rel -3.27e-4 188ms
+f8c2df35_2023_10_16_23_28_17_035 faces 22 tris 76 open 0 rep 0 vol 16928.7078 exact 16928.7078 vsDisp - rel 1.26e-13 61ms
+03764871_BME280.SLDPRT           faces 745 tris 12227 open 2804 rep 11 vol 311.8989 exact 311.8052 vsDisp -1.10e-4 rel 3.00e-4 46041ms
+1759e569_mahatbalam_ex7_beg.SLDP faces 41 tris 4736 open 10 rep 0 vol 454008.2401 exact 454006.7090 vsDisp 1.15e-3 rel 3.37e-6 462ms
+2f121983_case.SLDPRT             ERR surfaceInverse: blend at (src/geom/eval.js:200:14)
+2fd21507_MidplateEM2.SLDPRT      faces 53 tris 2444 open 0 rep 0 vol 21972.7006 exact 21969.8172 vsDisp 1.26e-4 rel 1.31e-4 653ms
+31596c7e_EC11 Rotary Encoder 15m faces 107 tris 1666 open 0 rep 8 vol 1331.2949 exact 1332.1362 vsDisp 1.56e-3 rel -6.31e-4 1088ms
+3edbf014_TEST shortened Dock (Fi faces 135 tris 3116 open 0 rep 0 vol 47140.7420 exact 47132.0651 vsDisp 1.81e-4 rel 1.84e-4 2364ms
+41b71219_板材-Guidance安装板.SLDPRT   faces 92 tris 2940 open 0 rep 0 vol 4885.6457 exact 4884.6598 vsDisp -6.52e-4 rel 2.02e-4 1487ms
+4803f393_box.SLDPRT              ERR resolve: edge 12099 vertices are 4.61e-2 m off its curve at (src/brep/procedural.js:114:50)
+9aeafb66_标准件-30mm管夹.SLDPRT       faces 50 tris 2376 open 0 rep 0 vol 9044.6117 exact 9039.8271 vsDisp -2.40e-3 rel 5.29e-4 334ms
+d0d61cde_官方元件-定位模块.SLDPRT        ERR resolve: edge 7 vertices are 3.73e-2 m off its curve at (src/brep/procedural.js:114:50)
+d2f7f9bd_iman.SLDPRT             faces 7 tris 40 open 0 rep 0 vol 75.5782 exact 75.6280 vsDisp 1.03e-3 rel -6.59e-4 71ms
+d77ec77a_TopSheet.SLDPRT         faces 97 tris 6876 open 0 rep 0 vol 381778.8078 exact 381775.8255 vsDisp -2.97e-5 rel 7.81e-6 931ms
+d8206ed0_J6_Flange_Adapter.SLDPR faces 58 tris 155794 open 1341 rep 1303 vol 12785.0018 exact 12587.8782 vsDisp 1.01e-2 rel 1.57e-2 47302ms
+ef1d5cfe_DS3231.SLDPRT           faces 428 tris 17338 open 60 rep 4300 vol 866.0348 exact 742.8340 vsDisp 1.41e-3 rel 1.66e-1 3078ms
+03afebf4_Profilringe.SLDPRT      faces 11 tris 1599 open 3 rep 0 vol 530.7830 exact 531.3480 vsDisp -3.81e-4 rel -1.06e-3 153ms
+09d353a9_Elbow_Mount2.SLDPRT     faces 64 tris 3932 open 0 rep 0 vol 19800.8622 exact 19799.5378 vsDisp 3.64e-4 rel 6.69e-5 892ms
+1e794aad_6344387.SLDPRT          faces 120 tris 6531 open 9 rep 0 vol 485862.2148 exact 485869.0102 vsDisp 1.02e-4 rel -1.40e-5 4771ms
+225c13ed_camholder0deg.SLDPRT    faces 66 tris 3216 open 0 rep 0 vol 7974.4162 exact 7974.6954 vsDisp 5.99e-4 rel -3.50e-5 389ms
+2300f35c_Thigh Symétrie.SLDPRT   faces 214 tris 19778 open 12 rep 6 vol 139274.4445 exact 139275.5736 vsDisp 4.62e-4 rel -8.11e-6 7462ms
+346a04bc_R01_D_lower_1_140_washe faces 6 tris 384 open 0 rep 0 vol 9.6040 exact 9.5976 vsDisp 2.05e-3 rel 6.68e-4 115ms
+37663d8a_Gasket For M12.SLDPRT   faces 14 tris 592 open 0 rep 0 vol 130.6383 exact 130.9692 vsDisp -5.43e-4 rel -2.53e-3 292ms
+4febfc67_6344149.SLDPRT          faces 32 tris 14236 open 6 rep 0 vol 779806.4247 exact 779993.5528 vsDisp 1.13e-2 rel -2.40e-4 571ms
+766ad273_WP06_washer_inner_-1_-9 faces 6 tris 384 open 0 rep 0 vol 15.2159 exact 15.2210 vsDisp 1.18e-3 rel -3.36e-4 83ms
+7fa6934e_Aluminum Box Pt 2.SLDPR faces 34 tris 1616 open 0 rep 0 vol 47946.6371 exact 47945.2397 vsDisp -2.25e-5 rel 2.91e-5 291ms
+871e670c_servo_adapter.SLDPRT    faces 43 tris 2420 open 0 rep 0 vol 3966.8376 exact 3965.0567 vsDisp -1.70e-3 rel 4.49e-4 587ms
+951f2bc1_Boitier.SLDPRT          faces 29 tris 396 open 0 rep 0 vol 1901.4768 exact 1901.3720 vsDisp -4.27e-5 rel 5.51e-5 118ms
+a4ecc6f5_PP-2074-08.SLDPRT       ERR split: face 34074 chain does not end on a cut line at (src/brep/split.js:237:43)
+be0e76cf_WP06_screw_1_-94.SLDPRT faces 23 tris 1500 open 0 rep 0 vol 141.6146 exact 142.2558 vsDisp 1.02e-3 rel -4.51e-3 490ms
+bf11f45c_shear_clip_1_150_-94.SL faces 10 tris 276 open 0 rep 0 vol 1248.9294 exact 1248.1298 vsDisp -4.22e-4 rel 6.41e-4 86ms
+f750218b_612-00002.SLDPRT        faces 6 tris 12 open 0 rep 0 vol 50.0000 exact 50.0000 vsDisp - rel 4.63e-15 51ms
+05d0b4c3_pin-2-2.SLDPRT          faces 500 tris 500 open 0 rep 0 vol 371.0624 exact 371.0624 vsDisp -4.42e-9 rel -1.14e-15 403ms
+16f99cd7_装甲板固定（前）.SLDPRT         faces 46 tris 3672 open 0 rep 0 vol 25788.3591 exact 25787.2926 vsDisp -2.59e-4 rel 4.14e-5 926ms
+3e41786b_LB26001-A-04-002_seed.S faces 26 tris 2076 open 0 rep 0 vol 72243.4878 exact 72240.9846 vsDisp -2.11e-4 rel 3.47e-5 176ms
+50af9019_7x4 P42a Cell Holder.SL faces 330 tris 107054 open 72 rep 48 vol 70719.0526 exact 70719.1424 vsDisp -5.74e-3 rel -1.27e-6 7131ms
+51f01927_Держатель-Фиксатор-Буты ERR resolve: edge 880 vertices are 2.76e-2 m off its curve at (src/brep/procedural.js:114:50)
+55c163ac_pin-1-2.SLDPRT          faces 452 tris 452 open 0 rep 0 vol 90.4965 exact 90.4965 vsDisp -9.50e-9 rel 2.63e-15 383ms
+6fd68589_pin-2-1.SLDPRT          faces 500 tris 500 open 0 rep 0 vol 381.8605 exact 381.8605 vsDisp 1.37e-8 rel -2.91e-15 400ms
+822f5572_一级挡块-hhr镂空限位.SLDPRT     faces 29 tris 1044 open 0 rep 0 vol 1037.4177 exact 1037.1045 vsDisp -3.35e-4 rel 3.02e-4 679ms
+8aaecde6_6008内圈下加工件.SLDPRT       faces 73 tris 5432 open 0 rep 0 vol 18666.0044 exact 18650.9832 vsDisp -9.13e-4 rel 8.05e-4 1141ms
+8afc9212_[HEAD-A-B-11-L] Face Bl faces 21 tris 776 open 0 rep 0 vol 3956.2775 exact 3954.8897 vsDisp -3.11e-4 rel 3.51e-4 385ms
+ac760485_存矿小端.SLDPRT             faces 46 tris 6274 open 6 rep 6 vol 405484.0281 exact 405484.6190 vsDisp -1.21e-4 rel -1.46e-6 462ms
+c613782b_Крепёжная-Планка.SLDPRT faces 20 tris 2079 open 3 rep 0 vol 3854.8209 exact 3855.0498 vsDisp -8.49e-4 rel -5.94e-5 617ms
+e8f16581_Engine Base.SLDPRT      faces 10 tris 524 open 0 rep 0 vol 1986245.2985 exact 1986265.4825 vsDisp 2.78e-4 rel -1.02e-5 199ms
+f0b9a118_Standoff_M3x0.5_37 mm_M TIMEOUT
+f6facc43_[HEAD-A-B-08] Slope Pan faces 17 tris 88 open 0 rep 0 vol 1378.2745 exact 1378.2745 vsDisp 1.69e-4 rel 3.84e-14 153ms
+0eab6495_A15_KW10_cassette_L_hee faces 68 tris 1912 open 0 rep 0 vol 2700.0886 exact 2158.5782 vsDisp 2.32e-3 rel 2.51e-1 806ms
+2693f32a_GE-26501-02_ Tower Base faces 34 tris 2200 open 0 rep 0 vol 18359.8113 exact 18359.4047 vsDisp - rel 2.21e-5 634ms
+2e6e140a_ST3215_C018_04.SLDPRT TIMEOUT
+4d85599e_base-M4.SLDPRT          faces 12 tris 664 open 0 rep 0 vol 45113.2051 exact 45110.7713 vsDisp -4.28e-4 rel 5.40e-5 259ms
+c292e7e2_18t x 15mm Wide Aluminu faces 573 tris 196656 open 6388 rep 14381 vol 7867.8883 exact 8248.7319 vsDisp - rel -4.62e-2 107977ms
+c5784ab3_A09_power_and_compute_r faces 110 tris 4116 open 15 rep 7 vol -106823.0072 exact 36884.8224 vsDisp -3.52e+0 rel -3.90e+0 1138ms
+d889c6fc_FE-00001-04_ 1-7_16_ Di faces 8 tris 3810 open 0 rep 0 vol 201994.0446 exact 202037.9952 vsDisp - rel -2.18e-4 348ms
+daa6e9e9_CR26-201-08.SLDPRT      faces 485 tris 49952 open 0 rep 0 vol 150607.9149 exact 150499.9900 vsDisp -4.34e-3 rel 7.17e-4 7495ms
+10582557_9271K109_Torsion Spring ERR No Config-N-Partition stream at (src/parasolid/partition.js:139:31)
+34a1cacb_91202A226_Zinc-Plated S ERR No Config-N-Partition stream at (src/parasolid/partition.js:139:31)
+8ac95686_separadores.SLDPRT      ERR No Config-N-Partition stream at (src/parasolid/partition.js:139:31)
+9e494ca4_91169A160_Steel Split L ERR No Config-N-Partition stream at (src/parasolid/partition.js:139:31)
+d7b58324_small_motor.rev1.SLDPRT ERR No Config-N-Partition stream at (src/parasolid/partition.js:139:31)

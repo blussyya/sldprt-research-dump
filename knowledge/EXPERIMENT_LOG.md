@@ -1395,17 +1395,19 @@ vertices; ghost body ownership (NQ-050).
 **Question**: Do the readers work on 141 openly licensed parts that nobody in this project made, saved from 2007 to 2026?
 
 **Result**: After the fixes, all 136 B-reps read with 0 graph failures, and display and B-rep face
-counts agree on all but 2 parts. What it took: sections over 1 MiB come in chunks (also in the
+counts agree on all but 1 part. What it took: sections over 1 MiB come in chunks (also in the
 legacy DisplayLists__ZLB); XT types 60, 68, 86, 100, 163 and 184 needed base layouts; 163 is the
 surface helix and 184 the curve helix, the reverse of the 2006 reference's table; padded knot
-arrays; the active configuration is the one whose Config-N-ModelHeader matches Header2; bodies in
-LocalBodies count when the partition has no solid (182/188). Five DisplayLists streams hold no
+arrays; the active configuration is the one whose Config-N-ModelHeader matches Header2; LocalBodies
+are added, and any body counts unless its BODY_IN_LIGHTWEIGHT_PERM attribute is 0 (187/188). Five DisplayLists streams hold no
 tessellation (no uoTempBodyTessData_c, 125/125 files agree), and cosmetic threads are drawn as
-separate cylinder bands that match the VECTOR_VALUES count in the B-rep.
+separate cylinder bands that match the VECTOR_VALUES count in the B-rep. Triangulating the B-rep
+for STL gives a closed mesh on 80 of 136 parts, 69 of 79 within 0.1% of the exact volume; 15
+throw in resolve, split or blend fitting and 8 take over 120 s.
 
 **Files tested**: 141 (136 parts, 17 save years); body sums on 188 parts across all three corpus folders.
 
-**Known gaps**: d0d61cde's undrawn partition solid (NQ-052); configuration choice without ModelHeaders (NQ-053); head_back's 3 extra faces (NQ-054); types 85, 87–89 unverified (NQ-055).
+**Known gaps**: B-rep triangulation on 56 parts (section 8); d0d61cde fails to resolve (NQ-052); configuration choice without ModelHeaders (NQ-053); head_back's 3 extra faces (NQ-054); types 85, 87–89 unverified (NQ-055).
 
 **Date**: 2026-10-27
 

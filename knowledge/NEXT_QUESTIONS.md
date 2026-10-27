@@ -1201,12 +1201,12 @@ points SolidWorks moved for mesh quality after sampling, or float32 rounding cha
 
 **Date raised**: 2026-10-04 (EXP-078).
 
-## NQ-052 — Why isn't d0d61cde's partition solid drawn?
+## NQ-052 — d0d61cde's edge 7 is 37 mm off its curve
 
-EXP-084: `d0d61cde` (2023) has an 88-face solid and four one-face sheets in Config-1-Partition, and
-three LocalBodies of 212, 84 and 244 faces. Its 544 display faces are the sheets plus LocalBodies.
-The solid isn't drawn. The likely answer is a hidden body; where SolidWorks stores body visibility
-(a Parasolid attribute, or a flag in Config-1 / ResolvedFeatures) isn't known yet.
+EXP-084: `d0d61cde` (2023) reads, and which bodies count is settled (BODY_IN_LIGHTWEIGHT_PERM),
+but resolving the partition fails on edge node_id 7, a line between a B-spline face and a plane,
+whose two vertices are 3.73e-2 m off the line. Either the line isn't the edge's real curve, or the
+vertices are read from the wrong nodes. Blocks exact STEP and B-rep triangulation for this part.
 
 **Date raised**: 2026-10-27 (EXP-084).
 

@@ -5,9 +5,11 @@
 The converter now reads all 136 parts in `test files online/` (openly licensed, saved 2007–2026)
 with 0 graph failures. EXP-084 lists what that took: chunked sections, six more XT node types (the
 helix numbers are swapped compared with the 2006 table), the active configuration from Header2,
-bodies in LocalBodies, DisplayLists streams with no tessellation, and cosmetic-thread bands. Open:
-NQ-052 to NQ-055. Next: a B-rep tessellation fallback for parts saved without display data, then
-the per-year accuracy checks.
+which bodies count (BODY_IN_LIGHTWEIGHT_PERM, 187/188), DisplayLists streams with no tessellation,
+and cosmetic-thread bands. The converter also triangulates the B-rep for STL when a part has no
+display data: closed on 80 of the 136 parts, and 8 of the 18 without a display mesh (EXP-084
+section 8). Open: NQ-052 to NQ-055. Next: the triangulation failures (blend-on-blend, vertices
+off their curves, the seam split), then the per-year accuracy checks.
 
 ## Checkpoint — 2026-10-05 UTC, EXP-081 (Config-0), EXP-080 (upgrade), EXP-079 (feature tree)
 

@@ -1,0 +1,27 @@
+{ match: 187, MISMATCH: 1 }
+match PTC GE8080-8.SLDPRT disp 126 kept 126 flags 1
+match 8cd79ff5_1ESxx.SLDPRT disp 103 kept 103 flags 1
+match c5784ab3_A09_power_and_c disp 88 kept 88 flags undefined
+match 2e6e140a_ST3215_C018_04. disp 1117 kept 1117 flags undefined
+match 0eab6495_A15_KW10_casset disp 54 kept 54 flags undefined
+match bc3292d7_12T Gear.SLDPRT disp 135 kept 135 flags undefined
+match 916d4a0a_36T Gear.SLDPRT disp 295 kept 295 flags undefined
+match eb0b2a21_60T Gear.SLDPRT disp 399 kept 399 flags undefined
+match 85aabbde_84T Gear.SLDPRT disp 671 kept 671 flags undefined
+MISMATCH 82981f2a_head_back.sldpr disp 532 kept 535 flags 1
+match d2515121_Ecran_128x32ole disp 2512 kept 2512 flags 1
+match d0d61cde_官方元件-定位模块.SLDPR disp 544 kept 544 flags 1/0
+match 03764871_BME280.SLDPRT disp 693 kept 693 flags 1
+match ef1d5cfe_DS3231.SLDPRT disp 404 kept 404 flags 1
+match 55c163ac_pin-1-2.SLDPRT disp 452 kept 452 flags 1/0
+match 6fd68589_pin-2-1.SLDPRT disp 500 kept 500 flags 1/0
+match 05d0b4c3_pin-2-2.SLDPRT disp 500 kept 500 flags 1/0
+match a4ecc6f5_PP-2074-08.SLDP disp 961 kept 961 flags 1
+match 346a04bc_R01_D_lower_1_1 disp 4 kept 4 flags 1
+match be0e76cf_WP06_screw_1_-9 disp 16 kept 16 flags 1
+match 766ad273_WP06_washer_inn disp 4 kept 4 flags 1
+match bf11f45c_shear_clip_1_15 disp 8 kept 8 flags 1
+match 3c4752f1_A-2226-01_Input disp 239 kept 239 flags 1
+match 10459a56_A-2605-01_CR1_R disp 143 kept 143 flags 1
+match db8a97e2_écrou fileté M5 disp 26 kept 26 flags 1/0
+match 51065319_Mirror (opt 1-P disp 8 kept 8 flags 1/0
