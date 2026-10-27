@@ -24,6 +24,13 @@ They're here only as test data for the research. Neither license applies
 to them. Don't copy, redistribute or reuse them. If one of them is yours
 and you want it removed, open an issue.
 
+"test files online/" is third-party too: 141 parts from public GitHub
+repositories, each with its source repository, URL and the license that
+repository declares in "test files online/SOURCES.tsv". Most declare none
+(NONE or NOASSERTION there). They're here as test data only, under their
+own terms, and neither license of this repository applies to them. Same
+as above: if one is yours and you want it removed, open an issue.
+
 The controlled models in "test files new/" and "test files original/
 controlled/", and their exports, are my own and are covered by
 CC BY-SA 4.0.
