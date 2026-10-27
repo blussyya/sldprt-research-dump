@@ -184,3 +184,10 @@ cheap to test whenever someone reaches them:
 - **Node type numbers** from the worked example: 1 terminator, 12 body, 13 shell, 14 face,
   15 loop, 16 edge, 17 fin, 19 region, 31 circle, 50 plane, 70 list, 74 pointer_lis_block,
   79 att_def_id, 80 attrib_def, 81 attribute, 83 real_values.
+
+### Helix node numbers (EXP-084)
+
+The 2006 reference's node table lists HELIX_CU_FORM as 163 and HELIX_SU_FORM as 184. In
+SolidWorks files it's the other way round: 163 is what SURFACE_DATA's analytic_form points to and
+has the surface layout (no `point` field, has `gap`), 184 is what CURVE_DATA points to and has the
+curve layout. Checked in four threaded parts by traversal; the byte proof is in EXP-084 §2.

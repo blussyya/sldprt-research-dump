@@ -1,6 +1,15 @@
 # Research Handoff
 
-## Current checkpoint — 2026-10-05 UTC, EXP-081 (Config-0), EXP-080 (upgrade), EXP-079 (feature tree)
+## Current checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
+
+The converter now reads all 136 parts in `test files online/` (openly licensed, saved 2007–2026)
+with 0 graph failures. EXP-084 lists what that took: chunked sections, six more XT node types (the
+helix numbers are swapped compared with the 2006 table), the active configuration from Header2,
+bodies in LocalBodies, DisplayLists streams with no tessellation, and cosmetic-thread bands. Open:
+NQ-052 to NQ-055. Next: a B-rep tessellation fallback for parts saved without display data, then
+the per-year accuracy checks.
+
+## Checkpoint — 2026-10-05 UTC, EXP-081 (Config-0), EXP-080 (upgrade), EXP-079 (feature tree)
 
 All 49 controlled models (25 SW2011, 24 SW2022) now read byte-exact in both Config-0 and
 Config-0-ResolvedFeatures. Config-0's index sequence ends exactly where the feature stream starts in

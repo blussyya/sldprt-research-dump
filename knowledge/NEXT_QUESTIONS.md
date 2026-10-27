@@ -1200,3 +1200,34 @@ Dekor 59 (cylinder 46, B-spline 13; up to 25 µm), chainwheel 57, Helical Bevel 
 points SolidWorks moved for mesh quality after sampling, or float32 rounding chains on long strips.
 
 **Date raised**: 2026-10-04 (EXP-078).
+
+## NQ-052 — Why isn't d0d61cde's partition solid drawn?
+
+EXP-084: `d0d61cde` (2023) has an 88-face solid and four one-face sheets in Config-1-Partition, and
+three LocalBodies of 212, 84 and 244 faces. Its 544 display faces are the sheets plus LocalBodies.
+The solid isn't drawn. The likely answer is a hidden body; where SolidWorks stores body visibility
+(a Parasolid attribute, or a flag in Config-1 / ResolvedFeatures) isn't known yet.
+
+**Date raised**: 2026-10-27 (EXP-084).
+
+## NQ-053 — The active configuration in files without Config-N-ModelHeader
+
+EXP-084: from about SW2020 on, Header2 copies the active configuration's ModelHeader. Twelve
+earlier modern files have no ModelHeader streams, and their Header2 matches no `Contents/Config-N`.
+The reader falls back to the lowest N. Candidates to check: CMgr / CMgrHdr2, `Config-N-Preview`
+(only some configurations have one), the order of `docProps/Config-N-Properties.xml`.
+
+**Date raised**: 2026-10-27 (EXP-084).
+
+## NQ-054 — head_back: 535 B-rep faces, 532 drawn
+
+EXP-084: `82981f2a` (2013, OLE2, 144 OFFSET_SURF nodes). Which 3 faces have no tessellation, and why.
+
+**Date raised**: 2026-10-27 (EXP-084).
+
+## NQ-055 — XT types 85, 87, 88, 89
+
+POINT, AXIS, TAG and DIRECTION_VALUES have their 2006-reference layouts in the reader but occur in
+no part so far. Verify by traversal when one turns up.
+
+**Date raised**: 2026-10-27 (EXP-084).

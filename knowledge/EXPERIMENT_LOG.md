@@ -1389,3 +1389,24 @@ vertices; ghost body ownership (NQ-050).
 **Date**: 2026-10-04
 
 **Raw evidence**: `knowledge/evidence/2026-10-04_v0.5-EXP078.md`, `knowledge/evidence/scripts/EXP078/`
+
+## EXP-084 — Reading the online sample, 2007 to 2026
+
+**Question**: Do the readers work on 141 openly licensed parts that nobody in this project made, saved from 2007 to 2026?
+
+**Result**: After the fixes, all 136 B-reps read with 0 graph failures, and display and B-rep face
+counts agree on all but 2 parts. What it took: sections over 1 MiB come in chunks (also in the
+legacy DisplayLists__ZLB); XT types 60, 68, 86, 100, 163 and 184 needed base layouts; 163 is the
+surface helix and 184 the curve helix, the reverse of the 2006 reference's table; padded knot
+arrays; the active configuration is the one whose Config-N-ModelHeader matches Header2; bodies in
+LocalBodies count when the partition has no solid (182/188). Five DisplayLists streams hold no
+tessellation (no uoTempBodyTessData_c, 125/125 files agree), and cosmetic threads are drawn as
+separate cylinder bands that match the VECTOR_VALUES count in the B-rep.
+
+**Files tested**: 141 (136 parts, 17 save years); body sums on 188 parts across all three corpus folders.
+
+**Known gaps**: d0d61cde's undrawn partition solid (NQ-052); configuration choice without ModelHeaders (NQ-053); head_back's 3 extra faces (NQ-054); types 85, 87–89 unverified (NQ-055).
+
+**Date**: 2026-10-27
+
+**Raw evidence**: `knowledge/evidence/2026-10-27_v0.5-EXP084.md`, `knowledge/evidence/scripts/EXP084/`

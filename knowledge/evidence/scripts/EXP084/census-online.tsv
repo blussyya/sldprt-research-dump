@@ -1,0 +1,136 @@
+2007	05187d94	ole	ok	ok	dispF=13	brepF=13	rej=0
+2010	065f38b0	ole	ok	ok	dispF=6	brepF=6	rej=0
+2010	7192bb05	ole	ok	ok	dispF=7	brepF=7	rej=0
+2011	6ff6c243	ole	ok	ok	dispF=15	brepF=15	rej=0
+2011	e1f38af5	ole	ok	ok	dispF=14	brepF=14	rej=0
+2013	82981f2a	ole	ok	ok	dispF=532	brepF=535	rej=0
+2013	92c393f4	ole	ok	ok	dispF=116	brepF=116	rej=0
+2013	f666f342	ole	ok	ok	dispF=732	brepF=732	rej=0
+2014	300f9732	ole	ok	ok	dispF=92	brepF=92	rej=0
+2014	68cd51b6	ole	ok	ok	dispF=26	brepF=26	rej=0
+2015	0739c559	8000	ok	ok	dispF=342	brepF=342	rej=0
+2015	1214a0ff	8000	ok	ok	dispF=4	brepF=4	rej=0
+2016	118a3cb0	9000	ok	ok	dispF=22	brepF=22	rej=0
+2016	289756ce	9000	ok	ok	dispF=18	brepF=18	rej=0
+2016	629adcec	9000	ok	ok	dispF=3	brepF=3	rej=0
+2016	70477058	9000	ok	ok	dispF=18	brepF=18	rej=0
+2017	3b48d9c5	10000	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=24	rej=0
+2017	4df87793	ole	ok	nomesh: No legacy DisplayLists stream	dispF=0	brepF=4	rej=0
+2017	51065319	10000	ok	ok	dispF=8	brepF=8	rej=0
+2017	516a7dc5	10000	ok	ok	dispF=8	brepF=8	rej=0
+2017	afc71d14	10000	ok	ok	dispF=24	brepF=24	rej=0
+2017	d49566bc	8000	ok	ok	dispF=16	brepF=16	rej=0
+2017	d799e9a3	10000	ok	ok	dispF=249	brepF=249	rej=0
+2018	0132519a	11000	ok	ok	dispF=167	brepF=167	rej=0
+2018	06b5063b	11000	ok	nomesh: DisplayLists holds no tessellation (saved without display da	dispF=0	brepF=0	rej=0
+2018	15567d51	11000	ok	ok	dispF=298	brepF=298	rej=0
+2018	361e7dbb	11000	ok	ok	dispF=262	brepF=262	rej=0
+2018	ca465363	11000	ok	ok	dispF=118	brepF=118	rej=0
+2018	d2515121	11000	ok	ok	dispF=2512	brepF=2512	rej=0
+2018	eefa906d	7000	ok	ok	dispF=6	brepF=6	rej=0
+2019	07ff8da1	12000	ok	ok	dispF=30	brepF=30	rej=0
+2019	096d0504	12000	ok	ok	dispF=18	brepF=18	rej=0
+2019	27377fd2	11000	ok	ok	dispF=8	brepF=8	rej=0
+2019	28398415	12000	ok	ok	dispF=267	brepF=267	rej=0
+2019	300d7f07	12000	ok	ok	dispF=50	brepF=50	rej=0
+2019	44afdb7c	12000	ok	ok	dispF=26	brepF=26	rej=0
+2019	54b05886	12000	ok	ok	dispF=92	brepF=92	rej=0
+2019	636b653d	9000	ok	ok	dispF=26	brepF=26	rej=0
+2019	7765d286	5000	ok	ok	dispF=62	brepF=62	rej=0
+2019	8cd79ff5	12000	ok	ok	dispF=103	brepF=103	rej=0
+2019	91a2d981	12000	ok	ok	dispF=19	brepF=19	rej=0
+2019	a3a44709	12000	ok	ok	dispF=16	brepF=16	rej=0
+2019	d381ebab	12000	ok	ok	dispF=83	brepF=83	rej=0
+2019	e8c40c25	12000	ok	ok	dispF=271	brepF=271	rej=0
+2019	fb449daa	12000	ok	ok	dispF=50	brepF=50	rej=0
+2020	14f9214b	13000	ok	ok	dispF=75	brepF=75	rej=0
+2020	320de1b5	9000	ok	ok	dispF=42	brepF=42	rej=0
+2020	34fe5ff1	13000	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=16	rej=0
+2020	543861c9	13000	ok	ok	dispF=69	brepF=69	rej=0
+2020	72b08e3e	13000	ok	ok	dispF=28	brepF=28	rej=0
+2020	7841a106	3800	ok	ok	dispF=54	brepF=54	rej=0
+2020	9494d959	13000	ok	ok	dispF=12	brepF=12	rej=0
+2020	b185085c	13000	ok	ok	dispF=33	brepF=33	rej=0
+2020	b32017f5	10000	ok	nomesh: DisplayLists holds no tessellation (saved without display da	dispF=0	brepF=16	rej=0
+2021	60f84235	14000	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=461	rej=0
+2021	85aabbde	14000	ok	ok	dispF=671	brepF=671	rej=0
+2021	916d4a0a	14000	ok	ok	dispF=295	brepF=295	rej=0
+2021	bc3292d7	14000	ok	ok	dispF=135	brepF=135	rej=0
+2021	eb0b2a21	14000	ok	ok	dispF=399	brepF=399	rej=0
+2022	073482d3	15000	ok	ok	dispF=109	brepF=109	rej=0
+2022	0d68d32d	10000	ok	ok	dispF=103	brepF=103	rej=0
+2022	10459a56	15000	ok	ok	dispF=143	brepF=143	rej=0
+2022	1ee60868	15000	ok	ok	dispF=32	brepF=32	rej=0
+2022	24344735	15000	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=675	rej=0
+2022	273a8d53	15000	ok	ok	dispF=76	brepF=76	rej=0
+2022	3980555c	15000	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=30	rej=0
+2022	3c4752f1	15000	ok	ok	dispF=239	brepF=239	rej=0
+2022	40e79d45	15000	ok	ok	dispF=12	brepF=12	rej=0
+2022	47b2b860	15000	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=4	rej=0
+2022	5f8e9db3	ole	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=8	rej=0
+2022	6ccc1814	15000	ok	ok	dispF=9	brepF=9	rej=0
+2022	84226163	15000	ok	ok	dispF=10	brepF=10	rej=0
+2022	9cc04b03	15000	ok	ok	dispF=93	brepF=93	rej=0
+2022	a0ab30c8	15000	ok	ok	dispF=37	brepF=37	rej=0
+2022	a0fc2e29	15000	ok	ok	dispF=11	brepF=11	rej=0
+2022	c0ef9eb3	15000	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=22	rej=0
+2022	c72513ca	15000	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=13	rej=0
+2022	ceefa2a9	ole	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=41	rej=0
+2022	d753195d	15000	ok	ok	dispF=90	brepF=90	rej=0
+2022	db8a97e2	15000	ok	ok	dispF=26	brepF=26	rej=0
+2022	dc265ce1	15000	ok	ok	dispF=10	brepF=10	rej=0
+2022	dd156283	15000	ok	ok	dispF=11	brepF=11	rej=0
+2022	f8c2df35	ole	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=22	rej=0
+2023	03764871	16000	ok	ok	dispF=693	brepF=693	rej=0
+2023	1759e569	16000	ok	ok	dispF=35	brepF=35	rej=0
+2023	2f121983	16000	ok	ok	dispF=155	brepF=155	rej=0
+2023	2fd21507	16000	ok	ok	dispF=49	brepF=49	rej=0
+2023	31596c7e	16000	ok	ok	dispF=99	brepF=99	rej=0
+2023	3edbf014	16000	ok	ok	dispF=127	brepF=127	rej=0
+2023	41b71219	16000	ok	ok	dispF=82	brepF=82	rej=0
+2023	4803f393	16000	ok	ok	dispF=1390	brepF=1390	rej=0
+2023	9aeafb66	16000	ok	ok	dispF=37	brepF=37	rej=0
+2023	d0d61cde	16000	ok	ok	dispF=544	brepF=92	rej=0
+2023	d2f7f9bd	8000	ok	ok	dispF=6	brepF=6	rej=0
+2023	d77ec77a	16000	ok	ok	dispF=67	brepF=67	rej=0
+2023	d8206ed0	16000	ok	ok	dispF=34	brepF=34	rej=0
+2023	ef1d5cfe	16000	ok	ok	dispF=404	brepF=404	rej=0
+2024	03afebf4	13000	ok	ok	dispF=7	brepF=7	rej=0
+2024	09d353a9	17000	ok	ok	dispF=40	brepF=40	rej=0
+2024	1e794aad	4100	ok	ok	dispF=117	brepF=117	rej=0
+2024	225c13ed	17000	ok	ok	dispF=49	brepF=49	rej=0
+2024	2300f35c	17000	ok	ok	dispF=172	brepF=172	rej=0
+2024	346a04bc	17000	ok	ok	dispF=4	brepF=4	rej=0
+2024	37663d8a	17000	ok	ok	dispF=11	brepF=11	rej=0
+2024	4febfc67	3800	ok	ok	dispF=19	brepF=19	rej=0
+2024	766ad273	17000	ok	ok	dispF=4	brepF=4	rej=0
+2024	7fa6934e	17000	ok	ok	dispF=22	brepF=22	rej=0
+2024	871e670c	17000	ok	ok	dispF=32	brepF=32	rej=0
+2024	951f2bc1	17000	ok	ok	dispF=26	brepF=26	rej=0
+2024	a4ecc6f5	17000	ok	ok	dispF=961	brepF=961	rej=0
+2024	be0e76cf	17000	ok	ok	dispF=16	brepF=16	rej=0
+2024	bf11f45c	17000	ok	ok	dispF=8	brepF=8	rej=0
+2024	f750218b	17000	ok	nomesh: No readable modern DisplayLists stream	dispF=0	brepF=6	rej=0
+2025	05d0b4c3	18000	ok	ok	dispF=500	brepF=500	rej=0
+2025	16f99cd7	18000	ok	ok	dispF=34	brepF=34	rej=0
+2025	3e41786b	18000	ok	ok	dispF=18	brepF=18	rej=0
+2025	50af9019	18000	ok	ok	dispF=274	brepF=274	rej=0
+2025	51f01927	18000	ok	ok	dispF=428	brepF=428	rej=0
+2025	55c163ac	18000	ok	ok	dispF=452	brepF=452	rej=0
+2025	6fd68589	18000	ok	ok	dispF=500	brepF=500	rej=0
+2025	822f5572	18000	ok	ok	dispF=18	brepF=18	rej=0
+2025	8aaecde6	18000	ok	ok	dispF=46	brepF=46	rej=0
+2025	8afc9212	8000	ok	ok	dispF=14	brepF=14	rej=0
+2025	ac760485	18000	ok	ok	dispF=38	brepF=38	rej=0
+2025	c613782b	18000	ok	ok	dispF=13	brepF=13	rej=0
+2025	e8f16581	18000	ok	ok	dispF=10	brepF=10	rej=0
+2025	f0b9a118	18000	ok	ok	dispF=33	brepF=33	rej=0
+2025	f6facc43	8000	ok	ok	dispF=17	brepF=17	rej=0
+2026	0eab6495	19000	ok	ok	dispF=54	brepF=54	rej=0
+2026	2693f32a	16000	ok	nomesh: DisplayLists holds no tessellation (saved without display da	dispF=0	brepF=25	rej=0
+2026	2e6e140a	19000	ok	ok	dispF=1117	brepF=1117	rej=0
+2026	4d85599e	19000	ok	ok	dispF=12	brepF=12	rej=0
+2026	c292e7e2	16000	ok	nomesh: DisplayLists holds no tessellation (saved without display da	dispF=0	brepF=529	rej=0
+2026	c5784ab3	19000	ok	ok	dispF=88	brepF=88	rej=0
+2026	d889c6fc	16000	ok	nomesh: DisplayLists holds no tessellation (saved without display da	dispF=0	brepF=5	rej=0
+2026	daa6e9e9	19000	ok	ok	dispF=296	brepF=296	rej=0
