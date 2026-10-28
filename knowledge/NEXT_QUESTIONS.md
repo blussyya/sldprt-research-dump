@@ -1248,6 +1248,8 @@ tessellation. Settle it by saving one old part both ways in a current release.
 
 ## NQ-057 — B-rep triangulation: 32 online parts with open or repeated edges
 
+**Status**: To fix. Next up when work resumes (see RESEARCH_HANDOFF.md).
+
 EXP-085 section 7: the B-rep resolves on all of them, so the triangulator is at fault. 10 have only
 repeated edges (`14f9214b`, whose cone faces overlap themselves, `85aabbde`, `4febfc67`). The
 worst have thousands of open edges (`03764871`, `d8206ed0`, `ceefa2a9`, `8cd79ff5`). List in
@@ -1256,6 +1258,8 @@ worst have thousands of open edges (`03764871`, `d8206ed0`, `ceefa2a9`, `8cd79ff
 **Date raised**: 2026-10-28 (EXP-085).
 
 ## NQ-058 — Five online parts still don't resolve
+
+**Status**: To fix. Next up when work resumes (see RESEARCH_HANDOFF.md).
 
 EXP-085 section 7: `2f121983` and `d2515121` (intersection march doesn't reach the end),
 `3c4752f1` (surfaces tangent along the edge, no common point within 3.1 µm), `0739c559` (blend

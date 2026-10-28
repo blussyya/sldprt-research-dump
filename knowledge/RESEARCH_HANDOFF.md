@@ -9,8 +9,16 @@ split and closes gaps along toleranced edges, so it matches C20's closed form an
 rebuild of the loft. Reading bugs that made fitted geometry up to 24 km off are fixed (node_ids per
 body, spun and cone (u, v), the march stop, projection on closed B-surfaces), and exact STEP
 refuses over 1 µm. The 17 no-display parts have no mesh anywhere. B-rep triangulation closes on 90
-of 136 online parts. Open: NQ-056 to NQ-058. Next: the triangulator on the 32 parts with gaps,
-then the five that don't resolve.
+of 136 online parts. Open: NQ-056 to NQ-058.
+
+**To fix when work picks up again** (stopped here on 2026-10-28):
+
+1. The B-rep triangulator on the 32 online parts with open or repeated edges (NQ-057). The B-rep
+   resolves on all of them, so the fault is in the triangulator. List and counts in
+   `knowledge/evidence/scripts/EXP085/tess-after.txt`.
+2. The five online parts that don't resolve (NQ-058): `2f121983`, `d2515121` (march doesn't reach
+   the end), `3c4752f1` (tangent surfaces, no common point within 3.1 µm), `0739c559` (blend
+   support not found), `82981f2a` (interpolation band).
 
 ## Checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
 
