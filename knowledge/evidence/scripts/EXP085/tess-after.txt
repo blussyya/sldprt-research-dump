@@ -1,0 +1,141 @@
+05187d94_ChainCL_In.SLDPRT       faces 20 tris 1020 open 0 rep 0 vol 184.6788 exact 185.5147 vsDisp 4.41e-3 rel -4.51e-3 118ms
+065f38b0_等径四节弯头-4.SLDPRT         faces 8 tris 127094 open 0 rep 0 vol 585935.7735 exact -103532009.6838 vsDisp 1.16e-1 rel -1.01e+0 107698ms
+7192bb05_长短脚任意角度裤形三通管-5.SLDPRT   faces 9 tris 7708 open 0 rep 0 vol 5766.7646 exact 5767.7038 vsDisp -2.78e-3 rel -1.63e-4 3516ms
+6ff6c243_通气塞.SLDPRT              faces 25 tris 6714 open 0 rep 22 vol 6872.3612 exact 6874.2905 vsDisp 3.76e-3 rel -2.81e-4 327ms
+e1f38af5_0000380-01.sldprt       faces 25 tris 9496 open 0 rep 0 vol 37328.5622 exact 37329.6076 vsDisp 1.46e-3 rel -2.80e-5 479ms
+82981f2a_head_back.sldprt        ERR interp: band     at interp (/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters/src/brep/fit.js:40:92)
+92c393f4_camera_support.sldprt   faces 142 tris 3260 open 0 rep 0 vol 963.0340 exact 963.1804 vsDisp 1.73e-3 rel -1.52e-4 686ms
+f666f342_head_face.sldprt TIMEOUT
+300f9732_Carter2019.SLDPRT       faces 104 tris 11304 open 0 rep 0 vol 99159.2558 exact 99164.2184 vsDisp 1.98e-4 rel -5.00e-5 1655ms
+68cd51b6_20190309-0049.SLDPRT    faces 34 tris 1228 open 0 rep 0 vol 14219.7261 exact 14215.1160 vsDisp -2.57e-3 rel 3.24e-4 563ms
+0739c559_[HEAD-COVR-MIL1-COMN-00 ERR blend boundary: support not found     at contactEdge (/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters/src/brep/fit.js:247:21)
+1214a0ff_[ARM-A-V1-COMN-INNR-COM faces 6 tris 3064 open 0 rep 0 vol 8445.8155 exact 8446.1803 vsDisp 6.63e-4 rel -4.32e-5 192ms
+118a3cb0_cut-z18-b1xh1xl1.SLDPRT faces 30 tris 5001 open 9 rep 0 vol 22109.9106 exact 22112.4444 vsDisp -8.92e-1 rel -1.15e-4 1132ms
+289756ce_cut-z071-b1-l1-l2-typ.S faces 22 tris 3026 open 0 rep 0 vol 36810.9928 exact 36815.4017 vsDisp 1.51e-2 rel -1.20e-4 256ms
+629adcec_cut-z351-d1xl1.SLDPRT   faces 4 tris 252 open 0 rep 0 vol 762.1813 exact 763.4070 vsDisp 1.51e-3 rel -1.61e-3 105ms
+70477058_mt-cut-z085-l1xb1-typ.S faces 26 tris 3172 open 0 rep 0 vol 33664.1374 exact 33671.2045 vsDisp 7.41e-4 rel -2.10e-4 332ms
+3b48d9c5_Body10.sldprt           faces 28 tris 1076 open 0 rep 0 vol 1556.3909 exact 1556.1268 vsDisp - rel 1.70e-4 246ms
+4df87793_21BC-S 1.19-A.sldprt    faces 5 tris 2382 open 0 rep 0 vol 16.2449 exact -0.0000 vsDisp - rel -1.09e+8 99ms
+51065319_Mirror (opt 1-PSA)-HME_ faces 8 tris 20 open 0 rep 0 vol 16780.1176 exact 16780.1176 vsDisp 1.53e-7 rel 5.67e-14 52ms
+516a7dc5_Body1.sldprt            faces 8 tris 20 open 0 rep 0 vol 4772.7160 exact 4772.7160 vsDisp 7.08e-9 rel 2.84e-15 57ms
+afc71d14_Body2.sldprt            faces 28 tris 1076 open 0 rep 0 vol 1556.3909 exact 1556.1268 vsDisp -1.50e-4 rel 1.70e-4 321ms
+d49566bc_AntennaMount.SLDPRT     faces 22 tris 780 open 0 rep 0 vol 1409.1092 exact 1408.6971 vsDisp 1.29e-4 rel 2.93e-4 273ms
+d799e9a3_90751A110_18-8 Stainles faces 286 tris 502840 open 0 rep 14 vol -102.1900 exact 94.9382 vsDisp -2.07e+0 rel -2.08e+0 96775ms
+0132519a_102_STEM.SLDPRT         faces 181 tris 42183 open 568 rep 525 vol 256.7933 exact 252.7283 vsDisp 5.04e-3 rel 1.61e-2 10754ms
+06b5063b_050_MASTER_SKETCH.SLDPR faces 0 tris 0 open 0 rep 0 vol 0.0000 exact 0.0000 vsDisp - rel - 59ms
+15567d51_leva1.SLDPRT TIMEOUT
+361e7dbb_101_HOUSING.SLDPRT      faces 277 tris 4756 open 0 rep 0 vol 629.1070 exact 629.4223 vsDisp -2.66e-4 rel -5.01e-4 3764ms
+ca465363_103_COVER.SLDPRT        faces 118 tris 9476 open 0 rep 0 vol 259.8513 exact 259.8840 vsDisp 9.45e-5 rel -1.26e-4 1950ms
+d2515121_Ecran_128x32oled.SLDPRT ERR intersection: march did not reach the end     at march (/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters/src/brep/fit.js:165:9)
+eefa906d_plancher Dalle 2020.SLD faces 6 tris 12 open 0 rep 0 vol 22032000.0000 exact 22032000.0000 vsDisp -3.55e-1 rel 1.42e-15 58ms
+07ff8da1_shelf.SLDPRT            faces 32 tris 2286 open 0 rep 0 vol 190939.2780 exact 190939.7231 vsDisp 1.21e-6 rel -2.33e-6 463ms
+096d0504_MargayMount_WH10.SLDPRT faces 24 tris 1308 open 0 rep 0 vol 12745.7042 exact 12745.7994 vsDisp 2.87e-4 rel -7.47e-6 361ms
+27377fd2_FE-00006-06.SLDPRT      faces 8 tris 20 open 0 rep 0 vol 301112.3010 exact 301112.3010 vsDisp 2.58e-8 rel 2.16e-15 44ms
+28398415_Raspberry Pi 4.SLDPRT   faces 271 tris 1583 open 26 rep 9 vol 22663.6908 exact 22708.3974 vsDisp -1.96e-3 rel -1.97e-3 507ms
+300d7f07_Bottom Case.SLDPRT      faces 74 tris 5800 open 0 rep 0 vol 21783.7027 exact 21785.1016 vsDisp 1.47e-4 rel -6.42e-5 570ms
+44afdb7c_back_cushion.SLDPRT     faces 26 tris 39414 open 0 rep 0 vol 48917695.5783 exact 48919532.3554 vsDisp 1.07e-3 rel -3.75e-5 1139ms
+54b05886_bottom_adc.SLDPRT       faces 106 tris 3432 open 0 rep 0 vol 29820.5651 exact 29817.0600 vsDisp -8.36e-4 rel 1.18e-4 635ms
+636b653d_MountingBracket.SLDPRT  faces 30 tris 1260 open 0 rep 0 vol 21125.0420 exact 21121.5963 vsDisp 4.89e-2 rel 1.63e-4 328ms
+7765d286_NSJ8L.SLDPRT            faces 71 tris 2572 open 0 rep 0 vol 10331.1927 exact 10329.8500 vsDisp -8.45e-4 rel 1.30e-4 318ms
+8cd79ff5_1ESxx.SLDPRT            faces 121 tris 232698 open 1058 rep 39290 vol 171.1789 exact ? vsDisp -5.89e-1 rel - 4907ms
+91a2d981_Camera Module.SLDPRT    faces 23 tris 684 open 0 rep 0 vol 1011.4280 exact 1011.4111 vsDisp -1.31e-5 rel 1.67e-5 304ms
+a3a44709_FrontPanel-Bezel.sldprt faces 16 tris 280 open 0 rep 0 vol 4341.9051 exact 4341.9524 vsDisp 6.63e-5 rel -1.09e-5 127ms
+d381ebab_bottom_dac.SLDPRT       faces 94 tris 3080 open 0 rep 0 vol 30070.8876 exact 30067.1900 vsDisp -9.57e-4 rel 1.23e-4 548ms
+e8c40c25_psu.SLDPRT              faces 364 tris 22290 open 7 rep 140 vol 48984.0940 exact 49089.6829 vsDisp -2.05e-3 rel -2.15e-3 7105ms
+fb449daa_Gloworm PCB.SLDPRT      faces 55 tris 36370 open 0 rep 14 vol 6933.3769 exact 6933.6254 vsDisp 2.85e-4 rel -3.58e-5 13331ms
+14f9214b_11.SLDPRT               faces 89 tris 28152 open 0 rep 1070 vol 2789338.7894 exact 2789259.9823 vsDisp -4.71e-4 rel 2.83e-5 1718ms
+320de1b5_SPEC-PC-MB-MATX-KEEPOUT faces 42 tris 192 open 16 rep 7 vol 373638.7151 exact 371658.6115 vsDisp 5.33e-3 rel 5.33e-3 105ms
+34fe5ff1_Group_44390.stp.SLDPRT  faces 16 tris 40 open 0 rep 0 vol 576458.7211 exact 576458.7211 vsDisp - rel 7.34e-15 48ms
+543861c9_BALL NUT BRACKET_(11-25 faces 95 tris 128182 open 397 rep 543 vol 135901.7013 exact 32732.2474 vsDisp 2.74e+0 rel 3.15e+0 11735ms
+72b08e3e_Hip Cable HOlder.SLDPRT faces 28 tris 84 open 0 rep 0 vol 93.3751 exact 93.3751 vsDisp 1.74e-10 rel -5.17e-14 99ms
+7841a106_6344428.SLDPRT          faces 54 tris 3002 open 0 rep 0 vol 171645.7761 exact 171645.7143 vsDisp 2.28e-4 rel 3.60e-7 2064ms
+9494d959_27_20_4.SLDPRT          faces 18 tris 4584 open 0 rep 0 vol 989.2810 exact 989.2875 vsDisp 1.33e-3 rel -6.58e-6 291ms
+b185085c_Handle 3.SLDPRT         faces 35 tris 5782 open 0 rep 0 vol 16887.0694 exact 16901.6936 vsDisp 2.47e-3 rel -8.65e-4 604ms
+b32017f5_Engine Compartment - Su faces 24 tris 1496 open 0 rep 0 vol 72191.1178 exact 72187.2693 vsDisp - rel 5.33e-5 222ms
+60f84235_2022_10_06_17_02_43_061 TIMEOUT
+85aabbde_84T Gear.SLDPRT         faces 694 tris 173128 open 0 rep 1154 vol 19620.0215 exact 19624.9998 vsDisp 8.47e-4 rel -2.54e-4 16610ms
+916d4a0a_36T Gear.SLDPRT         faces 308 tris 16408 open 0 rep 0 vol 3927.8371 exact 3929.2959 vsDisp 1.94e-3 rel -3.71e-4 18141ms
+bc3292d7_12T Gear.SLDPRT         faces 142 tris 2384 open 0 rep 0 vol 799.1831 exact 800.4270 vsDisp 3.66e-3 rel -1.55e-3 2388ms
+eb0b2a21_60T Gear.SLDPRT         faces 416 tris 22524 open 0 rep 0 vol 8498.4244 exact 8499.5158 vsDisp 1.80e-3 rel -1.28e-4 20237ms
+073482d3_ReducerBox_1_Reducer.SL TIMEOUT
+0d68d32d_6208K696_Clamping Preci faces 200 tris 909637 open 3 rep 292 vol 82787.4661 exact 81419.7949 vsDisp 1.66e-2 rel 1.68e-2 110422ms
+10459a56_A-2605-01_CR1_Right_Ang faces 182 tris 72480 open 0 rep 0 vol 33583.8790 exact 33588.5467 vsDisp 6.05e-4 rel -1.39e-4 8621ms
+1ee60868_z轴皮带固定.SLDPRT           faces 34 tris 372 open 0 rep 0 vol 771.5461 exact 771.2850 vsDisp -2.62e-4 rel 3.39e-4 151ms
+24344735_080-1926-000_3.SLDPRT   faces 678 tris 8817 open 10 rep 17 vol 34.3469 exact 34.3923 vsDisp - rel -1.32e-3 6212ms
+273a8d53_FG-F1.SLDPRT            faces 81 tris 2340 open 0 rep 0 vol 13987.6854 exact 13987.0787 vsDisp -1.86e-5 rel 4.34e-5 15055ms
+3980555c_RASPBERRY_PI_5+cooler-5 faces 39 tris 1548 open 0 rep 0 vol 1818.7967 exact 4913.9562 vsDisp - rel -6.30e-1 592ms
+3c4752f1_A-2226-01_Input_Inline_ ERR intersection: surfaces tangent, no common point (3.1e-6 m)     at corrector (/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters/src/brep/fit.js:134:57)
+40e79d45_Fins.SLDPRT             faces 12 tris 34 open 0 rep 0 vol 139270.3182 exact 139270.3182 vsDisp 4.89e-8 rel 5.06e-15 50ms
+47b2b860_DIN_Flex_Converter_pad_ faces 6 tris 384 open 384 rep 0 vol 3.9682 exact 3.9935 vsDisp - rel -6.34e-3 133ms
+5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT TIMEOUT
+6ccc1814_LB26001-A-04-007.SLDPRT faces 14 tris 1152 open 0 rep 0 vol 1690.9520 exact 1693.1887 vsDisp 7.34e-4 rel -1.32e-3 176ms
+84226163_Fin.SLDPRT              faces 10 tris 28 open 0 rep 0 vol 142854.2304 exact 142854.2304 vsDisp 4.63e-8 rel 1.16e-14 44ms
+9cc04b03_SO-C1.SLDPRT            faces 97 tris 4444 open 0 rep 0 vol 3077.9932 exact 3077.1914 vsDisp -2.09e-4 rel 2.61e-4 38347ms
+a0ab30c8_LB26001-A-04-022.SLDPRT faces 48 tris 5889 open 3 rep 52 vol 22414.1601 exact 22409.8838 vsDisp 7.03e-2 rel 1.91e-4 432ms
+a0fc2e29_Vertical Spar.SLDPRT    faces 13 tris 544 open 0 rep 0 vol 418893.4257 exact 418891.6461 vsDisp -2.59e-5 rel 4.25e-6 87ms
+c0ef9eb3_DIN_Flex_Converter_pad_ faces 22 tris 76 open 45 rep 15 vol -3.2139 exact -3.2139 vsDisp - rel -8.96e-13 135ms
+c72513ca_ASSEMBLY_11.SLDPRT      faces 13 tris 76 open 75 rep 9 vol 0.7423 exact 0.7424 vsDisp - rel -5.70e-5 247ms
+ceefa2a9_CRP320-05.SLDPRT        faces 43 tris 4324 open 2186 rep 0 vol 10911.1953 exact ? vsDisp - rel - 794ms
+d753195d_ServoMount.SLDPRT       faces 110 tris 3180 open 0 rep 0 vol 6269.8417 exact 6266.0351 vsDisp -6.29e-4 rel 6.07e-4 733ms
+db8a97e2_écrou fileté M5.SLDPRT  faces 58 tris 358812 open 0 rep 50 vol 279.2075 exact 140.7814 vsDisp 1.18e+0 rel 9.83e-1 83466ms
+dc265ce1_Fin.SLDPRT              faces 10 tris 28 open 0 rep 0 vol 141850.5228 exact 141850.5227 vsDisp -2.19e-8 rel 3.25e-15 78ms
+dd156283_637Z flanzi bearing.SLD faces 19 tris 1280 open 0 rep 0 vol 59.8185 exact 59.8380 vsDisp 1.61e-3 rel -3.27e-4 288ms
+f8c2df35_2023_10_16_23_28_17_035 faces 22 tris 76 open 0 rep 0 vol 16928.7078 exact 16928.7078 vsDisp - rel 1.26e-13 93ms
+03764871_BME280.SLDPRT           faces 745 tris 12509 open 2804 rep 11 vol 311.8989 exact 311.8052 vsDisp -1.10e-4 rel 3.00e-4 53131ms
+1759e569_mahatbalam_ex7_beg.SLDP faces 41 tris 4756 open 0 rep 0 vol 454008.3838 exact 454006.7090 vsDisp 1.15e-3 rel 3.69e-6 704ms
+2f121983_case.SLDPRT             ERR intersection: march did not reach the end     at march (/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters/src/brep/fit.js:165:9)
+2fd21507_MidplateEM2.SLDPRT      faces 53 tris 2442 open 0 rep 0 vol 21972.7007 exact 21969.8172 vsDisp 1.26e-4 rel 1.31e-4 865ms
+31596c7e_EC11 Rotary Encoder 15m faces 107 tris 1666 open 0 rep 8 vol 1331.2949 exact 1332.1362 vsDisp 1.56e-3 rel -6.31e-4 734ms
+3edbf014_TEST shortened Dock (Fi faces 135 tris 3116 open 0 rep 0 vol 47140.7420 exact 47132.0651 vsDisp 1.81e-4 rel 1.84e-4 2639ms
+41b71219_板材-Guidance安装板.SLDPRT   faces 92 tris 2940 open 0 rep 0 vol 4885.6457 exact 4884.6598 vsDisp -6.52e-4 rel 2.02e-4 1572ms
+4803f393_box.SLDPRT              faces 1498 tris 279533 open 97 rep 4334 vol 245491.6737 exact 280404.0252 vsDisp 1.14e-1 rel -1.25e-1 75254ms
+9aeafb66_标准件-30mm管夹.SLDPRT       faces 50 tris 2376 open 0 rep 0 vol 9044.6117 exact 9039.8271 vsDisp -2.40e-3 rel 5.29e-4 358ms
+d0d61cde_官方元件-定位模块.SLDPRT        faces 554 tris 24997 open 25 rep 38 vol 18800.8294 exact 18797.4946 vsDisp 8.70e-4 rel 1.77e-4 54318ms
+d2f7f9bd_iman.SLDPRT             faces 7 tris 40 open 0 rep 0 vol 75.5782 exact 75.6280 vsDisp 1.03e-3 rel -6.59e-4 102ms
+d77ec77a_TopSheet.SLDPRT         faces 97 tris 6876 open 0 rep 0 vol 381778.8078 exact 381775.8255 vsDisp -2.97e-5 rel 7.81e-6 1299ms
+d8206ed0_J6_Flange_Adapter.SLDPR faces 58 tris 122194 open 2622 rep 2614 vol 12992.7311 exact 12674.7244 vsDisp 2.65e-2 rel 2.51e-2 28290ms
+ef1d5cfe_DS3231.SLDPRT           faces 428 tris 16308 open 60 rep 1190 vol 866.0099 exact 742.8340 vsDisp 1.38e-3 rel 1.66e-1 3207ms
+03afebf4_Profilringe.SLDPRT      faces 11 tris 1664 open 0 rep 0 vol 530.7893 exact 531.3480 vsDisp -3.70e-4 rel -1.05e-3 210ms
+09d353a9_Elbow_Mount2.SLDPRT     faces 64 tris 3932 open 0 rep 0 vol 19800.8622 exact 19799.5378 vsDisp 3.64e-4 rel 6.69e-5 420ms
+1e794aad_6344387.SLDPRT          faces 120 tris 6560 open 0 rep 0 vol 485864.8420 exact 485869.0102 vsDisp 1.07e-4 rel -8.58e-6 6241ms
+225c13ed_camholder0deg.SLDPRT    faces 66 tris 3216 open 0 rep 0 vol 7974.4162 exact 7974.6954 vsDisp 5.99e-4 rel -3.50e-5 403ms
+2300f35c_Thigh Symétrie.SLDPRT   faces 214 tris 29534 open 6 rep 48 vol 139274.3341 exact 139275.5736 vsDisp 4.61e-4 rel -8.90e-6 7201ms
+346a04bc_R01_D_lower_1_140_washe faces 6 tris 384 open 0 rep 0 vol 9.6040 exact 9.5976 vsDisp 2.05e-3 rel 6.68e-4 128ms
+37663d8a_Gasket For M12.SLDPRT   faces 14 tris 592 open 0 rep 0 vol 130.6383 exact 130.9692 vsDisp -5.43e-4 rel -2.53e-3 267ms
+4febfc67_6344149.SLDPRT          faces 32 tris 15546 open 0 rep 742 vol 779806.4550 exact 779993.5528 vsDisp 1.13e-2 rel -2.40e-4 602ms
+766ad273_WP06_washer_inner_-1_-9 faces 6 tris 384 open 0 rep 0 vol 15.2159 exact 15.2210 vsDisp 1.18e-3 rel -3.36e-4 77ms
+7fa6934e_Aluminum Box Pt 2.SLDPR faces 34 tris 1616 open 0 rep 0 vol 47946.6371 exact 47945.2397 vsDisp -2.25e-5 rel 2.91e-5 353ms
+871e670c_servo_adapter.SLDPRT    faces 43 tris 2420 open 0 rep 0 vol 3966.8376 exact 3965.0567 vsDisp -1.70e-3 rel 4.49e-4 588ms
+951f2bc1_Boitier.SLDPRT          faces 29 tris 396 open 0 rep 0 vol 1901.4768 exact 1901.3720 vsDisp -4.27e-5 rel 5.51e-5 175ms
+a4ecc6f5_PP-2074-08.SLDPRT TIMEOUT
+be0e76cf_WP06_screw_1_-94.SLDPRT faces 23 tris 1516 open 0 rep 0 vol 141.6145 exact 142.2558 vsDisp 1.02e-3 rel -4.51e-3 623ms
+bf11f45c_shear_clip_1_150_-94.SL faces 10 tris 276 open 0 rep 0 vol 1248.9294 exact 1248.1298 vsDisp -4.22e-4 rel 6.41e-4 172ms
+f750218b_612-00002.SLDPRT        faces 6 tris 12 open 0 rep 0 vol 50.0000 exact 50.0000 vsDisp - rel 4.63e-15 75ms
+05d0b4c3_pin-2-2.SLDPRT          faces 500 tris 500 open 0 rep 0 vol 371.0624 exact 371.0624 vsDisp -4.42e-9 rel -1.14e-15 562ms
+16f99cd7_装甲板固定（前）.SLDPRT         faces 46 tris 3672 open 0 rep 0 vol 25788.3591 exact 25787.2926 vsDisp -2.59e-4 rel 4.14e-5 1025ms
+3e41786b_LB26001-A-04-002_seed.S faces 26 tris 2076 open 0 rep 0 vol 72243.4878 exact 72240.9846 vsDisp -2.11e-4 rel 3.47e-5 339ms
+50af9019_7x4 P42a Cell Holder.SL faces 330 tris 96418 open 0 rep 0 vol 70716.5753 exact 70719.1424 vsDisp -5.78e-3 rel -3.63e-5 11955ms
+51f01927_Держатель-Фиксатор-Буты TIMEOUT
+55c163ac_pin-1-2.SLDPRT          faces 452 tris 452 open 0 rep 0 vol 90.4965 exact 90.4965 vsDisp -9.50e-9 rel 2.63e-15 359ms
+6fd68589_pin-2-1.SLDPRT          faces 500 tris 500 open 0 rep 0 vol 381.8605 exact 381.8605 vsDisp 1.37e-8 rel -2.91e-15 482ms
+822f5572_一级挡块-hhr镂空限位.SLDPRT     faces 29 tris 1044 open 0 rep 0 vol 1037.4177 exact 1037.1045 vsDisp -3.35e-4 rel 3.02e-4 380ms
+8aaecde6_6008内圈下加工件.SLDPRT       faces 73 tris 5432 open 0 rep 0 vol 18666.0044 exact 18650.9832 vsDisp -9.13e-4 rel 8.05e-4 1149ms
+8afc9212_[HEAD-A-B-11-L] Face Bl faces 21 tris 776 open 0 rep 0 vol 3956.2775 exact 3954.8897 vsDisp -3.11e-4 rel 3.51e-4 232ms
+ac760485_存矿小端.SLDPRT             faces 46 tris 6474 open 0 rep 14 vol 405483.8313 exact 405484.6190 vsDisp -1.21e-4 rel -1.94e-6 679ms
+c613782b_Крепёжная-Планка.SLDPRT faces 20 tris 2079 open 3 rep 0 vol 3854.8209 exact 3855.0498 vsDisp -8.49e-4 rel -5.94e-5 434ms
+e8f16581_Engine Base.SLDPRT      faces 10 tris 524 open 0 rep 0 vol 1986245.2985 exact 1986265.4825 vsDisp 2.78e-4 rel -1.02e-5 294ms
+f0b9a118_Standoff_M3x0.5_37 mm_M TIMEOUT
+f6facc43_[HEAD-A-B-08] Slope Pan faces 17 tris 88 open 0 rep 0 vol 1378.2745 exact 1378.2745 vsDisp 1.69e-4 rel 3.84e-14 199ms
+0eab6495_A15_KW10_cassette_L_hee faces 68 tris 1912 open 0 rep 0 vol 2700.0886 exact 2700.3603 vsDisp 2.32e-3 rel -1.01e-4 1444ms
+2693f32a_GE-26501-02_ Tower Base faces 34 tris 2200 open 0 rep 0 vol 18359.8113 exact 18359.4047 vsDisp - rel 2.21e-5 1069ms
+2e6e140a_ST3215_C018_04.SLDPRT TIMEOUT
+4d85599e_base-M4.SLDPRT          faces 12 tris 664 open 0 rep 0 vol 45113.2051 exact 45110.7713 vsDisp -4.28e-4 rel 5.40e-5 254ms
+c292e7e2_18t x 15mm Wide Aluminu faces 573 tris 57470 open 0 rep 2 vol 8206.8436 exact 8204.8005 vsDisp - rel 2.49e-4 79161ms
+c5784ab3_A09_power_and_compute_r faces 110 tris 4116 open 15 rep 7 vol -106823.0072 exact 42502.1471 vsDisp -3.52e+0 rel -3.51e+0 2547ms
+d889c6fc_FE-00001-04_ 1-7_16_ Di faces 8 tris 3836 open 0 rep 0 vol 201994.0917 exact 202037.9952 vsDisp - rel -2.17e-4 637ms
+daa6e9e9_CR26-201-08.SLDPRT      faces 485 tris 49952 open 0 rep 0 vol 150607.9149 exact 150499.9900 vsDisp -4.34e-3 rel 7.17e-4 21862ms
+10582557_9271K109_Torsion Spring ERR No Config-N-Partition stream     at extractPrimary (/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters/src/parasolid/partition.js:139:31)
+34a1cacb_91202A226_Zinc-Plated S ERR No Config-N-Partition stream     at extractPrimary (/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters/src/parasolid/partition.js:139:31)
+8ac95686_separadores.SLDPRT      ERR No Config-N-Partition stream     at extractPrimary (/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters/src/parasolid/partition.js:139:31)
+9e494ca4_91169A160_Steel Split L ERR No Config-N-Partition stream     at extractPrimary (/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters/src/parasolid/partition.js:139:31)
+d7b58324_small_motor.rev1.SLDPRT ERR No Config-N-Partition stream     at extractPrimary (/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters/src/parasolid/partition.js:139:31)

@@ -1,6 +1,18 @@
 # Research Handoff
 
-## Current checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
+## Current checkpoint — 2026-10-28, EXP-085 (exactness, no-display parts, community files)
+
+Exports are checked against references that don't depend on our reading. Our exact STEP matches
+SolidWorks' on all 49 controls; where they differ from the truth, SolidWorks' is the one off (C20's
+ellipses written as B-splines, the loft's 0.83 µm gap). The volume integral now runs after the seam
+split and closes gaps along toleranced edges, so it matches C20's closed form and a watertight
+rebuild of the loft. Reading bugs that made fitted geometry up to 24 km off are fixed (node_ids per
+body, spun and cone (u, v), the march stop, projection on closed B-surfaces), and exact STEP
+refuses over 1 µm. The 17 no-display parts have no mesh anywhere. B-rep triangulation closes on 90
+of 136 online parts. Open: NQ-056 to NQ-058. Next: the triangulator on the 32 parts with gaps,
+then the five that don't resolve.
+
+## Checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
 
 The converter now reads all 136 parts in `test files online/` (openly licensed, saved 2007–2026)
 with 0 graph failures. EXP-084 lists what that took: chunked sections, six more XT node types (the

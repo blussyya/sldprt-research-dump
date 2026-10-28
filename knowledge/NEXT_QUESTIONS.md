@@ -1203,6 +1203,10 @@ points SolidWorks moved for mesh quality after sampling, or float32 rounding cha
 
 ## NQ-052 — d0d61cde's edge 7 is 37 mm off its curve
 
+**Status**: Answered (EXP-085). node_ids are unique per body, not per partition: the solid and four
+reference sheets each have an edge 7, and the model keyed edges by node_id, so the solid's edge
+took a sheet's line. Keyed per body, the part resolves.
+
 EXP-084: `d0d61cde` (2023) reads, and which bodies count is settled (BODY_IN_LIGHTWEIGHT_PERM),
 but resolving the partition fails on edge node_id 7, a line between a B-spline face and a plane,
 whose two vertices are 3.73e-2 m off the line. Either the line isn't the edge's real curve, or the
@@ -1231,3 +1235,31 @@ POINT, AXIS, TAG and DIRECTION_VALUES have their 2006-reference layouts in the r
 no part so far. Verify by traversal when one turns up.
 
 **Date raised**: 2026-10-27 (EXP-084).
+
+## NQ-056 — What makes a save rewrite the DisplayLists stream?
+
+EXP-085: in 18 of 175 files the DisplayLists version is an earlier release in the file's History
+than the last save (`4febfc67`: DL 3800, last saved 2024). Community re-saves in 2026, and a save
+as 2025, all rewrote it. Candidates: whether the part was rebuilt before saving, whether the
+display data was loaded at all (large-assembly or lightweight mode), the system option for saving
+tessellation. Settle it by saving one old part both ways in a current release.
+
+**Date raised**: 2026-10-28 (EXP-085).
+
+## NQ-057 — B-rep triangulation: 32 online parts with open or repeated edges
+
+EXP-085 section 7: the B-rep resolves on all of them, so the triangulator is at fault. 10 have only
+repeated edges (`14f9214b`, whose cone faces overlap themselves, `85aabbde`, `4febfc67`). The
+worst have thousands of open edges (`03764871`, `d8206ed0`, `ceefa2a9`, `8cd79ff5`). List in
+`scripts/EXP085/tess-after.txt`.
+
+**Date raised**: 2026-10-28 (EXP-085).
+
+## NQ-058 — Five online parts still don't resolve
+
+EXP-085 section 7: `2f121983` and `d2515121` (intersection march doesn't reach the end),
+`3c4752f1` (surfaces tangent along the edge, no common point within 3.1 µm), `0739c559` (blend
+support face not found), `82981f2a` (interpolation band). Nine more take over two minutes.
+
+**Date raised**: 2026-10-28 (EXP-085).
+

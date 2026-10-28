@@ -1412,3 +1412,28 @@ throw in resolve, split or blend fitting and 8 take over 120 s.
 **Date**: 2026-10-27
 
 **Raw evidence**: `knowledge/evidence/2026-10-27_v0.5-EXP084.md`, `knowledge/evidence/scripts/EXP084/`
+
+## EXP-085 — Exactness, the parts with no display data, and the first community files
+
+**Question**: Do the 17 parts with no display mesh really have none, why did fitted geometry and volumes disagree with each other, and do the community re-saves carry the same body?
+
+**Result**: The 17 parts have no tessellation in any stream; every float that looked like a mesh
+normal belongs to views, lights, colours or feature data. The DisplayLists version is always one
+of the releases in the file's own History (175/175); 18 files carry a stream an earlier release
+wrote. node_ids are unique per body, not per partition. SPUN_SURF is (u = profile, v = angle) and
+CONE measures v along the axis. The intersection march's stop test, B-surface projection on
+closed surfaces and the volume integral (run before the seam split) were wrong; fitted geometry
+had been up to 24 km off on some online parts and is now within 10 nm, and exact STEP refuses
+above 1 µm. Against the controls, our STEP matches SolidWorks' to 1e-16. C20 matches its closed
+form to 1.6e-15 where SolidWorks' STEP is 2.1e-8 off, and the loft's file doesn't close (0.83 µm)
+so its volume needs the gap closed: ours now matches a watertight OpenCascade rebuild to 2e-9.
+B-rep triangulation closes on 90 of 136 online parts (was 80). Five community re-saves (four in
+2026, one saved back as 2025) keep the body to the nanometre.
+
+**Files tested**: 49 controls, 141 online files (136 parts), 175 files with History, 7 community files.
+
+**Known gaps**: 32 online parts with open or repeated triangle edges and 5 that don't resolve (NQ-057, NQ-058); what makes a save rewrite DisplayLists (NQ-056).
+
+**Date**: 2026-10-28
+
+**Raw evidence**: `knowledge/evidence/2026-10-28_v0.5-EXP085.md`, `knowledge/evidence/scripts/EXP085/`

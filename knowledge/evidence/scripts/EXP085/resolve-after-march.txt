@@ -1,0 +1,141 @@
+05187d94_ChainCL_In.SLDPRT       ok curve 0.00e+0 surface 0.00e+0 7ms
+065f38b0_等径四节弯头-4.SLDPRT         ok curve 9.92e-9 surface 0.00e+0 4427ms
+7192bb05_长短脚任意角度裤形三通管-5.SLDPRT   ok curve 9.75e-9 surface 0.00e+0 728ms
+6ff6c243_通气塞.SLDPRT              ok curve 2.74e-10 surface 0.00e+0 36ms
+e1f38af5_0000380-01.sldprt       ok curve 0.00e+0 surface 0.00e+0 14ms
+82981f2a_head_back.sldprt        ERR interp: band
+92c393f4_camera_support.sldprt   ok curve 0.00e+0 surface 0.00e+0 52ms
+f666f342_head_face.sldprt TIMEOUT
+300f9732_Carter2019.SLDPRT       ok curve 1.33e-9 surface 0.00e+0 83ms
+68cd51b6_20190309-0049.SLDPRT    ok curve 0.00e+0 surface 0.00e+0 13ms
+0739c559_[HEAD-COVR-MIL1-COMN-00 ERR blend boundary: support not found
+1214a0ff_[ARM-A-V1-COMN-INNR-COM ok curve 0.00e+0 surface 0.00e+0 17ms
+118a3cb0_cut-z18-b1xh1xl1.SLDPRT ok curve 0.00e+0 surface 0.00e+0 464ms
+289756ce_cut-z071-b1-l1-l2-typ.S ok curve 0.00e+0 surface 0.00e+0 48ms
+629adcec_cut-z351-d1xl1.SLDPRT   ok curve 0.00e+0 surface 0.00e+0 45ms
+70477058_mt-cut-z085-l1xb1-typ.S ok curve 0.00e+0 surface 0.00e+0 42ms
+3b48d9c5_Body10.sldprt           ok curve 0.00e+0 surface 0.00e+0 31ms
+4df87793_21BC-S 1.19-A.sldprt    ok curve 0.00e+0 surface 0.00e+0 8ms
+51065319_Mirror (opt 1-PSA)-HME_ ok curve 0.00e+0 surface 0.00e+0 22ms
+516a7dc5_Body1.sldprt            ok curve 0.00e+0 surface 0.00e+0 17ms
+afc71d14_Body2.sldprt            ok curve 0.00e+0 surface 0.00e+0 25ms
+d49566bc_AntennaMount.SLDPRT     ok curve 0.00e+0 surface 0.00e+0 35ms
+d799e9a3_90751A110_18-8 Stainles ok curve 2.06e-10 surface 0.00e+0 2298ms
+0132519a_102_STEM.SLDPRT         ok curve 4.28e-9 surface 4.09e-9 1574ms
+06b5063b_050_MASTER_SKETCH.SLDPR ok curve 0.00e+0 surface 0.00e+0 31ms
+15567d51_leva1.SLDPRT            ok curve 0.00e+0 surface 0.00e+0 184ms
+361e7dbb_101_HOUSING.SLDPRT      ok curve 0.00e+0 surface 2.86e-9 295ms
+ca465363_103_COVER.SLDPRT        ok curve 5.65e-12 surface 0.00e+0 212ms
+d2515121_Ecran_128x32oled.SLDPRT ERR intersection: march did not reach the end
+eefa906d_plancher Dalle 2020.SLD ok curve 0.00e+0 surface 0.00e+0 39ms
+07ff8da1_shelf.SLDPRT            ok curve 2.34e-11 surface 0.00e+0 66ms
+096d0504_MargayMount_WH10.SLDPRT ok curve 0.00e+0 surface 0.00e+0 23ms
+27377fd2_FE-00006-06.SLDPRT      ok curve 0.00e+0 surface 0.00e+0 29ms
+28398415_Raspberry Pi 4.SLDPRT   ok curve 0.00e+0 surface 0.00e+0 94ms
+300d7f07_Bottom Case.SLDPRT      ok curve 0.00e+0 surface 0.00e+0 57ms
+44afdb7c_back_cushion.SLDPRT     ok curve 0.00e+0 surface 0.00e+0 38ms
+54b05886_bottom_adc.SLDPRT       ok curve 0.00e+0 surface 0.00e+0 51ms
+636b653d_MountingBracket.SLDPRT  ok curve 0.00e+0 surface 0.00e+0 44ms
+7765d286_NSJ8L.SLDPRT            ok curve 0.00e+0 surface 0.00e+0 58ms
+8cd79ff5_1ESxx.SLDPRT            ok curve 8.78e-9 surface 0.00e+0 189ms
+91a2d981_Camera Module.SLDPRT    ok curve 0.00e+0 surface 0.00e+0 26ms
+a3a44709_FrontPanel-Bezel.sldprt ok curve 0.00e+0 surface 0.00e+0 21ms
+d381ebab_bottom_dac.SLDPRT       ok curve 0.00e+0 surface 0.00e+0 55ms
+e8c40c25_psu.SLDPRT              ok curve 8.63e-9 surface 6.55e-9 239ms
+fb449daa_Gloworm PCB.SLDPRT      ok curve 2.50e-12 surface 0.00e+0 445ms
+14f9214b_11.SLDPRT               ok curve 4.25e-10 surface 0.00e+0 125ms
+320de1b5_SPEC-PC-MB-MATX-KEEPOUT ok curve 0.00e+0 surface 0.00e+0 46ms
+34fe5ff1_Group_44390.stp.SLDPRT  ok curve 0.00e+0 surface 0.00e+0 36ms
+543861c9_BALL NUT BRACKET_(11-25 ok curve 5.30e-9 surface 0.00e+0 176ms
+72b08e3e_Hip Cable HOlder.SLDPRT ok curve 0.00e+0 surface 0.00e+0 57ms
+7841a106_6344428.SLDPRT          ok curve 9.04e-9 surface 0.00e+0 389ms
+9494d959_27_20_4.SLDPRT          ok curve 0.00e+0 surface 0.00e+0 28ms
+b185085c_Handle 3.SLDPRT         ok curve 0.00e+0 surface 0.00e+0 45ms
+b32017f5_Engine Compartment - Su ok curve 0.00e+0 surface 0.00e+0 22ms
+60f84235_2022_10_06_17_02_43_061 ok curve 9.99e-9 surface 0.00e+0 24047ms
+85aabbde_84T Gear.SLDPRT         ok curve 0.00e+0 surface 0.00e+0 324ms
+916d4a0a_36T Gear.SLDPRT         ok curve 0.00e+0 surface 0.00e+0 252ms
+bc3292d7_12T Gear.SLDPRT         ok curve 0.00e+0 surface 0.00e+0 121ms
+eb0b2a21_60T Gear.SLDPRT         ok curve 0.00e+0 surface 0.00e+0 292ms
+073482d3_ReducerBox_1_Reducer.SL ok curve 2.94e-9 surface 0.00e+0 15444ms
+0d68d32d_6208K696_Clamping Preci ok curve 8.12e-9 surface 0.00e+0 2016ms
+10459a56_A-2605-01_CR1_Right_Ang ok curve 1.66e-9 surface 0.00e+0 275ms
+1ee60868_z轴皮带固定.SLDPRT           ok curve 0.00e+0 surface 0.00e+0 39ms
+24344735_080-1926-000_3.SLDPRT   ok curve 9.91e-9 surface 0.00e+0 428ms
+273a8d53_FG-F1.SLDPRT            ok curve 0.00e+0 surface 0.00e+0 66ms
+3980555c_RASPBERRY_PI_5+cooler-5 ok curve 0.00e+0 surface 0.00e+0 51ms
+3c4752f1_A-2226-01_Input_Inline_ ERR intersection: surfaces tangent, no common point (3.4e-9 m)
+40e79d45_Fins.SLDPRT             ok curve 0.00e+0 surface 0.00e+0 26ms
+47b2b860_DIN_Flex_Converter_pad_ ok curve 0.00e+0 surface 0.00e+0 30ms
+5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT ok curve 3.53e-2 surface 0.00e+0 61565ms
+6ccc1814_LB26001-A-04-007.SLDPRT ok curve 0.00e+0 surface 0.00e+0 25ms
+84226163_Fin.SLDPRT              ok curve 0.00e+0 surface 0.00e+0 20ms
+9cc04b03_SO-C1.SLDPRT            ok curve 0.00e+0 surface 0.00e+0 82ms
+a0ab30c8_LB26001-A-04-022.SLDPRT ok curve 0.00e+0 surface 0.00e+0 39ms
+a0fc2e29_Vertical Spar.SLDPRT    ok curve 0.00e+0 surface 0.00e+0 34ms
+c0ef9eb3_DIN_Flex_Converter_pad_ ok curve 0.00e+0 surface 0.00e+0 35ms
+c72513ca_ASSEMBLY_11.SLDPRT      ok curve 0.00e+0 surface 0.00e+0 49ms
+ceefa2a9_CRP320-05.SLDPRT        ok curve 0.00e+0 surface 0.00e+0 69ms
+d753195d_ServoMount.SLDPRT       ok curve 0.00e+0 surface 0.00e+0 79ms
+db8a97e2_écrou fileté M5.SLDPRT  ok curve 3.71e-10 surface 0.00e+0 2520ms
+dc265ce1_Fin.SLDPRT              ok curve 0.00e+0 surface 0.00e+0 28ms
+dd156283_637Z flanzi bearing.SLD ok curve 0.00e+0 surface 0.00e+0 33ms
+f8c2df35_2023_10_16_23_28_17_035 ok curve 0.00e+0 surface 0.00e+0 36ms
+03764871_BME280.SLDPRT           ok curve 1.87e-9 surface 0.00e+0 736ms
+1759e569_mahatbalam_ex7_beg.SLDP ok curve 0.00e+0 surface 0.00e+0 50ms
+2f121983_case.SLDPRT             ERR intersection: march did not reach the end
+2fd21507_MidplateEM2.SLDPRT      ok curve 0.00e+0 surface 0.00e+0 88ms
+31596c7e_EC11 Rotary Encoder 15m ok curve 3.02e-12 surface 0.00e+0 97ms
+3edbf014_TEST shortened Dock (Fi ok curve 0.00e+0 surface 0.00e+0 134ms
+41b71219_板材-Guidance安装板.SLDPRT   ok curve 0.00e+0 surface 0.00e+0 86ms
+4803f393_box.SLDPRT              ok curve 5.28e-9 surface 0.00e+0 1814ms
+9aeafb66_标准件-30mm管夹.SLDPRT       ok curve 0.00e+0 surface 0.00e+0 59ms
+d0d61cde_官方元件-定位模块.SLDPRT        ok curve 9.17e-9 surface 0.00e+0 718ms
+d2f7f9bd_iman.SLDPRT             ok curve 0.00e+0 surface 0.00e+0 30ms
+d77ec77a_TopSheet.SLDPRT         ok curve 0.00e+0 surface 0.00e+0 78ms
+d8206ed0_J6_Flange_Adapter.SLDPR ok curve 7.34e-10 surface 0.00e+0 2952ms
+ef1d5cfe_DS3231.SLDPRT           ok curve 0.00e+0 surface 0.00e+0 307ms
+03afebf4_Profilringe.SLDPRT      ok curve 0.00e+0 surface 0.00e+0 40ms
+09d353a9_Elbow_Mount2.SLDPRT     ok curve 0.00e+0 surface 0.00e+0 52ms
+1e794aad_6344387.SLDPRT          ok curve 8.21e-9 surface 0.00e+0 455ms
+225c13ed_camholder0deg.SLDPRT    ok curve 0.00e+0 surface 0.00e+0 57ms
+2300f35c_Thigh Symétrie.SLDPRT   ok curve 9.04e-9 surface 0.00e+0 594ms
+346a04bc_R01_D_lower_1_140_washe ok curve 0.00e+0 surface 0.00e+0 29ms
+37663d8a_Gasket For M12.SLDPRT   ok curve 0.00e+0 surface 0.00e+0 36ms
+4febfc67_6344149.SLDPRT          ok curve 0.00e+0 surface 0.00e+0 41ms
+766ad273_WP06_washer_inner_-1_-9 ok curve 0.00e+0 surface 0.00e+0 20ms
+7fa6934e_Aluminum Box Pt 2.SLDPR ok curve 0.00e+0 surface 0.00e+0 43ms
+871e670c_servo_adapter.SLDPRT    ok curve 0.00e+0 surface 0.00e+0 33ms
+951f2bc1_Boitier.SLDPRT          ok curve 0.00e+0 surface 0.00e+0 27ms
+a4ecc6f5_PP-2074-08.SLDPRT       ok curve 4.99e+2 surface 0.00e+0 20662ms
+be0e76cf_WP06_screw_1_-94.SLDPRT ok curve 0.00e+0 surface 0.00e+0 36ms
+bf11f45c_shear_clip_1_150_-94.SL ok curve 0.00e+0 surface 0.00e+0 35ms
+f750218b_612-00002.SLDPRT        ok curve 0.00e+0 surface 0.00e+0 28ms
+05d0b4c3_pin-2-2.SLDPRT          ok curve 0.00e+0 surface 0.00e+0 179ms
+16f99cd7_装甲板固定（前）.SLDPRT         ok curve 0.00e+0 surface 0.00e+0 52ms
+3e41786b_LB26001-A-04-002_seed.S ok curve 0.00e+0 surface 0.00e+0 42ms
+50af9019_7x4 P42a Cell Holder.SL ok curve 0.00e+0 surface 0.00e+0 165ms
+51f01927_Держатель-Фиксатор-Буты ok curve 1.00e-8 surface 0.00e+0 42473ms
+55c163ac_pin-1-2.SLDPRT          ok curve 0.00e+0 surface 0.00e+0 129ms
+6fd68589_pin-2-1.SLDPRT          ok curve 0.00e+0 surface 0.00e+0 161ms
+822f5572_一级挡块-hhr镂空限位.SLDPRT     ok curve 0.00e+0 surface 0.00e+0 46ms
+8aaecde6_6008内圈下加工件.SLDPRT       ok curve 0.00e+0 surface 0.00e+0 61ms
+8afc9212_[HEAD-A-B-11-L] Face Bl ok curve 0.00e+0 surface 0.00e+0 37ms
+ac760485_存矿小端.SLDPRT             ok curve 1.60e-10 surface 0.00e+0 47ms
+c613782b_Крепёжная-Планка.SLDPRT ok curve 0.00e+0 surface 0.00e+0 131ms
+e8f16581_Engine Base.SLDPRT      ok curve 0.00e+0 surface 0.00e+0 57ms
+f0b9a118_Standoff_M3x0.5_37 mm_M ok curve 1.58e-8 surface 0.00e+0 4514ms
+f6facc43_[HEAD-A-B-08] Slope Pan ok curve 0.00e+0 surface 0.00e+0 41ms
+0eab6495_A15_KW10_cassette_L_hee ok curve 0.00e+0 surface 0.00e+0 49ms
+2693f32a_GE-26501-02_ Tower Base ok curve 0.00e+0 surface 0.00e+0 41ms
+2e6e140a_ST3215_C018_04.SLDPRT   ok curve 2.73e-8 surface 0.00e+0 21258ms
+4d85599e_base-M4.SLDPRT          ok curve 0.00e+0 surface 0.00e+0 29ms
+c292e7e2_18t x 15mm Wide Aluminu ok curve 5.13e-9 surface 0.00e+0 1057ms
+c5784ab3_A09_power_and_compute_r ok curve 0.00e+0 surface 0.00e+0 69ms
+d889c6fc_FE-00001-04_ 1-7_16_ Di ok curve 0.00e+0 surface 0.00e+0 38ms
+daa6e9e9_CR26-201-08.SLDPRT      ok curve 0.00e+0 surface 0.00e+0 119ms
+10582557_9271K109_Torsion Spring ERR No Config-N-Partition stream
+34a1cacb_91202A226_Zinc-Plated S ERR No Config-N-Partition stream
+8ac95686_separadores.SLDPRT      ERR No Config-N-Partition stream
+9e494ca4_91169A160_Steel Split L ERR No Config-N-Partition stream
+d7b58324_small_motor.rev1.SLDPRT ERR No Config-N-Partition stream
