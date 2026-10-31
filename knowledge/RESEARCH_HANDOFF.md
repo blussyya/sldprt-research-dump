@@ -31,9 +31,11 @@ of 136 online parts. Open: NQ-056 to NQ-058.
   projection, offsets on the side their sense gives, B-splines carried on along their edge tangent
   past the knot range, a faster offset foot, closed spine charts followed round. Both format claims
   survived a blind debunk. head_back now fits all 108 blends and stops on edge 362: "blend
-  boundary: closed contact curve". New verification rule from the user: every finding goes to a
-  fresh subagent told to break it before it counts as verified. Next: closed contact curves, then
-  2f121983, then the off-surface vertices on thread surfaces the debunk agent noticed.
+  boundary: closed contact curve", fixed after (converter 12c754c: ring contact curves). head_back now
+  resolves in ~20 min but its worst curve is 4.7e-8 m and surface 2.4e-7 m off, above the 1e-8
+  bar, so it isn't passing yet. New verification rule from the user: every finding goes to a
+  fresh subagent told to break it before it counts as verified. Next: find which head_back curve and
+  surface miss 1e-8 and why, then 2f121983, then the off-surface vertices on thread surfaces the debunk agent noticed.
 
 ## Checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
 
