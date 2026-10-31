@@ -17,12 +17,15 @@ of 136 online parts. Open: NQ-056 to NQ-058.
    resolves on all of them, so the fault is in the triangulator. List and counts in
    `knowledge/evidence/scripts/EXP085/tess-after.txt`.
 2. Two online parts that don't resolve (NQ-058): `2f121983` (blend spine on two offset swept
-   surfaces, see EXP-086) and `82981f2a` (interpolation band). The other three were fixed in EXP-086.
+   surfaces, see EXP-086) and `82981f2a` (a blend face past its spine's T limit). The other three were fixed in EXP-086.
 
 **Overnight log** (unattended runs, newest last):
 
 - 2026-10-31 early: EXP-086. Fixed d2515121, 3c4752f1 and 0739c559. Next: `82981f2a`, then
   `2f121983`, then NQ-057.
+- 2026-10-31 second run: 82981f2a diagnosed (EXP-086, last section): a blend face runs 4.7 mm past
+  its spine's T limit. Nothing committed in the converter. Next: extend the spine past a T limit
+  (march on from the limit along the same branch), then 2f121983.
 
 ## Checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
 
