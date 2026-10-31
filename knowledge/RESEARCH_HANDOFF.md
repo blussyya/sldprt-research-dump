@@ -361,3 +361,14 @@ Per instruction, this handoff does not designate one of these as an in-progress 
 - `parser/` was **not** touched by either session. No corpus SLDPRT file was added or touched by either session.
 - Relevant version directories: `v0.4.7/` holds all EXP-027–040 scripts and raw JSON. `v0.4.5`/`v0.4.6` hold the corrected Block1→Block2 offset work and INV-019. `parser/v0.1` holds the implementation. `test files original/controlled/C12_cube_fillet_1mm_edge2/` holds the one real controlled-corpus model with actual SLDPRT/step/STL files in this environment; C00–C11 remain archive-only (JSON under `v0.4.7/`, no SLDPRT files anywhere in this environment).
 - Corpus reference table (non-controlled files) is in `RESEARCH_DASHBOARD.md` "Current Corpus". NQ-028 is answered (EXP-038); no further edge/feature model is currently in hand. Two candidate next models are on record but neither is built: a horizontal-edge fillet/chamfer (e.g. +X/+Z) to break the vertical-edge symmetry pair, and `C14` (a Split Line model, design-stage only) to attempt separating adjacency from direct modification — see "Possible Future Directions" above. Generating either requires the user to supply real SLDPRT files the same way C12 was supplied for EXP-038 (no SolidWorks MCP tool or local-filesystem access is available from this environment).
+- 2026-10-31 fifth run (converter dev, "Don't pin wrong-branch points next to a T limit"): blend
+  9931's spine loop fixed by dropping corrected points next to a touching end that land more than
+  twice the guess's distance away. head_back's 4 blend surfaces pass; its 10 curves (1.2e-8 to
+  4.7e-8 m) don't yet. Blind debunk: loop diagnosis survived. The new fit is still up to 7.5e-8 m
+  off near-exact geometry within ~1 µm of the T point (the 2 mm support blend's own fitted spine,
+  magnified there), and the reported error doesn't show it. The first version also broke the spring
+  (rule now only at touching ends). Also found: validation.md's "every fit within 1e-8 m" for 132
+  parts is wrong. resolve-after.txt has 4 "ok" parts over it (f0b9a118 1.6e-8, 3c4752f1 now
+  3.95e-8, 0739c559 9.6e-3, 2e6e140a 2.7e-8). Next: fix that page, the ten head_back curves, the
+  near-T accuracy (tighter support spines?), and the unexplained d2515121 fit difference the
+  debunk agent saw.
