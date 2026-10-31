@@ -368,7 +368,13 @@ Per instruction, this handoff does not designate one of these as an in-progress 
   off near-exact geometry within ~1 µm of the T point (the 2 mm support blend's own fitted spine,
   magnified there), and the reported error doesn't show it. The first version also broke the spring
   (rule now only at touching ends). Also found: validation.md's "every fit within 1e-8 m" for 132
-  parts is wrong. resolve-after.txt has 4 "ok" parts over it (f0b9a118 1.6e-8, 3c4752f1 now
-  3.95e-8, 0739c559 9.6e-3, 2e6e140a 2.7e-8). Next: fix that page, the ten head_back curves, the
+  parts was wrong; fixed (130 within; over: f0b9a118 1.6e-8, 3c4752f1 3.95e-8, 2e6e140a 2.7e-8;
+  0739c559 went 9.6e-3 -> 9.8e-9 with this run's fixes). Next: the ten head_back curves, the
   near-T accuracy (tighter support spines?), and the unexplained d2515121 fit difference the
   debunk agent saw.
+- 2026-10-31 sixth run (converter dev, "End curves on the curve next to a tolerant vertex"):
+  head_back's ten curves fixed (ends were pinned to tolerant vertices off the curve). head_back
+  resolves with nothing over 1e-8 in the fitter's check, but the blind check found edge 826 at
+  1.12e-8 m mid-curve with dense sampling: the fitter's check is too sparse. Sweep clean, tests
+  pass. Next: a denser fit check (edge 826), 3c4752f1's touching-end plane × blend edges, the
+  SP_CURVE edges on f0b9a118 and 2e6e140a, near-T accuracy, 2f121983, the thread vertices.

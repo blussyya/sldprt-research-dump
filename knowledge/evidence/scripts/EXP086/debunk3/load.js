@@ -1,0 +1,10 @@
+const R="/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/solidworks-converters";
+const file="/run/media/blus/1F7A-F408/projects/sldprt reverse engineering/sldprt-research-dump/test files online/2013/82981f2a_head_back.sldprt";
+const S=require(R+'/src'),N=require(R+'/src/brep/native'),G=require(R+'/src/geom/eval'),F=require(R+'/src/brep/fit');
+const t0=Date.now();
+const M=N.build(S.readBrep(file).parsed);
+const face=[...M.faces.values()].find(f=>f.id===9865);
+const b=face.surface;
+let c=b.spine;if(c.type==='trimmed')c=c.basis;
+console.error('load ms',Date.now()-t0,'spine',b.spine.type,c.type,c.surfaces.map(s=>s.type+s.node+(s.range?JSON.stringify(s.range):'')),c.start&&c.start.type,c.end&&c.end.type,c.chart.length);
+module.exports={R,S,N,G,F,M,face,b,c};
