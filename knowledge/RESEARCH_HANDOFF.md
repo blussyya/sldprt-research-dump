@@ -35,7 +35,14 @@ of 136 online parts. Open: NQ-056 to NQ-058.
   resolves in ~20 min but its worst curve is 4.7e-8 m and surface 2.4e-7 m off, above the 1e-8
   bar, so it isn't passing yet. New verification rule from the user: every finding goes to a
   fresh subagent told to break it before it counts as verified. Next: find which head_back curve and
-  surface miss 1e-8 and why, then 2f121983, then the off-surface vertices on thread surfaces the debunk agent noticed.
+  surface miss 1e-8 and why, then 2f121983, then the off-surface vertices on thread surfaces the
+  debunk agent noticed.
+- 2026-10-31 fourth run: code now goes to the converter's `dev` branch (the user merges). head_back's
+  misses traced (EXP-086, "Where head_back's fit errors come from"): blend 9931's 2.4e-7 m is its
+  spine within ~0.1 µm of a T limit, where the plane corrector lands off this piece of curve.
+  Three tries at rejecting those points weren't enough; nothing committed. Next: a corrector that
+  stays on its branch near a T limit (hold the distance from the limit point), then check whether
+  the ten 1e-8..4.7e-8 m curves are the same thing.
 
 ## Checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
 
