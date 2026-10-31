@@ -1437,3 +1437,17 @@ B-rep triangulation closes on 90 of 136 online parts (was 80). Five community re
 **Date**: 2026-10-28
 
 **Raw evidence**: `knowledge/evidence/2026-10-28_v0.5-EXP085.md`, `knowledge/evidence/scripts/EXP085/`
+
+## EXP-086 — Three of the five online parts that didn't resolve
+
+**Question**: Why do `d2515121`, `3c4752f1` and `0739c559` stop resolving?
+
+**Result**: d2515121 is a swept surface cut by a plane. That's the profile projected along the sweep, so
+it's exact and needs no march. 3c4752f1's blend touches a plane at one point, which the fitted
+blend missed by 3.1 µm. Intersections now use the exact constant-radius blend. 0739c559 names a second node
+with the same cylinder as the blend's support, and has a tolerant vertex 30 µm off its curve
+(tolerance 48 µm). 132 of 139 online parts resolve (was 130). a4ecc6f5 and 5f8e9db3 went from 499 m
+and 3.5 cm worst curve error to 1e-8. `2f121983` and `82981f2a` remain.
+
+**Evidence**: [2026-10-31_v0.5-EXP086.md](evidence/2026-10-31_v0.5-EXP086.md), `evidence/scripts/EXP086/`.
+

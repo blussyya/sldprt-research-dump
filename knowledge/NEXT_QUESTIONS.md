@@ -1259,7 +1259,9 @@ worst have thousands of open edges (`03764871`, `d8206ed0`, `ceefa2a9`, `8cd79ff
 
 ## NQ-058 — Five online parts still don't resolve
 
-**Status**: To fix. Next up when work resumes (see RESEARCH_HANDOFF.md).
+**Status 2026-10-31 (EXP-086)**: three fixed (`d2515121`, `3c4752f1`, `0739c559`). Still open:
+`2f121983` (blend spine on two offset swept surfaces, the foot jumps near the start) and
+`82981f2a` (interpolation band).
 
 EXP-085 section 7: `2f121983` and `d2515121` (intersection march doesn't reach the end),
 `3c4752f1` (surfaces tangent along the edge, no common point within 3.1 µm), `0739c559` (blend

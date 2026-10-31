@@ -16,9 +16,13 @@ of 136 online parts. Open: NQ-056 to NQ-058.
 1. The B-rep triangulator on the 32 online parts with open or repeated edges (NQ-057). The B-rep
    resolves on all of them, so the fault is in the triangulator. List and counts in
    `knowledge/evidence/scripts/EXP085/tess-after.txt`.
-2. The five online parts that don't resolve (NQ-058): `2f121983`, `d2515121` (march doesn't reach
-   the end), `3c4752f1` (tangent surfaces, no common point within 3.1 µm), `0739c559` (blend
-   support not found), `82981f2a` (interpolation band).
+2. Two online parts that don't resolve (NQ-058): `2f121983` (blend spine on two offset swept
+   surfaces, see EXP-086) and `82981f2a` (interpolation band). The other three were fixed in EXP-086.
+
+**Overnight log** (unattended runs, newest last):
+
+- 2026-10-31 early: EXP-086. Fixed d2515121, 3c4752f1 and 0739c559. Next: `82981f2a`, then
+  `2f121983`, then NQ-057.
 
 ## Checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
 
