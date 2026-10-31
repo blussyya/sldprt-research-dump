@@ -1449,5 +1449,14 @@ with the same cylinder as the blend's support, and has a tolerant vertex 30 µm 
 (tolerance 48 µm). 132 of 139 online parts resolve (was 130). a4ecc6f5 and 5f8e9db3 went from 499 m
 and 3.5 cm worst curve error to 1e-8. `2f121983` and `82981f2a` remain.
 
+**Later runs (to 2026-11-01)**: `82981f2a` (head_back) resolves too. Two format facts, each checked by
+a blind agent told to break it: an OFFSET_SURF lies on the side its (basis's) sense gives, and a
+B-spline surface carries on flat along its edge tangent past its knot range. Converter fixes:
+global spine projection, closed spines and contact rings, a faster offset foot, wrong-branch points
+dropped within ~0.1 µm of a T limit, and curve ends moved off tolerant vertices that sit off the
+curve. The second run's diagnosis of head_back was wrong and is corrected in the evidence file. 133 of
+139 resolve; 130 within 1e-8 m by the fitter's check. The blind check found head_back edge 826 at
+1.12e-8 m with dense sampling, so the fitter's check needs to get denser.
+
 **Evidence**: [2026-10-31_v0.5-EXP086.md](evidence/2026-10-31_v0.5-EXP086.md), `evidence/scripts/EXP086/`.
 

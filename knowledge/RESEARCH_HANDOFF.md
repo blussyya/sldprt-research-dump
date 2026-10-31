@@ -1,23 +1,25 @@
 # Research Handoff
 
-## Current checkpoint — 2026-10-28, EXP-085 (exactness, no-display parts, community files)
+## Current checkpoint — 2026-11-01, EXP-086 (online sample, head_back)
 
-Exports are checked against references that don't depend on our reading. Our exact STEP matches
-SolidWorks' on all 49 controls; where they differ from the truth, SolidWorks' is the one off (C20's
-ellipses written as B-splines, the loft's 0.83 µm gap). The volume integral now runs after the seam
-split and closes gaps along toleranced edges, so it matches C20's closed form and a watertight
-rebuild of the loft. Reading bugs that made fitted geometry up to 24 km off are fixed (node_ids per
-body, spun and cone (u, v), the march stop, projection on closed B-surfaces), and exact STEP
-refuses over 1 µm. The 17 no-display parts have no mesh anywhere. B-rep triangulation closes on 90
-of 136 online parts. Open: NQ-056 to NQ-058.
+New here? Read [START_HERE.md](START_HERE.md) first: repos, workflow, the research rules
+(doubt everything, blind debunk before "verified") and the full state.
 
-**To fix when work picks up again** (stopped here on 2026-10-28):
+133 of 139 online parts resolve (5 have no partition stream). 130 are within 1e-8 m by the fitter's
+own check. `2f121983` still stops. `82981f2a` resolves, but a dense check finds edge 826 at 1.12e-8 m.
+Converter code is on `solidworks-converters` branch `dev`, at "End curves on the curve next to a
+tolerant vertex". Two format facts were verified by blind checks: offset side, and B-spline edge
+extension.
 
-1. The B-rep triangulator on the 32 online parts with open or repeated edges (NQ-057). The B-rep
-   resolves on all of them, so the fault is in the triangulator. List and counts in
-   `knowledge/evidence/scripts/EXP085/tess-after.txt`.
-2. Two online parts that don't resolve (NQ-058): `2f121983` (blend spine on two offset swept
-   surfaces, see EXP-086) and `82981f2a` (a blend face past its spine's T limit). The other three were fixed in EXP-086.
+**To fix next, in order** (details in START_HERE.md):
+
+1. A denser fit check (edge 826 hides between the fitter's samples).
+2. `3c4752f1`: two plane × blend edges at a touching end, 3.95e-8 m.
+3. The SP_CURVE edges on `f0b9a118` (1.6e-8 m) and `2e6e140a` (2.7e-8 m).
+4. Accuracy within ~1 µm of a T limit (head_back blend 9931's spine, up to 7.5e-8 m there).
+5. `2f121983` (NQ-058).
+6. Vertices 0.1 to 1 mm off thread and degree-1 surfaces in 5 parts.
+7. NQ-057, the triangulator on 32 parts.
 
 **Overnight log** (unattended runs, newest last):
 
