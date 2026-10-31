@@ -26,6 +26,14 @@ of 136 online parts. Open: NQ-056 to NQ-058.
 - 2026-10-31 second run: 82981f2a diagnosed (EXP-086, last section): a blend face runs 4.7 mm past
   its spine's T limit. Nothing committed in the converter. Next: extend the spine past a T limit
   (march on from the limit along the same branch), then 2f121983.
+- 2026-10-31 third run (converter 624aacc, ab0693e; EXP-086 "head_back, third run"): the second
+  run's diagnosis was wrong (no face past the T limit). Fixed for head_back: the global spine
+  projection, offsets on the side their sense gives, B-splines carried on along their edge tangent
+  past the knot range, a faster offset foot, closed spine charts followed round. Both format claims
+  survived a blind debunk. head_back now fits all 108 blends and stops on edge 362: "blend
+  boundary: closed contact curve". New verification rule from the user: every finding goes to a
+  fresh subagent told to break it before it counts as verified. Next: closed contact curves, then
+  2f121983, then the off-surface vertices on thread surfaces the debunk agent noticed.
 
 ## Checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
 
