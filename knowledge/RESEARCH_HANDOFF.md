@@ -51,8 +51,10 @@ extension.
   second pass in the fit check fixes edge 826 (9.44e-9 m by the blind script) and brings f0b9a118
   under 1e-8. It exposed two things: polyFn's corrector depended on its last call (fixed, thread
   parts fast again), and on head_back a few exact points on blend 3369's spine land 3e-5 m off,
-  seemingly on another sheet of offset surface 3432, which wrecks that spine's fit. Next: confirm
-  the other-sheet reading and keep the corrector on its own sheet. See the EXP-087 evidence file.
+  which wrecks that spine's fit. My first reading (a second sheet of offset 3432) was wrong; two
+  blind agents showed it's the corrector not converging on offset 3368 out in a B-spline's tangent
+  extension, where the foot finder falls back to a foot clamped at the knot edge. Next: a
+  convergence check in the corrector, and a foot finder that works in the extension.
 
 ## Checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
 
