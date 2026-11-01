@@ -1,0 +1,4 @@
+fit 9.258480033277158e-9 ctrl 109 t0,t1 1 0 spine range 0 1
+span samples 2002 18130 of 20000
+top devs 9.444e-9@6817 9.443e-9@6818 9.443e-9@6816 9.442e-9@6819 9.442e-9@6815 9.441e-9@6820
+max at span fraction 0.299 count>1e-8: 0 of 16123

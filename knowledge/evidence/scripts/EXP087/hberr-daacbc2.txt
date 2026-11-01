@@ -1,0 +1,5 @@
+surface blend 3443 face 2279 r 0.006999999999999999 supports offset3445 offset3444 error 2.19e-6
+surface blend 3452 face 2299 r 0.009 supports bspline3447 bspline3448 error 2.19e-6
+surface blend 3369 face 2478 r -0.005 supports offset3432 plane3501 error 7.99e-2
+curve 844 spcurve  v [ 1398, 1270 ] error 1.14e-8
+done 4598.473 s

@@ -47,6 +47,13 @@ extension.
   stays on its branch near a T limit (hold the distance from the limit point), then check whether
   the ten 1e-8..4.7e-8 m curves are the same thing.
 
+- 2026-11-01: EXP-087 (in progress, converter branch `wip/dense-fit-check`, not `dev`). A dense
+  second pass in the fit check fixes edge 826 (9.44e-9 m by the blind script) and brings f0b9a118
+  under 1e-8. It exposed two things: polyFn's corrector depended on its last call (fixed, thread
+  parts fast again), and on head_back a few exact points on blend 3369's spine land 3e-5 m off,
+  seemingly on another sheet of offset surface 3432, which wrecks that spine's fit. Next: confirm
+  the other-sheet reading and keep the corrector on its own sheet. See the EXP-087 evidence file.
+
 ## Checkpoint — 2026-10-27, EXP-084 (online sample), EXP-083 (release history)
 
 The converter now reads all 136 parts in `test files online/` (openly licensed, saved 2007–2026)
