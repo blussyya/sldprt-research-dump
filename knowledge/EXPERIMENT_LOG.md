@@ -1557,3 +1557,23 @@ stream for the configuration comparison, and one modern configuration envelope r
 **Evidence**: [2026-11-05_v0.5-EXP091.md](evidence/2026-11-05_v0.5-EXP091.md),
 `evidence/scripts/EXP091/`.
 
+## EXP-092 — Small bounds and LocalBodies fields
+
+**Question**: Can the remaining LocalBodies entry header, bounds-record tail, and lone oversized
+configuration envelope be narrowed without new files?
+
+**Result**: The 10-byte LocalBodies entry header is a flag, padding, the first section's size plus
+five, and padding. The 18-byte form prepends a reserved zero and an exact section count; controls
+with 2 and 8 sections confirm the count. The flag remains unnamed. Across 13,589 modern faces with
+decoded metadata, the bounds head is fixed at `[0,0,1]`. One tail state contains a scalar followed
+by a unit vector in 2,986/2,986 records; on 2,406 cylinders the vector is perpendicular to the
+surface axis. Finally, the active, ghost, and eight support-face bodies in `ac760485` remain inside
+the display box across their stored points and 147,600 decoded edge samples.
+
+**Known gaps**: The LocalBodies flag and zero section tail remain unnamed. The directional
+variant's scalar, other bounds-tail states, and the source of the wider configuration envelope are
+still open.
+
+**Evidence**: [2026-11-05_v0.5-EXP092.md](evidence/2026-11-05_v0.5-EXP092.md),
+`evidence/scripts/EXP092/`.
+

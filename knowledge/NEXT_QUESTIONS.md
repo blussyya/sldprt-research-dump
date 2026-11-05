@@ -42,9 +42,9 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-032 | Decode display edge-type numbers and the record after the edge table. |
 | NQ-033 / NQ-053 | Select the active configuration when ModelHeader is absent; define duplicate-stream handling. |
 | NQ-016 / NQ-051 | Separate the remaining off-surface display vertices from tessellation and mesh-quality effects. |
-| NQ-044 remainder | Name the still-opaque bytes around the decoded per-face bounds. |
-| NQ-046 remainder | Explain the one configuration envelope larger than both display and active body, and older modern saves with no record. |
-| NQ-048 remainder | Name the 10/18-byte LocalBodies entry-header fields; the entry, section and chunk framing is decoded. |
+| NQ-044 remainder | Name the directional variant's scalar and the other tail states; the fixed head and unit-vector case are decoded. |
+| NQ-046 remainder | Explain the one broader configuration envelope; no decoded section point or densely sampled edge reaches it. Also explain older modern saves with no record. |
+| NQ-048 remainder | Name the LocalBodies entry flag and the always-zero section tail; the two entry-header layouts are decoded. |
 | NQ-057 / NQ-058 | Diagnose the remaining triangulation failures and `2f121983` evidence; converter changes stay outside this branch. |
 | NQ-059 | Replace dimension-placement scans with bounded layouts. |
 | NQ-060 | Find the modern per-feature Created/Modified record; Biography is not it. |
@@ -1111,6 +1111,13 @@ three words are small integers (`0 0 1` on the cube's face 0) matching no count 
 vertex, strip, Block1 and Block3 counts there are 4, 1, 6 and 6. Tail words include `4294967295`,
 a plausible sentinel. Worth a pass now that the geometry half of the record is anchored.
 
+**Update, 2026-11-05 (EXP-092):** On 13,589 modern faces whose following metadata parses, the
+leading words are fixed at `[0,0,1]`. The apparent variation in the earlier arithmetic scan came
+from records not owned by parsed faces. The tail has eight observed binary-word combinations. When
+`u32(+104)=1` and `u32(+108)=1`, bytes `+112…+127` are four floats whose last three form a unit
+vector in 2,986/2,986 records. On all 2,406 cylinders it is perpendicular to the surface axis. The
+first float, word `+100`, the other states, and the direction's exact general role remain open.
+
 ## NQ-045 — Does the bounding record survive into the legacy container?
 
 INV-026 is verified on the 24 SolidWorks 2022 models only. EXP-060 showed the Parasolid layer is
@@ -1167,6 +1174,13 @@ The earlier 47-record count included two arithmetic matches that were not config
 What remains is the lone broader envelope and the version/layout reason many older modern files do
 not carry the record.
 
+**Update, 2026-11-05 (EXP-092):** The outlier contains eleven framed Parasolid sections. Ten
+independent bodies parse: the active body, the zero-face ghost bodies, and eight one-face
+ResolvedFeatures snapshots. Their combined point box equals the active/display extent; 147,600
+samples across their decoded edges stay in the same box. The eleventh section is the Partition
+delta program. No decoded point or sampled edge reaches the wider envelope, but this does not
+distinguish a stale envelope from sketch, reference, or other display-level geometry.
+
 **Date raised**: 2026-09-21 (EXP-064).
 
 ## NQ-047 — ANSWERED 2026-09-21 (EXP-065): the premise was wrong
@@ -1221,6 +1235,12 @@ a ten-byte continuation header. The two sections over 1 MiB contain 48 and 205 z
 chunks across the survey validate. The eight-byte tail remains zero in 289/289 LocalBodies
 sections. The remaining format work is naming the 10- and 18-byte entry-header fields. A nonzero
 tail would still be needed to name the tail's intended role.
+
+**Update, 2026-11-05 (EXP-092):** The layouts are now bounded. The old 10-byte header is
+`u32 flag | u8 0 | u32(first section size + 5) | u8 0`. The 18-byte form prepends a reserved zero
+word and an exact section count; its two multi-section controls advertise 2 and 8. The flag is one
+on eight single-solid entries, but zero also occurs on solid entries and cannot yet be named. The
+always-zero section tail also remains open.
 
 **Date raised**: 2026-09-29 (EXP-074).
 

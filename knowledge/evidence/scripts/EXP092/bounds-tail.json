@@ -1,0 +1,1294 @@
+{
+  "summary": {
+    "modernFiles": 118,
+    "faceRecords": 13589,
+    "headWords": {
+      "w0": {
+        "0": 13589
+      },
+      "w4": {
+        "0": 13589
+      },
+      "w8": {
+        "1": 13589
+      }
+    },
+    "tailWords": {
+      "w92": {
+        "0": 7171,
+        "1": 6418
+      },
+      "w96": {
+        "0": 1503,
+        "1": 12086
+      },
+      "w104": {
+        "0": 10603,
+        "1": 2986
+      },
+      "w108": {
+        "0": 862,
+        "1": 12727
+      },
+      "w128": {
+        "1": 13589
+      }
+    },
+    "states": {
+      "1,1,0,1,1": 5842,
+      "0,1,0,1,1": 3299,
+      "0,1,1,1,1": 2371,
+      "0,0,1,1,1": 615,
+      "1,0,0,1,1": 576,
+      "0,1,0,0,1": 574,
+      "0,0,0,0,1": 288,
+      "0,0,0,1,1": 24
+    },
+    "unitVectorRecords": 2986,
+    "allUnitVectorsWithin1e5": true,
+    "byType": {
+      "4002": {
+        "records": 2406,
+        "normMin": 0.9999999591936595,
+        "normMax": 1.000000039589142,
+        "directionDotCount": 2406,
+        "absoluteDirectionDotMin": 0,
+        "absoluteDirectionDotMax": 2.8204735049704858e-8
+      },
+      "4003": {
+        "records": 126,
+        "normMin": 0.9999999655477029,
+        "normMax": 1.0000000331417245,
+        "directionDotCount": 126,
+        "absoluteDirectionDotMin": 0.03590891025078693,
+        "absoluteDirectionDotMax": 0.9816371047538912
+      },
+      "4004": {
+        "records": 6,
+        "normMin": 0.999999986095013,
+        "normMax": 1.0000000262596092,
+        "directionDotCount": 6,
+        "absoluteDirectionDotMin": 0.27494492615527366,
+        "absoluteDirectionDotMax": 0.6955533033612705
+      },
+      "4005": {
+        "records": 24,
+        "normMin": 0.9999999612204636,
+        "normMax": 1.000000031685532,
+        "directionDotCount": 24,
+        "absoluteDirectionDotMin": 0.1863177192938725,
+        "absoluteDirectionDotMax": 0.7213289869580864
+      },
+      "4006": {
+        "records": 242,
+        "normMin": 0.9999999666343192,
+        "normMax": 1.000000036881479,
+        "directionDotCount": 242,
+        "absoluteDirectionDotMin": 0.02110568195569449,
+        "absoluteDirectionDotMax": 0.7417414295056515
+      },
+      "4007": {
+        "records": 5,
+        "normMin": 0.9999999739275606,
+        "normMax": 1.0000000267662321,
+        "directionDotCount": 5,
+        "absoluteDirectionDotMin": 0.0039963522713022575,
+        "absoluteDirectionDotMax": 0.9717652294387175
+      },
+      "4009": {
+        "records": 1,
+        "normMin": 0.9999999994165539,
+        "normMax": 0.9999999994165539,
+        "directionDotCount": 1,
+        "absoluteDirectionDotMin": 0.5426501038856378,
+        "absoluteDirectionDotMax": 0.5426501038856378
+      },
+      "4010": {
+        "records": 164,
+        "normMin": 0.9999999637339821,
+        "normMax": 1.000000038051977,
+        "directionDotCount": 164,
+        "absoluteDirectionDotMin": 0.6009493901222994,
+        "absoluteDirectionDotMax": 0.9953957492085422
+      },
+      "4980815": {
+        "records": 12,
+        "normMin": 0.9999999722048527,
+        "normMax": 1.0000000243151603,
+        "directionDotCount": 12,
+        "absoluteDirectionDotMin": 0.04009984832433141,
+        "absoluteDirectionDotMax": 0.8799831193029949
+      }
+    },
+    "errors": 0
+  },
+  "files": [
+    {
+      "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+      "records": 6,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C01_cube_20mm/model.SLDPRT",
+      "records": 6,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C02_cube_translated/model.SLDPRT",
+      "records": 6,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 1
+    },
+    {
+      "file": "test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C06_cube_hole_moved/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C07_cube_two_holes/model.SLDPRT",
+      "records": 8,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT",
+      "records": 8,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT",
+      "records": 11,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 1
+    },
+    {
+      "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+      "records": 2,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+      "records": 1,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C15_torus/model.SLDPRT",
+      "records": 1,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+      "records": 6,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C17_torus_quarter/model.SLDPRT",
+      "records": 3,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C19_half_cylinder/model.SLDPRT",
+      "records": 4,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+      "records": 8,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+      "records": 4,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT",
+      "records": 6,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+      "records": 6,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT",
+      "records": 8,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+      "records": 33,
+      "unitVectorRecords": 12
+    },
+    {
+      "file": "test files online/2018/0132519a_102_STEM.SLDPRT",
+      "records": 167,
+      "unitVectorRecords": 53
+    },
+    {
+      "file": "test files online/2018/15567d51_leva1.SLDPRT",
+      "records": 298,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+      "records": 262,
+      "unitVectorRecords": 48
+    },
+    {
+      "file": "test files online/2018/ca465363_103_COVER.SLDPRT",
+      "records": 118,
+      "unitVectorRecords": 18
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "records": 2512,
+      "unitVectorRecords": 1466
+    },
+    {
+      "file": "test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT",
+      "records": 1,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2019/07ff8da1_shelf.SLDPRT",
+      "records": 30,
+      "unitVectorRecords": 8
+    },
+    {
+      "file": "test files online/2019/096d0504_MargayMount_WH10.SLDPRT",
+      "records": 18,
+      "unitVectorRecords": 4
+    },
+    {
+      "file": "test files online/2019/27377fd2_FE-00006-06.SLDPRT",
+      "records": 8,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2019/28398415_Raspberry Pi 4.SLDPRT",
+      "records": 267,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2019/300d7f07_Bottom Case.SLDPRT",
+      "records": 50,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2019/44afdb7c_back_cushion.SLDPRT",
+      "records": 26,
+      "unitVectorRecords": 12
+    },
+    {
+      "file": "test files online/2019/54b05886_bottom_adc.SLDPRT",
+      "records": 92,
+      "unitVectorRecords": 12
+    },
+    {
+      "file": "test files online/2019/7765d286_NSJ8L.SLDPRT",
+      "records": 22,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+      "records": 103,
+      "unitVectorRecords": 36
+    },
+    {
+      "file": "test files online/2019/91a2d981_Camera Module.SLDPRT",
+      "records": 19,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2019/a3a44709_FrontPanel-Bezel.sldprt",
+      "records": 16,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2019/d381ebab_bottom_dac.SLDPRT",
+      "records": 83,
+      "unitVectorRecords": 9
+    },
+    {
+      "file": "test files online/2019/e8c40c25_psu.SLDPRT",
+      "records": 271,
+      "unitVectorRecords": 109
+    },
+    {
+      "file": "test files online/2019/fb449daa_Gloworm PCB.SLDPRT",
+      "records": 50,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2020/14f9214b_11.SLDPRT",
+      "records": 73,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+      "records": 69,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT",
+      "records": 28,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2020/9494d959_27_20_4.SLDPRT",
+      "records": 12,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2020/b185085c_Handle 3.SLDPRT",
+      "records": 33,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2021/85aabbde_84T Gear.SLDPRT",
+      "records": 671,
+      "unitVectorRecords": 379
+    },
+    {
+      "file": "test files online/2021/916d4a0a_36T Gear.SLDPRT",
+      "records": 295,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2021/bc3292d7_12T Gear.SLDPRT",
+      "records": 135,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+      "records": 399,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT",
+      "records": 109,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT",
+      "records": 143,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/1ee60868_z轴皮带固定.SLDPRT",
+      "records": 32,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/273a8d53_FG-F1.SLDPRT",
+      "records": 76,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "records": 239,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/40e79d45_Fins.SLDPRT",
+      "records": 12,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT",
+      "records": 9,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/84226163_Fin.SLDPRT",
+      "records": 10,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/9cc04b03_SO-C1.SLDPRT",
+      "records": 93,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+      "records": 33,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/a0fc2e29_Vertical Spar.SLDPRT",
+      "records": 11,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/d753195d_ServoMount.SLDPRT",
+      "records": 90,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT",
+      "records": 26,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/dc265ce1_Fin.SLDPRT",
+      "records": 10,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2022/dd156283_637Z flanzi bearing.SLDPRT",
+      "records": 11,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "records": 693,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT",
+      "records": 35,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/2f121983_case.SLDPRT",
+      "records": 155,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/2fd21507_MidplateEM2.SLDPRT",
+      "records": 49,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT",
+      "records": 99,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT",
+      "records": 127,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/41b71219_板材-Guidance安装板.SLDPRT",
+      "records": 82,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/4803f393_box.SLDPRT",
+      "records": 1390,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT",
+      "records": 37,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+      "records": 544,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/d77ec77a_TopSheet.SLDPRT",
+      "records": 67,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT",
+      "records": 34,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+      "records": 404,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/03afebf4_Profilringe.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "records": 40,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/225c13ed_camholder0deg.SLDPRT",
+      "records": 49,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/2300f35c_Thigh Symétrie.SLDPRT",
+      "records": 172,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT",
+      "records": 4,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/37663d8a_Gasket For M12.SLDPRT",
+      "records": 11,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT",
+      "records": 4,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT",
+      "records": 22,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/871e670c_servo_adapter.SLDPRT",
+      "records": 32,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/951f2bc1_Boitier.SLDPRT",
+      "records": 26,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+      "records": 961,
+      "unitVectorRecords": 567
+    },
+    {
+      "file": "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+      "records": 16,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT",
+      "records": 8,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT",
+      "records": 34,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "records": 375,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "records": 113,
+      "unitVectorRecords": 45
+    },
+    {
+      "file": "test files original/PTC GE8080-8.SLDPRT",
+      "records": 126,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "records": 400,
+      "unitVectorRecords": 200
+    },
+    {
+      "file": "test files original/controlled/C00_cube_10mm/model.SLDPRT",
+      "records": 6,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C01_cube_20mm/model.SLDPRT",
+      "records": 6,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C02_cube_translated/model.SLDPRT",
+      "records": 6,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C04_cube_hole_5mm/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C05_cube_hole_3mm/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C06_cube_hole_moved/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C07_cube_two_holes/model.SLDPRT",
+      "records": 8,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT",
+      "records": 8,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C10_cube_shell_1mm/model.SLDPRT",
+      "records": 11,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C11_cube_hole_4mm/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "records": 7,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/cube.SLDPRT",
+      "records": 6,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/distributor main boss rev a.SLDPRT",
+      "records": 51,
+      "unitVectorRecords": 6
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+      "records": 39,
+      "unitVectorRecords": 0
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "records": 68,
+      "unitVectorRecords": 0
+    }
+  ],
+  "stateExamples": {
+    "1,1,0,1,1": [
+      {
+        "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+        "face": 0,
+        "typeTag": 4001,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 1,
+        "w96": 1,
+        "w100": 182452328,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0,
+          -2.755106923693666e-40,
+          null,
+          1.401298464324817e-45
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+        "face": 1,
+        "typeTag": 4001,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 1,
+        "w96": 1,
+        "w100": 182190184,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0,
+          7.146622168056567e-44,
+          7.286752014489049e-44,
+          7.42688186092153e-44
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+        "face": 2,
+        "typeTag": 4001,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 1,
+        "w96": 1,
+        "w100": 181928040,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0,
+          4.484155085839415e-44,
+          1.9047569765874373e-40,
+          1.401298464324817e-44
+        ],
+        "unitVector": null
+      }
+    ],
+    "0,1,1,1,1": [
+      {
+        "file": "test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT",
+        "face": 6,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 1,
+        "w100": 2080374890,
+        "w104": 1,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0.7609115242958069,
+          0.7204928398132324,
+          0.6934623718261719,
+          0
+        ],
+        "unitVector": {
+          "scalar": 0.7609115242958069,
+          "vector": [
+            0.7204928398132324,
+            0.6934623718261719,
+            0
+          ],
+          "norm": 0.999999996680458,
+          "absoluteDirectionDot": 0
+        }
+      },
+      {
+        "file": "test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+        "face": 6,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 1,
+        "w100": 779288682,
+        "w104": 1,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0.7609115242958069,
+          -0.7204928398132324,
+          -0.6934623718261719,
+          0
+        ],
+        "unitVector": {
+          "scalar": 0.7609115242958069,
+          "vector": [
+            -0.7204928398132324,
+            -0.6934623718261719,
+            0
+          ],
+          "norm": 0.999999996680458,
+          "absoluteDirectionDot": 0
+        }
+      },
+      {
+        "file": "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+        "face": 1,
+        "typeTag": 4980815,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 1,
+        "w100": 3130538177,
+        "w104": 1,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0.8721620440483093,
+          -5.691286370402161e-16,
+          -0.5480002164840698,
+          0.8364781737327576
+        ],
+        "unitVector": {
+          "scalar": 0.8721620440483093,
+          "vector": [
+            -5.691286370402161e-16,
+            -0.5480002164840698,
+            0.8364781737327576
+          ],
+          "norm": 0.9999999861989383,
+          "absoluteDirectionDot": 0.5480002240470547
+        }
+      }
+    ],
+    "0,1,0,0,1": [
+      {
+        "file": "test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT",
+        "face": 6,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 1,
+        "w100": 435617903,
+        "w104": 0,
+        "w108": 0,
+        "w128": 1,
+        "variant": [
+          0,
+          0,
+          1.6897770529427384e-38,
+          6.44300218314979e-40
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT",
+        "face": 6,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 1,
+        "w100": 3749511278,
+        "w104": 0,
+        "w108": 0,
+        "w128": 1,
+        "variant": [
+          0,
+          0,
+          1.6897770529427384e-38,
+          6.44300218314979e-40
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files new/SW2022/C06_cube_hole_moved/model.SLDPRT",
+        "face": 6,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 1,
+        "w100": 3891986542,
+        "w104": 0,
+        "w108": 0,
+        "w128": 1,
+        "variant": [
+          0,
+          1.7632426472722027e-37,
+          6.150018700228757e-41,
+          7.847271400218976e-44
+        ],
+        "unitVector": null
+      }
+    ],
+    "0,1,0,1,1": [
+      {
+        "file": "test files new/SW2022/C15_torus/model.SLDPRT",
+        "face": 0,
+        "typeTag": 4005,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 1,
+        "w100": 336789608,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0,
+          1.7632426472722027e-37,
+          6.150018700228757e-41,
+          7.847271400218976e-44
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+        "face": 2,
+        "typeTag": 4006,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 1,
+        "w100": 3274571884,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0,
+          1.7632426472722027e-37,
+          6.150018700228757e-41,
+          7.847271400218976e-44
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+        "face": 3,
+        "typeTag": 4006,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 1,
+        "w100": 3274309740,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0,
+          1.7632426472722027e-37,
+          6.150018700228757e-41,
+          7.847271400218976e-44
+        ],
+        "unitVector": null
+      }
+    ],
+    "1,0,0,1,1": [
+      {
+        "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+        "face": 0,
+        "typeTag": 4001,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 1,
+        "w96": 0,
+        "w100": 525994277,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          -1.875,
+          89128.96875,
+          0.9549999833106995,
+          0
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+        "face": 1,
+        "typeTag": 4001,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 1,
+        "w96": 0,
+        "w100": 525535525,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          -1.7120144642250012e+38,
+          -1.7120144642250012e+38,
+          -1.7120144642250012e+38,
+          -1.7120144642250012e+38
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+        "face": 4,
+        "typeTag": 4001,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 1,
+        "w96": 0,
+        "w100": 471664933,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "unitVector": null
+      }
+    ],
+    "0,0,1,1,1": [
+      {
+        "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+        "face": 2,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 0,
+        "w100": 478021925,
+        "w104": 1,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0.9661623239517212,
+          0.8439414501190186,
+          0,
+          -0.5364352464675903
+        ],
+        "unitVector": {
+          "scalar": 0.9661623239517212,
+          "vector": [
+            0.8439414501190186,
+            0,
+            -0.5364352464675903
+          ],
+          "norm": 0.9999999724408677,
+          "absoluteDirectionDot": 0
+        }
+      },
+      {
+        "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+        "face": 3,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 0,
+        "w100": 477563173,
+        "w104": 1,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0.9661623239517212,
+          -0.843245804309845,
+          0,
+          -0.5375281572341919
+        ],
+        "unitVector": {
+          "scalar": 0.9661623239517212,
+          "vector": [
+            -0.843245804309845,
+            0,
+            -0.5375281572341919
+          ],
+          "norm": 1.0000000031528717,
+          "absoluteDirectionDot": 0
+        }
+      },
+      {
+        "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+        "face": 6,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 0,
+        "w100": 424085797,
+        "w104": 1,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0.9667379260063171,
+          -0.0006306904251687229,
+          0,
+          0.9999998211860657
+        ],
+        "unitVector": {
+          "scalar": 0.9667379260063171,
+          "vector": [
+            -0.0006306904251687229,
+            0,
+            0.9999998211860657
+          ],
+          "norm": 1.0000000200712877,
+          "absoluteDirectionDot": 0
+        }
+      }
+    ],
+    "0,0,0,0,1": [
+      {
+        "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+        "face": 150,
+        "typeTag": 4005,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 0,
+        "w100": 3583183058,
+        "w104": 0,
+        "w108": 0,
+        "w128": 1,
+        "variant": [
+          -9.062392093906196e-28,
+          6.985753104352078e-41,
+          -9.062392093906196e-28,
+          6.985753104352078e-41
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+        "face": 151,
+        "typeTag": 4005,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 0,
+        "w100": 3584428242,
+        "w104": 0,
+        "w108": 0,
+        "w128": 1,
+        "variant": [
+          0.7609115242958069,
+          0.6934623718261719,
+          0,
+          0.7204928398132324
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+        "face": 152,
+        "typeTag": 4005,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 0,
+        "w100": 3585673426,
+        "w104": 0,
+        "w108": 0,
+        "w128": 1,
+        "variant": [
+          0,
+          0,
+          0,
+          1.8341016046388524e-29
+        ],
+        "unitVector": null
+      }
+    ],
+    "0,0,0,1,1": [
+      {
+        "file": "test files online/2019/28398415_Raspberry Pi 4.SLDPRT",
+        "face": 7,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 0,
+        "w100": 1512636520,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files online/2019/28398415_Raspberry Pi 4.SLDPRT",
+        "face": 8,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 0,
+        "w100": 1516699752,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          null,
+          0,
+          null,
+          7.364063052064313e-39
+        ],
+        "unitVector": null
+      },
+      {
+        "file": "test files online/2019/28398415_Raspberry Pi 4.SLDPRT",
+        "face": 9,
+        "typeTag": 4002,
+        "w0": 0,
+        "w4": 0,
+        "w8": 1,
+        "w92": 0,
+        "w96": 0,
+        "w100": 1520762984,
+        "w104": 0,
+        "w108": 1,
+        "w128": 1,
+        "variant": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "unitVector": null
+      }
+    ]
+  },
+  "errors": []
+}

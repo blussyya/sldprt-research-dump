@@ -1,5 +1,23 @@
 # Research Handoff
 
+## Validation checkpoint — 2026-11-05, EXP-092
+
+The two LocalBodies entry headers are decoded. The old ten-byte form contains one unnamed flag,
+padding, the first framed section's size plus five, and padding. The newer 18-byte form prepends a
+reserved zero and an exact section count. All 281 entries fit; the two multi-section entries supply
+counts 2 and 8. The flag remains unnamed because both values occur on solid entries.
+
+On 13,589 modern faces with decoded metadata, the bounds record begins with fixed words `[0,0,1]`.
+When the tail words at +104 and +108 are one, the next four floats are a scalar and unit vector in
+2,986/2,986 records. The vector is perpendicular to the saved cylinder axis in all 2,406 cylinder
+cases. The scalar and other tail states remain open.
+
+The one broad configuration envelope in `ac760485` is not reflected by the stored points or a
+147,600-point edge sample from its active body, zero-face ghosts, and eight ResolvedFeatures
+support snapshots. Sketch/reference geometry or stale display state remain possible.
+
+Evidence: [2026-11-05_v0.5-EXP092.md](evidence/2026-11-05_v0.5-EXP092.md).
+
 ## Validation checkpoint — 2026-11-05, EXP-091
 
 The optional display scalar arrays are per-vertex surface parameters. The controlled cone, sphere

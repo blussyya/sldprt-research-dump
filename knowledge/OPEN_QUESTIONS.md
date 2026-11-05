@@ -21,19 +21,23 @@ operational queue.
 The current broad unknowns are:
 
 - Display metadata: the remaining Block3 strip controls and tangent exceptions, display edge-type
-  records, the unexplained bytes around per-face bounds, and the remaining off-surface vertices.
+  records, the unnamed states and scalar in the bounds tail, and the remaining off-surface vertices.
 - Configuration and container rules: active configuration without ModelHeader, duplicate-stream
   handling, the LWDATA-adjacent stream, and the one configuration envelope larger than its body.
 - Feature history: bounded dimension-placement layouts and modern per-feature Created/Modified
   records.
-- LocalBodies: the entry and chunk framing is decoded by EXP-091; the 10/18-byte entry-header
-  fields and the intended role of the always-zero section tail remain unnamed.
+- LocalBodies: the 10/18-byte entry headers, entry table and chunk framing are decoded by EXP-092;
+  one entry flag and the intended role of the always-zero section tail remain unnamed.
 - Conversion validation: the remaining triangulation and resolve failures in NQ-057/NQ-058.
 - Inputs still needed: a legitimate zero-normal face, varying declaration constants, XT types
   85/87/88/89, and controlled rebuild/redraw saves.
 
 EXP-091 also closes the old optional-scalar question: the pair is per-vertex surface `(u,v)` on
 the controlled cone, sphere and B-surface checks.
+
+EXP-092 further narrows the small record questions. Modern parser-owned bounds records start with
+fixed words `[0,0,1]`; one tail state holds a scalar plus unit vector. The wider configuration
+envelope is absent from every decoded section point and densely sampled edge in its file.
 
 ---
 
