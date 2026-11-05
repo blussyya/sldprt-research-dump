@@ -23,7 +23,8 @@ The current broad unknowns are:
 - Display metadata: the remaining Block3 strip controls and tangent exceptions, display edge-type
   records, the unnamed states and scalar in the bounds tail, and the remaining off-surface vertices.
 - Configuration and container rules: active configuration without ModelHeader, duplicate-stream
-  handling, the LWDATA-adjacent stream, and the one configuration envelope larger than its body.
+  handling, the LWDATA-adjacent stream, the one configuration envelope larger than its body, and
+  the post-version-13000 omission rule for imported or multi-configuration files.
 - Feature history: bounded dimension-placement layouts and modern per-feature Created/Modified
   records.
 - LocalBodies: the 10/18-byte entry headers, entry table and chunk framing are decoded by EXP-092;
@@ -38,6 +39,11 @@ the controlled cone, sphere and B-surface checks.
 EXP-092 further narrows the small record questions. Modern parser-owned bounds records start with
 fixed words `[0,0,1]`; one tail state holds a scalar plus unit vector. The wider configuration
 envelope is absent from every decoded section point and densely sampled edge in its file.
+
+EXP-093 locates the configuration envelope's observed introduction at declared DisplayLists
+version 13000: zero of 42 earlier-version files and all 13 version-13000/14000 files carry it.
+Later omissions are limited to files with LocalBodies or multiple configuration IDs, but the exact
+rule remains open.
 
 ---
 

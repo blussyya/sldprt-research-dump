@@ -1577,3 +1577,20 @@ still open.
 **Evidence**: [2026-11-05_v0.5-EXP092.md](evidence/2026-11-05_v0.5-EXP092.md),
 `evidence/scripts/EXP092/`.
 
+## EXP-093 — Configuration-envelope version boundary
+
+**Question**: Why do many older modern files lack the named configuration envelope found by
+EXP-091?
+
+**Result**: None of 42 files declaring DisplayLists versions 3800–12000 carries the named record.
+Version 13000 is the first occurrence, with 8/8 files; version 14000 has 5/5. At version 13000 or
+later the record occurs in 113/124 files. Of the 121 files with parsed faces, all 97 that have one
+configuration ID and no LocalBodies carry it. The eight readable omissions all have LocalBodies or
+multiple configuration IDs, but those properties do not by themselves suppress the record.
+
+**Known gaps**: The exact inclusion rule for the eight later omissions remains unknown, as does the
+source of the one envelope larger than the display and stored-body samples.
+
+**Evidence**: [2026-11-05_v0.5-EXP093.md](evidence/2026-11-05_v0.5-EXP093.md),
+`evidence/scripts/EXP093/`.
+

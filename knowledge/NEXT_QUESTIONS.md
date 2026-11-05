@@ -43,7 +43,7 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-033 / NQ-053 | Select the active configuration when ModelHeader is absent; define duplicate-stream handling. |
 | NQ-016 / NQ-051 | Separate the remaining off-surface display vertices from tessellation and mesh-quality effects. |
 | NQ-044 remainder | Name the directional variant's scalar and the other tail states; the fixed head and unit-vector case are decoded. |
-| NQ-046 remainder | Explain the one broader configuration envelope; no decoded section point or densely sampled edge reaches it. Also explain older modern saves with no record. |
+| NQ-046 remainder | Explain the one broader envelope and the eight readable post-13000 omissions. EXP-093 explains the older absence with a version-13000 introduction boundary. |
 | NQ-048 remainder | Name the LocalBodies entry flag and the always-zero section tail; the two entry-header layouts are decoded. |
 | NQ-057 / NQ-058 | Diagnose the remaining triangulation failures and `2f121983` evidence; converter changes stay outside this branch. |
 | NQ-059 | Replace dimension-placement scans with bounded layouts. |
@@ -1180,6 +1180,13 @@ ResolvedFeatures snapshots. Their combined point box equals the active/display e
 samples across their decoded edges stay in the same box. The eleventh section is the Partition
 delta program. No decoded point or sampled edge reaches the wider envelope, but this does not
 distinguish a stale envelope from sketch, reference, or other display-level geometry.
+
+**Update, 2026-11-05 (EXP-093):** The older absence has a clean declared-version boundary. None of
+42 modern files at DisplayLists versions 3800–12000 has the named envelope; all eight version-13000
+and all five version-14000 files do. At version 13000 or later, 113/124 files have it. Among files
+with parsed faces, all 97 single-configuration files without LocalBodies carry the record. All eight
+later readable omissions have LocalBodies or multiple configuration IDs, though those properties do
+not force omission. The exact later inclusion rule and the lone broader envelope remain open.
 
 **Date raised**: 2026-09-21 (EXP-064).
 

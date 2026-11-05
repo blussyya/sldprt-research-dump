@@ -1,5 +1,19 @@
 # Research Handoff
 
+## Validation checkpoint — 2026-11-05, EXP-093
+
+The named configuration envelope has an observed DisplayLists version boundary. It is absent from
+all 42 modern files declaring versions 3800–12000, then present in all 8 version-13000 and all 5
+version-14000 files. This agrees with EXP-085's result that the declaration names the release that
+last wrote the DisplayLists stream, rather than necessarily the release of the file's latest save.
+
+The record remains optional later: 113/124 version-13000-or-newer files carry it. All 97 readable,
+single-configuration files without LocalBodies have it. Every one of the eight readable omissions
+has LocalBodies or multiple configuration IDs, but both structures also occur in files that retain
+the record. Their exact inclusion rule remains open.
+
+Evidence: [2026-11-05_v0.5-EXP093.md](evidence/2026-11-05_v0.5-EXP093.md).
+
 ## Validation checkpoint — 2026-11-05, EXP-092
 
 The two LocalBodies entry headers are decoded. The old ten-byte form contains one unnamed flag,
