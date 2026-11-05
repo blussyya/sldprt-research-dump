@@ -1,0 +1,461 @@
+[
+  {
+    "file": "test files original/cube.SLDPRT",
+    "sha256": "e002c483df1faab6c635d52dd190311e2b0fd4a36758e54020efdd7512026cb1",
+    "treeComplete": true,
+    "ghosts": [],
+    "unmatchedRefs": []
+  },
+  {
+    "file": "test files original/Helical Bevel Gear.SLDPRT",
+    "sha256": "d694ebd12683ffd1b6b225f465fd358005b6015388b1cc4fc1867cb38c371a92",
+    "treeComplete": true,
+    "ghosts": [
+      {
+        "stream": "Contents/Config-0-GhostPartition",
+        "index": 2,
+        "id": 10074,
+        "type": 2,
+        "edge": 0,
+        "vertex": 10,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "attributes": [
+          {
+            "name": "GHOST_REF_BODY_ID_2001",
+            "values": [
+              null,
+              {
+                "values": [
+                  10074
+                ]
+              }
+            ]
+          }
+        ],
+        "refs": [
+          {
+            "id": 10074,
+            "class": "moCompSketchEntHandle_c",
+            "index": 1662,
+            "at": 170447,
+            "feature": 5,
+            "handle": {
+              "class": "sgPointHandle",
+              "index": 1664,
+              "at": 170538,
+              "id": 0,
+              "a": -1,
+              "b": 0,
+              "end": 170550
+            },
+            "within": {
+              "id": 132,
+              "name": "Sketch10",
+              "class": "moProfileFeature_c"
+            },
+            "target": [
+              {
+                "id": 5,
+                "name": "Origin",
+                "class": "moOriginProfileFeature_c"
+              }
+            ],
+            "compAt": 170449
+          }
+        ]
+      },
+      {
+        "stream": "Contents/Config-0-GhostPartition",
+        "index": 6,
+        "id": 10072,
+        "type": 3,
+        "edge": 22,
+        "vertex": 23,
+        "point": [
+          -0.04017298826357154,
+          0.013870148303999703,
+          0.1
+        ],
+        "surface": {
+          "node_id": 165,
+          "attributes_groups": 0,
+          "owner": 36,
+          "next": 0,
+          "previous": 0,
+          "geometric_owner": 0,
+          "sense": "+",
+          "pvec": [
+            -0.009230507950169631,
+            0.015384047859201576,
+            0.1
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "x_axis": [
+            1,
+            0,
+            0
+          ]
+        },
+        "attributes": [
+          {
+            "name": "GHOST_REF_BODY_ID_2001",
+            "values": [
+              null,
+              {
+                "values": [
+                  10072
+                ]
+              }
+            ]
+          }
+        ],
+        "refs": [
+          {
+            "id": 10072,
+            "class": "moCompProfile_c",
+            "index": 1357,
+            "at": 143447,
+            "feature": 90,
+            "within": {
+              "id": 94,
+              "name": "Loft2",
+              "class": "moBlend_c"
+            },
+            "target": [
+              {
+                "id": 90,
+                "name": "Sketch7",
+                "class": "moProfileFeature_c"
+              }
+            ],
+            "compAt": 143449
+          }
+        ]
+      },
+      {
+        "stream": "Contents/Config-0-GhostPartition",
+        "index": 16,
+        "id": 10071,
+        "type": 3,
+        "edge": 34,
+        "vertex": 35,
+        "point": [
+          -0.05251289322846925,
+          0.03443897168756283,
+          0.05
+        ],
+        "surface": {
+          "node_id": 165,
+          "attributes_groups": 0,
+          "owner": 238,
+          "next": 0,
+          "previous": 0,
+          "geometric_owner": 0,
+          "sense": "+",
+          "pvec": [
+            -0.007092942876347592,
+            0.024619688894001,
+            0.05
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "x_axis": [
+            1,
+            0,
+            0
+          ]
+        },
+        "attributes": [
+          {
+            "name": "GHOST_REF_BODY_ID_2001",
+            "values": [
+              null,
+              {
+                "values": [
+                  10071
+                ]
+              }
+            ]
+          }
+        ],
+        "refs": [
+          {
+            "id": 10071,
+            "class": "moCompProfile_c",
+            "index": 1354,
+            "at": 143267,
+            "feature": 82,
+            "within": {
+              "id": 94,
+              "name": "Loft2",
+              "class": "moBlend_c"
+            },
+            "target": [
+              {
+                "id": 82,
+                "name": "Sketch4",
+                "class": "moProfileFeature_c"
+              }
+            ],
+            "compAt": 143269
+          }
+        ]
+      },
+      {
+        "stream": "Contents/Config-0-GhostPartition",
+        "index": 28,
+        "id": 10070,
+        "type": 3,
+        "edge": 236,
+        "vertex": 237,
+        "point": [
+          0.06419678983461378,
+          0.055711508460374995,
+          0
+        ],
+        "surface": {
+          "node_id": 165,
+          "attributes_groups": 0,
+          "owner": 437,
+          "next": 0,
+          "previous": 0,
+          "geometric_owner": 0,
+          "sense": "+",
+          "pvec": [
+            0.03587646046837799,
+            0.0006036608901610098,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "x_axis": [
+            1,
+            0,
+            0
+          ]
+        },
+        "attributes": [
+          {
+            "name": "GHOST_REF_BODY_ID_2001",
+            "values": [
+              null,
+              {
+                "values": [
+                  10070
+                ]
+              }
+            ]
+          }
+        ],
+        "refs": [
+          {
+            "id": 10070,
+            "class": "moCompProfile_c",
+            "index": 1351,
+            "at": 143068,
+            "feature": 64,
+            "within": {
+              "id": 94,
+              "name": "Loft2",
+              "class": "moBlend_c"
+            },
+            "target": [
+              {
+                "id": 64,
+                "name": "Sketch2",
+                "class": "moProfileFeature_c"
+              }
+            ],
+            "compAt": 143089
+          }
+        ]
+      },
+      {
+        "stream": "Contents/Config-0-GhostPartition",
+        "index": 230,
+        "id": 10073,
+        "type": 2,
+        "edge": 0,
+        "vertex": 436,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "attributes": [
+          {
+            "name": "GHOST_REF_BODY_ID_2001",
+            "values": [
+              null,
+              {
+                "values": [
+                  10073
+                ]
+              }
+            ]
+          }
+        ],
+        "refs": [
+          {
+            "id": 10073,
+            "class": "moCompSketchEntHandle_c",
+            "index": 1372,
+            "at": 145454,
+            "feature": 5,
+            "handle": {
+              "class": "sgPointHandle",
+              "index": 1374,
+              "at": 145545,
+              "id": 0,
+              "a": -1,
+              "b": 0,
+              "end": 145557
+            },
+            "within": {
+              "id": 95,
+              "name": "Sketch9",
+              "class": "moProfileFeature_c"
+            },
+            "target": [
+              {
+                "id": 5,
+                "name": "Origin",
+                "class": "moOriginProfileFeature_c"
+              }
+            ],
+            "compAt": 145456
+          }
+        ]
+      },
+      {
+        "stream": "Contents/Config-0-GhostPartition",
+        "index": 432,
+        "id": 10002,
+        "type": 2,
+        "edge": 0,
+        "vertex": 635,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "attributes": [
+          {
+            "name": "GHOST_REF_BODY_ID_2001",
+            "values": [
+              null,
+              {
+                "values": [
+                  10002
+                ]
+              }
+            ]
+          }
+        ],
+        "refs": [
+          {
+            "id": 10002,
+            "class": "moCompSketchEntHandle_c",
+            "index": 520,
+            "at": 36616,
+            "feature": 5,
+            "handle": {
+              "class": "sgPointHandle",
+              "index": 522,
+              "at": 36707,
+              "id": 0,
+              "a": -1,
+              "b": 0,
+              "end": 36719
+            },
+            "within": {
+              "id": 64,
+              "name": "Sketch2",
+              "class": "moProfileFeature_c"
+            },
+            "target": [
+              {
+                "id": 5,
+                "name": "Origin",
+                "class": "moOriginProfileFeature_c"
+              }
+            ],
+            "compAt": 36618
+          }
+        ]
+      },
+      {
+        "stream": "Contents/Config-0-GhostPartition",
+        "index": 631,
+        "id": 10001,
+        "type": 2,
+        "edge": 0,
+        "vertex": 643,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "attributes": [
+          {
+            "name": "GHOST_REF_BODY_ID_2001",
+            "values": [
+              null,
+              {
+                "values": [
+                  10001
+                ]
+              }
+            ]
+          }
+        ],
+        "refs": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "index": 225,
+            "at": 7335,
+            "feature": 5,
+            "handle": {
+              "class": "sgPointHandle",
+              "index": 227,
+              "at": 7453,
+              "id": 0,
+              "a": -1,
+              "b": 0,
+              "end": 7465
+            },
+            "within": {
+              "id": 30,
+              "name": "Sketch1",
+              "class": "moProfileFeature_c"
+            },
+            "target": [
+              {
+                "id": 5,
+                "name": "Origin",
+                "class": "moOriginProfileFeature_c"
+              }
+            ],
+            "compAt": 7364
+          }
+        ]
+      }
+    ],
+    "unmatchedRefs": []
+  }
+]

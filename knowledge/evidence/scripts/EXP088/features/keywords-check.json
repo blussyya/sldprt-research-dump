@@ -1,0 +1,323 @@
+[
+  {
+    "file": "test files new/SW2011/C00_cube_10mm/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C01_cube_20mm/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C02_cube_translated/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C06_cube_hole_moved/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C07_cube_two_holes/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C13_cone/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C14_sphere/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C15_torus/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C16_loft_spline/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C17_torus_quarter/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C18_cube_split_line/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C19_half_cylinder/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C20_cylinders_crossed/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C21_cylinder_fillet/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT",
+    "missing": true
+  },
+  {
+    "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+    "matched": 20,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C01_cube_20mm/model.SLDPRT",
+    "matched": 20,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C02_cube_translated/model.SLDPRT",
+    "matched": 20,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT",
+    "matched": 21,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT",
+    "matched": 22,
+    "unmatched": [],
+    "children": [
+      {
+        "owner": 46,
+        "xml": "33",
+        "binary": [
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "file": "test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT",
+    "matched": 22,
+    "unmatched": [],
+    "children": [
+      {
+        "owner": 46,
+        "xml": "33",
+        "binary": [
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "file": "test files new/SW2022/C06_cube_hole_moved/model.SLDPRT",
+    "matched": 22,
+    "unmatched": [],
+    "children": [
+      {
+        "owner": 46,
+        "xml": "33",
+        "binary": [
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "file": "test files new/SW2022/C07_cube_two_holes/model.SLDPRT",
+    "matched": 22,
+    "unmatched": [],
+    "children": [
+      {
+        "owner": 46,
+        "xml": "33",
+        "binary": [
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "file": "test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT",
+    "matched": 22,
+    "unmatched": [],
+    "children": [
+      {
+        "owner": 46,
+        "xml": "33",
+        "binary": [
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "file": "test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT",
+    "matched": 21,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT",
+    "matched": 21,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT",
+    "matched": 22,
+    "unmatched": [],
+    "children": [
+      {
+        "owner": 46,
+        "xml": "33",
+        "binary": [
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "file": "test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+    "matched": 21,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+    "matched": 20,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+    "matched": 20,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C15_torus/model.SLDPRT",
+    "matched": 20,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+    "matched": 22,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C17_torus_quarter/model.SLDPRT",
+    "matched": 20,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+    "matched": 22,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C19_half_cylinder/model.SLDPRT",
+    "matched": 20,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+    "matched": 22,
+    "unmatched": [],
+    "children": [
+      {
+        "owner": 40,
+        "xml": "33",
+        "binary": [
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "file": "test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+    "matched": 21,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+    "matched": 20,
+    "unmatched": [],
+    "children": []
+  },
+  {
+    "file": "test files original/Helical Bevel Gear.SLDPRT",
+    "matched": 33,
+    "unmatched": [],
+    "children": [
+      {
+        "owner": 121,
+        "xml": "95",
+        "binary": [
+          95
+        ]
+      },
+      {
+        "owner": 140,
+        "xml": "132",
+        "binary": [
+          132
+        ]
+      }
+    ]
+  },
+  {
+    "file": "test files original/cube.SLDPRT",
+    "matched": 20,
+    "unmatched": [],
+    "children": []
+  }
+]

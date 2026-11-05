@@ -1460,3 +1460,48 @@ curve. The second run's diagnosis of head_back was wrong and is corrected in the
 
 **Evidence**: [2026-10-31_v0.5-EXP086.md](evidence/2026-10-31_v0.5-EXP086.md), `evidence/scripts/EXP086/`.
 
+## EXP-087 — head_back's saved display mesh
+
+**Question**: Why does the 2013 head_back display mesh have 532 faces when its body and the 2026
+re-save have 535?
+
+**Result**: The original body is valid; its saved mesh is old. `ModelStamps` is 119 while
+`DLUpdateStamp` is 107. The 2026 re-save keeps model stamp 119 and updates the display stamp to
+119. The old mesh preserves an earlier shape around the three rear openings: several faces are
+about 0.10 mm higher and four later faces are absent. The 2013 B-rep passes 34,249 graph checks and
+matches the SolidWorks STEP. A survey finds 24 of 142 files with a display stamp behind the model
+stamp; the gap means the mesh may be stale, not that it is geometrically wrong. Neither old nor
+new head_back face metadata is decoded far enough to supply a mesh-to-body face-ID join.
+
+**Independent check**: All 271 old-mesh samples more than 0.1 mm from the 2026 STEP lie around the
+three openings. Kevin's blue overlay patches also occur elsewhere, so the screenshots cannot map
+individual blue patches to the stale region.
+
+**Evidence**: [2026-11-01_v0.5-EXP087.md](evidence/2026-11-01_v0.5-EXP087.md),
+`evidence/scripts/EXP087/`.
+
+## EXP-088 — Block3, ghost bodies, feature links and Biography
+
+**Question**: What does nonzero Block3 encode, how do ghost bodies link to the feature archive,
+what tree structure can be exported safely, and is Biography the missing feature history?
+
+**Result**: The expanded online sample has 30,713 nonzero Block3 bytes in 27 files. Byte 1 marks a
+smooth or nearly smooth face-edge use in the joined native subset; byte 2 marks the joined open
+boundaries; byte 4 occurs only at later strip controls. The strip-control meaning and exact
+tangent-edge display treatment remain open.
+
+`GHOST_REF_BODY_ID_2001` equals the first u32 of a component-reference block at object offset +17.
+Independent checks join all 54 controlled ghost bodies and all seven gear bodies. Point-only
+bodies are Origin references; the others are loft profile sheets.
+
+The feature exporter preserves child links, contextual references and History-folder order. A
+fresh check confirms C07's Boss32→Sketch26 and Cut46→Sketch33 links and History order
+26,32,33,46. Binary feature names match `KeyWords` XML. C23 advertises 19 top-level slots but 18
+objects consume the stream exactly; its final object still contains an opaque scanned stretch.
+
+Biography parses sequentially on all 216 present streams, covering 3,519 records. It stores
+release/build, environment, paths and time snapshots. It is not the feature operation history.
+
+**Evidence**: [2026-11-05_v0.5-EXP088.md](evidence/2026-11-05_v0.5-EXP088.md),
+`evidence/scripts/EXP088/`.
+

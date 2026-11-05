@@ -1,0 +1,864 @@
+{
+  "file": "test files new/SW2022/C07_cube_two_holes/model.SLDPRT",
+  "sha256": "79d429ac3fe0858fd93e49a0f36df219e7f7075db1f6f5af4ee39d709cc05afb",
+  "streamBytes": 14739,
+  "readBytes": 14737,
+  "topCount": 21,
+  "topRead": 21,
+  "remainingHex": "0000",
+  "complete": true,
+  "error": null,
+  "scannedStretches": [
+    {
+      "at": 10760,
+      "end": 11347,
+      "target": "moFavoriteHandle_c"
+    }
+  ],
+  "features": [
+    {
+      "id": 8,
+      "index": 111,
+      "name": "Comments",
+      "class": "moCommentsFolder_c",
+      "at": 6,
+      "end": 203,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add01b03326df"
+    },
+    {
+      "id": 23,
+      "index": 114,
+      "name": "Favorites",
+      "class": "moFavoriteFolder_c",
+      "at": 203,
+      "end": 410,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd01019e34e1"
+    },
+    {
+      "id": 24,
+      "index": 117,
+      "name": "History",
+      "class": "moHistoryFolder_c",
+      "at": 410,
+      "end": 1112,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd01019e34e1"
+    },
+    {
+      "id": 25,
+      "index": 134,
+      "name": "Selection Sets",
+      "class": "moSelectionSetFolder_c",
+      "at": 1112,
+      "end": 1331,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd01019e34e1"
+    },
+    {
+      "id": 22,
+      "index": 137,
+      "name": "Sensors",
+      "class": "moSensorFolder_c",
+      "at": 1331,
+      "end": 1524,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd01019e34e1"
+    },
+    {
+      "id": 7,
+      "index": 140,
+      "name": "Design Binder",
+      "class": "moDocsFolder_c",
+      "at": 1524,
+      "end": 1727,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add01d41026df"
+    },
+    {
+      "id": 1,
+      "index": 143,
+      "name": "Annotations",
+      "class": "moDetailCabinet_c",
+      "at": 1727,
+      "end": 2379,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add011e5c15df"
+    },
+    {
+      "id": 17,
+      "index": 146,
+      "name": "Notes",
+      "class": "moNotesAreaFtrFolder_c",
+      "at": 1806,
+      "end": 2001,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd01019e34e1"
+    },
+    {
+      "id": 18,
+      "index": 148,
+      "name": "Notes1___EndTag___",
+      "class": "moNotesAreaFtrFolder_c",
+      "at": 2001,
+      "end": 2232,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd01019e34e1"
+    },
+    {
+      "id": 10,
+      "index": 151,
+      "name": "Surface Bodies",
+      "class": "moSurfaceBodyFolder_c",
+      "at": 2379,
+      "end": 2603,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add01c39526df"
+    },
+    {
+      "id": 9,
+      "index": 154,
+      "name": "Solid Bodies",
+      "class": "moSolidBodyFolder_c",
+      "at": 2603,
+      "end": 2823,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add01c39526df"
+    },
+    {
+      "id": 21,
+      "index": 157,
+      "name": "Markups",
+      "class": "moInkMarkupFolder_c",
+      "at": 2823,
+      "end": 3019,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd01019e34e1"
+    },
+    {
+      "id": 16,
+      "index": 160,
+      "name": "Equations",
+      "class": "moEqnFolder_c",
+      "at": 3019,
+      "end": 3213,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add014caf2bdf"
+    },
+    {
+      "id": 11,
+      "index": 163,
+      "name": "Material <not specified>",
+      "class": "moMaterialFolder_c",
+      "at": 3213,
+      "end": 3450,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add01c39526df"
+    },
+    {
+      "id": 2,
+      "index": 166,
+      "name": "Front Plane",
+      "class": "moRefPlane_c",
+      "at": 3450,
+      "end": 3989,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add01184516df"
+    },
+    {
+      "id": 3,
+      "index": 170,
+      "name": "Top Plane",
+      "class": "moRefPlane_c",
+      "at": 3989,
+      "end": 4555,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add010c6c16df"
+    },
+    {
+      "id": 4,
+      "index": 173,
+      "name": "Right Plane",
+      "class": "moRefPlane_c",
+      "at": 4555,
+      "end": 5125,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add010c6c16df"
+    },
+    {
+      "id": 5,
+      "index": 177,
+      "name": "Origin",
+      "class": "moOriginProfileFeature_c",
+      "at": 5125,
+      "end": 6053,
+      "order": 101,
+      "created": {
+        "version": 0,
+        "build": 0
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffffaf2add01ffbe25df"
+    },
+    {
+      "id": 26,
+      "index": 189,
+      "name": "Sketch1",
+      "class": "moProfileFeature_c",
+      "at": 6053,
+      "end": 8914,
+      "order": 103,
+      "created": {
+        "version": 15000,
+        "build": 2022009
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd01e8ec61e3"
+    },
+    {
+      "id": 32,
+      "index": 233,
+      "name": "Boss-Extrude1",
+      "class": "moExtrusion_c",
+      "at": 8914,
+      "end": 11936,
+      "order": 105,
+      "created": {
+        "version": 15000,
+        "build": 2022009
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd0186cbc2e3"
+    },
+    {
+      "id": 33,
+      "index": 286,
+      "name": "Sketch2",
+      "class": "moProfileFeature_c",
+      "at": 11936,
+      "end": 13592,
+      "order": 107,
+      "created": {
+        "version": 15000,
+        "build": 2022009
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd01b552e7e5"
+    },
+    {
+      "id": 46,
+      "index": 305,
+      "name": "Cut-Extrude2",
+      "class": "moICE_c",
+      "at": 13592,
+      "end": 14735,
+      "order": 111,
+      "created": {
+        "version": 15000,
+        "build": 2022009
+      },
+      "modified": {
+        "version": 15000,
+        "x": 0,
+        "build": 2022009
+      },
+      "nodeTail": "00ffff000003ffffffffffffffff000080bf000000000000000000000000000001000000000000000000ffffffff8549dd01dd3456e6"
+    }
+  ],
+  "children": [
+    {
+      "owner": 1,
+      "ownerIndex": 143,
+      "child": 17,
+      "childIndex": 146,
+      "resolved": true
+    },
+    {
+      "owner": 1,
+      "ownerIndex": 143,
+      "child": 18,
+      "childIndex": 148,
+      "resolved": true
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "child": 26,
+      "childIndex": 189,
+      "resolved": true
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "child": 33,
+      "childIndex": 286,
+      "resolved": true
+    }
+  ],
+  "featureReferences": [
+    {
+      "owner": 24,
+      "ownerIndex": 117,
+      "path": "feature.items[0].comp",
+      "class": "moCompFeature_c",
+      "at": 657,
+      "target": 26,
+      "stamp": 1789966727,
+      "targetIndices": [
+        189
+      ]
+    },
+    {
+      "owner": 24,
+      "ownerIndex": 117,
+      "path": "feature.items[1].comp",
+      "class": "moCompFeature_c",
+      "at": 791,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 24,
+      "ownerIndex": 117,
+      "path": "feature.items[2].comp",
+      "class": "moCompFeature_c",
+      "at": 906,
+      "target": 33,
+      "stamp": 1789966730,
+      "targetIndices": [
+        286
+      ]
+    },
+    {
+      "owner": 24,
+      "ownerIndex": 117,
+      "path": "feature.items[3].comp",
+      "class": "moCompFeature_c",
+      "at": 1021,
+      "target": 46,
+      "stamp": 1789966733,
+      "targetIndices": [
+        305
+      ]
+    },
+    {
+      "owner": 5,
+      "ownerIndex": 177,
+      "path": "feature.sketch.plane",
+      "class": "moCompRefPlane_c",
+      "at": 5872,
+      "target": 2,
+      "stamp": 1786576274,
+      "targetIndices": [
+        166
+      ]
+    },
+    {
+      "owner": 26,
+      "ownerIndex": 189,
+      "path": "feature.sketch.plane",
+      "class": "moCompRefPlane_c",
+      "at": 8753,
+      "target": 2,
+      "stamp": 1786576274,
+      "targetIndices": [
+        166
+      ]
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "path": "feature.bodies.faces[0].reps[0].fr",
+      "class": "moFR_c",
+      "at": 9271,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "path": "feature.bodies.faces[0].reps[0].child.fr",
+      "class": "moFR_c",
+      "at": 9461,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "path": "feature.bodies.faces[0].reps[0].child.child.fr",
+      "class": "moFR_c",
+      "at": 9481,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "path": "feature.bodies.faces[0].reps[0].child.child.child.fr",
+      "class": "moFR_c",
+      "at": 9501,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "path": "feature.bodies.faces[0].reps[0].child.child.child.child.fr",
+      "class": "moFR_c",
+      "at": 9521,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "path": "feature.bodies.faces[1].reps[0].fr",
+      "class": "moFR_c",
+      "at": 9603,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "path": "feature.bodies.faces[1].reps[0].child.fr",
+      "class": "moFR_c",
+      "at": 9627,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "path": "feature.bodies.faces[1].reps[0].child.child.fr",
+      "class": "moFR_c",
+      "at": 9647,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "path": "feature.bodies.faces[1].reps[0].child.child.child.fr",
+      "class": "moFR_c",
+      "at": 9667,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 32,
+      "ownerIndex": 233,
+      "path": "feature.bodies.faces[1].reps[0].child.child.child.child.fr",
+      "class": "moFR_c",
+      "at": 9687,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 33,
+      "ownerIndex": 286,
+      "path": "feature.sketch.plane",
+      "class": "moCompRefPlane_c",
+      "at": 13431,
+      "target": 2,
+      "stamp": 1786576274,
+      "targetIndices": [
+        166
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.scope[0].body.face.reps[0].fr",
+      "class": "moFR_c",
+      "at": 13974,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.scope[0].body.face.reps[0].child.fr",
+      "class": "moFR_c",
+      "at": 13994,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.scope[0].body.face.reps[0].child.child.fr",
+      "class": "moFR_c",
+      "at": 14018,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.scope[0].body.face.reps[0].child.child.child.fr",
+      "class": "moFR_c",
+      "at": 14038,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.scope[0].body.face.reps[0].child.child.child.child.fr",
+      "class": "moFR_c",
+      "at": 14062,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.bodies.faces[0].reps[0].fr",
+      "class": "moFR_c",
+      "at": 14207,
+      "target": 46,
+      "stamp": 1789966733,
+      "targetIndices": [
+        305
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.bodies.faces[0].reps[0].child.fr",
+      "class": "moFR_c",
+      "at": 14235,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.bodies.faces[0].reps[1].fr",
+      "class": "moFR_c",
+      "at": 14261,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.bodies.faces[1].reps[0].fr",
+      "class": "moFR_c",
+      "at": 14347,
+      "target": 46,
+      "stamp": 1789966733,
+      "targetIndices": [
+        305
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.bodies.faces[1].reps[0].child.fr",
+      "class": "moFR_c",
+      "at": 14375,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    },
+    {
+      "owner": 46,
+      "ownerIndex": 305,
+      "path": "feature.bodies.faces[1].reps[1].fr",
+      "class": "moFR_c",
+      "at": 14401,
+      "target": 32,
+      "stamp": 1789966729,
+      "targetIndices": [
+        233
+      ]
+    }
+  ],
+  "history": [
+    {
+      "index": 120,
+      "at": 606,
+      "raw": "00000100000000000040ffffffff00000000fffeff00",
+      "feature": 26,
+      "stamp": 1789966727,
+      "targets": [
+        {
+          "id": 26,
+          "name": "Sketch1",
+          "index": 189
+        }
+      ]
+    },
+    {
+      "index": 124,
+      "at": 767,
+      "raw": "00000100000000000040ffffffff00000000fffeff00",
+      "feature": 32,
+      "stamp": 1789966729,
+      "targets": [
+        {
+          "id": 32,
+          "name": "Boss-Extrude1",
+          "index": 233
+        }
+      ]
+    },
+    {
+      "index": 127,
+      "at": 882,
+      "raw": "00000100000000000040ffffffff00000000fffeff00",
+      "feature": 33,
+      "stamp": 1789966730,
+      "targets": [
+        {
+          "id": 33,
+          "name": "Sketch2",
+          "index": 286
+        }
+      ]
+    },
+    {
+      "index": 130,
+      "at": 997,
+      "raw": "00000100000000000040ffffffff00000000fffeff00",
+      "feature": 46,
+      "stamp": 1789966733,
+      "targets": [
+        {
+          "id": 46,
+          "name": "Cut-Extrude2",
+          "index": 305
+        }
+      ]
+    }
+  ]
+}

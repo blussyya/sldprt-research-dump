@@ -1,0 +1,286 @@
+{
+  "controls": {
+    "1:positive": 2690,
+    "0:positive": 10215,
+    "4:positive": 16453,
+    "4:negative": 1,
+    "4:mixed": 1
+  },
+  "edgeFlags": {
+    "0": 120867,
+    "1": 11322,
+    "2": 246
+  },
+  "mixedEdgeExamples": [
+    {
+      "file": "2014/300f9732_Carter2019.SLDPRT",
+      "id": 284,
+      "flags": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "2014/300f9732_Carter2019.SLDPRT",
+      "id": 278,
+      "flags": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "2014/300f9732_Carter2019.SLDPRT",
+      "id": 774,
+      "flags": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "2014/300f9732_Carter2019.SLDPRT",
+      "id": 810,
+      "flags": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "2014/300f9732_Carter2019.SLDPRT",
+      "id": 2476,
+      "flags": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "2014/300f9732_Carter2019.SLDPRT",
+      "id": 2502,
+      "flags": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "2014/300f9732_Carter2019.SLDPRT",
+      "id": 2514,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2014/300f9732_Carter2019.SLDPRT",
+      "id": 2501,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 519,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 1639,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 1485,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 387,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 1134,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 1193,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 2277,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 1205,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 2195,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 1114,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 2216,
+      "flags": [
+        0,
+        1
+      ]
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "id": 2290,
+      "flags": [
+        0,
+        1
+      ]
+    }
+  ],
+  "byFile": [
+    {
+      "file": "2014/300f9732_Carter2019.SLDPRT",
+      "mixedEdgeIds": 8
+    },
+    {
+      "file": "2018/0132519a_102_STEM.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2018/361e7dbb_101_HOUSING.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2018/ca465363_103_COVER.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2020/7841a106_6344428.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "mixedEdgeIds": 12
+    },
+    {
+      "file": "2024/1e794aad_6344387.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2024/225c13ed_camholder0deg.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2024/2300f35c_Thigh Symétrie.SLDPRT",
+      "mixedEdgeIds": 74
+    },
+    {
+      "file": "2024/7fa6934e_Aluminum Box Pt 2.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2024/871e670c_servo_adapter.SLDPRT",
+      "mixedEdgeIds": 8
+    },
+    {
+      "file": "2024/951f2bc1_Boitier.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2025/16f99cd7_装甲板固定（前）.SLDPRT",
+      "mixedEdgeIds": 20
+    },
+    {
+      "file": "2025/3e41786b_LB26001-A-04-002_seed.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT",
+      "mixedEdgeIds": 102
+    },
+    {
+      "file": "2025/822f5572_一级挡块-hhr镂空限位.SLDPRT",
+      "mixedEdgeIds": 2
+    },
+    {
+      "file": "2025/8aaecde6_6008内圈下加工件.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2025/ac760485_存矿小端.SLDPRT",
+      "mixedEdgeIds": 9
+    },
+    {
+      "file": "2025/c613782b_Крепёжная-Планка.SLDPRT",
+      "mixedEdgeIds": 4
+    },
+    {
+      "file": "2025/e8f16581_Engine Base.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+      "mixedEdgeIds": 19
+    },
+    {
+      "file": "2026/2e6e140a_ST3215_C018_04.SLDPRT",
+      "mixedEdgeIds": 442
+    },
+    {
+      "file": "2026/4d85599e_base-M4.SLDPRT",
+      "mixedEdgeIds": 2
+    },
+    {
+      "file": "2026/c5784ab3_A09_power_and_compute_rack.SLDPRT",
+      "mixedEdgeIds": 0
+    },
+    {
+      "file": "2026/daa6e9e9_CR26-201-08.SLDPRT",
+      "mixedEdgeIds": 0
+    }
+  ]
+}

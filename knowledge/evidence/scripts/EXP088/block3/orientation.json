@@ -1,0 +1,55 @@
+{
+  "counts": {
+    "0:reverse": 5101,
+    "0:forward": 4780,
+    "1:reverse": 1126,
+    "1:forward": 1153
+  },
+  "examples": {
+    "0:reverse": {
+      "file": "test files online/2014/300f9732_Carter2019.SLDPRT",
+      "face": 0,
+      "edge": 1172,
+      "byte": 0,
+      "dot": -0.000035999997518956696,
+      "vertices": [
+        0,
+        1
+      ]
+    },
+    "0:forward": {
+      "file": "test files online/2014/300f9732_Carter2019.SLDPRT",
+      "face": 0,
+      "edge": 2477,
+      "byte": 0,
+      "dot": 0.003963345408946912,
+      "vertices": [
+        6,
+        7
+      ]
+    },
+    "1:reverse": {
+      "file": "test files online/2014/300f9732_Carter2019.SLDPRT",
+      "face": 0,
+      "edge": 176,
+      "byte": 1,
+      "dot": -0.0010240001678466788,
+      "vertices": [
+        43,
+        45
+      ]
+    },
+    "1:forward": {
+      "file": "test files online/2014/300f9732_Carter2019.SLDPRT",
+      "face": 0,
+      "edge": 2944,
+      "byte": 1,
+      "dot": 0.0005037495195865636,
+      "vertices": [
+        142,
+        143
+      ]
+    }
+  },
+  "errors": []
+}

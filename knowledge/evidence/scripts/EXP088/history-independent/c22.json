@@ -1,0 +1,179 @@
+[
+  {
+    "file": "test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT",
+    "stream": "Biography",
+    "parsed": {
+      "schema": 1,
+      "count": 2,
+      "bytes": 1771,
+      "records": [
+        {
+          "at": 23,
+          "end": 701,
+          "words": [
+            4700,
+            2010276,
+            1,
+            9,
+            14,
+            2,
+            6,
+            2,
+            9200
+          ],
+          "text": "",
+          "tail": 3072,
+          "snapshots": [
+            {
+              "start": 65,
+              "end": 173,
+              "head": "000000000000000000000000",
+              "pairs": [
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                }
+              ]
+            },
+            {
+              "start": 173,
+              "end": 701,
+              "head": "f8413ec26c49dd0100003f7b",
+              "pairs": [
+                {
+                  "text": "C:\\WINDOWS\\system32\\",
+                  "tail": "03000000001016801e000000"
+                },
+                {
+                  "text": "C:\\WINDOWS\\",
+                  "tail": "03000000001016801e000000"
+                },
+                {
+                  "text": "C:\\Program Files\\SOLIDWORKS Corp\\SolidWorks (2)\\",
+                  "tail": "03000000001016801e000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "03000000001016801e000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "03000000001016801e000000"
+                },
+                {
+                  "text": "C:\\ProgramData\\SolidWorks\\SolidWorks 2011\\templates\\Part.prtdot",
+                  "tail": "03000000001016801e000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 701,
+          "end": 1771,
+          "words": [
+            4700,
+            2010276,
+            1,
+            9,
+            14,
+            2,
+            6,
+            2,
+            9200
+          ],
+          "text": "",
+          "tail": 3072,
+          "snapshots": [
+            {
+              "start": 743,
+              "end": 1325,
+              "head": "f4f56963ad49dd0100e0b3c8",
+              "pairs": [
+                {
+                  "text": "C:\\WINDOWS\\system32\\",
+                  "tail": "0300000000b05a571e000000"
+                },
+                {
+                  "text": "C:\\WINDOWS\\",
+                  "tail": "0300000000b05a571e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2011\\C21_cylinder_fillet\\",
+                  "tail": "030000000000928b28000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000b05a571e000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000b05a571e000000"
+                },
+                {
+                  "text": "C:\\ProgramData\\SolidWorks\\SolidWorks 2011\\templates\\Part.prtdot",
+                  "tail": "0300000000b05a571e000000"
+                }
+              ]
+            },
+            {
+              "start": 1325,
+              "end": 1771,
+              "head": "67b70a66ad49dd01009034c9",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "0300000000705a571e000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000705a571e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2011\\C21_cylinder_fillet\\",
+                  "tail": "0300000000008e8b28000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000705a571e000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000705a571e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2011\\C22_cube_sw2011_native\\model.SLDPRT",
+                  "tail": "0300000000008e8b28000000"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "truncation": {
+      "rejected": 4,
+      "accepted": 0
+    }
+  }
+]

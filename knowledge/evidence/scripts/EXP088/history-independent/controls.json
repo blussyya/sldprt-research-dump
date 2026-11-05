@@ -1,0 +1,27 @@
+[
+  {
+    "name": "class tag",
+    "accepted": false,
+    "error": "class tag"
+  },
+  {
+    "name": "record count too high",
+    "accepted": false,
+    "error": "truncated at 1771 need 4"
+  },
+  {
+    "name": "record count too low",
+    "accepted": false,
+    "error": "unread bytes 1748 at 23"
+  },
+  {
+    "name": "first string length",
+    "accepted": false,
+    "error": "truncated at 1771 need 1"
+  },
+  {
+    "name": "numeric field changed",
+    "accepted": true,
+    "count": 2
+  }
+]

@@ -1,5 +1,32 @@
 # Research Handoff
 
+## Validation checkpoint — 2026-11-05, EXP-087 and EXP-088
+
+This checkpoint is on the `validation` branch for review. It has not been merged into `main`.
+
+EXP-087 establishes that head_back's 2013 display mesh is stale, not broken: model stamp 119,
+display stamp 107, brought to 119 by the 2026 re-save. The stale geometry is localized around the
+three rear openings. A stamp gap is only a warning that a mesh may be old.
+
+EXP-088 changes three format conclusions and adds an inspectable feature export:
+
+- Block3 is structured. The online sample has values 1, 2 and 4. Blind checks support byte 1 as a
+  smooth/tangent face-edge-use marker and byte 2 as an open-boundary marker in the joined subset.
+  Strip-control semantics and tangent 0/0 exceptions still need a controlled SolidWorks pair.
+- `GHOST_REF_BODY_ID_2001` joins to the first u32 in the feature component block at object offset
+  +17. All 54 controlled bodies and all seven helical-gear bodies join under independent checks.
+  Origin points and loft profile sheets are now distinguished.
+- The binary feature exporter retains feature IDs, names, children, contextual references and
+  History-folder order. C07's two sketch-child links and History order survive a blind check.
+  C23 really says 19 top-level slots while 18 objects end at exact EOF; its final object remains
+  partly opaque.
+- Biography has a bounded sequential layout on 216 streams and 3,519 records. It records save
+  environment, paths and times, not feature operations.
+
+Next validation work: produce a controlled SolidWorks pair with only tangent-edge display style
+changed; decode Block3's strip controls; replace the feature reader's 99 dimension-placement scans;
+and find the modern per-feature Created/Modified log.
+
 ## Current checkpoint — 2026-11-01, EXP-086 (online sample, head_back)
 
 New here? Read [START_HERE.md](START_HERE.md) first: repos, workflow, the research rules
