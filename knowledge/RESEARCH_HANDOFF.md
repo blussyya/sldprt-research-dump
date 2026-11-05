@@ -1,5 +1,21 @@
 # Research Handoff
 
+## Validation checkpoint — 2026-11-05, EXP-089
+
+The one-face bodies in the controlled `ResolvedFeatures` streams are selected support-face
+snapshots stored with face-attached sketches. C04 holds the square top face before the circular cut;
+C07's second sketch holds that face after the first hole. Thirteen of the original 36 bodies map
+directly to `sgSketch` with `onPlane=0`; the rest lie after the current reader stops. An independent
+online scan found the same section framing in `moSingleFaceRef_w`, so framing alone cannot identify
+the owner.
+
+Of 863 reachable 28-byte component blocks, 862 have zero in all six words after the ghost-body ID.
+The helical gear has the one exception: a `moCompFace_c` in Plane1 has word 4 set to one. There is
+not enough variation to name it. The dimension-placement survey now covers 100 records and 13 size
+families, but those records still need a bounded decoder.
+
+Evidence: [2026-11-05_v0.5-EXP089.md](evidence/2026-11-05_v0.5-EXP089.md).
+
 ## Validation checkpoint — 2026-11-05, EXP-087 and EXP-088
 
 This checkpoint is on the `validation` branch for review. It has not been merged into `main`.

@@ -1505,3 +1505,20 @@ release/build, environment, paths and time snapshots. It is not the feature oper
 **Evidence**: [2026-11-05_v0.5-EXP088.md](evidence/2026-11-05_v0.5-EXP088.md),
 `evidence/scripts/EXP088/`.
 
+## EXP-089 — Face-attached sketch bodies and component tails
+
+**Question**: What are the one-face bodies in ResolvedFeatures, and what occupies the six words
+after a component reference's ghost-body ID?
+
+**Result**: The controlled one-face bodies are snapshots of the face selected to support an
+`sgSketch` with `onPlane=0`. C04 stores the whole square top face before its circular cut; C07's
+second snapshot includes the first hole. Thirteen of the original 36 sections map directly to their
+sketch; a blind online scan found that the common section prefix is generic and also occurs in
+`moSingleFaceRef_w`, so it cannot identify the owner alone. In 863 reachable component blocks, the
+six words after the ghost ID are zero in 862. The sole exception is an unnamed flag at byte 16 of a
+helical-gear `moCompFace_c`. A separate survey maps 100 opaque dimension-placement ranges into 13
+length families but does not yet decode them.
+
+**Evidence**: [2026-11-05_v0.5-EXP089.md](evidence/2026-11-05_v0.5-EXP089.md),
+`evidence/scripts/EXP089/`.
+

@@ -1124,13 +1124,14 @@ across both eras. Resolving it would settle NQ-043's direction.
 ## NQ-048 — What are the 1-face ResolvedFeatures bodies, and the remaining section framing bytes?
 
 EXP-074 decoded the partition section frame (`u32le size | GUID | u32le inflated | u32le compressed | zlib | 8 bytes`)
-and found it outside the Partition streams. Open:
+and found it outside the Partition streams.
 
-1. **`Config-N-ResolvedFeatures`** holds 36 valid sections in 14 files, every one a **1-face PLANE body**
-   (`body_type` value 3, 20–169 nodes). In the controlled cubes the count follows cuts/split lines (C04/C05/C06/C11: 1;
-   C07/C08: 2; C18: 1). USB BOTTOM's three sections have the node counts of USB TOP's first three. Which feature
-   produced each, how that is recorded in the surrounding stream bytes, and what the planar face bounds (a sketch
-   region?) are untested. Test: compare the face's loop against each file's sketch geometry and feature tree.
+1. **Answered for decoded owners (EXP-089).** The controlled sections sit inside face-attached
+   `sgSketch` objects (`onPlane=0`) and store a snapshot of the selected support face at that point in
+   feature history. C04 stores the untouched square top face, not its circular sketch region; C07's
+   second sketch stores the same face after the first hole. Thirteen of the original 36 sections map
+   directly; the other 23 lie after a feature-reader stop. The common section prefix is not an owner
+   tag: an online counterexample places the same one-face record family in `moSingleFaceRef_w`.
 2. **LocalBodies 64-byte prefix** (PTC only): `01000000`, `fffeff13` + UTF-16LE `PTC GE8080-8.stp<1>`, then fields
    including `0xf535`/`0xf530`. n = 1; an imported-body model with a second import would discriminate.
 3. **The 8 trailing section bytes** are zero in 242/242 sections. Zero on every input tells us nothing about their
@@ -1180,15 +1181,19 @@ no tolerant edge on a cone or sphere. A controlled model per case would settle e
 
 ## NQ-050 — Which feature owns each ghost-partition body, and what is the default origin vertex?
 
+**Status**: Answered for the controlled corpus and helical gear (EXP-088).
+
 EXP-078: `Config-0-GhostPartition` holds wire and sheet bodies (`body_type` 2 and 3) that coincide
 with feature inputs: C16's two loft profiles and their planes, Helical Bevel Gear's section planes
 and circular wires, Pocket Wheel's conical sheet and wires. 61 files hold only one wire body made of
 a single vertex at the origin (INT attribute 10001; six of them, 10001–10006, in distributor).
 
-Open: which feature each body belongs to (the attribute `GHOST_REF_BODY_ID_2001` is the likely
-key, to be matched against the feature tree), why one Gear plane and Pocket Wheel's cone match no
-part surface, and what the origin vertex stands for. Settling it needs the feature tree decoded far
-enough to read feature body references.
+`GHOST_REF_BODY_ID_2001` equals the first u32 of the feature component block. All 54 controlled
+bodies and all seven helical-gear bodies join uniquely. Edge-free points name the Origin feature;
+the other controlled bodies name loft profile sketches. This proves reference ownership, not which
+operation created the body. Why one gear plane and Pocket Wheel's cone match no part surface remains
+open, as do the other six component words; EXP-089 finds those words zero in 862 of 863 reachable
+blocks and one unexplained flag in a gear face reference.
 
 **Date raised**: 2026-10-04 (EXP-078).
 
