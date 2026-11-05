@@ -1594,3 +1594,21 @@ source of the one envelope larger than the display and stored-body samples.
 **Evidence**: [2026-11-05_v0.5-EXP093.md](evidence/2026-11-05_v0.5-EXP093.md),
 `evidence/scripts/EXP093/`.
 
+## EXP-094 — Active geometry without ModelHeader
+
+**Question**: Can the saved display select the active conversion geometry in the twelve older
+modern files that have no `Config-N-ModelHeader`?
+
+**Result**: Six files have only one partition. In all six multi-configuration files, saved display
+face count plus the union of analytic face bounds selects one geometry. `cut-z18` selects Config-268
+instead of the lowest Config-0, and `cut-z071` selects Config-21 instead of Config-1. Four files have
+several IDs with the same box; within each file every tied partition produces byte-identical
+normalized exact STEP. The lowest-number fallback therefore chooses the wrong shape in two files.
+
+**Known gaps**: Tied configuration names remain ambiguous. The selection uses dense decoded-edge
+sampling rather than an analytic bounding implementation and is documented here rather than added
+to converter code on this branch.
+
+**Evidence**: [2026-11-05_v0.5-EXP094.md](evidence/2026-11-05_v0.5-EXP094.md),
+`evidence/scripts/EXP094/`.
+

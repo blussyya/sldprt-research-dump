@@ -28,8 +28,9 @@ meaning of those display-only values.
 
 **Status/date:** Partly answered, 2026-11-05. CRC validation is implemented (EXP-057 and the
 2026-09-26 parser follow-up), node IDs are scoped per body (EXP-085), and ModelHeader selects the
-active configuration where present (EXP-084). Active-configuration selection without ModelHeader
-and a deliberate duplicate-stream policy remain open.
+active configuration where present (EXP-084). EXP-094 selects one conversion geometry in every
+file without ModelHeader from display face count and analytic bounds. A deliberate duplicate-stream
+policy remains open.
 
 ## Audited current queue — 2026-11-05
 
@@ -40,7 +41,7 @@ research history; its old `Active` and `Ready` labels are not the current priori
 |---|---|
 | NQ-031 remainder | Decode Block3 strip controls and the tangent 0/0 exceptions. |
 | NQ-032 | Decode display edge-type numbers and the record after the edge table. |
-| NQ-033 / NQ-053 | Select the active configuration when ModelHeader is absent; define duplicate-stream handling. |
+| NQ-033 remainder | Implement EXP-094's saved-bounds geometry selection; define duplicate-stream handling. |
 | NQ-016 / NQ-051 | Separate the remaining off-surface display vertices from tessellation and mesh-quality effects. |
 | NQ-044 remainder | Name the directional variant's scalar and the other tail states; the fixed head and unit-vector case are decoded. |
 | NQ-046 remainder | Explain the one broader envelope and the eight readable post-13000 omissions. EXP-093 explains the older absence with a version-13000 introduction boundary. |
@@ -1337,6 +1338,13 @@ EXP-084: from about SW2020 on, Header2 copies the active configuration's ModelHe
 earlier modern files have no ModelHeader streams, and their Header2 matches no `Contents/Config-N`.
 The reader falls back to the lowest N. Candidates to check: CMgr / CMgrHdr2, `Config-N-Preview`
 (only some configurations have one), the order of `docProps/Config-N-Properties.xml`.
+
+**Status: answered for conversion geometry (EXP-094), 2026-11-05.** Six of the twelve files have
+only one partition. In all six multi-configuration files, display face count plus the union of
+saved analytic face bounds selects one native geometry. `cut-z18` selects Config-268 instead of the
+lowest Config-0; `cut-z071` selects Config-21 instead of Config-1. The other four files have tied
+IDs, but every tie produces byte-identical normalized STEP, so the active name remains ambiguous
+while the conversion shape does not. The smallest rejected-box gap is 0.1 mm.
 
 **Date raised**: 2026-10-27 (EXP-084).
 

@@ -1,0 +1,1059 @@
+{
+  "summary": {
+    "filesWithoutModelHeader": 12,
+    "singleConfigurationFiles": 6,
+    "multiConfigurationFiles": 6,
+    "multiWithMatchingGeometry": 6,
+    "multiWithOneMatchingGeometryHash": 6,
+    "smallestNonmatchingBoxGap": 0.00010000000000001674,
+    "lowestFallbackMisses": [
+      "test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT",
+      "test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT"
+    ],
+    "matches": [
+      {
+        "file": "test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT",
+        "ids": [
+          268
+        ],
+        "geometryHashes": 1
+      },
+      {
+        "file": "test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT",
+        "ids": [
+          21
+        ],
+        "geometryHashes": 1
+      },
+      {
+        "file": "test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT",
+        "ids": [
+          0,
+          1,
+          4
+        ],
+        "geometryHashes": 1
+      },
+      {
+        "file": "test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT",
+        "ids": [
+          0,
+          1,
+          4
+        ],
+        "geometryHashes": 1
+      },
+      {
+        "file": "test files online/2017/516a7dc5_Body1.sldprt",
+        "ids": [
+          0,
+          1
+        ],
+        "geometryHashes": 1
+      },
+      {
+        "file": "test files online/2017/afc71d14_Body2.sldprt",
+        "ids": [
+          0,
+          1
+        ],
+        "geometryHashes": 1
+      }
+    ]
+  },
+  "rows": [
+    {
+      "file": "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+      "configurations": 1,
+      "onlyConfigId": 0
+    },
+    {
+      "file": "test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT",
+      "configurations": 1,
+      "onlyConfigId": 0
+    },
+    {
+      "file": "test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT",
+      "displayFaces": 22,
+      "displayBox": {
+        "min": [
+          -0.05099999999999999,
+          -0.05599292610469373,
+          -0.0255
+        ],
+        "max": [
+          0.08400000000000002,
+          0,
+          0.0255
+        ]
+      },
+      "configurations": 25,
+      "matchingConfigIds": [
+        268
+      ],
+      "matchingGeometryHashes": [
+        "905f7387c180644a058b7c25d84bee30cd865ae4cc37ed0bcb1a5cadd96b2bfd"
+      ],
+      "lowestConfigId": 0,
+      "lowestMatches": false,
+      "nearestNonmatchingBoxError": 0.004999999999999984,
+      "configs": [
+        {
+          "id": 0,
+          "name": "Contents/Config-0-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.029999999999999992,
+              -0.03356180729995789,
+              -0.01075
+            ],
+            "max": [
+              0.028000000000000004,
+              0,
+              0.01075
+            ]
+          },
+          "samples": 11336,
+          "boxError": 0.056000000000000015,
+          "geometryHash": "3e37dc36e84e7d573f384bc625123b6ac989e4ee29cb6862c5fd0cfc960a7b1c"
+        },
+        {
+          "id": 1,
+          "name": "Contents/Config-1-Partition",
+          "faces": 30,
+          "parseError": null
+        },
+        {
+          "id": 2,
+          "name": "Contents/Config-2-Partition",
+          "faces": 30,
+          "parseError": null
+        },
+        {
+          "id": 4,
+          "name": "Contents/Config-4-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.03600000000000001,
+              -0.04140215154756892,
+              -0.01675
+            ],
+            "max": [
+              0.03899999999999999,
+              0,
+              0.01675
+            ]
+          },
+          "samples": 11336,
+          "boxError": 0.045000000000000026,
+          "geometryHash": "efe8d3e9cafdc6509c5a7fc95999ef849be9cf6b2d5b5313dbf4d8043459246f"
+        },
+        {
+          "id": 30,
+          "name": "Contents/Config-30-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.03,
+              -0.03356180729995789,
+              -0.01075
+            ],
+            "max": [
+              0.028000000000000004,
+              0,
+              0.01075
+            ]
+          },
+          "samples": 11336,
+          "boxError": 0.056000000000000015,
+          "geometryHash": "87f8934ed7e072062e9f5b4b1af7f797c6cc68ae4466f34b370a14dc2336e9d1"
+        },
+        {
+          "id": 59,
+          "name": "Contents/Config-59-Partition",
+          "faces": 20,
+          "parseError": null
+        },
+        {
+          "id": 173,
+          "name": "Contents/Config-173-Partition",
+          "faces": 20,
+          "parseError": null
+        },
+        {
+          "id": 174,
+          "name": "Contents/Config-174-Partition",
+          "faces": 20,
+          "parseError": null
+        },
+        {
+          "id": 175,
+          "name": "Contents/Config-175-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.03600000000000001,
+              -0.04140215154756892,
+              -0.01675
+            ],
+            "max": [
+              0.039,
+              0,
+              0.01675
+            ]
+          },
+          "samples": 11336,
+          "boxError": 0.04500000000000002,
+          "geometryHash": "6db933801ef75e9db29e7a4cfccd4fcd848b48227c677b6da39a2b936d0f8299"
+        },
+        {
+          "id": 176,
+          "name": "Contents/Config-176-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.036000000000000004,
+              -0.0399,
+              -0.01675
+            ],
+            "max": [
+              0.059,
+              0,
+              0.01675
+            ]
+          },
+          "samples": 11332,
+          "boxError": 0.025000000000000022,
+          "geometryHash": "3b551430e898227b57c8aa87ed9a3e4b681eca95f97d13fce4a1d80cc5d4e1a2"
+        },
+        {
+          "id": 177,
+          "name": "Contents/Config-177-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.036000000000000004,
+              -0.0399,
+              -0.01675
+            ],
+            "max": [
+              0.081,
+              0,
+              0.01675
+            ]
+          },
+          "samples": 11332,
+          "boxError": 0.016092926104693733,
+          "geometryHash": "e485469e7585599669c6ed9f01ae26e78f252e566424c60ce14d79e81ca01e9e"
+        },
+        {
+          "id": 180,
+          "name": "Contents/Config-180-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.046000000000000006,
+              -0.05599292610469373,
+              -0.02575
+            ],
+            "max": [
+              0.049,
+              0,
+              0.02575
+            ]
+          },
+          "samples": 11336,
+          "boxError": 0.03500000000000002,
+          "geometryHash": "1505889bc8a5dbb9e3b658bdeb5535ea1e9f4d88df373e80d603d15307a306f6"
+        },
+        {
+          "id": 181,
+          "name": "Contents/Config-181-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.046000000000000006,
+              -0.05395,
+              -0.02575
+            ],
+            "max": [
+              0.084,
+              0,
+              0.02575
+            ]
+          },
+          "samples": 11332,
+          "boxError": 0.004999999999999984,
+          "geometryHash": "def219cd9242ba54a501971574a3d0b87654c1babd38eb2f22bc7fb937ff491d"
+        },
+        {
+          "id": 185,
+          "name": "Contents/Config-185-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.05600000000000001,
+              -0.057800000000000004,
+              -0.03225
+            ],
+            "max": [
+              0.061000000000000006,
+              0,
+              0.03225
+            ]
+          },
+          "samples": 11332,
+          "boxError": 0.023000000000000013,
+          "geometryHash": "8d68cdfe1fe21704b775d0283ef4a378f951f4bf5c78a54dab3d117f0526df10"
+        },
+        {
+          "id": 187,
+          "name": "Contents/Config-187-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.056,
+              -0.057800000000000004,
+              -0.03225
+            ],
+            "max": [
+              0.124,
+              0,
+              0.03225
+            ]
+          },
+          "samples": 11332,
+          "boxError": 0.03999999999999998,
+          "geometryHash": "3643811d0b92148bd22a62b14ae8740fc98f68f16602212f014ebaa1a76a1b49"
+        },
+        {
+          "id": 201,
+          "name": "Contents/Config-201-Partition",
+          "faces": 18,
+          "parseError": null
+        },
+        {
+          "id": 202,
+          "name": "Contents/Config-202-Partition",
+          "faces": 18,
+          "parseError": null
+        },
+        {
+          "id": 203,
+          "name": "Contents/Config-203-Partition",
+          "faces": 18,
+          "parseError": null
+        },
+        {
+          "id": 207,
+          "name": "Contents/Config-207-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.04100000000000001,
+              -0.0399,
+              -0.01675
+            ],
+            "max": [
+              0.094,
+              0,
+              0.01675
+            ]
+          },
+          "samples": 11332,
+          "boxError": 0.016092926104693733,
+          "geometryHash": "9bf5640aa32e3820cbec7058825901ac62092dc28d1a9932a1e54bd285107ad9"
+        },
+        {
+          "id": 209,
+          "name": "Contents/Config-209-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.051,
+              -0.05395,
+              -0.025750000000000006
+            ],
+            "max": [
+              0.049,
+              0,
+              0.02575
+            ]
+          },
+          "samples": 11332,
+          "boxError": 0.03500000000000002,
+          "geometryHash": "451378068a369f5bbdfbc047756676089a832d7ead067b28664aa6ca76bd274d"
+        },
+        {
+          "id": 211,
+          "name": "Contents/Config-211-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.051,
+              -0.05395,
+              -0.02575
+            ],
+            "max": [
+              0.10900000000000001,
+              0,
+              0.02575
+            ]
+          },
+          "samples": 11332,
+          "boxError": 0.024999999999999994,
+          "geometryHash": "e594fad228a379365a17ac359be9f62043d0911801da88b815a852a8620b3724"
+        },
+        {
+          "id": 218,
+          "name": "Contents/Config-218-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.064,
+              -0.057800000000000004,
+              -0.03225
+            ],
+            "max": [
+              0.199,
+              0,
+              0.03225
+            ]
+          },
+          "samples": 11332,
+          "boxError": 0.11499999999999999,
+          "geometryHash": "4b8f4824deb0846dec3d20f05d87537923078ae1213b0d537269a6473ff3b269"
+        },
+        {
+          "id": 222,
+          "name": "Contents/Config-222-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.06400000000000004,
+              -0.06535365763086719,
+              -0.04075
+            ],
+            "max": [
+              0.149,
+              0,
+              0.04075
+            ]
+          },
+          "samples": 11336,
+          "boxError": 0.06499999999999997,
+          "geometryHash": "d0b51e40b6bb8836ae894f99f6221b99d8dc94086800729bac1ad1e3ad032a21"
+        },
+        {
+          "id": 230,
+          "name": "Contents/Config-230-Partition",
+          "faces": 20,
+          "parseError": null
+        },
+        {
+          "id": 268,
+          "name": "Contents/Config-268-Partition",
+          "faces": 22,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.05099999999999999,
+              -0.05599292610469373,
+              -0.0255
+            ],
+            "max": [
+              0.08400000000000002,
+              0,
+              0.0255
+            ]
+          },
+          "samples": 11336,
+          "boxError": 0,
+          "geometryHash": "905f7387c180644a058b7c25d84bee30cd865ae4cc37ed0bcb1a5cadd96b2bfd"
+        }
+      ]
+    },
+    {
+      "file": "test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT",
+      "displayFaces": 18,
+      "displayBox": {
+        "min": [
+          -0.028,
+          0,
+          -0.023501
+        ],
+        "max": [
+          0.0408021515475689,
+          0.027,
+          0.023501000000000008
+        ]
+      },
+      "configurations": 2,
+      "matchingConfigIds": [
+        21
+      ],
+      "matchingGeometryHashes": [
+        "7cab4163d83de337053bbb2ca303a95c89d8f5759e54403aa7838ddc629cb38d"
+      ],
+      "lowestConfigId": 1,
+      "lowestMatches": false,
+      "nearestNonmatchingBoxError": 0.00010000000000001674,
+      "configs": [
+        {
+          "id": 1,
+          "name": "Contents/Config-1-Partition",
+          "faces": 18,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.028,
+              0,
+              -0.02350225
+            ],
+            "max": [
+              0.04090215154756892,
+              0.02705,
+              0.02350225
+            ]
+          },
+          "samples": 10306,
+          "boxError": 0.00010000000000001674,
+          "geometryHash": "c1b7405a1d5372401800fd0b10b107982b257a00bf84d3b5a79ca2a1f6d5d61c"
+        },
+        {
+          "id": 21,
+          "name": "Contents/Config-21-Partition",
+          "faces": 18,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.028,
+              0,
+              -0.023501
+            ],
+            "max": [
+              0.0408021515475689,
+              0.027,
+              0.023501000000000008
+            ]
+          },
+          "samples": 10306,
+          "boxError": 0,
+          "geometryHash": "7cab4163d83de337053bbb2ca303a95c89d8f5759e54403aa7838ddc629cb38d"
+        }
+      ]
+    },
+    {
+      "file": "test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT",
+      "displayFaces": 3,
+      "displayBox": {
+        "min": [
+          -0.012,
+          -0.0045,
+          -0.0045
+        ],
+        "max": [
+          0,
+          0.0045,
+          0.0045
+        ]
+      },
+      "configurations": 6,
+      "matchingConfigIds": [
+        0,
+        1,
+        4
+      ],
+      "matchingGeometryHashes": [
+        "cc468f0f9f3328ce6670000e3e6033e1f338363def8826903eaa91dd7d3e3caf"
+      ],
+      "lowestConfigId": 0,
+      "lowestMatches": true,
+      "nearestNonmatchingBoxError": 0.0007500000000000007,
+      "configs": [
+        {
+          "id": 0,
+          "name": "Contents/Config-0-Partition",
+          "faces": 3,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.012,
+              -0.0045,
+              -0.0045
+            ],
+            "max": [
+              0,
+              0.0045,
+              0.0045
+            ]
+          },
+          "samples": 514,
+          "boxError": 0,
+          "geometryHash": "cc468f0f9f3328ce6670000e3e6033e1f338363def8826903eaa91dd7d3e3caf"
+        },
+        {
+          "id": 1,
+          "name": "Contents/Config-1-Partition",
+          "faces": 3,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.012,
+              -0.0045,
+              -0.0045
+            ],
+            "max": [
+              0,
+              0.0045,
+              0.0045
+            ]
+          },
+          "samples": 514,
+          "boxError": 0,
+          "geometryHash": "cc468f0f9f3328ce6670000e3e6033e1f338363def8826903eaa91dd7d3e3caf"
+        },
+        {
+          "id": 2,
+          "name": "Contents/Config-2-Partition",
+          "faces": 3,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.012,
+              -0.00525,
+              -0.00525
+            ],
+            "max": [
+              0,
+              0.00525,
+              0.00525
+            ]
+          },
+          "samples": 514,
+          "boxError": 0.0007500000000000007,
+          "geometryHash": "e3e8bed08054f0e523bd7b52b97c7548687917bb207db81153c109a9497e47fc"
+        },
+        {
+          "id": 3,
+          "name": "Contents/Config-3-Partition",
+          "faces": 3,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.025,
+              -0.00725,
+              -0.00725
+            ],
+            "max": [
+              0,
+              0.00725,
+              0.00725
+            ]
+          },
+          "samples": 514,
+          "boxError": 0.013000000000000001,
+          "geometryHash": "4e1f1974a00e7020e51ee7549e3f3a69a7bb5be79ef8f9fd7113149f514bee74"
+        },
+        {
+          "id": 4,
+          "name": "Contents/Config-4-Partition",
+          "faces": 3,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.012,
+              -0.0045,
+              -0.0045
+            ],
+            "max": [
+              0,
+              0.0045,
+              0.0045
+            ]
+          },
+          "samples": 514,
+          "boxError": 0,
+          "geometryHash": "cc468f0f9f3328ce6670000e3e6033e1f338363def8826903eaa91dd7d3e3caf"
+        },
+        {
+          "id": 6,
+          "name": "Contents/Config-6-Partition",
+          "faces": 3,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.025,
+              -0.00725,
+              -0.00725
+            ],
+            "max": [
+              0,
+              0.00725,
+              0.00725
+            ]
+          },
+          "samples": 514,
+          "boxError": 0.013000000000000001,
+          "geometryHash": "4e1f1974a00e7020e51ee7549e3f3a69a7bb5be79ef8f9fd7113149f514bee74"
+        }
+      ]
+    },
+    {
+      "file": "test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT",
+      "displayFaces": 18,
+      "displayBox": {
+        "min": [
+          -0.03654142002139547,
+          -0.015002250000000005,
+          1.734723475976807e-18
+        ],
+        "max": [
+          0.03654142002139547,
+          0.015002249999999996,
+          0.028050000000000005
+        ]
+      },
+      "configurations": 7,
+      "matchingConfigIds": [
+        0,
+        1,
+        4
+      ],
+      "matchingGeometryHashes": [
+        "b7c87865af8fc9d38ae0da9faf66930efc915ae13357d0c4b6b1ed696e8d9355"
+      ],
+      "lowestConfigId": 0,
+      "lowestMatches": true,
+      "nearestNonmatchingBoxError": 0.010000000000000009,
+      "configs": [
+        {
+          "id": 0,
+          "name": "Contents/Config-0-Partition",
+          "faces": 18,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.03654142002139547,
+              -0.015002250000000005,
+              1.734723475976807e-18
+            ],
+            "max": [
+              0.03654142002139547,
+              0.015002249999999996,
+              0.028050000000000005
+            ]
+          },
+          "samples": 8244,
+          "boxError": 0,
+          "geometryHash": "b7c87865af8fc9d38ae0da9faf66930efc915ae13357d0c4b6b1ed696e8d9355"
+        },
+        {
+          "id": 1,
+          "name": "Contents/Config-1-Partition",
+          "faces": 18,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.03654142002139547,
+              -0.015002250000000005,
+              1.734723475976807e-18
+            ],
+            "max": [
+              0.03654142002139547,
+              0.015002249999999996,
+              0.028050000000000005
+            ]
+          },
+          "samples": 8244,
+          "boxError": 0,
+          "geometryHash": "b7c87865af8fc9d38ae0da9faf66930efc915ae13357d0c4b6b1ed696e8d9355"
+        },
+        {
+          "id": 2,
+          "name": "Contents/Config-2-Partition",
+          "faces": 18,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.046452151547568904,
+              -0.025002250000000014,
+              1.8372457442508377e-18
+            ],
+            "max": [
+              0.046452151547568904,
+              0.025002250000000004,
+              0.03305
+            ]
+          },
+          "samples": 8244,
+          "boxError": 0.010000000000000009,
+          "geometryHash": "efbe747cdecf12d1f21ae8a379add80cd4d02a75c0ba04936536be1975aa6b7f"
+        },
+        {
+          "id": 3,
+          "name": "Contents/Config-3-Partition",
+          "faces": 18,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.0660429261046937,
+              -0.03750225000000001,
+              1.8372457442508377e-18
+            ],
+            "max": [
+              0.0660429261046937,
+              0.03750225,
+              0.03805
+            ]
+          },
+          "samples": 8244,
+          "boxError": 0.029501506083298233,
+          "geometryHash": "46811bbcc1002c8ec64d1dfca6be12651d1f3c47254992561c4cfc3e62948975"
+        },
+        {
+          "id": 4,
+          "name": "Contents/Config-4-Partition",
+          "faces": 18,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.03654142002139547,
+              -0.015002250000000005,
+              1.734723475976807e-18
+            ],
+            "max": [
+              0.03654142002139547,
+              0.015002249999999996,
+              0.028050000000000005
+            ]
+          },
+          "samples": 8244,
+          "boxError": 0,
+          "geometryHash": "b7c87865af8fc9d38ae0da9faf66930efc915ae13357d0c4b6b1ed696e8d9355"
+        },
+        {
+          "id": 5,
+          "name": "Contents/Config-5-Partition",
+          "faces": 18,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.046452151547568904,
+              -0.025002250000000014,
+              1.8372457442508377e-18
+            ],
+            "max": [
+              0.046452151547568904,
+              0.025002250000000004,
+              0.03305
+            ]
+          },
+          "samples": 8244,
+          "boxError": 0.010000000000000009,
+          "geometryHash": "efbe747cdecf12d1f21ae8a379add80cd4d02a75c0ba04936536be1975aa6b7f"
+        },
+        {
+          "id": 6,
+          "name": "Contents/Config-6-Partition",
+          "faces": 18,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.0660429261046937,
+              -0.03750225000000001,
+              1.8372457442508377e-18
+            ],
+            "max": [
+              0.0660429261046937,
+              0.03750225,
+              0.03805
+            ]
+          },
+          "samples": 8244,
+          "boxError": 0.029501506083298233,
+          "geometryHash": "46811bbcc1002c8ec64d1dfca6be12651d1f3c47254992561c4cfc3e62948975"
+        }
+      ]
+    },
+    {
+      "file": "test files online/2017/3b48d9c5_Body10.sldprt",
+      "configurations": 1,
+      "onlyConfigId": 0
+    },
+    {
+      "file": "test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT",
+      "configurations": 1,
+      "onlyConfigId": 0
+    },
+    {
+      "file": "test files online/2017/516a7dc5_Body1.sldprt",
+      "displayFaces": 8,
+      "displayBox": {
+        "min": [
+          -0.013716000000000008,
+          0.0020319999999999965,
+          -0.012827000000000003
+        ],
+        "max": [
+          0.013715999999999997,
+          0.008889999999999999,
+          0.012827000000000003
+        ]
+      },
+      "configurations": 2,
+      "matchingConfigIds": [
+        0,
+        1
+      ],
+      "matchingGeometryHashes": [
+        "f51dadb66eba953f2987611dd1911839afd86d3fa3e856ca87c9a2ddf1e663e6"
+      ],
+      "lowestConfigId": 0,
+      "lowestMatches": true,
+      "nearestNonmatchingBoxError": null,
+      "configs": [
+        {
+          "id": 0,
+          "name": "Contents/Config-0-Partition",
+          "faces": 8,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.013716000000000008,
+              0.0020319999999999965,
+              -0.012827000000000003
+            ],
+            "max": [
+              0.013715999999999997,
+              0.008889999999999999,
+              0.012827000000000003
+            ]
+          },
+          "samples": 4638,
+          "boxError": 0,
+          "geometryHash": "f51dadb66eba953f2987611dd1911839afd86d3fa3e856ca87c9a2ddf1e663e6"
+        },
+        {
+          "id": 1,
+          "name": "Contents/Config-1-Partition",
+          "faces": 8,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.013716000000000008,
+              0.0020319999999999965,
+              -0.012827000000000003
+            ],
+            "max": [
+              0.013715999999999997,
+              0.008889999999999999,
+              0.012827000000000003
+            ]
+          },
+          "samples": 4638,
+          "boxError": 0,
+          "geometryHash": "f51dadb66eba953f2987611dd1911839afd86d3fa3e856ca87c9a2ddf1e663e6"
+        }
+      ]
+    },
+    {
+      "file": "test files online/2017/afc71d14_Body2.sldprt",
+      "displayFaces": 24,
+      "displayBox": {
+        "min": [
+          -0.013716000000000008,
+          0,
+          -0.017907000000000003
+        ],
+        "max": [
+          0.013715999999999997,
+          0.002032,
+          0.017907
+        ]
+      },
+      "configurations": 2,
+      "matchingConfigIds": [
+        0,
+        1
+      ],
+      "matchingGeometryHashes": [
+        "b64b18ecd66c9beaa1e970e8508efbac3faf12f71dae9a0b6a962f58556a8b98"
+      ],
+      "lowestConfigId": 0,
+      "lowestMatches": true,
+      "nearestNonmatchingBoxError": null,
+      "configs": [
+        {
+          "id": 0,
+          "name": "Contents/Config-0-Partition",
+          "faces": 24,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.013716000000000008,
+              0,
+              -0.017907000000000003
+            ],
+            "max": [
+              0.013715999999999997,
+              0.002032,
+              0.017907
+            ]
+          },
+          "samples": 15970,
+          "boxError": 0,
+          "geometryHash": "b64b18ecd66c9beaa1e970e8508efbac3faf12f71dae9a0b6a962f58556a8b98"
+        },
+        {
+          "id": 1,
+          "name": "Contents/Config-1-Partition",
+          "faces": 24,
+          "parseError": null,
+          "sampledBox": {
+            "min": [
+              -0.013716000000000008,
+              0,
+              -0.017907000000000003
+            ],
+            "max": [
+              0.013715999999999997,
+              0.002032,
+              0.017907
+            ]
+          },
+          "samples": 15970,
+          "boxError": 0,
+          "geometryHash": "b64b18ecd66c9beaa1e970e8508efbac3faf12f71dae9a0b6a962f58556a8b98"
+        }
+      ]
+    },
+    {
+      "file": "test files online/2017/d49566bc_AntennaMount.SLDPRT",
+      "configurations": 1,
+      "onlyConfigId": 0
+    },
+    {
+      "file": "test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT",
+      "configurations": 1,
+      "onlyConfigId": 5907
+    }
+  ]
+}

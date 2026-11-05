@@ -1,5 +1,19 @@
 # Research Handoff
 
+## Validation checkpoint — 2026-11-05, EXP-094
+
+Files without `Config-N-ModelHeader` no longer need a lowest-number geometry guess. Six of the
+twelve have one partition. In all six multi-configuration files, the saved display face count and
+analytic face-bound union select one native geometry. `cut-z18` needs Config-268 rather than 0;
+`cut-z071` needs Config-21 rather than 1. The current fallback is geometrically wrong for both.
+
+Four files retain several matching configuration IDs, but each tied partition writes identical
+normalized exact STEP. Their active names remain unknown while their conversion geometry is
+settled. The evidence script samples decoded native edges to construct candidate boxes; converter
+implementation remains outside this branch.
+
+Evidence: [2026-11-05_v0.5-EXP094.md](evidence/2026-11-05_v0.5-EXP094.md).
+
 ## Validation checkpoint — 2026-11-05, EXP-093
 
 The named configuration envelope has an observed DisplayLists version boundary. It is absent from
