@@ -1,0 +1,4015 @@
+{
+  "summary": {
+    "files": 222,
+    "read": 202,
+    "modernFiles": 166,
+    "modernWithConfigurationRecords": 113,
+    "modernConfigurationRecords": 113,
+    "modernConfigurationMatchingDisplayUnion": 112,
+    "legacyFiles": 36,
+    "legacyWithConfigurationRecords": 0,
+    "legacyConfigurationRecords": 0,
+    "errors": 20
+  },
+  "rows": [
+    {
+      "file": "test files new/SW2011/C00_cube_10mm/model.SLDPRT",
+      "legacy": true,
+      "faces": 6,
+      "arithmeticRecords": 6,
+      "faceRecords": 6,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C01_cube_20mm/model.SLDPRT",
+      "legacy": true,
+      "faces": 6,
+      "arithmeticRecords": 6,
+      "faceRecords": 6,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C02_cube_translated/model.SLDPRT",
+      "legacy": true,
+      "faces": 6,
+      "arithmeticRecords": 6,
+      "faceRecords": 6,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT",
+      "legacy": true,
+      "faces": 7,
+      "arithmeticRecords": 7,
+      "faceRecords": 7,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT",
+      "legacy": true,
+      "faces": 7,
+      "arithmeticRecords": 7,
+      "faceRecords": 7,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT",
+      "legacy": true,
+      "faces": 7,
+      "arithmeticRecords": 7,
+      "faceRecords": 7,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C06_cube_hole_moved/model.SLDPRT",
+      "legacy": true,
+      "faces": 7,
+      "arithmeticRecords": 7,
+      "faceRecords": 7,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C07_cube_two_holes/model.SLDPRT",
+      "legacy": true,
+      "faces": 8,
+      "arithmeticRecords": 8,
+      "faceRecords": 8,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT",
+      "legacy": true,
+      "faces": 8,
+      "arithmeticRecords": 8,
+      "faceRecords": 8,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT",
+      "legacy": true,
+      "faces": 7,
+      "arithmeticRecords": 7,
+      "faceRecords": 7,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT",
+      "legacy": true,
+      "faces": 11,
+      "arithmeticRecords": 11,
+      "faceRecords": 11,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT",
+      "legacy": true,
+      "faces": 7,
+      "arithmeticRecords": 7,
+      "faceRecords": 7,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "legacy": true,
+      "faces": 7,
+      "arithmeticRecords": 7,
+      "faceRecords": 7,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C13_cone/model.SLDPRT",
+      "legacy": true,
+      "faces": 2,
+      "arithmeticRecords": 2,
+      "faceRecords": 2,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C14_sphere/model.SLDPRT",
+      "legacy": true,
+      "faces": 1,
+      "arithmeticRecords": 1,
+      "faceRecords": 1,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C15_torus/model.SLDPRT",
+      "legacy": true,
+      "faces": 1,
+      "arithmeticRecords": 1,
+      "faceRecords": 1,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C16_loft_spline/model.SLDPRT",
+      "legacy": true,
+      "faces": 6,
+      "arithmeticRecords": 6,
+      "faceRecords": 6,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C17_torus_quarter/model.SLDPRT",
+      "legacy": true,
+      "faces": 3,
+      "arithmeticRecords": 3,
+      "faceRecords": 3,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C18_cube_split_line/model.SLDPRT",
+      "legacy": true,
+      "faces": 7,
+      "arithmeticRecords": 7,
+      "faceRecords": 7,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C19_half_cylinder/model.SLDPRT",
+      "legacy": true,
+      "faces": 4,
+      "arithmeticRecords": 4,
+      "faceRecords": 4,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C20_cylinders_crossed/model.SLDPRT",
+      "legacy": true,
+      "faces": 8,
+      "arithmeticRecords": 8,
+      "faceRecords": 8,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C21_cylinder_fillet/model.SLDPRT",
+      "legacy": true,
+      "faces": 4,
+      "arithmeticRecords": 4,
+      "faceRecords": 4,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT",
+      "legacy": true,
+      "faces": 6,
+      "arithmeticRecords": 6,
+      "faceRecords": 6,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT",
+      "legacy": true,
+      "faces": 2,
+      "arithmeticRecords": 2,
+      "faceRecords": 2,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT",
+      "legacy": true,
+      "faces": 7,
+      "arithmeticRecords": 7,
+      "faceRecords": 7,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 11137,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C01_cube_20mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 11137,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.02,
+            0.02,
+            0.02
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C02_cube_translated/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 11137,
+          "name": "Default",
+          "min": [
+            0.05,
+            0.05,
+            0
+          ],
+          "max": [
+            0.06,
+            0.06,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 13437,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.010000000000000002,
+            0.010000000000000002,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 18057,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 16977,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C06_cube_hole_moved/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 18189,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C07_cube_two_holes/model.SLDPRT",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 9,
+      "faceRecords": 8,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 25187,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 9,
+      "faceRecords": 8,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 24173,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 12429,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 11,
+      "arithmeticRecords": 12,
+      "faceRecords": 11,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 16367,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 17719,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 13437,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+      "legacy": false,
+      "faces": 2,
+      "arithmeticRecords": 3,
+      "faceRecords": 2,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 15643,
+          "name": "Default",
+          "min": [
+            -0.005,
+            0,
+            -0.005
+          ],
+          "max": [
+            0.005,
+            0.01,
+            0.005
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+      "legacy": false,
+      "faces": 1,
+      "arithmeticRecords": 2,
+      "faceRecords": 1,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 215977,
+          "name": "Default",
+          "min": [
+            -0.005,
+            -0.005,
+            -0.005
+          ],
+          "max": [
+            0.005,
+            0.005,
+            0.005
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C15_torus/model.SLDPRT",
+      "legacy": false,
+      "faces": 1,
+      "arithmeticRecords": 2,
+      "faceRecords": 1,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 210213,
+          "name": "Default",
+          "min": [
+            -0.007000000000000001,
+            -0.0020000000000000005,
+            -0.007000000000000001
+          ],
+          "max": [
+            0.007000000000000001,
+            0.0020000000000000005,
+            0.007000000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 97867,
+          "name": "Default",
+          "min": [
+            -0.005010365153286359,
+            -0.000010365153286359439,
+            -0.005010365153286359
+          ],
+          "max": [
+            0.005010365153286359,
+            0.01001036515328636,
+            0.005010365153286359
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C17_torus_quarter/model.SLDPRT",
+      "legacy": false,
+      "faces": 3,
+      "arithmeticRecords": 4,
+      "faceRecords": 3,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 113113,
+          "name": "Default",
+          "min": [
+            0,
+            -0.0020000000000000005,
+            -0.007000000000000001
+          ],
+          "max": [
+            0.007000000000000001,
+            0.0020000000000000005,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 12669,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C19_half_cylinder/model.SLDPRT",
+      "legacy": false,
+      "faces": 4,
+      "arithmeticRecords": 5,
+      "faceRecords": 4,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 13679,
+          "name": "Default",
+          "min": [
+            -0.005,
+            0,
+            -0.005
+          ],
+          "max": [
+            0.005,
+            0.01,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 9,
+      "faceRecords": 8,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 44569,
+          "name": "Default",
+          "min": [
+            -0.01,
+            -0.005,
+            -0.01
+          ],
+          "max": [
+            0.01,
+            0.005,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+      "legacy": false,
+      "faces": 4,
+      "arithmeticRecords": 5,
+      "faceRecords": 4,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 69751,
+          "name": "Default",
+          "min": [
+            -0.005,
+            0,
+            -0.005
+          ],
+          "max": [
+            0.005,
+            0.01,
+            0.005
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 10581,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 11137,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 9,
+      "faceRecords": 8,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 115989,
+          "name": "Default",
+          "min": [
+            -0.027001022248884603,
+            0,
+            -0.027001022248884603
+          ],
+          "max": [
+            0.027001022248884603,
+            0.013999999999999999,
+            0.027001022248884603
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2026/cylinder with fillet-2026-credit-kevinR.SLDPRT",
+      "legacy": false,
+      "faces": 4,
+      "arithmeticRecords": 5,
+      "faceRecords": 4,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 67143,
+          "name": "Default",
+          "min": [
+            -0.07806854727462467,
+            0,
+            -0.07806854727462467
+          ],
+          "max": [
+            0.07806854727462467,
+            0.03,
+            0.07806854727462467
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/re-exports/C00_cube_10mm-2011-to-2026/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 11287,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/re-exports/C01_cube_20mm-2011-to-2026/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 11287,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.02,
+            0.02,
+            0.02
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/re-exports/holefillets1-2022to2026reexport-Furthen64-kevinR.SLDPRT",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 9,
+      "faceRecords": 8,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 116827,
+          "name": "Default",
+          "min": [
+            -0.027001022248884603,
+            0,
+            -0.027001022248884603
+          ],
+          "max": [
+            0.027001022248884603,
+            0.013999999999999999,
+            0.027001022248884603
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/re-exports/plate4 1997to2025kevin.SLDPRT",
+      "legacy": false,
+      "faces": 14,
+      "arithmeticRecords": 15,
+      "faceRecords": 14,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 22015,
+          "name": "Default",
+          "min": [
+            -0.5,
+            -0.1,
+            0
+          ],
+          "max": [
+            0.19999999999999996,
+            0.2400000000000001,
+            0.22499999999999998
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files new/re-exports/plate4-1997to2026kevinrahhal.sldprt",
+      "legacy": false,
+      "faces": 14,
+      "arithmeticRecords": 15,
+      "faceRecords": 14,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 21955,
+          "name": "Default",
+          "min": [
+            -0.5,
+            -0.1,
+            0
+          ],
+          "max": [
+            0.19999999999999996,
+            0.2400000000000001,
+            0.22499999999999998
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2007/05187d94_ChainCL_In.SLDPRT",
+      "legacy": true,
+      "faces": 13,
+      "arithmeticRecords": 13,
+      "faceRecords": 13,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2010/065f38b0_等径四节弯头-4.SLDPRT",
+      "legacy": true,
+      "faces": 6,
+      "arithmeticRecords": 6,
+      "faceRecords": 6,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT",
+      "legacy": true,
+      "faces": 7,
+      "arithmeticRecords": 7,
+      "faceRecords": 7,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2011/6ff6c243_通气塞.SLDPRT",
+      "legacy": true,
+      "faces": 15,
+      "arithmeticRecords": 15,
+      "faceRecords": 15,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2011/e1f38af5_0000380-01.sldprt",
+      "legacy": true,
+      "faces": 14,
+      "arithmeticRecords": 14,
+      "faceRecords": 14,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2013/92c393f4_camera_support.sldprt",
+      "legacy": true,
+      "faces": 116,
+      "arithmeticRecords": 116,
+      "faceRecords": 116,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt",
+      "legacy": false,
+      "faces": 535,
+      "arithmeticRecords": 536,
+      "faceRecords": 535,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 2464907,
+          "name": "Default",
+          "min": [
+            -0.07023149026876016,
+            -0.01769325288814244,
+            -0.08454398816652965
+          ],
+          "max": [
+            0.0697376084349273,
+            0.11082682263220624,
+            0.0311657043911636
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2014/300f9732_Carter2019.SLDPRT",
+      "legacy": true,
+      "faces": 92,
+      "arithmeticRecords": 92,
+      "faceRecords": 92,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2014/68cd51b6_20190309-0049.SLDPRT",
+      "legacy": true,
+      "faces": 26,
+      "arithmeticRecords": 26,
+      "faceRecords": 26,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+      "legacy": false,
+      "faces": 342,
+      "arithmeticRecords": 343,
+      "faceRecords": 342,
+      "surplus": 1,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT",
+      "legacy": false,
+      "faces": 4,
+      "arithmeticRecords": 5,
+      "faceRecords": 4,
+      "surplus": 1,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT",
+      "legacy": false,
+      "faces": 22,
+      "arithmeticRecords": 22,
+      "faceRecords": 22,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT",
+      "legacy": false,
+      "faces": 18,
+      "arithmeticRecords": 18,
+      "faceRecords": 18,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT",
+      "legacy": false,
+      "faces": 3,
+      "arithmeticRecords": 3,
+      "faceRecords": 3,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT",
+      "legacy": false,
+      "faces": 18,
+      "arithmeticRecords": 18,
+      "faceRecords": 18,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 8,
+      "faceRecords": 8,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2017/516a7dc5_Body1.sldprt",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 8,
+      "faceRecords": 8,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2017/afc71d14_Body2.sldprt",
+      "legacy": false,
+      "faces": 24,
+      "arithmeticRecords": 24,
+      "faceRecords": 24,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2017/d49566bc_AntennaMount.SLDPRT",
+      "legacy": false,
+      "faces": 16,
+      "arithmeticRecords": 16,
+      "faceRecords": 16,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT",
+      "legacy": false,
+      "faces": 249,
+      "arithmeticRecords": 250,
+      "faceRecords": 249,
+      "surplus": 1,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2018/0132519a_102_STEM.SLDPRT",
+      "legacy": false,
+      "faces": 167,
+      "arithmeticRecords": 167,
+      "faceRecords": 167,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2018/06b5063b_050_MASTER_SKETCH.SLDPRT",
+      "legacy": false,
+      "faces": 0,
+      "arithmeticRecords": 0,
+      "faceRecords": 0,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2018/15567d51_leva1.SLDPRT",
+      "legacy": false,
+      "faces": 298,
+      "arithmeticRecords": 298,
+      "faceRecords": 298,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+      "legacy": false,
+      "faces": 262,
+      "arithmeticRecords": 262,
+      "faceRecords": 262,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2018/ca465363_103_COVER.SLDPRT",
+      "legacy": false,
+      "faces": 118,
+      "arithmeticRecords": 118,
+      "faceRecords": 118,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "legacy": false,
+      "faces": 2512,
+      "arithmeticRecords": 2512,
+      "faceRecords": 2512,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 6,
+      "faceRecords": 6,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/07ff8da1_shelf.SLDPRT",
+      "legacy": false,
+      "faces": 30,
+      "arithmeticRecords": 30,
+      "faceRecords": 30,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/096d0504_MargayMount_WH10.SLDPRT",
+      "legacy": false,
+      "faces": 18,
+      "arithmeticRecords": 18,
+      "faceRecords": 18,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/27377fd2_FE-00006-06.SLDPRT",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 8,
+      "faceRecords": 8,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/28398415_Raspberry Pi 4.SLDPRT",
+      "legacy": false,
+      "faces": 267,
+      "arithmeticRecords": 267,
+      "faceRecords": 267,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/300d7f07_Bottom Case.SLDPRT",
+      "legacy": false,
+      "faces": 50,
+      "arithmeticRecords": 50,
+      "faceRecords": 50,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/44afdb7c_back_cushion.SLDPRT",
+      "legacy": false,
+      "faces": 26,
+      "arithmeticRecords": 26,
+      "faceRecords": 26,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/54b05886_bottom_adc.SLDPRT",
+      "legacy": false,
+      "faces": 92,
+      "arithmeticRecords": 92,
+      "faceRecords": 92,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/636b653d_MountingBracket.SLDPRT",
+      "legacy": false,
+      "faces": 26,
+      "arithmeticRecords": 26,
+      "faceRecords": 26,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/7765d286_NSJ8L.SLDPRT",
+      "legacy": false,
+      "faces": 62,
+      "arithmeticRecords": 62,
+      "faceRecords": 62,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+      "legacy": false,
+      "faces": 103,
+      "arithmeticRecords": 103,
+      "faceRecords": 103,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/91a2d981_Camera Module.SLDPRT",
+      "legacy": false,
+      "faces": 19,
+      "arithmeticRecords": 19,
+      "faceRecords": 19,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/a3a44709_FrontPanel-Bezel.sldprt",
+      "legacy": false,
+      "faces": 16,
+      "arithmeticRecords": 16,
+      "faceRecords": 16,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/d381ebab_bottom_dac.SLDPRT",
+      "legacy": false,
+      "faces": 83,
+      "arithmeticRecords": 83,
+      "faceRecords": 83,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/e8c40c25_psu.SLDPRT",
+      "legacy": false,
+      "faces": 271,
+      "arithmeticRecords": 271,
+      "faceRecords": 271,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2019/fb449daa_Gloworm PCB.SLDPRT",
+      "legacy": false,
+      "faces": 50,
+      "arithmeticRecords": 50,
+      "faceRecords": 50,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2020/14f9214b_11.SLDPRT",
+      "legacy": false,
+      "faces": 75,
+      "arithmeticRecords": 76,
+      "faceRecords": 75,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 157995,
+          "name": "默认",
+          "min": [
+            -0.11499999999999999,
+            0,
+            -0.12500000000000003
+          ],
+          "max": [
+            0.11500000000000005,
+            0.245,
+            0.12499999999999997
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT",
+      "legacy": false,
+      "faces": 42,
+      "arithmeticRecords": 42,
+      "faceRecords": 42,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+      "legacy": false,
+      "faces": 69,
+      "arithmeticRecords": 70,
+      "faceRecords": 69,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 480899,
+          "name": "Default",
+          "min": [
+            -0.022860000000000075,
+            -0.019685,
+            -0.5590538469821209
+          ],
+          "max": [
+            0.022860000000000075,
+            0.07620000000000009,
+            -0.517398
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT",
+      "legacy": false,
+      "faces": 28,
+      "arithmeticRecords": 29,
+      "faceRecords": 28,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 40865,
+          "name": "Default",
+          "min": [
+            -0.001968750000000051,
+            -0.005775721420742506,
+            0
+          ],
+          "max": [
+            0.001968750000000013,
+            0.005775721420742507,
+            0.0115
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2020/7841a106_6344428.SLDPRT",
+      "legacy": false,
+      "faces": 54,
+      "arithmeticRecords": 54,
+      "faceRecords": 54,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2020/9494d959_27_20_4.SLDPRT",
+      "legacy": false,
+      "faces": 12,
+      "arithmeticRecords": 13,
+      "faceRecords": 12,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 56391,
+          "name": "Default",
+          "min": [
+            -0.0135,
+            -0.002,
+            -0.0135
+          ],
+          "max": [
+            0.0135,
+            0.002,
+            0.0135
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2020/b185085c_Handle 3.SLDPRT",
+      "legacy": false,
+      "faces": 33,
+      "arithmeticRecords": 34,
+      "faceRecords": 33,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 87239,
+          "name": "Default",
+          "min": [
+            -0.07100000000000001,
+            -0.028000000000000018,
+            -0.005
+          ],
+          "max": [
+            0.07100000000000001,
+            0.010000000000000009,
+            0.005
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2020/b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT",
+      "legacy": false,
+      "faces": 0,
+      "arithmeticRecords": 0,
+      "faceRecords": 0,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2021/85aabbde_84T Gear.SLDPRT",
+      "legacy": false,
+      "faces": 671,
+      "arithmeticRecords": 672,
+      "faceRecords": 671,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 1094090,
+          "name": "Default",
+          "min": [
+            -0.0454782863854303,
+            -0.0454782863854303,
+            -0.0031750000000004847
+          ],
+          "max": [
+            0.0454782863854303,
+            0.0454782863854303,
+            0.009525
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2021/916d4a0a_36T Gear.SLDPRT",
+      "legacy": false,
+      "faces": 295,
+      "arithmeticRecords": 296,
+      "faceRecords": 295,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 542152,
+          "name": "Default",
+          "min": [
+            -0.0200421257691045,
+            -0.0200421257691045,
+            -0.0047625
+          ],
+          "max": [
+            0.0200421257691045,
+            0.0200421257691045,
+            0.0047625
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2021/bc3292d7_12T Gear.SLDPRT",
+      "legacy": false,
+      "faces": 135,
+      "arithmeticRecords": 136,
+      "faceRecords": 135,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 174944,
+          "name": "Default",
+          "min": [
+            -0.0074003775206271105,
+            -0.0074003775206271105,
+            -0.0047625
+          ],
+          "max": [
+            0.0074003775206271105,
+            0.0074003775206271105,
+            0.0047625
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+      "legacy": false,
+      "faces": 399,
+      "arithmeticRecords": 400,
+      "faceRecords": 399,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 710814,
+          "name": "Default",
+          "min": [
+            -0.032767683347240756,
+            -0.032767683347240756,
+            -0.0047625
+          ],
+          "max": [
+            0.032767683347240756,
+            0.032767683347240756,
+            0.0047625
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT",
+      "legacy": false,
+      "faces": 109,
+      "arithmeticRecords": 110,
+      "faceRecords": 109,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 4450937,
+          "name": "Default",
+          "min": [
+            -0.03,
+            -0.03,
+            -0.020315096832900524
+          ],
+          "max": [
+            0.03,
+            0.03,
+            0.020052500000000008
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT",
+      "legacy": false,
+      "faces": 103,
+      "arithmeticRecords": 103,
+      "faceRecords": 103,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT",
+      "legacy": false,
+      "faces": 143,
+      "arithmeticRecords": 144,
+      "faceRecords": 143,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 264160,
+          "name": "Default",
+          "min": [
+            -0.04200000000000001,
+            -0.00015826096792371133,
+            -0.024000000000000004
+          ],
+          "max": [
+            0.04200000000000001,
+            0.075,
+            0.024000000000000004
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/1ee60868_z轴皮带固定.SLDPRT",
+      "legacy": false,
+      "faces": 32,
+      "arithmeticRecords": 33,
+      "faceRecords": 32,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 50273,
+          "name": "默认",
+          "min": [
+            -0.012390214688483383,
+            -0.0045489265575830405,
+            0.0009999999999999992
+          ],
+          "max": [
+            0.012609785311516622,
+            0.0034510734424169597,
+            0.0055
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/273a8d53_FG-F1.SLDPRT",
+      "legacy": false,
+      "faces": 76,
+      "arithmeticRecords": 77,
+      "faceRecords": 76,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 121931,
+          "name": "Default",
+          "min": [
+            0.015,
+            0.009999999999999998,
+            0.025499999999999995
+          ],
+          "max": [
+            0.028500000000000004,
+            0.02,
+            0.1515
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "legacy": false,
+      "faces": 239,
+      "arithmeticRecords": 239,
+      "faceRecords": 239,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2022/40e79d45_Fins.SLDPRT",
+      "legacy": false,
+      "faces": 12,
+      "arithmeticRecords": 13,
+      "faceRecords": 12,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 17849,
+          "name": "Default",
+          "min": [
+            -0.0858514665055335,
+            0,
+            -0.1649095
+          ],
+          "max": [
+            0.3863191293766832,
+            0.003175,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT",
+      "legacy": false,
+      "faces": 9,
+      "arithmeticRecords": 10,
+      "faceRecords": 9,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 42105,
+          "name": "默认",
+          "min": [
+            -0.007425000000000001,
+            -0.007425000000000001,
+            0
+          ],
+          "max": [
+            0.007425000000000001,
+            0.007425000000000001,
+            0.012
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/84226163_Fin.SLDPRT",
+      "legacy": false,
+      "faces": 10,
+      "arithmeticRecords": 11,
+      "faceRecords": 10,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 15721,
+          "name": "Default",
+          "min": [
+            0,
+            -0.0015875,
+            -0.1397000000000001
+          ],
+          "max": [
+            0.46284246374917093,
+            0.0015875,
+            0.02768599999999999
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/9cc04b03_SO-C1.SLDPRT",
+      "legacy": false,
+      "faces": 93,
+      "arithmeticRecords": 94,
+      "faceRecords": 93,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 156641,
+          "name": "Default",
+          "min": [
+            -0.0307,
+            -0.0125,
+            -0.0065
+          ],
+          "max": [
+            -0.0197,
+            0.0125,
+            0.0065
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+      "legacy": false,
+      "faces": 37,
+      "arithmeticRecords": 38,
+      "faceRecords": 37,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 91733,
+          "name": "默认",
+          "min": [
+            -0.03,
+            -0.027999999999999997,
+            -0.005
+          ],
+          "max": [
+            0.03,
+            0.028000000000000004,
+            0.005
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/a0fc2e29_Vertical Spar.SLDPRT",
+      "legacy": false,
+      "faces": 11,
+      "arithmeticRecords": 12,
+      "faceRecords": 11,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 25453,
+          "name": "Default",
+          "min": [
+            -0.030000000000000002,
+            -0.2,
+            -0.025
+          ],
+          "max": [
+            0.029999999999999995,
+            0.2,
+            0.02500000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/d753195d_ServoMount.SLDPRT",
+      "legacy": false,
+      "faces": 90,
+      "arithmeticRecords": 91,
+      "faceRecords": 90,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 202795,
+          "name": "Default",
+          "min": [
+            -0.0123698,
+            -0.004579739869130972,
+            -0.0188595
+          ],
+          "max": [
+            0.0123698,
+            0.029641800000000003,
+            0.0188595
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT",
+      "legacy": false,
+      "faces": 26,
+      "arithmeticRecords": 27,
+      "faceRecords": 26,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 578263,
+          "name": "Default",
+          "min": [
+            -0.0038061816496326208,
+            -0.004364059892324156,
+            0
+          ],
+          "max": [
+            0.003806181649632626,
+            0.004364059892324156,
+            0.004000000000000002
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/dc265ce1_Fin.SLDPRT",
+      "legacy": false,
+      "faces": 10,
+      "arithmeticRecords": 11,
+      "faceRecords": 10,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 15853,
+          "name": "Default",
+          "min": [
+            -0.038735,
+            -0.0220228546856589,
+            0
+          ],
+          "max": [
+            0.1524,
+            0.381,
+            0.003175
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/dd156283_637Z flanzi bearing.SLDPRT",
+      "legacy": false,
+      "faces": 11,
+      "arithmeticRecords": 12,
+      "faceRecords": 11,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 69385,
+          "name": "ﾃﾞﾌｫﾙﾄ",
+          "min": [
+            -0.0036750000000000003,
+            -0.0019,
+            -0.0036750000000000003
+          ],
+          "max": [
+            0.0036750000000000003,
+            0.0006,
+            0.0036750000000000003
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "legacy": false,
+      "faces": 693,
+      "arithmeticRecords": 693,
+      "faceRecords": 693,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT",
+      "legacy": false,
+      "faces": 35,
+      "arithmeticRecords": 36,
+      "faceRecords": 35,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 73791,
+          "name": "Default",
+          "min": [
+            -0.068,
+            -1.3877787807814457e-17,
+            -0.092
+          ],
+          "max": [
+            0.097,
+            0.12000000000000001,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/2f121983_case.SLDPRT",
+      "legacy": false,
+      "faces": 155,
+      "arithmeticRecords": 156,
+      "faceRecords": 155,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 1028443,
+          "name": "Défaut",
+          "min": [
+            -0.027465676385126918,
+            -0.053467791086953,
+            -0.020000000000000004
+          ],
+          "max": [
+            0.027465676385126918,
+            0.026000000000000002,
+            0.03745695333250612
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/2fd21507_MidplateEM2.SLDPRT",
+      "legacy": false,
+      "faces": 49,
+      "arithmeticRecords": 50,
+      "faceRecords": 49,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 1327143,
+          "name": "Default",
+          "min": [
+            -0.06,
+            0,
+            -0.0625
+          ],
+          "max": [
+            0.06,
+            0.005,
+            0.0625
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT",
+      "legacy": false,
+      "faces": 99,
+      "arithmeticRecords": 100,
+      "faceRecords": 99,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 148962,
+          "name": "Défaut",
+          "min": [
+            -0.007060163983110284,
+            -0.010064616034647368,
+            0
+          ],
+          "max": [
+            0.007060163983110284,
+            0.006,
+            0.0213
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT",
+      "legacy": false,
+      "faces": 127,
+      "arithmeticRecords": 128,
+      "faceRecords": 127,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 1376107,
+          "name": "Default",
+          "min": [
+            -0.05849999999999998,
+            -0.05850000000000004,
+            -0.010000000000000002
+          ],
+          "max": [
+            0.05650000000000001,
+            0.05850000000000004,
+            0.055
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/41b71219_板材-Guidance安装板.SLDPRT",
+      "legacy": false,
+      "faces": 82,
+      "arithmeticRecords": 83,
+      "faceRecords": 82,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 193470,
+          "name": "默认",
+          "min": [
+            -0.07,
+            0,
+            -0.028000000000000004
+          ],
+          "max": [
+            0.07000000000000002,
+            0.002,
+            0.028000000000000004
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/4803f393_box.SLDPRT",
+      "legacy": false,
+      "faces": 1390,
+      "arithmeticRecords": 1391,
+      "faceRecords": 1390,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 2393158,
+          "name": "Défaut",
+          "min": [
+            -0.0965,
+            -0.033,
+            -0.1
+          ],
+          "max": [
+            0.08800000000000002,
+            0.028,
+            1.375000000039539e-7
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT",
+      "legacy": false,
+      "faces": 37,
+      "arithmeticRecords": 38,
+      "faceRecords": 37,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 161524,
+          "name": "默认",
+          "min": [
+            -0.02500000000000002,
+            -0.020000000000000025,
+            0
+          ],
+          "max": [
+            0.02500000000000002,
+            0.020000000000000025,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+      "legacy": false,
+      "faces": 544,
+      "arithmeticRecords": 544,
+      "faceRecords": 544,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2023/d2f7f9bd_iman.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 6,
+      "faceRecords": 6,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2023/d77ec77a_TopSheet.SLDPRT",
+      "legacy": false,
+      "faces": 67,
+      "arithmeticRecords": 68,
+      "faceRecords": 67,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 266005,
+          "name": "Default",
+          "min": [
+            -0.15,
+            -0.0015,
+            -0.2375
+          ],
+          "max": [
+            0.15,
+            0.0015,
+            0.23750000000000002
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT",
+      "legacy": false,
+      "faces": 34,
+      "arithmeticRecords": 36,
+      "faceRecords": 34,
+      "surplus": 2,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 169504,
+          "name": "默认",
+          "min": [
+            -0.023499999999999997,
+            -0.023499999999999997,
+            0
+          ],
+          "max": [
+            0.023499999999999997,
+            0.023499999999999997,
+            0.008
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+      "legacy": false,
+      "faces": 404,
+      "arithmeticRecords": 404,
+      "faceRecords": 404,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2024/03afebf4_Profilringe.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 44471,
+          "name": "P-R 10 L-S - 26116",
+          "min": [
+            0,
+            -0.007200000000000001,
+            -0.007200000000000001
+          ],
+          "max": [
+            0.010000000000000009,
+            0.007200000000000001,
+            0.007200000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/09d353a9_Elbow_Mount2.SLDPRT",
+      "legacy": false,
+      "faces": 40,
+      "arithmeticRecords": 41,
+      "faceRecords": 40,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 172885,
+          "name": "Default",
+          "min": [
+            -0.036350000000000014,
+            -0.015000000000000051,
+            -0.034999999999999955
+          ],
+          "max": [
+            0.03635,
+            0.01500000000000001,
+            0.005
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/1e794aad_6344387.SLDPRT",
+      "legacy": false,
+      "faces": 117,
+      "arithmeticRecords": 117,
+      "faceRecords": 117,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2024/225c13ed_camholder0deg.SLDPRT",
+      "legacy": false,
+      "faces": 49,
+      "arithmeticRecords": 50,
+      "faceRecords": 49,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 130075,
+          "name": "默认",
+          "min": [
+            -8.673617379884035e-19,
+            -0.042,
+            -0.025
+          ],
+          "max": [
+            0.040000000000000015,
+            6.123233995736752e-19,
+            0.003000000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/2300f35c_Thigh Symétrie.SLDPRT",
+      "legacy": false,
+      "faces": 172,
+      "arithmeticRecords": 173,
+      "faceRecords": 172,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 354431,
+          "name": "Défaut",
+          "min": [
+            -0.02500002500000003,
+            -0.12625,
+            -0.11500000000000002
+          ],
+          "max": [
+            0.046249999999999555,
+            0.10500000000000001,
+            -0.08499960710123386
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT",
+      "legacy": false,
+      "faces": 4,
+      "arithmeticRecords": 5,
+      "faceRecords": 4,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 24529,
+          "name": "默认",
+          "min": [
+            0.137,
+            0.08965,
+            -0.09815
+          ],
+          "max": [
+            0.14300000000000002,
+            0.09565,
+            -0.09765
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/37663d8a_Gasket For M12.SLDPRT",
+      "legacy": false,
+      "faces": 11,
+      "arithmeticRecords": 12,
+      "faceRecords": 11,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 30795,
+          "name": "Default",
+          "min": [
+            -0.0073750000000000005,
+            -0.0073750000000000005,
+            -0.002
+          ],
+          "max": [
+            0.0073750000000000005,
+            0.0073750000000000005,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/4febfc67_6344149.SLDPRT",
+      "legacy": false,
+      "faces": 19,
+      "arithmeticRecords": 19,
+      "faceRecords": 19,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT",
+      "legacy": false,
+      "faces": 4,
+      "arithmeticRecords": 5,
+      "faceRecords": 4,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 24513,
+          "name": "默认",
+          "min": [
+            0.1425,
+            -0.10115,
+            -0.097
+          ],
+          "max": [
+            0.1495,
+            -0.10065,
+            -0.09
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT",
+      "legacy": false,
+      "faces": 22,
+      "arithmeticRecords": 23,
+      "faceRecords": 22,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 83221,
+          "name": "Default",
+          "min": [
+            -0.12676809846780196,
+            0,
+            -0.12676809846780196
+          ],
+          "max": [
+            0.12676809846780196,
+            0.024,
+            0.12676809846780196
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/871e670c_servo_adapter.SLDPRT",
+      "legacy": false,
+      "faces": 32,
+      "arithmeticRecords": 33,
+      "faceRecords": 32,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 94789,
+          "name": "默认",
+          "min": [
+            -0.010184999999999998,
+            0,
+            -0.015165000000000001
+          ],
+          "max": [
+            0.010115000000000004,
+            0.01,
+            0.015165000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/951f2bc1_Boitier.SLDPRT",
+      "legacy": false,
+      "faces": 26,
+      "arithmeticRecords": 27,
+      "faceRecords": 26,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 42943,
+          "name": "Défaut",
+          "min": [
+            -0.015075620859942797,
+            -0.02508326268005435,
+            0
+          ],
+          "max": [
+            0.02992437914005721,
+            0.011916737319945648,
+            0.0078
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+      "legacy": false,
+      "faces": 961,
+      "arithmeticRecords": 961,
+      "faceRecords": 961,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+      "legacy": false,
+      "faces": 16,
+      "arithmeticRecords": 17,
+      "faceRecords": 16,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 58897,
+          "name": "默认",
+          "min": [
+            0.14325,
+            0.09764999999999999,
+            -0.09625
+          ],
+          "max": [
+            0.14875,
+            0.11265,
+            -0.09075
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 9,
+      "faceRecords": 8,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 23235,
+          "name": "默认",
+          "min": [
+            0.142,
+            0.10314999999999999,
+            -0.10115
+          ],
+          "max": [
+            0.158,
+            0.10915,
+            -0.08685
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/05d0b4c3_pin-2-2.SLDPRT",
+      "legacy": false,
+      "faces": 500,
+      "arithmeticRecords": 500,
+      "faceRecords": 500,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT",
+      "legacy": false,
+      "faces": 34,
+      "arithmeticRecords": 35,
+      "faceRecords": 34,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 134925,
+          "name": "默认",
+          "min": [
+            -0.0955,
+            -0.022499999999999996,
+            0
+          ],
+          "max": [
+            0.0955,
+            0.022500000000000003,
+            0.004
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/3e41786b_LB26001-A-04-002_seed.SLDPRT",
+      "legacy": false,
+      "faces": 18,
+      "arithmeticRecords": 19,
+      "faceRecords": 18,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 53357,
+          "name": "默认",
+          "min": [
+            -0.205,
+            0,
+            -0.006
+          ],
+          "max": [
+            0.205,
+            0.015,
+            0.006
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT",
+      "legacy": false,
+      "faces": 274,
+      "arithmeticRecords": 275,
+      "faceRecords": 274,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 1043421,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            -0.189
+          ],
+          "max": [
+            0.108,
+            0.008,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT",
+      "legacy": false,
+      "faces": 428,
+      "arithmeticRecords": 429,
+      "faceRecords": 428,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 907193,
+          "name": "Default",
+          "min": [
+            -0.03850000000000002,
+            -0.005000000000000001,
+            -0.03850250000000002
+          ],
+          "max": [
+            0.03850000000000002,
+            0.015,
+            0.03850250000000002
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/55c163ac_pin-1-2.SLDPRT",
+      "legacy": false,
+      "faces": 452,
+      "arithmeticRecords": 453,
+      "faceRecords": 452,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 389903,
+          "name": "Default",
+          "min": [
+            -0.0029159998241811993,
+            -0.004549999255686998,
+            5.722046165883288e-10
+          ],
+          "max": [
+            0.0029159998241811993,
+            0.004549999255686998,
+            0.003449999261647463
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/6fd68589_pin-2-1.SLDPRT",
+      "legacy": false,
+      "faces": 500,
+      "arithmeticRecords": 500,
+      "faceRecords": 500,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2025/822f5572_一级挡块-hhr镂空限位.SLDPRT",
+      "legacy": false,
+      "faces": 18,
+      "arithmeticRecords": 19,
+      "faceRecords": 18,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 55011,
+          "name": "默认",
+          "min": [
+            -0.0192416151534414,
+            0.023382685902179824,
+            0
+          ],
+          "max": [
+            3.469446951953614e-18,
+            0.03994733192202055,
+            0.0057
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/8aaecde6_6008内圈下加工件.SLDPRT",
+      "legacy": false,
+      "faces": 46,
+      "arithmeticRecords": 47,
+      "faceRecords": 46,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 164363,
+          "name": "默认",
+          "min": [
+            -0.0325,
+            -0.0325,
+            0
+          ],
+          "max": [
+            0.0325,
+            0.0325,
+            0.019
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT",
+      "legacy": false,
+      "faces": 14,
+      "arithmeticRecords": 15,
+      "faceRecords": 14,
+      "surplus": 1,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2025/ac760485_存矿小端.SLDPRT",
+      "legacy": false,
+      "faces": 38,
+      "arithmeticRecords": 39,
+      "faceRecords": 38,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": [
+        {
+          "offset": 79869,
+          "name": "默认",
+          "min": [
+            -0.0044123332955961075,
+            0,
+            0
+          ],
+          "max": [
+            0.14999999999999997,
+            0.06,
+            0.11268424997169725
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/c613782b_Крепёжная-Планка.SLDPRT",
+      "legacy": false,
+      "faces": 13,
+      "arithmeticRecords": 13,
+      "faceRecords": 13,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2025/e8f16581_Engine Base.SLDPRT",
+      "legacy": false,
+      "faces": 10,
+      "arithmeticRecords": 11,
+      "faceRecords": 10,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 20859,
+          "name": "Default",
+          "min": [
+            -0.125,
+            0,
+            -0.09999999999999999
+          ],
+          "max": [
+            0.125,
+            0.04,
+            0.10000000000000002
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT",
+      "legacy": false,
+      "faces": 33,
+      "arithmeticRecords": 34,
+      "faceRecords": 33,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 1692991,
+          "name": "Default",
+          "min": [
+            -0.0026558112382722796,
+            -0.0022999999999999995,
+            -0.006185800543516949
+          ],
+          "max": [
+            0.0026558112382722788,
+            0.002300000000000001,
+            0.037052499999999995
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT",
+      "legacy": false,
+      "faces": 17,
+      "arithmeticRecords": 18,
+      "faceRecords": 17,
+      "surplus": 1,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+      "legacy": false,
+      "faces": 54,
+      "arithmeticRecords": 55,
+      "faceRecords": 54,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 110247,
+          "name": "Default",
+          "min": [
+            -0.0719,
+            0.0759,
+            0.016
+          ],
+          "max": [
+            -0.042899999999999994,
+            0.1029,
+            0.03
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT",
+      "legacy": false,
+      "faces": 0,
+      "arithmeticRecords": 1,
+      "faceRecords": 0,
+      "surplus": 1,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT",
+      "legacy": false,
+      "faces": 1117,
+      "arithmeticRecords": 1118,
+      "faceRecords": 1117,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 3073541,
+          "name": "Default",
+          "min": [
+            -0.0376,
+            0.022638296092278645,
+            0.18601328798603997
+          ],
+          "max": [
+            0.0001999999999999988,
+            0.047361703907723,
+            0.231236695801482
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2026/4d85599e_base-M4.SLDPRT",
+      "legacy": false,
+      "faces": 12,
+      "arithmeticRecords": 13,
+      "faceRecords": 12,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 27413,
+          "name": "Predeterminado",
+          "min": [
+            -0.022,
+            0,
+            -0.0175
+          ],
+          "max": [
+            0.022,
+            0.048,
+            0.0175
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT",
+      "legacy": false,
+      "faces": 0,
+      "arithmeticRecords": 1,
+      "faceRecords": 0,
+      "surplus": 1,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT",
+      "legacy": false,
+      "faces": 88,
+      "arithmeticRecords": 89,
+      "faceRecords": 88,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 205537,
+          "name": "Default",
+          "min": [
+            -0.189,
+            -0.045,
+            0.22999999999999998
+          ],
+          "max": [
+            -0.061,
+            0.045,
+            0.266
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT",
+      "legacy": false,
+      "faces": 0,
+      "arithmeticRecords": 1,
+      "faceRecords": 0,
+      "surplus": 1,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files online/2026/daa6e9e9_CR26-201-08.SLDPRT",
+      "legacy": false,
+      "faces": 296,
+      "arithmeticRecords": 298,
+      "faceRecords": 296,
+      "surplus": 2,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 1241830,
+          "name": "Default",
+          "min": [
+            -1.1102230246251565e-16,
+            0,
+            0
+          ],
+          "max": [
+            0.117475,
+            0.635,
+            0.003175
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "legacy": false,
+      "faces": 375,
+      "arithmeticRecords": 377,
+      "faceRecords": 375,
+      "surplus": 2,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 1151108,
+          "name": "По умолчанию",
+          "min": [
+            -0.5500025249999998,
+            -0.6000025250000002,
+            -0.02000002500000035
+          ],
+          "max": [
+            0.5500025250000002,
+            0.6000025249999997,
+            0.0000025249999998889772
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "legacy": false,
+      "faces": 113,
+      "arithmeticRecords": 115,
+      "faceRecords": 113,
+      "surplus": 2,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 531475,
+          "name": "Default",
+          "min": [
+            -0.08521150111772996,
+            -0.08521150111773002,
+            -0.163
+          ],
+          "max": [
+            0.08521150111773002,
+            0.08521150111773002,
+            0.10000102373854089
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/PTC GE8080-8.SLDPRT",
+      "legacy": false,
+      "faces": 126,
+      "arithmeticRecords": 127,
+      "faceRecords": 126,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 168767,
+          "name": "Default",
+          "min": [
+            -0.0030000000000000027,
+            -0.0030000000000000027,
+            0
+          ],
+          "max": [
+            0.078,
+            0.078,
+            0.078
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "legacy": false,
+      "faces": 400,
+      "arithmeticRecords": 401,
+      "faceRecords": 400,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 1201397,
+          "name": "Pocket Wheel",
+          "min": [
+            -0.1473183302554682,
+            -0.052999999999996404,
+            -0.14731833025546742
+          ],
+          "max": [
+            0.14731833025546665,
+            0.052999999999998174,
+            0.14731833025546742
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/SW2000-s01.SLDPRT",
+      "legacy": true,
+      "faces": 0,
+      "arithmeticRecords": 0,
+      "faceRecords": 0,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files original/chainwheel.sldprt",
+      "legacy": true,
+      "faces": 189,
+      "arithmeticRecords": 189,
+      "faceRecords": 189,
+      "surplus": 0,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files original/controlled/C00_cube_10mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 11135,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C01_cube_20mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 11135,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.02,
+            0.02,
+            0.02
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C02_cube_translated/model.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 11135,
+          "name": "Default",
+          "min": [
+            0.05,
+            0.05,
+            0
+          ],
+          "max": [
+            0.06,
+            0.06,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 13435,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.010000000000000002,
+            0.010000000000000002,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C04_cube_hole_5mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 18121,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C05_cube_hole_3mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 16773,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C06_cube_hole_moved/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 18187,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C07_cube_two_holes/model.SLDPRT",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 9,
+      "faceRecords": 8,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 25053,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT",
+      "legacy": false,
+      "faces": 8,
+      "arithmeticRecords": 9,
+      "faceRecords": 8,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 23969,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 12427,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C10_cube_shell_1mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 11,
+      "arithmeticRecords": 12,
+      "faceRecords": 11,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 16365,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C11_cube_hole_4mm/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 17581,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "legacy": false,
+      "faces": 7,
+      "arithmeticRecords": 8,
+      "faceRecords": 7,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 13407,
+          "name": "Default",
+          "min": [
+            0,
+            0,
+            0
+          ],
+          "max": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/cube.SLDPRT",
+      "legacy": false,
+      "faces": 6,
+      "arithmeticRecords": 7,
+      "faceRecords": 6,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 11133,
+          "name": "Default",
+          "min": [
+            -0.03644975510957013,
+            -0.009257024730817125,
+            0
+          ],
+          "max": [
+            0.0035502448904298745,
+            0.030742975269182876,
+            0.04000000000000002
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/distributor main boss rev a.SLDPRT",
+      "legacy": false,
+      "faces": 51,
+      "arithmeticRecords": 52,
+      "faceRecords": 51,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 216749,
+          "name": "Default",
+          "min": [
+            -0.000060721641050462405,
+            -0.0172212,
+            -0.0172212
+          ],
+          "max": [
+            0.11849099999999999,
+            0.0172212,
+            0.0172212
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/plate4.sldprt",
+      "legacy": true,
+      "faces": 14,
+      "arithmeticRecords": 13,
+      "faceRecords": 0,
+      "surplus": 13,
+      "configurationRecords": 0,
+      "configurationMatchingDisplayUnion": 0,
+      "configurations": []
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+      "legacy": false,
+      "faces": 39,
+      "arithmeticRecords": 40,
+      "faceRecords": 39,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 97575,
+          "name": "По умолчанию",
+          "min": [
+            -0.033499999999999995,
+            0,
+            -0.020500000000000004
+          ],
+          "max": [
+            0.03350000000000001,
+            0.0065,
+            0.020500000000000004
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "legacy": false,
+      "faces": 68,
+      "arithmeticRecords": 69,
+      "faceRecords": 68,
+      "surplus": 1,
+      "configurationRecords": 1,
+      "configurationMatchingDisplayUnion": 1,
+      "configurations": [
+        {
+          "offset": 278383,
+          "name": "По умолчанию",
+          "min": [
+            -0.033500000000000016,
+            0,
+            -0.020500000000000004
+          ],
+          "max": [
+            0.0335,
+            0.02,
+            0.020499999999999997
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "file": "test files online/2013/82981f2a_head_back.sldprt",
+      "error": "Invalid legacy compression lengths"
+    },
+    {
+      "file": "test files online/2013/f666f342_head_face.sldprt",
+      "error": "Invalid legacy compression lengths"
+    },
+    {
+      "file": "test files online/2017/3b48d9c5_Body10.sldprt",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2017/4df87793_21BC-S 1.19-A.sldprt",
+      "error": "No legacy DisplayLists stream"
+    },
+    {
+      "file": "test files online/2020/34fe5ff1_Group_44390.stp.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2021/60f84235_2022_10_06_17_02_43_0612.stp.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2022/24344735_080-1926-000_3.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2022/3980555c_RASPBERRY_PI_5+cooler-5.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2022/5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2022/f8c2df35_2023_10_16_23_28_17_0357_body1.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/2024/f750218b_612-00002.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/not-a-part/10582557_9271K109_Torsion Spring.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/not-a-part/34a1cacb_91202A226_Zinc-Plated Steel Split Lock Washer.Sldprt",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/not-a-part/8ac95686_separadores.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/not-a-part/9e494ca4_91169A160_Steel Split Lock Washer.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    },
+    {
+      "file": "test files online/not-a-part/d7b58324_small_motor.rev1.SLDPRT",
+      "error": "The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null"
+    }
+  ]
+}

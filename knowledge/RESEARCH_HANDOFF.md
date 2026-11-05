@@ -1,5 +1,24 @@
 # Research Handoff
 
+## Validation checkpoint — 2026-11-05, EXP-091
+
+The optional display scalar arrays are per-vertex surface parameters. The controlled cone, sphere
+and B-surface checks evaluate 6,924 vertices in stored order and reject swapped order by
+millimetres to metres. The corpus contains the pair on 1,545 faces in 37 files; direct evaluation
+in this experiment covers tags 4003, 4004 and 4006.
+
+LocalBodies now has bounded entry, section and compression framing: 41 streams, 281 named entries,
+289 sections and 540 checked zlib chunks. Two entries own multiple sections and two large sections
+use many chunks. All streams end exactly and all 289 eight-byte tails are zero. The 10/18-byte
+entry-header fields and the tail's intended role remain unnamed.
+
+The configuration bounds record is an overall saved-display envelope in 113 readable modern files.
+It equals the union of face bounds in 112; one is larger than both the display and active body. No
+matching record occurs in 36 readable legacy files. `OPEN_QUESTIONS.md` now has a current audit at
+the top, while its old entries remain as research history.
+
+Evidence: [2026-11-05_v0.5-EXP091.md](evidence/2026-11-05_v0.5-EXP091.md).
+
 ## Validation checkpoint — 2026-11-05, EXP-090
 
 `NEXT_QUESTIONS.md` has been audited against the later experiments. Old Block1 grammar and token

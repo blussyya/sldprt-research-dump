@@ -1537,3 +1537,23 @@ raw sequences and native neighbor change.
 **Evidence**: [2026-11-05_v0.5-EXP090.md](evidence/2026-11-05_v0.5-EXP090.md),
 `evidence/scripts/EXP090/`.
 
+## EXP-091 — Surface parameters, LocalBodies framing and configuration bounds
+
+**Question**: What are the optional display scalar arrays, how is LocalBodies framed across the
+expanded corpus, and what is the configuration-level bounds record?
+
+**Result**: The optional pair is per-vertex surface `(u,v)`: 1,545 faces carry it, and direct
+evaluation on 6 controlled cone, sphere and B-surface faces covers 6,924 vertices with stored-order
+errors far below swapped-array controls. Forty-one LocalBodies streams contain 281 named entries,
+289 section frames and 540 validated zlib chunks; two entries own multiple sections, two sections
+are multi-chunk, every stream ends exactly, and all 289 section tails are zero. An MFC UTF-16 name
+identifies 113 modern configuration envelopes; 112 equal the union of saved face bounds, one is
+larger than both the display and active body, and none occurs in 36 readable legacy files.
+
+**Known gaps**: Other surface tags were counted but not individually evaluated. LocalBodies entry
+header fields and the zero tail's intended role remain unnamed. Twenty files lack a readable display
+stream for the configuration comparison, and one modern configuration envelope remains unexplained.
+
+**Evidence**: [2026-11-05_v0.5-EXP091.md](evidence/2026-11-05_v0.5-EXP091.md),
+`evidence/scripts/EXP091/`.
+

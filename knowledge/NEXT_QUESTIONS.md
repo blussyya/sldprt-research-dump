@@ -4,10 +4,11 @@
 
 ## NQ-030: Decode the optional scalar arrays and remaining surface records
 
-**Status/date:** Narrowed, 2026-11-05. Surface tags and geometry are resolved for the corpus by
-EXP-055, EXP-074, EXP-075 and EXP-078. The optional per-vertex scalar arrays still have no verified
-purpose; their counts are decoded, but constant or weakly varying values do not justify names.
-Evidence: [EXP-045](evidence/2026-09-14_v0.4.8-EXP045.md).
+**Status/date:** Answered, 2026-11-05 (EXP-091). The two arrays are per-vertex surface parameters,
+conventionally `(u,v)`. Direct evaluation covers 6 controlled cone, sphere and B-surface faces and
+6,924 vertices; swapping the arrays fails by millimetres to metres. The same layout occurs on
+other surface tags, which were counted but not individually evaluated.
+Evidence: [EXP-091](evidence/2026-11-05_v0.5-EXP091.md).
 
 ## NQ-031: Obtain a discriminating nonzero Block3 sample
 
@@ -37,14 +38,13 @@ research history; its old `Active` and `Ready` labels are not the current priori
 
 | Work possible with the current corpus | What remains |
 |---|---|
-| NQ-030 | Name the optional display scalar arrays. |
 | NQ-031 remainder | Decode Block3 strip controls and the tangent 0/0 exceptions. |
 | NQ-032 | Decode display edge-type numbers and the record after the edge table. |
 | NQ-033 / NQ-053 | Select the active configuration when ModelHeader is absent; define duplicate-stream handling. |
 | NQ-016 / NQ-051 | Separate the remaining off-surface display vertices from tessellation and mesh-quality effects. |
 | NQ-044 remainder | Name the still-opaque bytes around the decoded per-face bounds. |
-| NQ-046 | Explain configuration-level bounds and check their legacy form. |
-| NQ-048 remainder | Decode LocalBodies framing and the eight constant section-tail bytes across the expanded corpus. |
+| NQ-046 remainder | Explain the one configuration envelope larger than both display and active body, and older modern saves with no record. |
+| NQ-048 remainder | Name the 10/18-byte LocalBodies entry-header fields; the entry, section and chunk framing is decoded. |
 | NQ-057 / NQ-058 | Diagnose the remaining triangulation failures and `2f121983` evidence; converter changes stay outside this branch. |
 | NQ-059 | Replace dimension-placement scans with bounded layouts. |
 | NQ-060 | Find the modern per-feature Created/Modified record; Biography is not it. |
@@ -1159,6 +1159,14 @@ Open: whether it also exists in the legacy container (the legacy scan found 145 
 the face count, with no surplus, suggesting it may not), and whether the two-record files are
 genuinely multi-configuration.
 
+**Update, 2026-11-05 (EXP-091):** The record is an overall saved-display envelope. Its MFC UTF-16
+configuration name ends eight bytes after the record begins. This identifies 113 records in 113 of
+166 readable modern files; 112 equal the union of the saved face boxes. One is larger than both the
+display and active native body. No record with this signature occurs in 36 readable legacy files.
+The earlier 47-record count included two arithmetic matches that were not configuration records.
+What remains is the lone broader envelope and the version/layout reason many older modern files do
+not carry the record.
+
 **Date raised**: 2026-09-21 (EXP-064).
 
 ## NQ-047 — ANSWERED 2026-09-21 (EXP-065): the premise was wrong
@@ -1206,6 +1214,13 @@ and found it outside the Partition streams.
    including `0xf535`/`0xf530`. n = 1; an imported-body model with a second import would discriminate.
 3. **The 8 trailing section bytes** are zero in 242/242 sections. Zero on every input tells us nothing about their
    role; a file where they are not zero is needed.
+
+**Update, 2026-11-05 (EXP-091):** LocalBodies framing is decoded across 41 streams: 281 named
+entries own 289 section frames and all streams end exactly. Two entries own multiple frames and use
+a ten-byte continuation header. The two sections over 1 MiB contain 48 and 205 zlib chunks; all 540
+chunks across the survey validate. The eight-byte tail remains zero in 289/289 LocalBodies
+sections. The remaining format work is naming the 10- and 18-byte entry-header fields. A nonzero
+tail would still be needed to name the tail's intended role.
 
 **Date raised**: 2026-09-29 (EXP-074).
 

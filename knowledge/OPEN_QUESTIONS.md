@@ -6,6 +6,35 @@ Project-wide unresolved questions. Do not promote any item here into a fact with
 
 Source migrated from `v0.3.5/docs/research/OPEN_QUESTIONS.md`.
 
+## Audited current state — 2026-11-05
+
+The inline statuses below are historical. This table supersedes them; `NEXT_QUESTIONS.md` is the
+operational queue.
+
+| Historical entries | Current state |
+|---|---|
+| OQ-001 through OQ-006, OQ-008 through OQ-015, OQ-017 through OQ-019, OQ-025 through OQ-036 | Retired by the bounded DisplayLists grammar, edge-ID join, native B-rep, and the C18 split-line control. |
+| OQ-016, OQ-022, OQ-023 | Answered or falsified in their existing entries. |
+| OQ-007 | Still open: the small LWDATA-adjacent stream has no bounded layout. |
+| OQ-021, OQ-024 | Still open in narrower form: explain tessellation density and the remaining off-surface vertices (NQ-016/NQ-051). |
+
+The current broad unknowns are:
+
+- Display metadata: the remaining Block3 strip controls and tangent exceptions, display edge-type
+  records, the unexplained bytes around per-face bounds, and the remaining off-surface vertices.
+- Configuration and container rules: active configuration without ModelHeader, duplicate-stream
+  handling, the LWDATA-adjacent stream, and the one configuration envelope larger than its body.
+- Feature history: bounded dimension-placement layouts and modern per-feature Created/Modified
+  records.
+- LocalBodies: the entry and chunk framing is decoded by EXP-091; the 10/18-byte entry-header
+  fields and the intended role of the always-zero section tail remain unnamed.
+- Conversion validation: the remaining triangulation and resolve failures in NQ-057/NQ-058.
+- Inputs still needed: a legitimate zero-normal face, varying declaration constants, XT types
+  85/87/88/89, and controlled rebuild/redraw saves.
+
+EXP-091 also closes the old optional-scalar question: the pair is per-vertex surface `(u,v)` on
+the controlled cone, sphere and B-surface checks.
+
 ---
 
 ## OQ-001: What Grammar Does Block 1 Follow?
