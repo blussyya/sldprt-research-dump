@@ -1,5 +1,18 @@
 # Research Handoff
 
+## Validation checkpoint — 2026-11-05, EXP-090
+
+`NEXT_QUESTIONS.md` has been audited against the later experiments. Old Block1 grammar and token
+signature work is marked retired, later completed readers are marked answered, and the top now has
+a short current queue split by whether the existing corpus can answer it.
+
+C18 also supplies NQ-029's supposedly missing split-line control. In both SW2011 and SW2022, the
+`y=0` side keeps the same boundary and raw Block1 when its neighbor changes to the new split face.
+The two sides whose own boundary gains the split midpoint gain an edge ID and a longer Block1. An
+independent check reproduced the raw and native-topology result.
+
+Evidence: [2026-11-05_v0.5-EXP090.md](evidence/2026-11-05_v0.5-EXP090.md).
+
 ## Validation checkpoint — 2026-11-05, EXP-089
 
 The one-face bodies in the controlled `ResolvedFeatures` streams are selected support-face

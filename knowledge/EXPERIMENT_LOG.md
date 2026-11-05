@@ -1522,3 +1522,18 @@ length families but does not yet decode them.
 **Evidence**: [2026-11-05_v0.5-EXP089.md](evidence/2026-11-05_v0.5-EXP089.md),
 `evidence/scripts/EXP089/`.
 
+## EXP-090 — Next-question audit and the C18 split-line control
+
+**Question**: Which unresolved labels are stale, and does the later C18 control finally separate
+new-face adjacency from changing a face's own boundary?
+
+**Result**: The queue now distinguishes current work from historical questions retired by the
+Block1 edge-ID decode or answered by later controls and readers. C18 closes NQ-029's proposed test.
+In both SW2011 and SW2022, the `y=0` side keeps identical vertices, edge IDs and raw Block1 while
+its top neighbor changes to the newly created split face. The two sides whose own boundaries gain
+the split midpoint also gain an edge ID and their Block1 arrays grow. A blind check reproduced the
+raw sequences and native neighbor change.
+
+**Evidence**: [2026-11-05_v0.5-EXP090.md](evidence/2026-11-05_v0.5-EXP090.md),
+`evidence/scripts/EXP090/`.
+
