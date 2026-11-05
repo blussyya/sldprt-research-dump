@@ -1612,3 +1612,19 @@ to converter code on this branch.
 **Evidence**: [2026-11-05_v0.5-EXP094.md](evidence/2026-11-05_v0.5-EXP094.md),
 `evidence/scripts/EXP094/`.
 
+## EXP-095 — Duplicate modern-stream policy
+
+**Question**: Does the modern corpus contain repeated valid stream names, and what should the
+reader do if one appears?
+
+**Result**: Across 183 modern containers, 19,655 raw signature candidates reduce to 7,374 valid
+nonempty size-and-CRC-checked entries and 521 valid empty entries. No valid nonempty name occurs
+twice within a file. The corpus therefore provides no first-wins or last-wins precedent. The
+documented policy is to coalesce byte-identical duplicate payloads and reject conflicting ones.
+
+**Known gap**: Neither duplicate branch occurs naturally in this corpus, and the policy is not yet
+implemented in the owning reader on this branch.
+
+**Evidence**: [2026-11-05_v0.5-EXP095.md](evidence/2026-11-05_v0.5-EXP095.md),
+`evidence/scripts/EXP095/`.
+

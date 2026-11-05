@@ -23,7 +23,7 @@ The current broad unknowns are:
 - Display metadata: the remaining Block3 strip controls and tangent exceptions, display edge-type
   records, the unnamed states and scalar in the bounds tail, and the remaining off-surface vertices.
 - Configuration and container rules: implementing the saved-bounds fallback when ModelHeader is
-  absent, duplicate-stream handling, the LWDATA-adjacent stream, the one configuration envelope
+  absent, duplicate-stream rejection, the LWDATA-adjacent stream, the one configuration envelope
   larger than its body, and the post-version-13000 omission rule for imported or multi-configuration
   files.
 - Feature history: bounded dimension-placement layouts and modern per-feature Created/Modified
@@ -49,6 +49,10 @@ rule remains open.
 EXP-094 answers the old no-ModelHeader geometry question. Saved face count and analytic display
 bounds select one native conversion geometry in all six multi-configuration files. Four retain
 several possible IDs, but their normalized exact STEP output is identical.
+
+EXP-095 finds no duplicate valid nonempty stream names among 7,374 entries in 183 modern files.
+Because the corpus supplies no precedence rule, the recorded reader policy is to coalesce only
+byte-identical duplicates and reject conflicting payloads.
 
 ---
 

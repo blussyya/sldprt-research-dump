@@ -29,8 +29,9 @@ meaning of those display-only values.
 **Status/date:** Partly answered, 2026-11-05. CRC validation is implemented (EXP-057 and the
 2026-09-26 parser follow-up), node IDs are scoped per body (EXP-085), and ModelHeader selects the
 active configuration where present (EXP-084). EXP-094 selects one conversion geometry in every
-file without ModelHeader from display face count and analytic bounds. A deliberate duplicate-stream
-policy remains open.
+file without ModelHeader from display face count and analytic bounds. EXP-095 finds no valid
+duplicate names in 7,374 modern streams and defines a conservative reader policy: coalesce only
+identical payloads and reject conflicts. Implementation remains open.
 
 ## Audited current queue — 2026-11-05
 
@@ -41,7 +42,7 @@ research history; its old `Active` and `Ready` labels are not the current priori
 |---|---|
 | NQ-031 remainder | Decode Block3 strip controls and the tangent 0/0 exceptions. |
 | NQ-032 | Decode display edge-type numbers and the record after the edge table. |
-| NQ-033 remainder | Implement EXP-094's saved-bounds geometry selection; define duplicate-stream handling. |
+| NQ-033 remainder | Implement EXP-094's saved-bounds geometry selection and EXP-095's duplicate rejection in the owning reader. |
 | NQ-016 / NQ-051 | Separate the remaining off-surface display vertices from tessellation and mesh-quality effects. |
 | NQ-044 remainder | Name the directional variant's scalar and the other tail states; the fixed head and unit-vector case are decoded. |
 | NQ-046 remainder | Explain the one broader envelope and the eight readable post-13000 omissions. EXP-093 explains the older absence with a version-13000 introduction boundary. |

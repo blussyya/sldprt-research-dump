@@ -1,5 +1,18 @@
 # Research Handoff
 
+## Validation checkpoint — 2026-11-05, EXP-095
+
+The duplicate-stream question now has a bounded survey and a reader policy. All 183 modern
+containers contain 7,374 valid nonempty entries after printable-name, inflation-size, and CRC
+checks. No valid name is duplicated within a file. Another 521 valid entries are empty and omitted
+the same way as the current reader.
+
+Since the corpus establishes no duplicate precedence, a safe reader should coalesce a repeated
+name only when the inflated bytes are identical and reject conflicting payloads. This is a design
+policy rather than a recovered format rule; implementation remains outside this branch.
+
+Evidence: [2026-11-05_v0.5-EXP095.md](evidence/2026-11-05_v0.5-EXP095.md).
+
 ## Validation checkpoint — 2026-11-05, EXP-094
 
 Files without `Config-N-ModelHeader` no longer need a lowest-number geometry guess. Six of the
