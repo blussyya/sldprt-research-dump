@@ -1,0 +1,41 @@
+{
+ "C1_zlib_wrapped_inflation_on_corpus": {
+  "pattern_hits": 19655,
+  "F3_pass": 10694,
+  "F4_pass": 0,
+  "F5_pass": 0,
+  "valid_nonempty": 0,
+  "valid_empty": 0
+ },
+ "C2_one_bit_flip_in_compressed_data": {
+  "files_checked": 60,
+  "valid_nonempty_before": 2736,
+  "valid_nonempty_after": 2676,
+  "target_still_present": 0
+ },
+ "C3_random_noise_with_planted_headers": {
+  "pattern_hits": 11608,
+  "F0_pass": 11608,
+  "F1_pass": 44,
+  "F2_pass": 44,
+  "F3_pass": 0,
+  "F4_pass": 0,
+  "F5_pass": 0,
+  "valid_nonempty": 0,
+  "valid_empty": 0
+ },
+ "C4_printable_name_filter": {
+  "nonprintable_name": 7663,
+  "nonprintable_name_crc_ok": 0
+ },
+ "C5_empty_entries": {
+  "n": 521,
+  "crc_zero": 521,
+  "csize_le_8": 521
+ },
+ "C6_duplicate_check_positive_control_doubled_files": {
+  "files": 40,
+  "nonempty_names": 1948,
+  "names_flagged_duplicate": 1948
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "recordsOwnedByDisplayParserWithMetadata": 13589,
+ "files": 118,
+ "modernFilesScanned": 178,
+ "headIs_0_0_1": 13589,
+ "binaryWordCombinations_at_92_96_104_108_128": 8,
+ "gatedRecords_104_and_108_are_1": 2986,
+ "gatedNormInRange_0_999999959_to_1_000000040": 2986,
+ "gatedNormMin": 0.9999999591936595,
+ "gatedNormMax": 1.000000039589142,
+ "gatedDisplayTag4002_cylinders_claimed_2406": 2406,
+ "gatedDisplayTag4002_by_native_surface": {
+  "CYLINDER": 740,
+  "no native face (id not in any parsable section)": 1664,
+  "PLANE": 2
+ },
+ "gatedDisplayTag4002_with_no_native_body_parse": 48,
+ "nativeCylinderChecked": 740,
+ "nativeCylinderMaxAbsCos": 2.8204735049704858e-8,
+ "nativeCylinderWithinTol_2_83e_8": 740,
+ "nativeErrorFiles": 17,
+ "nativeErrorSample": [
+  {
+   "file": "test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt",
+   "error": "missing base schema for node type 60 at 2149"
+  },
+  {
+   "file": "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+   "error": "missing base schema for node type 60 at 256967"
+  },
+  {
+   "file": "test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT",
+   "error": "Expected one Config-0-Partition stream; found 0"
+  },
+  {
+   "file": "test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT",
+   "error": "missing base schema for node type 100 at 572"
+  },
+  {
+   "file": "test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT",
+   "error": "Expected one Config-0-Partition stream; found 0"
+  }
+ ]
+}

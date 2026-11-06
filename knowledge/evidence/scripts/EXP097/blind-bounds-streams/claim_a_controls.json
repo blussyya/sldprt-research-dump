@@ -1,0 +1,67 @@
+{
+ "K1_ungated": {
+  "records": 10603,
+  "unitNormInRange": 790,
+  "zeroLength": 4592,
+  "nativeCylinders": 1573,
+  "nativeCylindersWithinTol": 305,
+  "nativeCylinderMedianAbsCos": 0.16399549497930813,
+  "gatedUnitNormRecords_for_contrast": 2986
+ },
+ "K2_shuffled_nonparallel_axis": {
+  "n": 740,
+  "withinTol": 1,
+  "median": 0.6990449982741256,
+  "p10": 0.1859115957320542
+ },
+ "K3_reference_direction": {
+  "n": 740,
+  "absCosWithXAxis_gt_1_minus_1e6": 6,
+  "absCosWithAxis_gt_1_minus_1e6": 0
+ },
+ "K4_candidate_directions": {
+  "h1_unit_max_minus_center": {
+   "n": 740,
+   "absCosGt_1_minus_1e6": 0
+  },
+  "h2_unit_center_minus_min": {
+   "n": 740,
+   "absCosGt_1_minus_1e6": 0
+  },
+  "h3_radial_of_center_about_axis": {
+   "n": 740,
+   "absCosGt_1_minus_1e6": 396
+  }
+ },
+ "K5_other_native_surfaces_vs_axis_or_normal": {
+  "CONE": {
+   "n": 42,
+   "withinTol": 0,
+   "absCosGt_1_minus_1e6": 0
+  },
+  "TORUS": {
+   "n": 24,
+   "withinTol": 0,
+   "absCosGt_1_minus_1e6": 0
+  },
+  "PLANE": {
+   "n": 2,
+   "withinTol": 1,
+   "absCosGt_1_minus_1e6": 0
+  },
+  "SPHERE": {
+   "n": 5,
+   "withinTol": 0,
+   "absCosGt_1_minus_1e6": 0
+  }
+ },
+ "K6_random_unit_vectors": {
+  "trials": 14800,
+  "withinTol": 0
+ },
+ "K7_supplementary_display_axis_not_native": {
+  "n": 2406,
+  "withinTol": 2406,
+  "maxAbsCos": 2.8204735049704858e-8
+ }
+}
