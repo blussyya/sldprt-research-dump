@@ -1,5 +1,5 @@
 'use strict';
-const fs=require('fs'),path=require('path'),S=require('/workspace/solidworks-converters/src');
+const fs=require('fs'),path=require('path'),S=require((process.env.SLDPRT_CONVERTER||require('path').resolve(__dirname,'../../../../../../solidworks-converters'))+'/src');
 const root=path.resolve(__dirname,'../../../../../test files online');
 function files(p){return fs.readdirSync(p,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(path.join(p,e.name)):/\.sldprt$/i.test(e.name)?[path.join(p,e.name)]:[]);}
 const totals={files:0,read:0,faces:0,bytes:0,nonzero:0,rawMismatch:0,values:{},roles:{},filesWithNonzero:[],errors:[]};

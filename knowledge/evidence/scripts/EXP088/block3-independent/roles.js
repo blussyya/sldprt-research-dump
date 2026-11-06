@@ -1,5 +1,5 @@
 'use strict';
-const fs=require('fs'),path=require('path'),S=require('/workspace/solidworks-converters/src');
+const fs=require('fs'),path=require('path'),S=require((process.env.SLDPRT_CONVERTER||require('path').resolve(__dirname,'../../../../../../solidworks-converters'))+'/src');
 const root=path.resolve(__dirname,'../../../../../test files online'),files=JSON.parse(fs.readFileSync(path.join(__dirname,'results.json'))).totals.filesWithNonzero.map(x=>x.file);
 const out={controls:{},edgeFlags:{},mixedEdgeExamples:[],byFile:[]};
 const plus=(o,k)=>o[k]=(o[k]||0)+1;
