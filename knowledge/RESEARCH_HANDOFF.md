@@ -1,5 +1,19 @@
 # Research Handoff
 
+## Validation checkpoint — 2026-11-06, EXP-096
+
+The last varying LocalBodies entry-header field is decoded. Flag 1 exactly matches
+`BODY_IN_LIGHTWEIGHT_PERM=0` on all eight entries; those bodies are excluded from the lightweight
+permanent body set.
+Flag 0 covers 258 bodies with value 1 and 16 bodies without the attribute, which EXP-084 already
+established as the included default. No decoded body contradicts the relationship.
+
+Seven payloads remain unread because SPUN_SURF node type 68 lacks a base schema, but every one has
+flag zero. The LocalBodies framing question is now reduced to the intended meaning of the
+eight-byte section tail, which is zero in every available sample.
+
+Evidence: [2026-11-06_v0.5-EXP096.md](evidence/2026-11-06_v0.5-EXP096.md).
+
 ## Validation checkpoint — 2026-11-05, EXP-095
 
 The duplicate-stream question now has a bounded survey and a reader policy. All 183 modern

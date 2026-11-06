@@ -46,7 +46,7 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-016 / NQ-051 | Separate the remaining off-surface display vertices from tessellation and mesh-quality effects. |
 | NQ-044 remainder | Name the directional variant's scalar and the other tail states; the fixed head and unit-vector case are decoded. |
 | NQ-046 remainder | Explain the one broader envelope and the eight readable post-13000 omissions. EXP-093 explains the older absence with a version-13000 introduction boundary. |
-| NQ-048 remainder | Name the LocalBodies entry flag and the always-zero section tail; the two entry-header layouts are decoded. |
+| NQ-048 remainder | Find a nonzero LocalBodies section tail; EXP-096 decodes the entry flag as excluded from the lightweight permanent body set. |
 | NQ-057 / NQ-058 | Diagnose the remaining triangulation failures and `2f121983` evidence; converter changes stay outside this branch. |
 | NQ-059 | Replace dimension-placement scans with bounded layouts. |
 | NQ-060 | Find the modern per-feature Created/Modified record; Biography is not it. |
@@ -1250,6 +1250,13 @@ tail would still be needed to name the tail's intended role.
 word and an exact section count; its two multi-section controls advertise 2 and 8. The flag is one
 on eight single-solid entries, but zero also occurs on solid entries and cannot yet be named. The
 always-zero section tail also remains open.
+
+**Update, 2026-11-06 (EXP-096):** The entry flag mirrors body inclusion with no contradiction on
+282 decoded bodies. All eight flag-1 entries carry `BODY_IN_LIGHTWEIGHT_PERM=0`; flag-0 covers 258
+bodies with value 1 and 16 where the attribute is absent, which EXP-084 established as the included
+default. Seven unread node-type-68 payloads are all flag zero. The flag marks exclusion from the
+lightweight permanent body set; the reason for exclusion is not encoded here. Only the always-zero
+section tail remains from the current framing question.
 
 **Date raised**: 2026-09-29 (EXP-074).
 

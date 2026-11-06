@@ -28,8 +28,8 @@ The current broad unknowns are:
   files.
 - Feature history: bounded dimension-placement layouts and modern per-feature Created/Modified
   records.
-- LocalBodies: the 10/18-byte entry headers, entry table and chunk framing are decoded by EXP-092;
-  one entry flag and the intended role of the always-zero section tail remain unnamed.
+- LocalBodies: the 10/18-byte entry headers, body-set exclusion flag, entry table and chunk framing
+  are decoded by EXP-092/096; only the intended role of the always-zero section tail remains unnamed.
 - Conversion validation: the remaining triangulation and resolve failures in NQ-057/NQ-058.
 - Inputs still needed: a legitimate zero-normal face, varying declaration constants, XT types
   85/87/88/89, and controlled rebuild/redraw saves.
@@ -53,6 +53,10 @@ several possible IDs, but their normalized exact STEP output is identical.
 EXP-095 finds no duplicate valid nonempty stream names among 7,374 entries in 183 modern files.
 Because the corpus supplies no precedence rule, the recorded reader policy is to coalesce only
 byte-identical duplicates and reject conflicting payloads.
+
+EXP-096 closes the LocalBodies entry-flag question. Flag 1 exactly matches an explicit
+`BODY_IN_LIGHTWEIGHT_PERM=0` body attribute on all eight cases; flag 0 covers explicit 1 or the
+included-by-default missing attribute.
 
 ---
 

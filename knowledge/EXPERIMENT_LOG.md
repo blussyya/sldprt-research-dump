@@ -1628,3 +1628,19 @@ implemented in the owning reader on this branch.
 **Evidence**: [2026-11-05_v0.5-EXP095.md](evidence/2026-11-05_v0.5-EXP095.md),
 `evidence/scripts/EXP095/`.
 
+## EXP-096 — The LocalBodies exclusion flag
+
+**Question**: What does the remaining shared flag in the 10- and 18-byte LocalBodies entry headers
+mean?
+
+**Result**: It mirrors the body attribute that controls whether an imported body belongs to the
+lightweight permanent body set. All eight flag-1 entries carry `BODY_IN_LIGHTWEIGHT_PERM=0`. Flag 0
+covers 258 decoded bodies with value 1 and 16 with the attribute absent, the included default
+established in EXP-084. There are no contradictions across 282 decoded bodies in 274 entries.
+
+**Known gap**: Seven flag-0 payloads cannot be read because their SPUN_SURF node type lacks a base
+schema. The eight-byte section tail remains zero everywhere and cannot be named without variation.
+
+**Evidence**: [2026-11-06_v0.5-EXP096.md](evidence/2026-11-06_v0.5-EXP096.md),
+`evidence/scripts/EXP096/`.
+
