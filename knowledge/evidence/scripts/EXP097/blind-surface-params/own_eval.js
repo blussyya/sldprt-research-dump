@@ -40,6 +40,10 @@ function sphereEval(n){ // P(u,v) = c + r (cos v (cos u x + sin u y) + sin v a);
 }
 
 // ---- B-splines, Cox-de Boor written out here ----
+// Stored parameters are float32. A value a few float32 ulps outside the float64 domain end is the
+// same parameter as the end, so clamp it there (tolerance 1e-6 of the domain width). Anything
+// further out is left alone and evaluates to NaN.
+function clampT(t,lo,hi){const w=hi-lo,tol=1e-6*w;if(t<lo&&lo-t<=tol)return lo;if(t>hi&&t-hi<=tol)return hi;return t;}
 function expandKnots(mult,kn){const out=[];mult.forEach((m,i)=>{for(let j=0;j<m;j++)out.push(kn[i]);});return out;}
 // Nonzero-or-zero basis N_{i,p}(t), i = 0..n-1, for knot vector k (length n+p+1). The domain is
 // [k[p], k[n]]; the right end is included in the last non-degenerate span.
@@ -61,7 +65,7 @@ function nurbsSurfaceEval(node,nodeAt,order='vfast'){
   const Q=(a,b)=>{const idx=order==='vfast'?(a*nv+b):(b*nu+a);const q=flat.slice(idx*dim,idx*dim+dim);
     if(rational){const w=q[dim-1];return {p:[q[0]/w,q[1]/w,q[2]/w],w};}return {p:q.slice(0,3),w:1};};
   return {name:'B_SURFACE',domain:[[ku[pu],ku[nu]],[kv[pv],kv[nv]]],
-    S:(u,vv)=>{const Nu=basisAll(ku,pu,nu,u),Nv=basisAll(kv,pv,nv,vv);let P=[0,0,0],W=0;
+    S:(u0,v0)=>{const u=clampT(u0,ku[pu],ku[nu]),vv=clampT(v0,kv[pv],kv[nv]);const Nu=basisAll(ku,pu,nu,u),Nv=basisAll(kv,pv,nv,vv);let P=[0,0,0],W=0;
       for(let a=0;a<nu;a++)for(let b=0;b<nv;b++){const f=Nu[a]*Nv[b];if(!f)continue;const q=Q(a,b),g=f*q.w;P=V.add(P,V.mul(q.p,g));W+=g;}
       return V.mul(P,1/W);}};
 }
@@ -69,7 +73,7 @@ function nurbsCurveEval(node,nodeAt){
   const v=node.values,n=v.n_vertices,p=v.degree,dim=v.vertex_dim,rational=!!v.rational;
   const flat=nodeAt(v.bspline_vertices).values.vertices,k=expandKnots(nodeAt(v.knot_mult).values.mult,nodeAt(v.knots).values.knots);
   if(k.length!==n+p+1)throw Error('curve knot count mismatch');
-  return {domain:[k[p],k[n]],S:(t)=>{const N=basisAll(k,p,n,t);let P=[0,0,0],W=0;
+  return {domain:[k[p],k[n]],S:(t0)=>{const t=clampT(t0,k[p],k[n]);const N=basisAll(k,p,n,t);let P=[0,0,0],W=0;
     for(let i=0;i<n;i++){if(!N[i])continue;const q=flat.slice(i*dim,i*dim+dim),w=rational?q[dim-1]:1;
       const c=rational?[q[0]/w,q[1]/w,q[2]/w]:q.slice(0,3);P=V.add(P,V.mul(c,N[i]*w));W+=N[i]*w;}
     return V.mul(P,1/W);}};

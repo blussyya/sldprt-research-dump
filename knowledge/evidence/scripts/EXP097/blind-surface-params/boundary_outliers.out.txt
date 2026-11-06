@@ -1,0 +1,14 @@
+new/SW2022/C16_loft_spline/model.SLDPRT | B_SURFACE            faces 4   outliers on boundary 240   of 448    | interior outliers 8     of 1328    | max err bnd 2.29e-6 int 1.47e-6
+online/2018/0132519a_102_STEM.SLDPRT | SPHERE                  faces 8   outliers on boundary 124   of 356    | interior outliers 16    of 596     | max err bnd 1.69e-6 int 7.83e-7
+online/2019/e8c40c25_psu.SLDPRT | SPHERE                       faces 5   outliers on boundary 110   of 224    | interior outliers 8     of 312     | max err bnd 1.07e-5 int 7.94e-6
+online/2019/fb449daa_Gloworm PCB.SLDPRT | B_SURFACE            faces 6   outliers on boundary 461   of 675    | interior outliers 32    of 5709    | max err bnd 3.44e-7 int 3.07e-7
+online/2021/85aabbde_84T Gear.SLDPRT | B_SURFACE               faces 4   outliers on boundary 344   of 859    | interior outliers 0     of 1671    | max err bnd 5.66e-5 int 0.00e+0
+online/2021/916d4a0a_36T Gear.SLDPRT | B_SURFACE               faces 28  outliers on boundary 647   of 1696   | interior outliers 2     of 1886    | max err bnd 2.55e-5 int 9.43e-6
+online/2021/eb0b2a21_60T Gear.SLDPRT | B_SURFACE               faces 28  outliers on boundary 1177  of 2484   | interior outliers 9     of 1960    | max err bnd 4.28e-5 int 3.29e-5
+2226-01_Input_Inline_Tube_Adapter.SLDPRT | B_SURFACE           faces 6   outliers on boundary 49    of 135    | interior outliers 0     of 68      | max err bnd 5.83e-5 int 0.00e+0
+ine/2022/db8a97e2_écrou fileté M5.SLDPRT | B_SURFACE           faces 2   outliers on boundary 3325  of 6810   | interior outliers 45    of 62      | max err bnd 1.55e-6 int 1.47e-6
+e/2023/d8206ed0_J6_Flange_Adapter.SLDPRT | B_SURFACE           faces 4   outliers on boundary 287   of 691    | interior outliers 2     of 7       | max err bnd 9.37e-6 int 7.47e-6
+original/Dekor.SLDPRT | B_SURFACE                              faces 8   outliers on boundary 316   of 547    | interior outliers 8     of 17      | max err bnd 2.86e-5 int 2.31e-5
+original/Dekor.SLDPRT | SWEPT_SURF                             faces 166 outliers on boundary 974   of 5482   | interior outliers 3     of 20      | max err bnd 6.92e-4 int 2.19e-5
+original/Helical Bevel Gear.SLDPRT | B_SURFACE                 faces 32  outliers on boundary 1104  of 2192   | interior outliers 46    of 2687    | max err bnd 1.27e-4 int 1.26e-4
+ (ultimate test)/USB hub case TOP.SLDPRT | B_SURFACE           faces 2   outliers on boundary 92    of 169    | interior outliers 1     of 228     | max err bnd 1.80e-5 int 1.63e-5

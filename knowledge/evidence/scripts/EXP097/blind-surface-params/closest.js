@@ -17,7 +17,7 @@ function closest(E,X){
   const [[u0,u1],[v0,v1]]=E.domain;
   const bounded=isFinite(u0)&&isFinite(u1)&&isFinite(v0)&&isFinite(v1);
   let best={u:0,v:0,d:Infinity};
-  const G=bounded?120:60;
+  const G=bounded?60:40;
   const ulo=bounded?u0:0,uhi=bounded?u1:2*Math.PI,vlo=bounded?v0:-1,vhi=bounded?v1:1;
   for(let a=0;a<=G;a++)for(let b=0;b<=G;b++){const u=ulo+(uhi-ulo)*a/G,v=vlo+(vhi-vlo)*b/G;const d=V.norm(V.sub(E.S(u,v),X));if(d<best.d)best={u,v,d};}
   let u=best.u,v=best.v;
@@ -49,6 +49,7 @@ for(const pf of scan.perFile){
     for(let i=0;i<f.vertexCount;i++){
       const X=[Vx[3*i],Vx[3*i+1],Vx[3*i+2]];const e=V.norm(V.sub(E.S(A[i],B[i]),X));
       if(e<=1e-7)continue;
+      if(dists.length>=25)continue;   // cap: a sample of outliers per face keeps the run short
       const c=closest(E,X);dists.push(c.d);errs.push(e);
       paramMis.push(Math.hypot(c.u-A[i],c.v-B[i]));
     }

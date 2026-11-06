@@ -1,0 +1,458 @@
+{
+ "withRecord": {
+  "files": 113,
+  "resaved": 34,
+  "singleRelease": 79,
+  "noHistory": 0
+ },
+ "withoutRecord": {
+  "files": 8,
+  "resaved": 5,
+  "singleRelease": 3,
+  "noHistory": 0
+ },
+ "omissions": [
+  {
+   "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+   "dl": 15000,
+   "record": false,
+   "localBodies": true,
+   "configs": 1,
+   "releases": [
+    1950,
+    2200,
+    2500,
+    3100,
+    3800,
+    4400,
+    9000,
+    15000
+   ],
+   "error": null
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "dl": 16000,
+   "record": false,
+   "localBodies": true,
+   "configs": 1,
+   "releases": [
+    16000
+   ],
+   "error": null
+  },
+  {
+   "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+   "dl": 16000,
+   "record": false,
+   "localBodies": true,
+   "configs": 2,
+   "releases": [
+    3400,
+    4400,
+    4700,
+    4884,
+    4888,
+    4894,
+    5000,
+    5238,
+    5240,
+    5248,
+    5800,
+    6000,
+    6240,
+    6247,
+    6252,
+    6800,
+    7000,
+    7232,
+    7248,
+    7254,
+    7800,
+    8000,
+    8218,
+    8220,
+    8223,
+    8800,
+    9000,
+    9226,
+    9233,
+    9239,
+    9800,
+    10800,
+    11000,
+    13000,
+    14000,
+    16000
+   ],
+   "error": null
+  },
+  {
+   "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+   "dl": 16000,
+   "record": false,
+   "localBodies": true,
+   "configs": 1,
+   "releases": [
+    16000
+   ],
+   "error": null
+  },
+  {
+   "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+   "dl": 17000,
+   "record": false,
+   "localBodies": true,
+   "configs": 1,
+   "releases": [
+    1950,
+    2200,
+    2500,
+    3100,
+    3800,
+    4400,
+    9000,
+    11000,
+    17000
+   ],
+   "error": null
+  },
+  {
+   "file": "test files online/2025/05d0b4c3_pin-2-2.SLDPRT",
+   "dl": 18000,
+   "record": false,
+   "localBodies": true,
+   "configs": 1,
+   "releases": [
+    12000,
+    13000,
+    15000,
+    16000,
+    18000
+   ],
+   "error": null
+  },
+  {
+   "file": "test files online/2025/6fd68589_pin-2-1.SLDPRT",
+   "dl": 18000,
+   "record": false,
+   "localBodies": true,
+   "configs": 1,
+   "releases": [
+    12000,
+    13000,
+    15000,
+    16000,
+    18000
+   ],
+   "error": null
+  },
+  {
+   "file": "test files online/2025/c613782b_Крепёжная-Планка.SLDPRT",
+   "dl": 18000,
+   "record": false,
+   "localBodies": false,
+   "configs": 4,
+   "releases": [
+    18000
+   ],
+   "error": null
+  }
+ ],
+ "withRecordLocalBodiesOrMulti": [
+  {
+   "file": "test files online/2021/85aabbde_84T Gear.SLDPRT",
+   "releases": [
+    11000,
+    12000,
+    14000
+   ]
+  },
+  {
+   "file": "test files online/2021/916d4a0a_36T Gear.SLDPRT",
+   "releases": [
+    11000,
+    12000,
+    14000
+   ]
+  },
+  {
+   "file": "test files online/2021/bc3292d7_12T Gear.SLDPRT",
+   "releases": [
+    11000,
+    14000
+   ]
+  },
+  {
+   "file": "test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+   "releases": [
+    11000,
+    14000
+   ]
+  },
+  {
+   "file": "test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT",
+   "releases": [
+    1950,
+    2200,
+    2500,
+    3100,
+    3800,
+    4400,
+    9000,
+    15000
+   ]
+  },
+  {
+   "file": "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT",
+   "releases": [
+    15000
+   ]
+  },
+  {
+   "file": "test files online/2024/03afebf4_Profilringe.SLDPRT",
+   "releases": [
+    1500,
+    1750,
+    1950,
+    2200,
+    2500,
+    2800,
+    3100,
+    3400,
+    3800,
+    4100,
+    4400,
+    5000,
+    7000,
+    10000,
+    12000,
+    13000,
+    16000,
+    17000
+   ]
+  },
+  {
+   "file": "test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT",
+   "releases": [
+    3400,
+    4400,
+    4700,
+    4884,
+    4888,
+    4894,
+    5000,
+    5238,
+    5240,
+    5248,
+    5800,
+    6000,
+    6240,
+    6247,
+    6252,
+    6800,
+    7000,
+    7232,
+    7248,
+    7254,
+    7800,
+    8000,
+    8218,
+    8220,
+    8223,
+    8800,
+    9000,
+    9226,
+    9233,
+    9239,
+    9800,
+    10800,
+    11800,
+    12000,
+    12800,
+    13000,
+    13800,
+    15000,
+    15800,
+    16000,
+    16800,
+    17000
+   ]
+  },
+  {
+   "file": "test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT",
+   "releases": [
+    3400,
+    4400,
+    4700,
+    4884,
+    4888,
+    4894,
+    5000,
+    5238,
+    5240,
+    5248,
+    5800,
+    6000,
+    6240,
+    6247,
+    6252,
+    6800,
+    7000,
+    7232,
+    7248,
+    7254,
+    7800,
+    8000,
+    8218,
+    8220,
+    8223,
+    8800,
+    9000,
+    9226,
+    9233,
+    9239,
+    9800,
+    10800,
+    11800,
+    12000,
+    12800,
+    13000,
+    13800,
+    15000,
+    15800,
+    16000,
+    16800,
+    17000
+   ]
+  },
+  {
+   "file": "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+   "releases": [
+    3400,
+    4400,
+    4700,
+    4884,
+    4888,
+    4894,
+    5000,
+    5238,
+    5240,
+    5248,
+    5800,
+    6000,
+    6240,
+    6247,
+    6252,
+    6800,
+    7000,
+    7232,
+    7248,
+    7254,
+    7800,
+    8000,
+    8218,
+    8220,
+    8223,
+    8800,
+    9000,
+    9226,
+    9233,
+    9239,
+    9800,
+    10800,
+    11800,
+    12000,
+    12800,
+    13000,
+    13800,
+    15000,
+    15800,
+    16000,
+    16800,
+    17000
+   ]
+  },
+  {
+   "file": "test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT",
+   "releases": [
+    3400,
+    4400,
+    4700,
+    4884,
+    4888,
+    4894,
+    5000,
+    5238,
+    5240,
+    5248,
+    5800,
+    6000,
+    6240,
+    6247,
+    6252,
+    6800,
+    7000,
+    7232,
+    7248,
+    7254,
+    7800,
+    8000,
+    8218,
+    8220,
+    8223,
+    8800,
+    9000,
+    9226,
+    9233,
+    9239,
+    9800,
+    10800,
+    11800,
+    12000,
+    12800,
+    13000,
+    13800,
+    15000,
+    15800,
+    16000,
+    16800,
+    17000
+   ]
+  },
+  {
+   "file": "test files online/2025/55c163ac_pin-1-2.SLDPRT",
+   "releases": [
+    13000,
+    16000,
+    18000
+   ]
+  },
+  {
+   "file": "test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+   "releases": [
+    19000
+   ]
+  },
+  {
+   "file": "test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT",
+   "releases": [
+    19000
+   ]
+  },
+  {
+   "file": "test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT",
+   "releases": [
+    19000
+   ]
+  },
+  {
+   "file": "test files original/PTC GE8080-8.SLDPRT",
+   "releases": [
+    12000,
+    14000,
+    17000
+   ]
+  }
+ ]
+}

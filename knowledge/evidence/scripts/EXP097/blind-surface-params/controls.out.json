@@ -1,0 +1,92 @@
+{
+ "perturb": [
+  {
+   "surface": "CONE",
+   "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+   "case": "as stored",
+   "maxErr": 1.0874696997972732e-9,
+   "p50": 1.356525040880891e-10
+  },
+  {
+   "surface": "CONE",
+   "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+   "case": "radius +1e-6 m",
+   "maxErr": 0.000001000164859639011,
+   "p50": 0.000001000060448284435
+  },
+  {
+   "surface": "CONE",
+   "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+   "case": "radius +1e-7 m",
+   "maxErr": 1.0016722172829245e-7,
+   "p50": 1.0006077900517262e-7
+  },
+  {
+   "surface": "CONE",
+   "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+   "case": "x_axis rotated 1e-4 rad about axis",
+   "maxErr": 5.0108579081368e-7,
+   "p50": 4.997956460828997e-7
+  },
+  {
+   "surface": "CONE",
+   "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+   "case": "u origin rotated by pi (x -> -x)",
+   "maxErr": 0.010000000176023328,
+   "p50": 0.009999999939588491
+  },
+  {
+   "surface": "SPHERE",
+   "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+   "case": "as stored",
+   "maxErr": 1.241741013449298e-9,
+   "p50": 2.291415184740949e-10
+  },
+  {
+   "surface": "SPHERE",
+   "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+   "case": "radius +1e-6 m",
+   "maxErr": 0.0000010002232360618897,
+   "p50": 0.0000010000279568540262
+  },
+  {
+   "surface": "SPHERE",
+   "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+   "case": "radius +1e-7 m",
+   "maxErr": 1.0022808724143335e-7,
+   "p50": 1.0002815607848344e-7
+  },
+  {
+   "surface": "SPHERE",
+   "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+   "case": "x_axis rotated 1e-4 rad about axis",
+   "maxErr": 5.010840760028947e-7,
+   "p50": 3.370795969826564e-7
+  },
+  {
+   "surface": "SPHERE",
+   "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+   "case": "u origin rotated by pi (x -> -x)",
+   "maxErr": 0.010000000113442356,
+   "p50": 0.006736956572814607
+  }
+ ],
+ "swept": [
+  {
+   "file": "Dekor.SLDPRT",
+   "faces": 311,
+   "unit": {
+    "medianFaceP50": 5.709371735479542e-9,
+    "medianFaceMax": 0.000007613973380068076,
+    "vertsNonfinite": 22,
+    "verts": 8566
+   },
+   "scale": {
+    "medianFaceP50": 0.009706233282584477,
+    "medianFaceMax": 0.009708951757983088,
+    "vertsNonfinite": 22,
+    "verts": 8566
+   }
+  }
+ ]
+}

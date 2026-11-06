@@ -1,6 +1,6 @@
 {
  "CONE ok": 6,
- "SPHERE ok": 22,
+ "SPHERE ok": 21,
  "B_SURFACE ok": 128,
  "- unlinked": 941,
  "BLENDED_EDGE unsupported": 41,
@@ -9,6 +9,6 @@
  "B_SURFACE eval-error": 2,
  "CONE bad-link": 2,
  "CYLINDER bad-link": 2,
- "PLANE bad-link": 4,
- "SPHERE bad-link": 2
+ "SPHERE bad-link": 3,
+ "PLANE bad-link": 4
 }

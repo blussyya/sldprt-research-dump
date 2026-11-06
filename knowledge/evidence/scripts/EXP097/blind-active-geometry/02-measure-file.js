@@ -16,7 +16,7 @@ for (const c of f.configs) {
   row.localBodies = a.localBodies; row.hidden = a.hiddenBodies;
   const m = L.measure(a.parsed, { grid: 60 });
   if (!m.ok) { row.error = m.error; out.configs.push(row); continue; }
-  row.nativeFaces = m.nativeFaces;
+  row.nativeFaces = m.nativeFaces; row.isolatedVertices = m.isolatedVertices; row.isolatedBox = m.isolatedVertices ? { min: m.isolatedBox.min, max: m.isolatedBox.max } : null;
   row.faceCountEqual = m.nativeFaces === out.displayFaces;
   row.boundaryBox = { min: m.boundaryBox.min, max: m.boundaryBox.max };
   row.fullBox = { min: m.fullBox.min, max: m.fullBox.max };

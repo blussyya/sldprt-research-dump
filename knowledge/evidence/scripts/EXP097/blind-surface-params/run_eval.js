@@ -54,6 +54,10 @@ for(const pf of scan.perFile){
     try{surfNode=nodeAt(fn.values.surface);rec.native=surfNode.name;rec.sense=fn.values.sense;E=makeEval(surfNode,nodeAt,{});}catch(e){rec.status='eval-error';rec.error=e.message;results.push(rec);continue;}
     if(!E){rec.status='unsupported';results.push(rec);continue;}
     if(TAG2NAME[f.metadata.typeTag]!==surfNode.name){rec.status='bad-link';rec.tagSays=TAG2NAME[f.metadata.typeTag];results.push(rec);continue;}
+    // geometric join check for spheres: every display vertex must sit on the native sphere within 1e-4 m
+    if(surfNode.name==='SPHERE'){const c=surfNode.values.centre,rad=surfNode.values.radius,Vx=f.vertices;let dev=0;
+      for(let i=0;i<f.vertexCount;i++){const d=O.V.norm(O.V.sub([Vx[3*i],Vx[3*i+1],Vx[3*i+2]],c));dev=Math.max(dev,Math.abs(d-rad));}
+      if(dev>1e-4){rec.status='bad-link';rec.reason='sphere vertices off native sphere by '+dev.toExponential(2)+' m';results.push(rec);continue;}}
     if(E.perp!==undefined)rec.frameOrthoResidual=E.perp;
     const A=f.metadata.scalarArrays[0].values,B=f.metadata.scalarArrays[1].values,Vx=f.vertices;
     const n=f.vertexCount;

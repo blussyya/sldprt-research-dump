@@ -315,15 +315,16 @@ function measure(parsed, opts) {
   // per face
   const faceBoxes = [], faceNotes = [];
   let polyFail = 0, interiorSkipped = 0, procFaces = 0, faceTotal = 0;
-  const boundaryAcc = mergeAcc(mergeAcc(newAcc(), vertexAcc), edgeAcc);
-  const fullAcc = mergeAcc(newAcc(), boundaryAcc);
+  const fullAcc = newAcc();
+  const loneVerts = new Set();
   for (const F of N.faces) {
     faceTotal++;
     const fa = newAcc();
     for (const L of F.loops) for (const co of L.coedges) {
       const es = edgeSamples.get(co.edge); if (es) for (const p of es.pts) addPt(fa, p);
     }
-    for (const L of F.loops) if (!L.coedges.length) { /* lone vertex */ }
+    // a loop with no edge is one vertex: a point of the face
+    for (const L of F.loops) if (!L.coedges.length && L.vertex != null) { loneVerts.add(L.vertex); addPt(fa, N.vertices.get(L.vertex).p); }
     if (['blend', 'blendBound'].includes(F.surface.type)) { procFaces++; faceNotes.push('procedural surface, interior not sampled'); faceBoxes.push({ id: F.id, acc: fa, interior: 'skipped' }); mergeAcc(fullAcc, fa); continue; }
     const fp = facePolygons(F, N, edgeSamples);
     if (fp.notes.length) faceNotes.push({ id: F.id, notes: fp.notes });
@@ -334,8 +335,14 @@ function measure(parsed, opts) {
     faceBoxes.push({ id: F.id, type: F.surface.type, acc: fa, interior: usable && !(interior && interior.note) ? 'sampled' : 'skipped', viaPcurve: fp.viaPcurve, viaInverse: fp.viaInverse, maxRoundTrip: fp.maxRoundTrip });
     mergeAcc(fullAcc, fa);
   }
+  // Body box = faces (their edges, lone vertices and interior). Vertices in no edge and no face
+  // loop are reported as isolated; they are not part of any face and are left out of the box.
+  const usedV = new Set(); for (const E of N.edges.values()) if (E.v) for (const x of E.v) if (x != null) usedV.add(x);
+  const isolated = [...N.vertices.values()].filter(v => !usedV.has(v.id) && !loneVerts.has(v.id));
+  const isolatedAcc = newAcc(); for (const v of isolated) addPt(isolatedAcc, v.p);
+  const boundaryAcc = mergeAcc(mergeAcc(newAcc(), edgeAcc), (() => { const a = newAcc(); for (const v of N.vertices.values()) if (loneVerts.has(v.id)) addPt(a, v.p); return a; })());
   return { ok: true, nativeFaces: N.faces.length, resolvedFitted: R.report ? R.report.fittedCurves + R.report.fittedSurfaces : null,
-    vertices: N.vertices.size, edges: N.edges.size,
+    vertices: N.vertices.size, edges: N.edges.size, isolatedVertices: isolated.length, isolatedBox: isolatedAcc,
     boundaryBox: boundaryAcc, fullBox: fullAcc, edgeChecks,
     faces: faceBoxes, polyFail, interiorSkipped, procFaces, faceNotes, parsedError: parsed.error || null, hidden: parsed.hidden ? parsed.hidden.length : 0 };
 }

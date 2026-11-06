@@ -18,9 +18,9 @@ function load(rel){
   const faceNode=new Map(body.nodes.filter(n=>n.type===14).map(n=>[n.values.node_id,n]));
   return {r,nodeAt,faceNode};
 }
-function errStats(E,f){const A=f.metadata.scalarArrays[0].values,B=f.metadata.scalarArrays[1].values,Vx=f.vertices,e=[];
-  for(let i=0;i<f.vertexCount;i++){const X=[Vx[3*i],Vx[3*i+1],Vx[3*i+2]];e.push(V.norm(V.sub(E.S(A[i],B[i]),X)));}
-  e.sort((a,b)=>a-b);return {max:e[e.length-1],p50:e[Math.floor(e.length/2)]};}
+function errStats(E,f){const A=f.metadata.scalarArrays[0].values,B=f.metadata.scalarArrays[1].values,Vx=f.vertices,all=[];
+  for(let i=0;i<f.vertexCount;i++){const X=[Vx[3*i],Vx[3*i+1],Vx[3*i+2]];all.push(V.norm(V.sub(E.S(A[i],B[i]),X)));}
+  const e=all.filter(Number.isFinite).sort((a,b)=>a-b);return {max:e.length?e[e.length-1]:null,p50:e.length?e[Math.floor(e.length/2)]:null,nonfinite:all.length-e.length,n:all.length};}
 const out={perturb:[],swept:[]};
 // ---- (1) perturbed analytic surfaces ----
 for(const [rel,type] of [['test files new/SW2022/C13_cone/model.SLDPRT','CONE'],['test files new/SW2022/C14_sphere/model.SLDPRT','SPHERE']]){
@@ -50,8 +50,9 @@ for(const [rel,type] of [['test files new/SW2022/C13_cone/model.SLDPRT','CONE'],
     const sn=f0.nodeAt(fn.values.surface);if(sn.name!=='SWEPT_SURF')continue;
     for(const mode of ['unit','scale']){const E=O.sweptEval(sn,f0.nodeAt,mode);const st=errStats(E,f);res[mode].push(st);}
   }
-  const med=a=>{const s=[...a].sort((x,y)=>x-y);return s[Math.floor(s.length/2)];};
-  out.swept.push({file:'Dekor.SLDPRT',faces:res.unit.length,unitMedianP50:med(res.unit.map(x=>x.p50)),unitMedianMax:med(res.unit.map(x=>x.max)),scaleMedianP50:med(res.scale.map(x=>x.p50)),scaleMedianMax:med(res.scale.map(x=>x.max))});
+  const med=a=>{const s=a.filter(Number.isFinite).sort((x,y)=>x-y);return s.length?s[Math.floor(s.length/2)]:null;};
+  const tot=m=>res[m].reduce((acc,x)=>({n:acc.n+x.n,nonfinite:acc.nonfinite+x.nonfinite}),{n:0,nonfinite:0});
+  out.swept.push({file:'Dekor.SLDPRT',faces:res.unit.length,unit:{medianFaceP50:med(res.unit.map(x=>x.p50)),medianFaceMax:med(res.unit.map(x=>x.max)),vertsNonfinite:tot('unit').nonfinite,verts:tot('unit').n},scale:{medianFaceP50:med(res.scale.map(x=>x.p50)),medianFaceMax:med(res.scale.map(x=>x.max)),vertsNonfinite:tot('scale').nonfinite,verts:tot('scale').n}});
 }
 fs.writeFileSync(path.join(__dirname,'controls.out.json'),JSON.stringify(out,null,1));
 console.log(JSON.stringify(out,null,1));

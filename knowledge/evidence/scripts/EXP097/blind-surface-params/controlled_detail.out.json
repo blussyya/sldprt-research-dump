@@ -1,0 +1,155 @@
+{
+ "C13 cone": {
+  "faces": [
+   {
+    "rawId": 43,
+    "native": "CONE",
+    "verts": 144,
+    "maxErr": 1.0874696997972732e-9,
+    "p50": 1.356525040880891e-10,
+    "p95": 9.684277009064727e-10,
+    "boundaryVerts": 96,
+    "boundaryMax": 1.0874696997972732e-9,
+    "interiorVerts": 48,
+    "interiorMax": 1.1175870992530257e-10,
+    "swapP50": 3.3705220211582523,
+    "swapP95": 6.4505936224944715,
+    "swapMax": 6.878483543282292,
+    "swapMinMax": [
+     1.1175870905794083e-10,
+     6.878483543282292
+    ]
+   }
+  ],
+  "coneMaxAbsBminusAxialDistance": 0
+ },
+ "C14 sphere": {
+  "faces": [
+   {
+    "rawId": 34,
+    "native": "SPHERE",
+    "verts": 5004,
+    "maxErr": 1.241741013449298e-9,
+    "p50": 2.291415184740949e-10,
+    "p95": 7.74647958448753e-10,
+    "boundaryVerts": 0,
+    "boundaryMax": null,
+    "interiorVerts": 5004,
+    "interiorMax": 1.241741013449298e-9,
+    "swapP50": 0.005508470032583357,
+    "swapP95": 0.009661622853886656,
+    "swapMax": 0.00999999988824129,
+    "swapMinMax": [
+     5.605717736697228e-11,
+     0.00999999988824129
+    ]
+   }
+  ]
+ },
+ "C16 loft": {
+  "faces": [
+   {
+    "rawId": 39,
+    "native": "B_SURFACE",
+    "verts": 444,
+    "maxErr": null,
+    "p50": 1.2235993103296497e-7,
+    "p95": 3.0940956414486936e-10,
+    "boundaryVerts": 112,
+    "boundaryMax": null,
+    "interiorVerts": 332,
+    "interiorMax": 0.000001472545129993028,
+    "swapP50": 0.008729817362634992,
+    "swapP95": 0.0064817015844360224,
+    "swapMax": null,
+    "swapMinMax": [
+     null,
+     null
+    ]
+   },
+   {
+    "rawId": 42,
+    "native": "B_SURFACE",
+    "verts": 444,
+    "maxErr": 0.0000022881202725248055,
+    "p50": 1.9215933552297514e-10,
+    "p95": 0.000001170064967475012,
+    "boundaryVerts": 112,
+    "boundaryMax": 0.0000022881202725248055,
+    "interiorVerts": 332,
+    "interiorMax": 0.0000014725451299915925,
+    "swapP50": 0.004457536481306169,
+    "swapP95": 0.01127358631611916,
+    "swapMax": 0.012884098639983545,
+    "swapMinMax": [
+     6.88506596912884e-11,
+     0.012884098639983545
+    ]
+   },
+   {
+    "rawId": 45,
+    "native": "B_SURFACE",
+    "verts": 444,
+    "maxErr": 0.0000022881202725254357,
+    "p50": 1.9215933552297514e-10,
+    "p95": 0.0000011700649674751187,
+    "boundaryVerts": 112,
+    "boundaryMax": 0.0000022881202725254357,
+    "interiorVerts": 332,
+    "interiorMax": 0.0000014725451299924857,
+    "swapP50": 0.004457536481306169,
+    "swapP95": 0.01127358631611916,
+    "swapMax": 0.012884098639983545,
+    "swapMinMax": [
+     6.885065937970545e-11,
+     0.012884098639983545
+    ]
+   },
+   {
+    "rawId": 48,
+    "native": "B_SURFACE",
+    "verts": 444,
+    "maxErr": 0.000002288120272523208,
+    "p50": 1.921593354243047e-10,
+    "p95": 0.0000011700649674743009,
+    "boundaryVerts": 112,
+    "boundaryMax": 0.000002288120272523208,
+    "interiorVerts": 332,
+    "interiorMax": 0.0000014725451299921996,
+    "swapP50": 0.004457536481306169,
+    "swapP95": 0.01127358631611916,
+    "swapMax": 0.012884098639983545,
+    "swapMinMax": [
+     6.885065988085135e-11,
+     0.012884098639983545
+    ]
+   }
+  ]
+ },
+ "BME280SphereJoin": [
+  {
+   "rawId": 1,
+   "nativeRadius": 0.000025,
+   "vertexDistFromNativeCentre": [
+    0.0015404950533186585,
+    0.0015652791396450802
+   ]
+  },
+  {
+   "rawId": 1,
+   "nativeRadius": 0.000025,
+   "vertexDistFromNativeCentre": [
+    0.005392823969741297,
+    0.006074032352060393
+   ]
+  },
+  {
+   "rawId": 1,
+   "nativeRadius": 0.000025,
+   "vertexDistFromNativeCentre": [
+    0.005592132251772254,
+    0.006218820111805356
+   ]
+  }
+ ]
+}

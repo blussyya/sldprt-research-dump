@@ -5,49 +5,48 @@ group (file | native | status) ; faces ; verts ; maxErr(m) ; median-face p50 ; w
 03764871_BME280.SLDPRT | - | unlinked ; 123 ; 2358 ; - ; - ; - ; - ; - ; - ; -
 03764871_BME280.SLDPRT | CYLINDER | bad-link ; 2 ; 272 ; - ; - ; - ; - ; - ; - ; -
 03764871_BME280.SLDPRT | PLANE | bad-link ; 3 ; 126 ; - ; - ; - ; - ; - ; - ; -
-03764871_BME280.SLDPRT | SPHERE | bad-link ; 2 ; 118 ; - ; - ; - ; - ; - ; - ; -
-03764871_BME280.SLDPRT | SPHERE | ok ; 1 ; 230 ; 1.54e-3 ; 1.54e-3 ; 1.54e-3 ; 1.56e-3 ; 1.54e-3 ; 1.54e-3 ; 1.23e+7
+03764871_BME280.SLDPRT | SPHERE | bad-link ; 3 ; 348 ; - ; - ; - ; - ; - ; - ; -
 073482d3_ReducerBox_1_Reducer.SLDPRT | - | unlinked ; 55 ; 88556 ; - ; - ; - ; - ; - ; - ; -
 073482d3_ReducerBox_1_Reducer.SLDPRT | B_SURFACE | eval-error ; 1 ; 118 ; - ; - ; - ; - ; - ; - ; -
 0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT | - | unlinked ; 4 ; 192 ; - ; - ; - ; - ; - ; - ; -
 14f9214b_11.SLDPRT | - | eval-error ; 1 ; 72 ; - ; - ; - ; - ; - ; - ; -
 14f9214b_11.SLDPRT | - | unlinked ; 1 ; 72 ; - ; - ; - ; - ; - ; - ; -
 15567d51_leva1.SLDPRT | SWEPT_SURF | ok ; 1 ; 142 ; 5.15e-9 ; 3.69e-9 ; 3.69e-9 ; 1.48e+0 ; 1.23e-1 ; 5.11e-2 ; 2.95e-1
-2300f35c_Thigh Symétrie.SLDPRT | B_SURFACE | ok ; 4 ; 28 ; 1.43e-8 ; 4.80e-9 ; 4.85e-9 ; - ; 4.95e-3 ; 3.21e-3 ; 1.65e+0
-273a8d53_FG-F1.SLDPRT | SWEPT_SURF | ok ; 22 ; 230 ; 3.79e-9 ; 2.58e-9 ; 3.28e-9 ; 4.78e-1 ; 8.07e-4 ; 5.55e-4 ; 7.27e-1
+2300f35c_Thigh Symétrie.SLDPRT | B_SURFACE | ok ; 4 ; 28 ; 1.43e-8 ; 4.84e-9 ; 4.85e-9 ; - ; 4.95e-3 ; 3.11e-3 ; 1.65e+0
+273a8d53_FG-F1.SLDPRT | SWEPT_SURF | ok ; 22 ; 230 ; 3.79e-9 ; 2.58e-9 ; 3.28e-9 ; 4.78e-1 ; 8.07e-4 ; 5.55e-4 ; 7.39e-1
 2f121983_case.SLDPRT | - | unlinked ; 63 ; 13191 ; - ; - ; - ; - ; - ; - ; -
 2f121983_case.SLDPRT | B_SURFACE | eval-error ; 1 ; 685 ; - ; - ; - ; - ; - ; - ; -
 361e7dbb_101_HOUSING.SLDPRT | - | unlinked ; 4 ; 390 ; - ; - ; - ; - ; - ; - ; -
 3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT | BLENDED_EDGE | unsupported ; 2 ; 257 ; - ; - ; - ; - ; - ; - ; -
-3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT | B_SURFACE | ok ; 6 ; 203 ; 5.83e-5 ; 1.65e-9 ; 2.90e-5 ; 9.74e-4 ; 1.15e-3 ; 1.04e-3 ; 3.30e+4
+3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT | B_SURFACE | ok ; 6 ; 203 ; 5.83e-5 ; 1.65e-9 ; 1.09e-5 ; 9.74e-4 ; 1.15e-3 ; 1.04e-3 ; 4.14e+4
 3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT | CONE | bad-link ; 2 ; 944 ; - ; - ; - ; - ; - ; - ; -
 44afdb7c_back_cushion.SLDPRT | SPHERE | ok ; 4 ; 348 ; 1.35e-8 ; 1.01e-8 ; 1.07e-8 ; 4.36e-2 ; 2.54e-2 ; 2.14e-2 ; 6.47e-1
 4803f393_box.SLDPRT | - | unlinked ; 7 ; 1058 ; - ; - ; - ; - ; - ; - ; -
 543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT | - | unlinked ; 1 ; 1814 ; - ; - ; - ; - ; - ; - ; -
 85aabbde_84T Gear.SLDPRT | B_SURFACE | ok ; 4 ; 2530 ; 5.66e-5 ; 1.66e-9 ; 1.66e-9 ; 4.03e-2 ; 2.76e-2 ; 3.70e-2 ; 2.14e+4
 8cd79ff5_1ESxx.SLDPRT | - | unlinked ; 4 ; 3548 ; - ; - ; - ; - ; - ; - ; -
-916d4a0a_36T Gear.SLDPRT | B_SURFACE | ok ; 28 ; 3582 ; 2.55e-5 ; 4.41e-10 ; 9.86e-6 ; 1.44e-3 ; 4.88e-3 ; 2.84e-3 ; 3.00e+4
-9cc04b03_SO-C1.SLDPRT | SWEPT_SURF | ok ; 60 ; 680 ; 5.90e-10 ; 3.83e-10 ; 4.45e-10 ; 4.46e-1 ; 6.20e-4 ; 4.06e-4 ; 3.83e-1
-Dekor.SLDPRT | B_SURFACE | ok ; 8 ; 564 ; 2.86e-5 ; 3.51e-6 ; 7.91e-6 ; 2.26e-3 ; 1.90e-3 ; 1.30e-3 ; 4.48e+2
-Dekor.SLDPRT | SWEPT_SURF | ok ; 311 ; 8566 ; 6.92e-4 ; 5.73e-9 ; 5.37e-4 ; 1.41e+1 ; 1.90e-2 ; 1.39e-2 ; 1.21e+5
-Helical Bevel Gear.SLDPRT | B_SURFACE | ok ; 32 ; 4879 ; 1.27e-4 ; 1.95e-9 ; 3.75e-9 ; 4.14e-2 ; 4.02e-2 ; 3.68e-2 ; 7.64e+3
+916d4a0a_36T Gear.SLDPRT | B_SURFACE | ok ; 28 ; 3582 ; 2.55e-5 ; 5.64e-10 ; 2.58e-6 ; 1.37e-3 ; 4.66e-3 ; 2.84e-3 ; 4.77e+4
+9cc04b03_SO-C1.SLDPRT | SWEPT_SURF | ok ; 60 ; 680 ; 5.90e-10 ; 3.83e-10 ; 4.45e-10 ; 4.46e-1 ; 6.20e-4 ; 4.06e-4 ; 4.10e-1
+Dekor.SLDPRT | B_SURFACE | ok ; 8 ; 564 ; 2.86e-5 ; 3.51e-6 ; 7.91e-6 ; 2.26e-3 ; 1.90e-3 ; 1.28e-3 ; 4.79e+2
+Dekor.SLDPRT | SWEPT_SURF | ok ; 311 ; 8566 ; 6.92e-4 ; 5.71e-9 ; 2.80e-5 ; 1.41e+1 ; 1.95e-2 ; 1.43e-2 ; 1.21e+5
+Helical Bevel Gear.SLDPRT | B_SURFACE | ok ; 32 ; 4879 ; 1.27e-4 ; 1.97e-9 ; 3.75e-9 ; 4.14e-2 ; 4.07e-2 ; 3.48e-2 ; 3.47e+4
 Pocket Wheel.SLDPRT | BLENDED_EDGE | unsupported ; 32 ; 5189 ; - ; - ; - ; - ; - ; - ; -
 USB hub case TOP.SLDPRT | BLENDED_EDGE | unsupported ; 1 ; 132 ; - ; - ; - ; - ; - ; - ; -
-USB hub case TOP.SLDPRT | B_SURFACE | ok ; 2 ; 397 ; 1.80e-5 ; 5.36e-10 ; 5.36e-10 ; - ; 1.10e-3 ; 1.01e-3 ; 1.24e+4
+USB hub case TOP.SLDPRT | B_SURFACE | ok ; 2 ; 397 ; 1.80e-5 ; 5.36e-10 ; 5.36e-10 ; - ; 1.11e-3 ; 9.53e-4 ; 1.60e+4
 a0ab30c8_LB26001-A-04-022.SLDPRT | - | unlinked ; 3 ; 216 ; - ; - ; - ; - ; - ; - ; -
 a4ecc6f5_PP-2074-08.SLDPRT | - | unlinked ; 598 ; 28019 ; - ; - ; - ; - ; - ; - ; -
-be0e76cf_WP06_screw_1_-94.SLDPRT | CONE | ok ; 1 ; 156 ; 8.63e-9 ; 4.37e-9 ; 4.37e-9 ; 9.75e+0 ; 1.37e-3 ; 1.36e-3 ; 5.64e-1
+be0e76cf_WP06_screw_1_-94.SLDPRT | CONE | ok ; 1 ; 156 ; 8.63e-9 ; 4.37e-9 ; 4.37e-9 ; 9.75e+0 ; 1.37e-3 ; 1.30e-3 ; 5.64e-1
 d0d61cde_官方元件-定位模块.SLDPRT | - | unlinked ; 61 ; 3156 ; - ; - ; - ; - ; - ; - ; -
 d2515121_Ecran_128x32oled.SLDPRT | - | unlinked ; 5 ; 313 ; - ; - ; - ; - ; - ; - ; -
-d8206ed0_J6_Flange_Adapter.SLDPRT | B_SURFACE | ok ; 4 ; 698 ; 9.37e-6 ; 6.89e-7 ; 6.89e-7 ; 3.16e-3 ; 2.80e-3 ; 2.16e-3 ; 4.11e+3
+d8206ed0_J6_Flange_Adapter.SLDPRT | B_SURFACE | ok ; 4 ; 698 ; 9.37e-6 ; 6.89e-7 ; 6.89e-7 ; 3.16e-3 ; 2.80e-3 ; 2.31e-3 ; 5.88e+3
 db8a97e2_écrou fileté M5.SLDPRT | B_SURFACE | ok ; 2 ; 6872 ; 1.55e-6 ; 1.08e-7 ; 1.08e-7 ; 1.72e-2 ; 4.73e-3 ; 3.62e-3 ; 1.82e+3
-distributor main boss rev a.SLDPRT | CONE | ok ; 4 ; 288 ; 9.26e-10 ; 2.69e-10 ; 2.77e-10 ; 6.10e+0 ; 2.71e-3 ; 1.37e-3 ; 5.57e-1
+distributor main boss rev a.SLDPRT | CONE | ok ; 4 ; 288 ; 9.26e-10 ; 2.69e-10 ; 2.77e-10 ; 6.10e+0 ; 2.71e-3 ; 1.44e-3 ; 5.57e-1
 e8c40c25_psu.SLDPRT | BLENDED_EDGE | unsupported ; 2 ; 253 ; - ; - ; - ; - ; - ; - ; -
 e8c40c25_psu.SLDPRT | SPHERE | ok ; 8 ; 806 ; 1.07e-5 ; 1.43e-9 ; 2.25e-9 ; 1.86e-3 ; 8.44e-4 ; 8.76e-4 ; 1.14e+5
-eb0b2a21_60T Gear.SLDPRT | B_SURFACE | ok ; 28 ; 4444 ; 4.28e-5 ; 1.51e-6 ; 2.33e-5 ; 3.93e-3 ; 1.07e-2 ; 6.27e-3 ; 2.69e+4
+eb0b2a21_60T Gear.SLDPRT | B_SURFACE | ok ; 28 ; 4444 ; 4.28e-5 ; 6.10e-6 ; 2.16e-5 ; 3.93e-3 ; 1.07e-2 ; 6.27e-3 ; 6.37e+4
 ef1d5cfe_DS3231.SLDPRT | - | unlinked ; 4 ; 1728 ; - ; - ; - ; - ; - ; - ; -
 ef1d5cfe_DS3231.SLDPRT | PLANE | bad-link ; 1 ; 432 ; - ; - ; - ; - ; - ; - ; -
 fb449daa_Gloworm PCB.SLDPRT | B_SURFACE | ok ; 6 ; 6384 ; 3.44e-7 ; 5.07e-10 ; 6.03e-10 ; 1.07e-3 ; 2.11e-3 ; 1.97e-3 ; 9.32e+2
-model.SLDPRT | B_SURFACE | ok ; 4 ; 1776 ; 2.29e-6 ; 1.92e-10 ; 1.92e-10 ; 4.46e-3 ; 5.05e-3 ; 4.84e-3 ; 4.15e-1
+model.SLDPRT | B_SURFACE | ok ; 4 ; 1776 ; 2.29e-6 ; 1.92e-10 ; 1.92e-10 ; 4.46e-3 ; 5.05e-3 ; 4.84e-3 ; 2.21e+3
 model.SLDPRT | CONE | ok ; 1 ; 144 ; 1.09e-9 ; 1.36e-10 ; 1.36e-10 ; 3.37e+0 ; 1.00e-2 ; 7.63e-3 ; 7.48e-1
 model.SLDPRT | SPHERE | ok ; 1 ; 5004 ; 1.24e-9 ; 2.29e-10 ; 2.29e-10 ; 5.51e-3 ; 8.17e-3 ; 7.12e-3 ; 8.55e-1
