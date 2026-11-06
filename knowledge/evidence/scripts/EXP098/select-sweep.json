@@ -1,0 +1,451 @@
+[
+ {
+  "file": "test files online/2014/300f9732_Carter2019.SLDPRT",
+  "container": "OLE2",
+  "configurations": 2,
+  "modelHeaders": false,
+  "converter": {
+   "id": 0,
+   "by": "lowest",
+   "matches": []
+  },
+  "display": {
+   "faces": 92,
+   "matches": [],
+   "rows": [
+    {
+     "id": 0,
+     "faces": 92,
+     "gap": 2.4999999986841104e-8
+    },
+    {
+     "id": 1,
+     "faces": 46
+    }
+   ]
+  },
+  "nearestRejectedGap": 2.4999999986841104e-8
+ },
+ {
+  "file": "test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT",
+  "container": "modern",
+  "configurations": 25,
+  "modelHeaders": false,
+  "converter": {
+   "id": 268,
+   "by": "display",
+   "matches": [
+    268
+   ]
+  },
+  "display": {
+   "faces": 22,
+   "matches": [
+    268
+   ],
+   "rows": [
+    {
+     "id": 0,
+     "faces": 22,
+     "gap": 0.056000000000000015
+    },
+    {
+     "id": 1,
+     "faces": 30
+    },
+    {
+     "id": 2,
+     "faces": 30
+    },
+    {
+     "id": 4,
+     "faces": 22,
+     "gap": 0.045000000000000026
+    },
+    {
+     "id": 30,
+     "faces": 22,
+     "gap": 0.056000000000000015
+    },
+    {
+     "id": 59,
+     "faces": 20
+    },
+    {
+     "id": 173,
+     "faces": 20
+    },
+    {
+     "id": 174,
+     "faces": 20
+    },
+    {
+     "id": 175,
+     "faces": 22,
+     "gap": 0.04500000000000002
+    },
+    {
+     "id": 176,
+     "faces": 22,
+     "gap": 0.025000000000000022
+    },
+    {
+     "id": 177,
+     "faces": 22,
+     "gap": 0.016092926104693733
+    },
+    {
+     "id": 180,
+     "faces": 22,
+     "gap": 0.03500000000000002
+    },
+    {
+     "id": 181,
+     "faces": 22,
+     "gap": 0.004999999999999984
+    },
+    {
+     "id": 185,
+     "faces": 22,
+     "gap": 0.023000000000000013
+    },
+    {
+     "id": 187,
+     "faces": 22,
+     "gap": 0.03999999999999998
+    },
+    {
+     "id": 201,
+     "faces": 18
+    },
+    {
+     "id": 202,
+     "faces": 18
+    },
+    {
+     "id": 203,
+     "faces": 18
+    },
+    {
+     "id": 207,
+     "faces": 22,
+     "gap": 0.016092926104693733
+    },
+    {
+     "id": 209,
+     "faces": 22,
+     "gap": 0.03500000000000002
+    },
+    {
+     "id": 211,
+     "faces": 22,
+     "gap": 0.024999999999999994
+    },
+    {
+     "id": 218,
+     "faces": 22,
+     "gap": 0.11499999999999999
+    },
+    {
+     "id": 222,
+     "faces": 22,
+     "gap": 0.06499999999999997
+    },
+    {
+     "id": 230,
+     "faces": 20
+    },
+    {
+     "id": 268,
+     "faces": 22,
+     "gap": 0
+    }
+   ]
+  },
+  "nearestRejectedGap": 0.004999999999999984
+ },
+ {
+  "file": "test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT",
+  "container": "modern",
+  "configurations": 2,
+  "modelHeaders": false,
+  "converter": {
+   "id": 21,
+   "by": "display",
+   "matches": [
+    21
+   ]
+  },
+  "display": {
+   "faces": 18,
+   "matches": [
+    21
+   ],
+   "rows": [
+    {
+     "id": 1,
+     "faces": 18,
+     "gap": 0.00010000000000001674
+    },
+    {
+     "id": 21,
+     "faces": 18,
+     "gap": 0
+    }
+   ]
+  },
+  "nearestRejectedGap": 0.00010000000000001674
+ },
+ {
+  "file": "test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT",
+  "container": "modern",
+  "configurations": 6,
+  "modelHeaders": false,
+  "converter": {
+   "id": 0,
+   "by": "display",
+   "matches": [
+    0,
+    1,
+    4
+   ]
+  },
+  "display": {
+   "faces": 3,
+   "matches": [
+    0,
+    1,
+    4
+   ],
+   "rows": [
+    {
+     "id": 0,
+     "faces": 3,
+     "gap": 0
+    },
+    {
+     "id": 1,
+     "faces": 3,
+     "gap": 0
+    },
+    {
+     "id": 2,
+     "faces": 3,
+     "gap": 0.0007500000000000007
+    },
+    {
+     "id": 3,
+     "faces": 3,
+     "gap": 0.013000000000000001
+    },
+    {
+     "id": 4,
+     "faces": 3,
+     "gap": 0
+    },
+    {
+     "id": 6,
+     "faces": 3,
+     "gap": 0.013000000000000001
+    }
+   ]
+  },
+  "nearestRejectedGap": 0.0007500000000000007
+ },
+ {
+  "file": "test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT",
+  "container": "modern",
+  "configurations": 7,
+  "modelHeaders": false,
+  "converter": {
+   "id": 0,
+   "by": "display",
+   "matches": [
+    0,
+    1,
+    4
+   ]
+  },
+  "display": {
+   "faces": 18,
+   "matches": [
+    0,
+    1,
+    4
+   ],
+   "rows": [
+    {
+     "id": 0,
+     "faces": 18,
+     "gap": 0
+    },
+    {
+     "id": 1,
+     "faces": 18,
+     "gap": 0
+    },
+    {
+     "id": 2,
+     "faces": 18,
+     "gap": 0.010000000000000009
+    },
+    {
+     "id": 3,
+     "faces": 18,
+     "gap": 0.029501506083298233
+    },
+    {
+     "id": 4,
+     "faces": 18,
+     "gap": 0
+    },
+    {
+     "id": 5,
+     "faces": 18,
+     "gap": 0.010000000000000009
+    },
+    {
+     "id": 6,
+     "faces": 18,
+     "gap": 0.029501506083298233
+    }
+   ]
+  },
+  "nearestRejectedGap": 0.010000000000000009
+ },
+ {
+  "file": "test files online/2017/516a7dc5_Body1.sldprt",
+  "container": "modern",
+  "configurations": 2,
+  "modelHeaders": false,
+  "converter": {
+   "id": 0,
+   "by": "display",
+   "matches": [
+    0,
+    1
+   ]
+  },
+  "display": {
+   "faces": 8,
+   "matches": [
+    0,
+    1
+   ],
+   "rows": [
+    {
+     "id": 0,
+     "faces": 8,
+     "gap": 0
+    },
+    {
+     "id": 1,
+     "faces": 8,
+     "gap": 0
+    }
+   ]
+  },
+  "nearestRejectedGap": null
+ },
+ {
+  "file": "test files online/2017/afc71d14_Body2.sldprt",
+  "container": "modern",
+  "configurations": 2,
+  "modelHeaders": false,
+  "converter": {
+   "id": 0,
+   "by": "display",
+   "matches": [
+    0,
+    1
+   ]
+  },
+  "display": {
+   "faces": 24,
+   "matches": [
+    0,
+    1
+   ],
+   "rows": [
+    {
+     "id": 0,
+     "faces": 24,
+     "gap": 0
+    },
+    {
+     "id": 1,
+     "faces": 24,
+     "gap": 0
+    }
+   ]
+  },
+  "nearestRejectedGap": null
+ },
+ {
+  "file": "test files online/2024/03afebf4_Profilringe.SLDPRT",
+  "container": "modern",
+  "configurations": 2,
+  "modelHeaders": true,
+  "converter": {
+   "id": 7,
+   "by": "Header2",
+   "matches": []
+  },
+  "display": {
+   "faces": 7,
+   "matches": [
+    7
+   ],
+   "rows": [
+    {
+     "id": 1,
+     "faces": 7,
+     "gap": 0.0013
+    },
+    {
+     "id": 7,
+     "faces": 7,
+     "gap": 1.0408340855860843e-17
+    }
+   ]
+  },
+  "nearestRejectedGap": 0.0013
+ },
+ {
+  "file": "test files online/2025/c613782b_Крепёжная-Планка.SLDPRT",
+  "container": "modern",
+  "configurations": 4,
+  "modelHeaders": true,
+  "converter": {
+   "id": 3,
+   "by": "Header2",
+   "matches": []
+  },
+  "display": {
+   "faces": 13,
+   "matches": [
+    3
+   ],
+   "rows": [
+    {
+     "id": 0,
+     "faces": 378
+    },
+    {
+     "id": 1,
+     "faces": 318
+    },
+    {
+     "id": 2,
+     "faces": 777
+    },
+    {
+     "id": 3,
+     "faces": 13,
+     "gap": 0
+    }
+   ]
+  },
+  "nearestRejectedGap": null
+ }
+]
