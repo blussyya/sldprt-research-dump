@@ -1,0 +1,125 @@
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C01_cube_20mm/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C00_cube_10mm/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C02_cube_translated/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C04_cube_hole_5mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C06_cube_hole_moved/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/PTC GE8080-8.SLDPRT","df":126,"want":true,"faces":126,"gap":1.3877787807814457e-17,"worst":1}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C05_cube_hole_3mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C07_cube_two_holes/model.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C10_cube_shell_1mm/model.SLDPRT","df":11,"want":true,"faces":11,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/cube.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/controlled/C11_cube_hole_4mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT","df":39,"want":true,"faces":39,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/distributor main boss rev a.SLDPRT","df":51,"want":true,"faces":51,"gap":0.000060721641050461734,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C00_cube_10mm/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C01_cube_20mm/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C02_cube_translated/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C06_cube_hole_moved/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C07_cube_two_holes/model.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":1.734723475976807e-18,"worst":1}
+{"f":"/home/user/sldprt-research-dump/test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT","df":68,"want":true,"faces":68,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT","df":11,"want":true,"faces":11,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C13_cone/model.SLDPRT","df":2,"want":true,"faces":2,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C15_torus/model.SLDPRT","df":1,"want":true,"faces":1,"gap":null,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C14_sphere/model.SLDPRT","df":1,"want":true,"faces":1,"gap":null,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C16_loft_spline/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0.000007008295503732782,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C17_torus_quarter/model.SLDPRT","df":3,"want":true,"faces":3,"gap":2.449293598294707e-19,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C18_cube_split_line/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C20_cylinders_crossed/model.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C19_half_cylinder/model.SLDPRT","df":4,"want":true,"faces":4,"gap":3.061616997868383e-19,"worst":5}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C21_cylinder_fillet/model.SLDPRT","df":4,"want":true,"faces":4,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT","df":2,"want":true,"faces":2,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C00_cube_10mm/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C01_cube_20mm/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C06_cube_hole_moved/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C02_cube_translated/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/Helical Bevel Gear.SLDPRT","df":113,"want":true,"faces":113,"gap":0.00021145672633915424,"worst":2}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C07_cube_two_holes/model.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT","df":11,"want":true,"faces":11,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C13_cone/model.SLDPRT","df":2,"want":true,"faces":2,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C14_sphere/model.SLDPRT","df":1,"want":true,"faces":1,"gap":null,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C17_torus_quarter/model.SLDPRT","df":3,"want":true,"faces":3,"gap":2.449293598294707e-19,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C16_loft_spline/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0.000010365153286359439,"worst":2}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C15_torus/model.SLDPRT","df":1,"want":true,"faces":1,"gap":null,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C19_half_cylinder/model.SLDPRT","df":4,"want":true,"faces":4,"gap":3.061616997868383e-19,"worst":5}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C18_cube_split_line/model.SLDPRT","df":7,"want":true,"faces":7,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C20_cylinders_crossed/model.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/C21_cylinder_fillet/model.SLDPRT","df":4,"want":true,"faces":4,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2026/cylinder with fillet-2026-credit-kevinR.SLDPRT","df":4,"want":true,"faces":4,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/re-exports/C00_cube_10mm-2011-to-2026/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/re-exports/plate4 1997to2025kevin.SLDPRT","df":14,"want":true,"faces":14,"gap":5.551115123125783e-17,"worst":1}
+{"f":"/home/user/sldprt-research-dump/test files new/re-exports/C01_cube_20mm-2011-to-2026/model.SLDPRT","df":6,"want":true,"faces":6,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/re-exports/holefillets1-2022to2026reexport-Furthen64-kevinR.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2007/05187d94_ChainCL_In.SLDPRT","df":13,"want":true,"faces":13,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files new/re-exports/plate4-1997to2026kevinrahhal.sldprt","df":14,"want":true,"faces":14,"gap":5.551115123125783e-17,"worst":1}
+{"f":"/home/user/sldprt-research-dump/test files online/2011/6ff6c243_通气塞.SLDPRT","df":15,"want":true,"faces":15,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2011/e1f38af5_0000380-01.sldprt","df":14,"want":true,"faces":14,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2013/92c393f4_camera_support.sldprt","df":116,"want":true,"faces":116,"gap":1.214306433183765e-17,"worst":5}
+{"f":"/home/user/sldprt-research-dump/test files original/Pocket Wheel.SLDPRT","df":400,"want":true,"faces":400,"gap":0.000010187716942472447,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT","df":7,"want":true,"faces":7,"gap":0.0000049999999999980616,"worst":5}
+{"f":"/home/user/sldprt-research-dump/test files online/2014/68cd51b6_20190309-0049.SLDPRT","df":26,"want":true,"faces":26,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2010/065f38b0_等径四节弯头-4.SLDPRT","df":6,"want":true,"faces":6,"gap":0.0000025249999999754635,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT","df":4,"want":true,"faces":4,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2017/3b48d9c5_Body10.sldprt","df":0,"want":false,"faces":24}
+{"f":"/home/user/sldprt-research-dump/test files online/2017/4df87793_21BC-S 1.19-A.sldprt","df":0,"want":false,"faces":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT","df":8,"want":true,"faces":8,"gap":6.938893903907228e-18,"worst":4}
+{"f":"/home/user/sldprt-research-dump/test files online/2017/d49566bc_AntennaMount.SLDPRT","df":16,"want":true,"faces":16,"gap":8.673617379884035e-19,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT","df":342,"want":true,"faces":342,"gap":0.00003174999999998318,"worst":4}
+{"f":"/home/user/sldprt-research-dump/test files online/2018/0132519a_102_STEM.SLDPRT","df":167,"want":true,"faces":167,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2018/06b5063b_050_MASTER_SKETCH.SLDPRT","df":0,"want":false,"faces":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2018/15567d51_leva1.SLDPRT","df":298,"want":true,"faces":298,"gap":0.0018172114229892261,"worst":5}
+{"f":"/home/user/sldprt-research-dump/test files online/2018/361e7dbb_101_HOUSING.SLDPRT","df":262,"want":true,"faces":262,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2018/ca465363_103_COVER.SLDPRT","df":118,"want":true,"faces":118,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2018/d2515121_Ecran_128x32oled.SLDPRT","df":2512,"want":true,"faces":2512,"gap":0.00009581282028133659,"worst":1}
+{"f":"/home/user/sldprt-research-dump/test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT","df":6,"want":true,"faces":6,"gap":0.32500000000000007,"worst":4}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/07ff8da1_shelf.SLDPRT","df":30,"want":true,"faces":30,"gap":0.00020686143319784698,"worst":2}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/096d0504_MargayMount_WH10.SLDPRT","df":18,"want":true,"faces":18,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/27377fd2_FE-00006-06.SLDPRT","df":8,"want":true,"faces":8,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/28398415_Raspberry Pi 4.SLDPRT","df":267,"want":true,"faces":267,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/300d7f07_Bottom Case.SLDPRT","df":50,"want":true,"faces":50,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/44afdb7c_back_cushion.SLDPRT","df":26,"want":true,"faces":26,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/54b05886_bottom_adc.SLDPRT","df":92,"want":true,"faces":92,"gap":6.938893903907228e-18,"worst":5}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/636b653d_MountingBracket.SLDPRT","df":26,"want":true,"faces":26,"gap":0.002793999999999998,"worst":2}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/7765d286_NSJ8L.SLDPRT","df":62,"want":true,"faces":62,"gap":8.673617379884035e-19,"worst":1}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/8cd79ff5_1ESxx.SLDPRT","df":103,"want":true,"faces":103,"gap":2.4999999999938266e-7,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/91a2d981_Camera Module.SLDPRT","df":19,"want":true,"faces":19,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/a3a44709_FrontPanel-Bezel.sldprt","df":16,"want":true,"faces":16,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/d381ebab_bottom_dac.SLDPRT","df":83,"want":true,"faces":83,"gap":6.938893903907228e-18,"worst":5}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/e8c40c25_psu.SLDPRT","df":271,"want":true,"faces":271,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2019/fb449daa_Gloworm PCB.SLDPRT","df":50,"want":true,"faces":50,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2020/14f9214b_11.SLDPRT","df":75,"want":true,"faces":75,"gap":1.3877787807814457e-17,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT","df":42,"want":true,"faces":42,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2020/34fe5ff1_Group_44390.stp.SLDPRT","df":0,"want":false,"faces":16}
+{"f":"/home/user/sldprt-research-dump/test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT","df":69,"want":true,"faces":69,"gap":0.012700000000000017,"worst":3}
+{"f":"/home/user/sldprt-research-dump/test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT","df":28,"want":true,"faces":28,"gap":8.673617379884035e-19,"worst":1}
+{"f":"/home/user/sldprt-research-dump/test files online/2020/7841a106_6344428.SLDPRT","df":54,"want":true,"faces":54,"gap":0.000012525000000001734,"worst":4}
+{"f":"/home/user/sldprt-research-dump/test files online/2020/9494d959_27_20_4.SLDPRT","df":12,"want":true,"faces":12,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files original/Dekor.SLDPRT","df":375,"want":true,"faces":375,"gap":0.0000025249999998889772,"worst":5}
+{"f":"/home/user/sldprt-research-dump/test files online/2020/b185085c_Handle 3.SLDPRT","df":33,"want":true,"faces":33,"gap":0,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2020/b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT","df":0,"want":false,"faces":16}
+{"f":"/home/user/sldprt-research-dump/test files online/2021/85aabbde_84T Gear.SLDPRT","df":671,"want":true,"faces":671,"gap":8.951173136040325e-16,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2021/916d4a0a_36T Gear.SLDPRT","df":295,"want":true,"faces":295,"gap":1.3877787807814457e-17,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2021/bc3292d7_12T Gear.SLDPRT","df":135,"want":true,"faces":135,"gap":2.0990154059319366e-16,"worst":0}
+{"f":"/home/user/sldprt-research-dump/test files online/2021/eb0b2a21_60T Gear.SLDPRT","df":399,"want":true,"faces":399,"gap":6.938893903907228e-16,"worst":0}

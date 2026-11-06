@@ -1,0 +1,1325 @@
+{
+ "/home/user/sldprt-research-dump/test files original/Helical Bevel Gear.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 113,
+   "union": {
+    "min": [
+     -0.08521150111772996,
+     -0.08521150111773002,
+     -0.163
+    ],
+    "max": [
+     0.08521150111773,
+     0.08521150111773002,
+     0.10000102373854088
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 113,
+    "faces": 124,
+    "box": {
+     "min": [
+      -0.0850000443913909,
+      -0.08500004439139086,
+      -0.163
+     ],
+     "max": [
+      0.08500004439139092,
+      0.0850000443913909,
+      0.10000000000000003
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 2554,
+    "gap": 0.00021145672633915424,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files original/controlled/C00_cube_10mm/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 6,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 6,
+    "faces": 6,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 78,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.010000000000000002,
+     0.010000000000000002,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 7,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.010000000000000002,
+      0.010000000000000002,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 199,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files original/controlled/C06_cube_hole_moved/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 8,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 545,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 7,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 117,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 7,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 198,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 39,
+   "union": {
+    "min": [
+     -0.033499999999999995,
+     0,
+     -0.020500000000000004
+    ],
+    "max": [
+     0.03350000000000001,
+     0.0065,
+     0.020500000000000004
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 39,
+    "faces": 55,
+    "box": {
+     "min": [
+      -0.033499999999999995,
+      0,
+      -0.020500000000000004
+     ],
+     "max": [
+      0.03350000000000001,
+      0.0065,
+      0.020500000000000004
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 465,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2011/C01_cube_20mm/model.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 6,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.02,
+     0.02,
+     0.02
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Config-0-Partition": {
+    "name": "Config-0-Partition",
+    "nativeFaces": 6,
+    "faces": 6,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.02,
+      0.02,
+      0.02
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 297,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Config-0-Partition",
+   "by": "lowest"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Config-0-Partition": {
+    "name": "Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 8,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 212,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Config-0-Partition",
+   "by": "lowest"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2011/C07_cube_two_holes/model.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 8,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Config-0-Partition": {
+    "name": "Config-0-Partition",
+    "nativeFaces": 8,
+    "faces": 10,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 330,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Config-0-Partition",
+   "by": "lowest"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 11,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Config-0-Partition": {
+    "name": "Config-0-Partition",
+    "nativeFaces": 11,
+    "faces": 11,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 714,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Config-0-Partition",
+   "by": "lowest"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2011/C13_cone/model.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 2,
+   "union": {
+    "min": [
+     -0.005,
+     0,
+     -0.005
+    ],
+    "max": [
+     0.005,
+     0.01,
+     0.005
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Config-0-Partition": {
+    "name": "Config-0-Partition",
+    "nativeFaces": 2,
+    "faces": 3,
+    "box": {
+     "min": [
+      -0.005,
+      0,
+      -0.005
+     ],
+     "max": [
+      0.005,
+      0.01,
+      0.005
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 322,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Config-0-Partition",
+   "by": "lowest"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2011/C16_loft_spline/model.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 6,
+   "union": {
+    "min": [
+     -0.005007008295503733,
+     -0.000006981240618124409,
+     -0.005007008295503733
+    ],
+    "max": [
+     0.005007008295503733,
+     0.010006981240618124,
+     0.005007008295503733
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Config-0-Partition": {
+    "name": "Config-0-Partition",
+    "nativeFaces": 6,
+    "faces": 6,
+    "box": {
+     "min": [
+      -0.005,
+      -8.673617379884035e-19,
+      -0.005
+     ],
+     "max": [
+      0.005,
+      0.010000000000000002,
+      0.005
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 153,
+    "gap": 0.000007008295503732782,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Config-0-Partition",
+   "by": "lowest"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2011/C19_half_cylinder/model.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 4,
+   "union": {
+    "min": [
+     -0.005,
+     0,
+     -0.005
+    ],
+    "max": [
+     0.005,
+     0.01,
+     0
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Config-0-Partition": {
+    "name": "Config-0-Partition",
+    "nativeFaces": 4,
+    "faces": 5,
+    "box": {
+     "min": [
+      -0.005,
+      0,
+      -0.005
+     ],
+     "max": [
+      0.005,
+      0.01,
+      3.061616997868383e-19
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 191,
+    "gap": 3.061616997868383e-19,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Config-0-Partition",
+   "by": "lowest"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 6,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Config-0-Partition": {
+    "name": "Config-0-Partition",
+    "nativeFaces": 6,
+    "faces": 6,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 358,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Config-0-Partition",
+   "by": "lowest"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2022/C00_cube_10mm/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 6,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 6,
+    "faces": 6,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 259,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.010000000000000002,
+     0.010000000000000002,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 7,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.010000000000000002,
+      0.010000000000000002,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 282,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2022/C06_cube_hole_moved/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 8,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 403,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 7,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 198,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 7,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 318,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2022/C15_torus/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 1,
+   "union": {
+    "min": [
+     -0.007000000000000001,
+     -0.0020000000000000005,
+     -0.007000000000000001
+    ],
+    "max": [
+     0.007000000000000001,
+     0.0020000000000000005,
+     0.007000000000000001
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 1,
+    "faces": 4,
+    "box": {
+     "min": [
+      null,
+      null,
+      null
+     ],
+     "max": [
+      null,
+      null,
+      null
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 135,
+    "gap": 0.007000000000000001,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2022/C18_cube_split_line/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.01,
+     0.01,
+     0.01
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 7,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 181,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2022/C21_cylinder_fillet/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 4,
+   "union": {
+    "min": [
+     -0.005,
+     0,
+     -0.005
+    ],
+    "max": [
+     0.005,
+     0.01,
+     0.005
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 4,
+    "faces": 6,
+    "box": {
+     "min": [
+      -0.005,
+      0,
+      -0.005
+     ],
+     "max": [
+      0.005,
+      0.01,
+      0.005
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 187,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 8,
+   "union": {
+    "min": [
+     -0.027001022248884603,
+     0,
+     -0.027001022248884603
+    ],
+    "max": [
+     0.027001022248884603,
+     0.013999999999999999,
+     0.027001022248884603
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 8,
+    "faces": 13,
+    "box": {
+     "min": [
+      -0.027001022248884603,
+      0,
+      -0.027001022248884603
+     ],
+     "max": [
+      0.027001022248884603,
+      0.013999999999999999,
+      0.027001022248884603
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 1122,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/re-exports/C01_cube_20mm-2011-to-2026/model.SLDPRT": {
+  "hdrs": 1,
+  "display": {
+   "faces": 6,
+   "union": {
+    "min": [
+     0,
+     0,
+     0
+    ],
+    "max": [
+     0.02,
+     0.02,
+     0.02
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 6,
+    "faces": 6,
+    "box": {
+     "min": [
+      0,
+      0,
+      0
+     ],
+     "max": [
+      0.02,
+      0.02,
+      0.02
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 374,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files new/re-exports/plate4-1997to2026kevinrahhal.sldprt": {
+  "hdrs": 1,
+  "display": {
+   "faces": 14,
+   "union": {
+    "min": [
+     -0.5,
+     -0.1,
+     0
+    ],
+    "max": [
+     0.19999999999999996,
+     0.2400000000000001,
+     0.22499999999999998
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 14,
+    "faces": 14,
+    "box": {
+     "min": [
+      -0.5,
+      -0.1,
+      0
+     ],
+     "max": [
+      0.2,
+      0.2400000000000001,
+      0.22499999999999998
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 206,
+    "gap": 5.551115123125783e-17,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     -0.016979680086869352,
+     -0.000005000000000000908,
+     -0.01697970508686945
+    ],
+    "max": [
+     0.01697968008686936,
+     0.06161532180365297,
+     0.016982180086869265
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Config-0-Partition": {
+    "name": "Config-0-Partition",
+    "nativeFaces": 7,
+    "faces": 9,
+    "box": {
+     "min": [
+      -0.016977180086869385,
+      -1.2273525295967987e-11,
+      -0.0169771800868826
+     ],
+     "max": [
+      0.01697718008686936,
+      0.06161529680365297,
+      0.016977180086892057
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 1736,
+    "gap": 0.0000049999999772072645,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Config-0-Partition",
+   "by": "lowest"
+  },
+  "done": true
+ }
+}
