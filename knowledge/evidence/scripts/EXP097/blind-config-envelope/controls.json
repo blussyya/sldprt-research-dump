@@ -1,0 +1,20 @@
+{
+ "C1": {
+  "faceBoxes": 19201,
+  "faceWithNameAt8": 0,
+  "faceNameSamples": []
+ },
+ "C2": {
+  "boxes": 19326,
+  "nameAt0": 113,
+  "nameAtShift": 1,
+  "shiftsTried": 2473728,
+  "rateAt0": 0.005847045431025561,
+  "ratePerShift": 4.0424816309634686e-7
+ },
+ "C3": {
+  "files": 166,
+  "randomArithmeticHits": 0,
+  "bytesTested": 54230352
+ }
+}
