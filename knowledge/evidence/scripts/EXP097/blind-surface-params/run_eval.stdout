@@ -1,0 +1,14 @@
+{
+ "CONE ok": 6,
+ "SPHERE ok": 22,
+ "B_SURFACE ok": 128,
+ "- unlinked": 941,
+ "BLENDED_EDGE unsupported": 41,
+ "SWEPT_SURF ok": 394,
+ "- eval-error": 1,
+ "B_SURFACE eval-error": 2,
+ "CONE bad-link": 2,
+ "CYLINDER bad-link": 2,
+ "PLANE bad-link": 4,
+ "SPHERE bad-link": 2
+}

@@ -1,0 +1,16 @@
+'use strict';
+const fs=require('fs'),path=require('path');
+const PKG='/home/user/dump-validation/package';
+const display=require(path.join(PKG,'src/display.js'));
+const {inflateRaw,inflateZlib}=require(path.join(PKG,'src/index.js'));
+const partition=require(path.join(PKG,'src/parasolid/partition.js'));
+const file=process.argv[2];const buf=fs.readFileSync(file);
+const r=display.parseSLDPRT(buf,inflateRaw,inflateZlib);
+const rawIds=r.faces.filter(f=>f.metadata).map(f=>f.metadata.rawId);
+console.log('display faces with metadata',rawIds.length,'first rawIds',rawIds.slice(0,12).join(','));
+const p=partition.readBody(buf,{}).parsed;
+const counts={};for(const n of p.nodes)counts[n.name]=(counts[n.name]||0)+1;
+console.log('body',p.header&&p.header.schema,'error',p.error,'nodes',p.nodes.length,JSON.stringify(counts).slice(0,600));
+const faces=p.nodes.filter(n=>n.type===14).map(n=>n.values.node_id);
+console.log('native FACE node_ids',faces.length,faces.slice(0,15).join(','));
+const bodies=p.nodes.filter(n=>/BODY/.test(n.name)).length;console.log('BODY nodes',bodies);

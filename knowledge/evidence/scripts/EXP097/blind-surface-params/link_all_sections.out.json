@@ -1,0 +1,541 @@
+[
+ {
+  "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+  "displayFaces": 1,
+  "linkedAnySection": 1,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+  "displayFaces": 1,
+  "linkedAnySection": 1,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+  "displayFaces": 4,
+  "linkedAnySection": 4,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+  "displayFaces": 4,
+  "linkedAnySection": 0,
+  "primaryErr": "missing base schema for node type 60 at 256967",
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 60 at 256967",
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2018/0132519a_102_STEM.SLDPRT",
+  "displayFaces": 20,
+  "linkedAnySection": 12,
+  "primaryErr": null,
+  "sections": 5,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures",
+   "Contents/Config-0-StockBodies"
+  ]
+ },
+ {
+  "file": "test files online/2018/15567d51_leva1.SLDPRT",
+  "displayFaces": 1,
+  "linkedAnySection": 1,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+  "displayFaces": 4,
+  "linkedAnySection": 0,
+  "primaryErr": "missing base schema for node type 100 at 572",
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 100 at 572",
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+  "displayFaces": 5,
+  "linkedAnySection": 0,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-0-FeatureBodies/LocalBodies",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2019/44afdb7c_back_cushion.SLDPRT",
+  "displayFaces": 4,
+  "linkedAnySection": 4,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+  "displayFaces": 4,
+  "linkedAnySection": 0,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 68 at 676",
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-0-FeatureBodies/LocalBodies",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2019/e8c40c25_psu.SLDPRT",
+  "displayFaces": 10,
+  "linkedAnySection": 10,
+  "primaryErr": null,
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2019/fb449daa_Gloworm PCB.SLDPRT",
+  "displayFaces": 6,
+  "linkedAnySection": 6,
+  "primaryErr": null,
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2020/14f9214b_11.SLDPRT",
+  "displayFaces": 2,
+  "linkedAnySection": 1,
+  "primaryErr": "missing base schema for node type 86 at 14763",
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 86 at 14763",
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+  "displayFaces": 1,
+  "linkedAnySection": 0,
+  "primaryErr": null,
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2021/85aabbde_84T Gear.SLDPRT",
+  "displayFaces": 4,
+  "linkedAnySection": 4,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-0-FeatureBodies/LocalBodies",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2021/916d4a0a_36T Gear.SLDPRT",
+  "displayFaces": 28,
+  "linkedAnySection": 28,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-0-FeatureBodies/LocalBodies",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+  "displayFaces": 28,
+  "linkedAnySection": 28,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-0-FeatureBodies/LocalBodies",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT",
+  "displayFaces": 56,
+  "linkedAnySection": 0,
+  "primaryErr": "missing base schema for node type 163 at 14167",
+  "sections": 2,
+  "sectionErrors": [],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2022/273a8d53_FG-F1.SLDPRT",
+  "displayFaces": 22,
+  "linkedAnySection": 22,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+  "displayFaces": 10,
+  "linkedAnySection": 10,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-0-FeatureBodies/LocalBodies",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2022/9cc04b03_SO-C1.SLDPRT",
+  "displayFaces": 60,
+  "linkedAnySection": 60,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+  "displayFaces": 3,
+  "linkedAnySection": 0,
+  "primaryErr": "missing base schema for node type 86 at 25138",
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 86 at 25138",
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT",
+  "displayFaces": 2,
+  "linkedAnySection": 2,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-0-FeatureBodies/LocalBodies",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2023/03764871_BME280.SLDPRT",
+  "displayFaces": 131,
+  "linkedAnySection": 8,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-0-FeatureBodies/LocalBodies",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2023/2f121983_case.SLDPRT",
+  "displayFaces": 64,
+  "linkedAnySection": 1,
+  "primaryErr": "missing base schema for node type 163 at 28811",
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 163 at 28811",
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2023/4803f393_box.SLDPRT",
+  "displayFaces": 7,
+  "linkedAnySection": 0,
+  "primaryErr": "unsupported base or malformed new-type declaration 100 at 674",
+  "sections": 2,
+  "sectionErrors": [],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+  "displayFaces": 61,
+  "linkedAnySection": 31,
+  "primaryErr": "THREW Expected one Config-0-Partition stream; found 0",
+  "sections": 6,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-1-FeatureBodies/LocalBodies",
+   "Contents/Config-1-GhostPartition",
+   "Contents/Config-1-Partition",
+   "Contents/Config-1-ResolvedFeatures",
+   "Config-0-FeatureBodies/LocalBodies"
+  ]
+ },
+ {
+  "file": "test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT",
+  "displayFaces": 4,
+  "linkedAnySection": 4,
+  "primaryErr": null,
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+  "displayFaces": 5,
+  "linkedAnySection": 1,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-0-FeatureBodies/LocalBodies",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2024/2300f35c_Thigh Symétrie.SLDPRT",
+  "displayFaces": 4,
+  "linkedAnySection": 4,
+  "primaryErr": null,
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures",
+   "Contents/Config-0-StockBodies"
+  ]
+ },
+ {
+  "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+  "displayFaces": 598,
+  "linkedAnySection": 0,
+  "primaryErr": null,
+  "sections": 2,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+  "displayFaces": 1,
+  "linkedAnySection": 1,
+  "primaryErr": null,
+  "sections": 3,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Config-0-FeatureBodies/LocalBodies",
+   "Contents/Config-0-Partition"
+  ]
+ },
+ {
+  "file": "test files original/Dekor.SLDPRT",
+  "displayFaces": 319,
+  "linkedAnySection": 319,
+  "primaryErr": null,
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files original/Helical Bevel Gear.SLDPRT",
+  "displayFaces": 32,
+  "linkedAnySection": 32,
+  "primaryErr": null,
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files original/Pocket Wheel.SLDPRT",
+  "displayFaces": 32,
+  "linkedAnySection": 32,
+  "primaryErr": null,
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files original/distributor main boss rev a.SLDPRT",
+  "displayFaces": 4,
+  "linkedAnySection": 4,
+  "primaryErr": null,
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ },
+ {
+  "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+  "displayFaces": 3,
+  "linkedAnySection": 3,
+  "primaryErr": null,
+  "sections": 4,
+  "sectionErrors": [
+   "missing base schema for node type 3 at 99"
+  ],
+  "streams": [
+   "Contents/Config-0-GhostPartition",
+   "Contents/Config-0-Partition",
+   "Contents/Config-0-ResolvedFeatures"
+  ]
+ }
+]
