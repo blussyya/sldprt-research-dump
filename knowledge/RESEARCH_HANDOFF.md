@@ -1,5 +1,24 @@
 # Research Handoff
 
+## Validation checkpoint — 2026-11-06, EXP-097
+
+EXP-088 to EXP-096 were checked. Every script reproduces, and seven blind checks, each with its
+own saved scripts, upheld every main finding. These were corrected in place, each with a dated
+note:
+- EXP-095: 178 modern containers, not 183.
+- NQ-030: tags 4008 (offset) and 4010 (spun) were unidentified.
+- EXP-092: the perpendicular check used the display axis, not the native one.
+- EXP-096: the attribute value rests on one reader.
+- EXP-090: the conclusion is narrower.
+- EXP-091: limits on the surface parameters.
+- EXP-064: more look-alike boxes than its correction names.
+
+Converter: `feature/inspector` and `dev` were merged into `main` (b0568c0, 63 tests pass).
+`wip/dense-fit-check` is still unverified. The EXP-094 selection rule still needs implementing:
+the converter picks the wrong geometry in `118a3cb0` and `289756ce`.
+
+Evidence: [2026-11-06_v0.5-EXP097.md](evidence/2026-11-06_v0.5-EXP097.md).
+
 ## Validation checkpoint — 2026-11-06, EXP-096
 
 The last varying LocalBodies entry-header field is decoded. Flag 1 exactly matches
@@ -16,7 +35,7 @@ Evidence: [2026-11-06_v0.5-EXP096.md](evidence/2026-11-06_v0.5-EXP096.md).
 
 ## Validation checkpoint — 2026-11-05, EXP-095
 
-The duplicate-stream question now has a bounded survey and a reader policy. All 183 modern
+The duplicate-stream question now has a bounded survey and a reader policy. All 178 modern (corrected from 183, EXP-097)
 containers contain 7,374 valid nonempty entries after printable-name, inflation-size, and CRC
 checks. No valid name is duplicated within a file. Another 521 valid entries are empty and omitted
 the same way as the current reader.

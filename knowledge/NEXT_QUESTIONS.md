@@ -626,6 +626,9 @@ Evidence: [EXP-090](evidence/2026-11-05_v0.5-EXP090.md).
 EXP-078). Tags 4003–4009 are identified and evaluated for every type present in the corpus. The
 historical request below predates those files.
 
+> **Correction, 2026-11-06 (EXP-097):** not all of them. 4001–4007 and 4009 are identified. 4008 (offset, one face in `2f121983`) and 4010 (spun, 290 faces in `a4ecc6f5` and `8cd79ff5`) were found by a face-ID join in EXP-097 and haven't been evaluated. Three other values (16368, 4980815, 65536) are probably misread metadata.
+
+
 **Why**: The controlled corpus C00–C12 exercises only **tag-4001 (plane)** and **tag-4002 (cylinder)** — cubes, through-holes, fillets, chamfers and a shell produce nothing else (per-model tags verified from `EXP045_RESULTS.json`, 2026-09-15). Every other surface tag is validated only against complex production models with no analytic ground truth and no controlled single-variable structure:
 
 | tag | occurrences | models containing it |

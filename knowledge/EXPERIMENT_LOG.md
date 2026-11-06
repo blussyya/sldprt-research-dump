@@ -1617,7 +1617,7 @@ to converter code on this branch.
 **Question**: Does the modern corpus contain repeated valid stream names, and what should the
 reader do if one appears?
 
-**Result**: Across 183 modern containers, 19,655 raw signature candidates reduce to 7,374 valid
+**Result**: Across 178 modern containers (corrected from 183, EXP-097), 19,655 raw signature candidates reduce to 7,374 valid
 nonempty size-and-CRC-checked entries and 521 valid empty entries. No valid nonempty name occurs
 twice within a file. The corpus therefore provides no first-wins or last-wins precedent. The
 documented policy is to coalesce byte-identical duplicate payloads and reject conflicting ones.
@@ -1644,3 +1644,18 @@ schema. The eight-byte section tail remains zero everywhere and cannot be named 
 **Evidence**: [2026-11-06_v0.5-EXP096.md](evidence/2026-11-06_v0.5-EXP096.md),
 `evidence/scripts/EXP096/`.
 
+## EXP-097 — Checking EXP-088 to EXP-096
+
+All 38 scripts reproduce their saved outputs. Four EXP-088 scripts had a hard-coded
+`/workspace` converter path, now fixed. EXP-090 to 096 claimed blind passes that left no scripts,
+so seven new blind checks ran, each with its own scripts under `scripts/EXP097/`. Every main
+finding held. Corrections:
+- EXP-095 counts 178 modern containers, not 183.
+- NQ-030's "tags 4003–4009 identified" was wrong: 4008 is offset and 4010 is spun, both new.
+- EXP-092's perpendicular check used the display axis; the native axis covers 740 of 2,406.
+- EXP-096's attribute value isn't independently decoded.
+- EXP-090's conclusion is narrower: the shared edge kept its ID.
+- EXP-091 gets limits on its surface-parameter claim.
+Re-saves don't explain EXP-093's missing envelopes.
+
+Evidence: [2026-11-06_v0.5-EXP097.md](evidence/2026-11-06_v0.5-EXP097.md).

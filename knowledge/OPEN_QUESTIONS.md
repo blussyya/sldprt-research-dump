@@ -50,7 +50,7 @@ EXP-094 answers the old no-ModelHeader geometry question. Saved face count and a
 bounds select one native conversion geometry in all six multi-configuration files. Four retain
 several possible IDs, but their normalized exact STEP output is identical.
 
-EXP-095 finds no duplicate valid nonempty stream names among 7,374 entries in 183 modern files.
+EXP-095 finds no duplicate valid nonempty stream names among 7,374 entries in 178 modern files (corrected from 183, EXP-097).
 Because the corpus supplies no precedence rule, the recorded reader policy is to coalesce only
 byte-identical duplicates and reject conflicting payloads.
 
