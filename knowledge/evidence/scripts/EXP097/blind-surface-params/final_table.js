@@ -4,7 +4,7 @@
 const fs=require('fs');
 const display=require('/home/user/dump-validation/package/src/display.js');
 const {inflateRaw,inflateZlib}=require('/home/user/dump-validation/package/src/index.js');
-const partition=require('/home/user/dump-validation/package/src/partition.js'.replace('/src/partition.js','/src/parasolid/partition.js'));
+const partition=require('/home/user/dump-validation/package/src/parasolid/partition.js');
 const O=require('./own_eval.js');const {makeEval}=require('./run_eval_makeEval.js');const V=O.V;
 const R=JSON.parse(fs.readFileSync(__dirname+'/run_eval.out.json','utf8')).results.filter(x=>x.status==='ok');
 const want=new Set(R.map(x=>x.file+'|'+x.rawId));

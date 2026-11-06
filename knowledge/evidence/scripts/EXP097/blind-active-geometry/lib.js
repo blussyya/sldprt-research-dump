@@ -360,4 +360,4 @@ function matchFaces(displayFaces, nativeBoxes, tol) {
   return { matched, unmatchedDisplay: unmatched.length, worstUnmatched: unmatched.length ? Math.max(...unmatched) : 0 };
 }
 
-module.exports = { readRaw, streamsOf, partitionEntries, assemble, loadFile, measure, boxDiff, matchFaces, newAcc, addPt, mergeAcc, G, CONV, display, Proc, nativeModel, xt, partition };
+module.exports = { facePolygons, edgeArc, sampleArc, readRaw, streamsOf, partitionEntries, assemble, loadFile, measure, boxDiff, matchFaces, newAcc, addPt, mergeAcc, G, CONV, display, Proc, nativeModel, xt, partition };
