@@ -1,0 +1,387 @@
+{
+ "synthetic": [
+  {
+   "display": "C03_cube_fillet_1mm",
+   "picked": "C03_cube_fillet_1mm",
+   "ok": true,
+   "boxMatches": [
+    "C03_cube_fillet_1mm",
+    "C09_cube_chamfer_1mm",
+    "C05_cube_hole_3mm",
+    "C11_cube_hole_4mm",
+    "C04_cube_hole_5mm",
+    "C06_cube_hole_moved"
+   ],
+   "residuals": {
+    "C03_cube_fillet_1mm": {
+     "pos": 6.04551743084783e-10,
+     "ang": 3.874301910400415e-7
+    },
+    "C09_cube_chamfer_1mm": {
+     "pos": 0.00029289382336519613,
+     "ang": 0.7853981633974518
+    },
+    "C05_cube_hole_3mm": {
+     "pos": 0.0010000003874301912,
+     "ang": 1.5707963267948966
+    },
+    "C11_cube_hole_4mm": {
+     "pos": 0.0010000003874301912,
+     "ang": 1.5707963267948966
+    },
+    "C04_cube_hole_5mm": {
+     "pos": 0.0010000003874301912,
+     "ang": 1.5707963267948966
+    },
+    "C06_cube_hole_moved": {
+     "pos": 0.0010000003874301912,
+     "ang": 1.5707963267948966
+    }
+   }
+  },
+  {
+   "display": "C09_cube_chamfer_1mm",
+   "picked": "C09_cube_chamfer_1mm",
+   "ok": true,
+   "boxMatches": [
+    "C03_cube_fillet_1mm",
+    "C09_cube_chamfer_1mm",
+    "C05_cube_hole_3mm",
+    "C11_cube_hole_4mm",
+    "C04_cube_hole_5mm",
+    "C06_cube_hole_moved"
+   ],
+   "residuals": {
+    "C03_cube_fillet_1mm": {
+     "pos": 2.2351741811588166e-10,
+     "ang": 0.785398550827727
+    },
+    "C09_cube_chamfer_1mm": {
+     "pos": 4.320052005829238e-10,
+     "ang": 1.4901161193847656e-8
+    },
+    "C05_cube_hole_3mm": {
+     "pos": 0.0010000003874301912,
+     "ang": 0.7853981633974484
+    },
+    "C11_cube_hole_4mm": {
+     "pos": 0.0010000003874301912,
+     "ang": 0.7853981633974484
+    },
+    "C04_cube_hole_5mm": {
+     "pos": 0.0010000003874301912,
+     "ang": 0.7853981633974484
+    },
+    "C06_cube_hole_moved": {
+     "pos": 0.0010000003874301912,
+     "ang": 0.7853981633974484
+    }
+   }
+  },
+  {
+   "display": "C05_cube_hole_3mm",
+   "picked": "C05_cube_hole_3mm",
+   "ok": true,
+   "boxMatches": [
+    "C03_cube_fillet_1mm",
+    "C09_cube_chamfer_1mm",
+    "C05_cube_hole_3mm",
+    "C11_cube_hole_4mm",
+    "C04_cube_hole_5mm",
+    "C06_cube_hole_moved"
+   ],
+   "residuals": {
+    "C03_cube_fillet_1mm": {
+     "pos": 0.006072591544252054,
+     "ang": 1.2107105582368287
+    },
+    "C09_cube_chamfer_1mm": {
+     "pos": 0.0064595672208815815,
+     "ang": 1.3962633966543394
+    },
+    "C05_cube_hole_3mm": {
+     "pos": 2.2351741811588166e-10,
+     "ang": 1.2818463544611084e-7
+    },
+    "C11_cube_hole_4mm": {
+     "pos": 0.0005000001339306866,
+     "ang": 1.2818463544611084e-7
+    },
+    "C04_cube_hole_5mm": {
+     "pos": 0.0010000001339306858,
+     "ang": 1.2818463544611084e-7
+    },
+    "C06_cube_hole_moved": {
+     "pos": 0.001960954742564925,
+     "ang": 1.4833642054374674
+    }
+   }
+  },
+  {
+   "display": "C11_cube_hole_4mm",
+   "picked": "C11_cube_hole_4mm",
+   "ok": true,
+   "boxMatches": [
+    "C03_cube_fillet_1mm",
+    "C09_cube_chamfer_1mm",
+    "C05_cube_hole_3mm",
+    "C11_cube_hole_4mm",
+    "C04_cube_hole_5mm",
+    "C06_cube_hole_moved"
+   ],
+   "residuals": {
+    "C03_cube_fillet_1mm": {
+     "pos": 0.006520699178969609,
+     "ang": 1.283310662039777
+    },
+    "C09_cube_chamfer_1mm": {
+     "pos": 0.006959059964865446,
+     "ang": 1.4187837846349713
+    },
+    "C05_cube_hole_3mm": {
+     "pos": 0.0005000002301504592,
+     "ang": 9.884312124119404e-8
+    },
+    "C11_cube_hole_4mm": {
+     "pos": 2.3015045945429247e-10,
+     "ang": 9.884312124119404e-8
+    },
+    "C04_cube_hole_5mm": {
+     "pos": 0.0005000002260123959,
+     "ang": 9.884312124119404e-8
+    },
+    "C06_cube_hole_moved": {
+     "pos": 0.0022974034974716506,
+     "ang": 1.5201265565182807
+    }
+   }
+  },
+  {
+   "display": "C04_cube_hole_5mm",
+   "picked": "C04_cube_hole_5mm",
+   "ok": true,
+   "boxMatches": [
+    "C03_cube_fillet_1mm",
+    "C09_cube_chamfer_1mm",
+    "C05_cube_hole_3mm",
+    "C11_cube_hole_4mm",
+    "C04_cube_hole_5mm",
+    "C06_cube_hole_moved"
+   ],
+   "residuals": {
+    "C03_cube_fillet_1mm": {
+     "pos": 0.007489335257560015,
+     "ang": 1.5707963267948963
+    },
+    "C09_cube_chamfer_1mm": {
+     "pos": 0.007489335257560015,
+     "ang": 1.5707963267948963
+    },
+    "C05_cube_hole_3mm": {
+     "pos": 0.0010000000598742091,
+     "ang": 8.296615425989067e-8
+    },
+    "C11_cube_hole_4mm": {
+     "pos": 0.0005000000598742093,
+     "ang": 8.296615425989067e-8
+    },
+    "C04_cube_hole_5mm": {
+     "pos": 2.2351741811588166e-10,
+     "ang": 8.296615425989067e-8
+    },
+    "C06_cube_hole_moved": {
+     "pos": 0.0020000001676380506,
+     "ang": 0.921884083733601
+    }
+   }
+  },
+  {
+   "display": "C06_cube_hole_moved",
+   "picked": "C06_cube_hole_moved",
+   "ok": true,
+   "boxMatches": [
+    "C03_cube_fillet_1mm",
+    "C09_cube_chamfer_1mm",
+    "C05_cube_hole_3mm",
+    "C11_cube_hole_4mm",
+    "C04_cube_hole_5mm",
+    "C06_cube_hole_moved"
+   ],
+   "residuals": {
+    "C03_cube_fillet_1mm": {
+     "pos": 0.007489335257560015,
+     "ang": 1.5707963267948963
+    },
+    "C09_cube_chamfer_1mm": {
+     "pos": 0.007489335257560015,
+     "ang": 1.5707963267948963
+    },
+    "C05_cube_hole_3mm": {
+     "pos": 0.002999999694526196,
+     "ang": 0.9218841451620324
+    },
+    "C11_cube_hole_4mm": {
+     "pos": 0.002499999694526196,
+     "ang": 0.9218841451620324
+    },
+    "C04_cube_hole_5mm": {
+     "pos": 0.0019999996945261967,
+     "ang": 0.9218841451620324
+    },
+    "C06_cube_hole_moved": {
+     "pos": 3.054738020695502e-10,
+     "ang": 9.185692672385244e-8
+    }
+   }
+  }
+ ],
+ "syntheticOk": "6 of 6",
+ "corpus": [
+  {
+   "part": "629adcec",
+   "converter": {
+    "name": "Contents/Config-0-Partition",
+    "by": "display",
+    "matches": [
+     "Contents/Config-0-Partition",
+     "Contents/Config-1-Partition",
+     "Contents/Config-4-Partition"
+    ]
+   },
+   "residuals": [
+    [
+     "0-Partition",
+     {
+      "pos": 1.940752758153308e-10,
+      "ang": 4.2146848510894035e-8
+     }
+    ],
+    [
+     "1-Partition",
+     {
+      "pos": 1.940752758153308e-10,
+      "ang": 4.2146848510894035e-8
+     }
+    ],
+    [
+     "4-Partition",
+     {
+      "pos": 1.940752758153308e-10,
+      "ang": 4.2146848510894035e-8
+     }
+    ]
+   ]
+  },
+  {
+   "part": "70477058",
+   "converter": {
+    "name": "Contents/Config-0-Partition",
+    "by": "display",
+    "matches": [
+     "Contents/Config-0-Partition",
+     "Contents/Config-1-Partition",
+     "Contents/Config-4-Partition"
+    ]
+   },
+   "residuals": [
+    [
+     "0-Partition",
+     {
+      "pos": 1.6831219041594298e-9,
+      "ang": 3.3618552007313166e-7
+     }
+    ],
+    [
+     "1-Partition",
+     {
+      "pos": 1.6831219041594298e-9,
+      "ang": 3.3618552007313166e-7
+     }
+    ],
+    [
+     "4-Partition",
+     {
+      "pos": 1.6831219041594298e-9,
+      "ang": 3.3618552007313166e-7
+     }
+    ]
+   ]
+  },
+  {
+   "part": "516a7dc5",
+   "converter": {
+    "name": "Contents/Config-0-Partition",
+    "by": "display",
+    "matches": [
+     "Contents/Config-0-Partition",
+     "Contents/Config-1-Partition"
+    ]
+   },
+   "residuals": [
+    [
+     "0-Partition",
+     {
+      "pos": 3.807546387554761e-10,
+      "ang": 1.4901161193847656e-8
+     }
+    ],
+    [
+     "1-Partition",
+     {
+      "pos": 3.807546387554761e-10,
+      "ang": 1.4901161193847656e-8
+     }
+    ]
+   ]
+  },
+  {
+   "part": "afc71d14",
+   "converter": {
+    "name": "Contents/Config-0-Partition",
+    "by": "display",
+    "matches": [
+     "Contents/Config-0-Partition",
+     "Contents/Config-1-Partition"
+    ]
+   },
+   "residuals": [
+    [
+     "0-Partition",
+     {
+      "pos": 7.845163338404681e-10,
+      "ang": 6.206830024617572e-7
+     }
+    ],
+    [
+     "1-Partition",
+     {
+      "pos": 7.845163338404681e-10,
+      "ang": 6.206830024617572e-7
+     }
+    ]
+   ]
+  },
+  {
+   "part": "118a3cb0",
+   "converter": {
+    "name": "Contents/Config-268-Partition",
+    "by": "display",
+    "matches": [
+     "Contents/Config-268-Partition"
+    ]
+   },
+   "residuals": []
+  },
+  {
+   "part": "289756ce",
+   "converter": {
+    "name": "Contents/Config-21-Partition",
+    "by": "display",
+    "matches": [
+     "Contents/Config-21-Partition"
+    ]
+   },
+   "residuals": []
+  }
+ ]
+}

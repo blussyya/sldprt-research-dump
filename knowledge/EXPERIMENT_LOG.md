@@ -1669,6 +1669,7 @@ no match it keeps the lowest ID. `300f9732` (SW2014 OLE2) misses by 2.5e-8 m bec
 pads faces at its four tolerant vertices. On single-configuration parts the box test matches 152
 of 183. Both blind checks say partly holds: the picks are right in the corpus, mesh volume backs
 268 and 21, but face count and box can tie different shapes (six test cubes), so the tie rule is a
-corpus fact.
+corpus fact. A tie-breaker (517476c) now ranks tied configurations by the display
+mesh's vertices and normals; it picks the right one of six tied cubes in all six cases.
 
 Evidence: [2026-11-06_v0.5-EXP098.md](evidence/2026-11-06_v0.5-EXP098.md).
