@@ -1662,7 +1662,7 @@ Evidence: [2026-11-06_v0.5-EXP097.md](evidence/2026-11-06_v0.5-EXP097.md).
 
 ## EXP-098 — Picking the configuration from the display
 
-The converter (`dev` b11225b) now reads the configuration whose native face count and B-rep box
+The converter (`dev` 9d39a6c) now reads the configuration whose native face count and B-rep box
 match the saved display within 1e-8 m, in parts with several configurations and no ModelHeader.
 `118a3cb0` reads 268 and `289756ce` reads 21, where the lowest ID was 56 mm and 0.1 mm off. With
 no match it keeps the lowest ID. `300f9732` (SW2014 OLE2) misses by 2.5e-8 m because the display
