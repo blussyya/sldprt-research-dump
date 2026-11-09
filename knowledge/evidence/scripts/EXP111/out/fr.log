@@ -1,0 +1,32 @@
+SW2011 37
+C00_cube_10mm 24 Boss-Extrude1 2026-09-21T09:35:00.000Z FT 2026-09-21T09:35:00.708Z logC 09:35:00 logM undefined
+C01_cube_20mm 24 Boss-Extrude1 2026-09-21T09:35:31.000Z FT 2026-09-21T09:35:31.225Z logC 09:35:31 logM undefined
+C02_cube_translated 24 Boss-Extrude1 2026-09-21T09:35:38.000Z FT 2026-09-21T09:35:38.033Z logC 09:35:38 logM undefined
+C03_cube_fillet_1mm 24 Boss-Extrude1 2026-09-21T09:35:44.000Z FT 2026-09-21T09:35:44.451Z logC 09:35:44 logM undefined
+C03_cube_fillet_1mm 26 Fillet1 2026-09-21T09:35:45.000Z FT 2026-09-21T09:35:45.516Z logC 09:35:45 logM undefined
+C04_cube_hole_5mm 24 Boss-Extrude1 2026-09-21T09:35:51.000Z FT 2026-09-21T09:35:51.569Z logC 09:35:51 logM undefined
+C04_cube_hole_5mm 31 Cut-Extrude1 2026-09-21T09:35:53.000Z FT 2026-09-21T09:35:53.403Z logC 09:35:53 logM undefined
+C05_cube_hole_3mm 24 Boss-Extrude1 2026-09-21T09:35:59.000Z FT 2026-09-21T09:35:59.038Z logC 09:35:59 logM undefined
+C05_cube_hole_3mm 31 Cut-Extrude1 2026-09-21T09:36:01.000Z FT 2026-09-21T09:36:01.018Z logC 09:36:01 logM undefined
+C06_cube_hole_moved 24 Boss-Extrude1 2026-09-21T09:36:07.000Z FT 2026-09-21T09:36:07.347Z logC 09:36:07 logM undefined
+C06_cube_hole_moved 31 Cut-Extrude1 2026-09-21T09:36:09.000Z FT 2026-09-21T09:36:09.121Z logC 09:36:09 logM undefined
+C07_cube_two_holes 24 Boss-Extrude1 2026-09-21T09:36:14.000Z FT 2026-09-21T09:36:14.851Z logC 09:36:14 logM undefined
+C07_cube_two_holes 31 Cut-Extrude1 2026-09-21T09:36:17.000Z FT 2026-09-21T09:36:17.108Z logC 09:36:17 logM undefined
+C08_cube_second_hole_modified 24 Boss-Extrude1 2026-09-21T09:36:22.000Z FT 2026-09-21T09:36:22.416Z logC 09:36:22 logM undefined
+C08_cube_second_hole_modified 31 Cut-Extrude1 2026-09-21T09:36:23.000Z FT 2026-09-21T09:36:23.791Z logC 09:36:23 logM undefined
+SW2022 35
+C00_cube_10mm 32 Boss-Extrude1 2026-09-21T04:39:21.000Z FT 2026-09-21T04:39:21.063Z logC undefined logM undefined
+C01_cube_20mm 32 Boss-Extrude1 2026-09-21T04:39:50.000Z FT 2026-09-21T04:39:50.593Z logC undefined logM undefined
+C02_cube_translated 32 Boss-Extrude1 2026-09-21T04:40:17.000Z FT 2026-09-21T04:40:17.680Z logC undefined logM undefined
+C03_cube_fillet_1mm 32 Boss-Extrude1 2026-09-21T04:51:19.000Z FT 2026-09-21T04:51:19.090Z logC undefined logM undefined
+C03_cube_fillet_1mm 34 Fillet1 2026-09-21T04:51:21.000Z FT 2026-09-21T04:51:21.399Z logC undefined logM undefined
+C04_cube_hole_5mm 32 Boss-Extrude1 2026-09-21T04:51:53.000Z FT 2026-09-21T04:51:53.014Z logC undefined logM undefined
+C04_cube_hole_5mm 46 Cut-Extrude1 2026-09-21T05:02:56.000Z FT 2026-09-21T05:02:56.906Z logC undefined logM undefined
+C05_cube_hole_3mm 32 Boss-Extrude1 2026-09-21T04:58:16.000Z FT 2026-09-21T04:58:16.047Z logC undefined logM undefined
+C05_cube_hole_3mm 46 Cut-Extrude2 2026-09-21T04:58:23.000Z FT 2026-09-21T04:58:23.959Z logC undefined logM undefined
+C06_cube_hole_moved 32 Boss-Extrude1 2026-09-21T04:58:36.000Z FT 2026-09-21T04:58:36.333Z logC undefined logM undefined
+C06_cube_hole_moved 46 Cut-Extrude2 2026-09-21T04:58:40.000Z FT 2026-09-21T04:58:40.136Z logC undefined logM undefined
+C07_cube_two_holes 32 Boss-Extrude1 2026-09-21T04:58:49.000Z FT 2026-09-21T04:58:49.165Z logC undefined logM undefined
+C07_cube_two_holes 46 Cut-Extrude2 2026-09-21T04:58:53.000Z FT 2026-09-21T04:58:53.486Z logC undefined logM undefined
+C08_cube_second_hole_modified 32 Boss-Extrude1 2026-09-21T04:59:03.000Z FT 2026-09-21T04:59:03.430Z logC undefined logM undefined
+C08_cube_second_hole_modified 46 Cut-Extrude2 2026-09-21T04:59:07.000Z FT 2026-09-21T04:59:07.753Z logC undefined logM undefined
