@@ -1,2 +1,8 @@
 (a) SW2011 moFR_c stamp == log Created: 37 of 37
     FR stamps naming a sketch in the SW2011 set: 0
+(b) files tried 222 read to a feature list 205 with History items 87 items joined to a node 133
+    items with a FT 133
+    stamp - floor(FT): { '0': 81, '-1..-10': 39, '<-10': 13 }
+    sketches 61 { '0': 13, '-1..-10': 39, '<-10': 9 }  non-sketch 72 { '0': 68, '<-10': 4 }
+    History stamp == FR stamp where both exist: 70 of 70 []
+(c) true pairing: equal 81 of 133  | shifted pairing: equal 15 of 132 , stamp<=FT 97 of 132
