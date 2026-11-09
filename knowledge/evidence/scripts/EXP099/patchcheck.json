@@ -1,0 +1,21 @@
+{
+ "files": 222,
+ "facesBefore": 21102,
+ "withMetaBefore": 13589,
+ "withMetaAfter": 13533,
+ "facesWhoseMetadataChanged": 56,
+ "changedAreAllOdd": true,
+ "geometryDiffers": 0,
+ "tagHistAfter": {
+  "4001": 6386,
+  "4002": 4879,
+  "4003": 484,
+  "4004": 74,
+  "4005": 240,
+  "4006": 699,
+  "4007": 72,
+  "4008": 1,
+  "4009": 408,
+  "4010": 290
+ }
+}

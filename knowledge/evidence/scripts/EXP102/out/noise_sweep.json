@@ -1,0 +1,56 @@
+{
+ "2e-9": [
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "3e-9": [
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "5e-9": [
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "8e-9": [
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "1e-8": [
+  [],
+  [],
+  [],
+  [],
+  [
+   "C09_cube_chamfer_1mm:C09_cube_chamfer_1mm->C03_cube_fillet_1mm"
+  ]
+ ],
+ "2e-8": [
+  [
+   "C09_cube_chamfer_1mm:C09_cube_chamfer_1mm->C03_cube_fillet_1mm"
+  ],
+  [
+   "C09_cube_chamfer_1mm:C09_cube_chamfer_1mm->C03_cube_fillet_1mm"
+  ],
+  [
+   "C09_cube_chamfer_1mm:C09_cube_chamfer_1mm->C03_cube_fillet_1mm"
+  ],
+  [
+   "C09_cube_chamfer_1mm:C09_cube_chamfer_1mm->C03_cube_fillet_1mm"
+  ],
+  [
+   "C09_cube_chamfer_1mm:C09_cube_chamfer_1mm->C03_cube_fillet_1mm"
+  ]
+ ]
+}
