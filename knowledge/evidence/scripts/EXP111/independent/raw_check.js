@@ -12,7 +12,7 @@ for(const d of fs.readdirSync(root).filter(x=>/^C\d\d/.test(x))){
  const rf=g('Config-0-ResolvedFeatures'),ms=g('ModelStamps').readUInt32LE(0),core=g('docProps/core.xml').toString();
  const mod=Date.parse(/modified>([^<]+)/.exec(core)[1])/1000;
  const kw=g('swXmlContents/KeyWords').toString('utf8');
- const ids=[...kw.matchAll(/<(Extrusion|Sketch|Fillet|Chamfer|Shell|Loft|Revolve|Blend|Cut|Cone|Sphere|Torus|\w+Feature|\w+) id="(\d+)" Name="([^"]*)"/g)].filter(m=>!['Feature','Configuration'].includes(m[1])).map(m=>+m[2]);
+ const ids=[...kw.matchAll(/<(\w+) id="(\d+)" Name="([^"]*)"( Type="([^"]*)")?/g)].filter(m=>!['Keywords','Configuration'].includes(m[1])&&m[3]!=='Origin'&&(m[1]!=='Feature'||(m[5]==='Plane'&&+m[2]>4))).map(m=>+m[2]);   // modelled features and user planes
  const rec=[];for(let p=0;p+8<=rf.length;p++){const id=rf.readUInt32LE(p),t=rf.readUInt32LE(p+4);if(ids.includes(id)&&t>=ms&&t<=mod+1)rec.push({p,id,t});}
  const fts=[];for(let p=0;p+8<=rf.length;p++){const hi=rf.readUInt32LE(p),lo=rf.readUInt32LE(p+4);if(hi<0x01d00000||hi>0x01e00000)continue;const t=Number((BigInt(hi)<<32n|BigInt(lo))/10000n)/1000-Number(EPOCH);if(t>ms+1&&t<=mod+1)fts.push({p,t});}
  // keep only the first record of each id (later ones can be other references)

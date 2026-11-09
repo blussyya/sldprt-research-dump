@@ -6,7 +6,7 @@ const plaus=t=>t>9.5e8&&t<1.8e9;
 let nf=0,tpl=0,tplEqMS=0,tplDiff={};const rows=[];
 for(const r of d){if(!r.nodes||r.modelStamps===undefined)continue;
  const tp=r.nodes.filter(n=>plaus(n.t)&&n.cv===0&&n.order===101&&n.mv>=15000);   // folders created with the document
- const us=r.nodes.filter(n=>plaus(n.t)&&MODEL.has(n.cls));
+ const us=r.nodes.filter(n=>plaus(n.t)&&(MODEL.has(n.cls)||(n.cls==='moRefPlane_c'&&n.cv>0)));
  // templates: group by identical FT; the latest one is the doc-creation moment
  if(tp.length){const mx=Math.max(...tp.map(n=>n.t));tpl++;const dd=Math.floor(mx)-r.modelStamps;tplDiff[dd]=(tplDiff[dd]||0)+1;}
  if(!us.length)continue;nf++;

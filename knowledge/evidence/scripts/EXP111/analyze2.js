@@ -5,7 +5,7 @@ const MODEL=new Set(['moProfileFeature_c','moExtrusion_c','moICE_c','moRevolutio
 const plaus=t=>t>9.5e8&&t<1.8e9;
 const rows=[];
 for(const r of d){if(!r.nodes)continue;
- const u=r.nodes.filter(n=>plaus(n.t)&&n.cv>0&&MODEL.has(n.cls));
+ const u=r.nodes.filter(n=>plaus(n.t)&&n.cv>0&&(MODEL.has(n.cls)||(n.cls==='moRefPlane_c'&&n.cv>0)));
  if(u.length<2)continue;
  const byOrder=[...u].sort((a,b)=>a.order-b.order||a.id-b.id);
  let inv=0,pairs=0;for(let i=0;i<byOrder.length;i++)for(let j=i+1;j<byOrder.length;j++){if(byOrder[i].order===byOrder[j].order)continue;pairs++;if(byOrder[i].t>byOrder[j].t)inv++;}
