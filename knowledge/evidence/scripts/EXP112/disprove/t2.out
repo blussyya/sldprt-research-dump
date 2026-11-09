@@ -1,0 +1,10 @@
+files 181 found 7488 dir 8015
+files with extra []
+files with missing [('/home/user/sldprt-research-dump/package/samples/sw2022/C00_cube_10mm.SLDPRT', [39550, 39607]), ('/home/user/sldprt-research-dump/package/samples/sw2022/C04_cube_hole_5mm.SLDPRT', [25782, 25839]), ('/home/user/sldprt-research-dump/package/samples/sw2022/C15_torus.SLDPRT', [136981, 137038]), ('/home/user/sldprt-research-dump/test files new/SW2022/C00_cube_10mm/model.SLDPRT', [39550, 39607]), ('/home/user/sldprt-research-dump/test files new/SW2022/C01_cube_20mm/model.SLDPRT', [38643, 38700]), ('/home/user/sldprt-research-dump/test files new/SW2022/C02_cube_translated/model.SLDPRT', [38445, 38502]), ('/home/user/sldprt-research-dump/test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT', [48718, 48775]), ('/home/user/sldprt-research-dump/test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT', [25782, 25839]), ('/home/user/sldprt-research-dump/test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT', [47319, 47376]), ('/home/user/sldprt-research-dump/test files new/SW2022/C06_cube_hole_moved/model.SLDPRT', [50569, 50724])]
+dos valid 2461 8015
+['None', 'None', 'None']
+['None', 'None', 'None']
+['None', 'None', 'None']
+['None', 'None', 'None']
+['None', 'None', 'None']
+['None', 'None', 'None']

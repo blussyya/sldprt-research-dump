@@ -1673,3 +1673,17 @@ corpus fact. A tie-breaker (517476c) now ranks tied configurations by the displa
 mesh's vertices and normals; it picks the right one of six tied cubes in all six cases.
 
 Evidence: [2026-11-06_v0.5-EXP098.md](evidence/2026-11-06_v0.5-EXP098.md).
+
+## EXP-112 — The modern container is a disguised ZIP with a directory
+
+From byte 8 on a modern SLDPRT is a ZIP archive with per-file signatures, offsets counted from
+byte 8, and filler blocks that imitate headers. The real end record is the one shape that sits at
+8 + its own directory offset + size: exactly one in each of 181 files. Its directory lists 7,895
+streams in 178 distinct files, all inflate and pass CRC-32, and the scan finds nothing outside
+it. The first four bytes are a key from a set of about 1,000 that selects the three signatures;
+162 of 163 keys are `rand() & 0xff` output of the Microsoft C runtime. How the signatures follow
+from the key isn't known. The converter now reads through the directory. Blind prove: holds,
+with the filler size corrected to 85 to 100 bytes. Blind disprove: stopped by the usage limit.
+
+Evidence: [2026-11-09_v0.5-EXP112.md](evidence/2026-11-09_v0.5-EXP112.md).
+

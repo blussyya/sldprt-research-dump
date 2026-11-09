@@ -556,3 +556,8 @@ Per instruction, this handoff does not designate one of these as an in-progress 
   1.12e-8 m mid-curve with dense sampling: the fitter's check is too sparse. Sweep clean, tests
   pass. Next: a denser fit check (edge 826), 3c4752f1's touching-end plane × blend edges, the
   SP_CURVE edges on f0b9a118 and 2e6e140a, near-T accuracy, 2f121983, the thread vertices.
+- 2026-11-09 (EXP-112): the modern container's directory is decoded (a ZIP central directory
+  with per-file signatures and offsets from byte 8). Converter branch
+  `claude/research-breakthrough-f7b0ph`, based on `dev`, reads through it and keeps the scan as a
+  fallback; tests pass. Next: rerun the blind disprove check (it hit the usage limit), then how
+  the signatures come from the 4-byte key, and the 4 bytes at the time/date position.

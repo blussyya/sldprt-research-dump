@@ -1,0 +1,15 @@
+distinct files 178
+H -> L GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+H -> C GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+H -> E GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+Hb -> L GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+Hb -> C GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+Hb -> E GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+L -> C GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+L -> E GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+C -> E GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+C -> L GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+E -> L GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+E -> C GF(2)-affine consistent output bits (100 files, 33 unknowns): 0 /32 | mod-2^32 linear: false
+control rot/shift/xor  H -> T: 32 /32
+control LCG            H -> U mod-linear: true gf2: 2 /32

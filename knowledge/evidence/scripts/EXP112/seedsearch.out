@@ -1,0 +1,32 @@
+msvc u32 hits 0 expected by chance 0.48 
+msvc bytesLo hits 57 expected by chance 0.45 2915,3506,9233
+msvc bytesHi hits 1 expected by chance 0.45 121955
+msvc pair16 hits 0 expected by chance 1.40 
+msvcState u32 hits 0 expected by chance 0.48 
+msvcState bytesLo hits 0 expected by chance 0.45 
+msvcState bytesHi hits 0 expected by chance 0.45 
+msvcState pair16 hits 0 expected by chance 1.40 
+ansiC u32 hits 0 expected by chance 0.48 
+ansiC bytesLo hits 1 expected by chance 0.45 41913
+ansiC bytesHi hits 1 expected by chance 0.45 48955
+ansiC pair16 hits 2 expected by chance 1.40 3654,28747
+ansiState u32 hits 1 expected by chance 0.48 130448
+ansiState bytesLo hits 0 expected by chance 0.45 
+ansiState bytesHi hits 0 expected by chance 0.45 
+ansiState pair16 hits 0 expected by chance 1.40 
+minstd u32 hits 0 expected by chance 0.48 
+minstd bytesLo hits 0 expected by chance 0.45 
+minstd bytesHi hits 0 expected by chance 0.45 
+minstd pair16 hits 2 expected by chance 1.40 81571,95324
+minstd0 u32 hits 1 expected by chance 0.48 121627
+minstd0 bytesLo hits 1 expected by chance 0.45 76903
+minstd0 bytesHi hits 0 expected by chance 0.45 
+minstd0 pair16 hits 0 expected by chance 1.40 
+xorshift u32 hits 2 expected by chance 0.48 18147,97045
+xorshift bytesLo hits 0 expected by chance 0.45 
+xorshift bytesHi hits 0 expected by chance 0.45 
+xorshift pair16 hits 3 expected by chance 1.40 6776,7827,112789
+mt u32 hits 0 expected by chance 0.02 
+mt bytesLo hits 0 expected by chance 0.01 
+mt bytesHi hits 0 expected by chance 0.01 
+mt pair16 hits 0 expected by chance 0.05 
