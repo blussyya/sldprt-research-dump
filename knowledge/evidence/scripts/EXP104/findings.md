@@ -1,6 +1,6 @@
 # EXP-104: joining display faces to native faces when ids repeat
 
-Date: 2026-11-09. Converter: `/home/user/conv-ids`, branch `feature/display-ids` from dev a256dba. "Before" numbers come from `/home/user/conv-dev` (dev, read only).
+Date: 2026-11-09. Converter: `/home/user/conv-ids`, branch `feature/display-ids` from dev a256dba, merged with dev 705b69b at the end (measure re-run on it: same numbers, `measure.after-rebased.json`). "Before" numbers come from `/home/user/conv-dev` (dev, read only).
 
 ## Finding
 
@@ -63,7 +63,7 @@ Named parts (matched / ambiguous / none / geometric wrong / edge ids differ):
 
 Version 1 of the check (`measure.v1-maxres.js`, outputs `measure.v1-maxres.*.json`) required every display vertex within 1e-5 m. It called 1,206 dev joins and 744 branch joins wrong. Many were unique-id cylinders of `Pocket Wheel` whose boundary vertices sit up to 1.2e-4 m inside the surface while the other vertices are at 6e-9 m (`diag2.js`). EXP-097 saw the same boundary offset. Version 2 asks that half the vertices are within the bar. The bar itself did not move. The join's tie-break uses the same median rule, so on the 1,555 faces it resolved by geometry the geometric check is not independent of the join. The edge-id check is: it agrees on 1,555 of them except where counted in the 33 above.
 
-The 5 remaining geometric failures (`wrong5.js`): 4 curved faces (`3c4752f1` 705 and 39, `Dekor` 6338 and 8654) have 44% to 49% of their vertices within 1e-5 m, edge ids identical and bounds inside, so they are probably right joins that miss the half-vertices line by 1 to 6 points. One plane (`a0ab30c8` 88) is on the surface but outside the stored bounds with different edge ids: probably wrong, in a part where 27 other faces have no native id (below).
+The 5 remaining geometric failures (`wrong5.js`): 4 curved faces (`3c4752f1` 705 and 39, `Dekor` 6338 and 8654) have 44% to 49% of their vertices within 1e-5 m, edge ids identical and bounds inside, so they are probably right joins that miss the half-vertices line by 1 or 2 vertices. One plane (`a0ab30c8` 88) is on the surface but outside the stored bounds with different edge ids: probably wrong, in a part where 27 other faces have no native id (below).
 
 ## Display order
 
@@ -116,4 +116,4 @@ The join fixes 188 of the 200 (94%): `03764871` 121, `d0d61cde` 56, `d2515121` 5
 
 ## Scripts and outputs
 
-All in this folder. `common.js` (loader, closed-form residuals, checks), `explore.js` (candidate counts), `order.js`, `measure.js` (coverage, controls; `measure.v1-maxres.js` is the first check), `diag.js`, `diag2.js` (why version 1 failed), `wrong5.js`, `none.js`, `amb.js`, `amb2.js` (ambiguity), `scalar-941.js`, `scalar-join.js` (the 941). Each has a `.json` or `.txt` beside it. Set `SRC` to choose the converter tree (`/home/user/conv-dev/src` for before).
+All in this folder. `common.js` (loader, closed-form residuals, checks), `explore.js` (candidate counts), `order.js`, `measure.js` (coverage, controls; `measure.v1-maxres.js` is the first check), `diag.js`, `diag2.js` (why version 1 failed), `wrong5.js`, `none.js`, `amb.js`, `amb2.js` (ambiguity), `scalar-941.js`, `scalar-join.js` (the 941), `howedges.js`. Each has a `.json` or `.txt` beside it. Set `SRC` to choose the converter tree (`/home/user/conv-dev/src` for before).
