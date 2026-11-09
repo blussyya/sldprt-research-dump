@@ -1,0 +1,427 @@
+[
+ {
+  "name": "C00_cube_10mm",
+  "displayFaces": 6,
+  "displayVerts": 24,
+  "brepFaces": 6,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C01_cube_20mm",
+  "displayFaces": 6,
+  "displayVerts": 24,
+  "brepFaces": 6,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.02,
+   0.02,
+   0.02
+  ],
+  "error": null
+ },
+ {
+  "name": "C02_cube_translated",
+  "displayFaces": 6,
+  "displayVerts": 24,
+  "brepFaces": 6,
+  "brepBoxMin": [
+   0.05,
+   0.05,
+   0
+  ],
+  "brepBoxMax": [
+   0.06,
+   0.06,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C03_cube_fillet_1mm",
+  "displayFaces": 7,
+  "displayVerts": 60,
+  "brepFaces": 7,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.010000000000000002,
+   0.010000000000000002,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C04_cube_hole_5mm",
+  "displayFaces": 7,
+  "displayVerts": 210,
+  "brepFaces": 7,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C05_cube_hole_3mm",
+  "displayFaces": 7,
+  "displayVerts": 180,
+  "brepFaces": 7,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C06_cube_hole_moved",
+  "displayFaces": 7,
+  "displayVerts": 212,
+  "brepFaces": 7,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C07_cube_two_holes",
+  "displayFaces": 8,
+  "displayVerts": 388,
+  "brepFaces": 8,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C08_cube_second_hole_modified",
+  "displayFaces": 8,
+  "displayVerts": 370,
+  "brepFaces": 8,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C09_cube_chamfer_1mm",
+  "displayFaces": 7,
+  "displayVerts": 30,
+  "brepFaces": 7,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.010000000000000004,
+   0.010000000000000004,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C10_cube_shell_1mm",
+  "displayFaces": 11,
+  "displayVerts": 50,
+  "brepFaces": 11,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C11_cube_hole_4mm",
+  "displayFaces": 7,
+  "displayVerts": 202,
+  "brepFaces": 7,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C12_cube_fillet_1mm_edge2",
+  "displayFaces": 7,
+  "displayVerts": 56,
+  "brepFaces": 7,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C13_cone",
+  "displayFaces": 2,
+  "displayVerts": 220,
+  "brepFaces": 2,
+  "brepBoxMin": [
+   -0.005,
+   0,
+   -0.005
+  ],
+  "brepBoxMax": [
+   0.005,
+   0.01,
+   0.005
+  ],
+  "error": null
+ },
+ {
+  "name": "C14_sphere",
+  "displayFaces": 1,
+  "displayVerts": 4884,
+  "brepFaces": 1,
+  "brepBoxMin": [
+   null,
+   null,
+   null
+  ],
+  "brepBoxMax": [
+   null,
+   null,
+   null
+  ],
+  "error": null
+ },
+ {
+  "name": "C15_torus",
+  "displayFaces": 1,
+  "displayVerts": 5968,
+  "brepFaces": 1,
+  "brepBoxMin": [
+   null,
+   null,
+   null
+  ],
+  "brepBoxMax": [
+   null,
+   null,
+   null
+  ],
+  "error": null
+ },
+ {
+  "name": "C16_loft_spline",
+  "displayFaces": 6,
+  "displayVerts": 2520,
+  "brepFaces": 6,
+  "brepBoxMin": [
+   -0.005,
+   -8.673617379884035e-19,
+   -0.005
+  ],
+  "brepBoxMax": [
+   0.005,
+   0.010000000000000002,
+   0.005
+  ],
+  "error": null
+ },
+ {
+  "name": "C17_torus_quarter",
+  "displayFaces": 3,
+  "displayVerts": 3068,
+  "brepFaces": 3,
+  "brepBoxMin": [
+   1.8369701987210296e-19,
+   -0.0020000000000000005,
+   -0.007000000000000001
+  ],
+  "brepBoxMax": [
+   0.007000000000000001,
+   0.0020000000000000005,
+   0
+  ],
+  "error": null
+ },
+ {
+  "name": "C18_cube_split_line",
+  "displayFaces": 7,
+  "displayVerts": 30,
+  "brepFaces": 7,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C19_half_cylinder",
+  "displayFaces": 4,
+  "displayVerts": 140,
+  "brepFaces": 4,
+  "brepBoxMin": [
+   -0.005,
+   0,
+   -0.005
+  ],
+  "brepBoxMax": [
+   0.005,
+   0.01,
+   3.061616997868383e-19
+  ],
+  "error": null
+ },
+ {
+  "name": "C20_cylinders_crossed",
+  "displayFaces": 8,
+  "displayVerts": 1090,
+  "brepFaces": 8,
+  "brepBoxMin": [
+   -0.01,
+   -0.005,
+   -0.01
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.005,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C21_cylinder_fillet",
+  "displayFaces": 4,
+  "displayVerts": 1780,
+  "brepFaces": 4,
+  "brepBoxMin": [
+   -0.005,
+   0,
+   -0.005
+  ],
+  "brepBoxMax": [
+   0.005,
+   0.01,
+   0.005
+  ],
+  "error": null
+ },
+ {
+  "name": "C22_cube_sw2011_native",
+  "displayFaces": 6,
+  "displayVerts": 24,
+  "brepFaces": 6,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ },
+ {
+  "name": "C25_cone_sw2011_native",
+  "displayFaces": 2,
+  "displayVerts": 220,
+  "brepFaces": 2,
+  "brepBoxMin": [
+   -0.005,
+   0,
+   -0.005
+  ],
+  "brepBoxMax": [
+   0.005,
+   0.01,
+   0.005
+  ],
+  "error": null
+ },
+ {
+  "name": "C26_cube_hole_sw2011_native",
+  "displayFaces": 7,
+  "displayVerts": 210,
+  "brepFaces": 7,
+  "brepBoxMin": [
+   0,
+   0,
+   0
+  ],
+  "brepBoxMax": [
+   0.01,
+   0.01,
+   0.01
+  ],
+  "error": null
+ }
+]

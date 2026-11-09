@@ -1,0 +1,29 @@
+{
+ "2023/2f121983_case.SLDPRT": {
+  "nativeFaces": 155,
+  "displayFaces": 155,
+  "renumbered": [
+   {
+    "body": 8,
+    "rawNodeId": 253,
+    "converterId": 6958,
+    "surface": "plane"
+   }
+  ],
+  "inspectMatched": 155,
+  "inspectUnmatched": 0,
+  "inspectDistinctTargets": 154,
+  "renumberedCount": 1,
+  "mappingReported": "partial"
+ },
+ "2024/a4ecc6f5_PP-2074-08.SLDPRT": {
+  "nativeFaces": 961,
+  "displayFaces": 961,
+  "renumbered": [],
+  "inspectMatched": 949,
+  "inspectUnmatched": 12,
+  "inspectDistinctTargets": 946,
+  "renumberedCount": 0,
+  "mappingReported": "partial"
+ }
+}

@@ -1,0 +1,2531 @@
+[
+ {
+  "file": "lb00.bin",
+  "stream": "LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb01.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 1,
+  "status": "ok",
+  "value": 0
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Importée112",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "Importée102",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 2,
+  "name": "Importée49",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 3,
+  "name": "Importée48",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 4,
+  "name": "Importée47",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 5,
+  "name": "Importée46",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 6,
+  "name": "Importée45",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 7,
+  "name": "Importée44",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 8,
+  "name": "Importée43",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 9,
+  "name": "Importée42",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 10,
+  "name": "Importée41",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 11,
+  "name": "Importée40",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 12,
+  "name": "Importée113",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 13,
+  "name": "Importée103",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 14,
+  "name": "Importée39",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 15,
+  "name": "Importée38",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 16,
+  "name": "Importée37",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 17,
+  "name": "Importée36",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 18,
+  "name": "Importée35",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 19,
+  "name": "Importée34",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 20,
+  "name": "Importée33",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 21,
+  "name": "Importée32",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 22,
+  "name": "Importée31",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 23,
+  "name": "Importée30",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 24,
+  "name": "Importée110",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 25,
+  "name": "Importée100",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 26,
+  "name": "Importée29",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 27,
+  "name": "Importée28",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 28,
+  "name": "Importée27",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 29,
+  "name": "Importée26",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 30,
+  "name": "Importée25",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 31,
+  "name": "Importée24",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 32,
+  "name": "Importée23",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 33,
+  "name": "Importée22",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 34,
+  "name": "Importée21",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 35,
+  "name": "Importée20",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 36,
+  "name": "Importée111",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 37,
+  "name": "Importée101",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 38,
+  "name": "Importée19",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 39,
+  "name": "Importée18",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 40,
+  "name": "Importée17",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 41,
+  "name": "Importée16",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 42,
+  "name": "Importée15",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 43,
+  "name": "Importée14",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 44,
+  "name": "Importée13",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 45,
+  "name": "Importée12",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 46,
+  "name": "Importée11",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 47,
+  "name": "Importée10",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 48,
+  "name": "Importée1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 49,
+  "name": "Importée106",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 50,
+  "name": "Importée2",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 51,
+  "name": "Importée107",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 52,
+  "name": "Importée3",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 53,
+  "name": "Importée114",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 54,
+  "name": "Importée104",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 55,
+  "name": "Importée4",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 56,
+  "name": "Importée105",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 57,
+  "name": "Importée5",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 58,
+  "name": "Importée6",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 59,
+  "name": "Importée7",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 60,
+  "name": "Importée8",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 61,
+  "name": "Importée108",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 62,
+  "name": "Importée9",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 63,
+  "name": "Importée109",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 64,
+  "name": "Importée99",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 65,
+  "name": "Importée98",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 66,
+  "name": "Importée97",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 67,
+  "name": "Importée96",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 68,
+  "name": "Importée95",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 69,
+  "name": "Importée94",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 70,
+  "name": "Importée93",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 71,
+  "name": "Importée92",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 72,
+  "name": "Importée91",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 73,
+  "name": "Importée90",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 74,
+  "name": "Importée89",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 75,
+  "name": "Importée88",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 76,
+  "name": "Importée87",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 77,
+  "name": "Importée86",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 78,
+  "name": "Importée85",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 79,
+  "name": "Importée84",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 80,
+  "name": "Importée83",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 81,
+  "name": "Importée82",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 82,
+  "name": "Importée81",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 83,
+  "name": "Importée80",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 84,
+  "name": "Importée79",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 85,
+  "name": "Importée78",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 86,
+  "name": "Importée77",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 87,
+  "name": "Importée76",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 88,
+  "name": "Importée75",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 89,
+  "name": "Importée74",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 90,
+  "name": "Importée73",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 91,
+  "name": "Importée72",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 92,
+  "name": "Importée71",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 93,
+  "name": "Importée70",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 94,
+  "name": "Importée69",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 95,
+  "name": "Importée68",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 96,
+  "name": "Importée67",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 97,
+  "name": "Importée66",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 98,
+  "name": "Importée65",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 99,
+  "name": "Importée64",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 100,
+  "name": "Importée63",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 101,
+  "name": "Importée62",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 102,
+  "name": "Importée61",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 103,
+  "name": "Importée60",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 104,
+  "name": "Importée59",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 105,
+  "name": "Importée58",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 106,
+  "name": "Importée57",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 107,
+  "name": "Importée56",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 108,
+  "name": "Importée55",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 109,
+  "name": "Importée54",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 110,
+  "name": "Importée53",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 111,
+  "name": "Importée52",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 112,
+  "name": "Importée51",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb02.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 113,
+  "name": "Importée50",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb03.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb04.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "ATX_ITX_HPTX_Motherboards_PCIe_blank_models_precise.stp",
+  "flag": 0,
+  "status": "missing",
+  "value": null
+ },
+ {
+  "file": "lb05.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "LIFTING_WHEEL_D80.stp<1>",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb06.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "84T_Gear_276-2169-004.STEP",
+  "flag": 0,
+  "status": "missing",
+  "value": null
+ },
+ {
+  "file": "lb07.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "36T_Gear_276-2169-002.STEP",
+  "flag": 0,
+  "status": "missing",
+  "value": null
+ },
+ {
+  "file": "lb08.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "12T_Gear_276-2169-001.STEP",
+  "flag": 0,
+  "status": "missing",
+  "value": null
+ },
+ {
+  "file": "lb09.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "60T_Gear_276-2169-003.STEP",
+  "flag": 0,
+  "status": "missing",
+  "value": null
+ },
+ {
+  "file": "lb10.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "PM-2879-02-1-solid1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb11.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "ｲﾝﾎﾟｰﾄ1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb12.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "ｲﾝﾎﾟｰﾄ1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb13.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Surface-Imported1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb13.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "Surface-Imported2_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb13.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 2,
+  "name": "Surface-Imported3_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb13.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 3,
+  "name": "Surface-Imported4_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb13.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 4,
+  "name": "Surface-Imported5_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb13.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 5,
+  "name": "Surface-Imported6_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb13.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 6,
+  "name": "Surface-Imported7_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb13.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 7,
+  "name": "Surface-Imported8_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb13.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 8,
+  "name": "Surface-Imported9_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb14.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Surface-Imported1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb14.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "Surface-Imported2_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb14.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 2,
+  "name": "Surface-Imported3_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb14.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 3,
+  "name": "Surface-Imported4_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb15.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "输入1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Surface-Imported10_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "Surface-Imported11_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 2,
+  "name": "Surface-Imported12_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 3,
+  "name": "Surface-Imported13_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 4,
+  "name": "Surface-Imported14_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 5,
+  "name": "Surface-Imported15_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 6,
+  "name": "Surface-Imported16_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 7,
+  "name": "Surface-Imported17_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 8,
+  "name": "Surface-Imported18_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 9,
+  "name": "Surface-Imported19_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 10,
+  "name": "Surface-Imported1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 11,
+  "name": "Surface-Imported20_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 12,
+  "name": "Surface-Imported21_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 13,
+  "name": "Surface-Imported22_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 14,
+  "name": "Surface-Imported2_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 15,
+  "name": "Surface-Imported3_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 16,
+  "name": "Surface-Imported4_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 17,
+  "name": "Surface-Imported5_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 18,
+  "name": "Surface-Imported6_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 19,
+  "name": "Surface-Imported7_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 20,
+  "name": "Surface-Imported8_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb16.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 21,
+  "name": "Surface-Imported9_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Surface-Imported10_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "Surface-Imported11_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 2,
+  "name": "Surface-Imported12_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 3,
+  "name": "Surface-Imported13_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 4,
+  "name": "Surface-Imported1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 5,
+  "name": "Surface-Imported2_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 6,
+  "name": "Surface-Imported3_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 7,
+  "name": "Surface-Imported4_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 8,
+  "name": "Surface-Imported5_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 9,
+  "name": "Surface-Imported6_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 10,
+  "name": "Surface-Imported7_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 11,
+  "name": "Surface-Imported8_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb17.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 12,
+  "name": "Surface-Imported9_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Surface-Imported10_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "Surface-Imported11_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 2,
+  "name": "Surface-Imported12_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 3,
+  "name": "Surface-Imported13_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 4,
+  "name": "Surface-Imported14_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 5,
+  "name": "Surface-Imported15_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 6,
+  "name": "Surface-Imported16_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 7,
+  "name": "Surface-Imported17_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 8,
+  "name": "Surface-Imported18_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 9,
+  "name": "Surface-Imported19_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 10,
+  "name": "Surface-Imported1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 11,
+  "name": "Surface-Imported20_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 12,
+  "name": "Surface-Imported21_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 13,
+  "name": "Surface-Imported22_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 14,
+  "name": "Surface-Imported23_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 15,
+  "name": "Surface-Imported24_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 16,
+  "name": "Surface-Imported25_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 17,
+  "name": "Surface-Imported26_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 18,
+  "name": "Surface-Imported27_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 19,
+  "name": "Surface-Imported28_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 20,
+  "name": "Surface-Imported29_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 21,
+  "name": "Surface-Imported2_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 22,
+  "name": "Surface-Imported30_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 23,
+  "name": "Surface-Imported31_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 24,
+  "name": "Surface-Imported32_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 25,
+  "name": "Surface-Imported33_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 26,
+  "name": "Surface-Imported34_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 27,
+  "name": "Surface-Imported35_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 28,
+  "name": "Surface-Imported36_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 29,
+  "name": "Surface-Imported37_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 30,
+  "name": "Surface-Imported38_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 31,
+  "name": "Surface-Imported39_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 32,
+  "name": "Surface-Imported3_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 33,
+  "name": "Surface-Imported40_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 34,
+  "name": "Surface-Imported41_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 35,
+  "name": "Surface-Imported4_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 36,
+  "name": "Surface-Imported5_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 37,
+  "name": "Surface-Imported6_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 38,
+  "name": "Surface-Imported7_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 39,
+  "name": "Surface-Imported8_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb18.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 40,
+  "name": "Surface-Imported9_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb19.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Importée3",
+  "flag": 1,
+  "status": "ok",
+  "value": 0
+ },
+ {
+  "file": "lb20.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Sensor BME280(2)-1/C0603_040_2-3/Part 1_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "Sensor BME280(2)-1/C0603_040_2-3/Part 2_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 2,
+  "name": "Sensor BME280(2)-1/C0603_040_2-3/Part 3_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 3,
+  "name": "Sensor BME280(2)-1/C0603_040_2-4/Part 1_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 4,
+  "name": "Sensor BME280(2)-1/C0603_040_2-4/Part 2_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 5,
+  "name": "Sensor BME280(2)-1/C0603_040_2-4/Part 3_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 6,
+  "name": "Sensor BME280(2)-1/C0603_040_2-5/Part 1_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 7,
+  "name": "Sensor BME280(2)-1/C0603_040_2-5/Part 2_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 8,
+  "name": "Sensor BME280(2)-1/C0603_040_2-5/Part 3_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 9,
+  "name": "Sensor BME280(2)-1/C0603_040_2-6/Part 1_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 10,
+  "name": "Sensor BME280(2)-1/C0603_040_2-6/Part 2_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 11,
+  "name": "Sensor BME280(2)-1/C0603_040_2-6/Part 3_2-3-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 12,
+  "name": "Sensor BME280(2)-1/PLS-4_2-1-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 13,
+  "name": "Sensor BME280(2)-1/PLS-4_2-1-surface2_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 14,
+  "name": "Sensor BME280(2)-1/PLS-4_2-1-surface3_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 15,
+  "name": "Sensor BME280(2)-1/PLS-4_2-1-surface4_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 16,
+  "name": "Sensor BME280(2)-1/PLS-4_2-1-surface5_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 17,
+  "name": "Sensor BME280(2)-1/SOT-363_2-1-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 18,
+  "name": "Sensor BME280(2)-1/SOT23-3_2-1-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 19,
+  "name": "Sensor BME280(2)-1/SOT23-3_2-1-surface2_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 20,
+  "name": "Sensor BME280(2)-1/SOT23-3_2-1-surface3_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 21,
+  "name": "Sensor BME280(2)-1/SOT23-3_2-1-surface4_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 22,
+  "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 23,
+  "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface2_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 24,
+  "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface3_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 25,
+  "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface4_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 26,
+  "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface5_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 27,
+  "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface6_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 28,
+  "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface7_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 29,
+  "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface8_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb21.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 30,
+  "name": "Sensor BME280(2)-1/плата датчика BME280_2-1-surface1_0",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb22.bin",
+  "stream": "Config-1-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "输入1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb22.bin",
+  "stream": "Config-1-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "输入2",
+  "flag": 1,
+  "status": "ok",
+  "value": 0
+ },
+ {
+  "file": "lb22.bin",
+  "stream": "Config-1-FeatureBodies/LocalBodies",
+  "entry": 2,
+  "name": "输入3",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb23.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "输入1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb23.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "输入2",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb23.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 2,
+  "name": "输入3",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb24.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "DS3231.step-1/0805 Capacitor_001.step-1-solid1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb24.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "DS3231.step-1/0805 Resistor_001.step-1-solid1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb24.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 2,
+  "name": "DS3231.step-1/0805 Resistor_002.step-1-solid1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb24.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 3,
+  "name": "DS3231.step-1/5 Pos Socket Header_001.step-1-solid1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb24.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 4,
+  "name": "DS3231.step-1/Battery_001.step-1-solid1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb24.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 5,
+  "name": "DS3231.step-1/Board_001.step-1-solid1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb24.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 6,
+  "name": "DS3231.step-1/SOIC16_001.step-1-solid1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb25.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "ｲﾝﾎﾟｰﾄ1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb26.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "ｲﾝﾎﾟｰﾄ1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb27.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "am-0420 8in Rubber Treaded Wheel-1-solid1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb27.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "am-0420 8in Rubber Treaded Wheel_2-1-solid1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb28.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "ｲﾝﾎﾟｰﾄ1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb29.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "ｲﾝﾎﾟｰﾄ1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb30.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb31.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 1,
+  "status": "ok",
+  "value": 0
+ },
+ {
+  "file": "lb31.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "Imported2",
+  "flag": 1,
+  "status": "ok",
+  "value": 0
+ },
+ {
+  "file": "lb32.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 1,
+  "status": "ok",
+  "value": 0
+ },
+ {
+  "file": "lb33.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 1,
+  "status": "ok",
+  "value": 0
+ },
+ {
+  "file": "lb33.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 1,
+  "name": "Imported2",
+  "flag": 1,
+  "status": "ok",
+  "value": 0
+ },
+ {
+  "file": "lb34.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "A15_KW10_cassette_L_heel.step<1>",
+  "flag": 0,
+  "status": "missing",
+  "value": null
+ },
+ {
+  "file": "lb35.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb36.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "ST3215_C018_04.step<1>",
+  "flag": 0,
+  "status": "missing",
+  "value": null
+ },
+ {
+  "file": "lb37.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb38.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "A09_power_and_compute_rack.step<1>",
+  "flag": 0,
+  "status": "missing",
+  "value": null
+ },
+ {
+  "file": "lb39.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "Imported1",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ },
+ {
+  "file": "lb40.bin",
+  "stream": "Config-0-FeatureBodies/LocalBodies",
+  "entry": 0,
+  "name": "PTC GE8080-8.stp<1>",
+  "flag": 0,
+  "status": "ok",
+  "value": 1
+ }
+]

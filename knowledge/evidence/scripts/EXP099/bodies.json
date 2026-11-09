@@ -1,0 +1,124 @@
+{
+ "2023/2f121983_case.SLDPRT": {
+  "bodies": [
+   {
+    "idx": 2,
+    "hi": 1106,
+    "faces": 17
+   },
+   {
+    "idx": 8,
+    "hi": 6957,
+    "faces": 138
+   }
+  ],
+  "display": 155,
+  "groups": {
+   "direct body 2": 17,
+   "unmatched": 35,
+   "direct body 8": 102,
+   "shifted by hi(2)=1106 body 8": 1
+  },
+  "nativeFacesUnused": 35,
+  "dupGroups": [
+   {
+    "rawId": 253,
+    "display": [
+     {
+      "i": 3,
+      "tag": 4002,
+      "verts": 161,
+      "offset": 39644,
+      "class": "direct body 2"
+     },
+     {
+      "i": 35,
+      "tag": 4001,
+      "verts": 31,
+      "offset": 424070,
+      "class": "direct body 8"
+     }
+    ]
+   }
+  ]
+ },
+ "2024/a4ecc6f5_PP-2074-08.SLDPRT": {
+  "bodies": [
+   {
+    "idx": 2,
+    "hi": 53508,
+    "faces": 946
+   },
+   {
+    "idx": 44493,
+    "hi": 54154,
+    "faces": 15
+   }
+  ],
+  "display": 961,
+  "groups": {
+   "direct body 2": 946,
+   "shifted by hi(2)=53508 body 44493": 15
+  },
+  "nativeFacesUnused": 0,
+  "dupGroups": [
+   {
+    "rawId": 2,
+    "display": [
+     {
+      "i": 945,
+      "tag": 4003,
+      "verts": 146,
+      "offset": 2242054,
+      "class": "direct body 2"
+     },
+     {
+      "i": 960,
+      "tag": 4003,
+      "verts": 160,
+      "offset": 2348301,
+      "class": "shifted by hi(2)=53508 body 44493"
+     }
+    ]
+   },
+   {
+    "rawId": 31,
+    "display": [
+     {
+      "i": 944,
+      "tag": 4001,
+      "verts": 62,
+      "offset": 2239230,
+      "class": "direct body 2"
+     },
+     {
+      "i": 959,
+      "tag": 4003,
+      "verts": 160,
+      "offset": 2342163,
+      "class": "shifted by hi(2)=53508 body 44493"
+     }
+    ]
+   },
+   {
+    "rawId": 228,
+    "display": [
+     {
+      "i": 940,
+      "tag": 4001,
+      "verts": 62,
+      "offset": 2209692,
+      "class": "direct body 2"
+     },
+     {
+      "i": 949,
+      "tag": 4002,
+      "verts": 60,
+      "offset": 2256695,
+      "class": "shifted by hi(2)=53508 body 44493"
+     }
+    ]
+   }
+  ]
+ }
+}

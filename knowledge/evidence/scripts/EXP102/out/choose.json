@@ -1,0 +1,3354 @@
+{
+ "candidates": [
+  "C00_cube_10mm",
+  "C01_cube_20mm",
+  "C02_cube_translated",
+  "C03_cube_fillet_1mm",
+  "C04_cube_hole_5mm",
+  "C05_cube_hole_3mm",
+  "C06_cube_hole_moved",
+  "C07_cube_two_holes",
+  "C08_cube_second_hole_modified",
+  "C09_cube_chamfer_1mm",
+  "C10_cube_shell_1mm",
+  "C11_cube_hole_4mm",
+  "C12_cube_fillet_1mm_edge2",
+  "C13_cone",
+  "C14_sphere",
+  "C15_torus",
+  "C16_loft_spline",
+  "C17_torus_quarter",
+  "C18_cube_split_line",
+  "C19_half_cylinder",
+  "C20_cylinders_crossed",
+  "C21_cylinder_fillet",
+  "C22_cube_sw2011_native",
+  "C25_cone_sw2011_native",
+  "C26_cube_hole_sw2011_native"
+ ],
+ "choose": {
+  "C00_cube_10mm": {
+   "pick": "C00_cube_10mm",
+   "matches": [
+    "C00_cube_10mm",
+    "C22_cube_sw2011_native"
+   ],
+   "displayFaces": 6,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6,
+     "gap": 0.01
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6,
+     "gap": 0.05
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6,
+     "gap": 0.005
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C01_cube_20mm": {
+   "pick": "C01_cube_20mm",
+   "matches": [
+    "C01_cube_20mm"
+   ],
+   "displayFaces": 6,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6,
+     "gap": 0.01
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6,
+     "gap": 0
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6,
+     "gap": 0.05
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6,
+     "gap": 0.015
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6,
+     "gap": 0.01
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C02_cube_translated": {
+   "pick": "C02_cube_translated",
+   "matches": [
+    "C02_cube_translated"
+   ],
+   "displayFaces": 6,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6,
+     "gap": 0.05
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6,
+     "gap": 0.05
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6,
+     "gap": 0
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6,
+     "gap": 0.055
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6,
+     "gap": 0.05
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C03_cube_fillet_1mm": {
+   "pick": "C03_cube_fillet_1mm",
+   "matches": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "displayFaces": 7,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 6.04551743084783e-10,
+      "ang": 3.874301910400415e-7
+     }
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 1.5707963267948966
+     }
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 1.5707963267948966
+     }
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 1.5707963267948966
+     }
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.00029289382336519613,
+      "ang": 0.7853981633974518
+     }
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 1.5707963267948966
+     }
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 1.5707963267948966
+     }
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 1.5707963267948966
+     }
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 1.5707963267948966
+     }
+    }
+   ]
+  },
+  "C04_cube_hole_5mm": {
+   "pick": "C04_cube_hole_5mm",
+   "matches": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "displayFaces": 7,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.007489335257560015,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 8.296615425989067e-8
+     }
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000000598742091,
+      "ang": 8.296615425989067e-8
+     }
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0020000001676380506,
+      "ang": 0.921884083733601
+     }
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7,
+     "gap": 3.469446951953614e-18,
+     "residual": {
+      "pos": 0.007489335257560015,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0005000000598742093,
+      "ang": 8.296615425989067e-8
+     }
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.007140211169960131,
+      "ang": 1.3553880381256695
+     }
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.007499999832361937,
+      "ang": 1.4783965377528816
+     }
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 8.296615425989067e-8
+     }
+    }
+   ]
+  },
+  "C05_cube_hole_3mm": {
+   "pick": "C05_cube_hole_3mm",
+   "matches": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "displayFaces": 7,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.006072591544252054,
+      "ang": 1.2107105582368287
+     }
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000001339306858,
+      "ang": 1.2818463544611084e-7
+     }
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 1.2818463544611084e-7
+     }
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.001960954742564925,
+      "ang": 1.4833642054374674
+     }
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7,
+     "gap": 3.469446951953614e-18,
+     "residual": {
+      "pos": 0.0064595672208815815,
+      "ang": 1.3962633966543394
+     }
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0005000001339306866,
+      "ang": 1.2818463544611084e-7
+     }
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0064595672208815815,
+      "ang": 1.3962633966543394
+     }
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0064595672208815815,
+      "ang": 1.3962633966543394
+     }
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000001339306858,
+      "ang": 1.2818463544611084e-7
+     }
+    }
+   ]
+  },
+  "C06_cube_hole_moved": {
+   "pick": "C06_cube_hole_moved",
+   "matches": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "displayFaces": 7,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.007489335257560015,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0019999996945261967,
+      "ang": 0.9218841451620324
+     }
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.002999999694526196,
+      "ang": 0.9218841451620324
+     }
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 3.054738020695502e-10,
+      "ang": 9.185692672385244e-8
+     }
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7,
+     "gap": 3.469446951953614e-18,
+     "residual": {
+      "pos": 0.007489335257560015,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.002499999694526196,
+      "ang": 0.9218841451620324
+     }
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.007489335257560015,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.007489335257560015,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0019999996945261967,
+      "ang": 0.9218841451620324
+     }
+    }
+   ]
+  },
+  "C07_cube_two_holes": {
+   "pick": "C07_cube_two_holes",
+   "matches": [
+    "C07_cube_two_holes",
+    "C08_cube_second_hole_modified"
+   ],
+   "displayFaces": 8,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8,
+     "gap": 0,
+     "residual": {
+      "pos": 3.3884697304975564e-10,
+      "ang": 1.20137002293744e-7
+     }
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000001980847429,
+      "ang": 1.20137002293744e-7
+     }
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8,
+     "gap": 0.01
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C08_cube_second_hole_modified": {
+   "pick": "C08_cube_second_hole_modified",
+   "matches": [
+    "C07_cube_two_holes",
+    "C08_cube_second_hole_modified"
+   ],
+   "displayFaces": 8,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000001981304702,
+      "ang": 1.6186804311275822e-7
+     }
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8,
+     "gap": 0,
+     "residual": {
+      "pos": 2.6366927109548743e-10,
+      "ang": 1.6186804311275822e-7
+     }
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8,
+     "gap": 0.01
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C09_cube_chamfer_1mm": {
+   "pick": "C09_cube_chamfer_1mm",
+   "matches": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "displayFaces": 7,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0.785398550827727
+     }
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 0.7853981633974484
+     }
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 0.7853981633974484
+     }
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 0.7853981633974484
+     }
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 4.320052005829238e-10,
+      "ang": 1.4901161193847656e-8
+     }
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 0.7853981633974484
+     }
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 0.7853981633974484
+     }
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 0.7853981633974484
+     }
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000003874301912,
+      "ang": 0.7853981633974484
+     }
+    }
+   ]
+  },
+  "C10_cube_shell_1mm": {
+   "pick": "C10_cube_shell_1mm",
+   "matches": [
+    "C10_cube_shell_1mm"
+   ],
+   "displayFaces": 11,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11,
+     "gap": 0
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C11_cube_hole_4mm": {
+   "pick": "C11_cube_hole_4mm",
+   "matches": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "displayFaces": 7,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.006520699178969609,
+      "ang": 1.283310662039777
+     }
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0005000002260123959,
+      "ang": 9.884312124119404e-8
+     }
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0005000002301504592,
+      "ang": 9.884312124119404e-8
+     }
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0022974034974716506,
+      "ang": 1.5201265565182807
+     }
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7,
+     "gap": 3.469446951953614e-18,
+     "residual": {
+      "pos": 0.006959059964865446,
+      "ang": 1.4187837846349713
+     }
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.3015045945429247e-10,
+      "ang": 9.884312124119404e-8
+     }
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.006959059964865446,
+      "ang": 1.4187837846349713
+     }
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.006959059964865446,
+      "ang": 1.4187837846349713
+     }
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0005000002260123959,
+      "ang": 9.884312124119404e-8
+     }
+    }
+   ]
+  },
+  "C12_cube_fillet_1mm_edge2": {
+   "pick": "C12_cube_fillet_1mm_edge2",
+   "matches": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "displayFaces": 7,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.0010000000474974513,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000000474974513,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000000474974513,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000000474974513,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7,
+     "gap": 3.469446951953614e-18,
+     "residual": {
+      "pos": 0.0010000000474974513,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000000474974513,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 4.712160915387242e-8
+     }
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000000474974513,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000000474974513,
+      "ang": 1.5707963267948963
+     }
+    }
+   ]
+  },
+  "C13_cone": {
+   "pick": "C13_cone",
+   "matches": [
+    "C13_cone",
+    "C25_cone_sw2011_native"
+   ],
+   "displayFaces": 2,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2,
+     "gap": 0,
+     "residual": {
+      "pos": 1.5744005146231914e-10,
+      "ang": 2.1073424255447017e-8
+     }
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2,
+     "gap": 0,
+     "residual": {
+      "pos": 1.5744005146231914e-10,
+      "ang": 2.1073424255447017e-8
+     }
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C14_sphere": {
+   "pick": null,
+   "matches": [],
+   "displayFaces": 1,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1,
+     "gap": null
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1,
+     "gap": null
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C15_torus": {
+   "pick": null,
+   "matches": [],
+   "displayFaces": 1,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1,
+     "gap": null
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1,
+     "gap": null
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C16_loft_spline": {
+   "pick": null,
+   "matches": [],
+   "displayFaces": 6,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6,
+     "gap": 0.005007008295503733
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6,
+     "gap": 0.014992991704496268
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6,
+     "gap": 0.055007008295503736
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6,
+     "gap": 0.000007008295503732782
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6,
+     "gap": 0.005007008295503733
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C17_torus_quarter": {
+   "pick": "C17_torus_quarter",
+   "matches": [
+    "C17_torus_quarter"
+   ],
+   "displayFaces": 3,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3,
+     "gap": 2.449293598294707e-19
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C18_cube_split_line": {
+   "pick": "C03_cube_fillet_1mm",
+   "matches": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "displayFaces": 7,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7,
+     "gap": 3.469446951953614e-18,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    }
+   ]
+  },
+  "C19_half_cylinder": {
+   "pick": "C19_half_cylinder",
+   "matches": [
+    "C19_half_cylinder"
+   ],
+   "displayFaces": 4,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4,
+     "gap": 3.061616997868383e-19
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4,
+     "gap": 0.005
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C20_cylinders_crossed": {
+   "pick": "C20_cylinders_crossed",
+   "matches": [
+    "C20_cylinders_crossed"
+   ],
+   "displayFaces": 8,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8,
+     "gap": 0.01
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8,
+     "gap": 0.01
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8,
+     "gap": 0
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C21_cylinder_fillet": {
+   "pick": "C21_cylinder_fillet",
+   "matches": [
+    "C21_cylinder_fillet"
+   ],
+   "displayFaces": 4,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4,
+     "gap": 0.005
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4,
+     "gap": 0
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C22_cube_sw2011_native": {
+   "pick": "C00_cube_10mm",
+   "matches": [
+    "C00_cube_10mm",
+    "C22_cube_sw2011_native"
+   ],
+   "displayFaces": 6,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6,
+     "gap": 0.01
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6,
+     "gap": 0.05
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6,
+     "gap": 0.005
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 0
+     }
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C25_cone_sw2011_native": {
+   "pick": "C13_cone",
+   "matches": [
+    "C13_cone",
+    "C25_cone_sw2011_native"
+   ],
+   "displayFaces": 2,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2,
+     "gap": 0,
+     "residual": {
+      "pos": 1.5744005146231914e-10,
+      "ang": 2.1073424255447017e-8
+     }
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2,
+     "gap": 0,
+     "residual": {
+      "pos": 1.5744005146231914e-10,
+      "ang": 2.1073424255447017e-8
+     }
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7
+    }
+   ]
+  },
+  "C26_cube_hole_sw2011_native": {
+   "pick": "C04_cube_hole_5mm",
+   "matches": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "displayFaces": 7,
+   "reason": null,
+   "rows": [
+    {
+     "name": "C00_cube_10mm",
+     "faces": 6
+    },
+    {
+     "name": "C01_cube_20mm",
+     "faces": 6
+    },
+    {
+     "name": "C02_cube_translated",
+     "faces": 6
+    },
+    {
+     "name": "C03_cube_fillet_1mm",
+     "faces": 7,
+     "gap": 1.734723475976807e-18,
+     "residual": {
+      "pos": 0.007489335257560015,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C04_cube_hole_5mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 8.296615425989067e-8
+     }
+    },
+    {
+     "name": "C05_cube_hole_3mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0010000000598742091,
+      "ang": 8.296615425989067e-8
+     }
+    },
+    {
+     "name": "C06_cube_hole_moved",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0020000001676380506,
+      "ang": 0.921884083733601
+     }
+    },
+    {
+     "name": "C07_cube_two_holes",
+     "faces": 8
+    },
+    {
+     "name": "C08_cube_second_hole_modified",
+     "faces": 8
+    },
+    {
+     "name": "C09_cube_chamfer_1mm",
+     "faces": 7,
+     "gap": 3.469446951953614e-18,
+     "residual": {
+      "pos": 0.007489335257560015,
+      "ang": 1.5707963267948963
+     }
+    },
+    {
+     "name": "C10_cube_shell_1mm",
+     "faces": 11
+    },
+    {
+     "name": "C11_cube_hole_4mm",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.0005000000598742093,
+      "ang": 8.296615425989067e-8
+     }
+    },
+    {
+     "name": "C12_cube_fillet_1mm_edge2",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.007140211169960131,
+      "ang": 1.3553880381256695
+     }
+    },
+    {
+     "name": "C13_cone",
+     "faces": 2
+    },
+    {
+     "name": "C14_sphere",
+     "faces": 1
+    },
+    {
+     "name": "C15_torus",
+     "faces": 1
+    },
+    {
+     "name": "C16_loft_spline",
+     "faces": 6
+    },
+    {
+     "name": "C17_torus_quarter",
+     "faces": 3
+    },
+    {
+     "name": "C18_cube_split_line",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 0.007499999832361937,
+      "ang": 1.4783965377528816
+     }
+    },
+    {
+     "name": "C19_half_cylinder",
+     "faces": 4
+    },
+    {
+     "name": "C20_cylinders_crossed",
+     "faces": 8
+    },
+    {
+     "name": "C21_cylinder_fillet",
+     "faces": 4
+    },
+    {
+     "name": "C22_cube_sw2011_native",
+     "faces": 6
+    },
+    {
+     "name": "C25_cone_sw2011_native",
+     "faces": 2
+    },
+    {
+     "name": "C26_cube_hole_sw2011_native",
+     "faces": 7,
+     "gap": 0,
+     "residual": {
+      "pos": 2.2351741811588166e-10,
+      "ang": 8.296615425989067e-8
+     }
+    }
+   ]
+  }
+ }
+}

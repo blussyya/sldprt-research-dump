@@ -1,0 +1,50 @@
+{
+ "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT": {
+  "oddRecords": 33,
+  "distinct": {
+   "4f004c00 | rawId ffffffff | reserved 0,0,1": {
+    "n": 33,
+    "tag": 4980815,
+    "rawId": 4294967295,
+    "ctxHex": "ff00fffeff1b53004f004c004900440057004f00",
+    "ctxUtf16": "...SOLIDWO",
+    "relTagOffsetFromGeometryEnd": 228
+   }
+  },
+  "hexTagAsDouble": null
+ },
+ "test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT": {
+  "oddRecords": 1,
+  "distinct": {
+   "00000100 | rawId 00008cda | reserved 0,1,ffffffff": {
+    "n": 1,
+    "tag": 65536,
+    "rawId": 3666608128,
+    "ctxHex": "0000650000000000000001000000ffffffffffff",
+    "ctxUtf16": ".e........",
+    "relTagOffsetFromGeometryEnd": 260
+   }
+  },
+  "hexTagAsDouble": null
+ },
+ "test files online/2019/7765d286_NSJ8L.SLDPRT": {
+  "oddRecords": 22,
+  "distinct": {
+   "f03f0000 | rawId 2680c6c1 | reserved 0,1,ffffffff": {
+    "n": 22,
+    "tag": 16368,
+    "rawId": 3251011622,
+    "ctxHex": "ff00000000000000f03f000000000000f03f9a99",
+    "ctxUtf16": "..........",
+    "relTagOffsetFromGeometryEnd": 228
+   }
+  },
+  "hexTagAsDouble": null
+ },
+ "facts": {
+  "16368=0x3FF0": "upper 16 bits of the f64 1.0 (00 00 00 00 00 00 f0 3f) read from its last two bytes + the next two zero bytes",
+  "4980815=0x4C004F": "UTF-16LE \"O\",\"L\": 4f 00 4c 00",
+  "65536=0x10000": "bytes 00 00 01 00",
+  "4294967295": "ff ff ff ff"
+ }
+}

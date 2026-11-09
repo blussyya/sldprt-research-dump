@@ -1,0 +1,2188 @@
+{
+ "tagSurface": {
+  "4001": {
+   "PLANE": 3529,
+   "CYLINDER": 33,
+   "CONE": 8,
+   "SPHERE": 21
+  },
+  "4002": {
+   "CYLINDER": 2528,
+   "PLANE": 43,
+   "SPHERE": 9,
+   "CONE": 1
+  },
+  "4003": {
+   "CONE": 345,
+   "CYLINDER": 4,
+   "PLANE": 1
+  },
+  "4004": {
+   "SPHERE": 41,
+   "CONE": 2,
+   "CYLINDER": 4,
+   "PLANE": 1
+  },
+  "4005": {
+   "TORUS": 184
+  },
+  "4006": {
+   "B_SURFACE": 496,
+   "PLANE": 4,
+   "SPHERE": 3,
+   "CYLINDER": 1
+  },
+  "4007": {
+   "BLENDED_EDGE": 45
+  },
+  "4009": {
+   "SWEPT_SURF": 394
+  },
+  "4010": {
+   "SPUN_SURF": 288
+  }
+ },
+ "tagSurfaceControl": {
+  "pairs": 7985,
+  "parts": 111
+ },
+ "parts": {
+  "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT": {
+   "skipped": "rawIds are misreads (see odd tags)",
+   "dupGroups": 1
+  },
+  "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT": {
+   "displayFaces": 2512,
+   "bodies": [
+    {
+     "idx": 2,
+     "faces": 14,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 389,
+     "faces": 27,
+     "shiftUsed": 717,
+     "hidden": false
+    },
+    {
+     "idx": 1238,
+     "faces": 68,
+     "shiftUsed": 2602,
+     "hidden": false
+    },
+    {
+     "idx": 3041,
+     "faces": 6,
+     "shiftUsed": 7849,
+     "hidden": false
+    },
+    {
+     "idx": 3220,
+     "faces": 6,
+     "shiftUsed": 8126,
+     "hidden": false
+    },
+    {
+     "idx": 3399,
+     "faces": 54,
+     "shiftUsed": 8403,
+     "hidden": false
+    },
+    {
+     "idx": 4874,
+     "faces": 6,
+     "shiftUsed": 12707,
+     "hidden": false
+    },
+    {
+     "idx": 5053,
+     "faces": 6,
+     "shiftUsed": 13060,
+     "hidden": false
+    },
+    {
+     "idx": 5232,
+     "faces": 62,
+     "shiftUsed": 13337,
+     "hidden": false
+    },
+    {
+     "idx": 6919,
+     "faces": 9,
+     "shiftUsed": 18377,
+     "hidden": false
+    },
+    {
+     "idx": 7176,
+     "faces": 12,
+     "shiftUsed": 18819,
+     "hidden": false
+    },
+    {
+     "idx": 7544,
+     "faces": 12,
+     "shiftUsed": 19660,
+     "hidden": false
+    },
+    {
+     "idx": 7896,
+     "faces": 6,
+     "shiftUsed": 20512,
+     "hidden": false
+    },
+    {
+     "idx": 8075,
+     "faces": 10,
+     "shiftUsed": 20789,
+     "hidden": false
+    },
+    {
+     "idx": 8358,
+     "faces": 3,
+     "shiftUsed": 21286,
+     "hidden": false
+    },
+    {
+     "idx": 8454,
+     "faces": 6,
+     "shiftUsed": 21486,
+     "hidden": false
+    },
+    {
+     "idx": 8633,
+     "faces": 4,
+     "shiftUsed": 21763,
+     "hidden": false
+    },
+    {
+     "idx": 8782,
+     "faces": 3,
+     "shiftUsed": 22107,
+     "hidden": false
+    },
+    {
+     "idx": 8878,
+     "faces": 16,
+     "shiftUsed": 22307,
+     "hidden": false
+    },
+    {
+     "idx": 9317,
+     "faces": 6,
+     "shiftUsed": 23134,
+     "hidden": false
+    },
+    {
+     "idx": 9496,
+     "faces": 48,
+     "shiftUsed": 23411,
+     "hidden": false
+    },
+    {
+     "idx": 10803,
+     "faces": 24,
+     "shiftUsed": 27253,
+     "hidden": false
+    },
+    {
+     "idx": 11450,
+     "faces": 6,
+     "shiftUsed": 28520,
+     "hidden": false
+    },
+    {
+     "idx": 11629,
+     "faces": 6,
+     "shiftUsed": 28797,
+     "hidden": false
+    },
+    {
+     "idx": 11808,
+     "faces": 541,
+     "shiftUsed": 29074,
+     "hidden": false
+    },
+    {
+     "idx": 25738,
+     "faces": 6,
+     "shiftUsed": 70235,
+     "hidden": false
+    },
+    {
+     "idx": 25917,
+     "faces": 76,
+     "shiftUsed": 70512,
+     "hidden": false
+    },
+    {
+     "idx": 27928,
+     "faces": 6,
+     "shiftUsed": 76607,
+     "hidden": false
+    },
+    {
+     "idx": 28107,
+     "faces": 6,
+     "shiftUsed": 76884,
+     "hidden": false
+    },
+    {
+     "idx": 28286,
+     "faces": 38,
+     "shiftUsed": 77161,
+     "hidden": false
+    },
+    {
+     "idx": 29347,
+     "faces": 40,
+     "shiftUsed": 80352,
+     "hidden": false
+    },
+    {
+     "idx": 30444,
+     "faces": 5,
+     "shiftUsed": 83704,
+     "hidden": false
+    },
+    {
+     "idx": 30597,
+     "faces": 82,
+     "shiftUsed": 83926,
+     "hidden": false
+    },
+    {
+     "idx": 32754,
+     "faces": 11,
+     "shiftUsed": 90383,
+     "hidden": false
+    },
+    {
+     "idx": 33063,
+     "faces": 76,
+     "shiftUsed": 90969,
+     "hidden": false
+    },
+    {
+     "idx": 35102,
+     "faces": 3,
+     "shiftUsed": 97063,
+     "hidden": false
+    },
+    {
+     "idx": 35198,
+     "faces": 6,
+     "shiftUsed": 97263,
+     "hidden": false
+    },
+    {
+     "idx": 35377,
+     "faces": 14,
+     "shiftUsed": 97540,
+     "hidden": false
+    },
+    {
+     "idx": 35764,
+     "faces": 4,
+     "shiftUsed": 98257,
+     "hidden": false
+    },
+    {
+     "idx": 35879,
+     "faces": 73,
+     "shiftUsed": 98573,
+     "hidden": false
+    },
+    {
+     "idx": 37914,
+     "faces": 12,
+     "shiftUsed": 104704,
+     "hidden": false
+    },
+    {
+     "idx": 38249,
+     "faces": 20,
+     "shiftUsed": 105311,
+     "hidden": false
+    },
+    {
+     "idx": 38792,
+     "faces": 6,
+     "shiftUsed": 106358,
+     "hidden": false
+    },
+    {
+     "idx": 38971,
+     "faces": 5,
+     "shiftUsed": 106635,
+     "hidden": false
+    },
+    {
+     "idx": 39124,
+     "faces": 6,
+     "shiftUsed": 106857,
+     "hidden": false
+    },
+    {
+     "idx": 39303,
+     "faces": 6,
+     "shiftUsed": 107134,
+     "hidden": false
+    },
+    {
+     "idx": 39482,
+     "faces": 10,
+     "shiftUsed": 107411,
+     "hidden": false
+    },
+    {
+     "idx": 39765,
+     "faces": 6,
+     "shiftUsed": 107908,
+     "hidden": false
+    },
+    {
+     "idx": 39944,
+     "faces": 6,
+     "shiftUsed": 108185,
+     "hidden": false
+    },
+    {
+     "idx": 40125,
+     "faces": 16,
+     "shiftUsed": 108463,
+     "hidden": false
+    },
+    {
+     "idx": 40564,
+     "faces": 18,
+     "shiftUsed": 109290,
+     "hidden": false
+    },
+    {
+     "idx": 41057,
+     "faces": 6,
+     "shiftUsed": 110592,
+     "hidden": false
+    },
+    {
+     "idx": 41236,
+     "faces": 11,
+     "shiftUsed": 110869,
+     "hidden": false
+    },
+    {
+     "idx": 41581,
+     "faces": 6,
+     "shiftUsed": 111637,
+     "hidden": false
+    },
+    {
+     "idx": 41760,
+     "faces": 11,
+     "shiftUsed": 111914,
+     "hidden": false
+    },
+    {
+     "idx": 42103,
+     "faces": 6,
+     "shiftUsed": 112677,
+     "hidden": false
+    },
+    {
+     "idx": 42284,
+     "faces": 18,
+     "shiftUsed": 112955,
+     "hidden": false
+    },
+    {
+     "idx": 42775,
+     "faces": 6,
+     "shiftUsed": 113892,
+     "hidden": false
+    },
+    {
+     "idx": 42954,
+     "faces": 6,
+     "shiftUsed": 114169,
+     "hidden": false
+    },
+    {
+     "idx": 43133,
+     "faces": 65,
+     "shiftUsed": 114446,
+     "hidden": false
+    },
+    {
+     "idx": 44928,
+     "faces": 6,
+     "shiftUsed": 119799,
+     "hidden": false
+    },
+    {
+     "idx": 45107,
+     "faces": 47,
+     "shiftUsed": 120076,
+     "hidden": false
+    },
+    {
+     "idx": 46408,
+     "faces": 10,
+     "shiftUsed": 123982,
+     "hidden": false
+    },
+    {
+     "idx": 46691,
+     "faces": 6,
+     "shiftUsed": 124479,
+     "hidden": false
+    },
+    {
+     "idx": 46870,
+     "faces": 6,
+     "shiftUsed": 124756,
+     "hidden": false
+    },
+    {
+     "idx": 47049,
+     "faces": 5,
+     "shiftUsed": 125033,
+     "hidden": false
+    },
+    {
+     "idx": 47202,
+     "faces": 6,
+     "shiftUsed": 125255,
+     "hidden": false
+    },
+    {
+     "idx": 47381,
+     "faces": 68,
+     "shiftUsed": 125532,
+     "hidden": false
+    },
+    {
+     "idx": 49240,
+     "faces": 82,
+     "shiftUsed": 131206,
+     "hidden": false
+    },
+    {
+     "idx": 51417,
+     "faces": 6,
+     "shiftUsed": 137777,
+     "hidden": false
+    },
+    {
+     "idx": 51596,
+     "faces": 6,
+     "shiftUsed": 138054,
+     "hidden": false
+    },
+    {
+     "idx": 51775,
+     "faces": 72,
+     "shiftUsed": 138331,
+     "hidden": false
+    },
+    {
+     "idx": 53670,
+     "faces": 72,
+     "shiftUsed": 142230,
+     "hidden": false
+    },
+    {
+     "idx": 55577,
+     "faces": 9,
+     "shiftUsed": 147857,
+     "hidden": false
+    },
+    {
+     "idx": 55834,
+     "faces": 3,
+     "shiftUsed": 148299,
+     "hidden": false
+    },
+    {
+     "idx": 55930,
+     "faces": 6,
+     "shiftUsed": 148499,
+     "hidden": false
+    },
+    {
+     "idx": 56109,
+     "faces": 6,
+     "shiftUsed": 148776,
+     "hidden": false
+    },
+    {
+     "idx": 56288,
+     "faces": 6,
+     "shiftUsed": 149141,
+     "hidden": false
+    },
+    {
+     "idx": 56467,
+     "faces": 12,
+     "shiftUsed": 149418,
+     "hidden": false
+    },
+    {
+     "idx": 56802,
+     "faces": 6,
+     "shiftUsed": 150025,
+     "hidden": false
+    },
+    {
+     "idx": 56981,
+     "faces": 6,
+     "shiftUsed": 150302,
+     "hidden": false
+    },
+    {
+     "idx": 57160,
+     "faces": 6,
+     "shiftUsed": 150579,
+     "hidden": false
+    },
+    {
+     "idx": 57339,
+     "faces": 78,
+     "shiftUsed": 150856,
+     "hidden": false
+    },
+    {
+     "idx": 59412,
+     "faces": 6,
+     "shiftUsed": 156994,
+     "hidden": false
+    },
+    {
+     "idx": 59591,
+     "faces": 56,
+     "shiftUsed": 157271,
+     "hidden": false
+    },
+    {
+     "idx": 61082,
+     "faces": 12,
+     "shiftUsed": 161686,
+     "hidden": false
+    },
+    {
+     "idx": 61417,
+     "faces": 8,
+     "shiftUsed": 162293,
+     "hidden": false
+    },
+    {
+     "idx": 61666,
+     "faces": 12,
+     "shiftUsed": 162790,
+     "hidden": false
+    },
+    {
+     "idx": 62001,
+     "faces": 6,
+     "shiftUsed": 163397,
+     "hidden": false
+    },
+    {
+     "idx": 62180,
+     "faces": 6,
+     "shiftUsed": 163674,
+     "hidden": false
+    },
+    {
+     "idx": 62359,
+     "faces": 6,
+     "shiftUsed": 163951,
+     "hidden": false
+    },
+    {
+     "idx": 62538,
+     "faces": 5,
+     "shiftUsed": 164228,
+     "hidden": false
+    },
+    {
+     "idx": 62691,
+     "faces": 6,
+     "shiftUsed": 164450,
+     "hidden": false
+    },
+    {
+     "idx": 62870,
+     "faces": 6,
+     "shiftUsed": 164727,
+     "hidden": false
+    },
+    {
+     "idx": 63049,
+     "faces": 15,
+     "shiftUsed": 165004,
+     "hidden": false
+    },
+    {
+     "idx": 63524,
+     "faces": 6,
+     "shiftUsed": 165992,
+     "hidden": false
+    },
+    {
+     "idx": 63703,
+     "faces": 6,
+     "shiftUsed": 166269,
+     "hidden": false
+    },
+    {
+     "idx": 63882,
+     "faces": 6,
+     "shiftUsed": 166546,
+     "hidden": false
+    },
+    {
+     "idx": 64061,
+     "faces": 6,
+     "shiftUsed": 166823,
+     "hidden": false
+    },
+    {
+     "idx": 64240,
+     "faces": 6,
+     "shiftUsed": 167100,
+     "hidden": false
+    },
+    {
+     "idx": 64419,
+     "faces": 6,
+     "shiftUsed": 167377,
+     "hidden": false
+    },
+    {
+     "idx": 64598,
+     "faces": 3,
+     "shiftUsed": 167654,
+     "hidden": false
+    },
+    {
+     "idx": 64694,
+     "faces": 6,
+     "shiftUsed": 167854,
+     "hidden": false
+    },
+    {
+     "idx": 64873,
+     "faces": 10,
+     "shiftUsed": 168131,
+     "hidden": false
+    },
+    {
+     "idx": 65156,
+     "faces": 6,
+     "shiftUsed": 168628,
+     "hidden": false
+    },
+    {
+     "idx": 65335,
+     "faces": 8,
+     "shiftUsed": 168905,
+     "hidden": false
+    },
+    {
+     "idx": 65566,
+     "faces": 15,
+     "shiftUsed": 169292,
+     "hidden": false
+    },
+    {
+     "idx": 66033,
+     "faces": 6,
+     "shiftUsed": 170256,
+     "hidden": false
+    },
+    {
+     "idx": 66212,
+     "faces": 3,
+     "shiftUsed": 170533,
+     "hidden": false
+    },
+    {
+     "idx": 66308,
+     "faces": 15,
+     "shiftUsed": 170733,
+     "hidden": false
+    },
+    {
+     "idx": 66791,
+     "faces": 52,
+     "shiftUsed": 171736,
+     "hidden": false
+    },
+    {
+     "idx": 68202,
+     "faces": 14,
+     "shiftUsed": 175976,
+     "hidden": false
+    },
+    {
+     "idx": 68589,
+     "faces": 5,
+     "shiftUsed": 176693,
+     "hidden": false
+    },
+    {
+     "idx": 68742,
+     "faces": 6,
+     "shiftUsed": 176915,
+     "hidden": false
+    }
+   ],
+   "dupGroups": 325,
+   "verdicts": {
+    "each member in a different body": 325
+   },
+   "examples": [
+    {
+     "rawId": 130,
+     "display": [
+      0,
+      35,
+      41,
+      47,
+      118,
+      134,
+      150,
+      156,
+      167,
+      537,
+      543,
+      625,
+      631,
+      709,
+      738,
+      842,
+      908,
+      914,
+      988,
+      1083,
+      1112,
+      1128,
+      1137,
+      1143,
+      1149,
+      1155,
+      1161,
+      1167,
+      1188,
+      1194,
+      1205,
+      1211,
+      1217,
+      1311,
+      1395,
+      1401,
+      1407,
+      1425,
+      1437,
+      1599,
+      1605,
+      1761,
+      1772,
+      1778,
+      1880,
+      1933,
+      2480,
+      2500,
+      2506
+     ],
+     "tags": [
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001
+     ],
+     "bodies": [
+      3041,
+      3220,
+      5053,
+      7896,
+      8454,
+      9317,
+      11450,
+      11629,
+      25738,
+      27928,
+      28107,
+      35198,
+      38792,
+      39124,
+      39303,
+      39765,
+      39944,
+      41057,
+      41581,
+      42103,
+      42775,
+      42954,
+      44928,
+      46691,
+      46870,
+      47202,
+      51417,
+      51596,
+      55930,
+      56288,
+      56802,
+      56981,
+      57160,
+      59412,
+      62001,
+      62180,
+      62359,
+      62691,
+      62870,
+      63524,
+      63703,
+      63882,
+      64061,
+      64240,
+      64419,
+      64694,
+      65156,
+      66033,
+      68742
+     ]
+    },
+    {
+     "rawId": 109,
+     "display": [
+      1,
+      36,
+      42,
+      48,
+      119,
+      135,
+      151,
+      157,
+      168,
+      538,
+      544,
+      626,
+      632,
+      710,
+      739,
+      843,
+      909,
+      915,
+      989,
+      1084,
+      1113,
+      1129,
+      1138,
+      1144,
+      1150,
+      1156,
+      1162,
+      1168,
+      1189,
+      1195,
+      1206,
+      1212,
+      1218,
+      1312,
+      1396,
+      1402,
+      1408,
+      1426,
+      1438,
+      1600,
+      1606,
+      1762,
+      1773,
+      1779,
+      1881,
+      1934,
+      2481,
+      2501,
+      2507
+     ],
+     "tags": [
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001
+     ],
+     "bodies": [
+      3041,
+      3220,
+      5053,
+      7896,
+      8454,
+      9317,
+      11450,
+      11629,
+      25738,
+      27928,
+      28107,
+      35198,
+      38792,
+      39124,
+      39303,
+      39765,
+      39944,
+      41057,
+      41581,
+      42103,
+      42775,
+      42954,
+      44928,
+      46691,
+      46870,
+      47202,
+      51417,
+      51596,
+      55930,
+      56288,
+      56802,
+      56981,
+      57160,
+      59412,
+      62001,
+      62180,
+      62359,
+      62691,
+      62870,
+      63524,
+      63703,
+      63882,
+      64061,
+      64240,
+      64419,
+      64694,
+      65156,
+      66033,
+      68742
+     ]
+    },
+    {
+     "rawId": 88,
+     "display": [
+      2,
+      37,
+      43,
+      49,
+      120,
+      136,
+      152,
+      158,
+      169,
+      539,
+      545,
+      627,
+      633,
+      711,
+      740,
+      844,
+      910,
+      916,
+      990,
+      1085,
+      1114,
+      1130,
+      1139,
+      1145,
+      1151,
+      1157,
+      1163,
+      1169,
+      1190,
+      1196,
+      1207,
+      1213,
+      1219,
+      1313,
+      1397,
+      1403,
+      1409,
+      1427,
+      1439,
+      1601,
+      1607,
+      1763,
+      1774,
+      1780,
+      1882,
+      1935,
+      2482,
+      2502,
+      2508
+     ],
+     "tags": [
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001
+     ],
+     "bodies": [
+      3041,
+      3220,
+      5053,
+      7896,
+      8454,
+      9317,
+      11450,
+      11629,
+      25738,
+      27928,
+      28107,
+      35198,
+      38792,
+      39124,
+      39303,
+      39765,
+      39944,
+      41057,
+      41581,
+      42103,
+      42775,
+      42954,
+      44928,
+      46691,
+      46870,
+      47202,
+      51417,
+      51596,
+      55930,
+      56288,
+      56802,
+      56981,
+      57160,
+      59412,
+      62001,
+      62180,
+      62359,
+      62691,
+      62870,
+      63524,
+      63703,
+      63882,
+      64061,
+      64240,
+      64419,
+      64694,
+      65156,
+      66033,
+      68742
+     ]
+    }
+   ]
+  },
+  "test files online/2019/7765d286_NSJ8L.SLDPRT": {
+   "skipped": "rawIds are misreads (see odd tags)",
+   "dupGroups": 1
+  },
+  "test files online/2019/a3a44709_FrontPanel-Bezel.sldprt": {
+   "displayFaces": 16,
+   "bodies": [
+    {
+     "idx": 2,
+     "faces": 10,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 6,
+     "faces": 6,
+     "shiftUsed": 0,
+     "hidden": false
+    }
+   ],
+   "dupGroups": 1,
+   "verdicts": {
+    "each member in a different body": 1
+   },
+   "examples": [
+    {
+     "rawId": 1,
+     "display": [
+      4,
+      14
+     ],
+     "tags": [
+      4001,
+      4001
+     ],
+     "bodies": [
+      2,
+      6
+     ]
+    }
+   ]
+  },
+  "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT": {
+   "displayFaces": 239,
+   "bodies": [
+    {
+     "idx": 2,
+     "faces": 122,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 3740,
+     "faces": 32,
+     "shiftUsed": 4167,
+     "hidden": false
+    },
+    {
+     "idx": 4795,
+     "faces": 19,
+     "shiftUsed": 5416,
+     "hidden": false
+    },
+    {
+     "idx": 5246,
+     "faces": 5,
+     "shiftUsed": 5898,
+     "hidden": false
+    },
+    {
+     "idx": 5386,
+     "faces": 19,
+     "shiftUsed": 6033,
+     "hidden": false
+    },
+    {
+     "idx": 5837,
+     "faces": 19,
+     "shiftUsed": 6516,
+     "hidden": false
+    },
+    {
+     "idx": 6288,
+     "faces": 19,
+     "shiftUsed": 6998,
+     "hidden": false
+    },
+    {
+     "idx": 6739,
+     "faces": 2,
+     "shiftUsed": 7480,
+     "hidden": false
+    },
+    {
+     "idx": 6835,
+     "faces": 2,
+     "shiftUsed": 7559,
+     "hidden": false
+    }
+   ],
+   "dupGroups": 23,
+   "verdicts": {
+    "each member in a different body": 23
+   },
+   "examples": [
+    {
+     "rawId": 173,
+     "display": [
+      105,
+      128
+     ],
+     "tags": [
+      4002,
+      4001
+     ],
+     "bodies": [
+      2,
+      3740
+     ]
+    },
+    {
+     "rawId": 89,
+     "display": [
+      111,
+      158,
+      182,
+      201,
+      220
+     ],
+     "tags": [
+      4002,
+      4003,
+      4003,
+      4003,
+      4003
+     ],
+     "bodies": [
+      2,
+      4795,
+      5386,
+      5837,
+      6288
+     ]
+    },
+    {
+     "rawId": 66,
+     "display": [
+      114,
+      144
+     ],
+     "tags": [
+      4004,
+      4002
+     ],
+     "bodies": [
+      2,
+      3740
+     ]
+    }
+   ]
+  },
+  "test files online/2023/03764871_BME280.SLDPRT": {
+   "displayFaces": 693,
+   "bodies": [
+    {
+     "idx": 2,
+     "faces": 14,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 566,
+     "faces": 13,
+     "shiftUsed": 399,
+     "hidden": false
+    },
+    {
+     "idx": 1126,
+     "faces": 5,
+     "shiftUsed": 790,
+     "hidden": false
+    },
+    {
+     "idx": 1439,
+     "faces": 10,
+     "shiftUsed": 988,
+     "hidden": false
+    },
+    {
+     "idx": 1891,
+     "faces": 9,
+     "shiftUsed": 1299,
+     "hidden": false
+    },
+    {
+     "idx": 2343,
+     "faces": 5,
+     "shiftUsed": 1606,
+     "hidden": false
+    },
+    {
+     "idx": 2656,
+     "faces": 12,
+     "shiftUsed": 1804,
+     "hidden": false
+    },
+    {
+     "idx": 3191,
+     "faces": 13,
+     "shiftUsed": 2176,
+     "hidden": false
+    },
+    {
+     "idx": 3730,
+     "faces": 5,
+     "shiftUsed": 2556,
+     "hidden": false
+    },
+    {
+     "idx": 4043,
+     "faces": 14,
+     "shiftUsed": 2754,
+     "hidden": false
+    },
+    {
+     "idx": 4607,
+     "faces": 13,
+     "shiftUsed": 3153,
+     "hidden": false
+    },
+    {
+     "idx": 5167,
+     "faces": 5,
+     "shiftUsed": 3544,
+     "hidden": false
+    },
+    {
+     "idx": 5480,
+     "faces": 9,
+     "shiftUsed": 3742,
+     "hidden": false
+    },
+    {
+     "idx": 5865,
+     "faces": 63,
+     "shiftUsed": 4010,
+     "hidden": false
+    },
+    {
+     "idx": 8310,
+     "faces": 9,
+     "shiftUsed": 5910,
+     "hidden": false
+    },
+    {
+     "idx": 8695,
+     "faces": 9,
+     "shiftUsed": 6178,
+     "hidden": false
+    },
+    {
+     "idx": 9080,
+     "faces": 9,
+     "shiftUsed": 6446,
+     "hidden": false
+    },
+    {
+     "idx": 9465,
+     "faces": 69,
+     "shiftUsed": 6714,
+     "hidden": false
+    },
+    {
+     "idx": 13034,
+     "faces": 6,
+     "shiftUsed": 9406,
+     "hidden": false
+    },
+    {
+     "idx": 13373,
+     "faces": 5,
+     "shiftUsed": 9595,
+     "hidden": false
+    },
+    {
+     "idx": 13692,
+     "faces": 2,
+     "shiftUsed": 9771,
+     "hidden": false
+    },
+    {
+     "idx": 13910,
+     "faces": 27,
+     "shiftUsed": 9879,
+     "hidden": false
+    },
+    {
+     "idx": 15176,
+     "faces": 8,
+     "shiftUsed": 10755,
+     "hidden": false
+    },
+    {
+     "idx": 15714,
+     "faces": 9,
+     "shiftUsed": 11122,
+     "hidden": false
+    },
+    {
+     "idx": 16286,
+     "faces": 8,
+     "shiftUsed": 11515,
+     "hidden": false
+    },
+    {
+     "idx": 16818,
+     "faces": 46,
+     "shiftUsed": 11878,
+     "hidden": false
+    },
+    {
+     "idx": 20740,
+     "faces": 8,
+     "shiftUsed": 14422,
+     "hidden": false
+    },
+    {
+     "idx": 21272,
+     "faces": 1,
+     "shiftUsed": 14785,
+     "hidden": false
+    },
+    {
+     "idx": 21501,
+     "faces": 1,
+     "shiftUsed": 14889,
+     "hidden": false
+    },
+    {
+     "idx": 21638,
+     "faces": 1,
+     "shiftUsed": 14957,
+     "hidden": false
+    },
+    {
+     "idx": 21775,
+     "faces": 285,
+     "shiftUsed": 15025,
+     "hidden": false
+    }
+   ],
+   "dupGroups": 51,
+   "verdicts": {
+    "each member in a different body": 51
+   },
+   "examples": [
+    {
+     "rawId": 29,
+     "display": [
+      0,
+      9,
+      19,
+      24,
+      37,
+      49,
+      54,
+      67,
+      81,
+      86,
+      99,
+      113,
+      654,
+      659
+     ],
+     "tags": [
+      4002,
+      4001,
+      4002,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4002,
+      4002,
+      4001,
+      4006
+     ],
+     "bodies": [
+      1439,
+      2,
+      2343,
+      566,
+      1126,
+      1891,
+      2656,
+      3191,
+      3730,
+      5167,
+      4043,
+      4607,
+      13034,
+      13373
+     ]
+    },
+    {
+     "rawId": 22,
+     "display": [
+      1,
+      10,
+      20,
+      25,
+      38,
+      50,
+      55,
+      68,
+      82,
+      87,
+      100,
+      114,
+      655,
+      660
+     ],
+     "tags": [
+      4002,
+      4002,
+      4001,
+      4002,
+      4002,
+      4001,
+      4002,
+      4002,
+      4001,
+      4002,
+      4001,
+      4001,
+      4001,
+      4001
+     ],
+     "bodies": [
+      566,
+      1126,
+      2,
+      1891,
+      2343,
+      1439,
+      3191,
+      3730,
+      2656,
+      5167,
+      4043,
+      4607,
+      13034,
+      13373
+     ]
+    },
+    {
+     "rawId": 15,
+     "display": [
+      2,
+      11,
+      21,
+      26,
+      39,
+      51,
+      56,
+      69,
+      83,
+      88,
+      101,
+      115,
+      656,
+      661,
+      690
+     ],
+     "tags": [
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4001,
+      4002,
+      4001,
+      4006,
+      4006,
+      4002
+     ],
+     "bodies": [
+      2,
+      566,
+      1126,
+      1439,
+      1891,
+      2343,
+      2656,
+      3191,
+      3730,
+      4043,
+      4607,
+      5167,
+      13034,
+      13373,
+      13910
+     ]
+    }
+   ]
+  },
+  "test files online/2023/2f121983_case.SLDPRT": {
+   "displayFaces": 155,
+   "bodies": [
+    {
+     "idx": 2,
+     "faces": 17,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 8,
+     "faces": 138,
+     "shiftUsed": 0,
+     "hidden": false
+    }
+   ],
+   "dupGroups": 1,
+   "verdicts": {
+    "each member in a different body": 1
+   },
+   "examples": [
+    {
+     "rawId": 253,
+     "display": [
+      3,
+      35
+     ],
+     "tags": [
+      4002,
+      4001
+     ],
+     "bodies": [
+      2,
+      8
+     ]
+    }
+   ]
+  },
+  "test files online/2023/4803f393_box.SLDPRT": {
+   "displayFaces": 1390,
+   "bodies": [
+    {
+     "idx": 2,
+     "faces": 479,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 10,
+     "faces": 12,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 299,
+     "faces": 15,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 13474,
+     "faces": 68,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 13772,
+     "faces": 20,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 14156,
+     "faces": 20,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 16092,
+     "faces": 20,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 16721,
+     "faces": 144,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 17351,
+     "faces": 612,
+     "shiftUsed": 0,
+     "hidden": false
+    }
+   ],
+   "dupGroups": 45,
+   "verdicts": {
+    "each member in a different body": 45
+   },
+   "examples": [
+    {
+     "rawId": 868,
+     "display": [
+      0,
+      20,
+      1370
+     ],
+     "tags": [
+      4001,
+      4001,
+      4001
+     ],
+     "bodies": [
+      13772,
+      14156,
+      16092
+     ]
+    },
+    {
+     "rawId": 862,
+     "display": [
+      1,
+      21,
+      1371
+     ],
+     "tags": [
+      4001,
+      4001,
+      4001
+     ],
+     "bodies": [
+      13772,
+      14156,
+      16092
+     ]
+    },
+    {
+     "rawId": 90,
+     "display": [
+      2,
+      22,
+      41,
+      890,
+      1372
+     ],
+     "tags": [
+      4001,
+      4001,
+      4001,
+      4001,
+      4001
+     ],
+     "bodies": [
+      299,
+      13772,
+      14156,
+      16092,
+      17351
+     ]
+    }
+   ]
+  },
+  "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT": {
+   "displayFaces": 544,
+   "bodies": [
+    {
+     "idx": 2,
+     "faces": 88,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 7,
+     "faces": 1,
+     "shiftUsed": 0,
+     "hidden": true
+    },
+    {
+     "idx": 79,
+     "faces": 1,
+     "shiftUsed": 0,
+     "hidden": true
+    },
+    {
+     "idx": 3027,
+     "faces": 1,
+     "shiftUsed": 0,
+     "hidden": true
+    },
+    {
+     "idx": 3096,
+     "faces": 1,
+     "shiftUsed": 0,
+     "hidden": true
+    },
+    {
+     "idx": 3301,
+     "faces": 212,
+     "shiftUsed": 4454,
+     "hidden": false
+    },
+    {
+     "idx": 14012,
+     "faces": 244,
+     "shiftUsed": 15067,
+     "hidden": false
+    }
+   ],
+   "dupGroups": 52,
+   "verdicts": {
+    "each member in a different body": 52
+   },
+   "examples": [
+    {
+     "rawId": 5,
+     "display": [
+      0,
+      212,
+      458
+     ],
+     "tags": [
+      4006,
+      4003,
+      4006
+     ],
+     "bodies": [
+      2,
+      14012,
+      3301
+     ]
+    },
+    {
+     "rawId": 15,
+     "display": [
+      1,
+      213,
+      459
+     ],
+     "tags": [
+      4006,
+      4003,
+      4002
+     ],
+     "bodies": [
+      3301,
+      14012,
+      2
+     ]
+    },
+    {
+     "rawId": 35,
+     "display": [
+      3,
+      460
+     ],
+     "tags": [
+      4006,
+      4003
+     ],
+     "bodies": [
+      3301,
+      2
+     ]
+    }
+   ]
+  },
+  "test files online/2023/ef1d5cfe_DS3231.SLDPRT": {
+   "displayFaces": 404,
+   "bodies": [
+    {
+     "idx": 2,
+     "faces": 18,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 758,
+     "faces": 18,
+     "shiftUsed": 543,
+     "hidden": false
+    },
+    {
+     "idx": 1514,
+     "faces": 18,
+     "shiftUsed": 1086,
+     "hidden": false
+    },
+    {
+     "idx": 2270,
+     "faces": 96,
+     "shiftUsed": 1629,
+     "hidden": false
+    },
+    {
+     "idx": 6172,
+     "faces": 54,
+     "shiftUsed": 4544,
+     "hidden": false
+    },
+    {
+     "idx": 8285,
+     "faces": 6,
+     "shiftUsed": 6118,
+     "hidden": false
+    },
+    {
+     "idx": 8573,
+     "faces": 194,
+     "shiftUsed": 6294,
+     "hidden": false
+    }
+   ],
+   "dupGroups": 51,
+   "verdicts": {
+    "each member in a different body": 51
+   },
+   "examples": [
+    {
+     "rawId": 33,
+     "display": [
+      0,
+      299,
+      317,
+      335
+     ],
+     "tags": [
+      4001,
+      4001,
+      4001,
+      4001
+     ],
+     "bodies": [
+      2,
+      758,
+      1514,
+      8285
+     ]
+    },
+    {
+     "rawId": 31,
+     "display": [
+      1,
+      7,
+      103
+     ],
+     "tags": [
+      4001,
+      4001,
+      4001
+     ],
+     "bodies": [
+      2270,
+      8285,
+      8573
+     ]
+    },
+    {
+     "rawId": 52,
+     "display": [
+      12,
+      303,
+      321,
+      339
+     ],
+     "tags": [
+      4004,
+      4001,
+      4001,
+      4001
+     ],
+     "bodies": [
+      2270,
+      2,
+      758,
+      1514
+     ]
+    }
+   ]
+  },
+  "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT": {
+   "displayFaces": 961,
+   "bodies": [
+    {
+     "idx": 2,
+     "faces": 946,
+     "shiftUsed": 0,
+     "hidden": false
+    },
+    {
+     "idx": 44493,
+     "faces": 15,
+     "shiftUsed": 53508,
+     "hidden": false
+    }
+   ],
+   "dupGroups": 3,
+   "verdicts": {
+    "each member in a different body": 3
+   },
+   "examples": [
+    {
+     "rawId": 228,
+     "display": [
+      940,
+      949
+     ],
+     "tags": [
+      4001,
+      4002
+     ],
+     "bodies": [
+      2,
+      44493
+     ]
+    },
+    {
+     "rawId": 31,
+     "display": [
+      944,
+      959
+     ],
+     "tags": [
+      4001,
+      4003
+     ],
+     "bodies": [
+      2,
+      44493
+     ]
+    },
+    {
+     "rawId": 2,
+     "display": [
+      945,
+      960
+     ],
+     "tags": [
+      4003,
+      4003
+     ],
+     "bodies": [
+      2,
+      44493
+     ]
+    }
+   ]
+  }
+ },
+ "summary": {
+  "parts": 9,
+  "dupGroups": 552,
+  "facesInGroups": 1902,
+  "groupsAllDifferentBodies": 552,
+  "groupsSameBodyPair": 0,
+  "groupsOtherOrUnmatched": 0
+ }
+}

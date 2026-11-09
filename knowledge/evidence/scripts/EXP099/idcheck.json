@@ -1,0 +1,99 @@
+{
+ "totals": {
+  "parts": 115,
+  "faces": 13532,
+  "direct": 9504,
+  "shifted": 3880,
+  "neither": 148,
+  "plusOneDirect": 192
+ },
+ "partsWithShiftedFaces": 6,
+ "affected": [
+  {
+   "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+   "bodies": 114,
+   "faces": 2512,
+   "direct": 163,
+   "shiftedOnly": 2349,
+   "neither": 0,
+   "plusOneDirect": 107,
+   "faceCount": 2512
+  },
+  {
+   "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+   "bodies": 9,
+   "faces": 239,
+   "direct": 124,
+   "shiftedOnly": 115,
+   "neither": 0,
+   "plusOneDirect": 5,
+   "faceCount": 239
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "bodies": 31,
+   "faces": 693,
+   "direct": 79,
+   "shiftedOnly": 614,
+   "neither": 0,
+   "plusOneDirect": 7,
+   "faceCount": 693
+  },
+  {
+   "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+   "bodies": 7,
+   "faces": 544,
+   "direct": 94,
+   "shiftedOnly": 450,
+   "neither": 0,
+   "plusOneDirect": 5,
+   "faceCount": 548
+  },
+  {
+   "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+   "bodies": 7,
+   "faces": 404,
+   "direct": 66,
+   "shiftedOnly": 338,
+   "neither": 0,
+   "plusOneDirect": 8,
+   "faceCount": 404
+  },
+  {
+   "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+   "bodies": 2,
+   "faces": 961,
+   "direct": 947,
+   "shiftedOnly": 14,
+   "neither": 0,
+   "plusOneDirect": 0,
+   "faceCount": 961
+  }
+ ],
+ "partsWithNeither": [
+  {
+   "file": "test files online/2018/0132519a_102_STEM.SLDPRT",
+   "neither": 16,
+   "faces": 167,
+   "bodies": 1
+  },
+  {
+   "file": "test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+   "neither": 67,
+   "faces": 69,
+   "bodies": 1
+  },
+  {
+   "file": "test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+   "neither": 27,
+   "faces": 33,
+   "bodies": 1
+  },
+  {
+   "file": "test files online/2024/09d353a9_Elbow_Mount2.SLDPRT",
+   "neither": 38,
+   "faces": 40,
+   "bodies": 1
+  }
+ ]
+}

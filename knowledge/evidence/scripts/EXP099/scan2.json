@@ -1,0 +1,74 @@
+{
+ "7765d286_NSJ8L.SLDPRT": {
+  "faces": 62,
+  "facesWithAnyTagValue": 0,
+  "hits": 0,
+  "hitsAtReaderOffset": 0,
+  "examples": []
+ },
+ "eefa906d_plancher Dalle 2020.SLDPRT": {
+  "faces": 6,
+  "facesWithAnyTagValue": 0,
+  "hits": 0,
+  "hitsAtReaderOffset": 0,
+  "examples": []
+ },
+ "0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT": {
+  "faces": 342,
+  "facesWithAnyTagValue": 2,
+  "hits": 2,
+  "hitsAtReaderOffset": 0,
+  "examples": [
+   {
+    "i": 100,
+    "rel": [
+     226
+    ]
+   },
+   {
+    "i": 101,
+    "rel": [
+     226
+    ]
+   }
+  ]
+ },
+ "2f121983_case.SLDPRT": {
+  "faces": 155,
+  "facesWithAnyTagValue": 155,
+  "hits": 155,
+  "hitsAtReaderOffset": 155,
+  "examples": [
+   {
+    "i": 0,
+    "rel": [
+     228
+    ]
+   },
+   {
+    "i": 1,
+    "rel": [
+     228
+    ]
+   },
+   {
+    "i": 2,
+    "rel": [
+     228
+    ]
+   },
+   {
+    "i": 3,
+    "rel": [
+     228
+    ]
+   },
+   {
+    "i": 4,
+    "rel": [
+     228
+    ]
+   }
+  ]
+ }
+}

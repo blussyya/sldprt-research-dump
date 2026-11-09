@@ -1,0 +1,856 @@
+{
+ "targets": {
+  "C00_cube_10mm": {
+   "converterPick": "C00_cube_10mm",
+   "fits": [
+    "C00_cube_10mm",
+    "C22_cube_sw2011_native"
+   ],
+   "myPick": "C00_cube_10mm",
+   "myRanking": [
+    [
+     "C00_cube_10mm",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C22_cube_sw2011_native",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 3.8714352419276774e-07,
+   "runnerUp_mm": 3.8714352419276774e-07
+  },
+  "C03_cube_fillet_1mm": {
+   "converterPick": "C03_cube_fillet_1mm",
+   "fits": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "myPick": "C03_cube_fillet_1mm",
+   "myRanking": [
+    [
+     "C03_cube_fillet_1mm",
+     0.008555451178968674,
+     1.5707963267948966
+    ],
+    [
+     "C09_cube_chamfer_1mm",
+     0.2928938233651957,
+     1.5707963267948966
+    ],
+    [
+     "C04_cube_hole_5mm",
+     0.4142129578214109,
+     1.5707963267948966
+    ],
+    [
+     "C05_cube_hole_3mm",
+     0.4142129578214109,
+     1.5707963267948966
+    ],
+    [
+     "C06_cube_hole_moved",
+     0.4142129578214109,
+     1.5707963267948966
+    ],
+    [
+     "C11_cube_hole_4mm",
+     0.4142129578214109,
+     1.5707963267948966
+    ],
+    [
+     "C18_cube_split_line",
+     0.4142129578214109,
+     1.5707963267948966
+    ],
+    [
+     "C26_cube_hole_sw2011_native",
+     0.4142129578214109,
+     1.5707963267948966
+    ],
+    [
+     "C12_cube_fillet_1mm_edge2",
+     0.41421356237309503,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 0.008555451178968674,
+   "runnerUp_mm": 0.2928938233651957
+  },
+  "C04_cube_hole_5mm": {
+   "converterPick": "C04_cube_hole_5mm",
+   "fits": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "myPick": "C04_cube_hole_5mm",
+   "myRanking": [
+    [
+     "C04_cube_hole_5mm",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C18_cube_split_line",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C26_cube_hole_sw2011_native",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C03_cube_fillet_1mm",
+     0.4142132462717282,
+     1.5707963267948966
+    ],
+    [
+     "C12_cube_fillet_1mm_edge2",
+     0.41421356237309503,
+     1.5707963267948966
+    ],
+    [
+     "C11_cube_hole_4mm",
+     0.4978671335551405,
+     1.5707963267948966
+    ],
+    [
+     "C09_cube_chamfer_1mm",
+     0.7071064650851825,
+     1.5707963267948966
+    ],
+    [
+     "C05_cube_hole_3mm",
+     0.9957342217810149,
+     1.5707963267948966
+    ],
+    [
+     "C06_cube_hole_moved",
+     2.0000001676380497,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 3.8714352419276774e-07,
+   "runnerUp_mm": 3.8714352419276774e-07
+  },
+  "C05_cube_hole_3mm": {
+   "converterPick": "C05_cube_hole_3mm",
+   "fits": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "myPick": "C05_cube_hole_3mm",
+   "myRanking": [
+    [
+     "C05_cube_hole_3mm",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C18_cube_split_line",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C03_cube_fillet_1mm",
+     0.4142132462717282,
+     1.5707963267948966
+    ],
+    [
+     "C12_cube_fillet_1mm_edge2",
+     0.41421356237309503,
+     1.5707963267948966
+    ],
+    [
+     "C11_cube_hole_4mm",
+     0.5000002205976714,
+     1.5707963267948966
+    ],
+    [
+     "C09_cube_chamfer_1mm",
+     0.7071064650851825,
+     1.5707963267948966
+    ],
+    [
+     "C04_cube_hole_5mm",
+     1.0000002205976701,
+     1.5707963267948966
+    ],
+    [
+     "C26_cube_hole_sw2011_native",
+     1.0000002205976701,
+     1.5707963267948966
+    ],
+    [
+     "C06_cube_hole_moved",
+     2.0000001341104374,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 3.8714352419276774e-07,
+   "runnerUp_mm": 3.8714352419276774e-07
+  },
+  "C06_cube_hole_moved": {
+   "converterPick": "C06_cube_hole_moved",
+   "fits": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "myPick": "C06_cube_hole_moved",
+   "myRanking": [
+    [
+     "C06_cube_hole_moved",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C18_cube_split_line",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C03_cube_fillet_1mm",
+     0.4142132462717282,
+     1.5707963267948966
+    ],
+    [
+     "C12_cube_fillet_1mm_edge2",
+     0.41421356237309503,
+     1.5707963267948966
+    ],
+    [
+     "C09_cube_chamfer_1mm",
+     0.7071064650851825,
+     1.5707963267948966
+    ],
+    [
+     "C05_cube_hole_3mm",
+     1.991468442745307,
+     1.5707963267948966
+    ],
+    [
+     "C04_cube_hole_5mm",
+     1.9999998062848914,
+     1.5707963267948966
+    ],
+    [
+     "C26_cube_hole_sw2011_native",
+     1.9999998062848914,
+     1.5707963267948966
+    ],
+    [
+     "C11_cube_hole_4mm",
+     2.4893352337851726,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 3.8714352419276774e-07,
+   "runnerUp_mm": 3.8714352419276774e-07
+  },
+  "C07_cube_two_holes": {
+   "converterPick": "C07_cube_two_holes",
+   "fits": [
+    "C07_cube_two_holes",
+    "C08_cube_second_hole_modified"
+   ],
+   "myPick": "C07_cube_two_holes",
+   "myRanking": [
+    [
+     "C07_cube_two_holes",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C08_cube_second_hole_modified",
+     0.9957343030367218,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 3.8714352419276774e-07,
+   "runnerUp_mm": 0.9957343030367218
+  },
+  "C08_cube_second_hole_modified": {
+   "converterPick": "C08_cube_second_hole_modified",
+   "fits": [
+    "C07_cube_two_holes",
+    "C08_cube_second_hole_modified"
+   ],
+   "myPick": "C08_cube_second_hole_modified",
+   "myRanking": [
+    [
+     "C08_cube_second_hole_modified",
+     5.01192082387044e-07,
+     1.5707963267948966
+    ],
+    [
+     "C07_cube_two_holes",
+     1.0000003158078092,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 5.01192082387044e-07,
+   "runnerUp_mm": 1.0000003158078092
+  },
+  "C09_cube_chamfer_1mm": {
+   "converterPick": "C09_cube_chamfer_1mm",
+   "fits": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "myPick": "C09_cube_chamfer_1mm",
+   "myRanking": [
+    [
+     "C09_cube_chamfer_1mm",
+     4.864036684875462e-07,
+     1.5707963267948966
+    ],
+    [
+     "C03_cube_fillet_1mm",
+     0.292893650818738,
+     1.5707963267948966
+    ],
+    [
+     "C04_cube_hole_5mm",
+     0.70710721319178,
+     1.5707963267948966
+    ],
+    [
+     "C05_cube_hole_3mm",
+     0.70710721319178,
+     1.5707963267948966
+    ],
+    [
+     "C06_cube_hole_moved",
+     0.70710721319178,
+     1.5707963267948966
+    ],
+    [
+     "C11_cube_hole_4mm",
+     0.70710721319178,
+     1.5707963267948966
+    ],
+    [
+     "C12_cube_fillet_1mm_edge2",
+     0.70710721319178,
+     1.5707963267948966
+    ],
+    [
+     "C18_cube_split_line",
+     0.70710721319178,
+     1.5707963267948966
+    ],
+    [
+     "C26_cube_hole_sw2011_native",
+     0.70710721319178,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 4.864036684875462e-07,
+   "runnerUp_mm": 0.292893650818738
+  },
+  "C11_cube_hole_4mm": {
+   "converterPick": "C11_cube_hole_4mm",
+   "fits": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "myPick": "C11_cube_hole_4mm",
+   "myRanking": [
+    [
+     "C11_cube_hole_4mm",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C18_cube_split_line",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C03_cube_fillet_1mm",
+     0.4142132462717282,
+     1.5707963267948966
+    ],
+    [
+     "C12_cube_fillet_1mm_edge2",
+     0.41421356237309503,
+     1.5707963267948966
+    ],
+    [
+     "C05_cube_hole_3mm",
+     0.49935841178801377,
+     1.5707963267948966
+    ],
+    [
+     "C04_cube_hole_5mm",
+     0.5000002260123959,
+     1.5707963267948966
+    ],
+    [
+     "C26_cube_hole_sw2011_native",
+     0.5000002260123959,
+     1.5707963267948966
+    ],
+    [
+     "C09_cube_chamfer_1mm",
+     0.7071064650851825,
+     1.5707963267948966
+    ],
+    [
+     "C06_cube_hole_moved",
+     2.4999997567411105,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 3.8714352419276774e-07,
+   "runnerUp_mm": 3.8714352419276774e-07
+  },
+  "C12_cube_fillet_1mm_edge2": {
+   "converterPick": "C12_cube_fillet_1mm_edge2",
+   "fits": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "myPick": "C12_cube_fillet_1mm_edge2",
+   "myRanking": [
+    [
+     "C12_cube_fillet_1mm_edge2",
+     0.008555144640902783,
+     1.5707963267948966
+    ],
+    [
+     "C03_cube_fillet_1mm",
+     0.41421354721874554,
+     1.5707963267948966
+    ],
+    [
+     "C04_cube_hole_5mm",
+     0.41421354721874554,
+     1.5707963267948966
+    ],
+    [
+     "C05_cube_hole_3mm",
+     0.41421354721874554,
+     1.5707963267948966
+    ],
+    [
+     "C06_cube_hole_moved",
+     0.41421354721874554,
+     1.5707963267948966
+    ],
+    [
+     "C11_cube_hole_4mm",
+     0.41421354721874554,
+     1.5707963267948966
+    ],
+    [
+     "C18_cube_split_line",
+     0.41421354721874554,
+     1.5707963267948966
+    ],
+    [
+     "C26_cube_hole_sw2011_native",
+     0.41421354721874554,
+     1.5707963267948966
+    ],
+    [
+     "C09_cube_chamfer_1mm",
+     0.7071064650851825,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 0.008555144640902783,
+   "runnerUp_mm": 0.41421354721874554
+  },
+  "C13_cone": {
+   "converterPick": "C13_cone",
+   "fits": [
+    "C13_cone",
+    "C25_cone_sw2011_native"
+   ],
+   "myPick": "C13_cone",
+   "myRanking": [
+    [
+     "C13_cone",
+     0.01070532994216327,
+     1.106386391358076
+    ],
+    [
+     "C25_cone_sw2011_native",
+     0.01070532994216327,
+     1.106386391358076
+    ]
+   ],
+   "selfScore_mm": 0.01070532994216327,
+   "runnerUp_mm": 0.01070532994216327
+  },
+  "C18_cube_split_line": {
+   "converterPick": "C03_cube_fillet_1mm",
+   "fits": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "myPick": "C04_cube_hole_5mm",
+   "myRanking": [
+    [
+     "C04_cube_hole_5mm",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C05_cube_hole_3mm",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C06_cube_hole_moved",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C11_cube_hole_4mm",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C18_cube_split_line",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C26_cube_hole_sw2011_native",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C03_cube_fillet_1mm",
+     0.4142132462717282,
+     1.5707963267948966
+    ],
+    [
+     "C12_cube_fillet_1mm_edge2",
+     0.41421356237309503,
+     1.5707963267948966
+    ],
+    [
+     "C09_cube_chamfer_1mm",
+     0.7071064650851825,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 3.8714352419276774e-07,
+   "runnerUp_mm": 3.8714352419276774e-07
+  },
+  "C22_cube_sw2011_native": {
+   "converterPick": "C00_cube_10mm",
+   "fits": [
+    "C00_cube_10mm",
+    "C22_cube_sw2011_native"
+   ],
+   "myPick": "C00_cube_10mm",
+   "myRanking": [
+    [
+     "C00_cube_10mm",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C22_cube_sw2011_native",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 3.8714352419276774e-07,
+   "runnerUp_mm": 3.8714352419276774e-07
+  },
+  "C25_cone_sw2011_native": {
+   "converterPick": "C13_cone",
+   "fits": [
+    "C13_cone",
+    "C25_cone_sw2011_native"
+   ],
+   "myPick": "C13_cone",
+   "myRanking": [
+    [
+     "C13_cone",
+     0.01070532994216327,
+     1.106386391358076
+    ],
+    [
+     "C25_cone_sw2011_native",
+     0.01070532994216327,
+     1.106386391358076
+    ]
+   ],
+   "selfScore_mm": 0.01070532994216327,
+   "runnerUp_mm": 0.01070532994216327
+  },
+  "C26_cube_hole_sw2011_native": {
+   "converterPick": "C04_cube_hole_5mm",
+   "fits": [
+    "C03_cube_fillet_1mm",
+    "C04_cube_hole_5mm",
+    "C05_cube_hole_3mm",
+    "C06_cube_hole_moved",
+    "C09_cube_chamfer_1mm",
+    "C11_cube_hole_4mm",
+    "C12_cube_fillet_1mm_edge2",
+    "C18_cube_split_line",
+    "C26_cube_hole_sw2011_native"
+   ],
+   "myPick": "C04_cube_hole_5mm",
+   "myRanking": [
+    [
+     "C04_cube_hole_5mm",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C18_cube_split_line",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C26_cube_hole_sw2011_native",
+     3.8714352419276774e-07,
+     1.5707963267948966
+    ],
+    [
+     "C03_cube_fillet_1mm",
+     0.4142132462717282,
+     1.5707963267948966
+    ],
+    [
+     "C12_cube_fillet_1mm_edge2",
+     0.41421356237309503,
+     1.5707963267948966
+    ],
+    [
+     "C11_cube_hole_4mm",
+     0.4978671335551405,
+     1.5707963267948966
+    ],
+    [
+     "C09_cube_chamfer_1mm",
+     0.7071064650851825,
+     1.5707963267948966
+    ],
+    [
+     "C05_cube_hole_3mm",
+     0.9957342217810149,
+     1.5707963267948966
+    ],
+    [
+     "C06_cube_hole_moved",
+     2.0000001676380497,
+     1.5707963267948966
+    ]
+   ],
+   "selfScore_mm": 3.8714352419276774e-07,
+   "runnerUp_mm": 3.8714352419276774e-07
+  }
+ },
+ "controls": {
+  "C00_cube_10mm": {
+   "self_score_mm": 3.8714352419276774e-07,
+   "self_pos_md_mm": 3.8714352419276774e-07,
+   "self_pos_dm_mm": 2.2351741790771484e-07,
+   "shift_0.01mm_score_mm": 0.010000000004996004
+  },
+  "C03_cube_fillet_1mm": {
+   "self_score_mm": 0.008555451178968674,
+   "self_pos_md_mm": 0.008555451178968674,
+   "self_pos_dm_mm": 6.045517414483528e-07,
+   "shift_0.01mm_score_mm": 0.010000000004996004
+  },
+  "C04_cube_hole_5mm": {
+   "self_score_mm": 3.8714352419276774e-07,
+   "self_pos_md_mm": 3.8714352419276774e-07,
+   "self_pos_dm_mm": 2.2351741790771484e-07,
+   "shift_0.01mm_score_mm": 0.010000000004996004
+  },
+  "C05_cube_hole_3mm": {
+   "self_score_mm": 3.8714352419276774e-07,
+   "self_pos_md_mm": 3.8714352419276774e-07,
+   "self_pos_dm_mm": 2.2351741790771484e-07,
+   "shift_0.01mm_score_mm": 0.01000010803404338
+  },
+  "C06_cube_hole_moved": {
+   "self_score_mm": 3.8714352419276774e-07,
+   "self_pos_md_mm": 3.8714352419276774e-07,
+   "self_pos_dm_mm": 3.2527565885995437e-07,
+   "shift_0.01mm_score_mm": 0.010000000004996004
+  },
+  "C07_cube_two_holes": {
+   "self_score_mm": 3.8714352419276774e-07,
+   "self_pos_md_mm": 3.8714352419276774e-07,
+   "self_pos_dm_mm": 3.7416456727652905e-07,
+   "shift_0.01mm_score_mm": 0.010000023748758774
+  },
+  "C08_cube_second_hole_modified": {
+   "self_score_mm": 5.01192082387044e-07,
+   "self_pos_md_mm": 5.01192082387044e-07,
+   "self_pos_dm_mm": 3.15807809452068e-07,
+   "shift_0.01mm_score_mm": 0.010000023748758774
+  },
+  "C09_cube_chamfer_1mm": {
+   "self_score_mm": 4.864036684875462e-07,
+   "self_pos_md_mm": 4.864036684875462e-07,
+   "self_pos_dm_mm": 2.2351741790771487e-07,
+   "shift_0.01mm_score_mm": 0.010000000004996004
+  },
+  "C11_cube_hole_4mm": {
+   "self_score_mm": 3.8714352419276774e-07,
+   "self_pos_md_mm": 3.8714352419276774e-07,
+   "self_pos_dm_mm": 2.2601239691683307e-07,
+   "shift_0.01mm_score_mm": 0.010000026077656819
+  },
+  "C12_cube_fillet_1mm_edge2": {
+   "self_score_mm": 0.008555144640902783,
+   "self_pos_md_mm": 0.008555144640902783,
+   "self_pos_dm_mm": 2.2351741790771484e-07,
+   "shift_0.01mm_score_mm": 0.018335729446309953
+  },
+  "C13_cone": {
+   "self_score_mm": 0.01070532994216327,
+   "self_pos_md_mm": 0.01070532994216327,
+   "self_pos_dm_mm": 1.760233286931099e-07,
+   "shift_0.01mm_score_mm": 0.02051317560014977
+  },
+  "C18_cube_split_line": {
+   "self_score_mm": 3.8714352419276774e-07,
+   "self_pos_md_mm": 3.8714352419276774e-07,
+   "self_pos_dm_mm": 2.2351741790771484e-07,
+   "shift_0.01mm_score_mm": 0.010000000004996004
+  },
+  "C22_cube_sw2011_native": {
+   "self_score_mm": 3.8714352419276774e-07,
+   "self_pos_md_mm": 3.8714352419276774e-07,
+   "self_pos_dm_mm": 2.2351741790771484e-07,
+   "shift_0.01mm_score_mm": 0.010000000004996004
+  },
+  "C25_cone_sw2011_native": {
+   "self_score_mm": 0.01070532994216327,
+   "self_pos_md_mm": 0.01070532994216327,
+   "self_pos_dm_mm": 1.760233286931099e-07,
+   "shift_0.01mm_score_mm": 0.02051317560014977
+  },
+  "C26_cube_hole_sw2011_native": {
+   "self_score_mm": 3.8714352419276774e-07,
+   "self_pos_md_mm": 3.8714352419276774e-07,
+   "self_pos_dm_mm": 2.2351741790771484e-07,
+   "shift_0.01mm_score_mm": 0.010000000004996004
+  }
+ },
+ "identity": {
+  "C00_cube_10mm vs C22_cube_sw2011_native": {
+   "a_nodes_to_b_mm_max": 0.0,
+   "b_nodes_to_a_mm_max": 0.0,
+   "ang_p99_rad": 1.5707963267948966
+  },
+  "C13_cone vs C25_cone_sw2011_native": {
+   "a_nodes_to_b_mm_max": 0.0,
+   "b_nodes_to_a_mm_max": 0.0,
+   "ang_p99_rad": 1.107122175024705
+  },
+  "C04_cube_hole_5mm vs C26_cube_hole_sw2011_native": {
+   "a_nodes_to_b_mm_max": 0.0,
+   "b_nodes_to_a_mm_max": 0.0,
+   "ang_p99_rad": 1.5707963267948966
+  },
+  "C03_cube_fillet_1mm vs C12_cube_fillet_1mm_edge2": {
+   "a_nodes_to_b_mm_max": 0.4142135623730951,
+   "b_nodes_to_a_mm_max": 0.414213562373092,
+   "ang_p99_rad": 1.5707963267948966
+  },
+  "C04_cube_hole_5mm vs C06_cube_hole_moved": {
+   "a_nodes_to_b_mm_max": 1.999604659540131,
+   "b_nodes_to_a_mm_max": 1.9996046595401316,
+   "ang_p99_rad": 1.5707963267948966
+  },
+  "C00_cube_10mm vs C18_cube_split_line": {
+   "a_nodes_to_b_mm_max": 0.0,
+   "b_nodes_to_a_mm_max": 0.0,
+   "ang_p99_rad": 1.5707963267948966
+  },
+  "C07_cube_two_holes vs C08_cube_second_hole_modified": {
+   "a_nodes_to_b_mm_max": 2.09240208123114e-12,
+   "b_nodes_to_a_mm_max": 0.9998023297700649,
+   "ang_p99_rad": 1.5707963267948966
+  },
+  "C05_cube_hole_3mm vs C11_cube_hole_4mm": {
+   "a_nodes_to_b_mm_max": 0.4998776383426211,
+   "b_nodes_to_a_mm_max": 3.675985821799894e-13,
+   "ang_p99_rad": 1.5707963267948966
+  },
+  "C03_cube_fillet_1mm vs C09_cube_chamfer_1mm": {
+   "a_nodes_to_b_mm_max": 0.2928932188134568,
+   "b_nodes_to_a_mm_max": 1.7763568394002505e-15,
+   "ang_p99_rad": 1.5707963267948966
+  },
+  "C04_cube_hole_5mm vs C05_cube_hole_3mm": {
+   "a_nodes_to_b_mm_max": 5.7446848759738e-13,
+   "b_nodes_to_a_mm_max": 0.9998023297700648,
+   "ang_p99_rad": 1.5707963267948966
+  }
+ }
+}
