@@ -1,0 +1,41 @@
+F dim=-                      1220
+F dim=edgerec                158
+F edges=has                  1378
+F scalar=-                   1220
+F scalar=0                   154
+F scalar=1                   4
+F strips=multi               661
+F strips=single              717
+F tag=4002                   137
+F tag=4003                   17
+F tag=4006                   4
+F tag=nometa                 1220
+U dim=-                      737
+U dim=edgerec                168
+U edges=has                  905
+U scalar=-                   737
+U scalar=0                   168
+U strips=multi               334
+U strips=single              571
+U tag=4001                   168
+U tag=nometa                 737
+[
+  '2014/300f9732_Carter2019.SLDPRT',
+  '2024/09d353a9_Elbow_Mount2.SLDPRT',
+  '2024/2300f35c_Thigh Symétrie.SLDPRT',
+  '2024/7fa6934e_Aluminum Box Pt 2.SLDPRT',
+  '2024/871e670c_servo_adapter.SLDPRT',
+  '2024/951f2bc1_Boitier.SLDPRT',
+  '2025/16f99cd7_装甲板固定（前）.SLDPRT',
+  '2025/3e41786b_LB26001-A-04-002_seed.SLDPRT',
+  '2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT',
+  '2025/822f5572_一级挡块-hhr镂空限位.SLDPRT',
+  '2025/8aaecde6_6008内圈下加工件.SLDPRT',
+  '2025/ac760485_存矿小端.SLDPRT',
+  '2025/c613782b_Крепёжная-Планка.SLDPRT',
+  '2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT',
+  '2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT',
+  '2026/2e6e140a_ST3215_C018_04.SLDPRT',
+  '2026/4d85599e_base-M4.SLDPRT',
+  '2026/c5784ab3_A09_power_and_compute_rack.SLDPRT'
+]

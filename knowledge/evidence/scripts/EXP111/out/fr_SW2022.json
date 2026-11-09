@@ -1,0 +1,352 @@
+[
+ {
+  "gen": "SW2022",
+  "d": "C00_cube_10mm",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789965561,
+  "iso": "2026-09-21T04:39:21.000Z",
+  "count": 10,
+  "ft": 1789965561.0639992
+ },
+ {
+  "gen": "SW2022",
+  "d": "C01_cube_20mm",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789965590,
+  "iso": "2026-09-21T04:39:50.000Z",
+  "count": 10,
+  "ft": 1789965590.5939999
+ },
+ {
+  "gen": "SW2022",
+  "d": "C02_cube_translated",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789965617,
+  "iso": "2026-09-21T04:40:17.000Z",
+  "count": 10,
+  "ft": 1789965617.6809998
+ },
+ {
+  "gen": "SW2022",
+  "d": "C03_cube_fillet_1mm",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966279,
+  "iso": "2026-09-21T04:51:19.000Z",
+  "count": 26,
+  "ft": 1789966279.0909996
+ },
+ {
+  "gen": "SW2022",
+  "d": "C03_cube_fillet_1mm",
+  "id": 34,
+  "name": "Fillet1",
+  "stamp": 1789966281,
+  "iso": "2026-09-21T04:51:21.000Z",
+  "count": 3,
+  "ft": 1789966281.3999996
+ },
+ {
+  "gen": "SW2022",
+  "d": "C04_cube_hole_5mm",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966313,
+  "iso": "2026-09-21T04:51:53.000Z",
+  "count": 22,
+  "ft": 1789966313.014
+ },
+ {
+  "gen": "SW2022",
+  "d": "C04_cube_hole_5mm",
+  "id": 46,
+  "name": "Cut-Extrude1",
+  "stamp": 1789966976,
+  "iso": "2026-09-21T05:02:56.000Z",
+  "count": 1,
+  "ft": 1789966976.9069996
+ },
+ {
+  "gen": "SW2022",
+  "d": "C05_cube_hole_3mm",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966696,
+  "iso": "2026-09-21T04:58:16.000Z",
+  "count": 22,
+  "ft": 1789966696.047001
+ },
+ {
+  "gen": "SW2022",
+  "d": "C05_cube_hole_3mm",
+  "id": 46,
+  "name": "Cut-Extrude2",
+  "stamp": 1789966703,
+  "iso": "2026-09-21T04:58:23.000Z",
+  "count": 1,
+  "ft": 1789966703.959999
+ },
+ {
+  "gen": "SW2022",
+  "d": "C06_cube_hole_moved",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966716,
+  "iso": "2026-09-21T04:58:36.000Z",
+  "count": 22,
+  "ft": 1789966716.3330002
+ },
+ {
+  "gen": "SW2022",
+  "d": "C06_cube_hole_moved",
+  "id": 46,
+  "name": "Cut-Extrude2",
+  "stamp": 1789966720,
+  "iso": "2026-09-21T04:58:40.000Z",
+  "count": 1,
+  "ft": 1789966720.1369991
+ },
+ {
+  "gen": "SW2022",
+  "d": "C07_cube_two_holes",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966729,
+  "iso": "2026-09-21T04:58:49.000Z",
+  "count": 19,
+  "ft": 1789966729.165001
+ },
+ {
+  "gen": "SW2022",
+  "d": "C07_cube_two_holes",
+  "id": 46,
+  "name": "Cut-Extrude2",
+  "stamp": 1789966733,
+  "iso": "2026-09-21T04:58:53.000Z",
+  "count": 2,
+  "ft": 1789966733.4869995
+ },
+ {
+  "gen": "SW2022",
+  "d": "C08_cube_second_hole_modified",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966743,
+  "iso": "2026-09-21T04:59:03.000Z",
+  "count": 19,
+  "ft": 1789966743.4309998
+ },
+ {
+  "gen": "SW2022",
+  "d": "C08_cube_second_hole_modified",
+  "id": 46,
+  "name": "Cut-Extrude2",
+  "stamp": 1789966747,
+  "iso": "2026-09-21T04:59:07.000Z",
+  "count": 2,
+  "ft": 1789966747.7530003
+ },
+ {
+  "gen": "SW2022",
+  "d": "C09_cube_chamfer_1mm",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789965747,
+  "iso": "2026-09-21T04:42:27.000Z",
+  "count": 18,
+  "ft": 1789965747.202999
+ },
+ {
+  "gen": "SW2022",
+  "d": "C09_cube_chamfer_1mm",
+  "id": 35,
+  "name": "Chamfer1",
+  "stamp": 1789965748,
+  "iso": "2026-09-21T04:42:28.000Z",
+  "count": 2,
+  "ft": 1789965748.7609997
+ },
+ {
+  "gen": "SW2022",
+  "d": "C10_cube_shell_1mm",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966390,
+  "iso": "2026-09-21T04:53:10.000Z",
+  "count": 19,
+  "ft": 1789966390.1410007
+ },
+ {
+  "gen": "SW2022",
+  "d": "C11_cube_hole_4mm",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966756,
+  "iso": "2026-09-21T04:59:16.000Z",
+  "count": 22,
+  "ft": 1789966756.7420006
+ },
+ {
+  "gen": "SW2022",
+  "d": "C11_cube_hole_4mm",
+  "id": 46,
+  "name": "Cut-Extrude2",
+  "stamp": 1789966760,
+  "iso": "2026-09-21T04:59:20.000Z",
+  "count": 1,
+  "ft": 1789966760.545
+ },
+ {
+  "gen": "SW2022",
+  "d": "C12_cube_fillet_1mm_edge2",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789967357,
+  "iso": "2026-09-21T05:09:17.000Z",
+  "count": 26,
+  "ft": 1789967357.7390003
+ },
+ {
+  "gen": "SW2022",
+  "d": "C12_cube_fillet_1mm_edge2",
+  "id": 34,
+  "name": "Fillet1",
+  "stamp": 1789967361,
+  "iso": "2026-09-21T05:09:21.000Z",
+  "count": 3,
+  "ft": 1789967361.6860008
+ },
+ {
+  "gen": "SW2022",
+  "d": "C13_cone",
+  "id": 31,
+  "name": "Revolve1",
+  "stamp": 1789966770,
+  "iso": "2026-09-21T04:59:30.000Z",
+  "count": 4,
+  "ft": 1789966770.427
+ },
+ {
+  "gen": "SW2022",
+  "d": "C14_sphere",
+  "id": 31,
+  "name": "Revolve1",
+  "stamp": 1789966777,
+  "iso": "2026-09-21T04:59:37.000Z",
+  "count": 2,
+  "ft": 1789966777.2469997
+ },
+ {
+  "gen": "SW2022",
+  "d": "C15_torus",
+  "id": 31,
+  "name": "Revolve1",
+  "stamp": 1789966804,
+  "iso": "2026-09-21T05:00:04.000Z",
+  "count": 2,
+  "ft": 1789966804.3449993
+ },
+ {
+  "gen": "SW2022",
+  "d": "C17_torus_quarter",
+  "id": 31,
+  "name": "Revolve1",
+  "stamp": 1789966826,
+  "iso": "2026-09-21T05:00:26.000Z",
+  "count": 4,
+  "ft": 1789966826.184
+ },
+ {
+  "gen": "SW2022",
+  "d": "C18_cube_split_line",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789967657,
+  "iso": "2026-09-21T05:14:17.000Z",
+  "count": 79,
+  "ft": 1789967657.4570007
+ },
+ {
+  "gen": "SW2022",
+  "d": "C18_cube_split_line",
+  "id": 34,
+  "name": "Split Line1",
+  "stamp": 1789967664,
+  "iso": "2026-09-21T05:14:24.000Z",
+  "count": 9,
+  "ft": 1789967664.3649998
+ },
+ {
+  "gen": "SW2022",
+  "d": "C19_half_cylinder",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966095,
+  "iso": "2026-09-21T04:48:15.000Z",
+  "count": 6,
+  "ft": 1789966095.3579998
+ },
+ {
+  "gen": "SW2022",
+  "d": "C20_cylinders_crossed",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966121,
+  "iso": "2026-09-21T04:48:41.000Z",
+  "count": 9,
+  "ft": 1789966121.5100002
+ },
+ {
+  "gen": "SW2022",
+  "d": "C20_cylinders_crossed",
+  "id": 40,
+  "name": "Boss-Extrude2",
+  "stamp": 1789966126,
+  "iso": "2026-09-21T04:48:46.000Z",
+  "count": 4,
+  "ft": 1789966126.4640007
+ },
+ {
+  "gen": "SW2022",
+  "d": "C21_cylinder_fillet",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966530,
+  "iso": "2026-09-21T04:55:30.000Z",
+  "count": 18,
+  "ft": 1789966530.9839993
+ },
+ {
+  "gen": "SW2022",
+  "d": "C21_cylinder_fillet",
+  "id": 34,
+  "name": "Fillet1",
+  "stamp": 1789966533,
+  "iso": "2026-09-21T04:55:33.000Z",
+  "count": 3,
+  "ft": 1789966533.948
+ },
+ {
+  "gen": "SW2022",
+  "d": "C23_cube_sw2011_to_2022",
+  "id": 24,
+  "name": "Boss-Extrude1",
+  "stamp": 1789983697,
+  "iso": "2026-09-21T09:41:37.000Z",
+  "count": 10,
+  "ft": 1789983697.3929996
+ },
+ {
+  "gen": "SW2022",
+  "d": "C24_cube_sw2022_native",
+  "id": 32,
+  "name": "Boss-Extrude1",
+  "stamp": 1789966174,
+  "iso": "2026-09-21T04:49:34.000Z",
+  "count": 10,
+  "ft": 1789966174.3850002
+ }
+]

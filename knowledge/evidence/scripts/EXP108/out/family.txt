@@ -1,0 +1,9 @@
+300x | DL 11000: 6
+300x | DL 12000: 12
+300x | DL 13000: 8
+300x | DL 14000: 5
+300x | DL 15000: 52
+480xx | DL 16000: 14
+480xx | DL 17000: 14
+480xx | DL 18000: 1
+per-file DL version lines for 300x with version >=:

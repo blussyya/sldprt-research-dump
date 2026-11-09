@@ -1,0 +1,6 @@
+{
+  'bspline tangent bytes=0/0': 12,
+  'analytic tangent bytes=1/1': 162,
+  'analytic sharp bytes=0/0': 129,
+  'bspline sharp bytes=0/0': 6
+}
