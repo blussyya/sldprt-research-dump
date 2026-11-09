@@ -13,6 +13,7 @@ for(const f of C.corpusFiles()){
   const L=C.load(f);if(!L.display)continue;
   const arr=L.display.filter(d=>d.metadata.scalarFlag===1);if(!arr.length)continue;
   const ids=new Set(L.B.parsed.nodes.filter(n=>n.type===14).map(n=>n.values.node_id));
+  const byIdNative=new Map(L.M.faces.map(n=>[n.id,n]));
   const jr=new Map(J.join(L.display,L.M).map((r,i)=>[L.display[i],r]));
   const row={file:C.rel(f),arrays:arr.length,beforeNoId:0,fixed:0};
   t.files++;
@@ -20,7 +21,8 @@ for(const f of C.corpusFiles()){
     t.faces++;const had=ids.has(d.metadata.rawId);
     t[had?'beforeHasId':'beforeNoId']++;row[had?'x':'beforeNoId']=(row.beforeNoId+=had?0:1);
     const r=jr.get(d);const after=!r.face?r.how:'joined-'+check(L,d,r.face);
-    const key=(had?'idMatched':'noIdMatch')+' -> '+after;t.table[key]=(t.table[key]||0)+1;
+    const bn=byIdNative.get(d.metadata.rawId);const bef=!had?'noIdMatch':!bn?'idMatched(hidden body)':'idMatched-'+check(L,d,bn);
+    const key=bef+' -> '+after;t.table[key]=(t.table[key]||0)+1;
     if(!had&&r.face&&after!=='joined-wrong')row.fixed++;
   }
   delete row.x;t.perFile.push(row);

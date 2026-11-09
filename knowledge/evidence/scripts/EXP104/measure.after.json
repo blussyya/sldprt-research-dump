@@ -21,21 +21,21 @@
   },
   "after": {
    "display": 13533,
-   "matched": 13280,
-   "ambiguous": 105,
+   "matched": 13375,
+   "ambiguous": 10,
    "none": 148,
-   "right": 13242,
+   "right": 13337,
    "wrong": 5,
    "unchecked": 33,
-   "edgesSame": 13239,
+   "edgesSame": 13334,
    "edgesDiffer": 33,
    "edgesNone": 8,
    "how": {
     "id": 11483,
     "none": 148,
-    "geometry": 1460,
-    "ambiguous": 105,
-    "type": 337
+    "geometry": 1555,
+    "type": 337,
+    "ambiguous": 10
    }
   },
   "shift": {
@@ -57,11 +57,11 @@
    }
   },
   "checkControl": {
-   "pairs": 13248,
-   "wrong": 13008,
+   "pairs": 13343,
+   "wrong": 13103,
    "right": 208,
    "unchecked": 32,
-   "edgesDiffer": 13235,
+   "edgesDiffer": 13330,
    "edgesSame": 7,
    "edgesNone": 6
   }
@@ -1814,20 +1814,20 @@
    },
    "after": {
     "display": 2512,
-    "matched": 2411,
-    "ambiguous": 101,
+    "matched": 2502,
+    "ambiguous": 10,
     "none": 0,
-    "right": 2409,
+    "right": 2500,
     "wrong": 0,
     "unchecked": 2,
-    "edgesSame": 2411,
+    "edgesSame": 2502,
     "edgesDiffer": 0,
     "edgesNone": 0,
     "how": {
-     "geometry": 869,
-     "ambiguous": 101,
+     "geometry": 960,
      "id": 1368,
-     "type": 174
+     "type": 174,
+     "ambiguous": 10
     }
    },
    "shift": {
@@ -1849,11 +1849,11 @@
     }
    },
    "checkControl": {
-    "pairs": 2411,
-    "wrong": 2340,
+    "pairs": 2502,
+    "wrong": 2431,
     "right": 69,
     "unchecked": 2,
-    "edgesDiffer": 2410,
+    "edgesDiffer": 2501,
     "edgesSame": 1,
     "edgesNone": 0
    }
@@ -3391,20 +3391,19 @@
    },
    "after": {
     "display": 239,
-    "matched": 235,
-    "ambiguous": 4,
+    "matched": 239,
+    "ambiguous": 0,
     "none": 0,
-    "right": 233,
+    "right": 237,
     "wrong": 2,
     "unchecked": 0,
-    "edgesSame": 235,
+    "edgesSame": 239,
     "edgesDiffer": 0,
     "edgesNone": 0,
     "how": {
      "id": 146,
      "type": 8,
-     "geometry": 81,
-     "ambiguous": 4
+     "geometry": 85
     }
    },
    "shift": {
@@ -3426,11 +3425,11 @@
     }
    },
    "checkControl": {
-    "pairs": 235,
-    "wrong": 235,
+    "pairs": 239,
+    "wrong": 239,
     "right": 0,
     "unchecked": 0,
-    "edgesDiffer": 233,
+    "edgesDiffer": 237,
     "edgesSame": 2,
     "edgesNone": 0
    }
