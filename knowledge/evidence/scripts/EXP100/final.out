@@ -1,0 +1,155 @@
+{
+ "a4ecc6f5": {
+  "spun_direction_vs_native_axis": {
+   "parallel": 260,
+   "perpendicular": 24,
+   "other": 0
+  },
+  "spun_normal_meridian_maxsin_le_1e5": 248,
+  "spun_normal_meridian_maxsin_gt_1e5": 36,
+  "spun_normal_meridian_worst": [
+   0.0360586061584903,
+   0.03605860615831914,
+   0.03605860614583727
+  ],
+  "hard_faces": 12,
+  "hard_blind": [
+   {
+    "rawId": 291,
+    "tag": 4002,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 270,
+    "tag": 4001,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 249,
+    "tag": 4001,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 207,
+    "tag": 4002,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 186,
+    "tag": 4001,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 165,
+    "tag": 4001,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 144,
+    "tag": 4002,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 123,
+    "tag": 4002,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 102,
+    "tag": 4001,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 81,
+    "tag": 4001,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 64,
+    "tag": 4010,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   },
+   {
+    "rawId": 47,
+    "tag": 4010,
+    "joinedNodes": [],
+    "blindType": "spun",
+    "blindNodeId": 1227,
+    "blindMaxDistM": 0,
+    "sameIdAsRawId": false
+   }
+  ]
+ },
+ "8cd79ff5": {
+  "spun_direction_vs_native_axis": {
+   "parallel": 0,
+   "perpendicular": 4,
+   "other": 0
+  },
+  "spun_normal_meridian_maxsin_le_1e5": 3,
+  "spun_normal_meridian_maxsin_gt_1e5": 1,
+  "spun_normal_meridian_worst": [
+   0.0011606156962825323,
+   6.388655215994094e-8,
+   3.7434212644662685e-8
+  ],
+  "hard_faces": 0,
+  "hard_blind": []
+ },
+ "2f121983": {
+  "spun_direction_vs_native_axis": {
+   "parallel": 0,
+   "perpendicular": 0,
+   "other": 0
+  },
+  "spun_normal_meridian_maxsin_le_1e5": 0,
+  "spun_normal_meridian_maxsin_gt_1e5": 0,
+  "spun_normal_meridian_worst": [],
+  "hard_faces": 0,
+  "hard_blind": []
+ }
+}
