@@ -1,3 +1,1 @@
-e1f38af5_0000380-01.sldprt       ok curve 0.00e+0 surface 0.00e+0 250ms
-82981f2a_head_back.sldprt        ok curve 1.14e-8 surface 9.94e-9 907237ms
-92c393f4_camera_support.sldprt   ok curve 0.00e+0 surface 0.00e+0 113ms
+e1f38af5_0000380-01.sldprt       ok curve 0.00e+0 surface 0.00e+0 55ms
