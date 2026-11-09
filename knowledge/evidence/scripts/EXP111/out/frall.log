@@ -1,0 +1,68 @@
+109 {
+  '0': 102,
+  '-49': 1,
+  '-7501': 1,
+  '-1093': 1,
+  '-1287': 1,
+  '-55': 1,
+  '-173758': 1,
+  '-19': 1
+}
+[
+  {
+    f: 'test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT',
+    id: 32,
+    name: 'Boss-Extrude1',
+    stamp: 1790807028,
+    t: 1790807077.2719994,
+    d: -49
+  },
+  {
+    f: 'test files original/Helical Bevel Gear.SLDPRT',
+    id: 63,
+    name: 'Revolve1',
+    stamp: 1677133270,
+    t: 1677140771.6749992,
+    d: -7501
+  },
+  {
+    f: 'test files original/Helical Bevel Gear.SLDPRT',
+    id: 95,
+    name: 'Sketch9',
+    stamp: 1677141356,
+    t: 1677142449.974001,
+    d: -1093
+  },
+  {
+    f: 'test files original/Helical Bevel Gear.SLDPRT',
+    id: 94,
+    name: 'Loft2',
+    stamp: 1677141162,
+    t: 1677142449.9689999,
+    d: -1287
+  },
+  {
+    f: 'test files original/cube.SLDPRT',
+    id: 27,
+    name: 'Sketch2',
+    stamp: 1783732165,
+    t: 1783732220.7259998,
+    d: -55
+  },
+  {
+    f: 'test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT',
+    id: 34,
+    name: 'Boss-Extrude1',
+    stamp: 1782808308,
+    t: 1782982066.658001,
+    d: -173758
+  },
+  {
+    f: 'test files online/2022/dd156283_637Z flanzi bearing.SLDPRT',
+    id: 33,
+    name: 'ﾎﾞｽ - 押し出し1',
+    stamp: 1776249001,
+    t: 1776249020.8379993,
+    d: -19
+  }
+]
