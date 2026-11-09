@@ -50,6 +50,10 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-057 / NQ-058 | Diagnose the remaining triangulation failures and `2f121983` evidence; converter changes stay outside this branch. |
 | NQ-059 | Replace dimension-placement scans with bounded layouts. |
 | NQ-060 | Find the modern per-feature Created/Modified record; Biography is not it. |
+| NQ-061 | Rerun EXP-112's blind disprove check on the container directory; the first run hit the usage limit. |
+| NQ-062 | Find how the three per-file signatures follow from the 4-byte key. |
+| NQ-063 | Decode the 4 bytes at the ZIP time/date position of each stream header. |
+| NQ-064 | Map the filler and the bytes after the real end record; check the directory on assemblies and drawings. |
 
 | Blocked on a discriminating file or SolidWorks save | Needed input |
 |---|---|
@@ -1432,4 +1436,55 @@ older Created/Modified data; do not infer it from Biography timestamps.
 
 **Evidence**: [EXP-088](evidence/2026-11-05_v0.5-EXP088.md),
 `evidence/scripts/EXP088/history/`.
+
+## NQ-061 — Blind disprove check of the container directory
+
+**Status**: Open. EXP-112's prove agent held the directory on 181 of 181 modern files. The disprove
+agent stopped at the usage limit with no verdict; its partial outputs agree so far
+(`scripts/EXP112/disprove/t1.out`, `t2.out`). Rerun it blind before the directory counts as
+verified. Attacks to cover: a file where zero or two end records pass, a valid stream outside the
+directory, how often random bytes pass the position rule, a crafted file where an imitation passes
+first when scanning backwards.
+
+**Evidence**: [EXP-112](evidence/2026-11-09_v0.5-EXP112.md).
+
+**Date raised**: 2026-11-09 (EXP-112).
+
+## NQ-062 — How the signatures follow from the key
+
+**Status**: Open. Bytes 0–3 select the local, central and end signatures: 15 of 15 pairs of
+unrelated files that share them share all three signatures, which puts the key count near 1,000.
+162 of 163 keys are four successive `rand() & 0xff` of the Microsoft C runtime; `82 5d 07 04` isn't.
+Ruled out: XOR, rotate, shift and other GF(2)-affine maps, `a·x + c mod 2^32`, the same `rand()`
+stream within 20,000 calls either side, MD5/SHA of the key, common generators seeded with it.
+Guess, not checked: a fixed table of about 1,000 entries in SolidWorks. A reader doesn't need the
+map, since it finds the directory without the signatures. Settle it by finding the table, or by
+a save that reuses a known key with a different signature.
+
+**Evidence**: [EXP-112](evidence/2026-11-09_v0.5-EXP112.md), `scripts/EXP112/table.json`.
+
+**Date raised**: 2026-11-09 (EXP-112).
+
+## NQ-063 — The 4 bytes at the ZIP time/date position
+
+**Status**: Open. Local header +10 and central record +12 hold the same 4 bytes in 7,895 of
+7,895 entries. A file has 2 to 44 distinct values, and only 2,474 of 7,895 read as valid DOS
+time/date, so they aren't plain DOS time. Check whether they group by stream type, by save, or
+by the key, and whether a re-save changes them.
+
+**Evidence**: [EXP-112](evidence/2026-11-09_v0.5-EXP112.md), `scripts/EXP112/stamp.out`.
+
+**Date raised**: 2026-11-09 (EXP-112).
+
+## NQ-064 — The filler, the tail, and other document types
+
+**Status**: Open. Filler sits before the first stream (255–900 bytes, a whole multiple of the
+file's block size in 178 of 178), between some streams (85–100 bytes, one size per file), after
+the real central records, and around the end record (220–798 bytes after it). Nothing in the
+directory points into it. Still to do: decode its record shapes fully, say whether any reader
+needs it, and run the directory rule on assemblies (.SLDASM) and drawings (.SLDDRW).
+
+**Evidence**: [EXP-112](evidence/2026-11-09_v0.5-EXP112.md), `scripts/EXP112/filler.out`.
+
+**Date raised**: 2026-11-09 (EXP-112).
 
