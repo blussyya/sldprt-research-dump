@@ -1,12 +1,14 @@
 == 82981f2a_head_back.sldprt
-resolve threw: intersection: no foot on a surface settled (4.7e-3 m off its normal)
-fits 57 max 9.94e-9 at blend 3452 ; over 1e-8: 0 
-time 221.763 s
+fits 660 max 1.14e-8 at edge 844 ; over 1e-8: 1 edge 844 1.14e-8
+blend 3369 error 2.21e-9 m
+edge 826 error 9.26e-9 m
+report {"exactEdges":756,"fittedCurves":552,"pcurveEdges":45,"fittedSurfaces":108,"maxError":1.1423962960300644e-8,"errors":{"curve":1.1423962960300644e-8,"surface":9.944091237945596e-9},"tolerantEdges":48,"maxEdgeGap":0.04183363006931121}
+time 760.547 s
 == f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT
 fits 45 max 9.95e-9 at edge 152 ; over 1e-8: 0 
 report {"exactEdges":25,"fittedCurves":45,"pcurveEdges":18,"fittedSurfaces":0,"maxError":9.949074654038284e-9,"errors":{"curve":9.949074654038284e-9,"surface":0},"tolerantEdges":18,"maxEdgeGap":0.000003652599121107376}
-time 7.386 s
+time 5.9 s
 == db8a97e2_écrou fileté M5.SLDPRT
 fits 26 max 3.71e-10 at edge 1410 ; over 1e-8: 0 
 report {"exactEdges":42,"fittedCurves":26,"pcurveEdges":0,"fittedSurfaces":0,"maxError":3.707697901442684e-10,"errors":{"curve":3.707697901442684e-10,"surface":0},"tolerantEdges":0,"maxEdgeGap":0}
-time 27.291 s
+time 23.518 s
