@@ -11,3 +11,5 @@ for(const e of n.edges.values()){let c=e.curve;if(c.type==='trimmed')c=c.basis;
   for(const s of c.surfaces)if(s.type==='plane')console.log(' chart distances to plane',s.node,c.chart.map(q=>Math.abs(G.surfaceDistance(s,q).d).toExponential(1)).join(' '));
   try{const t=Date.now(),r=F.edgeCurve(e,c,p0,p1,{tolerance:1e-8,faceOf});console.log(' fit error',r.error.toExponential(2),'samples',r.samples,(Date.now()-t)+'ms');}catch(x){console.log(' threw',x.message);}
 }
+// gap of the chart points to the other surface (blend: exact pipe distance via the foot finder), and the angle between normals
+{const m=new (require('module'))(R+'/src/brep/fit.js',module);}
