@@ -57,10 +57,16 @@ function surfaceCheck(df, nf) {
   const out = { type: nf.surface.type, checked: false, n: 0, max: null, over8: 0, over6: 0, reason: null };
   if (!df.vertices || !df.vertexCount) { out.reason = 'no vertices'; return out; }
   if (!df.boundaryCycles) { out.reason = 'no boundary cycles'; return out; }
+  // Boundary = endpoints of every edge annotation with a nonzero id, plus the traced cycles. v1 used only the
+  // cycles; display.js's cycle tracer keys vertices by coordinate and drops some boundary vertices (EXP107 note).
   const bnd = new Set();
   for (const cy of df.boundaryCycles) for (const v of cy.vertices) bnd.add(v);
+  for (const a of df.edgeAnnotations || []) if (a.id !== 0) for (const v of a.vertices) bnd.add(v);
+  // a seam point stored twice: a copy at the same position as a boundary vertex is a boundary vertex too
+  const key = i => [df.vertices[3 * i], df.vertices[3 * i + 1], df.vertices[3 * i + 2]].join(',');
+  const bkeys = new Set([...bnd].map(key));
   const vs = [];
-  for (let i = 0; i < df.vertexCount; i++) if (!bnd.has(i)) vs.push(i);
+  for (let i = 0; i < df.vertexCount; i++) if (!bnd.has(i) && !bkeys.has(key(i))) vs.push(i);
   if (!vs.length) { out.reason = 'no interior vertices'; return out; }
   let max = 0;
   for (const i of vs) {

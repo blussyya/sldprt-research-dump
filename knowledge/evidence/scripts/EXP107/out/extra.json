@@ -1,0 +1,963 @@
+{
+ "wrong": [
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 3241,
+   "nat": 3241,
+   "how": "id",
+   "nW": 13,
+   "missing": [
+    6630,
+    6666,
+    6671,
+    6678
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    3241
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 3005,
+   "nat": 3005,
+   "how": "id",
+   "nW": 13,
+   "missing": [
+    6751,
+    6778,
+    6783,
+    6790
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    3005
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 85,
+   "nat": 85,
+   "how": "id",
+   "nW": 5,
+   "missing": [
+    6807,
+    6845,
+    6852,
+    6636
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    85
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 81,
+   "nat": 81,
+   "how": "id",
+   "nW": 5,
+   "missing": [
+    6695,
+    6734,
+    6727,
+    6722
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    81
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 2153,
+   "nat": 2153,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6722,
+    6751,
+    6756,
+    6762
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    2153
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 2174,
+   "nat": 2174,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6666,
+    6700,
+    6695,
+    6706
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    2174
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 2195,
+   "nat": 2195,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6636,
+    6630,
+    6641,
+    6647
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    2195
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 2216,
+   "nat": 2216,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6812,
+    6807,
+    6818,
+    6778
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    2216
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 3737,
+   "nat": 3737,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6887,
+    6898
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    3737
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 3739,
+   "nat": 3739,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6907
+   ],
+   "missingNativeEdgeCount": [
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    3739
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 3741,
+   "nat": 3741,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6878,
+    6887,
+    6889
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    3741
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 3743,
+   "nat": 3743,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6919
+   ],
+   "missingNativeEdgeCount": [
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    3743
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 3745,
+   "nat": 3745,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6869,
+    6878,
+    6880
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    3745
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 3747,
+   "nat": 3747,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6839
+   ],
+   "missingNativeEdgeCount": [
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    3747
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 3749,
+   "nat": 3749,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6860,
+    6869,
+    6871
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    3749
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 3751,
+   "nat": 3751,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6862,
+    6860
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    3751
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 4244,
+   "nat": 4244,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6713,
+    6744
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    4244
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 4246,
+   "nat": 4246,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6771
+   ],
+   "missingNativeEdgeCount": [
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    4246
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 4248,
+   "nat": 4248,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6686,
+    6713,
+    6715
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    4248
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 4250,
+   "nat": 4250,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6800
+   ],
+   "missingNativeEdgeCount": [
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    4250
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 4252,
+   "nat": 4252,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6654,
+    6686,
+    6688
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    4252
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 4254,
+   "nat": 4254,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6827
+   ],
+   "missingNativeEdgeCount": [
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    4254
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 4256,
+   "nat": 4256,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6654,
+    6659,
+    6657
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    4256
+   ]
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "rawId": 4258,
+   "nat": 4258,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    6913,
+    6657
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    4258
+   ]
+  },
+  {
+   "file": "07ff8da1_shelf.SLDPRT",
+   "rawId": 1252,
+   "nat": 1252,
+   "how": "id",
+   "nW": 5,
+   "missing": [],
+   "missingNativeEdgeCount": [],
+   "coveredBy": [
+    1252
+   ],
+   "surfChecked": true,
+   "surfOver6": 2,
+   "surfMax": 0.000021838881958127776,
+   "cands": [
+    1252
+   ]
+  },
+  {
+   "file": "e8c40c25_psu.SLDPRT",
+   "rawId": 3924,
+   "nat": 3924,
+   "how": "id",
+   "nW": 3,
+   "missing": [],
+   "missingNativeEdgeCount": [],
+   "coveredBy": [
+    3924
+   ],
+   "surfChecked": true,
+   "surfOver6": 2,
+   "surfMax": 0.00000840204393754763,
+   "cands": [
+    3924
+   ]
+  },
+  {
+   "file": "e8c40c25_psu.SLDPRT",
+   "rawId": 3938,
+   "nat": 3938,
+   "how": "id",
+   "nW": 3,
+   "missing": [],
+   "missingNativeEdgeCount": [],
+   "coveredBy": [
+    3938
+   ],
+   "surfChecked": true,
+   "surfOver6": 3,
+   "surfMax": 0.000008403118706195624,
+   "cands": [
+    3938
+   ]
+  },
+  {
+   "file": "543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+   "rawId": 58,
+   "nat": 58,
+   "how": "id",
+   "nW": 2,
+   "missing": [
+    833,
+    1930
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    58
+   ]
+  },
+  {
+   "file": "543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+   "rawId": 55,
+   "nat": 55,
+   "how": "id",
+   "nW": 2,
+   "missing": [
+    1936,
+    1324
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    55
+   ]
+  },
+  {
+   "file": "a0ab30c8_LB26001-A-04-022.SLDPRT",
+   "rawId": 88,
+   "nat": 88,
+   "how": "id",
+   "nW": 6,
+   "missing": [
+    1716,
+    1681,
+    1283
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    88
+   ]
+  },
+  {
+   "file": "a0ab30c8_LB26001-A-04-022.SLDPRT",
+   "rawId": 86,
+   "nat": 86,
+   "how": "id",
+   "nW": 4,
+   "missing": [
+    1462,
+    1477,
+    1475
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    86
+   ]
+  },
+  {
+   "file": "a0ab30c8_LB26001-A-04-022.SLDPRT",
+   "rawId": 84,
+   "nat": 84,
+   "how": "id",
+   "nW": 5,
+   "missing": [
+    488,
+    1020
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    84
+   ]
+  },
+  {
+   "file": "a0ab30c8_LB26001-A-04-022.SLDPRT",
+   "rawId": 1,
+   "nat": 1,
+   "how": "id",
+   "nW": 28,
+   "missing": [
+    317,
+    668,
+    1425,
+    943,
+    1469,
+    1462,
+    814,
+    833,
+    750,
+    1456,
+    918,
+    1532,
+    938,
+    921,
+    948,
+    637,
+    264,
+    557,
+    907,
+    953,
+    930,
+    1447,
+    1540,
+    1450,
+    1464
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    1
+   ]
+  },
+  {
+   "file": "a0ab30c8_LB26001-A-04-022.SLDPRT",
+   "rawId": 48,
+   "nat": 48,
+   "how": "id",
+   "nW": 28,
+   "missing": [
+    1483,
+    1475,
+    1502,
+    1431,
+    803,
+    995,
+    1497,
+    1544,
+    1489,
+    1536,
+    1492,
+    752,
+    959,
+    1000,
+    910,
+    587,
+    243,
+    670,
+    640,
+    977,
+    985,
+    310,
+    801,
+    990
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    48
+   ]
+  },
+  {
+   "file": "09d353a9_Elbow_Mount2.SLDPRT",
+   "rawId": 98,
+   "nat": 98,
+   "how": "id",
+   "nW": 13,
+   "missing": [
+    2027,
+    2003,
+    1979,
+    1955,
+    1931,
+    1907,
+    1883,
+    2051,
+    2190,
+    2193,
+    1478,
+    1400
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": true,
+   "surfOver6": 0,
+   "surfMax": 6.496906231155769e-10,
+   "cands": [
+    98
+   ]
+  },
+  {
+   "file": "09d353a9_Elbow_Mount2.SLDPRT",
+   "rawId": 1,
+   "nat": 1,
+   "how": "id",
+   "nW": 8,
+   "missing": [
+    2386,
+    2203,
+    2404,
+    2422,
+    2440,
+    2216,
+    1114,
+    2214
+   ],
+   "missingNativeEdgeCount": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "coveredBy": [],
+   "surfChecked": false,
+   "surfOver6": 0,
+   "surfMax": null,
+   "cands": [
+    1
+   ]
+  }
+ ],
+ "geometry": {
+  "stats": {
+   "geomFaces": 1555,
+   "unchosenCandsEdgeEqual": 11203,
+   "chosenEdgeEqual": 1555,
+   "chosenEdgeNone": 0,
+   "twoEdgeEqual": 787,
+   "oneEdgeEqual": 768,
+   "noEdgeEqual": 0
+  },
+  "perFile": {
+   "d2515121_Ecran_128x32oled.SLDPRT": 960,
+   "a3a44709_FrontPanel-Bezel.sldprt": 2,
+   "3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT": 85,
+   "03764871_BME280.SLDPRT": 259,
+   "4803f393_box.SLDPRT": 98,
+   "d0d61cde_官方元件-定位模块.SLDPRT": 44,
+   "ef1d5cfe_DS3231.SLDPRT": 105,
+   "a4ecc6f5_PP-2074-08.SLDPRT": 2
+  }
+ }
+}
