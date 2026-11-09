@@ -1,0 +1,93 @@
+{
+ "src": "/home/user/conv-ids/src",
+ "parts": 115,
+ "total": {
+  "before": {
+   "display": 13533,
+   "matched": 9648,
+   "ambiguous": 0,
+   "none": 3885,
+   "right": 8413,
+   "wrong": 1206,
+   "unchecked": 29,
+   "how": {
+    "id": 9648,
+    "none": 3885
+   }
+  },
+  "after": {
+   "display": 13533,
+   "matched": 13265,
+   "ambiguous": 120,
+   "none": 148,
+   "right": 12488,
+   "wrong": 744,
+   "unchecked": 33,
+   "how": {
+    "id": 11483,
+    "none": 148,
+    "geometry": 1445,
+    "ambiguous": 120,
+    "type": 337
+   }
+  },
+  "shift": {
+   "display": 13533,
+   "matched": 666,
+   "ambiguous": 225,
+   "none": 12642,
+   "right": 4,
+   "wrong": 662,
+   "unchecked": 0,
+   "how": {
+    "none": 12642,
+    "ambiguous": 225,
+    "id": 576,
+    "type": 90
+   }
+  },
+  "checkControl": {
+   "pairs": 13233,
+   "wrong": 13031,
+   "right": 170,
+   "unchecked": 32
+  }
+ }
+}
+holefillets1-202 n 8 | before m/w/u 8 4 0 | after m/amb/none/w/u 8/0/0/4/0
+0132519a_102_STE n 167 | before m/w/u 151 0 0 | after m/amb/none/w/u 151/0/16/0/0
+15567d51_leva1.S n 298 | before m/w/u 298 4 1 | after m/amb/none/w/u 298/0/0/4/1
+361e7dbb_101_HOU n 262 | before m/w/u 262 1 0 | after m/amb/none/w/u 262/0/0/1/0
+d2515121_Ecran_1 n 2512 | before m/w/u 180 165 0 | after m/amb/none/w/u 2410/102/0/2/2
+07ff8da1_shelf.S n 30 | before m/w/u 30 4 0 | after m/amb/none/w/u 30/0/0/4/0
+300d7f07_Bottom  n 50 | before m/w/u 50 3 0 | after m/amb/none/w/u 50/0/0/3/0
+54b05886_bottom_ n 92 | before m/w/u 92 4 0 | after m/amb/none/w/u 92/0/0/4/0
+8cd79ff5_1ESxx.S n 103 | before m/w/u 103 4 4 | after m/amb/none/w/u 103/0/0/4/4
+d381ebab_bottom_ n 83 | before m/w/u 83 5 0 | after m/amb/none/w/u 83/0/0/5/0
+e8c40c25_psu.SLD n 271 | before m/w/u 271 24 0 | after m/amb/none/w/u 271/0/0/24/0
+fb449daa_Gloworm n 50 | before m/w/u 50 4 0 | after m/amb/none/w/u 50/0/0/4/0
+14f9214b_11.SLDP n 73 | before m/w/u 73 3 0 | after m/amb/none/w/u 73/0/0/3/0
+543861c9_BALL NU n 69 | before m/w/u 2 1 0 | after m/amb/none/w/u 2/0/67/1/0
+b185085c_Handle  n 33 | before m/w/u 33 10 0 | after m/amb/none/w/u 33/0/0/10/0
+85aabbde_84T Gea n 671 | before m/w/u 671 18 0 | after m/amb/none/w/u 671/0/0/18/0
+916d4a0a_36T Gea n 295 | before m/w/u 295 18 0 | after m/amb/none/w/u 295/0/0/18/0
+eb0b2a21_60T Gea n 399 | before m/w/u 399 12 0 | after m/amb/none/w/u 399/0/0/12/0
+073482d3_Reducer n 109 | before m/w/u 109 18 0 | after m/amb/none/w/u 109/0/0/18/0
+10459a56_A-2605- n 143 | before m/w/u 143 50 0 | after m/amb/none/w/u 143/0/0/50/0
+273a8d53_FG-F1.S n 76 | before m/w/u 76 2 0 | after m/amb/none/w/u 76/0/0/2/0
+3c4752f1_A-2226- n 239 | before m/w/u 141 49 0 | after m/amb/none/w/u 227/12/0/34/0
+a0ab30c8_LB26001 n 33 | before m/w/u 6 1 0 | after m/amb/none/w/u 6/0/27/1/0
+d753195d_ServoMo n 90 | before m/w/u 90 2 0 | after m/amb/none/w/u 90/0/0/2/0
+2f121983_case.SL n 155 | before m/w/u 155 33 0 | after m/amb/none/w/u 155/0/0/32/0
+41b71219_板材-Guid n 82 | before m/w/u 82 26 0 | after m/amb/none/w/u 82/0/0/26/0
+4803f393_box.SLD n 1390 | before m/w/u 1390 119 0 | after m/amb/none/w/u 1389/1/0/49/0
+d0d61cde_官方元件-定位 n 544 | before m/w/u 102 14 0 | after m/amb/none/w/u 541/3/0/17/0
+d8206ed0_J6_Flan n 34 | before m/w/u 34 2 4 | after m/amb/none/w/u 34/0/0/2/4
+09d353a9_Elbow_M n 40 | before m/w/u 2 0 0 | after m/amb/none/w/u 2/0/38/0/0
+a4ecc6f5_PP-2074 n 961 | before m/w/u 949 180 20 | after m/amb/none/w/u 959/2/0/177/22
+Dekor.SLDPRT n 375 | before m/w/u 375 8 0 | after m/amb/none/w/u 375/0/0/8/0
+Helical Bevel Ge n 113 | before m/w/u 113 14 0 | after m/amb/none/w/u 113/0/0/14/0
+Pocket Wheel.SLD n 400 | before m/w/u 400 171 0 | after m/amb/none/w/u 400/0/0/171/0
+distributor main n 51 | before m/w/u 51 4 0 | after m/amb/none/w/u 51/0/0/4/0
+USB hub case BOT n 39 | before m/w/u 39 1 0 | after m/amb/none/w/u 39/0/0/1/0
+USB hub case TOP n 68 | before m/w/u 68 15 0 | after m/amb/none/w/u 68/0/0/15/0

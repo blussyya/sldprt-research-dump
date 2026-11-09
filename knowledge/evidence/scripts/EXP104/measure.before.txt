@@ -1,0 +1,71 @@
+{
+ "src": "/home/user/conv-dev/src",
+ "parts": 115,
+ "total": {
+  "before": {
+   "display": 13533,
+   "matched": 9648,
+   "ambiguous": 0,
+   "none": 3885,
+   "right": 9126,
+   "wrong": 493,
+   "unchecked": 29,
+   "edgesSame": 8931,
+   "edgesDiffer": 709,
+   "edgesNone": 8,
+   "how": {
+    "id": 9648,
+    "none": 3885
+   }
+  },
+  "after": {
+   "display": 0,
+   "matched": 0,
+   "ambiguous": 0,
+   "none": 0,
+   "right": 0,
+   "wrong": 0,
+   "unchecked": 0,
+   "edgesSame": 0,
+   "edgesDiffer": 0,
+   "edgesNone": 0,
+   "how": {}
+  },
+  "shift": {
+   "display": 0,
+   "matched": 0,
+   "ambiguous": 0,
+   "none": 0,
+   "right": 0,
+   "wrong": 0,
+   "unchecked": 0,
+   "edgesSame": 0,
+   "edgesDiffer": 0,
+   "edgesNone": 0,
+   "how": {}
+  },
+  "checkControl": {
+   "pairs": 0,
+   "wrong": 0,
+   "right": 0,
+   "unchecked": 0,
+   "edgesDiffer": 0,
+   "edgesSame": 0,
+   "edgesNone": 0
+  }
+ }
+}
+0132519a_102_STE n 167 | before m/w/u 151 0 0 
+d2515121_Ecran_1 n 2512 | before m/w/u 180 165 0 
+a3a44709_FrontPa n 16 | before m/w/u 16 1 0 
+543861c9_BALL NU n 69 | before m/w/u 2 0 0 
+3c4752f1_A-2226- n 239 | before m/w/u 141 21 0 
+a0ab30c8_LB26001 n 33 | before m/w/u 6 1 0 
+03764871_BME280. n 693 | before m/w/u 172 158 0 
+2f121983_case.SL n 155 | before m/w/u 155 1 0 
+4803f393_box.SLD n 1390 | before m/w/u 1390 73 0 
+d0d61cde_官方元件-定位 n 544 | before m/w/u 102 14 0 
+ef1d5cfe_DS3231. n 404 | before m/w/u 72 54 0 
+09d353a9_Elbow_M n 40 | before m/w/u 2 0 0 
+a4ecc6f5_PP-2074 n 961 | before m/w/u 949 3 20 
+Dekor.SLDPRT n 375 | before m/w/u 375 2 0 

@@ -1,0 +1,14 @@
+parts with >1 body: 13 faces 5894 | body descents 44 in-body descents 4598 | control body descents 1538 in-body 1404
+15567d51_leva1 bodies 3 faces 298 desc 1 inDesc 278 runs 3 | control 9 135 19
+d2515121_Ecran bodies 114 faces 1542 desc 31 inDesc 1455 runs 37 | control 672 102 1320
+54b05886_botto bodies 2 faces 92 desc 1 inDesc 51 runs 2 | control 5 48 11
+a3a44709_Front bodies 2 faces 14 desc 1 inDesc 2 runs 2 | control 4 2 9
+d381ebab_botto bodies 2 faces 83 desc 1 inDesc 45 runs 2 | control 6 34 13
+14f9214b_11.SL bodies 3 faces 73 desc 0 inDesc 34 runs 3 | control 15 21 30
+3c4752f1_A-222 bodies 9 faces 154 desc 0 inDesc 92 runs 3 | control 31 45 61
+03764871_BME28 bodies 31 faces 434 desc 4 inDesc 315 runs 12 | control 120 85 246
+2f121983_case. bodies 2 faces 154 desc 0 inDesc 49 runs 2 | control 15 62 31
+4803f393_box.S bodies 9 faces 1292 desc 2 inDesc 1058 runs 6 | control 419 232 828
+d0d61cde_官方元件- bodies 3 faces 500 desc 1 inDesc 237 runs 3 | control 141 119 283
+ef1d5cfe_DS323 bodies 7 faces 299 desc 2 inDesc 147 runs 4 | control 87 60 171
+a4ecc6f5_PP-20 bodies 2 faces 959 desc 0 inDesc 835 runs 2 | control 14 459 28

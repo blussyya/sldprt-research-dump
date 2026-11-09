@@ -1,0 +1,75 @@
+{
+ "src": "/home/user/conv-ids/src",
+ "parts": 115,
+ "total": {
+  "before": {
+   "display": 13533,
+   "matched": 9648,
+   "ambiguous": 0,
+   "none": 3885,
+   "right": 9126,
+   "wrong": 493,
+   "unchecked": 29,
+   "edgesSame": 9194,
+   "edgesDiffer": 446,
+   "edgesNone": 8,
+   "how": {
+    "id": 9648,
+    "none": 3885
+   }
+  },
+  "after": {
+   "display": 13533,
+   "matched": 13280,
+   "ambiguous": 105,
+   "none": 148,
+   "right": 13242,
+   "wrong": 5,
+   "unchecked": 33,
+   "edgesSame": 13239,
+   "edgesDiffer": 33,
+   "edgesNone": 8,
+   "how": {
+    "id": 11483,
+    "none": 148,
+    "geometry": 1460,
+    "ambiguous": 105,
+    "type": 337
+   }
+  },
+  "shift": {
+   "display": 13533,
+   "matched": 666,
+   "ambiguous": 225,
+   "none": 12642,
+   "right": 6,
+   "wrong": 660,
+   "unchecked": 0,
+   "edgesSame": 0,
+   "edgesDiffer": 666,
+   "edgesNone": 0,
+   "how": {
+    "none": 12642,
+    "ambiguous": 225,
+    "id": 576,
+    "type": 90
+   }
+  },
+  "checkControl": {
+   "pairs": 13248,
+   "wrong": 13008,
+   "right": 208,
+   "unchecked": 32,
+   "edgesDiffer": 13235,
+   "edgesSame": 7,
+   "edgesNone": 6
+  }
+ }
+}
+0132519a_102_STE n 167 | before m/w/u 151 0 0 | after m/amb/none/w/u 151/0/16/0/0
+d2515121_Ecran_1 n 2512 | before m/w/u 180 165 0 | after m/amb/none/w/u 2411/101/0/0/2
+543861c9_BALL NU n 69 | before m/w/u 2 0 0 | after m/amb/none/w/u 2/0/67/0/0
+3c4752f1_A-2226- n 239 | before m/w/u 141 21 0 | after m/amb/none/w/u 235/4/0/2/0
+a0ab30c8_LB26001 n 33 | before m/w/u 6 1 0 | after m/amb/none/w/u 6/0/27/1/0
+09d353a9_Elbow_M n 40 | before m/w/u 2 0 0 | after m/amb/none/w/u 2/0/38/0/0
+Dekor.SLDPRT n 375 | before m/w/u 375 2 0 | after m/amb/none/w/u 375/0/0/2/0

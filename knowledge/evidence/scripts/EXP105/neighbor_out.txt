@@ -1,0 +1,5 @@
+C21_cylinder_fillet/model.SLDPRT cyl/cone verts 256 off 66 coincide with a vertex of another display face (<1e-9 m) 66
+C20_cylinders_crossed/model.SLDPRT cyl/cone verts 736 off 20 coincide with a vertex of another display face (<1e-9 m) 20
+2019/8cd79ff5_1ESxx.SLDPRT cyl/cone verts 2419 off 619 coincide with a vertex of another display face (<1e-9 m) 619
+2023/2f121983_case.SLDPRT cyl/cone verts 3564 off 1057 coincide with a vertex of another display face (<1e-9 m) 1057
+2024/a4ecc6f5_PP-2074-08.SLDPRT cyl/cone verts 4892 off 2598 coincide with a vertex of another display face (<1e-9 m) 2598
