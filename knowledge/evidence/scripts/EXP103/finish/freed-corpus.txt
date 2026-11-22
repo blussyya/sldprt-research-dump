@@ -1,0 +1,337 @@
+converter f939721
+e1f38af5_0000380-01.sldprt       ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+82981f2a_head_back.sldprt        ok spcurve edges 48 | ends not on their vertex 25 | beyond tolerance 0
+   edge 841 bspline (fitted blend) gap 1.36e-8 tolerance 1.50e-6 
+   edge 841 bspline (fitted blend) gap 3.57e-7 tolerance 1.87e-6 
+   edge 836 bspline gap 3.69e-7 tolerance 1.87e-6 
+   edge 836 bspline gap 5.17e-8 tolerance 1.58e-6 
+   edge 829 bspline gap 2.54e-8 tolerance 2.28e-6 
+   edge 833 bspline gap 1.27e-8 tolerance 2.29e-6 
+   edge 833 bspline gap 6.95e-8 tolerance 2.32e-6 
+   edge 406 bspline gap 4.42e-8 tolerance 2.29e-6 
+   edge 414 bspline gap 1.72e-8 tolerance 2.28e-6 
+   edge 414 bspline gap 1.95e-8 tolerance 2.27e-6 
+   edge 424 bspline gap 1.60e-8 tolerance 2.27e-6 
+   edge 424 bspline gap 9.33e-8 tolerance 2.34e-6 
+   edge 825 bspline (fitted blend) gap 3.13e-7 tolerance 2.00e-5 
+   edge 808 offset gap 8.71e-6 tolerance 2.00e-5 
+   edge 808 offset gap 6.47e-8 tolerance 2.20e-5 
+   edge 391 offset gap 4.13e-7 tolerance 2.00e-5 
+   edge 392 offset gap 8.71e-6 tolerance 2.00e-5 
+   edge 392 offset gap 6.47e-8 tolerance 2.20e-5 
+   edge 429 bspline gap 3.69e-7 tolerance 1.87e-6 
+   edge 429 bspline gap 5.17e-8 tolerance 1.58e-6 
+   edge 428 bspline gap 3.69e-7 tolerance 1.87e-6 
+   edge 844 bspline (fitted blend) gap 2.54e-8 tolerance 2.00e-5 
+   edge 844 bspline (fitted blend) gap 1.13e-6 tolerance 2.20e-5 
+   edge 735 bspline (fitted blend) gap 6.01e-6 tolerance 2.20e-5 
+   edge 735 bspline (fitted blend) gap 1.03e-8 tolerance 2.00e-5 
+92c393f4_camera_support.sldprt   ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+f666f342_head_face.sldprt        exit 124: 
+3b48d9c5_Body10.sldprt           ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+4df87793_21BC-S 1.19-A.sldprt    ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+516a7dc5_Body1.sldprt            ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+afc71d14_Body2.sldprt            ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+a3a44709_FrontPanel-Bezel.sldprt ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+05187d94_ChainCL_In.SLDPRT       ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+065f38b0_等径四节弯头-4.SLDPRT         ok spcurve edges 4 | ends not on their vertex 0 | beyond tolerance 0
+7192bb05_长短脚任意角度裤形三通管-5.SLDPRT   ok spcurve edges 7 | ends not on their vertex 0 | beyond tolerance 0
+6ff6c243_通气塞.SLDPRT              ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+300f9732_Carter2019.SLDPRT       ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+68cd51b6_20190309-0049.SLDPRT    ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+0739c559_[HEAD-COVR-MIL1-COMN-00 ok spcurve edges 41 | ends not on their vertex 3 | beyond tolerance 0
+   edge 6078 offset gap 7.50e-6 tolerance 4.82e-5 
+   edge 6077 plane gap 8.36e-6 tolerance 4.82e-5 
+   edge 6080 plane gap 6.28e-6 tolerance 4.82e-5 
+1214a0ff_[ARM-A-V1-COMN-INNR-COM ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+118a3cb0_cut-z18-b1xh1xl1.SLDPRT ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+289756ce_cut-z071-b1-l1-l2-typ.S ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+629adcec_cut-z351-d1xl1.SLDPRT   ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+70477058_mt-cut-z085-l1xb1-typ.S ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+51065319_Mirror (opt 1-PSA)-HME_ ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+d49566bc_AntennaMount.SLDPRT     ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+d799e9a3_90751A110_18-8 Stainles ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+0132519a_102_STEM.SLDPRT         ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+06b5063b_050_MASTER_SKETCH.SLDPR ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+15567d51_leva1.SLDPRT            ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+361e7dbb_101_HOUSING.SLDPRT      ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+ca465363_103_COVER.SLDPRT        ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+d2515121_Ecran_128x32oled.SLDPRT ok spcurve edges 2 | ends not on their vertex 0 | beyond tolerance 0
+eefa906d_plancher Dalle 2020.SLD ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+07ff8da1_shelf.SLDPRT            ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+096d0504_MargayMount_WH10.SLDPRT ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+27377fd2_FE-00006-06.SLDPRT      ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+28398415_Raspberry Pi 4.SLDPRT   ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+300d7f07_Bottom Case.SLDPRT      ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+44afdb7c_back_cushion.SLDPRT     ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+54b05886_bottom_adc.SLDPRT       ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+636b653d_MountingBracket.SLDPRT  ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+7765d286_NSJ8L.SLDPRT            ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+8cd79ff5_1ESxx.SLDPRT            ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+91a2d981_Camera Module.SLDPRT    ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+d381ebab_bottom_dac.SLDPRT       ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+e8c40c25_psu.SLDPRT              ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+fb449daa_Gloworm PCB.SLDPRT      ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+14f9214b_11.SLDPRT               ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+320de1b5_SPEC-PC-MB-MATX-KEEPOUT ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+34fe5ff1_Group_44390.stp.SLDPRT  ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+543861c9_BALL NUT BRACKET_(11-25 ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+72b08e3e_Hip Cable HOlder.SLDPRT ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+7841a106_6344428.SLDPRT          ok spcurve edges 12 | ends not on their vertex 0 | beyond tolerance 0
+9494d959_27_20_4.SLDPRT          ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+b185085c_Handle 3.SLDPRT         ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+b32017f5_Engine Compartment - Su ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+60f84235_2022_10_06_17_02_43_061 ok spcurve edges 129 | ends not on their vertex 41 | beyond tolerance 0
+   edge 447 cylinder gap 1.73e-7 tolerance 1.34e-6 
+   edge 395 cylinder gap 2.01e-7 tolerance 1.13e-6 
+   edge 1921 cylinder gap 1.29e-8 tolerance 9.65e-7 
+   edge 1916 bspline gap 6.81e-8 tolerance 9.65e-7 
+   edge 1919 torus gap 6.80e-8 tolerance 9.65e-7 
+   edge 1919 torus gap 6.81e-8 tolerance 9.65e-7 
+   edge 2217 torus gap 2.86e-8 tolerance 5.00e-7 
+   edge 1945 bspline gap 1.85e-8 tolerance 5.62e-7 
+   edge 406 cone gap 2.77e-7 tolerance 8.43e-7 
+   edge 1947 torus gap 1.34e-7 tolerance 5.62e-7 
+   edge 1947 torus gap 6.92e-8 tolerance 5.62e-7 
+   edge 525 plane gap 1.31e-8 tolerance 5.00e-7 
+   edge 2707 cylinder gap 6.41e-8 tolerance 5.00e-7 
+   edge 2603 plane gap 1.54e-10 tolerance 5.00e-7 
+   edge 2603 plane gap 2.36e-10 tolerance 5.00e-7 
+   edge 2095 cone gap 2.77e-7 tolerance 8.43e-7 
+   edge 1935 cylinder gap 1.63e-7 tolerance 1.63e-6 
+   edge 443 cylinder gap 2.42e-7 tolerance 2.12e-6 
+   edge 443 cylinder gap 2.53e-7 tolerance 2.12e-6 
+   edge 445 cylinder gap 2.00e-7 tolerance 2.12e-6 
+   edge 445 cylinder gap 2.27e-7 tolerance 1.34e-6 
+   edge 1872 plane gap 4.39e-12 tolerance 2.57e-6 
+   edge 1645 plane gap 1.31e-8 tolerance 5.00e-7 
+   edge 2703 cylinder gap 1.83e-7 tolerance 8.43e-7 
+   edge 1804 plane gap 1.31e-8 tolerance 5.00e-7 
+   edge 1960 cylinder gap 2.52e-8 tolerance 5.00e-7 
+   edge 1960 cylinder gap 2.18e-8 tolerance 5.00e-7 
+   edge 1996 cylinder gap 1.73e-7 tolerance 1.11e-6 
+   edge 321 torus gap 2.86e-8 tolerance 5.00e-7 
+   edge 2226 plane gap 3.43e-8 tolerance 5.00e-7 
+   edge 2226 plane gap 1.90e-8 tolerance 2.47e-6 
+   edge 1907 bspline gap 1.55e-7 tolerance 5.62e-7 
+   edge 1950 plane gap 6.02e-9 tolerance 9.65e-7 
+   edge 1950 plane gap 9.80e-9 tolerance 5.62e-7 
+   edge 2048 cylinder gap 2.16e-8 tolerance 5.00e-7 
+   edge 2048 cylinder gap 2.97e-8 tolerance 5.00e-7 
+   edge 140 plane gap 1.31e-8 tolerance 5.00e-7 
+   edge 391 cylinder gap 2.22e-7 tolerance 1.47e-6 
+   edge 391 cylinder gap 2.14e-7 tolerance 1.47e-6 
+   edge 389 cylinder gap 1.88e-7 tolerance 1.47e-6 
+   edge 850 bspline gap 1.95e-8 tolerance 5.00e-7 
+85aabbde_84T Gear.SLDPRT         ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+916d4a0a_36T Gear.SLDPRT         ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+bc3292d7_12T Gear.SLDPRT         ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+eb0b2a21_60T Gear.SLDPRT         ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+073482d3_ReducerBox_1_Reducer.SL ok spcurve edges 32 | ends not on their vertex 0 | beyond tolerance 0
+0d68d32d_6208K696_Clamping Preci ok spcurve edges 16 | ends not on their vertex 0 | beyond tolerance 0
+10459a56_A-2605-01_CR1_Right_Ang ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+1ee60868_z轴皮带固定.SLDPRT           ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+24344735_080-1926-000_3.SLDPRT   ok spcurve edges 48 | ends not on their vertex 19 | beyond tolerance 0
+   edge 1280 cylinder gap 1.62e-8 tolerance 5.00e-7 
+   edge 3362 cylinder gap 4.46e-7 tolerance 1.63e-6 
+   edge 3357 cylinder gap 4.46e-7 tolerance 1.63e-6 
+   edge 3355 cylinder gap 5.43e-7 tolerance 1.63e-6 
+   edge 3420 plane gap 4.46e-7 tolerance 1.63e-6 
+   edge 1346 plane gap 7.51e-10 tolerance 5.00e-7 
+   edge 2474 cylinder gap 4.47e-7 tolerance 1.63e-6 
+   edge 2476 cylinder gap 5.43e-7 tolerance 1.63e-6 
+   edge 2961 cylinder gap 1.87e-8 tolerance 5.00e-7 
+   edge 1289 plane gap 6.81e-11 tolerance 5.00e-7 
+   edge 2667 cylinder gap 4.47e-7 tolerance 1.63e-6 
+   edge 2678 cylinder gap 5.43e-7 tolerance 1.63e-6 
+   edge 2446 plane gap 1.34e-11 tolerance 5.00e-7 
+   edge 2965 cylinder gap 2.84e-8 tolerance 5.00e-7 
+   edge 780 plane gap 2.78e-8 tolerance 5.00e-7 
+   edge 93 plane gap 2.78e-8 tolerance 5.00e-7 
+   edge 3426 cylinder gap 5.43e-7 tolerance 1.63e-6 
+   edge 2955 cylinder gap 1.87e-8 tolerance 5.00e-7 
+   edge 3382 plane gap 2.65e-10 tolerance 5.00e-7 
+273a8d53_FG-F1.SLDPRT            ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+3980555c_RASPBERRY_PI_5+cooler-5 ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+3c4752f1_A-2226-01_Input_Inline_ ok spcurve edges 20 | ends not on their vertex 0 | beyond tolerance 0
+40e79d45_Fins.SLDPRT             ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+47b2b860_DIN_Flex_Converter_pad_ ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT ok spcurve edges 2 | ends not on their vertex 4 | beyond tolerance 0
+   edge 6 bspline gap 3.02e-7 tolerance 1.53e-5 
+   edge 6 bspline gap 3.08e-6 tolerance 2.06e-5 
+   edge 272 plane gap 1.27e-9 tolerance 1.50e-5 
+   edge 272 plane gap 3.02e-7 tolerance 1.53e-5 
+6ccc1814_LB26001-A-04-007.SLDPRT ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+84226163_Fin.SLDPRT              ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+9cc04b03_SO-C1.SLDPRT            ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+a0ab30c8_LB26001-A-04-022.SLDPRT ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+a0fc2e29_Vertical Spar.SLDPRT    ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+c0ef9eb3_DIN_Flex_Converter_pad_ ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+c72513ca_ASSEMBLY_11.SLDPRT      ok spcurve edges 6 | ends not on their vertex 0 | beyond tolerance 0
+ceefa2a9_CRP320-05.SLDPRT        ok spcurve edges 24 | ends not on their vertex 0 | beyond tolerance 0
+d753195d_ServoMount.SLDPRT       ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+db8a97e2_écrou fileté M5.SLDPRT  ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+dc265ce1_Fin.SLDPRT              ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+dd156283_637Z flanzi bearing.SLD ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+f8c2df35_2023_10_16_23_28_17_035 ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+03764871_BME280.SLDPRT           ok spcurve edges 12 | ends not on their vertex 0 | beyond tolerance 0
+1759e569_mahatbalam_ex7_beg.SLDP ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+2f121983_case.SLDPRT             ERR intersection: no foot on offset5790 x offset5789 settled (8. spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+2fd21507_MidplateEM2.SLDPRT      ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+31596c7e_EC11 Rotary Encoder 15m ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+3edbf014_TEST shortened Dock (Fi ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+41b71219_板材-Guidance安装板.SLDPRT   ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+4803f393_box.SLDPRT              ok spcurve edges 8 | ends not on their vertex 0 | beyond tolerance 0
+9aeafb66_标准件-30mm管夹.SLDPRT       ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+d0d61cde_官方元件-定位模块.SLDPRT        ok spcurve edges 20 | ends not on their vertex 0 | beyond tolerance 0
+d2f7f9bd_iman.SLDPRT             ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+d77ec77a_TopSheet.SLDPRT         ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+d8206ed0_J6_Flange_Adapter.SLDPR ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+ef1d5cfe_DS3231.SLDPRT           ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+03afebf4_Profilringe.SLDPRT      ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+09d353a9_Elbow_Mount2.SLDPRT     ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+1e794aad_6344387.SLDPRT          ok spcurve edges 14 | ends not on their vertex 0 | beyond tolerance 0
+225c13ed_camholder0deg.SLDPRT    ok spcurve edges 2 | ends not on their vertex 0 | beyond tolerance 0
+2300f35c_Thigh Symétrie.SLDPRT   ok spcurve edges 20 | ends not on their vertex 5 | beyond tolerance 0
+   edge 9931 bspline gap 1.55e-8 tolerance 9.44e-8 
+   edge 9838 bspline gap 1.29e-8 tolerance 9.44e-8 
+   edge 10217 plane gap 1.56e-9 tolerance 7.86e-8 
+   edge 10123 plane gap 7.73e-9 tolerance 7.18e-8 
+   edge 10123 plane gap 3.02e-10 tolerance 7.18e-8 
+346a04bc_R01_D_lower_1_140_washe ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+37663d8a_Gasket For M12.SLDPRT   ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+4febfc67_6344149.SLDPRT          ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+766ad273_WP06_washer_inner_-1_-9 ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+7fa6934e_Aluminum Box Pt 2.SLDPR ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+871e670c_servo_adapter.SLDPRT    ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+951f2bc1_Boitier.SLDPRT          ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+a4ecc6f5_PP-2074-08.SLDPRT       ok spcurve edges 842 | ends not on their vertex 23 | beyond tolerance 0
+   edge 35711 plane gap 2.76e-12 tolerance 5.39e-7 
+   edge 35745 plane gap 2.45e-12 tolerance 3.22e-7 
+   edge 36281 plane gap 2.45e-12 tolerance 3.23e-7 
+   edge 21827 plane gap 2.46e-12 tolerance 3.04e-7 
+   edge 35158 plane gap 2.76e-12 tolerance 5.39e-7 
+   edge 35192 plane gap 2.45e-12 tolerance 3.24e-7 
+   edge 35423 plane gap 2.76e-12 tolerance 5.43e-7 
+   edge 35457 plane gap 2.45e-12 tolerance 3.23e-7 
+   edge 22938 plane gap 2.46e-12 tolerance 3.08e-7 
+   edge 34893 plane gap 2.76e-12 tolerance 5.39e-7 
+   edge 34927 plane gap 2.45e-12 tolerance 3.22e-7 
+   edge 21521 plane gap 2.46e-12 tolerance 3.08e-7 
+   edge 21521 plane gap 1.65e-12 tolerance 5.10e-7 
+   edge 21562 plane gap 1.50e-11 tolerance 5.43e-7 
+   edge 21675 plane gap 1.69e-10 tolerance 6.93e-7 
+   edge 22716 plane gap 2.97e-12 tolerance 3.07e-7 
+   edge 22716 plane gap 1.69e-10 tolerance 6.93e-7 
+   edge 22374 plane gap 2.46e-12 tolerance 3.04e-7 
+   edge 22349 plane gap 1.07e-12 tolerance 3.12e-7 
+   edge 22151 plane gap 2.46e-12 tolerance 3.12e-7 
+   edge 36010 plane gap 2.44e-12 tolerance 3.24e-7 
+   edge 35976 plane gap 2.76e-12 tolerance 5.39e-7 
+   edge 36241 plane gap 2.76e-12 tolerance 5.43e-7 
+be0e76cf_WP06_screw_1_-94.SLDPRT ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+bf11f45c_shear_clip_1_150_-94.SL ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+f750218b_612-00002.SLDPRT        ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+05d0b4c3_pin-2-2.SLDPRT          ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+16f99cd7_装甲板固定（前）.SLDPRT         ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+3e41786b_LB26001-A-04-002_seed.S ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+50af9019_7x4 P42a Cell Holder.SL ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+51f01927_Держатель-Фиксатор-Буты ok spcurve edges 484 | ends not on their vertex 0 | beyond tolerance 0
+55c163ac_pin-1-2.SLDPRT          ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+6fd68589_pin-2-1.SLDPRT          ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+822f5572_一级挡块-hhr镂空限位.SLDPRT     ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+8aaecde6_6008内圈下加工件.SLDPRT       ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+8afc9212_[HEAD-A-B-11-L] Face Bl ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+ac760485_存矿小端.SLDPRT             ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+c613782b_Крепёжная-Планка.SLDPRT ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+e8f16581_Engine Base.SLDPRT      ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+f0b9a118_Standoff_M3x0.5_37 mm_M ok spcurve edges 18 | ends not on their vertex 13 | beyond tolerance 0
+   edge 138 bspline gap 3.65e-6 tolerance 1.05e-5 
+   edge 136 bspline gap 1.21e-8 tolerance 1.04e-6 
+   edge 146 cylinder gap 3.65e-6 tolerance 1.05e-5 
+   edge 139 cylinder gap 3.65e-6 tolerance 1.05e-5 
+   edge 139 cylinder gap 1.02e-8 tolerance 1.01e-6 
+   edge 140 cylinder gap 1.02e-8 tolerance 1.01e-6 
+   edge 140 cylinder gap 1.19e-8 tolerance 1.04e-6 
+   edge 1261 bspline gap 3.52e-8 tolerance 1.11e-6 
+   edge 1260 plane gap 3.09e-6 tolerance 1.05e-5 
+   edge 1260 plane gap 3.56e-8 tolerance 1.11e-6 
+   edge 1251 plane gap 3.09e-6 tolerance 1.05e-5 
+   edge 1257 plane gap 3.52e-8 tolerance 1.11e-6 
+   edge 1252 cylinder gap 3.09e-6 tolerance 1.05e-5 
+f6facc43_[HEAD-A-B-08] Slope Pan ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+0eab6495_A15_KW10_cassette_L_hee ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+2693f32a_GE-26501-02_ Tower Base ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+2e6e140a_ST3215_C018_04.SLDPRT   ok spcurve edges 140 | ends not on their vertex 57 | beyond tolerance 0
+   edge 224 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 224 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 227 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 227 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 230 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 230 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 233 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 233 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 236 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 236 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 239 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 239 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 242 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 242 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 245 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 245 plane gap 8.25e-9 tolerance 5.00e-7 
+   edge 1812 cylinder gap 6.76e-8 tolerance 5.00e-7 
+   edge 1603 cylinder gap 2.51e-8 tolerance 5.00e-7 
+   edge 1764 cylinder gap 4.37e-8 tolerance 5.00e-7 
+   edge 2090 cylinder gap 6.76e-8 tolerance 5.00e-7 
+   edge 1554 cylinder gap 4.37e-8 tolerance 5.00e-7 
+   edge 1552 cylinder gap 1.09e-7 tolerance 5.00e-7 
+   edge 1552 cylinder gap 3.28e-8 tolerance 5.00e-7 
+   edge 1599 cylinder gap 1.08e-7 tolerance 5.00e-7 
+   edge 1732 plane gap 2.94e-8 tolerance 5.00e-7 
+   edge 1732 plane gap 2.94e-8 tolerance 5.00e-7 
+   edge 1730 cylinder gap 3.28e-8 tolerance 5.00e-7 
+   edge 1730 cylinder gap 1.09e-7 tolerance 5.00e-7 
+   edge 2100 cylinder gap 2.37e-8 tolerance 5.00e-7 
+   edge 2088 cylinder gap 1.09e-7 tolerance 5.00e-7 
+   edge 13942 bspline gap 3.40e-8 tolerance 5.00e-7 
+   edge 13942 bspline gap 3.05e-7 tolerance 5.00e-7 
+   edge 13894 bspline gap 8.08e-8 tolerance 5.00e-7 
+   edge 13901 bspline gap 3.55e-8 tolerance 5.00e-7 
+   edge 13900 bspline gap 1.61e-8 tolerance 5.00e-7 
+   edge 13897 bspline gap 1.08e-7 tolerance 5.00e-7 
+   edge 13895 bspline gap 1.68e-8 tolerance 5.00e-7 
+   edge 13895 bspline gap 1.20e-8 tolerance 5.00e-7 
+   edge 11173 bspline gap 1.84e-8 tolerance 5.00e-7 
+   edge 11183 bspline gap 1.52e-8 tolerance 5.00e-7 
+   edge 11181 cylinder gap 5.36e-8 tolerance 5.00e-7 
+   edge 13933 bspline gap 1.23e-8 tolerance 5.00e-7 
+   edge 13933 bspline gap 1.46e-8 tolerance 5.00e-7 
+   edge 13944 bspline gap 1.79e-8 tolerance 5.00e-7 
+   edge 13944 bspline gap 1.38e-8 tolerance 5.00e-7 
+   edge 13947 bspline gap 1.67e-8 tolerance 5.00e-7 
+   edge 13947 bspline gap 3.41e-8 tolerance 5.00e-7 
+   edge 12851 cylinder gap 2.82e-7 tolerance 8.55e-7 
+   edge 12851 cylinder gap 2.82e-7 tolerance 8.55e-7 
+   edge 12848 cylinder gap 2.37e-7 tolerance 7.23e-7 
+   edge 12848 cylinder gap 2.37e-7 tolerance 7.23e-7 
+   edge 12473 cylinder gap 2.82e-7 tolerance 8.55e-7 
+   edge 12473 cylinder gap 2.82e-7 tolerance 8.55e-7 
+   edge 12470 cylinder gap 2.37e-7 tolerance 7.23e-7 
+   edge 12470 cylinder gap 2.37e-7 tolerance 7.23e-7 
+   edge 10988 bspline gap 1.65e-8 tolerance 5.00e-7 
+   edge 10988 bspline gap 1.68e-8 tolerance 5.00e-7 
+4d85599e_base-M4.SLDPRT          ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+c292e7e2_18t x 15mm Wide Aluminu ok spcurve edges 2 | ends not on their vertex 4 | beyond tolerance 0
+   edge 2492 cylinder gap 2.48e-7 tolerance 5.00e-7 
+   edge 2492 cylinder gap 2.48e-7 tolerance 5.00e-7 
+   edge 3171 plane gap 1.24e-8 tolerance 5.00e-7 
+   edge 3171 plane gap 1.24e-8 tolerance 5.00e-7 
+c5784ab3_A09_power_and_compute_r ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+d889c6fc_FE-00001-04_ 1-7_16_ Di ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+daa6e9e9_CR26-201-08.SLDPRT      ok spcurve edges 0 | ends not on their vertex 0 | beyond tolerance 0
+10582557_9271K109_Torsion Spring exit 1:   if(!candidates.length)throw Error('No Config-N-Partition stream');
+8ac95686_separadores.SLDPRT      exit 1:   if(!candidates.length)throw Error('No Config-N-Partition stream');
+9e494ca4_91169A160_Steel Split L exit 1:   if(!candidates.length)throw Error('No Config-N-Partition stream');
+d7b58324_small_motor.rev1.SLDPRT exit 1:   if(!candidates.length)throw Error('No Config-N-Partition stream');
+34a1cacb_91202A226_Zinc-Plated S exit 1:   if(!candidates.length)throw Error('No Config-N-Partition stream');
+done

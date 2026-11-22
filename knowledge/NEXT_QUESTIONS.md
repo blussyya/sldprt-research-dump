@@ -1522,8 +1522,9 @@ zone. This is the near-T item from EXP-086 (blend 9931 up to 7.5e-8 m there).
 vertices (tolerances 2.0e-5 and 2.2e-5 m) lie on sections 1.0e-5 apart in u, about 1.14e-6 m
 along the spine. The best single section misses both by 5.7e-7 m. Either our fitted blend's
 sections are skewed from Parasolid's by about that much, or a vertex is off by that much within
-its tolerance. The free-end rule now handles it, but which one it is isn't known. Edge 825, the
-other freed blend edge (gap 3.1e-7 m), hasn't been checked for the same pattern. SolidWorks 2026's
+its tolerance. The free-end rule now handles it, but which one it is isn't known. Edges 825 and
+735, the other freed blend edges (gaps 3.1e-7 and 6.0e-6 m, `finish/freed-corpus.txt`), haven't
+been checked for the same pattern. SolidWorks 2026's
 `.x_t` and STEP exports of head_back (`test files online/2013/exports-SW2026/`) may settle it.
 
 **Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), `scripts/EXP103/finish/e844section.out`,
