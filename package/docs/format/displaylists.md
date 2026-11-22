@@ -238,7 +238,7 @@ surface tag. The native body in the same file still has both.
 
 ## Pre-2011
 
-Two older variants of the same face record, both read now ([EXP-077](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-03_v0.5-EXP077.md)):
+Two older variants of the same face record, both read now ([EXP-077](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-03_v0.5-EXP077.md)):
 
 - **chainwheel** (`DisplayLists__Zip`, PKWARE-compressed). The SW2011 record, plus two arrays
   between Block3 and the bounding record: one with a 12-byte stride and kind 100, one with an
