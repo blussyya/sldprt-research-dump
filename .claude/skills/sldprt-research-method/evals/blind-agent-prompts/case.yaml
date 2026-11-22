@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: blind-agent-prompts
+expected_outcome: |
+  prompts.md has two prompts, one to prove and one to disprove. Both state the claim so it can fail, give data paths and repos but not our scripts or numbers, send each agent to its own scripts folder, require a control for any scan, and ask for a verdict with numbers.

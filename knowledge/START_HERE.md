@@ -78,8 +78,9 @@ These come from the user and override any habit that conflicts with them.
   note, not quietly replaced.
 - **Writing voice.** Anything front-facing (evidence, docs, READMEs, commit messages) is written
   plainly, the way a person would say it: short sentences, verbs, real numbers, no hype words. In
-  Claude Code, load the `anthropic-skills:human-sound-everyday` skill before writing. No
-  attribution lines in commits.
+  Claude Code, load the `sldprt-research-method` skill (`.claude/skills/` in this repo), which has
+  these rules, the writing rules and the decoding and validation recipes. No attribution lines in
+  commits.
 
 ## Tools that already exist
 
