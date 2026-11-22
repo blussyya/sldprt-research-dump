@@ -1,0 +1,15 @@
+9821 dev: reported error 5.584e-9  ctrl=97 (3649ms) type bspline deg 3
+9821 branch: reported error 1.538e-8  ctrl=97 (7366ms) type bspline deg 3
+  dev vs branch curve: ctrl 97/97, max pointwise diff over 4001 samples 1.02e-13
+  dev curve == branch curve to <1e-12, measured once (branch)
+  [branch] 752 samples. max true distance, well-conditioned (sin(angle between surfaces)>=0.01, n=512): 3.684e-11 at t=0.993359 (interval 62), sin=0.013
+     ill-conditioned samples (sin<0.01): 240, t in [0.995096,0.999998], max d 1.01e-7, min sin 6.03e-5; overall max 1.011e-7 at t=0.999998; worst |g| 1.3e-17
+     top3: t=1.00000 d=1.01e-7 sin=6.1e-5 | t=1.00000 d=6.31e-8 sin=6.0e-5 | t=0.99999 d=3.81e-8 sin=6.0e-5
+  (81203ms)
+  [control: branch shifted 1e-8] 752 samples. max true distance, well-conditioned (sin(angle between surfaces)>=0.01, n=512): 1.003e-8 at t=0.993359 (interval 62), sin=0.013
+     ill-conditioned samples (sin<0.01): 240, t in [0.995096,0.999998], max d 1.64e-7, min sin 6.02e-5; overall max 1.640e-7 at t=0.999998; worst |g| 1.6e-17
+     top3: t=1.00000 d=1.64e-7 sin=6.7e-5 | t=1.00000 d=6.22e-8 sin=6.0e-5 | t=0.99999 d=3.97e-8 sin=6.0e-5
+  [control: branch shifted 3e-8] 752 samples. max true distance, well-conditioned (sin(angle between surfaces)>=0.01, n=512): 3.003e-8 at t=0.993359 (interval 62), sin=0.013
+     ill-conditioned samples (sin<0.01): 240, t in [0.995096,0.999998], max d 9.32e-8, min sin 6.02e-5; overall max 9.321e-8 at t=0.999998; worst |g| 1.3e-17
+     top3: t=1.00000 d=9.32e-8 sin=6.0e-5 | t=1.00000 d=6.37e-8 sin=6.0e-5 | t=0.99999 d=4.44e-8 sin=6.0e-5
+[{"id":9821,"dev":null,"branch":3.6835644913976504e-11}]
