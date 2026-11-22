@@ -1674,6 +1674,24 @@ mesh's vertices and normals; it picks the right one of six tied cubes in all six
 
 Evidence: [2026-11-06_v0.5-EXP098.md](evidence/2026-11-06_v0.5-EXP098.md).
 
+## EXP-103 — The dense fit check, finished
+
+The curve fitter now checks 8 more points per interval once its 3 cheap ones pass, and always
+reports an error that includes them. Head_back edge 826 goes from 1.12e-8 m (60 of 16,123 points
+over the bar) to 9.44e-9 m, measured with EXP-086's own script. Edge 844 had a 1.13e-6 m hook at
+one end while reporting 8.9e-9 m: SP_CURVE ends were pinned to tolerant vertices that sit off the
+curve. An end is now left free when its vertex is past 1e-8 m but within the larger of the edge's
+and the vertex's own tolerance. Edge 844 now fits to 2.3e-9 m. A pinned end's gap now counts in
+the error, after the blind disprove check found a vertex 1e-4 m off reported as 3.4e-9 m. That
+puts `0739c559` at 1.57e-4 m and `f0b9a118` at 4.49e-4 m, and both now refuse exact STEP. Four
+head_back blends whose spines run to a T limit report 1.48e-8 to 1.54e-8 m. Their curves are the
+same as on `dev` to 1e-13 m, and near the T limit the exact spine can't be found to 1e-8 m. The
+online sweep: 134 of 141 resolve as on `dev`, `2e6e140a` is now within the bar, `3c4752f1` is
+down to 2.53e-8 m, and the total time rose from 1,417 to 1,496 s. Blind checks: holds for edge 844 and the
+end rule (with the hole above found and fixed), partly holds for the spines.
+
+Evidence: [2026-11-22_v0.5-EXP103.md](evidence/2026-11-22_v0.5-EXP103.md).
+
 ## EXP-112 — The modern container is a disguised ZIP with a directory
 
 From byte 8 on a modern SLDPRT is a ZIP archive with per-file signatures, offsets counted from

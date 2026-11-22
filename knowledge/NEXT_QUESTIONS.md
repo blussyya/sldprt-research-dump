@@ -54,6 +54,12 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-062 | Find how the three per-file signatures follow from the 4-byte key. |
 | NQ-063 | Decode the 4 bytes at the ZIP time/date position of each stream header. |
 | NQ-064 | Map the filler and the bytes after the real end record; check the directory on assemblies and drawings. |
+| NQ-065 | Check head_back's four T-limit blends (1.48e-8 to 1.54e-8 m) within about 1 µm of the T point. |
+| NQ-066 | Explain why no section of head_back's fitted blend passes near both of edge 844's vertices (5.7e-7 m); check edge 825. |
+| NQ-067 | Find which is wrong at the two vertices far outside their tolerance: `0739c559` edge 6075, `f0b9a118` edge 152. |
+| NQ-068 | Count the gap at intersection-edge ends the way a pinned SP_CURVE end is now counted. |
+| NQ-069 | Find why `f666f342` (head_face) doesn't resolve in 2,400 s. |
+| NQ-070 | Make the dense fit check cheaper; parts with many intersection curves are 2.6 to 3.3 times slower. |
 
 | Blocked on a discriminating file or SolidWorks save | Needed input |
 |---|---|
@@ -1410,6 +1416,11 @@ vertices handled. An earlier note here said one of its faces ran past its spine'
 was wrong. Still open: `2f121983` (blend spine on two offset swept surfaces, the foot jumps near
 the start).
 
+**Status 2026-11-22 (EXP-103)**: `2f121983` still stops, now with "no foot on offset5790 x
+offset5789 settled (8.7e-4 m off its normal)". The corrector checks its foot since EXP-103, where
+before it carried the bad point on until the march gave up. Whether this is the same foot jump
+near the start hasn't been checked.
+
 EXP-085 section 7: `2f121983` and `d2515121` (intersection march doesn't reach the end),
 `3c4752f1` (surfaces tangent along the edge, no common point within 3.1 µm), `0739c559` (blend
 support face not found), `82981f2a` (interpolation band). Nine more take over two minutes.
@@ -1488,3 +1499,91 @@ needs it, and run the directory rule on assemblies (.SLDASM) and drawings (.SLDD
 
 **Date raised**: 2026-11-09 (EXP-112).
 
+## NQ-065 — head_back's T-limit blends within 1 µm of the T point
+
+**Status**: Open. With the dense check, blends 9821, 10371, 9931 and 10129 report 1.54e-8,
+1.48e-8, 1.48e-8 and 1.48e-8 m (10349 is 9.98e-9). Their spine curves are the same as on `dev` to
+1e-13 m. Only the reported number changed. Both blind agents found the fits within 7e-10 m of the
+exact spine over about 99.6% of each spine. The rest is the last few tenths of a micron before
+the T limit, where the supports meet at 3e-5 to 6e-5 rad. There a 1e-12 m change in one surface's
+distance moves the exact spine 2.4e-7 m, and the nested spines it depends on are fitted to only
+1e-10 m. So neither 1.5e-8 nor the old 5.5e-9 m is a measured accuracy there. To answer it: fit
+the nested spines much tighter, or find the T-point geometry in closed form, then measure that
+zone. This is the near-T item from EXP-086 (blend 9931 up to 7.5e-8 m there).
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), `scripts/EXP103/finish/blends-v*.txt`,
+`spines.txt`, `scripts/EXP103/prove/`, `disprove/`.
+
+**Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-066 — Edge 844's vertex pair, and edge 825
+
+**Status**: Open. Edge 844 (head_back) is an SP_CURVE along one section of a fitted blend. Its two
+vertices (tolerances 2.0e-5 and 2.2e-5 m) lie on sections 1.0e-5 apart in u, about 1.14e-6 m
+along the spine. The best single section misses both by 5.7e-7 m. Either our fitted blend's
+sections are skewed from Parasolid's by about that much, or a vertex is off by that much within
+its tolerance. The free-end rule now handles it, but which one it is isn't known. Edge 825, the
+other freed blend edge (gap 3.1e-7 m), hasn't been checked for the same pattern. SolidWorks 2026's
+`.x_t` and STEP exports of head_back (`test files online/2013/exports-SW2026/`) may settle it.
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), `scripts/EXP103/finish/e844section.out`,
+`e844replay.out`, `e844tol.out`.
+
+**Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-067 — Two vertices far outside their tolerance
+
+**Status**: Open. With a pinned end's gap counted, two online parts have an SP_CURVE vertex far
+off its curve:
+
+| part, edge | vertex off its curve | edge tolerance | vertex tolerance |
+|---|---|---|---|
+| `0739c559` edge 6075, on an offset | 1.57e-4 m | 1.0e-5 m | 4.8e-5 m |
+| `f0b9a118` edge 152, on a B-spline | 4.49e-4 m | 1.0e-6 m | 1.0e-6 m |
+
+Both parts now refuse exact STEP (the 1e-6 m limit, EXP-085), where `dev` wrote a file with a
+hook in that curve. Which is wrong, the vertex, the SP_CURVE or our reading of its surface, isn't
+known. `f0b9a118` is one of the five parts with vertices 0.1 to 1 mm off thread and degree-1
+surfaces, so edge 152 may be one of those. `0739c559` is new. Check the surface evaluation at
+those points first (an offset's side and a B-spline's extension have both been wrong before).
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), `scripts/EXP103/finish/overbar.out`,
+`overbar-final.out`.
+
+**Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-068 — Gaps at intersection-edge ends
+
+**Status**: Open. A pinned SP_CURVE end now counts its distance from the curve in the fit error
+(EXP-103). Intersection edges keep their own rule: the polyline's end moves to the corrected
+point only when that is within a quarter of the chord. A vertex further off than that stays at
+the polyline's end and its gap isn't counted. How many intersection edges in the corpus end
+further than 1e-8 m from their vertex hasn't been measured. Measure that, then decide whether the
+gap should count the same way.
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), "Not checked yet".
+
+**Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-069 — `f666f342` (head_face) doesn't resolve in 2,400 s
+
+**Status**: Open. The part entered the sweep after EXP-086. It times out at 2,400 s on `dev` and on
+the EXP-103 code, so there's no error to look at yet. Find where the time goes first.
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), `scripts/EXP103/finish/sweep-dev.txt`,
+`sweep-final.txt`.
+
+**Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-070 — The dense fit check's cost
+
+**Status**: Open. Over the online sample the total time rose 6% (1,417 to 1,496 s), but parts with
+many fitted intersection curves are 2.6 to 3.3 times slower: `3c4752f1` 4 to 13 s, `0d68d32d` 18 to
+56 s, `d799e9a3` 19 to 57 s, the spring `5f8e9db3` 19 to 50 s. Each dense round evaluates 8 exact
+points per interval, and a fit goes back to cheap rounds each time a dense round splits something.
+Where the time goes (how many dense rounds, how many exact points) hasn't been measured. Find a
+cheaper check that still finds edge 826's error and the test bump in `test/fit.test.js`.
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), "Sweep of the online sample".
+
+**Date raised**: 2026-11-22 (EXP-103).

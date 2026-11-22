@@ -1,5 +1,19 @@
 # Research Handoff
 
+## Checkpoint — 2026-11-22, EXP-103 (dense fit check, on converter `dev`)
+
+New here? Read [START_HERE.md](START_HERE.md) first; it has the full state and the next steps.
+
+The converter's work-in-progress branches are finished and on `dev`. The fitter checks 8 more
+points per interval and counts a pinned SP_CURVE end's gap to its vertex. head_back edge 826 is
+now 9.44e-9 m, and edge 844's hidden 1.13e-6 m hook is gone. The gap count exposed two vertices
+far outside their tolerance (`0739c559` 1.57e-4 m, `f0b9a118` 4.49e-4 m), and those two parts
+now refuse exact STEP. Four head_back T-limit blends report 1.48e-8 to 1.54e-8 m with unchanged
+curves (NQ-065). Online sample: 134 of 141 resolve, 130 within 1e-8 m. Tests: 83 pass, 2 skipped.
+New questions: NQ-065 to NQ-070.
+
+Evidence: [2026-11-22_v0.5-EXP103.md](evidence/2026-11-22_v0.5-EXP103.md).
+
 ## Validation checkpoint — 2026-11-06, EXP-097
 
 EXP-088 to EXP-096 were checked. Every script reproduces, and seven blind checks, each with its
@@ -167,7 +181,7 @@ Next validation work: produce a controlled SolidWorks pair with only tangent-edg
 changed; decode Block3's strip controls; replace the feature reader's 99 dimension-placement scans;
 and find the modern per-feature Created/Modified log.
 
-## Current checkpoint — 2026-11-01, EXP-086 (online sample, head_back)
+## Checkpoint — 2026-11-01, EXP-086 (online sample, head_back)
 
 New here? Read [START_HERE.md](START_HERE.md) first: repos, workflow, the research rules
 (doubt everything, blind debunk before "verified") and the full state.
@@ -560,3 +574,7 @@ Per instruction, this handoff does not designate one of these as an in-progress 
   with per-file signatures and offsets from byte 8). The converter's
   `dev` reads through it and keeps the scan as a
   fallback; tests pass. What's left is NQ-061 to NQ-064.
+- 2026-11-22 (EXP-103): the dense fit check finished and merged into the converter's `dev`, with
+  the work-in-progress branches. Edge 826 and edge 844 on head_back are fixed. A pinned end's gap
+  now counts, which takes `0739c559` and `f0b9a118` over the bar and out of exact STEP. Next is in
+  START_HERE.md.
