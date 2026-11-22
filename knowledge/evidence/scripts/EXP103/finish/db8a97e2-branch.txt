@@ -1,0 +1,3 @@
+part db8a97e2_écrou fileté M5.SLDPRT resolve ok time 22.5 s
+intersection curves 26 | fitter max 3.71e-10 over 1e-8: 0 | dense max 1.17e-10 over 1e-8: 0 | unsettled samples 0
+report maxError 3.71e-10 curve 3.71e-10 surface 0.00e+0

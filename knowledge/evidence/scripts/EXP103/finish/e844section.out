@@ -1,0 +1,8 @@
+sum of distances  u 0.980766029 | p0 3.613e-7 m at v 0.000000000 | p1 7.829e-7 m at v 0.997691054
+larger distance   u 0.980764153 | p0 5.721e-7 m at v 0.000000000 | p1 5.721e-7 m at v 0.997690969
+own section of p0 u 0.980769233 distance 2.074e-8 at v 0.000000000
+own section of p1 u 0.980759062 distance 2.742e-10 at v 0.997690723
+p0 to the v=0 boundary 2.074e-8 m at u 0.980769233
+p0 to the v=1 boundary 6.917e-4 m at u 0.980770529
+p1 to the v=0 boundary 6.905e-4 m at u 0.980759616
+p1 to the v=1 boundary 1.598e-6 m at u 0.980759066

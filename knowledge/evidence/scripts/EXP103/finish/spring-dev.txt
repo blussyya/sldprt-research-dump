@@ -1,0 +1,3 @@
+part 5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT resolve ok time 23.6 s
+intersection curves 7 | fitter max 8.93e-9 over 1e-8: 0 | dense max 6.33e-9 over 1e-8: 0 | unsettled samples 2
+report maxError 8.93e-9 curve 8.93e-9 surface 0.00e+0

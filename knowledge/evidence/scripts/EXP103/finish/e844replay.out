@@ -1,0 +1,9 @@
+section u 0.980769103 anchors v 0.000000000 0.998046875 fwd true
+p0 to its anchor point 2.536e-8 m | to the section (nearest, v 0.000000000) 2.536e-8 m
+p1 to its anchor point 1.155e-6 m | to the section (nearest, v 0.997691201) 1.128e-6 m
+both vertices pinned     fit error 1.142e-8 samples 42
+ends on the curve        fit error 2.336e-9 samples 11
+pin only within the bar  fit error 2.336e-9 samples 11
+both vertices pinned     fit error 1.142e-8 | fit to section max 1.128e-6 at 1.0000 | ends to their vertices 0.000e+0 0.000e+0
+pin only within the bar  fit error 2.336e-9 | fit to section max 2.338e-9 at 0.5667 | ends to their vertices 2.536e-8 1.155e-6
+same, anchors refined    fit error 2.333e-9 | fit to section max 2.335e-9 at 0.5667 | ends to their vertices 2.536e-8 1.128e-6
