@@ -1,0 +1,347 @@
+[
+ {
+  "file": "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+  "offset": 776891,
+  "dlVersion": 8000,
+  "faces": 342,
+  "cfg": [
+   0
+  ],
+  "lb": false,
+  "containedInFaceUnion": false,
+  "enclosesUnion": true,
+  "diff": 0.6232217804304312,
+  "mfcMarkersBefore400": [],
+  "asciiTail": ":.u.0.._..kk:........?...........?..........................u.0?x?.?.C'?u.0.x?.?.C'?u.0.._...C'?u.0?._...C'?.........K.$",
+  "utf16Tail": "뼺흵뼰忲븊歫뼺.耀.㾀.耀.耀.㾀.............흵㼰㽸㼎䍿㼧흵뼰㽸㼎䍿㼧흵뼰忲븊䍿㼧흵㼰忲븊䍿㼧.耀.뾀䮶Ⓓ"
+ },
+ {
+  "file": "test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT",
+  "offset": 35161,
+  "dlVersion": 8000,
+  "faces": 4,
+  "cfg": [
+   0
+  ],
+  "lb": false,
+  "containedInFaceUnion": false,
+  "enclosesUnion": true,
+  "diff": 0.27687285175586485,
+  "mfcMarkersBefore400": [],
+  "asciiTail": "..[.....I.[..........?...........?..........................[..>..j>[..>[.....j>[..>[.....I.[..>[..>..I.[..>............",
+  "utf16Tail": "뺎鉛뺎錌뵉鉛뺎.耀.㾀.耀.耀.㾀.............鉛㺎뿳㹪鉛㺎鉛뺎뿳㹪鉛㺎鉛뺎錌뵉鉛㺎鉛㺎錌뵉鉛㺎.耀.뾀.耀"
+ },
+ {
+  "file": "test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT",
+  "offset": 1343794,
+  "dlVersion": 10000,
+  "faces": 249,
+  "cfg": [
+   5907
+  ],
+  "lb": false,
+  "containedInFaceUnion": false,
+  "enclosesUnion": true,
+  "diff": 0.062315618373641996,
+  "mfcMarkersBefore400": [],
+  "asciiTail": "....(.X94............?...........?............................(=Sn.=.tC=..(.Sn.=.tC=..(.X94..tC=..(=X94..tC=............",
+  "utf16Tail": "봍뇩봨㥘무봍.耀.㾀.耀.耀.㾀.............뇩㴨湓㴝瓴㵃뇩봨湓㴝瓴㵃뇩봨㥘무瓴㵃뇩㴨㥘무瓴㵃.耀.뾀.耀"
+ },
+ {
+  "file": "test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT",
+  "offset": 174487,
+  "dlVersion": 16000,
+  "faces": 34,
+  "cfg": [
+   0
+  ],
+  "lb": false,
+  "containedInFaceUnion": false,
+  "enclosesUnion": true,
+  "diff": 0.12589548162652836,
+  "mfcMarkersBefore400": [],
+  "asciiTail": "..........R..........?...........?.............................>...=y4.>.......=y4.>........y4.>...>....y4.>............",
+  "utf16Tail": "븅᯦븉茒변͒븅.耀.㾀.耀.耀.㾀.............᯦㸉ᜇ㷢㑹㸍᯦븉ᜇ㷢㑹㸍᯦븉茒변㑹㸍᯦㸉茒변㑹㸍.耀.뾀.耀"
+ },
+ {
+  "file": "test files online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT",
+  "offset": 39053,
+  "dlVersion": 8000,
+  "faces": 14,
+  "cfg": [
+   0
+  ],
+  "lb": false,
+  "containedInFaceUnion": false,
+  "enclosesUnion": true,
+  "diff": 0.0832623571399084,
+  "mfcMarkersBefore400": [],
+  "asciiTail": "..Q....<.............?...........?.............................>...>...>Q......>...>Q....<.....>...>.<.....>............",
+  "utf16Tail": "뺊뺢㲶뮵᪂뺊.耀.㾀.耀.耀.㾀.............퓷㻂઱㺰꓆㻛뺢઱㺰꓆㻛뺢㲶뮵꓆㻛퓷㻂㲶뮵꓆㻛.耀.뾀.耀"
+ },
+ {
+  "file": "test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT",
+  "offset": 17779,
+  "dlVersion": 8000,
+  "faces": 17,
+  "cfg": [
+   0,
+   1
+  ],
+  "lb": false,
+  "containedInFaceUnion": false,
+  "enclosesUnion": true,
+  "diff": 0.1487072277235498,
+  "mfcMarkersBefore400": [],
+  "asciiTail": "*.g8e......c*........?...........?..........................t.;>..P>..v>g8e...P>..v>g8e.......v>t.;>......v>. ..........",
+  "utf16Tail": "븪㡧빥..挋븪.耀.㾀.耀.耀.㾀.............\udd74㸻諮㹐닑㹶㡧빥諮㹐닑㹶㡧빥..닑㹶\udd74㸻..닑㹶⃥ꐝ.뾀.耀"
+ },
+ {
+  "file": "test files online/2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT",
+  "offset": 12637,
+  "dlVersion": 16000,
+  "faces": 0,
+  "cfg": [
+   0
+  ],
+  "lb": true,
+  "containedInFaceUnion": null,
+  "enclosesUnion": null,
+  "diff": null,
+  "mfcMarkersBefore400": [
+   [
+    304,
+    0
+   ],
+   [
+    224,
+    0
+   ],
+   [
+    216,
+    0
+   ],
+   [
+    212,
+    0
+   ],
+   [
+    208,
+    0
+   ],
+   [
+    112,
+    0
+   ],
+   [
+    100,
+    0
+   ],
+   [
+    88,
+    0
+   ]
+  ],
+  "asciiTail": "...............................................................@..[@...@......[@...@....6......@...@6......@............",
+  "utf16Tail": "....﻿ÿ....﻿ÿ....﻿ÿ....￿￿......￸䁿ಫ䁛￸䁿￸쁿ಫ䁛￸䁿￸쁿촶뼓￸䁿￸䁿촶뼓￸䁿.耀.뾀.耀"
+ },
+ {
+  "file": "test files online/2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT",
+  "offset": 12637,
+  "dlVersion": 16000,
+  "faces": 0,
+  "cfg": [
+   0
+  ],
+  "lb": true,
+  "containedInFaceUnion": null,
+  "enclosesUnion": null,
+  "diff": null,
+  "mfcMarkersBefore400": [
+   [
+    304,
+    0
+   ],
+   [
+    224,
+    0
+   ],
+   [
+    216,
+    0
+   ],
+   [
+    212,
+    0
+   ],
+   [
+    208,
+    0
+   ],
+   [
+    112,
+    0
+   ],
+   [
+    100,
+    0
+   ],
+   [
+    88,
+    0
+   ]
+  ],
+  "asciiTail": "...............................................................@..[@...@......[@...@....6......@...@6......@............",
+  "utf16Tail": "....﻿ÿ....﻿ÿ....﻿ÿ....￿￿......￸䁿ಫ䁛￸䁿￸쁿ಫ䁛￸䁿￸쁿촶뼓￸䁿￸䁿촶뼓￸䁿.耀.뾀.耀"
+ },
+ {
+  "file": "test files online/2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT",
+  "offset": 12637,
+  "dlVersion": 16000,
+  "faces": 0,
+  "cfg": [
+   0
+  ],
+  "lb": true,
+  "containedInFaceUnion": null,
+  "enclosesUnion": null,
+  "diff": null,
+  "mfcMarkersBefore400": [
+   [
+    304,
+    0
+   ],
+   [
+    224,
+    0
+   ],
+   [
+    216,
+    0
+   ],
+   [
+    212,
+    0
+   ],
+   [
+    208,
+    0
+   ],
+   [
+    112,
+    0
+   ],
+   [
+    100,
+    0
+   ],
+   [
+    88,
+    0
+   ]
+  ],
+  "asciiTail": "...............................................................@..[@...@......[@...@....6......@...@6......@............",
+  "utf16Tail": "....﻿ÿ....﻿ÿ....﻿ÿ....￿￿......￸䁿ಫ䁛￸䁿￸쁿ಫ䁛￸䁿￸쁿촶뼓￸䁿￸䁿촶뼓￸䁿.耀.뾀.耀"
+ },
+ {
+  "file": "test files online/2026/daa6e9e9_CR26-201-08.SLDPRT",
+  "offset": 1249544,
+  "dlVersion": 19000,
+  "faces": 296,
+  "cfg": [
+   0
+  ],
+  "lb": false,
+  "containedInFaceUnion": false,
+  "enclosesUnion": false,
+  "diff": 0.350633152138586,
+  "mfcMarkersBefore400": [
+   [
+    396,
+    0
+   ],
+   [
+    176,
+    0
+   ],
+   [
+    172,
+    0
+   ],
+   [
+    168,
+    0
+   ],
+   [
+    164,
+    0
+   ],
+   [
+    160,
+    5
+   ],
+   [
+    142,
+    7
+   ],
+   [
+    124,
+    0
+   ],
+   [
+    92,
+    0
+   ],
+   [
+    88,
+    0
+   ],
+   [
+    76,
+    0
+   ],
+   [
+    72,
+    0
+   ],
+   [
+    68,
+    0
+   ]
+  ],
+  "asciiTail": "...........>ff.?...?...?...?...........?...?...................@..[@...@......[@...@....6......@...@6......@............",
+  "utf16Tail": "....쳍㻌晦㾦.㾀.㾀.㾀﻿ÿ﻿ÿ.㾀.㾀﻿ÿ﻿ÿ﻿ÿ..￸䁿ಫ䁛￸䁿￸쁿ಫ䁛￸䁿￸쁿촶뼓￸䁿￸䁿촶뼓￸䁿.耀.뾀.耀"
+ },
+ {
+  "file": "test files original/Dekor.SLDPRT",
+  "offset": 1154896,
+  "dlVersion": 14000,
+  "faces": 375,
+  "cfg": [
+   0
+  ],
+  "lb": false,
+  "containedInFaceUnion": false,
+  "enclosesUnion": false,
+  "diff": 2.005238488819596,
+  "mfcMarkersBefore400": [],
+  "asciiTail": "..........\\A.........?6.|........?.............................@...?...@.......?...@...........@...@.......@............",
+  "utf16Tail": "쀂鶌쀁馚뻙䅜쀂.耀.㾀켶ꑼ.耀.㾀.............鶌䀁풲㿌尿䀀鶌쀁풲㿌尿䀀鶌쀁馚뻙尿䀀鶌䀁馚뻙尿䀀.耀.뾀.耀"
+ },
+ {
+  "file": "test files original/Helical Bevel Gear.SLDPRT",
+  "offset": 535646,
+  "dlVersion": 15000,
+  "faces": 113,
+  "cfg": [
+   0
+  ],
+  "lb": false,
+  "containedInFaceUnion": false,
+  "enclosesUnion": true,
+  "diff": 3.9147866338818353,
+  "mfcMarkersBefore400": [],
+  "asciiTail": "......6..............?...........?.............................@..[@...@......[@...@....6......@...@6......@............",
+  "utf16Tail": "쁿￸쁿촶뼓￸쁿.耀.㾀.耀.耀.㾀.............￸䁿ಫ䁛￸䁿￸쁿ಫ䁛￸䁿￸쁿촶뼓￸䁿￸䁿촶뼓￸䁿.耀.뾀.耀"
+ }
+]

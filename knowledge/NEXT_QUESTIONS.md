@@ -4,19 +4,69 @@
 
 ## NQ-030: Decode the optional scalar arrays and remaining surface records
 
-**Status/date:** Open, 2026-09-14. EXP-045 reads the optional arrays and raw parameters but validates external geometry only for controlled planes/cylinders. Match appropriate independent surface exports before naming the arrays UV or naming remaining tag values. Evidence: [EXP-045](evidence/2026-09-14_v0.4.8-EXP045.md).
+**Status/date:** Answered, 2026-11-05 (EXP-091). The two arrays are per-vertex surface parameters,
+conventionally `(u,v)`. Direct evaluation covers 6 controlled cone, sphere and B-surface faces and
+6,924 vertices; swapping the arrays fails by millimetres to metres. The same layout occurs on
+other surface tags, which were counted but not individually evaluated.
+Evidence: [EXP-091](evidence/2026-11-05_v0.5-EXP091.md).
 
 ## NQ-031: Obtain a discriminating nonzero Block3 sample
 
-**Status/date:** Open, 2026-09-14. All current payload bytes are zero. Try controlled visibility/edge-style changes only as candidate interventions; archive the real binaries and failed interventions too. No specific trigger is established. Evidence: [EXP-042](evidence/2026-09-14_v0.4.8-EXP042.md).
+**Status/date:** Answered, 2026-11-05 (EXP-088). The expanded sample has 30,713 nonzero Block3
+bytes in 27 files. Byte 1 marks smooth or nearly smooth face-edge uses in the joined subset, byte 2
+marks joined open boundaries, and byte 4 occurs only at strip-control positions. The exact strip
+control meaning and tangent 0/0 exceptions remain open.
 
 ## NQ-032: Decode raw edge-type families and following object records
 
-**Status/date:** Open, 2026-09-14. EXP-044/045 gives an ID bridge and raw 300x/480xx families. Establish curve-type/flag meaning against independent geometry, then parse the variable serialization following the edge table. Do not infer a universal packing formula from approximate numeric similarity.
+**Status/date:** Narrowed, 2026-11-05. The native B-rep now supplies exact edge curves and joins
+them to Block1 IDs, but the display record's numeric 300x/480xx type families and the variable
+serialization after its edge table are still unnamed. Native geometry does not by itself prove the
+meaning of those display-only values.
 
 ## NQ-033: Validate container and body/configuration scoping
 
-**Status/date:** Open, 2026-09-14. The new local grammar reuses the existing openswx decompressor. Directory-based discovery, CRC validation, duplicate stream/configuration policy and cross-body edge-ID namespaces remain unvalidated. This is distinct from the successful face-local grammar.
+**Status/date:** Partly answered, 2026-11-05. CRC validation is implemented (EXP-057 and the
+2026-09-26 parser follow-up), node IDs are scoped per body (EXP-085), and ModelHeader selects the
+active configuration where present (EXP-084). EXP-094 selects one conversion geometry in every
+file without ModelHeader from display face count and analytic bounds. EXP-095 finds no valid
+duplicate names in 7,374 modern streams and defines a conservative reader policy: coalesce only
+identical payloads and reject conflicts. Implementation remains open.
+
+## Audited current queue — 2026-11-05
+
+The entries below still need evidence or implementation. The long queue after this table is kept as
+research history; its old `Active` and `Ready` labels are not the current priority order.
+
+| Work possible with the current corpus | What remains |
+|---|---|
+| NQ-031 remainder | Decode Block3 strip controls and the tangent 0/0 exceptions. |
+| NQ-032 | Decode display edge-type numbers and the record after the edge table. |
+| NQ-033 remainder | Implement EXP-094's saved-bounds geometry selection and EXP-095's duplicate rejection in the owning reader. |
+| NQ-016 / NQ-051 | Separate the remaining off-surface display vertices from tessellation and mesh-quality effects. |
+| NQ-044 remainder | Name the directional variant's scalar and the other tail states; the fixed head and unit-vector case are decoded. |
+| NQ-046 remainder | Explain the one broader envelope and the eight readable post-13000 omissions. EXP-093 explains the older absence with a version-13000 introduction boundary. |
+| NQ-048 remainder | Find a nonzero LocalBodies section tail; EXP-096 decodes the entry flag as excluded from the lightweight permanent body set. |
+| NQ-057 / NQ-058 | Diagnose the remaining triangulation failures and `2f121983` evidence; converter changes stay outside this branch. |
+| NQ-059 | Replace dimension-placement scans with bounded layouts. |
+| NQ-060 | Find the modern per-feature Created/Modified record; Biography is not it. |
+| NQ-061 | Rerun EXP-112's blind disprove check on the container directory; the first run hit the usage limit. |
+| NQ-062 | Find how the three per-file signatures follow from the 4-byte key. |
+| NQ-063 | Decode the 4 bytes at the ZIP time/date position of each stream header. |
+| NQ-064 | Map the filler and the bytes after the real end record; check the directory on assemblies and drawings. |
+| NQ-065 | Check head_back's four T-limit blends (1.48e-8 to 1.54e-8 m) within about 1 µm of the T point. |
+| NQ-066 | Explain why no section of head_back's fitted blend passes near both of edge 844's vertices (5.7e-7 m); check edge 825. |
+| NQ-067 | Find which is wrong at the two vertices far outside their tolerance: `0739c559` edge 6075, `f0b9a118` edge 152. |
+| NQ-068 | Count the gap at intersection-edge ends the way a pinned SP_CURVE end is now counted. |
+| NQ-069 | Find why `f666f342` (head_face) doesn't resolve in 2,400 s. |
+| NQ-070 | Make the dense fit check cheaper; parts with many intersection curves are 2.6 to 3.3 times slower. |
+
+| Blocked on a discriminating file or SolidWorks save | Needed input |
+|---|---|
+| NQ-035 | A legitimate face record with zero normals. |
+| NQ-042 | A declaration whose constant trailing bytes vary. |
+| NQ-055 | A part containing XT types 85, 87, 88 or 89. |
+| NQ-056 | Controlled saves with rebuild, redraw and tessellation options varied separately. |
 
 ---
 
@@ -52,7 +102,7 @@ Statuses:
 
 > **Correction, 2026-09-14 (EXP-042–046):** The corpus grammar is decoded as length-delimited strip-edge annotation sections; no inferred finite-state language is needed for these records. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
-**Status**: Active
+**Status**: Retired by EXP-042–046. Block1 has a bounded strip-edge annotation grammar.
 
 **Depends on**: EXP-006, EXP-007
 
@@ -68,7 +118,7 @@ Statuses:
 
 ## NQ-002: Do ONE-Delimited Block 1 Segment Lengths Correlate With Block 2 Loop Vertex Counts?
 
-**Status**: Active
+**Status**: Answered by EXP-013/016 and superseded by the decoded strip grammar.
 
 **Depends on**: EXP-004, EXP-006, EXP-007
 
@@ -104,7 +154,7 @@ Statuses:
 
 ## NQ-003: Are SMALL Tokens In GEAR Structurally Localized?
 
-**Status**: Ready
+**Status**: Retired by EXP-042–046. `SMALL` was an analysis threshold over edge IDs, not a format class.
 
 **Depends on**: EXP-006
 
@@ -120,7 +170,7 @@ Statuses:
 
 ## NQ-004: Are `LARGE LARGE` Boundary Patterns A Distinct Block 1 Production?
 
-**Status**: Ready
+**Status**: Retired by EXP-042–046. `LARGE LARGE` was an accidental pattern among edge IDs.
 
 **Depends on**: EXP-006
 
@@ -136,7 +186,7 @@ Statuses:
 
 ## NQ-004A: Can The Property-Table Falsification Evidence Be Reproduced And Archived?
 
-**Status**: Active
+**Status**: Retired. The property-table hypothesis predates the edge-ID mapping and is no longer a live format claim.
 
 **Depends on**: EXP-010, FH-013
 
@@ -152,7 +202,7 @@ Statuses:
 
 ## NQ-005: Can DisplayLists `[1,1]` Section Maps Be Completed For TOP And DEKOR?
 
-**Status**: Ready
+**Status**: Retired. Later sequential readers recover the complete display records and their stream boundaries.
 
 **Depends on**: EXP-008
 
@@ -168,7 +218,7 @@ Statuses:
 
 ## NQ-006: Can The Section-0 Contradiction Be Resolved By Byte-Level Re-Audit?
 
-**Status**: Blocked
+**Status**: Retired. The section-0 contradiction belonged to the superseded marker scanner.
 
 **Depends on**: EXP-008 raw section-map output, branch-local section audit scripts.
 
@@ -184,7 +234,7 @@ Statuses:
 
 ## NQ-007: Can R0/R1 Position-Normal Evidence Be Reproduced And Archived?
 
-**Status**: Blocked
+**Status**: Answered by the later raw array checks and native-surface joins (EXP-042, EXP-045, EXP-074).
 
 **Depends on**: Locating or recreating the R0/R1 comparison script/output.
 
@@ -236,7 +286,7 @@ Statuses:
 
 ## NQ-008: Can Normal-Gap Loop-Splitting Failure Be Reproduced And Archived?
 
-**Status**: Deferred
+**Status**: Retired. The saved strips and exact B-rep now provide the loop and surface checks directly.
 
 **Depends on**: v0.3.0-v0.3.3 diagnostic scripts and representative files.
 
@@ -316,7 +366,9 @@ Statuses:
 
 ## NQ-017: Does a Third Diameter Data Point Confirm VC-Diameter Relationship?
 
-**Status**: Ready
+**Status**: Answered as a measurement and retired as a model. C11's 4 mm cylinder has `vc=64`
+(EXP-030); three quantized counts do not establish a universal power law, and Block1/2 are now
+decoded structurally.
 
 **Depends on**: EXP-028, new controlled model (C11 with 4mm hole)
 
@@ -332,7 +384,8 @@ Statuses:
 
 ## NQ-018: Do Block1 Tokens Change with Scale or Translation?
 
-**Status**: Ready
+**Status**: Answered (EXP-034). They were invariant under the tested scale and translation; the
+later edge-ID mapping explains why those transformations preserve them.
 
 **Depends on**: EXP-029, C01 (20mm cube), C02 (translated cube)
 
@@ -350,7 +403,8 @@ Statuses:
 
 > **Correction, 2026-09-14 (EXP-042–046):** Answered by geometric edge mapping and downstream metadata. Values 150/153 label the two cylinder boundary curves in the corresponding controlled models. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
-**Status**: Ready
+**Status**: Answered by EXP-042–046. Values 150 and 153 are edge IDs for the two cylinder boundaries
+in those controlled files.
 
 **Depends on**: EXP-029
 
@@ -366,7 +420,8 @@ Statuses:
 
 ## NQ-020: Do Different Face Types Have Different Token Signatures?
 
-**Status**: Ready
+**Status**: Retired by the Block1 edge-ID mapping. The apparent signatures describe serialized
+topology, not a face-type classifier.
 
 **Depends on**: EXP-030
 
@@ -382,7 +437,8 @@ Statuses:
 
 ## NQ-021: Do Token Signatures Correlate with Face Orientation?
 
-**Status**: Ready
+**Status**: Retired by the Block1 edge-ID mapping. The correlations came from stable topology and ID
+allocation in the controls.
 
 **Depends on**: EXP-031
 
@@ -398,7 +454,7 @@ Statuses:
 
 ## NQ-022: Do Token Signatures Correlate with Model Type (Fillet/Chamfer/Hole)?
 
-**Status**: Ready
+**Status**: Retired by the Block1 edge-ID mapping.
 
 **Depends on**: EXP-032
 
@@ -414,7 +470,7 @@ Statuses:
 
 ## NQ-023: What Global Model State Property Causes Signature Changes?
 
-**Status**: Ready
+**Status**: Retired. No global signature state is needed once the values are read as edge IDs.
 
 **Depends on**: EXP-033
 
@@ -430,7 +486,8 @@ Statuses:
 
 ## NQ-024: Why Do -X/-Y Signatures Remain Unchanged While +X/+Y Change?
 
-**Status**: Ready
+**Status**: Retired. EXP-038 and the edge-ID join localize the change to faces whose boundary
+topology changed.
 
 **Depends on**: EXP-033
 
@@ -446,7 +503,8 @@ Statuses:
 
 ## NQ-025: What Distinguishes Feature-Induced Changes from Geometric Transformations?
 
-**Status**: Ready
+**Status**: Retired. Feature edits can replace or split boundary edges; scale and translation keep
+the same edge references.
 
 **Depends on**: EXP-033, EXP-034
 
@@ -462,7 +520,8 @@ Statuses:
 
 ## NQ-026: Why Do Fillet/Chamfer Produce Global Token Changes While Shell and Holes Do Not?
 
-**Status**: Ready
+**Status**: Retired. The claimed global effect does not survive the edge-ID mapping and later
+topological checks.
 
 **Depends on**: EXP-033, EXP-034, EXP-035
 
@@ -478,7 +537,8 @@ Statuses:
 
 ## NQ-027: Why Does Adding a New Face at an Edge Cause Global Token Changes?
 
-**Status**: Ready
+**Status**: Retired as phrased. EXP-038 localizes changes to the edited boundary; EXP-090 supplies
+the split-line control that separates new-face adjacency from boundary modification.
 
 **Depends on**: EXP-036
 
@@ -537,7 +597,18 @@ Either outcome is a clean falsification of one branch, making this the highest i
 
 > **Correction, 2026-09-14 (EXP-042–046):** C13 is no longer a prerequisite for parsing B1/B2. Its causal/persistent-ID question is distinct from the now-established format mapping; keep it as optional future input. Evidence: [v0.4.8 report](../v0.4.8/README.md).
 
-**Status**: Partially Answered (EXP-039); fully isolating the co-occurring case is Blocked (requires a new SolidWorks model, design-stage only)
+**Status**: Answered for the proposed split-line control (EXP-090).
+
+**Answer, 2026-11-05:** C18 is the split-line model this entry said was missing. Its line crosses
+the top face at `y=0.005`. In both SW2011 and SW2022, the `y=0` side keeps the same four vertices,
+four native edge IDs and raw Block1 bytes even though its top neighbor changes from the original
+top face to the newly created lower top face. The two `x` sides gain a midpoint and edge ID where
+the split reaches their boundary, and both Block1 arrays grow from six to eight words. Adjacency to
+a newly created face is therefore not sufficient to change Block1 in this control; changing the
+face's own boundary is sufficient here. A blind check reproduced the raw sequences and native
+neighbor replacement. This is one construction in two saved eras, not a universal causal law.
+
+Evidence: [EXP-090](evidence/2026-11-05_v0.5-EXP090.md).
 
 **Depends on**: EXP-037, EXP-038, EXP-039
 
@@ -561,7 +632,12 @@ Either outcome is a clean falsification of one branch, making this the highest i
 
 ## NQ-030: Controlled models covering surface tags beyond plane and cylinder
 
-**Status**: Open. Requires new models from the user; no analysis can substitute.
+**Status**: Answered by the later C13–C21 controls and native join (EXP-055, EXP-074, EXP-075,
+EXP-078). Tags 4003–4009 are identified and evaluated for every type present in the corpus. The
+historical request below predates those files.
+
+> **Correction, 2026-11-06 (EXP-097):** not all of them. 4001–4007 and 4009 are identified. 4008 (offset, one face in `2f121983`) and 4010 (spun, 290 faces in `a4ecc6f5` and `8cd79ff5`) were found by a face-ID join in EXP-097 and haven't been evaluated. Three other values (16368, 4980815, 65536) are probably misread metadata.
+
 
 **Why**: The controlled corpus C00–C12 exercises only **tag-4001 (plane)** and **tag-4002 (cylinder)** — cubes, through-holes, fillets, chamfers and a shell produce nothing else (per-model tags verified from `EXP045_RESULTS.json`, 2026-09-15). Every other surface tag is validated only against complex production models with no analytic ground truth and no controlled single-variable structure:
 
@@ -592,6 +668,9 @@ Each should be a single feature on a known base so the surface parameters are an
 ---
 
 ## NQ-031: Can curved faces be exported as analytic STEP surfaces rather than facets?
+
+**Status**: Answered (EXP-076 and EXP-078). Exact STEP now writes the native analytic and NURBS
+surfaces with their B-rep trim curves; every real part with a solid export was covered in EXP-078.
 
 **Raised by**: EXP-053 (`converter/v0.1`).
 
@@ -701,6 +780,9 @@ with the corpus size so the claim is bounded rather than ignored.
 
 ## NQ-037 — Enumerate node types in the inflated `Config-0-Partition`
 
+**Status**: Answered by EXP-071 onward. The typed reader enumerates and resolves the native entity
+graph; EXP-075 validates the controlled bodies against SolidWorks STEP.
+
 [CONTAINER_AND_STREAMS.md](CONTAINER_AND_STREAMS.md) §5 establishes that the partition inflates
 to a Parasolid XT transmit file in 21/21
 modern files, schema base `13006` in every case. Nothing has been decoded.
@@ -749,6 +831,9 @@ Also settled in passing: the tag encodes the **surface type, not the trimmed pat
 torus (`C17_torus_quarter`) carries the same 4005 as a full one.
 
 ## NQ-038 — Legacy OLE2 support, now testable
+
+**Status**: Answered by EXP-066 and the later unified readers. The historical proposal below is
+retained for context.
 
 All 25 SolidWorks 2011 models in `test files new/SW2011` are rejected with `Legacy OLE2 is not
 supported`. That is expected behaviour, not a regression.
@@ -1041,6 +1126,13 @@ three words are small integers (`0 0 1` on the cube's face 0) matching no count 
 vertex, strip, Block1 and Block3 counts there are 4, 1, 6 and 6. Tail words include `4294967295`,
 a plausible sentinel. Worth a pass now that the geometry half of the record is anchored.
 
+**Update, 2026-11-05 (EXP-092):** On 13,589 modern faces whose following metadata parses, the
+leading words are fixed at `[0,0,1]`. The apparent variation in the earlier arithmetic scan came
+from records not owned by parsed faces. The tail has eight observed binary-word combinations. When
+`u32(+104)=1` and `u32(+108)=1`, bytes `+112…+127` are four floats whose last three form a unit
+vector in 2,986/2,986 records. On all 2,406 cylinders it is perpendicular to the surface axis. The
+first float, word `+100`, the other states, and the direction's exact general role remain open.
+
 ## NQ-045 — Does the bounding record survive into the legacy container?
 
 INV-026 is verified on the 24 SolidWorks 2022 models only. EXP-060 showed the Parasolid layer is
@@ -1089,6 +1181,28 @@ Open: whether it also exists in the legacy container (the legacy scan found 145 
 the face count, with no surplus, suggesting it may not), and whether the two-record files are
 genuinely multi-configuration.
 
+**Update, 2026-11-05 (EXP-091):** The record is an overall saved-display envelope. Its MFC UTF-16
+configuration name ends eight bytes after the record begins. This identifies 113 records in 113 of
+166 readable modern files; 112 equal the union of the saved face boxes. One is larger than both the
+display and active native body. No record with this signature occurs in 36 readable legacy files.
+The earlier 47-record count included two arithmetic matches that were not configuration records.
+What remains is the lone broader envelope and the version/layout reason many older modern files do
+not carry the record.
+
+**Update, 2026-11-05 (EXP-092):** The outlier contains eleven framed Parasolid sections. Ten
+independent bodies parse: the active body, the zero-face ghost bodies, and eight one-face
+ResolvedFeatures snapshots. Their combined point box equals the active/display extent; 147,600
+samples across their decoded edges stay in the same box. The eleventh section is the Partition
+delta program. No decoded point or sampled edge reaches the wider envelope, but this does not
+distinguish a stale envelope from sketch, reference, or other display-level geometry.
+
+**Update, 2026-11-05 (EXP-093):** The older absence has a clean declared-version boundary. None of
+42 modern files at DisplayLists versions 3800–12000 has the named envelope; all eight version-13000
+and all five version-14000 files do. At version 13000 or later, 113/124 files have it. Among files
+with parsed faces, all 97 single-configuration files without LocalBodies carry the record. All eight
+later readable omissions have LocalBodies or multiple configuration IDs, though those properties do
+not force omission. The exact later inclusion rule and the lone broader envelope remain open.
+
 **Date raised**: 2026-09-21 (EXP-064).
 
 ## NQ-047 — ANSWERED 2026-09-21 (EXP-065): the premise was wrong
@@ -1124,17 +1238,38 @@ across both eras. Resolving it would settle NQ-043's direction.
 ## NQ-048 — What are the 1-face ResolvedFeatures bodies, and the remaining section framing bytes?
 
 EXP-074 decoded the partition section frame (`u32le size | GUID | u32le inflated | u32le compressed | zlib | 8 bytes`)
-and found it outside the Partition streams. Open:
+and found it outside the Partition streams.
 
-1. **`Config-N-ResolvedFeatures`** holds 36 valid sections in 14 files, every one a **1-face PLANE body**
-   (`body_type` value 3, 20–169 nodes). In the controlled cubes the count follows cuts/split lines (C04/C05/C06/C11: 1;
-   C07/C08: 2; C18: 1). USB BOTTOM's three sections have the node counts of USB TOP's first three. Which feature
-   produced each, how that is recorded in the surrounding stream bytes, and what the planar face bounds (a sketch
-   region?) are untested. Test: compare the face's loop against each file's sketch geometry and feature tree.
+1. **Answered for decoded owners (EXP-089).** The controlled sections sit inside face-attached
+   `sgSketch` objects (`onPlane=0`) and store a snapshot of the selected support face at that point in
+   feature history. C04 stores the untouched square top face, not its circular sketch region; C07's
+   second sketch stores the same face after the first hole. Thirteen of the original 36 sections map
+   directly; the other 23 lie after a feature-reader stop. The common section prefix is not an owner
+   tag: an online counterexample places the same one-face record family in `moSingleFaceRef_w`.
 2. **LocalBodies 64-byte prefix** (PTC only): `01000000`, `fffeff13` + UTF-16LE `PTC GE8080-8.stp<1>`, then fields
    including `0xf535`/`0xf530`. n = 1; an imported-body model with a second import would discriminate.
 3. **The 8 trailing section bytes** are zero in 242/242 sections. Zero on every input tells us nothing about their
    role; a file where they are not zero is needed.
+
+**Update, 2026-11-05 (EXP-091):** LocalBodies framing is decoded across 41 streams: 281 named
+entries own 289 section frames and all streams end exactly. Two entries own multiple frames and use
+a ten-byte continuation header. The two sections over 1 MiB contain 48 and 205 zlib chunks; all 540
+chunks across the survey validate. The eight-byte tail remains zero in 289/289 LocalBodies
+sections. The remaining format work is naming the 10- and 18-byte entry-header fields. A nonzero
+tail would still be needed to name the tail's intended role.
+
+**Update, 2026-11-05 (EXP-092):** The layouts are now bounded. The old 10-byte header is
+`u32 flag | u8 0 | u32(first section size + 5) | u8 0`. The 18-byte form prepends a reserved zero
+word and an exact section count; its two multi-section controls advertise 2 and 8. The flag is one
+on eight single-solid entries, but zero also occurs on solid entries and cannot yet be named. The
+always-zero section tail also remains open.
+
+**Update, 2026-11-06 (EXP-096):** The entry flag mirrors body inclusion with no contradiction on
+282 decoded bodies. All eight flag-1 entries carry `BODY_IN_LIGHTWEIGHT_PERM=0`; flag-0 covers 258
+bodies with value 1 and 16 where the attribute is absent, which EXP-084 established as the included
+default. Seven unread node-type-68 payloads are all flag zero. The flag marks exclusion from the
+lightweight permanent body set; the reason for exclusion is not encoded here. Only the always-zero
+section tail remains from the current framing question.
 
 **Date raised**: 2026-09-29 (EXP-074).
 
@@ -1180,15 +1315,19 @@ no tolerant edge on a cone or sphere. A controlled model per case would settle e
 
 ## NQ-050 — Which feature owns each ghost-partition body, and what is the default origin vertex?
 
+**Status**: Answered for the controlled corpus and helical gear (EXP-088).
+
 EXP-078: `Config-0-GhostPartition` holds wire and sheet bodies (`body_type` 2 and 3) that coincide
 with feature inputs: C16's two loft profiles and their planes, Helical Bevel Gear's section planes
 and circular wires, Pocket Wheel's conical sheet and wires. 61 files hold only one wire body made of
 a single vertex at the origin (INT attribute 10001; six of them, 10001–10006, in distributor).
 
-Open: which feature each body belongs to (the attribute `GHOST_REF_BODY_ID_2001` is the likely
-key, to be matched against the feature tree), why one Gear plane and Pocket Wheel's cone match no
-part surface, and what the origin vertex stands for. Settling it needs the feature tree decoded far
-enough to read feature body references.
+`GHOST_REF_BODY_ID_2001` equals the first u32 of the feature component block. All 54 controlled
+bodies and all seven helical-gear bodies join uniquely. Edge-free points name the Origin feature;
+the other controlled bodies name loft profile sketches. This proves reference ownership, not which
+operation created the body. Why one gear plane and Pocket Wheel's cone match no part surface remains
+open, as do the other six component words; EXP-089 finds those words zero in 862 of 863 reachable
+blocks and one unexplained flag in a gear face reference.
 
 **Date raised**: 2026-10-04 (EXP-078).
 
@@ -1221,9 +1360,20 @@ earlier modern files have no ModelHeader streams, and their Header2 matches no `
 The reader falls back to the lowest N. Candidates to check: CMgr / CMgrHdr2, `Config-N-Preview`
 (only some configurations have one), the order of `docProps/Config-N-Properties.xml`.
 
+**Status: answered for conversion geometry (EXP-094), 2026-11-05.** Six of the twelve files have
+only one partition. In all six multi-configuration files, display face count plus the union of
+saved analytic face bounds selects one native geometry. `cut-z18` selects Config-268 instead of the
+lowest Config-0; `cut-z071` selects Config-21 instead of Config-1. The other four files have tied
+IDs, but every tie produces byte-identical normalized STEP, so the active name remains ambiguous
+while the conversion shape does not. The smallest rejected-box gap is 0.1 mm.
+
 **Date raised**: 2026-10-27 (EXP-084).
 
 ## NQ-054 — head_back: 535 B-rep faces, 532 drawn
+
+**Status**: Answered (EXP-087). The 2013 display mesh is 12 model changes stale
+(`DLUpdateStamp=107`, `ModelStamps=119`); the B-rep is valid and the 2026 re-save redraws all 535
+faces at stamp 119.
 
 EXP-084: `82981f2a` (2013, OLE2, 144 OFFSET_SURF nodes). Which 3 faces have no tessellation, and why.
 
@@ -1266,9 +1416,175 @@ vertices handled. An earlier note here said one of its faces ran past its spine'
 was wrong. Still open: `2f121983` (blend spine on two offset swept surfaces, the foot jumps near
 the start).
 
+**Status 2026-11-22 (EXP-103)**: `2f121983` still stops, now with "no foot on offset5790 x
+offset5789 settled (8.7e-4 m off its normal)". The corrector checks its foot since EXP-103, where
+before it carried the bad point on until the march gave up. Whether this is the same foot jump
+near the start hasn't been checked.
+
 EXP-085 section 7: `2f121983` and `d2515121` (intersection march doesn't reach the end),
 `3c4752f1` (surfaces tangent along the edge, no common point within 3.1 µm), `0739c559` (blend
 support face not found), `82981f2a` (interpolation band). Nine more take over two minutes.
 
 **Date raised**: 2026-10-28 (EXP-085).
 
+## NQ-059 — Decode the displayed-dimension placement record without scanning
+
+**Status**: Active. EXP-089 maps 100 records in 51 files into 13 observed lengths from 308 to 587
+bytes. Four common SW2011/SW2022 families grow by two bytes, but the first changing byte behaves
+like an ID or variant rather than a byte count. The reader still scans forward to
+`moFavoriteHandle_c`. A bounded parser must cover every family and reject truncation before the
+scan can be removed.
+
+**Evidence**: [EXP-089](evidence/2026-11-05_v0.5-EXP089.md),
+`evidence/scripts/EXP089/dimension-placement/`.
+
+## NQ-060 — Where is the modern per-feature Created/Modified history?
+
+**Status**: Open. EXP-088 proves Biography is save-environment history: release/build, paths,
+locale and time snapshots. It is not the feature-operation log that older files expose. Search the
+modern feature and configuration archives for a record that varies per feature and agrees with the
+older Created/Modified data; do not infer it from Biography timestamps.
+
+**Evidence**: [EXP-088](evidence/2026-11-05_v0.5-EXP088.md),
+`evidence/scripts/EXP088/history/`.
+
+## NQ-061 — Blind disprove check of the container directory
+
+**Status**: Open. EXP-112's prove agent held the directory on 181 of 181 modern files. The disprove
+agent stopped at the usage limit with no verdict; its partial outputs agree so far
+(`scripts/EXP112/disprove/t1.out`, `t2.out`). Rerun it blind before the directory counts as
+verified. Attacks to cover: a file where zero or two end records pass, a valid stream outside the
+directory, how often random bytes pass the position rule, a crafted file where an imitation passes
+first when scanning backwards.
+
+**Evidence**: [EXP-112](evidence/2026-11-09_v0.5-EXP112.md).
+
+**Date raised**: 2026-11-09 (EXP-112).
+
+## NQ-062 — How the signatures follow from the key
+
+**Status**: Open. Bytes 0–3 select the local, central and end signatures: 15 of 15 pairs of
+unrelated files that share them share all three signatures, which puts the key count near 1,000.
+162 of 163 keys are four successive `rand() & 0xff` of the Microsoft C runtime; `82 5d 07 04` isn't.
+Ruled out: XOR, rotate, shift and other GF(2)-affine maps, `a·x + c mod 2^32`, the same `rand()`
+stream within 20,000 calls either side, MD5/SHA of the key, common generators seeded with it.
+Guess, not checked: a fixed table of about 1,000 entries in SolidWorks. A reader doesn't need the
+map, since it finds the directory without the signatures. Settle it by finding the table, or by
+a save that reuses a known key with a different signature.
+
+**Evidence**: [EXP-112](evidence/2026-11-09_v0.5-EXP112.md), `scripts/EXP112/table.json`.
+
+**Date raised**: 2026-11-09 (EXP-112).
+
+## NQ-063 — The 4 bytes at the ZIP time/date position
+
+**Status**: Open. Local header +10 and central record +12 hold the same 4 bytes in 7,895 of
+7,895 entries. A file has 2 to 44 distinct values, and only 2,474 of 7,895 read as valid DOS
+time/date, so they aren't plain DOS time. Check whether they group by stream type, by save, or
+by the key, and whether a re-save changes them.
+
+**Evidence**: [EXP-112](evidence/2026-11-09_v0.5-EXP112.md), `scripts/EXP112/stamp.out`.
+
+**Date raised**: 2026-11-09 (EXP-112).
+
+## NQ-064 — The filler, the tail, and other document types
+
+**Status**: Open. Filler sits before the first stream (255–900 bytes, a whole multiple of the
+file's block size in 178 of 178), between some streams (85–100 bytes, one size per file), after
+the real central records, and around the end record (220–798 bytes after it). Nothing in the
+directory points into it. Still to do: decode its record shapes fully, say whether any reader
+needs it, and run the directory rule on assemblies (.SLDASM) and drawings (.SLDDRW).
+
+**Evidence**: [EXP-112](evidence/2026-11-09_v0.5-EXP112.md), `scripts/EXP112/filler.out`.
+
+**Date raised**: 2026-11-09 (EXP-112).
+
+## NQ-065 — head_back's T-limit blends within 1 µm of the T point
+
+**Status**: Open. With the dense check, blends 9821, 10371, 9931 and 10129 report 1.54e-8,
+1.48e-8, 1.48e-8 and 1.48e-8 m (10349 is 9.98e-9). Their spine curves are the same as on `dev` to
+1e-13 m. Only the reported number changed. Both blind agents found the fits within 7e-10 m of the
+exact spine over about 99.6% of each spine. The rest is the last few tenths of a micron before
+the T limit, where the supports meet at 3e-5 to 6e-5 rad. There a 1e-12 m change in one surface's
+distance moves the exact spine 2.4e-7 m, and the nested spines it depends on are fitted to only
+1e-10 m. So neither 1.5e-8 nor the old 5.5e-9 m is a measured accuracy there. To answer it: fit
+the nested spines much tighter, or find the T-point geometry in closed form, then measure that
+zone. This is the near-T item from EXP-086 (blend 9931 up to 7.5e-8 m there).
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), `scripts/EXP103/finish/blends-v*.txt`,
+`spines.txt`, `scripts/EXP103/prove/`, `disprove/`.
+
+**Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-066 — Edge 844's vertex pair, and edge 825
+
+**Status**: Open. Edge 844 (head_back) is an SP_CURVE along one section of a fitted blend. Its two
+vertices (tolerances 2.0e-5 and 2.2e-5 m) lie on sections 1.0e-5 apart in u, about 1.14e-6 m
+along the spine. The best single section misses both by 5.7e-7 m. Either our fitted blend's
+sections are skewed from Parasolid's by about that much, or a vertex is off by that much within
+its tolerance. The free-end rule now handles it, but which one it is isn't known. Edges 825 and
+735, the other freed blend edges (gaps 3.1e-7 and 6.0e-6 m, `finish/freed-corpus.txt`), haven't
+been checked for the same pattern. SolidWorks 2026's
+`.x_t` and STEP exports of head_back (`test files online/2013/exports-SW2026/`) may settle it.
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), `scripts/EXP103/finish/e844section.out`,
+`e844replay.out`, `e844tol.out`.
+
+**Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-067 — Two vertices far outside their tolerance
+
+**Status**: Open. With a pinned end's gap counted, two online parts have an SP_CURVE vertex far
+off its curve:
+
+| part, edge | vertex off its curve | edge tolerance | vertex tolerance |
+|---|---|---|---|
+| `0739c559` edge 6075, on an offset | 1.57e-4 m | 1.0e-5 m | 4.8e-5 m |
+| `f0b9a118` edge 152, on a B-spline | 4.49e-4 m | 1.0e-6 m | 1.0e-6 m |
+
+Both parts now refuse exact STEP (the 1e-6 m limit, EXP-085), where `dev` wrote a file with a
+hook in that curve. Which is wrong, the vertex, the SP_CURVE or our reading of its surface, isn't
+known. `f0b9a118` is one of the five parts with vertices 0.1 to 1 mm off thread and degree-1
+surfaces, so edge 152 may be one of those. `0739c559` is new. Check the surface evaluation at
+those points first (an offset's side and a B-spline's extension have both been wrong before).
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), `scripts/EXP103/finish/overbar.out`,
+`overbar-final.out`.
+
+**Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-068 — Gaps at intersection-edge ends
+
+**Status**: Open. A pinned SP_CURVE end now counts its distance from the curve in the fit error
+(EXP-103). Intersection edges keep their own rule: the polyline's end moves to the corrected
+point only when that is within a quarter of the chord. A vertex further off than that stays at
+the polyline's end and its gap isn't counted. How many intersection edges in the corpus end
+further than 1e-8 m from their vertex hasn't been measured. Measure that, then decide whether the
+gap should count the same way.
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), "Not checked yet".
+
+**Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-069 — `f666f342` (head_face) doesn't resolve in 2,400 s
+
+**Status**: Open. The part entered the sweep after EXP-086. It times out at 2,400 s on `dev` and on
+the EXP-103 code, so there's no error to look at yet. Find where the time goes first.
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), `scripts/EXP103/finish/sweep-dev.txt`,
+`sweep-final.txt`.
+
+**Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-070 — The dense fit check's cost
+
+**Status**: Open. Over the online sample the total time rose 6% (1,417 to 1,496 s), but parts with
+many fitted intersection curves are 2.6 to 3.3 times slower: `3c4752f1` 4 to 13 s, `0d68d32d` 18 to
+56 s, `d799e9a3` 19 to 57 s, the spring `5f8e9db3` 19 to 50 s. Each dense round evaluates 8 exact
+points per interval, and a fit goes back to cheap rounds each time a dense round splits something.
+Where the time goes (how many dense rounds, how many exact points) hasn't been measured. Find a
+cheaper check that still finds edge 826's error and the test bump in `test/fit.test.js`.
+
+**Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), "Sweep of the online sample".
+
+**Date raised**: 2026-11-22 (EXP-103).

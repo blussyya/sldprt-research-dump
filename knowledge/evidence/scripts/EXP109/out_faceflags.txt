@@ -1,0 +1,33 @@
+{
+ "unflagged edgebytes=": 18398,
+ "flagged later=0 edgebytes=1": 346,
+ "flagged later=- edgebytes=none": 852,
+ "flagged later=- edgebytes=1": 591,
+ "flagged later=0 edgebytes=none": 191,
+ "flagged later=0 edgebytes=2": 8,
+ "flagged later=- edgebytes=2": 5,
+ "flagged later=0 edgebytes=12": 5,
+ "flagged later=4 edgebytes=1": 528,
+ "flagged later=4 edgebytes=none": 164
+}
+{
+ "later=0 tag=nometa": 113,
+ "later=- tag=nometa": 995,
+ "later=0 tag=4002": 147,
+ "later=0 tag=4001": 162,
+ "later=0 tag=4003": 56,
+ "later=- tag=4001": 319,
+ "later=0 tag=4007": 10,
+ "later=0 tag=4005": 34,
+ "later=- tag=4002": 114,
+ "later=- tag=4003": 17,
+ "later=0 tag=4004": 22,
+ "later=0 tag=4006": 6,
+ "later=- tag=4005": 1,
+ "later=4 tag=4002": 72,
+ "later=4 tag=4001": 17,
+ "later=4 tag=4003": 12,
+ "later=- tag=4006": 2,
+ "later=4 tag=4006": 2,
+ "later=4 tag=nometa": 589
+}

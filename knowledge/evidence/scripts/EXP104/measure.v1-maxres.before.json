@@ -1,0 +1,1899 @@
+{
+ "bar": 0.00001,
+ "src": "/home/user/conv-dev/src",
+ "parts": 115,
+ "total": {
+  "before": {
+   "display": 13533,
+   "matched": 9648,
+   "ambiguous": 0,
+   "none": 3885,
+   "right": 8413,
+   "wrong": 1206,
+   "unchecked": 29,
+   "how": {
+    "id": 9648,
+    "none": 3885
+   }
+  },
+  "after": {
+   "display": 0,
+   "matched": 0,
+   "ambiguous": 0,
+   "none": 0,
+   "right": 0,
+   "wrong": 0,
+   "unchecked": 0,
+   "how": {}
+  },
+  "shift": {
+   "display": 0,
+   "matched": 0,
+   "ambiguous": 0,
+   "none": 0,
+   "right": 0,
+   "wrong": 0,
+   "unchecked": 0,
+   "how": {}
+  },
+  "checkControl": {
+   "pairs": 0,
+   "wrong": 0,
+   "right": 0,
+   "unchecked": 0
+  }
+ },
+ "wrongList": [],
+ "perPart": [
+  {
+   "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C01_cube_20mm/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C02_cube_translated/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C06_cube_hole_moved/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C07_cube_two_holes/model.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 8
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 8
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT",
+   "display": 11,
+   "before": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 11
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+   "display": 2,
+   "before": {
+    "display": 2,
+    "matched": 2,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 2,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 2
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+   "display": 1,
+   "before": {
+    "display": 1,
+    "matched": 1,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 1,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 1
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C15_torus/model.SLDPRT",
+   "display": 1,
+   "before": {
+    "display": 1,
+    "matched": 1,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 1,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 1
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C17_torus_quarter/model.SLDPRT",
+   "display": 3,
+   "before": {
+    "display": 3,
+    "matched": 3,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 3,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 3
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C19_half_cylinder/model.SLDPRT",
+   "display": 4,
+   "before": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 4
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 8
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+   "display": 4,
+   "before": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 4
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 4,
+    "unchecked": 0,
+    "how": {
+     "id": 8
+    }
+   }
+  },
+  {
+   "file": "test files online/2018/0132519a_102_STEM.SLDPRT",
+   "display": 167,
+   "before": {
+    "display": 167,
+    "matched": 151,
+    "ambiguous": 0,
+    "none": 16,
+    "right": 151,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 151,
+     "none": 16
+    }
+   }
+  },
+  {
+   "file": "test files online/2018/15567d51_leva1.SLDPRT",
+   "display": 298,
+   "before": {
+    "display": 298,
+    "matched": 298,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 293,
+    "wrong": 4,
+    "unchecked": 1,
+    "how": {
+     "id": 298
+    }
+   }
+  },
+  {
+   "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+   "display": 262,
+   "before": {
+    "display": 262,
+    "matched": 262,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 261,
+    "wrong": 1,
+    "unchecked": 0,
+    "how": {
+     "id": 262
+    }
+   }
+  },
+  {
+   "file": "test files online/2018/ca465363_103_COVER.SLDPRT",
+   "display": 118,
+   "before": {
+    "display": 118,
+    "matched": 118,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 118,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 118
+    }
+   }
+  },
+  {
+   "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+   "display": 2512,
+   "before": {
+    "display": 2512,
+    "matched": 180,
+    "ambiguous": 0,
+    "none": 2332,
+    "right": 15,
+    "wrong": 165,
+    "unchecked": 0,
+    "how": {
+     "none": 2332,
+     "id": 180
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/07ff8da1_shelf.SLDPRT",
+   "display": 30,
+   "before": {
+    "display": 30,
+    "matched": 30,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 26,
+    "wrong": 4,
+    "unchecked": 0,
+    "how": {
+     "id": 30
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/096d0504_MargayMount_WH10.SLDPRT",
+   "display": 18,
+   "before": {
+    "display": 18,
+    "matched": 18,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 18,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 18
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/27377fd2_FE-00006-06.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 8
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/28398415_Raspberry Pi 4.SLDPRT",
+   "display": 267,
+   "before": {
+    "display": 267,
+    "matched": 267,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 267,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 267
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/300d7f07_Bottom Case.SLDPRT",
+   "display": 50,
+   "before": {
+    "display": 50,
+    "matched": 50,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 47,
+    "wrong": 3,
+    "unchecked": 0,
+    "how": {
+     "id": 50
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/44afdb7c_back_cushion.SLDPRT",
+   "display": 26,
+   "before": {
+    "display": 26,
+    "matched": 26,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 26,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 26
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/54b05886_bottom_adc.SLDPRT",
+   "display": 92,
+   "before": {
+    "display": 92,
+    "matched": 92,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 88,
+    "wrong": 4,
+    "unchecked": 0,
+    "how": {
+     "id": 92
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+   "display": 103,
+   "before": {
+    "display": 103,
+    "matched": 103,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 95,
+    "wrong": 4,
+    "unchecked": 4,
+    "how": {
+     "id": 103
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/91a2d981_Camera Module.SLDPRT",
+   "display": 19,
+   "before": {
+    "display": 19,
+    "matched": 19,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 19,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 19
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/a3a44709_FrontPanel-Bezel.sldprt",
+   "display": 16,
+   "before": {
+    "display": 16,
+    "matched": 16,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 15,
+    "wrong": 1,
+    "unchecked": 0,
+    "how": {
+     "id": 16
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/d381ebab_bottom_dac.SLDPRT",
+   "display": 83,
+   "before": {
+    "display": 83,
+    "matched": 83,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 78,
+    "wrong": 5,
+    "unchecked": 0,
+    "how": {
+     "id": 83
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/e8c40c25_psu.SLDPRT",
+   "display": 271,
+   "before": {
+    "display": 271,
+    "matched": 271,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 247,
+    "wrong": 24,
+    "unchecked": 0,
+    "how": {
+     "id": 271
+    }
+   }
+  },
+  {
+   "file": "test files online/2019/fb449daa_Gloworm PCB.SLDPRT",
+   "display": 50,
+   "before": {
+    "display": 50,
+    "matched": 50,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 46,
+    "wrong": 4,
+    "unchecked": 0,
+    "how": {
+     "id": 50
+    }
+   }
+  },
+  {
+   "file": "test files online/2020/14f9214b_11.SLDPRT",
+   "display": 73,
+   "before": {
+    "display": 73,
+    "matched": 73,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 70,
+    "wrong": 3,
+    "unchecked": 0,
+    "how": {
+     "id": 73
+    }
+   }
+  },
+  {
+   "file": "test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+   "display": 69,
+   "before": {
+    "display": 69,
+    "matched": 2,
+    "ambiguous": 0,
+    "none": 67,
+    "right": 1,
+    "wrong": 1,
+    "unchecked": 0,
+    "how": {
+     "id": 2,
+     "none": 67
+    }
+   }
+  },
+  {
+   "file": "test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT",
+   "display": 28,
+   "before": {
+    "display": 28,
+    "matched": 28,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 28,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 28
+    }
+   }
+  },
+  {
+   "file": "test files online/2020/9494d959_27_20_4.SLDPRT",
+   "display": 12,
+   "before": {
+    "display": 12,
+    "matched": 12,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 12,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 12
+    }
+   }
+  },
+  {
+   "file": "test files online/2020/b185085c_Handle 3.SLDPRT",
+   "display": 33,
+   "before": {
+    "display": 33,
+    "matched": 33,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 23,
+    "wrong": 10,
+    "unchecked": 0,
+    "how": {
+     "id": 33
+    }
+   }
+  },
+  {
+   "file": "test files online/2021/85aabbde_84T Gear.SLDPRT",
+   "display": 671,
+   "before": {
+    "display": 671,
+    "matched": 671,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 653,
+    "wrong": 18,
+    "unchecked": 0,
+    "how": {
+     "id": 671
+    }
+   }
+  },
+  {
+   "file": "test files online/2021/916d4a0a_36T Gear.SLDPRT",
+   "display": 295,
+   "before": {
+    "display": 295,
+    "matched": 295,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 277,
+    "wrong": 18,
+    "unchecked": 0,
+    "how": {
+     "id": 295
+    }
+   }
+  },
+  {
+   "file": "test files online/2021/bc3292d7_12T Gear.SLDPRT",
+   "display": 135,
+   "before": {
+    "display": 135,
+    "matched": 135,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 135,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 135
+    }
+   }
+  },
+  {
+   "file": "test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+   "display": 399,
+   "before": {
+    "display": 399,
+    "matched": 399,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 387,
+    "wrong": 12,
+    "unchecked": 0,
+    "how": {
+     "id": 399
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT",
+   "display": 109,
+   "before": {
+    "display": 109,
+    "matched": 109,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 91,
+    "wrong": 18,
+    "unchecked": 0,
+    "how": {
+     "id": 109
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT",
+   "display": 143,
+   "before": {
+    "display": 143,
+    "matched": 143,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 93,
+    "wrong": 50,
+    "unchecked": 0,
+    "how": {
+     "id": 143
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/1ee60868_z轴皮带固定.SLDPRT",
+   "display": 32,
+   "before": {
+    "display": 32,
+    "matched": 32,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 32,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 32
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/273a8d53_FG-F1.SLDPRT",
+   "display": 76,
+   "before": {
+    "display": 76,
+    "matched": 76,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 74,
+    "wrong": 2,
+    "unchecked": 0,
+    "how": {
+     "id": 76
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+   "display": 239,
+   "before": {
+    "display": 239,
+    "matched": 141,
+    "ambiguous": 0,
+    "none": 98,
+    "right": 92,
+    "wrong": 49,
+    "unchecked": 0,
+    "how": {
+     "id": 141,
+     "none": 98
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/40e79d45_Fins.SLDPRT",
+   "display": 12,
+   "before": {
+    "display": 12,
+    "matched": 12,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 12,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 12
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT",
+   "display": 9,
+   "before": {
+    "display": 9,
+    "matched": 9,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 9,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 9
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/84226163_Fin.SLDPRT",
+   "display": 10,
+   "before": {
+    "display": 10,
+    "matched": 10,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 10,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 10
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/9cc04b03_SO-C1.SLDPRT",
+   "display": 93,
+   "before": {
+    "display": 93,
+    "matched": 93,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 93,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 93
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+   "display": 33,
+   "before": {
+    "display": 33,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 27,
+    "right": 5,
+    "wrong": 1,
+    "unchecked": 0,
+    "how": {
+     "none": 27,
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/a0fc2e29_Vertical Spar.SLDPRT",
+   "display": 11,
+   "before": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 11
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/d753195d_ServoMount.SLDPRT",
+   "display": 90,
+   "before": {
+    "display": 90,
+    "matched": 90,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 88,
+    "wrong": 2,
+    "unchecked": 0,
+    "how": {
+     "id": 90
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT",
+   "display": 26,
+   "before": {
+    "display": 26,
+    "matched": 26,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 26,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 26
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/dc265ce1_Fin.SLDPRT",
+   "display": 10,
+   "before": {
+    "display": 10,
+    "matched": 10,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 10,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 10
+    }
+   }
+  },
+  {
+   "file": "test files online/2022/dd156283_637Z flanzi bearing.SLDPRT",
+   "display": 11,
+   "before": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 11
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "display": 693,
+   "before": {
+    "display": 693,
+    "matched": 172,
+    "ambiguous": 0,
+    "none": 521,
+    "right": 14,
+    "wrong": 158,
+    "unchecked": 0,
+    "how": {
+     "id": 172,
+     "none": 521
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT",
+   "display": 35,
+   "before": {
+    "display": 35,
+    "matched": 35,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 35,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 35
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/2f121983_case.SLDPRT",
+   "display": 155,
+   "before": {
+    "display": 155,
+    "matched": 155,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 122,
+    "wrong": 33,
+    "unchecked": 0,
+    "how": {
+     "id": 155
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/2fd21507_MidplateEM2.SLDPRT",
+   "display": 49,
+   "before": {
+    "display": 49,
+    "matched": 49,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 49,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 49
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT",
+   "display": 99,
+   "before": {
+    "display": 99,
+    "matched": 99,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 99,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 99
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT",
+   "display": 127,
+   "before": {
+    "display": 127,
+    "matched": 127,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 127,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 127
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/41b71219_板材-Guidance安装板.SLDPRT",
+   "display": 82,
+   "before": {
+    "display": 82,
+    "matched": 82,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 56,
+    "wrong": 26,
+    "unchecked": 0,
+    "how": {
+     "id": 82
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/4803f393_box.SLDPRT",
+   "display": 1390,
+   "before": {
+    "display": 1390,
+    "matched": 1390,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 1271,
+    "wrong": 119,
+    "unchecked": 0,
+    "how": {
+     "id": 1390
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT",
+   "display": 37,
+   "before": {
+    "display": 37,
+    "matched": 37,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 37,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 37
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+   "display": 544,
+   "before": {
+    "display": 544,
+    "matched": 102,
+    "ambiguous": 0,
+    "none": 442,
+    "right": 88,
+    "wrong": 14,
+    "unchecked": 0,
+    "how": {
+     "id": 102,
+     "none": 442
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/d77ec77a_TopSheet.SLDPRT",
+   "display": 67,
+   "before": {
+    "display": 67,
+    "matched": 67,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 67,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 67
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT",
+   "display": 34,
+   "before": {
+    "display": 34,
+    "matched": 34,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 28,
+    "wrong": 2,
+    "unchecked": 4,
+    "how": {
+     "id": 34
+    }
+   }
+  },
+  {
+   "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+   "display": 404,
+   "before": {
+    "display": 404,
+    "matched": 72,
+    "ambiguous": 0,
+    "none": 332,
+    "right": 18,
+    "wrong": 54,
+    "unchecked": 0,
+    "how": {
+     "id": 72,
+     "none": 332
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/03afebf4_Profilringe.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/09d353a9_Elbow_Mount2.SLDPRT",
+   "display": 40,
+   "before": {
+    "display": 40,
+    "matched": 2,
+    "ambiguous": 0,
+    "none": 38,
+    "right": 2,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "none": 38,
+     "id": 2
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/225c13ed_camholder0deg.SLDPRT",
+   "display": 49,
+   "before": {
+    "display": 49,
+    "matched": 49,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 49,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 49
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/2300f35c_Thigh Symétrie.SLDPRT",
+   "display": 172,
+   "before": {
+    "display": 172,
+    "matched": 172,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 172,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 172
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT",
+   "display": 4,
+   "before": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 4
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/37663d8a_Gasket For M12.SLDPRT",
+   "display": 11,
+   "before": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 11
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT",
+   "display": 4,
+   "before": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 4
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT",
+   "display": 22,
+   "before": {
+    "display": 22,
+    "matched": 22,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 22,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 22
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/871e670c_servo_adapter.SLDPRT",
+   "display": 32,
+   "before": {
+    "display": 32,
+    "matched": 32,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 32,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 32
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/951f2bc1_Boitier.SLDPRT",
+   "display": 26,
+   "before": {
+    "display": 26,
+    "matched": 26,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 26,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 26
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+   "display": 961,
+   "before": {
+    "display": 961,
+    "matched": 949,
+    "ambiguous": 0,
+    "none": 12,
+    "right": 749,
+    "wrong": 180,
+    "unchecked": 20,
+    "how": {
+     "id": 949,
+     "none": 12
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+   "display": 16,
+   "before": {
+    "display": 16,
+    "matched": 16,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 16,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 16
+    }
+   }
+  },
+  {
+   "file": "test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 8
+    }
+   }
+  },
+  {
+   "file": "test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT",
+   "display": 34,
+   "before": {
+    "display": 34,
+    "matched": 34,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 34,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 34
+    }
+   }
+  },
+  {
+   "file": "test files original/Dekor.SLDPRT",
+   "display": 375,
+   "before": {
+    "display": 375,
+    "matched": 375,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 367,
+    "wrong": 8,
+    "unchecked": 0,
+    "how": {
+     "id": 375
+    }
+   }
+  },
+  {
+   "file": "test files original/Helical Bevel Gear.SLDPRT",
+   "display": 113,
+   "before": {
+    "display": 113,
+    "matched": 113,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 99,
+    "wrong": 14,
+    "unchecked": 0,
+    "how": {
+     "id": 113
+    }
+   }
+  },
+  {
+   "file": "test files original/PTC GE8080-8.SLDPRT",
+   "display": 126,
+   "before": {
+    "display": 126,
+    "matched": 126,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 126,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 126
+    }
+   }
+  },
+  {
+   "file": "test files original/Pocket Wheel.SLDPRT",
+   "display": 400,
+   "before": {
+    "display": 400,
+    "matched": 400,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 229,
+    "wrong": 171,
+    "unchecked": 0,
+    "how": {
+     "id": 400
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C00_cube_10mm/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C01_cube_20mm/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C02_cube_translated/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C04_cube_hole_5mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C05_cube_hole_3mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C06_cube_hole_moved/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C07_cube_two_holes/model.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 8
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 8
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C10_cube_shell_1mm/model.SLDPRT",
+   "display": 11,
+   "before": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 11
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C11_cube_hole_4mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 7
+    }
+   }
+  },
+  {
+   "file": "test files original/cube.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "how": {
+     "id": 6
+    }
+   }
+  },
+  {
+   "file": "test files original/distributor main boss rev a.SLDPRT",
+   "display": 51,
+   "before": {
+    "display": 51,
+    "matched": 51,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 47,
+    "wrong": 4,
+    "unchecked": 0,
+    "how": {
+     "id": 51
+    }
+   }
+  },
+  {
+   "file": "test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+   "display": 39,
+   "before": {
+    "display": 39,
+    "matched": 39,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 38,
+    "wrong": 1,
+    "unchecked": 0,
+    "how": {
+     "id": 39
+    }
+   }
+  },
+  {
+   "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+   "display": 68,
+   "before": {
+    "display": 68,
+    "matched": 68,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 53,
+    "wrong": 15,
+    "unchecked": 0,
+    "how": {
+     "id": 68
+    }
+   }
+  }
+ ]
+}

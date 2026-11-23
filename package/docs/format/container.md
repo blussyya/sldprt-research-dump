@@ -136,7 +136,7 @@ Three production parts predate the `Config-N-Partition` layout. They are still O
 streams that matter are compressed with **PKWARE DCL "implode"** (the old PKWARE Data Compression
 Library format, the one zlib's `contrib/blast` reads), not zlib. `src/container/blast.js` decodes
 it; on all three streams below it consumes every input byte exactly
-([EXP-077](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-03_v0.5-EXP077.md)).
+([EXP-077](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-03_v0.5-EXP077.md)).
 
 | file | what it is | display mesh | Parasolid body |
 |---|---|---|---|

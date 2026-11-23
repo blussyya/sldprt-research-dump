@@ -1,0 +1,1196 @@
+[
+  {
+    "file": "test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT",
+    "stream": "_MO_VERSION_15000/Biography",
+    "parsed": {
+      "schema": 1,
+      "count": 3,
+      "bytes": 2719,
+      "records": [
+        {
+          "at": 23,
+          "end": 701,
+          "words": [
+            4700,
+            2010276,
+            1,
+            9,
+            14,
+            2,
+            6,
+            2,
+            9200
+          ],
+          "text": "",
+          "tail": 3072,
+          "snapshots": [
+            {
+              "start": 65,
+              "end": 173,
+              "head": "000000000000000000000000",
+              "pairs": [
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                }
+              ]
+            },
+            {
+              "start": 173,
+              "end": 701,
+              "head": "f8413ec26c49dd0100003f7b",
+              "pairs": [
+                {
+                  "text": "C:\\WINDOWS\\system32\\",
+                  "tail": "03000000001016801e000000"
+                },
+                {
+                  "text": "C:\\WINDOWS\\",
+                  "tail": "03000000001016801e000000"
+                },
+                {
+                  "text": "C:\\Program Files\\SOLIDWORKS Corp\\SolidWorks (2)\\",
+                  "tail": "03000000001016801e000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "03000000001016801e000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "03000000001016801e000000"
+                },
+                {
+                  "text": "C:\\ProgramData\\SolidWorks\\SolidWorks 2011\\templates\\Part.prtdot",
+                  "tail": "03000000001016801e000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 701,
+          "end": 1771,
+          "words": [
+            4700,
+            2010276,
+            1,
+            9,
+            14,
+            2,
+            6,
+            2,
+            9200
+          ],
+          "text": "",
+          "tail": 3072,
+          "snapshots": [
+            {
+              "start": 743,
+              "end": 1325,
+              "head": "f4f56963ad49dd0100e0b3c8",
+              "pairs": [
+                {
+                  "text": "C:\\WINDOWS\\system32\\",
+                  "tail": "0300000000b05a571e000000"
+                },
+                {
+                  "text": "C:\\WINDOWS\\",
+                  "tail": "0300000000b05a571e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2011\\C21_cylinder_fillet\\",
+                  "tail": "030000000000928b28000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000b05a571e000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000b05a571e000000"
+                },
+                {
+                  "text": "C:\\ProgramData\\SolidWorks\\SolidWorks 2011\\templates\\Part.prtdot",
+                  "tail": "0300000000b05a571e000000"
+                }
+              ]
+            },
+            {
+              "start": 1325,
+              "end": 1771,
+              "head": "67b70a66ad49dd01009034c9",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "0300000000705a571e000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000705a571e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2011\\C21_cylinder_fillet\\",
+                  "tail": "0300000000008e8b28000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000705a571e000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000705a571e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2011\\C22_cube_sw2011_native\\model.SLDPRT",
+                  "tail": "0300000000008e8b28000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 1771,
+          "end": 2719,
+          "words": [
+            15000,
+            2022009,
+            1,
+            9,
+            14,
+            2,
+            10,
+            0,
+            26200
+          ],
+          "text": "",
+          "tail": 3072,
+          "snapshots": [
+            {
+              "start": 1813,
+              "end": 2265,
+              "head": "2a15529dad49dd010080d0c7",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "0300000000c0a3561e000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000c0a3561e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2011\\C22_cube_sw2011_native\\",
+                  "tail": "0300000000006c8b28000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000c0a3561e000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000c0a3561e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2011\\C22_cube_sw2011_native\\model.SLDPRT",
+                  "tail": "0300000000006c8b28000000"
+                }
+              ]
+            },
+            {
+              "start": 2265,
+              "end": 2719,
+              "head": "23cd5da9ad49dd01004023c7",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "0300000000b0a0561e000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000b0a0561e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2011\\C22_cube_sw2011_native\\",
+                  "tail": "0300000000006a8b28000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000b0a0561e000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000b0a0561e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2022\\C23_cube_sw2011_to_2022\\model.SLDPRT",
+                  "tail": "0300000000006a8b28000000"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "truncation": {
+      "rejected": 4,
+      "accepted": 0
+    }
+  },
+  {
+    "file": "test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+    "stream": "_MO_VERSION_15000/Biography",
+    "parsed": {
+      "schema": 1,
+      "count": 2,
+      "bytes": 1771,
+      "records": [
+        {
+          "at": 23,
+          "end": 693,
+          "words": [
+            15000,
+            2022009,
+            1,
+            9,
+            20,
+            2,
+            10,
+            0,
+            26200
+          ],
+          "text": "",
+          "tail": 3072,
+          "snapshots": [
+            {
+              "start": 65,
+              "end": 173,
+              "head": "000000000000000000000000",
+              "pairs": [
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                }
+              ]
+            },
+            {
+              "start": 173,
+              "end": 693,
+              "head": "50f949dfaf2add0100e00a0f",
+              "pairs": [
+                {
+                  "text": "C:\\WINDOWS\\system32\\",
+                  "tail": "0300000000d098ff0c000000"
+                },
+                {
+                  "text": "C:\\WINDOWS\\",
+                  "tail": "0300000000d098ff0c000000"
+                },
+                {
+                  "text": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\",
+                  "tail": "0300000000d098ff0c000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000d098ff0c000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000d098ff0c000000"
+                },
+                {
+                  "text": "C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2022\\templates\\Part.PRTDOT",
+                  "tail": "0300000000d098ff0c000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 693,
+          "end": 1771,
+          "words": [
+            15000,
+            2022009,
+            1,
+            9,
+            14,
+            2,
+            10,
+            0,
+            26200
+          ],
+          "text": "",
+          "tail": 3072,
+          "snapshots": [
+            {
+              "start": 735,
+              "end": 1321,
+              "head": "5dbc59918449dd0100a01eec",
+              "pairs": [
+                {
+                  "text": "C:\\WINDOWS\\system32\\",
+                  "tail": "030000000050cd581e000000"
+                },
+                {
+                  "text": "C:\\WINDOWS\\",
+                  "tail": "030000000050cd581e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2022\\C20_cylinders_crossed\\",
+                  "tail": "0300000000007e8d28000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "030000000050cd581e000000"
+                },
+                {
+                  "text": "C:\\Users\\basha\\AppData\\Local\\Temp\\",
+                  "tail": "030000000050cd581e000000"
+                },
+                {
+                  "text": "C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2022\\templates\\Part.PRTDOT",
+                  "tail": "030000000050cd581e000000"
+                }
+              ]
+            },
+            {
+              "start": 1321,
+              "end": 1771,
+              "head": "28ecf59b8449dd0100b015e9",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "0300000000f0ce581e000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000f0ce581e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2022\\C20_cylinders_crossed\\",
+                  "tail": "0300000000007c8d28000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000f0ce581e000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000f0ce581e000000"
+                },
+                {
+                  "text": "D:\\projects\\sldprt research dump\\new test files\\sw2022\\C24_cube_sw2022_native\\model.SLDPRT",
+                  "tail": "0300000000007c8d28000000"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "truncation": {
+      "rejected": 4,
+      "accepted": 0
+    }
+  },
+  {
+    "file": "test files online/2013/82981f2a_head_back.sldprt",
+    "stream": "Biography",
+    "parsed": {
+      "schema": 1,
+      "count": 4,
+      "bytes": 2671,
+      "records": [
+        {
+          "at": 23,
+          "end": 809,
+          "words": [
+            6000,
+            2013273,
+            1,
+            9,
+            8,
+            2,
+            6,
+            1,
+            7601
+          ],
+          "text": "Service Pack 1",
+          "tail": 1033,
+          "snapshots": [
+            {
+              "start": 93,
+              "end": 201,
+              "head": "000000000000000000000000",
+              "pairs": [
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                }
+              ]
+            },
+            {
+              "start": 201,
+              "end": 809,
+              "head": "f5d241f7d613d00100e0f557",
+              "pairs": [
+                {
+                  "text": "C:\\Windows\\system32\\",
+                  "tail": "030000000070b71e63000000"
+                },
+                {
+                  "text": "C:\\Windows\\",
+                  "tail": "030000000070b71e63000000"
+                },
+                {
+                  "text": "C:\\Users\\matthieu-lapeyre\\Desktop\\poppy 1\\poppy-hardware\\COTS_components\\Adafruit\\",
+                  "tail": "030000000070b71e63000000"
+                },
+                {
+                  "text": "C:\\Users\\MATTHI~1\\AppData\\Local\\Temp\\",
+                  "tail": "030000000070b71e63000000"
+                },
+                {
+                  "text": "C:\\Users\\MATTHI~1\\AppData\\Local\\Temp\\",
+                  "tail": "030000000070b71e63000000"
+                },
+                {
+                  "text": "C:\\ProgramData\\SolidWorks\\SolidWorks 2013\\templates\\Part.prtdot",
+                  "tail": "030000000070b71e63000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 809,
+          "end": 1933,
+          "words": [
+            6000,
+            2013273,
+            1,
+            9,
+            8,
+            2,
+            6,
+            3,
+            9600
+          ],
+          "text": "",
+          "tail": 1036,
+          "snapshots": [
+            {
+              "start": 851,
+              "end": 1439,
+              "head": "b98603cf80acd10100f00fa3",
+              "pairs": [
+                {
+                  "text": "C:\\WINDOWS\\system32\\",
+                  "tail": "0300000000005e3f34000000"
+                },
+                {
+                  "text": "C:\\WINDOWS\\",
+                  "tail": "0300000000005e3f34000000"
+                },
+                {
+                  "text": "C:\\Users\\matthieu-lapeyre\\Documents\\Development\\Poppy-head-design\\parts\\",
+                  "tail": "0300000000005e3f34000000"
+                },
+                {
+                  "text": "C:\\Users\\MATTHI~1\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000005e3f34000000"
+                },
+                {
+                  "text": "C:\\Users\\MATTHI~1\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000005e3f34000000"
+                },
+                {
+                  "text": "C:\\ProgramData\\SolidWorks\\SolidWorks 2013\\templates\\Part.prtdot",
+                  "tail": "0300000000005e3f34000000"
+                }
+              ]
+            },
+            {
+              "start": 1439,
+              "end": 1933,
+              "head": "4a2e74dd80acd10100300c9f",
+              "pairs": [
+                {
+                  "text": "C:\\WINDOWS\\system32\\",
+                  "tail": "030000000050133e34000000"
+                },
+                {
+                  "text": "C:\\WINDOWS\\",
+                  "tail": "030000000050133e34000000"
+                },
+                {
+                  "text": "C:\\Users\\matthieu-lapeyre\\Documents\\Development\\Poppy-head-design\\parts\\",
+                  "tail": "030000000050133e34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000050133e34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000050133e34000000"
+                },
+                {
+                  "text": "C:\\Users\\matthieu-lapeyre\\Documents\\Development\\Poppy-head-design\\parts\\head_back.sldprt",
+                  "tail": "030000000050133e34000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 1933,
+          "end": 2389,
+          "words": [
+            6000,
+            2013273,
+            1,
+            9,
+            8,
+            2,
+            6,
+            3,
+            9600
+          ],
+          "text": "",
+          "tail": 1036,
+          "snapshots": [
+            {
+              "start": 1975,
+              "end": 2269,
+              "head": "5ced464981acd1010000f39b",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "0300000000a0e13d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000a0e13d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000a0e13d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000a0e13d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000a0e13d34000000"
+                },
+                {
+                  "text": "C:\\Users\\matthieu-lapeyre\\Documents\\Development\\Poppy-head-design\\parts\\head_back.sldprt",
+                  "tail": "0300000000a0e13d34000000"
+                }
+              ]
+            },
+            {
+              "start": 2269,
+              "end": 2389,
+              "head": "572d03d886acd1010040ce75",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 2389,
+          "end": 2671,
+          "words": [
+            6000,
+            2013273,
+            1,
+            9,
+            8,
+            2,
+            6,
+            3,
+            9600
+          ],
+          "text": "",
+          "tail": 1036,
+          "snapshots": [
+            {
+              "start": 2431,
+              "end": 2551,
+              "head": "d29f8f3187acd10100d02882",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                }
+              ]
+            },
+            {
+              "start": 2551,
+              "end": 2671,
+              "head": "c0fd123f87acd10100b03880",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "truncation": {
+      "rejected": 4,
+      "accepted": 0
+    }
+  },
+  {
+    "file": "test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt",
+    "stream": "_MO_VERSION_19000/Biography",
+    "parsed": {
+      "schema": 1,
+      "count": 5,
+      "bytes": 3723,
+      "records": [
+        {
+          "at": 23,
+          "end": 809,
+          "words": [
+            6000,
+            2013273,
+            1,
+            9,
+            8,
+            2,
+            6,
+            1,
+            7601
+          ],
+          "text": "Service Pack 1",
+          "tail": 1033,
+          "snapshots": [
+            {
+              "start": 93,
+              "end": 201,
+              "head": "000000000000000000000000",
+              "pairs": [
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                },
+                {
+                  "text": "",
+                  "tail": "000000000000000000000000"
+                }
+              ]
+            },
+            {
+              "start": 201,
+              "end": 809,
+              "head": "f5d241f7d613d00100e0f557",
+              "pairs": [
+                {
+                  "text": "C:\\Windows\\system32\\",
+                  "tail": "030000000070b71e63000000"
+                },
+                {
+                  "text": "C:\\Windows\\",
+                  "tail": "030000000070b71e63000000"
+                },
+                {
+                  "text": "C:\\Users\\matthieu-lapeyre\\Desktop\\poppy 1\\poppy-hardware\\COTS_components\\Adafruit\\",
+                  "tail": "030000000070b71e63000000"
+                },
+                {
+                  "text": "C:\\Users\\MATTHI~1\\AppData\\Local\\Temp\\",
+                  "tail": "030000000070b71e63000000"
+                },
+                {
+                  "text": "C:\\Users\\MATTHI~1\\AppData\\Local\\Temp\\",
+                  "tail": "030000000070b71e63000000"
+                },
+                {
+                  "text": "C:\\ProgramData\\SolidWorks\\SolidWorks 2013\\templates\\Part.prtdot",
+                  "tail": "030000000070b71e63000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 809,
+          "end": 1933,
+          "words": [
+            6000,
+            2013273,
+            1,
+            9,
+            8,
+            2,
+            6,
+            3,
+            9600
+          ],
+          "text": "",
+          "tail": 1036,
+          "snapshots": [
+            {
+              "start": 851,
+              "end": 1439,
+              "head": "b98603cf80acd10100f00fa3",
+              "pairs": [
+                {
+                  "text": "C:\\WINDOWS\\system32\\",
+                  "tail": "0300000000005e3f34000000"
+                },
+                {
+                  "text": "C:\\WINDOWS\\",
+                  "tail": "0300000000005e3f34000000"
+                },
+                {
+                  "text": "C:\\Users\\matthieu-lapeyre\\Documents\\Development\\Poppy-head-design\\parts\\",
+                  "tail": "0300000000005e3f34000000"
+                },
+                {
+                  "text": "C:\\Users\\MATTHI~1\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000005e3f34000000"
+                },
+                {
+                  "text": "C:\\Users\\MATTHI~1\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000005e3f34000000"
+                },
+                {
+                  "text": "C:\\ProgramData\\SolidWorks\\SolidWorks 2013\\templates\\Part.prtdot",
+                  "tail": "0300000000005e3f34000000"
+                }
+              ]
+            },
+            {
+              "start": 1439,
+              "end": 1933,
+              "head": "4a2e74dd80acd10100300c9f",
+              "pairs": [
+                {
+                  "text": "C:\\WINDOWS\\system32\\",
+                  "tail": "030000000050133e34000000"
+                },
+                {
+                  "text": "C:\\WINDOWS\\",
+                  "tail": "030000000050133e34000000"
+                },
+                {
+                  "text": "C:\\Users\\matthieu-lapeyre\\Documents\\Development\\Poppy-head-design\\parts\\",
+                  "tail": "030000000050133e34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000050133e34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000050133e34000000"
+                },
+                {
+                  "text": "C:\\Users\\matthieu-lapeyre\\Documents\\Development\\Poppy-head-design\\parts\\head_back.sldprt",
+                  "tail": "030000000050133e34000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 1933,
+          "end": 2389,
+          "words": [
+            6000,
+            2013273,
+            1,
+            9,
+            8,
+            2,
+            6,
+            3,
+            9600
+          ],
+          "text": "",
+          "tail": 1036,
+          "snapshots": [
+            {
+              "start": 1975,
+              "end": 2269,
+              "head": "5ced464981acd1010000f39b",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "0300000000a0e13d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000a0e13d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000a0e13d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000a0e13d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000a0e13d34000000"
+                },
+                {
+                  "text": "C:\\Users\\matthieu-lapeyre\\Documents\\Development\\Poppy-head-design\\parts\\head_back.sldprt",
+                  "tail": "0300000000a0e13d34000000"
+                }
+              ]
+            },
+            {
+              "start": 2269,
+              "end": 2389,
+              "head": "572d03d886acd1010040ce75",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000040163734000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 2389,
+          "end": 2671,
+          "words": [
+            6000,
+            2013273,
+            1,
+            9,
+            8,
+            2,
+            6,
+            3,
+            9600
+          ],
+          "text": "",
+          "tail": 1036,
+          "snapshots": [
+            {
+              "start": 2431,
+              "end": 2551,
+              "head": "d29f8f3187acd10100d02882",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "0300000000204b3d34000000"
+                }
+              ]
+            },
+            {
+              "start": 2551,
+              "end": 2671,
+              "head": "c0fd123f87acd10100b03880",
+              "pairs": [
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                },
+                {
+                  "text": "*",
+                  "tail": "030000000070133c34000000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "at": 2671,
+          "end": 3723,
+          "words": [
+            19000,
+            2026138,
+            1,
+            9,
+            12,
+            2,
+            10,
+            0,
+            19045
+          ],
+          "text": "",
+          "tail": 4105,
+          "snapshots": [
+            {
+              "start": 2713,
+              "end": 3233,
+              "head": "5e4cab6c3f6add010060e2d4",
+              "pairs": [
+                {
+                  "text": "C:\\Windows\\system32\\",
+                  "tail": "0300000000b0cc1748000000"
+                },
+                {
+                  "text": "C:\\Windows\\",
+                  "tail": "0300000000b0cc1748000000"
+                },
+                {
+                  "text": "C:\\Users\\Kevin Hanna Rahhal\\Downloads\\",
+                  "tail": "0300000000b0cc1748000000"
+                },
+                {
+                  "text": "C:\\Users\\KEVINH~1\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000b0cc1748000000"
+                },
+                {
+                  "text": "C:\\Users\\KEVINH~1\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000b0cc1748000000"
+                },
+                {
+                  "text": "C:\\Users\\Kevin Hanna Rahhal\\Downloads\\82981f2a_head_back.sldprt",
+                  "tail": "0300000000b0cc1748000000"
+                }
+              ]
+            },
+            {
+              "start": 3233,
+              "end": 3723,
+              "head": "2850196b446add0100d00353",
+              "pairs": [
+                {
+                  "text": "C:\\Windows\\system32\\",
+                  "tail": "0300000000b09e1447000000"
+                },
+                {
+                  "text": "C:\\Windows\\",
+                  "tail": "0300000000b09e1447000000"
+                },
+                {
+                  "text": "C:\\Users\\Kevin Hanna Rahhal\\Downloads\\",
+                  "tail": "0300000000b09e1447000000"
+                },
+                {
+                  "text": "C:\\Users\\KEVINH~1\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000b09e1447000000"
+                },
+                {
+                  "text": "C:\\Users\\KEVINH~1\\AppData\\Local\\Temp\\",
+                  "tail": "0300000000b09e1447000000"
+                },
+                {
+                  "text": "C:\\Users\\KEVINH~1\\AppData\\Local\\Temp\\~0xDDB7.tmp",
+                  "tail": "0300000000b09e1447000000"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "truncation": {
+      "rejected": 4,
+      "accepted": 0
+    }
+  }
+]

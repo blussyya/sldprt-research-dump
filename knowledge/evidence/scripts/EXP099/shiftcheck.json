@@ -1,0 +1,113 @@
+{
+ "control_A_B": {
+  "records": 13533,
+  "byShift": {
+   "0": {
+    "pass": 13533,
+    "why": {}
+   },
+   "1": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "2": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "4": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "8": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "12": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "16": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "-16": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "-12": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "-8": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "-4": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "-2": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   },
+   "-1": {
+    "pass": 0,
+    "why": {
+     "tag": 13533
+    }
+   }
+  }
+ },
+ "oddRecords": {
+  "records": 56,
+  "pass": 0,
+  "why": {
+   "tag": 56
+  }
+ },
+ "startShift": {
+  "records": 13533,
+  "byShift": {
+   "1": {
+    "readerAcceptsOrChecksPass": 0
+   },
+   "4": {
+    "readerAcceptsOrChecksPass": 0
+   },
+   "8": {
+    "readerAcceptsOrChecksPass": 0
+   },
+   "-8": {
+    "readerAcceptsOrChecksPass": 0
+   },
+   "-4": {
+    "readerAcceptsOrChecksPass": 0
+   },
+   "-1": {
+    "readerAcceptsOrChecksPass": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,11 @@
+distinct files 178 files with at most one nonzero gap size 178 gaps: zero 5983 nonzero 1734 sizes 85..100
+filler before the first header 255..900 bytes; a whole multiple of the file's gap size in 178 files
+stamp constant within file 0 distinct stamps 114
+7deeffdf -> 2042-15-14 31:62:62
+c330bcd0 -> 2077-9-16 23:38:32
+fdff7fdf -> 2106-15-31 15:62:62
+fd6bffdf -> 2106-11-11 31:62:62
+ff73ffdf -> 2107-11-19 31:62:62
+35d5f8b3 -> 2006-14-21 31:5:38
+4f5e7fdf -> 2019-10-30 15:62:62
+19fb7343 -> 1992-15-27 14:26:6

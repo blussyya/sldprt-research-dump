@@ -1,0 +1,9 @@
+9821 dev: reported error 5.584e-9  ctrl=97 (3213ms) type bspline deg 3
+9821 branch: reported error 1.538e-8  ctrl=97 (5204ms) type bspline deg 3
+  dev vs branch curve: ctrl 97/97, max pointwise diff over 4001 samples 1.02e-13
+  [dev  ] true distance max 7.884e-8 at interval 93/94 t=0.999997; 376 samples; worst exact-point residual |g| 1.0e-17
+  (31792ms)
+  [branch] true distance max 9.745e-8 at interval 93/94 t=0.999997; 376 samples; worst exact-point residual |g| 1.3e-17
+  [control: branch shifted 1e-8] true distance max 7.746e-8 at interval 93/94 t=0.999997; 376 samples; worst exact-point residual |g| 1.1e-17
+  [control: branch shifted 3e-8] true distance max 7.653e-8 at interval 93/94 t=0.999997; 376 samples; worst exact-point residual |g| 1.4e-17
+[{"id":9821,"dev":7.88416605441433e-8,"branch":9.744867535932903e-8}]

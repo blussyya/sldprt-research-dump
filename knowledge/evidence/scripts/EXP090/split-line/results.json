@@ -1,0 +1,360 @@
+{
+  "runs": [
+    {
+      "era": "SW2011",
+      "base": {
+        "file": "test files new/SW2011/C00_cube_10mm/model.SLDPRT",
+        "sha256": "7054cfc0fb771980a2170df80a8fc38718225a2d193213834245334257604bf5",
+        "faces": 6
+      },
+      "split": {
+        "file": "test files new/SW2011/C18_cube_split_line/model.SLDPRT",
+        "sha256": "68faf7994a15211583554edb8e46ba30258c20e803380fbd1d8a8683e8f0d583",
+        "faces": 7
+      },
+      "newTop": [
+        {
+          "id": 143,
+          "label": "+Z low",
+          "edges": [
+            140,
+            135,
+            7,
+            10
+          ]
+        }
+      ],
+      "sides": [
+        {
+          "side": "-X",
+          "baseRawId": null,
+          "splitRawId": null,
+          "verticesBefore": 4,
+          "verticesAfter": 5,
+          "verticesIdentical": false,
+          "block1Before": [
+            1,
+            4,
+            77,
+            0,
+            74,
+            57
+          ],
+          "block1After": [
+            1,
+            74,
+            4,
+            0,
+            57,
+            0,
+            135,
+            77
+          ],
+          "block1Identical": false,
+          "rawMatches": true,
+          "nativeId": 85,
+          "nativeEdges": [
+            57,
+            77,
+            135,
+            4,
+            74
+          ],
+          "sharedWithNewTop": [
+            135
+          ]
+        },
+        {
+          "side": "+X",
+          "baseRawId": null,
+          "splitRawId": null,
+          "verticesBefore": 4,
+          "verticesAfter": 5,
+          "verticesIdentical": false,
+          "block1Before": [
+            1,
+            10,
+            75,
+            0,
+            76,
+            49
+          ],
+          "block1After": [
+            1,
+            76,
+            10,
+            0,
+            49,
+            0,
+            138,
+            75
+          ],
+          "block1Identical": false,
+          "rawMatches": true,
+          "nativeId": 81,
+          "nativeEdges": [
+            49,
+            75,
+            138,
+            10,
+            76
+          ],
+          "sharedWithNewTop": [
+            10
+          ]
+        },
+        {
+          "side": "-Y",
+          "baseRawId": null,
+          "splitRawId": null,
+          "verticesBefore": 4,
+          "verticesAfter": 4,
+          "verticesIdentical": true,
+          "block1Before": [
+            1,
+            7,
+            76,
+            0,
+            77,
+            53
+          ],
+          "block1After": [
+            1,
+            7,
+            76,
+            0,
+            77,
+            53
+          ],
+          "block1Identical": true,
+          "rawMatches": true,
+          "nativeId": 83,
+          "nativeEdges": [
+            53,
+            76,
+            7,
+            77
+          ],
+          "sharedWithNewTop": [
+            7
+          ]
+        },
+        {
+          "side": "+Y",
+          "baseRawId": null,
+          "splitRawId": null,
+          "verticesBefore": 4,
+          "verticesAfter": 4,
+          "verticesIdentical": true,
+          "block1Before": [
+            1,
+            13,
+            74,
+            0,
+            75,
+            45
+          ],
+          "block1After": [
+            1,
+            13,
+            74,
+            0,
+            75,
+            45
+          ],
+          "block1Identical": true,
+          "rawMatches": true,
+          "nativeId": 79,
+          "nativeEdges": [
+            45,
+            74,
+            13,
+            75
+          ],
+          "sharedWithNewTop": []
+        }
+      ]
+    },
+    {
+      "era": "SW2022",
+      "base": {
+        "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+        "sha256": "ecef0ce6fbcfb101dfd6000ce32b7cf56ff560bc8f200ac33dc52b7cac1fa4d5",
+        "faces": 6
+      },
+      "split": {
+        "file": "test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+        "sha256": "9fb2105af09af974e38550fc698aca9874a6e9dff775b2d1bdb07ea983567076",
+        "faces": 7
+      },
+      "newTop": [
+        {
+          "id": 148,
+          "label": "+Z low",
+          "edges": [
+            145,
+            140,
+            9,
+            13
+          ]
+        }
+      ],
+      "sides": [
+        {
+          "side": "-X",
+          "baseRawId": 90,
+          "splitRawId": 90,
+          "verticesBefore": 4,
+          "verticesAfter": 5,
+          "verticesIdentical": false,
+          "block1Before": [
+            1,
+            5,
+            82,
+            0,
+            79,
+            62
+          ],
+          "block1After": [
+            1,
+            79,
+            5,
+            0,
+            62,
+            0,
+            140,
+            82
+          ],
+          "block1Identical": false,
+          "rawMatches": true,
+          "nativeId": 90,
+          "nativeEdges": [
+            62,
+            82,
+            140,
+            5,
+            79
+          ],
+          "sharedWithNewTop": [
+            140
+          ]
+        },
+        {
+          "side": "+X",
+          "baseRawId": 86,
+          "splitRawId": 86,
+          "verticesBefore": 4,
+          "verticesAfter": 5,
+          "verticesIdentical": false,
+          "block1Before": [
+            1,
+            13,
+            80,
+            0,
+            81,
+            54
+          ],
+          "block1After": [
+            1,
+            81,
+            13,
+            0,
+            54,
+            0,
+            143,
+            80
+          ],
+          "block1Identical": false,
+          "rawMatches": true,
+          "nativeId": 86,
+          "nativeEdges": [
+            54,
+            80,
+            143,
+            13,
+            81
+          ],
+          "sharedWithNewTop": [
+            13
+          ]
+        },
+        {
+          "side": "-Y",
+          "baseRawId": 88,
+          "splitRawId": 88,
+          "verticesBefore": 4,
+          "verticesAfter": 4,
+          "verticesIdentical": true,
+          "block1Before": [
+            1,
+            9,
+            81,
+            0,
+            82,
+            58
+          ],
+          "block1After": [
+            1,
+            9,
+            81,
+            0,
+            82,
+            58
+          ],
+          "block1Identical": true,
+          "rawMatches": true,
+          "nativeId": 88,
+          "nativeEdges": [
+            58,
+            81,
+            9,
+            82
+          ],
+          "sharedWithNewTop": [
+            9
+          ]
+        },
+        {
+          "side": "+Y",
+          "baseRawId": 84,
+          "splitRawId": 84,
+          "verticesBefore": 4,
+          "verticesAfter": 4,
+          "verticesIdentical": true,
+          "block1Before": [
+            1,
+            17,
+            79,
+            0,
+            80,
+            50
+          ],
+          "block1After": [
+            1,
+            17,
+            79,
+            0,
+            80,
+            50
+          ],
+          "block1Identical": true,
+          "rawMatches": true,
+          "nativeId": 84,
+          "nativeEdges": [
+            50,
+            79,
+            17,
+            80
+          ],
+          "sharedWithNewTop": []
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "eras": 2,
+    "newFaceAdjacencyUnchanged": 2,
+    "boundaryChangedAndBlock1Changed": 4,
+    "rawMismatches": 0
+  }
+}

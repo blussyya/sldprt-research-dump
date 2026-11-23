@@ -1,0 +1,5 @@
+Counter({'datagap_bytes': 264845, 'dirtail_bytes': 140823, 'trail_bytes': 87438, 'datagap': 1949, 'inflate_in_gap': 405, 'dirtail': 181, 'trail': 181})
+Counter()
+first local ro offsets [(624, 5), (845, 4), (305, 4)]
+gapbytes/total 493106 60646943
+[('/home/user/sldprt-research-dump/package/samples/sw2022/C00_cube_10mm.SLDPRT', 371, 32), ('/home/user/sldprt-research-dump/package/samples/sw2022/C00_cube_10mm.SLDPRT', 1734, 17), ('/home/user/sldprt-research-dump/package/samples/sw2022/C00_cube_10mm.SLDPRT', 6987, 55), ('/home/user/sldprt-research-dump/package/samples/sw2022/C00_cube_10mm.SLDPRT', 8425, 26), ('/home/user/sldprt-research-dump/package/samples/sw2022/C00_cube_10mm.SLDPRT', 9268, 66)]

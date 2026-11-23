@@ -1,0 +1,222 @@
+{"file":"test files new/SW2011/C00_cube_10mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C01_cube_20mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C02_cube_translated/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C06_cube_hole_moved/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C07_cube_two_holes/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C13_cone/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C14_sphere/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C15_torus/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C16_loft_spline/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C17_torus_quarter/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C18_cube_split_line/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C19_half_cylinder/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C20_cylinders_crossed/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C21_cylinder_fillet/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C00_cube_10mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C01_cube_20mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C02_cube_translated/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C06_cube_hole_moved/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C07_cube_two_holes/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C13_cone/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C14_sphere/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C15_torus/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C16_loft_spline/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C17_torus_quarter/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C18_cube_split_line/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C19_half_cylinder/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C20_cylinders_crossed/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C21_cylinder_fillet/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/SW2026/cylinder with fillet-2026-credit-kevinR.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/re-exports/C00_cube_10mm-2011-to-2026/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/re-exports/C01_cube_20mm-2011-to-2026/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/re-exports/holefillets1-2022to2026reexport-Furthen64-kevinR.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/re-exports/plate4 1997to2025kevin.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files new/re-exports/plate4-1997to2026kevinrahhal.sldprt","n":1,"skip":"single partition"}
+{"file":"test files online/2007/05187d94_ChainCL_In.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2010/065f38b0_等径四节弯头-4.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2011/6ff6c243_通气塞.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2011/e1f38af5_0000380-01.sldprt","n":1,"skip":"single partition"}
+{"file":"test files online/2013/82981f2a_head_back.sldprt","n":1,"skip":"single partition"}
+{"file":"test files online/2013/92c393f4_camera_support.sldprt","n":1,"skip":"single partition"}
+{"file":"test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt","n":1,"skip":"single partition"}
+{"file":"test files online/2013/f666f342_head_face.sldprt","n":1,"skip":"single partition"}
+{"file":"test files online/2014/300f9732_Carter2019.SLDPRT","candidates":2,"chosenBy":"lowest","active":"Config-0-Partition","picks":{},"orders":{},"headMs":20988.586908,"fits":[],"displayFaces":92,"headPick":null,"rows":[{"name":"Config-0-Partition","faces":92,"gap":2.4999999986841104e-8},{"name":"Config-1-Partition","faces":46}],"OLDPick":null,"OLDMatches":[],"FULLPick":null,"FULLMatches":[],"orderPicks":{"fwd":null,"rev":null,"shuf0":null,"shuf1":null,"shuf2":null,"shuf3":null,"shuf4":null,"shuf5":null,"shuf6":null,"shuf7":null,"shuf8":null,"shuf9":null},"distinctPicks":[null]}
+{"file":"test files online/2014/68cd51b6_20190309-0049.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT","candidates":25,"chosenBy":"lowest","active":"Contents/Config-0-Partition","picks":{},"orders":{},"headMs":67191.95891,"fits":["Contents/Config-268-Partition"],"displayFaces":22,"headPick":"Contents/Config-268-Partition","rows":[{"name":"Contents/Config-0-Partition","faces":22,"gap":0.056000000000000015},{"name":"Contents/Config-1-Partition","faces":30},{"name":"Contents/Config-2-Partition","faces":30},{"name":"Contents/Config-4-Partition","faces":22,"gap":0.045000000000000026},{"name":"Contents/Config-30-Partition","faces":22,"gap":0.056000000000000015},{"name":"Contents/Config-59-Partition","faces":20},{"name":"Contents/Config-173-Partition","faces":20},{"name":"Contents/Config-174-Partition","faces":20},{"name":"Contents/Config-175-Partition","faces":22,"gap":0.04500000000000002},{"name":"Contents/Config-176-Partition","faces":22,"gap":0.025000000000000022},{"name":"Contents/Config-177-Partition","faces":22,"gap":0.016092926104693733},{"name":"Contents/Config-180-Partition","faces":22,"gap":0.03500000000000002},{"name":"Contents/Config-181-Partition","faces":22,"gap":0.004999999999999984},{"name":"Contents/Config-185-Partition","faces":22,"gap":0.023000000000000013},{"name":"Contents/Config-187-Partition","faces":22,"gap":0.03999999999999998},{"name":"Contents/Config-201-Partition","faces":18},{"name":"Contents/Config-202-Partition","faces":18},{"name":"Contents/Config-203-Partition","faces":18},{"name":"Contents/Config-207-Partition","faces":22,"gap":0.016092926104693733},{"name":"Contents/Config-209-Partition","faces":22,"gap":0.03500000000000002},{"name":"Contents/Config-211-Partition","faces":22,"gap":0.024999999999999994},{"name":"Contents/Config-218-Partition","faces":22,"gap":0.11499999999999999},{"name":"Contents/Config-222-Partition","faces":22,"gap":0.06499999999999997},{"name":"Contents/Config-230-Partition","faces":20},{"name":"Contents/Config-268-Partition","faces":22,"gap":0}],"OLDPick":"Contents/Config-268-Partition","OLDMatches":["Contents/Config-268-Partition"],"FULLPick":"Contents/Config-268-Partition","FULLMatches":["Contents/Config-268-Partition"],"orderPicks":{"fwd":"Contents/Config-268-Partition","rev":"Contents/Config-268-Partition","shuf0":"Contents/Config-268-Partition","shuf1":"Contents/Config-268-Partition","shuf2":"Contents/Config-268-Partition","shuf3":"Contents/Config-268-Partition","shuf4":"Contents/Config-268-Partition","shuf5":"Contents/Config-268-Partition","shuf6":"Contents/Config-268-Partition","shuf7":"Contents/Config-268-Partition","shuf8":"Contents/Config-268-Partition","shuf9":"Contents/Config-268-Partition"},"distinctPicks":["Contents/Config-268-Partition"]}
+{"file":"test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT","candidates":2,"chosenBy":"lowest","active":"Contents/Config-1-Partition","picks":{},"orders":{},"headMs":69.032299,"fits":["Contents/Config-21-Partition"],"displayFaces":18,"headPick":"Contents/Config-21-Partition","rows":[{"name":"Contents/Config-1-Partition","faces":18,"gap":0.00010000000000001674},{"name":"Contents/Config-21-Partition","faces":18,"gap":0}],"OLDPick":"Contents/Config-21-Partition","OLDMatches":["Contents/Config-21-Partition"],"FULLPick":"Contents/Config-21-Partition","FULLMatches":["Contents/Config-21-Partition"],"orderPicks":{"fwd":"Contents/Config-21-Partition","rev":"Contents/Config-21-Partition","shuf0":"Contents/Config-21-Partition","shuf1":"Contents/Config-21-Partition","shuf2":"Contents/Config-21-Partition","shuf3":"Contents/Config-21-Partition","shuf4":"Contents/Config-21-Partition","shuf5":"Contents/Config-21-Partition","shuf6":"Contents/Config-21-Partition","shuf7":"Contents/Config-21-Partition","shuf8":"Contents/Config-21-Partition","shuf9":"Contents/Config-21-Partition"},"distinctPicks":["Contents/Config-21-Partition"]}
+{"file":"test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT","candidates":6,"chosenBy":"lowest","active":"Contents/Config-0-Partition","picks":{},"orders":{},"headMs":65.821374,"fits":["Contents/Config-0-Partition","Contents/Config-1-Partition","Contents/Config-4-Partition"],"displayFaces":3,"headPick":"Contents/Config-0-Partition","rows":[{"name":"Contents/Config-0-Partition","faces":3,"gap":0,"residual":{"pos":1.940752758153308e-10,"ang":4.2146848510894035e-8}},{"name":"Contents/Config-1-Partition","faces":3,"gap":0,"residual":{"pos":1.940752758153308e-10,"ang":4.2146848510894035e-8}},{"name":"Contents/Config-2-Partition","faces":3,"gap":0.0007500000000000007},{"name":"Contents/Config-3-Partition","faces":3,"gap":0.013000000000000001},{"name":"Contents/Config-4-Partition","faces":3,"gap":0,"residual":{"pos":1.940752758153308e-10,"ang":4.2146848510894035e-8}},{"name":"Contents/Config-6-Partition","faces":3,"gap":0.013000000000000001}],"OLDPick":"Contents/Config-0-Partition","OLDMatches":["Contents/Config-0-Partition","Contents/Config-1-Partition","Contents/Config-4-Partition"],"FULLPick":"Contents/Config-0-Partition","FULLMatches":["Contents/Config-0-Partition","Contents/Config-1-Partition","Contents/Config-4-Partition"],"orderPicks":{"fwd":"Contents/Config-0-Partition","rev":"Contents/Config-4-Partition","shuf0":"Contents/Config-4-Partition","shuf1":"Contents/Config-0-Partition","shuf2":"Contents/Config-4-Partition","shuf3":"Contents/Config-0-Partition","shuf4":"Contents/Config-4-Partition","shuf5":"Contents/Config-4-Partition","shuf6":"Contents/Config-1-Partition","shuf7":"Contents/Config-0-Partition","shuf8":"Contents/Config-0-Partition","shuf9":"Contents/Config-0-Partition"},"distinctPicks":["Contents/Config-0-Partition","Contents/Config-4-Partition","Contents/Config-1-Partition"]}
+{"file":"test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT","candidates":7,"chosenBy":"lowest","active":"Contents/Config-0-Partition","picks":{},"orders":{},"headMs":69.135693,"fits":["Contents/Config-0-Partition","Contents/Config-1-Partition","Contents/Config-4-Partition"],"displayFaces":18,"headPick":"Contents/Config-0-Partition","rows":[{"name":"Contents/Config-0-Partition","faces":18,"gap":0,"residual":{"pos":1.6831219041594298e-9,"ang":3.3618552007313166e-7}},{"name":"Contents/Config-1-Partition","faces":18,"gap":0,"residual":{"pos":1.6831219041594298e-9,"ang":3.3618552007313166e-7}},{"name":"Contents/Config-2-Partition","faces":18,"gap":0.010000000000000009},{"name":"Contents/Config-3-Partition","faces":18,"gap":0.029501506083298233},{"name":"Contents/Config-4-Partition","faces":18,"gap":0,"residual":{"pos":1.6831219041594298e-9,"ang":3.3618552007313166e-7}},{"name":"Contents/Config-5-Partition","faces":18,"gap":0.010000000000000009},{"name":"Contents/Config-6-Partition","faces":18,"gap":0.029501506083298233}],"OLDPick":"Contents/Config-0-Partition","OLDMatches":["Contents/Config-0-Partition","Contents/Config-1-Partition","Contents/Config-4-Partition"],"FULLPick":"Contents/Config-0-Partition","FULLMatches":["Contents/Config-0-Partition","Contents/Config-1-Partition","Contents/Config-4-Partition"],"orderPicks":{"fwd":"Contents/Config-0-Partition","rev":"Contents/Config-4-Partition","shuf0":"Contents/Config-1-Partition","shuf1":"Contents/Config-4-Partition","shuf2":"Contents/Config-4-Partition","shuf3":"Contents/Config-4-Partition","shuf4":"Contents/Config-1-Partition","shuf5":"Contents/Config-0-Partition","shuf6":"Contents/Config-1-Partition","shuf7":"Contents/Config-1-Partition","shuf8":"Contents/Config-1-Partition","shuf9":"Contents/Config-0-Partition"},"distinctPicks":["Contents/Config-0-Partition","Contents/Config-4-Partition","Contents/Config-1-Partition"]}
+{"file":"test files online/2017/3b48d9c5_Body10.sldprt","n":1,"skip":"single partition"}
+{"file":"test files online/2017/4df87793_21BC-S 1.19-A.sldprt","n":1,"skip":"single partition"}
+{"file":"test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2017/516a7dc5_Body1.sldprt","candidates":2,"chosenBy":"lowest","active":"Contents/Config-0-Partition","picks":{},"orders":{},"headMs":18.122851,"fits":["Contents/Config-0-Partition","Contents/Config-1-Partition"],"displayFaces":8,"headPick":"Contents/Config-0-Partition","rows":[{"name":"Contents/Config-0-Partition","faces":8,"gap":0,"residual":{"pos":3.807546387554761e-10,"ang":1.4901161193847656e-8}},{"name":"Contents/Config-1-Partition","faces":8,"gap":0,"residual":{"pos":3.807546387554761e-10,"ang":1.4901161193847656e-8}}],"OLDPick":"Contents/Config-0-Partition","OLDMatches":["Contents/Config-0-Partition","Contents/Config-1-Partition"],"FULLPick":"Contents/Config-0-Partition","FULLMatches":["Contents/Config-0-Partition","Contents/Config-1-Partition"],"orderPicks":{"fwd":"Contents/Config-0-Partition","rev":"Contents/Config-1-Partition","shuf0":"Contents/Config-1-Partition","shuf1":"Contents/Config-1-Partition","shuf2":"Contents/Config-0-Partition","shuf3":"Contents/Config-1-Partition","shuf4":"Contents/Config-1-Partition","shuf5":"Contents/Config-0-Partition","shuf6":"Contents/Config-0-Partition","shuf7":"Contents/Config-0-Partition","shuf8":"Contents/Config-1-Partition","shuf9":"Contents/Config-1-Partition"},"distinctPicks":["Contents/Config-0-Partition","Contents/Config-1-Partition"]}
+{"file":"test files online/2017/afc71d14_Body2.sldprt","candidates":2,"chosenBy":"lowest","active":"Contents/Config-0-Partition","picks":{},"orders":{},"headMs":25.032558,"fits":["Contents/Config-0-Partition","Contents/Config-1-Partition"],"displayFaces":24,"headPick":"Contents/Config-0-Partition","rows":[{"name":"Contents/Config-0-Partition","faces":24,"gap":0,"residual":{"pos":7.845163338404681e-10,"ang":6.206830024617572e-7}},{"name":"Contents/Config-1-Partition","faces":24,"gap":0,"residual":{"pos":7.845163338404681e-10,"ang":6.206830024617572e-7}}],"OLDPick":"Contents/Config-0-Partition","OLDMatches":["Contents/Config-0-Partition","Contents/Config-1-Partition"],"FULLPick":"Contents/Config-0-Partition","FULLMatches":["Contents/Config-0-Partition","Contents/Config-1-Partition"],"orderPicks":{"fwd":"Contents/Config-0-Partition","rev":"Contents/Config-1-Partition","shuf0":"Contents/Config-0-Partition","shuf1":"Contents/Config-1-Partition","shuf2":"Contents/Config-1-Partition","shuf3":"Contents/Config-0-Partition","shuf4":"Contents/Config-0-Partition","shuf5":"Contents/Config-0-Partition","shuf6":"Contents/Config-1-Partition","shuf7":"Contents/Config-1-Partition","shuf8":"Contents/Config-1-Partition","shuf9":"Contents/Config-0-Partition"},"distinctPicks":["Contents/Config-0-Partition","Contents/Config-1-Partition"]}
+{"file":"test files online/2017/d49566bc_AntennaMount.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2018/0132519a_102_STEM.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2018/06b5063b_050_MASTER_SKETCH.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2018/15567d51_leva1.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2018/361e7dbb_101_HOUSING.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2018/ca465363_103_COVER.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2018/d2515121_Ecran_128x32oled.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/07ff8da1_shelf.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/096d0504_MargayMount_WH10.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/27377fd2_FE-00006-06.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/28398415_Raspberry Pi 4.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/300d7f07_Bottom Case.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/44afdb7c_back_cushion.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/54b05886_bottom_adc.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/636b653d_MountingBracket.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/7765d286_NSJ8L.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/8cd79ff5_1ESxx.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/91a2d981_Camera Module.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/a3a44709_FrontPanel-Bezel.sldprt","n":1,"skip":"single partition"}
+{"file":"test files online/2019/d381ebab_bottom_dac.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/e8c40c25_psu.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2019/fb449daa_Gloworm PCB.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2020/14f9214b_11.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2020/34fe5ff1_Group_44390.stp.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2020/7841a106_6344428.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2020/9494d959_27_20_4.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2020/b185085c_Handle 3.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2020/b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2021/60f84235_2022_10_06_17_02_43_0612.stp.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2021/85aabbde_84T Gear.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2021/916d4a0a_36T Gear.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2021/bc3292d7_12T Gear.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2021/eb0b2a21_60T Gear.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/1ee60868_z轴皮带固定.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/24344735_080-1926-000_3.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/273a8d53_FG-F1.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/3980555c_RASPBERRY_PI_5+cooler-5.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/40e79d45_Fins.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/84226163_Fin.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/9cc04b03_SO-C1.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/a0fc2e29_Vertical Spar.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/ceefa2a9_CRP320-05.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/d753195d_ServoMount.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/db8a97e2_écrou fileté M5.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/dc265ce1_Fin.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/dd156283_637Z flanzi bearing.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2022/f8c2df35_2023_10_16_23_28_17_0357_body1.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/03764871_BME280.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/2f121983_case.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/2fd21507_MidplateEM2.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/41b71219_板材-Guidance安装板.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/4803f393_box.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/d2f7f9bd_iman.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/d77ec77a_TopSheet.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2023/ef1d5cfe_DS3231.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/03afebf4_Profilringe.SLDPRT","candidates":2,"chosenBy":"Header2","active":"Contents/Config-7-Partition","picks":{},"orders":{},"headMs":42.559072,"fits":["Contents/Config-7-Partition"],"displayFaces":7,"headPick":"Contents/Config-7-Partition","rows":[{"name":"Contents/Config-1-Partition","faces":7,"gap":0.0013},{"name":"Contents/Config-7-Partition","faces":7,"gap":1.0408340855860843e-17}],"OLDPick":"Contents/Config-7-Partition","OLDMatches":["Contents/Config-7-Partition"],"FULLPick":"Contents/Config-7-Partition","FULLMatches":["Contents/Config-7-Partition"],"orderPicks":{"fwd":"Contents/Config-7-Partition","rev":"Contents/Config-7-Partition","shuf0":"Contents/Config-7-Partition","shuf1":"Contents/Config-7-Partition","shuf2":"Contents/Config-7-Partition","shuf3":"Contents/Config-7-Partition","shuf4":"Contents/Config-7-Partition","shuf5":"Contents/Config-7-Partition","shuf6":"Contents/Config-7-Partition","shuf7":"Contents/Config-7-Partition","shuf8":"Contents/Config-7-Partition","shuf9":"Contents/Config-7-Partition"},"distinctPicks":["Contents/Config-7-Partition"]}
+{"file":"test files online/2024/09d353a9_Elbow_Mount2.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/1e794aad_6344387.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/225c13ed_camholder0deg.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/2300f35c_Thigh Symétrie.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/37663d8a_Gasket For M12.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/4febfc67_6344149.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/871e670c_servo_adapter.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/951f2bc1_Boitier.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2024/f750218b_612-00002.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/05d0b4c3_pin-2-2.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/3e41786b_LB26001-A-04-002_seed.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/55c163ac_pin-1-2.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/6fd68589_pin-2-1.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/822f5572_一级挡块-hhr镂空限位.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/8aaecde6_6008内圈下加工件.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/ac760485_存矿小端.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/c613782b_Крепёжная-Планка.SLDPRT","candidates":4,"chosenBy":"Header2","active":"Contents/Config-3-Partition","picks":{},"orders":{},"headMs":412.47728,"fits":["Contents/Config-3-Partition"],"displayFaces":13,"headPick":"Contents/Config-3-Partition","rows":[{"name":"Contents/Config-0-Partition","faces":378},{"name":"Contents/Config-1-Partition","faces":318},{"name":"Contents/Config-2-Partition","faces":777},{"name":"Contents/Config-3-Partition","faces":13,"gap":0}],"OLDPick":"Contents/Config-3-Partition","OLDMatches":["Contents/Config-3-Partition"],"FULLPick":"Contents/Config-3-Partition","FULLMatches":["Contents/Config-3-Partition"],"orderPicks":{"fwd":"Contents/Config-3-Partition","rev":"Contents/Config-3-Partition","shuf0":"Contents/Config-3-Partition","shuf1":"Contents/Config-3-Partition","shuf2":"Contents/Config-3-Partition","shuf3":"Contents/Config-3-Partition","shuf4":"Contents/Config-3-Partition","shuf5":"Contents/Config-3-Partition","shuf6":"Contents/Config-3-Partition","shuf7":"Contents/Config-3-Partition","shuf8":"Contents/Config-3-Partition","shuf9":"Contents/Config-3-Partition"},"distinctPicks":["Contents/Config-3-Partition"]}
+{"file":"test files online/2025/e8f16581_Engine Base.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2026/4d85599e_base-M4.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/2026/daa6e9e9_CR26-201-08.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files online/not-a-part/10582557_9271K109_Torsion Spring.SLDPRT","skip":"no primary: No Config-N-Partition stream"}
+{"file":"test files online/not-a-part/34a1cacb_91202A226_Zinc-Plated Steel Split Lock Washer.Sldprt","skip":"no primary: No Config-N-Partition stream"}
+{"file":"test files online/not-a-part/8ac95686_separadores.SLDPRT","skip":"no primary: No Config-N-Partition stream"}
+{"file":"test files online/not-a-part/9e494ca4_91169A160_Steel Split Lock Washer.SLDPRT","skip":"no primary: No Config-N-Partition stream"}
+{"file":"test files online/not-a-part/d7b58324_small_motor.rev1.SLDPRT","skip":"no primary: No Config-N-Partition stream"}
+{"file":"test files original/Dekor.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/Helical Bevel Gear.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/PTC GE8080-8.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/Pocket Wheel.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/SW2000-s01.SLDPRT","skip":"no primary: No Config-N-Partition stream"}
+{"file":"test files original/chainwheel.sldprt","skip":"no primary: No Config-N-Partition stream"}
+{"file":"test files original/controlled/C00_cube_10mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C01_cube_20mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C02_cube_translated/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C04_cube_hole_5mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C05_cube_hole_3mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C06_cube_hole_moved/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C07_cube_two_holes/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C10_cube_shell_1mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C11_cube_hole_4mm/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/cube.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/distributor main boss rev a.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/plate4.sldprt","skip":"no primary: No Config-N-Partition stream"}
+{"file":"test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT","n":1,"skip":"single partition"}
+{"file":"test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT","n":1,"skip":"single partition"}

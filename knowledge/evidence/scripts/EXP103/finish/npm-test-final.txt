@@ -1,0 +1,558 @@
+
+> sldprt@0.5.0 test
+> node test/run.js
+
+TAP version 13
+# Subtest: decodes the reference stream from zlib contrib/blast
+ok 1 - decodes the reference stream from zlib contrib/blast
+  ---
+  duration_ms: 1.160443
+  type: 'test'
+  ...
+# Subtest: rejects bad headers, truncation and impossible distances
+ok 2 - rejects bad headers, truncation and impossible distances
+  ---
+  duration_ms: 0.553343
+  type: 'test'
+  ...
+# Subtest: 49 controlled models: native body = SolidWorks STEP export
+ok 3 - 49 controlled models: native body = SolidWorks STEP export
+  ---
+  duration_ms: 2596.433445
+  type: 'test'
+  ...
+# 49 models; 287 native faces = 331 STEP faces after 90 seams; worst deviation m: vertex 2.5e-18, edge 9.0e-18, surface 3.9e-18, length 4.2e-17
+# Subtest: controls: the comparison catches every mutation and every wrong model
+ok 4 - controls: the comparison catches every mutation and every wrong model
+  ---
+  duration_ms: 3042.405951
+  type: 'test'
+  ...
+# 20/20 controls caught
+# Subtest: re-exports keep the body they were saved from
+ok 5 - re-exports keep the body they were saved from
+  ---
+  duration_ms: 1793.043349
+  type: 'test'
+  ...
+# Subtest: community parts read: B-rep and display mesh agree
+ok 6 - community parts read: B-rep and display mesh agree
+  ---
+  duration_ms: 166.015232
+  type: 'test'
+  ...
+# Subtest: the directory lists the same streams as the scan, in the same order
+ok 7 - the directory lists the same streams as the scan, in the same order
+  ---
+  duration_ms: 126.474998
+  type: 'test'
+  ...
+# 3 files, 120 directory entries
+# Subtest: a damaged directory record is rejected and the scan takes over
+ok 8 - a damaged directory record is rejected and the scan takes over
+  ---
+  duration_ms: 35.254731
+  type: 'test'
+  ...
+# Subtest: a stream that fails its CRC stops the read
+ok 9 - a stream that fails its CRC stops the read
+  ---
+  duration_ms: 0.765778
+  type: 'test'
+  ...
+# Subtest: 13 controlled cubes: STL and STEP against SolidWorks exports
+ok 10 - 13 controlled cubes: STL and STEP against SolidWorks exports
+  ---
+  duration_ms: 308.537379
+  type: 'test'
+  ...
+# C00_cube_10mm                  STL EXACT                          vol 1000 (SolidWorks STL 1000)  STEP 6 planes + 0 faceted
+# C01_cube_20mm                  STL EXACT                          vol 8000 (SolidWorks STL 8000)  STEP 6 planes + 0 faceted
+# C02_cube_translated            STL EXACT                          vol 1000 (SolidWorks STL 1000)  STEP 6 planes + 0 faceted
+# C03_cube_fillet_1mm            STL RETESSELLATED                  vol 997.764569 (SolidWorks STL 997.821727)  STEP 6 planes + 1 faceted
+# C04_cube_hole_5mm              STL RETESSELLATED                  vol 804.766141 (SolidWorks STL 804.498746)  STEP 6 planes + 1 faceted
+# C05_cube_hole_3mm              STL RETESSELLATED                  vol 929.950432 (SolidWorks STL 929.653408)  STEP 6 planes + 1 faceted
+# C06_cube_hole_moved            STL RETESSELLATED                  vol 804.766135 (SolidWorks STL 804.498743)  STEP 6 planes + 1 faceted
+# C07_cube_two_holes             STL RETESSELLATED                  vol 609.53228 (SolidWorks STL 608.997499)  STEP 6 planes + 2 faceted
+# C08_cube_second_hole_modified  STL RETESSELLATED                  vol 734.716564 (SolidWorks STL 734.152168)  STEP 6 planes + 2 faceted
+# C09_cube_chamfer_1mm           STL SUPERSET (original incomplete) vol 995 (SolidWorks STL 995)  STEP 7 planes + 0 faceted
+# C10_cube_shell_1mm             STL EXACT                          vol 424 (SolidWorks STL 424)  STEP 11 planes + 0 faceted
+# C11_cube_hole_4mm              STL RETESSELLATED                  vol 875.194917 (SolidWorks STL 874.939394)  STEP 6 planes + 1 faceted
+# C12_cube_fillet_1mm_edge2      STL RETESSELLATED                  vol 997.764571 (SolidWorks STL 997.821723)  STEP 6 planes + 1 faceted
+# Subtest: merge keeps each section's own node_id beside the shifted one
+ok 11 - merge keeps each section's own node_id beside the shifted one
+  ---
+  duration_ms: 1.94355
+  type: 'test'
+  ...
+# Subtest: join: type, geometry and the unmatched cases, on a hand-built model
+ok 12 - join: type, geometry and the unmatched cases, on a hand-built model
+  ---
+  duration_ms: 0.710204
+  type: 'test'
+  ...
+# Subtest: 2f121983: id 253 names a cylinder in one body and a plane in another
+ok 13 - 2f121983: id 253 names a cylinder in one body and a plane in another
+  ---
+  duration_ms: 452.843389
+  type: 'test'
+  ...
+# Subtest: a4ecc6f5: LocalBodies faces join through their own ids, ids 2, 31 and 228 reach the right body
+ok 14 - a4ecc6f5: LocalBodies faces join through their own ids, ids 2, 31 and 228 reach the right body
+  ---
+  duration_ms: 1437.620052
+  type: 'test'
+  ...
+# Subtest: d2515121: 114 bodies, 2,512 display faces; the join agrees with the display's edge ids
+ok 15 - d2515121: 114 bodies, 2,512 display faces; the join agrees with the display's edge ids
+  ---
+  duration_ms: 1937.933873
+  type: 'test'
+  ...
+# Subtest: a shifted id mostly fails to join (control)
+ok 16 - a shifted id mostly fails to join (control)
+  ---
+  duration_ms: 1199.496185
+  type: 'test'
+  ...
+# Subtest: inspect: the mesh maps 2f121983's two id-253 faces to two different B-rep faces
+ok 17 - inspect: the mesh maps 2f121983's two id-253 faces to two different B-rep faces
+  ---
+  duration_ms: 383.632828
+  type: 'test'
+  ...
+# Subtest: every corpus file parses exactly as the golden record
+ok 18 - every corpus file parses exactly as the golden record
+  ---
+  duration_ms: 2450.079143
+  type: 'test'
+  ...
+# 73 files, 1762 faces, outputs identical to the golden record
+# Subtest: SW2011 legacy: 25 files, 145 faces, face counts as SolidWorks reports
+ok 19 - SW2011 legacy: 25 files, 145 faces, face counts as SolidWorks reports
+  ---
+  duration_ms: 41.288045
+  type: 'test'
+  ...
+# 25 files, 145 faces
+# Subtest: modern: 45 files, 1,414 faces, every one with a surface record
+ok 20 - modern: 45 files, 1,414 faces, every one with a surface record
+  ---
+  duration_ms: 1379.877777
+  type: 'test'
+  ...
+# 45 files, 1414 faces, 1414 surface records
+# Subtest: pre-2011 originals: DisplayLists__Zip and the Parasolid-9 layout (EXP-077)
+ok 21 - pre-2011 originals: DisplayLists__Zip and the Parasolid-9 layout (EXP-077)
+  ---
+  duration_ms: 37.297422
+  type: 'test'
+  ...
+# Subtest: browser inflater reproduces Node zlib on every file
+ok 22 - browser inflater reproduces Node zlib on every file
+  ---
+  duration_ms: 4979.54234
+  type: 'test'
+  ...
+# 80 files, identical parses
+# Subtest: upgraded part: empty edge table keeps the surface tag; a wrong table is refused
+ok 23 - upgraded part: empty edge table keeps the surface tag; a wrong table is refused
+  ---
+  duration_ms: 16.486863
+  type: 'test'
+  ...
+# Subtest: container: CRC-32 verified on every named stream; inflated size and name length as recorded
+ok 24 - container: CRC-32 verified on every named stream; inflated size and name length as recorded
+  ---
+  duration_ms: 1311.989383
+  type: 'test'
+  ...
+# 1730 streams kept; 1730 printable-named stream headers: CRC, inflated size and extra length all as recorded
+# Subtest: surface tags agree with the surface types SolidWorks reports (2022, natively authored)
+ok 25 - surface tags agree with the surface types SolidWorks reports (2022, natively authored)
+  ---
+  duration_ms: 268.599606
+  type: 'test'
+  ...
+# 23 models, 136 faces, tag multiset = SolidWorks' report
+# Subtest: strip triangles agree with stored normals; Block1 marks exactly the boundary edges
+ok 26 - strip triangles agree with stored normals; Block1 marks exactly the boundary edges
+  ---
+  duration_ms: 1547.305594
+  type: 'test'
+  ...
+# 50976 triangles agree with stored normals; 41010 boundary edges nonzero, 71037 interior edges zero
+# Subtest: legacy SW2011 mesh boxes equal the geometry-matched 2022 models
+ok 27 - legacy SW2011 mesh boxes equal the geometry-matched 2022 models
+  ---
+  duration_ms: 307.531527
+  type: 'test'
+  ...
+# 22 geometry-matched models, boxes equal within 2e-5 m
+# Subtest: records without an id block get no metadata
+ok 28 - records without an id block get no metadata
+  ---
+  duration_ms: 322.937198
+  type: 'test'
+  ...
+# Subtest: fitPoints: a bump between the cheap samples is fitted, not stepped over
+ok 29 - fitPoints: a bump between the cheap samples is fitted, not stepped over
+  ---
+  duration_ms: 47237.399031
+  type: 'test'
+  ...
+# Subtest: fitPoints: out of rounds before the dense pass, the error still includes it
+ok 30 - fitPoints: out of rounds before the dense pass, the error still includes it
+  ---
+  duration_ms: 22835.444653
+  type: 'test'
+  ...
+# Subtest: SP_CURVE ends: a vertex off the curve but within the edge tolerance is not pinned
+ok 31 - SP_CURVE ends: a vertex off the curve but within the edge tolerance is not pinned
+  ---
+  duration_ms: 66.70812
+  type: 'test'
+  ...
+# Subtest: B-spline surface past its edge: the cross term is the exact mixed derivative
+ok 32 - B-spline surface past its edge: the cross term is the exact mixed derivative
+  ---
+  duration_ms: 1.765352
+  type: 'test'
+  ...
+# Subtest: swept surface past the end of an open B-spline section: straight on; closed: unchanged
+ok 33 - swept surface past the end of an open B-spline section: straight on; closed: unchanged
+  ---
+  duration_ms: 1.527099
+  type: 'test'
+  ...
+# Subtest: release codes name the SolidWorks release
+ok 34 - release codes name the SolidWorks release
+  ---
+  duration_ms: 1.046268
+  type: 'test'
+  ...
+# Subtest: samples: SW2011 and SW2022 saves
+ok 35 - samples: SW2011 and SW2022 saves
+  ---
+  duration_ms: 74.832662
+  type: 'test'
+  ...
+# Subtest: real parts: every save, with its build year
+ok 36 - real parts: every save, with its build year
+  ---
+  duration_ms: 2628.697023
+  type: 'test'
+  ...
+# 9 real parts, saved from 1997 to 2024
+# Subtest: a file that is not a part is reported as one
+ok 37 - a file that is not a part is reported as one
+  ---
+  duration_ms: 16.116168
+  type: 'test'
+  ...
+# Subtest: round-trip fuzz over stored, fixed and dynamic blocks
+ok 38 - round-trip fuzz over stored, fixed and dynamic blocks
+  ---
+  duration_ms: 553.953902
+  type: 'test'
+  ...
+# 176 round-trips
+# Subtest: every modern DisplayLists stream decompresses identically
+ok 39 - every modern DisplayLists stream decompresses identically
+  ---
+  duration_ms: 2890.383814
+  type: 'test'
+  ...
+# 46 streams, 5055866 bytes, 0 differences
+# Subtest: inspect server: page, summary, mesh and face endpoints
+ok 40 - inspect server: page, summary, mesh and face endpoints
+  ---
+  duration_ms: 161.073036
+  type: 'test'
+  ...
+# Subtest: inspect: B-spline faces get an extension band marked separately
+ok 41 - inspect: B-spline faces get an extension band marked separately
+  ---
+  duration_ms: 33.063027
+  type: 'test'
+  ...
+# Subtest: helix forms: 163 is the surface helix, 184 the curve helix
+ok 42 - helix forms: 163 is the surface helix, 184 the curve helix
+  ---
+  duration_ms: 407.332258
+  type: 'test'
+  ...
+# Subtest: a body over 1 MiB is read from its chunks
+ok 43 - a body over 1 MiB is read from its chunks
+  ---
+  duration_ms: 1257.83259
+  type: 'test'
+  ...
+# Subtest: the configuration active at save time is the one read
+ok 44 - the configuration active at save time is the one read
+  ---
+  duration_ms: 286.876331
+  type: 'test'
+  ...
+# Subtest: without ModelHeaders the display picks the configuration (EXP-098)
+ok 45 - without ModelHeaders the display picks the configuration (EXP-098)
+  ---
+  duration_ms: 133581.496521
+  type: 'test'
+  ...
+# Subtest: LocalBodies are added unless SolidWorks marks them used up
+ok 46 - LocalBodies are added unless SolidWorks marks them used up
+  ---
+  duration_ms: 2695.478068
+  type: 'test'
+  ...
+# Subtest: DisplayLists without tessellation and cosmetic threads
+ok 47 - DisplayLists without tessellation and cosmetic threads
+  ---
+  duration_ms: 214.71538
+  type: 'test'
+  ...
+# Subtest: every online part: the B-rep reads with no graph failures
+ok 48 - every online part: the B-rep reads with no graph failures
+  ---
+  duration_ms: 164964.196844
+  type: 'test'
+  ...
+# 136 parts, 17 save years
+# Subtest: 98 SolidWorks X_T/X_B exports: typed parse to terminator, graph checks, text = binary
+ok 49 - 98 SolidWorks X_T/X_B exports: typed parse to terminator, graph checks, text = binary
+  ---
+  duration_ms: 221.869884
+  type: 'test'
+  ...
+# 49 pairs, 98 exports, 7000 binary nodes, 28428 graph checks
+# Subtest: 49 controlled SLDPRT: the embedded partition parses and matches the export face count
+ok 50 - 49 controlled SLDPRT: the embedded partition parses and matches the export face count
+  ---
+  duration_ms: 697.772097
+  type: 'test'
+  ...
+# 49 files, 8209 nodes, 287 faces, 14262 graph checks
+# Subtest: 21 modern originals: the body parses; PTC GE8080-8 is found in LocalBodies
+ok 51 - 21 modern originals: the body parses; PTC GE8080-8 is found in LocalBodies
+  ---
+  duration_ms: 2743.712919
+  type: 'test'
+  ...
+# 21 files, 43159 nodes, 1272 faces
+# Subtest: pre-2011 bodies: Config-0-Body (PKWARE, schema 13006) and bare binary (Parasolid 9) (EXP-077)
+ok 52 - pre-2011 bodies: Config-0-Body (PKWARE, schema 13006) and bare binary (Parasolid 9) (EXP-077)
+  ---
+  duration_ms: 84.056999
+  type: 'test'
+  ...
+# Subtest: display layer joins the native body: IDs, surface types, and the mesh lies on the surfaces
+ok 53 - display layer joins the native body: IDs, surface types, and the mesh lies on the surfaces
+  ---
+  duration_ms: 3073.058305
+  type: 'test'
+  ...
+# 1414 faces joined by ID, 1408 edge tables equal (+6 empty, C23), 1414 tags = native type, 796/1024 analytic faces fully on-surface
+# Subtest: display mesh: face counts, surface tags, closed meshes
+ok 54 - display mesh: face counts, surface tags, closed meshes
+  ---
+  duration_ms: 138.543026
+  type: 'test'
+  ...
+# Subtest: browser inflater gives the identical parse
+ok 55 - browser inflater gives the identical parse
+  ---
+  duration_ms: 213.325635
+  type: 'test'
+  ...
+# Subtest: native B-rep: census and graph checks
+ok 56 - native B-rep: census and graph checks
+  ---
+  duration_ms: 59.904551
+  type: 'test'
+  ...
+# Subtest: C00: decoded B-rep is the 10 mm cube at the origin
+ok 57 - C00: decoded B-rep is the 10 mm cube at the origin
+  ---
+  duration_ms: 10.867512
+  type: 'test'
+  ...
+# Subtest: display face IDs and edge IDs are native Parasolid node IDs
+ok 58 - display face IDs and edge IDs are native Parasolid node IDs
+  ---
+  duration_ms: 92.176558
+  type: 'test'
+  ...
+# Subtest: STL and STEP export, mesh and exact
+ok 59 - STL and STEP export, mesh and exact
+  ---
+  duration_ms: 989.876679
+  type: 'test'
+  ...
+# Subtest: exact volumes of the samples
+ok 60 - exact volumes of the samples
+  ---
+  duration_ms: 831.329549
+  type: 'test'
+  ...
+# Subtest: volume reports curves it cannot integrate instead of throwing
+ok 61 - volume reports curves it cannot integrate instead of throwing
+  ---
+  duration_ms: 24.276687
+  type: 'test'
+  ...
+# Subtest: STEP names with apostrophes are escaped
+ok 62 - STEP names with apostrophes are escaped
+  ---
+  duration_ms: 12.621662
+  type: 'test'
+  ...
+# Subtest: a stream is kept whatever its CRC-32 value
+ok 63 - a stream is kept whatever its CRC-32 value
+  ---
+  duration_ms: 35.395924
+  type: 'test'
+  ...
+# Subtest: corruption is reported, not parsed
+ok 64 - corruption is reported, not parsed
+  ---
+  duration_ms: 12.430105
+  type: 'test'
+  ...
+# Subtest: CLI: every command runs on a sample
+ok 65 - CLI: every command runs on a sample
+  ---
+  duration_ms: 1242.020708
+  type: 'test'
+  ...
+# Subtest: a tie on face count and box goes to the shape the display mesh shows
+ok 66 - a tie on face count and box goes to the shape the display mesh shows
+  ---
+  duration_ms: 51.319647
+  type: 'test'
+  ...
+# Subtest: identical candidates keep the lowest
+ok 67 - identical candidates keep the lowest
+  ---
+  duration_ms: 10.146078
+  type: 'test'
+  ...
+# Subtest: a split-line cube is not read as a filleted one, in either candidate order
+ok 68 - a split-line cube is not read as a filleted one, in either candidate order
+  ---
+  duration_ms: 40.273366
+  type: 'test'
+  ...
+# Subtest: hand-built models: voids, two bodies, revolution, offset
+ok 69 - hand-built models: voids, two bodies, revolution, offset
+  ---
+  duration_ms: 13.848439
+  type: 'test'
+  ...
+# Subtest: OpenCascade: hand-built models are valid solids of the right volume
+ok 70 - OpenCascade: hand-built models are valid solids of the right volume # SKIP no Python with OCP (cadquery-ocp); set SLDPRT_OCP_PYTHON
+  ---
+  duration_ms: 0.188086
+  type: 'test'
+  ...
+# Subtest: OpenCascade: every corpus part (tools/validate.js)
+ok 71 - OpenCascade: every corpus part (tools/validate.js) # SKIP no Python with OCP (cadquery-ocp); set SLDPRT_OCP_PYTHON
+  ---
+  duration_ms: 0.093786
+  type: 'test'
+  ...
+# Subtest: 49 controlled models: our STEP reads back as the native body, and holds the same volume as SolidWorks' STEP
+ok 72 - 49 controlled models: our STEP reads back as the native body, and holds the same volume as SolidWorks' STEP
+  ---
+  duration_ms: 22100.232813
+  type: 'test'
+  ...
+# 49 models round-trip; worst relative volume difference to SolidWorks' STEP 5.7e-15
+# Subtest: exact volumes against closed-form values
+ok 73 - exact volumes against closed-form values
+  ---
+  duration_ms: 2123.904874
+  type: 'test'
+  ...
+# Subtest: production parts: every part with a solid exports exact STEP
+ok 74 - production parts: every part with a solid exports exact STEP
+  ---
+  duration_ms: 78458.704961
+  type: 'test'
+  ...
+# exact STEP 10, nothing to export 1
+# Subtest: plate4 (Parasolid 9): exact STEP, volume equals its own display mesh
+ok 75 - plate4 (Parasolid 9): exact STEP, volume equals its own display mesh
+  ---
+  duration_ms: 38.445265
+  type: 'test'
+  ...
+# Subtest: samples close and enclose the exact volume
+ok 76 - samples close and enclose the exact volume
+  ---
+  duration_ms: 734.043261
+  type: 'test'
+  ...
+# Subtest: a finer tolerance gets closer to the exact volume
+ok 77 - a finer tolerance gets closer to the exact volume
+  ---
+  duration_ms: 535.679797
+  type: 'test'
+  ...
+# Subtest: a part saved without display data still converts to STL
+ok 78 - a part saved without display data still converts to STL
+  ---
+  duration_ms: 254.129229
+  type: 'test'
+  ...
+# Subtest: crossed cylinders match the closed form
+ok 79 - crossed cylinders match the closed form
+  ---
+  duration_ms: 810.522882
+  type: 'test'
+  ...
+# Subtest: the loft matches a watertight rebuild and does not depend on the origin
+ok 80 - the loft matches a watertight rebuild and does not depend on the origin
+  ---
+  duration_ms: 19978.888293
+  type: 'test'
+  ...
+# Subtest: worker parses modern and legacy samples in an isolated context
+ok 81 - worker parses modern and legacy samples in an isolated context
+  ---
+  duration_ms: 103.580979
+  type: 'test'
+  ...
+# Subtest: STEP worker writes exact STEP in an isolated context
+ok 82 - STEP worker writes exact STEP in an isolated context
+  ---
+  duration_ms: 51.748168
+  type: 'test'
+  ...
+# Subtest: server serves the page, worker, sources, previews and the legacy sample
+ok 83 - server serves the page, worker, sources, previews and the legacy sample
+  ---
+  duration_ms: 120.393816
+  type: 'test'
+  ...
+# Subtest: port 0 binds a free port and reports it
+ok 84 - port 0 binds a free port and reports it
+  ---
+  duration_ms: 6.657424
+  type: 'test'
+  ...
+# Subtest: B-rep and exact STEP run without Node built-ins and match Node
+ok 85 - B-rep and exact STEP run without Node built-ins and match Node
+  ---
+  duration_ms: 202.839948
+  type: 'test'
+  ...
+1..85
+# tests 85
+# suites 0
+# pass 83
+# fail 0
+# cancelled 0
+# skipped 2
+# todo 0
+# duration_ms 316525.12839

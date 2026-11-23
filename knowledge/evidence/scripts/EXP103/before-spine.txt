@@ -1,0 +1,3 @@
+head_back blend 3369 spine (offset3368 x plane3367), spine.js, bar 1e-8 m
+dev (/home/user/conv-dev):        polyFn residual max 4.48e-5 m (23 of 240 grid points over 1e-8); fitPoints error 4.44e-10 m, 85 samples, 15 s
+branch (wip/dense-fit-check 70f3205): polyFn residual max 4.42e-5 m (21 of 240 over 1e-8); fitPoints error 7.99e-2 m, 331 samples, 385 s

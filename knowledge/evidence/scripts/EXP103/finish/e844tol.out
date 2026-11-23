@@ -1,0 +1,5 @@
+edge 844 curve trimmed curve tolerance_to_original undefined | edge tolerance 0.00001998001998001998 tolerant true sameSense true
+ vertex 1398 p 0.064727062,0.046956331,-0.010468795 tolerance 0.000020003508118574978
+ vertex 1270 p 0.064228672,0.046865818,-0.010938143 tolerance 0.000022008668247252398
+ pcurves face 2312 trimmed | face 2308 trimmed
+ faces using it (not found by this search)

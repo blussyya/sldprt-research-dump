@@ -1,0 +1,17 @@
+distinct files 178 distinct first-4-byte values 163 colliding pairs 15 => set size about 1050
+H byte 0 distinct values 119
+H byte 1 distinct values 117
+H byte 2 distinct values 117
+H byte 3 distinct values 118
+L0 distinct 122 H0:no H1:no H2:no H3:no
+L1 distinct 115 H0:no H1:no H2:no H3:no
+L2 distinct 114 H0:no H1:no H2:no H3:no
+L3 distinct 121 H0:no H1:no H2:no H3:no
+C0 distinct 126 H0:no H1:no H2:no H3:no
+C1 distinct 116 H0:no H1:no H2:no H3:no
+C2 distinct 121 H0:no H1:no H2:no H3:no
+C3 distinct 122 H0:no H1:no H2:no H3:no
+E0 distinct 117 H0:no H1:no H2:no H3:no
+E1 distinct 123 H0:no H1:no H2:no H3:no
+E2 distinct 118 H0:no H1:no H2:no H3:no
+E3 distinct 131 H0:no H1:no H2:no H3:no

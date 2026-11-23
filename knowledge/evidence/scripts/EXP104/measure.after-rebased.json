@@ -1,0 +1,6831 @@
+{
+ "bar": 0.00001,
+ "src": "/home/user/conv-ids/src",
+ "parts": 115,
+ "total": {
+  "before": {
+   "display": 13533,
+   "matched": 9648,
+   "ambiguous": 0,
+   "none": 3885,
+   "right": 9126,
+   "wrong": 493,
+   "unchecked": 29,
+   "edgesSame": 9194,
+   "edgesDiffer": 446,
+   "edgesNone": 8,
+   "how": {
+    "id": 9648,
+    "none": 3885
+   }
+  },
+  "after": {
+   "display": 13533,
+   "matched": 13375,
+   "ambiguous": 10,
+   "none": 148,
+   "right": 13337,
+   "wrong": 5,
+   "unchecked": 33,
+   "edgesSame": 13334,
+   "edgesDiffer": 33,
+   "edgesNone": 8,
+   "how": {
+    "id": 11483,
+    "none": 148,
+    "geometry": 1555,
+    "type": 337,
+    "ambiguous": 10
+   }
+  },
+  "shift": {
+   "display": 13533,
+   "matched": 666,
+   "ambiguous": 225,
+   "none": 12642,
+   "right": 6,
+   "wrong": 660,
+   "unchecked": 0,
+   "edgesSame": 0,
+   "edgesDiffer": 666,
+   "edgesNone": 0,
+   "how": {
+    "none": 12642,
+    "ambiguous": 225,
+    "id": 576,
+    "type": 90
+   }
+  },
+  "checkControl": {
+   "pairs": 13343,
+   "wrong": 13103,
+   "right": 208,
+   "unchecked": 32,
+   "edgesDiffer": 13330,
+   "edgesSame": 7,
+   "edgesNone": 6
+  }
+ },
+ "wrongList": [
+  {
+   "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+   "rawId": 705,
+   "tag": 4003,
+   "how": "id",
+   "nativeId": 705,
+   "nativeType": "cone"
+  },
+  {
+   "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+   "rawId": 39,
+   "tag": 4003,
+   "how": "id",
+   "nativeId": 39,
+   "nativeType": "cone"
+  },
+  {
+   "file": "test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+   "rawId": 88,
+   "tag": 4001,
+   "how": "id",
+   "nativeId": 88,
+   "nativeType": "plane"
+  },
+  {
+   "file": "test files original/Dekor.SLDPRT",
+   "rawId": 6338,
+   "tag": 4002,
+   "how": "id",
+   "nativeId": 6338,
+   "nativeType": "cylinder"
+  },
+  {
+   "file": "test files original/Dekor.SLDPRT",
+   "rawId": 8654,
+   "tag": 4002,
+   "how": "id",
+   "nativeId": 8654,
+   "nativeType": "cylinder"
+  }
+ ],
+ "perPart": [
+  {
+   "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 6,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 6,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 6
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C01_cube_20mm/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 6,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 6,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 6
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C02_cube_translated/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 6,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 6,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 6
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C06_cube_hole_moved/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C07_cube_two_holes/model.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "after": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "shift": {
+    "display": 8,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 8,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 8
+    }
+   },
+   "checkControl": {
+    "pairs": 8,
+    "wrong": 8,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 8,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "after": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "shift": {
+    "display": 8,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 8,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 8
+    }
+   },
+   "checkControl": {
+    "pairs": 8,
+    "wrong": 8,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 8,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 7,
+    "wrong": 7,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 7,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT",
+   "display": 11,
+   "before": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 11,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 11
+    }
+   },
+   "after": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 11,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 11
+    }
+   },
+   "shift": {
+    "display": 11,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 11,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 11
+    }
+   },
+   "checkControl": {
+    "pairs": 11,
+    "wrong": 11,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 11,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+   "display": 2,
+   "before": {
+    "display": 2,
+    "matched": 2,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 2,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 2,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 2
+    }
+   },
+   "after": {
+    "display": 2,
+    "matched": 2,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 2,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 2,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 2
+    }
+   },
+   "shift": {
+    "display": 2,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 2,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 2
+    }
+   },
+   "checkControl": {
+    "pairs": 0,
+    "wrong": 0,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 0,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+   "display": 1,
+   "before": {
+    "display": 1,
+    "matched": 1,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 1,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 1,
+    "how": {
+     "id": 1
+    }
+   },
+   "after": {
+    "display": 1,
+    "matched": 1,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 1,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 1,
+    "how": {
+     "id": 1
+    }
+   },
+   "shift": {
+    "display": 1,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 1,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 1
+    }
+   },
+   "checkControl": {
+    "pairs": 0,
+    "wrong": 0,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 0,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C15_torus/model.SLDPRT",
+   "display": 1,
+   "before": {
+    "display": 1,
+    "matched": 1,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 1,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 1,
+    "how": {
+     "id": 1
+    }
+   },
+   "after": {
+    "display": 1,
+    "matched": 1,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 1,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 1,
+    "how": {
+     "id": 1
+    }
+   },
+   "shift": {
+    "display": 1,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 1,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 1
+    }
+   },
+   "checkControl": {
+    "pairs": 0,
+    "wrong": 0,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 0,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 6,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 6,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 6
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C17_torus_quarter/model.SLDPRT",
+   "display": 3,
+   "before": {
+    "display": 3,
+    "matched": 3,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 3,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 3,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 3
+    }
+   },
+   "after": {
+    "display": 3,
+    "matched": 3,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 3,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 3,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 3
+    }
+   },
+   "shift": {
+    "display": 3,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 3,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 3
+    }
+   },
+   "checkControl": {
+    "pairs": 2,
+    "wrong": 2,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 2,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 7,
+    "wrong": 7,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 7,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C19_half_cylinder/model.SLDPRT",
+   "display": 4,
+   "before": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 4,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 4
+    }
+   },
+   "after": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 4,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 4
+    }
+   },
+   "shift": {
+    "display": 4,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 4,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 4
+    }
+   },
+   "checkControl": {
+    "pairs": 3,
+    "wrong": 2,
+    "right": 1,
+    "unchecked": 0,
+    "edgesDiffer": 3,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "after": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "shift": {
+    "display": 8,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 8,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 8
+    }
+   },
+   "checkControl": {
+    "pairs": 8,
+    "wrong": 4,
+    "right": 4,
+    "unchecked": 0,
+    "edgesDiffer": 8,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+   "display": 4,
+   "before": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 4,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 4
+    }
+   },
+   "after": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 4,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 4
+    }
+   },
+   "shift": {
+    "display": 4,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 4,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 4
+    }
+   },
+   "checkControl": {
+    "pairs": 2,
+    "wrong": 2,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 2,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 6,
+    "how": {
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 6,
+    "how": {
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 6,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 6,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 6
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 0,
+    "edgesSame": 0,
+    "edgesNone": 6
+   }
+  },
+  {
+   "file": "test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 6,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 6,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 6
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "after": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "shift": {
+    "display": 8,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 8,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 8
+    }
+   },
+   "checkControl": {
+    "pairs": 8,
+    "wrong": 8,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 8,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2018/0132519a_102_STEM.SLDPRT",
+   "display": 167,
+   "before": {
+    "display": 167,
+    "matched": 151,
+    "ambiguous": 0,
+    "none": 16,
+    "right": 151,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 127,
+    "edgesDiffer": 24,
+    "edgesNone": 0,
+    "how": {
+     "id": 151,
+     "none": 16
+    }
+   },
+   "after": {
+    "display": 167,
+    "matched": 151,
+    "ambiguous": 0,
+    "none": 16,
+    "right": 151,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 127,
+    "edgesDiffer": 24,
+    "edgesNone": 0,
+    "how": {
+     "id": 151,
+     "none": 16
+    }
+   },
+   "shift": {
+    "display": 167,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 167,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 167
+    }
+   },
+   "checkControl": {
+    "pairs": 151,
+    "wrong": 149,
+    "right": 2,
+    "unchecked": 0,
+    "edgesDiffer": 151,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2018/15567d51_leva1.SLDPRT",
+   "display": 298,
+   "before": {
+    "display": 298,
+    "matched": 298,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 297,
+    "wrong": 0,
+    "unchecked": 1,
+    "edgesSame": 298,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 298
+    }
+   },
+   "after": {
+    "display": 298,
+    "matched": 298,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 297,
+    "wrong": 0,
+    "unchecked": 1,
+    "edgesSame": 298,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 298
+    }
+   },
+   "shift": {
+    "display": 298,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 298,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 298
+    }
+   },
+   "checkControl": {
+    "pairs": 297,
+    "wrong": 295,
+    "right": 2,
+    "unchecked": 0,
+    "edgesDiffer": 297,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+   "display": 262,
+   "before": {
+    "display": 262,
+    "matched": 262,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 262,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 262,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 262
+    }
+   },
+   "after": {
+    "display": 262,
+    "matched": 262,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 262,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 262,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 262
+    }
+   },
+   "shift": {
+    "display": 262,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 262,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 262
+    }
+   },
+   "checkControl": {
+    "pairs": 262,
+    "wrong": 258,
+    "right": 4,
+    "unchecked": 0,
+    "edgesDiffer": 262,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2018/ca465363_103_COVER.SLDPRT",
+   "display": 118,
+   "before": {
+    "display": 118,
+    "matched": 118,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 118,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 118,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 118
+    }
+   },
+   "after": {
+    "display": 118,
+    "matched": 118,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 118,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 118,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 118
+    }
+   },
+   "shift": {
+    "display": 118,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 118,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 118
+    }
+   },
+   "checkControl": {
+    "pairs": 118,
+    "wrong": 118,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 118,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+   "display": 2512,
+   "before": {
+    "display": 2512,
+    "matched": 180,
+    "ambiguous": 0,
+    "none": 2332,
+    "right": 15,
+    "wrong": 165,
+    "unchecked": 0,
+    "edgesSame": 32,
+    "edgesDiffer": 148,
+    "edgesNone": 0,
+    "how": {
+     "none": 2332,
+     "id": 180
+    }
+   },
+   "after": {
+    "display": 2512,
+    "matched": 2502,
+    "ambiguous": 10,
+    "none": 0,
+    "right": 2500,
+    "wrong": 0,
+    "unchecked": 2,
+    "edgesSame": 2502,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "geometry": 960,
+     "id": 1368,
+     "type": 174,
+     "ambiguous": 10
+    }
+   },
+   "shift": {
+    "display": 2512,
+    "matched": 443,
+    "ambiguous": 197,
+    "none": 1872,
+    "right": 0,
+    "wrong": 443,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 443,
+    "edgesNone": 0,
+    "how": {
+     "ambiguous": 197,
+     "none": 1872,
+     "id": 381,
+     "type": 62
+    }
+   },
+   "checkControl": {
+    "pairs": 2502,
+    "wrong": 2431,
+    "right": 69,
+    "unchecked": 2,
+    "edgesDiffer": 2501,
+    "edgesSame": 1,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/07ff8da1_shelf.SLDPRT",
+   "display": 30,
+   "before": {
+    "display": 30,
+    "matched": 30,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 30,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 30,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 30
+    }
+   },
+   "after": {
+    "display": 30,
+    "matched": 30,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 30,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 30,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 30
+    }
+   },
+   "shift": {
+    "display": 30,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 30,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 30
+    }
+   },
+   "checkControl": {
+    "pairs": 30,
+    "wrong": 30,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 30,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/096d0504_MargayMount_WH10.SLDPRT",
+   "display": 18,
+   "before": {
+    "display": 18,
+    "matched": 18,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 18,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 18,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 18
+    }
+   },
+   "after": {
+    "display": 18,
+    "matched": 18,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 18,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 18,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 18
+    }
+   },
+   "shift": {
+    "display": 18,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 18,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 18
+    }
+   },
+   "checkControl": {
+    "pairs": 18,
+    "wrong": 17,
+    "right": 1,
+    "unchecked": 0,
+    "edgesDiffer": 18,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/27377fd2_FE-00006-06.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "after": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "shift": {
+    "display": 8,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 8,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 8
+    }
+   },
+   "checkControl": {
+    "pairs": 8,
+    "wrong": 8,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 8,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/28398415_Raspberry Pi 4.SLDPRT",
+   "display": 267,
+   "before": {
+    "display": 267,
+    "matched": 267,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 267,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 267,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 267
+    }
+   },
+   "after": {
+    "display": 267,
+    "matched": 267,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 267,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 267,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 267
+    }
+   },
+   "shift": {
+    "display": 267,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 267,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 267
+    }
+   },
+   "checkControl": {
+    "pairs": 267,
+    "wrong": 267,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 267,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/300d7f07_Bottom Case.SLDPRT",
+   "display": 50,
+   "before": {
+    "display": 50,
+    "matched": 50,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 50,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 50,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 50
+    }
+   },
+   "after": {
+    "display": 50,
+    "matched": 50,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 50,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 50,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 50
+    }
+   },
+   "shift": {
+    "display": 50,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 50,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 50
+    }
+   },
+   "checkControl": {
+    "pairs": 50,
+    "wrong": 48,
+    "right": 2,
+    "unchecked": 0,
+    "edgesDiffer": 50,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/44afdb7c_back_cushion.SLDPRT",
+   "display": 26,
+   "before": {
+    "display": 26,
+    "matched": 26,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 26,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 26,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 26
+    }
+   },
+   "after": {
+    "display": 26,
+    "matched": 26,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 26,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 26,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 26
+    }
+   },
+   "shift": {
+    "display": 26,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 26,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 26
+    }
+   },
+   "checkControl": {
+    "pairs": 26,
+    "wrong": 26,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 26,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/54b05886_bottom_adc.SLDPRT",
+   "display": 92,
+   "before": {
+    "display": 92,
+    "matched": 92,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 92,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 92,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 92
+    }
+   },
+   "after": {
+    "display": 92,
+    "matched": 92,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 92,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 92,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 92
+    }
+   },
+   "shift": {
+    "display": 92,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 92,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 92
+    }
+   },
+   "checkControl": {
+    "pairs": 92,
+    "wrong": 92,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 92,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+   "display": 103,
+   "before": {
+    "display": 103,
+    "matched": 103,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 99,
+    "wrong": 0,
+    "unchecked": 4,
+    "edgesSame": 103,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 103
+    }
+   },
+   "after": {
+    "display": 103,
+    "matched": 103,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 99,
+    "wrong": 0,
+    "unchecked": 4,
+    "edgesSame": 103,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 103
+    }
+   },
+   "shift": {
+    "display": 103,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 103,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 103
+    }
+   },
+   "checkControl": {
+    "pairs": 103,
+    "wrong": 99,
+    "right": 0,
+    "unchecked": 4,
+    "edgesDiffer": 103,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/91a2d981_Camera Module.SLDPRT",
+   "display": 19,
+   "before": {
+    "display": 19,
+    "matched": 19,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 19,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 19,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 19
+    }
+   },
+   "after": {
+    "display": 19,
+    "matched": 19,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 19,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 19,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 19
+    }
+   },
+   "shift": {
+    "display": 19,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 19,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 19
+    }
+   },
+   "checkControl": {
+    "pairs": 19,
+    "wrong": 19,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 19,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/a3a44709_FrontPanel-Bezel.sldprt",
+   "display": 16,
+   "before": {
+    "display": 16,
+    "matched": 16,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 15,
+    "wrong": 1,
+    "unchecked": 0,
+    "edgesSame": 15,
+    "edgesDiffer": 1,
+    "edgesNone": 0,
+    "how": {
+     "id": 16
+    }
+   },
+   "after": {
+    "display": 16,
+    "matched": 16,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 16,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 16,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 14,
+     "geometry": 2
+    }
+   },
+   "shift": {
+    "display": 16,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 16,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 16
+    }
+   },
+   "checkControl": {
+    "pairs": 16,
+    "wrong": 16,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 16,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/d381ebab_bottom_dac.SLDPRT",
+   "display": 83,
+   "before": {
+    "display": 83,
+    "matched": 83,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 83,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 83,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 83
+    }
+   },
+   "after": {
+    "display": 83,
+    "matched": 83,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 83,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 83,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 83
+    }
+   },
+   "shift": {
+    "display": 83,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 83,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 83
+    }
+   },
+   "checkControl": {
+    "pairs": 83,
+    "wrong": 83,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 83,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/e8c40c25_psu.SLDPRT",
+   "display": 271,
+   "before": {
+    "display": 271,
+    "matched": 271,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 271,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 271,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 271
+    }
+   },
+   "after": {
+    "display": 271,
+    "matched": 271,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 271,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 271,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 271
+    }
+   },
+   "shift": {
+    "display": 271,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 271,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 271
+    }
+   },
+   "checkControl": {
+    "pairs": 271,
+    "wrong": 270,
+    "right": 1,
+    "unchecked": 0,
+    "edgesDiffer": 271,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2019/fb449daa_Gloworm PCB.SLDPRT",
+   "display": 50,
+   "before": {
+    "display": 50,
+    "matched": 50,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 50,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 50,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 50
+    }
+   },
+   "after": {
+    "display": 50,
+    "matched": 50,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 50,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 50,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 50
+    }
+   },
+   "shift": {
+    "display": 50,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 50,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 50
+    }
+   },
+   "checkControl": {
+    "pairs": 50,
+    "wrong": 50,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 50,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2020/14f9214b_11.SLDPRT",
+   "display": 73,
+   "before": {
+    "display": 73,
+    "matched": 73,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 73,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 73,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 73
+    }
+   },
+   "after": {
+    "display": 73,
+    "matched": 73,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 73,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 73,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 73
+    }
+   },
+   "shift": {
+    "display": 73,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 73,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 73
+    }
+   },
+   "checkControl": {
+    "pairs": 73,
+    "wrong": 73,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 73,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+   "display": 69,
+   "before": {
+    "display": 69,
+    "matched": 2,
+    "ambiguous": 0,
+    "none": 67,
+    "right": 2,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 2,
+    "edgesNone": 0,
+    "how": {
+     "id": 2,
+     "none": 67
+    }
+   },
+   "after": {
+    "display": 69,
+    "matched": 2,
+    "ambiguous": 0,
+    "none": 67,
+    "right": 2,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 2,
+    "edgesNone": 0,
+    "how": {
+     "id": 2,
+     "none": 67
+    }
+   },
+   "shift": {
+    "display": 69,
+    "matched": 29,
+    "ambiguous": 0,
+    "none": 40,
+    "right": 6,
+    "wrong": 23,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 29,
+    "edgesNone": 0,
+    "how": {
+     "none": 40,
+     "id": 29
+    }
+   },
+   "checkControl": {
+    "pairs": 2,
+    "wrong": 2,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 2,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT",
+   "display": 28,
+   "before": {
+    "display": 28,
+    "matched": 28,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 28,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 28,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 28
+    }
+   },
+   "after": {
+    "display": 28,
+    "matched": 28,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 28,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 28,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 28
+    }
+   },
+   "shift": {
+    "display": 28,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 28,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 28
+    }
+   },
+   "checkControl": {
+    "pairs": 28,
+    "wrong": 28,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 28,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2020/9494d959_27_20_4.SLDPRT",
+   "display": 12,
+   "before": {
+    "display": 12,
+    "matched": 12,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 12,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 12,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 12
+    }
+   },
+   "after": {
+    "display": 12,
+    "matched": 12,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 12,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 12,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 12
+    }
+   },
+   "shift": {
+    "display": 12,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 12,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 12
+    }
+   },
+   "checkControl": {
+    "pairs": 12,
+    "wrong": 10,
+    "right": 2,
+    "unchecked": 0,
+    "edgesDiffer": 12,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2020/b185085c_Handle 3.SLDPRT",
+   "display": 33,
+   "before": {
+    "display": 33,
+    "matched": 33,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 33,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 33,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 33
+    }
+   },
+   "after": {
+    "display": 33,
+    "matched": 33,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 33,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 33,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 33
+    }
+   },
+   "shift": {
+    "display": 33,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 33,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 33
+    }
+   },
+   "checkControl": {
+    "pairs": 33,
+    "wrong": 32,
+    "right": 1,
+    "unchecked": 0,
+    "edgesDiffer": 33,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2021/85aabbde_84T Gear.SLDPRT",
+   "display": 671,
+   "before": {
+    "display": 671,
+    "matched": 671,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 671,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 671,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 671
+    }
+   },
+   "after": {
+    "display": 671,
+    "matched": 671,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 671,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 671,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 671
+    }
+   },
+   "shift": {
+    "display": 671,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 671,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 671
+    }
+   },
+   "checkControl": {
+    "pairs": 671,
+    "wrong": 666,
+    "right": 5,
+    "unchecked": 0,
+    "edgesDiffer": 671,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2021/916d4a0a_36T Gear.SLDPRT",
+   "display": 295,
+   "before": {
+    "display": 295,
+    "matched": 295,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 295,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 295,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 295
+    }
+   },
+   "after": {
+    "display": 295,
+    "matched": 295,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 295,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 295,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 295
+    }
+   },
+   "shift": {
+    "display": 295,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 295,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 295
+    }
+   },
+   "checkControl": {
+    "pairs": 295,
+    "wrong": 295,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 295,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2021/bc3292d7_12T Gear.SLDPRT",
+   "display": 135,
+   "before": {
+    "display": 135,
+    "matched": 135,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 135,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 135,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 135
+    }
+   },
+   "after": {
+    "display": 135,
+    "matched": 135,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 135,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 135,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 135
+    }
+   },
+   "shift": {
+    "display": 135,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 135,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 135
+    }
+   },
+   "checkControl": {
+    "pairs": 135,
+    "wrong": 135,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 135,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+   "display": 399,
+   "before": {
+    "display": 399,
+    "matched": 399,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 399,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 399,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 399
+    }
+   },
+   "after": {
+    "display": 399,
+    "matched": 399,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 399,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 399,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 399
+    }
+   },
+   "shift": {
+    "display": 399,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 399,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 399
+    }
+   },
+   "checkControl": {
+    "pairs": 399,
+    "wrong": 399,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 399,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT",
+   "display": 109,
+   "before": {
+    "display": 109,
+    "matched": 109,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 109,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 109,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 109
+    }
+   },
+   "after": {
+    "display": 109,
+    "matched": 109,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 109,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 109,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 109
+    }
+   },
+   "shift": {
+    "display": 109,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 109,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 109
+    }
+   },
+   "checkControl": {
+    "pairs": 109,
+    "wrong": 99,
+    "right": 10,
+    "unchecked": 0,
+    "edgesDiffer": 109,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT",
+   "display": 143,
+   "before": {
+    "display": 143,
+    "matched": 143,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 143,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 143,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 143
+    }
+   },
+   "after": {
+    "display": 143,
+    "matched": 143,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 143,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 143,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 143
+    }
+   },
+   "shift": {
+    "display": 143,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 143,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 143
+    }
+   },
+   "checkControl": {
+    "pairs": 143,
+    "wrong": 134,
+    "right": 9,
+    "unchecked": 0,
+    "edgesDiffer": 143,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/1ee60868_z轴皮带固定.SLDPRT",
+   "display": 32,
+   "before": {
+    "display": 32,
+    "matched": 32,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 32,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 32,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 32
+    }
+   },
+   "after": {
+    "display": 32,
+    "matched": 32,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 32,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 32,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 32
+    }
+   },
+   "shift": {
+    "display": 32,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 32,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 32
+    }
+   },
+   "checkControl": {
+    "pairs": 32,
+    "wrong": 32,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 32,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/273a8d53_FG-F1.SLDPRT",
+   "display": 76,
+   "before": {
+    "display": 76,
+    "matched": 76,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 76,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 76,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 76
+    }
+   },
+   "after": {
+    "display": 76,
+    "matched": 76,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 76,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 76,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 76
+    }
+   },
+   "shift": {
+    "display": 76,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 76,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 76
+    }
+   },
+   "checkControl": {
+    "pairs": 75,
+    "wrong": 74,
+    "right": 1,
+    "unchecked": 0,
+    "edgesDiffer": 75,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+   "display": 239,
+   "before": {
+    "display": 239,
+    "matched": 141,
+    "ambiguous": 0,
+    "none": 98,
+    "right": 120,
+    "wrong": 21,
+    "unchecked": 0,
+    "edgesSame": 122,
+    "edgesDiffer": 19,
+    "edgesNone": 0,
+    "how": {
+     "id": 141,
+     "none": 98
+    }
+   },
+   "after": {
+    "display": 239,
+    "matched": 239,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 237,
+    "wrong": 2,
+    "unchecked": 0,
+    "edgesSame": 239,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 146,
+     "type": 8,
+     "geometry": 85
+    }
+   },
+   "shift": {
+    "display": 239,
+    "matched": 11,
+    "ambiguous": 1,
+    "none": 227,
+    "right": 0,
+    "wrong": 11,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 11,
+    "edgesNone": 0,
+    "how": {
+     "none": 227,
+     "id": 7,
+     "ambiguous": 1,
+     "type": 4
+    }
+   },
+   "checkControl": {
+    "pairs": 239,
+    "wrong": 239,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 237,
+    "edgesSame": 2,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/40e79d45_Fins.SLDPRT",
+   "display": 12,
+   "before": {
+    "display": 12,
+    "matched": 12,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 12,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 12,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 12
+    }
+   },
+   "after": {
+    "display": 12,
+    "matched": 12,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 12,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 12,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 12
+    }
+   },
+   "shift": {
+    "display": 12,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 12,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 12
+    }
+   },
+   "checkControl": {
+    "pairs": 12,
+    "wrong": 12,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 12,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT",
+   "display": 9,
+   "before": {
+    "display": 9,
+    "matched": 9,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 9,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 9,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 9
+    }
+   },
+   "after": {
+    "display": 9,
+    "matched": 9,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 9,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 9,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 9
+    }
+   },
+   "shift": {
+    "display": 9,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 9,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 9
+    }
+   },
+   "checkControl": {
+    "pairs": 8,
+    "wrong": 8,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 8,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/84226163_Fin.SLDPRT",
+   "display": 10,
+   "before": {
+    "display": 10,
+    "matched": 10,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 10,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 10,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 10
+    }
+   },
+   "after": {
+    "display": 10,
+    "matched": 10,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 10,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 10,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 10
+    }
+   },
+   "shift": {
+    "display": 10,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 10,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 10
+    }
+   },
+   "checkControl": {
+    "pairs": 10,
+    "wrong": 10,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 10,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/9cc04b03_SO-C1.SLDPRT",
+   "display": 93,
+   "before": {
+    "display": 93,
+    "matched": 93,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 93,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 93,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 93
+    }
+   },
+   "after": {
+    "display": 93,
+    "matched": 93,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 93,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 93,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 93
+    }
+   },
+   "shift": {
+    "display": 93,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 93,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 93
+    }
+   },
+   "checkControl": {
+    "pairs": 93,
+    "wrong": 91,
+    "right": 2,
+    "unchecked": 0,
+    "edgesDiffer": 93,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+   "display": 33,
+   "before": {
+    "display": 33,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 27,
+    "right": 5,
+    "wrong": 1,
+    "unchecked": 0,
+    "edgesSame": 1,
+    "edgesDiffer": 5,
+    "edgesNone": 0,
+    "how": {
+     "none": 27,
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 33,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 27,
+    "right": 5,
+    "wrong": 1,
+    "unchecked": 0,
+    "edgesSame": 1,
+    "edgesDiffer": 5,
+    "edgesNone": 0,
+    "how": {
+     "none": 27,
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 33,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 33,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 33
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/a0fc2e29_Vertical Spar.SLDPRT",
+   "display": 11,
+   "before": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 11,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 11
+    }
+   },
+   "after": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 11,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 11
+    }
+   },
+   "shift": {
+    "display": 11,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 11,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 11
+    }
+   },
+   "checkControl": {
+    "pairs": 11,
+    "wrong": 11,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 11,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/d753195d_ServoMount.SLDPRT",
+   "display": 90,
+   "before": {
+    "display": 90,
+    "matched": 90,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 90,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 90,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 90
+    }
+   },
+   "after": {
+    "display": 90,
+    "matched": 90,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 90,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 90,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 90
+    }
+   },
+   "shift": {
+    "display": 90,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 90,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 90
+    }
+   },
+   "checkControl": {
+    "pairs": 90,
+    "wrong": 88,
+    "right": 2,
+    "unchecked": 0,
+    "edgesDiffer": 90,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT",
+   "display": 26,
+   "before": {
+    "display": 26,
+    "matched": 26,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 26,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 26,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 26
+    }
+   },
+   "after": {
+    "display": 26,
+    "matched": 26,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 26,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 26,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 26
+    }
+   },
+   "shift": {
+    "display": 26,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 26,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 26
+    }
+   },
+   "checkControl": {
+    "pairs": 26,
+    "wrong": 24,
+    "right": 2,
+    "unchecked": 0,
+    "edgesDiffer": 26,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/dc265ce1_Fin.SLDPRT",
+   "display": 10,
+   "before": {
+    "display": 10,
+    "matched": 10,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 10,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 10,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 10
+    }
+   },
+   "after": {
+    "display": 10,
+    "matched": 10,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 10,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 10,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 10
+    }
+   },
+   "shift": {
+    "display": 10,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 10,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 10
+    }
+   },
+   "checkControl": {
+    "pairs": 10,
+    "wrong": 10,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 10,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2022/dd156283_637Z flanzi bearing.SLDPRT",
+   "display": 11,
+   "before": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 11,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 11
+    }
+   },
+   "after": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 11,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 11
+    }
+   },
+   "shift": {
+    "display": 11,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 11,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 11
+    }
+   },
+   "checkControl": {
+    "pairs": 11,
+    "wrong": 11,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 11,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "display": 693,
+   "before": {
+    "display": 693,
+    "matched": 172,
+    "ambiguous": 0,
+    "none": 521,
+    "right": 14,
+    "wrong": 158,
+    "unchecked": 0,
+    "edgesSame": 16,
+    "edgesDiffer": 156,
+    "edgesNone": 0,
+    "how": {
+     "id": 172,
+     "none": 521
+    }
+   },
+   "after": {
+    "display": 693,
+    "matched": 693,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 693,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 693,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "geometry": 259,
+     "type": 39,
+     "id": 395
+    }
+   },
+   "shift": {
+    "display": 693,
+    "matched": 60,
+    "ambiguous": 16,
+    "none": 617,
+    "right": 0,
+    "wrong": 60,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 60,
+    "edgesNone": 0,
+    "how": {
+     "none": 617,
+     "type": 23,
+     "ambiguous": 16,
+     "id": 37
+    }
+   },
+   "checkControl": {
+    "pairs": 693,
+    "wrong": 678,
+    "right": 15,
+    "unchecked": 0,
+    "edgesDiffer": 692,
+    "edgesSame": 1,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT",
+   "display": 35,
+   "before": {
+    "display": 35,
+    "matched": 35,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 35,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 35,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 35
+    }
+   },
+   "after": {
+    "display": 35,
+    "matched": 35,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 35,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 35,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 35
+    }
+   },
+   "shift": {
+    "display": 35,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 35,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 35
+    }
+   },
+   "checkControl": {
+    "pairs": 35,
+    "wrong": 34,
+    "right": 1,
+    "unchecked": 0,
+    "edgesDiffer": 35,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/2f121983_case.SLDPRT",
+   "display": 155,
+   "before": {
+    "display": 155,
+    "matched": 155,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 154,
+    "wrong": 1,
+    "unchecked": 0,
+    "edgesSame": 154,
+    "edgesDiffer": 1,
+    "edgesNone": 0,
+    "how": {
+     "id": 155
+    }
+   },
+   "after": {
+    "display": 155,
+    "matched": 155,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 155,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 155,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 153,
+     "type": 2
+    }
+   },
+   "shift": {
+    "display": 155,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 155,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 155
+    }
+   },
+   "checkControl": {
+    "pairs": 153,
+    "wrong": 141,
+    "right": 12,
+    "unchecked": 0,
+    "edgesDiffer": 153,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/2fd21507_MidplateEM2.SLDPRT",
+   "display": 49,
+   "before": {
+    "display": 49,
+    "matched": 49,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 49,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 49,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 49
+    }
+   },
+   "after": {
+    "display": 49,
+    "matched": 49,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 49,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 49,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 49
+    }
+   },
+   "shift": {
+    "display": 49,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 49,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 49
+    }
+   },
+   "checkControl": {
+    "pairs": 49,
+    "wrong": 48,
+    "right": 1,
+    "unchecked": 0,
+    "edgesDiffer": 49,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT",
+   "display": 99,
+   "before": {
+    "display": 99,
+    "matched": 99,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 99,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 99,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 99
+    }
+   },
+   "after": {
+    "display": 99,
+    "matched": 99,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 99,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 99,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 99
+    }
+   },
+   "shift": {
+    "display": 99,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 99,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 99
+    }
+   },
+   "checkControl": {
+    "pairs": 98,
+    "wrong": 98,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 98,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT",
+   "display": 127,
+   "before": {
+    "display": 127,
+    "matched": 127,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 127,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 127,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 127
+    }
+   },
+   "after": {
+    "display": 127,
+    "matched": 127,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 127,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 127,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 127
+    }
+   },
+   "shift": {
+    "display": 127,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 127,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 127
+    }
+   },
+   "checkControl": {
+    "pairs": 127,
+    "wrong": 127,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 127,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/41b71219_板材-Guidance安装板.SLDPRT",
+   "display": 82,
+   "before": {
+    "display": 82,
+    "matched": 82,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 82,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 82,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 82
+    }
+   },
+   "after": {
+    "display": 82,
+    "matched": 82,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 82,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 82,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 82
+    }
+   },
+   "shift": {
+    "display": 82,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 82,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 82
+    }
+   },
+   "checkControl": {
+    "pairs": 82,
+    "wrong": 82,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 82,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/4803f393_box.SLDPRT",
+   "display": 1390,
+   "before": {
+    "display": 1390,
+    "matched": 1390,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 1317,
+    "wrong": 73,
+    "unchecked": 0,
+    "edgesSame": 1349,
+    "edgesDiffer": 41,
+    "edgesNone": 0,
+    "how": {
+     "id": 1390
+    }
+   },
+   "after": {
+    "display": 1390,
+    "matched": 1390,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 1390,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 1390,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "geometry": 98,
+     "id": 1272,
+     "type": 20
+    }
+   },
+   "shift": {
+    "display": 1390,
+    "matched": 30,
+    "ambiguous": 1,
+    "none": 1359,
+    "right": 0,
+    "wrong": 30,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 30,
+    "edgesNone": 0,
+    "how": {
+     "none": 1359,
+     "id": 30,
+     "ambiguous": 1
+    }
+   },
+   "checkControl": {
+    "pairs": 1388,
+    "wrong": 1378,
+    "right": 10,
+    "unchecked": 0,
+    "edgesDiffer": 1386,
+    "edgesSame": 2,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT",
+   "display": 37,
+   "before": {
+    "display": 37,
+    "matched": 37,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 37,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 37,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 37
+    }
+   },
+   "after": {
+    "display": 37,
+    "matched": 37,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 37,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 37,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 37
+    }
+   },
+   "shift": {
+    "display": 37,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 37,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 37
+    }
+   },
+   "checkControl": {
+    "pairs": 37,
+    "wrong": 35,
+    "right": 2,
+    "unchecked": 0,
+    "edgesDiffer": 37,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+   "display": 544,
+   "before": {
+    "display": 544,
+    "matched": 102,
+    "ambiguous": 0,
+    "none": 442,
+    "right": 88,
+    "wrong": 14,
+    "unchecked": 0,
+    "edgesSame": 91,
+    "edgesDiffer": 11,
+    "edgesNone": 0,
+    "how": {
+     "id": 102,
+     "none": 442
+    }
+   },
+   "after": {
+    "display": 544,
+    "matched": 544,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 544,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 544,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "geometry": 44,
+     "type": 62,
+     "id": 438
+    }
+   },
+   "shift": {
+    "display": 544,
+    "matched": 46,
+    "ambiguous": 1,
+    "none": 497,
+    "right": 0,
+    "wrong": 46,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 46,
+    "edgesNone": 0,
+    "how": {
+     "none": 497,
+     "id": 45,
+     "type": 1,
+     "ambiguous": 1
+    }
+   },
+   "checkControl": {
+    "pairs": 544,
+    "wrong": 536,
+    "right": 8,
+    "unchecked": 0,
+    "edgesDiffer": 544,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/d77ec77a_TopSheet.SLDPRT",
+   "display": 67,
+   "before": {
+    "display": 67,
+    "matched": 67,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 67,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 67,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 67
+    }
+   },
+   "after": {
+    "display": 67,
+    "matched": 67,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 67,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 67,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 67
+    }
+   },
+   "shift": {
+    "display": 67,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 67,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 67
+    }
+   },
+   "checkControl": {
+    "pairs": 67,
+    "wrong": 63,
+    "right": 4,
+    "unchecked": 0,
+    "edgesDiffer": 67,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT",
+   "display": 34,
+   "before": {
+    "display": 34,
+    "matched": 34,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 30,
+    "wrong": 0,
+    "unchecked": 4,
+    "edgesSame": 34,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 34
+    }
+   },
+   "after": {
+    "display": 34,
+    "matched": 34,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 30,
+    "wrong": 0,
+    "unchecked": 4,
+    "edgesSame": 34,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 34
+    }
+   },
+   "shift": {
+    "display": 34,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 34,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 34
+    }
+   },
+   "checkControl": {
+    "pairs": 34,
+    "wrong": 28,
+    "right": 2,
+    "unchecked": 4,
+    "edgesDiffer": 34,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+   "display": 404,
+   "before": {
+    "display": 404,
+    "matched": 72,
+    "ambiguous": 0,
+    "none": 332,
+    "right": 18,
+    "wrong": 54,
+    "unchecked": 0,
+    "edgesSame": 38,
+    "edgesDiffer": 34,
+    "edgesNone": 0,
+    "how": {
+     "id": 72,
+     "none": 332
+    }
+   },
+   "after": {
+    "display": 404,
+    "matched": 404,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 404,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 404,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "geometry": 105,
+     "id": 271,
+     "type": 28
+    }
+   },
+   "shift": {
+    "display": 404,
+    "matched": 47,
+    "ambiguous": 9,
+    "none": 348,
+    "right": 0,
+    "wrong": 47,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 47,
+    "edgesNone": 0,
+    "how": {
+     "none": 348,
+     "id": 47,
+     "ambiguous": 9
+    }
+   },
+   "checkControl": {
+    "pairs": 404,
+    "wrong": 401,
+    "right": 3,
+    "unchecked": 0,
+    "edgesDiffer": 403,
+    "edgesSame": 1,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/03afebf4_Profilringe.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 7,
+    "wrong": 7,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 7,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/09d353a9_Elbow_Mount2.SLDPRT",
+   "display": 40,
+   "before": {
+    "display": 40,
+    "matched": 2,
+    "ambiguous": 0,
+    "none": 38,
+    "right": 2,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 2,
+    "edgesNone": 0,
+    "how": {
+     "none": 38,
+     "id": 2
+    }
+   },
+   "after": {
+    "display": 40,
+    "matched": 2,
+    "ambiguous": 0,
+    "none": 38,
+    "right": 2,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 2,
+    "edgesNone": 0,
+    "how": {
+     "none": 38,
+     "id": 2
+    }
+   },
+   "shift": {
+    "display": 40,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 40,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 40
+    }
+   },
+   "checkControl": {
+    "pairs": 2,
+    "wrong": 2,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 2,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/225c13ed_camholder0deg.SLDPRT",
+   "display": 49,
+   "before": {
+    "display": 49,
+    "matched": 49,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 49,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 49,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 49
+    }
+   },
+   "after": {
+    "display": 49,
+    "matched": 49,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 49,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 49,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 49
+    }
+   },
+   "shift": {
+    "display": 49,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 49,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 49
+    }
+   },
+   "checkControl": {
+    "pairs": 49,
+    "wrong": 46,
+    "right": 3,
+    "unchecked": 0,
+    "edgesDiffer": 49,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/2300f35c_Thigh Symétrie.SLDPRT",
+   "display": 172,
+   "before": {
+    "display": 172,
+    "matched": 172,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 172,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 172,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 172
+    }
+   },
+   "after": {
+    "display": 172,
+    "matched": 172,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 172,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 172,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 172
+    }
+   },
+   "shift": {
+    "display": 172,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 172,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 172
+    }
+   },
+   "checkControl": {
+    "pairs": 172,
+    "wrong": 170,
+    "right": 2,
+    "unchecked": 0,
+    "edgesDiffer": 172,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT",
+   "display": 4,
+   "before": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 4,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 4
+    }
+   },
+   "after": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 4,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 4
+    }
+   },
+   "shift": {
+    "display": 4,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 4,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 4
+    }
+   },
+   "checkControl": {
+    "pairs": 4,
+    "wrong": 4,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 4,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/37663d8a_Gasket For M12.SLDPRT",
+   "display": 11,
+   "before": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 11,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 11
+    }
+   },
+   "after": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 11,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 11
+    }
+   },
+   "shift": {
+    "display": 11,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 11,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 11
+    }
+   },
+   "checkControl": {
+    "pairs": 11,
+    "wrong": 11,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 11,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT",
+   "display": 4,
+   "before": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 4,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 4
+    }
+   },
+   "after": {
+    "display": 4,
+    "matched": 4,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 4,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 4,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 4
+    }
+   },
+   "shift": {
+    "display": 4,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 4,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 4
+    }
+   },
+   "checkControl": {
+    "pairs": 4,
+    "wrong": 4,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 4,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT",
+   "display": 22,
+   "before": {
+    "display": 22,
+    "matched": 22,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 22,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 22,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 22
+    }
+   },
+   "after": {
+    "display": 22,
+    "matched": 22,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 22,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 22,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 22
+    }
+   },
+   "shift": {
+    "display": 22,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 22,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 22
+    }
+   },
+   "checkControl": {
+    "pairs": 22,
+    "wrong": 22,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 22,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/871e670c_servo_adapter.SLDPRT",
+   "display": 32,
+   "before": {
+    "display": 32,
+    "matched": 32,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 32,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 32,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 32
+    }
+   },
+   "after": {
+    "display": 32,
+    "matched": 32,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 32,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 32,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 32
+    }
+   },
+   "shift": {
+    "display": 32,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 32,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 32
+    }
+   },
+   "checkControl": {
+    "pairs": 32,
+    "wrong": 28,
+    "right": 4,
+    "unchecked": 0,
+    "edgesDiffer": 32,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/951f2bc1_Boitier.SLDPRT",
+   "display": 26,
+   "before": {
+    "display": 26,
+    "matched": 26,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 26,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 26,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 26
+    }
+   },
+   "after": {
+    "display": 26,
+    "matched": 26,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 26,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 26,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 26
+    }
+   },
+   "shift": {
+    "display": 26,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 26,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 26
+    }
+   },
+   "checkControl": {
+    "pairs": 25,
+    "wrong": 25,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 25,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+   "display": 961,
+   "before": {
+    "display": 961,
+    "matched": 949,
+    "ambiguous": 0,
+    "none": 12,
+    "right": 926,
+    "wrong": 3,
+    "unchecked": 20,
+    "edgesSame": 947,
+    "edgesDiffer": 2,
+    "edgesNone": 0,
+    "how": {
+     "id": 949,
+     "none": 12
+    }
+   },
+   "after": {
+    "display": 961,
+    "matched": 961,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 939,
+    "wrong": 0,
+    "unchecked": 22,
+    "edgesSame": 961,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 955,
+     "type": 4,
+     "geometry": 2
+    }
+   },
+   "shift": {
+    "display": 961,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 961,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 961
+    }
+   },
+   "checkControl": {
+    "pairs": 961,
+    "wrong": 935,
+    "right": 4,
+    "unchecked": 22,
+    "edgesDiffer": 961,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+   "display": 16,
+   "before": {
+    "display": 16,
+    "matched": 16,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 16,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 16,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 16
+    }
+   },
+   "after": {
+    "display": 16,
+    "matched": 16,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 16,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 16,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 16
+    }
+   },
+   "shift": {
+    "display": 16,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 16,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 16
+    }
+   },
+   "checkControl": {
+    "pairs": 16,
+    "wrong": 16,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 16,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "after": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "shift": {
+    "display": 8,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 8,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 8
+    }
+   },
+   "checkControl": {
+    "pairs": 8,
+    "wrong": 8,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 8,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT",
+   "display": 34,
+   "before": {
+    "display": 34,
+    "matched": 34,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 34,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 34,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 34
+    }
+   },
+   "after": {
+    "display": 34,
+    "matched": 34,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 34,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 34,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 34
+    }
+   },
+   "shift": {
+    "display": 34,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 34,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 34
+    }
+   },
+   "checkControl": {
+    "pairs": 34,
+    "wrong": 34,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 34,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/Dekor.SLDPRT",
+   "display": 375,
+   "before": {
+    "display": 375,
+    "matched": 375,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 373,
+    "wrong": 2,
+    "unchecked": 0,
+    "edgesSame": 375,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 375
+    }
+   },
+   "after": {
+    "display": 375,
+    "matched": 375,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 373,
+    "wrong": 2,
+    "unchecked": 0,
+    "edgesSame": 375,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 375
+    }
+   },
+   "shift": {
+    "display": 375,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 375,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 375
+    }
+   },
+   "checkControl": {
+    "pairs": 375,
+    "wrong": 370,
+    "right": 5,
+    "unchecked": 0,
+    "edgesDiffer": 375,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/Helical Bevel Gear.SLDPRT",
+   "display": 113,
+   "before": {
+    "display": 113,
+    "matched": 113,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 113,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 113,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 113
+    }
+   },
+   "after": {
+    "display": 113,
+    "matched": 113,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 113,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 113,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 113
+    }
+   },
+   "shift": {
+    "display": 113,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 113,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 113
+    }
+   },
+   "checkControl": {
+    "pairs": 112,
+    "wrong": 112,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 112,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/PTC GE8080-8.SLDPRT",
+   "display": 126,
+   "before": {
+    "display": 126,
+    "matched": 126,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 126,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 126,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 126
+    }
+   },
+   "after": {
+    "display": 126,
+    "matched": 126,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 126,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 126,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 126
+    }
+   },
+   "shift": {
+    "display": 126,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 126,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 126
+    }
+   },
+   "checkControl": {
+    "pairs": 126,
+    "wrong": 126,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 126,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/Pocket Wheel.SLDPRT",
+   "display": 400,
+   "before": {
+    "display": 400,
+    "matched": 400,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 400,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 400,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 400
+    }
+   },
+   "after": {
+    "display": 400,
+    "matched": 400,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 400,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 400,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 400
+    }
+   },
+   "shift": {
+    "display": 400,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 400,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 400
+    }
+   },
+   "checkControl": {
+    "pairs": 400,
+    "wrong": 400,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 400,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C00_cube_10mm/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 6,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 6,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 6
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C01_cube_20mm/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 6,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 6,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 6
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C02_cube_translated/model.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 6,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 6,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 6
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C04_cube_hole_5mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C05_cube_hole_3mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C06_cube_hole_moved/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C07_cube_two_holes/model.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "after": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "shift": {
+    "display": 8,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 8,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 8
+    }
+   },
+   "checkControl": {
+    "pairs": 8,
+    "wrong": 8,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 8,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT",
+   "display": 8,
+   "before": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "after": {
+    "display": 8,
+    "matched": 8,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 8,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 8,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 8
+    }
+   },
+   "shift": {
+    "display": 8,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 8,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 8
+    }
+   },
+   "checkControl": {
+    "pairs": 8,
+    "wrong": 8,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 8,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 7,
+    "wrong": 7,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 7,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C10_cube_shell_1mm/model.SLDPRT",
+   "display": 11,
+   "before": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 11,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 11
+    }
+   },
+   "after": {
+    "display": 11,
+    "matched": 11,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 11,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 11,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 11
+    }
+   },
+   "shift": {
+    "display": 11,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 11,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 11
+    }
+   },
+   "checkControl": {
+    "pairs": 11,
+    "wrong": 11,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 11,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C11_cube_hole_4mm/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+   "display": 7,
+   "before": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "after": {
+    "display": 7,
+    "matched": 7,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 7,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 7,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 7
+    }
+   },
+   "shift": {
+    "display": 7,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 7,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 7
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/cube.SLDPRT",
+   "display": 6,
+   "before": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "after": {
+    "display": 6,
+    "matched": 6,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 6,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 6,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 6
+    }
+   },
+   "shift": {
+    "display": 6,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 6,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 6
+    }
+   },
+   "checkControl": {
+    "pairs": 6,
+    "wrong": 6,
+    "right": 0,
+    "unchecked": 0,
+    "edgesDiffer": 6,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/distributor main boss rev a.SLDPRT",
+   "display": 51,
+   "before": {
+    "display": 51,
+    "matched": 51,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 51,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 51,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 51
+    }
+   },
+   "after": {
+    "display": 51,
+    "matched": 51,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 51,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 51,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 51
+    }
+   },
+   "shift": {
+    "display": 51,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 51,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 51
+    }
+   },
+   "checkControl": {
+    "pairs": 50,
+    "wrong": 47,
+    "right": 3,
+    "unchecked": 0,
+    "edgesDiffer": 50,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+   "display": 39,
+   "before": {
+    "display": 39,
+    "matched": 39,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 39,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 39,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 39
+    }
+   },
+   "after": {
+    "display": 39,
+    "matched": 39,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 39,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 39,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 39
+    }
+   },
+   "shift": {
+    "display": 39,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 39,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 39
+    }
+   },
+   "checkControl": {
+    "pairs": 39,
+    "wrong": 36,
+    "right": 3,
+    "unchecked": 0,
+    "edgesDiffer": 39,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  },
+  {
+   "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+   "display": 68,
+   "before": {
+    "display": 68,
+    "matched": 68,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 68,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 68,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 68
+    }
+   },
+   "after": {
+    "display": 68,
+    "matched": 68,
+    "ambiguous": 0,
+    "none": 0,
+    "right": 68,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 68,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "id": 68
+    }
+   },
+   "shift": {
+    "display": 68,
+    "matched": 0,
+    "ambiguous": 0,
+    "none": 68,
+    "right": 0,
+    "wrong": 0,
+    "unchecked": 0,
+    "edgesSame": 0,
+    "edgesDiffer": 0,
+    "edgesNone": 0,
+    "how": {
+     "none": 68
+    }
+   },
+   "checkControl": {
+    "pairs": 67,
+    "wrong": 61,
+    "right": 6,
+    "unchecked": 0,
+    "edgesDiffer": 67,
+    "edgesSame": 0,
+    "edgesNone": 0
+   }
+  }
+ ]
+}

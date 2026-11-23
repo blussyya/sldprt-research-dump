@@ -1,0 +1,184 @@
+[
+ {
+  "file": "test files online/2018/15567d51_leva1.SLDPRT",
+  "bodies": 3,
+  "unique": 298,
+  "display": 298,
+  "bodyDesc": 1,
+  "inDesc": 278,
+  "runs": 3,
+  "control": {
+   "bodyDesc": 9,
+   "inDesc": 135,
+   "runs": 19
+  }
+ },
+ {
+  "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+  "bodies": 114,
+  "unique": 1542,
+  "display": 2512,
+  "bodyDesc": 31,
+  "inDesc": 1455,
+  "runs": 37,
+  "control": {
+   "bodyDesc": 672,
+   "inDesc": 102,
+   "runs": 1320
+  }
+ },
+ {
+  "file": "test files online/2019/54b05886_bottom_adc.SLDPRT",
+  "bodies": 2,
+  "unique": 92,
+  "display": 92,
+  "bodyDesc": 1,
+  "inDesc": 51,
+  "runs": 2,
+  "control": {
+   "bodyDesc": 5,
+   "inDesc": 48,
+   "runs": 11
+  }
+ },
+ {
+  "file": "test files online/2019/a3a44709_FrontPanel-Bezel.sldprt",
+  "bodies": 2,
+  "unique": 14,
+  "display": 16,
+  "bodyDesc": 1,
+  "inDesc": 2,
+  "runs": 2,
+  "control": {
+   "bodyDesc": 4,
+   "inDesc": 2,
+   "runs": 9
+  }
+ },
+ {
+  "file": "test files online/2019/d381ebab_bottom_dac.SLDPRT",
+  "bodies": 2,
+  "unique": 83,
+  "display": 83,
+  "bodyDesc": 1,
+  "inDesc": 45,
+  "runs": 2,
+  "control": {
+   "bodyDesc": 6,
+   "inDesc": 34,
+   "runs": 13
+  }
+ },
+ {
+  "file": "test files online/2020/14f9214b_11.SLDPRT",
+  "bodies": 3,
+  "unique": 73,
+  "display": 73,
+  "bodyDesc": 0,
+  "inDesc": 34,
+  "runs": 3,
+  "control": {
+   "bodyDesc": 15,
+   "inDesc": 21,
+   "runs": 30
+  }
+ },
+ {
+  "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+  "bodies": 9,
+  "unique": 154,
+  "display": 239,
+  "bodyDesc": 0,
+  "inDesc": 92,
+  "runs": 3,
+  "control": {
+   "bodyDesc": 31,
+   "inDesc": 45,
+   "runs": 61
+  }
+ },
+ {
+  "file": "test files online/2023/03764871_BME280.SLDPRT",
+  "bodies": 31,
+  "unique": 434,
+  "display": 693,
+  "bodyDesc": 4,
+  "inDesc": 315,
+  "runs": 12,
+  "control": {
+   "bodyDesc": 120,
+   "inDesc": 85,
+   "runs": 246
+  }
+ },
+ {
+  "file": "test files online/2023/2f121983_case.SLDPRT",
+  "bodies": 2,
+  "unique": 154,
+  "display": 155,
+  "bodyDesc": 0,
+  "inDesc": 49,
+  "runs": 2,
+  "control": {
+   "bodyDesc": 15,
+   "inDesc": 62,
+   "runs": 31
+  }
+ },
+ {
+  "file": "test files online/2023/4803f393_box.SLDPRT",
+  "bodies": 9,
+  "unique": 1292,
+  "display": 1390,
+  "bodyDesc": 2,
+  "inDesc": 1058,
+  "runs": 6,
+  "control": {
+   "bodyDesc": 419,
+   "inDesc": 232,
+   "runs": 828
+  }
+ },
+ {
+  "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+  "bodies": 3,
+  "unique": 500,
+  "display": 544,
+  "bodyDesc": 1,
+  "inDesc": 237,
+  "runs": 3,
+  "control": {
+   "bodyDesc": 141,
+   "inDesc": 119,
+   "runs": 283
+  }
+ },
+ {
+  "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+  "bodies": 7,
+  "unique": 299,
+  "display": 404,
+  "bodyDesc": 2,
+  "inDesc": 147,
+  "runs": 4,
+  "control": {
+   "bodyDesc": 87,
+   "inDesc": 60,
+   "runs": 171
+  }
+ },
+ {
+  "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+  "bodies": 2,
+  "unique": 959,
+  "display": 961,
+  "bodyDesc": 0,
+  "inDesc": 835,
+  "runs": 2,
+  "control": {
+   "bodyDesc": 14,
+   "inDesc": 459,
+   "runs": 28
+  }
+ }
+]

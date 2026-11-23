@@ -1,0 +1,25 @@
+C00_cube_10mm                    feature ids  2 records  2 FT  2 pairs 2 FT>=stamp 2 equal 1 FT<stamp 0 FT monotone true
+C01_cube_20mm                    feature ids  2 records  2 FT  2 pairs 2 FT>=stamp 2 equal 1 FT<stamp 0 FT monotone true
+C02_cube_translated              feature ids  2 records  2 FT  2 pairs 2 FT>=stamp 2 equal 1 FT<stamp 0 FT monotone true
+C03_cube_fillet_1mm              feature ids  2 records  2 FT  3 pairs 2 FT>=stamp 2 equal 1 FT<stamp 0 FT monotone true
+C04_cube_hole_5mm                feature ids  4 records  4 FT  4 pairs 4 FT>=stamp 4 equal 2 FT<stamp 0 FT monotone true
+C05_cube_hole_3mm                feature ids  4 records  4 FT  4 pairs 4 FT>=stamp 4 equal 2 FT<stamp 0 FT monotone true
+C06_cube_hole_moved              feature ids  4 records  4 FT  4 pairs 4 FT>=stamp 4 equal 2 FT<stamp 0 FT monotone true
+C07_cube_two_holes               feature ids  4 records  4 FT  4 pairs 4 FT>=stamp 4 equal 2 FT<stamp 0 FT monotone true
+C08_cube_second_hole_modified    feature ids  4 records  4 FT  4 pairs 4 FT>=stamp 4 equal 2 FT<stamp 0 FT monotone true
+C09_cube_chamfer_1mm             feature ids  2 records  2 FT  3 pairs 2 FT>=stamp 2 equal 1 FT<stamp 0 FT monotone true
+C10_cube_shell_1mm               feature ids  2 records  2 FT  3 pairs 2 FT>=stamp 2 equal 1 FT<stamp 0 FT monotone true
+C11_cube_hole_4mm                feature ids  4 records  4 FT  4 pairs 4 FT>=stamp 4 equal 2 FT<stamp 0 FT monotone true
+C12_cube_fillet_1mm_edge2        feature ids  2 records  2 FT  3 pairs 2 FT>=stamp 2 equal 1 FT<stamp 0 FT monotone true
+C13_cone                         feature ids  1 records  1 FT  2 pairs 1 FT>=stamp 1 equal 1 FT<stamp 0 FT monotone true
+C14_sphere                       feature ids  1 records  1 FT  2 pairs 1 FT>=stamp 1 equal 1 FT<stamp 0 FT monotone true
+C15_torus                        feature ids  1 records  1 FT  2 pairs 1 FT>=stamp 1 equal 0 FT<stamp 0 FT monotone true
+C16_loft_spline                  feature ids  3 records  3 FT  4 pairs 3 FT>=stamp 3 equal 1 FT<stamp 0 FT monotone true
+C17_torus_quarter                feature ids  1 records  1 FT  2 pairs 1 FT>=stamp 1 equal 0 FT<stamp 0 FT monotone true
+C18_cube_split_line              feature ids  3 records  3 FT  4 pairs 3 FT>=stamp 3 equal 1 FT<stamp 0 FT monotone true
+C19_half_cylinder                feature ids  2 records  2 FT  2 pairs 2 FT>=stamp 2 equal 1 FT<stamp 0 FT monotone true
+C20_cylinders_crossed            feature ids  4 records  4 FT  4 pairs 4 FT>=stamp 4 equal 2 FT<stamp 0 FT monotone true
+C21_cylinder_fillet              feature ids  2 records  2 FT  3 pairs 2 FT>=stamp 2 equal 1 FT<stamp 0 FT monotone true
+C23_cube_sw2011_to_2022          feature ids  2 records  1 FT  9 pairs 1 FT>=stamp 1 equal 0 FT<stamp 0 FT monotone false
+C24_cube_sw2022_native           feature ids  2 records  2 FT  2 pairs 2 FT>=stamp 2 equal 1 FT<stamp 0 FT monotone true
+{"files":24,"feat":60,"idsFound":59,"ftCount":78,"pairs":59,"ge":59,"eq":28,"lt":0,"mono":23}

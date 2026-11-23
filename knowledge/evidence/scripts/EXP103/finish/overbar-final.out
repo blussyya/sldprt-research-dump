@@ -1,0 +1,7 @@
+0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT | fitted edges over 1e-8 m: 1
+ edge 6075 spcurve offset | error 1.57e-4 | edge tol 1.00e-5 | vertex tol 1.00e-5, 4.82e-5 | vertex to curve 0.00e+0, 1.57e-4 (free fit error 9.58e-9)
+f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT | fitted edges over 1e-8 m: 1
+ edge 152 spcurve bspline | error 4.49e-4 | edge tol 1.02e-6 | vertex tol 1.02e-6, 1.04e-6 | vertex to curve 4.49e-4, 0.00e+0 (free fit error 9.95e-9)
+3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT | fitted edges over 1e-8 m: 2
+ edge 1655 intersection planexblend | error 2.53e-8 | edge tol none | vertex tol none, none | vertex to curve 0.00e+0, 0.00e+0 (free fit error 2.53e-8)
+ edge 1601 intersection blendxplane | error 2.03e-8 | edge tol none | vertex tol none, none | vertex to curve 0.00e+0, 0.00e+0 (free fit error 2.03e-8)

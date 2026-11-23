@@ -1,0 +1,6 @@
+== aa9a555
+0739c559 wrote 1627316 bytes, maxError 9.781466374974861e-9
+f0b9a118 wrote 2851099 bytes, maxError 1.5764388416513337e-8
+== f939721
+0739c559 refused: exact STEP: fitted geometry is 0.157 mm off the exact (limit 0.001 mm)
+f0b9a118 refused: exact STEP: fitted geometry is 0.449 mm off the exact (limit 0.001 mm)

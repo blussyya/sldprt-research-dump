@@ -1,0 +1,5 @@
+blend 9821 | A error 5.584e-9 ctrl 97 | B error 1.538e-8 ctrl 97 | curves apart, max 1.263e-17 m
+blend 10371 | A error 5.446e-9 ctrl 103 | B error 1.482e-8 ctrl 103 | curves apart, max 2.395e-17 m
+blend 9931 | A error 5.428e-9 ctrl 113 | B error 1.477e-8 ctrl 113 | curves apart, max 2.596e-17 m
+blend 10129 | A error 5.428e-9 ctrl 113 | B error 1.477e-8 ctrl 113 | curves apart, max 3.123e-17 m
+blend 10349 | A error 4.391e-9 ctrl 84 | B error 9.981e-9 ctrl 84 | curves apart, max 1.599e-17 m

@@ -1,0 +1,2 @@
+== /home/user/conv-dev
+== /home/user/solidworks-converters

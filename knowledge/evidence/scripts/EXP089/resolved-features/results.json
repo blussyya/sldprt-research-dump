@@ -1,0 +1,2022 @@
+{
+  "rows": [
+    {
+      "file": "test files new/SW2011/C00_cube_10mm/model.SLDPRT",
+      "sha256": "7054cfc0fb771980a2170df80a8fc38718225a2d193213834245334257604bf5",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C01_cube_20mm/model.SLDPRT",
+      "sha256": "1841f3ef52c46512d2a7544d54c2ef7ab817f376c82ad3e3e15e68d2c01d0729",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C02_cube_translated/model.SLDPRT",
+      "sha256": "5b088c2eb8bdf4d0709f38d8583ff43b559e9fbdd852b0ca3b0de53ca1214e2e",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT",
+      "sha256": "456a2c8cef38cbaa7b375a2632ee8f044a2513687935016ba74c2a24730b75b0",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT",
+      "sha256": "b472a5bb9a1e5bfd6e210042f5d1cc0e52bc8ec5fcc819d1d652e82c7218a55e",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT",
+      "sha256": "b9b08de9eff27b10f790f772a7b97b437133b5ba7d89d9cfd3177ef4ec97908b",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C06_cube_hole_moved/model.SLDPRT",
+      "sha256": "60c71002393a2618fdda2a587bbe925592617bcaf6c4c38d5e17c713431b8ee7",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C07_cube_two_holes/model.SLDPRT",
+      "sha256": "ebcb5f13ab28f078ae9f2f8f4b4f68fa8e0bd083a655f65097a3c51b1af22cf0",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT",
+      "sha256": "b01658e263595eeee875a9cc1807d615ec5ae0feb4752fac6f85c3292d4a8276",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT",
+      "sha256": "2882ba660e04b907b40724aa92b162dc759db7e6e383fe0daec181e9d8994ce8",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT",
+      "sha256": "5001239cf49ccc7e2f85d2f6bbf7ee63fdef51d7eb002389b0788071b0f4e15c",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT",
+      "sha256": "fd324092ec6e6aa4c1fb138dd027023761420b5765fa2727c3c4cda39cf3e505",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "sha256": "355ac304653d6d236e2eefc5408be78011436e479d6f248bf51520edecbf5999",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C13_cone/model.SLDPRT",
+      "sha256": "e241ae1143bae9d6492436779c305c31aa443151f9bc767ce2edcdd230d712fd",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C14_sphere/model.SLDPRT",
+      "sha256": "4811427e99a684c8076a502f433c06c6887e1205bbe836d7c9acceb226471ca7",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C15_torus/model.SLDPRT",
+      "sha256": "7a8913cb596e547045b6e0c81aea11559b2c49350331334cd3cdcd2c33fa527e",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C16_loft_spline/model.SLDPRT",
+      "sha256": "3f7e6dc3be2bb6a584f277f0a4ab455013cdab9d551ee5d038c698e35d46f031",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C17_torus_quarter/model.SLDPRT",
+      "sha256": "c81ff69b02e1c71f004f6667f56053a2c6f3b525075a4954dd612cba5ad8f2dc",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C18_cube_split_line/model.SLDPRT",
+      "sha256": "68faf7994a15211583554edb8e46ba30258c20e803380fbd1d8a8683e8f0d583",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": [
+        {
+          "stream": "Config-0-ResolvedFeatures",
+          "start": 11372,
+          "end": 12353,
+          "size": 977,
+          "kind": "plain",
+          "nodes": 46,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              0,
+              0,
+              0.01
+            ],
+            "max": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "wrapper": {
+            "outerSize": 982,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 300,
+            "at": 9083,
+            "end": 13900,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 1859,
+            "compressedBytes": 945,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 25,
+            "name": "Sketch2",
+            "index": 298,
+            "at": 8920,
+            "end": 13920
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2011/C19_half_cylinder/model.SLDPRT",
+      "sha256": "9d2882cf496006b302ebe6a2978f08703e8ec56b86d47bf7c5bb40b2e6795c3d",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C20_cylinders_crossed/model.SLDPRT",
+      "sha256": "1c9e2d957e8c974502f441921288dc3ab68cf108958359acfbe01d1e0998bca5",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C21_cylinder_fillet/model.SLDPRT",
+      "sha256": "138bb3ea7fcd29ea2fe8d0a572e921143aa6ef114768a19a5fe58f8195ec68dc",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT",
+      "sha256": "c14e9fd4de73865aad4c9b0134382f263295cf441ac65df987f3c05e5c884886",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT",
+      "sha256": "093c84118ec7c9d0e3f66212aef46e27bf2350192a1def920ae461dc10e5305f",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT",
+      "sha256": "3312824fd9748bd24e5c5c87a228825e097c6f55ea88c896703e2cdb43d45df2",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+      "sha256": "ecef0ce6fbcfb101dfd6000ce32b7cf56ff560bc8f200ac33dc52b7cac1fa4d5",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C01_cube_20mm/model.SLDPRT",
+      "sha256": "894f71955d59a990456467ec8abcaed5188025542e9660760b93f2236c0bae5e",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C02_cube_translated/model.SLDPRT",
+      "sha256": "ec86dbb80a83125d0b428bb739006c45a8e8537f32825d11e03037f3e403880e",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT",
+      "sha256": "66d392854ce50a7e0595376a5bdc1d9bc26fac88a8e53cfb6b94769f9752a792",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT",
+      "sha256": "992519fdcf8c213d04c6226d19fb20a1e3ed4db3f8a86f8043c2f268b4799066",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT",
+      "sha256": "e9e28586f4980b901c0e29af2927c7cf37eaad0ecda6492c045ad03d9e43eee9",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C06_cube_hole_moved/model.SLDPRT",
+      "sha256": "a6b03cf80fc1bd6e58a8dcd2cd01c0f10b24f91439a561565b9e09f42519e359",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C07_cube_two_holes/model.SLDPRT",
+      "sha256": "79d429ac3fe0858fd93e49a0f36df219e7f7075db1f6f5af4ee39d709cc05afb",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT",
+      "sha256": "f839f6afbf6067012b245e65737a5107fd03fd1acade40600c4f519e4c0904e3",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT",
+      "sha256": "aa82e4cc7bfb4cd427dcfa8e581be19ae887eace99a19b4a37d34bbf8419b0d0",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT",
+      "sha256": "158442be99857410c04684a08597259bde962c4e91e545633ea6a9c3e5bdfbc8",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT",
+      "sha256": "b836bf47b51ee257321253a6772ad62acb4853133857d58fc6c331dcfb67b47f",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "sha256": "61ea581033dfd7a246ba264fb645e7545fb121e2c7829ce01d58856f436f43c7",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+      "sha256": "6c0a13cae5a8df74a463681cc50f3dd550359e463da0935a293fec3865db87b0",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+      "sha256": "03b72028c5a3169a2af63cb3da896f5df1546641f6a660f583d27e39431a36a1",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C15_torus/model.SLDPRT",
+      "sha256": "f2981cb684eb6bb0d3ad697ff223bf061c0dce4ff729d5254473579f0d194cee",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+      "sha256": "3ec02e9bf6446f32040260f5924535892d2961e61fdf11afaf5c0bf8e8758973",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C17_torus_quarter/model.SLDPRT",
+      "sha256": "ebb542a67576f19f8831e665e265fc0a970cc4529383b3c8a79c38e2cf784926",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+      "sha256": "9fb2105af09af974e38550fc698aca9874a6e9dff775b2d1bdb07ea983567076",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 14810,
+          "end": 15898,
+          "size": 1084,
+          "kind": "plain",
+          "nodes": 46,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              0,
+              0,
+              0.01
+            ],
+            "max": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1089,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 288,
+            "at": 12117,
+            "end": 17627,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 2043,
+            "compressedBytes": 1052,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 33,
+            "name": "Sketch2",
+            "index": 286,
+            "at": 11938,
+            "end": 17651
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2022/C19_half_cylinder/model.SLDPRT",
+      "sha256": "6c850643f2f5c0cc10e21e66823d5ffb886be7b5a12aaf71d1cac953024cf8cf",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+      "sha256": "eeb0d04faa29c60272e987b93fce54fc9694e6f335589cc115fb25b760a51a53",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+      "sha256": "c8a83ed6c000378a72f03ea4f0e36278348a0681a8ce205af936e7310cdcda37",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT",
+      "sha256": "d9939775821bdc95399dda59df8625b855106d5d9df25606478b953fa176d4bc",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+      "sha256": "9d50b4a4ccd2bb40bc067bd8d7a175ad79d5b1fc20b24319d0338b19bb98d611",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT",
+      "sha256": "4109849b23150cc716df64110e1571675077381ce535a367c71827aa5bcdaf6d",
+      "featureComplete": false,
+      "featureError": "no reader for suObArray (schema 1) at 15143, object at 15128",
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 12942,
+          "end": 13676,
+          "size": 730,
+          "kind": "plain",
+          "nodes": 20,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 1,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 735,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 278,
+            "at": 11465,
+            "end": 15072,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 1246,
+            "compressedBytes": 698,
+            "rawMatches": true
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 19854,
+          "end": 20588,
+          "size": 730,
+          "kind": "plain",
+          "nodes": 20,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 1,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 735,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files new/SW2026/cylinder with fillet-2026-credit-kevinR.SLDPRT",
+      "sha256": "696d56a5ff27e978475e4caf2941cd32d381d7a513400a82d57841aeeaccac33",
+      "featureComplete": false,
+      "featureError": "top-level ref {\"ref\":303} at 888",
+      "sections": []
+    },
+    {
+      "file": "test files new/re-exports/C00_cube_10mm-2011-to-2026/model.SLDPRT",
+      "sha256": "3a86495130ec191da0819f6ad6ffee6701d5b0247fef0963f87408511fe3762c",
+      "featureComplete": false,
+      "featureError": "unknown class index 32512 at 5084 (relation entity)",
+      "sections": []
+    },
+    {
+      "file": "test files new/re-exports/C01_cube_20mm-2011-to-2026/model.SLDPRT",
+      "sha256": "ea24cb74acee1a836ecc409eeebc46958abc594ba3ddfad42833d213a785da44",
+      "featureComplete": false,
+      "featureError": "unknown class index 32512 at 5084 (relation entity)",
+      "sections": []
+    },
+    {
+      "file": "test files new/re-exports/holefillets1-2022to2026reexport-Furthen64-kevinR.SLDPRT",
+      "sha256": "db1382ed66e5158610335dd323a6e288652ef1ac2aaeb56a8217ad59e4a2d7a5",
+      "featureComplete": false,
+      "featureError": "unknown class index 3060 at 767 (history item)",
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 13152,
+          "end": 14019,
+          "size": 863,
+          "kind": "plain",
+          "nodes": 28,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 1,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 868,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 20237,
+          "end": 21100,
+          "size": 859,
+          "kind": "plain",
+          "nodes": 28,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 1,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 864,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files new/re-exports/plate4 1997to2025kevin.SLDPRT",
+      "sha256": "f1c0c009bfdcd79fb88ff7160128ea1d6f41bd7940f629ccb9120202175100f8",
+      "featureComplete": false,
+      "featureError": "top-level ref {\"ref\":74} at 1874",
+      "sections": []
+    },
+    {
+      "file": "test files new/re-exports/plate4-1997to2026kevinrahhal.sldprt",
+      "sha256": "f2a1ed2a2cfc195f2460819d7776da3489fb2cc5b5655de35fee6aabde4fa014",
+      "featureComplete": false,
+      "featureError": "top-level ref {\"ref\":74} at 1874",
+      "sections": []
+    },
+    {
+      "file": "test files original/Dekor.SLDPRT",
+      "sha256": "865142829c7d91aa85f65771d2a6e60dad4f58d0093422cb56c94ce6c8959c89",
+      "featureComplete": false,
+      "featureError": "no reader for moCutListFolder_c (schema 1) at 2735, object at 2712",
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 457005,
+          "end": 458544,
+          "size": 1535,
+          "kind": "plain",
+          "nodes": 62,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              -0.5470999999999998,
+              -0.5971000000000002,
+              -2.229119666630197e-16
+            ],
+            "max": [
+              0.5471000000000003,
+              0.5970999999999996,
+              -2.220446049250313e-16
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1540,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "sha256": "d694ebd12683ffd1b6b225f465fd358005b6015388b1cc4fc1867cb38c371a92",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 66599,
+          "end": 67399,
+          "size": 796,
+          "kind": "plain",
+          "nodes": 24,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 1,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 801,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 515,
+            "at": 36257,
+            "end": 68653,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 1356,
+            "compressedBytes": 764,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 64,
+            "name": "Sketch2",
+            "index": 513,
+            "at": 36078,
+            "end": 68721
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 151750,
+          "end": 152661,
+          "size": 907,
+          "kind": "plain",
+          "nodes": 31,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 2,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 912,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 1361,
+            "at": 144041,
+            "end": 154158,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 1589,
+            "compressedBytes": 875,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 95,
+            "name": "Sketch9",
+            "index": 1359,
+            "at": 143862,
+            "end": 154380
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 173186,
+          "end": 174041,
+          "size": 851,
+          "kind": "plain",
+          "nodes": 28,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 1,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 856,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 1658,
+            "at": 170098,
+            "end": 175376,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 1457,
+            "compressedBytes": 819,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 132,
+            "name": "Sketch10",
+            "index": 1656,
+            "at": 169917,
+            "end": 175400
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/PTC GE8080-8.SLDPRT",
+      "sha256": "162e6293b95508072f65d39b4d933553d2f3fa6c77863e29e6135afd026c8f94",
+      "featureComplete": false,
+      "featureError": "unknown class index 32511 at 5593 (profile object)",
+      "sections": []
+    },
+    {
+      "file": "test files original/Pocket Wheel.SLDPRT",
+      "sha256": "678a73af7c6eca8b5e6df60905a96f437bd5d1f85a2eed19277332c25629bb8c",
+      "featureComplete": false,
+      "featureError": "bad class name at 16106",
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 348394,
+          "end": 349421,
+          "size": 1023,
+          "kind": "plain",
+          "nodes": 35,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 2,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 1028,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 425058,
+          "end": 426099,
+          "size": 1037,
+          "kind": "plain",
+          "nodes": 35,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 2,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 1042,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/SW2000-s01.SLDPRT",
+      "sha256": "3a1007ea37bc19bec8a2398b83db204bc36db0c1687fba264160e898335c1ab2",
+      "featureComplete": false,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/chainwheel.sldprt",
+      "sha256": "77b81e1ca94b266e4c977bb3ec8fbb9cac294f394ff9d5a2b2b208fb401e0f1a",
+      "featureComplete": false,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/controlled/C00_cube_10mm/model.SLDPRT",
+      "sha256": "89ad8d93148d853dc07bd2a2a8b3e6b3be27cd10dbae212d42da11eb2b215877",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/controlled/C01_cube_20mm/model.SLDPRT",
+      "sha256": "1da2b075fd3492e49699bd4cf0065e11411b1017e88e1822e1cded9ee51f9af0",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/controlled/C02_cube_translated/model.SLDPRT",
+      "sha256": "cc73f8cbc0f9e4fce2c4f4cdf8ab3d5fcaaa3bdd593318e2f8f74108d91b50d5",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT",
+      "sha256": "a14df0089bbc7cc5bf47e1d0d2cfbe50ba17be21c636cef4540d509164a514d2",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/controlled/C04_cube_hole_5mm/model.SLDPRT",
+      "sha256": "38ff0e82f9f92002e2cb6092345bbd76b19e5a40e3d085f1e36a0d3139f4f8e3",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 12924,
+          "end": 14013,
+          "size": 1085,
+          "kind": "plain",
+          "nodes": 46,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              0,
+              0,
+              0.01
+            ],
+            "max": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1090,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 288,
+            "at": 12113,
+            "end": 15757,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 2043,
+            "compressedBytes": 1053,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 33,
+            "name": "Sketch2",
+            "index": 286,
+            "at": 11934,
+            "end": 15781
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C05_cube_hole_3mm/model.SLDPRT",
+      "sha256": "3dd9eaf83e44f81d769e852b6468bf04de7a565e75cb49fcfc34f3aeaf6cbd96",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 12924,
+          "end": 14012,
+          "size": 1084,
+          "kind": "plain",
+          "nodes": 46,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              0,
+              0,
+              0.01
+            ],
+            "max": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1089,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 288,
+            "at": 12113,
+            "end": 15756,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 2043,
+            "compressedBytes": 1052,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 33,
+            "name": "Sketch2",
+            "index": 286,
+            "at": 11934,
+            "end": 15780
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C06_cube_hole_moved/model.SLDPRT",
+      "sha256": "b4880b5a192c29f52cfc2036563caad3b8ff6384a863c4ea949d3eaa1e3404ed",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 12926,
+          "end": 14014,
+          "size": 1084,
+          "kind": "plain",
+          "nodes": 46,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              0,
+              0,
+              0.01
+            ],
+            "max": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1089,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 288,
+            "at": 12115,
+            "end": 15758,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 2043,
+            "compressedBytes": 1052,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 33,
+            "name": "Sketch2",
+            "index": 286,
+            "at": 11936,
+            "end": 15782
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C07_cube_two_holes/model.SLDPRT",
+      "sha256": "1fca948b6ab1a3ea94eec6f1013cdf60c81dcf9a4fbdb0b2fe100afdd9ba07c9",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 13156,
+          "end": 14251,
+          "size": 1091,
+          "kind": "plain",
+          "nodes": 46,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              0,
+              0,
+              0.01
+            ],
+            "max": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1096,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 295,
+            "at": 12345,
+            "end": 15995,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 2043,
+            "compressedBytes": 1059,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 33,
+            "name": "Sketch2",
+            "index": 293,
+            "at": 12166,
+            "end": 16019
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 18167,
+          "end": 19307,
+          "size": 1136,
+          "kind": "plain",
+          "nodes": 49,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 5,
+          "vertices": 4,
+          "box": {
+            "min": [
+              0,
+              0,
+              0.01
+            ],
+            "max": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1141,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 403,
+            "at": 17371,
+            "end": 21166,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 2176,
+            "compressedBytes": 1104,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 41,
+            "name": "Sketch3",
+            "index": 401,
+            "at": 17192,
+            "end": 21190
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT",
+      "sha256": "0213ffbcba1f2d95de22445b62d35faaa2ee26d43fc644b03a91cca06159b811",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 13156,
+          "end": 14250,
+          "size": 1090,
+          "kind": "plain",
+          "nodes": 46,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              0,
+              0,
+              0.01
+            ],
+            "max": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1095,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 295,
+            "at": 12345,
+            "end": 15994,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 2043,
+            "compressedBytes": 1058,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 33,
+            "name": "Sketch2",
+            "index": 293,
+            "at": 12166,
+            "end": 16018
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 18166,
+          "end": 19306,
+          "size": 1136,
+          "kind": "plain",
+          "nodes": 49,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 5,
+          "vertices": 4,
+          "box": {
+            "min": [
+              0,
+              0,
+              0.01
+            ],
+            "max": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1141,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 403,
+            "at": 17370,
+            "end": 21165,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 2176,
+            "compressedBytes": 1104,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 41,
+            "name": "Sketch3",
+            "index": 401,
+            "at": 17191,
+            "end": 21189
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT",
+      "sha256": "a76902070b7f47e97ee7cb7c76a9064796b8b4ab182f1c25ded41e97e2b61246",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/controlled/C10_cube_shell_1mm/model.SLDPRT",
+      "sha256": "12668ec6b393b765a5d4076a5a2b49378886d08ea8ffef0e2aa8d9c71c911cce",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/controlled/C11_cube_hole_4mm/model.SLDPRT",
+      "sha256": "fb78c483202368cd9d50a340be17b269048c285ae58dc1d5ca2b1f118243fa9e",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 12924,
+          "end": 14008,
+          "size": 1080,
+          "kind": "plain",
+          "nodes": 46,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              0,
+              0,
+              0.01
+            ],
+            "max": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1085,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          },
+          "owner": {
+            "class": "sgSketch",
+            "index": 288,
+            "at": 12113,
+            "end": 15752,
+            "onPlane": 0,
+            "guid": "231dd571da8148a2a85898b21b89ef99",
+            "rawSize": 2043,
+            "compressedBytes": 1048,
+            "rawMatches": true
+          },
+          "feature": {
+            "class": "moProfileFeature_c",
+            "id": 33,
+            "name": "Sketch2",
+            "index": 286,
+            "at": 11934,
+            "end": 15776
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+      "sha256": "8c835c79e0b30e4ba2ae4a0f6d9aa37ceedf0f6aa181624935f663700475a8e4",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/cube.SLDPRT",
+      "sha256": "e002c483df1faab6c635d52dd190311e2b0fd4a36758e54020efdd7512026cb1",
+      "featureComplete": true,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/distributor main boss rev a.SLDPRT",
+      "sha256": "72454b269924d6361d3b88a1e7f4ce217751abdf5e413580ac62d23392897711",
+      "featureComplete": false,
+      "featureError": "top-level ref {\"ref\":32160} at 1126",
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 56972,
+          "end": 57983,
+          "size": 1007,
+          "kind": "plain",
+          "nodes": 35,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 2,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 1012,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 119315,
+          "end": 121204,
+          "size": 1885,
+          "kind": "plain",
+          "nodes": 90,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 9,
+          "vertices": 8,
+          "box": {
+            "min": [
+              -6.353735928380701e-19,
+              -0.01696480571578955,
+              -0.016964805715789393
+            ],
+            "max": [
+              0,
+              0.016964805715789576,
+              0.016964805715789646
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1890,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 132609,
+          "end": 134696,
+          "size": 2083,
+          "kind": "plain",
+          "nodes": 105,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 11,
+          "vertices": 10,
+          "box": {
+            "min": [
+              -6.353735928380701e-19,
+              -0.01696480571578955,
+              -0.016964805715789393
+            ],
+            "max": [
+              0,
+              0.016964805715789576,
+              0.016964805715789646
+            ]
+          },
+          "wrapper": {
+            "outerSize": 2088,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 142508,
+          "end": 144591,
+          "size": 2079,
+          "kind": "plain",
+          "nodes": 105,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 11,
+          "vertices": 10,
+          "box": {
+            "min": [
+              -6.353735928380701e-19,
+              -0.01696480571578955,
+              -0.016964805715789393
+            ],
+            "max": [
+              0,
+              0.016964805715789576,
+              0.016964805715789646
+            ]
+          },
+          "wrapper": {
+            "outerSize": 2084,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 166835,
+          "end": 167885,
+          "size": 1046,
+          "kind": "plain",
+          "nodes": 39,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 2,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 1051,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 180317,
+          "end": 181364,
+          "size": 1043,
+          "kind": "plain",
+          "nodes": 39,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 2,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 1048,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 189333,
+          "end": 190373,
+          "size": 1036,
+          "kind": "plain",
+          "nodes": 39,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 2,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 1041,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/plate4.sldprt",
+      "sha256": "ab35db15d337f808f9ce9ee8fc72cc243c2fb2d78d033cf8514ef96e0f65d399",
+      "featureComplete": false,
+      "featureError": null,
+      "sections": []
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+      "sha256": "851f385248ed25cf7c9a2677df3169738c139f34120cb8734ae6ef89d26521a1",
+      "featureComplete": false,
+      "featureError": "unknown class index 0 (pre-loaded) at 7601 (sketch dimension)",
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 22235,
+          "end": 23435,
+          "size": 1196,
+          "kind": "plain",
+          "nodes": 54,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              -0.033499999999999995,
+              0.0065,
+              -0.0205
+            ],
+            "max": [
+              0.03350000000000001,
+              0.0065,
+              0.0205
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1201,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 54116,
+          "end": 55811,
+          "size": 1691,
+          "kind": "plain",
+          "nodes": 86,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 8,
+          "vertices": 8,
+          "box": {
+            "min": [
+              -0.032000000000000015,
+              0.002,
+              -0.019000000000000003
+            ],
+            "max": [
+              0.031999999999999994,
+              0.002,
+              0.018999999999999996
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1696,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 68806,
+          "end": 69633,
+          "size": 823,
+          "kind": "plain",
+          "nodes": 28,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 1,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 828,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        }
+      ]
+    },
+    {
+      "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+      "sha256": "b2928e16b72dd92f085e5d3cb83c101777acf075d2abf1b268563fdd564c14fc",
+      "featureComplete": false,
+      "featureError": "unknown class index 0 (pre-loaded) at 8291 (sketch dimension)",
+      "sections": [
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 23031,
+          "end": 24252,
+          "size": 1217,
+          "kind": "plain",
+          "nodes": 54,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              -0.033500000000000016,
+              0.02,
+              -0.020500000000000004
+            ],
+            "max": [
+              0.0335,
+              0.02,
+              0.020499999999999997
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1222,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 47216,
+          "end": 48930,
+          "size": 1710,
+          "kind": "plain",
+          "nodes": 86,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 8,
+          "vertices": 8,
+          "box": {
+            "min": [
+              -0.03200000000000001,
+              0.0020000000000000018,
+              -0.019
+            ],
+            "max": [
+              0.03200000000000001,
+              0.0020000000000000018,
+              0.019000000000000006
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1715,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 61390,
+          "end": 62224,
+          "size": 830,
+          "kind": "plain",
+          "nodes": 28,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 1,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 835,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 80433,
+          "end": 82370,
+          "size": 1933,
+          "kind": "plain",
+          "nodes": 102,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 5,
+          "edges": 12,
+          "vertices": 8,
+          "box": {
+            "min": [
+              -0.03200000000000001,
+              0.0020000000000000018,
+              -0.019
+            ],
+            "max": [
+              0.03200000000000001,
+              0.0020000000000000018,
+              0.019000000000000006
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1938,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 102101,
+          "end": 104650,
+          "size": 2545,
+          "kind": "plain",
+          "nodes": 139,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 2,
+          "edges": 16,
+          "vertices": 16,
+          "box": {
+            "min": [
+              -0.033500000000000016,
+              0.02,
+              -0.020500000000000004
+            ],
+            "max": [
+              0.0335,
+              0.02,
+              0.020499999999999997
+            ]
+          },
+          "wrapper": {
+            "outerSize": 2550,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 120954,
+          "end": 123888,
+          "size": 2930,
+          "kind": "plain",
+          "nodes": 169,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 20,
+          "vertices": 20,
+          "box": {
+            "min": [
+              -0.033500000000000016,
+              0.02,
+              -0.020500000000000004
+            ],
+            "max": [
+              0.0335,
+              0.02,
+              0.020499999999999997
+            ]
+          },
+          "wrapper": {
+            "outerSize": 2935,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 136547,
+          "end": 137277,
+          "size": 726,
+          "kind": "plain",
+          "nodes": 20,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 1,
+          "vertices": 0,
+          "box": null,
+          "wrapper": {
+            "outerSize": 731,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 150019,
+          "end": 152081,
+          "size": 2058,
+          "kind": "plain",
+          "nodes": 106,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 12,
+          "vertices": 12,
+          "box": {
+            "min": [
+              -0.03350000000000001,
+              0.02,
+              0.006499999999999999
+            ],
+            "max": [
+              0.0335,
+              0.02,
+              0.020499999999999997
+            ]
+          },
+          "wrapper": {
+            "outerSize": 2063,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 168828,
+          "end": 170960,
+          "size": 2128,
+          "kind": "plain",
+          "nodes": 116,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 7,
+          "edges": 14,
+          "vertices": 8,
+          "box": {
+            "min": [
+              -0.03200000000000001,
+              0.0020000000000000018,
+              -0.019
+            ],
+            "max": [
+              0.03200000000000001,
+              0.0020000000000000018,
+              0.019000000000000006
+            ]
+          },
+          "wrapper": {
+            "outerSize": 2133,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        },
+        {
+          "stream": "Contents/Config-0-ResolvedFeatures",
+          "start": 180657,
+          "end": 181762,
+          "size": 1101,
+          "kind": "plain",
+          "nodes": 42,
+          "faces": 1,
+          "bodies": 1,
+          "surfaces": [
+            "plane"
+          ],
+          "loops": 1,
+          "edges": 4,
+          "vertices": 4,
+          "box": {
+            "min": [
+              -0.033500000000000016,
+              0.02,
+              -0.0022999999999999965
+            ],
+            "max": [
+              -0.032,
+              0.02,
+              0.002300000000000014
+            ]
+          },
+          "wrapper": {
+            "outerSize": 1106,
+            "flag": 0,
+            "sizePlusFive": true,
+            "tail4": "00000000"
+          }
+        }
+      ]
+    }
+  ]
+}

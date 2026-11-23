@@ -1,0 +1,17 @@
+resolve ok time 488.3 s | blends 108 curves 552
+worst blends:
+  blend 3452 face 2299 error 9.944e-9 time 15440 ms
+  blend 3468 face 2294 error 9.944e-9 time 15144 ms
+  blend 3156 face 1734 error 9.832e-9 time 452 ms
+  blend 3270 face 1876 error 9.670e-9 time 51 ms
+  blend 3300 face 1969 error 9.670e-9 time 44 ms
+  blend 8590 face 8546 error 9.624e-9 time 773 ms
+  blend 8362 face 8318 error 9.615e-9 time 38 ms
+  blend 3416 face 2189 error 9.514e-9 time 3011 ms
+slowest blends:
+  blend 3452 time 15440 ms error 9.944e-9
+  blend 3468 time 15144 ms error 9.944e-9
+  blend 3443 time 13991 ms error 8.010e-9
+  blend 3460 time 13494 ms error 8.010e-9
+  blend 10129 time 7578 ms error 5.428e-9
+curves over 1e-8: 1 844 spcurve 1.14e-8

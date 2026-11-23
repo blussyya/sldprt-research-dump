@@ -1,0 +1,281 @@
+{
+  "summary": {
+    "file": "test files online/2025/ac760485_存矿小端.SLDPRT",
+    "configuration": {
+      "name": "默认",
+      "min": [
+        -0.0044123332955961075,
+        0,
+        0
+      ],
+      "max": [
+        0.14999999999999997,
+        0.06,
+        0.11268424997169725
+      ]
+    },
+    "displayBox": {
+      "min": [
+        -2.7755575615628914e-17,
+        -2.7755575615628914e-17,
+        -6.938893903907228e-18
+      ],
+      "max": [
+        0.15000000596046448,
+        0.05999999865889549,
+        0.10000000149011612
+      ]
+    },
+    "outsideDisplay": true,
+    "sections": 11,
+    "readableSections": 10,
+    "allSectionPointsBox": {
+      "min": [
+        -2.7755575615628914e-17,
+        0,
+        -1.4019807059828747e-19
+      ],
+      "max": [
+        0.14999999999999997,
+        0.06,
+        0.1
+      ]
+    },
+    "reachesEnvelope": false,
+    "sampledEdgePoints": 147600,
+    "sampledEdgeBox": {
+      "min": [
+        -2.7755575615628914e-17,
+        -1.1492543028346347e-17,
+        -6.938893903907228e-18
+      ],
+      "max": [
+        0.15,
+        0.06,
+        0.1
+      ]
+    }
+  },
+  "sections": [
+    {
+      "stream": "Contents/Config-0-GhostPartition",
+      "offset": 0,
+      "kind": "partition",
+      "bodies": 2,
+      "faces": 0,
+      "points": 2,
+      "pointBox": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          0,
+          0
+        ]
+      },
+      "parseError": null
+    },
+    {
+      "stream": "Contents/Config-0-Partition",
+      "offset": 0,
+      "kind": "partition",
+      "bodies": 1,
+      "faces": 38,
+      "points": 49,
+      "pointBox": {
+        "min": [
+          -2.7755575615628914e-17,
+          0,
+          0
+        ],
+        "max": [
+          0.14999999999999997,
+          0.06,
+          0.1
+        ]
+      },
+      "parseError": null
+    },
+    {
+      "stream": "Contents/Config-0-Partition",
+      "offset": 16480,
+      "kind": "deltas",
+      "bodies": 0,
+      "faces": 0,
+      "points": 0,
+      "pointBox": null,
+      "parseError": "missing base schema for node type 3 at 99"
+    },
+    {
+      "stream": "Contents/Config-0-ResolvedFeatures",
+      "offset": 37408,
+      "kind": "plain",
+      "bodies": 1,
+      "faces": 1,
+      "points": 4,
+      "pointBox": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0.14999999999999997,
+          0,
+          0.1
+        ]
+      },
+      "parseError": null
+    },
+    {
+      "stream": "Contents/Config-0-ResolvedFeatures",
+      "offset": 62220,
+      "kind": "plain",
+      "bodies": 1,
+      "faces": 1,
+      "points": 4,
+      "pointBox": {
+        "min": [
+          -2.7755575615628914e-17,
+          0,
+          0.1
+        ],
+        "max": [
+          0.14999999999999997,
+          0.06,
+          0.1
+        ]
+      },
+      "parseError": null
+    },
+    {
+      "stream": "Contents/Config-0-ResolvedFeatures",
+      "offset": 84470,
+      "kind": "plain",
+      "bodies": 1,
+      "faces": 1,
+      "points": 4,
+      "pointBox": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0.14999999999999997,
+          0,
+          0.1
+        ]
+      },
+      "parseError": null
+    },
+    {
+      "stream": "Contents/Config-0-ResolvedFeatures",
+      "offset": 103762,
+      "kind": "plain",
+      "bodies": 1,
+      "faces": 1,
+      "points": 4,
+      "pointBox": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0.14999999999999997,
+          0,
+          0.1
+        ]
+      },
+      "parseError": null
+    },
+    {
+      "stream": "Contents/Config-0-ResolvedFeatures",
+      "offset": 131626,
+      "kind": "plain",
+      "bodies": 1,
+      "faces": 1,
+      "points": 9,
+      "pointBox": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0.14999999999999997,
+          0,
+          0.1
+        ]
+      },
+      "parseError": null
+    },
+    {
+      "stream": "Contents/Config-0-ResolvedFeatures",
+      "offset": 150530,
+      "kind": "plain",
+      "bodies": 1,
+      "faces": 1,
+      "points": 8,
+      "pointBox": {
+        "min": [
+          -2.7755575615628914e-17,
+          0.06,
+          0
+        ],
+        "max": [
+          0.14999999999999997,
+          0.06,
+          0.1
+        ]
+      },
+      "parseError": null
+    },
+    {
+      "stream": "Contents/Config-0-ResolvedFeatures",
+      "offset": 160062,
+      "kind": "plain",
+      "bodies": 1,
+      "faces": 1,
+      "points": 15,
+      "pointBox": {
+        "min": [
+          0,
+          0,
+          -1.4019807059828747e-19
+        ],
+        "max": [
+          0.14999999999999997,
+          0,
+          0.1
+        ]
+      },
+      "parseError": null
+    },
+    {
+      "stream": "Contents/Config-0-ResolvedFeatures",
+      "offset": 195769,
+      "kind": "plain",
+      "bodies": 1,
+      "faces": 1,
+      "points": 6,
+      "pointBox": {
+        "min": [
+          0.019499999999999983,
+          0.05,
+          0.03642204782676494
+        ],
+        "max": [
+          0.10717949192431092,
+          0.05,
+          0.1
+        ]
+      },
+      "parseError": null
+    }
+  ]
+}

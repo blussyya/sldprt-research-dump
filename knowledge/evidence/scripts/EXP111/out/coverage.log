@@ -1,0 +1,49 @@
+files with a History folder 131 modelled features 138 with a History item 132
+{
+  moProfileFeature_c: { feat: 65, cov: 61 },
+  moExtrusion_c: { feat: 36, cov: 35 },
+  Fillet_c: { feat: 5, cov: 5 },
+  moICE_c: { feat: 17, cov: 17 },
+  Chamfer_c: { feat: 4, cov: 4 },
+  moShell_c: { feat: 2, cov: 2 },
+  moRevolution_c: { feat: 5, cov: 4 },
+  moBlend_c: { feat: 2, cov: 2 },
+  moPLine_c: { feat: 1, cov: 1 },
+  moCirPattern_c: { feat: 1, cov: 1 }
+}
+{
+  other: { files: 130, feat: 136, cov: 132 },
+  'upgraded/2011': { files: 1, feat: 2, cov: 0 }
+}
+[
+  [
+    'w/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT',
+    'Sketch1',
+    'moProfileFeature_c'
+  ],
+  [
+    'w/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT',
+    'Boss-Extrude1',
+    'moExtrusion_c'
+  ],
+  [
+    'test files original/Helical Bevel Gear.SLDPRT',
+    'Sketch1',
+    'moProfileFeature_c'
+  ],
+  [
+    'test files original/Helical Bevel Gear.SLDPRT',
+    'Revolve1',
+    'moRevolution_c'
+  ],
+  [
+    'test files original/Helical Bevel Gear.SLDPRT',
+    'Sketch2',
+    'moProfileFeature_c'
+  ],
+  [
+    'ine/2022/073482d3_ReducerBox_1_Reducer.SLDPRT',
+    'Sketch1',
+    'moProfileFeature_c'
+  ]
+]

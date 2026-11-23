@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "file": "test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT",
+      "bytes": 1771,
+      "records": 2,
+      "releaseAndBuildMatchHistory": [
+        true,
+        true
+      ],
+      "modelStampTime": 1789983693,
+      "snapshotMatchesModelStamp": true
+    },
+    {
+      "file": "test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT",
+      "bytes": 2719,
+      "records": 3,
+      "releaseAndBuildMatchHistory": [
+        true,
+        true,
+        true
+      ],
+      "modelStampTime": 1789983693,
+      "snapshotMatchesModelStamp": true
+    },
+    {
+      "file": "test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+      "bytes": 1771,
+      "records": 2,
+      "releaseAndBuildMatchHistory": [
+        true,
+        true
+      ],
+      "modelStampTime": 1789966161,
+      "snapshotMatchesModelStamp": true
+    },
+    {
+      "file": "test files online/2013/82981f2a_head_back.sldprt",
+      "bytes": 2671,
+      "records": 4,
+      "releaseAndBuildMatchHistory": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "modelStampTime": 1463079739,
+      "snapshotMatchesModelStamp": true
+    },
+    {
+      "file": "test files original/Helical Bevel Gear.SLDPRT",
+      "bytes": 1867,
+      "records": 3,
+      "releaseAndBuildMatchHistory": [
+        true,
+        true,
+        true
+      ],
+      "modelStampTime": 1677132258,
+      "snapshotMatchesModelStamp": true
+    }
+  ],
+  "upgradePreservesOldRecords": true,
+  "corruptionsRejected": 1774
+}

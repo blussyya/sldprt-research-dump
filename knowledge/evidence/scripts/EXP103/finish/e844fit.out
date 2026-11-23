@@ -1,0 +1,6 @@
+== /home/user/conv-dev
+edge tolerance undefined              error 8.901e-9 ctrl 35 | start to p0 0.000e+0 end to p1 0.000e+0
+edge tolerance 0.00001998001998001998 error 8.901e-9 ctrl 35 | start to p0 0.000e+0 end to p1 0.000e+0
+== /home/user/solidworks-converters
+edge tolerance undefined              error 1.066e-8 ctrl 41 | start to p0 0.000e+0 end to p1 0.000e+0
+edge tolerance 0.00001998001998001998 error 2.333e-9 ctrl 11 | start to p0 2.536e-8 end to p1 1.128e-6

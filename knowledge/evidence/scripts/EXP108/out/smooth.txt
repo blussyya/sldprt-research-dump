@@ -1,0 +1,18 @@
+dialect -1 files: test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT | test files original/PTC GE8080-8.SLDPRT rows 2541
+files with k=-1 also holding k>=0 : 0
+angle bin (rad)            k=0    k=1
+[0,0.000001)                 17   2114
+[0.000001,0.001)              0     26
+[0.001,0.01)                  0     29
+[0.01,0.05)                  38     14
+[0.05,0.5)                  175      0
+[0.5,4)                    8552      1
+k=1 max angle 1.5707963267948963 k=0 min angle 1.1339081170133837e-16
+{
+  'k1&angle<1e-6': 2114,
+  'k1&angle>=1e-6': 70,
+  'k0&angle<1e-6': 17,
+  'k0&angle>=1e-6': 8765
+}
+k=2 edges 966 with nuse=1 966  nuse=1 overall in main 966 of which k=2 966
+k=0 but smooth by angle: {"cylinder/torus intersection":17} files 2f121983_case.SLDPRT,Pocket Wheel.SLDPRT

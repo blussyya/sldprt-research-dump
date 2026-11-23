@@ -1,0 +1,10 @@
+{
+  edges: 34850,
+  classMatch: 34850,
+  control_edges: 34850,
+  control_match: 20925,
+  control_rate: '0.600',
+  nonline_edges: 14639,
+  nonline_control_match: 6773,
+  nonline_rate: '0.463'
+}

@@ -1,0 +1,181 @@
+{
+  "occurrence": {
+    "files": 37,
+    "faces": 1545,
+    "vertices": 205327,
+    "byTag": {
+      "4003": 25,
+      "4004": 46,
+      "4006": 699,
+      "4007": 72,
+      "4008": 1,
+      "4009": 408,
+      "4010": 290,
+      "4980815": 4
+    },
+    "byYear": {
+      "2015": 4,
+      "2018": 30,
+      "2019": 24,
+      "2020": 3,
+      "2021": 60,
+      "2022": 153,
+      "2023": 272,
+      "2024": 603,
+      "controlled/original": 396
+    },
+    "parseErrors": []
+  },
+  "evaluated": [
+    {
+      "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+      "faceId": 43,
+      "type": "cone",
+      "vertices": 144,
+      "storedOrder": {
+        "max": 1.0874696997972732e-9,
+        "mean": 2.7302652897696317e-10
+      },
+      "swapped": {
+        "max": 6.878483543282292,
+        "mean": 3.3507975731095296
+      },
+      "u": {
+        "min": -0.13089969754219055,
+        "max": 6.152285575866699,
+        "distinct": 49
+      },
+      "v": {
+        "min": -0.009999999776482582,
+        "max": 0,
+        "distinct": 2
+      }
+    },
+    {
+      "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+      "faceId": 34,
+      "type": "sphere",
+      "vertices": 5004,
+      "storedOrder": {
+        "max": 1.2417410131458097e-9,
+        "mean": 2.913248655788554e-10
+      },
+      "swapped": {
+        "max": 0.00999999988824129,
+        "mean": 0.005531361394427819
+      },
+      "u": {
+        "min": -0.09239978343248367,
+        "max": 6.375585079193115,
+        "distinct": 77
+      },
+      "v": {
+        "min": -1.5707963705062866,
+        "max": 1.5707963705062866,
+        "distinct": 35
+      }
+    },
+    {
+      "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+      "faceId": 39,
+      "type": "bspline",
+      "vertices": 444,
+      "storedOrder": {
+        "max": 0.000002288120272524383,
+        "mean": 1.353495802900948e-7
+      },
+      "swapped": {
+        "max": 0.012884098639983545,
+        "mean": 0.004854790380925852
+      },
+      "u": {
+        "min": -1.3135581598432623e-18,
+        "max": 1,
+        "distinct": 50
+      },
+      "v": {
+        "min": 0,
+        "max": 1,
+        "distinct": 11
+      }
+    },
+    {
+      "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+      "faceId": 42,
+      "type": "bspline",
+      "vertices": 444,
+      "storedOrder": {
+        "max": 0.0000022881202725248055,
+        "mean": 1.3534958029012159e-7
+      },
+      "swapped": {
+        "max": 0.012884098639983545,
+        "mean": 0.004854790380925852
+      },
+      "u": {
+        "min": 0,
+        "max": 1,
+        "distinct": 50
+      },
+      "v": {
+        "min": 0,
+        "max": 1,
+        "distinct": 11
+      }
+    },
+    {
+      "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+      "faceId": 45,
+      "type": "bspline",
+      "vertices": 444,
+      "storedOrder": {
+        "max": 0.0000022881202725254357,
+        "mean": 1.3534958029012574e-7
+      },
+      "swapped": {
+        "max": 0.012884098639983545,
+        "mean": 0.004854790380925852
+      },
+      "u": {
+        "min": 4.834251535683951e-18,
+        "max": 1,
+        "distinct": 50
+      },
+      "v": {
+        "min": 0,
+        "max": 1,
+        "distinct": 11
+      }
+    },
+    {
+      "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+      "faceId": 48,
+      "type": "bspline",
+      "vertices": 444,
+      "storedOrder": {
+        "max": 0.000002288120272523208,
+        "mean": 1.3534958029014533e-7
+      },
+      "swapped": {
+        "max": 0.012884098639983545,
+        "mean": 0.004854790380925852
+      },
+      "u": {
+        "min": 6.14780979892479e-18,
+        "max": 1,
+        "distinct": 50
+      },
+      "v": {
+        "min": 0,
+        "max": 1,
+        "distinct": 11
+      }
+    }
+  ],
+  "summary": {
+    "evaluatedFaces": 6,
+    "evaluatedVertices": 6924,
+    "storedMax": 0.0000022881202725254357,
+    "swappedMin": 0.00999999988824129
+  }
+}

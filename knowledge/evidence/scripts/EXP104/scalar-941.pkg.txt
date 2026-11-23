@@ -1,0 +1,16 @@
+/home/user/dump-validation/package/src files 36 array faces 1484 no same-id FACE 880
+0739c559_[HEAD-COVR-MI 4 noId 4
+0132519a_102_STEM.SLDP 20 noId 8
+361e7dbb_101_HOUSING.S 4 noId 4
+d2515121_Ecran_128x32o 5 noId 5
+8cd79ff5_1ESxx.SLDPRT 4 noId 4
+14f9214b_11.SLDPRT 2 noId 1
+543861c9_BALL NUT BRAC 1 noId 1
+073482d3_ReducerBox_1_ 56 noId 55
+a0ab30c8_LB26001-A-04- 3 noId 3
+03764871_BME280.SLDPRT 131 noId 123
+2f121983_case.SLDPRT 64 noId 63
+4803f393_box.SLDPRT 7 noId 7
+d0d61cde_官方元件-定位模块.SLD 61 noId Expected one Config-0-Partition stream; found 0
+ef1d5cfe_DS3231.SLDPRT 5 noId 4
+a4ecc6f5_PP-2074-08.SL 598 noId 598

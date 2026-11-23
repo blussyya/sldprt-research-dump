@@ -1,0 +1,233 @@
+{
+ "files": 36,
+ "faces": 1541,
+ "beforeNoId": 200,
+ "beforeHasId": 1341,
+ "table": {
+  "idMatched-right -> joined-right": 1291,
+  "noIdMatch -> none": 12,
+  "idMatched-unchecked -> joined-unchecked": 29,
+  "noIdMatch -> joined-unchecked": 4,
+  "noIdMatch -> joined-right": 184,
+  "idMatched-wrong -> joined-wrong": 5,
+  "idMatched-wrong -> joined-right": 16
+ },
+ "perFile": [
+  {
+   "file": "test files new/SW2022/C13_cone/model.SLDPRT",
+   "arrays": 1,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files new/SW2022/C14_sphere/model.SLDPRT",
+   "arrays": 1,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+   "arrays": 4,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2018/0132519a_102_STEM.SLDPRT",
+   "arrays": 20,
+   "beforeNoId": 8,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2018/15567d51_leva1.SLDPRT",
+   "arrays": 1,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+   "arrays": 4,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+   "arrays": 5,
+   "beforeNoId": 5,
+   "fixed": 5
+  },
+  {
+   "file": "test files online/2019/44afdb7c_back_cushion.SLDPRT",
+   "arrays": 4,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+   "arrays": 4,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2019/e8c40c25_psu.SLDPRT",
+   "arrays": 10,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2019/fb449daa_Gloworm PCB.SLDPRT",
+   "arrays": 6,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2020/14f9214b_11.SLDPRT",
+   "arrays": 2,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+   "arrays": 1,
+   "beforeNoId": 1,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2021/85aabbde_84T Gear.SLDPRT",
+   "arrays": 4,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2021/916d4a0a_36T Gear.SLDPRT",
+   "arrays": 28,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+   "arrays": 28,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT",
+   "arrays": 56,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2022/273a8d53_FG-F1.SLDPRT",
+   "arrays": 22,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+   "arrays": 10,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2022/9cc04b03_SO-C1.SLDPRT",
+   "arrays": 60,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+   "arrays": 3,
+   "beforeNoId": 3,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT",
+   "arrays": 2,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "arrays": 131,
+   "beforeNoId": 121,
+   "fixed": 121
+  },
+  {
+   "file": "test files online/2023/2f121983_case.SLDPRT",
+   "arrays": 64,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2023/4803f393_box.SLDPRT",
+   "arrays": 7,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+   "arrays": 61,
+   "beforeNoId": 56,
+   "fixed": 56
+  },
+  {
+   "file": "test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT",
+   "arrays": 4,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+   "arrays": 5,
+   "beforeNoId": 4,
+   "fixed": 4
+  },
+  {
+   "file": "test files online/2024/2300f35c_Thigh Symétrie.SLDPRT",
+   "arrays": 4,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+   "arrays": 598,
+   "beforeNoId": 2,
+   "fixed": 2
+  },
+  {
+   "file": "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+   "arrays": 1,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files original/Dekor.SLDPRT",
+   "arrays": 319,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files original/Helical Bevel Gear.SLDPRT",
+   "arrays": 32,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files original/Pocket Wheel.SLDPRT",
+   "arrays": 32,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files original/distributor main boss rev a.SLDPRT",
+   "arrays": 4,
+   "beforeNoId": 0,
+   "fixed": 0
+  },
+  {
+   "file": "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+   "arrays": 3,
+   "beforeNoId": 0,
+   "fixed": 0
+  }
+ ]
+}

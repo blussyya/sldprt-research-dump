@@ -1,0 +1,27 @@
+{
+  "cube": {
+    "featureTreeEnd": true,
+    "ghostStream": false,
+    "ghostBodies": 0,
+    "nonzeroComponentIds": 0
+  },
+  "helicalGear": {
+    "featureTreeEnd": true,
+    "ghostBodies": 7,
+    "componentRefs": 7,
+    "rawMismatches": 0,
+    "duplicateBodyIds": [],
+    "duplicateRefIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": [],
+    "mappings": [
+      {"id": 10001, "bodyType": 2, "refClass": "moCompSketchEntHandle_c", "owner": "Sketch1", "target": "Origin", "rawAt": 7381},
+      {"id": 10002, "bodyType": 2, "refClass": "moCompSketchEntHandle_c", "owner": "Sketch2", "target": "Origin", "rawAt": 36635},
+      {"id": 10070, "bodyType": 3, "refClass": "moCompProfile_c", "owner": "Loft2", "target": "Sketch2", "rawAt": 143106},
+      {"id": 10071, "bodyType": 3, "refClass": "moCompProfile_c", "owner": "Loft2", "target": "Sketch4", "rawAt": 143286},
+      {"id": 10072, "bodyType": 3, "refClass": "moCompProfile_c", "owner": "Loft2", "target": "Sketch7", "rawAt": 143466},
+      {"id": 10073, "bodyType": 2, "refClass": "moCompSketchEntHandle_c", "owner": "Sketch9", "target": "Origin", "rawAt": 145473},
+      {"id": 10074, "bodyType": 2, "refClass": "moCompSketchEntHandle_c", "owner": "Sketch10", "target": "Origin", "rawAt": 170466}
+    ]
+  }
+}

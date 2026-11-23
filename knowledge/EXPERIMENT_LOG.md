@@ -1460,3 +1460,248 @@ curve. The second run's diagnosis of head_back was wrong and is corrected in the
 
 **Evidence**: [2026-10-31_v0.5-EXP086.md](evidence/2026-10-31_v0.5-EXP086.md), `evidence/scripts/EXP086/`.
 
+## EXP-087 — head_back's saved display mesh
+
+**Question**: Why does the 2013 head_back display mesh have 532 faces when its body and the 2026
+re-save have 535?
+
+**Result**: The original body is valid; its saved mesh is old. `ModelStamps` is 119 while
+`DLUpdateStamp` is 107. The 2026 re-save keeps model stamp 119 and updates the display stamp to
+119. The old mesh preserves an earlier shape around the three rear openings: several faces are
+about 0.10 mm higher and four later faces are absent. The 2013 B-rep passes 34,249 graph checks and
+matches the SolidWorks STEP. A survey finds 24 of 142 files with a display stamp behind the model
+stamp; the gap means the mesh may be stale, not that it is geometrically wrong. Neither old nor
+new head_back face metadata is decoded far enough to supply a mesh-to-body face-ID join.
+
+**Independent check**: All 271 old-mesh samples more than 0.1 mm from the 2026 STEP lie around the
+three openings. Kevin's blue overlay patches also occur elsewhere, so the screenshots cannot map
+individual blue patches to the stale region.
+
+**Evidence**: [2026-11-01_v0.5-EXP087.md](evidence/2026-11-01_v0.5-EXP087.md),
+`evidence/scripts/EXP087/`.
+
+## EXP-088 — Block3, ghost bodies, feature links and Biography
+
+**Question**: What does nonzero Block3 encode, how do ghost bodies link to the feature archive,
+what tree structure can be exported safely, and is Biography the missing feature history?
+
+**Result**: The expanded online sample has 30,713 nonzero Block3 bytes in 27 files. Byte 1 marks a
+smooth or nearly smooth face-edge use in the joined native subset; byte 2 marks the joined open
+boundaries; byte 4 occurs only at later strip controls. The strip-control meaning and exact
+tangent-edge display treatment remain open.
+
+`GHOST_REF_BODY_ID_2001` equals the first u32 of a component-reference block at object offset +17.
+Independent checks join all 54 controlled ghost bodies and all seven gear bodies. Point-only
+bodies are Origin references; the others are loft profile sheets.
+
+The feature exporter preserves child links, contextual references and History-folder order. A
+fresh check confirms C07's Boss32→Sketch26 and Cut46→Sketch33 links and History order
+26,32,33,46. Binary feature names match `KeyWords` XML. C23 advertises 19 top-level slots but 18
+objects consume the stream exactly; its final object still contains an opaque scanned stretch.
+
+Biography parses sequentially on all 216 present streams, covering 3,519 records. It stores
+release/build, environment, paths and time snapshots. It is not the feature operation history.
+
+**Evidence**: [2026-11-05_v0.5-EXP088.md](evidence/2026-11-05_v0.5-EXP088.md),
+`evidence/scripts/EXP088/`.
+
+## EXP-089 — Face-attached sketch bodies and component tails
+
+**Question**: What are the one-face bodies in ResolvedFeatures, and what occupies the six words
+after a component reference's ghost-body ID?
+
+**Result**: The controlled one-face bodies are snapshots of the face selected to support an
+`sgSketch` with `onPlane=0`. C04 stores the whole square top face before its circular cut; C07's
+second snapshot includes the first hole. Thirteen of the original 36 sections map directly to their
+sketch; a blind online scan found that the common section prefix is generic and also occurs in
+`moSingleFaceRef_w`, so it cannot identify the owner alone. In 863 reachable component blocks, the
+six words after the ghost ID are zero in 862. The sole exception is an unnamed flag at byte 16 of a
+helical-gear `moCompFace_c`. A separate survey maps 100 opaque dimension-placement ranges into 13
+length families but does not yet decode them.
+
+**Evidence**: [2026-11-05_v0.5-EXP089.md](evidence/2026-11-05_v0.5-EXP089.md),
+`evidence/scripts/EXP089/`.
+
+## EXP-090 — Next-question audit and the C18 split-line control
+
+**Question**: Which unresolved labels are stale, and does the later C18 control finally separate
+new-face adjacency from changing a face's own boundary?
+
+**Result**: The queue now distinguishes current work from historical questions retired by the
+Block1 edge-ID decode or answered by later controls and readers. C18 closes NQ-029's proposed test.
+In both SW2011 and SW2022, the `y=0` side keeps identical vertices, edge IDs and raw Block1 while
+its top neighbor changes to the newly created split face. The two sides whose own boundaries gain
+the split midpoint also gain an edge ID and their Block1 arrays grow. A blind check reproduced the
+raw sequences and native neighbor change.
+
+**Evidence**: [2026-11-05_v0.5-EXP090.md](evidence/2026-11-05_v0.5-EXP090.md),
+`evidence/scripts/EXP090/`.
+
+## EXP-091 — Surface parameters, LocalBodies framing and configuration bounds
+
+**Question**: What are the optional display scalar arrays, how is LocalBodies framed across the
+expanded corpus, and what is the configuration-level bounds record?
+
+**Result**: The optional pair is per-vertex surface `(u,v)`: 1,545 faces carry it, and direct
+evaluation on 6 controlled cone, sphere and B-surface faces covers 6,924 vertices with stored-order
+errors far below swapped-array controls. Forty-one LocalBodies streams contain 281 named entries,
+289 section frames and 540 validated zlib chunks; two entries own multiple sections, two sections
+are multi-chunk, every stream ends exactly, and all 289 section tails are zero. An MFC UTF-16 name
+identifies 113 modern configuration envelopes; 112 equal the union of saved face bounds, one is
+larger than both the display and active body, and none occurs in 36 readable legacy files.
+
+**Known gaps**: Other surface tags were counted but not individually evaluated. LocalBodies entry
+header fields and the zero tail's intended role remain unnamed. Twenty files lack a readable display
+stream for the configuration comparison, and one modern configuration envelope remains unexplained.
+
+**Evidence**: [2026-11-05_v0.5-EXP091.md](evidence/2026-11-05_v0.5-EXP091.md),
+`evidence/scripts/EXP091/`.
+
+## EXP-092 — Small bounds and LocalBodies fields
+
+**Question**: Can the remaining LocalBodies entry header, bounds-record tail, and lone oversized
+configuration envelope be narrowed without new files?
+
+**Result**: The 10-byte LocalBodies entry header is a flag, padding, the first section's size plus
+five, and padding. The 18-byte form prepends a reserved zero and an exact section count; controls
+with 2 and 8 sections confirm the count. The flag remains unnamed. Across 13,589 modern faces with
+decoded metadata, the bounds head is fixed at `[0,0,1]`. One tail state contains a scalar followed
+by a unit vector in 2,986/2,986 records; on 2,406 cylinders the vector is perpendicular to the
+surface axis. Finally, the active, ghost, and eight support-face bodies in `ac760485` remain inside
+the display box across their stored points and 147,600 decoded edge samples.
+
+**Known gaps**: The LocalBodies flag and zero section tail remain unnamed. The directional
+variant's scalar, other bounds-tail states, and the source of the wider configuration envelope are
+still open.
+
+**Evidence**: [2026-11-05_v0.5-EXP092.md](evidence/2026-11-05_v0.5-EXP092.md),
+`evidence/scripts/EXP092/`.
+
+## EXP-093 — Configuration-envelope version boundary
+
+**Question**: Why do many older modern files lack the named configuration envelope found by
+EXP-091?
+
+**Result**: None of 42 files declaring DisplayLists versions 3800–12000 carries the named record.
+Version 13000 is the first occurrence, with 8/8 files; version 14000 has 5/5. At version 13000 or
+later the record occurs in 113/124 files. Of the 121 files with parsed faces, all 97 that have one
+configuration ID and no LocalBodies carry it. The eight readable omissions all have LocalBodies or
+multiple configuration IDs, but those properties do not by themselves suppress the record.
+
+**Known gaps**: The exact inclusion rule for the eight later omissions remains unknown, as does the
+source of the one envelope larger than the display and stored-body samples.
+
+**Evidence**: [2026-11-05_v0.5-EXP093.md](evidence/2026-11-05_v0.5-EXP093.md),
+`evidence/scripts/EXP093/`.
+
+## EXP-094 — Active geometry without ModelHeader
+
+**Question**: Can the saved display select the active conversion geometry in the twelve older
+modern files that have no `Config-N-ModelHeader`?
+
+**Result**: Six files have only one partition. In all six multi-configuration files, saved display
+face count plus the union of analytic face bounds selects one geometry. `cut-z18` selects Config-268
+instead of the lowest Config-0, and `cut-z071` selects Config-21 instead of Config-1. Four files have
+several IDs with the same box; within each file every tied partition produces byte-identical
+normalized exact STEP. The lowest-number fallback therefore chooses the wrong shape in two files.
+
+**Known gaps**: Tied configuration names remain ambiguous. The selection uses dense decoded-edge
+sampling rather than an analytic bounding implementation and is documented here rather than added
+to converter code on this branch.
+
+**Evidence**: [2026-11-05_v0.5-EXP094.md](evidence/2026-11-05_v0.5-EXP094.md),
+`evidence/scripts/EXP094/`.
+
+## EXP-095 — Duplicate modern-stream policy
+
+**Question**: Does the modern corpus contain repeated valid stream names, and what should the
+reader do if one appears?
+
+**Result**: Across 178 modern containers (corrected from 183, EXP-097), 19,655 raw signature candidates reduce to 7,374 valid
+nonempty size-and-CRC-checked entries and 521 valid empty entries. No valid nonempty name occurs
+twice within a file. The corpus therefore provides no first-wins or last-wins precedent. The
+documented policy is to coalesce byte-identical duplicate payloads and reject conflicting ones.
+
+**Known gap**: Neither duplicate branch occurs naturally in this corpus, and the policy is not yet
+implemented in the owning reader on this branch.
+
+**Evidence**: [2026-11-05_v0.5-EXP095.md](evidence/2026-11-05_v0.5-EXP095.md),
+`evidence/scripts/EXP095/`.
+
+## EXP-096 — The LocalBodies exclusion flag
+
+**Question**: What does the remaining shared flag in the 10- and 18-byte LocalBodies entry headers
+mean?
+
+**Result**: It mirrors the body attribute that controls whether an imported body belongs to the
+lightweight permanent body set. All eight flag-1 entries carry `BODY_IN_LIGHTWEIGHT_PERM=0`. Flag 0
+covers 258 decoded bodies with value 1 and 16 with the attribute absent, the included default
+established in EXP-084. There are no contradictions across 282 decoded bodies in 274 entries.
+
+**Known gap**: Seven flag-0 payloads cannot be read because their SPUN_SURF node type lacks a base
+schema. The eight-byte section tail remains zero everywhere and cannot be named without variation.
+
+**Evidence**: [2026-11-06_v0.5-EXP096.md](evidence/2026-11-06_v0.5-EXP096.md),
+`evidence/scripts/EXP096/`.
+
+## EXP-097 — Checking EXP-088 to EXP-096
+
+All 38 scripts reproduce their saved outputs. Four EXP-088 scripts had a hard-coded
+`/workspace` converter path, now fixed. EXP-090 to 096 claimed blind passes that left no scripts,
+so seven new blind checks ran, each with its own scripts under `scripts/EXP097/`. Every main
+finding held. Corrections:
+- EXP-095 counts 178 modern containers, not 183.
+- NQ-030's "tags 4003–4009 identified" was wrong: 4008 is offset and 4010 is spun, both new.
+- EXP-092's perpendicular check used the display axis; the native axis covers 740 of 2,406.
+- EXP-096's attribute value isn't independently decoded.
+- EXP-090's conclusion is narrower: the shared edge kept its ID.
+- EXP-091 gets limits on its surface-parameter claim.
+Re-saves don't explain EXP-093's missing envelopes.
+
+Evidence: [2026-11-06_v0.5-EXP097.md](evidence/2026-11-06_v0.5-EXP097.md).
+
+## EXP-098 — Picking the configuration from the display
+
+The converter (`dev` 9d39a6c) now reads the configuration whose native face count and B-rep box
+match the saved display within 1e-8 m, in parts with several configurations and no ModelHeader.
+`118a3cb0` reads 268 and `289756ce` reads 21, where the lowest ID was 56 mm and 0.1 mm off. With
+no match it keeps the lowest ID. `300f9732` (SW2014 OLE2) misses by 2.5e-8 m because the display
+pads faces at its four tolerant vertices. On single-configuration parts the box test matches 152
+of 183. Both blind checks say partly holds: the picks are right in the corpus, mesh volume backs
+268 and 21, but face count and box can tie different shapes (six test cubes), so the tie rule is a
+corpus fact. A tie-breaker (517476c) now ranks tied configurations by the display
+mesh's vertices and normals; it picks the right one of six tied cubes in all six cases.
+
+Evidence: [2026-11-06_v0.5-EXP098.md](evidence/2026-11-06_v0.5-EXP098.md).
+
+## EXP-103 — The dense fit check, finished
+
+The curve fitter now checks 8 more points per interval once its 3 cheap ones pass, and always
+reports an error that includes them. Head_back edge 826 goes from 1.12e-8 m (60 of 16,123 points
+over the bar) to 9.44e-9 m, measured with EXP-086's own script. Edge 844 had a 1.13e-6 m hook at
+one end while reporting 8.9e-9 m: SP_CURVE ends were pinned to tolerant vertices that sit off the
+curve. An end is now left free when its vertex is past 1e-8 m but within the larger of the edge's
+and the vertex's own tolerance. Edge 844 now fits to 2.3e-9 m. A pinned end's gap now counts in
+the error, after the blind disprove check found a vertex 1e-4 m off reported as 3.4e-9 m. That
+puts `0739c559` at 1.57e-4 m and `f0b9a118` at 4.49e-4 m, and both now refuse exact STEP. Four
+head_back blends whose spines run to a T limit report 1.48e-8 to 1.54e-8 m. Their curves are the
+same as on `dev` to 1e-13 m, and near the T limit the exact spine can't be found to 1e-8 m. The
+online sweep: 134 of 141 resolve as on `dev`, `2e6e140a` is now within the bar, `3c4752f1` is
+down to 2.53e-8 m, and the total time rose from 1,417 to 1,496 s. Blind checks: holds for edge 844 and the
+end rule (with the hole above found and fixed), partly holds for the spines.
+
+Evidence: [2026-11-22_v0.5-EXP103.md](evidence/2026-11-22_v0.5-EXP103.md).
+
+## EXP-112 — The modern container is a disguised ZIP with a directory
+
+From byte 8 on a modern SLDPRT is a ZIP archive with per-file signatures, offsets counted from
+byte 8, and filler blocks that imitate headers. The real end record is the one shape that sits at
+8 + its own directory offset + size: exactly one in each of 181 files. Its directory lists 7,895
+streams in 178 distinct files, all inflate and pass CRC-32, and the scan finds nothing outside
+it. The first four bytes are a key from a set of about 1,000 that selects the three signatures;
+162 of 163 keys are `rand() & 0xff` output of the Microsoft C runtime. How the signatures follow
+from the key isn't known. The converter now reads through the directory. Blind prove: holds,
+with the filler size corrected to 85 to 100 bytes. Blind disprove: stopped by the usage limit.
+
+Evidence: [2026-11-09_v0.5-EXP112.md](evidence/2026-11-09_v0.5-EXP112.md).
+

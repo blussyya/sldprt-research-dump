@@ -1,0 +1,85 @@
+{
+ "src": "/home/user/conv-dev/src",
+ "parts": 115,
+ "total": {
+  "before": {
+   "display": 13533,
+   "matched": 9648,
+   "ambiguous": 0,
+   "none": 3885,
+   "right": 8413,
+   "wrong": 1206,
+   "unchecked": 29,
+   "how": {
+    "id": 9648,
+    "none": 3885
+   }
+  },
+  "after": {
+   "display": 0,
+   "matched": 0,
+   "ambiguous": 0,
+   "none": 0,
+   "right": 0,
+   "wrong": 0,
+   "unchecked": 0,
+   "how": {}
+  },
+  "shift": {
+   "display": 0,
+   "matched": 0,
+   "ambiguous": 0,
+   "none": 0,
+   "right": 0,
+   "wrong": 0,
+   "unchecked": 0,
+   "how": {}
+  },
+  "checkControl": {
+   "pairs": 0,
+   "wrong": 0,
+   "right": 0,
+   "unchecked": 0
+  }
+ }
+}
+holefillets1-202 n 8 | before m/w/u 8 4 0 
+0132519a_102_STE n 167 | before m/w/u 151 0 0 
+15567d51_leva1.S n 298 | before m/w/u 298 4 1 
+361e7dbb_101_HOU n 262 | before m/w/u 262 1 0 
+d2515121_Ecran_1 n 2512 | before m/w/u 180 165 0 
+07ff8da1_shelf.S n 30 | before m/w/u 30 4 0 
+300d7f07_Bottom  n 50 | before m/w/u 50 3 0 
+54b05886_bottom_ n 92 | before m/w/u 92 4 0 
+8cd79ff5_1ESxx.S n 103 | before m/w/u 103 4 4 
+a3a44709_FrontPa n 16 | before m/w/u 16 1 0 
+d381ebab_bottom_ n 83 | before m/w/u 83 5 0 
+e8c40c25_psu.SLD n 271 | before m/w/u 271 24 0 
+fb449daa_Gloworm n 50 | before m/w/u 50 4 0 
+14f9214b_11.SLDP n 73 | before m/w/u 73 3 0 
+543861c9_BALL NU n 69 | before m/w/u 2 1 0 
+b185085c_Handle  n 33 | before m/w/u 33 10 0 
+85aabbde_84T Gea n 671 | before m/w/u 671 18 0 
+916d4a0a_36T Gea n 295 | before m/w/u 295 18 0 
+eb0b2a21_60T Gea n 399 | before m/w/u 399 12 0 
+073482d3_Reducer n 109 | before m/w/u 109 18 0 
+10459a56_A-2605- n 143 | before m/w/u 143 50 0 
+273a8d53_FG-F1.S n 76 | before m/w/u 76 2 0 
+3c4752f1_A-2226- n 239 | before m/w/u 141 49 0 
+a0ab30c8_LB26001 n 33 | before m/w/u 6 1 0 
+d753195d_ServoMo n 90 | before m/w/u 90 2 0 
+03764871_BME280. n 693 | before m/w/u 172 158 0 
+2f121983_case.SL n 155 | before m/w/u 155 33 0 
+41b71219_板材-Guid n 82 | before m/w/u 82 26 0 
+4803f393_box.SLD n 1390 | before m/w/u 1390 119 0 
+d0d61cde_官方元件-定位 n 544 | before m/w/u 102 14 0 
+d8206ed0_J6_Flan n 34 | before m/w/u 34 2 4 
+ef1d5cfe_DS3231. n 404 | before m/w/u 72 54 0 
+09d353a9_Elbow_M n 40 | before m/w/u 2 0 0 
+a4ecc6f5_PP-2074 n 961 | before m/w/u 949 180 20 
+Dekor.SLDPRT n 375 | before m/w/u 375 8 0 
+Helical Bevel Ge n 113 | before m/w/u 113 14 0 
+Pocket Wheel.SLD n 400 | before m/w/u 400 171 0 
+distributor main n 51 | before m/w/u 51 4 0 
+USB hub case BOT n 39 | before m/w/u 39 1 0 
+USB hub case TOP n 68 | before m/w/u 68 15 0 

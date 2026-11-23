@@ -1,0 +1,18 @@
+{
+ "4001 -> plane": 186,
+ "4002 -> cylinder": 212,
+ "4005 -> torus": 9,
+ "4006 -> bspline": 331,
+ "4003 -> cone": 133,
+ "4009 -> swept": 9,
+ "4001 -> cylinder": 1,
+ "4008 -> offset": 1,
+ "4004 -> sphere": 8,
+ "4007 -> blend": 27,
+ "4010 -> spun": 288,
+ "4002 -> no native face": 4,
+ "4001 -> no native face": 6,
+ "4002 -> plane": 1,
+ "4010 -> no native face": 2,
+ "4003 -> plane": 1
+}

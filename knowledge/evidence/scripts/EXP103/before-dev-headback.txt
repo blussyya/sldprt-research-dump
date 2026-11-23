@@ -1,0 +1,5 @@
+fits 660 max 9.97e-9 at edge 804 ; over 1e-8: 0 
+blend 3369 error 2.21e-9 m
+edge 826 error 9.72e-9 m
+report {"exactEdges":756,"fittedCurves":552,"pcurveEdges":45,"fittedSurfaces":108,"maxError":9.969166077135535e-9,"errors":{"curve":9.969166077135535e-9,"surface":9.944092270106064e-9},"tolerantEdges":48,"maxEdgeGap":0.04332885733713481}
+time 483.214 s

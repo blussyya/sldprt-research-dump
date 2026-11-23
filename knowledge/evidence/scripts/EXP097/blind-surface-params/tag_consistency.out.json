@@ -1,0 +1,217 @@
+{
+ "tally": {
+  "consistent": 593,
+  "mismatch": 11,
+  "noTagMap": 0
+ },
+ "perFile": {
+  "test files new/SW2022/C13_cone/model.SLDPRT": {
+   "consistent": 1,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files new/SW2022/C14_sphere/model.SLDPRT": {
+   "consistent": 1,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files new/SW2022/C16_loft_spline/model.SLDPRT": {
+   "consistent": 4,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2018/0132519a_102_STEM.SLDPRT": {
+   "consistent": 12,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2018/15567d51_leva1.SLDPRT": {
+   "consistent": 1,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2019/44afdb7c_back_cushion.SLDPRT": {
+   "consistent": 4,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2019/e8c40c25_psu.SLDPRT": {
+   "consistent": 10,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2019/fb449daa_Gloworm PCB.SLDPRT": {
+   "consistent": 6,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2020/14f9214b_11.SLDPRT": {
+   "consistent": 0,
+   "mismatch": 1,
+   "noTagMap": 0
+  },
+  "test files online/2021/85aabbde_84T Gear.SLDPRT": {
+   "consistent": 4,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2021/916d4a0a_36T Gear.SLDPRT": {
+   "consistent": 28,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2021/eb0b2a21_60T Gear.SLDPRT": {
+   "consistent": 28,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT": {
+   "consistent": 1,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2022/273a8d53_FG-F1.SLDPRT": {
+   "consistent": 22,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT": {
+   "consistent": 8,
+   "mismatch": 2,
+   "noTagMap": 0
+  },
+  "test files online/2022/9cc04b03_SO-C1.SLDPRT": {
+   "consistent": 60,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT": {
+   "consistent": 2,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2023/03764871_BME280.SLDPRT": {
+   "consistent": 1,
+   "mismatch": 7,
+   "noTagMap": 0
+  },
+  "test files online/2023/2f121983_case.SLDPRT": {
+   "consistent": 1,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT": {
+   "consistent": 4,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2023/ef1d5cfe_DS3231.SLDPRT": {
+   "consistent": 0,
+   "mismatch": 1,
+   "noTagMap": 0
+  },
+  "test files online/2024/2300f35c_Thigh Symétrie.SLDPRT": {
+   "consistent": 4,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT": {
+   "consistent": 1,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files original/Dekor.SLDPRT": {
+   "consistent": 319,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files original/Helical Bevel Gear.SLDPRT": {
+   "consistent": 32,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files original/Pocket Wheel.SLDPRT": {
+   "consistent": 32,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files original/distributor main boss rev a.SLDPRT": {
+   "consistent": 4,
+   "mismatch": 0,
+   "noTagMap": 0
+  },
+  "test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT": {
+   "consistent": 3,
+   "mismatch": 0,
+   "noTagMap": 0
+  }
+ },
+ "mismatches": [
+  {
+   "file": "test files online/2020/14f9214b_11.SLDPRT",
+   "rawId": 620,
+   "tag": 4003,
+   "nativeSurface": "?"
+  },
+  {
+   "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+   "rawId": 1,
+   "tag": 4004,
+   "nativeSurface": "CONE"
+  },
+  {
+   "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+   "rawId": 1,
+   "tag": 4004,
+   "nativeSurface": "CONE"
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "rawId": 57,
+   "tag": 4004,
+   "nativeSurface": "CYLINDER"
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "rawId": 36,
+   "tag": 4006,
+   "nativeSurface": "CYLINDER"
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "rawId": 15,
+   "tag": 4006,
+   "nativeSurface": "PLANE"
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "rawId": 1,
+   "tag": 4006,
+   "nativeSurface": "SPHERE"
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "rawId": 29,
+   "tag": 4006,
+   "nativeSurface": "PLANE"
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "rawId": 15,
+   "tag": 4006,
+   "nativeSurface": "PLANE"
+  },
+  {
+   "file": "test files online/2023/03764871_BME280.SLDPRT",
+   "rawId": 1,
+   "tag": 4006,
+   "nativeSurface": "SPHERE"
+  },
+  {
+   "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+   "rawId": 52,
+   "tag": 4004,
+   "nativeSurface": "PLANE"
+  }
+ ]
+}

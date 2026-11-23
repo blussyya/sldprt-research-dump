@@ -1,0 +1,6 @@
+type | faces | verts | nonfinite | boundary verts | interior verts | verts <=1e-7 m | verts <=1e-6 m | max finite err | boundary max | interior max | boundary >1e-7 | interior >1e-7 | faces with any >1e-6
+CONE | 6 | 588 | 0 | 393 | 195 | 588 | 588 | 8.63e-9 | 8.63e-9 | 4.39e-9 | 0 | 0 | 0
+SPHERE | 21 | 7110 | 0 | 764 | 6346 | 6852 | 6936 | 1.07e-5 | 1.07e-5 | 7.94e-6 | 234 | 24 | 13
+B_SURFACE | 128 | 32357 | 553 | 16734 | 15623 | 23609 | 26540 | 1.27e-4 | 1.27e-4 | 1.26e-4 | 8042 | 153 | 117
+SWEPT_SURF | 394 | 9618 | 161 | 9598 | 20 | 8480 | 8566 | 6.92e-4 | 6.92e-4 | 2.19e-5 | 974 | 3 | 163
+TOTAL | 549 | 49673 | 714 | 39529 | 42630 | 27489 | 22184 | 180 | 9250

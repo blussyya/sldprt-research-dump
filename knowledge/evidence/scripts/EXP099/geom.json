@@ -1,0 +1,166 @@
+{
+ "2023/2f121983_case.SLDPRT": [
+  {
+   "rawId": 253,
+   "displayFace": 3,
+   "tag": 4002,
+   "verts": 161,
+   "vs": [
+    {
+     "body": 2,
+     "nodeIdInConverter": 253,
+     "surface": "cylinder",
+     "maxDevM": 0.000023053869198104426
+    },
+    {
+     "body": 8,
+     "nodeIdInConverter": 253,
+     "surface": "plane",
+     "maxDevM": 0.03389999952912331
+    }
+   ]
+  },
+  {
+   "rawId": 253,
+   "displayFace": 35,
+   "tag": 4001,
+   "verts": 31,
+   "vs": [
+    {
+     "body": 2,
+     "nodeIdInConverter": 253,
+     "surface": "cylinder",
+     "maxDevM": 0.01489526464310829
+    },
+    {
+     "body": 8,
+     "nodeIdInConverter": 253,
+     "surface": "plane",
+     "maxDevM": 3.0547380423795456e-10
+    }
+   ]
+  }
+ ],
+ "2024/a4ecc6f5_PP-2074-08.SLDPRT": [
+  {
+   "rawId": 2,
+   "displayFace": 945,
+   "tag": 4003,
+   "verts": 146,
+   "vs": [
+    {
+     "body": 2,
+     "nodeIdInConverter": 2,
+     "surface": "cone",
+     "maxDevM": 0.0002464317330827248
+    },
+    {
+     "body": 44493,
+     "nodeIdInConverter": 53510,
+     "surface": "cone",
+     "maxDevM": 0.00977098783737175
+    }
+   ]
+  },
+  {
+   "rawId": 2,
+   "displayFace": 960,
+   "tag": 4003,
+   "verts": 160,
+   "vs": [
+    {
+     "body": 2,
+     "nodeIdInConverter": 2,
+     "surface": "cone",
+     "maxDevM": 0.00993142816100065
+    },
+    {
+     "body": 44493,
+     "nodeIdInConverter": 53510,
+     "surface": "cone",
+     "maxDevM": 0.000524219306697063
+    }
+   ]
+  },
+  {
+   "rawId": 31,
+   "displayFace": 944,
+   "tag": 4001,
+   "verts": 62,
+   "vs": [
+    {
+     "body": 2,
+     "nodeIdInConverter": 31,
+     "surface": "plane",
+     "maxDevM": 2.3782253943949172e-11
+    },
+    {
+     "body": 44493,
+     "nodeIdInConverter": 53539,
+     "surface": "cone",
+     "maxDevM": 0.010251524406005644
+    }
+   ]
+  },
+  {
+   "rawId": 31,
+   "displayFace": 959,
+   "tag": 4003,
+   "verts": 160,
+   "vs": [
+    {
+     "body": 2,
+     "nodeIdInConverter": 31,
+     "surface": "plane",
+     "maxDevM": 0.0143036506832242
+    },
+    {
+     "body": 44493,
+     "nodeIdInConverter": 53539,
+     "surface": "cone",
+     "maxDevM": 0.0005242192744338431
+    }
+   ]
+  },
+  {
+   "rawId": 228,
+   "displayFace": 940,
+   "tag": 4001,
+   "verts": 62,
+   "vs": [
+    {
+     "body": 2,
+     "nodeIdInConverter": 228,
+     "surface": "plane",
+     "maxDevM": 5.602836597451422e-10
+    },
+    {
+     "body": 44493,
+     "nodeIdInConverter": 53736,
+     "surface": "cylinder",
+     "maxDevM": 0.001433892330681641
+    }
+   ]
+  },
+  {
+   "rawId": 228,
+   "displayFace": 949,
+   "tag": 4002,
+   "verts": 60,
+   "vs": [
+    {
+     "body": 2,
+     "nodeIdInConverter": 228,
+     "surface": "plane",
+     "maxDevM": 0.009524999746680259
+    },
+    {
+     "body": 44493,
+     "nodeIdInConverter": 53736,
+     "surface": "cylinder",
+     "maxDevM": 3.705781875806835e-9
+    }
+   ]
+  }
+ ]
+}

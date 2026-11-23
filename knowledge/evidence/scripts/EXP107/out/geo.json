@@ -1,0 +1,169 @@
+{
+ "matched": 13375,
+ "grossChecked": 11904,
+ "grossOver1mm": 0,
+ "ctrlChecked": 11878,
+ "ctrlGrossPass": 1086,
+ "ctrlGrossPassExamples": [
+  {
+   "file": "model.SLDPRT",
+   "raw": 123,
+   "nat": 123,
+   "ctrl": 128,
+   "type": "cylinder",
+   "grossCtrl": 0.000009007013443532857
+  },
+  {
+   "file": "model.SLDPRT",
+   "raw": 128,
+   "nat": 128,
+   "ctrl": 123,
+   "type": "cylinder",
+   "grossCtrl": 0.000009007013443532857
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "raw": 6136,
+   "nat": 6136,
+   "ctrl": 571,
+   "type": "cylinder",
+   "grossCtrl": 0.0006000000381866748
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "raw": 6120,
+   "nat": 6120,
+   "ctrl": 1403,
+   "type": "cylinder",
+   "grossCtrl": 0.0005280109612702318
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "raw": 85,
+   "nat": 85,
+   "ctrl": 1838,
+   "type": "plane",
+   "grossCtrl": 0.0006999998092651356
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "raw": 2282,
+   "nat": 2282,
+   "ctrl": 3281,
+   "type": "plane",
+   "grossCtrl": 0.0004000000521540643
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "raw": 565,
+   "nat": 565,
+   "ctrl": 3170,
+   "type": "plane",
+   "grossCtrl": 1.9967556389799762e-10
+  },
+  {
+   "file": "0132519a_102_STEM.SLDPRT",
+   "raw": 1631,
+   "nat": 1631,
+   "ctrl": 6136,
+   "type": "cylinder",
+   "grossCtrl": 0.0004424163464796184
+  }
+ ],
+ "geomFaces": 1555,
+ "geomGrossChecked": 1549,
+ "geomGrossOver1mm": 0,
+ "ties": 787,
+ "tieAltGrossPass": 493,
+ "tieAltGrossPassExamples": [
+  {
+   "file": "d2515121_Ecran_128x32oled.SLDPRT",
+   "raw": 130,
+   "chosen": 108315,
+   "alt": 28927,
+   "grossChosen": 9.499490256914545e-11,
+   "grossAlt": 0.00010000009499490261,
+   "type": "plane"
+  },
+  {
+   "file": "d2515121_Ecran_128x32oled.SLDPRT",
+   "raw": 109,
+   "chosen": 108294,
+   "alt": 70344,
+   "grossChosen": 1.4863662384234644e-11,
+   "grossAlt": 0.0003987865596636643,
+   "type": "plane"
+  },
+  {
+   "file": "d2515121_Ecran_128x32oled.SLDPRT",
+   "raw": 88,
+   "chosen": 108273,
+   "alt": 125343,
+   "grossChosen": 7.450463510028094e-11,
+   "grossAlt": 0.0003085690290046336,
+   "type": "plane"
+  },
+  {
+   "file": "d2515121_Ecran_128x32oled.SLDPRT",
+   "raw": 2,
+   "chosen": 108187,
+   "alt": 7851,
+   "grossChosen": 4.0419399814986545e-11,
+   "grossAlt": 4.0419399814986545e-11,
+   "type": "plane"
+  },
+  {
+   "file": "d2515121_Ecran_128x32oled.SLDPRT",
+   "raw": 318,
+   "chosen": 111187,
+   "alt": 112232,
+   "grossChosen": 7.35058281952451e-10,
+   "grossAlt": 0.00004133121602408077,
+   "type": "plane"
+  },
+  {
+   "file": "d2515121_Ecran_128x32oled.SLDPRT",
+   "raw": 287,
+   "chosen": 111156,
+   "alt": 112201,
+   "grossChosen": 3.725695303393348e-10,
+   "grossAlt": 0.0007624544719051852,
+   "type": "plane"
+  },
+  {
+   "file": "d2515121_Ecran_128x32oled.SLDPRT",
+   "raw": 256,
+   "chosen": 111125,
+   "alt": 112170,
+   "grossChosen": 6.709964259975177e-10,
+   "grossAlt": 0.00008234806263264011,
+   "type": "plane"
+  },
+  {
+   "file": "d2515121_Ecran_128x32oled.SLDPRT",
+   "raw": 226,
+   "chosen": 111095,
+   "alt": 112140,
+   "grossChosen": 1.064341648344437e-9,
+   "grossAlt": 0.0008119188805744261,
+   "type": "cylinder"
+  }
+ ],
+ "byHow": {
+  "id": {
+   "n": 11483,
+   "grossChecked": 10031,
+   "over1mm": 0
+  },
+  "geometry": {
+   "n": 1555,
+   "grossChecked": 1549,
+   "over1mm": 0
+  },
+  "type": {
+   "n": 337,
+   "grossChecked": 324,
+   "over1mm": 0
+  }
+ }
+}

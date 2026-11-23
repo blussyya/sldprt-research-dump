@@ -1,0 +1,359 @@
+{
+  "hist": {
+    "firstControl:1": 2690,
+    "boundary:0": 120867,
+    "interior:0": 196285,
+    "laterControl:0": 9310,
+    "boundary:1": 11322,
+    "firstControl:0": 905,
+    "boundary:2": 246,
+    "laterControl:4": 16455
+  },
+  "facePatterns": {
+    "1:0": 550,
+    "0:": 571,
+    "1:": 1448,
+    "0:0": 334,
+    "1:4": 692
+  },
+  "examples": [
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 2,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 6,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 10,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 14,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 18,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 24,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 28,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 32,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 36,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 40,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 4,
+      "index": 44,
+      "role": "boundary",
+      "token": 2093,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 5,
+      "index": 5,
+      "role": "boundary",
+      "token": 2092,
+      "controls": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 5,
+      "index": 8,
+      "role": "boundary",
+      "token": 2092,
+      "controls": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 5,
+      "index": 12,
+      "role": "boundary",
+      "token": 2092,
+      "controls": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 5,
+      "index": 20,
+      "role": "boundary",
+      "token": 2092,
+      "controls": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 5,
+      "index": 24,
+      "role": "boundary",
+      "token": 2092,
+      "controls": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 5,
+      "index": 28,
+      "role": "boundary",
+      "token": 2092,
+      "controls": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 4,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 8,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 12,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 16,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 20,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 24,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 28,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 32,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 36,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 40,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 6,
+      "index": 44,
+      "role": "boundary",
+      "token": 2085,
+      "controls": [
+        1,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 7,
+      "index": 5,
+      "role": "boundary",
+      "token": 2084,
+      "controls": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "face": 7,
+      "index": 8,
+      "role": "boundary",
+      "token": 2084,
+      "controls": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

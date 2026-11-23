@@ -1,0 +1,23 @@
+part db8a97e2_écrou fileté M5.SLDPRT resolve ok time 23.6 s
+intersection curves 26 | fitter max 3.71e-10 over 1e-8: 0 | dense max 4.93e-8 over 1e-8: 26 | unsettled samples 0
+  edge 1410 conexbspline fit 3.71e-10 dense 4.93e-8 at 0.362 unsettled 0
+  edge 1417 conexbspline fit 9.54e-11 dense 4.93e-8 at 0.085 unsettled 0
+  edge 1465 conexbspline fit 9.54e-11 dense 4.93e-8 at 0.340 unsettled 0
+  edge 26675 planexcone fit 7.64e-12 dense 4.92e-8 at 1.000 unsettled 0
+  edge 26871 cylinderxcone fit 3.21e-13 dense 4.85e-8 at 0.000 unsettled 0
+  edge 26058 conexplane fit 7.64e-12 dense 4.81e-8 at 1.000 unsettled 0
+  edge 1478 cylinderxbspline fit 1.34e-10 dense 4.55e-8 at 0.527 unsettled 0
+  edge 1477 cylinderxbspline fit 1.05e-10 dense 4.54e-8 at 0.068 unsettled 0
+  edge 1455 bsplinexcylinder fit 1.19e-10 dense 4.54e-8 at 0.328 unsettled 0
+  edge 1472 bsplinexcylinder fit 1.18e-10 dense 4.54e-8 at 0.570 unsettled 0
+  edge 26041 conexplane fit 7.64e-12 dense 4.46e-8 at 0.000 unsettled 0
+  edge 26803 cylinderxcone fit 3.21e-13 dense 4.13e-8 at 1.000 unsettled 0
+  edge 26947 cylinderxcone fit 3.21e-13 dense 4.08e-8 at 0.258 unsettled 0
+  edge 26783 planexcone fit 7.64e-12 dense 4.03e-8 at 0.000 unsettled 0
+  edge 26905 cylinderxcone fit 3.21e-13 dense 3.94e-8 at 1.000 unsettled 0
+  edge 26092 conexplane fit 7.64e-12 dense 3.94e-8 at 0.003 unsettled 0
+  edge 26880 planexcone fit 7.64e-12 dense 3.94e-8 at 0.820 unsettled 0
+  edge 1457 conexbspline fit 3.71e-10 dense 3.66e-8 at 0.000 unsettled 0
+  edge 26843 planexcone fit 7.64e-12 dense 3.36e-8 at 1.000 unsettled 0
+  edge 26939 cylinderxcone fit 3.21e-13 dense 2.89e-8 at 0.000 unsettled 0
+report maxError 3.71e-10 curve 3.71e-10 surface 0.00e+0

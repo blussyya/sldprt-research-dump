@@ -1,0 +1,205 @@
+match 0.067 test files new/SW2011/C00_cube_10mm/model.SLDPRT
+match 0.06 test files new/SW2011/C01_cube_20mm/model.SLDPRT
+match 0.06 test files new/SW2011/C02_cube_translated/model.SLDPRT
+match 0.063 test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT
+match 0.065 test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT
+match 0.065 test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT
+match 0.066 test files new/SW2011/C06_cube_hole_moved/model.SLDPRT
+match 0.065 test files new/SW2011/C07_cube_two_holes/model.SLDPRT
+match 0.063 test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT
+match 0.064 test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT
+match 0.065 test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT
+match 0.062 test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT
+match 0.061 test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT
+match 0.057 test files new/SW2011/C13_cone/model.SLDPRT
+box gap 0.069 test files new/SW2011/C14_sphere/model.SLDPRT
+box gap 0.07 test files new/SW2011/C15_torus/model.SLDPRT
+box gap 0.071 test files new/SW2011/C16_loft_spline/model.SLDPRT
+match 0.064 test files new/SW2011/C17_torus_quarter/model.SLDPRT
+match 0.067 test files new/SW2011/C18_cube_split_line/model.SLDPRT
+match 0.071 test files new/SW2011/C19_half_cylinder/model.SLDPRT
+match 0.074 test files new/SW2011/C20_cylinders_crossed/model.SLDPRT
+match 0.065 test files new/SW2011/C21_cylinder_fillet/model.SLDPRT
+match 0.063 test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT
+match 0.056 test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT
+match 0.061 test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT
+match 0.113 test files new/SW2022/C00_cube_10mm/model.SLDPRT
+match 0.129 test files new/SW2022/C01_cube_20mm/model.SLDPRT
+match 0.103 test files new/SW2022/C02_cube_translated/model.SLDPRT
+match 0.108 test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT
+match 0.11 test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT
+match 0.108 test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT
+match 0.112 test files new/SW2022/C06_cube_hole_moved/model.SLDPRT
+match 0.119 test files new/SW2022/C07_cube_two_holes/model.SLDPRT
+match 0.131 test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT
+match 0.112 test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT
+match 0.108 test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT
+match 0.114 test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT
+match 0.123 test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT
+match 0.104 test files new/SW2022/C13_cone/model.SLDPRT
+box gap 0.163 test files new/SW2022/C14_sphere/model.SLDPRT
+box gap 0.158 test files new/SW2022/C15_torus/model.SLDPRT
+box gap 0.138 test files new/SW2022/C16_loft_spline/model.SLDPRT
+match 0.138 test files new/SW2022/C17_torus_quarter/model.SLDPRT
+match 0.114 test files new/SW2022/C18_cube_split_line/model.SLDPRT
+match 0.132 test files new/SW2022/C19_half_cylinder/model.SLDPRT
+match 0.157 test files new/SW2022/C20_cylinders_crossed/model.SLDPRT
+match 0.151 test files new/SW2022/C21_cylinder_fillet/model.SLDPRT
+match 0.104 test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT
+match 0.097 test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT
+match 0.161 test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT
+match 0.154 test files new/SW2026/cylinder with fillet-2026-credit-kevinR.SLDPRT
+match 0.156 test files new/re-exports/C00_cube_10mm-2011-to-2026/model.SLDPRT
+match 0.111 test files new/re-exports/C01_cube_20mm-2011-to-2026/model.SLDPRT
+match 0.167 test files new/re-exports/holefillets1-2022to2026reexport-Furthen64-kevinR.SLDPRT
+match 0.12 test files new/re-exports/plate4 1997to2025kevin.SLDPRT
+match 0.113 test files new/re-exports/plate4-1997to2026kevinrahhal.sldprt
+match 0.068 test files online/2007/05187d94_ChainCL_In.SLDPRT
+box gap 5.924 test files online/2010/065f38b0_等径四节弯头-4.SLDPRT
+box gap 1.351 test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT
+match 0.1 test files online/2011/6ff6c243_通气塞.SLDPRT
+match 0.082 test files online/2011/e1f38af5_0000380-01.sldprt
+timeout 180.13 test files online/2013/82981f2a_head_back.sldprt
+match 0.154 test files online/2013/92c393f4_camera_support.sldprt
+timeout 180.122 test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt
+timeout 180.089 test files online/2013/f666f342_head_face.sldprt
+match 0.097 test files online/2014/68cd51b6_20190309-0049.SLDPRT
+box gap 5.053 test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT
+match 0.113 test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT
+no display bounds 0.068 test files online/2017/3b48d9c5_Body10.sldprt
+no display bounds 0.046 test files online/2017/4df87793_21BC-S 1.19-A.sldprt
+match 0.135 test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT
+match 0.117 test files online/2017/d49566bc_AntennaMount.SLDPRT
+box gap 26.601 test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT
+match 2.61 test files online/2018/0132519a_102_STEM.SLDPRT
+no display bounds 0.114 test files online/2018/06b5063b_050_MASTER_SKETCH.SLDPRT
+box gap 0.506 test files online/2018/15567d51_leva1.SLDPRT
+match 0.57 test files online/2018/361e7dbb_101_HOUSING.SLDPRT
+match 0.488 test files online/2018/ca465363_103_COVER.SLDPRT
+box gap 2.042 test files online/2018/d2515121_Ecran_128x32oled.SLDPRT
+box gap 0.184 test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT
+box gap 0.191 test files online/2019/07ff8da1_shelf.SLDPRT
+match 0.138 test files online/2019/096d0504_MargayMount_WH10.SLDPRT
+match 0.111 test files online/2019/27377fd2_FE-00006-06.SLDPRT
+match 0.377 test files online/2019/28398415_Raspberry Pi 4.SLDPRT
+match 0.229 test files online/2019/300d7f07_Bottom Case.SLDPRT
+match 0.135 test files online/2019/44afdb7c_back_cushion.SLDPRT
+match 0.247 test files online/2019/54b05886_bottom_adc.SLDPRT
+box gap 0.152 test files online/2019/636b653d_MountingBracket.SLDPRT
+match 0.183 test files online/2019/7765d286_NSJ8L.SLDPRT
+box gap 0.442 test files online/2019/8cd79ff5_1ESxx.SLDPRT
+match 0.14 test files online/2019/91a2d981_Camera Module.SLDPRT
+match 0.135 test files online/2019/a3a44709_FrontPanel-Bezel.sldprt
+match 0.257 test files online/2019/d381ebab_bottom_dac.SLDPRT
+match 0.692 test files online/2019/e8c40c25_psu.SLDPRT
+match 1.895 test files online/2019/fb449daa_Gloworm PCB.SLDPRT
+match 0.313 test files online/2020/14f9214b_11.SLDPRT
+match 0.148 test files online/2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT
+no display bounds 0.073 test files online/2020/34fe5ff1_Group_44390.stp.SLDPRT
+box gap 0.484 test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT
+match 0.167 test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT
+box gap 0.589 test files online/2020/7841a106_6344428.SLDPRT
+match 0.139 test files online/2020/9494d959_27_20_4.SLDPRT
+match 0.19 test files online/2020/b185085c_Handle 3.SLDPRT
+no display bounds 0.079 test files online/2020/b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT
+no display bounds 0.149 test files online/2021/60f84235_2022_10_06_17_02_43_0612.stp.SLDPRT
+match 0.993 test files online/2021/85aabbde_84T Gear.SLDPRT
+match 0.557 test files online/2021/916d4a0a_36T Gear.SLDPRT
+match 0.289 test files online/2021/bc3292d7_12T Gear.SLDPRT
+match 0.69 test files online/2021/eb0b2a21_60T Gear.SLDPRT
+box gap 47.071 test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT
+box gap 42.757 test files online/2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT
+box gap 0.513 test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT
+match 0.163 test files online/2022/1ee60868_z轴皮带固定.SLDPRT
+no display bounds 0.154 test files online/2022/24344735_080-1926-000_3.SLDPRT
+match 0.268 test files online/2022/273a8d53_FG-F1.SLDPRT
+no display bounds 0.087 test files online/2022/3980555c_RASPBERRY_PI_5+cooler-5.SLDPRT
+match 5.704 test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT
+match 0.127 test files online/2022/40e79d45_Fins.SLDPRT
+no display bounds 0.069 test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT
+no display bounds 0.068 test files online/2022/5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT
+match 0.147 test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT
+match 0.199 test files online/2022/84226163_Fin.SLDPRT
+match 0.352 test files online/2022/9cc04b03_SO-C1.SLDPRT
+match 0.213 test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT
+match 0.126 test files online/2022/a0fc2e29_Vertical Spar.SLDPRT
+no display bounds 0.077 test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT
+no display bounds 0.067 test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT
+no display bounds 0.092 test files online/2022/ceefa2a9_CRP320-05.SLDPRT
+match 0.255 test files online/2022/d753195d_ServoMount.SLDPRT
+match 11.669 test files online/2022/db8a97e2_écrou fileté M5.SLDPRT
+match 0.124 test files online/2022/dc265ce1_Fin.SLDPRT
+match 0.132 test files online/2022/dd156283_637Z flanzi bearing.SLDPRT
+no display bounds 0.057 test files online/2022/f8c2df35_2023_10_16_23_28_17_0357_body1.SLDPRT
+match 1.495 test files online/2023/03764871_BME280.SLDPRT
+match 0.182 test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT
+error 6.718 test files online/2023/2f121983_case.SLDPRT
+match 0.497 test files online/2023/2fd21507_MidplateEM2.SLDPRT
+match 0.25 test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT
+match 0.598 test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT
+match 0.265 test files online/2023/41b71219_板材-Guidance安装板.SLDPRT
+box gap 5.029 test files online/2023/4803f393_box.SLDPRT
+match 0.205 test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT
+box gap 1.426 test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT
+match 0.154 test files online/2023/d2f7f9bd_iman.SLDPRT
+match 0.302 test files online/2023/d77ec77a_TopSheet.SLDPRT
+match 3.283 test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT
+match 0.745 test files online/2023/ef1d5cfe_DS3231.SLDPRT
+match 0.19 test files online/2024/09d353a9_Elbow_Mount2.SLDPRT
+match 0.731 test files online/2024/1e794aad_6344387.SLDPRT
+match 0.246 test files online/2024/225c13ed_camholder0deg.SLDPRT
+box gap 1.123 test files online/2024/2300f35c_Thigh Symétrie.SLDPRT
+match 0.116 test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT
+match 0.13 test files online/2024/37663d8a_Gasket For M12.SLDPRT
+match 0.174 test files online/2024/4febfc67_6344149.SLDPRT
+match 0.115 test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT
+match 0.154 test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT
+match 0.173 test files online/2024/871e670c_servo_adapter.SLDPRT
+match 0.151 test files online/2024/951f2bc1_Boitier.SLDPRT
+box gap 76.753 test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT
+match 0.165 test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT
+match 0.124 test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT
+no display bounds 0.069 test files online/2024/f750218b_612-00002.SLDPRT
+match 0.53 test files online/2025/05d0b4c3_pin-2-2.SLDPRT
+match 0.225 test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT
+match 0.15 test files online/2025/3e41786b_LB26001-A-04-002_seed.SLDPRT
+match 0.528 test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT
+box gap 81.116 test files online/2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT
+match 0.445 test files online/2025/55c163ac_pin-1-2.SLDPRT
+match 0.59 test files online/2025/6fd68589_pin-2-1.SLDPRT
+match 0.182 test files online/2025/822f5572_一级挡块-hhr镂空限位.SLDPRT
+match 0.246 test files online/2025/8aaecde6_6008内圈下加工件.SLDPRT
+match 0.133 test files online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT
+match 0.246 test files online/2025/ac760485_存矿小端.SLDPRT
+match 0.171 test files online/2025/e8f16581_Engine Base.SLDPRT
+box gap 6.305 test files online/2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT
+match 0.19 test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT
+match 0.213 test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT
+no display bounds 0.084 test files online/2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT
+match 38.771 test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT
+match 0.137 test files online/2026/4d85599e_base-M4.SLDPRT
+no display bounds 0.122 test files online/2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT
+match 0.211 test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT
+no display bounds 0.084 test files online/2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT
+match 0.603 test files online/2026/daa6e9e9_CR26-201-08.SLDPRT
+box gap 40.79 test files original/Dekor.SLDPRT
+box gap 2 test files original/Helical Bevel Gear.SLDPRT
+match 0.243 test files original/PTC GE8080-8.SLDPRT
+box gap 3.124 test files original/Pocket Wheel.SLDPRT
+match 0.145 test files original/controlled/C00_cube_10mm/model.SLDPRT
+match 0.107 test files original/controlled/C01_cube_20mm/model.SLDPRT
+match 0.115 test files original/controlled/C02_cube_translated/model.SLDPRT
+match 0.147 test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT
+match 0.11 test files original/controlled/C04_cube_hole_5mm/model.SLDPRT
+match 0.106 test files original/controlled/C05_cube_hole_3mm/model.SLDPRT
+match 0.11 test files original/controlled/C06_cube_hole_moved/model.SLDPRT
+match 0.125 test files original/controlled/C07_cube_two_holes/model.SLDPRT
+match 0.112 test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT
+match 0.101 test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT
+match 0.112 test files original/controlled/C10_cube_shell_1mm/model.SLDPRT
+match 0.111 test files original/controlled/C11_cube_hole_4mm/model.SLDPRT
+match 0.114 test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT
+match 0.149 test files original/cube.SLDPRT
+box gap 0.326 test files original/distributor main boss rev a.SLDPRT
+match 0.249 test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT
+match 0.684 test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT

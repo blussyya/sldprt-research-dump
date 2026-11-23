@@ -1,0 +1,13 @@
+SW2011
+{}
+SW2022
+{
+  'moHistoryFeatItemData_c | stamp-floor(FT)=-5': 4,
+  'moHistoryFeatItemData_c | stamp-floor(FT)=0': 39,
+  'moHistoryFeatItemData_c | stamp-floor(FT)=-4': 4,
+  'moHistoryFeatItemData_c | stamp-floor(FT)=-3': 6,
+  'moHistoryFeatItemData_c | stamp-floor(FT)=-6': 2,
+  'moHistoryFeatItemData_c | stamp-floor(FT)=-2': 5,
+  'moHistoryFeatItemData_c | stamp-floor(FT)=-1': 8,
+  'moHistoryFeatItemData_c | stamp-floor(FT)=-7': 1
+}

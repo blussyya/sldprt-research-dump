@@ -1,0 +1,2804 @@
+[
+  {
+    "era": "SW2011",
+    "name": "C00_cube_10mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 226,
+        "component": 227,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 226,
+            "component": 227,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C01_cube_20mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 226,
+        "component": 227,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 226,
+            "component": 227,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C02_cube_translated",
+    "noGhost": true
+  },
+  {
+    "era": "SW2011",
+    "name": "C03_cube_fillet_1mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 229,
+        "component": 230,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 229,
+            "component": 230,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C04_cube_hole_5mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 232,
+        "component": 233,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 232,
+            "component": 233,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C05_cube_hole_3mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 232,
+        "component": 233,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 232,
+            "component": 233,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C06_cube_hole_moved",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 232,
+        "component": 233,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 232,
+            "component": 233,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C07_cube_two_holes",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 232,
+        "component": 233,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 232,
+            "component": 233,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C08_cube_second_hole_modified",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 232,
+        "component": 233,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 232,
+            "component": 233,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C09_cube_chamfer_1mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 229,
+        "component": 230,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 229,
+            "component": 230,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C10_cube_shell_1mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 228,
+        "component": 229,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 228,
+            "component": 229,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C11_cube_hole_4mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 232,
+        "component": 233,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 232,
+            "component": 233,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C12_cube_fillet_1mm_edge2",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 229,
+        "component": 230,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 229,
+            "component": 230,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C13_cone",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 222,
+        "component": 223,
+        "componentAt": 4536,
+        "rawAt": 4553,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 222,
+            "component": 223,
+            "componentAt": 4536,
+            "rawAt": 4553,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C14_sphere",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 221,
+        "component": 222,
+        "componentAt": 4539,
+        "rawAt": 4556,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 221,
+            "component": 222,
+            "componentAt": 4539,
+            "rawAt": 4556,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C15_torus",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 217,
+        "component": 218,
+        "componentAt": 4496,
+        "rawAt": 4513,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 217,
+            "component": 218,
+            "componentAt": 4496,
+            "rawAt": 4513,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C16_loft_spline",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 269,
+        "component": 270,
+        "componentAt": 9433,
+        "rawAt": 9450,
+        "rawMatches": true
+      },
+      {
+        "id": 10002,
+        "class": "moCompProfile_c",
+        "feature": 18,
+        "featureName": "Sketch1",
+        "object": 285,
+        "component": 286,
+        "componentAt": 10755,
+        "rawAt": 10772,
+        "rawMatches": true
+      },
+      {
+        "id": 10003,
+        "class": "moCompProfile_c",
+        "feature": 21,
+        "featureName": "Sketch2",
+        "object": 288,
+        "component": 289,
+        "componentAt": 10883,
+        "rawAt": 10900,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10003,
+        "index": 2,
+        "type": 3,
+        "edge": 11,
+        "vertex": 0,
+        "boundaryPoint": 0,
+        "matches": [
+          {
+            "id": 10003,
+            "class": "moCompProfile_c",
+            "feature": 21,
+            "featureName": "Sketch2",
+            "object": 288,
+            "component": 289,
+            "componentAt": 10883,
+            "rawAt": 10900,
+            "rawMatches": true
+          }
+        ]
+      },
+      {
+        "id": 10002,
+        "index": 6,
+        "type": 3,
+        "edge": 25,
+        "vertex": 26,
+        "boundaryPoint": 23,
+        "vertexNext": 48,
+        "point": [
+          0.005,
+          0,
+          0.005
+        ],
+        "matches": [
+          {
+            "id": 10002,
+            "class": "moCompProfile_c",
+            "feature": 18,
+            "featureName": "Sketch1",
+            "object": 285,
+            "component": 286,
+            "componentAt": 10755,
+            "rawAt": 10772,
+            "rawMatches": true
+          }
+        ]
+      },
+      {
+        "id": 10001,
+        "index": 19,
+        "type": 2,
+        "edge": 0,
+        "vertex": 39,
+        "boundaryPoint": 37,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 269,
+            "component": 270,
+            "componentAt": 9433,
+            "rawAt": 9450,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C17_torus_quarter",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 217,
+        "component": 218,
+        "componentAt": 4496,
+        "rawAt": 4513,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 217,
+            "component": 218,
+            "componentAt": 4496,
+            "rawAt": 4513,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C18_cube_split_line",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 232,
+        "component": 233,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 232,
+            "component": 233,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C19_half_cylinder",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 223,
+        "component": 224,
+        "componentAt": 4685,
+        "rawAt": 4702,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 223,
+            "component": 224,
+            "componentAt": 4685,
+            "rawAt": 4702,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C20_cylinders_crossed",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 225,
+        "component": 226,
+        "componentAt": 4517,
+        "rawAt": 4534,
+        "rawMatches": true
+      },
+      {
+        "id": 10002,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 285,
+        "component": 286,
+        "componentAt": 9733,
+        "rawAt": 9750,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10002,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 10,
+        "boundaryPoint": 8,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10002,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 285,
+            "component": 286,
+            "componentAt": 9733,
+            "rawAt": 9750,
+            "rawMatches": true
+          }
+        ]
+      },
+      {
+        "id": 10001,
+        "index": 6,
+        "type": 2,
+        "edge": 0,
+        "vertex": 19,
+        "boundaryPoint": 17,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 225,
+            "component": 226,
+            "componentAt": 4517,
+            "rawAt": 4534,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C21_cylinder_fillet",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 222,
+        "component": 223,
+        "componentAt": 4517,
+        "rawAt": 4534,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 222,
+            "component": 223,
+            "componentAt": 4517,
+            "rawAt": 4534,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C22_cube_sw2011_native",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 226,
+        "component": 227,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 226,
+            "component": 227,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C25_cone_sw2011_native",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 222,
+        "component": 223,
+        "componentAt": 4536,
+        "rawAt": 4553,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 222,
+            "component": 223,
+            "componentAt": 4536,
+            "rawAt": 4553,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2011",
+    "name": "C26_cube_hole_sw2011_native",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 232,
+        "component": 233,
+        "componentAt": 4828,
+        "rawAt": 4845,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 232,
+            "component": 233,
+            "componentAt": 4828,
+            "rawAt": 4845,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C00_cube_10mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 199,
+        "component": 200,
+        "componentAt": 6806,
+        "rawAt": 6823,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 199,
+            "component": 200,
+            "componentAt": 6806,
+            "rawAt": 6823,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C01_cube_20mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 199,
+        "component": 200,
+        "componentAt": 6806,
+        "rawAt": 6823,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 199,
+            "component": 200,
+            "componentAt": 6806,
+            "rawAt": 6823,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C02_cube_translated",
+    "noGhost": true
+  },
+  {
+    "era": "SW2022",
+    "name": "C03_cube_fillet_1mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 203,
+        "component": 204,
+        "componentAt": 6921,
+        "rawAt": 6938,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 203,
+            "component": 204,
+            "componentAt": 6921,
+            "rawAt": 6938,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C04_cube_hole_5mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 206,
+        "component": 207,
+        "componentAt": 7036,
+        "rawAt": 7053,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 206,
+            "component": 207,
+            "componentAt": 7036,
+            "rawAt": 7053,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C05_cube_hole_3mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 206,
+        "component": 207,
+        "componentAt": 7036,
+        "rawAt": 7053,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 206,
+            "component": 207,
+            "componentAt": 7036,
+            "rawAt": 7053,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C06_cube_hole_moved",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 206,
+        "component": 207,
+        "componentAt": 7036,
+        "rawAt": 7053,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 206,
+            "component": 207,
+            "componentAt": 7036,
+            "rawAt": 7053,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C07_cube_two_holes",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 206,
+        "component": 207,
+        "componentAt": 7036,
+        "rawAt": 7053,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 206,
+            "component": 207,
+            "componentAt": 7036,
+            "rawAt": 7053,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C08_cube_second_hole_modified",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 206,
+        "component": 207,
+        "componentAt": 7036,
+        "rawAt": 7053,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 206,
+            "component": 207,
+            "componentAt": 7036,
+            "rawAt": 7053,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C09_cube_chamfer_1mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 203,
+        "component": 204,
+        "componentAt": 6921,
+        "rawAt": 6938,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 203,
+            "component": 204,
+            "componentAt": 6921,
+            "rawAt": 6938,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C10_cube_shell_1mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 202,
+        "component": 203,
+        "componentAt": 6921,
+        "rawAt": 6938,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 202,
+            "component": 203,
+            "componentAt": 6921,
+            "rawAt": 6938,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C11_cube_hole_4mm",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 206,
+        "component": 207,
+        "componentAt": 7036,
+        "rawAt": 7053,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 206,
+            "component": 207,
+            "componentAt": 7036,
+            "rawAt": 7053,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C12_cube_fillet_1mm_edge2",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 203,
+        "component": 204,
+        "componentAt": 6921,
+        "rawAt": 6938,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 203,
+            "component": 204,
+            "componentAt": 6921,
+            "rawAt": 6938,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C13_cone",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 195,
+        "component": 196,
+        "componentAt": 6482,
+        "rawAt": 6499,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 195,
+            "component": 196,
+            "componentAt": 6482,
+            "rawAt": 6499,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C14_sphere",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 195,
+        "component": 196,
+        "componentAt": 6487,
+        "rawAt": 6504,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 195,
+            "component": 196,
+            "componentAt": 6487,
+            "rawAt": 6504,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C15_torus",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 193,
+        "component": 194,
+        "componentAt": 6462,
+        "rawAt": 6479,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 193,
+            "component": 194,
+            "componentAt": 6462,
+            "rawAt": 6479,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C16_loft_spline",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 205,
+        "component": 206,
+        "componentAt": 7178,
+        "rawAt": 7195,
+        "rawMatches": true
+      },
+      {
+        "id": 10002,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 260,
+        "component": 261,
+        "componentAt": 12805,
+        "rawAt": 12822,
+        "rawMatches": true
+      },
+      {
+        "id": 10003,
+        "class": "moCompProfile_c",
+        "feature": 26,
+        "featureName": "Sketch1",
+        "object": 281,
+        "component": 282,
+        "componentAt": 14341,
+        "rawAt": 14358,
+        "rawMatches": true
+      },
+      {
+        "id": 10004,
+        "class": "moCompProfile_c",
+        "feature": 29,
+        "featureName": "Sketch2",
+        "object": 284,
+        "component": 285,
+        "componentAt": 14521,
+        "rawAt": 14538,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10004,
+        "index": 2,
+        "type": 3,
+        "edge": 11,
+        "vertex": 0,
+        "boundaryPoint": 0,
+        "matches": [
+          {
+            "id": 10004,
+            "class": "moCompProfile_c",
+            "feature": 29,
+            "featureName": "Sketch2",
+            "object": 284,
+            "component": 285,
+            "componentAt": 14521,
+            "rawAt": 14538,
+            "rawMatches": true
+          }
+        ]
+      },
+      {
+        "id": 10003,
+        "index": 6,
+        "type": 3,
+        "edge": 25,
+        "vertex": 26,
+        "boundaryPoint": 23,
+        "vertexNext": 49,
+        "point": [
+          0.005,
+          0,
+          0.005
+        ],
+        "matches": [
+          {
+            "id": 10003,
+            "class": "moCompProfile_c",
+            "feature": 26,
+            "featureName": "Sketch1",
+            "object": 281,
+            "component": 282,
+            "componentAt": 14341,
+            "rawAt": 14358,
+            "rawMatches": true
+          }
+        ]
+      },
+      {
+        "id": 10002,
+        "index": 19,
+        "type": 2,
+        "edge": 0,
+        "vertex": 40,
+        "boundaryPoint": 38,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10002,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 260,
+            "component": 261,
+            "componentAt": 12805,
+            "rawAt": 12822,
+            "rawMatches": true
+          }
+        ]
+      },
+      {
+        "id": 10001,
+        "index": 36,
+        "type": 2,
+        "edge": 0,
+        "vertex": 74,
+        "boundaryPoint": 72,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 205,
+            "component": 206,
+            "componentAt": 7178,
+            "rawAt": 7195,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C17_torus_quarter",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 193,
+        "component": 194,
+        "componentAt": 6462,
+        "rawAt": 6479,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 193,
+            "component": 194,
+            "componentAt": 6462,
+            "rawAt": 6479,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C18_cube_split_line",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 206,
+        "component": 207,
+        "componentAt": 7036,
+        "rawAt": 7053,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 206,
+            "component": 207,
+            "componentAt": 7036,
+            "rawAt": 7053,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C19_half_cylinder",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 196,
+        "component": 197,
+        "componentAt": 6639,
+        "rawAt": 6656,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 196,
+            "component": 197,
+            "componentAt": 6639,
+            "rawAt": 6656,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C20_cylinders_crossed",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 199,
+        "component": 200,
+        "componentAt": 6681,
+        "rawAt": 6698,
+        "rawMatches": true
+      },
+      {
+        "id": 10002,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 270,
+        "component": 271,
+        "componentAt": 13007,
+        "rawAt": 13024,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10002,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 10,
+        "boundaryPoint": 8,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10002,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 270,
+            "component": 271,
+            "componentAt": 13007,
+            "rawAt": 13024,
+            "rawMatches": true
+          }
+        ]
+      },
+      {
+        "id": 10001,
+        "index": 6,
+        "type": 2,
+        "edge": 0,
+        "vertex": 19,
+        "boundaryPoint": 17,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 199,
+            "component": 200,
+            "componentAt": 6681,
+            "rawAt": 6698,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C21_cylinder_fillet",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 196,
+        "component": 197,
+        "componentAt": 6566,
+        "rawAt": 6583,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 196,
+            "component": 197,
+            "componentAt": 6566,
+            "rawAt": 6583,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C23_cube_sw2011_to_2022",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 189,
+        "component": 190,
+        "componentAt": 6528,
+        "rawAt": 6545,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 189,
+            "component": 190,
+            "componentAt": 6528,
+            "rawAt": 6545,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  },
+  {
+    "era": "SW2022",
+    "name": "C24_cube_sw2022_native",
+    "featureEnd": true,
+    "refs": [
+      {
+        "id": 10001,
+        "class": "moCompSketchEntHandle_c",
+        "feature": 5,
+        "featureName": "Origin",
+        "object": 199,
+        "component": 200,
+        "componentAt": 6806,
+        "rawAt": 6823,
+        "rawMatches": true
+      }
+    ],
+    "bodies": [
+      {
+        "id": 10001,
+        "index": 2,
+        "type": 2,
+        "edge": 0,
+        "vertex": 9,
+        "boundaryPoint": 7,
+        "vertexNext": 0,
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "matches": [
+          {
+            "id": 10001,
+            "class": "moCompSketchEntHandle_c",
+            "feature": 5,
+            "featureName": "Origin",
+            "object": 199,
+            "component": 200,
+            "componentAt": 6806,
+            "rawAt": 6823,
+            "rawMatches": true
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "shiftedIdMatches": 0,
+      "wrongFieldMatches": 0
+    },
+    "duplicateGhostIds": [],
+    "unmatchedBodies": [],
+    "unmatchedRefs": []
+  }
+]

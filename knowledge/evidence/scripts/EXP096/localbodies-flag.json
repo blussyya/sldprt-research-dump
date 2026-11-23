@@ -1,0 +1,4259 @@
+{
+  "summary": {
+    "entries": 281,
+    "decodedEntries": 274,
+    "errors": 7,
+    "decodedBodies": 282,
+    "flag0Entries": 273,
+    "flag1Entries": 8,
+    "flag1BodiesWithExplicit0": 8,
+    "flag0BodiesWithExplicit1": 258,
+    "flag0BodiesWithMissingAttribute": 16,
+    "explicitAttributeBodies": 266,
+    "violations": 0
+  },
+  "rows": [
+    {
+      "file": "test files online/2017/4df87793_21BC-S 1.19-A.sldprt",
+      "stream": "LocalBodies",
+      "name": "Imported1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 1,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée112",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée102",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée49",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée48",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée47",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée46",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée45",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée44",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée43",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée42",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée41",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée40",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée113",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée103",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée39",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée38",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée37",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée36",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée35",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée34",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée33",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée32",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée31",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée30",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée110",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée100",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée29",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée28",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée27",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée26",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée25",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée24",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée23",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée22",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée21",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée20",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée111",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée101",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée19",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée18",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée17",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée16",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée15",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée14",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée13",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée12",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée11",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée10",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée106",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée2",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée107",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée3",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée114",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée104",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée4",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée105",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée5",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée6",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée7",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée8",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée108",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée9",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée109",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée99",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée98",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée97",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée96",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée95",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée94",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée93",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée92",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée91",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée90",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée89",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée88",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée87",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée86",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée85",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée84",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée83",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée82",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée81",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée80",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée79",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée78",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée77",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée76",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée75",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée74",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée73",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée72",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée71",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée70",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée69",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée68",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée67",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée66",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée65",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée64",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée63",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée62",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée61",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée60",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée59",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée58",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée57",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée56",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée55",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée54",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée53",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée52",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée51",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée50",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 0,
+      "bodies": [],
+      "error": "missing base schema for node type 68 at 676"
+    },
+    {
+      "file": "test files online/2020/34fe5ff1_Group_44390.stp.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "ATX_ITX_HPTX_Motherboards_PCIe_blank_models_precise.stp",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        },
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        }
+      ]
+    },
+    {
+      "file": "test files online/2021/60f84235_2022_10_06_17_02_43_0612.stp.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "LIFTING_WHEEL_D80.stp<1>",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2021/85aabbde_84T Gear.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "84T_Gear_276-2169-004.STEP",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        }
+      ]
+    },
+    {
+      "file": "test files online/2021/916d4a0a_36T Gear.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "36T_Gear_276-2169-002.STEP",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        }
+      ]
+    },
+    {
+      "file": "test files online/2021/bc3292d7_12T Gear.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "12T_Gear_276-2169-001.STEP",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        }
+      ]
+    },
+    {
+      "file": "test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "60T_Gear_276-2169-003.STEP",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "PM-2879-02-1-solid1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/24344735_080-1926-000_3.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "ｲﾝﾎﾟｰﾄ1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3980555c_RASPBERRY_PI_5+cooler-5.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "ｲﾝﾎﾟｰﾄ1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported2_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported3_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported4_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported5_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported6_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported7_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported8_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported9_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported2_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported3_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported4_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "输入1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported10_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported11_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported12_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported13_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported14_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported15_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported16_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported17_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported18_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported19_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported20_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported21_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported22_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported2_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported3_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported4_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported5_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported6_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported7_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported8_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported9_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported10_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported11_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported12_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported13_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported2_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported3_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported4_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported5_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported6_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported7_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported8_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported9_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported10_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported11_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported12_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported13_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported14_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported15_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported16_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported17_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported18_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported19_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported20_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported21_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported22_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported23_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported24_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported25_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported26_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported27_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported28_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported29_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported2_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported30_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported31_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported32_0",
+      "flag": 0,
+      "bodies": [],
+      "error": "missing base schema for node type 68 at 607"
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported33_0",
+      "flag": 0,
+      "bodies": [],
+      "error": "missing base schema for node type 68 at 607"
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported34_0",
+      "flag": 0,
+      "bodies": [],
+      "error": "missing base schema for node type 68 at 607"
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported35_0",
+      "flag": 0,
+      "bodies": [],
+      "error": "missing base schema for node type 68 at 607"
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported36_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported37_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported38_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported39_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported3_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported40_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported41_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported4_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported5_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported6_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported7_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported8_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported9_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Importée3",
+      "flag": 1,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2022/f8c2df35_2023_10_16_23_28_17_0357_body1.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-3/Part 1_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-3/Part 2_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-3/Part 3_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-4/Part 1_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-4/Part 2_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-4/Part 3_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-5/Part 1_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-5/Part 2_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-5/Part 3_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-6/Part 1_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-6/Part 2_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/C0603_040_2-6/Part 3_2-3-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/PLS-4_2-1-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/PLS-4_2-1-surface2_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/PLS-4_2-1-surface3_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/PLS-4_2-1-surface4_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/PLS-4_2-1-surface5_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/SOT-363_2-1-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/SOT23-3_2-1-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/SOT23-3_2-1-surface2_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/SOT23-3_2-1-surface3_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/SOT23-3_2-1-surface4_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface2_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface3_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface4_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface5_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface6_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface7_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/Сборка 0805 4x_2-1-surface8_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/03764871_BME280.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Sensor BME280(2)-1/плата датчика BME280_2-1-surface1_0",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 3,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+      "stream": "Config-1-FeatureBodies/LocalBodies",
+      "name": "输入1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+      "stream": "Config-1-FeatureBodies/LocalBodies",
+      "name": "输入2",
+      "flag": 1,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+      "stream": "Config-1-FeatureBodies/LocalBodies",
+      "name": "输入3",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "输入1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "输入2",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "输入3",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "DS3231.step-1/0805 Capacitor_001.step-1-solid1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "DS3231.step-1/0805 Resistor_001.step-1-solid1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "DS3231.step-1/0805 Resistor_002.step-1-solid1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "DS3231.step-1/5 Pos Socket Header_001.step-1-solid1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "DS3231.step-1/Battery_001.step-1-solid1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "DS3231.step-1/Board_001.step-1-solid1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "DS3231.step-1/SOIC16_001.step-1-solid1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "ｲﾝﾎﾟｰﾄ1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "ｲﾝﾎﾟｰﾄ1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "am-0420 8in Rubber Treaded Wheel-1-solid1",
+      "flag": 0,
+      "bodies": [],
+      "error": "missing base schema for node type 68 at 94623"
+    },
+    {
+      "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "am-0420 8in Rubber Treaded Wheel_2-1-solid1",
+      "flag": 0,
+      "bodies": [],
+      "error": "missing base schema for node type 68 at 1804"
+    },
+    {
+      "file": "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "ｲﾝﾎﾟｰﾄ1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "ｲﾝﾎﾟｰﾄ1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2024/f750218b_612-00002.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/05d0b4c3_pin-2-2.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 1,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/05d0b4c3_pin-2-2.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported2",
+      "flag": 1,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/55c163ac_pin-1-2.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 1,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/6fd68589_pin-2-1.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 1,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2025/6fd68589_pin-2-1.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported2",
+      "flag": 1,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "A15_KW10_cassette_L_heel.step<1>",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        }
+      ]
+    },
+    {
+      "file": "test files online/2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "ST3215_C018_04.step<1>",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        },
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        },
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        },
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        },
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        },
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        },
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        },
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        }
+      ]
+    },
+    {
+      "file": "test files online/2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "A09_power_and_compute_rack.step<1>",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": null
+        }
+      ]
+    },
+    {
+      "file": "test files online/2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "file": "test files original/PTC GE8080-8.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "PTC GE8080-8.stp<1>",
+      "flag": 0,
+      "bodies": [
+        {
+          "bodyIndex": 1,
+          "bodyType": 1,
+          "lightweightPermanent": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "file": "test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Imported1",
+      "flag": 0,
+      "error": "missing base schema for node type 68 at 676"
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported32_0",
+      "flag": 0,
+      "error": "missing base schema for node type 68 at 607"
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported33_0",
+      "flag": 0,
+      "error": "missing base schema for node type 68 at 607"
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported34_0",
+      "flag": 0,
+      "error": "missing base schema for node type 68 at 607"
+    },
+    {
+      "file": "test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "Surface-Imported35_0",
+      "flag": 0,
+      "error": "missing base schema for node type 68 at 607"
+    },
+    {
+      "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "am-0420 8in Rubber Treaded Wheel-1-solid1",
+      "flag": 0,
+      "error": "missing base schema for node type 68 at 94623"
+    },
+    {
+      "file": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+      "stream": "Config-0-FeatureBodies/LocalBodies",
+      "name": "am-0420 8in Rubber Treaded Wheel_2-1-solid1",
+      "flag": 0,
+      "error": "missing base schema for node type 68 at 1804"
+    }
+  ],
+  "violations": []
+}

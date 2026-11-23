@@ -1,0 +1,15 @@
+{
+  "files": 49,
+  "errors": [],
+  "featureErrors": [],
+  "bodies": 54,
+  "refs": 54,
+  "unmatchedBodies": [],
+  "unmatchedRefs": [],
+  "duplicateIds": [],
+  "rawMismatches": [],
+  "points": 50,
+  "pointReferenceKinds": [
+    "moCompSketchEntHandle_c:Origin"
+  ]
+}

@@ -98,7 +98,7 @@ The reader refuses any other base schema.
 
 ### Older transmit files
 
-Two older forms occur in the pre-2011 parts ([EXP-077](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-03_v0.5-EXP077.md)):
+Two older forms occur in the pre-2011 parts ([EXP-077](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-03_v0.5-EXP077.md)):
 
 **Written in schema 13006 itself** (chainwheel, `SCH_1300242_13006`, Parasolid 13.0). The schema
 name has two numbers instead of three, the node-type count is absent from the header, and no type
@@ -253,7 +253,7 @@ pieces along seam edges: 287 native faces become 331 STEP faces through 90 seams
 loft surfaces have identical control points and knots. Twenty mutations, each 1e-7 m or less and
 including four wrong-model pairings, are all detected, so the agreement is not an artifact of a
 loose test
-([EXP-075](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-03_v0.5-EXP075.md),
+([EXP-075](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-03_v0.5-EXP075.md),
 `test/brep-step.test.js`).
 
 **Native vs exported.** Compared graph-to-graph from the BODY down, the embedded body equals the
@@ -264,8 +264,8 @@ exported one on 47 of 49 models. The two lofts (C16, both eras) differ: native `
 ## The production-only geometry
 
 Four kinds of geometry occur in the real parts and in none of the controlled models. Where each is
-stored was found in [EXP-077](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-03_v0.5-EXP077.md); how each is evaluated and written is
-[EXP-078](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-04_v0.5-EXP078.md). None has a SolidWorks STEP to compare against, so each is checked against the
+stored was found in [EXP-077](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-03_v0.5-EXP077.md); how each is evaluated and written is
+[EXP-078](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-04_v0.5-EXP078.md). None has a SolidWorks STEP to compare against, so each is checked against the
 display mesh and against OpenCascade instead.
 
 ### INTERSECTION curves
@@ -378,7 +378,7 @@ With those, the written file reads back as the native body on all 49 models. Ope
 every one as a single valid solid, and the boolean difference with SolidWorks' `model.step` is zero
 in both directions on all 49. Volumes, from the exact integrator below, agree with SolidWorks'
 STEP to 6e-15 relative and with closed-form values to 4e-15
-([EXP-076](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-03_v0.5-EXP076.md), `test/step-write.test.js`).
+([EXP-076](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-03_v0.5-EXP076.md), `test/step-write.test.js`).
 
 **Exact volume.** `src/brep/volume.js` computes the enclosed volume straight from the surfaces and
 curves. The divergence theorem turns it into a sum over faces, and Green's theorem turns each face
@@ -429,7 +429,7 @@ along the B-rep edge it is tagged with. The neighbours can come from either face
 that edge, and "on" has to allow for float32 coordinates (about 1.5e-7 of the coordinate size).
 EXP-074 checked chords within one face at a fixed 1e-9 m and left 314 production vertices
 unexplained. Checked this way, every off-surface boundary vertex in the 10 real parts is a chord
-point ([EXP-078](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-04_v0.5-EXP078.md)). What remains is a few interior vertices (listed in
+point ([EXP-078](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-04_v0.5-EXP078.md)). What remains is a few interior vertices (listed in
 [validation.md](../validation.md)).
 
 **Legacy files join by edge set.** SolidWorks 2011 and pre-2011 meshes have no surface record, so
@@ -447,7 +447,7 @@ IDs connect the two exactly.
 ## The ghost partition
 
 `Config-0-GhostPartition` is one `(partition)` section, like the main partition, but it never
-holds the part ([EXP-078](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-04_v0.5-EXP078.md)):
+holds the part ([EXP-078](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-04_v0.5-EXP078.md)):
 
 - In 61 of the 65 files that have one, it holds a single body of `body_type` 2 with no edges or
   faces: one vertex at the origin, with an integer attribute (10001). The distributor has six such

@@ -1,0 +1,4 @@
+(1) Created vs id: files 40 pairs 197 inversions 0
+(2) Modified (FT) vs order counter: pairs 197 inversions 0 | Created (stamp) vs order counter: pairs 197 inversions 1
+(3) FT vs order counter, all modelled features + user planes: pairs 353 inversions 0 ties skipped 0
+(4) FT vs feature id: pairs 353 inversions 5 [ 'Helical Bevel Gear.SLDPRT 5' ]

@@ -1,0 +1,34 @@
+{
+  "files": 6,
+  "binaryNamesComparedWithXml": 126,
+  "nameMismatches": 0,
+  "xmlChildChecks": [
+    {"file": "C04", "owner": 46, "xml": [33], "binary": [33], "match": true},
+    {"file": "C07", "owner": 46, "xml": [33], "binary": [33], "match": true}
+  ],
+  "c07": {
+    "streamBytes": 14739,
+    "rawTopCount": 21,
+    "topRead": 21,
+    "remainingHex": "0000",
+    "children": [
+      {"owner": 32, "ownerName": "Boss-Extrude1", "nodeRange": [8933, 9114], "child": 26, "childName": "Sketch1", "childArchiveIndex": 189},
+      {"owner": 46, "ownerName": "Cut-Extrude2", "nodeRange": [13605, 13784], "child": 33, "childName": "Sketch2", "childArchiveIndex": 286}
+    ],
+    "history": [
+      {"range": [606, 767], "feature": 26, "name": "Sketch1", "featureArchiveIndex": 189},
+      {"range": [767, 882], "feature": 32, "name": "Boss-Extrude1", "featureArchiveIndex": 233},
+      {"range": [882, 997], "feature": 33, "name": "Sketch2", "featureArchiveIndex": 286},
+      {"range": [997, 1112], "feature": 46, "name": "Cut-Extrude2", "featureArchiveIndex": 305}
+    ],
+    "opaqueScan": {"range": [10760, 11347], "target": "moFavoriteHandle_c"}
+  },
+  "c23": {
+    "streamBytes": 11481,
+    "rawTopCount": 19,
+    "topRead": 18,
+    "readOffset": 11481,
+    "remainingHex": "",
+    "opaqueScan": {"range": [10305, 10892], "target": "moFavoriteHandle_c"}
+  }
+}

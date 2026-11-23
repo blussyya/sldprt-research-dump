@@ -1,0 +1,6700 @@
+[
+ {
+  "file": "online/2018/15567d51_leva1.SLDPRT",
+  "rawId": 25,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0.9878404140472412,
+  "amax": 2,
+  "bmin": 1.0484405158595577e-34,
+  "bmax": 0.0025400000158697367,
+  "sweepLen": 1,
+  "scale": null,
+  "nv": 142,
+  "vertsInsideDomain": 3
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 675,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0031734191471739235,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 679,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0029921389417796084,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 683,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.002213982983456205,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 687,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": -2.1904748671007924e-38,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0030227279978085014,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 691,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0032791970647719462,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 695,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": -2.485418346183876e-38,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0021363171161873137,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 699,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0028797811250828244,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 703,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0027396591243480078,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 707,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0016955093430443247,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 711,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0022429223408077337,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 719,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0018901048460750935,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 723,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": -7.084230755230969e-38,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0011912939300465317,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 727,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0018388703675719252,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 731,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0021024828644386974,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 735,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0015276990054203163,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 739,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0018372263102380121,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 743,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 3.597231809333694e-38,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0027606697805124245,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 747,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.002516366861478404,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 751,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0015602201289769322,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 755,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.0022075746283870415,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 759,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.002357231589394646,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/273a8d53_FG-F1.SLDPRT",
+  "rawId": 763,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 0.9999999999999999,
+  "scale": 0.00220179520794473,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 427,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001655677031809972,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 431,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": -2.231998983974744e-38,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001353267988380221,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 435,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": -6.304705235108645e-38,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0018913220158338438,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 439,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001614336750428151,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 443,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0017867155545587226,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 447,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001781657815388112,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 451,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0016013963605492738,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 455,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0016147984399710225,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 459,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.00175899475358523,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 463,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0021648355279930177,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 684,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0008926414873916611,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 688,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0008836152840272788,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 692,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": -4.4367233748995625e-38,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.00128039344983932,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 696,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0012580091826821444,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 700,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0008818963865975474,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 704,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0008892682798758927,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 708,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0012650190688081359,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 712,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0012593745927482638,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1193,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.00042110562161571606,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1197,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0003159480705233523,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1201,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 2.0572637636800987e-37,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0005536771873679106,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1209,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 6.332164519296168e-38,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0018126445813580537,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1213,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0009068140051408329,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1217,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 4.6016662934995366e-38,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0008995681138579808,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1221,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0009402003896955581,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1225,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001709363400339605,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1229,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0014147205828004931,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1233,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0010086879025960297,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1241,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 5.015368276005838e-37,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0005764724200096995,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1245,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0006800319723582011,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1249,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0007780079450770889,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1253,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0002542815462716972,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1257,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0002653140767687483,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1261,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0017147702781302931,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1269,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0009817414780054297,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1273,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0010176966498361374,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1277,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 3.8632327298047666e-38,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001031195518450933,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1281,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0009979079253113823,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1285,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0019244732478765766,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1289,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0014597746145330651,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1293,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 4.831475766428615e-37,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001299688575923558,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1301,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0008083698592368819,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1305,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": -4.369995223586572e-37,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0007402340289001884,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1309,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0007531307367572354,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1844,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0007348675824673046,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1848,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0007341892038814204,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1852,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": -1.1307488729866075e-37,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0007916050682478933,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1856,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0012973213263887434,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1860,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0013849764571986422,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1864,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.000772377293758166,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1868,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0007062620162823574,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1872,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0010004951294968949,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1880,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": -3.8953424751798754e-37,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.00149536369044416,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1884,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001463126035747053,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1888,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001495056434132649,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1892,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0017739087068664081,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1896,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0018530666633705096,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1900,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001527447248927664,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1904,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 3.216942947930139e-37,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.0014307005287672952,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "online/2022/9cc04b03_SO-C1.SLDPRT",
+  "rawId": 1908,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   1
+  ],
+  "amin": 0,
+  "amax": 1,
+  "bmin": 0,
+  "bmax": 0.00039999998989515007,
+  "sweepLen": 1,
+  "scale": 0.001341678564268129,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20208,
+  "section": "B_CURVE",
+  "dom": [
+   1277.0952081123912,
+   1277.560713728391
+  ],
+  "amin": 1277.09521484375,
+  "amax": 1277.5606689453125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.25438875226128266,
+  "nv": 18,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20212,
+  "section": "B_CURVE",
+  "dom": [
+   1277.560713728391,
+   1375.725371093649
+  ],
+  "amin": 1277.5606689453125,
+  "amax": 1375.725341796875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.002114130906696031,
+  "nv": 102,
+  "vertsInsideDomain": 99
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20216,
+  "section": "B_CURVE",
+  "dom": [
+   1375.725371093649,
+   1375.9799384521632
+  ],
+  "amin": 1375.725341796875,
+  "amax": 1375.97998046875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.40768482709369736,
+  "nv": 10,
+  "vertsInsideDomain": 5
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20220,
+  "section": "B_CURVE",
+  "dom": [
+   1375.9799384521632,
+   1457.295931614692
+  ],
+  "amin": 1375.97998046875,
+  "amax": 1457.2958984375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.147545531051024,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20224,
+  "section": "B_CURVE",
+  "dom": [
+   1457.295931614692,
+   1570.861015844816
+  ],
+  "amin": 1457.2958984375,
+  "amax": 1570.8609619140625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.02740195997547497,
+  "nv": 18,
+  "vertsInsideDomain": 15
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20228,
+  "section": "B_CURVE",
+  "dom": [
+   1570.861015844816,
+   1570.879073079707
+  ],
+  "amin": 1570.8609619140625,
+  "amax": 1570.8790283203125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.4930871608057085,
+  "nv": 8,
+  "vertsInsideDomain": 5
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20232,
+  "section": "B_CURVE",
+  "dom": [
+   1570.879073079707,
+   1642.350864269468
+  ],
+  "amin": 1570.8790283203125,
+  "amax": 1642.350830078125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.018156351721625726,
+  "nv": 18,
+  "vertsInsideDomain": 15
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20236,
+  "section": "B_CURVE",
+  "dom": [
+   1642.350864269468,
+   1730.150845482434
+  ],
+  "amin": 1642.350830078125,
+  "amax": 1730.15087890625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.12684110816101601,
+  "nv": 12,
+  "vertsInsideDomain": 7
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20240,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   0.1005629333973284
+  ],
+  "amin": 0,
+  "amax": 0.1005629301071167,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.5345486293801603,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20244,
+  "section": "B_CURVE",
+  "dom": [
+   0.1005629333973284,
+   111.46365290972089
+  ],
+  "amin": 0.1005629301071167,
+  "amax": 111.46365356445312,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.014285030436736502,
+  "nv": 40,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20248,
+  "section": "B_CURVE",
+  "dom": [
+   111.46365290972089,
+   111.5970834790911
+  ],
+  "amin": 111.46365356445312,
+  "amax": 111.59708404541016,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.5724367399083283,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20252,
+  "section": "B_CURVE",
+  "dom": [
+   111.5970834790911,
+   151.1596569805583
+  ],
+  "amin": 111.59708404541016,
+  "amax": 151.15965270996094,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.030469724485483064,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 20256,
+  "section": "B_CURVE",
+  "dom": [
+   151.1596569805583,
+   183.19172575590233
+  ],
+  "amin": 151.15965270996094,
+  "amax": 183.1917266845703,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 1.2841877881722574,
+  "nv": 8,
+  "vertsInsideDomain": 5
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19953,
+  "section": "B_CURVE",
+  "dom": [
+   73.34713935208828,
+   101.35285630659321
+  ],
+  "amin": 73.34713745117188,
+  "amax": 101.35285949707031,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.003476759112013879,
+  "nv": 42,
+  "vertsInsideDomain": 37
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19957,
+  "section": "B_CURVE",
+  "dom": [
+   101.35285630659321,
+   126.7691413059919
+  ],
+  "amin": 101.35285949707031,
+  "amax": 126.7691421508789,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005383989183580244,
+  "nv": 40,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19961,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   36.596769192081965
+  ],
+  "amin": 0,
+  "amax": 36.59676742553711,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004707984727557589,
+  "nv": 50,
+  "vertsInsideDomain": 50
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19965,
+  "section": "B_CURVE",
+  "dom": [
+   36.596769192081965,
+   73.34713935208828
+  ],
+  "amin": 36.59676742553711,
+  "amax": 73.34713745117188,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005804013652380432,
+  "nv": 48,
+  "vertsInsideDomain": 45
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19858,
+  "section": "B_CURVE",
+  "dom": [
+   85.73856516177693,
+   118.03853989358329
+  ],
+  "amin": 85.73856353759766,
+  "amax": 118.03854370117188,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005151637745032774,
+  "nv": 46,
+  "vertsInsideDomain": 41
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19862,
+  "section": "B_CURVE",
+  "dom": [
+   118.03853989358329,
+   188.26526076412182
+  ],
+  "amin": 118.03854370117188,
+  "amax": 188.2652587890625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.006652731159699169,
+  "nv": 48,
+  "vertsInsideDomain": 48
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19866,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   21.996927958491288
+  ],
+  "amin": 0,
+  "amax": 21.99692726135254,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.01847865811730551,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19870,
+  "section": "B_CURVE",
+  "dom": [
+   21.996927958491288,
+   48.930882482472896
+  ],
+  "amin": 21.99692726135254,
+  "amax": 48.93088150024414,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.02863079280185924,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19874,
+  "section": "B_CURVE",
+  "dom": [
+   48.930882482472896,
+   85.73856516177693
+  ],
+  "amin": 48.93088150024414,
+  "amax": 85.73856353759766,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005644936088315037,
+  "nv": 32,
+  "vertsInsideDomain": 32
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19775,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   47.17277572090645
+  ],
+  "amin": 0,
+  "amax": 47.17277526855469,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005909943821370028,
+  "nv": 40,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19779,
+  "section": "B_CURVE",
+  "dom": [
+   47.17277572090645,
+   81.1083041059214
+  ],
+  "amin": 47.17277526855469,
+  "amax": 81.10830688476562,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005200466793847871,
+  "nv": 36,
+  "vertsInsideDomain": 34
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19728,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   46.310500846749804
+  ],
+  "amin": 0,
+  "amax": 46.31050109863281,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.007207015185769909,
+  "nv": 44,
+  "vertsInsideDomain": 44
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19732,
+  "section": "B_CURVE",
+  "dom": [
+   46.310500846749804,
+   81.62993481807001
+  ],
+  "amin": 46.31050109863281,
+  "amax": 81.62993621826172,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.006303151375913656,
+  "nv": 36,
+  "vertsInsideDomain": 33
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19681,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   27.881400555715512
+  ],
+  "amin": 0,
+  "amax": 27.88140106201172,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.041945994188550724,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19685,
+  "section": "B_CURVE",
+  "dom": [
+   27.881400555715512,
+   57.53705865331252
+  ],
+  "amin": 27.88140106201172,
+  "amax": 57.53705978393555,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.01999859769951602,
+  "nv": 22,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19634,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   25.90142010021464
+  ],
+  "amin": 0,
+  "amax": 25.90142059326172,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.06687460785475623,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19638,
+  "section": "B_CURVE",
+  "dom": [
+   25.90142010021464,
+   53.174572091718375
+  ],
+  "amin": 25.90142059326172,
+  "amax": 53.1745719909668,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.017821167650363245,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19587,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   11.80021866350015
+  ],
+  "amin": 0,
+  "amax": 11.80021858215332,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05493322438598705,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19591,
+  "section": "B_CURVE",
+  "dom": [
+   11.80021866350015,
+   24.51904305424202
+  ],
+  "amin": 11.80021858215332,
+  "amax": 24.51904296875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.011124205621782174,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19540,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   23.31161009589026
+  ],
+  "amin": 0,
+  "amax": 23.311609268188477,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.02562160376349963,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19544,
+  "section": "B_CURVE",
+  "dom": [
+   23.31161009589026,
+   48.55762995616799
+  ],
+  "amin": 23.311609268188477,
+  "amax": 48.5576286315918,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.017911135965997884,
+  "nv": 24,
+  "vertsInsideDomain": 24
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19485,
+  "section": "B_CURVE",
+  "dom": [
+   32.35618877648887,
+   42.02702029003829
+  ],
+  "amin": 32.3561897277832,
+  "amax": 42.02701950073242,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.01452957861471624,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19489,
+  "section": "B_CURVE",
+  "dom": [
+   42.02702029003829,
+   51.143842444164
+  ],
+  "amin": 42.02701950073242,
+  "amax": 51.14384078979492,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.010850248981933163,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19493,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   32.35618877648887
+  ],
+  "amin": 0,
+  "amax": 32.3561897277832,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0022454033869448524,
+  "nv": 62,
+  "vertsInsideDomain": 62
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19426,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   19.695927928949672
+  ],
+  "amin": 0,
+  "amax": 19.6959285736084,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.030814716288442626,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19430,
+  "section": "B_CURVE",
+  "dom": [
+   19.695927928949672,
+   41.24686238341118
+  ],
+  "amin": 19.6959285736084,
+  "amax": 41.24686050415039,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.01492437688707877,
+  "nv": 24,
+  "vertsInsideDomain": 24
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19379,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   22.63505069114769
+  ],
+  "amin": 0,
+  "amax": 22.63504981994629,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.012099061724581063,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19383,
+  "section": "B_CURVE",
+  "dom": [
+   22.63505069114769,
+   42.12851280123532
+  ],
+  "amin": 22.63504981994629,
+  "amax": 42.12851333618164,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.03161545790723427,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19332,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   30.798375450123967
+  ],
+  "amin": 0,
+  "amax": 30.798376083374023,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.002518842024304524,
+  "nv": 42,
+  "vertsInsideDomain": 42
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19336,
+  "section": "B_CURVE",
+  "dom": [
+   30.798375450123967,
+   50.59811186916464
+  ],
+  "amin": 30.798376083374023,
+  "amax": 50.59811019897461,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005040446999541954,
+  "nv": 32,
+  "vertsInsideDomain": 32
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19285,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   21.44765918656412
+  ],
+  "amin": 0,
+  "amax": 21.44765853881836,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.031484965093186226,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19289,
+  "section": "B_CURVE",
+  "dom": [
+   21.44765918656412,
+   44.38563411578019
+  ],
+  "amin": 21.44765853881836,
+  "amax": 44.38563537597656,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.016918840133632932,
+  "nv": 18,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19238,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   14.81084050981832
+  ],
+  "amin": 0,
+  "amax": 14.810840606689453,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.015354048964463051,
+  "nv": 18,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19242,
+  "section": "B_CURVE",
+  "dom": [
+   14.81084050981832,
+   29.180704407119194
+  ],
+  "amin": 14.810840606689453,
+  "amax": 29.18070411682129,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.030572639373269504,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19191,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   12.89883496978375
+  ],
+  "amin": 0,
+  "amax": 12.898835182189941,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.01722002648834372,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19195,
+  "section": "B_CURVE",
+  "dom": [
+   12.89883496978375,
+   25.64447797841487
+  ],
+  "amin": 12.898835182189941,
+  "amax": 25.64447784423828,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.023497897065425977,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19144,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   20.268457132923764
+  ],
+  "amin": 0,
+  "amax": 20.268457412719727,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.011562836143783188,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19148,
+  "section": "B_CURVE",
+  "dom": [
+   20.268457132923764,
+   38.063931613662156
+  ],
+  "amin": 20.268457412719727,
+  "amax": 38.06393051147461,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.016262832154957652,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19097,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   22.2439896978854
+  ],
+  "amin": 0,
+  "amax": 22.243989944458008,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.009780360934664577,
+  "nv": 22,
+  "vertsInsideDomain": 22
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19101,
+  "section": "B_CURVE",
+  "dom": [
+   22.2439896978854,
+   41.47977437378649
+  ],
+  "amin": 22.243989944458008,
+  "amax": 41.479774475097656,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.02496920308163862,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19050,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   23.84395603022569
+  ],
+  "amin": 0,
+  "amax": 23.843955993652344,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.02623652204044914,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19054,
+  "section": "B_CURVE",
+  "dom": [
+   23.84395603022569,
+   46.891341266871024
+  ],
+  "amin": 23.843955993652344,
+  "amax": 46.89134216308594,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.18678363554866995,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19003,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   20.50340123586205
+  ],
+  "amin": 0,
+  "amax": 20.503400802612305,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.026765250278049074,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 19007,
+  "section": "B_CURVE",
+  "dom": [
+   20.50340123586205,
+   42.009709948428686
+  ],
+  "amin": 20.503400802612305,
+  "amax": 42.009708404541016,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0069568349960137665,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18956,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   15.81294358261755
+  ],
+  "amin": 0,
+  "amax": 15.812943458557129,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.14383178910421618,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18960,
+  "section": "B_CURVE",
+  "dom": [
+   15.81294358261755,
+   32.98739398307804
+  ],
+  "amin": 15.812943458557129,
+  "amax": 32.98739242553711,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.01217595163106793,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18909,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   16.62978577510453
+  ],
+  "amin": 0,
+  "amax": 16.629785537719727,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.035480076703471454,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18913,
+  "section": "B_CURVE",
+  "dom": [
+   16.62978577510453,
+   33.40099010213233
+  ],
+  "amin": 16.629785537719727,
+  "amax": 33.4009895324707,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.027371994266836945,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18862,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   16.48763720377613
+  ],
+  "amin": 0,
+  "amax": 16.48763656616211,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.039953939832787944,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18866,
+  "section": "B_CURVE",
+  "dom": [
+   16.48763720377613,
+   33.76764342679003
+  ],
+  "amin": 16.48763656616211,
+  "amax": 33.767642974853516,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.015980096606541223,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18815,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   15.77286198300796
+  ],
+  "amin": 0,
+  "amax": 15.772862434387207,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.013217368750615232,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18819,
+  "section": "B_CURVE",
+  "dom": [
+   15.77286198300796,
+   30.77420161044655
+  ],
+  "amin": 15.772862434387207,
+  "amax": 30.774202346801758,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.08011358592205016,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18768,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   16.22308943484468
+  ],
+  "amin": 0,
+  "amax": 16.22308921813965,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.011981975659093183,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18772,
+  "section": "B_CURVE",
+  "dom": [
+   16.22308943484468,
+   32.033592143423775
+  ],
+  "amin": 16.22308921813965,
+  "amax": 32.033592224121094,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.028201640067479352,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18721,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   21.09656345617707
+  ],
+  "amin": 0,
+  "amax": 21.0965633392334,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.010745947032947536,
+  "nv": 18,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18725,
+  "section": "B_CURVE",
+  "dom": [
+   21.09656345617707,
+   40.03703634304453
+  ],
+  "amin": 21.0965633392334,
+  "amax": 40.03703689575195,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.03997167173899271,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18674,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   21.518270342327924
+  ],
+  "amin": 0,
+  "amax": 21.51827049255371,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.010271325416028026,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18678,
+  "section": "B_CURVE",
+  "dom": [
+   21.518270342327924,
+   40.86608398215114
+  ],
+  "amin": 21.51827049255371,
+  "amax": 40.866085052490234,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.042680939560946075,
+  "nv": 10,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18627,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   24.87427523220541
+  ],
+  "amin": 0,
+  "amax": 24.87427520751953,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.01246145366724187,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18631,
+  "section": "B_CURVE",
+  "dom": [
+   24.87427523220541,
+   47.157769860287544
+  ],
+  "amin": 24.87427520751953,
+  "amax": 47.15776824951172,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.04118811863989708,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18580,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   44.10988118625986
+  ],
+  "amin": 0,
+  "amax": 44.10988235473633,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004291398657108091,
+  "nv": 68,
+  "vertsInsideDomain": 66
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18584,
+  "section": "B_CURVE",
+  "dom": [
+   44.10988118625986,
+   100.6331981792321
+  ],
+  "amin": 44.10988235473633,
+  "amax": 100.6332015991211,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.007592411852795999,
+  "nv": 60,
+  "vertsInsideDomain": 58
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18533,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   18.50032437400061
+  ],
+  "amin": 0,
+  "amax": 18.500324249267578,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.03635958617430423,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18537,
+  "section": "B_CURVE",
+  "dom": [
+   18.50032437400061,
+   36.89480109356323
+  ],
+  "amin": 18.500324249267578,
+  "amax": 36.89480209350586,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05141685799086061,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18486,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   15.34483231054848
+  ],
+  "amin": 0,
+  "amax": 15.344832420349121,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.11539718016612627,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18490,
+  "section": "B_CURVE",
+  "dom": [
+   15.34483231054848,
+   31.83923743486643
+  ],
+  "amin": 15.344832420349121,
+  "amax": 31.839237213134766,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.011329825331844769,
+  "nv": 22,
+  "vertsInsideDomain": 22
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18439,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   18.51141418275828
+  ],
+  "amin": 0,
+  "amax": 18.51141357421875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.03089443173122645,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18443,
+  "section": "B_CURVE",
+  "dom": [
+   18.51141418275828,
+   36.81579512218462
+  ],
+  "amin": 18.51141357421875,
+  "amax": 36.8157958984375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.04244839590894834,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18392,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   18.097716725052038
+  ],
+  "amin": 0,
+  "amax": 18.09771728515625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.030323504515697864,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18396,
+  "section": "B_CURVE",
+  "dom": [
+   18.097716725052038,
+   37.24384625165307
+  ],
+  "amin": 18.09771728515625,
+  "amax": 37.24384689331055,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.007311025822527128,
+  "nv": 26,
+  "vertsInsideDomain": 26
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18345,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   23.46482446789808
+  ],
+  "amin": 0,
+  "amax": 23.464824676513672,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0043497356474052895,
+  "nv": 44,
+  "vertsInsideDomain": 44
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18349,
+  "section": "B_CURVE",
+  "dom": [
+   23.46482446789808,
+   40.317794037078215
+  ],
+  "amin": 23.464824676513672,
+  "amax": 40.31779479980469,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.003711006938197178,
+  "nv": 32,
+  "vertsInsideDomain": 32
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18298,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   33.71552542964453
+  ],
+  "amin": 0,
+  "amax": 33.71552658081055,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005528765874032082,
+  "nv": 42,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18302,
+  "section": "B_CURVE",
+  "dom": [
+   33.71552542964453,
+   58.76656432824396
+  ],
+  "amin": 33.71552658081055,
+  "amax": 58.766563415527344,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0035711757188977428,
+  "nv": 36,
+  "vertsInsideDomain": 36
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18251,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   34.19906440051756
+  ],
+  "amin": 0,
+  "amax": 34.199066162109375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.007049862172617664,
+  "nv": 40,
+  "vertsInsideDomain": 37
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18255,
+  "section": "B_CURVE",
+  "dom": [
+   34.19906440051756,
+   57.77333895194807
+  ],
+  "amin": 34.199066162109375,
+  "amax": 57.773338317871094,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0038895177116284483,
+  "nv": 38,
+  "vertsInsideDomain": 38
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18204,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   34.661987493437735
+  ],
+  "amin": 0,
+  "amax": 34.6619873046875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005012031202257333,
+  "nv": 38,
+  "vertsInsideDomain": 38
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18208,
+  "section": "B_CURVE",
+  "dom": [
+   34.661987493437735,
+   58.17487182447772
+  ],
+  "amin": 34.6619873046875,
+  "amax": 58.17487335205078,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005581799403800318,
+  "nv": 44,
+  "vertsInsideDomain": 42
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18141,
+  "section": "B_CURVE",
+  "dom": [
+   1276.185763237316,
+   1276.87579290014
+  ],
+  "amin": 1276.185791015625,
+  "amax": 1276.875732421875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.2843777994976298,
+  "nv": 26,
+  "vertsInsideDomain": 26
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 18034,
+  "section": "B_CURVE",
+  "dom": [
+   1275.0007708491291,
+   1276.0719349261992
+  ],
+  "amin": 1275.000732421875,
+  "amax": 1276.0718994140625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.44152565570877406,
+  "nv": 38,
+  "vertsInsideDomain": 35
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17876,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   33.78325396410107
+  ],
+  "amin": 0,
+  "amax": 33.78325271606445,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.00502942618044458,
+  "nv": 40,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17880,
+  "section": "B_CURVE",
+  "dom": [
+   33.78325396410107,
+   54.148458171577644
+  ],
+  "amin": 33.78325271606445,
+  "amax": 54.14845657348633,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.003887797870359511,
+  "nv": 36,
+  "vertsInsideDomain": 33
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17829,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   42.151411356749406
+  ],
+  "amin": 0,
+  "amax": 42.15141296386719,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005301874838567752,
+  "nv": 44,
+  "vertsInsideDomain": 42
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17833,
+  "section": "B_CURVE",
+  "dom": [
+   42.151411356749406,
+   69.34657498068485
+  ],
+  "amin": 42.15141296386719,
+  "amax": 69.34657287597656,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004139029312419791,
+  "nv": 42,
+  "vertsInsideDomain": 42
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17782,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   29.902800256939003
+  ],
+  "amin": 0,
+  "amax": 29.902799606323242,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0037688704331285956,
+  "nv": 36,
+  "vertsInsideDomain": 36
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17786,
+  "section": "B_CURVE",
+  "dom": [
+   29.902800256939003,
+   47.38436701497431
+  ],
+  "amin": 29.902799606323242,
+  "amax": 47.384368896484375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.01011662278151424,
+  "nv": 36,
+  "vertsInsideDomain": 34
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17735,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   31.78895184153913
+  ],
+  "amin": 0,
+  "amax": 31.788951873779297,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0033234089861908403,
+  "nv": 38,
+  "vertsInsideDomain": 38
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17739,
+  "section": "B_CURVE",
+  "dom": [
+   31.78895184153913,
+   50.27546261102767
+  ],
+  "amin": 31.788951873779297,
+  "amax": 50.27546310424805,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005904475329565787,
+  "nv": 40,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17688,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   17.97475217200317
+  ],
+  "amin": 0,
+  "amax": 17.97475242614746,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.3136231032069166,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17692,
+  "section": "B_CURVE",
+  "dom": [
+   17.97475217200317,
+   37.06310905474875
+  ],
+  "amin": 17.97475242614746,
+  "amax": 37.0631103515625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.014817890875457172,
+  "nv": 14,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17641,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   37.771683465773975
+  ],
+  "amin": 0,
+  "amax": 37.77168273925781,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004071844354991575,
+  "nv": 46,
+  "vertsInsideDomain": 46
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17645,
+  "section": "B_CURVE",
+  "dom": [
+   37.771683465773975,
+   59.60904053922812
+  ],
+  "amin": 37.77168273925781,
+  "amax": 59.609039306640625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.007101423299689667,
+  "nv": 50,
+  "vertsInsideDomain": 50
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17594,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   34.7530854035693
+  ],
+  "amin": 0,
+  "amax": 34.75308609008789,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004774861708349002,
+  "nv": 50,
+  "vertsInsideDomain": 50
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17598,
+  "section": "B_CURVE",
+  "dom": [
+   34.7530854035693,
+   54.75863951785603
+  ],
+  "amin": 34.75308609008789,
+  "amax": 54.75864028930664,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005679321349811564,
+  "nv": 28,
+  "vertsInsideDomain": 28
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17547,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   29.502792333228548
+  ],
+  "amin": 0,
+  "amax": 29.502792358398438,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0036305445871027573,
+  "nv": 52,
+  "vertsInsideDomain": 52
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17551,
+  "section": "B_CURVE",
+  "dom": [
+   29.502792333228548,
+   47.13520905888221
+  ],
+  "amin": 29.502792358398438,
+  "amax": 47.13520812988281,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.00486524102993752,
+  "nv": 42,
+  "vertsInsideDomain": 42
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17500,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   39.014929113683046
+  ],
+  "amin": 0,
+  "amax": 39.014930725097656,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004851790852496613,
+  "nv": 48,
+  "vertsInsideDomain": 46
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17504,
+  "section": "B_CURVE",
+  "dom": [
+   39.014929113683046,
+   66.0314495740756
+  ],
+  "amin": 39.014930725097656,
+  "amax": 66.03144836425781,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.006094263710863394,
+  "nv": 40,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17453,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   28.39941531863855
+  ],
+  "amin": 0,
+  "amax": 28.399415969848633,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.003997639513369837,
+  "nv": 36,
+  "vertsInsideDomain": 36
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17457,
+  "section": "B_CURVE",
+  "dom": [
+   28.39941531863855,
+   46.66523688428262
+  ],
+  "amin": 28.399415969848633,
+  "amax": 46.66523742675781,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.007672875370202034,
+  "nv": 32,
+  "vertsInsideDomain": 32
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17406,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   29.7654511236267
+  ],
+  "amin": 0,
+  "amax": 29.765451431274414,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0049045331719178974,
+  "nv": 38,
+  "vertsInsideDomain": 38
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17410,
+  "section": "B_CURVE",
+  "dom": [
+   29.7654511236267,
+   48.03962619360778
+  ],
+  "amin": 29.765451431274414,
+  "amax": 48.03962707519531,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.009500642246817485,
+  "nv": 32,
+  "vertsInsideDomain": 32
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17359,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   38.39350042210985
+  ],
+  "amin": 0,
+  "amax": 38.39350128173828,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005668673748484973,
+  "nv": 42,
+  "vertsInsideDomain": 42
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17363,
+  "section": "B_CURVE",
+  "dom": [
+   38.39350042210985,
+   65.55636680285298
+  ],
+  "amin": 38.39350128173828,
+  "amax": 65.55636596679688,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.006842805883508962,
+  "nv": 42,
+  "vertsInsideDomain": 42
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17312,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   33.963103758557814
+  ],
+  "amin": 0,
+  "amax": 33.963104248046875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.00456855190763495,
+  "nv": 36,
+  "vertsInsideDomain": 36
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17316,
+  "section": "B_CURVE",
+  "dom": [
+   33.963103758557814,
+   57.51324907235993
+  ],
+  "amin": 33.963104248046875,
+  "amax": 57.513248443603516,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004237132281973839,
+  "nv": 34,
+  "vertsInsideDomain": 34
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17265,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   33.56741790388974
+  ],
+  "amin": 0,
+  "amax": 33.56741714477539,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005816896686270555,
+  "nv": 40,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17269,
+  "section": "B_CURVE",
+  "dom": [
+   33.56741790388974,
+   55.11649792588268
+  ],
+  "amin": 33.56741714477539,
+  "amax": 55.11649703979492,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004387781722782502,
+  "nv": 32,
+  "vertsInsideDomain": 32
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17218,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   34.0061994908942
+  ],
+  "amin": 0,
+  "amax": 34.00619888305664,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.003943620948121851,
+  "nv": 38,
+  "vertsInsideDomain": 38
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17222,
+  "section": "B_CURVE",
+  "dom": [
+   34.0061994908942,
+   57.97849574519265
+  ],
+  "amin": 34.00619888305664,
+  "amax": 57.97849655151367,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004377152195025112,
+  "nv": 36,
+  "vertsInsideDomain": 36
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17171,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   33.34568647738683
+  ],
+  "amin": 0,
+  "amax": 33.34568786621094,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0051511345755244665,
+  "nv": 46,
+  "vertsInsideDomain": 44
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17175,
+  "section": "B_CURVE",
+  "dom": [
+   33.34568647738683,
+   50.78246615661732
+  ],
+  "amin": 33.34568786621094,
+  "amax": 50.782466888427734,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.009865659582572524,
+  "nv": 44,
+  "vertsInsideDomain": 44
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17116,
+  "section": "B_CURVE",
+  "dom": [
+   28.158827515144008,
+   46.58380737508702
+  ],
+  "amin": 28.15882682800293,
+  "amax": 46.58380889892578,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.037681133305490305,
+  "nv": 10,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17120,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   28.158827515144008
+  ],
+  "amin": 0,
+  "amax": 28.15882682800293,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.08332347980219083,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17124,
+  "section": "B_CURVE",
+  "dom": [
+   46.58380737508702,
+   58.3551123951726
+  ],
+  "amin": 46.58380889892578,
+  "amax": 58.3551139831543,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.2043501469676533,
+  "nv": 8,
+  "vertsInsideDomain": 6
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17057,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   22.367370003142018
+  ],
+  "amin": 0,
+  "amax": 22.36737060546875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.10289580426232268,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17061,
+  "section": "B_CURVE",
+  "dom": [
+   22.367370003142018,
+   45.45724197028937
+  ],
+  "amin": 22.36737060546875,
+  "amax": 45.45724105834961,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.020570781406330382,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17010,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   71.10980285056937
+  ],
+  "amin": 0,
+  "amax": 71.10980224609375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05439191187037336,
+  "nv": 18,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 17014,
+  "section": "B_CURVE",
+  "dom": [
+   71.10980285056937,
+   138.6463261467608
+  ],
+  "amin": 71.10980224609375,
+  "amax": 138.64633178710938,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.14245973133709414,
+  "nv": 12,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16963,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   96.0685257240193
+  ],
+  "amin": 0,
+  "amax": 96.06852722167969,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05299652673882184,
+  "nv": 24,
+  "vertsInsideDomain": 21
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16967,
+  "section": "B_CURVE",
+  "dom": [
+   96.0685257240193,
+   188.418359157695
+  ],
+  "amin": 96.06852722167969,
+  "amax": 188.41836547851562,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.21727304500420325,
+  "nv": 16,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16916,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   49.07105745749459
+  ],
+  "amin": 0,
+  "amax": 49.0710563659668,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.03924521422426952,
+  "nv": 18,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16920,
+  "section": "B_CURVE",
+  "dom": [
+   49.07105745749459,
+   96.01350421990034
+  ],
+  "amin": 49.0710563659668,
+  "amax": 96.01350402832031,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.22202130594077246,
+  "nv": 10,
+  "vertsInsideDomain": 7
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16869,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   29.463541254845424
+  ],
+  "amin": 0,
+  "amax": 29.46354103088379,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.031573218741641665,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16873,
+  "section": "B_CURVE",
+  "dom": [
+   29.463541254845424,
+   57.83040649437691
+  ],
+  "amin": 29.46354103088379,
+  "amax": 57.830406188964844,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.17238722534529996,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16822,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   28.34240336700091
+  ],
+  "amin": 0,
+  "amax": 28.342403411865234,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.03827929676002799,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16826,
+  "section": "B_CURVE",
+  "dom": [
+   28.34240336700091,
+   56.14954184443971
+  ],
+  "amin": 28.342403411865234,
+  "amax": 56.149539947509766,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.3506652612151026,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16775,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   52.6913743503356
+  ],
+  "amin": 0,
+  "amax": 52.691375732421875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.13502967573782698,
+  "nv": 10,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16779,
+  "section": "B_CURVE",
+  "dom": [
+   52.6913743503356,
+   108.3883518065103
+  ],
+  "amin": 52.691375732421875,
+  "amax": 108.38835144042969,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.04952485361569434,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16728,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   38.32540851917815
+  ],
+  "amin": 0,
+  "amax": 38.325408935546875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.03142650545714757,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16732,
+  "section": "B_CURVE",
+  "dom": [
+   38.32540851917815,
+   76.28649288317223
+  ],
+  "amin": 38.325408935546875,
+  "amax": 76.28649139404297,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.06677381155417869,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16673,
+  "section": "B_CURVE",
+  "dom": [
+   12.30350362786665,
+   33.62235027160235
+  ],
+  "amin": 12.30350399017334,
+  "amax": 33.62234878540039,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.13798225655475613,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16677,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   12.30350362786665
+  ],
+  "amin": 0,
+  "amax": 12.30350399017334,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.11031625306811572,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16681,
+  "section": "B_CURVE",
+  "dom": [
+   33.62235027160235,
+   45.7098754786509
+  ],
+  "amin": 33.62234878540039,
+  "amax": 45.709877014160156,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.08748804625523697,
+  "nv": 8,
+  "vertsInsideDomain": 3
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16606,
+  "section": "B_CURVE",
+  "dom": [
+   68.02827560566924,
+   117.050231662303
+  ],
+  "amin": 68.02827453613281,
+  "amax": 117.05023193359375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.061918303467214886,
+  "nv": 18,
+  "vertsInsideDomain": 15
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16610,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   68.02827560566924
+  ],
+  "amin": 0,
+  "amax": 68.02827453613281,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.04397917291879252,
+  "nv": 18,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16614,
+  "section": "B_CURVE",
+  "dom": [
+   117.050231662303,
+   139.7885496060012
+  ],
+  "amin": 117.05023193359375,
+  "amax": 139.78854370117188,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05737669935177518,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16547,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   39.66448863327448
+  ],
+  "amin": 0,
+  "amax": 39.66448974609375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.034012409749613205,
+  "nv": 18,
+  "vertsInsideDomain": 15
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16551,
+  "section": "B_CURVE",
+  "dom": [
+   39.66448863327448,
+   78.7813877307618
+  ],
+  "amin": 39.66448974609375,
+  "amax": 78.78138732910156,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.08360077563526,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16500,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   73.717342235795
+  ],
+  "amin": 0,
+  "amax": 73.71733856201172,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05434815322715302,
+  "nv": 22,
+  "vertsInsideDomain": 22
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16504,
+  "section": "B_CURVE",
+  "dom": [
+   73.717342235795,
+   143.6175838094524
+  ],
+  "amin": 73.71733856201172,
+  "amax": 143.61758422851562,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.19748664739075086,
+  "nv": 14,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16453,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   51.613354993091825
+  ],
+  "amin": 0,
+  "amax": 51.61335372924805,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.04521407660159178,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16457,
+  "section": "B_CURVE",
+  "dom": [
+   51.613354993091825,
+   100.87323891431541
+  ],
+  "amin": 51.61335372924805,
+  "amax": 100.87323760986328,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.16086325852429553,
+  "nv": 10,
+  "vertsInsideDomain": 7
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16406,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   73.08467623196613
+  ],
+  "amin": 0,
+  "amax": 73.08467864990234,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.046183478811849296,
+  "nv": 28,
+  "vertsInsideDomain": 26
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16410,
+  "section": "B_CURVE",
+  "dom": [
+   73.08467623196613,
+   140.4980490274984
+  ],
+  "amin": 73.08467864990234,
+  "amax": 140.498046875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.13657569603935266,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16359,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   43.49762928384501
+  ],
+  "amin": 0,
+  "amax": 43.49763107299805,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.13157560037270422,
+  "nv": 14,
+  "vertsInsideDomain": 11
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16363,
+  "section": "B_CURVE",
+  "dom": [
+   43.49762928384501,
+   88.80826768544182
+  ],
+  "amin": 43.49763107299805,
+  "amax": 88.80826568603516,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.041911725386292786,
+  "nv": 18,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16304,
+  "section": "B_CURVE",
+  "dom": [
+   0.2265177005538135,
+   165.4902632496153
+  ],
+  "amin": 0.2265177071094513,
+  "amax": 165.49026489257812,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0036613808042442702,
+  "nv": 36,
+  "vertsInsideDomain": 34
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16308,
+  "section": "B_CURVE",
+  "dom": [
+   165.4902632496153,
+   271.8371280616568
+  ],
+  "amin": 165.49026489257812,
+  "amax": 271.8371276855469,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.6931985348524264,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16312,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   0.2265177005538135
+  ],
+  "amin": 0,
+  "amax": 0.2265177071094513,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.42134839649464634,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16117,
+  "section": "B_CURVE",
+  "dom": [
+   2906.9315560844957,
+   3155.439709023674
+  ],
+  "amin": 2906.931640625,
+  "amax": 3155.439697265625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0030085526749986757,
+  "nv": 120,
+  "vertsInsideDomain": 120
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16121,
+  "section": "B_CURVE",
+  "dom": [
+   2712.2464911399193,
+   2906.9315560844957
+  ],
+  "amin": 2712.24658203125,
+  "amax": 2906.931640625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.42672140888993504,
+  "nv": 16,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16125,
+  "section": "B_CURVE",
+  "dom": [
+   2487.429802337956,
+   2712.2464911399193
+  ],
+  "amin": 2487.4296875,
+  "amax": 2712.24658203125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.9768407129615564,
+  "nv": 14,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16129,
+  "section": "B_CURVE",
+  "dom": [
+   2342.3303391325157,
+   2487.429802337956
+  ],
+  "amin": 2342.330322265625,
+  "amax": 2487.4296875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.12843785751792344,
+  "nv": 14,
+  "vertsInsideDomain": 11
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16133,
+  "section": "B_CURVE",
+  "dom": [
+   2228.8442964573387,
+   2342.3303391325157
+  ],
+  "amin": 2228.84423828125,
+  "amax": 2342.330322265625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 1.2367125413552347,
+  "nv": 8,
+  "vertsInsideDomain": 5
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16137,
+  "section": "B_CURVE",
+  "dom": [
+   2168.6422729470137,
+   2228.8442964573387
+  ],
+  "amin": 2168.642333984375,
+  "amax": 2228.84423828125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.009674429440227079,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16141,
+  "section": "B_CURVE",
+  "dom": [
+   2166.151126402589,
+   2168.6422729470137
+  ],
+  "amin": 2166.151123046875,
+  "amax": 2168.642333984375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.2027867264135516,
+  "nv": 78,
+  "vertsInsideDomain": 74
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16145,
+  "section": "B_CURVE",
+  "dom": [
+   1869.671173819903,
+   2166.151126402589
+  ],
+  "amin": 1869.671142578125,
+  "amax": 2166.151123046875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.002109184778161907,
+  "nv": 156,
+  "vertsInsideDomain": 154
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16149,
+  "section": "B_CURVE",
+  "dom": [
+   1552.491383920029,
+   1869.671173819903
+  ],
+  "amin": 1552.4913330078125,
+  "amax": 1869.671142578125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.03983599167617437,
+  "nv": 68,
+  "vertsInsideDomain": 65
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16153,
+  "section": "B_CURVE",
+  "dom": [
+   1525.767705716366,
+   1552.491383920029
+  ],
+  "amin": 1525.7677001953125,
+  "amax": 1552.4913330078125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0265412069485214,
+  "nv": 12,
+  "vertsInsideDomain": 9
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16157,
+  "section": "B_CURVE",
+  "dom": [
+   941.6539772800244,
+   1525.767705716366
+  ],
+  "amin": 941.6539916992188,
+  "amax": 1525.7677001953125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005164840822049623,
+  "nv": 172,
+  "vertsInsideDomain": 172
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16161,
+  "section": "B_CURVE",
+  "dom": [
+   873.0428436051436,
+   941.6539772800244
+  ],
+  "amin": 873.0428466796875,
+  "amax": 941.6539916992188,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.2614726614137671,
+  "nv": 14,
+  "vertsInsideDomain": 11
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16165,
+  "section": "B_CURVE",
+  "dom": [
+   768.9991841449303,
+   873.0428436051436
+  ],
+  "amin": 768.9992065429688,
+  "amax": 873.0428466796875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.17489133154856049,
+  "nv": 24,
+  "vertsInsideDomain": 21
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16169,
+  "section": "B_CURVE",
+  "dom": [
+   587.4902539296814,
+   768.9991841449303
+  ],
+  "amin": 587.490234375,
+  "amax": 768.9992065429688,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0340347086488381,
+  "nv": 42,
+  "vertsInsideDomain": 37
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16173,
+  "section": "B_CURVE",
+  "dom": [
+   390.38901030847313,
+   587.4902539296814
+  ],
+  "amin": 390.3890075683594,
+  "amax": 587.490234375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.038484696638517064,
+  "nv": 50,
+  "vertsInsideDomain": 48
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16177,
+  "section": "B_CURVE",
+  "dom": [
+   191.27307718654689,
+   390.38901030847313
+  ],
+  "amin": 191.2730712890625,
+  "amax": 390.3890075683594,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.26516653708645427,
+  "nv": 24,
+  "vertsInsideDomain": 22
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16181,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   191.27307718654689
+  ],
+  "amin": 0,
+  "amax": 191.2730712890625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.17634133422996026,
+  "nv": 24,
+  "vertsInsideDomain": 24
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 16185,
+  "section": "B_CURVE",
+  "dom": [
+   3155.439709023674,
+   3302.829007157094
+  ],
+  "amin": 3155.439697265625,
+  "amax": 3302.8291015625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.4940429023860432,
+  "nv": 12,
+  "vertsInsideDomain": 7
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15878,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   147.7905454908127
+  ],
+  "amin": 0,
+  "amax": 147.79054260253906,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.23620149270343416,
+  "nv": 22,
+  "vertsInsideDomain": 22
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15882,
+  "section": "B_CURVE",
+  "dom": [
+   147.7905454908127,
+   295.8033139122996
+  ],
+  "amin": 147.79054260253906,
+  "amax": 295.8033142089844,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.014394871007279307,
+  "nv": 26,
+  "vertsInsideDomain": 23
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15831,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   53.62690990613486
+  ],
+  "amin": 0,
+  "amax": 53.62691116333008,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.10032532544754882,
+  "nv": 10,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15835,
+  "section": "B_CURVE",
+  "dom": [
+   53.62690990613486,
+   106.87848123539659
+  ],
+  "amin": 53.62691116333008,
+  "amax": 106.87847900390625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.33280973915487094,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15748,
+  "section": "B_CURVE",
+  "dom": [
+   1209.548091010715,
+   1274.527411660581
+  ],
+  "amin": 1209.548095703125,
+  "amax": 1274.5274658203125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.043072466170703684,
+  "nv": 18,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15752,
+  "section": "B_CURVE",
+  "dom": [
+   1274.527411660581,
+   1274.8697797156196
+  ],
+  "amin": 1274.5274658203125,
+  "amax": 1274.8697509765625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.4042578274052806,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15505,
+  "section": "B_CURVE",
+  "dom": [
+   274.77688810020487,
+   368.774626115971
+  ],
+  "amin": 274.7768859863281,
+  "amax": 368.7746276855469,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.2452311569136615,
+  "nv": 20,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15509,
+  "section": "B_CURVE",
+  "dom": [
+   368.774626115971,
+   417.6952418291866
+  ],
+  "amin": 368.7746276855469,
+  "amax": 417.69525146484375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05114810616809261,
+  "nv": 22,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15513,
+  "section": "B_CURVE",
+  "dom": [
+   417.6952418291866,
+   474.59187284242483
+  ],
+  "amin": 417.69525146484375,
+  "amax": 474.59185791015625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.11350189177086227,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15517,
+  "section": "B_CURVE",
+  "dom": [
+   474.59187284242483,
+   493.43470981540816
+  ],
+  "amin": 474.59185791015625,
+  "amax": 493.4347229003906,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.1438617069666945,
+  "nv": 8,
+  "vertsInsideDomain": 3
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15521,
+  "section": "B_CURVE",
+  "dom": [
+   493.43470981540816,
+   515.7746379541361
+  ],
+  "amin": 493.4347229003906,
+  "amax": 515.774658203125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.11926484028088435,
+  "nv": 8,
+  "vertsInsideDomain": 6
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15525,
+  "section": "B_CURVE",
+  "dom": [
+   515.7746379541361,
+   550.4116268636978
+  ],
+  "amin": 515.774658203125,
+  "amax": 550.41162109375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.8870137886883154,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15529,
+  "section": "B_CURVE",
+  "dom": [
+   550.4116268636978,
+   577.1630328864474
+  ],
+  "amin": 550.41162109375,
+  "amax": 577.1630249023438,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05785650521620305,
+  "nv": 10,
+  "vertsInsideDomain": 7
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15533,
+  "section": "B_CURVE",
+  "dom": [
+   577.1630328864474,
+   639.6511493511479
+  ],
+  "amin": 577.1630249023438,
+  "amax": 639.651123046875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.10495971233572593,
+  "nv": 14,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15537,
+  "section": "B_CURVE",
+  "dom": [
+   639.6511493511479,
+   676.7259780012978
+  ],
+  "amin": 639.651123046875,
+  "amax": 676.7259521484375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05640798434328835,
+  "nv": 10,
+  "vertsInsideDomain": 7
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15541,
+  "section": "B_CURVE",
+  "dom": [
+   676.7259780012978,
+   745.0705971278505
+  ],
+  "amin": 676.7259521484375,
+  "amax": 745.0706176757812,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.07528606428708158,
+  "nv": 14,
+  "vertsInsideDomain": 9
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15545,
+  "section": "B_CURVE",
+  "dom": [
+   745.0705971278505,
+   770.8066667184855
+  ],
+  "amin": 745.0706176757812,
+  "amax": 770.806640625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0867541941416631,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15549,
+  "section": "B_CURVE",
+  "dom": [
+   770.8066667184855,
+   841.2336878495197
+  ],
+  "amin": 770.806640625,
+  "amax": 841.2337036132812,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.07011016223763415,
+  "nv": 18,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15230,
+  "section": "B_CURVE",
+  "dom": [
+   1118.38405567451,
+   1196.992170942239
+  ],
+  "amin": 1118.384033203125,
+  "amax": 1196.9921875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.10116671959454526,
+  "nv": 22,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15234,
+  "section": "B_CURVE",
+  "dom": [
+   992.1858672186862,
+   1118.38405567451
+  ],
+  "amin": 992.1858520507812,
+  "amax": 1118.384033203125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.00783851487005708,
+  "nv": 56,
+  "vertsInsideDomain": 54
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15238,
+  "section": "B_CURVE",
+  "dom": [
+   976.2366558180278,
+   992.1858672186862
+  ],
+  "amin": 976.2366333007812,
+  "amax": 992.1858520507812,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 2.738810971750185,
+  "nv": 8,
+  "vertsInsideDomain": 5
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15242,
+  "section": "B_CURVE",
+  "dom": [
+   551.9872689125804,
+   976.2366558180278
+  ],
+  "amin": 551.9872436523438,
+  "amax": 976.2366333007812,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.002967870601045177,
+  "nv": 286,
+  "vertsInsideDomain": 283
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15246,
+  "section": "B_CURVE",
+  "dom": [
+   313.90871026722687,
+   551.9872689125804
+  ],
+  "amin": 313.9087219238281,
+  "amax": 551.9872436523438,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0030168934780047453,
+  "nv": 100,
+  "vertsInsideDomain": 100
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15250,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   313.90871026722687
+  ],
+  "amin": 0,
+  "amax": 313.9087219238281,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0024364648655820164,
+  "nv": 214,
+  "vertsInsideDomain": 212
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15254,
+  "section": "B_CURVE",
+  "dom": [
+   1196.992170942239,
+   1197.384792127871
+  ],
+  "amin": 1196.9921875,
+  "amax": 1197.384765625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.3872627534370434,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15115,
+  "section": "B_CURVE",
+  "dom": [
+   126.26802100108809,
+   169.96030636889367
+  ],
+  "amin": 126.26802062988281,
+  "amax": 169.96031188964844,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0045445605762254445,
+  "nv": 20,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15119,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   126.26802100108809
+  ],
+  "amin": 0,
+  "amax": 126.26802062988281,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005456534336154455,
+  "nv": 62,
+  "vertsInsideDomain": 62
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15123,
+  "section": "B_CURVE",
+  "dom": [
+   169.96030636889367,
+   170.0572442793883
+  ],
+  "amin": 169.96031188964844,
+  "amax": 170.0572509765625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.4948354368301668,
+  "nv": 10,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15056,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   15.735597731259242
+  ],
+  "amin": 0,
+  "amax": 15.735597610473633,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.00431846840157609,
+  "nv": 38,
+  "vertsInsideDomain": 38
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15060,
+  "section": "B_CURVE",
+  "dom": [
+   15.735597731259242,
+   24.76402069925199
+  ],
+  "amin": 15.735597610473633,
+  "amax": 24.764020919799805,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.02875775678188464,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15009,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   34.051330647873996
+  ],
+  "amin": 0,
+  "amax": 34.05133056640625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.5953930641286942,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 15013,
+  "section": "B_CURVE",
+  "dom": [
+   34.051330647873996,
+   68.9030474583628
+  ],
+  "amin": 34.05133056640625,
+  "amax": 68.90304565429688,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.04518301079436757,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14954,
+  "section": "B_CURVE",
+  "dom": [
+   0.1073037782144401,
+   85.34529139191568
+  ],
+  "amin": 0.10730377584695816,
+  "amax": 85.34529113769531,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.22655151360669878,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14958,
+  "section": "B_CURVE",
+  "dom": [
+   85.34529139191568,
+   137.4981923738941
+  ],
+  "amin": 85.34529113769531,
+  "amax": 137.49819946289062,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.1265432226545694,
+  "nv": 14,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14962,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   0.1073037782144401
+  ],
+  "amin": 0,
+  "amax": 0.10730377584695816,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.5619396970274585,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14895,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   62.92944442002318
+  ],
+  "amin": 0,
+  "amax": 62.929443359375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.09555516337753339,
+  "nv": 18,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14899,
+  "section": "B_CURVE",
+  "dom": [
+   62.92944442002318,
+   124.77830576245519
+  ],
+  "amin": 62.929443359375,
+  "amax": 124.77830505371094,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 1.2657799757261226,
+  "nv": 10,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14848,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   71.49634628706973
+  ],
+  "amin": 0,
+  "amax": 71.49634552001953,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.3973233796582384,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14852,
+  "section": "B_CURVE",
+  "dom": [
+   71.49634628706973,
+   143.3706250035166
+  ],
+  "amin": 71.49634552001953,
+  "amax": 143.37062072753906,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.08314878154713626,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14801,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   109.9970712456014
+  ],
+  "amin": 0,
+  "amax": 109.9970703125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.13248060676591225,
+  "nv": 24,
+  "vertsInsideDomain": 24
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14805,
+  "section": "B_CURVE",
+  "dom": [
+   109.9970712456014,
+   218.2418788751572
+  ],
+  "amin": 109.9970703125,
+  "amax": 218.24188232421875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.39070240323424177,
+  "nv": 14,
+  "vertsInsideDomain": 11
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14746,
+  "section": "B_CURVE",
+  "dom": [
+   0.0610582942444229,
+   69.31720285517781
+  ],
+  "amin": 0.06105829402804375,
+  "amax": 69.31719970703125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.27105379254991685,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14750,
+  "section": "B_CURVE",
+  "dom": [
+   69.31720285517781,
+   121.88616686713151
+  ],
+  "amin": 69.31719970703125,
+  "amax": 121.88616943359375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.238832869576983,
+  "nv": 10,
+  "vertsInsideDomain": 5
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14754,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   0.0610582942444229
+  ],
+  "amin": 0,
+  "amax": 0.06105829402804375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.5348444084939561,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14679,
+  "section": "B_CURVE",
+  "dom": [
+   0.028957965807753002,
+   176.23141298261018
+  ],
+  "amin": 0.028957966715097427,
+  "amax": 176.23141479492188,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.19533119332074683,
+  "nv": 20,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14683,
+  "section": "B_CURVE",
+  "dom": [
+   176.23141298261018,
+   343.91685874613637
+  ],
+  "amin": 176.23141479492188,
+  "amax": 343.9168701171875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.5988699029399494,
+  "nv": 16,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14687,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   0.028957965807753002
+  ],
+  "amin": 0,
+  "amax": 0.028957966715097427,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.49207656440481795,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14620,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   53.9914954018879
+  ],
+  "amin": 0,
+  "amax": 53.99149703979492,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.06514935272051572,
+  "nv": 12,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14624,
+  "section": "B_CURVE",
+  "dom": [
+   53.9914954018879,
+   112.44648774370529
+  ],
+  "amin": 53.99149703979492,
+  "amax": 112.44648742675781,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.030663711699998535,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14573,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   46.77737011522952
+  ],
+  "amin": 0,
+  "amax": 46.77737045288086,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.022853840244786677,
+  "nv": 28,
+  "vertsInsideDomain": 28
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14577,
+  "section": "B_CURVE",
+  "dom": [
+   46.77737011522952,
+   90.56933191625878
+  ],
+  "amin": 46.77737045288086,
+  "amax": 90.56932830810547,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.07244100006103722,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14526,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   39.22979650932934
+  ],
+  "amin": 0,
+  "amax": 39.22979736328125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.09349098715586406,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14530,
+  "section": "B_CURVE",
+  "dom": [
+   39.22979650932934,
+   80.22686021200795
+  ],
+  "amin": 39.22979736328125,
+  "amax": 80.22686004638672,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.04286236698506891,
+  "nv": 24,
+  "vertsInsideDomain": 24
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14479,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   49.50623006513043
+  ],
+  "amin": 0,
+  "amax": 49.506229400634766,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.08975433802240884,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14483,
+  "section": "B_CURVE",
+  "dom": [
+   49.50623006513043,
+   102.3642653102371
+  ],
+  "amin": 49.506229400634766,
+  "amax": 102.36426544189453,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.03573733152435066,
+  "nv": 22,
+  "vertsInsideDomain": 22
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14416,
+  "section": "B_CURVE",
+  "dom": [
+   65.56454342018688,
+   116.7776406916496
+  ],
+  "amin": 65.56454467773438,
+  "amax": 116.77764129638672,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004063766311716324,
+  "nv": 44,
+  "vertsInsideDomain": 44
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14420,
+  "section": "B_CURVE",
+  "dom": [
+   116.7776406916496,
+   161.9370414075026
+  ],
+  "amin": 116.77764129638672,
+  "amax": 161.93704223632812,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.00637368032979952,
+  "nv": 38,
+  "vertsInsideDomain": 38
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14424,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   28.193517400763284
+  ],
+  "amin": 0,
+  "amax": 28.193517684936523,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004676723834036188,
+  "nv": 32,
+  "vertsInsideDomain": 32
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14428,
+  "section": "B_CURVE",
+  "dom": [
+   28.193517400763284,
+   65.56454342018688
+  ],
+  "amin": 28.193517684936523,
+  "amax": 65.56454467773438,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.003536883338451773,
+  "nv": 36,
+  "vertsInsideDomain": 34
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14345,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   33.22585574540638
+  ],
+  "amin": 0,
+  "amax": 33.22585678100586,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.013573794333187016,
+  "nv": 18,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14349,
+  "section": "B_CURVE",
+  "dom": [
+   33.22585574540638,
+   64.48142888701453
+  ],
+  "amin": 33.22585678100586,
+  "amax": 64.48143005371094,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0432469678781619,
+  "nv": 10,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14298,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   18.1524089151512
+  ],
+  "amin": 0,
+  "amax": 18.152408599853516,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.01462650910531299,
+  "nv": 18,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14302,
+  "section": "B_CURVE",
+  "dom": [
+   18.1524089151512,
+   39.058453541684116
+  ],
+  "amin": 18.152408599853516,
+  "amax": 39.05845260620117,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.006949810061011448,
+  "nv": 32,
+  "vertsInsideDomain": 32
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14251,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   37.07268895544637
+  ],
+  "amin": 0,
+  "amax": 37.072689056396484,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.008043181423793263,
+  "nv": 34,
+  "vertsInsideDomain": 34
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14255,
+  "section": "B_CURVE",
+  "dom": [
+   37.07268895544637,
+   68.34904025387345
+  ],
+  "amin": 37.072689056396484,
+  "amax": 68.34903717041016,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.029376672398166655,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14204,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   126.18411762363951
+  ],
+  "amin": 0,
+  "amax": 126.18412017822266,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.013533991217270103,
+  "nv": 52,
+  "vertsInsideDomain": 49
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14208,
+  "section": "B_CURVE",
+  "dom": [
+   126.18411762363951,
+   212.36284367264258
+  ],
+  "amin": 126.18412017822266,
+  "amax": 212.3628387451172,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0012461115357571078,
+  "nv": 56,
+  "vertsInsideDomain": 56
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14125,
+  "section": "B_CURVE",
+  "dom": [
+   318.15976897872997,
+   396.4036376479805
+  ],
+  "amin": 318.1597595214844,
+  "amax": 396.40362548828125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.10850837651934281,
+  "nv": 16,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14129,
+  "section": "B_CURVE",
+  "dom": [
+   396.4036376479805,
+   451.93526196963285
+  ],
+  "amin": 396.40362548828125,
+  "amax": 451.9352722167969,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0495927830281681,
+  "nv": 18,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14133,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   68.95883455137273
+  ],
+  "amin": 0,
+  "amax": 68.95883178710938,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0012461115357538153,
+  "nv": 46,
+  "vertsInsideDomain": 46
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14137,
+  "section": "B_CURVE",
+  "dom": [
+   68.95883455137273,
+   157.64452958763042
+  ],
+  "amin": 68.95883178710938,
+  "amax": 157.64453125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0012461115357563246,
+  "nv": 46,
+  "vertsInsideDomain": 41
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14141,
+  "section": "B_CURVE",
+  "dom": [
+   157.64452958763042,
+   259.8108004819865
+  ],
+  "amin": 157.64453125,
+  "amax": 259.810791015625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.022846642941950664,
+  "nv": 60,
+  "vertsInsideDomain": 60
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14145,
+  "section": "B_CURVE",
+  "dom": [
+   259.8108004819865,
+   318.15976897872997
+  ],
+  "amin": 259.810791015625,
+  "amax": 318.1597595214844,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.08660528901391651,
+  "nv": 18,
+  "vertsInsideDomain": 15
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14030,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   93.67034119334292
+  ],
+  "amin": 0,
+  "amax": 93.67034149169922,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.016140287093879192,
+  "nv": 46,
+  "vertsInsideDomain": 46
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 14034,
+  "section": "B_CURVE",
+  "dom": [
+   93.67034119334292,
+   165.3555972707211
+  ],
+  "amin": 93.67034149169922,
+  "amax": 165.3555908203125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0066296209741933685,
+  "nv": 46,
+  "vertsInsideDomain": 46
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13983,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   74.51442067905185
+  ],
+  "amin": 0,
+  "amax": 74.51441955566406,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.22964912594539927,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13987,
+  "section": "B_CURVE",
+  "dom": [
+   74.51442067905185,
+   151.3838961926542
+  ],
+  "amin": 74.51441955566406,
+  "amax": 151.38389587402344,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.07824509523701403,
+  "nv": 24,
+  "vertsInsideDomain": 22
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13936,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   103.6881177476927
+  ],
+  "amin": 0,
+  "amax": 103.68811798095703,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.14850658041256665,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13940,
+  "section": "B_CURVE",
+  "dom": [
+   103.6881177476927,
+   209.62925880766068
+  ],
+  "amin": 103.68811798095703,
+  "amax": 209.62925720214844,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.10902575177312797,
+  "nv": 22,
+  "vertsInsideDomain": 22
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13873,
+  "section": "B_CURVE",
+  "dom": [
+   121.5730361964258,
+   149.65451074151818
+  ],
+  "amin": 121.57303619384766,
+  "amax": 149.65451049804688,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05093936953038344,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13877,
+  "section": "B_CURVE",
+  "dom": [
+   149.65451074151818,
+   209.82318293439832
+  ],
+  "amin": 149.65451049804688,
+  "amax": 209.82318115234375,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05581645641419724,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13881,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   67.6337960874134
+  ],
+  "amin": 0,
+  "amax": 67.63379669189453,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.013903170687949723,
+  "nv": 36,
+  "vertsInsideDomain": 36
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13885,
+  "section": "B_CURVE",
+  "dom": [
+   67.6337960874134,
+   121.5730361964258
+  ],
+  "amin": 67.63379669189453,
+  "amax": 121.57303619384766,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.06086192317066693,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13802,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   81.38386798639657
+  ],
+  "amin": 0,
+  "amax": 81.38386535644531,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.19955470421771762,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13806,
+  "section": "B_CURVE",
+  "dom": [
+   81.38386798639657,
+   166.2717267872385
+  ],
+  "amin": 81.38386535644531,
+  "amax": 166.271728515625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.04361300106034186,
+  "nv": 22,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13755,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   85.90329513100113
+  ],
+  "amin": 0,
+  "amax": 85.9032974243164,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.20598523952195777,
+  "nv": 16,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13759,
+  "section": "B_CURVE",
+  "dom": [
+   85.90329513100113,
+   174.6134730054805
+  ],
+  "amin": 85.9032974243164,
+  "amax": 174.6134796142578,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05890869798938815,
+  "nv": 24,
+  "vertsInsideDomain": 22
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13708,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   33.08311172986544
+  ],
+  "amin": 0,
+  "amax": 33.08311080932617,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05206893111364392,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13712,
+  "section": "B_CURVE",
+  "dom": [
+   33.08311172986544,
+   68.41166599243212
+  ],
+  "amin": 33.08311080932617,
+  "amax": 68.41166687011719,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.02910482485231861,
+  "nv": 16,
+  "vertsInsideDomain": 16
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13661,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   52.7657252877174
+  ],
+  "amin": 0,
+  "amax": 52.765724182128906,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.054631765619437306,
+  "nv": 20,
+  "vertsInsideDomain": 20
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13665,
+  "section": "B_CURVE",
+  "dom": [
+   52.7657252877174,
+   103.64795394481209
+  ],
+  "amin": 52.765724182128906,
+  "amax": 103.64795684814453,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.10256869439456215,
+  "nv": 12,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13614,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   42.63414921362548
+  ],
+  "amin": 0,
+  "amax": 42.63414764404297,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.040957050018364576,
+  "nv": 14,
+  "vertsInsideDomain": 14
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13618,
+  "section": "B_CURVE",
+  "dom": [
+   42.63414921362548,
+   87.25236393800718
+  ],
+  "amin": 42.63414764404297,
+  "amax": 87.25236511230469,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.031327311471478866,
+  "nv": 16,
+  "vertsInsideDomain": 11
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13567,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   62.47184933520071
+  ],
+  "amin": 0,
+  "amax": 62.47184753417969,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0006853613446649547,
+  "nv": 106,
+  "vertsInsideDomain": 106
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13571,
+  "section": "B_CURVE",
+  "dom": [
+   62.47184933520071,
+   127.11431843059792
+  ],
+  "amin": 62.47184753417969,
+  "amax": 127.11431884765625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.002418846462560506,
+  "nv": 112,
+  "vertsInsideDomain": 109
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13520,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   8.566493770350101
+  ],
+  "amin": 0,
+  "amax": 8.56649398803711,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.006138573843487657,
+  "nv": 40,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13524,
+  "section": "B_CURVE",
+  "dom": [
+   8.566493770350101,
+   14.102922000618939
+  ],
+  "amin": 8.56649398803711,
+  "amax": 14.102922439575195,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0029828545989742843,
+  "nv": 32,
+  "vertsInsideDomain": 32
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13465,
+  "section": "B_CURVE",
+  "dom": [
+   30.825427253843788,
+   106.9808268249929
+  ],
+  "amin": 30.825428009033203,
+  "amax": 106.98082733154297,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.022173646228924856,
+  "nv": 22,
+  "vertsInsideDomain": 22
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13469,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   30.825427253843788
+  ],
+  "amin": 0,
+  "amax": 30.825428009033203,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.07928983526596681,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13473,
+  "section": "B_CURVE",
+  "dom": [
+   106.9808268249929,
+   155.5414639778707
+  ],
+  "amin": 106.98082733154297,
+  "amax": 155.5414581298828,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.01425578243818856,
+  "nv": 18,
+  "vertsInsideDomain": 18
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13374,
+  "section": "B_CURVE",
+  "dom": [
+   130.3794114691064,
+   161.1939968748745
+  ],
+  "amin": 130.37940979003906,
+  "amax": 161.19400024414062,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.05296790367331522,
+  "nv": 10,
+  "vertsInsideDomain": 5
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13378,
+  "section": "B_CURVE",
+  "dom": [
+   161.1939968748745,
+   193.65505672869682
+  ],
+  "amin": 161.19400024414062,
+  "amax": 193.65505981445312,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.07264345756755773,
+  "nv": 10,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13382,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   36.81630728205082
+  ],
+  "amin": 0,
+  "amax": 36.816307067871094,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.06588070783161201,
+  "nv": 10,
+  "vertsInsideDomain": 10
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13386,
+  "section": "B_CURVE",
+  "dom": [
+   36.81630728205082,
+   69.79400202617842
+  ],
+  "amin": 36.816307067871094,
+  "amax": 69.79399871826172,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.03447601745828961,
+  "nv": 12,
+  "vertsInsideDomain": 12
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13390,
+  "section": "B_CURVE",
+  "dom": [
+   69.79400202617842,
+   106.3786353708565
+  ],
+  "amin": 69.79399871826172,
+  "amax": 106.37863159179688,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.09753190572836044,
+  "nv": 8,
+  "vertsInsideDomain": 5
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13394,
+  "section": "B_CURVE",
+  "dom": [
+   106.3786353708565,
+   130.3794114691064
+  ],
+  "amin": 106.37863159179688,
+  "amax": 130.37940979003906,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.1815517942853791,
+  "nv": 8,
+  "vertsInsideDomain": 5
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13263,
+  "section": "B_CURVE",
+  "dom": [
+   43.86771787530849,
+   162.75546585617042
+  ],
+  "amin": 43.86771774291992,
+  "amax": 162.75546264648438,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0012461115357550563,
+  "nv": 50,
+  "vertsInsideDomain": 50
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13267,
+  "section": "B_CURVE",
+  "dom": [
+   162.75546585617042,
+   198.6282708465444
+  ],
+  "amin": 162.75546264648438,
+  "amax": 198.62826538085938,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.021771905598572918,
+  "nv": 18,
+  "vertsInsideDomain": 15
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13271,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   19.19835963853312
+  ],
+  "amin": 0,
+  "amax": 19.198360443115234,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.24748658939429555,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13275,
+  "section": "B_CURVE",
+  "dom": [
+   19.19835963853312,
+   43.86771787530849
+  ],
+  "amin": 19.198360443115234,
+  "amax": 43.86771774291992,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.001887670560601171,
+  "nv": 56,
+  "vertsInsideDomain": 56
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13192,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   116.9385947708065
+  ],
+  "amin": 0,
+  "amax": 116.93859100341797,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004582171703440769,
+  "nv": 50,
+  "vertsInsideDomain": 50
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13196,
+  "section": "B_CURVE",
+  "dom": [
+   116.9385947708065,
+   213.87767078087867
+  ],
+  "amin": 116.93859100341797,
+  "amax": 213.87767028808594,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.006599598632709063,
+  "nv": 52,
+  "vertsInsideDomain": 50
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13145,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   18.83389151317331
+  ],
+  "amin": 0,
+  "amax": 18.833890914916992,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.06252091844470262,
+  "nv": 8,
+  "vertsInsideDomain": 8
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13149,
+  "section": "B_CURVE",
+  "dom": [
+   18.83389151317331,
+   57.05557125976655
+  ],
+  "amin": 18.833890914916992,
+  "amax": 57.055572509765625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0017357678273389307,
+  "nv": 42,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13098,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   21.67431949696108
+  ],
+  "amin": 0,
+  "amax": 21.674320220947266,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005178650942140623,
+  "nv": 36,
+  "vertsInsideDomain": 36
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13102,
+  "section": "B_CURVE",
+  "dom": [
+   21.67431949696108,
+   53.13507121323674
+  ],
+  "amin": 21.674320220947266,
+  "amax": 53.13507080078125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004253074108443386,
+  "nv": 48,
+  "vertsInsideDomain": 48
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13035,
+  "section": "B_CURVE",
+  "dom": [
+   91.24837942301777,
+   114.260008259687
+  ],
+  "amin": 91.24838256835938,
+  "amax": 114.260009765625,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.006089786751723443,
+  "nv": 28,
+  "vertsInsideDomain": 26
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13039,
+  "section": "B_CURVE",
+  "dom": [
+   114.260008259687,
+   140.5656971243843
+  ],
+  "amin": 114.260009765625,
+  "amax": 140.56570434570312,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.007382932470524968,
+  "nv": 42,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13043,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   49.616563857190116
+  ],
+  "amin": 0,
+  "amax": 49.6165657043457,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0070837960944466274,
+  "nv": 54,
+  "vertsInsideDomain": 52
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 13047,
+  "section": "B_CURVE",
+  "dom": [
+   49.616563857190116,
+   91.24837942301777
+  ],
+  "amin": 49.6165657043457,
+  "amax": 91.24838256835938,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0050328083438566824,
+  "nv": 42,
+  "vertsInsideDomain": 39
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 12964,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   31.357509226770002
+  ],
+  "amin": 0,
+  "amax": 31.35750961303711,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005692423739136547,
+  "nv": 38,
+  "vertsInsideDomain": 38
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 12968,
+  "section": "B_CURVE",
+  "dom": [
+   31.357509226770002,
+   54.249816536796274
+  ],
+  "amin": 31.35750961303711,
+  "amax": 54.24981689453125,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.00926462083452578,
+  "nv": 24,
+  "vertsInsideDomain": 24
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 12917,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   14.98528881018949
+  ],
+  "amin": 0,
+  "amax": 14.985288619995117,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.006359613235193948,
+  "nv": 24,
+  "vertsInsideDomain": 24
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 12921,
+  "section": "B_CURVE",
+  "dom": [
+   14.98528881018949,
+   37.78096531086103
+  ],
+  "amin": 14.985288619995117,
+  "amax": 37.78096389770508,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.005149934617052966,
+  "nv": 36,
+  "vertsInsideDomain": 36
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 12854,
+  "section": "B_CURVE",
+  "dom": [
+   88.14144552086105,
+   126.4484265985339
+  ],
+  "amin": 88.14144897460938,
+  "amax": 126.44842529296875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.004080650000251688,
+  "nv": 46,
+  "vertsInsideDomain": 46
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 12858,
+  "section": "B_CURVE",
+  "dom": [
+   46.47554149445669,
+   88.14144552086105
+  ],
+  "amin": 46.47554016113281,
+  "amax": 88.14144897460938,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0058389675283444485,
+  "nv": 44,
+  "vertsInsideDomain": 40
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 12862,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   46.47554149445669
+  ],
+  "amin": 0,
+  "amax": 46.47554016113281,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0059313285985474595,
+  "nv": 68,
+  "vertsInsideDomain": 68
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 12866,
+  "section": "B_CURVE",
+  "dom": [
+   126.4484265985339,
+   170.2651359734907
+  ],
+  "amin": 126.44842529296875,
+  "amax": 170.26513671875,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0031342265837455995,
+  "nv": 46,
+  "vertsInsideDomain": 44
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 12783,
+  "section": "B_CURVE",
+  "dom": [
+   0,
+   30.60919362215924
+  ],
+  "amin": 0,
+  "amax": 30.609193801879883,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.0039372152658583405,
+  "nv": 60,
+  "vertsInsideDomain": 60
+ },
+ {
+  "file": "original/Dekor.SLDPRT",
+  "rawId": 12787,
+  "section": "B_CURVE",
+  "dom": [
+   30.60919362215924,
+   50.4842118655668
+  ],
+  "amin": 30.609193801879883,
+  "amax": 50.48421096801758,
+  "bmin": 0.008999999612569809,
+  "bmax": 0.009999999776482582,
+  "sweepLen": 1,
+  "scale": 0.00268696228377607,
+  "nv": 36,
+  "vertsInsideDomain": 36
+ }
+]

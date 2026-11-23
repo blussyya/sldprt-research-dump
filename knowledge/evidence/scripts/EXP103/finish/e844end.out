@@ -1,0 +1,12 @@
+== /home/user/conv-dev
+2D curve u span 2.78e-17 v span 1.00e+0 surface uRange [ 0.1547128444703396, 0.7173696829004764 ]
+section at u 0.980766029 sum of vertex distances 1.144e-6
+vertex p0 to the curve 3.613e-7 m at t 0.000000 | p1 7.829e-7 m at t 0.997691
+both vertices pinned   fit error 9.841e-9 samples 51
+ends on the curve      fit error 8.124e-10 samples 17
+== /home/user/solidworks-converters
+2D curve u span 2.78e-17 v span 1.00e+0 surface uRange [ 0.1547128444703396, 0.7173696829004764 ]
+section at u 0.980766029 sum of vertex distances 1.144e-6
+vertex p0 to the curve 3.613e-7 m at t 0.000000 | p1 7.829e-7 m at t 0.997691
+both vertices pinned   fit error 3.922e-9 samples 52
+ends on the curve      fit error 8.760e-10 samples 17

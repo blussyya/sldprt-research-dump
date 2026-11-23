@@ -1,0 +1,70 @@
+{
+ "629adcec_cut-z351-d1xl1.SLDPRT": {
+  "Contents/Config-0-Partition": {
+   "faces": 4,
+   "hash": "aa954a9562ed4d6208d1ff473854f4db",
+   "len": 3896,
+   "disp": 3
+  },
+  "Contents/Config-1-Partition": {
+   "faces": 4,
+   "hash": "aa954a9562ed4d6208d1ff473854f4db",
+   "len": 3896,
+   "disp": 3
+  },
+  "Contents/Config-4-Partition": {
+   "faces": 4,
+   "hash": "aa954a9562ed4d6208d1ff473854f4db",
+   "len": 3896,
+   "disp": 3
+  }
+ },
+ "70477058_mt-cut-z085-l1xb1-typ.SLDPRT": {
+  "Contents/Config-0-Partition": {
+   "faces": 26,
+   "hash": "5a0e393c81189d8b2a15d20f87a587ee",
+   "len": 27462,
+   "disp": 18
+  },
+  "Contents/Config-1-Partition": {
+   "faces": 26,
+   "hash": "5a0e393c81189d8b2a15d20f87a587ee",
+   "len": 27462,
+   "disp": 18
+  },
+  "Contents/Config-4-Partition": {
+   "faces": 26,
+   "hash": "5a0e393c81189d8b2a15d20f87a587ee",
+   "len": 27462,
+   "disp": 18
+  }
+ },
+ "516a7dc5_Body1.sldprt": {
+  "Contents/Config-0-Partition": {
+   "faces": 8,
+   "hash": "19a459096a767fadf0d7ac59198d749e",
+   "len": 10775,
+   "disp": 8
+  },
+  "Contents/Config-1-Partition": {
+   "faces": 8,
+   "hash": "19a459096a767fadf0d7ac59198d749e",
+   "len": 10775,
+   "disp": 8
+  }
+ },
+ "afc71d14_Body2.sldprt": {
+  "Contents/Config-0-Partition": {
+   "faces": 28,
+   "hash": "e73386f3f14eaacf08c4de77bee0eeae",
+   "len": 37059,
+   "disp": 24
+  },
+  "Contents/Config-1-Partition": {
+   "faces": 28,
+   "hash": "e73386f3f14eaacf08c4de77bee0eeae",
+   "len": 37059,
+   "disp": 24
+  }
+ }
+}

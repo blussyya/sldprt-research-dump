@@ -1,0 +1,23 @@
+{
+ "files": 36,
+ "faces": 1541,
+ "beforeNoId": 200,
+ "beforeHasId": 1341,
+ "table": {
+  "idMatched-right -> joined-right": 1291,
+  "noIdMatch -> none": 12,
+  "idMatched-unchecked -> joined-unchecked": 29,
+  "noIdMatch -> joined-unchecked": 4,
+  "noIdMatch -> joined-right": 184,
+  "idMatched-wrong -> joined-wrong": 5,
+  "idMatched-wrong -> joined-right": 16
+ }
+}
+0132519a_102_STEM.SL 20 noId 8 fixed 0
+d2515121_Ecran_128x3 5 noId 5 fixed 5
+543861c9_BALL NUT BR 1 noId 1 fixed 0
+a0ab30c8_LB26001-A-0 3 noId 3 fixed 0
+03764871_BME280.SLDP 131 noId 121 fixed 121
+d0d61cde_官方元件-定位模块.S 61 noId 56 fixed 56
+ef1d5cfe_DS3231.SLDP 5 noId 4 fixed 4
+a4ecc6f5_PP-2074-08. 598 noId 2 fixed 2

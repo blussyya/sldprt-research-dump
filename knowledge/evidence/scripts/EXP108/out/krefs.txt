@@ -1,0 +1,7 @@
+{
+  parts: 115,
+  faces: 13533,
+  distinctK_perPart: 291,
+  K_with_several_strings: 286,
+  strings_with_several_K: 6
+}

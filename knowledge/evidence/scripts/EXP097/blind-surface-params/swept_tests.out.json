@@ -1,0 +1,56 @@
+{
+ "test files original/Dekor.SLDPRT": {
+  "totalVerts": 8566,
+  "nanBeforeClampFixed": 596,
+  "nanStillAfterClamp": 0,
+  "maxErrAfterClampOnFixed": 1.9131745884887042e-8,
+  "curve": {
+   "closedEnds": 0.1428354289867958,
+   "periodic": false,
+   "closed": false,
+   "domain": [
+    1277.0952081123912,
+    1277.560713728391
+   ]
+  },
+  "stillNaNExamples": []
+ },
+ "test files online/2018/15567d51_leva1.SLDPRT": {
+  "totalVerts": 142,
+  "nanBeforeClampFixed": 0,
+  "nanStillAfterClamp": 139,
+  "maxErrAfterClampOnFixed": 0,
+  "curve": {
+   "closedEnds": 0,
+   "periodic": true,
+   "closed": true,
+   "domain": [
+    0,
+    1
+   ]
+  },
+  "stillNaNExamples": [
+   {
+    "u": 1.0124801397323608,
+    "dom": [
+     0,
+     1
+    ]
+   },
+   {
+    "u": 1.0124801397323608,
+    "dom": [
+     0,
+     1
+    ]
+   },
+   {
+    "u": 1.0241369009017944,
+    "dom": [
+     0,
+     1
+    ]
+   }
+  ]
+ }
+}

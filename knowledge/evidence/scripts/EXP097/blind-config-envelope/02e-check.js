@@ -1,0 +1,14 @@
+'use strict';
+const fs = require('fs'), zlib = require('zlib');
+const CONV = '/home/user/dump-validation/package/src';
+const modern = require(CONV + '/container/modern');
+const display = require(CONV + '/display');
+const { boxAt, arithmeticOK } = require('./boxtest');
+const MAX = 128 * 1024 * 1024;
+const buf = fs.readFileSync(process.argv[2]);
+const dl = modern.findDisplayLists(buf, b => zlib.inflateRawSync(b, { maxOutputLength: MAX }), b => zlib.inflateSync(b, { maxOutputLength: MAX }));
+const p = display.parseSLDPRT(buf, b => zlib.inflateRawSync(b, { maxOutputLength: MAX }), b => zlib.inflateSync(b, { maxOutputLength: MAX }));
+const dv = new DataView(dl.buffer, dl.byteOffset, dl.byteLength);
+const faceOK = p.faces.map(f => arithmeticOK(boxAt(dv, f.geometryEnd)));
+let hits = 0; for (let r = 0; r + 132 <= dl.length; r++) if (arithmeticOK(boxAt(dv, r))) hits++;
+console.log('faces', p.faces.length, 'face boxes arithmetic-pass', faceOK.filter(Boolean).length, 'all-scan hits', hits);

@@ -101,16 +101,20 @@ These come from the user and override any habit that conflicts with them.
   const resolved=P.resolve(M);                // fits intersections and blends
   ```
 
-## Where things stand (2026-11-01)
+## Where things stand (2026-11-22)
 
-- 133 of the 139 online-sample parts resolve. 5 have no partition stream, so there's no body to
-  read. `2f121983` still stops, and `82981f2a` resolves but takes about 20 minutes.
-- 130 resolve with every fit within 1e-8 m by the fitter's own check. Over it:
-  - `3c4752f1`: 3.95e-8, two plane × blend edges where the blend touches the plane.
-  - `2e6e140a`: 2.7e-8, one SP_CURVE edge.
-  - `f0b9a118`: 1.6e-8, one SP_CURVE edge.
-- `82981f2a` passes the fitter's check, but a dense check finds edge 826 at 1.12e-8 m.
-- The tests pass: 61, 2 skipped.
+- 134 of the 141 online-sample files resolve. 5 have no partition stream, so there's no body to
+  read. `2f121983` still stops, and `f666f342` (head_face) doesn't finish in 2,400 s. head_back
+  (`82981f2a`) resolves in about 14 minutes.
+- 130 resolve with every fit within 1e-8 m. Since EXP-103 the fitter checks 8 more points per
+  interval and counts a pinned end's gap to its vertex. Over the bar:
+  - `f0b9a118`: 4.49e-4 m, edge 152's vertex that far off its curve (vertex tolerance 1e-6 m).
+  - `0739c559`: 1.57e-4 m, edge 6075 (vertex tolerance 4.8e-5 m). These two refuse exact STEP.
+  - `3c4752f1`: 2.53e-8 m, two plane × blend edges where the blend touches the plane.
+  - `82981f2a`: surfaces 1.54e-8 m, four blends whose spines run to a T limit. Within a few tenths
+    of a micron of the T point the exact spine can't be found to 1e-8 m, so the number isn't a
+    measured accuracy either way (NQ-065).
+- The converter's `dev` has all of this. The tests pass: 83, 2 skipped.
 
 Verified format facts from EXP-086, each having survived a blind check:
 
@@ -120,15 +124,18 @@ Verified format facts from EXP-086, each having survived a blind check:
 
 ## Next, in order
 
-1. A denser fit check, so errors like edge 826's (1.12e-8 m mid-curve, unseen by the fitter's few
-   samples per interval) are caught.
-2. `3c4752f1`: two plane × blend edges where the blend touches the plane (another touching end).
-3. The SP_CURVE edges on `f0b9a118` and `2e6e140a`.
-4. Accuracy within about 1 µm of a T limit. head_back blend 9931's spine is up to 7.5e-8 m off there,
-   because the support blend's own fitted spine (5e-12 m) is magnified, and the fitter's error
-   doesn't show it.
-5. `2f121983`: a blend spine on two offset swept surfaces. The foot jumps near the start.
+1. `3c4752f1`: two plane × blend edges where the blend touches the plane (another touching end).
+2. NQ-067: the vertices far outside their tolerance on `0739c559` and `f0b9a118`. Check our
+   surface evaluation at those points before blaming the file.
+3. NQ-065: accuracy within about 1 µm of a T limit (head_back's four blends). It needs the nested
+   spines fitted much tighter than 1e-10 m.
+4. `2f121983`: a blend spine on two offset swept surfaces. The foot jumps near the start. It now
+   stops with "no foot ... settled (8.7e-4 m off its normal)"; whether that's the same jump isn't
+   checked.
+5. NQ-069: `f666f342` (head_face) doesn't finish.
 6. Vertices 0.1 to 1 mm off thread and degree-1 surfaces, inside the knot range, in 5 parts
    (`d799e9a3`, `073482d3`, `0d68d32d`, `db8a97e2`, `f0b9a118`).
+7. NQ-070: the dense check makes parts with many intersection curves 2.6 to 3.3 times slower.
 
-Also still open: NQ-057, the B-rep triangulator on 32 parts.
+Also still open: NQ-057 (the B-rep triangulator on 32 parts), NQ-066 (edge 844's vertex pair) and
+NQ-068 (gaps at intersection-edge ends).

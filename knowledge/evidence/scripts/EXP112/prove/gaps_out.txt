@@ -1,0 +1,5 @@
+dir order != offset order files: 0
+first gap (byte 8 to first header) min/max 255 900 distinct 87
+between-streams gap distribution [(0, 6066), (85, 39), (86, 122), (87, 128), (88, 112), (89, 114), (90, 104), (91, 129), (92, 116), (93, 114), (94, 100), (95, 111), (96, 148), (97, 123), (98, 83), (99, 80), (100, 145)]
+files with a single nonzero gap value: 181 of 181
+nonzero gap min/max 85 100 count in 69-84: 0 of 1768

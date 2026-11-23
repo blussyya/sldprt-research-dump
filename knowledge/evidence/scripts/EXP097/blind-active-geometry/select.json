@@ -1,0 +1,166 @@
+[
+ {
+  "id": "118a3cb0",
+  "file": "test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT",
+  "displayFaces": 22,
+  "headers": 0,
+  "configs": 25,
+  "candidatesUnionAndFaces": [
+   268
+  ],
+  "candidatesPerFace22": [
+   268
+  ],
+  "minDiffOtherConfigs_mm": 4.999999999999984,
+  "convergedPick": 0,
+  "convergedPickDiff_mm": 56.000000000000014,
+  "convergedPickFaces": 22,
+  "convergedPickDisplayVerticesOutside": 871,
+  "errors": []
+ },
+ {
+  "id": "289756ce",
+  "file": "test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT",
+  "displayFaces": 18,
+  "headers": 0,
+  "configs": 2,
+  "candidatesUnionAndFaces": [
+   21
+  ],
+  "candidatesPerFace22": [
+   21
+  ],
+  "minDiffOtherConfigs_mm": 0.10000000000001674,
+  "convergedPick": 1,
+  "convergedPickDiff_mm": 0.10000000000001674,
+  "convergedPickFaces": 18,
+  "convergedPickDisplayVerticesOutside": 0,
+  "errors": []
+ },
+ {
+  "id": "629adcec",
+  "file": "test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT",
+  "displayFaces": 3,
+  "headers": 0,
+  "configs": 6,
+  "candidatesUnionAndFaces": [
+   0,
+   1,
+   4
+  ],
+  "candidatesPerFace22": [
+   0,
+   1,
+   4
+  ],
+  "minDiffOtherConfigs_mm": 0.7500000000000007,
+  "convergedPick": 0,
+  "convergedPickDiff_mm": 0,
+  "convergedPickFaces": 3,
+  "convergedPickDisplayVerticesOutside": 0,
+  "errors": []
+ },
+ {
+  "id": "70477058",
+  "file": "test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT",
+  "displayFaces": 18,
+  "headers": 0,
+  "configs": 7,
+  "candidatesUnionAndFaces": [
+   0,
+   1,
+   4
+  ],
+  "candidatesPerFace22": [
+   0,
+   1,
+   4
+  ],
+  "minDiffOtherConfigs_mm": 10.000000000000009,
+  "convergedPick": 0,
+  "convergedPickDiff_mm": 0,
+  "convergedPickFaces": 18,
+  "convergedPickDisplayVerticesOutside": 0,
+  "errors": []
+ },
+ {
+  "id": "516a7dc5",
+  "file": "test files online/2017/516a7dc5_Body1.sldprt",
+  "displayFaces": 8,
+  "headers": 0,
+  "configs": 2,
+  "candidatesUnionAndFaces": [
+   0,
+   1
+  ],
+  "candidatesPerFace22": [
+   0,
+   1
+  ],
+  "minDiffOtherConfigs_mm": null,
+  "convergedPick": 0,
+  "convergedPickDiff_mm": 0,
+  "convergedPickFaces": 8,
+  "convergedPickDisplayVerticesOutside": 0,
+  "errors": []
+ },
+ {
+  "id": "afc71d14",
+  "file": "test files online/2017/afc71d14_Body2.sldprt",
+  "displayFaces": 24,
+  "headers": 0,
+  "configs": 2,
+  "candidatesUnionAndFaces": [
+   0,
+   1
+  ],
+  "candidatesPerFace22": [
+   0,
+   1
+  ],
+  "minDiffOtherConfigs_mm": null,
+  "convergedPick": 0,
+  "convergedPickDiff_mm": 0,
+  "convergedPickFaces": 24,
+  "convergedPickDisplayVerticesOutside": 0,
+  "errors": []
+ },
+ {
+  "id": "03afebf4",
+  "file": "test files online/2024/03afebf4_Profilringe.SLDPRT",
+  "displayFaces": 7,
+  "headers": 2,
+  "configs": 2,
+  "candidatesUnionAndFaces": [
+   7
+  ],
+  "candidatesPerFace22": [
+   7
+  ],
+  "minDiffOtherConfigs_mm": 1.3,
+  "convergedPick": 7,
+  "convergedPickDiff_mm": 1.0408340855860843e-14,
+  "convergedPickFaces": 7,
+  "convergedPickDisplayVerticesOutside": 0,
+  "errors": []
+ },
+ {
+  "id": "c613782b",
+  "file": "test files online/2025/c613782b_Крепёжная-Планка.SLDPRT",
+  "displayFaces": 13,
+  "headers": 4,
+  "configs": 4,
+  "candidatesUnionAndFaces": [
+   3
+  ],
+  "candidatesPerFace22": [
+   3
+  ],
+  "minDiffOtherConfigs_mm": 2441.7500000000005,
+  "convergedPick": 3,
+  "convergedPickDiff_mm": 0,
+  "convergedPickFaces": 13,
+  "convergedPickDisplayVerticesOutside": 0,
+  "errors": []
+ }
+]

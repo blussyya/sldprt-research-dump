@@ -1,0 +1,65 @@
+{
+ "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT": {
+  "displayFaces": 2512,
+  "newUnique": 1542,
+  "newAmbiguous": 970,
+  "newNone": 0,
+  "oldHit": 180,
+  "oldHitWrongType": 17,
+  "oldNone": 2332
+ },
+ "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT": {
+  "displayFaces": 239,
+  "newUnique": 154,
+  "newAmbiguous": 85,
+  "newNone": 0,
+  "oldHit": 141,
+  "oldHitWrongType": 17,
+  "oldNone": 98
+ },
+ "test files online/2023/03764871_BME280.SLDPRT": {
+  "displayFaces": 693,
+  "newUnique": 434,
+  "newAmbiguous": 259,
+  "newNone": 0,
+  "oldHit": 172,
+  "oldHitWrongType": 93,
+  "oldNone": 521
+ },
+ "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT": {
+  "displayFaces": 544,
+  "newUnique": 500,
+  "newAmbiguous": 44,
+  "newNone": 0,
+  "oldHit": 102,
+  "oldHitWrongType": 8,
+  "oldNone": 442
+ },
+ "test files online/2023/ef1d5cfe_DS3231.SLDPRT": {
+  "displayFaces": 404,
+  "newUnique": 299,
+  "newAmbiguous": 105,
+  "newNone": 0,
+  "oldHit": 72,
+  "oldHitWrongType": 6,
+  "oldNone": 332
+ },
+ "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT": {
+  "displayFaces": 961,
+  "newUnique": 959,
+  "newAmbiguous": 2,
+  "newNone": 0,
+  "oldHit": 949,
+  "oldHitWrongType": 2,
+  "oldNone": 12
+ },
+ "test files online/2023/2f121983_case.SLDPRT": {
+  "displayFaces": 154,
+  "newUnique": 154,
+  "newAmbiguous": 0,
+  "newNone": 0,
+  "oldHit": 154,
+  "oldHitWrongType": 0,
+  "oldNone": 0
+ }
+}

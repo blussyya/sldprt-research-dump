@@ -1,6 +1,187 @@
 # Research Handoff
 
-## Current checkpoint — 2026-11-01, EXP-086 (online sample, head_back)
+## Checkpoint — 2026-11-22, EXP-103 (dense fit check, on converter `dev`)
+
+New here? Read [START_HERE.md](START_HERE.md) first; it has the full state and the next steps.
+
+The converter's work-in-progress branches are finished and on `dev`. The fitter checks 8 more
+points per interval and counts a pinned SP_CURVE end's gap to its vertex. head_back edge 826 is
+now 9.44e-9 m, and edge 844's hidden 1.13e-6 m hook is gone. The gap count exposed two vertices
+far outside their tolerance (`0739c559` 1.57e-4 m, `f0b9a118` 4.49e-4 m), and those two parts
+now refuse exact STEP. Four head_back T-limit blends report 1.48e-8 to 1.54e-8 m with unchanged
+curves (NQ-065). Online sample: 134 of 141 resolve, 130 within 1e-8 m. Tests: 83 pass, 2 skipped.
+New questions: NQ-065 to NQ-070.
+
+Evidence: [2026-11-22_v0.5-EXP103.md](evidence/2026-11-22_v0.5-EXP103.md).
+
+## Validation checkpoint — 2026-11-06, EXP-097
+
+EXP-088 to EXP-096 were checked. Every script reproduces, and seven blind checks, each with its
+own saved scripts, upheld every main finding. These were corrected in place, each with a dated
+note:
+- EXP-095: 178 modern containers, not 183.
+- NQ-030: tags 4008 (offset) and 4010 (spun) were unidentified.
+- EXP-092: the perpendicular check used the display axis, not the native one.
+- EXP-096: the attribute value rests on one reader.
+- EXP-090: the conclusion is narrower.
+- EXP-091: limits on the surface parameters.
+- EXP-064: more look-alike boxes than its correction names.
+
+Converter: `feature/inspector` and `dev` were merged into `main` (b0568c0, 63 tests pass).
+`wip/dense-fit-check` is still unverified. The EXP-094 selection rule still needs implementing:
+the converter picks the wrong geometry in `118a3cb0` and `289756ce`.
+
+Evidence: [2026-11-06_v0.5-EXP097.md](evidence/2026-11-06_v0.5-EXP097.md).
+
+## Validation checkpoint — 2026-11-06, EXP-096
+
+The last varying LocalBodies entry-header field is decoded. Flag 1 exactly matches
+`BODY_IN_LIGHTWEIGHT_PERM=0` on all eight entries; those bodies are excluded from the lightweight
+permanent body set.
+Flag 0 covers 258 bodies with value 1 and 16 bodies without the attribute, which EXP-084 already
+established as the included default. No decoded body contradicts the relationship.
+
+Seven payloads remain unread because SPUN_SURF node type 68 lacks a base schema, but every one has
+flag zero. The LocalBodies framing question is now reduced to the intended meaning of the
+eight-byte section tail, which is zero in every available sample.
+
+Evidence: [2026-11-06_v0.5-EXP096.md](evidence/2026-11-06_v0.5-EXP096.md).
+
+## Validation checkpoint — 2026-11-05, EXP-095
+
+The duplicate-stream question now has a bounded survey and a reader policy. All 178 modern (corrected from 183, EXP-097)
+containers contain 7,374 valid nonempty entries after printable-name, inflation-size, and CRC
+checks. No valid name is duplicated within a file. Another 521 valid entries are empty and omitted
+the same way as the current reader.
+
+Since the corpus establishes no duplicate precedence, a safe reader should coalesce a repeated
+name only when the inflated bytes are identical and reject conflicting payloads. This is a design
+policy rather than a recovered format rule; implementation remains outside this branch.
+
+Evidence: [2026-11-05_v0.5-EXP095.md](evidence/2026-11-05_v0.5-EXP095.md).
+
+## Validation checkpoint — 2026-11-05, EXP-094
+
+Files without `Config-N-ModelHeader` no longer need a lowest-number geometry guess. Six of the
+twelve have one partition. In all six multi-configuration files, the saved display face count and
+analytic face-bound union select one native geometry. `cut-z18` needs Config-268 rather than 0;
+`cut-z071` needs Config-21 rather than 1. The current fallback is geometrically wrong for both.
+
+Four files retain several matching configuration IDs, but each tied partition writes identical
+normalized exact STEP. Their active names remain unknown while their conversion geometry is
+settled. The evidence script samples decoded native edges to construct candidate boxes; converter
+implementation remains outside this branch.
+
+Evidence: [2026-11-05_v0.5-EXP094.md](evidence/2026-11-05_v0.5-EXP094.md).
+
+## Validation checkpoint — 2026-11-05, EXP-093
+
+The named configuration envelope has an observed DisplayLists version boundary. It is absent from
+all 42 modern files declaring versions 3800–12000, then present in all 8 version-13000 and all 5
+version-14000 files. This agrees with EXP-085's result that the declaration names the release that
+last wrote the DisplayLists stream, rather than necessarily the release of the file's latest save.
+
+The record remains optional later: 113/124 version-13000-or-newer files carry it. All 97 readable,
+single-configuration files without LocalBodies have it. Every one of the eight readable omissions
+has LocalBodies or multiple configuration IDs, but both structures also occur in files that retain
+the record. Their exact inclusion rule remains open.
+
+Evidence: [2026-11-05_v0.5-EXP093.md](evidence/2026-11-05_v0.5-EXP093.md).
+
+## Validation checkpoint — 2026-11-05, EXP-092
+
+The two LocalBodies entry headers are decoded. The old ten-byte form contains one unnamed flag,
+padding, the first framed section's size plus five, and padding. The newer 18-byte form prepends a
+reserved zero and an exact section count. All 281 entries fit; the two multi-section entries supply
+counts 2 and 8. The flag remains unnamed because both values occur on solid entries.
+
+On 13,589 modern faces with decoded metadata, the bounds record begins with fixed words `[0,0,1]`.
+When the tail words at +104 and +108 are one, the next four floats are a scalar and unit vector in
+2,986/2,986 records. The vector is perpendicular to the saved cylinder axis in all 2,406 cylinder
+cases. The scalar and other tail states remain open.
+
+The one broad configuration envelope in `ac760485` is not reflected by the stored points or a
+147,600-point edge sample from its active body, zero-face ghosts, and eight ResolvedFeatures
+support snapshots. Sketch/reference geometry or stale display state remain possible.
+
+Evidence: [2026-11-05_v0.5-EXP092.md](evidence/2026-11-05_v0.5-EXP092.md).
+
+## Validation checkpoint — 2026-11-05, EXP-091
+
+The optional display scalar arrays are per-vertex surface parameters. The controlled cone, sphere
+and B-surface checks evaluate 6,924 vertices in stored order and reject swapped order by
+millimetres to metres. The corpus contains the pair on 1,545 faces in 37 files; direct evaluation
+in this experiment covers tags 4003, 4004 and 4006.
+
+LocalBodies now has bounded entry, section and compression framing: 41 streams, 281 named entries,
+289 sections and 540 checked zlib chunks. Two entries own multiple sections and two large sections
+use many chunks. All streams end exactly and all 289 eight-byte tails are zero. The 10/18-byte
+entry-header fields and the tail's intended role remain unnamed.
+
+The configuration bounds record is an overall saved-display envelope in 113 readable modern files.
+It equals the union of face bounds in 112; one is larger than both the display and active body. No
+matching record occurs in 36 readable legacy files. `OPEN_QUESTIONS.md` now has a current audit at
+the top, while its old entries remain as research history.
+
+Evidence: [2026-11-05_v0.5-EXP091.md](evidence/2026-11-05_v0.5-EXP091.md).
+
+## Validation checkpoint — 2026-11-05, EXP-090
+
+`NEXT_QUESTIONS.md` has been audited against the later experiments. Old Block1 grammar and token
+signature work is marked retired, later completed readers are marked answered, and the top now has
+a short current queue split by whether the existing corpus can answer it.
+
+C18 also supplies NQ-029's supposedly missing split-line control. In both SW2011 and SW2022, the
+`y=0` side keeps the same boundary and raw Block1 when its neighbor changes to the new split face.
+The two sides whose own boundary gains the split midpoint gain an edge ID and a longer Block1. An
+independent check reproduced the raw and native-topology result.
+
+Evidence: [2026-11-05_v0.5-EXP090.md](evidence/2026-11-05_v0.5-EXP090.md).
+
+## Validation checkpoint — 2026-11-05, EXP-089
+
+The one-face bodies in the controlled `ResolvedFeatures` streams are selected support-face
+snapshots stored with face-attached sketches. C04 holds the square top face before the circular cut;
+C07's second sketch holds that face after the first hole. Thirteen of the original 36 bodies map
+directly to `sgSketch` with `onPlane=0`; the rest lie after the current reader stops. An independent
+online scan found the same section framing in `moSingleFaceRef_w`, so framing alone cannot identify
+the owner.
+
+Of 863 reachable 28-byte component blocks, 862 have zero in all six words after the ghost-body ID.
+The helical gear has the one exception: a `moCompFace_c` in Plane1 has word 4 set to one. There is
+not enough variation to name it. The dimension-placement survey now covers 100 records and 13 size
+families, but those records still need a bounded decoder.
+
+Evidence: [2026-11-05_v0.5-EXP089.md](evidence/2026-11-05_v0.5-EXP089.md).
+
+## Validation checkpoint — 2026-11-05, EXP-087 and EXP-088
+
+This checkpoint is on the `validation` branch for review. It has not been merged into `main`.
+
+EXP-087 establishes that head_back's 2013 display mesh is stale, not broken: model stamp 119,
+display stamp 107, brought to 119 by the 2026 re-save. The stale geometry is localized around the
+three rear openings. A stamp gap is only a warning that a mesh may be old.
+
+EXP-088 changes three format conclusions and adds an inspectable feature export:
+
+- Block3 is structured. The online sample has values 1, 2 and 4. Blind checks support byte 1 as a
+  smooth/tangent face-edge-use marker and byte 2 as an open-boundary marker in the joined subset.
+  Strip-control semantics and tangent 0/0 exceptions still need a controlled SolidWorks pair.
+- `GHOST_REF_BODY_ID_2001` joins to the first u32 in the feature component block at object offset
+  +17. All 54 controlled bodies and all seven helical-gear bodies join under independent checks.
+  Origin points and loft profile sheets are now distinguished.
+- The binary feature exporter retains feature IDs, names, children, contextual references and
+  History-folder order. C07's two sketch-child links and History order survive a blind check.
+  C23 really says 19 top-level slots while 18 objects end at exact EOF; its final object remains
+  partly opaque.
+- Biography has a bounded sequential layout on 216 streams and 3,519 records. It records save
+  environment, paths and times, not feature operations.
+
+Next validation work: produce a controlled SolidWorks pair with only tangent-edge display style
+changed; decode Block3's strip controls; replace the feature reader's 99 dimension-placement scans;
+and find the modern per-feature Created/Modified log.
+
+## Checkpoint — 2026-11-01, EXP-086 (online sample, head_back)
 
 New here? Read [START_HERE.md](START_HERE.md) first: repos, workflow, the research rules
 (doubt everything, blind debunk before "verified") and the full state.
@@ -389,3 +570,11 @@ Per instruction, this handoff does not designate one of these as an in-progress 
   1.12e-8 m mid-curve with dense sampling: the fitter's check is too sparse. Sweep clean, tests
   pass. Next: a denser fit check (edge 826), 3c4752f1's touching-end plane × blend edges, the
   SP_CURVE edges on f0b9a118 and 2e6e140a, near-T accuracy, 2f121983, the thread vertices.
+- 2026-11-09 (EXP-112): the modern container's directory is decoded (a ZIP central directory
+  with per-file signatures and offsets from byte 8). The converter's
+  `dev` reads through it and keeps the scan as a
+  fallback; tests pass. What's left is NQ-061 to NQ-064.
+- 2026-11-22 (EXP-103): the dense fit check finished and merged into the converter's `dev`, with
+  the work-in-progress branches. Edge 826 and edge 844 on head_back are fixed. A pinned end's gap
+  now counts, which takes `0739c559` and `f0b9a118` over the bar and out of exact STEP. Next is in
+  START_HERE.md.

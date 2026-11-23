@@ -1,0 +1,1413 @@
+{
+ "/home/user/sldprt-research-dump/test files online/2014/300f9732_Carter2019.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 92,
+   "union": {
+    "min": [
+     0.10029178676402196,
+     0,
+     -0.1554589468389948
+    ],
+    "max": [
+     0.16400000000000003,
+     0.336,
+     0.12852279595638175
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Config-0-Partition": {
+    "name": "Config-0-Partition",
+    "nativeFaces": 92,
+    "faces": 104,
+    "box": {
+     "min": [
+      0.10029178676402196,
+      0,
+      -0.1554589468389948
+     ],
+     "max": [
+      0.16400000000000003,
+      0.336,
+      0.12852277095638176
+     ]
+    },
+    "nanVerts": 4,
+    "ms": 259,
+    "gap": 2.4999999986841104e-8,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Config-1-Partition": {
+    "name": "Config-1-Partition",
+    "nativeFaces": 46,
+    "faces": 55,
+    "box": {
+     "min": [
+      0.10513397459621542,
+      0,
+      -0.15545894683899483
+     ],
+     "max": [
+      0.27329995972224935,
+      0.336,
+      0.1348130835041745
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 19845,
+    "gap": 0.10929995972224932,
+    "fitNative": false,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Config-0-Partition",
+   "by": "lowest"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 22,
+   "union": {
+    "min": [
+     -0.05099999999999999,
+     -0.05599292610469373,
+     -0.0255
+    ],
+    "max": [
+     0.08400000000000002,
+     0,
+     0.0255
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 22,
+    "faces": 30,
+    "box": {
+     "min": [
+      -0.029999999999999992,
+      -0.03356180729995789,
+      -0.01075
+     ],
+     "max": [
+      0.028000000000000004,
+      0,
+      0.01075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 666,
+    "gap": 0.056000000000000015,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-1-Partition": {
+    "name": "Contents/Config-1-Partition",
+    "nativeFaces": 30,
+    "faces": 38,
+    "box": {
+     "min": [
+      -0.027,
+      -0.03356180729995789,
+      -0.01075
+     ],
+     "max": [
+      0.028000000000000004,
+      0,
+      0.01075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 34009,
+    "gap": 0.056000000000000015,
+    "fitNative": false,
+    "fitExported": false
+   },
+   "Contents/Config-2-Partition": {
+    "name": "Contents/Config-2-Partition",
+    "nativeFaces": 30,
+    "faces": 38,
+    "box": {
+     "min": [
+      -0.027,
+      -0.03356180729995789,
+      -0.01075
+     ],
+     "max": [
+      0.05299999999999999,
+      0,
+      0.01075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 36708,
+    "gap": 0.031000000000000028,
+    "fitNative": false,
+    "fitExported": false
+   },
+   "Contents/Config-4-Partition": {
+    "name": "Contents/Config-4-Partition",
+    "nativeFaces": 22,
+    "faces": 30,
+    "box": {
+     "min": [
+      -0.03600000000000001,
+      -0.04140215154756892,
+      -0.01675
+     ],
+     "max": [
+      0.03899999999999999,
+      0,
+      0.01675
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 624,
+    "gap": 0.045000000000000026,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-30-Partition": {
+    "name": "Contents/Config-30-Partition",
+    "nativeFaces": 22,
+    "faces": 30,
+    "box": {
+     "min": [
+      -0.03,
+      -0.03356180729995789,
+      -0.01075
+     ],
+     "max": [
+      0.028000000000000004,
+      0,
+      0.01075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 811,
+    "gap": 0.056000000000000015,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-59-Partition": {
+    "name": "Contents/Config-59-Partition",
+    "nativeFaces": 20,
+    "faces": 24,
+    "box": {
+     "min": [
+      -0.027,
+      -0.03356180729995789,
+      -0.01075
+     ],
+     "max": [
+      0.02800000000000001,
+      0,
+      0.01075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 908,
+    "gap": 0.05600000000000001,
+    "fitNative": false,
+    "fitExported": false
+   },
+   "Contents/Config-173-Partition": {
+    "name": "Contents/Config-173-Partition",
+    "nativeFaces": 20,
+    "faces": 24,
+    "box": {
+     "min": [
+      -0.027,
+      -0.03356180729995789,
+      -0.01075
+     ],
+     "max": [
+      0.053,
+      0,
+      0.01075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 637,
+    "gap": 0.03100000000000002,
+    "fitNative": false,
+    "fitExported": false
+   },
+   "Contents/Config-174-Partition": {
+    "name": "Contents/Config-174-Partition",
+    "nativeFaces": 20,
+    "faces": 24,
+    "box": {
+     "min": [
+      -0.027,
+      -0.03356180729995789,
+      -0.01075
+     ],
+     "max": [
+      0.068,
+      0,
+      0.01075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 624,
+    "gap": 0.02399999999999999,
+    "fitNative": false,
+    "fitExported": false
+   },
+   "Contents/Config-175-Partition": {
+    "name": "Contents/Config-175-Partition",
+    "nativeFaces": 22,
+    "faces": 30,
+    "box": {
+     "min": [
+      -0.03600000000000001,
+      -0.04140215154756892,
+      -0.01675
+     ],
+     "max": [
+      0.039,
+      0,
+      0.01675
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 679,
+    "gap": 0.04500000000000002,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-176-Partition": {
+    "name": "Contents/Config-176-Partition",
+    "nativeFaces": 22,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.036000000000000004,
+      -0.0399,
+      -0.01675
+     ],
+     "max": [
+      0.059,
+      0,
+      0.01675
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 607,
+    "gap": 0.025000000000000022,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-177-Partition": {
+    "name": "Contents/Config-177-Partition",
+    "nativeFaces": 22,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.036000000000000004,
+      -0.0399,
+      -0.01675
+     ],
+     "max": [
+      0.081,
+      0,
+      0.01675
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 601,
+    "gap": 0.016092926104693733,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-180-Partition": {
+    "name": "Contents/Config-180-Partition",
+    "nativeFaces": 22,
+    "faces": 30,
+    "box": {
+     "min": [
+      -0.046000000000000006,
+      -0.05599292610469373,
+      -0.02575
+     ],
+     "max": [
+      0.049,
+      0,
+      0.02575
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 618,
+    "gap": 0.03500000000000002,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-181-Partition": {
+    "name": "Contents/Config-181-Partition",
+    "nativeFaces": 22,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.046000000000000006,
+      -0.05395,
+      -0.02575
+     ],
+     "max": [
+      0.084,
+      0,
+      0.02575
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 605,
+    "gap": 0.004999999999999984,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-185-Partition": {
+    "name": "Contents/Config-185-Partition",
+    "nativeFaces": 22,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.05600000000000001,
+      -0.057800000000000004,
+      -0.03225
+     ],
+     "max": [
+      0.061000000000000006,
+      0,
+      0.03225
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 619,
+    "gap": 0.023000000000000013,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-187-Partition": {
+    "name": "Contents/Config-187-Partition",
+    "nativeFaces": 22,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.056,
+      -0.057800000000000004,
+      -0.03225
+     ],
+     "max": [
+      0.124,
+      0,
+      0.03225
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 613,
+    "gap": 0.03999999999999998,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-201-Partition": {
+    "name": "Contents/Config-201-Partition",
+    "nativeFaces": 18,
+    "faces": 22,
+    "box": {
+     "min": [
+      -0.03,
+      -0.03356180729995789,
+      -0.01075
+     ],
+     "max": [
+      0.02800000000000001,
+      0,
+      0.01075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 607,
+    "gap": 0.05600000000000001,
+    "fitNative": false,
+    "fitExported": true
+   },
+   "Contents/Config-202-Partition": {
+    "name": "Contents/Config-202-Partition",
+    "nativeFaces": 18,
+    "faces": 22,
+    "box": {
+     "min": [
+      -0.03,
+      -0.03356180729995789,
+      -0.01075
+     ],
+     "max": [
+      0.053,
+      0,
+      0.01075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 625,
+    "gap": 0.03100000000000002,
+    "fitNative": false,
+    "fitExported": true
+   },
+   "Contents/Config-203-Partition": {
+    "name": "Contents/Config-203-Partition",
+    "nativeFaces": 18,
+    "faces": 22,
+    "box": {
+     "min": [
+      -0.03,
+      -0.03356180729995789,
+      -0.01075
+     ],
+     "max": [
+      0.068,
+      0,
+      0.01075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 624,
+    "gap": 0.02243111880473584,
+    "fitNative": false,
+    "fitExported": true
+   },
+   "Contents/Config-207-Partition": {
+    "name": "Contents/Config-207-Partition",
+    "nativeFaces": 22,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.04100000000000001,
+      -0.0399,
+      -0.01675
+     ],
+     "max": [
+      0.094,
+      0,
+      0.01675
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 632,
+    "gap": 0.016092926104693733,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-209-Partition": {
+    "name": "Contents/Config-209-Partition",
+    "nativeFaces": 22,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.051,
+      -0.05395,
+      -0.025750000000000006
+     ],
+     "max": [
+      0.049,
+      0,
+      0.02575
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 642,
+    "gap": 0.03500000000000002,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-211-Partition": {
+    "name": "Contents/Config-211-Partition",
+    "nativeFaces": 22,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.051,
+      -0.05395,
+      -0.02575
+     ],
+     "max": [
+      0.10900000000000001,
+      0,
+      0.02575
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 624,
+    "gap": 0.024999999999999994,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-218-Partition": {
+    "name": "Contents/Config-218-Partition",
+    "nativeFaces": 22,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.064,
+      -0.057800000000000004,
+      -0.03225
+     ],
+     "max": [
+      0.199,
+      0,
+      0.03225
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 622,
+    "gap": 0.11499999999999999,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-222-Partition": {
+    "name": "Contents/Config-222-Partition",
+    "nativeFaces": 22,
+    "faces": 30,
+    "box": {
+     "min": [
+      -0.06400000000000004,
+      -0.06535365763086719,
+      -0.04075
+     ],
+     "max": [
+      0.149,
+      0,
+      0.04075
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 625,
+    "gap": 0.06499999999999997,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-230-Partition": {
+    "name": "Contents/Config-230-Partition",
+    "nativeFaces": 20,
+    "faces": 24,
+    "box": {
+     "min": [
+      -0.027,
+      -0.03356180729995789,
+      -0.0105
+     ],
+     "max": [
+      0.028000000000000008,
+      0,
+      0.0105
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 621,
+    "gap": 0.05600000000000001,
+    "fitNative": false,
+    "fitExported": false
+   },
+   "Contents/Config-268-Partition": {
+    "name": "Contents/Config-268-Partition",
+    "nativeFaces": 22,
+    "faces": 30,
+    "box": {
+     "min": [
+      -0.05099999999999999,
+      -0.05599292610469373,
+      -0.0255
+     ],
+     "max": [
+      0.08400000000000002,
+      0,
+      0.0255
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 665,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-268-Partition",
+   "by": "display",
+   "matches": [
+    "Contents/Config-268-Partition"
+   ]
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 18,
+   "union": {
+    "min": [
+     -0.028,
+     0,
+     -0.023501
+    ],
+    "max": [
+     0.0408021515475689,
+     0.027,
+     0.023501000000000008
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-1-Partition": {
+    "name": "Contents/Config-1-Partition",
+    "nativeFaces": 18,
+    "faces": 22,
+    "box": {
+     "min": [
+      -0.028,
+      0,
+      -0.02350225
+     ],
+     "max": [
+      0.04090215154756892,
+      0.02705,
+      0.02350225
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 145,
+    "gap": 0.00010000000000001674,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-21-Partition": {
+    "name": "Contents/Config-21-Partition",
+    "nativeFaces": 18,
+    "faces": 22,
+    "box": {
+     "min": [
+      -0.028,
+      0,
+      -0.023501
+     ],
+     "max": [
+      0.0408021515475689,
+      0.027,
+      0.023501000000000008
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 147,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-21-Partition",
+   "by": "display",
+   "matches": [
+    "Contents/Config-21-Partition"
+   ]
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 3,
+   "union": {
+    "min": [
+     -0.012,
+     -0.0045,
+     -0.0045
+    ],
+    "max": [
+     0,
+     0.0045,
+     0.0045
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 3,
+    "faces": 4,
+    "box": {
+     "min": [
+      -0.012,
+      -0.0045,
+      -0.0045
+     ],
+     "max": [
+      0,
+      0.0045,
+      0.0045
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 136,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-1-Partition": {
+    "name": "Contents/Config-1-Partition",
+    "nativeFaces": 3,
+    "faces": 4,
+    "box": {
+     "min": [
+      -0.012,
+      -0.0045,
+      -0.0045
+     ],
+     "max": [
+      0,
+      0.0045,
+      0.0045
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 133,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-2-Partition": {
+    "name": "Contents/Config-2-Partition",
+    "nativeFaces": 3,
+    "faces": 4,
+    "box": {
+     "min": [
+      -0.012,
+      -0.00525,
+      -0.00525
+     ],
+     "max": [
+      0,
+      0.00525,
+      0.00525
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 137,
+    "gap": 0.0007500000000000007,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-3-Partition": {
+    "name": "Contents/Config-3-Partition",
+    "nativeFaces": 3,
+    "faces": 4,
+    "box": {
+     "min": [
+      -0.025,
+      -0.00725,
+      -0.00725
+     ],
+     "max": [
+      0,
+      0.00725,
+      0.00725
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 134,
+    "gap": 0.013000000000000001,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-4-Partition": {
+    "name": "Contents/Config-4-Partition",
+    "nativeFaces": 3,
+    "faces": 4,
+    "box": {
+     "min": [
+      -0.012,
+      -0.0045,
+      -0.0045
+     ],
+     "max": [
+      0,
+      0.0045,
+      0.0045
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 134,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-6-Partition": {
+    "name": "Contents/Config-6-Partition",
+    "nativeFaces": 3,
+    "faces": 4,
+    "box": {
+     "min": [
+      -0.025,
+      -0.00725,
+      -0.00725
+     ],
+     "max": [
+      0,
+      0.00725,
+      0.00725
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 140,
+    "gap": 0.013000000000000001,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "display",
+   "matches": [
+    "Contents/Config-0-Partition",
+    "Contents/Config-1-Partition",
+    "Contents/Config-4-Partition"
+   ]
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT": {
+  "hdrs": 0,
+  "display": {
+   "faces": 18,
+   "union": {
+    "min": [
+     -0.03654142002139547,
+     -0.015002250000000005,
+     1.734723475976807e-18
+    ],
+    "max": [
+     0.03654142002139547,
+     0.015002249999999996,
+     0.028050000000000005
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 18,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.03654142002139547,
+      -0.015002250000000005,
+      1.734723475976807e-18
+     ],
+     "max": [
+      0.03654142002139547,
+      0.015002249999999996,
+      0.028050000000000005
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 199,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-1-Partition": {
+    "name": "Contents/Config-1-Partition",
+    "nativeFaces": 18,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.03654142002139547,
+      -0.015002250000000005,
+      1.734723475976807e-18
+     ],
+     "max": [
+      0.03654142002139547,
+      0.015002249999999996,
+      0.028050000000000005
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 152,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-2-Partition": {
+    "name": "Contents/Config-2-Partition",
+    "nativeFaces": 18,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.046452151547568904,
+      -0.025002250000000014,
+      1.8372457442508377e-18
+     ],
+     "max": [
+      0.046452151547568904,
+      0.025002250000000004,
+      0.03305
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 144,
+    "gap": 0.010000000000000009,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-3-Partition": {
+    "name": "Contents/Config-3-Partition",
+    "nativeFaces": 18,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.0660429261046937,
+      -0.03750225000000001,
+      1.8372457442508377e-18
+     ],
+     "max": [
+      0.0660429261046937,
+      0.03750225,
+      0.03805
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 140,
+    "gap": 0.029501506083298233,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-4-Partition": {
+    "name": "Contents/Config-4-Partition",
+    "nativeFaces": 18,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.03654142002139547,
+      -0.015002250000000005,
+      1.734723475976807e-18
+     ],
+     "max": [
+      0.03654142002139547,
+      0.015002249999999996,
+      0.028050000000000005
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 142,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-5-Partition": {
+    "name": "Contents/Config-5-Partition",
+    "nativeFaces": 18,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.046452151547568904,
+      -0.025002250000000014,
+      1.8372457442508377e-18
+     ],
+     "max": [
+      0.046452151547568904,
+      0.025002250000000004,
+      0.03305
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 140,
+    "gap": 0.010000000000000009,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-6-Partition": {
+    "name": "Contents/Config-6-Partition",
+    "nativeFaces": 18,
+    "faces": 26,
+    "box": {
+     "min": [
+      -0.0660429261046937,
+      -0.03750225000000001,
+      1.8372457442508377e-18
+     ],
+     "max": [
+      0.0660429261046937,
+      0.03750225,
+      0.03805
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 144,
+    "gap": 0.029501506083298233,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "display",
+   "matches": [
+    "Contents/Config-0-Partition",
+    "Contents/Config-1-Partition",
+    "Contents/Config-4-Partition"
+   ]
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files online/2017/516a7dc5_Body1.sldprt": {
+  "hdrs": 0,
+  "display": {
+   "faces": 8,
+   "union": {
+    "min": [
+     -0.013716000000000008,
+     0.0020319999999999965,
+     -0.012827000000000003
+    ],
+    "max": [
+     0.013715999999999997,
+     0.008889999999999999,
+     0.012827000000000003
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 8,
+    "faces": 8,
+    "box": {
+     "min": [
+      -0.013716000000000008,
+      0.0020319999999999965,
+      -0.012827000000000003
+     ],
+     "max": [
+      0.013715999999999997,
+      0.008889999999999999,
+      0.012827000000000003
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 80,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   },
+   "Contents/Config-1-Partition": {
+    "name": "Contents/Config-1-Partition",
+    "nativeFaces": 8,
+    "faces": 8,
+    "box": {
+     "min": [
+      -0.013716000000000008,
+      0.0020319999999999965,
+      -0.012827000000000003
+     ],
+     "max": [
+      0.013715999999999997,
+      0.008889999999999999,
+      0.012827000000000003
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 78,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": true
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "display",
+   "matches": [
+    "Contents/Config-0-Partition",
+    "Contents/Config-1-Partition"
+   ]
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files online/2017/afc71d14_Body2.sldprt": {
+  "hdrs": 0,
+  "display": {
+   "faces": 24,
+   "union": {
+    "min": [
+     -0.013716000000000008,
+     0,
+     -0.017907000000000003
+    ],
+    "max": [
+     0.013715999999999997,
+     0.002032,
+     0.017907
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 24,
+    "faces": 28,
+    "box": {
+     "min": [
+      -0.013716000000000008,
+      0,
+      -0.017907000000000003
+     ],
+     "max": [
+      0.013715999999999997,
+      0.002032,
+      0.017907
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 116,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-1-Partition": {
+    "name": "Contents/Config-1-Partition",
+    "nativeFaces": 24,
+    "faces": 28,
+    "box": {
+     "min": [
+      -0.013716000000000008,
+      0,
+      -0.017907000000000003
+     ],
+     "max": [
+      0.013715999999999997,
+      0.002032,
+      0.017907
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 113,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-0-Partition",
+   "by": "display",
+   "matches": [
+    "Contents/Config-0-Partition",
+    "Contents/Config-1-Partition"
+   ]
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files online/2024/03afebf4_Profilringe.SLDPRT": {
+  "hdrs": 2,
+  "display": {
+   "faces": 7,
+   "union": {
+    "min": [
+     0,
+     -0.007200000000000001,
+     -0.007200000000000001
+    ],
+    "max": [
+     0.009999999999999998,
+     0.007200000000000001,
+     0.007200000000000001
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-1-Partition": {
+    "name": "Contents/Config-1-Partition",
+    "nativeFaces": 7,
+    "faces": 11,
+    "box": {
+     "min": [
+      0,
+      -0.0085,
+      -0.0085
+     ],
+     "max": [
+      0.009999999999999998,
+      0.0085,
+      0.0085
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 120,
+    "gap": 0.0013,
+    "fitNative": true,
+    "fitExported": false
+   },
+   "Contents/Config-7-Partition": {
+    "name": "Contents/Config-7-Partition",
+    "nativeFaces": 7,
+    "faces": 11,
+    "box": {
+     "min": [
+      0,
+      -0.007200000000000001,
+      -0.007200000000000001
+     ],
+     "max": [
+      0.010000000000000009,
+      0.007200000000000001,
+      0.007200000000000001
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 119,
+    "gap": 1.0408340855860843e-17,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-7-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ },
+ "/home/user/sldprt-research-dump/test files online/2025/c613782b_Крепёжная-Планка.SLDPRT": {
+  "hdrs": 4,
+  "display": {
+   "faces": 13,
+   "union": {
+    "min": [
+     0.015058219085989366,
+     -0.040750000000000036,
+     -0.058249999999999816
+    ],
+    "max": [
+     0.018058219085989365,
+     0.050750000000000295,
+     -0.04174999999999983
+    ],
+    "missing": 0
+   },
+   "errors": []
+  },
+  "configs": {
+   "Contents/Config-0-Partition": {
+    "name": "Contents/Config-0-Partition",
+    "nativeFaces": 378,
+    "faces": 474,
+    "box": {
+     "min": [
+      -0.009941780914010545,
+      -0.02499999999999998,
+      -3.35
+     ],
+     "max": [
+      0.015058219085989366,
+      0.03500000000000025,
+      0
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 567,
+    "gap": 3.2917500000000004,
+    "fitNative": false,
+    "fitExported": false
+   },
+   "Contents/Config-1-Partition": {
+    "name": "Contents/Config-1-Partition",
+    "nativeFaces": 318,
+    "faces": 398,
+    "box": {
+     "min": [
+      -0.009941780914010545,
+      -0.02499999999999998,
+      -2.5
+     ],
+     "max": [
+      0.015058219085989366,
+      0.03500000000000025,
+      0.3500000000000001
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 479,
+    "gap": 2.4417500000000003,
+    "fitNative": false,
+    "fitExported": false
+   },
+   "Contents/Config-2-Partition": {
+    "name": "Contents/Config-2-Partition",
+    "nativeFaces": 777,
+    "faces": 980,
+    "box": {
+     "min": [
+      -0.009941780914010545,
+      -0.040750000000000036,
+      -6.35
+     ],
+     "max": [
+      0.01905821908598937,
+      0.07500000000000029,
+      0
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 1126,
+    "gap": 6.2917499999999995,
+    "fitNative": false,
+    "fitExported": false
+   },
+   "Contents/Config-3-Partition": {
+    "name": "Contents/Config-3-Partition",
+    "nativeFaces": 13,
+    "faces": 20,
+    "box": {
+     "min": [
+      0.015058219085989366,
+      -0.040750000000000036,
+      -0.058249999999999816
+     ],
+     "max": [
+      0.018058219085989365,
+      0.050750000000000295,
+      -0.04174999999999983
+     ]
+    },
+    "nanVerts": 0,
+    "ms": 280,
+    "gap": 0,
+    "fitNative": true,
+    "fitExported": false
+   }
+  },
+  "converter": {
+   "name": "Contents/Config-3-Partition",
+   "by": "Header2"
+  },
+  "done": true
+ }
+}

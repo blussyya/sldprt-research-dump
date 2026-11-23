@@ -1,0 +1,5 @@
+cylinders 2398 box centre on the axis (skipped) 0
+{
+  'sameSense=true': { n: 1735, near0_1deg: 1493, near180_1deg: 0, other: 242 },
+  'sameSense=false': { n: 663, near0_1deg: 0, near180_1deg: 540, other: 123 }
+}

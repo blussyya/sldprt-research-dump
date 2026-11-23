@@ -1,0 +1,4 @@
+spine intersection surfaces offset3368 x plane3367 chart 4
+poly points 49
+polyFn residual: max 4.42e-5 m at segment 47 ; over 1e-8: 21 of 240 null 0
+fitPoints threw intersection: corrector did not converge (3.6e-5 m)

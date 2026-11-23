@@ -30,7 +30,7 @@ That is 73 SLDPRT files in all. The corpus is in the
 | Boundary annotations nonzero / interior annotations zero | 41,010 / 41,010 and 71,037 / 71,037 |
 | Legacy mesh box equals the dimensions fixed before building ([EXP-066](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-09-22_v0.5-EXP066.md)) | 7 / 7 |
 | Legacy mesh box equals the geometry-matched 2022 model's (within 2e-5 m) | 22 / 22 |
-| Pre-2011 meshes read; face count equals the native body's ([EXP-077](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-03_v0.5-EXP077.md)) | chainwheel 189 / 189, plate4 14 / 14; SW2000-s01 has no solid and no faces |
+| Pre-2011 meshes read; face count equals the native body's ([EXP-077](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-03_v0.5-EXP077.md)) | chainwheel 189 / 189, plate4 14 / 14; SW2000-s01 has no solid and no faces |
 | PKWARE implode streams decoded with every input byte consumed | 3 / 3 |
 
 Corruption controls: a flipped CRC bit, a truncated OLE header, truncated OLE sectors, an invalid
@@ -60,7 +60,7 @@ default STEP now comes from the Parasolid body instead (next section); the mesh 
 ## Exact STEP export (B-rep)
 
 Against SolidWorks' own `model.step` of all 49 controlled models
-([EXP-076](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-03_v0.5-EXP076.md)):
+([EXP-076](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-03_v0.5-EXP076.md)):
 
 | check | result |
 |---|---|
@@ -72,7 +72,7 @@ Against SolidWorks' own `model.step` of all 49 controlled models
 | OpenCascade's volume equals ours to 1e-12 | 47 / 49; both misses are C20, where OpenCascade is the one off the closed form |
 
 On every real part with a solid, where no SolidWorks STEP exists
-([EXP-078](https://github.com/blussyya/sldprt-research-dump/blob/staging/knowledge/evidence/2026-10-04_v0.5-EXP078.md)):
+([EXP-078](https://github.com/blussyya/sldprt-research-dump/blob/main/knowledge/evidence/2026-10-04_v0.5-EXP078.md)):
 
 | check | result |
 |---|---|

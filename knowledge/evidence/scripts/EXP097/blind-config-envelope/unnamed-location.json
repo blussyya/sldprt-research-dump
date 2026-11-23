@@ -1,0 +1,134 @@
+[
+ {
+  "file": "0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+  "offset": 776891,
+  "faces": 342,
+  "dlLength": 777281,
+  "prevFaceBoundsAt": 772461,
+  "distFromPrevFace": 4430,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 390
+ },
+ {
+  "file": "1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT",
+  "offset": 35161,
+  "faces": 4,
+  "dlLength": 35551,
+  "prevFaceBoundsAt": 30216,
+  "distFromPrevFace": 4945,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 390
+ },
+ {
+  "file": "d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT",
+  "offset": 1343794,
+  "faces": 249,
+  "dlLength": 1344196,
+  "prevFaceBoundsAt": 1340225,
+  "distFromPrevFace": 3569,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 402
+ },
+ {
+  "file": "d8206ed0_J6_Flange_Adapter.SLDPRT",
+  "offset": 174487,
+  "faces": 34,
+  "dlLength": 174901,
+  "prevFaceBoundsAt": 166823,
+  "distFromPrevFace": 7664,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 414
+ },
+ {
+  "file": "8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT",
+  "offset": 39053,
+  "faces": 14,
+  "dlLength": 39443,
+  "prevFaceBoundsAt": 35400,
+  "distFromPrevFace": 3653,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 390
+ },
+ {
+  "file": "f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT",
+  "offset": 17779,
+  "faces": 17,
+  "dlLength": 18169,
+  "prevFaceBoundsAt": 14132,
+  "distFromPrevFace": 3647,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 390
+ },
+ {
+  "file": "2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT",
+  "offset": 12637,
+  "faces": 0,
+  "dlLength": 12979,
+  "prevFaceBoundsAt": null,
+  "distFromPrevFace": null,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 342
+ },
+ {
+  "file": "c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT",
+  "offset": 12637,
+  "faces": 0,
+  "dlLength": 12979,
+  "prevFaceBoundsAt": null,
+  "distFromPrevFace": null,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 342
+ },
+ {
+  "file": "d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT",
+  "offset": 12637,
+  "faces": 0,
+  "dlLength": 12979,
+  "prevFaceBoundsAt": null,
+  "distFromPrevFace": null,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 342
+ },
+ {
+  "file": "daa6e9e9_CR26-201-08.SLDPRT",
+  "offset": 1249544,
+  "faces": 296,
+  "dlLength": 1249906,
+  "prevFaceBoundsAt": 1240063,
+  "distFromPrevFace": 9481,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 362
+ },
+ {
+  "file": "Dekor.SLDPRT",
+  "offset": 1154896,
+  "faces": 375,
+  "dlLength": 1155310,
+  "prevFaceBoundsAt": 1149269,
+  "distFromPrevFace": 5627,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 414
+ },
+ {
+  "file": "Helical Bevel Gear.SLDPRT",
+  "offset": 535646,
+  "faces": 113,
+  "dlLength": 536060,
+  "prevFaceBoundsAt": 529974,
+  "distFromPrevFace": 5672,
+  "nextFaceBoundsAt": null,
+  "distToNextFace": null,
+  "tailAfterDL": 414
+ }
+]

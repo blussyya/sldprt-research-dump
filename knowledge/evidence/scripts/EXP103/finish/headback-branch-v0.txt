@@ -1,0 +1,3 @@
+part 82981f2a_head_back.sldprt resolve ok time 527.2 s
+intersection curves 292 | fitter max 9.67e-9 over 1e-8: 0 | dense max 8.95e-9 over 1e-8: 0 | unsettled samples 11228
+report maxError 1.14e-8 curve 1.14e-8 surface 9.94e-9
