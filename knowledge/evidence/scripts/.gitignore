@@ -1,0 +1,6 @@
+# Outputs over 4 MB that their scripts regenerate (see NOT_COMMITTED.md in each folder)
+EXP110/disprove/faces.jsonl
+EXP110/prove/out_corpus.jsonl
+EXP110/prove/out_merged.jsonl
+EXP112/disprove2/scan_headers.json
+__pycache__/

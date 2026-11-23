@@ -101,10 +101,10 @@ These come from the user and override any habit that conflicts with them.
   const resolved=P.resolve(M);                // fits intersections and blends
   ```
 
-## Where things stand (2026-11-22)
+## Where things stand (2026-11-23)
 
-- 134 of the 141 online-sample files resolve. 5 have no partition stream, so there's no body to
-  read. `2f121983` still stops, and `f666f342` (head_face) doesn't finish in 2,400 s. head_back
+- 134 of the 136 real online-sample parts resolve. The other 5 of the 141 files, in `not-a-part/`,
+  aren't SolidWorks files (4 are STEP text, 1 undecodable). `2f121983` still stops, and `f666f342` (head_face) doesn't finish in 2,400 s. head_back
   (`82981f2a`) resolves in about 14 minutes.
 - 130 resolve with every fit within 1e-8 m. Since EXP-103 the fitter checks 8 more points per
   interval and counts a pinned end's gap to its vertex. Over the bar:
@@ -114,9 +114,22 @@ These come from the user and override any habit that conflicts with them.
   - `82981f2a`: surfaces 1.54e-8 m, four blends whose spines run to a T limit. Within a few tenths
     of a micron of the T point the exact spine can't be found to 1e-8 m, so the number isn't a
     measured accuracy either way (NQ-065).
-- The converter's `dev` has all of this. The tests pass: 83, 2 skipped.
+- The converter's `main` has all of this (`dev` is merged and deleted; work goes straight to
+  `main` now). The tests pass: 83, 2 skipped.
+- Every experiment through EXP-112 has had its blind prove and disprove checks, and the format
+  pages carry the results. The checks of 2026-11-23 corrected EXP-099 (994 records without an
+  id block, not 56), EXP-105 (its 1e-9 m bar was below float32 rounding) and EXP-110 (+128 isn't
+  constant; the cone is narrower than the normals), and found two display record layouts the
+  converter can't read metadata from (4,622 faces, NQ-071).
 
-Verified format facts from EXP-086, each having survived a blind check:
+Verified format facts, each having survived a blind check (more in the format pages):
+
+- The modern container is a ZIP archive in disguise. Undo the disguise and Python's zipfile and
+  unzip read all 178 modern files (EXP-112).
+- A display edge's type tag is its native curve class; Block3 marks smooth edge uses, open
+  boundaries and a per-face flag (EXP-108, EXP-109, EXP-088).
+- The bounding record's tail holds a plane flag and a normal cone about the outward normals
+  (EXP-110).
 
 - An OFFSET_SURF lies along its basis's normal, reversed by a `-` sense. Which sense flag it reads
   isn't settled, since they always agree in the sample.
@@ -124,18 +137,26 @@ Verified format facts from EXP-086, each having survived a blind check:
 
 ## Next, in order
 
-1. `3c4752f1`: two plane × blend edges where the blend touches the plane (another touching end).
-2. NQ-067: the vertices far outside their tolerance on `0739c559` and `f0b9a118`. Check our
+Part files first; assemblies and drawings wait until these are done (the user's call, 2026-11-23).
+
+1. NQ-071: read face IDs and tags in the 140-byte and the SolidWorks 2025/2026 record layouts
+   (4,622 faces). Newer files lose their display metadata until this is done.
+2. NQ-073: four cone faces in "distributor main boss rev a" whose display normals are 62 degrees
+   from the converter's cone normal. Rule out a wrong cone in exact STEP.
+3. NQ-072: boundary cycles on seam faces (34 faces give up).
+4. `3c4752f1`: two plane × blend edges where the blend touches the plane (another touching end).
+5. NQ-067: the vertices far outside their tolerance on `0739c559` and `f0b9a118`. Check our
    surface evaluation at those points before blaming the file.
-3. NQ-065: accuracy within about 1 µm of a T limit (head_back's four blends). It needs the nested
+6. NQ-065: accuracy within about 1 µm of a T limit (head_back's four blends). It needs the nested
    spines fitted much tighter than 1e-10 m.
-4. `2f121983`: a blend spine on two offset swept surfaces. The foot jumps near the start. It now
+7. `2f121983`: a blend spine on two offset swept surfaces. The foot jumps near the start. It now
    stops with "no foot ... settled (8.7e-4 m off its normal)"; whether that's the same jump isn't
    checked.
-5. NQ-069: `f666f342` (head_face) doesn't finish.
-6. Vertices 0.1 to 1 mm off thread and degree-1 surfaces, inside the knot range, in 5 parts
+8. NQ-069: `f666f342` (head_face) doesn't finish.
+9. Vertices 0.1 to 1 mm off thread and degree-1 surfaces, inside the knot range, in 5 parts
    (`d799e9a3`, `073482d3`, `0d68d32d`, `db8a97e2`, `f0b9a118`).
-7. NQ-070: the dense check makes parts with many intersection curves 2.6 to 3.3 times slower.
+10. NQ-070: the dense check makes parts with many intersection curves 2.6 to 3.3 times slower.
 
-Also still open: NQ-057 (the B-rep triangulator on 32 parts), NQ-066 (edge 844's vertex pair) and
-NQ-068 (gaps at intersection-edge ends).
+Also still open: NQ-057 (the B-rep triangulator on 32 parts), NQ-066 (edge 844's vertex pair),
+NQ-068 (gaps at intersection-edge ends), NQ-074 (bounds word +100 and the cone cosine), and the
+format remainders in NEXT_QUESTIONS' queue table (NQ-031, 032, 044, 060, 062 to 064).

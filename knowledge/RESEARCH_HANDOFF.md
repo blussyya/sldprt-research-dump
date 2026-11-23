@@ -1,5 +1,20 @@
 # Research Handoff
 
+## Checkpoint — 2026-11-23, blind checks of EXP-099 to EXP-112
+
+New here? Read [START_HERE.md](START_HERE.md) first.
+
+Every experiment through EXP-112 now has blind prove and disprove checks. EXP-108, EXP-109 and
+EXP-111 had them on 2026-11-09, but their summaries still said otherwise and the agents' scripts
+weren't saved; the summaries are corrected. Seven new agents checked EXP-099, EXP-105, EXP-110 and
+EXP-112 (scripts in each `prove/` and `disprove/` folder). Corrections: EXP-099's no-id-block
+records are 994 in 21 parts, not 56 in 3; EXP-105's 1e-9 m bar was below float32 rounding; EXP-110's
++128 isn't constant and its cone is narrower than the normals; EXP-112 holds, and two standard ZIP
+readers read every modern file once the disguise is undone. New: two display record layouts the
+converter can't read metadata from (4,622 faces), and four cone faces whose normals disagree with
+the converter. The experiment log covers EXP-099 to EXP-111, and the format pages are up to date.
+New questions NQ-071 to NQ-074.
+
 ## Checkpoint — 2026-11-22, EXP-103 (dense fit check, on converter `dev`)
 
 New here? Read [START_HERE.md](START_HERE.md) first; it has the full state and the next steps.
@@ -578,3 +593,5 @@ Per instruction, this handoff does not designate one of these as an in-progress 
   the work-in-progress branches. Edge 826 and edge 844 on head_back are fixed. A pinned end's gap
   now counts, which takes `0739c559` and `f0b9a118` over the bar and out of exact STEP. Next is in
   START_HERE.md.
+- 2026-11-23: blind checks of EXP-099, EXP-105, EXP-110 and EXP-112; log, queue and format pages
+  caught up. Next is in START_HERE.md, part files first (NQ-071 at the top).
