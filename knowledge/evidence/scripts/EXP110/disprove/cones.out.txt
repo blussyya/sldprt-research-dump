@@ -1,0 +1,78 @@
+
+===== modern A+B+C: 19149 faces, 3307 with a104=a108=1, in 27 files
+by layout: {"A":3179,"B":26,"C":102}
+|v|-1: n 3307 min 0.000e+0 p50 1.257e-8 max 4.081e-8
+s: n 3307 min 7.084e-1 p50 9.598e-1 max 1.000e+0 | s < 1/sqrt2: 0 | s > 1: 0
+margin = min(n.v) - s: n 3307 min -1.110e-1 p50 -1.324e-3 max 2.971e-8
+  margin < -1e-6 (some vertex normal outside the cone): 2501 | < -1e-3: 1689 | < -1e-2: 1191
+  margin > +1e-6 (s below cos of the largest angle): 0 | > 1e-3: 0
+  |margin| <= 1e-6: 806
+   worst-in: test files online/2019/e8c40c25_psu.SLDPRT#121 tag 4004 s 0.713174 min(n.v) 0.602183 meshCone 47.270 deg acos(s) 44.506 deg vc 76 uniqN 38
+   worst-in: test files online/2019/e8c40c25_psu.SLDPRT#129 tag 4004 s 0.713427 min(n.v) 0.605052 meshCone 47.270 deg acos(s) 44.486 deg vc 94 uniqN 48
+   worst-in: test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#153 tag 4006 s 0.713318 min(n.v) 0.605242 meshCone 49.101 deg acos(s) 44.494 deg vc 56 uniqN 28
+   worst-in: test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#115 tag 4006 s 0.713318 min(n.v) 0.605242 meshCone 49.100 deg acos(s) 44.494 deg vc 56 uniqN 29
+   worst-in: test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#91 tag 4006 s 0.713318 min(n.v) 0.605242 meshCone 49.100 deg acos(s) 44.494 deg vc 57 uniqN 30
+   worst-in: test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#128 tag 4006 s 0.713318 min(n.v) 0.605242 meshCone 49.100 deg acos(s) 44.494 deg vc 57 uniqN 30
+   worst-in: test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#104 tag 4006 s 0.713318 min(n.v) 0.605242 meshCone 49.100 deg acos(s) 44.494 deg vc 56 uniqN 29
+   worst-in: test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#140 tag 4006 s 0.713318 min(n.v) 0.605242 meshCone 49.100 deg acos(s) 44.494 deg vc 56 uniqN 29
+angle v to smallest mesh-normal cone axis (deg): n 3307 min 0.000e+0 p50 5.316e-2 max 1.292e+1
+angle v to mean mesh normal (deg): n 3307 min 0.000e+0 p50 9.435e-1 max 1.950e+1
+smallest-cone fit failed (set to 180 deg) on 7 faces of the whole corpus
+acos(s) - smallest mesh-cone half-angle (deg): n 3307 min -6.225e+0 p50 -1.945e-1 max 7.939e+0
+CONTROL random v: angle to stored v (deg) n 3307 min 1.045e+0 p50 9.090e+1 max 1.785e+2
+PART4 files with any cone 27, without 128
+   fileHasCones 40-45 1,1 275
+   fileHasCones 45-50 0,0 137
+   fileHasCones 45-50 1,1 604
+   fileHasCones <40 1,1 2427
+   fileHasCones >=50 0,0 835
+   fileHasCones >=50 1,1 1
+   fileNoCones 40-45 0,1 238
+   fileNoCones 45-50 0,0 3
+   fileNoCones 45-50 0,1 1093
+   fileNoCones <40 0,1 2289
+   fileNoCones >=50 0,0 42
+   fileNoCones >=50 0,1 1590
+PART4 non-planar faces with mesh cone < 40 deg but no stored cone, in files that store cones: 0 in 0 files
+faces with a stored cone whose mesh cone is over 45.5 deg: 140 test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT#53 45.98 s 0.727969765663147 | test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT#56 45.98 s 0.7279229760169983 | test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT#76 45.93 s 0.7141358256340027 | test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT#217 46.01 s 0.730798602104187 | test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT#234 46.01 s 0.7156730890274048
+no-cone files, non-planar faces: mesh cone (deg) of (0,0) faces: n 45 min 4.500e+1 p50 1.725e+2 max 1.800e+2 | of (0,1) faces: n 5210 min 7.331e-3 p50 4.500e+1 max 1.800e+2
+cone files, non-planar faces without a cone (all (0,0)?): mesh cone (deg) n 972 min 4.500e+1 p50 9.003e+1 max 1.800e+2 | (0,1) non-planar in cone files: 0
+planar (mesh) faces with a stored cone: 0
+
+===== legacy oleA+oleB: 1698 faces, 30 with a104=a108=1, in 5 files
+by layout: {"oleB":4,"oleA":26}
+|v|-1: n 30 min 4.407e-10 p50 1.512e-8 max 2.820e-8
+s: n 30 min 7.775e-1 p50 9.668e-1 max 9.993e-1 | s < 1/sqrt2: 0 | s > 1: 0
+margin = min(n.v) - s: n 30 min -5.751e-2 p50 -8.900e-4 max 4.726e-9
+  margin < -1e-6 (some vertex normal outside the cone): 26 | < -1e-3: 13 | < -1e-2: 11
+  margin > +1e-6 (s below cos of the largest angle): 0 | > 1e-3: 0
+  |margin| <= 1e-6: 4
+   worst-in: test files online/2014/300f9732_Carter2019.SLDPRT#49 tag null s 0.777477 min(n.v) 0.719972 meshCone 43.000 deg acos(s) 38.970 deg vc 16 uniqN 7
+   worst-in: test files online/2014/300f9732_Carter2019.SLDPRT#58 tag null s 0.777477 min(n.v) 0.719972 meshCone 43.000 deg acos(s) 38.970 deg vc 16 uniqN 7
+   worst-in: test files online/2014/300f9732_Carter2019.SLDPRT#48 tag null s 0.777477 min(n.v) 0.719972 meshCone 43.000 deg acos(s) 38.970 deg vc 16 uniqN 7
+   worst-in: test files online/2014/300f9732_Carter2019.SLDPRT#57 tag null s 0.777477 min(n.v) 0.719972 meshCone 43.000 deg acos(s) 38.970 deg vc 16 uniqN 7
+   worst-in: test files online/2011/6ff6c243_通气塞.SLDPRT#11 tag null s 0.791964 min(n.v) 0.744402 meshCone 30.000 deg acos(s) 37.631 deg vc 72 uniqN 25
+   worst-in: test files online/2014/68cd51b6_20190309-0049.SLDPRT#24 tag null s 0.807833 min(n.v) 0.766153 meshCone 39.278 deg acos(s) 36.115 deg vc 16 uniqN 7
+   worst-in: test files online/2014/68cd51b6_20190309-0049.SLDPRT#12 tag null s 0.807833 min(n.v) 0.766153 meshCone 39.278 deg acos(s) 36.115 deg vc 16 uniqN 7
+   worst-in: test files online/2014/68cd51b6_20190309-0049.SLDPRT#23 tag null s 0.807833 min(n.v) 0.766153 meshCone 39.278 deg acos(s) 36.115 deg vc 16 uniqN 7
+angle v to smallest mesh-normal cone axis (deg): n 30 min 0.000e+0 p50 3.611e-2 max 1.193e+1
+angle v to mean mesh normal (deg): n 30 min 0.000e+0 p50 3.823e+0 max 1.193e+1
+smallest-cone fit failed (set to 180 deg) on 7 faces of the whole corpus
+acos(s) - smallest mesh-cone half-angle (deg): n 30 min -4.030e+0 p50 -1.261e-1 max 7.631e+0
+CONTROL random v: angle to stored v (deg) n 30 min 5.872e+0 p50 7.338e+1 max 1.605e+2
+PART4 files with any cone 5, without 30
+   fileHasCones 40-45 1,1 4
+   fileHasCones 45-50 0,0 3
+   fileHasCones <40 1,1 26
+   fileHasCones >=50 0,0 28
+   fileNoCones 40-45 0,1 93
+   fileNoCones 45-50 0,0 5
+   fileNoCones 45-50 0,1 196
+   fileNoCones <40 0,1 199
+   fileNoCones >=50 0,0 13
+   fileNoCones >=50 0,1 473
+PART4 non-planar faces with mesh cone < 40 deg but no stored cone, in files that store cones: 0 in 0 files
+faces with a stored cone whose mesh cone is over 45.5 deg: 0 
+no-cone files, non-planar faces: mesh cone (deg) of (0,0) faces: n 18 min 4.500e+1 p50 1.725e+2 max 1.787e+2 | of (0,1) faces: n 961 min 2.534e-1 p50 4.946e+1 max 1.800e+2
+cone files, non-planar faces without a cone (all (0,0)?): mesh cone (deg) n 31 min 4.500e+1 p50 1.731e+2 max 1.800e+2 | (0,1) non-planar in cone files: 0
+planar (mesh) faces with a stored cone: 0

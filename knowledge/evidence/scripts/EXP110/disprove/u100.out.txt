@@ -1,0 +1,157 @@
+(a) per file: faces, distinct u100, distinct hi16, distinct lo16, u100 unique per face?
+  oleB faces 6 distinct 6 hi 6 lo 1  test files online/2010/065f38b0_等径四节弯头-4.SLDPRT
+  oleB faces 7 distinct 7 hi 7 lo 1  test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT
+  A faces 4 distinct 4 hi 4 lo 1  test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT
+  A faces 3 distinct 3 hi 3 lo 1  test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT
+  A faces 8 distinct 8 hi 8 lo 2  test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT
+  A faces 8 distinct 8 hi 8 lo 2  test files online/2017/516a7dc5_Body1.sldprt
+  A faces 2512 distinct 1 hi 1 lo 1  test files online/2018/d2515121_Ecran_128x32oled.SLDPRT  value 000f423f
+  A faces 6 distinct 6 hi 6 lo 1  test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT
+  A faces 8 distinct 8 hi 8 lo 1  test files online/2019/27377fd2_FE-00006-06.SLDPRT
+  A faces 103 distinct 1 hi 1 lo 1  test files online/2019/8cd79ff5_1ESxx.SLDPRT  value 000f423f
+  A faces 12 distinct 12 hi 12 lo 3  test files online/2020/9494d959_27_20_4.SLDPRT
+  A faces 671 distinct 1 hi 1 lo 1  test files online/2021/85aabbde_84T Gear.SLDPRT  value 000f423f
+  A faces 295 distinct 1 hi 1 lo 1  test files online/2021/916d4a0a_36T Gear.SLDPRT  value 000f423f
+  A faces 135 distinct 1 hi 1 lo 1  test files online/2021/bc3292d7_12T Gear.SLDPRT  value 000f423f
+  A faces 399 distinct 1 hi 1 lo 1  test files online/2021/eb0b2a21_60T Gear.SLDPRT  value 000f423f
+  A faces 12 distinct 12 hi 12 lo 3  test files online/2022/40e79d45_Fins.SLDPRT
+  A faces 9 distinct 9 hi 9 lo 4  test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT
+  A faces 10 distinct 10 hi 10 lo 1  test files online/2022/84226163_Fin.SLDPRT
+  A faces 11 distinct 11 hi 11 lo 3  test files online/2022/a0fc2e29_Vertical Spar.SLDPRT
+  A faces 10 distinct 10 hi 10 lo 2  test files online/2022/dc265ce1_Fin.SLDPRT
+  A faces 11 distinct 11 hi 11 lo 1  test files online/2022/dd156283_637Z flanzi bearing.SLDPRT
+  A faces 693 distinct 409 hi 409 lo 31  test files online/2023/03764871_BME280.SLDPRT
+  A faces 6 distinct 6 hi 6 lo 1  test files online/2023/d2f7f9bd_iman.SLDPRT
+  A faces 404 distinct 399 hi 399 lo 7  test files online/2023/ef1d5cfe_DS3231.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 1  test files online/2024/03afebf4_Profilringe.SLDPRT
+  A faces 4 distinct 4 hi 4 lo 1  test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT
+  A faces 11 distinct 11 hi 11 lo 1  test files online/2024/37663d8a_Gasket For M12.SLDPRT
+  A faces 4 distinct 4 hi 4 lo 1  test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT
+  A faces 961 distinct 1 hi 1 lo 1  test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT  value 000f423f
+  A faces 8 distinct 8 hi 8 lo 1  test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT
+  C faces 10 distinct 10 hi 10 lo 1  test files online/2025/e8f16581_Engine Base.SLDPRT
+  C faces 12 distinct 12 hi 12 lo 2  test files online/2026/4d85599e_base-M4.SLDPRT
+  A faces 6 distinct 6 hi 6 lo 1  test files new/SW2022/C00_cube_10mm/model.SLDPRT
+  A faces 6 distinct 6 hi 6 lo 1  test files new/SW2022/C01_cube_20mm/model.SLDPRT
+  A faces 6 distinct 6 hi 6 lo 1  test files new/SW2022/C02_cube_translated/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files new/SW2022/C06_cube_hole_moved/model.SLDPRT
+  A faces 8 distinct 8 hi 8 lo 2  test files new/SW2022/C07_cube_two_holes/model.SLDPRT
+  A faces 8 distinct 8 hi 8 lo 2  test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT
+  A faces 11 distinct 11 hi 11 lo 2  test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT
+  A faces 2 distinct 2 hi 2 lo 1  test files new/SW2022/C13_cone/model.SLDPRT
+  A faces 1 distinct 1 hi 1 lo 1  test files new/SW2022/C14_sphere/model.SLDPRT  value 12330068
+  A faces 1 distinct 1 hi 1 lo 1  test files new/SW2022/C15_torus/model.SLDPRT  value 14130068
+  A faces 6 distinct 6 hi 6 lo 1  test files new/SW2022/C16_loft_spline/model.SLDPRT
+  A faces 3 distinct 3 hi 3 lo 1  test files new/SW2022/C17_torus_quarter/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files new/SW2022/C18_cube_split_line/model.SLDPRT
+  A faces 4 distinct 4 hi 4 lo 1  test files new/SW2022/C19_half_cylinder/model.SLDPRT
+  A faces 8 distinct 8 hi 8 lo 2  test files new/SW2022/C20_cylinders_crossed/model.SLDPRT
+  A faces 4 distinct 4 hi 4 lo 2  test files new/SW2022/C21_cylinder_fillet/model.SLDPRT
+  A faces 6 distinct 6 hi 6 lo 1  test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT
+  A faces 6 distinct 6 hi 6 lo 1  test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT
+  A faces 8 distinct 8 hi 8 lo 2  test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT
+  oleA faces 6 distinct 6 hi 6 lo 1  test files new/SW2011/C00_cube_10mm/model.SLDPRT
+  oleA faces 6 distinct 6 hi 6 lo 1  test files new/SW2011/C01_cube_20mm/model.SLDPRT
+  oleA faces 6 distinct 6 hi 6 lo 1  test files new/SW2011/C02_cube_translated/model.SLDPRT
+  oleA faces 7 distinct 7 hi 7 lo 2  test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT
+  oleA faces 7 distinct 7 hi 7 lo 2  test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT
+  oleA faces 7 distinct 7 hi 7 lo 2  test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT
+  oleA faces 7 distinct 7 hi 7 lo 2  test files new/SW2011/C06_cube_hole_moved/model.SLDPRT
+  oleA faces 8 distinct 8 hi 8 lo 2  test files new/SW2011/C07_cube_two_holes/model.SLDPRT
+  oleA faces 8 distinct 8 hi 8 lo 2  test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT
+  oleA faces 7 distinct 7 hi 7 lo 2  test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT
+  oleA faces 11 distinct 11 hi 11 lo 2  test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT
+  oleA faces 7 distinct 7 hi 7 lo 2  test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT
+  oleA faces 7 distinct 7 hi 7 lo 2  test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT
+  oleA faces 2 distinct 2 hi 2 lo 1  test files new/SW2011/C13_cone/model.SLDPRT
+  oleA faces 1 distinct 1 hi 1 lo 1  test files new/SW2011/C14_sphere/model.SLDPRT  value 770a0068
+  oleA faces 1 distinct 1 hi 1 lo 1  test files new/SW2011/C15_torus/model.SLDPRT  value 78b60068
+  oleA faces 6 distinct 6 hi 6 lo 1  test files new/SW2011/C16_loft_spline/model.SLDPRT
+  oleA faces 3 distinct 3 hi 3 lo 1  test files new/SW2011/C17_torus_quarter/model.SLDPRT
+  oleA faces 7 distinct 7 hi 7 lo 2  test files new/SW2011/C18_cube_split_line/model.SLDPRT
+  oleA faces 4 distinct 4 hi 4 lo 1  test files new/SW2011/C19_half_cylinder/model.SLDPRT
+  oleA faces 8 distinct 8 hi 8 lo 2  test files new/SW2011/C20_cylinders_crossed/model.SLDPRT
+  oleA faces 4 distinct 4 hi 4 lo 2  test files new/SW2011/C21_cylinder_fillet/model.SLDPRT
+  oleA faces 6 distinct 6 hi 6 lo 1  test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT
+  oleA faces 2 distinct 2 hi 2 lo 1  test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT
+  oleA faces 7 distinct 7 hi 7 lo 2  test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT
+  A faces 6 distinct 6 hi 6 lo 1  test files original/controlled/C00_cube_10mm/model.SLDPRT
+  A faces 6 distinct 6 hi 6 lo 1  test files original/controlled/C01_cube_20mm/model.SLDPRT
+  A faces 6 distinct 6 hi 6 lo 1  test files original/controlled/C02_cube_translated/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files original/controlled/C04_cube_hole_5mm/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files original/controlled/C05_cube_hole_3mm/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files original/controlled/C06_cube_hole_moved/model.SLDPRT
+  A faces 8 distinct 8 hi 8 lo 3  test files original/controlled/C07_cube_two_holes/model.SLDPRT
+  A faces 8 distinct 8 hi 8 lo 3  test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT
+  A faces 11 distinct 11 hi 11 lo 2  test files original/controlled/C10_cube_shell_1mm/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files original/controlled/C11_cube_hole_4mm/model.SLDPRT
+  A faces 7 distinct 7 hi 7 lo 2  test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT
+  A faces 6 distinct 6 hi 6 lo 1  test files original/cube.SLDPRT
+  files where u100 is unique per face: 181; not unique: 9; one value for every face: 11
+
+(b) SW2022 controlled models: rawId native-type loops u100 (hi.lo)
+  C00_cube_10mm: 90 plane/1 0ae0.0068 | 88 plane/1 0adc.0068 | 86 plane/1 0ad8.0068 | 84 plane/1 0ad4.0068 | 1 plane/1 0a70.0068 | 48 plane/1 0ac6.0068
+  C01_cube_20mm: 90 plane/1 1127.0068 | 88 plane/1 1123.0068 | 86 plane/1 111f.0068 | 84 plane/1 111b.0068 | 1 plane/1 10b7.0068 | 48 plane/1 110d.0068
+  C02_cube_translated: 90 plane/1 1767.0068 | 88 plane/1 1763.0068 | 86 plane/1 175f.0068 | 84 plane/1 175b.0068 | 1 plane/1 16f7.0068 | 48 plane/1 174d.0068
+  C03_cube_fillet_1mm: 90 plane/1 7b89.0068 | 88 plane/1 7b85.0068 | 86 plane/1 7b81.006a | 84 plane/1 7b7d.006a | 1 plane/1 7b19.006a | 48 plane/1 7b6f.006a | 176 cylinder/1 7c00.006a
+  C04_cube_hole_5mm: 90 plane/1 833d.0068 | 88 plane/1 8339.0068 | 86 plane/1 8335.0068 | 84 plane/1 8331.0068 | 1 plane/2 196d.006f | 48 plane/2 196b.006f | 180 cylinder/2 19f7.006f
+  C05_cube_hole_3mm: 90 plane/1 de10.0068 | 88 plane/1 de0c.0068 | 86 plane/1 de08.0068 | 84 plane/1 de04.0068 | 1 plane/2 dda0.006e | 48 plane/2 ddf6.006e | 156 cylinder/2 df7d.006e
+  C06_cube_hole_moved: 90 plane/1 e68e.0068 | 88 plane/1 e68a.0068 | 86 plane/1 e686.0068 | 84 plane/1 e682.0068 | 1 plane/2 e61e.006e | 48 plane/2 e674.006e | 156 cylinder/2 e7fb.006e
+  C07_cube_two_holes: 90 plane/1 ef0c.0068 | 88 plane/1 ef08.0068 | 86 plane/1 ef04.0068 | 84 plane/1 ef00.0068 | 1 plane/3 ee9c.006e | 48 plane/3 eef2.006e | 186 cylinder/2 f178.006e | 168 cylinder/2 f1b7.006e
+  C08_cube_second_hole_modified: 90 plane/1 f9b5.0068 | 88 plane/1 f9b1.0068 | 86 plane/1 f9ad.0068 | 84 plane/1 f9a9.0068 | 1 plane/3 f945.006e | 48 plane/3 f99b.006e | 186 cylinder/2 fc22.006e | 168 cylinder/2 fc61.006e
+  C09_cube_chamfer_1mm: 90 plane/1 30a5.0068 | 88 plane/1 30a1.0068 | 86 plane/1 309d.006a | 84 plane/1 3099.006a | 1 plane/1 3035.006a | 48 plane/1 308b.006a | 176 plane/1 311d.006a
+  C10_cube_shell_1mm: 1 plane/2 a800.006a | 90 plane/1 a870.0068 | 88 plane/1 a86c.0068 | 86 plane/1 a868.0068 | 84 plane/1 a864.0068 | 48 plane/1 a856.0068 | 179 plane/1 a913.006a | 183 plane/1 a915.006a | 187 plane/1 a918.006a | 191 plane/1 a91c.006a | 198 plane/1 a91e.006a
+  C11_cube_hole_4mm: 90 plane/1 045e.0068 | 88 plane/1 045a.0068 | 86 plane/1 0456.0068 | 84 plane/1 0452.0068 | 1 plane/2 03ee.006e | 48 plane/2 0444.006e | 156 cylinder/2 05cb.006e
+  C12_cube_fillet_1mm_edge2: 90 plane/1 2dda.006a | 88 plane/1 2dd6.006a | 86 plane/1 2dd2.0068 | 84 plane/1 2dce.0068 | 1 plane/1 2d6a.006a | 48 plane/1 2dc0.006a | 176 cylinder/1 2e73.006a
+  C13_cone: 43 cone/2 0df0.0068 | 38 plane/1 0de7.0068
+  C14_sphere: 34 sphere/0 1233.0068
+  C15_torus: 12 torus/0 1413.0068
+  C16_loft_spline: 136 plane/1 c3bf.006c | 23 plane/1 c3b2.006c | 39 bspline/1 c32e.006c | 42 bspline/1 c32a.006c | 45 bspline/1 c327.006c | 48 bspline/1 c329.006c
+  C17_torus_quarter: 12 torus/2 162b.0068 | 1 plane/1 1620.0068 | 20 plane/1 163b.0068
+  C18_cube_split_line: 148 plane/1 6cd7.006c | 90 plane/1 67f0.006c | 88 plane/1 67ec.0068 | 86 plane/1 67e8.006c | 84 plane/1 67e4.0068 | 1 plane/1 6780.006c | 48 plane/1 67d6.0068
+  C19_half_cylinder: 52 cylinder/1 6746.0068 | 50 plane/1 6742.0068 | 1 plane/1 6708.0068 | 30 plane/1 673a.0068
+  C20_cylinders_crossed: 27 cylinder/2 6b23.006c | 1 plane/1 6b05.0068 | 136 plane/1 6d05.006c | 123 cylinder/2 6d53.006c | 50 plane/1 6b45.0068 | 90 cylinder/2 6d37.006c | 128 cylinder/2 6ce3.006c | 133 plane/1 6cc5.006c
+  C21_cylinder_fillet: 27 cylinder/2 d2ce.006a | 1 plane/1 d2b0.006a | 18 plane/1 d2ca.0068 | 73 torus/2 d330.006a
+  C23_cube_sw2011_to_2022: 85 plane/1 a9f9.0068 | 83 plane/1 a9f5.0068 | 81 plane/1 a9f1.0068 | 79 plane/1 a9ed.0068 | 1 plane/1 a989.0068 | 43 plane/1 a9be.0068
+  C24_cube_sw2022_native: 90 plane/1 7541.0068 | 88 plane/1 753d.0068 | 86 plane/1 7539.0068 | 84 plane/1 7535.0068 | 1 plane/1 74d1.0068 | 48 plane/1 7527.0068
+  SW2022: 27 cylinder/2 77bd.007e | 1 plane/2 779f.007e | 18 plane/2 77b9.007c | 66 cylinder/2 be46.007e | 71 plane/2 be28.007c | 115 cylinder/2 cd60.007c | 175 torus/2 eea3.007e | 188 torus/2 eeb6.007e
+
+(c) same face across saves, matched by stored bounds
+  test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT
+    vs test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT
+    faces 6/6, matched 6, u100 equal 6, lo16 equal 6, hi16 equal 6, rest of record + vertex count equal 6; e.g. a9f90068/a9f90068 a9f50068/a9f50068 a9f10068/a9f10068 a9ed0068/a9ed0068
+  test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT
+    vs test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT
+    faces 6/6, matched 6, u100 equal 0, lo16 equal 6, hi16 equal 0, rest of record + vertex count equal 1; e.g. 75410068/a9f90068 753d0068/a9f50068 75390068/a9f10068 75350068/a9ed0068
+  test files online/2013/82981f2a_head_back.sldprt
+    vs test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt
+    faces 532/535, matched 498, u100 equal 0, lo16 equal 0, hi16 equal 0, rest of record + vertex count equal 35; e.g. fc49c120/f6adc310 9733c11b/9191c30b 9734c11b/9192c30b 9738c11b/9196c30b
+  test files new/SW2011/C00_cube_10mm/model.SLDPRT
+    vs test files new/SW2022/C00_cube_10mm/model.SLDPRT
+    faces 6/6, matched 6, u100 equal 0, lo16 equal 6, hi16 equal 0, rest of record + vertex count equal 1; e.g. 027e0068/0ae00068 027a0068/0adc0068 02760068/0ad80068 02720068/0ad40068
+  test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT
+    vs test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT
+    faces 7/7, matched 7, u100 equal 0, lo16 equal 7, hi16 equal 0, rest of record + vertex count equal 0; e.g. 13de0068/7b890068 13da0068/7b850068 13d6006a/7b81006a 13d2006a/7b7d006a
+  test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT
+    vs test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT
+    faces 7/7, matched 7, u100 equal 0, lo16 equal 4, hi16 equal 0, rest of record + vertex count equal 0; e.g. 1c85006c/196d006f 1c7d006c/196b006f 1b7a0068/833d0068 1b760068/83390068
+  test files new/SW2011/C07_cube_two_holes/model.SLDPRT
+    vs test files new/SW2022/C07_cube_two_holes/model.SLDPRT
+    faces 8/8, matched 8, u100 equal 0, lo16 equal 4, hi16 equal 0, rest of record + vertex count equal 0; e.g. 33b8006c/ee9c006e 33b0006c/eef2006e 31de0068/ef0c0068 31da0068/ef080068
+  test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT
+    vs test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT
+    faces 11/11, matched 11, u100 equal 0, lo16 equal 11, hi16 equal 0, rest of record + vertex count equal 1; e.g. 4b05006a/a800006a 4b750068/a8700068 4b710068/a86c0068 4b6d0068/a8680068
+  test files new/SW2011/C13_cone/model.SLDPRT
+    vs test files new/SW2022/C13_cone/model.SLDPRT
+    faces 2/2, matched 2, u100 equal 0, lo16 equal 2, hi16 equal 0, rest of record + vertex count equal 0; e.g. 72c70068/0df00068 72be0068/0de70068
+  test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT
+    vs test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT
+    faces 7/7, matched 7, u100 equal 7, lo16 equal 7, hi16 equal 7, rest of record + vertex count equal 7; e.g. 833d0068/833d0068 83390068/83390068 83350068/83350068 83310068/83310068

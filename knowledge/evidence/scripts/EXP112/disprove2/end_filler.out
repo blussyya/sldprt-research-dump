@@ -1,0 +1,4 @@
+{'filler_end_blocks': 2177, 'same_count': 2175, 'same_cdoff': 0, 'same_cdsize': 0, 'before_real': 445, 'after_real': 1732, 'clen_0': 2177}
+by (cdoff==real, count==real): {('cdoff==real', False, 'count==real', True): 2175, ('cdoff==real', False, 'count==real', False): 2}
+miss = position - (8+cdoff+cdsize): min 21699 max 4181001 median 124718 abs<=64: 0 abs<=8: 0 ==0: 0
+misses with base 0 instead (position - (cdoff+cdsize)) == 0: 0

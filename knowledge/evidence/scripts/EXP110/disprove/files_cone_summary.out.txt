@@ -1,0 +1,55 @@
+{"lay":"oleB","n":13,"cones":0,"c00":7,"c01":6,"mcNull":0} test files online/2007/05187d94_ChainCL_In.SLDPRT
+{"lay":"oleB","n":6,"cones":1,"c00":2,"c01":3,"mcNull":0} test files online/2010/065f38b0_等径四节弯头-4.SLDPRT
+{"lay":"oleB","n":7,"cones":2,"c00":2,"c01":3,"mcNull":0} test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT
+{"lay":"oleB","n":15,"cones":1,"c00":9,"c01":5,"mcNull":0} test files online/2011/6ff6c243_通气塞.SLDPRT
+{"lay":"oleA","n":14,"cones":0,"c00":11,"c01":3,"mcNull":0} test files online/2011/e1f38af5_0000380-01.sldprt
+{"lay":"oleA","n":532,"cones":0,"c00":0,"c01":532,"mcNull":2} test files online/2013/82981f2a_head_back.sldprt
+{"lay":"oleA","n":92,"cones":16,"c00":12,"c01":64,"mcNull":0} test files online/2014/300f9732_Carter2019.SLDPRT
+{"lay":"oleA","n":26,"cones":10,"c00":6,"c01":10,"mcNull":1} test files online/2014/68cd51b6_20190309-0049.SLDPRT
+{"lay":"A","n":342,"cones":117,"c00":79,"c01":146,"mcNull":0} test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT
+{"lay":"A","n":3,"cones":0,"c00":1,"c01":2,"mcNull":0} test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT
+{"lay":"A","n":16,"cones":2,"c00":4,"c01":10,"mcNull":0} test files online/2017/d49566bc_AntennaMount.SLDPRT
+{"lay":"A","n":249,"cones":83,"c00":6,"c01":160,"mcNull":0} test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT
+{"lay":"A","n":167,"cones":53,"c00":35,"c01":79,"mcNull":0} test files online/2018/0132519a_102_STEM.SLDPRT
+{"lay":"A","n":262,"cones":48,"c00":15,"c01":199,"mcNull":0} test files online/2018/361e7dbb_101_HOUSING.SLDPRT
+{"lay":"A","n":118,"cones":18,"c00":0,"c01":100,"mcNull":0} test files online/2018/ca465363_103_COVER.SLDPRT
+{"lay":"A","n":2512,"cones":1466,"c00":60,"c01":986,"mcNull":0} test files online/2018/d2515121_Ecran_128x32oled.SLDPRT
+{"lay":"A","n":30,"cones":8,"c00":2,"c01":20,"mcNull":0} test files online/2019/07ff8da1_shelf.SLDPRT
+{"lay":"A","n":18,"cones":4,"c00":6,"c01":8,"mcNull":0} test files online/2019/096d0504_MargayMount_WH10.SLDPRT
+{"lay":"A","n":26,"cones":12,"c00":8,"c01":6,"mcNull":0} test files online/2019/44afdb7c_back_cushion.SLDPRT
+{"lay":"A","n":92,"cones":12,"c00":13,"c01":67,"mcNull":0} test files online/2019/54b05886_bottom_adc.SLDPRT
+{"lay":"A","n":62,"cones":0,"c00":9,"c01":53,"mcNull":1} test files online/2019/7765d286_NSJ8L.SLDPRT
+{"lay":"A","n":103,"cones":36,"c00":16,"c01":51,"mcNull":0} test files online/2019/8cd79ff5_1ESxx.SLDPRT
+{"lay":"A","n":83,"cones":9,"c00":11,"c01":63,"mcNull":0} test files online/2019/d381ebab_bottom_dac.SLDPRT
+{"lay":"A","n":271,"cones":109,"c00":105,"c01":57,"mcNull":0} test files online/2019/e8c40c25_psu.SLDPRT
+{"lay":"A","n":75,"cones":0,"c00":1,"c01":74,"mcNull":0} test files online/2020/14f9214b_11.SLDPRT
+{"lay":"B","n":54,"cones":25,"c00":0,"c01":29,"mcNull":0} test files online/2020/7841a106_6344428.SLDPRT
+{"lay":"A","n":671,"cones":379,"c00":174,"c01":118,"mcNull":0} test files online/2021/85aabbde_84T Gear.SLDPRT
+{"lay":"A","n":6,"cones":1,"c00":0,"c01":5,"mcNull":0} test files online/2023/d2f7f9bd_iman.SLDPRT
+{"lay":"A","n":7,"cones":0,"c00":4,"c01":3,"mcNull":0} test files online/2024/03afebf4_Profilringe.SLDPRT
+{"lay":"B","n":117,"cones":0,"c00":0,"c01":117,"mcNull":3} test files online/2024/1e794aad_6344387.SLDPRT
+{"lay":"B","n":19,"cones":1,"c00":12,"c01":6,"mcNull":0} test files online/2024/4febfc67_6344149.SLDPRT
+{"lay":"A","n":961,"cones":567,"c00":282,"c01":112,"mcNull":0} test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT
+{"lay":"C","n":274,"cones":98,"c00":56,"c01":120,"mcNull":0} test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT
+{"lay":"C","n":10,"cones":4,"c00":0,"c01":6,"mcNull":0} test files online/2025/e8f16581_Engine Base.SLDPRT
+{"lay":"A","n":17,"cones":2,"c00":0,"c01":15,"mcNull":0} test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT
+{"lay":"A","n":7,"cones":1,"c00":0,"c01":6,"mcNull":0} test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT
+{"lay":"A","n":7,"cones":0,"c00":1,"c01":6,"mcNull":0} test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT
+{"lay":"A","n":7,"cones":0,"c00":1,"c01":6,"mcNull":0} test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT
+{"lay":"A","n":7,"cones":0,"c00":1,"c01":6,"mcNull":0} test files new/SW2022/C06_cube_hole_moved/model.SLDPRT
+{"lay":"A","n":8,"cones":0,"c00":2,"c01":6,"mcNull":0} test files new/SW2022/C07_cube_two_holes/model.SLDPRT
+{"lay":"A","n":8,"cones":0,"c00":2,"c01":6,"mcNull":0} test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT
+{"lay":"A","n":7,"cones":0,"c00":1,"c01":6,"mcNull":0} test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT
+{"lay":"A","n":7,"cones":1,"c00":0,"c01":6,"mcNull":0} test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT
+{"lay":"A","n":2,"cones":0,"c00":1,"c01":1,"mcNull":0} test files new/SW2022/C13_cone/model.SLDPRT
+{"lay":"A","n":1,"cones":0,"c00":1,"c01":0,"mcNull":0} test files new/SW2022/C14_sphere/model.SLDPRT
+{"lay":"A","n":3,"cones":0,"c00":1,"c01":2,"mcNull":0} test files new/SW2022/C17_torus_quarter/model.SLDPRT
+{"lay":"A","n":4,"cones":0,"c00":1,"c01":3,"mcNull":0} test files new/SW2022/C19_half_cylinder/model.SLDPRT
+{"lay":"A","n":8,"cones":0,"c00":4,"c01":4,"mcNull":0} test files new/SW2022/C20_cylinders_crossed/model.SLDPRT
+{"lay":"A","n":4,"cones":0,"c00":2,"c01":2,"mcNull":0} test files new/SW2022/C21_cylinder_fillet/model.SLDPRT
+{"lay":"A","n":113,"cones":45,"c00":8,"c01":60,"mcNull":0} test files original/Helical Bevel Gear.SLDPRT
+{"lay":"A","n":126,"cones":0,"c00":12,"c01":114,"mcNull":0} test files original/PTC GE8080-8.SLDPRT
+{"lay":"A","n":400,"cones":200,"c00":49,"c01":151,"mcNull":0} test files original/Pocket Wheel.SLDPRT
+{"lay":"A","n":51,"cones":6,"c00":31,"c01":14,"mcNull":0} test files original/distributor main boss rev a.SLDPRT
+B ownErr [ 'no id block', 'bad array at 8977' ]
+mcDeg null 7 [["test files online/2013/82981f2a_head_back.sldprt",196,50,24,180],["test files online/2013/82981f2a_head_back.sldprt",212,50,24,180],["test files online/2014/68cd51b6_20190309-0049.SLDPRT",11,50,24,180]]

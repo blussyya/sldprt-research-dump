@@ -1,0 +1,2 @@
+const fs=require('fs');const m=require('/home/user/solidworks-converters/src/container/modern');const zlib=require('zlib');
+for(const f of process.argv.slice(2)){const b=fs.readFileSync(f);try{const s=m.decompressOpenSX(b,x=>zlib.inflateRawSync(x),x=>zlib.inflateSync(x));console.log(f.split('/').slice(-2).join('/'),'DisplayLists version',m.displayListsVersion(s));}catch(e){console.log(f,e.message)}}

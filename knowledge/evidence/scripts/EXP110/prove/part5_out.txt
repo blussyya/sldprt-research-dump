@@ -1,0 +1,15 @@
+SW2022/C00_cube_10mm faces 6 u100 182452328 182190184 181928040 181665896 175112296 180748392 rawId 90 88 86 84 1 48
+SW2022/C23_cube_sw2011_to_2022 faces 6 u100 2851668072 2851405928 2851143784 2850881640 2844328040 2847801448 rawId 85 83 81 79 1 43
+SW2022/C24_cube_sw2022_native faces 6 u100 1967194216 1966932072 1966669928 1966407784 1959854184 1965490280 rawId 90 88 86 84 1 48
+SW2011/C00_cube_10mm faces 0 u100  rawId 
+tagged faces 13525 u100 multiple of 8: 1221 repeat within a file: 5358  consecutive pairs 13411 increasing 3279 equal 5358 |delta| classes { '<=256MiB': 4049, larger: 452, '<=1MiB': 8910 }
+groups (file,type,sense) where all u100 equal: 113  with several values: 327
+u100 values that appear in more than one file: 8 of 8010
+faces sharing a u100 with another face of the same file: 5367 files: [
+  'test files online/2018/d2515121_Ecran_128x32oled.SLDPRT',
+  'test files online/2019/8cd79ff5_1ESxx.SLDPRT',
+  'test files online/2021/85aabbde_84T Gear.SLDPRT',
+  'test files online/2021/916d4a0a_36T Gear.SLDPRT',
+  'test files online/2021/bc3292d7_12T Gear.SLDPRT',
+  'test files online/2021/eb0b2a21_60T Gear.SLDPRT'
+]  their u100==0: 0

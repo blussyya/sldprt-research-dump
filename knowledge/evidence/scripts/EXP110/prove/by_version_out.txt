@@ -1,0 +1,16 @@
+version 3800 {"files":2,"faces":73,"tagged":0,"u128_1":1,"u128_0":34,"u128_other":38,"u92_ok":0,"u92_bad":73,"cone":0,"tagged_u128_1":0}
+version 4100 {"files":1,"faces":117,"tagged":0,"u128_1":0,"u128_0":98,"u128_other":19,"u92_ok":0,"u92_bad":117,"cone":0,"tagged_u128_1":0}
+version 5000 {"files":1,"faces":62,"tagged":0,"u128_1":62,"u128_0":0,"u128_other":0,"u92_ok":62,"u92_bad":0,"cone":0,"tagged_u128_1":0}
+version 7000 {"files":1,"faces":6,"tagged":0,"u128_1":6,"u128_0":0,"u128_other":0,"u92_ok":6,"u92_bad":0,"cone":0,"tagged_u128_1":0}
+version 8000 {"files":6,"faces":399,"tagged":0,"u128_1":399,"u128_0":0,"u128_other":0,"u92_ok":399,"u92_bad":0,"cone":122,"tagged_u128_1":0}
+version 9000 {"files":6,"faces":129,"tagged":0,"u128_1":129,"u128_0":0,"u128_other":0,"u92_ok":129,"u92_bad":0,"cone":0,"tagged_u128_1":0}
+version 10000 {"files":5,"faces":392,"tagged":0,"u128_1":392,"u128_0":0,"u128_other":0,"u92_ok":392,"u92_bad":0,"cone":83,"tagged_u128_1":0}
+version 11000 {"files":6,"faces":3239,"tagged":3239,"u128_1":3239,"u128_0":0,"u128_other":0,"u92_ok":3239,"u92_bad":0,"cone":1543,"tagged_u128_1":3239}
+version 12000 {"files":12,"faces":1025,"tagged":1025,"u128_1":1025,"u128_0":0,"u128_other":0,"u92_ok":1025,"u92_bad":0,"cone":190,"tagged_u128_1":1025}
+version 13000 {"files":8,"faces":331,"tagged":329,"u128_1":331,"u128_0":0,"u128_other":0,"u92_ok":331,"u92_bad":0,"cone":0,"tagged_u128_1":329}
+version 14000 {"files":5,"faces":1875,"tagged":1875,"u128_1":1875,"u128_0":0,"u128_other":0,"u92_ok":1875,"u92_bad":0,"cone":379,"tagged_u128_1":1875}
+version 15000 {"files":54,"faces":1255,"tagged":1251,"u128_1":1255,"u128_0":0,"u128_other":0,"u92_ok":1255,"u92_bad":0,"cone":47,"tagged_u128_1":1251}
+version 16000 {"files":14,"faces":4016,"tagged":4016,"u128_1":4016,"u128_0":0,"u128_other":0,"u92_ok":4016,"u92_bad":0,"cone":200,"tagged_u128_1":4016}
+version 17000 {"files":14,"faces":1496,"tagged":1496,"u128_1":1496,"u128_0":0,"u128_other":0,"u92_ok":1496,"u92_bad":0,"cone":573,"tagged_u128_1":1496}
+version 18000 {"files":13,"faces":2364,"tagged":34,"u128_1":34,"u128_0":2330,"u128_other":0,"u92_ok":2364,"u92_bad":0,"cone":102,"tagged_u128_1":34}
+version 19000 {"files":6,"faces":1755,"tagged":0,"u128_1":0,"u128_0":1755,"u128_other":0,"u92_ok":1755,"u92_bad":0,"cone":0,"tagged_u128_1":0}

@@ -1,0 +1,15 @@
+{
+  'no-tag flat=true u92=1': 3132,
+  'no-tag flat=false u92=0': 2288,
+  'tagged flat=false u92=0': 7114,
+  'tagged flat=true u92=1': 6266,
+  'no-tag flat=true u92=other': 97,
+  'no-tag flat=false u92=other': 93,
+  'no-tag flat=true u92=0': 6,
+  'tagged flat=true u92=0': 3
+}
+tagged joined: flat vs native plane agree 13222 of 13225  disagree: [
+  '2f121983_case.SLDPRT#73 bspline estMinCos=0.9999999605487794',
+  '2f121983_case.SLDPRT#74 bspline estMinCos=0.9999999326269734',
+  '2f121983_case.SLDPRT#75 bspline estMinCos=0.9999999619266677'
+]

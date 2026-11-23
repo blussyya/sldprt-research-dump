@@ -1,0 +1,39 @@
+1 DL_VERSION 10000 | cones | has narrow faces
+1 DL_VERSION 10000 | no cones | has narrow faces
+3 DL_VERSION 10000 | no cones | no narrow faces
+3 DL_VERSION 11000 | cones | has narrow faces
+1 DL_VERSION 11000 | cones | no narrow faces
+1 DL_VERSION 11000 | no cones | has narrow faces
+1 DL_VERSION 11000 | no cones | no narrow faces
+4 DL_VERSION 12000 | cones | has narrow faces
+3 DL_VERSION 12000 | cones | no narrow faces
+5 DL_VERSION 12000 | no cones | no narrow faces
+1 DL_VERSION 13000 | no cones | has narrow faces
+7 DL_VERSION 13000 | no cones | no narrow faces
+1 DL_VERSION 14000 | cones | has narrow faces
+4 DL_VERSION 14000 | no cones | has narrow faces
+1 DL_VERSION 15000 | cones | has narrow faces
+2 DL_VERSION 15000 | cones | no narrow faces
+7 DL_VERSION 15000 | no cones | has narrow faces
+45 DL_VERSION 15000 | no cones | no narrow faces
+1 DL_VERSION 16000 | cones | has narrow faces
+8 DL_VERSION 16000 | no cones | has narrow faces
+5 DL_VERSION 16000 | no cones | no narrow faces
+2 DL_VERSION 17000 | cones | has narrow faces
+4 DL_VERSION 17000 | no cones | has narrow faces
+8 DL_VERSION 17000 | no cones | no narrow faces
+2 DL_VERSION 18000 | cones | no narrow faces
+6 DL_VERSION 18000 | no cones | has narrow faces
+5 DL_VERSION 18000 | no cones | no narrow faces
+3 DL_VERSION 19000 | no cones | has narrow faces
+3 DL_VERSION 19000 | no cones | no narrow faces
+2 DL_VERSION 3800 | cones | has narrow faces
+1 DL_VERSION 4100 | no cones | has narrow faces
+1 DL_VERSION 5000 | no cones | no narrow faces
+1 DL_VERSION 7000 | no cones | no narrow faces
+3 DL_VERSION 8000 | cones | has narrow faces
+1 DL_VERSION 8000 | cones | no narrow faces
+1 DL_VERSION 8000 | no cones | has narrow faces
+1 DL_VERSION 8000 | no cones | no narrow faces
+3 DL_VERSION 9000 | no cones | has narrow faces
+3 DL_VERSION 9000 | no cones | no narrow faces

@@ -66,7 +66,6 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-057 / NQ-058 | Diagnose the remaining triangulation failures and `2f121983` evidence; converter changes stay outside this branch. |
 | NQ-059 | Replace dimension-placement scans with bounded layouts. |
 | NQ-060 remainder | Settle whether the History stamp is Created or a first touch, and recheck sketches against the SW2011 log (EXP-111 found both records). |
-| NQ-061 | Rerun EXP-112's blind disprove check on the container directory; the first run hit the usage limit. |
 | NQ-062 | Find how the three per-file signatures follow from the 4-byte key. |
 | NQ-063 | Decode the 4 bytes at the ZIP time/date position of each stream header. |
 | NQ-064 | Map the filler and the bytes after the real end record; check the directory on assemblies and drawings. |
@@ -76,6 +75,10 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-068 | Count the gap at intersection-edge ends the way a pinned SP_CURVE end is now counted. |
 | NQ-069 | Find why `f666f342` (head_face) doesn't resolve in 2,400 s. |
 | NQ-070 | Make the dense fit check cheaper; parts with many intersection curves are 2.6 to 3.3 times slower. |
+| NQ-071 | Read face metadata in the two other record layouts (140-byte bounding record; SolidWorks 2025/2026 saves): 4,622 faces have no id or tag in the converter. |
+| NQ-072 | Build boundary cycles on faces with a seam; the converter gives up on 34 faces in three parts. |
+| NQ-073 | Find why 4 cone faces in "distributor main boss rev a" have display normals 62° from the converter's exact cone normal. |
+| NQ-074 | Name the low 16 bits of bounds word +100 (they group faces by feature) and find how the cone cosine is computed. |
 
 | Blocked on a discriminating file or SolidWorks save | Needed input |
 |---|---|
@@ -1110,8 +1113,10 @@ version is `_DL_VERSION_4700`.
 **Status 2026-11-23 (EXP-110)**: The tail (+92 to +131) is mostly decoded. +92 marks planes, +128
 is constant 1, and when +104 and +108 are both 1 the four floats at +112 are a normal cone (a
 unit vector along the outward normals and a cone cosine). Still open: the cosine's exact value,
-which isn't reproduced from the stored normals; which files store cones; and +96 and +100. Blind
-checks of EXP-110 are running.
+which isn't reproduced from the stored normals; which files store cones; and +96. Blind-checked
+2026-11-23: +92 holds; +128 is 0 in SolidWorks 2025/2026 saves (another layout, NQ-071); the cone is
+never wider than the normals but usually narrower; +100's low 16 bits group faces by the feature
+that made them, which isn't confirmed against feature ids.
 
 `parser/v0.2` skips it as an opaque prefix. EXP-060 shows it is **not** a fourth
 `[stride,8,2,N]` block: it is a per-face numeric record whose bulk decodes as `f64` in metres.
@@ -1355,6 +1360,11 @@ blocks and one unexplained flag in a gear face reference.
 
 ## NQ-051 — 231 interior and 11 boundary display vertices off the exact surfaces
 
+**Status 2026-11-23 (EXP-105 blind checks)**: On cylinder and cone faces, no interior vertex is off
+beyond float32 rounding (0 of 23,700 off vertices at 1e-7 m in 44 parts), so the interior ones
+counted here are probably rounding on those surface types. Still open: B-spline and other faces,
+and the 41 off-chord and 27 unshared boundary vertices EXP-105's checks list.
+
 EXP-078 explains every other off-surface display vertex (7,065 boundary chord points). The rest:
 Dekor 59 (cylinder 46, B-spline 13; up to 25 µm), chainwheel 57, Helical Bevel Gear 47, USB hub TOP 38
 (plus 2 boundary), Pocket Wheel 27, distributor 3, chainwheel 9 boundary. Candidates: interior
@@ -1476,6 +1486,10 @@ older Created/Modified data; do not infer it from Biography timestamps.
 `evidence/scripts/EXP088/history/`.
 
 ## NQ-061 — Blind disprove check of the container directory
+
+**Status 2026-11-23**: Answered. The rerun holds on 178 modern files, and Python's zipfile and
+unzip read every file once the disguise is undone (EXP-112, "Blind checks"). Left over: headerless
+streams under about 90 compressed bytes can't be ruled out by a raw scan.
 
 **Status**: Open. EXP-112's prove agent held the directory on 181 of 181 modern files. The disprove
 agent stopped at the usage limit with no verdict; its partial outputs agree so far
@@ -1615,3 +1629,56 @@ cheaper check that still finds edge 826's error and the test bump in `test/fit.t
 **Evidence**: [EXP-103](evidence/2026-11-22_v0.5-EXP103.md), "Sweep of the online sample".
 
 **Date raised**: 2026-11-22 (EXP-103).
+
+## NQ-071 — Face metadata in the other two record layouts
+
+**Status**: Open. Two blind agents (EXP-099 and EXP-110 checks, 2026-11-23) found the same faces the
+converter's display reader can't read past the bounding record:
+
+| layout | files | faces | difference |
+|---|---:|---:|---|
+| B | 3 | 190 | a 140-byte bounding record, with an extra float64 at +92 equal to twice the radius |
+| C | 18 | 4,432 | SolidWorks 2025 and 2026 saves: +128 is 0, +132 is 1, then a `(12,100,2)` array; no `(8,100,2)` array; the id/tag block sits 16 bytes earlier |
+
+On layout C, one agent read a valid tag and zero reserved words on all 4,432. The converter keeps
+the mesh but has no face ID or tag for these faces, so the display join and the inspector lose them.
+Next: confirm both layouts with an own reader, add them to `src/display.js` with tests, and recount
+the join. The SW2026 re-save of head_back is a layout C file with a matching older save.
+
+**Evidence**: [EXP-110](evidence/2026-11-09_v0.5-EXP110.md) and [EXP-099](evidence/2026-11-09_v0.5-EXP099.md), "Blind checks".
+
+**Date raised**: 2026-11-23.
+
+## NQ-072 — Boundary cycles on seam faces
+
+**Status**: Open. `src/display.js` reports "Ambiguous boundary graph; cycles not inferred" on faces
+where both fins of an edge are on the same face: 24 faces in `ef1d5cfe`, 9 in `2f121983`, 1 in
+`0132519a`. Their boundary vertices are still on Block1 edges, but no cycle is built, so anything
+that uses `boundaryCycles` treats them as interior. Decide how to split the graph at a seam.
+
+**Evidence**: [EXP-105](evidence/2026-11-09_v0.5-EXP105.md), "Why the agents' interior counts differ".
+
+**Date raised**: 2026-11-23.
+
+## NQ-073 — Four cone faces whose normals disagree with the converter
+
+**Status**: Open. In "distributor main boss rev a", faces #21, #24, #27 and #30 have display normals
+62 degrees from the converter's exact cone normal (EXP-110 disprove check). Either the converter's
+cone-normal convention is wrong for these cones or the join picks the wrong face. A wrong normal
+could also mean a wrong cone, which would matter for exact STEP.
+
+**Evidence**: [EXP-110](evidence/2026-11-09_v0.5-EXP110.md), "Other notes".
+
+**Date raised**: 2026-11-23.
+
+## NQ-074 — Bounds word +100 and the cone cosine
+
+**Status**: Open. +100's high 16 bits change with every save; its low 16 bits group faces by the
+feature that made or trimmed them on the controlled models (one blind agent). Check that against
+feature ids from the feature tree. Separately, the cone cosine s is never below the cosine of the
+widest normal and usually above it; the 90 degree fillet of C03 stores 40.455 degrees for a 45
+degree half-arc, a fixed target for working out the rule.
+
+**Evidence**: [EXP-110](evidence/2026-11-09_v0.5-EXP110.md).
+
+**Date raised**: 2026-11-23.

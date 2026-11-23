@@ -1,0 +1,23 @@
+test files online/2020/14f9214b_11.SLDPRT faces 75 flags {"0,0":1,"0,1":74}
+  #0 rawId 233 tag 4002 0,0 mesh cone 89.76 u100 eeb100ee
+  #7 rawId 369 tag 4002 0,1 mesh cone 176.62 u100 4b46010c
+  #10 rawId 122 tag 4002 0,1 mesh cone 176.10 u100 644e00ee
+  #13 rawId 424 tag 4002 0,1 mesh cone 90.03 u100 4b79010c
+  #17 rawId 568 tag 4002 0,1 mesh cone 172.50 u100 4dd6010e
+  #18 rawId 620 tag 4003 0,1 mesh cone 31.00 u100 5e7d0112
+  #19 rawId null tag null 0,1 mesh cone 172.50 u100 5e820112
+  #25 rawId 1333 tag 4002 0,1 mesh cone 9.80 u100 0a5800e4
+  #30 rawId 717 tag 4002 0,1 mesh cone 90.03 u100 059c0115
+  #34 rawId 308 tag 4002 0,1 mesh cone 90.03 u100 fe7a0115
+  #41 rawId 457 tag 4002 0,1 mesh cone 90.03 u100 fe1f00a4
+  #45 rawId 860 tag 4002 0,1 mesh cone 9.80 u100 051d00e4
+  #51 rawId 1255 tag 4002 0,1 mesh cone 176.00 u100 cf3400f2
+  #53 rawId 1425 tag 4002 0,1 mesh cone 23.56 u100 09b900e4
+  #57 rawId 1689 tag 4002 0,1 mesh cone 90.03 u100 355200f2
+  #60 rawId 1815 tag 4002 0,1 mesh cone 172.50 u100 4570010b
+  #62 rawId 1869 tag 4003 0,1 mesh cone 31.00 u100 f03d0110
+  #63 rawId null tag null 0,1 mesh cone 172.50 u100 f0420110
+  #71 rawId 2412 tag 4002 0,1 mesh cone 45.00 u100 d12b0117
+  #72 rawId 2433 tag 4002 0,1 mesh cone 45.00 u100 d1490117
+  #73 rawId 2454 tag 4002 0,1 mesh cone 45.00 u100 d1670117
+  #74 rawId 2475 tag 4002 0,1 mesh cone 45.00 u100 d1850117

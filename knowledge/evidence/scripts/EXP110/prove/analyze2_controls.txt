@@ -1,0 +1,47 @@
+# controls | errors 0 | faces with 132 B bounds 142 | files 24
+faces at DisplayLists version >=5000: 142  version <5000 (3800, 4100): 0 files []
+
+=== PART 1: u92==1 exactly on planes. Bar: 0 violations.
+faces typed by native join: 142 (planes 117 ) violations 0
+typed by display tag only: 0 violations 0
+no tag, no join (type unknown), planarity taken from the display normals: 0 {}
+CONTROL of the flatness test: normals flat <=> native plane agree on 142 of 142
+all version>=5000 faces: u92 values {"0":25,"1":117}
+
+=== PART 2: u128==1 on every record. Bar: 0 faces with another value.
+u128 by DisplayLists version (faces: u128=1 / u128=0 / other):
+  v15000 files 24 faces 142 u128=1 142 u128=0 0 other 0
+faces with u128!=1: 0 of 142 in files 0
+restricted to version 5000..17000: 142 faces, u128!=1: 0
+
+=== PART 3: cone fields when u104==1 && u108==1
+faces with both flags =1: 2 in 2 files; native types {"cylinder":2}
+planes among them (by normals flat): 0 (by isPlane): 0  (by native type): 0
+non-finite float tails: 0
+3a |v|: max | |v|-1 | = 3.32e-9  bar 2e-6 (float32); over bar: 0
+3b s range: min 0.7609115242958069 max 0.7609115242958069  1/sqrt2= 0.7071067811865476 ; below 1/sqrt2 by >1e-6: 0 ; above 1+1e-6: 0
+3c "s never below cos(max angle(n_i,v))": s - minCos: min 6.74e-2  bar >= -2e-6; violations 0 of 2
+3d "cone holds the normals" needs s <= minCos (+2e-6): violations 2 of 2 ; worst: normals reach 5.64 deg beyond the stored half-angle; exactly tight (|s-minCos|<=2e-6): 0
+   median stored half-angle 40.46 deg, median normal reach 46.10 deg
+3e direction (analytic outward normal of native surface x face sense, at each display vertex):
+   display normals vs analytic: min dot 1.000000 faces under 0.999: 0 of 2
+    same-sense faces 2 min over faces of min_i cos(v,n_i) = 0.6935 (>0 means v on the outward side; <0 on any vertex: 0)
+    reversed faces 0 min over faces of min_i cos(v,n_i) = NaN (>0 means v on the outward side; <0 on any vertex: 0)
+      cylinder n 2 min 0.6935
+   analytic normals, s - cos(maxAngle(n,v)): min 6.74e-2  violations of s>=cos (<-1e-4): 0
+   control for the sign test: -v would be on the wrong side on 0 ?? (faces where min cos<0 means v fails)
+   |cos(v, enclosing-cone axis of display normals)|: see estV; 
+   angle between stored v and the minimal enclosing axis of the display normals (deg): median 1.095  max 1.10
+flag combos (u104,u108) at version>=5000, planes vs not: {"plane u104=0 u108=1":117,"nonplane u104=1 u108=1":2,"nonplane u104=0 u108=0":18,"nonplane u104=0 u108=1":5}
+
+=== PART 4: per-file switch
+files 24 status: {"n/a":22,"cone-only-above-40":2}
+planes with a cone (flat normals and both flags 1): 0
+MIXED files:
+cone files by DisplayLists version: {"v15000":2}  no-cone files with candidates (<40 deg) by version: {}
+files with cones whose cone faces are all above... faces with cone but est half-angle >=45 deg: 2  >=46: 0  max est half-angle among cone faces 45.00
+stored half-angle (acos s) of cone faces: max 40.455 deg  (bar: 45.0 = acos(1/sqrt2) =>  45.000)
+  in files that have cones: nonplanar faces with est half-angle <20: 0 with cone 0 without 0
+  in files that have cones: nonplanar faces with est half-angle <30: 0 with cone 0 without 0
+  in files that have cones: nonplanar faces with est half-angle <40: 0 with cone 0 without 0
+  in files that have cones: nonplanar faces with est half-angle <44: 0 with cone 0 without 0

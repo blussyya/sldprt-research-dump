@@ -1,0 +1,4 @@
+test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT: faces 11 (flat 11), layout oleA, record room min 224; offsets where word==1 tracks flat >=95%: +92:11/11 +96:11/11 +108:11/11 +128:11/11 +148:11/11
+test files new/SW2011/C20_cylinders_crossed/model.SLDPRT: faces 8 (flat 4), layout oleA, record room min 224; offsets where word==1 tracks flat >=95%: +92:8/8
+test files original/chainwheel.sldprt: faces 189 (flat 6), layout oleX, record room min 144; offsets where word==1 tracks flat >=95%: +80:183/189 +84:183/189 +88:183/189 +92:183/189 +96:183/189 +104:189/189 +108:183/189 +112:183/189 +124:183/189 +148:136/141 +152:111/115
+test files original/plate4.sldprt: faces 14 (flat 14), layout oleX, record room min 102; offsets where word==1 tracks flat >=95%: none

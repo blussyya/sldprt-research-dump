@@ -1,0 +1,11 @@
+payload 3400 compressed 102 new signature 3fe30e05
+C1_append_local {'pos': 50108, 'csize': 102, 'kind': 'local'}
+C1b_append_loose {'pos': 50108, 'kind': 'local_loose'}
+C1c_local_in_filler {'pos': 48, 'csize': 102, 'kind': 'local'}
+C2_raw_in_filler {'pos': 48, 'csize': 102, 'kind': 'raw'}
+C3_flip_data {'entry': 4, 'kind': 'bad_entry'}
+C4_flip_cen_crc {'entry': 2, 'kind': 'bad_entry'}
+C5_dup_central {'kind': 'dup'}
+C6_base0_offsets {'kind': 'base0'}
+C7_second_end {'kind': 'two_ends'}
+C8_hidden_cen {'kind': 'registered', 'pos': 48}

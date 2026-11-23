@@ -1,0 +1,35 @@
+modern files (bytes 4-7 = 00000004): 178  other non-OLE files: 5
+  by group: Counter({'scope': 172, 'extra': 6})
+bare rule hits (base 8) per file: Counter({1: 176, 2: 2})
+bare rule hits (base 0) per file: Counter({0: 176, 1: 2})
+shaped end records passing rule per file: Counter({1: 178})
+  non-shaped rule hit: [2483] 225c13ed_camholder0deg.SLDPRT
+  non-shaped rule hit: [1635] 16f99cd7_装甲板固定（前）.SLDPRT
+end-shaped blocks per file: min 10 max 16
+decoy dirs yielding any valid entry: 0
+entries 7895 fully ok 7895
+files with >1 central sig: 0  >1 local sig: 0
+files with dup names: []
+files with offset order breaks: []
+files with overlapping records: 0
+entries whose lhoff also matches from byte 0: 0
+end comment lengths: Counter({0: 178})
+cdsize == walked central bytes: 0 of 178
+slack (filler) between last central record and end record, inside cdsize: min 360 max 1214 zero in 0
+rotation sets: Counter({'[4]': 7895})
+field values: {'vmade': {0: 7895}, 'vneed': {20: 7895}, 'flags': {6: 7895}, 'method': {8: 7895}, 'celen': {0: 7895}, 'cclen': {0: 7895}, 'loc_elen': {0: 7895}, 'disk': {0: 7895}, 'iattr': {0: 5747, 1: 2148}, 'eattr': {0: 7895}, 'zero_usize': 521}
+gap positions: Counter({'between_streams': 1734, 'before_first': 178, 'cd_to_end': 178, 'after_end': 178})
+files with filler before first stream: 178
+files with filler between streams: 178
+files with filler streams->cd: 0
+files with filler cd->end: 178
+files with filler after end: 178
+filler bytes per file: min 1768 max 6319 total 483909
+distinct keys: 163  distinct loc sigs: 163  cen sigs: 163  end sigs: 163
+  distinct loc^PK 163
+  distinct cen^PK 163
+  distinct end^PK 163
+  distinct loc^PK^key 163
+  distinct cen^PK^key 163
+  distinct end^PK^key 163
+files where two of the three sigs are equal: 0

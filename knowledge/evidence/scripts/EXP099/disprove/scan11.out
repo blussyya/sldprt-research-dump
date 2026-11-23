@@ -1,0 +1,24 @@
+{
+ "variant wordsZero/tagOK": 4432,
+ "standard(control) wordsZero/tagOK": 13533,
+ "variant unparsed": 190
+}
+disagreeing examples (words vs tag): []
+82981f2a_head_back-202   {"wordsZero/tagOK":535}
+05d0b4c3_pin-2-2.SLDPR   {"wordsZero/tagOK":500}
+3e41786b_LB26001-A-04-   {"wordsZero/tagOK":18}
+50af9019_7x4 P42a Cell   {"wordsZero/tagOK":274}
+51f01927_Держатель-Фик   {"wordsZero/tagOK":428}
+55c163ac_pin-1-2.SLDPR   {"wordsZero/tagOK":452}
+6fd68589_pin-2-1.SLDPR   {"wordsZero/tagOK":500}
+822f5572_一级挡块-hhr镂空限位.   {"wordsZero/tagOK":18}
+8aaecde6_6008内圈下加工件.SL   {"wordsZero/tagOK":46}
+ac760485_存矿小端.SLDPRT     {"wordsZero/tagOK":38}
+c613782b_Крепёжная-Пла   {"wordsZero/tagOK":13}
+e8f16581_Engine Base.S   {"wordsZero/tagOK":10}
+f0b9a118_Standoff_M3x0   {"wordsZero/tagOK":33}
+0eab6495_A15_KW10_cass   {"wordsZero/tagOK":54}
+2e6e140a_ST3215_C018_0   {"wordsZero/tagOK":1117}
+4d85599e_base-M4.SLDPR   {"wordsZero/tagOK":12}
+c5784ab3_A09_power_and   {"wordsZero/tagOK":88}
+daa6e9e9_CR26-201-08.S   {"wordsZero/tagOK":296}

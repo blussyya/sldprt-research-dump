@@ -1,0 +1,72 @@
+faces with bounds record 142 with id/tag block 142 without 0
+NO-TAG faces (excluded below): u92 {} u128 {} metaErr {}
+files modern 24 ole skipped 25 errors 0 brep-join-failed files 0 faces with bounds 142 faces without 132B bounds 0
+join how: {"id":142}
+
+== PART 1 u92 vs plane
+{
+  'plane u92=1': 117,
+  'cylinder u92=0': 16,
+  'cone u92=0': 1,
+  'sphere u92=0': 1,
+  'torus u92=0': 3,
+  'bspline u92=0': 4
+}
+joined faces 142 violations (native type) 0
+all tagged faces, violations by display tag 0 of 142
+u92 values (tagged faces) { '0': 25, '1': 117 }
+
+== PART 2 u128
+tagged faces { '1': 142 }
+tagged faces with u128!=1: 0 []
+
+== PART 3
+u104/u108 combos {
+  'u104=0,u108=1 plane': 117,
+  'u104=1,u108=1 nonplane': 2,
+  'u104=0,u108=0 nonplane': 18,
+  'u104=0,u108=1 nonplane': 5
+}
+faces with both=1: 2 types {"cylinder":2}
+finite floats 2 nonfinite 0
+|v|-1 max dev 3.3195419746334665e-9 bar 2e-6; over: 0
+s min 0.7609115242958069 1/sqrt2= 0.7071067811865476  below 1/sqrt2-1e-6: 0 ; s>1+1e-6: 0
+display normals: s - cos(maxAngle(n,v)): min 0.06744915016765751 (claim needs >= -2e-6) violations 0 of 2
+CONTAINMENT (cone holds all display normals needs s <= cos(maxAngle)): violations 2 of 2  worst excess (deg) stored half-angle narrower than normals reach: 5.639807288016485
+  tightness: s-minCos max 0.06744915016765762  faces where s-minCos<1e-5 (tight): 0  >1e-3: 2
+analytic (native surface x sense) normals: s - cos(maxAngle(n,v)): min 0.06744918438923198 violations (<-1e-4) 0 of 2
+display normals vs analytic outward*sense: min dot 0.999999999999925  faces below 0.999: 0
+direction: v . analytic outward normal, min over vertices, min over faces 0.6934620949873547  faces with a vertex having v.n<0: 0
+  reversed faces with cone 0  min Infinity  same-sense faces 2  min 0.6934620949873547
+   cylinder n 2 min cos(v,n) 0.69346
+  with -v instead: faces where -v fits the analytic normals (min cos>0): 0
+s vs enclosing cone estimate (display normals): s - estMinCos min 0.05380475672241891 max 0.05380475672241902
+
+== PART 4 per-file switch
+file status (candidate = est. half-angle <45deg, from display normals): { 'n/a-no-candidates': 21, all: 2, none: 1 }
+planes with cone fields (u104=u108=1): 0
+MIXED files:
+files with cone on some face and strict (<40deg) candidates without:
+files with no cones but strict candidates (<40deg): 0  files with cones: 2
+half-angle histogram (est from display normals) by presence: {
+  '40-50 cone': 2,
+  '40-50 none': 4,
+  '60-70 none': 1,
+  '90-100 none': 17,
+  'NaN-NaN none': 1
+}
+faces with cone but est half-angle>=45: 2 [
+  'model.SLDPRT #6 est=45.0 s=40.45537811657232',
+  'model.SLDPRT #6 est=45.0 s=40.45537811657232'
+]
+
+== PART 5 u100
+distinct values 142 of 142
+files with repeated u100 within file: 0 of 24
+  plane distinct 117
+  cylinder distinct 16
+  cone distinct 1
+  sphere distinct 1
+  torus distinct 3
+  bspline distinct 4
+u100 low 3 bits histogram [82,0,24,0,16,0,17,3]  u100 ==0: 0

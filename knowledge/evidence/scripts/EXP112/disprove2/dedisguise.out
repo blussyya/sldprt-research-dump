@@ -1,0 +1,7 @@
+V1 python: BadZipFile 178
+V1 unzip: rc=1 178
+V2 python: ok 178
+V2 unzip: ok 178
+first failure message per reader:
+  V1 python ('model.SLDPRT', 'BadZipFile: Bad magic number for central directory')
+  V1 unzip ('model.SLDPRT', "rc=1 note:  didn't find end-of-central-dir signature at end of central dir.")

@@ -1,0 +1,4 @@
+files 160 faces 19149
+4622 err:Unexpected array header at # | noparse   files: 82981f2a_head_back-2026.x535 7841a106_6344428.SLDPRTx54 1e794aad_6344387.SLDPRTx117 4febfc67_6344149.SLDPRTx19 05d0b4c3_pin-2-2.SLDPRTx500 3e41786b_LB26001-A-04-00x18 ...(21)
+994 err:Metadata has no id block (reserved words #) | wordsNZ/tagBAD   files: 0739c559_[HEAD-COVR-MIL1x342 1214a0ff_[ARM-A-V1-COMN-x4 118a3cb0_cut-z18-b1xh1xlx22 289756ce_cut-z071-b1-l1-x18 629adcec_cut-z351-d1xl1.x3 70477058_mt-cut-z085-l1xx18 ...(21)
+13533 meta | wordsZero/tagOK   files: 0132519a_102_STEM.SLDPRTx167 15567d51_leva1.SLDPRTx298 361e7dbb_101_HOUSING.SLDx262 ca465363_103_COVER.SLDPRx118 d2515121_Ecran_128x32olex2512 07ff8da1_shelf.SLDPRTx30 ...(79)

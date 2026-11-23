@@ -1,0 +1,26 @@
+B-rep read errors: 0
+join result: {"C:uniqueId":4167,"A:geomOnly":827,"A:none":325,"A:uniqueId":11483,"A:joined":1892,"B:geomOnly":174,"B:none":16,"C:joined":265}
+CONTROL geomOnly vs uniqueId (cone faces, analytic): {"nomatch":138,"true":2130}
+
+PART1 a92 x native type (by join route)
+   {"uniqueId a92=0 nonplane":8070,"uniqueId a92=1 plane":7580,"geomOnly a92=1 plane":597,"geomOnly a92=0 nonplane":404,"joined a92=1 plane":1327,"joined a92=0 nonplane":830}
+  tag vs native type disagreements (uniqueId): {"agree":15650}
+
+PART3 cone faces on analytic non-planar native faces: 2845
+  by type and sameSense: {"cylinder sameSense=true":1983,"cylinder sameSense=false":700,"torus sameSense=true":23,"cone sameSense=false":48,"cone sameSense=true":84,"sphere sameSense=true":5,"torus sameSense=false":2}
+  CONTROL display vertex normal vs exact outward normal, worst angle per face (deg): n 2845 min 0.000000 p50 0.000035 max 62.000000 | faces over 1 deg: 7
+  v on the outward side at every vertex (min v.n > 0), by sameSense: {"sameSense=true true":2094,"sameSense=false true":750,"sameSense=true false":1}
+  margin min(v.n_exact) - s: n 2845 min -0.957659 p50 -0.000348 max 0.000155 | < -1e-6: 2042 | > 1e-6: 1
+
+  cylinders: 2683
+  weak check |v.axis|: n 2683 min 0.000000 p50 0.000000 max 0.989285 | same check on -v: n 2683 min 0.000000 p50 0.000000 max 0.989285
+  sign(v . radial at bounds centre) vs sameSense: {"sameSense=true sign=1":1983,"sameSense=false sign=-1":700}
+  acos(s) - exact half-arc (deg): n 2683 min -144.048377 p50 -0.062270 max 1.593026 | acos(s) < half-arc - 0.01 deg (cone narrower than the face): 1722
+  angle v to outward arc bisector (deg): n 2683 min 0.000000 p50 0.013446 max 85.368479 | over 0.5 deg: 641
+  half-arc of cylinders with a cone (deg): n 2683 min 0.143125 p50 11.477912 max 179.789784
+   test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT#77 half-arc 179.7898 acos(s) 35.7414 v-to-bisector 85.3685 sameSense true
+   test files online/2018/d2515121_Ecran_128x32oled.SLDPRT#2343 half-arc 50.3730 acos(s) 44.1479 v-to-bisector 1.5774 sameSense true
+   test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#695 half-arc 49.8791 acos(s) 44.2759 v-to-bisector 1.5041 sameSense false
+   test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#654 half-arc 49.8791 acos(s) 44.2759 v-to-bisector 1.5041 sameSense false
+   test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#652 half-arc 49.8791 acos(s) 44.2759 v-to-bisector 1.5041 sameSense false
+   test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#701 half-arc 49.8791 acos(s) 44.2759 v-to-bisector 1.5041 sameSense false

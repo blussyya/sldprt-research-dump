@@ -1,0 +1,22 @@
+== modern: 3307 faces with a stored cone
+ CONTROL vertex-normal margin: n 3307 min -1.110e-1 p05 -7.092e-2 p50 -1.324e-3 max 2.971e-8 | > 1e-6: 0 | < -1e-6: 2501
+ facet-normal margin: n 3307 min -1.038e+0 p05 -2.531e-2 p50 8.981e-3 max 1.245e-1 | < -1e-6 (a facet normal outside): 265 | < -1e-3: 256 | |m|<=1e-6: 2
+ mean-of-3-vertex-normals margin: n 3307 min -1.040e-1 p05 -2.819e-2 p50 3.749e-3 max 6.995e-2 | < -1e-6: 645
+ facet-outside by tag: {"4002":120,"4003":8,"4004":2,"4005":17,"4006":60,"4007":5,"4010":12,"null":41}
+   test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT#77 tag null s 0.811662 facet margin -1.038e+0 vertex margin -2.916e-2
+   test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#934 tag 4010 s 0.778196 facet margin -9.693e-1 vertex margin -5.674e-2
+   test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#922 tag 4010 s 0.766583 facet margin -9.622e-1 vertex margin -4.824e-2
+   test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#223 tag 4010 s 0.778318 facet margin -9.510e-1 vertex margin -5.628e-2
+   test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#220 tag 4010 s 0.777728 facet margin -9.503e-1 vertex margin -5.597e-2
+   test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT#926 tag 4010 s 0.778161 facet margin -9.492e-1 vertex margin -5.640e-2
+== legacy: 30 faces with a stored cone
+ CONTROL vertex-normal margin: n 30 min -5.751e-2 p05 -5.751e-2 p50 -8.900e-4 max 4.726e-9 | > 1e-6: 0 | < -1e-6: 26
+ facet-normal margin: n 30 min -1.557e-1 p05 -5.040e-2 p50 1.014e-2 max 3.802e-2 | < -1e-6 (a facet normal outside): 7 | < -1e-3: 6 | |m|<=1e-6: 0
+ mean-of-3-vertex-normals margin: n 30 min -4.579e-2 p05 -2.325e-3 p50 2.147e-3 max 1.819e-2 | < -1e-6: 9
+ facet-outside by tag: {"null":7}
+   test files online/2010/065f38b0_等径四节弯头-4.SLDPRT#1 tag null s 0.982275 facet margin -1.557e-1 vertex margin -3.315e-4
+   test files online/2011/6ff6c243_通气塞.SLDPRT#11 tag null s 0.791964 facet margin -5.040e-2 vertex margin -4.756e-2
+   test files online/2014/300f9732_Carter2019.SLDPRT#8 tag null s 0.969514 facet margin -2.411e-2 vertex margin -7.722e-4
+   test files online/2014/300f9732_Carter2019.SLDPRT#10 tag null s 0.969667 facet margin -2.102e-2 vertex margin -8.900e-4
+   test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT#4 tag null s 0.943177 facet margin -6.090e-3 vertex margin -3.436e-3
+   test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT#3 tag null s 0.944725 facet margin -5.488e-3 vertex margin -3.124e-3

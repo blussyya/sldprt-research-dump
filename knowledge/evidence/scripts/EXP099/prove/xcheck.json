@@ -1,0 +1,998 @@
+[
+ {
+  "f": "82981f2a_head_back-2026.sldprt",
+  "faces": 535,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 535
+  }
+ },
+ {
+  "f": "0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+  "faces": 342,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 342
+  }
+ },
+ {
+  "f": "1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT",
+  "faces": 4,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 4
+  }
+ },
+ {
+  "f": "118a3cb0_cut-z18-b1xh1xl1.SLDPRT",
+  "faces": 22,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 22
+  }
+ },
+ {
+  "f": "289756ce_cut-z071-b1-l1-l2-typ.SLDPRT",
+  "faces": 18,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 18
+  }
+ },
+ {
+  "f": "629adcec_cut-z351-d1xl1.SLDPRT",
+  "faces": 3,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 3
+  }
+ },
+ {
+  "f": "70477058_mt-cut-z085-l1xb1-typ.SLDPRT",
+  "faces": 18,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 18
+  }
+ },
+ {
+  "f": "51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT",
+  "faces": 8,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 8
+  }
+ },
+ {
+  "f": "516a7dc5_Body1.sldprt",
+  "faces": 8,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 8
+  }
+ },
+ {
+  "f": "afc71d14_Body2.sldprt",
+  "faces": 24,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 24
+  }
+ },
+ {
+  "f": "d49566bc_AntennaMount.SLDPRT",
+  "faces": 16,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 16
+  }
+ },
+ {
+  "f": "d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT",
+  "faces": 249,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 249
+  }
+ },
+ {
+  "f": "0132519a_102_STEM.SLDPRT",
+  "faces": 167,
+  "conv_meta": 167,
+  "my_meta": 167,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "06b5063b_050_MASTER_SKETCH.SLDPRT",
+  "faces": 0,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "15567d51_leva1.SLDPRT",
+  "faces": 298,
+  "conv_meta": 298,
+  "my_meta": 298,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "361e7dbb_101_HOUSING.SLDPRT",
+  "faces": 262,
+  "conv_meta": 262,
+  "my_meta": 262,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "ca465363_103_COVER.SLDPRT",
+  "faces": 118,
+  "conv_meta": 118,
+  "my_meta": 118,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "d2515121_Ecran_128x32oled.SLDPRT",
+  "faces": 2512,
+  "conv_meta": 2512,
+  "my_meta": 2512,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "eefa906d_plancher Dalle 2020.SLDPRT",
+  "faces": 6,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 6
+  }
+ },
+ {
+  "f": "07ff8da1_shelf.SLDPRT",
+  "faces": 30,
+  "conv_meta": 30,
+  "my_meta": 30,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "096d0504_MargayMount_WH10.SLDPRT",
+  "faces": 18,
+  "conv_meta": 18,
+  "my_meta": 18,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "27377fd2_FE-00006-06.SLDPRT",
+  "faces": 8,
+  "conv_meta": 8,
+  "my_meta": 8,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "28398415_Raspberry Pi 4.SLDPRT",
+  "faces": 267,
+  "conv_meta": 267,
+  "my_meta": 267,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "300d7f07_Bottom Case.SLDPRT",
+  "faces": 50,
+  "conv_meta": 50,
+  "my_meta": 50,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "44afdb7c_back_cushion.SLDPRT",
+  "faces": 26,
+  "conv_meta": 26,
+  "my_meta": 26,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "54b05886_bottom_adc.SLDPRT",
+  "faces": 92,
+  "conv_meta": 92,
+  "my_meta": 92,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "636b653d_MountingBracket.SLDPRT",
+  "faces": 26,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 26
+  }
+ },
+ {
+  "f": "7765d286_NSJ8L.SLDPRT",
+  "faces": 62,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 62
+  }
+ },
+ {
+  "f": "8cd79ff5_1ESxx.SLDPRT",
+  "faces": 103,
+  "conv_meta": 103,
+  "my_meta": 103,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "91a2d981_Camera Module.SLDPRT",
+  "faces": 19,
+  "conv_meta": 19,
+  "my_meta": 19,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "a3a44709_FrontPanel-Bezel.sldprt",
+  "faces": 16,
+  "conv_meta": 16,
+  "my_meta": 16,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "d381ebab_bottom_dac.SLDPRT",
+  "faces": 83,
+  "conv_meta": 83,
+  "my_meta": 83,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "e8c40c25_psu.SLDPRT",
+  "faces": 271,
+  "conv_meta": 271,
+  "my_meta": 271,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "fb449daa_Gloworm PCB.SLDPRT",
+  "faces": 50,
+  "conv_meta": 50,
+  "my_meta": 50,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "14f9214b_11.SLDPRT",
+  "faces": 75,
+  "conv_meta": 73,
+  "my_meta": 73,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 2
+  }
+ },
+ {
+  "f": "320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT",
+  "faces": 42,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 42
+  }
+ },
+ {
+  "f": "543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+  "faces": 69,
+  "conv_meta": 69,
+  "my_meta": 69,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "72b08e3e_Hip Cable HOlder.SLDPRT",
+  "faces": 28,
+  "conv_meta": 28,
+  "my_meta": 28,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "7841a106_6344428.SLDPRT",
+  "faces": 54,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 54
+  }
+ },
+ {
+  "f": "9494d959_27_20_4.SLDPRT",
+  "faces": 12,
+  "conv_meta": 12,
+  "my_meta": 12,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "b185085c_Handle 3.SLDPRT",
+  "faces": 33,
+  "conv_meta": 33,
+  "my_meta": 33,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT",
+  "faces": 0,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "85aabbde_84T Gear.SLDPRT",
+  "faces": 671,
+  "conv_meta": 671,
+  "my_meta": 671,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "916d4a0a_36T Gear.SLDPRT",
+  "faces": 295,
+  "conv_meta": 295,
+  "my_meta": 295,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "bc3292d7_12T Gear.SLDPRT",
+  "faces": 135,
+  "conv_meta": 135,
+  "my_meta": 135,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "eb0b2a21_60T Gear.SLDPRT",
+  "faces": 399,
+  "conv_meta": 399,
+  "my_meta": 399,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "073482d3_ReducerBox_1_Reducer.SLDPRT",
+  "faces": 109,
+  "conv_meta": 109,
+  "my_meta": 109,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT",
+  "faces": 103,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 103
+  }
+ },
+ {
+  "f": "10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT",
+  "faces": 143,
+  "conv_meta": 143,
+  "my_meta": 143,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "1ee60868_z轴皮带固定.SLDPRT",
+  "faces": 32,
+  "conv_meta": 32,
+  "my_meta": 32,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "273a8d53_FG-F1.SLDPRT",
+  "faces": 76,
+  "conv_meta": 76,
+  "my_meta": 76,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+  "faces": 239,
+  "conv_meta": 239,
+  "my_meta": 239,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "40e79d45_Fins.SLDPRT",
+  "faces": 12,
+  "conv_meta": 12,
+  "my_meta": 12,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "6ccc1814_LB26001-A-04-007.SLDPRT",
+  "faces": 9,
+  "conv_meta": 9,
+  "my_meta": 9,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "84226163_Fin.SLDPRT",
+  "faces": 10,
+  "conv_meta": 10,
+  "my_meta": 10,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "9cc04b03_SO-C1.SLDPRT",
+  "faces": 93,
+  "conv_meta": 93,
+  "my_meta": 93,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "a0ab30c8_LB26001-A-04-022.SLDPRT",
+  "faces": 37,
+  "conv_meta": 33,
+  "my_meta": 33,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 4
+  }
+ },
+ {
+  "f": "a0fc2e29_Vertical Spar.SLDPRT",
+  "faces": 11,
+  "conv_meta": 11,
+  "my_meta": 11,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "d753195d_ServoMount.SLDPRT",
+  "faces": 90,
+  "conv_meta": 90,
+  "my_meta": 90,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "db8a97e2_écrou fileté M5.SLDPRT",
+  "faces": 26,
+  "conv_meta": 26,
+  "my_meta": 26,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "dc265ce1_Fin.SLDPRT",
+  "faces": 10,
+  "conv_meta": 10,
+  "my_meta": 10,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "dd156283_637Z flanzi bearing.SLDPRT",
+  "faces": 11,
+  "conv_meta": 11,
+  "my_meta": 11,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "03764871_BME280.SLDPRT",
+  "faces": 693,
+  "conv_meta": 693,
+  "my_meta": 693,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "1759e569_mahatbalam_ex7_beg.SLDPRT",
+  "faces": 35,
+  "conv_meta": 35,
+  "my_meta": 35,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "2f121983_case.SLDPRT",
+  "faces": 155,
+  "conv_meta": 155,
+  "my_meta": 155,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "2fd21507_MidplateEM2.SLDPRT",
+  "faces": 49,
+  "conv_meta": 49,
+  "my_meta": 49,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "31596c7e_EC11 Rotary Encoder 15mm.SLDPRT",
+  "faces": 99,
+  "conv_meta": 99,
+  "my_meta": 99,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "3edbf014_TEST shortened Dock (Final).SLDPRT",
+  "faces": 127,
+  "conv_meta": 127,
+  "my_meta": 127,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "41b71219_板材-Guidance安装板.SLDPRT",
+  "faces": 82,
+  "conv_meta": 82,
+  "my_meta": 82,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "4803f393_box.SLDPRT",
+  "faces": 1390,
+  "conv_meta": 1390,
+  "my_meta": 1390,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "9aeafb66_标准件-30mm管夹.SLDPRT",
+  "faces": 37,
+  "conv_meta": 37,
+  "my_meta": 37,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "d0d61cde_官方元件-定位模块.SLDPRT",
+  "faces": 544,
+  "conv_meta": 544,
+  "my_meta": 544,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "d2f7f9bd_iman.SLDPRT",
+  "faces": 6,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 6
+  }
+ },
+ {
+  "f": "d77ec77a_TopSheet.SLDPRT",
+  "faces": 67,
+  "conv_meta": 67,
+  "my_meta": 67,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "d8206ed0_J6_Flange_Adapter.SLDPRT",
+  "faces": 34,
+  "conv_meta": 34,
+  "my_meta": 34,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "ef1d5cfe_DS3231.SLDPRT",
+  "faces": 404,
+  "conv_meta": 404,
+  "my_meta": 404,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "03afebf4_Profilringe.SLDPRT",
+  "faces": 7,
+  "conv_meta": 7,
+  "my_meta": 7,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "09d353a9_Elbow_Mount2.SLDPRT",
+  "faces": 40,
+  "conv_meta": 40,
+  "my_meta": 40,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "1e794aad_6344387.SLDPRT",
+  "faces": 117,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 117
+  }
+ },
+ {
+  "f": "225c13ed_camholder0deg.SLDPRT",
+  "faces": 49,
+  "conv_meta": 49,
+  "my_meta": 49,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "2300f35c_Thigh Symétrie.SLDPRT",
+  "faces": 172,
+  "conv_meta": 172,
+  "my_meta": 172,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "346a04bc_R01_D_lower_1_140_washer_head.SLDPRT",
+  "faces": 4,
+  "conv_meta": 4,
+  "my_meta": 4,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "37663d8a_Gasket For M12.SLDPRT",
+  "faces": 11,
+  "conv_meta": 11,
+  "my_meta": 11,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "4febfc67_6344149.SLDPRT",
+  "faces": 19,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 19
+  }
+ },
+ {
+  "f": "766ad273_WP06_washer_inner_-1_-94.SLDPRT",
+  "faces": 4,
+  "conv_meta": 4,
+  "my_meta": 4,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "7fa6934e_Aluminum Box Pt 2.SLDPRT",
+  "faces": 22,
+  "conv_meta": 22,
+  "my_meta": 22,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "871e670c_servo_adapter.SLDPRT",
+  "faces": 32,
+  "conv_meta": 32,
+  "my_meta": 32,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "951f2bc1_Boitier.SLDPRT",
+  "faces": 26,
+  "conv_meta": 26,
+  "my_meta": 26,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "a4ecc6f5_PP-2074-08.SLDPRT",
+  "faces": 961,
+  "conv_meta": 961,
+  "my_meta": 961,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "be0e76cf_WP06_screw_1_-94.SLDPRT",
+  "faces": 16,
+  "conv_meta": 16,
+  "my_meta": 16,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "bf11f45c_shear_clip_1_150_-94.SLDPRT",
+  "faces": 8,
+  "conv_meta": 8,
+  "my_meta": 8,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "05d0b4c3_pin-2-2.SLDPRT",
+  "faces": 500,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 500
+  }
+ },
+ {
+  "f": "16f99cd7_装甲板固定（前）.SLDPRT",
+  "faces": 34,
+  "conv_meta": 34,
+  "my_meta": 34,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "3e41786b_LB26001-A-04-002_seed.SLDPRT",
+  "faces": 18,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 18
+  }
+ },
+ {
+  "f": "50af9019_7x4 P42a Cell Holder.SLDPRT",
+  "faces": 274,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 274
+  }
+ },
+ {
+  "f": "51f01927_Держатель-Фиксатор-Бутылки.SLDPRT",
+  "faces": 428,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 428
+  }
+ },
+ {
+  "f": "55c163ac_pin-1-2.SLDPRT",
+  "faces": 452,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 452
+  }
+ },
+ {
+  "f": "6fd68589_pin-2-1.SLDPRT",
+  "faces": 500,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 500
+  }
+ },
+ {
+  "f": "822f5572_一级挡块-hhr镂空限位.SLDPRT",
+  "faces": 18,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 18
+  }
+ },
+ {
+  "f": "8aaecde6_6008内圈下加工件.SLDPRT",
+  "faces": 46,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 46
+  }
+ },
+ {
+  "f": "8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT",
+  "faces": 14,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 14
+  }
+ },
+ {
+  "f": "ac760485_存矿小端.SLDPRT",
+  "faces": 38,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 38
+  }
+ },
+ {
+  "f": "c613782b_Крепёжная-Планка.SLDPRT",
+  "faces": 13,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 13
+  }
+ },
+ {
+  "f": "e8f16581_Engine Base.SLDPRT",
+  "faces": 10,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 10
+  }
+ },
+ {
+  "f": "f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT",
+  "faces": 33,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 33
+  }
+ },
+ {
+  "f": "f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT",
+  "faces": 17,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Metadata has no id block (reserved words #,#,#)": 17
+  }
+ },
+ {
+  "f": "0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+  "faces": 54,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 54
+  }
+ },
+ {
+  "f": "2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT",
+  "faces": 0,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+  "faces": 1117,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 1117
+  }
+ },
+ {
+  "f": "4d85599e_base-M4.SLDPRT",
+  "faces": 12,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 12
+  }
+ },
+ {
+  "f": "c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT",
+  "faces": 0,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+  "faces": 88,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 88
+  }
+ },
+ {
+  "f": "d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT",
+  "faces": 0,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {}
+ },
+ {
+  "f": "daa6e9e9_CR26-201-08.SLDPRT",
+  "faces": 296,
+  "conv_meta": 0,
+  "my_meta": 0,
+  "disagree": 0,
+  "badreason": {
+   "Unexpected array header at #": 296
+  }
+ }
+]

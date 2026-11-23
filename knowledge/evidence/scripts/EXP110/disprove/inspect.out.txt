@@ -1,0 +1,55 @@
+(1) tag=plane but mesh normals differ
+  spread (deg) bins: {}
+  files: 0 top: 
+  non-plane tag but mesh flat: 0 
+
+(2) layout A, a104=0, nonzero +112..+124
+  by a108,tag: {"1 tagnull":349,"0 tagnull":86,"1 tag4001":3499,"0 tag4005":24,"0 tag4002":231,"0 tag4004":16,"1 tag4009":347,"1 tag4002":1251,"1 tag4003":170,"1 tag4005":91,"0 tag4003":40,"0 tag4010":72,"1 tag4006":234,"0 tag4006":66,"1 tag4004":20,"1 tag4007":4,"0 tag4007":22}
+  files: 117
+  ex test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT 0 tag null s 0 v [ 0, 0, 3.00201e+35 ] |v| 3.0020137065057363e+35 raw 0 0 0 2053588040
+  ex test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT 3 tag null s 0 v [ 0, 0, 3.00176e+35 ] |v| 3.00175700725919e+35 raw 0 0 0 2053586744
+  ex test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT 4 tag null s 0 v [ 0, 0, 2.98901e+35 ] |v| 2.9890076113473947e+35 raw 0 0 0 2053522376
+  ex test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT 5 tag null s 0 v [ 0, 0, 2.98661e+35 ] |v| 2.9866117517129633e+35 raw 0 0 0 2053510280
+  ex test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT 19 tag null s 0.9942537546157837 v [ 0, 0.94064, -0.339407 ] |v| 1.000000 raw 1065256810 0 1064357313 3199059654
+  ex test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT 20 tag null s 0.9999578595161438 v [ 0, -0.0440699, 0.999028 ] |v| 1.000000 raw 1065352509 0 3174335151 1065336916
+  |v|=1 on 983 of 6522
+  of those on planes: 3499
+
+(3) legacy (OLE) records per file: a92 / a104,a108 / a128 / next word
+  test files online/2007/05187d94_ChainCL_In.SLDPRT: faces 13 recRoom-min 208 | a92 {"0":7,"1":6} | flat with a92=1 6/6, curved with a92=1 0/7 | a104 {"0":13} a108 {"0":7,"1":6} | a128 {"1":13} | next {"0":3,"big":10}
+  test files online/2010/065f38b0_等径四节弯头-4.SLDPRT: faces 6 recRoom-min 224 | a92 {"0":3,"1":3} | flat with a92=1 3/3, curved with a92=1 0/3 | a104 {"0":5,"1":1} a108 {"0":2,"1":4} | a128 {"1":6} | next {"0":3,"531":1,"big":2}
+  test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT: faces 7 recRoom-min 224 | a92 {"0":4,"1":3} | flat with a92=1 3/3, curved with a92=1 0/4 | a104 {"0":5,"1":2} a108 {"0":2,"1":5} | a128 {"1":7} | next {"0":1,"big":6}
+  test files online/2011/6ff6c243_通气塞.SLDPRT: faces 15 recRoom-min 208 | a92 {"0":10,"1":5} | flat with a92=1 5/5, curved with a92=1 0/10 | a104 {"0":14,"1":1} a108 {"0":9,"1":6} | a128 {"1":15} | next {"0":1,"big":14}
+  test files online/2011/e1f38af5_0000380-01.sldprt: faces 14 recRoom-min 224 | a92 {"0":11,"1":3} | flat with a92=1 3/3, curved with a92=1 0/11 | a104 {"0":14} a108 {"0":11,"1":3} | a128 {"1":14} | next {"8":14}
+  test files online/2013/82981f2a_head_back.sldprt: faces 532 recRoom-min 228 | a92 {"0":340,"1":192} | flat with a92=1 192/192, curved with a92=1 0/340 | a104 {"0":532} a108 {"1":532} | a128 {"1":532} | next {"8":532}
+  test files online/2013/92c393f4_camera_support.sldprt: faces 116 recRoom-min 228 | a92 {"0":44,"1":72} | flat with a92=1 72/72, curved with a92=1 0/44 | a104 {"0":116} a108 {"1":116} | a128 {"1":116} | next {"8":116}
+  test files online/2013/f666f342_head_face.sldprt: faces 732 recRoom-min 228 | a92 {"0":550,"1":182} | flat with a92=1 182/182, curved with a92=1 0/550 | a104 {"0":732} a108 {"1":732} | a128 {"1":732} | next {"8":732}
+  test files online/2014/300f9732_Carter2019.SLDPRT: faces 92 recRoom-min 356 | a92 {"0":28,"1":64} | flat with a92=1 64/64, curved with a92=1 0/28 | a104 {"0":76,"1":16} a108 {"0":12,"1":80} | a128 {"1":92} | next {"8":92}
+  test files online/2014/68cd51b6_20190309-0049.SLDPRT: faces 26 recRoom-min 364 | a92 {"0":16,"1":10} | flat with a92=1 10/10, curved with a92=1 0/16 | a104 {"0":16,"1":10} a108 {"0":6,"1":20} | a128 {"1":26} | next {"8":26}
+  test files new/SW2011/C00_cube_10mm/model.SLDPRT: faces 6 recRoom-min 224 | a92 {"1":6} | flat with a92=1 6/6, curved with a92=1 0/0 | a104 {"0":6} a108 {"1":6} | a128 {"1":6} | next {"8":6}
+  test files new/SW2011/C01_cube_20mm/model.SLDPRT: faces 6 recRoom-min 224 | a92 {"1":6} | flat with a92=1 6/6, curved with a92=1 0/0 | a104 {"0":6} a108 {"1":6} | a128 {"1":6} | next {"8":6}
+  test files new/SW2011/C02_cube_translated/model.SLDPRT: faces 6 recRoom-min 224 | a92 {"1":6} | flat with a92=1 6/6, curved with a92=1 0/0 | a104 {"0":6} a108 {"1":6} | a128 {"1":6} | next {"8":6}
+  test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT: faces 7 recRoom-min 224 | a92 {"0":1,"1":6} | flat with a92=1 6/6, curved with a92=1 0/1 | a104 {"0":7} a108 {"1":7} | a128 {"1":7} | next {"8":7}
+  test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT: faces 7 recRoom-min 224 | a92 {"0":1,"1":6} | flat with a92=1 6/6, curved with a92=1 0/1 | a104 {"0":7} a108 {"1":7} | a128 {"1":7} | next {"8":7}
+  test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT: faces 7 recRoom-min 224 | a92 {"0":1,"1":6} | flat with a92=1 6/6, curved with a92=1 0/1 | a104 {"0":7} a108 {"1":7} | a128 {"1":7} | next {"8":7}
+  test files new/SW2011/C06_cube_hole_moved/model.SLDPRT: faces 7 recRoom-min 224 | a92 {"0":1,"1":6} | flat with a92=1 6/6, curved with a92=1 0/1 | a104 {"0":7} a108 {"1":7} | a128 {"1":7} | next {"8":7}
+  test files new/SW2011/C07_cube_two_holes/model.SLDPRT: faces 8 recRoom-min 224 | a92 {"0":2,"1":6} | flat with a92=1 6/6, curved with a92=1 0/2 | a104 {"0":8} a108 {"1":8} | a128 {"1":8} | next {"8":8}
+  test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT: faces 8 recRoom-min 224 | a92 {"0":2,"1":6} | flat with a92=1 6/6, curved with a92=1 0/2 | a104 {"0":8} a108 {"1":8} | a128 {"1":8} | next {"8":8}
+  test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT: faces 7 recRoom-min 224 | a92 {"1":7} | flat with a92=1 7/7, curved with a92=1 0/0 | a104 {"0":7} a108 {"1":7} | a128 {"1":7} | next {"8":7}
+  test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT: faces 11 recRoom-min 224 | a92 {"1":11} | flat with a92=1 11/11, curved with a92=1 0/0 | a104 {"0":11} a108 {"1":11} | a128 {"1":11} | next {"8":11}
+  test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT: faces 7 recRoom-min 224 | a92 {"0":1,"1":6} | flat with a92=1 6/6, curved with a92=1 0/1 | a104 {"0":7} a108 {"1":7} | a128 {"1":7} | next {"8":7}
+  test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT: faces 7 recRoom-min 224 | a92 {"0":1,"1":6} | flat with a92=1 6/6, curved with a92=1 0/1 | a104 {"0":7} a108 {"1":7} | a128 {"1":7} | next {"8":7}
+  test files new/SW2011/C13_cone/model.SLDPRT: faces 2 recRoom-min 763 | a92 {"0":1,"1":1} | flat with a92=1 1/1, curved with a92=1 0/1 | a104 {"0":2} a108 {"1":2} | a128 {"1":2} | next {"8":2}
+  test files new/SW2011/C14_sphere/model.SLDPRT: faces 1 recRoom-min 39867 | a92 {"0":1} | flat with a92=1 0/0, curved with a92=1 0/1 | a104 {"0":1} a108 {"1":1} | a128 {"1":1} | next {"8":1}
+  test files new/SW2011/C15_torus/model.SLDPRT: faces 1 recRoom-min 763 | a92 {"0":1} | flat with a92=1 0/0, curved with a92=1 0/1 | a104 {"0":1} a108 {"1":1} | a128 {"1":1} | next {"8":1}
+  test files new/SW2011/C16_loft_spline/model.SLDPRT: faces 6 recRoom-min 224 | a92 {"0":4,"1":2} | flat with a92=1 2/2, curved with a92=1 0/4 | a104 {"0":6} a108 {"1":6} | a128 {"1":6} | next {"8":6}
+  test files new/SW2011/C17_torus_quarter/model.SLDPRT: faces 3 recRoom-min 224 | a92 {"0":1,"1":2} | flat with a92=1 2/2, curved with a92=1 0/1 | a104 {"0":3} a108 {"1":3} | a128 {"1":3} | next {"8":3}
+  test files new/SW2011/C18_cube_split_line/model.SLDPRT: faces 7 recRoom-min 224 | a92 {"1":7} | flat with a92=1 7/7, curved with a92=1 0/0 | a104 {"0":7} a108 {"1":7} | a128 {"1":7} | next {"8":7}
+  test files new/SW2011/C19_half_cylinder/model.SLDPRT: faces 4 recRoom-min 224 | a92 {"0":1,"1":3} | flat with a92=1 3/3, curved with a92=1 0/1 | a104 {"0":4} a108 {"1":4} | a128 {"1":4} | next {"8":4}
+  test files new/SW2011/C20_cylinders_crossed/model.SLDPRT: faces 8 recRoom-min 224 | a92 {"0":4,"1":4} | flat with a92=1 4/4, curved with a92=1 0/4 | a104 {"0":8} a108 {"1":8} | a128 {"1":8} | next {"8":8}
+  test files new/SW2011/C21_cylinder_fillet/model.SLDPRT: faces 4 recRoom-min 224 | a92 {"0":2,"1":2} | flat with a92=1 2/2, curved with a92=1 0/2 | a104 {"0":4} a108 {"1":4} | a128 {"1":4} | next {"8":4}
+  test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT: faces 6 recRoom-min 224 | a92 {"1":6} | flat with a92=1 6/6, curved with a92=1 0/0 | a104 {"0":6} a108 {"1":6} | a128 {"1":6} | next {"8":6}
+  test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT: faces 2 recRoom-min 763 | a92 {"0":1,"1":1} | flat with a92=1 1/1, curved with a92=1 0/1 | a104 {"0":2} a108 {"1":2} | a128 {"1":2} | next {"8":2}
+  test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT: faces 7 recRoom-min 224 | a92 {"0":1,"1":6} | flat with a92=1 6/6, curved with a92=1 0/1 | a104 {"0":7} a108 {"1":7} | a128 {"1":7} | next {"8":7}
+  test files original/chainwheel.sldprt: faces 189 recRoom-min 144 | a92 {"big":189} | flat with a92=1 0/6, curved with a92=1 0/183 | a104 {"0":183,"1":6} a108 {"4":189} | a128 {"1":35,"6":30,"7":34,"8":12,"9":16,"10":12,"11":37,"12":13} | next {"1":13,"9":30,"12":30,"13":12,"14":21,"15":21,"16":7,"17":20,"big":35}
+  test files original/plate4.sldprt: faces 14 recRoom-min 102 | a92 {"big":14} | flat with a92=1 0/14, curved with a92=1 0/0 | a104 {"2":10,"6":2,"10":1,"null":1} a108 {"1":10,"2":2,"4":1,"null":1} | a128 {"null":14} | next {"null":14}

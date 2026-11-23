@@ -1,0 +1,3 @@
+flat-test mismatch 2f121983_case.SLDPRT #73 bspline 1-cos 3.95e-8 u92 0
+flat-test mismatch 2f121983_case.SLDPRT #74 bspline 1-cos 6.74e-8 u92 0
+flat-test mismatch 2f121983_case.SLDPRT #75 bspline 1-cos 3.81e-8 u92 0

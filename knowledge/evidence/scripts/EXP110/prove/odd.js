@@ -1,0 +1,10 @@
+const fs=require('fs');const ver=JSON.parse(fs.readFileSync(__dirname+'/file_versions.json'));
+const R=fs.readFileSync(process.argv[2],'utf8').split('\n').filter(Boolean).map(JSON.parse).filter(r=>r.u92!==undefined);
+const flat=r=>r.estMinCos!==undefined&&r.estMinCos>=1-1e-6;
+console.log('untagged flat with u92=0:');R.filter(r=>r.tag==null&&flat(r)&&r.u92===0).forEach(r=>console.log(' ',r.file.split('/').pop(),'#'+r.i,'nv',r.nv,'nn',r.nn,'estMinCos',r.estMinCos,'u104',r.u104,'u108',r.u108,'u128',r.u128,'ver',ver[r.file]));
+console.log('untagged non-flat with u92=1 (ver>=5000):',R.filter(r=>ver[r.file]>=5000&&r.u92===1&&r.estMinCos!==undefined&&!flat(r)).length);
+console.log('faces with no normals (estMinCos undefined):',R.filter(r=>r.estMinCos===undefined).length);
+const pf={};R.filter(r=>ver[r.file]===18000).forEach(r=>{const k=r.file.split('/').slice(-2).join('/');pf[k]=pf[k]||{n:0,u128_1:0,tagged:0,cone:0};pf[k].n++;if(r.u128===1)pf[k].u128_1++;if(r.tag!=null)pf[k].tagged++;if(r.u104===1&&r.u108===1)pf[k].cone++;});
+console.log('version 18000 per file:');for(const k in pf)console.log(' ',k,JSON.stringify(pf[k]));
+const pv={};R.filter(r=>ver[r.file]===19000).forEach(r=>{const k=r.file.split('/').slice(-2).join('/');pv[k]=pv[k]||{n:0,u104_1:0,u108_1:0,u92_1:0};pv[k].n++;if(r.u104===1)pv[k].u104_1++;if(r.u108===1)pv[k].u108_1++;if(r.u92===1)pv[k].u92_1++;});
+console.log('version 19000 per file:');for(const k in pv)console.log(' ',k,JSON.stringify(pv[k]));

@@ -1,0 +1,48 @@
+legacy 0,0 curved not-a-cone 32
+legacy 0,0 curved zero 17
+legacy 0,1 curved not-a-cone 735
+legacy 0,1 curved unit-v fits=false 89
+legacy 0,1 curved zero 137
+legacy 0,1 flat not-a-cone 437
+legacy 0,1 flat unit-v fits=null 71
+legacy 0,1 flat zero 150
+legacy 1,1 curved unit-v fits=false 3
+legacy 1,1 curved unit-v fits=true 27
+modern 0,0 curved not-a-cone 246
+modern 0,0 curved unit-v fits=false 322
+modern 0,0 curved unit-v fits=true 1
+modern 0,0 curved zero 448
+modern 0,1 curved not-a-cone 2128
+modern 0,1 curved unit-v fits=false 59
+modern 0,1 curved unit-v fits=true 1
+modern 0,1 curved zero 3022
+modern 0,1 flat not-a-cone 3408
+modern 0,1 flat unit-v fits=null 410
+modern 0,1 flat zero 5797
+modern 1,1 curved unit-v fits=false 108
+modern 1,1 curved unit-v fits=true 3199
+
+files with no flagged cone but curved faces whose floats fit them as a cone:
+  test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT: 1 of 24 curved faces; e.g. #13 flags 0,1 s 0.760912 mesh cone 45.00 deg margin NaN
+
+examples of unit-v floats on faces without the 1,1 flags (curved):
+  test files online/2013/82981f2a_head_back.sldprt#2 0,1 s 0.881151 v 0.8663,-0.4995,0.0000 mesh cone 29.95 angle(v, mesh axis) 46.195
+  test files online/2013/82981f2a_head_back.sldprt#7 0,1 s 0.764004 v -0.6936,0.7204,0.0000 mesh cone 42.14 angle(v, mesh axis) 17.882
+  test files online/2013/82981f2a_head_back.sldprt#15 0,1 s 0.760912 v -0.6935,0.7178,-0.0628 mesh cone 60.35 angle(v, mesh axis) 74.513
+  test files online/2013/82981f2a_head_back.sldprt#16 0,1 s 0.709439 v 0.0000,-0.7102,0.7040 mesh cone 60.39 angle(v, mesh axis) 116.667
+  test files online/2013/82981f2a_head_back.sldprt#19 0,1 s 0.934068 v -0.3633,0.9317,0.0000 mesh cone 51.66 angle(v, mesh axis) 46.725
+  test files online/2013/82981f2a_head_back.sldprt#32 0,1 s 0.934030 v 0.3668,0.9303,0.0000 mesh cone 45.00 angle(v, mesh axis) 23.837
+  test files online/2013/82981f2a_head_back.sldprt#33 0,1 s 0.760912 v 0.6935,-0.7178,0.0628 mesh cone 45.00 angle(v, mesh axis) 178.905
+  test files online/2013/82981f2a_head_back.sldprt#48 0,1 s 0.762436 v 0.5296,0.6616,-0.5309 mesh cone 49.32 angle(v, mesh axis) 140.083
+  test files online/2013/82981f2a_head_back.sldprt#52 0,1 s 0.995872 v 0.0000,-0.9894,0.1451 mesh cone 49.12 angle(v, mesh axis) 129.066
+  test files online/2013/82981f2a_head_back.sldprt#63 0,1 s 0.723624 v 0.1260,-0.6602,0.7404 mesh cone 90.00 angle(v, mesh axis) 43.759
+  test files online/2013/82981f2a_head_back.sldprt#71 0,1 s 0.817230 v 0.0000,-0.7444,0.6677 mesh cone 49.32 angle(v, mesh axis) 9.173
+  test files online/2013/82981f2a_head_back.sldprt#73 0,1 s 0.763894 v -0.3291,0.7711,0.5451 mesh cone 38.17 angle(v, mesh axis) 156.247
+
+examples on flat faces:
+  test files online/2007/05187d94_ChainCL_In.SLDPRT#0 0,1 not-a-cone s 0.00011020340025424957 v 0.00011036801151931286,0.00011019944213330746,0.00011016963981091976 raw 954670336 954692960 954669792 954665696
+  test files online/2007/05187d94_ChainCL_In.SLDPRT#2 0,1 not-a-cone s 0.00011216977145522833 v 0.00011223938781768084,0.00011206837370991707,2.604697224460377e-24 raw 954940592 954950160 954926656 407471960
+  test files online/2007/05187d94_ChainCL_In.SLDPRT#4 0,1 not-a-cone s 0.00011263228952884674 v 0.00011263461783528328,0.00011263438500463963,0.00011263415217399597 raw 955004160 955004480 955004448 955004416
+  test files online/2007/05187d94_ChainCL_In.SLDPRT#6 0,1 not-a-cone s 0.0001127634895965457 v 0.00011257757432758808,0.00011257734149694443,0.00011256523430347443 raw 955022192 954996640 954996608 954994944
+  test files online/2007/05187d94_ChainCL_In.SLDPRT#8 0,1 not-a-cone s 0 v 2.312142466135948e-43,0,0 raw 0 165 0 0
+  test files online/2007/05187d94_ChainCL_In.SLDPRT#10 0,1 not-a-cone s null v 0,, raw 4294967291 0 4294967291 4294967131

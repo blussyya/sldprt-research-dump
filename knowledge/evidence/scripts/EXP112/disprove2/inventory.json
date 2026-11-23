@@ -1,0 +1,1778 @@
+[
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C00_cube_10mm/model.SLDPRT",
+  "size": 90624,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C01_cube_20mm/model.SLDPRT",
+  "size": 90624,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C02_cube_translated/model.SLDPRT",
+  "size": 89088,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT",
+  "size": 105472,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT",
+  "size": 104448,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT",
+  "size": 101888,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C06_cube_hole_moved/model.SLDPRT",
+  "size": 104448,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C07_cube_two_holes/model.SLDPRT",
+  "size": 114688,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT",
+  "size": 111616,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT",
+  "size": 99840,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT",
+  "size": 104960,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT",
+  "size": 103424,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+  "size": 96256,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C13_cone/model.SLDPRT",
+  "size": 98304,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C14_sphere/model.SLDPRT",
+  "size": 155136,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C15_torus/model.SLDPRT",
+  "size": 204800,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C16_loft_spline/model.SLDPRT",
+  "size": 155136,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C17_torus_quarter/model.SLDPRT",
+  "size": 155136,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C18_cube_split_line/model.SLDPRT",
+  "size": 103424,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C19_half_cylinder/model.SLDPRT",
+  "size": 88064,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C20_cylinders_crossed/model.SLDPRT",
+  "size": 143872,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C21_cylinder_fillet/model.SLDPRT",
+  "size": 129536,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT",
+  "size": 90624,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT",
+  "size": 98304,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2011",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT",
+  "size": 104448,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+  "size": 50108,
+  "kind": "modern",
+  "head8": "44a0e24900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C01_cube_20mm/model.SLDPRT",
+  "size": 48958,
+  "kind": "modern",
+  "head8": "5a15651e00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C02_cube_translated/model.SLDPRT",
+  "size": 48763,
+  "kind": "modern",
+  "head8": "29b7471e00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT",
+  "size": 59324,
+  "kind": "modern",
+  "head8": "e654f67b00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT",
+  "size": 62408,
+  "kind": "modern",
+  "head8": "2eda4cc600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT",
+  "size": 57394,
+  "kind": "modern",
+  "head8": "825d070400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C06_cube_hole_moved/model.SLDPRT",
+  "size": 61213,
+  "kind": "modern",
+  "head8": "6d59159200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C07_cube_two_holes/model.SLDPRT",
+  "size": 70179,
+  "kind": "modern",
+  "head8": "544d49cd00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT",
+  "size": 67950,
+  "kind": "modern",
+  "head8": "c83aa35700000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT",
+  "size": 56812,
+  "kind": "modern",
+  "head8": "456e063900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT",
+  "size": 59755,
+  "kind": "modern",
+  "head8": "c0a6611d00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT",
+  "size": 60146,
+  "kind": "modern",
+  "head8": "fbd2491e00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+  "size": 54162,
+  "kind": "modern",
+  "head8": "f47c907c00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C13_cone/model.SLDPRT",
+  "size": 56816,
+  "kind": "modern",
+  "head8": "d5d876da00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C14_sphere/model.SLDPRT",
+  "size": 115786,
+  "kind": "modern",
+  "head8": "7b63665b00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C15_torus/model.SLDPRT",
+  "size": 147394,
+  "kind": "modern",
+  "head8": "1863e36b00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C16_loft_spline/model.SLDPRT",
+  "size": 105922,
+  "kind": "modern",
+  "head8": "985f781400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C17_torus_quarter/model.SLDPRT",
+  "size": 106905,
+  "kind": "modern",
+  "head8": "d8fe797700000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+  "size": 57495,
+  "kind": "modern",
+  "head8": "c938a46800000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C19_half_cylinder/model.SLDPRT",
+  "size": 46415,
+  "kind": "modern",
+  "head8": "beb9069600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+  "size": 91334,
+  "kind": "modern",
+  "head8": "0a5f742a00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+  "size": 81429,
+  "kind": "modern",
+  "head8": "688546eb00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT",
+  "size": 49707,
+  "kind": "modern",
+  "head8": "f9861fc600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+  "size": 49671,
+  "kind": "modern",
+  "head8": "ea899bc700000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files new/SW2022",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT",
+  "size": 140185,
+  "kind": "modern",
+  "head8": "ea721e8200000004"
+ },
+ {
+  "group": "extra",
+  "dir": "test files new/SW2026",
+  "path": "/home/user/sldprt-research-dump/test files new/SW2026/cylinder with fillet-2026-credit-kevinR.SLDPRT",
+  "size": 82941,
+  "kind": "modern",
+  "head8": "a9fd2a5a00000004"
+ },
+ {
+  "group": "extra",
+  "dir": "test files new/re-exports",
+  "path": "/home/user/sldprt-research-dump/test files new/re-exports/C00_cube_10mm-2011-to-2026/model.SLDPRT",
+  "size": 46499,
+  "kind": "modern",
+  "head8": "739c56b900000004"
+ },
+ {
+  "group": "extra",
+  "dir": "test files new/re-exports",
+  "path": "/home/user/sldprt-research-dump/test files new/re-exports/C01_cube_20mm-2011-to-2026/model.SLDPRT",
+  "size": 46691,
+  "kind": "modern",
+  "head8": "7b05929d00000004"
+ },
+ {
+  "group": "extra",
+  "dir": "test files new/re-exports",
+  "path": "/home/user/sldprt-research-dump/test files new/re-exports/holefillets1-2022to2026reexport-Furthen64-kevinR.SLDPRT",
+  "size": 142286,
+  "kind": "modern",
+  "head8": "4acd9f4500000004"
+ },
+ {
+  "group": "extra",
+  "dir": "test files new/re-exports",
+  "path": "/home/user/sldprt-research-dump/test files new/re-exports/plate4 1997to2025kevin.SLDPRT",
+  "size": 60924,
+  "kind": "modern",
+  "head8": "b14ff4b500000004"
+ },
+ {
+  "group": "extra",
+  "dir": "test files new/re-exports",
+  "path": "/home/user/sldprt-research-dump/test files new/re-exports/plate4-1997to2026kevinrahhal.sldprt",
+  "size": 60876,
+  "kind": "modern",
+  "head8": "a1303a2a00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2007/05187d94_ChainCL_In.SLDPRT",
+  "size": 162816,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2010/065f38b0_\u7b49\u5f84\u56db\u8282\u5f2f\u5934-4.SLDPRT",
+  "size": 201728,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2010/7192bb05_\u957f\u77ed\u811a\u4efb\u610f\u89d2\u5ea6\u88e4\u5f62\u4e09\u901a\u7ba1-5.SLDPRT",
+  "size": 155136,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2011/6ff6c243_\u901a\u6c14\u585e.SLDPRT",
+  "size": 256512,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2011/e1f38af5_0000380-01.sldprt",
+  "size": 318976,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2013/82981f2a_head_back.sldprt",
+  "size": 4152832,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2013/92c393f4_camera_support.sldprt",
+  "size": 269312,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt",
+  "size": 4182467,
+  "kind": "modern",
+  "head8": "5704dedd00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2013/f666f342_head_face.sldprt",
+  "size": 10688512,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2014/300f9732_Carter2019.SLDPRT",
+  "size": 1418752,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2014/68cd51b6_20190309-0049.SLDPRT",
+  "size": 217088,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+  "size": 1891748,
+  "kind": "modern",
+  "head8": "d9cc9f5400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT",
+  "size": 70894,
+  "kind": "modern",
+  "head8": "1544b0af00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT",
+  "size": 2320120,
+  "kind": "modern",
+  "head8": "7b59a24d00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT",
+  "size": 201790,
+  "kind": "modern",
+  "head8": "beb9069600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT",
+  "size": 201727,
+  "kind": "modern",
+  "head8": "c18cf29e00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT",
+  "size": 314823,
+  "kind": "modern",
+  "head8": "76d4ec3a00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2017/3b48d9c5_Body10.sldprt",
+  "size": 41134,
+  "kind": "modern",
+  "head8": "ebbb644900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2017/4df87793_21BC-S 1.19-A.sldprt",
+  "size": 45568,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT",
+  "size": 113327,
+  "kind": "modern",
+  "head8": "1bfb2f4900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2017/516a7dc5_Body1.sldprt",
+  "size": 76450,
+  "kind": "modern",
+  "head8": "30cd90a900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2017/afc71d14_Body2.sldprt",
+  "size": 114281,
+  "kind": "modern",
+  "head8": "ecb57ee600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2017/d49566bc_AntennaMount.SLDPRT",
+  "size": 77772,
+  "kind": "modern",
+  "head8": "dd3ed12500000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT",
+  "size": 1192217,
+  "kind": "modern",
+  "head8": "ec7213c100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2018/0132519a_102_STEM.SLDPRT",
+  "size": 500594,
+  "kind": "modern",
+  "head8": "fed7114300000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2018/06b5063b_050_MASTER_SKETCH.SLDPRT",
+  "size": 110548,
+  "kind": "modern",
+  "head8": "6e0509cf00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2018/15567d51_leva1.SLDPRT",
+  "size": 819159,
+  "kind": "modern",
+  "head8": "0aa7c9a400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+  "size": 625050,
+  "kind": "modern",
+  "head8": "c467bc2f00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2018/ca465363_103_COVER.SLDPRT",
+  "size": 368459,
+  "kind": "modern",
+  "head8": "3475775000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+  "size": 1935285,
+  "kind": "modern",
+  "head8": "5930cbc900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT",
+  "size": 277039,
+  "kind": "modern",
+  "head8": "4b41e59200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/07ff8da1_shelf.SLDPRT",
+  "size": 101480,
+  "kind": "modern",
+  "head8": "f446d4cc00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/096d0504_MargayMount_WH10.SLDPRT",
+  "size": 88486,
+  "kind": "modern",
+  "head8": "c006232e00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/27377fd2_FE-00006-06.SLDPRT",
+  "size": 45791,
+  "kind": "modern",
+  "head8": "77f322de00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/28398415_Raspberry Pi 4.SLDPRT",
+  "size": 326869,
+  "kind": "modern",
+  "head8": "fc59178900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/300d7f07_Bottom Case.SLDPRT",
+  "size": 184490,
+  "kind": "modern",
+  "head8": "30d557b000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/44afdb7c_back_cushion.SLDPRT",
+  "size": 100048,
+  "kind": "modern",
+  "head8": "ec29c14100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/54b05886_bottom_adc.SLDPRT",
+  "size": 254617,
+  "kind": "modern",
+  "head8": "30d557b000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/636b653d_MountingBracket.SLDPRT",
+  "size": 93545,
+  "kind": "modern",
+  "head8": "b82f73e200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/7765d286_NSJ8L.SLDPRT",
+  "size": 139621,
+  "kind": "modern",
+  "head8": "486eeec300000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+  "size": 205354,
+  "kind": "modern",
+  "head8": "3934caa600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/91a2d981_Camera Module.SLDPRT",
+  "size": 106467,
+  "kind": "modern",
+  "head8": "28dd72c600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/a3a44709_FrontPanel-Bezel.sldprt",
+  "size": 88350,
+  "kind": "modern",
+  "head8": "0ecbc37f00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/d381ebab_bottom_dac.SLDPRT",
+  "size": 254324,
+  "kind": "modern",
+  "head8": "f9861fc600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/e8c40c25_psu.SLDPRT",
+  "size": 567656,
+  "kind": "modern",
+  "head8": "5e9d0e5f00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2019/fb449daa_Gloworm PCB.SLDPRT",
+  "size": 257845,
+  "kind": "modern",
+  "head8": "6a8822a400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2020/14f9214b_11.SLDPRT",
+  "size": 271908,
+  "kind": "modern",
+  "head8": "1ada057100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT",
+  "size": 99833,
+  "kind": "modern",
+  "head8": "cb28f22400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2020/34fe5ff1_Group_44390.stp.SLDPRT",
+  "size": 37814,
+  "kind": "modern",
+  "head8": "775bb6c300000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+  "size": 260395,
+  "kind": "modern",
+  "head8": "2328e38400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT",
+  "size": 109835,
+  "kind": "modern",
+  "head8": "9d373aef00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2020/7841a106_6344428.SLDPRT",
+  "size": 138143,
+  "kind": "modern",
+  "head8": "b592438400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2020/9494d959_27_20_4.SLDPRT",
+  "size": 117371,
+  "kind": "modern",
+  "head8": "c3bcc21200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2020/b185085c_Handle 3.SLDPRT",
+  "size": 125747,
+  "kind": "modern",
+  "head8": "b3d3c91700000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2020/b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT",
+  "size": 48238,
+  "kind": "modern",
+  "head8": "4cdf268000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2021/60f84235_2022_10_06_17_02_43_0612.stp.SLDPRT",
+  "size": 821276,
+  "kind": "modern",
+  "head8": "c3bcc21200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2021/85aabbde_84T Gear.SLDPRT",
+  "size": 744821,
+  "kind": "modern",
+  "head8": "10509bc800000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2021/916d4a0a_36T Gear.SLDPRT",
+  "size": 450523,
+  "kind": "modern",
+  "head8": "43b5713400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2021/bc3292d7_12T Gear.SLDPRT",
+  "size": 199093,
+  "kind": "modern",
+  "head8": "0c72eda500000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+  "size": 576759,
+  "kind": "modern",
+  "head8": "633645ae00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT",
+  "size": 2017691,
+  "kind": "modern",
+  "head8": "7a03ab1800000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT",
+  "size": 1510137,
+  "kind": "modern",
+  "head8": "5e11569900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT",
+  "size": 201722,
+  "kind": "modern",
+  "head8": "825d070400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/1ee60868_z\u8f74\u76ae\u5e26\u56fa\u5b9a.SLDPRT",
+  "size": 145376,
+  "kind": "modern",
+  "head8": "40721e7e00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/24344735_080-1926-000_3.SLDPRT",
+  "size": 572124,
+  "kind": "modern",
+  "head8": "c7c2806300000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/273a8d53_FG-F1.SLDPRT",
+  "size": 183185,
+  "kind": "modern",
+  "head8": "01c36add00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/3980555c_RASPBERRY_PI_5+cooler-5.SLDPRT",
+  "size": 45008,
+  "kind": "modern",
+  "head8": "0ecbc37f00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+  "size": 416554,
+  "kind": "modern",
+  "head8": "906b72ca00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/40e79d45_Fins.SLDPRT",
+  "size": 80354,
+  "kind": "modern",
+  "head8": "34812e9e00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT",
+  "size": 35271,
+  "kind": "modern",
+  "head8": "eda0ee0100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/5f8e9db3_-\u5f39\u7c27\u538b\u68d2\u5f39\u7c27-1-V3-V02.SLDPRT",
+  "size": 87916,
+  "kind": "modern",
+  "head8": "db9ea1e400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT",
+  "size": 128401,
+  "kind": "modern",
+  "head8": "7c9ef8de00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/84226163_Fin.SLDPRT",
+  "size": 60158,
+  "kind": "modern",
+  "head8": "8778734d00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/9cc04b03_SO-C1.SLDPRT",
+  "size": 201710,
+  "kind": "modern",
+  "head8": "7482e64600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+  "size": 177228,
+  "kind": "modern",
+  "head8": "9e3b15a200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/a0fc2e29_Vertical Spar.SLDPRT",
+  "size": 60952,
+  "kind": "modern",
+  "head8": "cb1d36e900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+  "size": 92271,
+  "kind": "modern",
+  "head8": "ec29c14100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+  "size": 47055,
+  "kind": "modern",
+  "head8": "ecdd8f1400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+  "size": 147981,
+  "kind": "modern",
+  "head8": "3731f8b400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/d753195d_ServoMount.SLDPRT",
+  "size": 309853,
+  "kind": "modern",
+  "head8": "84c6c3b100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/db8a97e2_\u00e9crou filet\u00e9 M5.SLDPRT",
+  "size": 737099,
+  "kind": "modern",
+  "head8": "de2755e000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/dc265ce1_Fin.SLDPRT",
+  "size": 68674,
+  "kind": "modern",
+  "head8": "c4af04f500000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/dd156283_637Z flanzi bearing.SLDPRT",
+  "size": 99334,
+  "kind": "modern",
+  "head8": "d8e512c000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2022/f8c2df35_2023_10_16_23_28_17_0357_body1.SLDPRT",
+  "size": 25806,
+  "kind": "modern",
+  "head8": "5acc129d00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/03764871_BME280.SLDPRT",
+  "size": 1018041,
+  "kind": "modern",
+  "head8": "1719a19200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT",
+  "size": 134202,
+  "kind": "modern",
+  "head8": "8d80124a00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/2f121983_case.SLDPRT",
+  "size": 849408,
+  "kind": "modern",
+  "head8": "2c2887a200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/2fd21507_MidplateEM2.SLDPRT",
+  "size": 526873,
+  "kind": "modern",
+  "head8": "bfb706a700000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT",
+  "size": 206926,
+  "kind": "modern",
+  "head8": "98d2c72f00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT",
+  "size": 730643,
+  "kind": "modern",
+  "head8": "406e342300000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/41b71219_\u677f\u6750-Guidance\u5b89\u88c5\u677f.SLDPRT",
+  "size": 367552,
+  "kind": "modern",
+  "head8": "8bd0435300000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/4803f393_box.SLDPRT",
+  "size": 2276943,
+  "kind": "modern",
+  "head8": "5a8aa48500000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/9aeafb66_\u6807\u51c6\u4ef6-30mm\u7ba1\u5939.SLDPRT",
+  "size": 182803,
+  "kind": "modern",
+  "head8": "3ae4a16a00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/d0d61cde_\u5b98\u65b9\u5143\u4ef6-\u5b9a\u4f4d\u6a21\u5757.SLDPRT",
+  "size": 1309875,
+  "kind": "modern",
+  "head8": "6895e3a800000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/d2f7f9bd_iman.SLDPRT",
+  "size": 52039,
+  "kind": "modern",
+  "head8": "1b88df3500000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/d77ec77a_TopSheet.SLDPRT",
+  "size": 271655,
+  "kind": "modern",
+  "head8": "a8532b4a00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT",
+  "size": 222172,
+  "kind": "modern",
+  "head8": "69e8e2c100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+  "size": 619345,
+  "kind": "modern",
+  "head8": "2eda4cc600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/03afebf4_Profilringe.SLDPRT",
+  "size": 168017,
+  "kind": "modern",
+  "head8": "100e27d000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/09d353a9_Elbow_Mount2.SLDPRT",
+  "size": 150962,
+  "kind": "modern",
+  "head8": "ad63a2f500000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/1e794aad_6344387.SLDPRT",
+  "size": 245676,
+  "kind": "modern",
+  "head8": "0897389c00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/225c13ed_camholder0deg.SLDPRT",
+  "size": 201725,
+  "kind": "modern",
+  "head8": "6448d0ca00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/2300f35c_Thigh Sym\u00e9trie.SLDPRT",
+  "size": 449374,
+  "kind": "modern",
+  "head8": "b13b6aa500000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT",
+  "size": 64330,
+  "kind": "modern",
+  "head8": "d42f77ca00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/37663d8a_Gasket For M12.SLDPRT",
+  "size": 76418,
+  "kind": "modern",
+  "head8": "39715e0a00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/4febfc67_6344149.SLDPRT",
+  "size": 107730,
+  "kind": "modern",
+  "head8": "8244e09600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT",
+  "size": 56143,
+  "kind": "modern",
+  "head8": "49864bb900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT",
+  "size": 99172,
+  "kind": "modern",
+  "head8": "953f4c3700000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/871e670c_servo_adapter.SLDPRT",
+  "size": 151566,
+  "kind": "modern",
+  "head8": "90dbd58a00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/951f2bc1_Boitier.SLDPRT",
+  "size": 99254,
+  "kind": "modern",
+  "head8": "0127156100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+  "size": 2017068,
+  "kind": "modern",
+  "head8": "ea05b1e900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+  "size": 68887,
+  "kind": "modern",
+  "head8": "26c1324900000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT",
+  "size": 62837,
+  "kind": "modern",
+  "head8": "20e297ba00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2024/f750218b_612-00002.SLDPRT",
+  "size": 27115,
+  "kind": "modern",
+  "head8": "1863e36b00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/05d0b4c3_pin-2-2.SLDPRT",
+  "size": 510419,
+  "kind": "modern",
+  "head8": "71aff26400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/16f99cd7_\u88c5\u7532\u677f\u56fa\u5b9a\uff08\u524d\uff09.SLDPRT",
+  "size": 319440,
+  "kind": "modern",
+  "head8": "9ab750e800000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/3e41786b_LB26001-A-04-002_seed.SLDPRT",
+  "size": 84925,
+  "kind": "modern",
+  "head8": "94e2871b00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT",
+  "size": 523714,
+  "kind": "modern",
+  "head8": "0455e4e100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/51f01927_\u0414\u0435\u0440\u0436\u0430\u0442\u0435\u043b\u044c-\u0424\u0438\u043a\u0441\u0430\u0442\u043e\u0440-\u0411\u0443\u0442\u044b\u043b\u043a\u0438.SLDPRT",
+  "size": 1097834,
+  "kind": "modern",
+  "head8": "376d8e0c00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/55c163ac_pin-1-2.SLDPRT",
+  "size": 420779,
+  "kind": "modern",
+  "head8": "906b72ca00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/6fd68589_pin-2-1.SLDPRT",
+  "size": 510372,
+  "kind": "modern",
+  "head8": "f2d2984600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/822f5572_\u4e00\u7ea7\u6321\u5757-hhr\u9542\u7a7a\u9650\u4f4d.SLDPRT",
+  "size": 166986,
+  "kind": "modern",
+  "head8": "1a9c730c00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/8aaecde6_6008\u5185\u5708\u4e0b\u52a0\u5de5\u4ef6.SLDPRT",
+  "size": 201718,
+  "kind": "modern",
+  "head8": "0455e4e100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT",
+  "size": 91231,
+  "kind": "modern",
+  "head8": "779f22d600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/ac760485_\u5b58\u77ff\u5c0f\u7aef.SLDPRT",
+  "size": 189752,
+  "kind": "modern",
+  "head8": "5e4ee13000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/c613782b_\u041a\u0440\u0435\u043f\u0451\u0436\u043d\u0430\u044f-\u041f\u043b\u0430\u043d\u043a\u0430.SLDPRT",
+  "size": 1573282,
+  "kind": "modern",
+  "head8": "a28ffd4700000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/e8f16581_Engine Base.SLDPRT",
+  "size": 275697,
+  "kind": "modern",
+  "head8": "c440a70f00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT",
+  "size": 930879,
+  "kind": "modern",
+  "head8": "342b2f9600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT",
+  "size": 127402,
+  "kind": "modern",
+  "head8": "0bb94cf200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+  "size": 121877,
+  "kind": "modern",
+  "head8": "266846ed00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT",
+  "size": 59344,
+  "kind": "modern",
+  "head8": "54c47a7400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT",
+  "size": 2067804,
+  "kind": "modern",
+  "head8": "cf8a853f00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2026/4d85599e_base-M4.SLDPRT",
+  "size": 82183,
+  "kind": "modern",
+  "head8": "6abbe93200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT",
+  "size": 430903,
+  "kind": "modern",
+  "head8": "2424e78800000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT",
+  "size": 136532,
+  "kind": "modern",
+  "head8": "c540947a00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT",
+  "size": 48095,
+  "kind": "modern",
+  "head8": "54c47a7400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/2026/daa6e9e9_CR26-201-08.SLDPRT",
+  "size": 532100,
+  "kind": "modern",
+  "head8": "29f5d69600000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/not-a-part/10582557_9271K109_Torsion Spring.SLDPRT",
+  "size": 132774,
+  "kind": "modern",
+  "head8": "49534f2d31303330"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/not-a-part/34a1cacb_91202A226_Zinc-Plated Steel Split Lock Washer.Sldprt",
+  "size": 113875,
+  "kind": "modern",
+  "head8": "49534f2d31303330"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/not-a-part/8ac95686_separadores.SLDPRT",
+  "size": 236689,
+  "kind": "modern",
+  "head8": "6e464a4143776530"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/not-a-part/9e494ca4_91169A160_Steel Split Lock Washer.SLDPRT",
+  "size": 229441,
+  "kind": "modern",
+  "head8": "49534f2d31303330"
+ },
+ {
+  "group": "scope",
+  "dir": "test files online",
+  "path": "/home/user/sldprt-research-dump/test files online/not-a-part/d7b58324_small_motor.rev1.SLDPRT",
+  "size": 34468,
+  "kind": "modern",
+  "head8": "49534f2d31303330"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/Dekor.SLDPRT",
+  "size": 1005560,
+  "kind": "modern",
+  "head8": "f2af6d8000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/Helical Bevel Gear.SLDPRT",
+  "size": 998858,
+  "kind": "modern",
+  "head8": "4ce01fa000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/PTC GE8080-8.SLDPRT",
+  "size": 143175,
+  "kind": "modern",
+  "head8": "99cdd30d00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/Pocket Wheel.SLDPRT",
+  "size": 1252991,
+  "kind": "modern",
+  "head8": "b6b4686f00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/SW2000-s01.SLDPRT",
+  "size": 20992,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/chainwheel.sldprt",
+  "size": 252928,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C00_cube_10mm/model.SLDPRT",
+  "size": 64120,
+  "kind": "modern",
+  "head8": "800f2da700000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C01_cube_20mm/model.SLDPRT",
+  "size": 61959,
+  "kind": "modern",
+  "head8": "36c19dc100000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C02_cube_translated/model.SLDPRT",
+  "size": 60511,
+  "kind": "modern",
+  "head8": "67e7030a00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT",
+  "size": 74672,
+  "kind": "modern",
+  "head8": "e585e24400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C04_cube_hole_5mm/model.SLDPRT",
+  "size": 81350,
+  "kind": "modern",
+  "head8": "bf14d67e00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C05_cube_hole_3mm/model.SLDPRT",
+  "size": 74893,
+  "kind": "modern",
+  "head8": "11ad63d200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C06_cube_hole_moved/model.SLDPRT",
+  "size": 81319,
+  "kind": "modern",
+  "head8": "12c0e03400000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C07_cube_two_holes/model.SLDPRT",
+  "size": 97836,
+  "kind": "modern",
+  "head8": "6e0509cf00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT",
+  "size": 93029,
+  "kind": "modern",
+  "head8": "65bd0c4b00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT",
+  "size": 67163,
+  "kind": "modern",
+  "head8": "775bb6c300000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C10_cube_shell_1mm/model.SLDPRT",
+  "size": 74013,
+  "kind": "modern",
+  "head8": "58f1490c00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C11_cube_hole_4mm/model.SLDPRT",
+  "size": 76839,
+  "kind": "modern",
+  "head8": "305269e000000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+  "size": 66586,
+  "kind": "modern",
+  "head8": "533fa23700000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/cube.SLDPRT",
+  "size": 66847,
+  "kind": "modern",
+  "head8": "a47d52e200000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/distributor main boss rev a.SLDPRT",
+  "size": 279450,
+  "kind": "modern",
+  "head8": "34a6517800000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/plate4.sldprt",
+  "size": 76288,
+  "kind": "ole",
+  "head8": "d0cf11e0a1b11ae1"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT",
+  "size": 126893,
+  "kind": "modern",
+  "head8": "b4d0d4ef00000004"
+ },
+ {
+  "group": "scope",
+  "dir": "test files original",
+  "path": "/home/user/sldprt-research-dump/test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT",
+  "size": 271059,
+  "kind": "modern",
+  "head8": "ec7213c100000004"
+ }
+]

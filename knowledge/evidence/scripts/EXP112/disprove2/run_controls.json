@@ -1,0 +1,299 @@
+[
+ {
+  "tag": "C0_unmodified",
+  "verdict": "ok",
+  "end8": [
+   49811
+  ],
+  "end8_shaped": [
+   49811
+  ],
+  "end0": [],
+  "n": 40,
+  "ok": 40,
+  "bad": [],
+  "dup": [],
+  "order_ok": true,
+  "hdr_outside": [],
+  "raw_outside": [],
+  "raw_missed_real": [],
+  "result": "clean (as expected)"
+ },
+ {
+  "tag": "C1_append_local",
+  "verdict": "ok",
+  "end8": [
+   49811
+  ],
+  "end8_shaped": [
+   49811
+  ],
+  "end0": [],
+  "n": 40,
+  "ok": 40,
+  "bad": [],
+  "dup": [],
+  "order_ok": true,
+  "hdr_outside": [
+   [
+    50108,
+    "strict",
+    102
+   ],
+   [
+    50108,
+    "loose",
+    102
+   ]
+  ],
+  "raw_outside": [
+   [
+    50154,
+    102,
+    3400,
+    "filler"
+   ]
+  ],
+  "raw_missed_real": [],
+  "result": "header scan caught: True; raw scan caught: True; directory walk still ok: True"
+ },
+ {
+  "tag": "C1b_append_loose",
+  "verdict": "ok",
+  "end8": [
+   49811
+  ],
+  "end8_shaped": [
+   49811
+  ],
+  "end0": [],
+  "n": 40,
+  "ok": 40,
+  "bad": [],
+  "dup": [],
+  "order_ok": true,
+  "hdr_outside": [
+   [
+    50108,
+    "loose",
+    300
+   ]
+  ],
+  "raw_outside": [],
+  "raw_missed_real": [],
+  "result": "header scan caught: True; raw scan caught: False (not expected: stored data is not deflate); directory walk still ok: True"
+ },
+ {
+  "tag": "C1c_local_in_filler",
+  "verdict": "ok",
+  "end8": [
+   49811
+  ],
+  "end8_shaped": [
+   49811
+  ],
+  "end0": [],
+  "n": 40,
+  "ok": 40,
+  "bad": [],
+  "dup": [],
+  "order_ok": true,
+  "hdr_outside": [
+   [
+    48,
+    "strict",
+    102
+   ],
+   [
+    48,
+    "loose",
+    102
+   ]
+  ],
+  "raw_outside": [
+   [
+    94,
+    102,
+    3400,
+    "filler"
+   ]
+  ],
+  "raw_missed_real": [],
+  "result": "header scan caught: True; raw scan caught: True; directory walk still ok: True"
+ },
+ {
+  "tag": "C2_raw_in_filler",
+  "verdict": "ok",
+  "end8": [
+   49811
+  ],
+  "end8_shaped": [
+   49811
+  ],
+  "end0": [],
+  "n": 40,
+  "ok": 40,
+  "bad": [],
+  "dup": [],
+  "order_ok": true,
+  "hdr_outside": [],
+  "raw_outside": [
+   [
+    48,
+    102,
+    3400,
+    "filler"
+   ]
+  ],
+  "raw_missed_real": [],
+  "result": "raw scan caught: True; header scan (should not, no header): False"
+ },
+ {
+  "tag": "C3_flip_data",
+  "verdict": "FAIL",
+  "end8": [
+   49811
+  ],
+  "end8_shaped": [
+   49811
+  ],
+  "end0": [],
+  "n": 40,
+  "ok": 39,
+  "bad": [
+   {
+    "i": 4,
+    "rawname": "34f6e64756e64737f234f6e6669676d203",
+    "err": null,
+    "inflate_end": true,
+    "inflate_err": null,
+    "unused": 0,
+    "size_ok": false,
+    "crc_ok": false,
+    "cen_loc_mismatch": []
+   }
+  ],
+  "dup": [],
+  "order_ok": true,
+  "hdr_outside": [],
+  "raw_outside": [],
+  "raw_missed_real": [
+   4
+  ],
+  "result": "walk flags bad entry: True -> [{'i': 4, 'rawname': '34f6e64756e64737f234f6e6669676d203', 'err': None, 'inflate_end': True, 'inflate_err': None, 'unused': 0, 'size_ok': False, 'crc_ok': False, 'cen_loc_mismatch': []}]"
+ },
+ {
+  "tag": "C4_flip_cen_crc",
+  "verdict": "FAIL",
+  "end8": [
+   49811
+  ],
+  "end8_shaped": [
+   49811
+  ],
+  "end0": [],
+  "n": 40,
+  "ok": 39,
+  "bad": [
+   {
+    "i": 2,
+    "rawname": "34f6e64756e64737f234d4762784462723",
+    "err": null,
+    "inflate_end": true,
+    "inflate_err": null,
+    "unused": 0,
+    "size_ok": true,
+    "crc_ok": false,
+    "cen_loc_mismatch": [
+     "crc cen=3534701149 loc=3534701148"
+    ]
+   }
+  ],
+  "dup": [],
+  "order_ok": true,
+  "hdr_outside": [],
+  "raw_outside": [],
+  "raw_missed_real": [
+   2
+  ],
+  "result": "walk flags bad entry: True -> [{'i': 2, 'rawname': '34f6e64756e64737f234d4762784462723', 'err': None, 'inflate_end': True, 'inflate_err': None, 'unused': 0, 'size_ok': True, 'crc_ok': False, 'cen_loc_mismatch': ['crc cen=3534701149 loc=3534701148']}]"
+ },
+ {
+  "tag": "C5_dup_central",
+  "verdict": "FAIL",
+  "end8": [
+   49811
+  ],
+  "end8_shaped": [
+   49811
+  ],
+  "end0": [],
+  "n": 41,
+  "ok": 41,
+  "bad": [],
+  "dup": [
+   "Contents/3DExperienceExchange2"
+  ],
+  "order_ok": false,
+  "hdr_outside": [],
+  "raw_outside": [],
+  "raw_missed_real": [
+   0
+  ],
+  "result": "duplicate name flagged: True; order break flagged: True"
+ },
+ {
+  "tag": "C6_base0_offsets",
+  "verdict": "end8 shaped hits = 0",
+  "end8": [],
+  "end8_shaped": [],
+  "end0": [
+   49811
+  ],
+  "n": null,
+  "ok": null,
+  "bad": null,
+  "dup": null,
+  "order_ok": null,
+  "result": "base-8 rule finds nothing: True; base-0 rule hits: [49811]"
+ },
+ {
+  "tag": "C7_second_end",
+  "verdict": "end8 shaped hits = 2",
+  "end8": [
+   49811,
+   50108
+  ],
+  "end8_shaped": [
+   49811,
+   50108
+  ],
+  "end0": [],
+  "n": null,
+  "ok": null,
+  "bad": null,
+  "dup": null,
+  "order_ok": null,
+  "result": "two shaped end records pass: [49811, 50108]"
+ },
+ {
+  "tag": "C8_hidden_cen",
+  "verdict": "FAIL",
+  "end8": [
+   49811
+  ],
+  "end8_shaped": [
+   49811
+  ],
+  "end0": [],
+  "n": 41,
+  "ok": 41,
+  "bad": [],
+  "dup": [],
+  "order_ok": false,
+  "hdr_outside": [],
+  "raw_outside": [],
+  "raw_missed_real": [],
+  "result": "walker lists it: n=41 ok=41; header scan calls it outside: False; order break flagged: True"
+ }
+]

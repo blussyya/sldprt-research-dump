@@ -1,0 +1,12 @@
+{"file":"8cd79ff5_1ESxx.SLDPRT","off":617,"interior":0,"exactShared":617,"nearShared1e6":617,"unsharedFar":0,"onChord":617,"notChord":0,"notChordMaxR":0,"notChordMinR":null,"unsharedFarMaxR":0}
+  unshared examples []
+{"file":"3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT","off":488,"interior":0,"exactShared":487,"nearShared1e6":487,"unsharedFar":1,"onChord":488,"notChord":0,"notChordMaxR":0,"notChordMinR":null,"unsharedFarMaxR":7.23627209438249e-7}
+  unshared examples [{"fi":58,"rawId":525,"r":7.23627209438249e-7,"nearest":null,"how":"id"}]
+{"file":"03764871_BME280.SLDPRT","off":781,"interior":0,"exactShared":699,"nearShared1e6":755,"unsharedFar":26,"onChord":781,"notChord":0,"notChordMaxR":0,"notChordMinR":null,"unsharedFarMaxR":3.5070100599216784e-7}
+  unshared examples [{"fi":683,"rawId":94,"r":3.1353890006578875e-7,"nearest":0.00000795056720137823,"how":"id"},{"fi":683,"rawId":94,"r":3.130197500638706e-7,"nearest":null,"how":"id"},{"fi":683,"rawId":94,"r":2.868880964137957e-7,"nearest":null,"how":"id"}]
+{"file":"2f121983_case.SLDPRT","off":937,"interior":0,"exactShared":937,"nearShared1e6":937,"unsharedFar":0,"onChord":922,"notChord":15,"notChordMaxR":2.847805015623872e-7,"notChordMinR":1.1791723217996486e-7,"unsharedFarMaxR":0}
+  unshared examples []
+{"file":"d0d61cde_官方元件-定位模块.SLDPRT","off":901,"interior":0,"exactShared":893,"nearShared1e6":901,"unsharedFar":0,"onChord":879,"notChord":22,"notChordMaxR":9.887032361290229e-7,"notChordMinR":1.0223988496499278e-7,"unsharedFarMaxR":0}
+  unshared examples []
+{"file":"a4ecc6f5_PP-2074-08.SLDPRT","off":1506,"interior":0,"exactShared":1506,"nearShared1e6":1506,"unsharedFar":0,"onChord":1504,"notChord":2,"notChordMaxR":4.21682022081404e-7,"notChordMinR":4.21682022081404e-7,"unsharedFarMaxR":0}
+  unshared examples []

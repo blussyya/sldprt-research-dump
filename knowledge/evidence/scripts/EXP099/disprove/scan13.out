@@ -1,0 +1,11 @@
+ 11992 good literal-words-nonzero=false (scalarFlag=0)
+  1541 good literal-words-nonzero=true (scalarFlag=1)
+ 13533 good proper-words-nonzero=false
+ 11992 good scalarFlag=0
+  1541 good scalarFlag=1
+   850 refused literal-words-nonzero=false (scalarFlag=0)
+    74 refused literal-words-nonzero=true (scalarFlag=0)
+    70 refused literal-words-nonzero=true (scalarFlag=1)
+   994 refused proper-words-nonzero=true
+   924 refused scalarFlag=0
+    70 refused scalarFlag=1

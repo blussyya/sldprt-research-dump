@@ -1,0 +1,58 @@
+entries_nonempty 7374
+files 178
+hits_filler 6575
+hits_filler_crossing 657
+hits_interior 153846
+hits_nested 35058
+hits_real_start 7374
+hits_struct 17822
+hits_tail 1001
+hits_tail_resync 429
+in32_filler 26
+in32_filler_crossing 24
+in32_interior 2539
+in32_nested 1281
+in32_struct 13
+in32_tail 532
+in32_tail_resync 203
+real_found_exact 7374
+real_missed 0
+subst_filler 532
+subst_filler_crossing 191
+subst_interior 9504
+subst_interior_single_stored 115
+subst_nested 2792
+subst_nested_single_stored 3
+subst_struct 940
+subst_tail 426
+subst_tail_resync 247
+subst_tail_single_stored 60
+largest input consumed by a non-stored hit, per class: {'filler': 53, 'interior': 41225, 'tail_resync': 1411772, 'struct': 123, 'filler_crossing': 52, 'nested': 16438, 'tail': 1623068}
+largest non-stored hits outside real stream starts (out, in, class, offset, file):
+   (723, 52, 'struct', 260717, '6fd68589_pin-2-1.SLDPRT')
+   (621, 53, 'struct', 6648, 'ca465363_103_COVER.SLDPRT')
+   (611, 37, 'filler_crossing', 351, '822f5572_一级挡块-hhr镂空限位.SLDPRT')
+   (597, 30, 'filler', 537, 'model.SLDPRT')
+   (572, 32, 'filler', 1097715, '51f01927_Держатель-Фиксатор-Бутылки.SLDPRT')
+   (571, 20, 'filler_crossing', 776386, '118a3cb0_cut-z18-b1xh1xl1.SLDPRT')
+   (503, 32, 'filler_crossing', 2810, 'model.SLDPRT')
+   (496, 22, 'filler', 46509, 'c72513ca_ASSEMBLY_11.SLDPRT')
+   (486, 11, 'filler_crossing', 318578, '2300f35c_Thigh Symétrie.SLDPRT')
+   (484, 34, 'filler_crossing', 2644, '82981f2a_head_back-2026.sldprt')
+   (460, 10, 'struct', 194918, '289756ce_cut-z071-b1-l1-l2-typ.SLDPRT')
+   (460, 10, 'struct', 43246, '289756ce_cut-z071-b1-l1-l2-typ.SLDPRT')
+   (453, 32, 'filler_crossing', 6358, '2f121983_case.SLDPRT')
+   (451, 36, 'filler_crossing', 5979, '15567d51_leva1.SLDPRT')
+   (451, 24, 'filler', 144604, '1ee60868_z轴皮带固定.SLDPRT')
+   (447, 32, 'filler_crossing', 5983, '15567d51_leva1.SLDPRT')
+   (404, 32, 'struct', 8993, '822f5572_一级挡块-hhr镂空限位.SLDPRT')
+   (396, 33, 'struct', 17047, 'f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT')
+   (396, 31, 'filler_crossing', 2728, 'model.SLDPRT')
+   (391, 8, 'struct', 102474, '91a2d981_Camera Module.SLDPRT')
+   (391, 8, 'struct', 32984, '91a2d981_Camera Module.SLDPRT')
+   (374, 11, 'filler_crossing', 2254, 'model.SLDPRT')
+   (371, 10, 'filler_crossing', 47210, 'model.SLDPRT')
+   (368, 10, 'filler', 2066505, '2e6e140a_ST3215_C018_04.SLDPRT')
+   (360, 35, 'filler_crossing', 2353, '3e41786b_LB26001-A-04-002_seed.SLDPRT')
+max output of any filler-start hit, over all files: 611
+files where a real non-empty entry was not found by the blind scan: []

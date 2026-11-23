@@ -1,0 +1,31 @@
+REFUSED 0739c559_[HEAD-COVR-MIL1-COMN-00] Facema {"short":308,"text":34,"other":0}
+REFUSED 1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mo {"short":3,"text":1,"other":0}
+REFUSED 118a3cb0_cut-z18-b1xh1xl1.SLDPRT {"short":21,"text":1,"other":0}
+REFUSED 289756ce_cut-z071-b1-l1-l2-typ.SLDPRT {"short":17,"text":1,"other":0}
+REFUSED 629adcec_cut-z351-d1xl1.SLDPRT {"short":2,"text":1,"other":0}
+REFUSED 70477058_mt-cut-z085-l1xb1-typ.SLDPRT {"short":17,"text":1,"other":0}
+REFUSED 51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT {"short":5,"text":3,"other":0}
+REFUSED 516a7dc5_Body1.sldprt {"short":7,"text":1,"other":0}
+REFUSED afc71d14_Body2.sldprt {"short":23,"text":1,"other":0}
+REFUSED d49566bc_AntennaMount.SLDPRT {"short":15,"text":1,"other":0}
+REFUSED d799e9a3_90751A110_18-8 Stainless Steel  {"short":248,"text":1,"other":0}
+REFUSED eefa906d_plancher Dalle 2020.SLDPRT {"short":5,"text":1,"other":0}
+REFUSED 636b653d_MountingBracket.SLDPRT {"short":25,"text":1,"other":0}
+REFUSED 7765d286_NSJ8L.SLDPRT {"short":38,"text":24,"other":0}
+REFUSED 14f9214b_11.SLDPRT {"short":0,"text":2,"other":0}
+REFUSED 320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM. {"short":41,"text":1,"other":0}
+REFUSED 0d68d32d_6208K696_Clamping Precision Fle {"short":100,"text":3,"other":0}
+REFUSED a0ab30c8_LB26001-A-04-022.SLDPRT {"short":0,"text":4,"other":0}
+REFUSED d2f7f9bd_iman.SLDPRT {"short":5,"text":1,"other":0}
+REFUSED 8afc9212_[HEAD-A-B-11-L] Face Block Midd {"short":13,"text":1,"other":0}
+REFUSED f6facc43_[HEAD-A-B-08] Slope Panels.SLDP {"short":16,"text":1,"other":0}
+parts with duplicate rawId among faces having a real id block: 9
+test files online/2018/d2515121_Ecran_128x32oled.SLDPRT | 2512 | 325 | 1144 | 114
+test files online/2019/a3a44709_FrontPanel-Bezel.sldprt | 16 | 1 | 2 | 2
+test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT | 239 | 23 | 93 | 9
+test files online/2023/03764871_BME280.SLDPRT | 693 | 51 | 298 | 31
+test files online/2023/2f121983_case.SLDPRT | 155 | 1 | 2 | 2
+test files online/2023/4803f393_box.SLDPRT | 1390 | 45 | 118 | 5
+test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT | 544 | 52 | 106 | 3
+test files online/2023/ef1d5cfe_DS3231.SLDPRT | 404 | 51 | 133 | 5
+test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT | 961 | 3 | 6 | 2

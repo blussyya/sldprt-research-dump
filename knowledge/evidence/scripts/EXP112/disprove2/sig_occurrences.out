@@ -1,0 +1,9 @@
+178 files
+  cen: occurrences == real records 178
+  cen: occurrences > real records 0
+  end-shaped blocks carrying the real end sig more than once 0
+  end: occurrences == real records 178
+  end: occurrences > real records 0
+  key bytes 0-3 occur again in the file 0
+  loc: occurrences == real records 178
+  loc: occurrences > real records 0

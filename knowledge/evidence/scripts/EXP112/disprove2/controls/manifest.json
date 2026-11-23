@@ -1,0 +1,82 @@
+[
+ {
+  "tag": "C1_append_local",
+  "path": "/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP112/disprove2/controls/C1_append_local.SLDPRT",
+  "expect": {
+   "pos": 50108,
+   "csize": 102,
+   "kind": "local"
+  }
+ },
+ {
+  "tag": "C1b_append_loose",
+  "path": "/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP112/disprove2/controls/C1b_append_loose.SLDPRT",
+  "expect": {
+   "pos": 50108,
+   "kind": "local_loose"
+  }
+ },
+ {
+  "tag": "C1c_local_in_filler",
+  "path": "/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP112/disprove2/controls/C1c_local_in_filler.SLDPRT",
+  "expect": {
+   "pos": 48,
+   "csize": 102,
+   "kind": "local"
+  }
+ },
+ {
+  "tag": "C2_raw_in_filler",
+  "path": "/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP112/disprove2/controls/C2_raw_in_filler.SLDPRT",
+  "expect": {
+   "pos": 48,
+   "csize": 102,
+   "kind": "raw"
+  }
+ },
+ {
+  "tag": "C3_flip_data",
+  "path": "/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP112/disprove2/controls/C3_flip_data.SLDPRT",
+  "expect": {
+   "entry": 4,
+   "kind": "bad_entry"
+  }
+ },
+ {
+  "tag": "C4_flip_cen_crc",
+  "path": "/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP112/disprove2/controls/C4_flip_cen_crc.SLDPRT",
+  "expect": {
+   "entry": 2,
+   "kind": "bad_entry"
+  }
+ },
+ {
+  "tag": "C5_dup_central",
+  "path": "/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP112/disprove2/controls/C5_dup_central.SLDPRT",
+  "expect": {
+   "kind": "dup"
+  }
+ },
+ {
+  "tag": "C6_base0_offsets",
+  "path": "/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP112/disprove2/controls/C6_base0_offsets.SLDPRT",
+  "expect": {
+   "kind": "base0"
+  }
+ },
+ {
+  "tag": "C7_second_end",
+  "path": "/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP112/disprove2/controls/C7_second_end.SLDPRT",
+  "expect": {
+   "kind": "two_ends"
+  }
+ },
+ {
+  "tag": "C8_hidden_cen",
+  "path": "/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP112/disprove2/controls/C8_hidden_cen.SLDPRT",
+  "expect": {
+   "kind": "registered",
+   "pos": 48
+  }
+ }
+]

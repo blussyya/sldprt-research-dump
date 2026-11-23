@@ -1,0 +1,9 @@
+('extra', 'test files new/SW2026', 'modern') 1
+('extra', 'test files new/re-exports', 'modern') 5
+('scope', 'test files new/SW2011', 'ole') 25
+('scope', 'test files new/SW2022', 'modern') 25
+('scope', 'test files online', 'modern') 131
+('scope', 'test files online', 'ole') 11
+('scope', 'test files original', 'modern') 21
+('scope', 'test files original', 'ole') 3
+bytes 4-7 among modern: {'00000004': 178, '31303330': 4, '43776530': 1}

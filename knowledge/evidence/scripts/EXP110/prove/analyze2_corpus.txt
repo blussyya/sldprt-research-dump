@@ -1,0 +1,72 @@
+# corpus | errors 0 | faces with 132 B bounds 18999 | files 130
+faces at DisplayLists version >=5000: 18809  version <5000 (3800, 4100): 190 files [
+  'online/2020/7841a106_6344428.SLDPRT',
+  'online/2024/1e794aad_6344387.SLDPRT',
+  'online/2024/4febfc67_6344149.SLDPRT'
+]
+
+=== PART 1: u92==1 exactly on planes. Bar: 0 violations.
+faces typed by native join: 13225 (planes 6221 ) violations 0
+typed by display tag only: 158 violations 0
+no tag, no join (type unknown), planarity taken from the display normals: 5426 {"flat=true u92=1":3132,"flat=false u92=0":2288,"flat=true u92=0":6}
+CONTROL of the flatness test: normals flat <=> native plane agree on 13222 of 13225
+all version>=5000 faces: u92 values {"0":9411,"1":9398}
+
+=== PART 2: u128==1 on every record. Bar: 0 faces with another value.
+u128 by DisplayLists version (faces: u128=1 / u128=0 / other):
+  v3800 files 2 faces 73 u128=1 1 u128=0 34 other 38
+  v4100 files 1 faces 117 u128=1 0 u128=0 98 other 19
+  v5000 files 1 faces 62 u128=1 62 u128=0 0 other 0
+  v7000 files 1 faces 6 u128=1 6 u128=0 0 other 0
+  v8000 files 6 faces 399 u128=1 399 u128=0 0 other 0
+  v9000 files 6 faces 129 u128=1 129 u128=0 0 other 0
+  v10000 files 5 faces 392 u128=1 392 u128=0 0 other 0
+  v11000 files 6 faces 3365 u128=1 3365 u128=0 0 other 0
+  v12000 files 12 faces 1025 u128=1 1025 u128=0 0 other 0
+  v13000 files 8 faces 331 u128=1 331 u128=0 0 other 0
+  v14000 files 5 faces 1875 u128=1 1875 u128=0 0 other 0
+  v15000 files 30 faces 1121 u128=1 1121 u128=0 0 other 0
+  v16000 files 14 faces 4116 u128=1 4116 u128=0 0 other 0
+  v17000 files 14 faces 1522 u128=1 1522 u128=0 0 other 0
+  v18000 files 13 faces 2364 u128=1 34 u128=0 2330 other 0
+  v19000 files 6 faces 2102 u128=1 0 u128=0 2102 other 0
+faces with u128!=1: 4621 of 18999 in files 21
+restricted to version 5000..17000: 14343 faces, u128!=1: 0
+
+=== PART 3: cone fields when u104==1 && u108==1
+faces with both flags =1: 3279 in 23 files; native types {"tag:null":307,"cylinder":2396,"cone":126,"swept":1,"sphere":5,"torus":24,"blend":5,"bspline":242,"spun":164,"tag:4002":8,"tag:4004":1}
+planes among them (by normals flat): 0 (by isPlane): 0  (by native type): 0
+non-finite float tails: 0
+3a |v|: max | |v|-1 | = 4.08e-8  bar 2e-6 (float32); over bar: 0
+3b s range: min 0.7083661556243896 max 0.9999969005584717  1/sqrt2= 0.7071067811865476 ; below 1/sqrt2 by >1e-6: 0 ; above 1+1e-6: 0
+3c "s never below cos(max angle(n_i,v))": s - minCos: min -2.97e-8  bar >= -2e-6; violations 0 of 3279
+3d "cone holds the normals" needs s <= minCos (+2e-6): violations 2455 of 3279 ; worst: normals reach 8.47 deg beyond the stored half-angle; exactly tight (|s-minCos|<=2e-6): 824
+   median stored half-angle 15.96 deg, median normal reach 16.23 deg
+3e direction (analytic outward normal of native surface x face sense, at each display vertex):
+   display normals vs analytic: min dot 0.469472 faces under 0.999: 4 of 2551
+    same-sense faces 1844 min over faces of min_i cos(v,n_i) = 0.6022 (>0 means v on the outward side; <0 on any vertex: 0)
+    reversed faces 703 min over faces of min_i cos(v,n_i) = 0.6241 (>0 means v on the outward side; <0 on any vertex: 0)
+      cylinder n 1733 min 0.6163
+      cylinder-rev n 663 min 0.6241
+      cone-rev n 38 min 0.6969
+      sphere n 5 min 0.6022
+      torus-rev n 2 min 0.6404
+      torus n 22 min 0.6820
+      cone n 84 min 0.8548
+   analytic normals, s - cos(maxAngle(n,v)): min -5.97e-7  violations of s>=cos (<-1e-4): 0
+   control for the sign test: -v would be on the wrong side on 0 ?? (faces where min cos<0 means v fails)
+   |cos(v, enclosing-cone axis of display normals)|: see estV; 
+   angle between stored v and the minimal enclosing axis of the display normals (deg): median 0.052  max 12.92
+flag combos (u104,u108) at version>=5000, planes vs not: {"plane u104=0 u108=1":9407,"nonplane u104=1 u108=1":3279,"nonplane u104=0 u108=0":987,"nonplane u104=0 u108=1":5136}
+
+=== PART 4: per-file switch
+files 127 status: {"all":16,"n/a":65,"none":39,"cone-only-above-40":7}
+planes with a cone (flat normals and both flags 1): 0
+MIXED files:
+cone files by DisplayLists version: {"v8000":4,"v10000":1,"v11000":4,"v12000":7,"v14000":1,"v17000":2,"v18000":2,"v15000":1,"v16000":1}  no-cone files with candidates (<40 deg) by version: {"v9000":3,"v11000":1,"v13000":1,"v14000":4,"v15000":7,"v10000":1,"v16000":8,"v17000":4,"v18000":6,"v8000":1,"v19000":3}
+files with cones whose cone faces are all above... faces with cone but est half-angle >=45 deg: 593  >=46: 109  max est half-angle among cone faces 50.37
+stored half-angle (acos s) of cone faces: max 44.898 deg  (bar: 45.0 = acos(1/sqrt2) =>  45.000)
+  in files that have cones: nonplanar faces with est half-angle <20: 1955 with cone 1955 without 0
+  in files that have cones: nonplanar faces with est half-angle <30: 2129 with cone 2129 without 0
+  in files that have cones: nonplanar faces with est half-angle <40: 2409 with cone 2409 without 0
+  in files that have cones: nonplanar faces with est half-angle <44: 2526 with cone 2526 without 0

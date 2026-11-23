@@ -1,0 +1,30 @@
+untagged flat with u92=0:
+  51f01927_Держатель-Фиксатор-Бутылки.SLDPRT #170 nv 4 nn 4 estMinCos 0.9999999770410655 u104 0 u108 1 u128 0 ver 18000
+  51f01927_Держатель-Фиксатор-Бутылки.SLDPRT #183 nv 4 nn 4 estMinCos 0.9999999839753317 u104 0 u108 1 u128 0 ver 18000
+  51f01927_Держатель-Фиксатор-Бутылки.SLDPRT #268 nv 4 nn 4 estMinCos 0.99999996500113 u104 0 u108 1 u128 0 ver 18000
+  51f01927_Держатель-Фиксатор-Бутылки.SLDPRT #302 nv 4 nn 4 estMinCos 0.9999999770410655 u104 0 u108 1 u128 0 ver 18000
+  51f01927_Держатель-Фиксатор-Бутылки.SLDPRT #315 nv 4 nn 4 estMinCos 0.9999999839753317 u104 0 u108 1 u128 0 ver 18000
+  51f01927_Держатель-Фиксатор-Бутылки.SLDPRT #400 nv 4 nn 4 estMinCos 0.99999996500113 u104 0 u108 1 u128 0 ver 18000
+untagged non-flat with u92=1 (ver>=5000): 0
+faces with no normals (estMinCos undefined): 0
+version 18000 per file:
+  2025/05d0b4c3_pin-2-2.SLDPRT {"n":500,"u128_1":0,"tagged":0,"cone":0}
+  2025/16f99cd7_装甲板固定（前）.SLDPRT {"n":34,"u128_1":34,"tagged":34,"cone":0}
+  2025/3e41786b_LB26001-A-04-002_seed.SLDPRT {"n":18,"u128_1":0,"tagged":0,"cone":0}
+  2025/50af9019_7x4 P42a Cell Holder.SLDPRT {"n":274,"u128_1":0,"tagged":0,"cone":98}
+  2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT {"n":428,"u128_1":0,"tagged":0,"cone":0}
+  2025/55c163ac_pin-1-2.SLDPRT {"n":452,"u128_1":0,"tagged":0,"cone":0}
+  2025/6fd68589_pin-2-1.SLDPRT {"n":500,"u128_1":0,"tagged":0,"cone":0}
+  2025/822f5572_一级挡块-hhr镂空限位.SLDPRT {"n":18,"u128_1":0,"tagged":0,"cone":0}
+  2025/8aaecde6_6008内圈下加工件.SLDPRT {"n":46,"u128_1":0,"tagged":0,"cone":0}
+  2025/ac760485_存矿小端.SLDPRT {"n":38,"u128_1":0,"tagged":0,"cone":0}
+  2025/c613782b_Крепёжная-Планка.SLDPRT {"n":13,"u128_1":0,"tagged":0,"cone":0}
+  2025/e8f16581_Engine Base.SLDPRT {"n":10,"u128_1":0,"tagged":0,"cone":4}
+  2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT {"n":33,"u128_1":0,"tagged":0,"cone":0}
+version 19000 per file:
+  2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT {"n":54,"u104_1":0,"u108_1":54,"u92_1":39}
+  2026/2e6e140a_ST3215_C018_04.SLDPRT {"n":1117,"u104_1":0,"u108_1":1117,"u92_1":435}
+  2026/4d85599e_base-M4.SLDPRT {"n":12,"u104_1":0,"u108_1":12,"u92_1":9}
+  2026/c5784ab3_A09_power_and_compute_rack.SLDPRT {"n":88,"u104_1":0,"u108_1":88,"u92_1":66}
+  2026/daa6e9e9_CR26-201-08.SLDPRT {"n":296,"u104_1":0,"u108_1":296,"u92_1":63}
+  exports-SW2026/82981f2a_head_back-2026.sldprt {"n":535,"u104_1":0,"u108_1":535,"u92_1":194}

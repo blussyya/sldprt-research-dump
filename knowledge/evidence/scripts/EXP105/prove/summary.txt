@@ -1,0 +1,108 @@
+model.SLDPRT  verts 16  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 6.05e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+model.SLDPRT  verts 70  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 2.19e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+model.SLDPRT  verts 58  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 2.21e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+model.SLDPRT  verts 70  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 3.65e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+model.SLDPRT  verts 140  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 3.68e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+model.SLDPRT  verts 128  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 4.62e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+model.SLDPRT  verts 66  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 2.30e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+model.SLDPRT  verts 16  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 1.52e-11  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+model.SLDPRT  verts 144  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 1.57e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+model.SLDPRT  verts 56  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 1.97e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+model.SLDPRT  verts 736  off>1e-9 20  fitsClaim 20  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 9.01e-6  | strict n 20  fits 20  fits(f32 chord tol) 20  notB 0  notSh 0  notCh 0  unt 0  max 9.01e-6
+model.SLDPRT  verts 256  off>1e-9 66  fitsClaim 66  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 5.34e-6  | strict n 66  fits 66  fits(f32 chord tol) 66  notB 0  notSh 0  notCh 0  unt 0  max 5.34e-6
+holefillets1-2022-neetn33t.SLDPRT  verts 584  off>1e-9 145  fitsClaim 120  notBoundary 0  notShared 0  notChord 25  chordUntested 0  max 2.37e-5  | strict n 139  fits 120  fits(f32 chord tol) 139  notB 0  notSh 0  notCh 19  unt 0  max 2.37e-5
+0132519a_102_STEM.SLDPRT  verts 3348  off>1e-9 479  fitsClaim 391  notBoundary 88  notShared 0  notChord 88  chordUntested 0  max 8.75e-6  | strict n 479  fits 391  fits(f32 chord tol) 391  notB 88  notSh 0  notCh 88  unt 0  max 8.75e-6
+15567d51_leva1.SLDPRT  verts 717  off>1e-9 116  fitsClaim 96  notBoundary 0  notShared 8  notChord 20  chordUntested 0  max 3.48e-5  | strict n 96  fits 96  fits(f32 chord tol) 96  notB 0  notSh 0  notCh 0  unt 0  max 3.48e-5
+361e7dbb_101_HOUSING.SLDPRT  verts 1223  off>1e-9 77  fitsClaim 77  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 1.57e-5  | strict n 77  fits 77  fits(f32 chord tol) 77  notB 0  notSh 0  notCh 0  unt 0  max 1.57e-5
+ca465363_103_COVER.SLDPRT  verts 732  off>1e-9 4  fitsClaim 4  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 1.09e-6  | strict n 4  fits 4  fits(f32 chord tol) 4  notB 0  notSh 0  notCh 0  unt 0  max 1.09e-6
+d2515121_Ecran_128x32oled.SLDPRT  verts 13587  off>1e-9 222  fitsClaim 107  notBoundary 0  notShared 4  notChord 115  chordUntested 0  max 1.25e-5  | strict n 118  fits 107  fits(f32 chord tol) 118  notB 0  notSh 0  notCh 11  unt 0  max 1.25e-5
+07ff8da1_shelf.SLDPRT  verts 160  off>1e-9 129  fitsClaim 0  notBoundary 0  notShared 18  notChord 129  chordUntested 0  max 1.25e-5  | strict n 19  fits 0  fits(f32 chord tol) 19  notB 0  notSh 0  notCh 19  unt 0  max 1.25e-5
+096d0504_MargayMount_WH10.SLDPRT  verts 366  off>1e-9 82  fitsClaim 0  notBoundary 0  notShared 7  notChord 82  chordUntested 0  max 3.37e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+28398415_Raspberry Pi 4.SLDPRT  verts 268  off>1e-9 40  fitsClaim 0  notBoundary 0  notShared 0  notChord 40  chordUntested 0  max 1.45e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+300d7f07_Bottom Case.SLDPRT  verts 1172  off>1e-9 178  fitsClaim 4  notBoundary 0  notShared 2  notChord 174  chordUntested 0  max 2.25e-5  | strict n 8  fits 4  fits(f32 chord tol) 8  notB 0  notSh 0  notCh 4  unt 0  max 2.25e-5
+44afdb7c_back_cushion.SLDPRT  verts 192  off>1e-9 109  fitsClaim 0  notBoundary 0  notShared 0  notChord 109  chordUntested 0  max 4.88e-8  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+54b05886_bottom_adc.SLDPRT  verts 827  off>1e-9 88  fitsClaim 39  notBoundary 0  notShared 0  notChord 49  chordUntested 0  max 5.64e-5  | strict n 39  fits 34  fits(f32 chord tol) 39  notB 0  notSh 0  notCh 5  unt 0  max 5.64e-5
+8cd79ff5_1ESxx.SLDPRT  verts 2419  off>1e-9 619  fitsClaim 619  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 1.10e-5  | strict n 619  fits 619  fits(f32 chord tol) 619  notB 0  notSh 0  notCh 0  unt 0  max 1.10e-5
+91a2d981_Camera Module.SLDPRT  verts 264  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 5.35e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+a3a44709_FrontPanel-Bezel.sldprt  verts 64  off>1e-9 24  fitsClaim 0  notBoundary 0  notShared 0  notChord 24  chordUntested 0  max 2.76e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+d381ebab_bottom_dac.SLDPRT  verts 679  off>1e-9 72  fitsClaim 31  notBoundary 0  notShared 0  notChord 41  chordUntested 0  max 5.64e-5  | strict n 29  fits 26  fits(f32 chord tol) 29  notB 0  notSh 0  notCh 3  unt 0  max 5.64e-5
+e8c40c25_psu.SLDPRT  verts 3603  off>1e-9 1375  fitsClaim 249  notBoundary 0  notShared 9  notChord 1126  chordUntested 0  max 2.68e-5  | strict n 514  fits 249  fits(f32 chord tol) 514  notB 0  notSh 0  notCh 265  unt 0  max 2.68e-5
+fb449daa_Gloworm PCB.SLDPRT  verts 336  off>1e-9 57  fitsClaim 7  notBoundary 0  notShared 0  notChord 50  chordUntested 0  max 2.22e-5  | strict n 11  fits 7  fits(f32 chord tol) 11  notB 0  notSh 0  notCh 4  unt 0  max 2.22e-5
+14f9214b_11.SLDPRT  verts 1063  off>1e-9 706  fitsClaim 20  notBoundary 48  notShared 51  notChord 686  chordUntested 0  max 3.50e-5  | strict n 11  fits 3  fits(f32 chord tol) 11  notB 0  notSh 0  notCh 8  unt 0  max 3.50e-5
+543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT  verts 219  off>1e-9 105  fitsClaim 105  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 6.39e-5  | strict n 105  fits 105  fits(f32 chord tol) 105  notB 0  notSh 0  notCh 0  unt 0  max 6.39e-5
+9494d959_27_20_4.SLDPRT  verts 614  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 4.85e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+b185085c_Handle 3.SLDPRT  verts 458  off>1e-9 149  fitsClaim 29  notBoundary 0  notShared 0  notChord 120  chordUntested 0  max 4.23e-5  | strict n 66  fits 29  fits(f32 chord tol) 66  notB 0  notSh 0  notCh 37  unt 0  max 4.23e-5
+85aabbde_84T Gear.SLDPRT  verts 7886  off>1e-9 942  fitsClaim 72  notBoundary 0  notShared 13  notChord 870  chordUntested 0  max 3.82e-5  | strict n 124  fits 72  fits(f32 chord tol) 124  notB 0  notSh 0  notCh 52  unt 0  max 3.82e-5
+916d4a0a_36T Gear.SLDPRT  verts 2270  off>1e-9 151  fitsClaim 133  notBoundary 0  notShared 0  notChord 18  chordUntested 0  max 3.26e-5  | strict n 151  fits 133  fits(f32 chord tol) 151  notB 0  notSh 0  notCh 18  unt 0  max 3.26e-5
+bc3292d7_12T Gear.SLDPRT  verts 992  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 2.22e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+eb0b2a21_60T Gear.SLDPRT  verts 3062  off>1e-9 253  fitsClaim 134  notBoundary 0  notShared 0  notChord 119  chordUntested 0  max 3.30e-5  | strict n 144  fits 134  fits(f32 chord tol) 144  notB 0  notSh 0  notCh 10  unt 0  max 3.30e-5
+073482d3_ReducerBox_1_Reducer.SLDPRT  verts 16286  off>1e-9 7876  fitsClaim 5198  notBoundary 1784  notShared 0  notChord 1794  chordUntested 884  max 5.67e-5  | strict n 7872  fits 5198  fits(f32 chord tol) 6088  notB 1784  notSh 0  notCh 1790  unt 884  max 5.67e-5
+10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT  verts 1911  off>1e-9 384  fitsClaim 148  notBoundary 0  notShared 12  notChord 236  chordUntested 0  max 1.91e-4  | strict n 174  fits 148  fits(f32 chord tol) 174  notB 0  notSh 0  notCh 26  unt 0  max 1.91e-4
+1ee60868_z轴皮带固定.SLDPRT  verts 100  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 4.33e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+273a8d53_FG-F1.SLDPRT  verts 440  off>1e-9 165  fitsClaim 62  notBoundary 0  notShared 0  notChord 103  chordUntested 0  max 1.13e-5  | strict n 71  fits 62  fits(f32 chord tol) 71  notB 0  notSh 0  notCh 9  unt 0  max 1.13e-5
+3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT  verts 4575  off>1e-9 1188  fitsClaim 405  notBoundary 4  notShared 42  notChord 782  chordUntested 0  max 1.32e-4  | strict n 492  fits 399  fits(f32 chord tol) 491  notB 0  notSh 1  notCh 92  unt 0  max 1.32e-4
+6ccc1814_LB26001-A-04-007.SLDPRT  verts 432  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 2.58e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+9cc04b03_SO-C1.SLDPRT  verts 210  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 4.59e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+a0fc2e29_Vertical Spar.SLDPRT  verts 100  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 5.48e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+d753195d_ServoMount.SLDPRT  verts 1086  off>1e-9 8  fitsClaim 6  notBoundary 0  notShared 0  notChord 2  chordUntested 0  max 2.35e-5  | strict n 8  fits 6  fits(f32 chord tol) 8  notB 0  notSh 0  notCh 2  unt 0  max 2.35e-5
+db8a97e2_écrou fileté M5.SLDPRT  verts 7534  off>1e-9 3722  fitsClaim 3722  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 6.01e-6  | strict n 3722  fits 3722  fits(f32 chord tol) 3722  notB 0  notSh 0  notCh 0  unt 0  max 6.01e-6
+dd156283_637Z flanzi bearing.SLDPRT  verts 1297  off>1e-9 356  fitsClaim 356  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 6.45e-6  | strict n 356  fits 356  fits(f32 chord tol) 356  notB 0  notSh 0  notCh 0  unt 0  max 6.45e-6
+03764871_BME280.SLDPRT  verts 4060  off>1e-9 989  fitsClaim 860  notBoundary 0  notShared 82  notChord 47  chordUntested 0  max 9.74e-6  | strict n 988  fits 860  fits(f32 chord tol) 863  notB 0  notSh 82  notCh 46  unt 0  max 9.74e-6
+1759e569_mahatbalam_ex7_beg.SLDPRT  verts 456  off>1e-9 186  fitsClaim 30  notBoundary 0  notShared 21  notChord 156  chordUntested 0  max 3.75e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+2f121983_case.SLDPRT  verts 3564  off>1e-9 1030  fitsClaim 465  notBoundary 267  notShared 0  notChord 565  chordUntested 0  max 4.24e-5  | strict n 940  fits 465  fits(f32 chord tol) 663  notB 259  notSh 0  notCh 475  unt 0  max 4.24e-5
+2fd21507_MidplateEM2.SLDPRT  verts 4904  off>1e-9 1216  fitsClaim 0  notBoundary 0  notShared 2  notChord 357  chordUntested 859  max 2.51e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+31596c7e_EC11 Rotary Encoder 15mm.SLDPRT  verts 595  off>1e-9 58  fitsClaim 58  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 9.81e-6  | strict n 58  fits 58  fits(f32 chord tol) 58  notB 0  notSh 0  notCh 0  unt 0  max 9.81e-6
+3edbf014_TEST shortened Dock (Final).SLDPRT  verts 13852  off>1e-9 2857  fitsClaim 0  notBoundary 0  notShared 0  notChord 1425  chordUntested 1432  max 2.47e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+41b71219_板材-Guidance安装板.SLDPRT  verts 866  off>1e-9 324  fitsClaim 47  notBoundary 0  notShared 6  notChord 277  chordUntested 0  max 3.38e-5  | strict n 69  fits 47  fits(f32 chord tol) 69  notB 0  notSh 0  notCh 22  unt 0  max 3.38e-5
+4803f393_box.SLDPRT  verts 12162  off>1e-9 4743  fitsClaim 481  notBoundary 68  notShared 75  notChord 4262  chordUntested 0  max 6.21e-5  | strict n 919  fits 451  fits(f32 chord tol) 919  notB 0  notSh 0  notCh 468  unt 0  max 6.21e-5
+9aeafb66_标准件-30mm管夹.SLDPRT  verts 730  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 9.03e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+d0d61cde_官方元件-定位模块.SLDPRT  verts 4952  off>1e-9 2629  fitsClaim 475  notBoundary 0  notShared 13  notChord 2146  chordUntested 0  max 2.29e-5  | strict n 956  fits 449  fits(f32 chord tol) 871  notB 0  notSh 8  notCh 499  unt 0  max 2.29e-5
+d77ec77a_TopSheet.SLDPRT  verts 1500  off>1e-9 1092  fitsClaim 0  notBoundary 0  notShared 0  notChord 1092  chordUntested 0  max 8.30e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+d8206ed0_J6_Flange_Adapter.SLDPRT  verts 2270  off>1e-9 470  fitsClaim 425  notBoundary 0  notShared 0  notChord 45  chordUntested 0  max 4.12e-5  | strict n 452  fits 425  fits(f32 chord tol) 452  notB 0  notSh 0  notCh 27  unt 0  max 4.12e-5
+ef1d5cfe_DS3231.SLDPRT  verts 2611  off>1e-9 586  fitsClaim 2  notBoundary 584  notShared 0  notChord 584  chordUntested 0  max 4.47e-6  | strict n 586  fits 2  fits(f32 chord tol) 2  notB 584  notSh 0  notCh 584  unt 0  max 4.47e-6
+03afebf4_Profilringe.SLDPRT  verts 562  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 4.32e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+225c13ed_camholder0deg.SLDPRT  verts 980  off>1e-9 242  fitsClaim 10  notBoundary 0  notShared 77  notChord 232  chordUntested 0  max 8.49e-6  | strict n 20  fits 10  fits(f32 chord tol) 10  notB 0  notSh 0  notCh 10  unt 0  max 8.49e-6
+2300f35c_Thigh Symétrie.SLDPRT  verts 2860  off>1e-9 1230  fitsClaim 3  notBoundary 0  notShared 9  notChord 1227  chordUntested 0  max 6.00e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+346a04bc_R01_D_lower_1_140_washer_head.SLDPRT  verts 192  off>1e-9 156  fitsClaim 0  notBoundary 0  notShared 0  notChord 156  chordUntested 0  max 8.07e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+37663d8a_Gasket For M12.SLDPRT  verts 204  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 2.46e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+766ad273_WP06_washer_inner_-1_-94.SLDPRT  verts 184  off>1e-9 133  fitsClaim 0  notBoundary 0  notShared 0  notChord 133  chordUntested 0  max 7.88e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+7fa6934e_Aluminum Box Pt 2.SLDPRT  verts 600  off>1e-9 184  fitsClaim 0  notBoundary 0  notShared 0  notChord 184  chordUntested 0  max 3.21e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+871e670c_servo_adapter.SLDPRT  verts 743  off>1e-9 0  fitsClaim 0  notBoundary 0  notShared 0  notChord 0  chordUntested 0  max 4.45e-10  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+951f2bc1_Boitier.SLDPRT  verts 150  off>1e-9 8  fitsClaim 0  notBoundary 0  notShared 0  notChord 8  chordUntested 0  max 1.22e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+a4ecc6f5_PP-2074-08.SLDPRT  verts 5352  off>1e-9 2825  fitsClaim 887  notBoundary 0  notShared 31  notChord 1938  chordUntested 0  max 5.21e-4  | strict n 1671  fits 877  fits(f32 chord tol) 1504  notB 0  notSh 0  notCh 794  unt 0  max 5.21e-4
+be0e76cf_WP06_screw_1_-94.SLDPRT  verts 700  off>1e-9 470  fitsClaim 0  notBoundary 0  notShared 0  notChord 470  chordUntested 0  max 7.15e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+bf11f45c_shear_clip_1_150_-94.SLDPRT  verts 104  off>1e-9 86  fitsClaim 0  notBoundary 0  notShared 0  notChord 86  chordUntested 0  max 7.31e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+16f99cd7_装甲板固定（前）.SLDPRT  verts 732  off>1e-9 284  fitsClaim 0  notBoundary 0  notShared 0  notChord 284  chordUntested 0  max 3.45e-9  | strict n 0  fits 0  fits(f32 chord tol) 0  notB 0  notSh 0  notCh 0  unt 0  max 0.00e+0
+10582557_9271K109_Torsion Spring.SLDPRT	error: No Config-N-Partition stream
+34a1cacb_91202A226_Zinc-Plated Steel Split Lock Washer.Sldprt	error: No Config-N-Partition stream
+8ac95686_separadores.SLDPRT	error: No Config-N-Partition stream
+9e494ca4_91169A160_Steel Split Lock Washer.SLDPRT	error: No Config-N-Partition stream
+d7b58324_small_motor.rev1.SLDPRT	error: No Config-N-Partition stream
+TOTAL {
+ "files": 167,
+ "errored": 5,
+ "filesWithCylCone": 75,
+ "faces": 4965,
+ "verts": 148717,
+ "off": 41705,
+ "offFitsClaim": 15963,
+ "offNotBoundary": 2843,
+ "offNotShared": 482,
+ "offNotChord": 22476,
+ "offChordUntested": 3175,
+ "max": 0.0005213475784850014,
+ "filesWithOff": 54,
+ "filesWhereClaimFails": 45,
+ "strict": {
+  "n": 22193,
+  "notBoundary": 2715,
+  "notShared": 91,
+  "notChord": 5387,
+  "untested": 884,
+  "fits": 15831,
+  "fits2": 19072,
+  "max": 0.0005213475784850014,
+  "filesWithAny": 38,
+  "filesFailing": 28
+ }
+}

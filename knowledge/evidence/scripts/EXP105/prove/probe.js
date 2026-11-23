@@ -1,0 +1,11 @@
+const S=require('/home/user/solidworks-converters/src');
+const nat=require('/home/user/solidworks-converters/src/brep/native');
+const J=require('/home/user/solidworks-converters/src/brep/display-join');
+const f=process.argv[2];
+const d=S.parse(f);const M=nat.build(S.readBrep(f).parsed);
+const j=J.join(d.faces,M);
+console.log('faces',d.faces.length,'native faces',M.faces.length);
+const c={};j.forEach(x=>c[x.how]=(c[x.how]||0)+1);console.log(c);
+const k=d.faces.findIndex((x,i)=>j[i].face&&j[i].face.surface.type!=='plane');
+const x=d.faces[k];console.log(Object.keys(x),x.vertexCount,x.vertices.slice(0,6),x.bounds&&x.bounds.min,x.bounds&&x.bounds.max,x.boundaryCycles&&x.boundaryCycles.length,JSON.stringify(x.boundaryCycles).slice(0,200));
+console.log(JSON.stringify(j[k].face.surface),[...M.vertices.values()].slice(0,3).map(v=>v.p));

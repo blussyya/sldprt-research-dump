@@ -1,0 +1,19 @@
+distinct keys 163 files 178 keys shared by 2+ files 15 files involved 30
+2eda4cc6 sigs equal: True | filler blocks 23 22 leading filler sigs equal: 0 | any filler sig shared: 0 | model.SLDPRT / ef1d5cfe_DS3231.SLDPRT
+825d0704 sigs equal: True | filler blocks 15 20 leading filler sigs equal: 0 | any filler sig shared: 0 | model.SLDPRT / 10459a56_A-2605-01_CR1_Right
+1863e36b sigs equal: True | filler blocks 27 27 leading filler sigs equal: 0 | any filler sig shared: 0 | model.SLDPRT / f750218b_612-00002.SLDPRT
+beb90696 sigs equal: True | filler blocks 19 21 leading filler sigs equal: 0 | any filler sig shared: 0 | model.SLDPRT / 289756ce_cut-z071-b1-l1-l2-t
+f9861fc6 sigs equal: True | filler blocks 20 22 leading filler sigs equal: 0 | any filler sig shared: 0 | model.SLDPRT / d381ebab_bottom_dac.SLDPRT
+ec7213c1 sigs equal: True | filler blocks 23 24 leading filler sigs equal: 0 | any filler sig shared: 0 | d799e9a3_90751A110_18-8 Stai / USB hub case TOP.SLDPRT
+6e0509cf sigs equal: True | filler blocks 20 18 leading filler sigs equal: 0 | any filler sig shared: 0 | 06b5063b_050_MASTER_SKETCH.S / model.SLDPRT
+30d557b0 sigs equal: True | filler blocks 20 21 leading filler sigs equal: 0 | any filler sig shared: 0 | 300d7f07_Bottom Case.SLDPRT / 54b05886_bottom_adc.SLDPRT
+ec29c141 sigs equal: True | filler blocks 16 13 leading filler sigs equal: 0 | any filler sig shared: 0 | 44afdb7c_back_cushion.SLDPRT / c0ef9eb3_DIN_Flex_Converter_
+0ecbc37f sigs equal: True | filler blocks 25 21 leading filler sigs equal: 0 | any filler sig shared: 0 | a3a44709_FrontPanel-Bezel.sl / 3980555c_RASPBERRY_PI_5+cool
+775bb6c3 sigs equal: True | filler blocks 15 22 leading filler sigs equal: 0 | any filler sig shared: 0 | 34fe5ff1_Group_44390.stp.SLD / model.SLDPRT
+c3bcc212 sigs equal: True | filler blocks 24 20 leading filler sigs equal: 0 | any filler sig shared: 0 | 9494d959_27_20_4.SLDPRT / 60f84235_2022_10_06_17_02_43
+906b72ca sigs equal: True | filler blocks 16 19 leading filler sigs equal: 0 | any filler sig shared: 0 | 3c4752f1_A-2226-01_Input_Inl / 55c163ac_pin-1-2.SLDPRT
+0455e4e1 sigs equal: True | filler blocks 19 22 leading filler sigs equal: 0 | any filler sig shared: 0 | 50af9019_7x4 P42a Cell Holde / 8aaecde6_6008内圈下加工件.SLDPRT
+54c47a74 sigs equal: True | filler blocks 16 22 leading filler sigs equal: 0 | any filler sig shared: 0 | 2693f32a_GE-26501-02_ Tower  / d889c6fc_FE-00001-04_ 1-7_16
+pairs with all three record signatures equal: 15 of 15
+expected shared pairs for uniform 32-bit keys: 3.67e-06
+key-space size that would give this many pairs: ~1050

@@ -1,0 +1,2093 @@
+[
+ {
+  "f": "test files online/2007/05187d94_ChainCL_In.SLDPRT",
+  "n": 13,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 13,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2010/065f38b0_等径四节弯头-4.SLDPRT",
+  "n": 6,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 6,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT",
+  "n": 7,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 7,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2011/6ff6c243_通气塞.SLDPRT",
+  "n": 15,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 15,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2011/e1f38af5_0000380-01.sldprt",
+  "n": 14,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 14,
+  "err": 0,
+  "badtags": {
+   "8": 12,
+   "4278124644": 1,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files online/2013/82981f2a_head_back.sldprt",
+  "n": 532,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 532,
+  "err": 0,
+  "badtags": {
+   "4": 531,
+   "65536": 1
+  }
+ },
+ {
+  "f": "test files online/2013/92c393f4_camera_support.sldprt",
+  "n": 116,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 116,
+  "err": 0,
+  "badtags": {
+   "4": 115,
+   "65536": 1
+  }
+ },
+ {
+  "f": "test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt",
+  "n": 535,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 535,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2013/f666f342_head_face.sldprt",
+  "n": 732,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 732,
+  "err": 0,
+  "badtags": {
+   "4": 731,
+   "65536": 1
+  }
+ },
+ {
+  "f": "test files online/2014/300f9732_Carter2019.SLDPRT",
+  "n": 92,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 92,
+  "err": 0,
+  "badtags": {
+   "4": 91,
+   "65536": 1
+  }
+ },
+ {
+  "f": "test files online/2014/68cd51b6_20190309-0049.SLDPRT",
+  "n": 26,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 26,
+  "err": 0,
+  "badtags": {
+   "2": 6,
+   "8": 2,
+   "12": 4,
+   "24": 2,
+   "28": 4,
+   "48": 4,
+   "118": 2,
+   "6619250": 1,
+   "6815744": 1
+  }
+ },
+ {
+  "f": "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+  "n": 342,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 342,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 79,
+   "2": 24,
+   "3": 16,
+   "4": 10,
+   "5": 16,
+   "6": 18,
+   "7": 6,
+   "8": 12,
+   "9": 6,
+   "10": 8,
+   "11": 6,
+   "12": 2,
+   "13": 4,
+   "14": 3,
+   "15": 6,
+   "16": 4,
+   "17": 1,
+   "18": 1,
+   "19": 5,
+   "20": 5,
+   "21": 1,
+   "23": 2,
+   "24": 1,
+   "25": 1,
+   "28": 1,
+   "37": 2,
+   "38": 1,
+   "42": 1,
+   "44": 2,
+   "48": 1,
+   "138": 1,
+   "4980815": 33,
+   "2151088128": 62
+  }
+ },
+ {
+  "f": "test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT",
+  "n": 4,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 4,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 1,
+   "3": 1,
+   "8": 1
+  }
+ },
+ {
+  "f": "test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT",
+  "n": 22,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 22,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 10,
+   "2": 4,
+   "5": 1,
+   "18": 1,
+   "24": 4,
+   "41": 1
+  }
+ },
+ {
+  "f": "test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT",
+  "n": 18,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 18,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 8,
+   "2": 4,
+   "6": 1,
+   "8": 1,
+   "18": 1,
+   "24": 2
+  }
+ },
+ {
+  "f": "test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT",
+  "n": 3,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 3,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "16": 2
+  }
+ },
+ {
+  "f": "test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT",
+  "n": 18,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 18,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 7,
+   "2": 4,
+   "18": 1,
+   "19": 1,
+   "24": 4
+  }
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2017/3b48d9c5_Body10.sldprt",
+  "err": "no DL"
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2017/4df87793_21BC-S 1.19-A.sldprt",
+  "err": "No legacy DisplayLists stream"
+ },
+ {
+  "f": "test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT",
+  "n": 8,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 8,
+  "err": 0,
+  "badtags": {
+   "0": 3,
+   "1": 3,
+   "2": 2
+  }
+ },
+ {
+  "f": "test files online/2017/516a7dc5_Body1.sldprt",
+  "n": 8,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 8,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 6,
+   "2": 1
+  }
+ },
+ {
+  "f": "test files online/2017/afc71d14_Body2.sldprt",
+  "n": 24,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 24,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 18,
+   "2": 4,
+   "28": 1
+  }
+ },
+ {
+  "f": "test files online/2017/d49566bc_AntennaMount.SLDPRT",
+  "n": 16,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 16,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 9,
+   "2": 3,
+   "14": 1,
+   "16": 1,
+   "17": 1
+  }
+ },
+ {
+  "f": "test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT",
+  "n": 249,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 249,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 225,
+   "5": 6,
+   "7": 6,
+   "14": 1,
+   "15": 2,
+   "91": 1,
+   "119": 1,
+   "148": 1,
+   "159": 1,
+   "409": 1,
+   "640": 1,
+   "709": 1,
+   "744": 1
+  }
+ },
+ {
+  "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+  "n": 167,
+  "z_ok": 167,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2018/06b5063b_050_MASTER_SKETCH.SLDPRT",
+  "n": 0,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2018/15567d51_leva1.SLDPRT",
+  "n": 298,
+  "z_ok": 298,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+  "n": 262,
+  "z_ok": 262,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2018/ca465363_103_COVER.SLDPRT",
+  "n": 118,
+  "z_ok": 118,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+  "n": 2512,
+  "z_ok": 2512,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT",
+  "n": 6,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 6,
+  "err": 0,
+  "badtags": {
+   "4": 5,
+   "65536": 1
+  }
+ },
+ {
+  "f": "test files online/2019/07ff8da1_shelf.SLDPRT",
+  "n": 30,
+  "z_ok": 30,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/096d0504_MargayMount_WH10.SLDPRT",
+  "n": 18,
+  "z_ok": 18,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/27377fd2_FE-00006-06.SLDPRT",
+  "n": 8,
+  "z_ok": 8,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/28398415_Raspberry Pi 4.SLDPRT",
+  "n": 267,
+  "z_ok": 267,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/300d7f07_Bottom Case.SLDPRT",
+  "n": 50,
+  "z_ok": 50,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/44afdb7c_back_cushion.SLDPRT",
+  "n": 26,
+  "z_ok": 26,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/54b05886_bottom_adc.SLDPRT",
+  "n": 92,
+  "z_ok": 92,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/636b653d_MountingBracket.SLDPRT",
+  "n": 26,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 26,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 19,
+   "2": 2,
+   "15": 1,
+   "18": 1,
+   "19": 2
+  }
+ },
+ {
+  "f": "test files online/2019/7765d286_NSJ8L.SLDPRT",
+  "n": 62,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 62,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 29,
+   "2": 2,
+   "3": 2,
+   "7": 1,
+   "8": 2,
+   "9": 2,
+   "16368": 23
+  }
+ },
+ {
+  "f": "test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+  "n": 103,
+  "z_ok": 103,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/91a2d981_Camera Module.SLDPRT",
+  "n": 19,
+  "z_ok": 19,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/a3a44709_FrontPanel-Bezel.sldprt",
+  "n": 16,
+  "z_ok": 16,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/d381ebab_bottom_dac.SLDPRT",
+  "n": 83,
+  "z_ok": 83,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/e8c40c25_psu.SLDPRT",
+  "n": 271,
+  "z_ok": 271,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2019/fb449daa_Gloworm PCB.SLDPRT",
+  "n": 50,
+  "z_ok": 50,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2020/14f9214b_11.SLDPRT",
+  "n": 77,
+  "z_ok": 73,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 2,
+  "err": 2,
+  "badtags": {
+   "100": 2
+  }
+ },
+ {
+  "f": "test files online/2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT",
+  "n": 42,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 42,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 39,
+   "21": 1,
+   "25": 1
+  }
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2020/34fe5ff1_Group_44390.stp.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+  "n": 69,
+  "z_ok": 69,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT",
+  "n": 28,
+  "z_ok": 28,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2020/7841a106_6344428.SLDPRT",
+  "n": 54,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 54,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2020/9494d959_27_20_4.SLDPRT",
+  "n": 12,
+  "z_ok": 12,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2020/b185085c_Handle 3.SLDPRT",
+  "n": 33,
+  "z_ok": 33,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2020/b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT",
+  "n": 0,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2021/60f84235_2022_10_06_17_02_43_0612.stp.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "test files online/2021/85aabbde_84T Gear.SLDPRT",
+  "n": 671,
+  "z_ok": 671,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2021/916d4a0a_36T Gear.SLDPRT",
+  "n": 295,
+  "z_ok": 295,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2021/bc3292d7_12T Gear.SLDPRT",
+  "n": 135,
+  "z_ok": 135,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+  "n": 399,
+  "z_ok": 399,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT",
+  "n": 109,
+  "z_ok": 109,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT",
+  "n": 103,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 103,
+  "err": 0,
+  "badtags": {
+   "0": 3,
+   "1": 23,
+   "2": 1,
+   "5": 12,
+   "7": 12,
+   "8": 3,
+   "9": 3,
+   "10": 1,
+   "12": 2,
+   "15": 2,
+   "16": 2,
+   "18": 1,
+   "19": 2,
+   "20": 1,
+   "21": 1,
+   "22": 1,
+   "23": 1,
+   "26": 3,
+   "31": 2,
+   "35": 1,
+   "37": 1,
+   "43": 1,
+   "44": 1,
+   "52": 4,
+   "62": 2,
+   "80": 2,
+   "136": 2,
+   "137": 2,
+   "143": 2,
+   "146": 2,
+   "311": 1,
+   "1054": 1,
+   "1059": 1,
+   "1133": 1,
+   "1134": 1,
+   "1199": 1,
+   "1203": 1
+  }
+ },
+ {
+  "f": "test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT",
+  "n": 143,
+  "z_ok": 143,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2022/1ee60868_z轴皮带固定.SLDPRT",
+  "n": 32,
+  "z_ok": 32,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2022/24344735_080-1926-000_3.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "test files online/2022/273a8d53_FG-F1.SLDPRT",
+  "n": 76,
+  "z_ok": 76,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2022/3980555c_RASPBERRY_PI_5+cooler-5.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+  "n": 239,
+  "z_ok": 239,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2022/40e79d45_Fins.SLDPRT",
+  "n": 12,
+  "z_ok": 12,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2022/5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT",
+  "n": 9,
+  "z_ok": 9,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2022/84226163_Fin.SLDPRT",
+  "n": 10,
+  "z_ok": 10,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2022/9cc04b03_SO-C1.SLDPRT",
+  "n": 93,
+  "z_ok": 93,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+  "n": 41,
+  "z_ok": 33,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 4,
+  "err": 4,
+  "badtags": {
+   "100": 4
+  }
+ },
+ {
+  "f": "test files online/2022/a0fc2e29_Vertical Spar.SLDPRT",
+  "n": 11,
+  "z_ok": 11,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2022/ceefa2a9_CRP320-05.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "test files online/2022/d753195d_ServoMount.SLDPRT",
+  "n": 90,
+  "z_ok": 90,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT",
+  "n": 26,
+  "z_ok": 26,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2022/dc265ce1_Fin.SLDPRT",
+  "n": 10,
+  "z_ok": 10,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2022/dd156283_637Z flanzi bearing.SLDPRT",
+  "n": 11,
+  "z_ok": 11,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2022/f8c2df35_2023_10_16_23_28_17_0357_body1.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "test files online/2023/03764871_BME280.SLDPRT",
+  "n": 693,
+  "z_ok": 693,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT",
+  "n": 35,
+  "z_ok": 35,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/2f121983_case.SLDPRT",
+  "n": 155,
+  "z_ok": 155,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/2fd21507_MidplateEM2.SLDPRT",
+  "n": 49,
+  "z_ok": 49,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT",
+  "n": 99,
+  "z_ok": 99,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT",
+  "n": 127,
+  "z_ok": 127,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/41b71219_板材-Guidance安装板.SLDPRT",
+  "n": 82,
+  "z_ok": 82,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/4803f393_box.SLDPRT",
+  "n": 1390,
+  "z_ok": 1390,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT",
+  "n": 37,
+  "z_ok": 37,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+  "n": 544,
+  "z_ok": 544,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/d2f7f9bd_iman.SLDPRT",
+  "n": 6,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 6,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "163893": 3,
+   "426037": 2
+  }
+ },
+ {
+  "f": "test files online/2023/d77ec77a_TopSheet.SLDPRT",
+  "n": 67,
+  "z_ok": 67,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT",
+  "n": 34,
+  "z_ok": 34,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+  "n": 404,
+  "z_ok": 404,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/03afebf4_Profilringe.SLDPRT",
+  "n": 7,
+  "z_ok": 7,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/09d353a9_Elbow_Mount2.SLDPRT",
+  "n": 40,
+  "z_ok": 40,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/1e794aad_6344387.SLDPRT",
+  "n": 117,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 117,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/225c13ed_camholder0deg.SLDPRT",
+  "n": 49,
+  "z_ok": 49,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/2300f35c_Thigh Symétrie.SLDPRT",
+  "n": 172,
+  "z_ok": 172,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT",
+  "n": 4,
+  "z_ok": 4,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/37663d8a_Gasket For M12.SLDPRT",
+  "n": 11,
+  "z_ok": 11,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/4febfc67_6344149.SLDPRT",
+  "n": 20,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 20,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT",
+  "n": 4,
+  "z_ok": 4,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT",
+  "n": 22,
+  "z_ok": 22,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/871e670c_servo_adapter.SLDPRT",
+  "n": 32,
+  "z_ok": 32,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/951f2bc1_Boitier.SLDPRT",
+  "n": 26,
+  "z_ok": 26,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+  "n": 961,
+  "z_ok": 961,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+  "n": 16,
+  "z_ok": 16,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT",
+  "n": 8,
+  "z_ok": 8,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/2024/f750218b_612-00002.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "test files online/2025/05d0b4c3_pin-2-2.SLDPRT",
+  "n": 500,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 500,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT",
+  "n": 34,
+  "z_ok": 34,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/3e41786b_LB26001-A-04-002_seed.SLDPRT",
+  "n": 18,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 18,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT",
+  "n": 274,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 274,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT",
+  "n": 428,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 428,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/55c163ac_pin-1-2.SLDPRT",
+  "n": 452,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 452,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/6fd68589_pin-2-1.SLDPRT",
+  "n": 500,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 500,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/822f5572_一级挡块-hhr镂空限位.SLDPRT",
+  "n": 18,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 18,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/8aaecde6_6008内圈下加工件.SLDPRT",
+  "n": 46,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 46,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT",
+  "n": 14,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 14,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 7,
+   "2": 4,
+   "40": 2
+  }
+ },
+ {
+  "f": "test files online/2025/ac760485_存矿小端.SLDPRT",
+  "n": 38,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 38,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/c613782b_Крепёжная-Планка.SLDPRT",
+  "n": 13,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 13,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/e8f16581_Engine Base.SLDPRT",
+  "n": 10,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 10,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT",
+  "n": 33,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 33,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT",
+  "n": 17,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 17,
+  "err": 0,
+  "badtags": {
+   "0": 1,
+   "1": 15,
+   "2": 1
+  }
+ },
+ {
+  "f": "test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+  "n": 54,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 54,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT",
+  "n": 0,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT",
+  "n": 1117,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 1117,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2026/4d85599e_base-M4.SLDPRT",
+  "n": 12,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 12,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT",
+  "n": 0,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT",
+  "n": 88,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 88,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT",
+  "n": 0,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files online/2026/daa6e9e9_CR26-201-08.SLDPRT",
+  "n": 296,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 296,
+  "badtags": {}
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/not-a-part/10582557_9271K109_Torsion Spring.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/not-a-part/34a1cacb_91202A226_Zinc-Plated Steel Split Lock Washer.Sldprt",
+  "err": "no DL"
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/not-a-part/8ac95686_separadores.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/not-a-part/9e494ca4_91169A160_Steel Split Lock Washer.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "/home/user/sldprt-research-dump/test files online/not-a-part/d7b58324_small_motor.rev1.SLDPRT",
+  "err": "no DL"
+ },
+ {
+  "f": "test files new/SW2022/C00_cube_10mm/model.SLDPRT",
+  "n": 6,
+  "z_ok": 6,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C01_cube_20mm/model.SLDPRT",
+  "n": 6,
+  "z_ok": 6,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C02_cube_translated/model.SLDPRT",
+  "n": 6,
+  "z_ok": 6,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT",
+  "n": 7,
+  "z_ok": 7,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT",
+  "n": 7,
+  "z_ok": 7,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT",
+  "n": 7,
+  "z_ok": 7,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C06_cube_hole_moved/model.SLDPRT",
+  "n": 7,
+  "z_ok": 7,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C07_cube_two_holes/model.SLDPRT",
+  "n": 8,
+  "z_ok": 8,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT",
+  "n": 8,
+  "z_ok": 8,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT",
+  "n": 7,
+  "z_ok": 7,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT",
+  "n": 11,
+  "z_ok": 11,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT",
+  "n": 7,
+  "z_ok": 7,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+  "n": 7,
+  "z_ok": 7,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C13_cone/model.SLDPRT",
+  "n": 2,
+  "z_ok": 2,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C14_sphere/model.SLDPRT",
+  "n": 1,
+  "z_ok": 1,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C15_torus/model.SLDPRT",
+  "n": 1,
+  "z_ok": 1,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C16_loft_spline/model.SLDPRT",
+  "n": 6,
+  "z_ok": 6,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C17_torus_quarter/model.SLDPRT",
+  "n": 3,
+  "z_ok": 3,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C18_cube_split_line/model.SLDPRT",
+  "n": 7,
+  "z_ok": 7,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C19_half_cylinder/model.SLDPRT",
+  "n": 4,
+  "z_ok": 4,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C20_cylinders_crossed/model.SLDPRT",
+  "n": 8,
+  "z_ok": 8,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C21_cylinder_fillet/model.SLDPRT",
+  "n": 4,
+  "z_ok": 4,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT",
+  "n": 6,
+  "z_ok": 6,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT",
+  "n": 6,
+  "z_ok": 6,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT",
+  "n": 8,
+  "z_ok": 8,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 0,
+  "err": 0,
+  "badtags": {}
+ },
+ {
+  "f": "test files new/SW2011/C00_cube_10mm/model.SLDPRT",
+  "n": 6,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 6,
+  "err": 0,
+  "badtags": {
+   "8": 5,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C01_cube_20mm/model.SLDPRT",
+  "n": 6,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 6,
+  "err": 0,
+  "badtags": {
+   "8": 5,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C02_cube_translated/model.SLDPRT",
+  "n": 6,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 6,
+  "err": 0,
+  "badtags": {
+   "8": 5,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT",
+  "n": 7,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 7,
+  "err": 0,
+  "badtags": {
+   "8": 6,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT",
+  "n": 7,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 7,
+  "err": 0,
+  "badtags": {
+   "8": 6,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT",
+  "n": 7,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 7,
+  "err": 0,
+  "badtags": {
+   "8": 6,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C06_cube_hole_moved/model.SLDPRT",
+  "n": 7,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 7,
+  "err": 0,
+  "badtags": {
+   "8": 6,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C07_cube_two_holes/model.SLDPRT",
+  "n": 8,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 8,
+  "err": 0,
+  "badtags": {
+   "8": 7,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT",
+  "n": 8,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 8,
+  "err": 0,
+  "badtags": {
+   "8": 7,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT",
+  "n": 7,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 7,
+  "err": 0,
+  "badtags": {
+   "8": 6,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C10_cube_shell_1mm/model.SLDPRT",
+  "n": 11,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 11,
+  "err": 0,
+  "badtags": {
+   "8": 10,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT",
+  "n": 7,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 7,
+  "err": 0,
+  "badtags": {
+   "8": 6,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT",
+  "n": 7,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 7,
+  "err": 0,
+  "badtags": {
+   "8": 6,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C13_cone/model.SLDPRT",
+  "n": 2,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 2,
+  "err": 0,
+  "badtags": {
+   "8": 1,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C14_sphere/model.SLDPRT",
+  "n": 1,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 1,
+  "err": 0,
+  "badtags": {
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C15_torus/model.SLDPRT",
+  "n": 1,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 1,
+  "err": 0,
+  "badtags": {
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C16_loft_spline/model.SLDPRT",
+  "n": 6,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 6,
+  "err": 0,
+  "badtags": {
+   "8": 5,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C17_torus_quarter/model.SLDPRT",
+  "n": 3,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 3,
+  "err": 0,
+  "badtags": {
+   "8": 2,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C18_cube_split_line/model.SLDPRT",
+  "n": 7,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 7,
+  "err": 0,
+  "badtags": {
+   "8": 6,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C19_half_cylinder/model.SLDPRT",
+  "n": 4,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 4,
+  "err": 0,
+  "badtags": {
+   "8": 3,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C20_cylinders_crossed/model.SLDPRT",
+  "n": 8,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 8,
+  "err": 0,
+  "badtags": {
+   "8": 7,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C21_cylinder_fillet/model.SLDPRT",
+  "n": 4,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 4,
+  "err": 0,
+  "badtags": {
+   "8": 3,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C22_cube_sw2011_native/model.SLDPRT",
+  "n": 6,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 6,
+  "err": 0,
+  "badtags": {
+   "8": 5,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT",
+  "n": 2,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 2,
+  "err": 0,
+  "badtags": {
+   "8": 1,
+   "4294901760": 1
+  }
+ },
+ {
+  "f": "test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT",
+  "n": 7,
+  "z_ok": 0,
+  "z_bad": 0,
+  "nz_ok": 0,
+  "nz_bad": 7,
+  "err": 0,
+  "badtags": {
+   "8": 6,
+   "4294901760": 1
+  }
+ }
+]

@@ -1,0 +1,800 @@
+[
+ {
+  "f": "test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2017/516a7dc5_Body1.sldprt",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2017/afc71d14_Body2.sldprt",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2017/d49566bc_AntennaMount.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+  "good": 167,
+  "distinct": 167,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2018/06b5063b_050_MASTER_SKETCH.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2018/15567d51_leva1.SLDPRT",
+  "good": 298,
+  "distinct": 298,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2018/361e7dbb_101_HOUSING.SLDPRT",
+  "good": 262,
+  "distinct": 262,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2018/ca465363_103_COVER.SLDPRT",
+  "good": 118,
+  "distinct": 118,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2018/d2515121_Ecran_128x32oled.SLDPRT",
+  "good": 2512,
+  "distinct": 1693,
+  "dupIds": 325,
+  "dupFaces": 1144
+ },
+ {
+  "f": "test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/07ff8da1_shelf.SLDPRT",
+  "good": 30,
+  "distinct": 30,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/096d0504_MargayMount_WH10.SLDPRT",
+  "good": 18,
+  "distinct": 18,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/27377fd2_FE-00006-06.SLDPRT",
+  "good": 8,
+  "distinct": 8,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/28398415_Raspberry Pi 4.SLDPRT",
+  "good": 267,
+  "distinct": 267,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/300d7f07_Bottom Case.SLDPRT",
+  "good": 50,
+  "distinct": 50,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/44afdb7c_back_cushion.SLDPRT",
+  "good": 26,
+  "distinct": 26,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/54b05886_bottom_adc.SLDPRT",
+  "good": 92,
+  "distinct": 92,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/636b653d_MountingBracket.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/7765d286_NSJ8L.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/8cd79ff5_1ESxx.SLDPRT",
+  "good": 103,
+  "distinct": 103,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/91a2d981_Camera Module.SLDPRT",
+  "good": 19,
+  "distinct": 19,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/a3a44709_FrontPanel-Bezel.sldprt",
+  "good": 16,
+  "distinct": 15,
+  "dupIds": 1,
+  "dupFaces": 2
+ },
+ {
+  "f": "test files online/2019/d381ebab_bottom_dac.SLDPRT",
+  "good": 83,
+  "distinct": 83,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/e8c40c25_psu.SLDPRT",
+  "good": 271,
+  "distinct": 271,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2019/fb449daa_Gloworm PCB.SLDPRT",
+  "good": 50,
+  "distinct": 50,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2020/14f9214b_11.SLDPRT",
+  "good": 73,
+  "distinct": 73,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT",
+  "good": 69,
+  "distinct": 69,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT",
+  "good": 28,
+  "distinct": 28,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2020/7841a106_6344428.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2020/9494d959_27_20_4.SLDPRT",
+  "good": 12,
+  "distinct": 12,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2020/b185085c_Handle 3.SLDPRT",
+  "good": 33,
+  "distinct": 33,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2020/b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2021/85aabbde_84T Gear.SLDPRT",
+  "good": 671,
+  "distinct": 671,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2021/916d4a0a_36T Gear.SLDPRT",
+  "good": 295,
+  "distinct": 295,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2021/bc3292d7_12T Gear.SLDPRT",
+  "good": 135,
+  "distinct": 135,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2021/eb0b2a21_60T Gear.SLDPRT",
+  "good": 399,
+  "distinct": 399,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT",
+  "good": 109,
+  "distinct": 109,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT",
+  "good": 143,
+  "distinct": 143,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/1ee60868_z轴皮带固定.SLDPRT",
+  "good": 32,
+  "distinct": 32,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/273a8d53_FG-F1.SLDPRT",
+  "good": 76,
+  "distinct": 76,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT",
+  "good": 239,
+  "distinct": 169,
+  "dupIds": 23,
+  "dupFaces": 93
+ },
+ {
+  "f": "test files online/2022/40e79d45_Fins.SLDPRT",
+  "good": 12,
+  "distinct": 12,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT",
+  "good": 9,
+  "distinct": 9,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/84226163_Fin.SLDPRT",
+  "good": 10,
+  "distinct": 10,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/9cc04b03_SO-C1.SLDPRT",
+  "good": 93,
+  "distinct": 93,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT",
+  "good": 33,
+  "distinct": 33,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/a0fc2e29_Vertical Spar.SLDPRT",
+  "good": 11,
+  "distinct": 11,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/d753195d_ServoMount.SLDPRT",
+  "good": 90,
+  "distinct": 90,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/db8a97e2_écrou fileté M5.SLDPRT",
+  "good": 26,
+  "distinct": 26,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/dc265ce1_Fin.SLDPRT",
+  "good": 10,
+  "distinct": 10,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2022/dd156283_637Z flanzi bearing.SLDPRT",
+  "good": 11,
+  "distinct": 11,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2023/03764871_BME280.SLDPRT",
+  "good": 693,
+  "distinct": 446,
+  "dupIds": 51,
+  "dupFaces": 298
+ },
+ {
+  "f": "test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT",
+  "good": 35,
+  "distinct": 35,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2023/2f121983_case.SLDPRT",
+  "good": 155,
+  "distinct": 154,
+  "dupIds": 1,
+  "dupFaces": 2
+ },
+ {
+  "f": "test files online/2023/2fd21507_MidplateEM2.SLDPRT",
+  "good": 49,
+  "distinct": 49,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT",
+  "good": 99,
+  "distinct": 99,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT",
+  "good": 127,
+  "distinct": 127,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2023/41b71219_板材-Guidance安装板.SLDPRT",
+  "good": 82,
+  "distinct": 82,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2023/4803f393_box.SLDPRT",
+  "good": 1390,
+  "distinct": 1317,
+  "dupIds": 45,
+  "dupFaces": 118
+ },
+ {
+  "f": "test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT",
+  "good": 37,
+  "distinct": 37,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT",
+  "good": 544,
+  "distinct": 490,
+  "dupIds": 52,
+  "dupFaces": 106
+ },
+ {
+  "f": "test files online/2023/d2f7f9bd_iman.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2023/d77ec77a_TopSheet.SLDPRT",
+  "good": 67,
+  "distinct": 67,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT",
+  "good": 34,
+  "distinct": 34,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2023/ef1d5cfe_DS3231.SLDPRT",
+  "good": 404,
+  "distinct": 322,
+  "dupIds": 51,
+  "dupFaces": 133
+ },
+ {
+  "f": "test files online/2024/03afebf4_Profilringe.SLDPRT",
+  "good": 7,
+  "distinct": 7,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/09d353a9_Elbow_Mount2.SLDPRT",
+  "good": 40,
+  "distinct": 40,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/1e794aad_6344387.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/225c13ed_camholder0deg.SLDPRT",
+  "good": 49,
+  "distinct": 49,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/2300f35c_Thigh Symétrie.SLDPRT",
+  "good": 172,
+  "distinct": 172,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT",
+  "good": 4,
+  "distinct": 4,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/37663d8a_Gasket For M12.SLDPRT",
+  "good": 11,
+  "distinct": 11,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/4febfc67_6344149.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT",
+  "good": 4,
+  "distinct": 4,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT",
+  "good": 22,
+  "distinct": 22,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/871e670c_servo_adapter.SLDPRT",
+  "good": 32,
+  "distinct": 32,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/951f2bc1_Boitier.SLDPRT",
+  "good": 26,
+  "distinct": 26,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT",
+  "good": 961,
+  "distinct": 958,
+  "dupIds": 3,
+  "dupFaces": 6
+ },
+ {
+  "f": "test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT",
+  "good": 16,
+  "distinct": 16,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT",
+  "good": 8,
+  "distinct": 8,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/05d0b4c3_pin-2-2.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT",
+  "good": 34,
+  "distinct": 34,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/3e41786b_LB26001-A-04-002_seed.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/55c163ac_pin-1-2.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/6fd68589_pin-2-1.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/822f5572_一级挡块-hhr镂空限位.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/8aaecde6_6008内圈下加工件.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/ac760485_存矿小端.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/c613782b_Крепёжная-Планка.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/e8f16581_Engine Base.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2026/4d85599e_base-M4.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ },
+ {
+  "f": "test files online/2026/daa6e9e9_CR26-201-08.SLDPRT",
+  "good": 0,
+  "distinct": 0,
+  "dupIds": 0,
+  "dupFaces": 0
+ }
+]

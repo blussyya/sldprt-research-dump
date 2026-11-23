@@ -1,0 +1,18 @@
+cone faces on analytic native faces: 2845 | dropped (display normal vs exact > 1 deg): 7
+  dropped test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT#55 geomOnly cylinder worst 4.48 deg
+  dropped test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT#58 geomOnly cylinder worst 4.48 deg
+  dropped test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT#77 geomOnly cylinder worst 60.03 deg
+  dropped test files original/distributor main boss rev a.SLDPRT#21 uniqueId cone worst 62.00 deg
+  dropped test files original/distributor main boss rev a.SLDPRT#24 uniqueId cone worst 62.00 deg
+  dropped test files original/distributor main boss rev a.SLDPRT#27 uniqueId cone worst 62.00 deg
+  dropped test files original/distributor main boss rev a.SLDPRT#30 uniqueId cone worst 62.00 deg
+kept, display-vs-exact normal worst angle (deg): n 2838 min 0.000000 p50 0.000034 max 0.014283
+cylinder: 2680 (reversed 700) | v outward at every vertex: 2680 | margin min(v.n)-s n 2680 min -0.101200 p50 -0.000255 max 0.000001 | exact normal outside cone (< -1e-6): 1890 | s below cos of largest exact angle (> 1e-6): 0
+cone: 128 (reversed 44) | v outward at every vertex: 128 | margin min(v.n)-s n 128 min -0.062440 p50 -0.002038 max -0.000000 | exact normal outside cone (< -1e-6): 116 | s below cos of largest exact angle (> 1e-6): 0
+sphere: 5 (reversed 0) | v outward at every vertex: 5 | margin min(v.n)-s n 5 min -0.110991 p50 -0.096747 max -0.092078 | exact normal outside cone (< -1e-6): 5 | s below cos of largest exact angle (> 1e-6): 0
+torus: 25 (reversed 2) | v outward at every vertex: 25 | margin min(v.n)-s n 25 min -0.093745 p50 -0.063527 max -0.008026 | exact normal outside cone (< -1e-6): 25 | s below cos of largest exact angle (> 1e-6): 0
+cylinders kept 2680: sign(v.radial)==sense on 2680; weak |v.axis| < 1e-6 on v 2680, on -v 2680
+  acos(s) - half-arc (deg): n 2680 min -6.225035 p50 -0.062270 max 0.000419 | narrower than the face by > 0.01 deg: 1721 | by > 1 deg: 726 | wider by > 0.01 deg: 0
+  half-arc over 45 deg but a cone stored: 59 max half-arc 50.373
+  angle v to outward bisector (deg): n 2680 min 0.000000 p50 0.013446 max 1.897048 | > 0.5 deg: 638
+PART1 a92 vs native plane, all joined faces: 18808 mismatches 0

@@ -1,0 +1,134 @@
+{
+ "syntheticExact": {
+  "points": 1000,
+  "maxCylinderDist": 8.673617379884035e-18,
+  "maxConeDist": 8.673617379884035e-18,
+  "note": "must be near 1e-16"
+ },
+ "syntheticMoved": [
+  {
+   "moved": 0.001,
+   "cylinderDist": 0.0009999999999999974,
+   "coneDist": 0.0009999999999999992,
+   "flaggedCyl": true,
+   "flaggedCone": true
+  },
+  {
+   "moved": 0.000001,
+   "cylinderDist": 9.99999999995796e-7,
+   "coneDist": 9.999999999992654e-7,
+   "flaggedCyl": true,
+   "flaggedCone": true
+  },
+  {
+   "moved": 1e-7,
+   "cylinderDist": 9.999999999420195e-8,
+   "coneDist": 1.0000000000027348e-7,
+   "flaggedCyl": true,
+   "flaggedCone": true
+  },
+  {
+   "moved": 1e-8,
+   "cylinderDist": 9.999999996471165e-9,
+   "coneDist": 9.999999996471165e-9,
+   "flaggedCyl": true,
+   "flaggedCone": true
+  },
+  {
+   "moved": 5e-9,
+   "cylinderDist": 4.999999997368221e-9,
+   "coneDist": 4.999999996500859e-9,
+   "flaggedCyl": true,
+   "flaggedCone": true
+  },
+  {
+   "moved": 2e-9,
+   "cylinderDist": 1.9999999954778414e-9,
+   "coneDist": 2.0000000006820118e-9,
+   "flaggedCyl": true,
+   "flaggedCone": true
+  },
+  {
+   "moved": 5e-10,
+   "cylinderDist": 4.999999927979282e-10,
+   "coneDist": 4.999999980020986e-10,
+   "flaggedCyl": false,
+   "flaggedCone": false
+  },
+  {
+   "moved": 0,
+   "cylinderDist": 1.734723475976807e-18,
+   "coneDist": 3.469446951953614e-18,
+   "flaggedCyl": false,
+   "flaggedCone": false
+  }
+ ],
+ "beyondApex": {
+  "dist": 0.0010000000000000009,
+  "expected": 0.001
+ },
+ "real": {
+  "C13_cone": {
+   "verticesChecked": 144,
+   "off": 0,
+   "maxDist": 1.5744005144729956e-10
+  },
+  "C19_half_cylinder": {
+   "verticesChecked": 56,
+   "off": 0,
+   "maxDist": 1.9685650418793665e-10
+  }
+ },
+ "tamper": {
+  "cone": {
+   "vertexCount": 144,
+   "interiorCount": 96,
+   "boundaryCount": 48
+  },
+  "untouched": {
+   "off": 0
+  },
+  "interiorMoved1e6": {
+   "off": 1,
+   "offBoundary": 0,
+   "offShared": 0,
+   "maxDist": 8.943272287134918e-7,
+   "expectedDist": 0.000001
+  },
+  "boundaryMoved3e9": {
+   "off": 1,
+   "offBoundary": 1,
+   "offShared": 0,
+   "maxDist": 2.7181621745087092e-9,
+   "note": "float32 storage limits how exactly 3e-9 is stored (half ulp here ~2.399963341663627e-10)"
+  },
+  "onChord": {
+   "entry": {
+    "face": 0,
+    "type": "cone",
+    "v": 129,
+    "dist": 0.00003825950088977639,
+    "boundary": true,
+    "shared": false,
+    "chord": true,
+    "chordAdj": true,
+    "slack": 2.399963341663627e-10
+   },
+   "expect": "off, boundary, chordAdj true"
+  },
+  "offChord": {
+   "entry": {
+    "face": 0,
+    "type": "cone",
+    "v": 129,
+    "dist": 0.000029315261648775806,
+    "boundary": true,
+    "shared": false,
+    "chord": false,
+    "chordAdj": false,
+    "slack": 2.399963341663627e-10
+   },
+   "expect": "off, boundary, chord false (adjacent and any pair)"
+  }
+ }
+}

@@ -1,0 +1,179 @@
+/home/user/sldprt-research-dump/test files new/SW2022/C00_cube_10mm/model.SLDPRT size=50108 hits=278
+/home/user/sldprt-research-dump/test files new/SW2022/C01_cube_20mm/model.SLDPRT size=48958 hits=297
+/home/user/sldprt-research-dump/test files new/SW2022/C02_cube_translated/model.SLDPRT size=48763 hits=256
+/home/user/sldprt-research-dump/test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT size=59324 hits=373
+/home/user/sldprt-research-dump/test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT size=62408 hits=337
+/home/user/sldprt-research-dump/test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT size=57394 hits=338
+/home/user/sldprt-research-dump/test files new/SW2022/C06_cube_hole_moved/model.SLDPRT size=61213 hits=424
+/home/user/sldprt-research-dump/test files new/SW2022/C07_cube_two_holes/model.SLDPRT size=70179 hits=394
+/home/user/sldprt-research-dump/test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT size=67950 hits=425
+/home/user/sldprt-research-dump/test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT size=56812 hits=291
+/home/user/sldprt-research-dump/test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT size=59755 hits=363
+/home/user/sldprt-research-dump/test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT size=60146 hits=341
+/home/user/sldprt-research-dump/test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT size=54162 hits=334
+/home/user/sldprt-research-dump/test files new/SW2022/C13_cone/model.SLDPRT size=56816 hits=295
+/home/user/sldprt-research-dump/test files new/SW2022/C14_sphere/model.SLDPRT size=115786 hits=422
+/home/user/sldprt-research-dump/test files new/SW2022/C15_torus/model.SLDPRT size=147394 hits=558
+/home/user/sldprt-research-dump/test files new/SW2022/C16_loft_spline/model.SLDPRT size=105922 hits=512
+/home/user/sldprt-research-dump/test files new/SW2022/C17_torus_quarter/model.SLDPRT size=106905 hits=439
+/home/user/sldprt-research-dump/test files new/SW2022/C18_cube_split_line/model.SLDPRT size=57495 hits=380
+/home/user/sldprt-research-dump/test files new/SW2022/C19_half_cylinder/model.SLDPRT size=46415 hits=255
+/home/user/sldprt-research-dump/test files new/SW2022/C20_cylinders_crossed/model.SLDPRT size=91334 hits=418
+/home/user/sldprt-research-dump/test files new/SW2022/C21_cylinder_fillet/model.SLDPRT size=81429 hits=383
+/home/user/sldprt-research-dump/test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT size=49707 hits=251
+/home/user/sldprt-research-dump/test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT size=49671 hits=259
+/home/user/sldprt-research-dump/test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT size=140185 hits=556
+/home/user/sldprt-research-dump/test files new/SW2026/cylinder with fillet-2026-credit-kevinR.SLDPRT size=82941 hits=337
+/home/user/sldprt-research-dump/test files new/re-exports/C00_cube_10mm-2011-to-2026/model.SLDPRT size=46499 hits=318
+/home/user/sldprt-research-dump/test files new/re-exports/C01_cube_20mm-2011-to-2026/model.SLDPRT size=46691 hits=318
+/home/user/sldprt-research-dump/test files new/re-exports/holefillets1-2022to2026reexport-Furthen64-kevinR.SLDPRT size=142286 hits=592
+/home/user/sldprt-research-dump/test files new/re-exports/plate4 1997to2025kevin.SLDPRT size=60924 hits=433
+/home/user/sldprt-research-dump/test files new/re-exports/plate4-1997to2026kevinrahhal.sldprt size=60876 hits=294
+/home/user/sldprt-research-dump/test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt size=4182467 hits=14775
+/home/user/sldprt-research-dump/test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT size=1891748 hits=6402
+/home/user/sldprt-research-dump/test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT size=70894 hits=418
+/home/user/sldprt-research-dump/test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT size=2320120 hits=9787
+/home/user/sldprt-research-dump/test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT size=201790 hits=902
+/home/user/sldprt-research-dump/test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT size=201727 hits=1066
+/home/user/sldprt-research-dump/test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT size=314823 hits=1428
+/home/user/sldprt-research-dump/test files online/2017/3b48d9c5_Body10.sldprt size=41134 hits=282
+/home/user/sldprt-research-dump/test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT size=113327 hits=519
+/home/user/sldprt-research-dump/test files online/2017/516a7dc5_Body1.sldprt size=76450 hits=427
+/home/user/sldprt-research-dump/test files online/2017/afc71d14_Body2.sldprt size=114281 hits=631
+/home/user/sldprt-research-dump/test files online/2017/d49566bc_AntennaMount.SLDPRT size=77772 hits=378
+/home/user/sldprt-research-dump/test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT size=1192217 hits=3533
+/home/user/sldprt-research-dump/test files online/2018/0132519a_102_STEM.SLDPRT size=500594 hits=1826
+/home/user/sldprt-research-dump/test files online/2018/06b5063b_050_MASTER_SKETCH.SLDPRT size=110548 hits=514
+/home/user/sldprt-research-dump/test files online/2018/15567d51_leva1.SLDPRT size=819159 hits=2973
+/home/user/sldprt-research-dump/test files online/2018/361e7dbb_101_HOUSING.SLDPRT size=625050 hits=2189
+/home/user/sldprt-research-dump/test files online/2018/ca465363_103_COVER.SLDPRT size=368459 hits=1462
+/home/user/sldprt-research-dump/test files online/2018/d2515121_Ecran_128x32oled.SLDPRT size=1935285 hits=5984
+/home/user/sldprt-research-dump/test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT size=277039 hits=1043
+/home/user/sldprt-research-dump/test files online/2019/07ff8da1_shelf.SLDPRT size=101480 hits=471
+/home/user/sldprt-research-dump/test files online/2019/096d0504_MargayMount_WH10.SLDPRT size=88486 hits=477
+/home/user/sldprt-research-dump/test files online/2019/27377fd2_FE-00006-06.SLDPRT size=45791 hits=293
+/home/user/sldprt-research-dump/test files online/2019/28398415_Raspberry Pi 4.SLDPRT size=326869 hits=1343
+/home/user/sldprt-research-dump/test files online/2019/300d7f07_Bottom Case.SLDPRT size=184490 hits=757
+/home/user/sldprt-research-dump/test files online/2019/44afdb7c_back_cushion.SLDPRT size=100048 hits=670
+/home/user/sldprt-research-dump/test files online/2019/54b05886_bottom_adc.SLDPRT size=254617 hits=936
+/home/user/sldprt-research-dump/test files online/2019/636b653d_MountingBracket.SLDPRT size=93545 hits=451
+/home/user/sldprt-research-dump/test files online/2019/7765d286_NSJ8L.SLDPRT size=139621 hits=657
+/home/user/sldprt-research-dump/test files online/2019/8cd79ff5_1ESxx.SLDPRT size=205354 hits=699
+/home/user/sldprt-research-dump/test files online/2019/91a2d981_Camera Module.SLDPRT size=106467 hits=552
+/home/user/sldprt-research-dump/test files online/2019/a3a44709_FrontPanel-Bezel.sldprt size=88350 hits=446
+/home/user/sldprt-research-dump/test files online/2019/d381ebab_bottom_dac.SLDPRT size=254324 hits=929
+/home/user/sldprt-research-dump/test files online/2019/e8c40c25_psu.SLDPRT size=567656 hits=1956
+/home/user/sldprt-research-dump/test files online/2019/fb449daa_Gloworm PCB.SLDPRT size=257845 hits=1065
+/home/user/sldprt-research-dump/test files online/2020/14f9214b_11.SLDPRT size=271908 hits=1068
+/home/user/sldprt-research-dump/test files online/2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT size=99833 hits=500
+/home/user/sldprt-research-dump/test files online/2020/34fe5ff1_Group_44390.stp.SLDPRT size=37814 hits=391
+/home/user/sldprt-research-dump/test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT size=260395 hits=946
+/home/user/sldprt-research-dump/test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT size=109835 hits=480
+/home/user/sldprt-research-dump/test files online/2020/7841a106_6344428.SLDPRT size=138143 hits=669
+/home/user/sldprt-research-dump/test files online/2020/9494d959_27_20_4.SLDPRT size=117371 hits=629
+/home/user/sldprt-research-dump/test files online/2020/b185085c_Handle 3.SLDPRT size=125747 hits=602
+/home/user/sldprt-research-dump/test files online/2020/b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT size=48238 hits=276
+/home/user/sldprt-research-dump/test files online/2021/60f84235_2022_10_06_17_02_43_0612.stp.SLDPRT size=821276 hits=3167
+/home/user/sldprt-research-dump/test files online/2021/85aabbde_84T Gear.SLDPRT size=744821 hits=2415
+/home/user/sldprt-research-dump/test files online/2021/916d4a0a_36T Gear.SLDPRT size=450523 hits=1649
+/home/user/sldprt-research-dump/test files online/2021/bc3292d7_12T Gear.SLDPRT size=199093 hits=787
+/home/user/sldprt-research-dump/test files online/2021/eb0b2a21_60T Gear.SLDPRT size=576759 hits=1916
+/home/user/sldprt-research-dump/test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT size=2017691 hits=5652
+/home/user/sldprt-research-dump/test files online/2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT size=1510137 hits=4372
+/home/user/sldprt-research-dump/test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT size=201722 hits=809
+/home/user/sldprt-research-dump/test files online/2022/1ee60868_z轴皮带固定.SLDPRT size=145376 hits=535
+/home/user/sldprt-research-dump/test files online/2022/24344735_080-1926-000_3.SLDPRT size=572124 hits=2089
+/home/user/sldprt-research-dump/test files online/2022/273a8d53_FG-F1.SLDPRT size=183185 hits=809
+/home/user/sldprt-research-dump/test files online/2022/3980555c_RASPBERRY_PI_5+cooler-5.SLDPRT size=45008 hits=253
+/home/user/sldprt-research-dump/test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT size=416554 hits=1367
+/home/user/sldprt-research-dump/test files online/2022/40e79d45_Fins.SLDPRT size=80354 hits=389
+/home/user/sldprt-research-dump/test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT size=35271 hits=209
+/home/user/sldprt-research-dump/test files online/2022/5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT size=87916 hits=386
+/home/user/sldprt-research-dump/test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT size=128401 hits=610
+/home/user/sldprt-research-dump/test files online/2022/84226163_Fin.SLDPRT size=60158 hits=344
+/home/user/sldprt-research-dump/test files online/2022/9cc04b03_SO-C1.SLDPRT size=201710 hits=814
+/home/user/sldprt-research-dump/test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT size=177228 hits=756
+/home/user/sldprt-research-dump/test files online/2022/a0fc2e29_Vertical Spar.SLDPRT size=60952 hits=347
+/home/user/sldprt-research-dump/test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT size=92271 hits=525
+/home/user/sldprt-research-dump/test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT size=47055 hits=270
+/home/user/sldprt-research-dump/test files online/2022/ceefa2a9_CRP320-05.SLDPRT size=147981 hits=554
+/home/user/sldprt-research-dump/test files online/2022/d753195d_ServoMount.SLDPRT size=309853 hits=1250
+/home/user/sldprt-research-dump/test files online/2022/db8a97e2_écrou fileté M5.SLDPRT size=737099 hits=2330
+/home/user/sldprt-research-dump/test files online/2022/dc265ce1_Fin.SLDPRT size=68674 hits=324
+/home/user/sldprt-research-dump/test files online/2022/dd156283_637Z flanzi bearing.SLDPRT size=99334 hits=414
+/home/user/sldprt-research-dump/test files online/2022/f8c2df35_2023_10_16_23_28_17_0357_body1.SLDPRT size=25806 hits=161
+/home/user/sldprt-research-dump/test files online/2023/03764871_BME280.SLDPRT size=1018041 hits=3571
+/home/user/sldprt-research-dump/test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT size=134202 hits=539
+/home/user/sldprt-research-dump/test files online/2023/2f121983_case.SLDPRT size=849408 hits=2672
+/home/user/sldprt-research-dump/test files online/2023/2fd21507_MidplateEM2.SLDPRT size=526873 hits=1377
+/home/user/sldprt-research-dump/test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT size=206926 hits=909
+/home/user/sldprt-research-dump/test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT size=730643 hits=2303
+/home/user/sldprt-research-dump/test files online/2023/41b71219_板材-Guidance安装板.SLDPRT size=367552 hits=1447
+/home/user/sldprt-research-dump/test files online/2023/4803f393_box.SLDPRT size=2276943 hits=7117
+/home/user/sldprt-research-dump/test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT size=182803 hits=738
+/home/user/sldprt-research-dump/test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT size=1309875 hits=4654
+/home/user/sldprt-research-dump/test files online/2023/d2f7f9bd_iman.SLDPRT size=52039 hits=389
+/home/user/sldprt-research-dump/test files online/2023/d77ec77a_TopSheet.SLDPRT size=271655 hits=1021
+/home/user/sldprt-research-dump/test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT size=222172 hits=768
+/home/user/sldprt-research-dump/test files online/2023/ef1d5cfe_DS3231.SLDPRT size=619345 hits=1832
+/home/user/sldprt-research-dump/test files online/2024/03afebf4_Profilringe.SLDPRT size=168017 hits=744
+/home/user/sldprt-research-dump/test files online/2024/09d353a9_Elbow_Mount2.SLDPRT size=150962 hits=573
+/home/user/sldprt-research-dump/test files online/2024/1e794aad_6344387.SLDPRT size=245676 hits=917
+/home/user/sldprt-research-dump/test files online/2024/225c13ed_camholder0deg.SLDPRT size=201725 hits=761
+/home/user/sldprt-research-dump/test files online/2024/2300f35c_Thigh Symétrie.SLDPRT size=449374 hits=1632
+/home/user/sldprt-research-dump/test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT size=64330 hits=331
+/home/user/sldprt-research-dump/test files online/2024/37663d8a_Gasket For M12.SLDPRT size=76418 hits=505
+/home/user/sldprt-research-dump/test files online/2024/4febfc67_6344149.SLDPRT size=107730 hits=511
+/home/user/sldprt-research-dump/test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT size=56143 hits=339
+/home/user/sldprt-research-dump/test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT size=99172 hits=438
+/home/user/sldprt-research-dump/test files online/2024/871e670c_servo_adapter.SLDPRT size=151566 hits=666
+/home/user/sldprt-research-dump/test files online/2024/951f2bc1_Boitier.SLDPRT size=99254 hits=429
+/home/user/sldprt-research-dump/test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT size=2017068 hits=6811
+/home/user/sldprt-research-dump/test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT size=68887 hits=372
+/home/user/sldprt-research-dump/test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT size=62837 hits=306
+/home/user/sldprt-research-dump/test files online/2024/f750218b_612-00002.SLDPRT size=27115 hits=231
+/home/user/sldprt-research-dump/test files online/2025/05d0b4c3_pin-2-2.SLDPRT size=510419 hits=1823
+/home/user/sldprt-research-dump/test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT size=319440 hits=1138
+/home/user/sldprt-research-dump/test files online/2025/3e41786b_LB26001-A-04-002_seed.SLDPRT size=84925 hits=433
+/home/user/sldprt-research-dump/test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT size=523714 hits=1830
+/home/user/sldprt-research-dump/test files online/2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT size=1097834 hits=4068
+/home/user/sldprt-research-dump/test files online/2025/55c163ac_pin-1-2.SLDPRT size=420779 hits=1546
+/home/user/sldprt-research-dump/test files online/2025/6fd68589_pin-2-1.SLDPRT size=510372 hits=1900
+/home/user/sldprt-research-dump/test files online/2025/822f5572_一级挡块-hhr镂空限位.SLDPRT size=166986 hits=677
+/home/user/sldprt-research-dump/test files online/2025/8aaecde6_6008内圈下加工件.SLDPRT size=201718 hits=792
+/home/user/sldprt-research-dump/test files online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT size=91231 hits=436
+/home/user/sldprt-research-dump/test files online/2025/ac760485_存矿小端.SLDPRT size=189752 hits=734
+/home/user/sldprt-research-dump/test files online/2025/c613782b_Крепёжная-Планка.SLDPRT size=1573282 hits=5739
+/home/user/sldprt-research-dump/test files online/2025/e8f16581_Engine Base.SLDPRT size=275697 hits=1118
+/home/user/sldprt-research-dump/test files online/2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT size=930879 hits=2848
+/home/user/sldprt-research-dump/test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT size=127402 hits=567
+/home/user/sldprt-research-dump/test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT size=121877 hits=572
+/home/user/sldprt-research-dump/test files online/2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT size=59344 hits=389
+/home/user/sldprt-research-dump/test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT size=2067804 hits=6313
+/home/user/sldprt-research-dump/test files online/2026/4d85599e_base-M4.SLDPRT size=82183 hits=363
+/home/user/sldprt-research-dump/test files online/2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT size=430903 hits=1621
+/home/user/sldprt-research-dump/test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT size=136532 hits=587
+/home/user/sldprt-research-dump/test files online/2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT size=48095 hits=356
+/home/user/sldprt-research-dump/test files online/2026/daa6e9e9_CR26-201-08.SLDPRT size=532100 hits=1634
+/home/user/sldprt-research-dump/test files original/Dekor.SLDPRT size=1005560 hits=3200
+/home/user/sldprt-research-dump/test files original/Helical Bevel Gear.SLDPRT size=998858 hits=3413
+/home/user/sldprt-research-dump/test files original/PTC GE8080-8.SLDPRT size=143175 hits=661
+/home/user/sldprt-research-dump/test files original/Pocket Wheel.SLDPRT size=1252991 hits=4144
+/home/user/sldprt-research-dump/test files original/controlled/C00_cube_10mm/model.SLDPRT size=64120 hits=359
+/home/user/sldprt-research-dump/test files original/controlled/C01_cube_20mm/model.SLDPRT size=61959 hits=382
+/home/user/sldprt-research-dump/test files original/controlled/C02_cube_translated/model.SLDPRT size=60511 hits=306
+/home/user/sldprt-research-dump/test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT size=74672 hits=412
+/home/user/sldprt-research-dump/test files original/controlled/C04_cube_hole_5mm/model.SLDPRT size=81350 hits=402
+/home/user/sldprt-research-dump/test files original/controlled/C05_cube_hole_3mm/model.SLDPRT size=74893 hits=358
+/home/user/sldprt-research-dump/test files original/controlled/C06_cube_hole_moved/model.SLDPRT size=81319 hits=388
+/home/user/sldprt-research-dump/test files original/controlled/C07_cube_two_holes/model.SLDPRT size=97836 hits=463
+/home/user/sldprt-research-dump/test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT size=93029 hits=435
+/home/user/sldprt-research-dump/test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT size=67163 hits=372
+/home/user/sldprt-research-dump/test files original/controlled/C10_cube_shell_1mm/model.SLDPRT size=74013 hits=346
+/home/user/sldprt-research-dump/test files original/controlled/C11_cube_hole_4mm/model.SLDPRT size=76839 hits=443
+/home/user/sldprt-research-dump/test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT size=66586 hits=318
+/home/user/sldprt-research-dump/test files original/cube.SLDPRT size=66847 hits=383
+/home/user/sldprt-research-dump/test files original/distributor main boss rev a.SLDPRT size=279450 hits=1125
+/home/user/sldprt-research-dump/test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT size=126893 hits=662
+/home/user/sldprt-research-dump/test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT size=271059 hits=1027
+done

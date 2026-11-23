@@ -1,0 +1,108 @@
+  true:13533
+CONTROL idBlock() vs converter tag+rawId on layout A: { true: 13533 }
+  A:14527  C:4432  oleA:1657  oleX:203  B:190  oleB:41
+layouts: A:14527  C:4432  oleA:1657  oleX:203  B:190  oleB:41
+  A:converter:13533  C:idBlock:4432  oleA:null:1657  A:null:994  oleX:null:203  B:null:190  oleB:null:41
+tag source: A:converter:13533  C:idBlock:4432  oleA:null:1657  A:null:994  oleX:null:203  B:null:190  oleB:null:41
+
+===== layout A: 14527 faces, 134 files, tag known on 13533
+CONTROL tag x mesh-flat:  plane/flat:6386  cyl/curved:4879  bspline/curved:699  cone/curved:484  swept/curved:408  spun/curved:290  torus/curved:240  sphere/curved:74  blend/curved:72  t4008/curved:1
+PART2 literal u128:  1:14527
+PART2 aligned a128:  1:14527
+next word after record (u132 lit):  hdr:14527
+PART1 literal u92 x tag:  1/plane:6386  0/cyl:4879  0/bspline:699  1/notag:566  0/cone:484  0/notag:428  0/swept:408  0/spun:290  0/torus:240  0/sphere:74  0/blend:72  0/t4008:1
+PART1 aligned a92 x tag:  1/plane:6386  0/cyl:4879  0/bspline:699  1/notag:566  0/cone:484  0/notag:428  0/swept:408  0/spun:290  0/torus:240  0/sphere:74  0/blend:72  0/t4008:1
+PART1 aligned a92 x mesh:  0/curved:7575  1/flat:6952
+  shifted-offset control: a96===1 <=> tag plane on 6737/13533
+  shifted-offset control: a100===1 <=> tag plane on 7147/13533
+aligned a96:  1:12875  0:1652
+aligned a104,a108 x tag:  0,1/plane:6386  1,1/cyl:2406  0,1/cyl:2094  0,1/notag:690  0,1/swept:403  0,0/cyl:379  0,1/bspline:351  0,1/cone:279  1,1/bspline:242  1,1/notag:205  1,1/spun:164  0,1/torus:128  1,1/cone:126  0,0/spun:126  0,0/bspline:106  0,0/notag:99  0,0/torus:88  0,0/cone:79  0,0/blend:37  0,1/sphere:37  0,0/sphere:31  0,1/blend:30  1,1/torus:24  1,1/sphere:6  1,1/blend:5  0,0/swept:4  1,1/swept:1  0,1/t4008:1
+a112..a124 all zero when not (1,1):  0,1 zero=false:5965  0,1 zero=true:4434  0,0 zero=false:557  0,0 zero=true:392
+PART4 planes (tag or mesh) with a104=a108=1:  false:6952
+PART5 a100: files where it varies across faces 125, constant 9
+PART5 a100 small values:  big:14527
+
+===== layout B: 190 faces, 3 files, tag known on 0
+CONTROL tag x mesh-flat:  
+PART2 literal u128:  0:132  733691388:6  1062932420:2  3204972091:2  3205319489:2  1:1  ... (51 distinct)
+PART2 aligned a128:  1:190
+next word after record (u132 lit):  0:128  15:13  823880520:2  1055144248:2  1055727250:2  6553697:1  ... (48 distinct)
+PART1 literal u92 x tag:  big/notag:190
+PART1 aligned a92 x tag:  1/notag:97  0/notag:93
+PART1 aligned a92 x mesh:  1/flat:97  0/curved:93
+  shifted-offset control: a96===1 <=> tag plane on 0/0
+  shifted-offset control: a100===1 <=> tag plane on 0/0
+aligned a96:  1:190
+aligned a104,a108 x tag:  0,1/notag:152  1,1/notag:26  0,0/notag:12
+a112..a124 all zero when not (1,1):  0,1 zero=true:111  0,1 zero=false:41  0,0 zero=false:12
+PART4 planes (tag or mesh) with a104=a108=1:  false:97
+PART5 a100: files where it varies across faces 3, constant 0
+PART5 a100 small values:  big:190
+
+===== layout C: 4432 faces, 18 files, tag known on 4432
+CONTROL tag x mesh-flat:  plane/flat:2566  cyl/curved:1200  bspline/curved:290  torus/curved:117  blend/curved:108  cone/curved:87  swept/curved:36  t4008/curved:14  sphere/curved:14
+PART2 literal u128:  0:4432
+PART2 aligned a128:  0:4432
+next word after record (u132 lit):  1:4432
+PART1 literal u92 x tag:  1/plane:2566  0/cyl:1200  0/bspline:290  0/torus:117  0/blend:108  0/cone:87  0/swept:36  0/t4008:14  0/sphere:14
+PART1 aligned a92 x tag:  1/plane:2566  0/cyl:1200  0/bspline:290  0/torus:117  0/blend:108  0/cone:87  0/swept:36  0/t4008:14  0/sphere:14
+PART1 aligned a92 x mesh:  1/flat:2566  0/curved:1866
+  shifted-offset control: a96===1 <=> tag plane on 2721/4432
+  shifted-offset control: a100===1 <=> tag plane on 1866/4432
+aligned a96:  1:3981  0:451
+aligned a104,a108 x tag:  0,1/plane:2566  0,1/cyl:1070  0,1/bspline:290  0,1/blend:108  1,1/cyl:102  0,1/torus:89  0,1/cone:87  0,1/swept:36  0,0/cyl:28  0,0/torus:28  0,1/t4008:14  0,1/sphere:14
+a112..a124 all zero when not (1,1):  0,1 zero=true:4274  0,0 zero=true:56
+PART4 planes (tag or mesh) with a104=a108=1:  false:2566
+PART5 a100: files where it varies across faces 18, constant 0
+PART5 a100 small values:  big:4432
+
+===== layout oleA: 1657 faces, 31 files, tag known on 0
+CONTROL tag x mesh-flat:  
+PART2 literal u128:  1:1657
+PART2 aligned a128:  1:1657
+next word after record (u132 lit):  8:1657
+PART1 literal u92 x tag:  0/notag:1016  1/notag:641
+PART1 aligned a92 x tag:  0/notag:1016  1/notag:641
+PART1 aligned a92 x mesh:  0/curved:1016  1/flat:641
+  shifted-offset control: a96===1 <=> tag plane on 0/0
+  shifted-offset control: a100===1 <=> tag plane on 0/0
+aligned a96:  1:1657
+aligned a104,a108 x tag:  0,1/notag:1602  0,0/notag:29  1,1/notag:26
+a112..a124 all zero when not (1,1):  0,1 zero=false:1316  0,1 zero=true:286  0,0 zero=false:15  0,0 zero=true:14
+PART4 planes (tag or mesh) with a104=a108=1:  false:641
+PART5 a100: files where it varies across faces 29, constant 2
+PART5 a100 small values:  big:1657
+
+===== layout oleB: 41 faces, 4 files, tag known on 0
+CONTROL tag x mesh-flat:  
+PART2 literal u128:  0:10  5:1  48:1  407236704:1  954669792:1  954902672:1  ... (32 distinct)
+PART2 aligned a128:  1:41
+next word after record (u132 lit):  0:8  1040483310:2  531:1  347570428:1  407471960:1  407502848:1  ... (33 distinct)
+PART1 literal u92 x tag:  big/notag:28  0/notag:13
+PART1 aligned a92 x tag:  0/notag:24  1/notag:17
+PART1 aligned a92 x mesh:  0/curved:24  1/flat:17
+  shifted-offset control: a96===1 <=> tag plane on 0/0
+  shifted-offset control: a100===1 <=> tag plane on 0/0
+aligned a96:  1:41
+aligned a104,a108 x tag:  0,0/notag:20  0,1/notag:17  1,1/notag:4
+a112..a124 all zero when not (1,1):  0,0 zero=false:17  0,1 zero=false:16  0,0 zero=true:3  0,1 zero=true:1
+PART4 planes (tag or mesh) with a104=a108=1:  false:17
+PART5 a100: files where it varies across faces 4, constant 0
+PART5 a100 small values:  big:41
+
+===== layout oleX: 203 faces, 2 files, tag known on 0
+CONTROL tag x mesh-flat:  
+PART2 literal u128:  11:37  1:35  7:34  6:30  9:16  null:14  ... (9 distinct)
+PART2 aligned a128:  11:37  1:35  7:34  6:30  9:16  null:14  ... (9 distinct)
+next word after record (u132 lit):  2149318656:35  9:30  12:30  14:21  15:21  17:20  ... (10 distinct)
+PART1 literal u92 x tag:  big/notag:203
+PART1 aligned a92 x tag:  2974468965/notag:26  628339537/notag:4  3281837588/notag:4  1856240205/notag:4  2555563327/notag:4  206803330/notag:2  3371707597/notag:2  2974468959/notag:2  3331661903/notag:2  3281837623/notag:2  3281837617/notag:2  3709847957/notag:2  2274503392/notag:2  2274503385/notag:2  1722282145/notag:2  306825996/notag:2  306825993/notag:2  3197756626/notag:2  2974545535/notag:2  306826019/notag:2  ... (119 distinct)
+PART1 aligned a92 x mesh:  2974468965/curved:26  628339537/flat:4  3281837588/curved:4  1856240205/curved:4  2555563327/curved:4  206803330/curved:2  3371707597/curved:2  2974468959/curved:2  3331661903/curved:2  3281837623/curved:2  3281837617/curved:2  3709847957/curved:2  2274503392/curved:2  2274503385/curved:2  1722282145/curved:2  306825996/curved:2  306825993/curved:2  3197756626/curved:2  2974545535/curved:2  306826019/curved:2  ... (119 distinct)
+  shifted-offset control: a96===1 <=> tag plane on 0/0
+  shifted-offset control: a100===1 <=> tag plane on 0/0
+aligned a96:  1066565738:30  1067492586:24  1067492587:24  1066289869:8  1066299499:8  1066347192:8  ... (36 distinct)
+aligned a104,a108 x tag:  0,4/notag:183  2,1/notag:10  1,4/notag:6  6,2/notag:2  10,4/notag:1  null,null/notag:1
+a112..a124 all zero when not (1,1):  0,4 zero=false:183  2,1 zero=false:10  1,4 zero=false:6  6,2 zero=false:2  10,4 zero=false:1  null,null zero=false:1
+PART4 planes (tag or mesh) with a104=a108=1:  false:20
+PART5 a100: files where it varies across faces 1, constant 1
+PART5 a100 small values:  1:189  big:13  null:1

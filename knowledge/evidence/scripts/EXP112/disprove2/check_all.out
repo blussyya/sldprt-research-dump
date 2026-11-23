@@ -1,0 +1,183 @@
+ok    e8=1 e0=0 shaped= 10 n=  40 ok=  40 slack=1124 filler=3373 test files new/SW2022/C00_cube_10mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  40 ok=  40 slack=708 filler=2338 test files new/SW2022/C01_cube_20mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  39 ok=  39 slack=666 filler=2723 test files new/SW2022/C02_cube_translated/model.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  40 ok=  40 slack=1008 filler=2583 test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  40 ok=  40 slack=765 filler=2605 test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  40 ok=  40 slack=514 filler=2020 test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  40 ok=  40 slack=1104 filler=2702 test files new/SW2022/C06_cube_hole_moved/model.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  40 ok=  40 slack=1060 filler=3207 test files new/SW2022/C07_cube_two_holes/model.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  40 ok=  40 slack=1092 filler=3257 test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  40 ok=  40 slack=739 filler=2915 test files new/SW2022/C09_cube_chamfer_1mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  40 ok=  40 slack=1116 filler=2541 test files new/SW2022/C10_cube_shell_1mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  40 ok=  40 slack=747 filler=2872 test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  40 ok=  40 slack=855 filler=3237 test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  40 ok=  40 slack=400 filler=2128 test files new/SW2022/C13_cone/model.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  40 ok=  40 slack=486 filler=2536 test files new/SW2022/C14_sphere/model.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  40 ok=  40 slack=746 filler=3219 test files new/SW2022/C15_torus/model.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  40 ok=  40 slack=926 filler=2259 test files new/SW2022/C16_loft_spline/model.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  40 ok=  40 slack=629 filler=2732 test files new/SW2022/C17_torus_quarter/model.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  40 ok=  40 slack=913 filler=2864 test files new/SW2022/C18_cube_split_line/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  40 ok=  40 slack=516 filler=2571 test files new/SW2022/C19_half_cylinder/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  40 ok=  40 slack=401 filler=2141 test files new/SW2022/C20_cylinders_crossed/model.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  40 ok=  40 slack=1015 filler=2534 test files new/SW2022/C21_cylinder_fillet/model.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  41 ok=  41 slack=1039 filler=2731 test files new/SW2022/C23_cube_sw2011_to_2022/model.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  40 ok=  40 slack=636 filler=2946 test files new/SW2022/C24_cube_sw2022_native/model.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  42 ok=  42 slack=1104 filler=3345 test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  41 ok=  41 slack=433 filler=2161 test files new/SW2026/cylinder with fillet-2026-credit-kevinR.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  42 ok=  42 slack=579 filler=2522 test files new/re-exports/C00_cube_10mm-2011-to-2026/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  42 ok=  42 slack=384 filler=2645 test files new/re-exports/C01_cube_20mm-2011-to-2026/model.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  43 ok=  43 slack=447 filler=2590 test files new/re-exports/holefillets1-2022to2026reexport-Furthen64-kevinR.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  39 ok=  39 slack=558 filler=2342 test files new/re-exports/plate4 1997to2025kevin.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  39 ok=  39 slack=658 filler=2024 test files new/re-exports/plate4-1997to2026kevinrahhal.sldprt
+ok    e8=1 e0=0 shaped= 16 n=  42 ok=  42 slack=544 filler=3022 test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt
+ok    e8=1 e0=0 shaped= 16 n=  42 ok=  42 slack=990 filler=3763 test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  41 ok=  41 slack=1068 filler=2878 test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n= 373 ok= 373 slack=601 filler=6319 test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  84 ok=  84 slack=620 filler=2822 test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  76 ok=  76 slack=782 filler=3031 test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  76 ok=  76 slack=917 filler=2756 test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  30 ok=  30 slack=456 filler=2220 test files online/2017/3b48d9c5_Body10.sldprt
+ok    e8=1 e0=0 shaped= 14 n=  41 ok=  41 slack=1010 filler=2803 test files online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT
+ok    e8=1 e0=1 shaped= 10 n=  43 ok=  43 slack=631 filler=2813 test files online/2017/516a7dc5_Body1.sldprt
+ok    e8=1 e0=0 shaped= 11 n=  43 ok=  43 slack=390 filler=2115 test files online/2017/afc71d14_Body2.sldprt
+ok    e8=1 e0=0 shaped= 16 n=  39 ok=  39 slack=394 filler=2328 test files online/2017/d49566bc_AntennaMount.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  42 ok=  42 slack=562 filler=3051 test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  44 ok=  44 slack=984 filler=2944 test files online/2018/0132519a_102_STEM.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  42 ok=  42 slack=711 filler=2619 test files online/2018/06b5063b_050_MASTER_SKETCH.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  43 ok=  43 slack=986 filler=2775 test files online/2018/15567d51_leva1.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  42 ok=  42 slack=577 filler=2736 test files online/2018/361e7dbb_101_HOUSING.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  43 ok=  43 slack=1042 filler=2638 test files online/2018/ca465363_103_COVER.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  43 ok=  43 slack=1107 filler=3490 test files online/2018/d2515121_Ecran_128x32oled.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  44 ok=  44 slack=822 filler=3120 test files online/2018/eefa906d_plancher Dalle 2020.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  46 ok=  46 slack=884 filler=3502 test files online/2019/07ff8da1_shelf.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  45 ok=  45 slack=974 filler=2820 test files online/2019/096d0504_MargayMount_WH10.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  44 ok=  44 slack=605 filler=2675 test files online/2019/27377fd2_FE-00006-06.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  46 ok=  46 slack=860 filler=2372 test files online/2019/28398415_Raspberry Pi 4.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  46 ok=  46 slack=685 filler=2395 test files online/2019/300d7f07_Bottom Case.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  43 ok=  43 slack=519 filler=2113 test files online/2019/44afdb7c_back_cushion.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  46 ok=  46 slack=1089 filler=2529 test files online/2019/54b05886_bottom_adc.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  44 ok=  44 slack=1048 filler=2660 test files online/2019/636b653d_MountingBracket.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  45 ok=  45 slack=640 filler=2876 test files online/2019/7765d286_NSJ8L.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  45 ok=  45 slack=644 filler=2160 test files online/2019/8cd79ff5_1ESxx.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  45 ok=  45 slack=1100 filler=2858 test files online/2019/91a2d981_Camera Module.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  45 ok=  45 slack=825 filler=2867 test files online/2019/a3a44709_FrontPanel-Bezel.sldprt
+ok    e8=1 e0=0 shaped= 12 n=  46 ok=  46 slack=610 filler=2692 test files online/2019/d381ebab_bottom_dac.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  45 ok=  45 slack=874 filler=2581 test files online/2019/e8c40c25_psu.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  45 ok=  45 slack=1052 filler=2877 test files online/2019/fb449daa_Gloworm PCB.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  48 ok=  48 slack=892 filler=2743 test files online/2020/14f9214b_11.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  44 ok=  44 slack=854 filler=2557 test files online/2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  36 ok=  36 slack=640 filler=2124 test files online/2020/34fe5ff1_Group_44390.stp.SLDPRT
+ok    e8=1 e0=1 shaped= 13 n=  43 ok=  43 slack=854 filler=3388 test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  46 ok=  46 slack=1023 filler=3504 test files online/2020/72b08e3e_Hip Cable HOlder.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  50 ok=  50 slack=857 filler=2894 test files online/2020/7841a106_6344428.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  46 ok=  46 slack=819 filler=3023 test files online/2020/9494d959_27_20_4.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  46 ok=  46 slack=1167 filler=2935 test files online/2020/b185085c_Handle 3.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  43 ok=  43 slack=608 filler=2586 test files online/2020/b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  35 ok=  35 slack=1096 filler=2744 test files online/2021/60f84235_2022_10_06_17_02_43_0612.stp.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  45 ok=  45 slack=448 filler=2597 test files online/2021/85aabbde_84T Gear.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  45 ok=  45 slack=683 filler=2937 test files online/2021/916d4a0a_36T Gear.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  45 ok=  45 slack=562 filler=2197 test files online/2021/bc3292d7_12T Gear.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  45 ok=  45 slack=1014 filler=3424 test files online/2021/eb0b2a21_60T Gear.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  40 ok=  40 slack=786 filler=2406 test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  45 ok=  45 slack=768 filler=2459 test files online/2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  44 ok=  44 slack=962 filler=2710 test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  43 ok=  43 slack=810 filler=2164 test files online/2022/1ee60868_z轴皮带固定.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  32 ok=  32 slack=558 filler=2080 test files online/2022/24344735_080-1926-000_3.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  41 ok=  41 slack=562 filler=2336 test files online/2022/273a8d53_FG-F1.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  32 ok=  32 slack=1161 filler=2550 test files online/2022/3980555c_RASPBERRY_PI_5+cooler-5.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  44 ok=  44 slack=411 filler=1904 test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  44 ok=  44 slack=676 filler=2924 test files online/2022/40e79d45_Fins.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  32 ok=  32 slack=1080 filler=3024 test files online/2022/47b2b860_DIN_Flex_Converter_pad_161.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  13 ok=  13 slack=571 filler=2959 test files online/2022/5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  47 ok=  47 slack=1029 filler=2561 test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  44 ok=  44 slack=718 filler=2146 test files online/2022/84226163_Fin.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  41 ok=  41 slack=458 filler=3005 test files online/2022/9cc04b03_SO-C1.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  45 ok=  45 slack=1125 filler=3393 test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  40 ok=  40 slack=1014 filler=3258 test files online/2022/a0fc2e29_Vertical Spar.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  32 ok=  32 slack=403 filler=1768 test files online/2022/c0ef9eb3_DIN_Flex_Converter_pad_117.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  32 ok=  32 slack=469 filler=2373 test files online/2022/c72513ca_ASSEMBLY_11.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  13 ok=  13 slack=894 filler=2322 test files online/2022/ceefa2a9_CRP320-05.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  42 ok=  42 slack=840 filler=2508 test files online/2022/d753195d_ServoMount.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  42 ok=  42 slack=988 filler=3130 test files online/2022/db8a97e2_écrou fileté M5.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  42 ok=  42 slack=1028 filler=3167 test files online/2022/dc265ce1_Fin.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  40 ok=  40 slack=953 filler=2152 test files online/2022/dd156283_637Z flanzi bearing.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  13 ok=  13 slack=1017 filler=2861 test files online/2022/f8c2df35_2023_10_16_23_28_17_0357_body1.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  39 ok=  39 slack=537 filler=2269 test files online/2023/03764871_BME280.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  42 ok=  42 slack=1002 filler=2782 test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  40 ok=  40 slack=661 filler=2897 test files online/2023/2f121983_case.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  41 ok=  41 slack=360 filler=2892 test files online/2023/2fd21507_MidplateEM2.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  40 ok=  40 slack=396 filler=2505 test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  45 ok=  45 slack=757 filler=2444 test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  41 ok=  41 slack=627 filler=2071 test files online/2023/41b71219_板材-Guidance安装板.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  40 ok=  40 slack=762 filler=2895 test files online/2023/4803f393_box.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  44 ok=  44 slack=1041 filler=3483 test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  50 ok=  50 slack=537 filler=2825 test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  45 ok=  45 slack=450 filler=2162 test files online/2023/d2f7f9bd_iman.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  42 ok=  42 slack=831 filler=2472 test files online/2023/d77ec77a_TopSheet.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  44 ok=  44 slack=1006 filler=2746 test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  39 ok=  39 slack=490 filler=2463 test files online/2023/ef1d5cfe_DS3231.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  66 ok=  66 slack=578 filler=2874 test files online/2024/03afebf4_Profilringe.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  41 ok=  41 slack=899 filler=2129 test files online/2024/09d353a9_Elbow_Mount2.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  48 ok=  48 slack=718 filler=3058 test files online/2024/1e794aad_6344387.SLDPRT
+ok    e8=2 e0=0 shaped= 10 n=  46 ok=  46 slack=1101 filler=3438 test files online/2024/225c13ed_camholder0deg.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  41 ok=  41 slack=1128 filler=2778 test files online/2024/2300f35c_Thigh Symétrie.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  43 ok=  43 slack=560 filler=2779 test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  44 ok=  44 slack=1113 filler=2737 test files online/2024/37663d8a_Gasket For M12.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  47 ok=  47 slack=1047 filler=3041 test files online/2024/4febfc67_6344149.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  43 ok=  43 slack=552 filler=2497 test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  45 ok=  45 slack=471 filler=2543 test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  43 ok=  43 slack=1044 filler=3038 test files online/2024/871e670c_servo_adapter.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  40 ok=  40 slack=849 filler=3061 test files online/2024/951f2bc1_Boitier.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  46 ok=  46 slack=1085 filler=3283 test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  43 ok=  43 slack=462 filler=2472 test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  43 ok=  43 slack=738 filler=2601 test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  33 ok=  33 slack=1067 filler=3209 test files online/2024/f750218b_612-00002.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  45 ok=  45 slack=871 filler=2244 test files online/2025/05d0b4c3_pin-2-2.SLDPRT
+ok    e8=2 e0=0 shaped= 13 n=  44 ok=  44 slack=576 filler=2088 test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  46 ok=  46 slack=1035 filler=3022 test files online/2025/3e41786b_LB26001-A-04-002_seed.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  43 ok=  43 slack=744 filler=2389 test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  42 ok=  42 slack=393 filler=2748 test files online/2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  45 ok=  45 slack=726 filler=2459 test files online/2025/55c163ac_pin-1-2.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  45 ok=  45 slack=662 filler=2842 test files online/2025/6fd68589_pin-2-1.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  45 ok=  45 slack=593 filler=2110 test files online/2025/822f5572_一级挡块-hhr镂空限位.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  47 ok=  47 slack=964 filler=2742 test files online/2025/8aaecde6_6008内圈下加工件.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  45 ok=  45 slack=1008 filler=2562 test files online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  47 ok=  47 slack=706 filler=2428 test files online/2025/ac760485_存矿小端.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  68 ok=  68 slack=987 filler=3741 test files online/2025/c613782b_Крепёжная-Планка.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  41 ok=  41 slack=1020 filler=2844 test files online/2025/e8f16581_Engine Base.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  44 ok=  44 slack=508 filler=2713 test files online/2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  48 ok=  48 slack=980 filler=2870 test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  36 ok=  36 slack=1036 filler=2587 test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  45 ok=  45 slack=445 filler=2235 test files online/2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  36 ok=  36 slack=1214 filler=3065 test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  44 ok=  44 slack=825 filler=2484 test files online/2026/4d85599e_base-M4.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  45 ok=  45 slack=1084 filler=2844 test files online/2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  36 ok=  36 slack=483 filler=1831 test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  45 ok=  45 slack=1111 filler=2621 test files online/2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT
+ok    e8=1 e0=0 shaped= 12 n=  46 ok=  46 slack=983 filler=2643 test files online/2026/daa6e9e9_CR26-201-08.SLDPRT
+end8 shaped hits = 0 e8=0 e0=0 shaped=  0 n=   - ok=   - slack=- filler=- test files online/not-a-part/10582557_9271K109_Torsion Spring.SLDPRT
+end8 shaped hits = 0 e8=0 e0=0 shaped=  0 n=   - ok=   - slack=- filler=- test files online/not-a-part/34a1cacb_91202A226_Zinc-Plated Steel Split Lock Washer.Sldprt
+end8 shaped hits = 0 e8=0 e0=0 shaped=  0 n=   - ok=   - slack=- filler=- test files online/not-a-part/8ac95686_separadores.SLDPRT
+end8 shaped hits = 0 e8=0 e0=0 shaped=  0 n=   - ok=   - slack=- filler=- test files online/not-a-part/9e494ca4_91169A160_Steel Split Lock Washer.SLDPRT
+end8 shaped hits = 0 e8=0 e0=0 shaped=  0 n=   - ok=   - slack=- filler=- test files online/not-a-part/d7b58324_small_motor.rev1.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  40 ok=  40 slack=396 filler=2772 test files original/Dekor.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  51 ok=  51 slack=742 filler=2530 test files original/Helical Bevel Gear.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  42 ok=  42 slack=1054 filler=2659 test files original/PTC GE8080-8.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  40 ok=  40 slack=501 filler=2543 test files original/Pocket Wheel.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  40 ok=  40 slack=1160 filler=3337 test files original/controlled/C00_cube_10mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  40 ok=  40 slack=1042 filler=2696 test files original/controlled/C01_cube_20mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  39 ok=  39 slack=477 filler=2689 test files original/controlled/C02_cube_translated/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  40 ok=  40 slack=1123 filler=2963 test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  40 ok=  40 slack=720 filler=2621 test files original/controlled/C04_cube_hole_5mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  40 ok=  40 slack=480 filler=2475 test files original/controlled/C05_cube_hole_3mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  40 ok=  40 slack=1176 filler=3081 test files original/controlled/C06_cube_hole_moved/model.SLDPRT
+ok    e8=1 e0=0 shaped= 13 n=  40 ok=  40 slack=385 filler=2397 test files original/controlled/C07_cube_two_holes/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  40 ok=  40 slack=389 filler=2593 test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  40 ok=  40 slack=608 filler=2980 test files original/controlled/C09_cube_chamfer_1mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 10 n=  40 ok=  40 slack=481 filler=2420 test files original/controlled/C10_cube_shell_1mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  40 ok=  40 slack=788 filler=2768 test files original/controlled/C11_cube_hole_4mm/model.SLDPRT
+ok    e8=1 e0=0 shaped= 15 n=  40 ok=  40 slack=556 filler=2121 test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  39 ok=  39 slack=587 filler=2503 test files original/cube.SLDPRT
+ok    e8=1 e0=0 shaped= 11 n=  42 ok=  42 slack=532 filler=2253 test files original/distributor main boss rev a.SLDPRT
+ok    e8=1 e0=0 shaped= 16 n=  46 ok=  46 slack=389 filler=3147 test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT
+ok    e8=1 e0=0 shaped= 14 n=  47 ok=  47 slack=1010 filler=3109 test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT

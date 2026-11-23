@@ -1676,13 +1676,15 @@ Evidence: [2026-11-06_v0.5-EXP098.md](evidence/2026-11-06_v0.5-EXP098.md).
 
 ## EXP-099 — Repeated display face IDs and the odd surface tags
 
-The three surface tags outside 4001 to 4010 (4980815, 16368 and 65536, on 56 faces in 3 parts) are
-misreads. Those display records have no id/tag block, and appearance data sits where the reader
-looked. The three words after the normals are nonzero on all 56 and zero on the 13,533 records
-with a real block. Repeated display IDs are real faces: in 552 of 552 groups the faces sharing an
+The three surface tags outside 4001 to 4010 (4980815, 16368 and 65536) are misreads: those display
+records have no id/tag block. The three words after the scalar arrays are nonzero on exactly the
+records without the block and zero on the 13,533 with one. The blind checks corrected the count:
+994 records in 21 parts, not 56 in 3; the 56 were only those whose misread tag looked odd. Repeated display IDs are real faces: in 552 of 552 groups the faces sharing an
 ID are in different bodies. 3,880 failed joins came from the converter renumbering later
 partition sections, fixed in EXP-104. The converter now refuses metadata on such records
-(a256dba). Measured by a Sonnet agent and partly rechecked. Blind checks: running.
+(a256dba). Blind prove and disprove (2026-11-23): the rule and the repeated IDs hold, the count
+was wrong. They also found 4,622 faces in two other record layouts that the converter can't read
+(see EXP-110).
 
 Evidence: [2026-11-09_v0.5-EXP099.md](evidence/2026-11-09_v0.5-EXP099.md).
 
@@ -1744,7 +1746,9 @@ On cylinder and cone faces, the display vertices more than 1e-9 m off the native
 boundary vertices shared with a neighbouring face. They sit on straight chords of the boundary,
 not on the surface. Every other vertex is within 1e-9 m (max 9.8e-10 m). Controls: C13 (a cone
 alone) has none off; C20 and C21 reproduce the effect. So a display-to-surface check has to leave
-shared boundary vertices out. Measured by a Sonnet agent. Blind checks: running.
+shared boundary vertices out. Blind prove and disprove (2026-11-23): the mechanism holds, the 1e-9
+m bar doesn't. It is below float32 rounding on parts over a few centimetres. At 1e-7 m all 23,700
+off vertices in 44 parts are boundary vertices; 41 aren't on a chord and 27 aren't shared.
 
 Evidence: [2026-11-09_v0.5-EXP105.md](evidence/2026-11-09_v0.5-EXP105.md).
 
@@ -1793,7 +1797,10 @@ Evidence: [2026-11-09_v0.5-EXP109.md](evidence/2026-11-09_v0.5-EXP109.md).
 and +108 are both 1 (2,974 records), +112 to +127 hold a normal cone: a unit vector along the
 face's outward normals and a cosine between 0.708 and 1, never looser than the stored normals but
 often tighter. A file stores cones on every face under about 45 degrees or on none. +100 isn't a
-face property. The exact value of the cosine isn't reproduced. Blind checks: running.
+face property. The exact value of the cosine isn't reproduced. Blind prove and disprove
+(2026-11-23): +92 holds. +128 is 0 in SolidWorks 2025 and 2026 saves, which use another layout,
+as do 190 faces in 3 older files with a 140-byte record. The cone is narrower than the normals on
+most faces. +100's low 16 bits group faces by the feature that made them.
 
 Evidence: [2026-11-09_v0.5-EXP110.md](evidence/2026-11-09_v0.5-EXP110.md).
 
@@ -1817,7 +1824,9 @@ streams in 178 distinct files, all inflate and pass CRC-32, and the scan finds n
 it. The first four bytes are a key from a set of about 1,000 that selects the three signatures;
 162 of 163 keys are `rand() & 0xff` output of the Microsoft C runtime. How the signatures follow
 from the key isn't known. The converter now reads through the directory. Blind prove: holds,
-with the filler size corrected to 85 to 100 bytes. Blind disprove: stopped by the usage limit.
+with the filler size corrected to 85 to 100 bytes. Blind disprove, rerun 2026-11-23: holds on
+178 files, and Python's zipfile and unzip read every file once the disguise is undone. Byte 7 is 4
+in all of them, so the rotation's link to byte 7 is untested.
 
 Evidence: [2026-11-09_v0.5-EXP112.md](evidence/2026-11-09_v0.5-EXP112.md).
 

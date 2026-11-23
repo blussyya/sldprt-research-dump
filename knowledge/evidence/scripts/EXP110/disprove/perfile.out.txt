@@ -1,0 +1,206 @@
+files where some narrow (<44 deg) non-planar faces have a cone and others do not: 0
+
+per file (only files with non-planar faces): lay faces nonPlanar narrow narrowWithCone cones (0,0)nonPlanar wide(>=46)with(0,1)
+  oleB 13 7 0 0 0 7 0  test files online/2007/05187d94_ChainCL_In.SLDPRT
+  oleB 6 3 1 1 1 2 0  test files online/2010/065f38b0_等径四节弯头-4.SLDPRT
+  oleB 7 4 2 2 2 2 0  test files online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT
+  oleB 15 10 1 1 1 9 0  test files online/2011/6ff6c243_通气塞.SLDPRT
+  oleA 14 11 0 0 0 11 0  test files online/2011/e1f38af5_0000380-01.sldprt
+  oleA 532 340 98 0 0 0 174  test files online/2013/82981f2a_head_back.sldprt
+  oleA 116 44 20 0 0 0 18  test files online/2013/92c393f4_camera_support.sldprt
+  C 535 341 99 0 0 0 174  test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt
+  oleA 732 550 144 0 0 0 342  test files online/2013/f666f342_head_face.sldprt
+  oleA 92 28 16 16 16 12 0  test files online/2014/300f9732_Carter2019.SLDPRT
+  oleA 26 16 10 10 10 6 0  test files online/2014/68cd51b6_20190309-0049.SLDPRT
+  A 342 196 63 63 117 79 0  test files online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT
+  A 4 2 0 0 0 0 2  test files online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT
+  A 22 12 4 0 0 0 6  test files online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT
+  A 18 8 2 0 0 0 2  test files online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT
+  A 3 1 0 0 0 1 0  test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT
+  A 18 12 4 0 0 0 4  test files online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT
+  A 24 12 0 0 0 0 4  test files online/2017/afc71d14_Body2.sldprt
+  A 16 6 0 0 2 4 0  test files online/2017/d49566bc_AntennaMount.SLDPRT
+  A 249 89 83 83 83 6 0  test files online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT
+  A 167 88 36 36 53 35 0  test files online/2018/0132519a_102_STEM.SLDPRT
+  A 298 11 2 0 0 0 7  test files online/2018/15567d51_leva1.SLDPRT
+  A 262 63 32 32 48 15 0  test files online/2018/361e7dbb_101_HOUSING.SLDPRT
+  A 118 18 8 8 18 0 0  test files online/2018/ca465363_103_COVER.SLDPRT
+  A 2512 1526 1448 1448 1466 60 0  test files online/2018/d2515121_Ecran_128x32oled.SLDPRT
+  A 30 10 0 0 8 2 0  test files online/2019/07ff8da1_shelf.SLDPRT
+  A 18 10 0 0 4 6 0  test files online/2019/096d0504_MargayMount_WH10.SLDPRT
+  A 267 8 0 0 0 0 4  test files online/2019/28398415_Raspberry Pi 4.SLDPRT
+  A 50 28 0 0 0 0 16  test files online/2019/300d7f07_Bottom Case.SLDPRT
+  A 26 20 0 0 12 8 0  test files online/2019/44afdb7c_back_cushion.SLDPRT
+  A 92 25 11 11 12 13 0  test files online/2019/54b05886_bottom_adc.SLDPRT
+  A 26 8 0 0 0 0 4  test files online/2019/636b653d_MountingBracket.SLDPRT
+  A 62 9 0 0 0 9 0  test files online/2019/7765d286_NSJ8L.SLDPRT
+  A 103 52 36 36 36 16 0  test files online/2019/8cd79ff5_1ESxx.SLDPRT
+  A 19 8 0 0 0 0 4  test files online/2019/91a2d981_Camera Module.SLDPRT
+  A 16 4 0 0 0 0 0  test files online/2019/a3a44709_FrontPanel-Bezel.sldprt
+  A 83 20 8 8 9 11 0  test files online/2019/d381ebab_bottom_dac.SLDPRT
+  A 271 214 8 8 109 105 0  test files online/2019/e8c40c25_psu.SLDPRT
+  A 50 15 0 0 0 0 11  test files online/2019/fb449daa_Gloworm PCB.SLDPRT
+  A 75 22 5 0 0 1 12  test files online/2020/14f9214b_11.SLDPRT
+  A 69 59 0 0 0 0 39  test files online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT
+  B 54 25 17 17 25 0 0  test files online/2020/7841a106_6344428.SLDPRT
+  A 12 6 0 0 0 0 6  test files online/2020/9494d959_27_20_4.SLDPRT
+  A 33 26 0 0 0 0 10  test files online/2020/b185085c_Handle 3.SLDPRT
+  A 671 553 363 363 379 174 0  test files online/2021/85aabbde_84T Gear.SLDPRT
+  A 295 237 209 0 0 0 12  test files online/2021/916d4a0a_36T Gear.SLDPRT
+  A 135 79 59 0 0 0 4  test files online/2021/bc3292d7_12T Gear.SLDPRT
+  A 399 341 309 0 0 0 16  test files online/2021/eb0b2a21_60T Gear.SLDPRT
+  A 109 74 32 0 0 0 42  test files online/2022/073482d3_ReducerBox_1_Reducer.SLDPRT
+  A 103 55 24 0 0 0 17  test files online/2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT
+  A 143 109 60 0 0 0 41  test files online/2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT
+  A 32 2 0 0 0 0 2  test files online/2022/1ee60868_z轴皮带固定.SLDPRT
+  A 76 28 23 0 0 0 5  test files online/2022/273a8d53_FG-F1.SLDPRT
+  A 239 149 58 0 0 0 59  test files online/2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT
+  A 9 5 0 0 0 0 4  test files online/2022/6ccc1814_LB26001-A-04-007.SLDPRT
+  A 93 66 62 0 0 0 4  test files online/2022/9cc04b03_SO-C1.SLDPRT
+  A 37 15 3 0 0 0 8  test files online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT
+  A 11 2 0 0 0 0 2  test files online/2022/a0fc2e29_Vertical Spar.SLDPRT
+  A 90 23 0 0 0 0 20  test files online/2022/d753195d_ServoMount.SLDPRT
+  A 26 18 14 0 0 0 2  test files online/2022/db8a97e2_écrou fileté M5.SLDPRT
+  A 11 8 0 0 0 0 3  test files online/2022/dd156283_637Z flanzi bearing.SLDPRT
+  A 693 283 128 0 0 0 35  test files online/2023/03764871_BME280.SLDPRT
+  A 35 11 1 0 0 0 4  test files online/2023/1759e569_mahatbalam_ex7_beg.SLDPRT
+  A 155 125 34 0 0 0 50  test files online/2023/2f121983_case.SLDPRT
+  A 49 18 0 0 0 0 6  test files online/2023/2fd21507_MidplateEM2.SLDPRT
+  A 99 22 8 0 0 0 3  test files online/2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT
+  A 127 60 0 0 0 0 8  test files online/2023/3edbf014_TEST shortened Dock (Final).SLDPRT
+  A 82 44 10 0 0 0 14  test files online/2023/41b71219_板材-Guidance安装板.SLDPRT
+  A 1390 434 149 0 0 0 93  test files online/2023/4803f393_box.SLDPRT
+  A 37 13 0 0 0 0 13  test files online/2023/9aeafb66_标准件-30mm管夹.SLDPRT
+  A 544 228 112 0 0 0 50  test files online/2023/d0d61cde_官方元件-定位模块.SLDPRT
+  A 6 1 1 1 1 0 0  test files online/2023/d2f7f9bd_iman.SLDPRT
+  A 67 30 0 0 0 0 30  test files online/2023/d77ec77a_TopSheet.SLDPRT
+  A 34 28 0 0 0 0 21  test files online/2023/d8206ed0_J6_Flange_Adapter.SLDPRT
+  A 404 93 64 0 0 0 25  test files online/2023/ef1d5cfe_DS3231.SLDPRT
+  A 7 4 0 0 0 4 0  test files online/2024/03afebf4_Profilringe.SLDPRT
+  A 40 28 0 0 0 0 24  test files online/2024/09d353a9_Elbow_Mount2.SLDPRT
+  B 117 55 31 0 0 0 6  test files online/2024/1e794aad_6344387.SLDPRT
+  A 49 19 2 0 0 0 17  test files online/2024/225c13ed_camholder0deg.SLDPRT
+  A 172 78 23 0 0 0 25  test files online/2024/2300f35c_Thigh Symétrie.SLDPRT
+  A 4 2 0 0 0 0 2  test files online/2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT
+  A 11 5 2 0 0 0 3  test files online/2024/37663d8a_Gasket For M12.SLDPRT
+  B 19 13 1 1 1 12 0  test files online/2024/4febfc67_6344149.SLDPRT
+  A 4 2 0 0 0 0 2  test files online/2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT
+  A 22 12 0 0 0 0 12  test files online/2024/7fa6934e_Aluminum Box Pt 2.SLDPRT
+  A 32 15 0 0 0 0 11  test files online/2024/871e670c_servo_adapter.SLDPRT
+  A 26 3 0 0 0 0 2  test files online/2024/951f2bc1_Boitier.SLDPRT
+  A 961 849 288 288 567 282 0  test files online/2024/a4ecc6f5_PP-2074-08.SLDPRT
+  A 16 7 1 0 0 0 2  test files online/2024/be0e76cf_WP06_screw_1_-94.SLDPRT
+  A 8 2 0 0 0 0 2  test files online/2024/bf11f45c_shear_clip_1_150_-94.SLDPRT
+  A 34 22 4 0 0 0 12  test files online/2025/16f99cd7_装甲板固定（前）.SLDPRT
+  C 18 8 0 0 0 0 8  test files online/2025/3e41786b_LB26001-A-04-002_seed.SLDPRT
+  C 274 154 0 0 98 56 0  test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT
+  C 428 306 216 0 0 0 69  test files online/2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT
+  C 18 12 2 0 0 0 10  test files online/2025/822f5572_一级挡块-hhr镂空限位.SLDPRT
+  C 46 43 16 0 0 0 27  test files online/2025/8aaecde6_6008内圈下加工件.SLDPRT
+  A 14 9 1 0 0 0 6  test files online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT
+  C 38 14 6 0 0 0 8  test files online/2025/ac760485_存矿小端.SLDPRT
+  C 13 9 0 0 0 0 9  test files online/2025/c613782b_Крепёжная-Планка.SLDPRT
+  C 10 4 0 0 4 0 0  test files online/2025/e8f16581_Engine Base.SLDPRT
+  C 33 20 16 0 0 0 4  test files online/2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT
+  A 17 2 2 2 2 0 0  test files online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT
+  C 54 15 1 0 0 0 14  test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT
+  C 1117 682 448 0 0 0 159  test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT
+  C 12 3 0 0 0 0 3  test files online/2026/4d85599e_base-M4.SLDPRT
+  C 88 22 0 0 0 0 22  test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT
+  C 296 233 0 0 0 0 189  test files online/2026/daa6e9e9_CR26-201-08.SLDPRT
+  A 7 1 0 0 1 0 0  test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT
+  A 7 1 0 0 0 1 0  test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT
+  A 7 1 0 0 0 1 0  test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT
+  A 7 1 0 0 0 1 0  test files new/SW2022/C06_cube_hole_moved/model.SLDPRT
+  A 8 2 0 0 0 2 0  test files new/SW2022/C07_cube_two_holes/model.SLDPRT
+  A 8 2 0 0 0 2 0  test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT
+  A 7 1 0 0 0 1 0  test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT
+  A 7 1 0 0 1 0 0  test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT
+  A 2 1 0 0 0 1 0  test files new/SW2022/C13_cone/model.SLDPRT
+  A 1 1 0 0 0 1 0  test files new/SW2022/C14_sphere/model.SLDPRT
+  A 1 1 0 0 0 0 1  test files new/SW2022/C15_torus/model.SLDPRT
+  A 6 4 4 0 0 0 0  test files new/SW2022/C16_loft_spline/model.SLDPRT
+  A 3 1 0 0 0 1 0  test files new/SW2022/C17_torus_quarter/model.SLDPRT
+  A 4 1 0 0 0 1 0  test files new/SW2022/C19_half_cylinder/model.SLDPRT
+  A 8 4 0 0 0 4 0  test files new/SW2022/C20_cylinders_crossed/model.SLDPRT
+  A 4 2 0 0 0 2 0  test files new/SW2022/C21_cylinder_fillet/model.SLDPRT
+  A 8 5 0 0 0 0 5  test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT
+  oleA 7 1 0 0 0 0 0  test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT
+  oleA 7 1 0 0 0 0 1  test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT
+  oleA 7 1 0 0 0 0 1  test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT
+  oleA 7 1 0 0 0 0 1  test files new/SW2011/C06_cube_hole_moved/model.SLDPRT
+  oleA 8 2 0 0 0 0 2  test files new/SW2011/C07_cube_two_holes/model.SLDPRT
+  oleA 8 2 0 0 0 0 2  test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT
+  oleA 7 1 0 0 0 0 1  test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT
+  oleA 7 1 0 0 0 0 0  test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT
+  oleA 2 1 0 0 0 0 1  test files new/SW2011/C13_cone/model.SLDPRT
+  oleA 1 1 0 0 0 0 1  test files new/SW2011/C14_sphere/model.SLDPRT
+  oleA 1 1 0 0 0 0 1  test files new/SW2011/C15_torus/model.SLDPRT
+  oleA 6 4 4 0 0 0 0  test files new/SW2011/C16_loft_spline/model.SLDPRT
+  oleA 3 1 0 0 0 0 1  test files new/SW2011/C17_torus_quarter/model.SLDPRT
+  oleA 4 1 0 0 0 0 1  test files new/SW2011/C19_half_cylinder/model.SLDPRT
+  oleA 8 4 0 0 0 0 4  test files new/SW2011/C20_cylinders_crossed/model.SLDPRT
+  oleA 4 2 0 0 0 0 2  test files new/SW2011/C21_cylinder_fillet/model.SLDPRT
+  oleA 2 1 0 0 0 0 1  test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT
+  oleA 7 1 0 0 0 0 1  test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT
+  A 375 327 207 0 0 0 110  test files original/Dekor.SLDPRT
+  A 113 53 45 45 45 8 0  test files original/Helical Bevel Gear.SLDPRT
+  A 126 12 0 0 0 12 0  test files original/PTC GE8080-8.SLDPRT
+  A 400 249 88 88 200 49 0  test files original/Pocket Wheel.SLDPRT
+  A 7 1 0 0 0 0 0  test files original/controlled/C03_cube_fillet_1mm/model.SLDPRT
+  A 7 1 0 0 0 0 1  test files original/controlled/C04_cube_hole_5mm/model.SLDPRT
+  A 7 1 0 0 0 0 1  test files original/controlled/C05_cube_hole_3mm/model.SLDPRT
+  A 7 1 0 0 0 0 1  test files original/controlled/C06_cube_hole_moved/model.SLDPRT
+  A 8 2 0 0 0 0 2  test files original/controlled/C07_cube_two_holes/model.SLDPRT
+  A 8 2 0 0 0 0 2  test files original/controlled/C08_cube_second_hole_modified/model.SLDPRT
+  A 7 1 0 0 0 0 1  test files original/controlled/C11_cube_hole_4mm/model.SLDPRT
+  A 7 1 0 0 0 0 0  test files original/controlled/C12_cube_fillet_1mm_edge2/model.SLDPRT
+  A 51 37 6 6 6 31 0  test files original/distributor main boss rev a.SLDPRT
+  A 39 24 0 0 0 0 8  test files original/usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT
+  A 68 32 0 0 0 0 20  test files original/usb hub case (ultimate test)/USB hub case TOP.SLDPRT
+
+no-cone files that still mark some non-planar faces (0,0) AND have narrow non-planar faces:
+  test files online/2020/14f9214b_11.SLDPRT: narrow 5, (0,0) 1, wide with (0,1) 12
+
+controlled models and small files, face by face (non-planar):
+  test files online/2007/05187d94_ChainCL_In.SLDPRT: #1 tnull 0,0 mesh 172.50 | #3 tnull 0,0 mesh 175.00 | #5 tnull 0,0 mesh 172.50 | #7 tnull 0,0 mesh 175.00 | #9 tnull 0,0 mesh 172.50 | #11 tnull 0,0 mesh 45.00 | #12 tnull 0,0 mesh 45.00
+  test files online/2011/e1f38af5_0000380-01.sldprt: #0 tnull 0,0 mesh 178.71 | #2 tnull 0,0 mesh 177.05 | #3 tnull 0,0 mesh 46.12 | #5 tnull 0,0 mesh 90.03 | #6 tnull 0,0 mesh 90.02 | #7 tnull 0,0 mesh 90.02 | #8 tnull 0,0 mesh 58.00 | #9 tnull 0,0 mesh 178.72 | #10 tnull 0,0 mesh 45.00 | #12 tnull 0,0 mesh 177.43 | #13 tnull 0,0 mesh 45.00
+  test files online/2016/629adcec_cut-z351-d1xl1.SLDPRT: #0 tnull 0,0 mesh 176.09
+  test files online/2019/7765d286_NSJ8L.SLDPRT: #6 tnull 0,0 mesh 80.00 | #8 tnull 0,0 mesh 90.02 | #10 tnull 0,0 mesh 45.00 | #11 tnull 0,0 mesh 172.50 | #33 tnull 0,0 mesh 80.00 | #35 tnull 0,0 mesh 90.02 | #37 tnull 0,0 mesh 45.00 | #38 tnull 0,0 mesh 180.00 | #60 tnull 0,0 mesh 172.50
+  test files online/2020/14f9214b_11.SLDPRT: #0 t4002 0,0 mesh 89.76 | #7 t4002 0,1 mesh 176.62 | #10 t4002 0,1 mesh 176.10 | #13 t4002 0,1 mesh 90.03 | #17 t4002 0,1 mesh 172.50 | #18 t4003 0,1 mesh 31.00 | #19 tnull 0,1 mesh 172.50 | #25 t4002 0,1 mesh 9.80 | #30 t4002 0,1 mesh 90.03 | #34 t4002 0,1 mesh 90.03 | #41 t4002 0,1 mesh 90.03 | #45 t4002 0,1 mesh 9.80 | #51 t4002 0,1 mesh 176.00 | #53 t4002 0,1 mesh 23.56
+  test files online/2024/03afebf4_Profilringe.SLDPRT: #0 t4002 0,0 mesh 177.05 | #2 t4003 0,0 mesh 87.72 | #4 t4002 0,0 mesh 177.53 | #5 t4003 0,0 mesh 45.01
+  test files new/SW2022/C03_cube_fillet_1mm/model.SLDPRT: #6 t4002 1,1 mesh 45.00 s 0.760912 (40.455 deg)
+  test files new/SW2022/C04_cube_hole_5mm/model.SLDPRT: #6 t4002 0,0 mesh 174.71
+  test files new/SW2022/C05_cube_hole_3mm/model.SLDPRT: #6 t4002 0,0 mesh 173.33
+  test files new/SW2022/C06_cube_hole_moved/model.SLDPRT: #6 t4002 0,0 mesh 174.71
+  test files new/SW2022/C07_cube_two_holes/model.SLDPRT: #6 t4002 0,0 mesh 174.71 | #7 t4002 0,0 mesh 174.71
+  test files new/SW2022/C08_cube_second_hole_modified/model.SLDPRT: #6 t4002 0,0 mesh 174.71 | #7 t4002 0,0 mesh 173.33
+  test files new/SW2022/C11_cube_hole_4mm/model.SLDPRT: #6 t4002 0,0 mesh 174.19
+  test files new/SW2022/C12_cube_fillet_1mm_edge2/model.SLDPRT: #6 t4002 1,1 mesh 45.00 s 0.760912 (40.455 deg)
+  test files new/SW2022/C13_cone/model.SLDPRT: #0 t4003 0,0 mesh 63.43
+  test files new/SW2022/C14_sphere/model.SLDPRT: #0 t4004 0,0 mesh 176.35
+  test files new/SW2022/C15_torus/model.SLDPRT: #0 t4005 0,1 mesh 175.50
+  test files new/SW2022/C16_loft_spline/model.SLDPRT: #2 t4006 0,1 mesh 42.53 | #3 t4006 0,1 mesh 42.53 | #4 t4006 0,1 mesh 42.53 | #5 t4006 0,1 mesh 42.53
+  test files new/SW2022/C17_torus_quarter/model.SLDPRT: #0 t4005 0,0 mesh 135.01
+  test files new/SW2022/C19_half_cylinder/model.SLDPRT: #0 t4002 0,0 mesh 90.03
+  test files new/SW2022/C20_cylinders_crossed/model.SLDPRT: #0 t4002 0,0 mesh 177.57 | #3 t4002 0,0 mesh 177.57 | #5 t4002 0,0 mesh 180.00 | #6 t4002 0,0 mesh 180.00
+  test files new/SW2022/C21_cylinder_fillet/model.SLDPRT: #0 t4002 0,0 mesh 177.35 | #3 t4005 0,0 mesh 90.03
+  test files new/SW2022/holefillets1-2022-neetn33t.SLDPRT: #0 t4002 0,1 mesh 177.60 | #3 t4002 0,1 mesh 180.00 | #5 t4002 0,1 mesh 180.00 | #6 t4005 0,1 mesh 90.02 | #7 t4005 0,1 mesh 90.03
+  test files new/SW2011/C03_cube_fillet_1mm/model.SLDPRT: #6 tnull 0,1 mesh 45.00
+  test files new/SW2011/C04_cube_hole_5mm/model.SLDPRT: #6 tnull 0,1 mesh 174.71
+  test files new/SW2011/C05_cube_hole_3mm/model.SLDPRT: #6 tnull 0,1 mesh 173.33
+  test files new/SW2011/C06_cube_hole_moved/model.SLDPRT: #6 tnull 0,1 mesh 174.71
+  test files new/SW2011/C07_cube_two_holes/model.SLDPRT: #6 tnull 0,1 mesh 174.71 | #7 tnull 0,1 mesh 174.71
+  test files new/SW2011/C08_cube_second_hole_modified/model.SLDPRT: #6 tnull 0,1 mesh 174.71 | #7 tnull 0,1 mesh 173.33
+  test files new/SW2011/C11_cube_hole_4mm/model.SLDPRT: #6 tnull 0,1 mesh 174.19
+  test files new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT: #6 tnull 0,1 mesh 45.00
+  test files new/SW2011/C13_cone/model.SLDPRT: #0 tnull 0,1 mesh 63.43
+  test files new/SW2011/C14_sphere/model.SLDPRT: #0 tnull 0,1 mesh 176.31
+  test files new/SW2011/C15_torus/model.SLDPRT: #0 tnull 0,1 mesh 174.92
+  test files new/SW2011/C16_loft_spline/model.SLDPRT: #2 tnull 0,1 mesh 43.82 | #3 tnull 0,1 mesh 43.82 | #4 tnull 0,1 mesh 43.82 | #5 tnull 0,1 mesh 43.82
+  test files new/SW2011/C17_torus_quarter/model.SLDPRT: #0 tnull 0,1 mesh 176.86
+  test files new/SW2011/C19_half_cylinder/model.SLDPRT: #0 tnull 0,1 mesh 90.03
+  test files new/SW2011/C20_cylinders_crossed/model.SLDPRT: #0 tnull 0,1 mesh 180.00 | #3 tnull 0,1 mesh 179.88 | #5 tnull 0,1 mesh 176.35 | #6 tnull 0,1 mesh 176.35
+  test files new/SW2011/C21_cylinder_fillet/model.SLDPRT: #0 tnull 0,1 mesh 177.35 | #3 tnull 0,1 mesh 90.03
+  test files new/SW2011/C25_cone_sw2011_native/model.SLDPRT: #0 tnull 0,1 mesh 63.43
+  test files new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT: #6 tnull 0,1 mesh 174.71

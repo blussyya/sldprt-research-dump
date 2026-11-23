@@ -1,0 +1,11 @@
+C0_unmodified          verdict=ok                           clean (as expected)
+C1_append_local        verdict=ok                           header scan caught: True; raw scan caught: True; directory walk still ok: True
+C1b_append_loose       verdict=ok                           header scan caught: True; raw scan caught: False (not expected: stored data is not deflate); directory walk still ok: True
+C1c_local_in_filler    verdict=ok                           header scan caught: True; raw scan caught: True; directory walk still ok: True
+C2_raw_in_filler       verdict=ok                           raw scan caught: True; header scan (should not, no header): False
+C3_flip_data           verdict=FAIL                         walk flags bad entry: True -> [{'i': 4, 'rawname': '34f6e64756e64737f234f6e6669676d203', 'err': None, 'inflate_end': True, 'inflate_err': None, 'unused': 0, 'size_ok': False, 'crc_ok': False, 'cen_loc_mismatch': []}]
+C4_flip_cen_crc        verdict=FAIL                         walk flags bad entry: True -> [{'i': 2, 'rawname': '34f6e64756e64737f234d4762784462723', 'err': None, 'inflate_end': True, 'inflate_err': None, 'unused': 0, 'size_ok': True, 'crc_ok': False, 'cen_loc_mismatch': ['crc cen=3534701149 loc=3534701148']}]
+C5_dup_central         verdict=FAIL                         duplicate name flagged: True; order break flagged: True
+C6_base0_offsets       verdict=end8 shaped hits = 0         base-8 rule finds nothing: True; base-0 rule hits: [49811]
+C7_second_end          verdict=end8 shaped hits = 2         two shaped end records pass: [49811, 50108]
+C8_hidden_cen          verdict=FAIL                         walker lists it: n=41 ok=41; header scan calls it outside: False; order break flagged: True

@@ -1,0 +1,116 @@
+faces with bounds record 18392 with id/tag block 13123 without 5269
+NO-TAG faces (excluded below): u92 {"0":2054,"1":3025,"other":190} u128 {"0":4217,"1":995,"other":57} metaErr {"Unexpected array header at N":4275,"Metadata has no id block (reserved words N,N,N)":994}
+files modern 147 ole skipped 14 errors 5 brep-join-failed files 0 faces with bounds 18392 faces without 132B bounds 0
+ errors: [
+  "exports-SW2026/82981f2a_head_back-2026.sldprt: Cannot read properties of null (reading '0')",
+  "2018/0132519a_102_STEM.SLDPRT: Cannot read properties of null (reading '0')",
+  "2022/273a8d53_FG-F1.SLDPRT: Cannot read properties of null (reading '0')",
+  "2023/2f121983_case.SLDPRT: Cannot read properties of null (reading '0')",
+  "2024/225c13ed_camholder0deg.SLDPRT: Cannot read properties of null (reading '0')"
+]
+join how: {"id":11089,"geometry":1555,"type":337,"ambiguous":10,"none":132}
+
+== PART 1 u92 vs plane
+{
+  'cylinder u92=0': 4717,
+  'plane u92=1': 6149,
+  'cone u92=0': 464,
+  'swept u92=0': 401,
+  'torus u92=0': 189,
+  'blend u92=0': 41,
+  'tag:plane u92=1': 45,
+  'sphere u92=0': 49,
+  'spun u92=0': 290,
+  'bspline u92=0': 681,
+  'tag:cylinder u92=0': 64,
+  'tag:bspline u92=0': 1,
+  'tag:torus u92=0': 29,
+  'tag:cone u92=0': 3
+}
+joined faces 12981 violations (native type) 0
+all tagged faces, violations by display tag 0 of 13123
+u92 values (tagged faces) { '0': 6929, '1': 6194 }
+
+== PART 2 u128
+tagged faces { '1': 13123 }
+tagged faces with u128!=1: 0 []
+
+== PART 3
+u104/u108 combos {
+  'u104=1,u108=1 nonplane': 2930,
+  'u104=0,u108=1 plane': 6194,
+  'u104=0,u108=0 nonplane': 798,
+  'u104=0,u108=1 nonplane': 3201
+}
+faces with both=1: 2930 types {"cylinder":2384,"cone":113,"swept":1,"sphere":5,"torus":20,"blend":1,"bspline":242,"spun":164}
+finite floats 2930 nonfinite 0
+|v|-1 max dev 4.08063405288317e-8 bar 2e-6; over: 0
+s min 0.7083661556243896 1/sqrt2= 0.7071067811865476  below 1/sqrt2-1e-6: 0 ; s>1+1e-6: 0
+display normals: s - cos(maxAngle(n,v)): min -2.971486656733191e-8 (claim needs >= -2e-6) violations 0 of 2930
+CONTAINMENT (cone holds all display normals needs s <= cos(maxAngle)): violations 2188 of 2930  worst excess (deg) stored half-angle narrower than normals reach: 8.467327874054966
+  tightness: s-minCos max 0.1109907189190269  faces where s-minCos<1e-5 (tight): 855  >1e-3: 1408
+analytic (native surface x sense) normals: s - cos(maxAngle(n,v)): min -5.972897192396687e-7 violations (<-1e-4) 0 of 2522
+display normals vs analytic outward*sense: min dot 0.4694715654844943  faces below 0.999: 4
+direction: v . analytic outward normal, min over vertices, min over faces 0.6021834020264444  faces with a vertex having v.n<0: 0
+  reversed faces with cone 698  min 0.6241079684874616  same-sense faces 1824  min 0.6021834020264444
+   cylinder-rev n 659 min cos(v,n) 0.62411
+   cone-rev n 37 min cos(v,n) 0.69692
+   cylinder n 1725 min cos(v,n) 0.61634
+   sphere n 5 min cos(v,n) 0.60218
+   torus-rev n 2 min cos(v,n) 0.64037
+   torus n 18 min cos(v,n) 0.68202
+   cone n 76 min cos(v,n) 0.91688
+  with -v instead: faces where -v fits the analytic normals (min cos>0): 0
+s vs enclosing cone estimate (display normals): s - estMinCos min -0.07935476158479216 max 0.07976245649383429
+
+== PART 4 per-file switch
+file status (candidate = est. half-angle <45deg, from display normals): { all: 16, none: 25, 'n/a-no-candidates': 49 }
+planes with cone fields (u104=u108=1): 0
+MIXED files:
+files with cone on some face and strict (<40deg) candidates without:
+files with no cones but strict candidates (<40deg): 25  files with cones: 16
+half-angle histogram (est from display normals) by presence: {
+  '0-10 cone': 1203,
+  '0-10 none': 491,
+  '10-20 cone': 657,
+  '10-20 none': 340,
+  '20-30 cone': 152,
+  '20-30 none': 320,
+  '30-40 cone': 233,
+  '30-40 none': 352,
+  '40-50 cone': 684,
+  '40-50 none': 934,
+  '50-60 cone': 1,
+  '50-60 none': 275,
+  '60-70 none': 23,
+  '70-80 none': 70,
+  '80-90 none': 95,
+  '90-100 none': 1081,
+  'NaN-NaN none': 18
+}
+faces with cone but est half-angle>=45: 424 [
+  '0132519a_102_STEM.SLDPRT #34 est=45.0 s=40.45537811657232',
+  '0132519a_102_STEM.SLDPRT #35 est=45.0 s=40.45537811657232',
+  '0132519a_102_STEM.SLDPRT #36 est=45.0 s=40.45537811657232',
+  '0132519a_102_STEM.SLDPRT #37 est=45.0 s=40.45537811657232',
+  '361e7dbb_101_HOUSING.SLDPRT #26 est=45.0 s=40.45537811657232'
+]
+
+== PART 5 u100
+distinct values 7750 of 13123
+files with repeated u100 within file: 9 of 90
+  cylinder distinct 1922
+  plane distinct 4557
+  cone distinct 278
+  swept distinct 397
+  torus distinct 189
+  blend distinct 41
+  tag:plane distinct 36
+  sphere distinct 49
+  spun distinct 1
+  bspline distinct 194
+  tag:cylinder distinct 64
+  tag:bspline distinct 1
+  tag:torus distinct 29
+  tag:cone distinct 3
+u100 low 3 bits histogram [1089,1285,1134,1157,513,601,627,6717]  u100 ==0: 0

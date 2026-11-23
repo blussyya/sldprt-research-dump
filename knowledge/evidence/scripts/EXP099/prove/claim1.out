@@ -1,0 +1,75 @@
+{
+ "C": {
+  "recs": 13255,
+  "zero": 12261,
+  "zero_valid": 12261,
+  "zero_invalid": 0,
+  "nz": 994,
+  "nz_valid": 0,
+  "nz_invalid": 994,
+  "err": 4629
+ },
+ "shift": {
+  "1": {
+   "tested": 12261,
+   "valid": 0,
+   "rate": 0
+  },
+  "2": {
+   "tested": 12261,
+   "valid": 0,
+   "rate": 0
+  },
+  "4": {
+   "tested": 12261,
+   "valid": 0,
+   "rate": 0
+  },
+  "8": {
+   "tested": 12261,
+   "valid": 0,
+   "rate": 0
+  },
+  "12": {
+   "tested": 12261,
+   "valid": 0,
+   "rate": 0
+  },
+  "28": {
+   "tested": 12261,
+   "valid": 0,
+   "rate": 0
+  },
+  "32": {
+   "tested": 12261,
+   "valid": 0,
+   "rate": 0
+  }
+ },
+ "nParts": 21,
+ "nzRecordsInNamed3": 410
+}
+0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT | 342 | 342 | 0
+1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT | 4 | 4 | 0
+118a3cb0_cut-z18-b1xh1xl1.SLDPRT | 22 | 22 | 0
+289756ce_cut-z071-b1-l1-l2-typ.SLDPRT | 18 | 18 | 0
+629adcec_cut-z351-d1xl1.SLDPRT | 3 | 3 | 0
+70477058_mt-cut-z085-l1xb1-typ.SLDPRT | 18 | 18 | 0
+51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT | 8 | 8 | 0
+516a7dc5_Body1.sldprt | 8 | 8 | 0
+afc71d14_Body2.sldprt | 24 | 24 | 0
+d49566bc_AntennaMount.SLDPRT | 16 | 16 | 0
+d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT | 249 | 249 | 0
+eefa906d_plancher Dalle 2020.SLDPRT | 6 | 6 | 0
+636b653d_MountingBracket.SLDPRT | 26 | 26 | 0
+7765d286_NSJ8L.SLDPRT | 62 | 62 | 0
+14f9214b_11.SLDPRT | 2 | 75 | 0
+320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT | 42 | 42 | 0
+0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT | 103 | 103 | 0
+a0ab30c8_LB26001-A-04-022.SLDPRT | 4 | 37 | 0
+d2f7f9bd_iman.SLDPRT | 6 | 6 | 0
+8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT | 14 | 14 | 0
+f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT | 17 | 17 | 0
+0739c559 records 342 zero 0 nz 342 hiddenValidBlockFoundInTail 0 sf {"0":299,"1":43}
+eefa906d records 6 zero 0 nz 6 hiddenValidBlockFoundInTail 0 sf {"0":6}
+7765d286 records 62 zero 0 nz 62 hiddenValidBlockFoundInTail 0 sf {"0":62}

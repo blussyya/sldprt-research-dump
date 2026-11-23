@@ -1,0 +1,2 @@
+csize of empty (usize 0) entries: {2: 521}
+non-empty entries with csize <= 90 (below the raw-scan chance ceiling): 1722 of 7895

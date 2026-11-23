@@ -1,0 +1,4 @@
+random bytes: 8388608 hits(out>=1): 34349 per byte: 0.00409
+non-stored hits: 34334  with in>=32: 402  with out>=64: 2108
+largest input consumed by a non-stored hit: 90  largest output: 1084
+single stored-block hits: 15

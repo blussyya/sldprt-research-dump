@@ -1,0 +1,10 @@
+C03_cube_fillet_1mm face 176 tag 4002 a104 1 a108 1 s 0.7609115242958069 (40.4554 deg) v 0.7204928,0.6934624,0.0000000
+  axis from normals 0.000000,0.000000,1.000000; |v . axis| 0.00e+0
+  vertex-normal angles from v about the axis (deg): -43.9048 -28.9048 -13.9048 1.0952 16.0952 31.0952 46.0952
+  facet-normal angles from v (deg): -36.4048 -21.4049 -6.405 8.5954 23.5952 38.5952
+  largest vertex-normal angle 46.0952 deg -> cos 0.693462; largest facet-normal angle 38.5952 deg -> cos 0.781573; stored s 0.760912
+C12_cube_fillet_1mm_edge2 face 176 tag 4002 a104 1 a108 1 s 0.7609115242958069 (40.4554 deg) v -0.7204928,-0.6934624,0.0000000
+  axis from normals 0.000000,0.000000,1.000000; |v . axis| 0.00e+0
+  vertex-normal angles from v about the axis (deg): -43.9048 -28.9048 -13.9048 1.0952 16.0952 31.0952 46.0952
+  facet-normal angles from v (deg): -36.4048 -21.4048 -6.4048 8.5952 23.5952 38.5952
+  largest vertex-normal angle 46.0952 deg -> cos 0.693462; largest facet-normal angle 38.5952 deg -> cos 0.781573; stored s 0.760912

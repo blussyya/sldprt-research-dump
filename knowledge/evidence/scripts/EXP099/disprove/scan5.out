@@ -1,0 +1,3 @@
+good records 13533 offsets(rel to words) of any 4001-4010 u32: 40:13533 120:11 128:11 136:9 12:7 182:4 290:3 260:2
+bad records 994 offsets: 2632:6 38:2
+bad records with NO 4001-4010 u32 anywhere after words: 986 {"0739c559_[HEAD-COVR-":340,"1214a0ff_[ARM-A-V1-C":4,"118a3cb0_cut-z18-b1x":22,"289756ce_cut-z071-b1":18,"629adcec_cut-z351-d1":3,"70477058_mt-cut-z085":18,"51065319_Mirror (opt":8,"516a7dc5_Body1.sldpr":8,"afc71d14_Body2.sldpr":24,"d49566bc_AntennaMoun":16,"d799e9a3_90751A110_1":249,"eefa906d_plancher Da":6,"636b653d_MountingBra":26,"7765d286_NSJ8L.SLDPR":62,"320de1b5_SPEC-PC-MB-":42,"0d68d32d_6208K696_Cl":103,"d2f7f9bd_iman.SLDPRT":6,"8afc9212_[HEAD-A-B-1":14,"f6facc43_[HEAD-A-B-0":17}

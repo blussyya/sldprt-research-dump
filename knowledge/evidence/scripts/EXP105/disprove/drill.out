@@ -1,0 +1,98 @@
+## 2f121983_case.SLDPRT
+ face 1 cylinder rawId 482 r 1.79e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 5.94e-5 deg 2 native id
+ face 1 cylinder rawId 482 r 1.18e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 1.22e-5 deg 2 native id
+ face 1 cylinder rawId 482 r 2.84e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 3.86e-5 deg 2 native id
+ face 1 cylinder rawId 482 r 2.47e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 5.33e-6 deg 2 native id
+ face 2 cylinder rawId 262 r 1.19e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 2.68e-5 deg 2 native id
+ face 2 cylinder rawId 262 r 1.19e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 3.87e-5 deg 2 native id
+ face 2 cylinder rawId 262 r 2.85e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 1.28e-5 deg 2 native id
+ face 2 cylinder rawId 262 r 2.85e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 1.28e-5 deg 2 native id
+## 03764871_BME280.SLDPRT
+ face 676 cylinder rawId 183 r 3.06e-7 shared false nearestOtherFaceVertex 6.08e-9 chordDist 8.71e-11 deg 2 native id
+ face 676 cylinder rawId 183 r 3.22e-7 shared false nearestOtherFaceVertex 3.27e-9 chordDist 3.75e-11 deg 2 native id
+ face 676 cylinder rawId 183 r 3.06e-7 shared false nearestOtherFaceVertex 6.08e-9 chordDist 8.71e-11 deg 2 native id
+ face 676 cylinder rawId 183 r 2.53e-7 shared false nearestOtherFaceVertex 7.75e-9 chordDist 7.42e-11 deg 2 native id
+ face 678 cylinder rawId 159 r 3.32e-7 shared false nearestOtherFaceVertex 3.64e-9 chordDist 1.69e-11 deg 2 native id
+ face 678 cylinder rawId 159 r 3.07e-7 shared false nearestOtherFaceVertex 4.55e-9 chordDist 6.19e-11 deg 2 native id
+ face 678 cylinder rawId 159 r 3.07e-7 shared false nearestOtherFaceVertex 4.55e-9 chordDist 6.19e-11 deg 2 native id
+ face 678 cylinder rawId 159 r 3.32e-7 shared false nearestOtherFaceVertex 3.64e-9 chordDist 1.69e-11 deg 2 native id
+ face 680 cylinder rawId 135 r 2.52e-7 shared false nearestOtherFaceVertex 5.46e-9 chordDist 1.83e-10 deg 2 native id
+ face 680 cylinder rawId 135 r 2.52e-7 shared false nearestOtherFaceVertex 5.46e-9 chordDist 1.83e-10 deg 2 native id
+ face 680 cylinder rawId 135 r 3.39e-7 shared false nearestOtherFaceVertex 4.45e-9 chordDist 7.95e-11 deg 2 native id
+ face 680 cylinder rawId 135 r 3.23e-7 shared false nearestOtherFaceVertex 3.76e-9 chordDist 7.41e-12 deg 2 native id
+ face 682 cylinder rawId 111 r 3.07e-7 shared false nearestOtherFaceVertex 6.87e-9 chordDist 1.36e-10 deg 2 native id
+ face 682 cylinder rawId 111 r 3.31e-7 shared false nearestOtherFaceVertex 9.50e-9 chordDist 2.06e-10 deg 2 native id
+ face 682 cylinder rawId 111 r 3.07e-7 shared false nearestOtherFaceVertex 6.87e-9 chordDist 1.36e-10 deg 2 native id
+ face 682 cylinder rawId 111 r 2.97e-7 shared false nearestOtherFaceVertex 9.75e-9 chordDist 1.21e-10 deg 2 native id
+ face 683 cylinder rawId 94 r 3.35e-7 shared false nearestOtherFaceVertex 6.56e-9 chordDist 3.08e-11 deg 2 native id
+ face 683 cylinder rawId 94 r 3.06e-7 shared false nearestOtherFaceVertex 6.87e-9 chordDist 8.27e-11 deg 2 native id
+ face 683 cylinder rawId 94 r 3.14e-7 shared false nearestOtherFaceVertex 7.95e-6 chordDist 4.07e-10 deg 2 native id
+ face 683 cylinder rawId 94 r 3.30e-7 shared false nearestOtherFaceVertex 9.50e-9 chordDist 1.14e-10 deg 2 native id
+ face 685 cylinder rawId 70 r 3.38e-7 shared false nearestOtherFaceVertex 4.45e-9 chordDist 1.28e-10 deg 2 native id
+ face 685 cylinder rawId 70 r 3.13e-7 shared false nearestOtherFaceVertex 7.94e-6 chordDist 8.13e-11 deg 2 native id
+ face 685 cylinder rawId 70 r 3.12e-7 shared false nearestOtherFaceVertex 2.02e-5 chordDist 1.04e-10 deg 2 native id
+ face 685 cylinder rawId 70 r 2.51e-7 shared false nearestOtherFaceVertex 5.46e-9 chordDist 1.16e-10 deg 2 native id
+ face 688 cylinder rawId 39 r 3.46e-7 shared false nearestOtherFaceVertex 7.97e-6 chordDist 1.36e-10 deg 2 native id
+ face 688 cylinder rawId 39 r 3.46e-7 shared false nearestOtherFaceVertex 7.97e-6 chordDist 1.36e-10 deg 2 native id
+ face 688 cylinder rawId 39 r 3.50e-7 shared false nearestOtherFaceVertex 2.02e-5 chordDist 1.66e-11 deg 2 native id
+ face 688 cylinder rawId 39 r 3.50e-7 shared false nearestOtherFaceVertex 3.21e-5 chordDist 3.64e-11 deg 2 native id
+ face 690 cylinder rawId 15 r 3.38e-7 shared false nearestOtherFaceVertex 6.80e-9 chordDist 1.93e-10 deg 2 native geometry
+ face 690 cylinder rawId 15 r 3.06e-7 shared false nearestOtherFaceVertex 6.08e-9 chordDist 1.13e-10 deg 2 native geometry
+ face 690 cylinder rawId 15 r 3.12e-7 shared false nearestOtherFaceVertex 7.92e-6 chordDist 2.55e-11 deg 2 native geometry
+ face 690 cylinder rawId 15 r 3.19e-7 shared false nearestOtherFaceVertex 3.27e-9 chordDist 3.64e-11 deg 2 native geometry
+## d0d61cde_官方元件-定位模块.SLDPRT
+ face 32 cylinder rawId 328 r 1.31e-7 shared false nearestOtherFaceVertex 9.31e-10 chordDist 9.02e-10 deg 2 native id
+ face 32 cylinder rawId 328 r 1.31e-7 shared false nearestOtherFaceVertex 9.31e-10 chordDist 9.02e-10 deg 2 native id
+ face 43 cylinder rawId 444 r 1.33e-7 shared false nearestOtherFaceVertex 9.31e-10 chordDist 7.37e-10 deg 2 native id
+ face 43 cylinder rawId 444 r 1.33e-7 shared false nearestOtherFaceVertex 9.31e-10 chordDist 7.37e-10 deg 2 native id
+ face 128 cylinder rawId 1063 r 1.89e-7 shared false nearestOtherFaceVertex 9.31e-10 chordDist 2.84e-10 deg 2 native id
+ face 128 cylinder rawId 1063 r 1.89e-7 shared false nearestOtherFaceVertex 9.31e-10 chordDist 2.84e-10 deg 2 native id
+ face 140 cylinder rawId 1095 r 1.86e-7 shared false nearestOtherFaceVertex 9.31e-10 chordDist 6.42e-10 deg 2 native id
+ face 140 cylinder rawId 1095 r 1.86e-7 shared false nearestOtherFaceVertex 9.31e-10 chordDist 6.42e-10 deg 2 native id
+ face 213 cone rawId 15 r 1.40e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 1.48e-5 deg 2 native type
+ face 213 cone rawId 15 r 7.54e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 7.42e-6 deg 2 native type
+ face 213 cone rawId 15 r 9.89e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 1.82e-5 deg 2 native type
+ face 213 cone rawId 15 r 1.50e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 4.28e-6 deg 2 native type
+ face 214 cone rawId 20 r 3.42e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 9.36e-6 deg 2 native id
+ face 216 cone rawId 45 r 3.43e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 9.36e-6 deg 2 native type
+ face 347 cone rawId 1194 r 3.28e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 3.11e-6 deg 2 native type
+ face 347 cone rawId 1194 r 1.88e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 7.86e-6 deg 2 native type
+ face 347 cone rawId 1194 r 1.03e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 9.47e-6 deg 2 native type
+ face 347 cone rawId 1194 r 3.28e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 3.11e-6 deg 2 native type
+ face 348 cone rawId 1196 r 3.09e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 2.98e-6 deg 2 native type
+ face 350 cone rawId 1201 r 3.28e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 3.11e-6 deg 2 native type
+ face 350 cone rawId 1201 r 1.87e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 7.86e-6 deg 2 native type
+ face 350 cone rawId 1201 r 1.02e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 9.47e-6 deg 2 native type
+ face 350 cone rawId 1201 r 3.28e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 3.11e-6 deg 2 native type
+ face 351 cone rawId 1203 r 3.09e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 2.98e-6 deg 2 native id
+ face 368 cone rawId 1270 r 2.12e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 6.52e-6 deg 2 native type
+ face 368 cone rawId 1270 r 2.12e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 6.52e-6 deg 2 native type
+ face 368 cone rawId 1270 r 9.49e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 6.69e-6 deg 2 native type
+ face 368 cone rawId 1270 r 7.54e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 1.23e-5 deg 2 native type
+## a4ecc6f5_PP-2074-08.SLDPRT
+ face 396 cylinder rawId 21378 r 4.22e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 1.68e-6 deg 2 native id
+ face 396 cylinder rawId 21378 r 4.22e-7 shared true nearestOtherFaceVertex 0.00e+0 chordDist 1.68e-6 deg 2 native id
+## 3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT
+ face 58 cylinder rawId 525 r 7.24e-7 shared false nearestOtherFaceVertex 1.65e-3 chordDist 4.71e-10 deg 2 native id
+node:fs:560
+  return binding.open(
+                 ^
+
+Error: ENOENT: no such file or directory, open ''
+    at Object.openSync (node:fs:560:18)
+    at Object.readFileSync (node:fs:444:35)
+    at bytes (/home/user/solidworks-converters/src/index.js:36:40)
+    at Object.parse (/home/user/solidworks-converters/src/index.js:44:50)
+    at Object.load (/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP105/disprove/lib.js:15:13)
+    at Object.<anonymous> (/home/user/sldprt-research-dump/knowledge/evidence/scripts/EXP105/disprove/drill.js:4:18)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: ''
+}
+
+Node.js v22.23.4
