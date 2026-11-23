@@ -12,6 +12,12 @@ Evidence: [EXP-091](evidence/2026-11-05_v0.5-EXP091.md).
 
 ## NQ-031: Obtain a discriminating nonzero Block3 sample
 
+**Status 2026-11-23 (EXP-109)**: The strip-control part is narrowed. A face's first Block3 control
+byte is 1 on exactly the faces with any nonzero Block3 byte, and later control bytes are all 4 or
+all 0 per file among those faces (0 only below DisplayLists 17000). The 12 tangent 0/0 edges all
+touch a B-spline face. Still open: what byte 4 against byte 0 means, since nothing in the strips
+separates them. Blind-checked the same day.
+
 **Status/date:** Answered, 2026-11-05 (EXP-088). The expanded sample has 30,713 nonzero Block3
 bytes in 27 files. Byte 1 marks smooth or nearly smooth face-edge uses in the joined subset, byte 2
 marks joined open boundaries, and byte 4 occurs only at strip-control positions. The exact strip
@@ -19,12 +25,22 @@ control meaning and tangent 0/0 exceptions remain open.
 
 ## NQ-032: Decode raw edge-type families and following object records
 
+**Status 2026-11-23 (EXP-108)**: The type numbers are answered. Each is the native edge's curve
+class; 480xx = 48000 + 16 × class + j, with j=1 tangent, 0 sharp, 2 one fin and -1 a whole-file
+variant. The 300x and 480xx dialects follow the DisplayLists version. Blind-checked. Still open:
+the record after the edge table, past its first field (a persistent-id string for the face).
+
 **Status/date:** Narrowed, 2026-11-05. The native B-rep now supplies exact edge curves and joins
 them to Block1 IDs, but the display record's numeric 300x/480xx type families and the variable
 serialization after its edge table are still unnamed. Native geometry does not by itself prove the
 meaning of those display-only values.
 
 ## NQ-033: Validate container and body/configuration scoping
+
+**Status 2026-11-23**: The geometry selection is in the converter (EXP-098, with its tie-breakers
+blind-checked in EXP-102 and EXP-106). The duplicate-stream rule isn't: the reader keeps the first
+copy of a name instead of rejecting conflicts. The container directory itself has no duplicate
+names (EXP-112), so this only matters for the scan fallback.
 
 **Status/date:** Partly answered, 2026-11-05. CRC validation is implemented (EXP-057 and the
 2026-09-26 parser follow-up), node IDs are scoped per body (EXP-085), and ModelHeader selects the
@@ -40,16 +56,16 @@ research history; its old `Active` and `Ready` labels are not the current priori
 
 | Work possible with the current corpus | What remains |
 |---|---|
-| NQ-031 remainder | Decode Block3 strip controls and the tangent 0/0 exceptions. |
-| NQ-032 | Decode display edge-type numbers and the record after the edge table. |
-| NQ-033 remainder | Implement EXP-094's saved-bounds geometry selection and EXP-095's duplicate rejection in the owning reader. |
+| NQ-031 remainder | What Block3's strip-control byte 4 means against byte 0 (EXP-109 narrowed the rest). |
+| NQ-032 remainder | Decode the record after the edge table past its persistent-id string (EXP-108 answered the type numbers). |
+| NQ-033 remainder | Implement EXP-095's duplicate-stream rule; the selection is in the converter (EXP-098). |
 | NQ-016 / NQ-051 | Separate the remaining off-surface display vertices from tessellation and mesh-quality effects. |
-| NQ-044 remainder | Name the directional variant's scalar and the other tail states; the fixed head and unit-vector case are decoded. |
+| NQ-044 remainder | The bounds tail's cone cosine value, which files store cones, and words +96 and +100 (EXP-110). |
 | NQ-046 remainder | Explain the one broader envelope and the eight readable post-13000 omissions. EXP-093 explains the older absence with a version-13000 introduction boundary. |
 | NQ-048 remainder | Find a nonzero LocalBodies section tail; EXP-096 decodes the entry flag as excluded from the lightweight permanent body set. |
 | NQ-057 / NQ-058 | Diagnose the remaining triangulation failures and `2f121983` evidence; converter changes stay outside this branch. |
 | NQ-059 | Replace dimension-placement scans with bounded layouts. |
-| NQ-060 | Find the modern per-feature Created/Modified record; Biography is not it. |
+| NQ-060 remainder | Settle whether the History stamp is Created or a first touch, and recheck sketches against the SW2011 log (EXP-111 found both records). |
 | NQ-061 | Rerun EXP-112's blind disprove check on the container directory; the first run hit the usage limit. |
 | NQ-062 | Find how the three per-file signatures follow from the 4-byte key. |
 | NQ-063 | Decode the 4 bytes at the ZIP time/date position of each stream header. |
@@ -1091,6 +1107,12 @@ version is `_DL_VERSION_4700`.
 
 ## NQ-044 — What is the 132-byte per-face record between Block3 and the metadata?
 
+**Status 2026-11-23 (EXP-110)**: The tail (+92 to +131) is mostly decoded. +92 marks planes, +128
+is constant 1, and when +104 and +108 are both 1 the four floats at +112 are a normal cone (a
+unit vector along the outward normals and a cone cosine). Still open: the cosine's exact value,
+which isn't reproduced from the stored normals; which files store cones; and +96 and +100. Blind
+checks of EXP-110 are running.
+
 `parser/v0.2` skips it as an opaque prefix. EXP-060 shows it is **not** a fourth
 `[stride,8,2,N]` block: it is a per-face numeric record whose bulk decodes as `f64` in metres.
 On `C00_cube_10mm` every value is 0, 0.005 or 0.010 — exactly the cube's extents and
@@ -1439,6 +1461,11 @@ scan can be removed.
 `evidence/scripts/EXP089/dimension-placement/`.
 
 ## NQ-060 — Where is the modern per-feature Created/Modified history?
+
+**Status 2026-11-23 (EXP-111)**: Mostly answered. Modified is a FILETIME at tail offset 46 of every
+feature node, and Created is a unix-second stamp in each History-folder item. Blind-checked:
+Modified holds. Still open: whether the History stamp is Created or a first touch, and the sketch
+case against the SW2011 log.
 
 **Status**: Open. EXP-088 proves Biography is save-environment history: release/build, paths,
 locale and time snapshots. It is not the feature-operation log that older files expose. Search the

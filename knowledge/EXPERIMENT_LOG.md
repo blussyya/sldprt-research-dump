@@ -1674,6 +1674,44 @@ mesh's vertices and normals; it picks the right one of six tied cubes in all six
 
 Evidence: [2026-11-06_v0.5-EXP098.md](evidence/2026-11-06_v0.5-EXP098.md).
 
+## EXP-099 — Repeated display face IDs and the odd surface tags
+
+The three surface tags outside 4001 to 4010 (4980815, 16368 and 65536, on 56 faces in 3 parts) are
+misreads. Those display records have no id/tag block, and appearance data sits where the reader
+looked. The three words after the normals are nonzero on all 56 and zero on the 13,533 records
+with a real block. Repeated display IDs are real faces: in 552 of 552 groups the faces sharing an
+ID are in different bodies. 3,880 failed joins came from the converter renumbering later
+partition sections, fixed in EXP-104. The converter now refuses metadata on such records
+(a256dba). Measured by a Sonnet agent and partly rechecked. Blind checks: running.
+
+Evidence: [2026-11-09_v0.5-EXP099.md](evidence/2026-11-09_v0.5-EXP099.md).
+
+## EXP-100 — Blind check of display tags 4008 and 4010
+
+The names hold. Every joined 4010 face is a spun surface (286 + 4 faces), and the one 4008 face
+is an offset surface. A 1e-8 m distance test can't separate spun from cylinder here, because the
+cylinder and cone controls miss that bar too (EXP-105 explains why). A Haiku agent ran it blind
+with its own scripts.
+
+Evidence: [2026-11-09_v0.5-EXP100.md](evidence/2026-11-09_v0.5-EXP100.md).
+
+## EXP-101 — Blind check of the LocalBodies flag
+
+Holds. A reader written blind, with its own section, entry and attribute parsers, finds flag 1 on
+exactly the 8 LocalBodies entries whose BODY_IN_LIGHTWEIGHT_PERM value is 0, out of 281. No
+evidence file of its own: it is recorded in EXP-096's, with scripts in `scripts/EXP101/`.
+
+Evidence: [2026-11-06_v0.5-EXP096.md](evidence/2026-11-06_v0.5-EXP096.md).
+
+## EXP-102 — Blind check of the EXP-098 tie-breaker
+
+Partly held. The tie-breaker picked the right cube in 296 of 306 ordered runs. It failed on C18 (a
+cube with a split line), whose display fits the filleted cube C03's planes exactly, so the first
+candidate won. The converter now matches each display face to a B-rep face of its own (705b69b),
+and C18 picks itself in both orders.
+
+Evidence: [2026-11-09_v0.5-EXP102.md](evidence/2026-11-09_v0.5-EXP102.md).
+
 ## EXP-103 — The dense fit check, finished
 
 The curve fitter now checks 8 more points per interval once its 3 cheap ones pass, and always
@@ -1691,6 +1729,84 @@ down to 2.53e-8 m, and the total time rose from 1,417 to 1,496 s. Blind checks: 
 end rule (with the hole above found and fixed), partly holds for the spines.
 
 Evidence: [2026-11-22_v0.5-EXP103.md](evidence/2026-11-22_v0.5-EXP103.md).
+
+## EXP-104 — Joining display faces to native faces across bodies and sections
+
+The converter keeps each face's section-local node id. Display faces now join the right native
+face in 13,375 of 13,533 cases (98.8%), up from 9,648. Repeated ids are settled by surface type,
+then by geometry. Blind-checked in EXP-107, then merged.
+
+Evidence: [2026-11-09_v0.5-EXP104.md](evidence/2026-11-09_v0.5-EXP104.md).
+
+## EXP-105 — Why display vertices sit off cylinder and cone faces
+
+On cylinder and cone faces, the display vertices more than 1e-9 m off the native surface are
+boundary vertices shared with a neighbouring face. They sit on straight chords of the boundary,
+not on the surface. Every other vertex is within 1e-9 m (max 9.8e-10 m). Controls: C13 (a cone
+alone) has none off; C20 and C21 reproduce the effect. So a display-to-surface check has to leave
+shared boundary vertices out. Measured by a Sonnet agent. Blind checks: running.
+
+Evidence: [2026-11-09_v0.5-EXP105.md](evidence/2026-11-09_v0.5-EXP105.md).
+
+## EXP-106 — Blind check of the one-to-one tie-breaker
+
+Holds. No pick was wrong between candidates that differ, and every order-dependent pick was
+between candidates with identical geometry. The check found a stack overflow in the recursive
+matching near 10,000 display faces, fixed in 98726a8.
+
+Evidence: [2026-11-09_v0.5-EXP106.md](evidence/2026-11-09_v0.5-EXP106.md).
+
+## EXP-107 — Blind check of the display join
+
+Partly holds. The counts reproduce exactly. The agent's own checks contradict 3 of 13,375 joins,
+by 8 to 22 µm, and 33 more are in parts whose display names edges the native body doesn't have.
+Where geometry chose between candidates, nothing could tell them apart. Merged into `dev`.
+
+Evidence: [2026-11-09_v0.5-EXP107.md](evidence/2026-11-09_v0.5-EXP107.md).
+
+## EXP-108 — Display edge-type numbers
+
+The type number on a display edge is its native edge's curve class: 0 mismatches over 34,876
+joined edges. The 300x and 480xx forms are two dialects chosen per file by the DisplayLists
+version (300x up to 15000, 480xx from 16000), and every 480xx value is 48000 + 16 × class + j. j=1
+is a tangent edge, j=0 a sharp one, j=2 an edge with one fin, j=-1 a whole-file variant in two
+parts. Convexity isn't encoded. Of the record after the edge table, only the face's persistent-id
+string is decoded. Blind prove and disprove: holds, with two limits: "no exceptions" depends on
+the join, and seams with both fins on one face are j=1.
+
+Evidence: [2026-11-09_v0.5-EXP108.md](evidence/2026-11-09_v0.5-EXP108.md).
+
+## EXP-109 — Block3 strip controls and the tangent 0/0 exceptions
+
+Block3 has one byte per Block1 word, so each strip has a Block3 control byte. The first strip's
+control byte is 1 on exactly the 2,690 faces that have any nonzero Block3 byte (21,113 faces
+checked). On those faces, later strips' control bytes are all 4 or all 0 within a file, and 0 only
+below DisplayLists version 17000. The 12 tangent edges whose Block3 bytes are 0/0 all touch a B-spline face. Nothing
+in the strips separates byte 4 from byte 0. Blind prove and disprove: holds once scoped to the
+flagged faces.
+
+Evidence: [2026-11-09_v0.5-EXP109.md](evidence/2026-11-09_v0.5-EXP109.md).
+
+## EXP-110 — The display bounds record's 40-byte tail
+
++92 is 1 on planes and 0 elsewhere (6,341 of 6,341 native planes), and +128 is always 1. When +104
+and +108 are both 1 (2,974 records), +112 to +127 hold a normal cone: a unit vector along the
+face's outward normals and a cosine between 0.708 and 1, never looser than the stored normals but
+often tighter. A file stores cones on every face under about 45 degrees or on none. +100 isn't a
+face property. The exact value of the cosine isn't reproduced. Blind checks: running.
+
+Evidence: [2026-11-09_v0.5-EXP110.md](evidence/2026-11-09_v0.5-EXP110.md).
+
+## EXP-111 — Per-feature Created and Modified times
+
+Modified is a FILETIME at tail offset 46 of every feature node: 142 of 143 user features fall
+inside the file's time window, and no other offset or epoch comes close. Created is a unix-second
+stamp in each History-folder item, never later than Modified (0 of 135). Template features in
+native SW2022 files carry the template's time. Whether the History stamp is Created or a first
+touch isn't settled, and the sketch case against the SW2011 log needs rechecking. Blind prove and
+disprove: Modified holds, with these caveats.
+
+Evidence: [2026-11-09_v0.5-EXP111.md](evidence/2026-11-09_v0.5-EXP111.md).
 
 ## EXP-112 — The modern container is a disguised ZIP with a directory
 
