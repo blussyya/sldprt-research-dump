@@ -1,0 +1,25 @@
+Dekor: test files original/Dekor.SLDPRT
+d0d61cde_官方元件-定位模块.SLDPRT rows 901 | control: on-surface boundary vertices 400 max d_curve 1.77e-9
+   no native edge               n 770 | d_surf med 3.40e-6 max 2.29e-5 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 304/318 | tolerant edges 0
+   not on a Block1 edge         n 26 | d_surf med 1.05e-5 max 1.85e-5 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 0/0 | tolerant edges 0
+   circle                       n 105 | d_surf med 5.59e-6 max 6.71e-6 | d_curve med 5.60e-6 on curve (<max(1e-7,d_surf/10)) 0/105 | on chord (<1e-7) 55/55 | tolerant edges 0
+03764871_BME280.SLDPRT rows 781 | control: on-surface boundary vertices 129 max d_curve 1.06e-10
+   no native edge               n 714 | d_surf med 2.09e-7 max 9.74e-6 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 416/416 | tolerant edges 0
+   circle                       n 58 | d_surf med 1.69e-7 max 2.13e-7 | d_curve med 1.69e-7 on curve (<max(1e-7,d_surf/10)) 0/58 | on chord (<1e-7) 30/30 | tolerant edges 0
+   not on a Block1 edge         n 9 | d_surf med 3.32e-7 max 3.42e-7 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 0/0 | tolerant edges 0
+Dekor.SLDPRT rows 488 | control: on-surface boundary vertices 25 max d_curve 1.95e-8
+   bspline                      n 442 | d_surf med 1.12e-5 max 2.84e-5 | d_curve med 1.23e-5 on curve (<max(1e-7,d_surf/10)) 2/442 | on chord (<1e-7) 108/110 | tolerant edges 227
+   not on a Block1 edge         n 46 | d_surf med 1.12e-5 max 2.55e-5 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 0/0 | tolerant edges 0
+a4ecc6f5_PP-2074-08.SLDPRT rows 1506 | control: on-surface boundary vertices 400 max d_curve 2.02e-9
+   circle                       n 853 | d_surf med 1.66e-5 max 2.46e-4 | d_curve med 1.66e-5 on curve (<max(1e-7,d_surf/10)) 0/853 | on chord (<1e-7) 587/587 | tolerant edges 0
+   not on a Block1 edge         n 50 | d_surf med 5.84e-6 max 1.43e-4 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 0/0 | tolerant edges 0
+   bspline                      n 467 | d_surf med 1.15e-5 max 1.29e-4 | d_curve med 5.73e-5 on curve (<max(1e-7,d_surf/10)) 2/467 | on chord (<1e-7) 161/161 | tolerant edges 423
+   no native edge               n 136 | d_surf med 5.21e-4 max 5.21e-4 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 104/104 | tolerant edges 0
+2f121983_case.SLDPRT rows 938 | control: on-surface boundary vertices 400 max d_curve 3.35e-7
+   trimmed                      n 502 | d_surf med 1.45e-5 max 3.25e-5 | d_curve med 1.45e-5 on curve (<max(1e-7,d_surf/10)) 0/502 | on chord (<1e-7) 332/338 | tolerant edges 204
+   not on a Block1 edge         n 26 | d_surf med 5.12e-6 max 2.25e-5 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 0/0 | tolerant edges 0
+   circle                       n 305 | d_surf med 1.92e-5 max 4.24e-5 | d_curve med 2.10e-5 on curve (<max(1e-7,d_surf/10)) 0/305 | on chord (<1e-7) 127/127 | tolerant edges 0
+   intersection (not evaluable) n 96 | d_surf med 6.34e-6 max 4.23e-5 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 50/50 | tolerant edges 0
+   trimmed (not evaluable)      n 9 | d_surf med 4.83e-6 max 7.61e-6 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 5/5 | tolerant edges 0
+
+[exited with code 0]

@@ -1,0 +1,6 @@
+model.SLDPRT rows 66 | control: on-surface boundary vertices 185 max d_curve 4.19e-10
+   circle                       n 66 | d_surf med 4.00e-6 max 5.34e-6 | d_curve med 4.00e-6 on curve (<max(1e-7,d_surf/10)) 0/66 | on chord (<1e-7) 22/22 | tolerant edges 0
+8cd79ff5_1ESxx.SLDPRT rows 617 | control: on-surface boundary vertices 400 max d_curve 2.20e-10
+   not on a Block1 edge         n 10 | d_surf med 3.37e-6 max 5.46e-6 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 0/0 | tolerant edges 0
+   circle                       n 589 | d_surf med 4.28e-6 max 1.10e-5 | d_curve med 5.22e-6 on curve (<max(1e-7,d_surf/10)) 0/589 | on chord (<1e-7) 247/247 | tolerant edges 0
+   bspline                      n 18 | d_surf med 4.17e-7 max 4.17e-7 | d_curve med 4.23e-7 on curve (<max(1e-7,d_surf/10)) 0/18 | on chord (<1e-7) 6/6 | tolerant edges 0

@@ -1,0 +1,12 @@
+ef1d5cfe_DS3231.SLDPRT {"faces":24,"degHist":{"2":3711,"3":32,"4":46},"badIdsSeam":24,"badIdsNotSeam":43,"badIdsNoNative":0}
+    {"fi":6,"surface":"sphere","loops":1,"badIds":[{"id":27,"segments":8,"nativeUses":2},{"id":30,"segments":28,"nativeUses":1}]}
+    {"fi":8,"surface":"sphere","loops":1,"badIds":[{"id":36,"segments":8,"nativeUses":2},{"id":39,"segments":28,"nativeUses":1}]}
+    {"fi":10,"surface":"sphere","loops":1,"badIds":[{"id":45,"segments":8,"nativeUses":2},{"id":48,"segments":28,"nativeUses":1}]}
+    {"fi":12,"surface":"sphere","loops":1,"badIds":[{"id":54,"segments":8,"nativeUses":2},{"id":57,"segments":28,"nativeUses":1}]}
+0132519a_102_STEM.SLDPRT {"faces":1,"degHist":{"2":264,"4":4},"badIdsSeam":0,"badIdsNotSeam":8,"badIdsNoNative":0}
+    {"fi":41,"surface":"cylinder","loops":2,"badIds":[{"id":4741,"segments":12,"nativeUses":1},{"id":4847,"segments":44,"nativeUses":1},{"id":5021,"segments":12,"nativeUses":1},{"id":5102,"segments":44,"nativeUses":1},{"id":4770,"segments":12,"nativeUses":1},{"id":4848,"segments":44,"nativeUses":1},{"id":5018,"segments":12,"nativeUses":1},{"id":5101,"segments":44,"nativeUses":1}]}
+2f121983_case.SLDPRT {"faces":9,"degHist":{"2":1600,"3":12,"4":11},"badIdsSeam":9,"badIdsNotSeam":20,"badIdsNoNative":0}
+    {"fi":0,"surface":"plane","loops":1,"badIds":[{"id":36,"segments":46,"nativeUses":1},{"id":13,"segments":1,"nativeUses":2},{"id":31,"segments":1,"nativeUses":1},{"id":456,"segments":3,"nativeUses":1}]}
+    {"fi":4,"surface":"cylinder","loops":1,"badIds":[{"id":23,"segments":53,"nativeUses":1},{"id":20,"segments":1,"nativeUses":2},{"id":51,"segments":127,"nativeUses":1}]}
+    {"fi":5,"surface":"torus","loops":1,"badIds":[{"id":46,"segments":75,"nativeUses":1},{"id":19,"segments":14,"nativeUses":2},{"id":51,"segments":127,"nativeUses":1}]}
+    {"fi":6,"surface":"plane","loops":1,"badIds":[{"id":682,"segments":47,"nativeUses":1},{"id":680,"segments":1,"nativeUses":2},{"id":46,"segments":75,"nativeUses":1}]}

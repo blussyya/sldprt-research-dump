@@ -75,9 +75,8 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-068 | Count the gap at intersection-edge ends the way a pinned SP_CURVE end is now counted. |
 | NQ-069 | Find why `f666f342` (head_face) doesn't resolve in 2,400 s. |
 | NQ-070 | Make the dense fit check cheaper; parts with many intersection curves are 2.6 to 3.3 times slower. |
-| NQ-071 | Read face metadata in the two other record layouts (140-byte bounding record; SolidWorks 2025/2026 saves): 4,622 faces have no id or tag in the converter. |
-| NQ-072 | Build boundary cycles on faces with a seam; the converter gives up on 34 faces in three parts. |
-| NQ-073 | Find why 4 cone faces in "distributor main boss rev a" have display normals 62° from the converter's exact cone normal. |
+| NQ-071 remainder | Find where the 190 faces of the 140-byte layout keep their IDs, if anywhere; the 2025/2026 layout is read (EXP-116). |
+| NQ-072 remainder | Boundary cycles on chainwheel's 141 pre-2011 faces; modern seam faces are done (EXP-115). |
 | NQ-074 | Name the low 16 bits of bounds word +100 (they group faces by feature) and find how the cone cosine is computed. |
 
 | Blocked on a discriminating file or SolidWorks save | Needed input |
@@ -1360,6 +1359,10 @@ blocks and one unexplained flag in a gear face reference.
 
 ## NQ-051 — 231 interior and 11 boundary display vertices off the exact surfaces
 
+**Status 2026-11-24 (EXP-113)**: On cylinder and cone faces the off boundary vertices are of two
+kinds: chord points (the bulk, on the straight chord and off the edge curve) and edge-curve points
+of tolerant B-spline edges (the off-chord ones, on the edge curve to 1.4e-9 m in `d0d61cde`).
+
 **Status 2026-11-23 (EXP-105 blind checks)**: On cylinder and cone faces, no interior vertex is off
 beyond float32 rounding (0 of 23,700 off vertices at 1e-7 m in 44 parts), so the interior ones
 counted here are probably rounding on those surface types. Still open: B-spline and other faces,
@@ -1632,6 +1635,10 @@ cheaper check that still finds edge 826's error and the test bump in `test/fit.t
 
 ## NQ-071 — Face metadata in the other two record layouts
 
+**Status 2026-11-24 (EXP-116)**: Layout C answered and in the converter: 4,484 faces in 24 files now
+have IDs and tags, all joining a native face of the matching type. Layout B has no ID or tag in its
+display record; where those 190 faces' IDs live, if anywhere, is still open.
+
 **Status**: Open. Two blind agents (EXP-099 and EXP-110 checks, 2026-11-23) found the same faces the
 converter's display reader can't read past the bounding record:
 
@@ -1651,6 +1658,11 @@ the join. The SW2026 re-save of head_back is a layout C file with a matching old
 
 ## NQ-072 — Boundary cycles on seam faces
 
+**Status 2026-11-24 (EXP-115)**: Answered for modern files. Seams, slits and touching loops are
+walked through the triangle fans; all 159 modern faces get cycles, and the 20,788 faces handled
+before are unchanged. Left: 141 faces in chainwheel (pre-2011), where a boundary chain ends at a
+vertex.
+
 **Status**: Open. `src/display.js` reports "Ambiguous boundary graph; cycles not inferred" on faces
 where both fins of an edge are on the same face: 24 faces in `ef1d5cfe`, 9 in `2f121983`, 1 in
 `0132519a`. Their boundary vertices are still on Block1 edges, but no cycle is built, so anything
@@ -1661,6 +1673,10 @@ that uses `boundaryCycles` treats them as interior. Decide how to split the grap
 **Date raised**: 2026-11-23.
 
 ## NQ-073 — Four cone faces whose normals disagree with the converter
+
+**Status 2026-11-24 (EXP-114)**: Answered, no converter error. They are drill-point cones and every
+mismatch is a copy of the apex vertex, where a cone has no single normal. The display vertices lie
+on the converter's cone within 5.8e-10 m.
 
 **Status**: Open. In "distributor main boss rev a", faces #21, #24, #27 and #30 have display normals
 62 degrees from the converter's exact cone normal (EXP-110 disprove check). Either the converter's

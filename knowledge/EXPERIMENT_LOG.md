@@ -1830,3 +1830,40 @@ in all of them, so the rotation's link to byte 7 is untested.
 
 Evidence: [2026-11-09_v0.5-EXP112.md](evidence/2026-11-09_v0.5-EXP112.md).
 
+## EXP-113 — Off-surface display vertices: chord points and edge-curve points
+
+The user asked whether the off-surface vertices could be NURBS points. Both kinds exist. The bulk
+are chord points: on circle and ellipse edges 0 of 2,186 off vertices lie on the edge curve, and
+every one with a measurable chord lies on it. The off-chord exceptions are edge-curve points of
+tolerant B-spline edges: in `d0d61cde` all 14 sit on the fitted edge curve to 1.4e-9 m, and the
+curve runs 1e-7 to 1e-6 m off the face, inside the edge tolerance. Measured, not blind-checked.
+
+Evidence: [2026-11-24_v0.5-EXP113.md](evidence/2026-11-24_v0.5-EXP113.md).
+
+## EXP-114 — The cone faces with normals 62 degrees off
+
+No converter error. The four faces are 118 degree drill-point cones, and every mismatch is a copy of
+the apex vertex, where a cone has no single normal (180 − 2 × 59 = 62). All 72 display vertices of
+each face lie on the converter's cone within 5.8e-10 m. Normal checks should skip apex vertices.
+Measured, not blind-checked.
+
+Evidence: [2026-11-24_v0.5-EXP114.md](evidence/2026-11-24_v0.5-EXP114.md).
+
+## EXP-115 — Boundary cycles on seam faces
+
+300 display faces had no boundary cycles. In modern files (159) the cause is an edge used twice by
+the face (a seam or a slit) or two loops touching at a vertex. The reader now walks those faces
+through their triangle fans; on the 20,788 faces it handled before, the walk gives identical cycles.
+chainwheel's 141 faces (pre-2011) stay unresolved. Measured, not blind-checked.
+
+Evidence: [2026-11-24_v0.5-EXP115.md](evidence/2026-11-24_v0.5-EXP115.md).
+
+## EXP-116 — Face metadata in the 2025/2026 layout
+
+The converter now reads IDs and tags from SolidWorks 2025 and 2026 saves, where one empty array is
+missing and the id/tag block sits 16 bytes earlier: 4,484 faces in 24 files. All join a native face
+with a matching surface type; with the IDs shifted by one, 1,973 of 2,080 find no candidate. The
+140-byte layout (190 faces) has no ID or tag in the display at all. Measured, not blind-checked; the
+layouts were found by two blind agents.
+
+Evidence: [2026-11-24_v0.5-EXP116.md](evidence/2026-11-24_v0.5-EXP116.md).

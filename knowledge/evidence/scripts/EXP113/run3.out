@@ -1,0 +1,4 @@
+d0d61cde_官方元件-定位模块.SLDPRT rows 901 | control: on-surface boundary vertices 400 max d_curve 4.65e-9
+   circle                       n 297 | d_surf med 4.64e-6 max 2.29e-5 | d_curve med 4.86e-6 on curve (<max(1e-7,d_surf/10)) 0/297 | on chord (<1e-7) 163/163 | tolerant edges 0
+   bspline                      n 578 | d_surf med 3.40e-6 max 1.95e-5 | d_curve med 3.99e-6 on curve (<max(1e-7,d_surf/10)) 22/578 | on chord (<1e-7) 196/210 | tolerant edges 225
+   not on a Block1 edge         n 26 | d_surf med 1.05e-5 max 1.85e-5 | d_curve med - on curve (<max(1e-7,d_surf/10)) 0/0 | on chord (<1e-7) 0/0 | tolerant edges 0

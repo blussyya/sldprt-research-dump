@@ -121,6 +121,10 @@ These come from the user and override any habit that conflicts with them.
   id block, not 56), EXP-105 (its 1e-9 m bar was below float32 rounding) and EXP-110 (+128 isn't
   constant; the cone is narrower than the normals), and found two display record layouts the
   converter can't read metadata from (4,622 faces, NQ-071).
+- 2026-11-24: the converter reads face IDs and tags from SolidWorks 2025/2026 saves (4,484 faces,
+  EXP-116) and builds boundary cycles on seam faces (EXP-115). The 62 degree cone normals were cone
+  apexes, not a bug (EXP-114). Off-surface display vertices are chord points, except the off-chord
+  ones, which are points of tolerant B-spline edge curves (EXP-113).
 
 Verified format facts, each having survived a blind check (more in the format pages):
 
@@ -139,24 +143,20 @@ Verified format facts, each having survived a blind check (more in the format pa
 
 Part files first; assemblies and drawings wait until these are done (the user's call, 2026-11-23).
 
-1. NQ-071: read face IDs and tags in the 140-byte and the SolidWorks 2025/2026 record layouts
-   (4,622 faces). Newer files lose their display metadata until this is done.
-2. NQ-073: four cone faces in "distributor main boss rev a" whose display normals are 62 degrees
-   from the converter's cone normal. Rule out a wrong cone in exact STEP.
-3. NQ-072: boundary cycles on seam faces (34 faces give up).
-4. `3c4752f1`: two plane × blend edges where the blend touches the plane (another touching end).
-5. NQ-067: the vertices far outside their tolerance on `0739c559` and `f0b9a118`. Check our
+1. `3c4752f1`: two plane × blend edges where the blend touches the plane (another touching end).
+2. NQ-067: the vertices far outside their tolerance on `0739c559` and `f0b9a118`. Check our
    surface evaluation at those points before blaming the file.
-6. NQ-065: accuracy within about 1 µm of a T limit (head_back's four blends). It needs the nested
+3. NQ-065: accuracy within about 1 µm of a T limit (head_back's four blends). It needs the nested
    spines fitted much tighter than 1e-10 m.
-7. `2f121983`: a blend spine on two offset swept surfaces. The foot jumps near the start. It now
+4. `2f121983`: a blend spine on two offset swept surfaces. The foot jumps near the start. It now
    stops with "no foot ... settled (8.7e-4 m off its normal)"; whether that's the same jump isn't
    checked.
-8. NQ-069: `f666f342` (head_face) doesn't finish.
-9. Vertices 0.1 to 1 mm off thread and degree-1 surfaces, inside the knot range, in 5 parts
+5. NQ-069: `f666f342` (head_face) doesn't finish.
+6. Vertices 0.1 to 1 mm off thread and degree-1 surfaces, inside the knot range, in 5 parts
    (`d799e9a3`, `073482d3`, `0d68d32d`, `db8a97e2`, `f0b9a118`).
-10. NQ-070: the dense check makes parts with many intersection curves 2.6 to 3.3 times slower.
+7. NQ-070: the dense check makes parts with many intersection curves 2.6 to 3.3 times slower.
 
-Also still open: NQ-057 (the B-rep triangulator on 32 parts), NQ-066 (edge 844's vertex pair),
+Also still open: NQ-071 (IDs for the 190 faces of the 140-byte layout), NQ-072 (chainwheel's
+141 pre-2011 faces), NQ-057 (the B-rep triangulator on 32 parts), NQ-066 (edge 844's vertex pair),
 NQ-068 (gaps at intersection-edge ends), NQ-074 (bounds word +100 and the cone cosine), and the
 format remainders in NEXT_QUESTIONS' queue table (NQ-031, 032, 044, 060, 062 to 064).
