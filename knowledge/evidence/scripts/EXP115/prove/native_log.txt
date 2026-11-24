@@ -1,0 +1,31 @@
+{
+ "files": 161,
+ "nativeFail": [],
+ "joined": 17859,
+ "unjoined": 1342,
+ "simple": {
+  "n": 17700,
+  "match": 17667,
+  "mism": 10
+ },
+ "bad": {
+  "n": 159,
+  "joined": 159,
+  "unjoined": 0,
+  "match": 159,
+  "mism": 0,
+  "cause": {
+   "no loops (no edges)": 2,
+   "other": 13,
+   "edge twice / plane": 4,
+   "edge twice / cylinder": 97,
+   "edge twice / torus": 18,
+   "edge twice / cone": 20,
+   "edge twice / sphere": 5
+  }
+ }
+}
+
+real	2m56.734s
+user	2m9.232s
+sys	0m0.821s

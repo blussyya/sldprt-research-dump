@@ -1,0 +1,123 @@
+{
+  files: 216,
+  facesTable: 21088,
+  joined: 17859,
+  notJoined: 3229,
+  match: 17826,
+  mismatch: 33,
+  loopCountDiff: 0,
+  contentDiff: 33,
+  vertexLoops: 16,
+  seamFaces: 157,
+  seamMatch: 0,
+  seamMismatch: 0,
+  nonSimple: 159,
+  nonSimpleMatch: 157,
+  nonSimpleJoined: 157
+}
+not joined / errors {
+  'new/SW2011/C00_cube_10mm/model.SLDPRT': 6,
+  'new/SW2011/C01_cube_20mm/model.SLDPRT': 6,
+  'new/SW2011/C02_cube_translated/model.SLDPRT': 6,
+  'new/SW2011/C03_cube_fillet_1mm/model.SLDPRT': 7,
+  'new/SW2011/C04_cube_hole_5mm/model.SLDPRT': 7,
+  'new/SW2011/C05_cube_hole_3mm/model.SLDPRT': 7,
+  'new/SW2011/C06_cube_hole_moved/model.SLDPRT': 7,
+  'new/SW2011/C07_cube_two_holes/model.SLDPRT': 8,
+  'new/SW2011/C08_cube_second_hole_modified/model.SLDPRT': 8,
+  'new/SW2011/C09_cube_chamfer_1mm/model.SLDPRT': 7,
+  'new/SW2011/C10_cube_shell_1mm/model.SLDPRT': 11,
+  'new/SW2011/C11_cube_hole_4mm/model.SLDPRT': 7,
+  'new/SW2011/C12_cube_fillet_1mm_edge2/model.SLDPRT': 7,
+  'new/SW2011/C13_cone/model.SLDPRT': 2,
+  'new/SW2011/C14_sphere/model.SLDPRT': 1,
+  'new/SW2011/C15_torus/model.SLDPRT': 1,
+  'new/SW2011/C16_loft_spline/model.SLDPRT': 6,
+  'new/SW2011/C17_torus_quarter/model.SLDPRT': 3,
+  'new/SW2011/C18_cube_split_line/model.SLDPRT': 7,
+  'new/SW2011/C19_half_cylinder/model.SLDPRT': 4,
+  'new/SW2011/C20_cylinders_crossed/model.SLDPRT': 8,
+  'new/SW2011/C21_cylinder_fillet/model.SLDPRT': 4,
+  'new/SW2011/C22_cube_sw2011_native/model.SLDPRT': 6,
+  'new/SW2011/C25_cone_sw2011_native/model.SLDPRT': 2,
+  'new/SW2011/C26_cube_hole_sw2011_native/model.SLDPRT': 7,
+  'online/2007/05187d94_ChainCL_In.SLDPRT': 13,
+  'online/2010/065f38b0_等径四节弯头-4.SLDPRT': 6,
+  'online/2010/7192bb05_长短脚任意角度裤形三通管-5.SLDPRT': 7,
+  'online/2011/6ff6c243_通气塞.SLDPRT': 15,
+  'online/2011/e1f38af5_0000380-01.sldprt': 14,
+  'online/2013/82981f2a_head_back.sldprt': 532,
+  'online/2013/92c393f4_camera_support.sldprt': 116,
+  'online/2013/f666f342_head_face.sldprt': 732,
+  'online/2014/300f9732_Carter2019.SLDPRT': 92,
+  'online/2014/68cd51b6_20190309-0049.SLDPRT': 26,
+  'online/2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT': 342,
+  'online/2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT': 4,
+  'online/2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT': 22,
+  'online/2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT': 18,
+  'online/2016/629adcec_cut-z351-d1xl1.SLDPRT': 3,
+  'online/2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT': 18,
+  'online/2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT': 8,
+  'online/2017/516a7dc5_Body1.sldprt': 8,
+  'online/2017/afc71d14_Body2.sldprt': 24,
+  'online/2017/d49566bc_AntennaMount.SLDPRT': 16,
+  'online/2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT': 249,
+  'online/2018/0132519a_102_STEM.SLDPRT': 16,
+  'online/2018/d2515121_Ecran_128x32oled.SLDPRT': 10,
+  'online/2018/eefa906d_plancher Dalle 2020.SLDPRT': 6,
+  'online/2019/636b653d_MountingBracket.SLDPRT': 26,
+  'online/2019/7765d286_NSJ8L.SLDPRT': 62,
+  'online/2020/14f9214b_11.SLDPRT': 2,
+  'online/2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT': 42,
+  'online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT': 67,
+  'online/2020/7841a106_6344428.SLDPRT': 54,
+  'online/2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT': 103,
+  'online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT': 31,
+  'online/2023/d2f7f9bd_iman.SLDPRT': 6,
+  'online/2024/09d353a9_Elbow_Mount2.SLDPRT': 38,
+  'online/2024/1e794aad_6344387.SLDPRT': 117,
+  'online/2024/4febfc67_6344149.SLDPRT': 19,
+  'online/2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT': 14,
+  'online/2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT': 17,
+  'online/not-a-part/10582557_9271K109_Torsion Spring.SLDPRT': 'native No Config-N-Partition stream',
+  'online/not-a-part/34a1cacb_91202A226_Zinc-Plated Steel Split Lock Washer.Sldprt': 'native No Config-N-Partition stream',
+  'online/not-a-part/8ac95686_separadores.SLDPRT': 'native No Config-N-Partition stream',
+  'online/not-a-part/9e494ca4_91169A160_Steel Split Lock Washer.SLDPRT': 'native No Config-N-Partition stream',
+  'online/not-a-part/d7b58324_small_motor.rev1.SLDPRT': 'native No Config-N-Partition stream',
+  'original/SW2000-s01.SLDPRT': 'native No Parasolid body: no Config-N-Partition, Config-N-Body or t',
+  'original/chainwheel.sldprt': 189
+}
+mismatches 33
+online/2018/0132519a_102_STEM.SLDPRT 4 native 3241 disp loops 4 native 4 simple 3138,3141,3153,3145 # 3248,3257,3260,3264 # 5096 # 6630,6671,6666,6678 || 3138,3141,3153,3145 # 3248,3257,3260,3264 # 5096 # 6323,6361,6356,6367
+online/2018/0132519a_102_STEM.SLDPRT 5 native 3005 disp loops 4 native 4 simple 2888,2891,2903,2895 # 3012,3021,3024,3028 # 5100 # 6751,6783,6778,6790 || 2888,2891,2903,2895 # 3012,3021,3024,3028 # 5100 # 6432,6461,6456,6467
+online/2018/0132519a_102_STEM.SLDPRT 32 native 85 disp loops 2 native 2 simple 4854 # 6636,6845,6807,6852 || 4854 # 6329,6516,6482,6522
+online/2018/0132519a_102_STEM.SLDPRT 33 native 81 disp loops 2 native 2 simple 4846 # 6695,6727,6722,6734 || 4846 # 6382,6411,6406,6417
+online/2018/0132519a_102_STEM.SLDPRT 34 native 2153 disp loops 1 native 1 simple 6722,6756,6751,6762 || 6406,6437,6432,6442
+online/2018/0132519a_102_STEM.SLDPRT 35 native 2174 disp loops 1 native 1 simple 6666,6700,6695,6706 || 6356,6387,6382,6392
+online/2018/0132519a_102_STEM.SLDPRT 36 native 2195 disp loops 1 native 1 simple 6630,6641,6636,6647 || 6323,6334,6329,6339
+online/2018/0132519a_102_STEM.SLDPRT 37 native 2216 disp loops 1 native 1 simple 6778,6812,6807,6818 || 6456,6487,6482,6492
+online/2018/0132519a_102_STEM.SLDPRT 91 native 3737 disp loops 1 native 1 simple 3620,3758,6898,6887 || 3620,3758,6563,6553
+online/2018/0132519a_102_STEM.SLDPRT 92 native 3739 disp loops 1 native 1 simple 3624,3758,6907,3764 || 3624,3758,6571,3764
+online/2018/0132519a_102_STEM.SLDPRT 93 native 3741 disp loops 1 native 1 simple 3628,6878,6889,6887 || 3628,6545,6555,6553
+online/2018/0132519a_102_STEM.SLDPRT 94 native 3743 disp loops 1 native 1 simple 3632,3764,6919,3770 || 3632,3764,6581,3770
+online/2018/0132519a_102_STEM.SLDPRT 95 native 3745 disp loops 1 native 1 simple 3636,6869,6880,6878 || 3636,6537,6547,6545
+online/2018/0132519a_102_STEM.SLDPRT 96 native 3747 disp loops 1 native 1 simple 3640,3770,6839,3776 || 3640,3770,6511,3776
+online/2018/0132519a_102_STEM.SLDPRT 97 native 3749 disp loops 1 native 1 simple 3644,6860,6871,6869 || 3644,6529,6539,6537
+online/2018/0132519a_102_STEM.SLDPRT 98 native 3751 disp loops 1 native 1 simple 3647,3776,6862,6860 || 3647,3776,6531,6529
+online/2018/0132519a_102_STEM.SLDPRT 107 native 4244 disp loops 1 native 1 simple 4127,4265,6744,6713 || 4127,4265,6426,6398
+online/2018/0132519a_102_STEM.SLDPRT 108 native 4246 disp loops 1 native 1 simple 4131,4265,6771,4271 || 4131,4265,6450,4271
+online/2018/0132519a_102_STEM.SLDPRT 109 native 4248 disp loops 1 native 1 simple 4135,6686,6715,6713 || 4135,6374,6400,6398
+online/2018/0132519a_102_STEM.SLDPRT 110 native 4250 disp loops 1 native 1 simple 4139,4271,6800,4277 || 4139,4271,6476,4277
+online/2018/0132519a_102_STEM.SLDPRT 111 native 4252 disp loops 1 native 1 simple 4143,6654,6688,6686 || 4143,6345,6376,6374
+online/2018/0132519a_102_STEM.SLDPRT 112 native 4254 disp loops 1 native 1 simple 4147,4277,6827,4283 || 4147,4277,6500,4283
+online/2018/0132519a_102_STEM.SLDPRT 113 native 4256 disp loops 1 native 1 simple 4151,6654,6659,6657 || 4151,6345,6350,6348
+online/2018/0132519a_102_STEM.SLDPRT 114 native 4258 disp loops 1 native 1 simple 4154,4283,6913,6657 || 4154,4283,6576,6348
+online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT 0 native 58 disp loops 2 native 2 simple 1930 # 833 || 1923 # 830
+online/2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT 1 native 55 disp loops 2 native 2 simple 1324 # 1936 || 1318 # 1929
+online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT 3 native 88 disp loops 3 native 3 simple 1283,58,82,9 # 1681 # 1716 || 1307,58,82,9 # 1709 # 1748
+online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT 4 native 86 disp loops 1 native 1 simple 1462,1477,1475,80 || 1486,1501,1499,80
+online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT 5 native 84 disp loops 2 native 2 simple 1020,17,80,50 # 488 || 1053,17,80,50 # 514
+online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT 6 native 1 disp loops 1 native 1 simple 1425,1469,1462,17,943,814,833,317,750,918,938,921,948,637,668,264,557,907,953,930,5,9,1447,1540,1450,1464,1456,1532 || 1449,1493,1486,17,967,825,857,337,773,942,962,945,972,673,691,284,610,931,977,954,5,9,1471,1564,1474,1488,1480,1556
+online/2022/a0ab30c8_LB26001-A-04-022.SLDPRT 7 native 48 disp loops 1 native 1 simple 1000,910,587,243,670,640,995,977,985,983,752,310,803,801,990,50,1475,1502,1431,1536,1492,1497,1483,1544,1489,58,62,959 || 1004,1012,1010,776,330,859,828,1017,50,1499,1526,1455,1560,1516,1521,1507,1568,1513,58,62,983,1027,934,612,263,693,661,1022
+online/2024/09d353a9_Elbow_Mount2.SLDPRT 5 native 98 disp loops 10 native 10 simple 1400 # 1478,2190,2195,2193 # 1883 # 1907 # 1931 # 1955 # 1979 # 2003 # 2027 # 2051 || 1405 # 1483,2195,2200,2198 # 1888 # 1912 # 1936 # 1960 # 1984 # 2008 # 2032 # 2056
+online/2024/09d353a9_Elbow_Mount2.SLDPRT 6 native 1 disp loops 5 native 5 simple 1114,2203,2216,2214 # 2386 # 2404 # 2422 # 2440 || 1122,2208,2221,2219 # 2393 # 2411 # 2429 # 2447

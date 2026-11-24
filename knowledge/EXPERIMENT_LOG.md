@@ -1867,3 +1867,15 @@ with a matching surface type; with the IDs shifted by one, 1,973 of 2,080 find n
 layouts were found by two blind agents.
 
 Evidence: [2026-11-24_v0.5-EXP116.md](evidence/2026-11-24_v0.5-EXP116.md).
+
+## EXP-117 — Chainwheel's faces without boundary cycles
+
+A reader error. Pre-2011 single-triangle strips with control word 0 list their edge ids as
+(v,v+2), (v,v+1), (v+1,v+2), the first two swapped. Read that way, all 189 chainwheel faces close
+(48 did before), and a blind check found the loops equal the native B-rep's on 189 of 189. Blind
+checks of EXP-113 to EXP-116 the same day: the seam walk and both layouts hold with restated
+evidence; EXP-113's exceptions are points of the neighbouring face's fin curve, not always of the
+edge's 3D curve.
+
+Evidence: [2026-11-24_v0.5-EXP117.md](evidence/2026-11-24_v0.5-EXP117.md).
+

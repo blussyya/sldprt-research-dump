@@ -1,0 +1,2 @@
+control-0 strips 276 words 0..3: [{"zero":276,"nonzero":0},{"zero":276,"nonzero":0},{"zero":2,"nonzero":274},{"zero":51,"nonzero":225}]
+faces whose display edge ids (order 2,1,3) equal the native face edges: 0 differ: 0 unjoined: 189

@@ -1,0 +1,26 @@
+PASS annulus: simple rule accepts
+PASS annulus: simple loops = known (24 and 8)
+PASS annulus: fan loops = known
+PASS annulus: each side once  [sides 32]
+PASS seam cylinder: simple rule rejects (degree 3 at seam)  [{"2":24,"3":2}]
+PASS seam cylinder: fan walk gives one loop of 30 sides  [len 30]
+PASS seam cylinder: loop = known vertex sequence
+PASS seam cylinder: seam segments walked on both sides
+PASS seam cylinder: id sequence has id 2 twice per seam segment
+PASS slit: simple rule rejects (tips degree 1)  [{"1":2,"2":35}]
+PASS slit: fan loops = known (outer 32, slit 8 sides)  [32,8]
+PASS slit: each side once
+PASS touching holes: simple rule rejects (degree 4)  [{"2":30,"4":1}]
+PASS touching holes: fan loops = outer 24 + one merged 8-loop  [24,8]
+PASS touching holes: the walk does NOT give the two separate 4-loops (limit of the rule)
+PASS touching holes: each side once
+PASS real cube: 6 faces, simple = fan, 1 loop with 4 edge ids each
+PASS broken: a triangle missing (id-0 crack)  [simple flags, fan flags: open edge without id;fan with 1 ends]
+PASS broken: an interior triangle missing (simple rule is blind, fan must flag)  [simple blind, fan: open edge without id]
+PASS broken: one boundary segment loses its id  [fan: open edge without id;fan with 1 ends]
+PASS broken: spurious cut on an interior edge (loops must differ from known)  [simple flags, fan differs]
+PASS broken: an edge shared by three triangles  [fan: edge on 3 triangles;open edge without id;fan with 1 ends]
+PASS unbroken twin passes
+PASS broken real face (ReducerBox, interior triangle removed): fan flags  [open edge without id;fan with 1 ends]
+PASS same real face unbroken passes
+controls pass 25 fail 0

@@ -76,7 +76,6 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-069 | Find why `f666f342` (head_face) doesn't resolve in 2,400 s. |
 | NQ-070 | Make the dense fit check cheaper; parts with many intersection curves are 2.6 to 3.3 times slower. |
 | NQ-071 remainder | Find where the 190 faces of the 140-byte layout keep their IDs, if anywhere; the 2025/2026 layout is read (EXP-116). |
-| NQ-072 remainder | Boundary cycles on chainwheel's 141 pre-2011 faces; modern seam faces are done (EXP-115). |
 | NQ-074 | Name the low 16 bits of bounds word +100 (they group faces by feature) and find how the cone cosine is computed. |
 
 | Blocked on a discriminating file or SolidWorks save | Needed input |
@@ -1657,6 +1656,9 @@ the join. The SW2026 re-save of head_back is a layout C file with a matching old
 **Date raised**: 2026-11-23.
 
 ## NQ-072 — Boundary cycles on seam faces
+
+**Status 2026-11-24 (EXP-117)**: Answered. Chainwheel's 141 faces came from a reader error in
+control-0 strips; all 189 close now and match the native loops.
 
 **Status 2026-11-24 (EXP-115)**: Answered for modern files. Seams, slits and touching loops are
 walked through the triangle fans; all 159 modern faces get cycles, and the 20,788 faces handled

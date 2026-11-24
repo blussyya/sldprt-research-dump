@@ -1,0 +1,30 @@
+native cone faces 17 half-angles (deg): 59.000 45.000
+   apex copy vs exact normal on ITS OWN generator (nearer of the two base-vertex generators): max 9.12e-6 deg over 24; vs one fixed reference generator: {"face x-axis generator (az 0)":"62.000","generator of first apex copy":"62.000"}; largest angle between two apex copies 62.000 (180-2*alpha = 62.000 is the opposite-generator value ... cos t = sin^2a - cos^2a gives 62.000)
+   controls (caught/tried): {"moved 2e-9 m":"12/48","moved 5e-9 m":"48/48","moved 1e-8 m":"48/48","moved 1e-7 m":"48/48","normal turned 0.05 deg":"48/48","normal turned 1 deg":"48/48","normal turned 10 deg":"48/48"}
+face 624 (join id) half-angle 59.0000 sameSense false verts 72 tris 24 apexCopies 24 trianglesByApexCount {"1":24} apexCopiesShared 0
+   distance to cone, all 72 vertices: max 5.76e-10 m (float32 rounding bar 1.62e-9 m; worst d/bar 0.36); over 1e-9: 0
+   non-apex normals vs exact normal at the same point: max 9.12e-6 deg over 48 vertices (flipped sign 0)
+   apex copies: normal elevation vs axis (asin|n.axis|, exact cone: half-angle 59.000) 59.000..59.000; angle to exact normal at base-vertex B 7.709..7.709, at C 0.000..0.000, at mid 3.861..3.861; base azimuth span 15.000..15.000; normal azimuth between B and C: 24/24
+   apex normals all different: 24 distinct of 24
+   apex copy vs exact normal on ITS OWN generator (nearer of the two base-vertex generators): max 9.12e-6 deg over 24; vs one fixed reference generator: {"face x-axis generator (az 0)":"62.000","generator of first apex copy":"62.000"}; largest angle between two apex copies 62.000 (180-2*alpha = 62.000 is the opposite-generator value ... cos t = sin^2a - cos^2a gives 62.000)
+   controls (caught/tried): {"moved 2e-9 m":"12/48","moved 5e-9 m":"48/48","moved 1e-8 m":"48/48","moved 1e-7 m":"48/48","normal turned 0.05 deg":"48/48","normal turned 1 deg":"48/48","normal turned 10 deg":"48/48"}
+face 703 (join id) half-angle 59.0000 sameSense false verts 72 tris 24 apexCopies 24 trianglesByApexCount {"1":24} apexCopiesShared 0
+   distance to cone, all 72 vertices: max 5.76e-10 m (float32 rounding bar 1.62e-9 m; worst d/bar 0.36); over 1e-9: 0
+   non-apex normals vs exact normal at the same point: max 9.12e-6 deg over 48 vertices (flipped sign 0)
+   apex copies: normal elevation vs axis (asin|n.axis|, exact cone: half-angle 59.000) 59.000..59.000; angle to exact normal at base-vertex B 7.709..7.709, at C 0.000..0.000, at mid 3.861..3.861; base azimuth span 15.000..15.000; normal azimuth between B and C: 24/24
+   apex normals all different: 24 distinct of 24
+   apex copy vs exact normal on ITS OWN generator (nearer of the two base-vertex generators): max 9.12e-6 deg over 24; vs one fixed reference generator: {"face x-axis generator (az 0)":"62.000","generator of first apex copy":"62.000"}; largest angle between two apex copies 62.000 (180-2*alpha = 62.000 is the opposite-generator value ... cos t = sin^2a - cos^2a gives 62.000)
+   controls (caught/tried): {"moved 2e-9 m":"12/48","moved 5e-9 m":"48/48","moved 1e-8 m":"48/48","moved 1e-7 m":"48/48","normal turned 0.05 deg":"48/48","normal turned 1 deg":"48/48","normal turned 10 deg":"48/48"}
+face 782 (join id) half-angle 59.0000 sameSense false verts 72 tris 24 apexCopies 24 trianglesByApexCount {"1":24} apexCopiesShared 0
+   distance to cone, all 72 vertices: max 5.76e-10 m (float32 rounding bar 1.62e-9 m; worst d/bar 0.36); over 1e-9: 0
+   non-apex normals vs exact normal at the same point: max 9.12e-6 deg over 48 vertices (flipped sign 0)
+   apex copies: normal elevation vs axis (asin|n.axis|, exact cone: half-angle 59.000) 59.000..59.000; angle to exact normal at base-vertex B 7.709..7.709, at C 0.000..0.000, at mid 3.861..3.861; base azimuth span 15.000..15.000; normal azimuth between B and C: 24/24
+   apex normals all different: 24 distinct of 24
+   apex copy vs exact normal on ITS OWN generator (nearer of the two base-vertex generators): max 9.12e-6 deg over 24; vs one fixed reference generator: {"face x-axis generator (az 0)":"62.000","generator of first apex copy":"62.000"}; largest angle between two apex copies 62.000 (180-2*alpha = 62.000 is the opposite-generator value ... cos t = sin^2a - cos^2a gives 62.000)
+   controls (caught/tried): {"moved 2e-9 m":"12/48","moved 5e-9 m":"48/48","moved 1e-8 m":"48/48","moved 1e-7 m":"48/48","normal turned 0.05 deg":"48/48","normal turned 1 deg":"48/48","normal turned 10 deg":"48/48"}
+face 861 (join id) half-angle 59.0000 sameSense false verts 72 tris 24 apexCopies 24 trianglesByApexCount {"1":24} apexCopiesShared 0
+   distance to cone, all 72 vertices: max 5.76e-10 m (float32 rounding bar 1.62e-9 m; worst d/bar 0.36); over 1e-9: 0
+   non-apex normals vs exact normal at the same point: max 9.12e-6 deg over 48 vertices (flipped sign 0)
+   apex copies: normal elevation vs axis (asin|n.axis|, exact cone: half-angle 59.000) 59.000..59.000; angle to exact normal at base-vertex B 7.709..7.709, at C 0.000..0.000, at mid 3.861..3.861; base azimuth span 15.000..15.000; normal azimuth between B and C: 24/24
+   apex normals all different: 24 distinct of 24
+matching display faces 4 ; native cone faces in the window 4 ids 861,624,703,782

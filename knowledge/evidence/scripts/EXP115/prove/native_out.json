@@ -1,0 +1,2316 @@
+{
+ "files": 161,
+ "nativeFail": [],
+ "joined": 17859,
+ "unjoined": 1342,
+ "simple": {
+  "n": 17700,
+  "match": 17667,
+  "mismatch": [
+   {
+    "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+    "i": 4,
+    "d": "3138;3141;3153;3145\n3248;3257;3260;3264\n5096\n6630;6671;6666;6678",
+    "n": "3138;3141;3153;3145\n3248;3257;3260;3264\n5096\n6323;6361;6356;6367"
+   },
+   {
+    "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+    "i": 5,
+    "d": "2888;2891;2903;2895\n3012;3021;3024;3028\n5100\n6751;6783;6778;6790",
+    "n": "2888;2891;2903;2895\n3012;3021;3024;3028\n5100\n6432;6461;6456;6467"
+   },
+   {
+    "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+    "i": 32,
+    "d": "4854\n6636;6845;6807;6852",
+    "n": "4854\n6329;6516;6482;6522"
+   },
+   {
+    "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+    "i": 33,
+    "d": "4846\n6695;6727;6722;6734",
+    "n": "4846\n6382;6411;6406;6417"
+   },
+   {
+    "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+    "i": 34,
+    "d": "6722;6756;6751;6762",
+    "n": "6406;6437;6432;6442"
+   },
+   {
+    "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+    "i": 35,
+    "d": "6666;6700;6695;6706",
+    "n": "6356;6387;6382;6392"
+   },
+   {
+    "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+    "i": 36,
+    "d": "6630;6641;6636;6647",
+    "n": "6323;6334;6329;6339"
+   },
+   {
+    "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+    "i": 37,
+    "d": "6778;6812;6807;6818",
+    "n": "6456;6487;6482;6492"
+   },
+   {
+    "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+    "i": 91,
+    "d": "3620;3758;6898;6887",
+    "n": "3620;3758;6563;6553"
+   },
+   {
+    "f": "test files online/2018/0132519a_102_STEM.SLDPRT",
+    "i": 92,
+    "d": "3624;3758;6907;3764",
+    "n": "3624;3758;6571;3764"
+   }
+  ]
+ },
+ "bad": {
+  "n": 159,
+  "joined": 159,
+  "match": 159,
+  "mismatch": [],
+  "cause": {
+   "no loops (no edges)": 2,
+   "other": 13,
+   "edge twice / plane": 4,
+   "edge twice / cylinder": 97,
+   "edge twice / torus": 18,
+   "edge twice / cone": 20,
+   "edge twice / sphere": 5
+  },
+  "unjoined": 0,
+  "detail": [
+   {
+    "f": "model.SLDPRT",
+    "i": 0,
+    "cause": "no loops (no edges)",
+    "hist": {},
+    "nloops": 0,
+    "twice": 0,
+    "touch": false,
+    "surface": "sphere",
+    "how": "id"
+   },
+   {
+    "f": "model.SLDPRT",
+    "i": 0,
+    "cause": "no loops (no edges)",
+    "hist": {},
+    "nloops": 0,
+    "twice": 0,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "0132519a_102_STEM.SLDPRT",
+    "i": 41,
+    "cause": "other",
+    "hist": {
+     "2": 264,
+     "4": 4
+    },
+    "nloops": 2,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "073482d3_ReducerBox_1_Reducer.SLDPRT",
+    "i": 20,
+    "cause": "other",
+    "hist": {
+     "2": 424,
+     "4": 1
+    },
+    "nloops": 1,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "073482d3_ReducerBox_1_Reducer.SLDPRT",
+    "i": 21,
+    "cause": "other",
+    "hist": {
+     "2": 424,
+     "4": 1
+    },
+    "nloops": 1,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "073482d3_ReducerBox_1_Reducer.SLDPRT",
+    "i": 22,
+    "cause": "other",
+    "hist": {
+     "2": 424,
+     "4": 1
+    },
+    "nloops": 1,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "073482d3_ReducerBox_1_Reducer.SLDPRT",
+    "i": 23,
+    "cause": "other",
+    "hist": {
+     "2": 424,
+     "4": 1
+    },
+    "nloops": 1,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "073482d3_ReducerBox_1_Reducer.SLDPRT",
+    "i": 24,
+    "cause": "other",
+    "hist": {
+     "2": 424,
+     "4": 1
+    },
+    "nloops": 1,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "073482d3_ReducerBox_1_Reducer.SLDPRT",
+    "i": 25,
+    "cause": "other",
+    "hist": {
+     "2": 424,
+     "4": 1
+    },
+    "nloops": 1,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "073482d3_ReducerBox_1_Reducer.SLDPRT",
+    "i": 26,
+    "cause": "other",
+    "hist": {
+     "2": 424,
+     "4": 1
+    },
+    "nloops": 1,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "073482d3_ReducerBox_1_Reducer.SLDPRT",
+    "i": 27,
+    "cause": "other",
+    "hist": {
+     "2": 424,
+     "4": 1
+    },
+    "nloops": 1,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2f121983_case.SLDPRT",
+    "i": 0,
+    "cause": "edge twice / plane",
+    "hist": {
+     "2": 224,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "plane",
+    "how": "id"
+   },
+   {
+    "f": "2f121983_case.SLDPRT",
+    "i": 4,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 178,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2f121983_case.SLDPRT",
+    "i": 5,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 206,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "2f121983_case.SLDPRT",
+    "i": 6,
+    "cause": "edge twice / plane",
+    "hist": {
+     "2": 120,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "plane",
+    "how": "id"
+   },
+   {
+    "f": "2f121983_case.SLDPRT",
+    "i": 7,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 136,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2f121983_case.SLDPRT",
+    "i": 9,
+    "cause": "edge twice / plane",
+    "hist": {
+     "2": 245,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "plane",
+    "how": "id"
+   },
+   {
+    "f": "2f121983_case.SLDPRT",
+    "i": 16,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 137,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2f121983_case.SLDPRT",
+    "i": 29,
+    "cause": "edge twice / plane",
+    "hist": {
+     "2": 193,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "plane",
+    "how": "id"
+   },
+   {
+    "f": "2f121983_case.SLDPRT",
+    "i": 33,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "1": 1,
+     "2": 166,
+     "3": 1
+    },
+    "nloops": 2,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "4803f393_box.SLDPRT",
+    "i": 964,
+    "cause": "other",
+    "hist": {
+     "2": 198,
+     "4": 6
+    },
+    "nloops": 2,
+    "twice": 0,
+    "touch": false,
+    "surface": "plane",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 6,
+    "cause": "edge twice / sphere",
+    "hist": {
+     "1": 1,
+     "2": 33,
+     "3": 1
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "sphere",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 8,
+    "cause": "edge twice / sphere",
+    "hist": {
+     "1": 1,
+     "2": 33,
+     "3": 1
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "sphere",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 10,
+    "cause": "edge twice / sphere",
+    "hist": {
+     "1": 1,
+     "2": 33,
+     "3": 1
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "sphere",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 12,
+    "cause": "edge twice / sphere",
+    "hist": {
+     "1": 1,
+     "2": 33,
+     "3": 1
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "sphere",
+    "how": "type"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 14,
+    "cause": "edge twice / sphere",
+    "hist": {
+     "1": 1,
+     "2": 33,
+     "3": 1
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "sphere",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 376,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 225,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "geometry"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 377,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 185,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 378,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 183,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 381,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 200,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 382,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 84,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 383,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 246,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 385,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 200,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 386,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 178,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 388,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 220,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 389,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 84,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 390,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 183,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "type"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 393,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 195,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "type"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 394,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 195,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 395,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 238,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 397,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 195,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "type"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 398,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 238,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 399,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 195,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "type"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 401,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 154,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "type"
+   },
+   {
+    "f": "ef1d5cfe_DS3231.SLDPRT",
+    "i": 402,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 178,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "225c13ed_camholder0deg.SLDPRT",
+    "i": 5,
+    "cause": "other",
+    "hist": {
+     "2": 169,
+     "4": 5
+    },
+    "nloops": 3,
+    "twice": 0,
+    "touch": false,
+    "surface": "plane",
+    "how": "id"
+   },
+   {
+    "f": "f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT",
+    "i": 1,
+    "cause": "other",
+    "hist": {
+     "2": 3872,
+     "4": 1
+    },
+    "nloops": 1,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT",
+    "i": 15,
+    "cause": "other",
+    "hist": {
+     "2": 2378,
+     "4": 1
+    },
+    "nloops": 2,
+    "twice": 0,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+    "i": 2,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 64,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+    "i": 3,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+    "i": 24,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+    "i": 43,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+    "i": 47,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 72,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "0eab6495_A15_KW10_cassette_L_heel.SLDPRT",
+    "i": 51,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 54,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 76,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 2,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 70,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 31,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 48,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 33,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 35,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 48,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 37,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 50,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 71,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 72,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 74,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 75,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 90,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 92,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 94,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 62,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 98,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 50,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 102,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 50,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 105,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 106,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 108,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 109,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 248,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 249,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 266,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 270,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 272,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 274,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 95,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 275,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 80,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 277,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 58,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 291,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "geometry"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 292,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 294,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 295,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 297,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 298,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 300,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 301,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 455,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 54,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 457,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 485,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 488,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 505,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 95,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 506,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 80,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "geometry"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 508,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 510,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 512,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 76,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 513,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 70,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 515,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 111,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 516,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 94,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "geometry"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 518,
+    "cause": "edge twice / torus",
+    "hist": {
+     "2": 178,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "torus",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 519,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 154,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 526,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 527,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "geometry"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 528,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 548,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 50,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 550,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 54,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 552,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 58,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 554,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 86,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 573,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 221,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 698,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 605,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 702,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 50,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 704,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 54,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 706,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 58,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 987,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 988,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 50,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 989,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "geometry"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 990,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 991,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 113,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 992,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 110,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 993,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 113,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 995,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 997,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 84,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 998,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 81,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1076,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 58,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1078,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 228,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1104,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1105,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1106,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1107,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1109,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 113,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "type"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1110,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 110,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "geometry"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1111,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 113,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1113,
+    "cause": "edge twice / cone",
+    "hist": {
+     "2": 96,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cone",
+    "how": "id"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1114,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 90,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "geometry"
+   },
+   {
+    "f": "2e6e140a_ST3215_C018_04.SLDPRT",
+    "i": 1116,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 74,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "geometry"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 4,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 5,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 6,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 7,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 16,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 17,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 18,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 19,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 20,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 21,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 22,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 23,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 24,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 29,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 34,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 43,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 44,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 45,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 46,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 47,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 64,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   },
+   {
+    "f": "c5784ab3_A09_power_and_compute_rack.SLDPRT",
+    "i": 65,
+    "cause": "edge twice / cylinder",
+    "hist": {
+     "2": 46,
+     "3": 2
+    },
+    "nloops": 1,
+    "twice": 1,
+    "touch": false,
+    "surface": "cylinder",
+    "how": "id"
+   }
+  ]
+ }
+}

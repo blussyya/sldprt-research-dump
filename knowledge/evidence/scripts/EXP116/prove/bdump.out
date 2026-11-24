@@ -1,0 +1,69 @@
+2020/7841a106_6344428.SLDPRT faces 54
+ face 0 B-nb d==2r:true K140=0 recLen=844 res [ 2149384192, 12, 2 ] 
+   00000000 01000000 08000000 64000000 02000000 00000000 01000000 0c000000 64000000 02000000 00000000 0c000000 64000000 02000000 00000000 00000000 00001d80 0c000000 02000000 04000000 08000000 02000000 02000000 03000000 0d000000 0c000000 64000000 02000000 10000000 0ad723bb
+{
+  'B-nb d==2r:true K140=0 recLen=844': 10,
+  'tagLikeWordsInRecord>0:false': 54,
+  'B-nb d==2r:true K140=0 recLen=438': 20,
+  'B-nb d==2r:true K140=0 recLen=1044': 1,
+  'B-nb d==2r:true K140=0 recLen=1110': 1,
+  'B-nb d==2r:true K140=0 recLen=776': 1,
+  'B-nb d==2r:true K140=0 recLen=572': 4,
+  'B-nb d==2r:true K140=0 recLen=3166': 2,
+  'B-nb d==2r:true K140=0 recLen=876': 3,
+  'B-nb d==2r:true K140=0 recLen=1952': 2,
+  'B-nb d==2r:true K140=0 recLen=1080': 1,
+  'B-nb d==2r:true K140=0 recLen=574': 1,
+  'B-nb d==2r:true K140=0 recLen=976': 1,
+  'B-nb d==2r:true K140=0 recLen=642': 2,
+  'B-nb d==2r:true K140=0 recLen=1212': 1,
+  'B-nb d==2r:true K140=0 recLen=1146': 1,
+  'B-nb d==2r:true K140=0 recLen=1512': 1,
+  'B-nb d==2r:true K140=0 recLen=1380': 1,
+  'B-nb d==2r:true K140=0 recLen=382': 1
+}
+2024/4febfc67_6344149.SLDPRT faces 19
+ face 0 B-nb d==2r:true K140=0 recLen=2704 res [ 2149318656, 24, 24 ] 
+   0f000000 01000000 08000000 64000000 02000000 00000000 01000000 0c000000 64000000 02000000 00000000 0c000000 64000000 02000000 00000000 00000000 00001c80 18000000 18000000 04000000 08000000 02000000 18000000 03000000 03000000 03000000 03000000 03000000 03000000 03000000
+ face 2 B-bad d==2r:true K140=100 recLen=5658 res undefined 
+   0f000000 01000000 08000000 64000000 02000000 64000000 00000000 00000000 00000000 98c2753c 00000000 00000000 00000000 98c2753c 00000000 00000000 00000000 98c2753c 00000000 00000000 00000000 98c2753c 00000000 00000000 00000000 98c2753c 00000000 00000000 00000000 98c2753c
+{
+  'B-nb d==2r:true K140=0 recLen=2704': 1,
+  'tagLikeWordsInRecord>0:false': 19,
+  'B-nb d==2r:true K140=0 recLen=2002': 12,
+  'B-bad d==2r:true K140=100 recLen=5658': 1,
+  'B-nb d==2r:true K140=0 recLen=8794': 2,
+  'B-nb d==2r:true K140=0 recLen=3700': 2,
+  'B-nb d==2r:true K140=0 recLen=382': 1
+}
+2024/1e794aad_6344387.SLDPRT faces 117
+ face 0 B-nb d==2r:true K140=0 recLen=644 res [ 66191360, 2149974016, 6 ] 
+   00000000 01000000 08000000 64000000 02000000 00000000 01000000 0c000000 64000000 02000000 00000000 0c000000 64000000 02000000 00000000 00000000 0000f203 00002680 06000000 02000000 04000000 08000000 02000000 02000000 03000000 07000000 0c000000 64000000 02000000 0a000000
+{
+  'B-nb d==2r:true K140=0 recLen=644': 11,
+  'tagLikeWordsInRecord>0:false': 117,
+  'B-nb d==2r:true K140=0 recLen=442': 45,
+  'B-nb d==2r:true K140=0 recLen=780': 4,
+  'B-nb d==2r:true K140=0 recLen=712': 9,
+  'B-nb d==2r:true K140=0 recLen=848': 17,
+  'B-nb d==2r:true K140=0 recLen=1188': 2,
+  'B-nb d==2r:true K140=0 recLen=476': 4,
+  'B-nb d==2r:true K140=0 recLen=9196': 1,
+  'B-nb d==2r:true K140=0 recLen=9922': 1,
+  'B-nb d==2r:true K140=0 recLen=846': 2,
+  'B-nb d==2r:true K140=0 recLen=2006': 3,
+  'B-nb d==2r:true K140=0 recLen=1392': 1,
+  'B-nb d==2r:true K140=0 recLen=2230': 1,
+  'B-nb d==2r:true K140=0 recLen=2164': 1,
+  'B-nb d==2r:true K140=0 recLen=5624': 1,
+  'B-nb d==2r:true K140=0 recLen=5294': 1,
+  'B-nb d==2r:true K140=0 recLen=916': 1,
+  'B-nb d==2r:true K140=0 recLen=646': 4,
+  'B-nb d==2r:true K140=0 recLen=578': 2,
+  'B-nb d==2r:true K140=0 recLen=978': 1,
+  'B-nb d==2r:true K140=0 recLen=812': 1,
+  'B-nb d==2r:true K140=0 recLen=1652': 1,
+  'B-nb d==2r:true K140=0 recLen=1184': 1,
+  'B-nb d==2r:true K140=0 recLen=950': 1,
+  'B-nb d==2r:true K140=0 recLen=477': 1
+}

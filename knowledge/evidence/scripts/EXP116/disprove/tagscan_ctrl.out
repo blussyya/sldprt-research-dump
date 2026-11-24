@@ -1,0 +1,5 @@
+e8f16581_Engine Base.SLDPRT display faces 10 u32 4001..4010 (any byte offset) per stream {"Contents/DisplayLists":10}
+346a04bc_R01_D_lower_1_140_washer_head.SLDPRT display faces 4 u32 4001..4010 (any byte offset) per stream {"Contents/DisplayLists":4}
+4febfc67_6344149.SLDPRT display faces 19 u32 4001..4010 (any byte offset) per stream {}
+C tag histogram {"4001":2611,"4002":1204,"4003":87,"4004":14,"4005":120,"4006":290,"4007":108,"4008":14,"4009":36}
+C faces with id<=1000: 1256 of 4484 ; max id 19421

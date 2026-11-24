@@ -1,0 +1,7 @@
+1e794aad_6344387.SLDPRT streams 43
+ true order seq 299,302,305,308,311,314,317,320 in-order 5-id windows (gap<=400B): 1 {"Contents/Config-0-DownstreamIdData":1}
+ control reversed order seq 1284,1282,1279,1276,1273,1270,1261,1258 in-order 5-id windows (gap<=400B): 0 {}
+4febfc67_6344149.SLDPRT streams 40
+ true order seq 219,211,206,201,196,191,186,181 in-order 5-id windows (gap<=400B): 0 {}
+ control reversed order seq 121,126,131,136,141,146,151,156 in-order 5-id windows (gap<=400B): 0 {}
+positive control (A file, ids 20,15,10,3 ) windows in DL with gap<=20000, k=4: 6

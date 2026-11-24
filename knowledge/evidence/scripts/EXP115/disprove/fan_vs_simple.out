@@ -1,0 +1,15 @@
+{
+  faces: 21088,
+  simpleHandled: 20788,
+  agree: 20788,
+  disagree: 0,
+  fanNotClosed: 141,
+  fanProblems: 141,
+  notPerm: 141,
+  sidesBad: 0,
+  twoSided: 542,
+  sameDirTwoSided: 0,
+  over2: 0,
+  fanOnly: 300
+}
+[]

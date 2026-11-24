@@ -1,0 +1,7 @@
+files 222 distinct 222
+{
+  nonSimpleNonChain: 159,
+  converterErrors: 0,
+  sameAsMine: 159,
+  differ: 0
+}

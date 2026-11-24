@@ -1,0 +1,10 @@
+{
+  faces: 189,
+  fanOK: 189,
+  probs: 0,
+  simpleOK: 189,
+  simpleNull: 0,
+  agree: 189,
+  dis: 0,
+  twoSided: 0
+}

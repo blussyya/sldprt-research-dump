@@ -1,0 +1,166 @@
+C00_cube_10mm/model.SLDPRT ver 15000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+C01_cube_20mm/model.SLDPRT ver 15000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+C02_cube_translated/model.SLDPRT ver 15000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+C03_cube_fillet_1mm/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C04_cube_hole_5mm/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C05_cube_hole_3mm/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C06_cube_hole_moved/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C07_cube_two_holes/model.SLDPRT ver 15000 faces 8 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":8}
+C08_cube_second_hole_modified/model.SLDPRT ver 15000 faces 8 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":8}
+C09_cube_chamfer_1mm/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C10_cube_shell_1mm/model.SLDPRT ver 15000 faces 11 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":11}
+C11_cube_hole_4mm/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C12_cube_fillet_1mm_edge2/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C13_cone/model.SLDPRT ver 15000 faces 2 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":2}
+C14_sphere/model.SLDPRT ver 15000 faces 1 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":1}
+C15_torus/model.SLDPRT ver 15000 faces 1 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":1}
+C16_loft_spline/model.SLDPRT ver 15000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+C17_torus_quarter/model.SLDPRT ver 15000 faces 3 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":3}
+C18_cube_split_line/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C19_half_cylinder/model.SLDPRT ver 15000 faces 4 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":4}
+C20_cylinders_crossed/model.SLDPRT ver 15000 faces 8 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":8}
+C21_cylinder_fillet/model.SLDPRT ver 15000 faces 4 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":4}
+C23_cube_sw2011_to_2022/model.SLDPRT ver 15000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+C24_cube_sw2022_native/model.SLDPRT ver 15000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+SW2022/holefillets1-2022-neetn33t.SLDPRT ver 15000 faces 8 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":8}
+SW2026/cylinder with fillet-2026-credit-kevinR.SLDPRT ver 19000 faces 4 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":4}
+C00_cube_10mm-2011-to-2026/model.SLDPRT ver 19000 faces 6 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":6}
+C01_cube_20mm-2011-to-2026/model.SLDPRT ver 19000 faces 6 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":6}
+re-exports/holefillets1-2022to2026reexport-Furthen64-kevinR.SLDPRT ver 19000 faces 8 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":8}
+re-exports/plate4 1997to2025kevin.SLDPRT ver 18000 faces 14 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":14}
+re-exports/plate4-1997to2026kevinrahhal.sldprt ver 19000 faces 14 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":14}
+exports-SW2026/82981f2a_head_back-2026.sldprt ver 19000 faces 535 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":535}
+2015/0739c559_[HEAD-COVR-MIL1-COMN-00] Facemask & Mouthguard (Master).SLDPRT ver 8000 faces 342 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":342}
+2015/1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mounting Ring.SLDPRT ver 8000 faces 4 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":4}
+2016/118a3cb0_cut-z18-b1xh1xl1.SLDPRT ver 9000 faces 22 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":22}
+2016/289756ce_cut-z071-b1-l1-l2-typ.SLDPRT ver 9000 faces 18 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":18}
+2016/629adcec_cut-z351-d1xl1.SLDPRT ver 9000 faces 3 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":3}
+2016/70477058_mt-cut-z085-l1xb1-typ.SLDPRT ver 9000 faces 18 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":18}
+2017/51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT ver 10000 faces 8 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":8}
+2017/516a7dc5_Body1.sldprt ver 10000 faces 8 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":8}
+2017/afc71d14_Body2.sldprt ver 10000 faces 24 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":24}
+2017/d49566bc_AntennaMount.SLDPRT ver 8000 faces 16 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":16}
+2017/d799e9a3_90751A110_18-8 Stainless Steel Socket Head Screws.SLDPRT ver 10000 faces 249 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":249}
+2018/0132519a_102_STEM.SLDPRT ver 11000 faces 167 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":167}
+2018/06b5063b_050_MASTER_SKETCH.SLDPRT ver 11000 faces 0 {}
+2018/15567d51_leva1.SLDPRT ver 11000 faces 298 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":298}
+2018/361e7dbb_101_HOUSING.SLDPRT ver 11000 faces 262 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":262}
+2018/ca465363_103_COVER.SLDPRT ver 11000 faces 118 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":118}
+2018/d2515121_Ecran_128x32oled.SLDPRT ver 11000 faces 2512 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":2512}
+2018/eefa906d_plancher Dalle 2020.SLDPRT ver 7000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+2019/07ff8da1_shelf.SLDPRT ver 12000 faces 30 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":30}
+2019/096d0504_MargayMount_WH10.SLDPRT ver 12000 faces 18 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":18}
+2019/27377fd2_FE-00006-06.SLDPRT ver 11000 faces 8 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":8}
+2019/28398415_Raspberry Pi 4.SLDPRT ver 12000 faces 267 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":267}
+2019/300d7f07_Bottom Case.SLDPRT ver 12000 faces 50 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":50}
+2019/44afdb7c_back_cushion.SLDPRT ver 12000 faces 26 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":26}
+2019/54b05886_bottom_adc.SLDPRT ver 12000 faces 92 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":92}
+2019/636b653d_MountingBracket.SLDPRT ver 9000 faces 26 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":26}
+2019/7765d286_NSJ8L.SLDPRT ver 5000 faces 62 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":62}
+2019/8cd79ff5_1ESxx.SLDPRT ver 12000 faces 103 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":103}
+2019/91a2d981_Camera Module.SLDPRT ver 12000 faces 19 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":19}
+2019/a3a44709_FrontPanel-Bezel.sldprt ver 12000 faces 16 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":16}
+2019/d381ebab_bottom_dac.SLDPRT ver 12000 faces 83 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":83}
+2019/e8c40c25_psu.SLDPRT ver 12000 faces 271 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":271}
+2019/fb449daa_Gloworm PCB.SLDPRT ver 12000 faces 50 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":50}
+2020/14f9214b_11.SLDPRT ver 13000 faces 75 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":75}
+2020/320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.SLDPRT ver 9000 faces 42 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":42}
+2020/543861c9_BALL NUT BRACKET_(11-25-20).SLDPRT ver 13000 faces 69 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":69}
+2020/72b08e3e_Hip Cable HOlder.SLDPRT ver 13000 faces 28 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":28}
+2020/7841a106_6344428.SLDPRT ver 3800 faces 54 {"u128=0 a8@132=false u132=o c12@136=false a8@140=true":21,"u128=nz a8@132=false u132=o c12@136=false a8@140=true":33}
+2020/9494d959_27_20_4.SLDPRT ver 13000 faces 12 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":12}
+2020/b185085c_Handle 3.SLDPRT ver 13000 faces 33 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":33}
+2020/b32017f5_Engine Compartment - Sub Cover Hinges.SLDPRT ver 10000 faces 0 {}
+2021/85aabbde_84T Gear.SLDPRT ver 14000 faces 671 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":671}
+2021/916d4a0a_36T Gear.SLDPRT ver 14000 faces 295 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":295}
+2021/bc3292d7_12T Gear.SLDPRT ver 14000 faces 135 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":135}
+2021/eb0b2a21_60T Gear.SLDPRT ver 14000 faces 399 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":399}
+2022/073482d3_ReducerBox_1_Reducer.SLDPRT ver 15000 faces 109 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":109}
+2022/0d68d32d_6208K696_Clamping Precision Flexible Shaft Coupling.SLDPRT ver 10000 faces 103 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":103}
+2022/10459a56_A-2605-01_CR1_Right_Angle_Mount.SLDPRT ver 15000 faces 143 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":143}
+2022/1ee60868_z轴皮带固定.SLDPRT ver 15000 faces 32 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":32}
+2022/273a8d53_FG-F1.SLDPRT ver 15000 faces 76 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":76}
+2022/3c4752f1_A-2226-01_Input_Inline_Tube_Adapter.SLDPRT ver 15000 faces 239 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":239}
+2022/40e79d45_Fins.SLDPRT ver 15000 faces 12 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":12}
+2022/6ccc1814_LB26001-A-04-007.SLDPRT ver 15000 faces 9 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":9}
+2022/84226163_Fin.SLDPRT ver 15000 faces 10 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":10}
+2022/9cc04b03_SO-C1.SLDPRT ver 15000 faces 93 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":93}
+2022/a0ab30c8_LB26001-A-04-022.SLDPRT ver 15000 faces 37 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":37}
+2022/a0fc2e29_Vertical Spar.SLDPRT ver 15000 faces 11 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":11}
+2022/d753195d_ServoMount.SLDPRT ver 15000 faces 90 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":90}
+2022/db8a97e2_écrou fileté M5.SLDPRT ver 15000 faces 26 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":26}
+2022/dc265ce1_Fin.SLDPRT ver 15000 faces 10 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":10}
+2022/dd156283_637Z flanzi bearing.SLDPRT ver 15000 faces 11 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":11}
+2023/03764871_BME280.SLDPRT ver 16000 faces 693 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":693}
+2023/1759e569_mahatbalam_ex7_beg.SLDPRT ver 16000 faces 35 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":35}
+2023/2f121983_case.SLDPRT ver 16000 faces 155 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":155}
+2023/2fd21507_MidplateEM2.SLDPRT ver 16000 faces 49 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":49}
+2023/31596c7e_EC11 Rotary Encoder 15mm.SLDPRT ver 16000 faces 99 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":99}
+2023/3edbf014_TEST shortened Dock (Final).SLDPRT ver 16000 faces 127 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":127}
+2023/41b71219_板材-Guidance安装板.SLDPRT ver 16000 faces 82 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":82}
+2023/4803f393_box.SLDPRT ver 16000 faces 1390 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":1390}
+2023/9aeafb66_标准件-30mm管夹.SLDPRT ver 16000 faces 37 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":37}
+2023/d0d61cde_官方元件-定位模块.SLDPRT ver 16000 faces 544 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":544}
+2023/d2f7f9bd_iman.SLDPRT ver 8000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+2023/d77ec77a_TopSheet.SLDPRT ver 16000 faces 67 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":67}
+2023/d8206ed0_J6_Flange_Adapter.SLDPRT ver 16000 faces 34 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":34}
+2023/ef1d5cfe_DS3231.SLDPRT ver 16000 faces 404 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":404}
+2024/03afebf4_Profilringe.SLDPRT ver 13000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+2024/09d353a9_Elbow_Mount2.SLDPRT ver 17000 faces 40 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":40}
+2024/1e794aad_6344387.SLDPRT ver 4100 faces 117 {"u128=0 a8@132=false u132=o c12@136=false a8@140=true":98,"u128=nz a8@132=false u132=o c12@136=false a8@140=true":19}
+2024/225c13ed_camholder0deg.SLDPRT ver 17000 faces 49 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":49}
+2024/2300f35c_Thigh Symétrie.SLDPRT ver 17000 faces 172 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":172}
+2024/346a04bc_R01_D_lower_1_140_washer_head.SLDPRT ver 17000 faces 4 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":4}
+2024/37663d8a_Gasket For M12.SLDPRT ver 17000 faces 11 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":11}
+2024/4febfc67_6344149.SLDPRT ver 3800 faces 19 {"u128=0 a8@132=false u132=o c12@136=false a8@140=true":13,"u128=nz a8@132=false u132=o c12@136=false a8@140=true":6}
+2024/766ad273_WP06_washer_inner_-1_-94.SLDPRT ver 17000 faces 4 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":4}
+2024/7fa6934e_Aluminum Box Pt 2.SLDPRT ver 17000 faces 22 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":22}
+2024/871e670c_servo_adapter.SLDPRT ver 17000 faces 32 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":32}
+2024/951f2bc1_Boitier.SLDPRT ver 17000 faces 26 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":26}
+2024/a4ecc6f5_PP-2074-08.SLDPRT ver 17000 faces 961 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":961}
+2024/be0e76cf_WP06_screw_1_-94.SLDPRT ver 17000 faces 16 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":16}
+2024/bf11f45c_shear_clip_1_150_-94.SLDPRT ver 17000 faces 8 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":8}
+2025/05d0b4c3_pin-2-2.SLDPRT ver 18000 faces 500 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":500}
+2025/16f99cd7_装甲板固定（前）.SLDPRT ver 18000 faces 34 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":34}
+2025/3e41786b_LB26001-A-04-002_seed.SLDPRT ver 18000 faces 18 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":18}
+2025/50af9019_7x4 P42a Cell Holder.SLDPRT ver 18000 faces 274 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":274}
+2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT ver 18000 faces 428 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":428}
+2025/55c163ac_pin-1-2.SLDPRT ver 18000 faces 452 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":452}
+2025/6fd68589_pin-2-1.SLDPRT ver 18000 faces 500 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":500}
+2025/822f5572_一级挡块-hhr镂空限位.SLDPRT ver 18000 faces 18 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":18}
+2025/8aaecde6_6008内圈下加工件.SLDPRT ver 18000 faces 46 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":46}
+2025/8afc9212_[HEAD-A-B-11-L] Face Block Middle Left.SLDPRT ver 8000 faces 14 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":14}
+2025/ac760485_存矿小端.SLDPRT ver 18000 faces 38 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":38}
+2025/c613782b_Крепёжная-Планка.SLDPRT ver 18000 faces 13 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":13}
+2025/e8f16581_Engine Base.SLDPRT ver 18000 faces 10 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":10}
+2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT ver 18000 faces 33 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":33}
+2025/f6facc43_[HEAD-A-B-08] Slope Panels.SLDPRT ver 8000 faces 17 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":17}
+2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT ver 19000 faces 54 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":54}
+2026/2693f32a_GE-26501-02_ Tower Base Angle.SLDPRT ver 16000 faces 0 {}
+2026/2e6e140a_ST3215_C018_04.SLDPRT ver 19000 faces 1117 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":1117}
+2026/4d85599e_base-M4.SLDPRT ver 19000 faces 12 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":12}
+2026/c292e7e2_18t x 15mm Wide Aluminum Pulley (HTD 5mm, 1_2_ Hex Bore) (WCP-0991).SLDPRT ver 16000 faces 0 {}
+2026/c5784ab3_A09_power_and_compute_rack.SLDPRT ver 19000 faces 88 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":88}
+2026/d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod.SLDPRT ver 16000 faces 0 {}
+2026/daa6e9e9_CR26-201-08.SLDPRT ver 19000 faces 296 {"u128=0 a8@132=false u132=1 c12@136=true a8@140=false":296}
+test files original/Dekor.SLDPRT ver 14000 faces 375 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":375}
+test files original/Helical Bevel Gear.SLDPRT ver 15000 faces 113 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":113}
+test files original/PTC GE8080-8.SLDPRT ver 17000 faces 126 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":126}
+test files original/Pocket Wheel.SLDPRT ver 16000 faces 400 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":400}
+C00_cube_10mm/model.SLDPRT ver 15000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+C01_cube_20mm/model.SLDPRT ver 15000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+C02_cube_translated/model.SLDPRT ver 15000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+C03_cube_fillet_1mm/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C04_cube_hole_5mm/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C05_cube_hole_3mm/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C06_cube_hole_moved/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C07_cube_two_holes/model.SLDPRT ver 15000 faces 8 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":8}
+C08_cube_second_hole_modified/model.SLDPRT ver 15000 faces 8 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":8}
+C09_cube_chamfer_1mm/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C10_cube_shell_1mm/model.SLDPRT ver 15000 faces 11 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":11}
+C11_cube_hole_4mm/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+C12_cube_fillet_1mm_edge2/model.SLDPRT ver 15000 faces 7 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":7}
+test files original/cube.SLDPRT ver 15000 faces 6 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":6}
+test files original/distributor main boss rev a.SLDPRT ver 17000 faces 51 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":51}
+usb hub case (ultimate test)/USB hub case BOTTOM.SLDPRT ver 13000 faces 39 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":39}
+usb hub case (ultimate test)/USB hub case TOP.SLDPRT ver 13000 faces 68 {"u128=nz a8@132=true u132=o c12@136=false a8@140=false":68}

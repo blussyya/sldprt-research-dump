@@ -1,0 +1,15 @@
+online/2013/f666f342_head_face.sldprt face 19 vertex 212 incident ids 944,7336,943,957 fan loops visiting 7:2 | no native
+online/2013/f666f342_head_face.sldprt face 392 vertex 140 incident ids 11825,11457,11830,11456 fan loops visiting 5:2 | no native
+online/2018/0132519a_102_STEM.SLDPRT face 41 vertex 2 incident ids 4741,4847,5021 fan loops visiting 0:2 | distinct native verts 1 | 4741:v4767@1.9e-10 4847:v4767@1.9e-10 5021:v4767@1.9e-10 | loops(native) 2
+online/2022/073482d3_ReducerBox_1_Reduce face 20 vertex 1 incident ids 1110,232,1120 fan loops visiting 0:2 | distinct native verts 1 | 1110:v1131@4.9e-10 232:v1131@4.9e-10 1120:v1131@4.9e-10 | loops(native) 1
+online/2022/073482d3_ReducerBox_1_Reduce face 21 vertex 1 incident ids 1251,214,1261 fan loops visiting 0:2 | distinct native verts 1 | 1251:v1272@7.1e-10 214:v1272@7.1e-10 1261:v1272@7.1e-10 | loops(native) 1
+online/2022/073482d3_ReducerBox_1_Reduce face 22 vertex 1 incident ids 1392,196,1402 fan loops visiting 0:2 | distinct native verts 1 | 1392:v1413@4.9e-10 196:v1413@4.9e-10 1402:v1413@4.9e-10 | loops(native) 1
+online/2022/073482d3_ReducerBox_1_Reduce face 23 vertex 1 incident ids 404,178,417 fan loops visiting 0:2 | distinct native verts 1 | 404:v430@7.1e-10 178:v430@7.1e-10 417:v430@7.1e-10 | loops(native) 1
+online/2022/073482d3_ReducerBox_1_Reduce face 24 vertex 1 incident ids 555,160,565 fan loops visiting 0:2 | distinct native verts 1 | 555:v576@4.9e-10 160:v576@4.9e-10 565:v576@4.9e-10 | loops(native) 1
+online/2022/073482d3_ReducerBox_1_Reduce face 25 vertex 1 incident ids 696,142,706 fan loops visiting 0:2 | distinct native verts 1 | 696:v717@7.1e-10 142:v717@7.1e-10 706:v717@7.1e-10 | loops(native) 1
+online/2022/073482d3_ReducerBox_1_Reduce face 26 vertex 1 incident ids 837,124,847 fan loops visiting 0:2 | distinct native verts 1 | 837:v858@4.9e-10 124:v858@4.9e-10 847:v858@4.9e-10 | loops(native) 1
+online/2022/073482d3_ReducerBox_1_Reduce face 27 vertex 1 incident ids 974,106,984 fan loops visiting 0:2 | distinct native verts 1 | 974:v995@7.1e-10 106:v995@7.1e-10 984:v995@7.1e-10 | loops(native) 1
+online/2023/4803f393_box.SLDPRT face 964 vertex 1 incident ids 9429,9416,9420 fan loops visiting 0:2 | distinct native verts 1 | 9429:v9332@4.4e-9 9416:v9332@4.4e-9 9420:v9332@4.4e-9 | loops(native) 2
+online/2024/225c13ed_camholder0deg.SLDPR face 5 vertex 1 incident ids 601,648,514 fan loops visiting 0:2 | distinct native verts 1 | 601:v600@1.5e-9 648:v600@1.5e-9 514:v600@1.5e-9 | loops(native) 3
+online/2025/f0b9a118_Standoff_M3x0.5_37  face 1 vertex 10 incident ids 20,146,139 fan loops visiting 0:2 | distinct native verts 1 | 20:v160@2.3e-11 146:v160@2.3e-11 139:v160@2.3e-11 | loops(native) 1
+online/2025/f0b9a118_Standoff_M3x0.5_37  face 15 vertex 51 incident ids 1260,174,1252 fan loops visiting 0:2 | distinct native verts 1 | 1260:v1263@4.8e-10 174:v1263@4.8e-10 1252:v1263@4.8e-10 | loops(native) 2

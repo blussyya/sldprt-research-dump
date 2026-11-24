@@ -1,0 +1,12 @@
+{
+  faces: 732,
+  joinedUnique: 345,
+  none: 387,
+  multi: 0,
+  loopsEqual: 345,
+  mismatchFaces: 0,
+  mism: []
+}
+non-simple faces [ [ 19, 'join 0' ], [ 392, 'join 0' ] ]
+face 75 native candidates 1 cylinder native loops 2 fan loops 2
+face 448 native candidates 0 undefined native loops undefined fan loops 2

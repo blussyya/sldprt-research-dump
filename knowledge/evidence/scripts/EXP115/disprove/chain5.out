@@ -1,0 +1,13 @@
+join by edge-id set: unique 189 several 0 none 0 of 189
+raw (as converter reads)     faces joined 189 fan closed 48 loops equal native 48
+swap first two [1,0,2]       faces joined 189 fan closed 189 loops equal native 189
+[0,2,1]                      faces joined 189 fan closed 48 loops equal native 48
+[1,2,0]                      faces joined 189 fan closed 51 loops equal native 51
+[2,0,1]                      faces joined 189 fan closed 176 loops equal native 60
+[2,1,0]                      faces joined 189 fan closed 48 loops equal native 48
+files with control-0 strips {
+  'online/2011/6ff6c243_通气塞.SLDPRT': { faces: 1, strips: 8 },
+  'online/2024/4febfc67_6344149.SLDPRT': { faces: 1, strips: 8 },
+  'original/chainwheel.sldprt': { faces: 141, strips: 276 }
+}
+chainwheel control-0 strips 276 sizes { '3': 276 } control-1 strips 591

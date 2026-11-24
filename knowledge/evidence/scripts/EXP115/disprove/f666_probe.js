@@ -1,0 +1,16 @@
+const {S,ROOT}=require('./lib');
+const p=ROOT+'test files online/2013/f666f342_head_face.sldprt';const d=S.parse(p);const r=S.readBrep(p);const M=S.brep.model(r.parsed);
+const all=new Set([...M.edges.values()].map(e=>e.displayId));
+let inAll=0,partial=0,none=0;const ex=[];
+d.faces.forEach((f,i)=>{const ids=[...new Set(f.edgeAnnotations.map(e=>e.id).filter(x=>x))];const k=ids.filter(x=>all.has(x)).length;if(k===ids.length)inAll++;else if(k)partial++;else{none++;if(ex.length<4)ex.push([i,ids.slice(0,6)]);}});
+console.log({faces:d.faces.length,allIdsExistNative:inAll,someIdsExist:partial,noIdsExist:none,ex});
+console.log('native edge displayId range',Math.min(...all),Math.max(...all),'count',all.size);
+const f=d.faces[19];console.log('face19 ids',[...new Set(f.edgeAnnotations.map(e=>e.id).filter(x=>x))].sort((a,b)=>a-b).join(','));
+const nat=M.faces.map(nf=>({nf,set:new Set(nf.loops.flatMap(l=>l.coedges.map(c=>M.edges.get(c.edge).displayId)))}));
+let eq=0,sup=0,sub=0,other=0;const diffs=[];
+d.faces.forEach((f,i)=>{const ids=[...new Set(f.edgeAnnotations.map(e=>e.id).filter(x=>x))];
+  const best=nat.map(n=>({n,common:ids.filter(x=>n.set.has(x)).length})).sort((a,b)=>b.common-a.common)[0];
+  const dn=ids.length-best.common,nd=best.n.set.size-best.common;
+  if(dn===0&&nd===0)eq++;else if(dn===0)sup++;else if(nd===0)sub++;else other++;
+  if(!(dn===0&&nd===0)&&diffs.length<6)diffs.push({i,disp:ids.length,nat:best.n.set.size,common:best.common,dispOnly:ids.filter(x=>!best.n.set.has(x)).slice(0,5),natOnly:[...best.n.set].filter(x=>!ids.includes(x)).slice(0,5),surf:best.n.nf.surface.type});});
+console.log({eq,nativeHasExtra:sup,displayHasExtra:sub,both:other});console.log(diffs);

@@ -1,0 +1,7 @@
+word order for edges (v,v+1),(v,v+2),(v+1,v+2) -> faces with every node degree 2
+   203 189 189
+   213 189 189
+   021 176 189
+   031 176 189
+   120 176 189
+   130 176 189

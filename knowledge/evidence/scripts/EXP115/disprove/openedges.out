@@ -1,0 +1,38 @@
+{
+  'otherLegacy tol=0': { faces: 966, facesWithOpenNotCut: 0, openNotCut: 0, faceOver2: 0 },
+  'otherLegacy tol=1e-7': { faces: 966, facesWithOpenNotCut: 0, openNotCut: 0, faceOver2: 0 },
+  'otherLegacy tol=0.000001': { faces: 966, facesWithOpenNotCut: 0, openNotCut: 0, faceOver2: 0 },
+  'otherLegacy tol=0.00001': { faces: 966, facesWithOpenNotCut: 0, openNotCut: 0, faceOver2: 0 },
+  'modern tol=0': { faces: 19201, facesWithOpenNotCut: 0, openNotCut: 0, faceOver2: 0 },
+  'modern tol=1e-7': { faces: 19201, facesWithOpenNotCut: 0, openNotCut: 0, faceOver2: 0 },
+  'modern tol=0.000001': { faces: 19201, facesWithOpenNotCut: 0, openNotCut: 0, faceOver2: 1 },
+  'modern tol=0.00001': { faces: 19201, facesWithOpenNotCut: 0, openNotCut: 0, faceOver2: 6 },
+  'f666f342 tol=0': { faces: 732, facesWithOpenNotCut: 2, openNotCut: 86, faceOver2: 0 },
+  'f666f342 tol=1e-7': { faces: 732, facesWithOpenNotCut: 2, openNotCut: 86, faceOver2: 0 },
+  'f666f342 tol=0.000001': { faces: 732, facesWithOpenNotCut: 2, openNotCut: 86, faceOver2: 0 },
+  'f666f342 tol=0.00001': { faces: 732, facesWithOpenNotCut: 2, openNotCut: 77, faceOver2: 1 },
+  'chainwheel tol=0': {
+    faces: 189,
+    facesWithOpenNotCut: 141,
+    openNotCut: 274,
+    faceOver2: 0
+  },
+  'chainwheel tol=1e-7': {
+    faces: 189,
+    facesWithOpenNotCut: 141,
+    openNotCut: 274,
+    faceOver2: 0
+  },
+  'chainwheel tol=0.000001': {
+    faces: 189,
+    facesWithOpenNotCut: 141,
+    openNotCut: 274,
+    faceOver2: 0
+  },
+  'chainwheel tol=0.00001': {
+    faces: 189,
+    facesWithOpenNotCut: 141,
+    openNotCut: 274,
+    faceOver2: 0
+  }
+}

@@ -1,0 +1,5 @@
+A {"n":14493,"noWalk":0,"res0":13499,"tagOK":13499,"dirOK":13499,"edgesMatch":13493,"endLEnxt":13556,"ctrl":{"4":0,"8":0,"16":0,"-16":0,"-8":0,"-4":0},"full":13493} topgaps 60:2241 204:1103 52:846 362:845
+C@19000 {"n":2140,"noWalk":0,"res0":2140,"tagOK":2140,"dirOK":2140,"edgesMatch":2128,"endLEnxt":2140,"ctrl":{"4":0,"8":0,"16":0,"-16":0,"-8":0,"-4":0},"full":2128} topgaps 362:380 390:328 434:124 358:117
+C@18000 {"n":2344,"noWalk":0,"res0":2344,"tagOK":2344,"dirOK":2344,"edgesMatch":2344,"endLEnxt":2344,"ctrl":{"4":0,"8":0,"16":0,"-16":0,"-8":0,"-4":0},"full":2344} topgaps 342:1151 338:272 534:112 394:108
+B {"n":190,"noWalk":1,"res0":0,"tagOK":0,"dirOK":0,"edgesMatch":0,"endLEnxt":1,"ctrl":{},"full":0} topgaps 161:1
+A@18000 {"n":34,"noWalk":0,"res0":34,"tagOK":34,"dirOK":34,"edgesMatch":34,"endLEnxt":34,"ctrl":{"4":0,"8":0,"16":0,"-16":0,"-8":0,"-4":0},"full":34} topgaps 318:8 354:6 406:6 386:5

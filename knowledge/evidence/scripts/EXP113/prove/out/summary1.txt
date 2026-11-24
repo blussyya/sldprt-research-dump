@@ -1,0 +1,139 @@
+files read 181 skipped 6 ( 10582557_927; 34a1cacb_912; 8ac95686_sep; 9e494ca4_911; d7b58324_sma; SW2000-s01.S )
+display faces tagged cylinder 6073 cone 571 joined to a native cylinder/cone face 6569 not joined 75 {"id":5811,"none":75,"type":214,"geometry":544}
+faces checked 6569 vertex copies 225353 of which repeated copies of a position 38627 distinct flagged positions (>1e-7 m off surface) 26219
+cone / chord (<=2 ulp)                                                           2275 |dSurf| 1.04e-7..5.21e-4 dChord 0.00e+0..1.13e-8
+cone / off-chord, on a curve (edge curve or a fin curve, <= 1 ulp)                 18 |dSurf| 1.02e-7..9.89e-7 dChord 2.98e-6..1.82e-5
+cylinder / chord (<=2 ulp)                                                      23858 |dSurf| 1.00e-7..2.45e-4 dChord 0.00e+0..5.57e-8
+cylinder / corner                                                                  17 |dSurf| 1.79e-7..2.87e-7 
+cylinder / near-chord (2 ulp < d <= 1e-8)                                          11 |dSurf| 1.77e-7..3.10e-7 dChord 4.84e-10..1.75e-9
+cylinder / off-chord, on a curve (edge curve or a fin curve, <= 1 ulp)             40 |dSurf| 1.02e-7..4.22e-7 dChord 7.56e-8..4.17e-5
+
+strict chord points: distance to the edge curve against distance to the surface
+flagged boundary vertices whose edge id matches no native edge of the face (no curve to test): 115 by file {"0132519a":24,"543861c9":91} edge ids 6907,6889,6839,6871,6771,6715,6827,6659,1930,833
+cone bspline                 37 curve evaluated 37 dCurve/dSurf 1.045..3.884 on curve (<=1 ulp) 0 dChord max 8.24e-9 dChord/Q max 0.55
+cone circle                1463 curve evaluated 1463 dCurve/dSurf 1.000..1.941 on curve (<=1 ulp) 0 dChord max 1.06e-8 dChord/Q max 0.78
+cone ellipse                  4 curve evaluated 4 dCurve/dSurf 1.926..1.926 on curve (<=1 ulp) 0 dChord max 2.27e-10 dChord/Q max 0.49
+cone intersection           299 curve evaluated 0 dCurve/dSurf - on curve (<=1 ulp) 0 dChord max 6.29e-9 dChord/Q max 0.99
+cone tolerant               448 curve evaluated 448 dCurve/dSurf 0.737..13.969 on curve (<=1 ulp) 0 dChord max 1.13e-8 dChord/Q max 0.91
+cylinder bspline           7918 curve evaluated 7918 dCurve/dSurf 0.999..2.890 on curve (<=1 ulp) 0 dChord max 1.48e-8 dChord/Q max 1.17
+cylinder circle            5792 curve evaluated 5792 dCurve/dSurf 0.982..1.002 on curve (<=1 ulp) 0 dChord max 1.92e-8 dChord/Q max 1.55
+cylinder ellipse            582 curve evaluated 582 dCurve/dSurf 0.999..1.618 on curve (<=1 ulp) 0 dChord max 1.28e-8 dChord/Q max 0.86
+cylinder intersection      3544 curve evaluated 0 dCurve/dSurf - on curve (<=1 ulp) 0 dChord max 5.39e-8 dChord/Q max 1.33
+cylinder tolerant          5931 curve evaluated 5931 dCurve/dSurf 0.333..31.821 on curve (<=1 ulp) 0 dChord max 5.57e-8 dChord/Q max 1.13
+
+control 1: boundary vertices on the surface (|dSurf| <= 1 ulp) against their edge curve
+  circle       104228 max dCurve 5.01e-8 max dCurve/ulp 0.78 over (1 ulp+1e-10): 0
+  ellipse      85 max dCurve 3.44e-9 max dCurve/ulp 0.79 over (1 ulp+1e-10): 0
+  line         199 max dCurve 4.01e-9 max dCurve/ulp 0.65 over (1 ulp+1e-10): 0
+  bspline      32 max dCurve 5.64e-9 max dCurve/ulp 0.47 over (1 ulp+1e-10): 0
+  tolerant     35 max dCurve 2.90e-8 max dCurve/ulp 0.61 over (1 ulp+1e-10): 0
+  all 104579 over bar 0 (of 104721 on-curve-evaluable boundary vertices with |dSurf|<=1e-7)
+control 2/3 (moved vertex; synthetic chord point): {"n":1276,"caught":1276,"notChord":1276} {"n":1276,"chord":1276,"flagged":1262,"flaggedChord":1262}
+
+chord test sanity: how close is the nearer neighbour, and how long is the chord (flagged boundary vertices)
+ flagged boundary vertices 26202 with a neighbour within 4 ulp of the vertex (empty test): 8 of which counted as strict chord 8
+ neighbour distance (nearer one) over the strict chords: min 1.35e-8  chord length min 1.77e-6
+ strict chords with both neighbours farther than 4 ulp: 26125
+ dChord of all non-degenerate flagged boundary vertices: counts <=2e-9 21520  2e-9..5e-8 4613  5e-8..1e-7 4  >1e-7 57
+
+exceptions (not strict chord) in detail, distinct by file+position:
+  03764871 cylinder face 10100 mid dSurf -2.73e-7 dChord 1.18e-9 Q 2.33e-10 nearest curve trimmed-circle d=2.73e-7 edge tol - 
+  03764871 cylinder face 10100 mid dSurf -3.01e-7 dChord 1.75e-9 Q 2.33e-10 nearest curve trimmed-circle d=3.01e-7 edge tol - 
+  03764871 cylinder face 10100 mid dSurf -1.91e-7 dChord 1.75e-9 Q 2.33e-10 nearest curve trimmed-circle d=1.91e-7 edge tol - 
+  03764871 cylinder face 10100 mid dSurf -2.19e-7 dChord 1.75e-9 Q 2.33e-10 nearest curve trimmed-circle d=2.19e-7 edge tol - 
+  03764871 cylinder face 10100 mid dSurf -3.08e-7 dChord 1.75e-9 Q 2.33e-10 nearest curve trimmed-circle d=3.08e-7 edge tol - 
+  03764871 cylinder face 10100 mid dSurf -2.56e-7 dChord 1.17e-9 Q 2.33e-10 nearest curve trimmed-circle d=2.56e-7 edge tol - 
+  03764871 cylinder face 10086 mid dSurf -1.77e-7 dChord 4.84e-10 Q 2.33e-10 nearest curve trimmed-circle d=1.77e-7 edge tol - 
+  03764871 cylinder face 10086 mid dSurf -2.13e-7 dChord 6.99e-10 Q 2.33e-10 nearest curve trimmed-circle d=2.13e-7 edge tol - 
+  03764871 cylinder face 10086 mid dSurf -2.10e-7 dChord 7.00e-10 Q 2.33e-10 nearest curve trimmed-circle d=2.10e-7 edge tol - 
+  03764871 cylinder face 10086 mid dSurf -3.10e-7 dChord 7.00e-10 Q 2.33e-10 nearest curve trimmed-circle d=3.10e-7 edge tol - 
+  03764871 cylinder face 10086 mid dSurf -2.48e-7 dChord 4.86e-10 Q 2.33e-10 nearest curve trimmed-circle d=2.48e-7 edge tol - 
+  2e6e140a cylinder face 1628 mid dSurf -1.49e-7 dChord 2.55e-6 Q 1.49e-8 nearest curve tolSp@1822 d=2.60e-9 edge tol 7.82e-7 
+  2e6e140a cylinder face 1628 mid dSurf 1.02e-7 dChord 1.27e-6 Q 1.49e-8 nearest curve tolSp@1822 d=3.38e-10 edge tol 7.82e-7 
+  2e6e140a cylinder face 6572 mid dSurf 1.05e-7 dChord 3.87e-6 Q 1.49e-8 nearest curve tolSp@6576 d=7.36e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 13957 mid dSurf 1.25e-7 dChord 3.89e-7 Q 1.49e-8 nearest curve tolSp@13892 d=2.45e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 13957 mid dSurf 1.15e-7 dChord 5.05e-6 Q 1.49e-8 nearest curve tolSp@13892 d=9.31e-10 edge tol 5.00e-7 
+  2e6e140a cylinder face 13957 mid dSurf 1.21e-7 dChord 2.17e-6 Q 1.49e-8 nearest curve tolSp@13892 d=6.63e-11 edge tol 5.00e-7 
+  2e6e140a cylinder face 13957 mid dSurf 1.28e-7 dChord 2.99e-7 Q 1.49e-8 nearest curve tolSp@13892 d=4.13e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 13957 mid dSurf 1.20e-7 dChord 3.07e-6 Q 1.49e-8 nearest curve tolSp@13892 d=2.63e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 13957 mid dSurf 1.13e-7 dChord 5.80e-6 Q 1.49e-8 nearest curve tolSp@13892 d=1.28e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 13957 mid dSurf 1.04e-7 dChord 2.65e-6 Q 1.49e-8 nearest curve tolSp@13892 d=4.64e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 13957 mid dSurf -1.03e-7 dChord 3.10e-6 Q 1.49e-8 nearest curve tolSp@13892 d=1.04e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 13957 mid dSurf -1.12e-7 dChord 1.61e-6 Q 1.49e-8 nearest curve tolSp@13892 d=1.13e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 12852 corner dSurf -2.83e-7  Q 1.49e-8  native vertex d 4.47e-9 tol 8.55e-7
+  2e6e140a cylinder face 12852 corner dSurf -2.83e-7  Q 1.49e-8  native vertex d 4.77e-9 tol 8.55e-7
+  2e6e140a cylinder face 12849 corner dSurf -2.37e-7  Q 1.49e-8  native vertex d 4.24e-9 tol 7.23e-7
+  2e6e140a cylinder face 12849 corner dSurf -2.37e-7  Q 1.49e-8  native vertex d 3.97e-9 tol 7.23e-7
+  2e6e140a cylinder face 12849 corner dSurf 2.87e-7  Q 1.49e-8  native vertex d 4.77e-9 tol 8.55e-7
+  2e6e140a cylinder face 12849 corner dSurf 2.87e-7  Q 1.49e-8  native vertex d 4.47e-9 tol 8.55e-7
+  2e6e140a cylinder face 12846 corner dSurf 2.40e-7  Q 1.49e-8  native vertex d 3.97e-9 tol 7.23e-7
+  2e6e140a cylinder face 12846 corner dSurf 2.40e-7  Q 1.49e-8  native vertex d 4.24e-9 tol 7.23e-7
+  2e6e140a cylinder face 12474 corner dSurf -2.81e-7  Q 1.49e-8  native vertex d 1.57e-9 tol 8.55e-7
+  2e6e140a cylinder face 12474 corner dSurf -2.81e-7  Q 1.49e-8  native vertex d 1.88e-9 tol 8.55e-7
+  2e6e140a cylinder face 12471 corner dSurf -2.37e-7  Q 1.49e-8  native vertex d 6.93e-9 tol 7.23e-7
+  2e6e140a cylinder face 12471 corner dSurf -2.37e-7  Q 1.49e-8  native vertex d 6.66e-9 tol 7.23e-7
+  2e6e140a cylinder face 12471 corner dSurf 2.84e-7  Q 1.49e-8  native vertex d 1.88e-9 tol 8.55e-7
+  2e6e140a cylinder face 12471 corner dSurf 2.84e-7  Q 1.49e-8  native vertex d 1.57e-9 tol 8.55e-7
+  2e6e140a cylinder face 12468 corner dSurf 2.41e-7  Q 1.49e-8  native vertex d 6.66e-9 tol 7.23e-7
+  2e6e140a cylinder face 12468 corner dSurf 2.41e-7  Q 1.49e-8  native vertex d 6.93e-9 tol 7.23e-7
+  2e6e140a cylinder face 11176 mid dSurf 1.79e-7 dChord 3.00e-6 Q 1.49e-8 nearest curve tolSp@13892 d=6.37e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.67e-7 dChord 5.79e-6 Q 1.49e-8 nearest curve tolSp@13892 d=5.00e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.47e-7 dChord 3.89e-6 Q 1.49e-8 nearest curve tolSp@13892 d=3.18e-10 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.29e-7 dChord 1.36e-6 Q 1.49e-8 nearest curve tolSp@13892 d=3.21e-10 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.16e-7 dChord 2.32e-6 Q 1.49e-8 nearest curve tolSp@13892 d=2.40e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.08e-7 dChord 5.30e-6 Q 1.49e-8 nearest curve tolSp@13892 d=4.94e-10 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.37e-7 dChord 2.69e-6 Q 1.49e-8 nearest curve tolSp@13892 d=2.82e-10 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.58e-7 dChord 5.93e-6 Q 1.49e-8 nearest curve tolSp@13892 d=6.17e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.17e-7 dChord 3.97e-6 Q 1.49e-8 nearest curve tolSp@13892 d=1.91e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.16e-7 dChord 3.45e-6 Q 1.49e-8 nearest curve tolSp@13892 d=5.42e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.40e-7 dChord 7.56e-8 Q 1.49e-8 nearest curve tolSp@13892 d=2.46e-10 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.59e-7 dChord 4.72e-6 Q 1.49e-8 nearest curve tolSp@13892 d=3.49e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.68e-7 dChord 5.35e-6 Q 1.49e-8 nearest curve tolSp@13892 d=6.83e-10 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.72e-7 dChord 2.57e-6 Q 1.49e-8 nearest curve tolSp@13892 d=3.71e-9 edge tol 5.00e-7 
+  2e6e140a cylinder face 11176 mid dSurf 1.75e-7 dChord 1.54e-7 Q 1.49e-8 nearest curve tolSp@13892 d=3.10e-9 edge tol 5.00e-7 
+  2f121983 cylinder face 482 mid dSurf 1.18e-7 dChord 1.22e-5 Q 1.86e-9 nearest curve fin@2(fin of a non-tolerant edge) d=4.91e-10 edge tol - 
+  2f121983 cylinder face 482 mid dSurf 2.84e-7 dChord 3.86e-5 Q 1.86e-9 nearest curve fin@2(fin of a non-tolerant edge) d=4.48e-10 edge tol - 
+  2f121983 cylinder face 482 mid dSurf 1.18e-7 dChord 1.00e-5 Q 1.86e-9 nearest curve fin@2(fin of a non-tolerant edge) d=7.84e-10 edge tol - 
+  2f121983 cylinder face 482 mid dSurf 2.47e-7 dChord 5.33e-6 Q 1.86e-9 nearest curve fin@2(fin of a non-tolerant edge) d=5.12e-10 edge tol - 
+  2f121983 cylinder face 482 mid dSurf 1.91e-7 dChord 4.17e-5 Q 1.86e-9 nearest curve fin@2(fin of a non-tolerant edge) d=3.68e-10 edge tol - 
+  2f121983 cylinder face 482 corner dSurf 1.79e-7  Q 1.86e-9  native vertex d 8.59e-10 tol 4.24e-6
+  2f121983 cylinder face 262 mid dSurf 1.19e-7 dChord 2.68e-5 Q 1.86e-9 nearest curve fin@2(fin of a non-tolerant edge) d=4.30e-10 edge tol - 
+  2f121983 cylinder face 262 mid dSurf 2.85e-7 dChord 1.28e-5 Q 1.86e-9 nearest curve fin@2(fin of a non-tolerant edge) d=2.99e-10 edge tol - 
+  2f121983 cylinder face 262 mid dSurf 1.19e-7 dChord 3.87e-5 Q 1.86e-9 nearest curve fin@2(fin of a non-tolerant edge) d=4.67e-10 edge tol - 
+  2f121983 cylinder face 262 mid dSurf 2.58e-7 dChord 4.00e-5 Q 1.86e-9 nearest curve fin@2(fin of a non-tolerant edge) d=5.94e-10 edge tol - 
+  2f121983 cylinder face 262 mid dSurf 2.10e-7 dChord 5.84e-6 Q 1.86e-9 nearest curve fin@2(fin of a non-tolerant edge) d=8.93e-10 edge tol - 
+  Dekor.SL cylinder face 8654 mid dSurf -1.17e-7 dChord 1.06e-5 Q 5.96e-8 nearest curve tolSp@8644 d=3.06e-8 edge tol 5.00e-7 
+  Dekor.SL cylinder face 8654 mid dSurf -1.47e-7 dChord 8.25e-6 Q 5.96e-8 nearest curve tolSp@8644 d=2.25e-8 edge tol 5.00e-7 
+  a4ecc6f5 cylinder face 21378 mid dSurf -4.22e-7 dChord 1.68e-6 Q 1.86e-9 nearest curve tolSp@21557 d=7.95e-10 edge tol 6.00e-7 
+  d0d61cde cone face 15082 mid dSurf -1.40e-7 dChord 1.48e-5 Q 7.45e-9 nearest curve tolSp@16319 d=1.68e-9 edge tol 1.85e-6 
+  d0d61cde cone face 15082 mid dSurf -9.89e-7 dChord 1.82e-5 Q 7.45e-9 nearest curve tolSp@16319 d=1.07e-9 edge tol 1.85e-6 
+  d0d61cde cone face 15082 mid dSurf -7.54e-7 dChord 7.42e-6 Q 7.45e-9 nearest curve tolSp@16319 d=2.46e-10 edge tol 1.85e-6 
+  d0d61cde cone face 15082 mid dSurf -1.50e-7 dChord 4.28e-6 Q 7.45e-9 nearest curve tolSp@16319 d=1.29e-9 edge tol 1.85e-6 
+  d0d61cde cone face 15087 mid dSurf -3.42e-7 dChord 9.36e-6 Q 7.45e-9 nearest curve tolSp@16181 d=1.27e-10 edge tol 6.55e-7 
+  d0d61cde cone face 15112 mid dSurf -3.43e-7 dChord 9.36e-6 Q 3.73e-9 nearest curve tolSp@16165 d=1.81e-10 edge tol 7.31e-7 
+  d0d61cde cone face 16261 mid dSurf -1.88e-7 dChord 7.86e-6 Q 3.73e-9 nearest curve tolSp@16157 d=2.46e-10 edge tol 7.18e-7 
+  d0d61cde cone face 16261 mid dSurf -1.03e-7 dChord 9.47e-6 Q 3.73e-9 nearest curve tolSp@16157 d=1.87e-10 edge tol 7.18e-7 
+  d0d61cde cone face 16261 mid dSurf -3.28e-7 dChord 3.11e-6 Q 3.73e-9 nearest curve tolSp@16157 d=8.86e-10 edge tol 7.18e-7 
+  d0d61cde cone face 16263 mid dSurf -3.09e-7 dChord 2.98e-6 Q 3.73e-9 nearest curve tolSp@16165 d=5.66e-11 edge tol 5.00e-7 
+  d0d61cde cone face 16268 mid dSurf -1.87e-7 dChord 7.86e-6 Q 7.45e-9 nearest curve tolSp@16186 d=3.16e-11 edge tol 6.46e-7 
+  d0d61cde cone face 16268 mid dSurf -1.02e-7 dChord 9.47e-6 Q 7.45e-9 nearest curve tolSp@16186 d=5.09e-10 edge tol 6.46e-7 
+  d0d61cde cone face 16268 mid dSurf -3.28e-7 dChord 3.11e-6 Q 7.45e-9 nearest curve tolSp@16186 d=5.77e-10 edge tol 6.46e-7 
+  d0d61cde cone face 16270 mid dSurf -3.09e-7 dChord 2.98e-6 Q 7.45e-9 nearest curve tolSp@16181 d=9.76e-11 edge tol 5.00e-7 
+  d0d61cde cone face 16337 mid dSurf -2.12e-7 dChord 6.52e-6 Q 7.45e-9 nearest curve tolSp@15430 d=1.42e-9 edge tol 1.84e-6 
+  d0d61cde cone face 16337 mid dSurf -1.49e-7 dChord 8.79e-6 Q 7.45e-9 nearest curve tolSp@15430 d=1.41e-9 edge tol 1.84e-6 
+  d0d61cde cone face 16337 mid dSurf -9.49e-7 dChord 6.69e-6 Q 7.45e-9 nearest curve tolSp@15430 d=8.68e-10 edge tol 1.84e-6 
+  d0d61cde cone face 16337 mid dSurf -7.54e-7 dChord 1.23e-5 Q 7.45e-9 nearest curve tolSp@15430 d=5.67e-10 edge tol 1.84e-6 
+
+controlled models (SW2022 folder):
+  C03_cube_fillet_1mm/model cyl/cone faces 1 vertex copies 16 flagged 0 strict chord 0 other 0
+  C04_cube_hole_5mm/model cyl/cone faces 1 vertex copies 70 flagged 0 strict chord 0 other 0
+  C05_cube_hole_3mm/model cyl/cone faces 1 vertex copies 56 flagged 0 strict chord 0 other 0
+  C06_cube_hole_moved/model cyl/cone faces 1 vertex copies 70 flagged 0 strict chord 0 other 0
+  C07_cube_two_holes/model cyl/cone faces 2 vertex copies 140 flagged 0 strict chord 0 other 0
+  C08_cube_second_hole_modified/model cyl/cone faces 2 vertex copies 126 flagged 0 strict chord 0 other 0
+  C11_cube_hole_4mm/model cyl/cone faces 1 vertex copies 64 flagged 0 strict chord 0 other 0
+  C12_cube_fillet_1mm_edge2/model cyl/cone faces 1 vertex copies 16 flagged 0 strict chord 0 other 0
+  C13_cone/model cyl/cone faces 1 vertex copies 144 flagged 0 strict chord 0 other 0
+  C19_half_cylinder/model cyl/cone faces 1 vertex copies 56 flagged 0 strict chord 0 other 0
+  C20_cylinders_crossed/model cyl/cone faces 4 vertex copies 736 flagged 10 strict chord 10 other 0
+  C21_cylinder_fillet/model cyl/cone faces 1 vertex copies 256 flagged 44 strict chord 44 other 0

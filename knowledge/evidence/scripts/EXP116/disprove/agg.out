@@ -1,0 +1,29 @@
+A tag->native type {"4001":{"plane":5151},"4002":{"cylinder":4199},"4003":{"cone":431},"4004":{"sphere":46},"4005":{"torus":206},"4006":{"bspline":681},"4007":{"blend":72},"4008":{"offset":1},"4009":{"swept":406},"4010":{"spun":290}}
+C tag->native type {"4001":{"plane":2474},"4002":{"cylinder":1106},"4003":{"cone":85},"4004":{"sphere":6},"4005":{"torus":108},"4006":{"bspline":282},"4007":{"blend":108},"4008":{"offset":14},"4009":{"swept":36}}
+A {"faces":14527,"withIdBlock":13533,"noNativeModel":0,"joined0":148,"joined1":11483,"joinedMulti":1902,"tagEqType":11483,"onUnique":11483,"geomChecked":10033,"geomWithin1e5":9300,"ctrlShuffle":{"anyCand":13383,"unique":11493,"tagEq":6028,"geomChecked":10029,"geomOK":245},"ctrlIdPlus123Hit":[1306,2207,2245]}
+C {"faces":4484,"withIdBlock":4484,"noNativeModel":0,"joined0":0,"joined1":4219,"joinedMulti":265,"tagEqType":4219,"onUnique":4219,"geomChecked":3779,"geomWithin1e5":3641,"ctrlShuffle":{"anyCand":4484,"unique":4240,"tagEq":2526,"geomChecked":3808,"geomOK":95},"ctrlIdPlus123Hit":[252,1740,1048]}
+B {"faces":190,"withIdBlock":0,"noNativeModel":0,"joined0":0,"joined1":0,"joinedMulti":0,"tagEqType":0,"onUnique":0,"geomChecked":0,"geomWithin1e5":0,"ctrlShuffle":{"anyCand":0,"unique":0,"tagEq":0,"geomChecked":0,"geomOK":0},"ctrlIdPlus123Hit":[0,0,0]}
+{"test files new/SW2026/cylinder with fillet-2026-credit-kevinR.SLDPRT":{"n":4,"nat":4,"err":null,"j1":4,"j0":0,"jm":0},
+"test files new/re-exports/C00_cube_10mm-2011-to-2026/model.SLDPRT":{"n":6,"nat":6,"err":null,"j1":6,"j0":0,"jm":0},
+"test files new/re-exports/C01_cube_20mm-2011-to-2026/model.SLDPRT":{"n":6,"nat":6,"err":null,"j1":6,"j0":0,"jm":0},
+"test files new/re-exports/holefillets1-2022to2026reexport-Furthen64-kevinR.SLDPRT":{"n":8,"nat":8,"err":null,"j1":8,"j0":0,"jm":0},
+"test files new/re-exports/plate4 1997to2025kevin.SLDPRT":{"n":14,"nat":14,"err":null,"j1":14,"j0":0,"jm":0},
+"test files new/re-exports/plate4-1997to2026kevinrahhal.sldprt":{"n":14,"nat":14,"err":null,"j1":14,"j0":0,"jm":0},
+"test files online/2013/exports-SW2026/82981f2a_head_back-2026.sldprt":{"n":535,"nat":535,"err":null,"j1":535,"j0":0,"jm":0},
+"test files online/2025/05d0b4c3_pin-2-2.SLDPRT":{"n":500,"nat":500,"err":null,"j1":500,"j0":0,"jm":0},
+"test files online/2025/3e41786b_LB26001-A-04-002_seed.SLDPRT":{"n":18,"nat":18,"err":null,"j1":18,"j0":0,"jm":0},
+"test files online/2025/50af9019_7x4 P42a Cell Holder.SLDPRT":{"n":274,"nat":274,"err":null,"j1":274,"j0":0,"jm":0},
+"test files online/2025/51f01927_Держатель-Фиксатор-Бутылки.SLDPRT":{"n":428,"nat":428,"err":null,"j1":424,"j0":0,"jm":4},
+"test files online/2025/55c163ac_pin-1-2.SLDPRT":{"n":452,"nat":452,"err":null,"j1":452,"j0":0,"jm":0},
+"test files online/2025/6fd68589_pin-2-1.SLDPRT":{"n":500,"nat":500,"err":null,"j1":500,"j0":0,"jm":0},
+"test files online/2025/822f5572_一级挡块-hhr镂空限位.SLDPRT":{"n":18,"nat":18,"err":null,"j1":18,"j0":0,"jm":0},
+"test files online/2025/8aaecde6_6008内圈下加工件.SLDPRT":{"n":46,"nat":46,"err":null,"j1":46,"j0":0,"jm":0},
+"test files online/2025/ac760485_存矿小端.SLDPRT":{"n":38,"nat":38,"err":null,"j1":38,"j0":0,"jm":0},
+"test files online/2025/c613782b_Крепёжная-Планка.SLDPRT":{"n":13,"nat":13,"err":null,"j1":13,"j0":0,"jm":0},
+"test files online/2025/e8f16581_Engine Base.SLDPRT":{"n":10,"nat":10,"err":null,"j1":10,"j0":0,"jm":0},
+"test files online/2025/f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT":{"n":33,"nat":33,"err":null,"j1":33,"j0":0,"jm":0},
+"test files online/2026/0eab6495_A15_KW10_cassette_L_heel.SLDPRT":{"n":54,"nat":54,"err":null,"j1":54,"j0":0,"jm":0},
+"test files online/2026/2e6e140a_ST3215_C018_04.SLDPRT":{"n":1117,"nat":1117,"err":null,"j1":856,"j0":0,"jm":261},
+"test files online/2026/4d85599e_base-M4.SLDPRT":{"n":12,"nat":12,"err":null,"j1":12,"j0":0,"jm":0},
+"test files online/2026/c5784ab3_A09_power_and_compute_rack.SLDPRT":{"n":88,"nat":88,"err":null,"j1":88,"j0":0,"jm":0},
+"test files online/2026/daa6e9e9_CR26-201-08.SLDPRT":{"n":296,"nat":296,"err":null,"j1":296,"j0":0,"jm":0}}

@@ -1,0 +1,15 @@
+{
+ "facesChecked": 157,
+ "loopsEqualNative": 157,
+ "continuityBad": 0,
+ "c1_wrongNativeFace_equal": 0,
+ "c1_total": 154,
+ "c2_seamOnce_sidesEqualNative": 0,
+ "c2_total": 144,
+ "vertexOnlyLoops": 0,
+ "vertexOnlyFaces": {},
+ "idRelabelFaces": 0,
+ "structEqualAfterRelabel": 0,
+ "perturbDetected": 600,
+ "perturbTotal": 600
+}
