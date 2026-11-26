@@ -3,7 +3,7 @@
 This is the briefing for anyone, person or agent, picking the SLDPRT work up cold. Read it first,
 then `RESEARCH_HANDOFF.md` (where things stand) and `NEXT_QUESTIONS.md` (what's open).
 
-Last brought up to date 2026-11-26, after EXP-118.
+Last brought up to date 2026-11-26, after EXP-122.
 
 ## The goal
 
@@ -110,19 +110,24 @@ These come from the user and override any habit that conflicts with them.
 
 ## Where things stand (2026-11-26)
 
-- 134 of the 136 real online-sample parts resolve. The other 5 of the 141 files, in `not-a-part/`,
-  aren't SolidWorks files (4 are STEP text, 1 undecodable). `2f121983` still stops, and `f666f342` (head_face) doesn't finish in 2,400 s. head_back
-  (`82981f2a`) resolves in about 14 minutes.
+- 135 of the 136 real online-sample parts resolve. The other 5 of the 141 files, in `not-a-part/`,
+  aren't SolidWorks files (4 are STEP text, 1 undecodable). `2f121983` still stops. `f666f342`
+  (head_face) resolves since EXP-119, in about 45 minutes. head_back (`82981f2a`) takes about 14.
 - 130 resolve with every fit within 1e-8 m. Since EXP-103 the fitter checks 8 more points per
   interval and counts a pinned end's gap to its vertex. Over the bar:
-  - `f0b9a118`: 4.49e-4 m, edge 152's vertex that far off its curve (vertex tolerance 1e-6 m).
-  - `0739c559`: 1.57e-4 m, edge 6075 (vertex tolerance 4.8e-5 m). These two refuse exact STEP.
+  - `f0b9a118`: 4.49e-4 m, edge 152. A converter error, the end projection a coil early on a
+    thread (EXP-122); the fix, seeding it with the file's trim, waits for its sweep.
+  - `0739c559`: 1.57e-4 m, edge 6075 (vertex tolerance 4.8e-5 m). Its end is past the end of its
+    offset's basis, where the answer depends on how the basis is extended (EXP-122, open).
+  - `f666f342` (head_face): 9.76e-5 m on three blend-to-blend diagonal SP_CURVEs (NQ-076) and
+    1.03e-4 m on two blend surfaces, after EXP-121 fixed shared blends, the contact side and the
+    diagonal edges that have an exact fin. These three refuse exact STEP.
   - `3c4752f1`: 2.53e-8 m, two plane × blend edges where the blend touches the plane.
   - `82981f2a`: surfaces 1.54e-8 m, four blends whose spines run to a T limit. Within a few tenths
     of a micron of the T point the exact spine can't be found to 1e-8 m, so the number isn't a
     measured accuracy either way (NQ-065).
 - The converter's `main` has all of this (`dev` is merged and deleted; work goes straight to
-  `main` now). The tests pass: 86, 2 skipped (2026-11-24).
+  `main` now). The tests pass: 86, 2 skipped (2026-11-26, 31a5f28).
 - Every experiment through EXP-112 has had its blind prove and disprove checks, and the format
   pages carry the results. The checks of 2026-11-23 corrected EXP-099 (994 records without an
   id block, not 56), EXP-105 (its 1e-9 m bar was below float32 rounding) and EXP-110 (+128 isn't
@@ -153,6 +158,9 @@ Verified format facts, each having survived a blind check (more in the format pa
 - An OFFSET_SURF lies along its basis's normal, reversed by a `-` sense. Which sense flag it reads
   isn't settled, since they always agree in the sample.
 - Past the end of its knot range, a B-spline surface carries on flat along its edge tangent.
+  (2026-11-26: `0739c559` edge 6075 ends on such an extension under a nearly degenerate offset,
+  and neither this extension nor the end span's polynomial puts it within its vertex's tolerance.
+  Not settled, EXP-122.)
 
 ## Next, in order
 
@@ -160,17 +168,19 @@ Part files first; assemblies and drawings wait until these are done (the user's 
 
 1. ~~`3c4752f1`'s two plane × blend edges~~: the curves are right; the over-bar number is the
    check scoring the undetermined 30 nm next to a touching vertex (EXP-120, folded into NQ-065).
-2. NQ-067: the vertices far outside their tolerance on `0739c559` and `f0b9a118`. Check our
-   surface evaluation at those points before blaming the file.
+2. ~~NQ-067~~ in part: `f0b9a118` is a wrong-coil projection, fix pending its sweep (EXP-122).
+   `0739c559` needs Parasolid's extension of a B-surface under an offset, or an export.
 3. NQ-065: accuracy within about 1 µm of a T limit (head_back's four blends). It needs the nested
    spines fitted much tighter than 1e-10 m.
 4. `2f121983`: a blend spine on two offset swept surfaces. The foot jumps near the start. It now
    stops with "no foot ... settled (8.7e-4 m off its normal)"; whether that's the same jump isn't
    checked.
-5. NQ-069: `f666f342` (head_face) doesn't finish.
+5. ~~NQ-069~~: head_face resolves (EXP-119). Left over the bar: NQ-076 (Parasolid's blend u and
+   three diagonal edges), NQ-077 (two blend surfaces at 1.03e-4 m and six intersection edges).
 6. Vertices 0.1 to 1 mm off thread and degree-1 surfaces, inside the knot range, in 5 parts
    (`d799e9a3`, `073482d3`, `0d68d32d`, `db8a97e2`, `f0b9a118`).
-7. NQ-070: the dense check makes parts with many intersection curves 2.6 to 3.3 times slower.
+7. NQ-070: partly answered by EXP-119 (the spring 50 to 8 s); `3c4752f1`, `0d68d32d`, `d799e9a3`
+   not retimed.
 
 Also still open: NQ-071 (IDs for the 190 faces of the 140-byte layout), NQ-057 (the B-rep triangulator on 32 parts), NQ-066 (edge 844's vertex pair),
 NQ-068 (gaps at intersection-edge ends), NQ-074 (bounds word +100 and the cone cosine), NQ-075
