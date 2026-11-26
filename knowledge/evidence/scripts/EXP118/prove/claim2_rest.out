@@ -1,0 +1,16 @@
+=== circle 1166 plane face surface 3982 circle centre off plane 2.60e-18 1-|n.n| -2.22e-16 blend 3930 range [ -0.001, 0.001 ] spine: plane 3949 offset 3948 d -0.003
+  control vertex 1908 on plane 3.96e-18 lift to spine plane 1.0000e-3 g 7.33e-17 in-plane estimate 1.02e-16
+  control vertex 1861 on plane 3.47e-18 lift to spine plane 1.0000e-3 g -1.21e-17 in-plane estimate 1.67e-17
+  control vertex 2184 on plane 4.34e-19 lift to spine plane 1.0000e-3 g -1.81e-14 in-plane estimate 2.48e-14
+  control vertex 1901 on plane 0.00e+0 lift to spine plane 1.0000e-3 g -1.30e-18 in-plane estimate 1.82e-18
+  rest of circle: 359 points ( 263.81 deg ); in-plane distance to the blend contact curve: min 1.32e-5 median 1.44e-3 max 2.20e-3 | <=1e-6: 0 <=1e-5: 0 <=1e-4: 14
+  points within 1e-4: degrees past the arc end 0.7(1.3e-5) 1.5(2.7e-5) 2.2(4.0e-5) 2.9(5.4e-5) 3.7(6.8e-5) 4.4(8.2e-5) 5.1(9.6e-5) 258.7(9.6e-5) 259.4(8.2e-5) 260.1(6.8e-5) 260.9(5.4e-5) 261.6(4.0e-5) 262.3(2.7e-5) 263.1(1.3e-5)
+  (for reference) points inside the arc: in-plane distance to the contact curve min 8.33e-5 max 4.65e-4
+=== circle 11124 plane face surface 15302 circle centre off plane 2.60e-18 1-|n.n| -2.22e-16 blend 15250 range [ 0.001, -0.001 ] spine: plane 15269 offset 15268 d -0.003
+  control vertex 12047 on plane 3.96e-18 lift to spine plane 1.0000e-3 g 7.33e-17 in-plane estimate 1.02e-16
+  control vertex 12041 on plane 3.47e-18 lift to spine plane 1.0000e-3 g -1.21e-17 in-plane estimate 1.67e-17
+  control vertex 12372 on plane 4.34e-19 lift to spine plane 1.0000e-3 g -1.81e-14 in-plane estimate 2.48e-14
+  control vertex 12040 on plane 0.00e+0 lift to spine plane 1.0000e-3 g -1.30e-18 in-plane estimate 1.82e-18
+  rest of circle: 359 points ( 263.81 deg ); in-plane distance to the blend contact curve: min 1.32e-5 median 1.44e-3 max 2.20e-3 | <=1e-6: 0 <=1e-5: 0 <=1e-4: 14
+  points within 1e-4: degrees past the arc end 0.7(1.3e-5) 1.5(2.7e-5) 2.2(4.0e-5) 2.9(5.4e-5) 3.7(6.8e-5) 4.4(8.2e-5) 5.1(9.6e-5) 258.7(9.6e-5) 259.4(8.2e-5) 260.1(6.8e-5) 260.9(5.4e-5) 261.6(4.0e-5) 262.3(2.7e-5) 263.1(1.3e-5)
+  (for reference) points inside the arc: in-plane distance to the contact curve min 8.33e-5 max 4.65e-4

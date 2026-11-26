@@ -1,0 +1,6 @@
+display 75 vs native cylinder 2516 {"labelled":{"n":55,"max":"8.81e-6","mean":"6.47e-7"},"unlabelled":{"n":46,"max":"6.40e-5","mean":"2.08e-5"},"interior":{"n":1,"max":"1.07e-9","mean":"1.07e-9"}}
+display 448 vs native cylinder 12997 {"labelled":{"n":55,"max":"8.81e-6","mean":"6.47e-7"},"unlabelled":{"n":40,"max":"8.30e-5","mean":"2.87e-5"},"interior":{"n":0}}
+display 75 vs native cylinder 12997 {"labelled":{"n":55,"max":"9.30e-2","mean":"9.11e-2"},"unlabelled":{"n":46,"max":"9.29e-2","mean":"9.10e-2"},"interior":{"n":1,"max":"9.04e-2","mean":"9.04e-2"}}
+display 448 vs native cylinder 2516 {"labelled":{"n":55,"max":"9.30e-2","mean":"9.11e-2"},"unlabelled":{"n":40,"max":"9.29e-2","mean":"9.12e-2"},"interior":{"n":0}}
+axial position along 2516 axis (m): unlabelled chain [ -0.0063301, -0.0060299 ] labelled [ -0.0063136, -0.0043 ] circle 1165 centre -0.0043 circle 1166 centre -0.0062
+control: other display faces lying on a native cylinder within 1e-4 m: 161 worst max vertex distance among them 9.90e-5

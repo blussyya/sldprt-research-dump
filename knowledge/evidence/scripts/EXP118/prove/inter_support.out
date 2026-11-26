@@ -1,0 +1,2 @@
+intersection-edge label groups with an analytic support: 724 per-group max distance to it: median 2.54e-9 90% 1.03e-5 max 3.09e-3 | groups over 1e-7: 324 over 1e-5: 84
+face 75 / 448 groups: [{"fi":75,"id":"1093","mx":0.00000881},{"fi":448,"id":"11136","mx":0.00000881}]

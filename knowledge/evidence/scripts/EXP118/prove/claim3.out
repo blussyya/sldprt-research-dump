@@ -1,0 +1,21 @@
+mirror plane x = 0
+(a) 448 mirrored -> 75 triangles {"n":135,"max":0.000112,"median":0,"over":36} | 75 mirrored -> 448 triangles {"n":139,"max":0.000305,"median":0,"over":43}
+    mirrored 448 vertices exactly equal (float32) to a 75 vertex: 56 of 95 distinct
+    on cylinder 2516: 448 mirrored max 8.30e-5 | 75 itself max 6.40e-5
+    control: 75 mirrored -> 75 triangles {"n":139,"max":0.093,"median":0.0905,"over":139}
+(b) native 2516 vs mirrored 12990 {"radius":0,"axisPoint":0,"axisDir":-2.220446049250313e-16,"edges":[{"b":11111,"a":1165,"type":"circle","geom":0,"vertices":null,"sameSense":"true/true"},{"b":11124,"a":1166,"type":"circle","geom":0,"vertices":0,"sameSense":"true/true"},{"b":11135,"a":1093,"type":"intersection","geom":0,"vertices":0,"sameSense":"true/true"}],"loopsA":["1165+","1166+ 1093-"],"loopsB":["11111-","11124- 11135+"],"sameSense":[false,false]}
+    control: 2516 vs mirrored 2370 {"radius":1.734723475976807e-18,"axisPoint":0.10211912142131666,"axisDir":-2.220446049250313e-16}
+(c) unlabelled chains: 448 mirrored -> 75 chain max 3.01e-4 median 2.12e-5 | 75 -> 448 mirrored max 3.05e-4 | segments 46 40
+(d) 448 mirrored -> 75 by role of the vertex: {"chain":{"n":40,"exact":1,"over":26,"max":0.000112},"labelled":{"n":55,"exact":55,"over":0,"max":0}}
+(d) 75 mirrored -> 448 by role of the vertex: {"chain":{"n":46,"exact":1,"over":32,"max":0.000305},"labelled":{"n":55,"exact":55,"over":0,"max":0},"interior":{"n":1,"exact":0,"over":0,"max":0.00000144}}
+--- mirror plane x = 1e-6 (control) ---
+mirror plane x = 0.000001
+(a) 448 mirrored -> 75 triangles {"n":135,"max":0.000111,"median":0.00000185,"over":39} | 75 mirrored -> 448 triangles {"n":139,"max":0.000305,"median":0.000002,"over":43}
+    mirrored 448 vertices exactly equal (float32) to a 75 vertex: 0 of 95 distinct
+    on cylinder 2516: 448 mirrored max 8.26e-5 | 75 itself max 6.40e-5
+    control: 75 mirrored -> 75 triangles {"n":139,"max":0.093,"median":0.0905,"over":139}
+(b) native 2516 vs mirrored 12990 {"radius":0,"axisPoint":0.000002000000000002,"axisDir":-2.220446049250313e-16,"edges":[{"b":11111,"a":1165,"type":"circle","geom":0.000002,"vertices":null,"sameSense":"true/true"},{"b":11124,"a":1166,"type":"circle","geom":0.000002,"vertices":0.000002,"sameSense":"true/true"},{"b":11135,"a":1093,"type":"intersection","geom":0.000002,"vertices":0.000002,"sameSense":"true/true"}],"loopsA":["1165+","1166+ 1093-"],"loopsB":["11111-","11124- 11135+"],"sameSense":[false,false]}
+    control: 2516 vs mirrored 2370 {"radius":1.734723475976807e-18,"axisPoint":0.10211781903204561,"axisDir":-2.220446049250313e-16}
+(c) unlabelled chains: 448 mirrored -> 75 chain max 3.01e-4 median 2.07e-5 | 75 -> 448 mirrored max 3.05e-4 | segments 46 40
+(d) 448 mirrored -> 75 by role of the vertex: {"chain":{"n":40,"exact":0,"over":29,"max":0.000111},"labelled":{"n":55,"exact":0,"over":0,"max":0.000002}}
+(d) 75 mirrored -> 448 by role of the vertex: {"chain":{"n":46,"exact":0,"over":32,"max":0.000305},"labelled":{"n":55,"exact":0,"over":0,"max":0.000002},"interior":{"n":1,"exact":0,"over":0,"max":0.00000334}}

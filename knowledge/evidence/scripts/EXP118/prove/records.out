@@ -1,0 +1,12 @@
+legacy true DL bytes 4242039 converter faces 732
+own full-record candidates 732 ok 732
+candidates not in converter list 0 []
+converter faces not found by own scan 0
+faces whose own triangle list differs from converter 0
+{"face":74,"end":344988,"next":345216,"gap":228,"arrays":[{"rel":132,"h":[8,100,2,0]},{"rel":152,"h":[12,100,2,0]},{"rel":168,"h":[12,100,2,0]}]}
+{"face":75,"end":350004,"next":350232,"gap":228,"arrays":[{"rel":132,"h":[8,100,2,0]},{"rel":152,"h":[12,100,2,0]},{"rel":168,"h":[12,100,2,0]}]}
+{"face":76,"end":352026,"next":352254,"gap":228,"arrays":[{"rel":132,"h":[8,100,2,0]},{"rel":152,"h":[12,100,2,0]},{"rel":168,"h":[12,100,2,0]}]}
+{"face":447,"end":2506200,"next":2506428,"gap":228,"arrays":[{"rel":132,"h":[8,100,2,0]},{"rel":152,"h":[12,100,2,0]},{"rel":168,"h":[12,100,2,0]}]}
+{"face":448,"end":2511076,"next":2511304,"gap":228,"arrays":[{"rel":132,"h":[8,100,2,0]},{"rel":152,"h":[12,100,2,0]},{"rel":168,"h":[12,100,2,0]}]}
+{"face":449,"end":2513098,"next":2513326,"gap":228,"arrays":[{"rel":132,"h":[8,100,2,0]},{"rel":152,"h":[12,100,2,0]},{"rel":168,"h":[12,100,2,0]}]}
+array-header patterns in the gaps (all faces): { '8/100 12/100 12/100': 356, '8/100 12/100 12/100 4/100 4/100': 376 }

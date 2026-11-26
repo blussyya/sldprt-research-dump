@@ -1,0 +1,6 @@
+face 75 chain segments 46 without any annotation 0 annotations {"id 0 b3 0":46}
+face 75 labelled (control) segments 55 without any annotation 0 annotations {"id nonzero b3 0":55}
+  all Block3 bytes of the face {"0":244} control words [1]
+face 448 chain segments 40 without any annotation 0 annotations {"id 0 b3 0":40}
+face 448 labelled (control) segments 55 without any annotation 0 annotations {"id nonzero b3 0":55}
+  all Block3 bytes of the face {"0":232} control words [1]

@@ -1,0 +1,12 @@
+=== face 75 edge 1093 cylinder 3931 blend 3930 ball radius 0.001
+  control native vertex 1908 {"cyl":2.17e-19,"blend":1.73e-18,"spineResidual":4.34e-19}
+  control native vertex 1861 {"cyl":1.95e-18,"blend":7.16e-18,"spineResidual":8.67e-19}
+  intersection-labelled vertices over 1e-7 m on either surface: 10 worst 1.10e-6 at 0.393 mm from the nearest native vertex; worst 1.54e-6 at 0.369 mm from the nearest native vertex; worst 1.60e-6 at 0.016 mm from the nearest native vertex; worst 1.92e-6 at 0.719 mm from the nearest native vertex; worst 8.55e-6 at 0.826 mm from the nearest native vertex; worst 4.52e-6 at 1.052 mm from the nearest native vertex; worst 5.26e-7 at 0.960 mm from the nearest native vertex; worst 6.68e-6 at 0.483 mm from the nearest native vertex; worst 2.60e-7 at 0.130 mm from the nearest native vertex; worst 8.81e-6 at 0.402 mm from the nearest native vertex
+  display intersection-labelled vertices 24 cylinder max 8.81e-6 median 1.45e-8 | blend max 3.49e-6 median 5.89e-9 | spine solve residual max 1.91e-17
+  display circle-labelled (control) vertices 9 cylinder max 1.31e-9 median 5.40e-10 | blend max 1.01e-4 median 2.95e-5 | spine solve residual max 1.04e-17
+=== face 448 edge 11135 cylinder 15251 blend 15250 ball radius 0.001
+  control native vertex 12047 {"cyl":2.17e-19,"blend":1.73e-18,"spineResidual":4.34e-19}
+  control native vertex 12041 {"cyl":1.95e-18,"blend":7.16e-18,"spineResidual":8.67e-19}
+  intersection-labelled vertices over 1e-7 m on either surface: 10 worst 2.60e-7 at 0.130 mm from the nearest native vertex; worst 6.68e-6 at 0.483 mm from the nearest native vertex; worst 8.81e-6 at 0.402 mm from the nearest native vertex; worst 8.55e-6 at 0.826 mm from the nearest native vertex; worst 4.52e-6 at 1.052 mm from the nearest native vertex; worst 5.26e-7 at 0.960 mm from the nearest native vertex; worst 1.92e-6 at 0.719 mm from the nearest native vertex; worst 1.10e-6 at 0.393 mm from the nearest native vertex; worst 1.54e-6 at 0.369 mm from the nearest native vertex; worst 1.60e-6 at 0.016 mm from the nearest native vertex
+  display intersection-labelled vertices 24 cylinder max 8.81e-6 median 1.45e-8 | blend max 3.49e-6 median 5.89e-9 | spine solve residual max 1.91e-17
+  display circle-labelled (control) vertices 9 cylinder max 1.31e-9 median 5.40e-10 | blend max 1.01e-4 median 2.95e-5 | spine solve residual max 1.04e-17

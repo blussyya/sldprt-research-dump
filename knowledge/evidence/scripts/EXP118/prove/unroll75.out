@@ -1,0 +1,6 @@
+group unlabelled segs 46 angular length (deg, sum of |dθ|) 361.71 5-deg bins covered 72 runs 0-360 h range mm -6.3301 -6.0299
+group 1093 segs 23 angular length (deg, sum of |dθ|) 96.19 5-deg bins covered 21 runs 245-350 h range mm -6.3136 -6.2000
+group 1165 segs 24 angular length (deg, sum of |dθ|) 360.00 5-deg bins covered 72 runs 0-360 h range mm -4.3000 -4.3000
+group 1166 segs 8 angular length (deg, sum of |dθ|) 96.19 5-deg bins covered 21 runs 245-350 h range mm -6.2000 -6.2000
+vertex 1908 θ 345.671 h -6.2000
+vertex 1861 θ 249.480 h -6.2000

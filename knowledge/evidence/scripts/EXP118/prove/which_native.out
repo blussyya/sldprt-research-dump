@@ -1,0 +1,8 @@
+display face 75 native faces whose surface holds every vertex (<1e-5 m): []
+  label 1093 segs 23 native edges holding all its vertices: [{"edge":1093,"type":"intersection","max":0.0000207}]
+  label 1165 segs 24 native edges holding all its vertices: [{"edge":1165,"type":"circle","max":1.87e-9}]
+  label 1166 segs 8 native edges holding all its vertices: [{"edge":1166,"type":"circle","max":1.9e-9}]
+display face 448 native faces whose surface holds every vertex (<1e-5 m): []
+  label 11112 segs 24 native edges holding all its vertices: [{"edge":11111,"type":"circle","max":1.87e-9}]
+  label 11125 segs 8 native edges holding all its vertices: [{"edge":11124,"type":"circle","max":1.9e-9}]
+  label 11136 segs 23 native edges holding all its vertices: [{"edge":11135,"type":"intersection","max":0.0000207}]

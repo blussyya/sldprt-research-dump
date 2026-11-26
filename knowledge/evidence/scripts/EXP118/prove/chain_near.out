@@ -1,0 +1,4 @@
+{"face":75,"set":"unlabelled","points":92,"min":"1.48e-7","median":"1.17e-4","max":"1.47e-3","within1e7":0,"within1e6":1,"within1e5":8,"within1e4":43,"nearestFaces":{"56":92}}
+{"face":75,"set":"labelled (control)","points":110,"min":"0.00e+0","median":"0.00e+0","max":"0.00e+0","within1e7":110,"within1e6":110,"within1e5":110,"within1e4":110,"nearestFaces":{"56":47,"66":48,"72":15}}
+{"face":448,"set":"unlabelled","points":80,"min":"1.48e-6","median":"2.48e-5","max":"1.48e-3","within1e7":0,"within1e6":0,"within1e5":6,"within1e4":48,"nearestFaces":{"429":80}}
+{"face":448,"set":"labelled (control)","points":110,"min":"0.00e+0","median":"0.00e+0","max":"0.00e+0","within1e7":110,"within1e6":110,"within1e5":110,"within1e4":110,"nearestFaces":{"429":47,"439":48,"445":15}}

@@ -1,0 +1,6 @@
+face 75 unlabelled chain {"segs":46,"distToOwnNonAdjacentTriangles":{"min":4.82e-7,"median":0.0000586,"max":0.000527}} labelled (control) {"segs":55,"distToOwnNonAdjacentTriangles":{"min":1.54e-7,"median":0.0000904,"max":0.000517}}
+face 448 unlabelled chain {"segs":40,"distToOwnNonAdjacentTriangles":{"min":4.5e-7,"median":0.0000709,"max":0.000509}} labelled (control) {"segs":55,"distToOwnNonAdjacentTriangles":{"min":9.69e-7,"median":0.000101,"max":0.000524}}
+synthetic crack control (face 75, strip 8 shifted 1e-7 m in x): unlabelled boundary segments 50 {"segs":4,"distToOwnNonAdjacentTriangles":{"min":1.39e-8,"median":7.92e-8,"max":1e-7}}
+whole file: triangles agreeing with stored normals 74015 disagreeing 11 faces with any disagreement 5 top [[75,5],[521,2],[605,2],[242,1],[448,1]]
+face 75 flipped triangles [{"area":"1.52e-10","onChain":2},{"area":"1.66e-9","onChain":1},{"area":"1.10e-10","onChain":0},{"area":"1.87e-9","onChain":1},{"area":"1.38e-8","onChain":2}]
+face 448 flipped triangles [{"area":"4.67e-11","onChain":2}]

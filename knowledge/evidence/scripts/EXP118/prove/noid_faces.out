@@ -1,0 +1,4 @@
+test files new/SW2011/C14_sphere/model.SLDPRT face 0 triangles 4488 mesh-boundary edges 0 boundaryCycles [] error null tag null
+test files new/SW2011/C15_torus/model.SLDPRT face 0 triangles 5920 mesh-boundary edges 0 boundaryCycles [] error null tag null
+test files new/SW2022/C14_sphere/model.SLDPRT face 0 triangles 4488 mesh-boundary edges 0 boundaryCycles [] error null tag 4004
+test files new/SW2022/C15_torus/model.SLDPRT face 0 triangles 5920 mesh-boundary edges 0 boundaryCycles [] error null tag 4005
