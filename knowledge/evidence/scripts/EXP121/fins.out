@@ -1,0 +1,7 @@
+edge 1192: from the fin on face 2585 (bspline4041): fit error 3.87e-9, end-to-vertex 0.00e+0 m, edge tolerance 1.0e-5
+edge 1232: from the fin on face 3491 (bspline4042): fit error 3.95e-9, end-to-vertex 0.00e+0 m, edge tolerance 1.0e-5
+edge 1206: from the fin on face 2573 (bspline4040): fit error 7.43e-9, end-to-vertex 0.00e+0 m, edge tolerance 3.5e-6
+edge 11862: from the fin on face 12628 (offset15920): fit error 1.37e-11, end-to-vertex 2.70e-7 m, edge tolerance 2.0e-5
+edge 1171: no fin on an exact surface (blend, blend)
+edge 11067: no fin on an exact surface (blend, blend)
+edge 11272: no fin on an exact surface (blend, blend)
