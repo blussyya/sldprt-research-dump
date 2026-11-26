@@ -1,0 +1,8 @@
+parts 136 errors 5 trimmed SP_CURVE edges 2127 over 1e-8 either way 171
+projection off, trim on (within tolerance, 10x better): 1
+   f0b9a118_Standoff_M3x0.5_37 mm_Male to F 152 bspline proj [ 0.0004492, 1.397e-9 ] trim [ 7.373e-19, 1.205e-8 ] tProj [ 0.031642, 1 ] tTrim [ 0.1034, 1 ]
+trim off at least as much as the projection: 170
+  by trim distance { '<1e-6': 62, '<1e-7': 73, '<1e-5': 28, '<1e-4': 6, '>=1e-4': 1 }
+trim off over its tolerance:
+   0739c559_[HEAD-COVR-MIL1-COMN-00] Facema 6075 offset tol 0.00001 [ 0.00001, 0.00004821178821178821 ] proj [ 3.417e-17, 0.0001575 ] trim [ 3.103e-13, 0.0001591 ]
+other: 0

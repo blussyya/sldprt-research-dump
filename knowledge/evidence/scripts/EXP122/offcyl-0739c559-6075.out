@@ -1,0 +1,22 @@
+basis bspline6328: degree 2x3, 3x6, u 0..1, v 0.007337931111983218..0.008945287450798589
+t 1.000000 uv (-0.000000, 0.008945): face 6272 cylinder 1.39e-17, face 6288 offset 3.92e-15; fin on 6272 3.10e-13
+t 0.989352 uv (-0.000000, 0.008850): face 6272 cylinder 6.47e-8, face 6288 offset 8.91e-5; fin on 6272 3.04e-7
+t 0.978705 uv (-0.000000, 0.008755): face 6272 cylinder 2.12e-7, face 6288 offset 8.91e-5; fin on 6272 8.49e-7
+t 0.968057 uv (-0.000000, 0.008660): face 6272 cylinder 3.83e-7, face 6288 offset 1.75e-15; fin on 6272 1.32e-6
+t 0.957409 uv (-0.000000, 0.008564): face 6272 cylinder 5.28e-7, face 6288 offset 1.79e-4; fin on 6272 1.58e-6
+t 0.946762 uv (-0.000000, 0.008469): face 6272 cylinder 6.17e-7, face 6288 offset 8.22e-6; fin on 6272 1.59e-6
+t 0.936114 uv (-0.000000, 0.008374): face 6272 cylinder 6.33e-7, face 6288 offset 3.76e-5; fin on 6272 1.39e-6
+t 0.925466 uv (-0.000000, 0.008279): face 6272 cylinder 5.74e-7, face 6288 offset 2.22e-6; fin on 6272 1.05e-6
+t 0.914819 uv (-0.000000, 0.008183): face 6272 cylinder 4.54e-7, face 6288 offset 5.28e-7; fin on 6272 6.55e-7
+t 0.904171 uv (-0.000000, 0.008088): face 6272 cylinder 2.98e-7, face 6288 offset 1.74e-8; fin on 6272 3.29e-7
+t 0.893523 uv (-0.000000, 0.007993): face 6272 cylinder 1.42e-7, face 6288 offset 7.19e-9; fin on 6272 1.42e-7
+t 0.882875 uv (-0.000000, 0.007898): face 6272 cylinder 2.96e-8, face 6288 offset 1.07e-8; fin on 6272 6.48e-8
+t 0.872228 uv (-0.000000, 0.007802): face 6272 cylinder 7.12e-10, face 6288 offset 3.76e-9; fin on 6272 2.47e-7
+t 0.861580 uv (-0.000000, 0.007707): face 6272 cylinder 1.39e-8, face 6288 offset 3.18e-8; fin on 6272 9.99e-7
+t 0.850932 uv (-0.000000, 0.007612): face 6272 cylinder 3.64e-8, face 6288 offset 7.08e-9; fin on 6272 1.85e-6
+t 0.840285 uv (-0.000000, 0.007517): face 6272 cylinder 6.03e-8, face 6288 offset 4.50e-8; fin on 6272 2.70e-6
+t 0.829637 uv (-0.000000, 0.007421): face 6272 cylinder 7.97e-8, face 6288 offset 2.43e-8; fin on 6272 3.50e-6
+t 0.818989 uv (-0.000000, 0.007326): face 6272 cylinder 9.09e-8, face 6288 offset 0.00e+0; fin on 6272 7.98e-6
+t 0.808342 uv (-0.000000, 0.007231): face 6272 cylinder 1.39e-7, face 6288 offset 6.94e-18; fin on 6272 3.93e-5
+t 0.797694 uv (-0.000000, 0.007136): face 6272 cylinder 2.59e-7, face 6288 offset 3.47e-18; fin on 6272 7.07e-5
+t 0.787046 uv (-0.000000, 0.007040): face 6272 cylinder 4.50e-7, face 6288 offset 1.39e-17; fin on 6272 1.02e-4

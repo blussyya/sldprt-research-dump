@@ -1,0 +1,312 @@
+{"part":"e1f38af5_0000380-01.sldprt","trimmedSpcurveEdges":0,"over":0}
+{"part":"82981f2a_head_back.sldprt","edge":836,"surface":"bspline","tol":0.0000015,"vtol":[0.00000186879432249118,0.0000015819906140316525],"swap":false,"proj":[3.688e-7,5.175e-8],"trim":[3.688e-7,5.175e-8],"tProj":[0.431289,0.522032],"tTrim":[0.431289,0.522032]}
+{"part":"82981f2a_head_back.sldprt","edge":829,"surface":"bspline","tol":0.00000225,"vtol":[0.0000022515398390325144,0.0000022754109163279856],"swap":false,"proj":[1.54e-9,2.541e-8],"trim":[1.54e-9,2.541e-8],"tProj":[38.133115,51.301658],"tTrim":[38.133115,51.301658]}
+{"part":"82981f2a_head_back.sldprt","edge":833,"surface":"bspline","tol":0.00000225,"vtol":[0.0000022881010675566255,0.0000023222233691206716],"swap":false,"proj":[1.27e-8,6.948e-8],"trim":[1.27e-8,6.948e-8],"tProj":[60.249687,83.936437],"tTrim":[60.249687,83.936437]}
+{"part":"82981f2a_head_back.sldprt","edge":406,"surface":"bspline","tol":0.00000225,"vtol":[0.000002294243573874735,0.0000022668383559829355],"swap":false,"proj":[4.424e-8,8.419e-9],"trim":[4.424e-8,8.419e-9],"tProj":[36.837358,77.380013],"tTrim":[36.837358,77.380013]}
+{"part":"82981f2a_head_back.sldprt","edge":414,"surface":"bspline","tol":0.00000225,"vtol":[0.000002284301389409001,0.0000022695186937742648],"swap":false,"proj":[1.715e-8,1.952e-8],"trim":[1.715e-8,1.952e-8],"tProj":[86.949914,105.953746],"tTrim":[86.949914,105.953746]}
+{"part":"82981f2a_head_back.sldprt","edge":424,"surface":"bspline","tol":0.00000225,"vtol":[0.000002265986043004782,0.0000023432771795480748],"swap":false,"proj":[1.599e-8,9.328e-8],"trim":[1.599e-8,9.328e-8],"tProj":[121.499529,142.568567],"tTrim":[121.499529,142.568567]}
+{"part":"82981f2a_head_back.sldprt","edge":808,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.00001998001998001998,0.000022008668247252398],"swap":false,"proj":[0.000008712,6.467e-8],"trim":[0.000008712,6.467e-8],"tProj":[0,0.338879],"tTrim":[0,0.338879]}
+{"part":"82981f2a_head_back.sldprt","edge":391,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.00001998001998001998,0.00001998001998001998],"swap":false,"proj":[8.618e-17,4.129e-7],"trim":[4.376e-15,0.00001648],"tProj":[0,0.796515],"tTrim":[0,1]}
+{"part":"82981f2a_head_back.sldprt","edge":392,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.00001998001998001998,0.00002200866824725887],"swap":false,"proj":[0.000008713,6.467e-8],"trim":[0.000008713,6.467e-8],"tProj":[0.000005,0.357643],"tTrim":[0.000005,0.357643]}
+{"part":"82981f2a_head_back.sldprt","edge":429,"surface":"bspline","tol":0.0000015,"vtol":[0.00000186879432249118,0.0000015819906140451103],"swap":false,"proj":[3.688e-7,5.175e-8],"trim":[3.688e-7,5.175e-8],"tProj":[84.154099,105.442777],"tTrim":[84.154099,105.442777]}
+{"part":"82981f2a_head_back.sldprt","edge":428,"surface":"bspline","tol":0.0000015,"vtol":[0.0000015,0.00000186879432249118],"swap":false,"proj":[6.407e-17,3.688e-7],"trim":[7.664e-17,3.688e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"82981f2a_head_back.sldprt","trimmedSpcurveEdges":48,"over":11}
+{"part":"92c393f4_camera_support.sldprt","trimmedSpcurveEdges":0,"over":0}
+{"part":"f666f342_head_face.sldprt","edge":11382,"surface":"plane","tol":0.0000015,"vtol":[0.000001904983850792351,0.0000033],"swap":false,"proj":[2.5e-7,7.24e-9],"trim":[2.5e-7,7.24e-9],"tProj":[0.224535,1],"tTrim":[0.224535,1]}
+{"part":"f666f342_head_face.sldprt","edge":7408,"surface":"cylinder","tol":0.00003996003996003996,"vtol":[0.000039967322100080175,0.00003996003996003996],"swap":false,"proj":[1.074e-9,1.921e-8],"trim":[7.282e-9,1.921e-8],"tProj":[0.000006,1],"tTrim":[0,1]}
+{"part":"f666f342_head_face.sldprt","edge":1219,"surface":"offset","tol":0.0000035,"vtol":[0.0000039381901921507836,0.00002525851940273701],"swap":false,"proj":[4.288e-7,6.945e-8],"trim":[4.288e-7,0.000002396],"tProj":[0.7809,0.999979],"tTrim":[0.7809,1]}
+{"part":"f666f342_head_face.sldprt","edge":1201,"surface":"offset","tol":0.0000035,"vtol":[0.00003788228667980309,0.0000035859998448774473],"swap":false,"proj":[0.000008069,8.6e-8],"trim":[0.000008069,8.6e-8],"tProj":[0,0.942334],"tTrim":[0,0.942334]}
+{"part":"f666f342_head_face.sldprt","edge":907,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.000021056121185023648,0.000040229886782895735],"swap":false,"proj":[7.254e-8,2.697e-7],"trim":[7.254e-8,2.697e-7],"tProj":[0.801841,0.851902],"tTrim":[0.801841,0.851902]}
+{"part":"f666f342_head_face.sldprt","edge":11387,"surface":"bspline","tol":0.00000225,"vtol":[0.0000024118870187716697,0.0000022515398390325144],"swap":false,"proj":[1.366e-7,1.54e-9],"trim":[1.368e-7,1.54e-9],"tProj":[3.925031,38.133115],"tTrim":[3.925024,38.133115]}
+{"part":"f666f342_head_face.sldprt","edge":11251,"surface":"bspline","tol":0.000009999999999999999,"vtol":[0.000020646825962337803,0.000019999999999999998],"swap":false,"proj":[4.555e-7,4.936e-17],"trim":[4.555e-7,7.723e-17],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f666f342_head_face.sldprt","edge":9542,"surface":"bspline","tol":0.0000015,"vtol":[0.000001904983850792351,0.0000033],"swap":false,"proj":[2.5e-7,5.678e-9],"trim":[2.5e-7,6.125e-9],"tProj":[4.088828,17.544567],"tTrim":[4.088828,17.544569]}
+{"part":"f666f342_head_face.sldprt","edge":1373,"surface":"bspline","tol":0.0000033,"vtol":[0.0000066,0.0000033],"swap":false,"proj":[9.026e-9,7.486e-8],"trim":[9.026e-9,7.486e-8],"tProj":[0.28622,0],"tTrim":[0.28622,0]}
+{"part":"f666f342_head_face.sldprt","edge":898,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.00002525851940273701,0.000020266818868828704],"swap":false,"proj":[2.816e-7,2.868e-7],"trim":[2.816e-7,2.868e-7],"tProj":[0.412183,0.413406],"tTrim":[0.412183,0.413406]}
+{"part":"f666f342_head_face.sldprt","edge":901,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.000020266818868828704,0.000021910715331528714],"swap":false,"proj":[2.868e-7,1.084e-7],"trim":[2.868e-7,1.084e-7],"tProj":[0.413406,0.767151],"tTrim":[0.413406,0.767151]}
+{"part":"f666f342_head_face.sldprt","edge":1425,"surface":"bspline","tol":0.000019999999999999998,"vtol":[0.000020157565981838704,0.000020646825962337803],"swap":false,"proj":[1.576e-7,2.141e-7],"trim":[1.576e-7,2.144e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"f666f342_head_face.sldprt","edge":11250,"surface":"bspline","tol":0.000019999999999999998,"vtol":[0.000020157565981838704,0.000020646825962337803],"swap":false,"proj":[1.576e-7,4.555e-7],"trim":[1.576e-7,4.555e-7],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f666f342_head_face.sldprt","edge":11003,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.000040166203790567735,0.00001998001998001998],"swap":false,"proj":[2.062e-7,1.286e-7],"trim":[2.062e-7,1.286e-7],"tProj":[0.913604,0.999635],"tTrim":[0.913604,0.999635]}
+{"part":"f666f342_head_face.sldprt","edge":11239,"surface":"bspline","tol":0.0000033,"vtol":[0.0000066,0.0000033],"swap":false,"proj":[9.026e-9,5.924e-8],"trim":[9.026e-9,5.924e-8],"tProj":[0.71378,1],"tTrim":[0.71378,1]}
+{"part":"f666f342_head_face.sldprt","edge":11274,"surface":"bspline","tol":0.000019999999999999998,"vtol":[0.00005670951449354258,0.000019999999999999998],"swap":false,"proj":[0.000004197,3.195e-7],"trim":[0.000004197,3.195e-7],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f666f342_head_face.sldprt","edge":11275,"surface":"bspline","tol":0.000019999999999999998,"vtol":[0.000019999999999999998,0.000020157565981838704],"swap":false,"proj":[3.194e-7,0.00001827],"trim":[3.195e-7,0.00001827],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f666f342_head_face.sldprt","edge":11241,"surface":"bspline","tol":0.00000205,"vtol":[0.000002089803443580825,0.00000205],"swap":false,"proj":[3.98e-8,7.076e-17],"trim":[3.98e-8,7.076e-17],"tProj":[0.889278,1],"tTrim":[0.889278,1]}
+{"part":"f666f342_head_face.sldprt","edge":11396,"surface":"bspline","tol":0.0000015,"vtol":[0.0000015819906140451103,0.0000015090013641145957],"swap":false,"proj":[5.175e-8,9.001e-9],"trim":[5.175e-8,9.001e-9],"tProj":[0.522032,0.626293],"tTrim":[0.522032,0.626293]}
+{"part":"f666f342_head_face.sldprt","edge":11399,"surface":"bspline","tol":0.0000015,"vtol":[0.0000026547753615896995,0.000019999999999999998],"swap":false,"proj":[7.069e-8,5.731e-8],"trim":[7.069e-8,5.731e-8],"tProj":[0.634783,0.686518],"tTrim":[0.634783,0.686518]}
+{"part":"f666f342_head_face.sldprt","edge":11402,"surface":"bspline","tol":0.0000033,"vtol":[0.0000033818927220217986,0.0000033],"swap":false,"proj":[8.189e-8,1.154e-8],"trim":[8.189e-8,1.154e-8],"tProj":[0.521245,1],"tTrim":[0.521245,1]}
+{"part":"f666f342_head_face.sldprt","edge":11407,"surface":"bspline","tol":0.0000033,"vtol":[0.0000033,0.0000033],"swap":false,"proj":[1.154e-8,6.126e-9],"trim":[1.154e-8,6.126e-9],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"f666f342_head_face.sldprt","edge":11034,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.00002525851940273701,0.000020266818868828704],"swap":false,"proj":[2.816e-7,2.868e-7],"trim":[2.816e-7,2.868e-7],"tProj":[0.432038,0.433272],"tTrim":[0.432038,0.433272]}
+{"part":"f666f342_head_face.sldprt","edge":11037,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.000020266818868828704,0.000021910715331528714],"swap":false,"proj":[2.868e-7,1.084e-7],"trim":[2.868e-7,1.084e-7],"tProj":[0.433272,0.781122],"tTrim":[0.433272,0.781122]}
+{"part":"f666f342_head_face.sldprt","edge":11040,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.000021056121185023648,0.000040229886782895735],"swap":false,"proj":[7.254e-8,2.609e-7],"trim":[7.254e-8,2.609e-7],"tProj":[0.814332,0.861949],"tTrim":[0.814332,0.861949]}
+{"part":"f666f342_head_face.sldprt","edge":11534,"surface":"bspline","tol":0.000019987284671347388,"vtol":[0.000019987284671347388,0.000021054839755346242],"swap":false,"proj":[0.000001038,9.287e-7],"trim":[0.000001038,9.287e-7],"tProj":[0.999987,0],"tTrim":[0.999987,0]}
+{"part":"f666f342_head_face.sldprt","edge":11162,"surface":"swept","tol":0.0000066230081048015715,"vtol":[0.000021054839755346242,0.0000066584171268891366],"swap":false,"proj":[0.000001032,1.18e-8],"trim":[0.000001032,1.18e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"f666f342_head_face.sldprt","edge":11535,"surface":"bspline","tol":0.000009714092735251775,"vtol":[0.000021054839755346242,0.00001],"swap":false,"proj":[8.604e-7,2.694e-17],"trim":[9.067e-7,2.694e-17],"tProj":[0.000006,1],"tTrim":[0.000003,1]}
+{"part":"f666f342_head_face.sldprt","edge":11252,"surface":"bspline","tol":0.000019999999999999998,"vtol":[0.000019999999999999998,0.00005670951449354258],"swap":false,"proj":[1.817e-13,0.000002917],"trim":[1.817e-13,0.000003602],"tProj":[1,0.000037],"tTrim":[1,0]}
+{"part":"f666f342_head_face.sldprt","edge":1356,"surface":"plane","tol":0.000019999999999999998,"vtol":[0.000019999999999999998,0.00005670951449354258],"swap":false,"proj":[1.817e-13,0.000002917],"trim":[1.817e-13,0.000003602],"tProj":[0,0.999963],"tTrim":[0,1]}
+{"part":"f666f342_head_face.sldprt","edge":1472,"surface":"bspline","tol":0.000019999999999999998,"vtol":[0.00005670951449354258,0.000019999999999999998],"swap":false,"proj":[0.000004197,3.195e-7],"trim":[0.000004197,3.195e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"f666f342_head_face.sldprt","edge":1358,"surface":"plane","tol":0.00000205,"vtol":[0.000002089803443580825,0.00000205],"swap":false,"proj":[3.98e-8,7.49e-17],"trim":[3.98e-8,7.987e-17],"tProj":[0.906784,1],"tTrim":[0.906784,1]}
+{"part":"f666f342_head_face.sldprt","edge":1424,"surface":"bspline","tol":0.000019999999999999998,"vtol":[0.000019999999999999998,0.000020157565981838704],"swap":false,"proj":[3.194e-7,1.576e-7],"trim":[3.195e-7,1.576e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"f666f342_head_face.sldprt","edge":1414,"surface":"bspline","tol":0.0000015,"vtol":[0.0000015819906140451103,0.0000015090013641145957],"swap":false,"proj":[5.175e-8,9.001e-9],"trim":[5.175e-8,9.001e-9],"tProj":[105.442777,128.770039],"tTrim":[105.442777,128.770039]}
+{"part":"f666f342_head_face.sldprt","edge":1421,"surface":"bspline","tol":0.0000015,"vtol":[0.0000026547753615896995,0.000019999999999999998],"swap":false,"proj":[7.069e-8,5.512e-8],"trim":[7.069e-8,5.512e-8],"tProj":[130.624952,141.745],"tTrim":[130.624952,141.745]}
+{"part":"f666f342_head_face.sldprt","edge":1376,"surface":"bspline","tol":0.0000033,"vtol":[0.0000033818927220217986,0.0000033],"swap":false,"proj":[8.189e-8,1.154e-8],"trim":[8.189e-8,1.154e-8],"tProj":[0.957631,0],"tTrim":[0.957631,0]}
+{"part":"f666f342_head_face.sldprt","edge":1074,"surface":"bspline","tol":0.0000033,"vtol":[0.0000033,0.0000033],"swap":false,"proj":[1.154e-8,5.122e-9],"trim":[1.154e-8,5.122e-9],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f666f342_head_face.sldprt","edge":10972,"surface":"offset","tol":0.00000175,"vtol":[0.00002525851940273701,0.00003053976744140427],"swap":false,"proj":[3.562e-7,6.944e-8],"trim":[3.562e-7,6.944e-8],"tProj":[1,0.98608],"tTrim":[1,0.98608]}
+{"part":"f666f342_head_face.sldprt","edge":11190,"surface":"bspline","tol":0.00000175,"vtol":[0.0000017832670049437814,0.000001754578732476407],"swap":false,"proj":[3.327e-8,3.576e-18],"trim":[3.327e-8,1.471e-9],"tProj":[0.596769,0.177973],"tTrim":[0.596769,0.177973]}
+{"part":"f666f342_head_face.sldprt","edge":11192,"surface":"bspline","tol":0.00000175,"vtol":[0.000049517245091808835,0.0000017691302146926183],"swap":false,"proj":[0.00002452,1.913e-8],"trim":[0.00002452,1.913e-8],"tProj":[1,0.736465],"tTrim":[1,0.736465]}
+{"part":"f666f342_head_face.sldprt","edge":11183,"surface":"offset","tol":0.00000175,"vtol":[0.000049517245091808835,0.0000017503187076593806],"swap":false,"proj":[7.239e-8,3.187e-10],"trim":[7.239e-8,3.187e-10],"tProj":[0.012685,0.908323],"tTrim":[0.012685,0.908323]}
+{"part":"f666f342_head_face.sldprt","edge":11193,"surface":"offset","tol":0.000024758622545904417,"vtol":[0.000049517245091808835,0.00003788228667980309],"swap":false,"proj":[0.00002476,0.000007448],"trim":[0.00002476,0.000007448],"tProj":[0.281963,0.390691],"tTrim":[0.281964,0.390691]}
+{"part":"f666f342_head_face.sldprt","edge":11682,"surface":"offset","tol":0.0000015,"vtol":[0.0000015802526557428763,0.000001582252090203167],"swap":false,"proj":[8.102e-8,4.08e-8],"trim":[8.102e-8,4.08e-8],"tProj":[0.477291,0.674427],"tTrim":[0.477291,0.674427]}
+{"part":"f666f342_head_face.sldprt","edge":1199,"surface":"bspline","tol":0.00000175,"vtol":[0.000049517245091808835,0.0000017503187076593806],"swap":false,"proj":[7.239e-8,3.187e-10],"trim":[7.239e-8,3.187e-10],"tProj":[0,0.939862],"tTrim":[0,0.939862]}
+{"part":"f666f342_head_face.sldprt","edge":1221,"surface":"offset","tol":0.00000175,"vtol":[0.0000017832670049437814,0.000001754578732476407],"swap":false,"proj":[3.327e-8,9.157e-9],"trim":[3.327e-8,9.275e-9],"tProj":[0.347566,0.692491],"tTrim":[0.347566,0.692491]}
+{"part":"f666f342_head_face.sldprt","edge":1203,"surface":"offset","tol":0.000024758622545904417,"vtol":[0.000049517245091808835,0.00003788228667980309],"swap":false,"proj":[3.043e-14,0.000007448],"trim":[1.098e-8,0.000007448],"tProj":[0.265176,0.37134],"tTrim":[0.265177,0.37134]}
+{"part":"f666f342_head_face.sldprt","edge":1021,"surface":"offset","tol":0.00000175,"vtol":[0.00002525851940273701,0.0000032218532526801156],"swap":false,"proj":[3.563e-7,7.095e-9],"trim":[3.563e-7,7.095e-9],"tProj":[0.010804,0.230655],"tTrim":[0.010804,0.230655]}
+{"part":"f666f342_head_face.sldprt","edge":1176,"surface":"swept","tol":0.000009714092735251775,"vtol":[0.000021054839755346242,0.00001],"swap":false,"proj":[8.604e-7,1.888e-15],"trim":[0.000001035,1.888e-15],"tProj":[0.000006,1],"tTrim":[0,1]}
+{"part":"f666f342_head_face.sldprt","edge":1532,"surface":"bspline","tol":0.0000066230081048015715,"vtol":[0.000021054839755346242,0.0000066584171268891366],"swap":false,"proj":[0.000001032,1.18e-8],"trim":[0.000001032,1.18e-8],"tProj":[1,0.22975],"tTrim":[1,0.22975]}
+{"part":"f666f342_head_face.sldprt","edge":1229,"surface":"offset","tol":0.000001,"vtol":[0.000019987284671347388,0.0000011211938597694443],"swap":false,"proj":[5.146e-7,9.764e-9],"trim":[5.146e-7,3.933e-8],"tProj":[0,0.770415],"tTrim":[0,0.770415]}
+{"part":"f666f342_head_face.sldprt","edge":1531,"surface":"bspline","tol":0.000001,"vtol":[0.000019987284671347388,0.000001],"swap":false,"proj":[0.000001219,2.463e-9],"trim":[0.000001219,2.463e-9],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f666f342_head_face.sldprt","edge":1223,"surface":"offset","tol":0.0000035,"vtol":[0.0000035604890848777784,0.0000035093009256139666],"swap":false,"proj":[5.998e-8,9.301e-9],"trim":[5.998e-8,9.301e-9],"tProj":[0.237146,0.659332],"tTrim":[0.237146,0.659332]}
+{"part":"f666f342_head_face.sldprt","edge":11537,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.00002342348593248942,0.000019987284671347388],"swap":false,"proj":[4.806e-7,0.000001103],"trim":[4.806e-7,0.000001221],"tProj":[0.275578,0.348888],"tTrim":[0.275578,0.348879]}
+{"part":"f666f342_head_face.sldprt","edge":11536,"surface":"bspline","tol":0.000001,"vtol":[0.000019987284671347388,0.0000011211938597694443],"swap":false,"proj":[5.146e-7,3.255e-9],"trim":[5.146e-7,3.824e-8],"tProj":[0,0.770108],"tTrim":[0,0.770108]}
+{"part":"f666f342_head_face.sldprt","edge":11539,"surface":"offset","tol":0.000001,"vtol":[0.000001,0.0000017689184188438687],"swap":false,"proj":[2.463e-9,1.875e-8],"trim":[2.463e-9,1.875e-8],"tProj":[1,0.120911],"tTrim":[1,0.120911]}
+{"part":"f666f342_head_face.sldprt","edge":11538,"surface":"offset","tol":0.000001,"vtol":[0.000019987284671347388,0.000001],"swap":false,"proj":[0.000001219,2.463e-9],"trim":[0.000001219,2.463e-9],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f666f342_head_face.sldprt","edge":7204,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.000040229886782895735,0.000040166203790567735],"swap":false,"proj":[2.697e-7,2.062e-7],"trim":[2.697e-7,2.062e-7],"tProj":[0.851902,0.906676],"tTrim":[0.851902,0.906676]}
+{"part":"f666f342_head_face.sldprt","edge":7211,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.000040166203790567735,0.00001998001998001998],"swap":false,"proj":[2.062e-7,4.412e-7],"trim":[2.062e-7,4.412e-7],"tProj":[0.906676,0.9996],"tTrim":[0.906676,0.9996]}
+{"part":"f666f342_head_face.sldprt","edge":10926,"surface":"bspline","tol":0.00000225,"vtol":[0.000020646825962337803,0.000002268277000866402],"swap":false,"proj":[2.139e-7,1.218e-8],"trim":[2.144e-7,1.218e-8],"tProj":[1.37384,34.601534],"tTrim":[1.37383,34.601534]}
+{"part":"f666f342_head_face.sldprt","edge":1198,"surface":"bspline","tol":0.000049517245091808835,"vtol":[0.000054391957369664774,0.000049517245091808835],"swap":false,"proj":[0.000002597,9.489e-8],"trim":[0.000002598,9.489e-8],"tProj":[0.612238,0],"tTrim":[0.612222,0]}
+{"part":"f666f342_head_face.sldprt","edge":1217,"surface":"offset","tol":0.00000175,"vtol":[0.000049517245091808835,0.0000017691302146926183],"swap":false,"proj":[0.00002452,1.913e-8],"trim":[0.00002452,1.913e-8],"tProj":[0.018335,0.245957],"tTrim":[0.018335,0.245957]}
+{"part":"f666f342_head_face.sldprt","edge":1228,"surface":"offset","tol":0.00001998001998001998,"vtol":[0.00002342348593248942,0.000019987284671347388],"swap":false,"proj":[4.806e-7,4.906e-9],"trim":[4.806e-7,5.164e-7],"tProj":[0.292704,0.36785],"tTrim":[0.292704,0.367841]}
+{"part":"f666f342_head_face.sldprt","edge":10973,"surface":"offset","tol":0.00000175,"vtol":[0.00003053976744140427,0.0000061715590453979224],"swap":false,"proj":[6.944e-8,0.000002672],"trim":[6.944e-8,0.000002672],"tProj":[0.98608,0],"tTrim":[0.98608,0]}
+{"part":"f666f342_head_face.sldprt","edge":1534,"surface":"bspline","tol":0.000019987284671347388,"vtol":[0.000019987284671347388,0.000021054839755346242],"swap":false,"proj":[4.307e-7,9.287e-7],"trim":[4.307e-7,9.287e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"f666f342_head_face.sldprt","edge":11191,"surface":"bspline","tol":0.000049517245091808835,"vtol":[0.000054391957369664774,0.000049517245091808835],"swap":false,"proj":[0.000002598,0.00001347],"trim":[0.000002598,0.00001347],"tProj":[0.387762,1],"tTrim":[0.387762,1]}
+{"part":"f666f342_head_face.sldprt","trimmedSpcurveEdges":147,"over":65}
+{"part":"3b48d9c5_Body10.sldprt","trimmedSpcurveEdges":0,"over":0}
+{"part":"4df87793_21BC-S 1.19-A.sldprt","trimmedSpcurveEdges":0,"over":0}
+{"part":"516a7dc5_Body1.sldprt","trimmedSpcurveEdges":0,"over":0}
+{"part":"afc71d14_Body2.sldprt","trimmedSpcurveEdges":0,"over":0}
+{"part":"a3a44709_FrontPanel-Bezel.sldprt","trimmedSpcurveEdges":0,"over":0}
+{"part":"05187d94_ChainCL_In.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"065f38b0_等径四节弯头-4.SLDPRT","trimmedSpcurveEdges":4,"over":0}
+{"part":"7192bb05_长短脚任意角度裤形三通管-5.SLDPRT","trimmedSpcurveEdges":7,"over":0}
+{"part":"6ff6c243_通气塞.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"300f9732_Carter2019.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"68cd51b6_20190309-0049.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"0739c559_[HEAD-COVR-MIL1-COMN-00] Facema","edge":6078,"surface":"offset","tol":0.00004821178821178821,"vtol":[0.00004821178821178821,0.00004821178821178821],"swap":false,"proj":[0.000007502,4.919e-17],"trim":[0.000007502,4.919e-17],"tProj":[0.999379,0],"tTrim":[1,0]}
+{"part":"0739c559_[HEAD-COVR-MIL1-COMN-00] Facema","edge":6075,"surface":"offset","tol":0.00001,"vtol":[0.00001,0.00004821178821178821],"swap":false,"proj":[3.417e-17,0.0001575],"trim":[3.103e-13,0.0001591],"tProj":[1,0.791124],"tTrim":[1,0.787046]}
+{"part":"0739c559_[HEAD-COVR-MIL1-COMN-00] Facema","edge":6077,"surface":"plane","tol":0.00004821178821178821,"vtol":[0.00004821178821178821,0.00004821178821178821],"swap":false,"proj":[0,0.000008359],"trim":[0,0.000008359],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"0739c559_[HEAD-COVR-MIL1-COMN-00] Facema","edge":6080,"surface":"plane","tol":0.00001,"vtol":[0.00001,0.00004821178821178821],"swap":false,"proj":[2.502e-17,0.00000628],"trim":[2.502e-17,0.00000628],"tProj":[0,0.207056],"tTrim":[0,0.207056]}
+{"part":"0739c559_[HEAD-COVR-MIL1-COMN-00] Facema","trimmedSpcurveEdges":41,"over":4}
+{"part":"1214a0ff_[ARM-A-V1-COMN-INNR-COMN-01] Mo","trimmedSpcurveEdges":0,"over":0}
+{"part":"118a3cb0_cut-z18-b1xh1xl1.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"289756ce_cut-z071-b1-l1-l2-typ.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"629adcec_cut-z351-d1xl1.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"70477058_mt-cut-z085-l1xb1-typ.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"51065319_Mirror (opt 1-PSA)-HME_D.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"d49566bc_AntennaMount.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"d799e9a3_90751A110_18-8 Stainless Steel ","trimmedSpcurveEdges":0,"over":0}
+{"part":"0132519a_102_STEM.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"06b5063b_050_MASTER_SKETCH.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"15567d51_leva1.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"361e7dbb_101_HOUSING.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"ca465363_103_COVER.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"d2515121_Ecran_128x32oled.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"eefa906d_plancher Dalle 2020.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"07ff8da1_shelf.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"096d0504_MargayMount_WH10.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"27377fd2_FE-00006-06.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"28398415_Raspberry Pi 4.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"300d7f07_Bottom Case.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"44afdb7c_back_cushion.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"54b05886_bottom_adc.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"636b653d_MountingBracket.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"7765d286_NSJ8L.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"8cd79ff5_1ESxx.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"91a2d981_Camera Module.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"d381ebab_bottom_dac.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"e8c40c25_psu.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"fb449daa_Gloworm PCB.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"14f9214b_11.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"320de1b5_SPEC-PC-MB-MATX-KEEPOUT-BOTTOM.","trimmedSpcurveEdges":0,"over":0}
+{"part":"34fe5ff1_Group_44390.stp.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"543861c9_BALL NUT BRACKET_(11-25-20).SLD","trimmedSpcurveEdges":0,"over":0}
+{"part":"72b08e3e_Hip Cable HOlder.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"7841a106_6344428.SLDPRT","trimmedSpcurveEdges":12,"over":0}
+{"part":"9494d959_27_20_4.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"b185085c_Handle 3.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"b32017f5_Engine Compartment - Sub Cover ","trimmedSpcurveEdges":0,"over":0}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":447,"surface":"cylinder","tol":7.52091607826666e-7,"vtol":[0.000001342462167213692,7.52091607826666e-7],"swap":false,"proj":[1.732e-7,9.416e-9],"trim":[1.732e-7,9.416e-9],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":395,"surface":"cylinder","tol":0.00000112970771452389,"vtol":[0.00000112970771452389,0.00000112970771452389],"swap":false,"proj":[2.011e-7,4.909e-9],"trim":[2.011e-7,4.909e-9],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1921,"surface":"cylinder","tol":5e-7,"vtol":[7.36233085605817e-7,9.65047436741221e-7],"swap":false,"proj":[8.259e-15,1.29e-8],"trim":[8.259e-15,1.29e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1916,"surface":"bspline","tol":5e-7,"vtol":[5e-7,9.65047436741221e-7],"swap":false,"proj":[9.519e-13,6.814e-8],"trim":[9.519e-13,6.814e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1919,"surface":"torus","tol":9.65047436741221e-7,"vtol":[9.65047436741221e-7,9.65047436741221e-7],"swap":false,"proj":[6.804e-8,6.807e-8],"trim":[6.804e-8,6.807e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":2217,"surface":"torus","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.856e-8,3.04e-9],"trim":[2.856e-8,3.04e-9],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1945,"surface":"bspline","tol":5e-7,"vtol":[7.58227193190485e-7,5.61806732265321e-7],"swap":false,"proj":[3.18e-17,1.849e-8],"trim":[3.469e-17,1.849e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":406,"surface":"cone","tol":8.43217993163822e-7,"vtol":[8.43217993163822e-7,8.43217993163822e-7],"swap":false,"proj":[2.774e-7,3.487e-17],"trim":[2.774e-7,3.487e-17],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1947,"surface":"torus","tol":5.61806732265321e-7,"vtol":[5.61806732265321e-7,5.61806732265321e-7],"swap":false,"proj":[1.335e-7,6.919e-8],"trim":[1.335e-7,6.919e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":525,"surface":"plane","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.309e-8,4.163e-17],"trim":[1.309e-8,4.171e-17],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":2707,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[6.41e-8,3.23e-9],"trim":[6.41e-8,3.23e-9],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":2095,"surface":"cone","tol":8.4291330703333e-7,"vtol":[8.4291330703333e-7,8.4291330703333e-7],"swap":false,"proj":[3.044e-17,2.774e-7],"trim":[5.816e-17,2.774e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1935,"surface":"cylinder","tol":9.83313587589296e-7,"vtol":[0.00000162849407598503,9.83313587589296e-7],"swap":false,"proj":[1.627e-7,6.045e-9],"trim":[1.627e-7,6.045e-9],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":443,"surface":"cylinder","tol":0.000002118618599326535,"vtol":[0.000002118618599326535,0.000002118618599326535],"swap":false,"proj":[2.422e-7,2.526e-7],"trim":[2.422e-7,2.526e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":445,"surface":"cylinder","tol":0.000001342462167213692,"vtol":[0.000002118618599326535,0.000001342462167213692],"swap":false,"proj":[1.998e-7,2.27e-7],"trim":[1.998e-7,2.27e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1645,"surface":"plane","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.309e-8,1.089e-16],"trim":[1.309e-8,1.089e-16],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":2703,"surface":"cylinder","tol":8.428144631536339e-7,"vtol":[8.428144631536339e-7,8.428144631536339e-7],"swap":false,"proj":[3.643e-9,1.828e-7],"trim":[3.643e-9,1.828e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1804,"surface":"plane","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[4.171e-17,1.309e-8],"trim":[4.171e-17,1.309e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1960,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.517e-8,2.18e-8],"trim":[2.517e-8,2.18e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1996,"surface":"cylinder","tol":0.000001107641611070798,"vtol":[0.00000112970771452389,0.000001107641611070798],"swap":false,"proj":[5.885e-9,1.729e-7],"trim":[5.885e-9,1.729e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":321,"surface":"torus","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[3.037e-9,2.856e-8],"trim":[3.037e-9,2.856e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":2226,"surface":"plane","tol":5e-7,"vtol":[5e-7,0.00000247226348221074],"swap":false,"proj":[3.43e-8,1.896e-8],"trim":[3.43e-8,1.896e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":1907,"surface":"bspline","tol":5e-7,"vtol":[5.61806732265321e-7,5e-7],"swap":false,"proj":[1.55e-7,1.388e-17],"trim":[1.55e-7,1.388e-17],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":2048,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.161e-8,2.967e-8],"trim":[2.161e-8,2.967e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":140,"surface":"plane","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.089e-16,1.309e-8],"trim":[1.089e-16,1.309e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":391,"surface":"cylinder","tol":0.0000014652511695456099,"vtol":[0.0000014652511695456099,0.0000014652511695456099],"swap":false,"proj":[2.217e-7,2.14e-7],"trim":[2.217e-7,2.14e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":389,"surface":"cylinder","tol":8.61654595943397e-7,"vtol":[8.61654595943397e-7,0.0000014652511695456099],"swap":false,"proj":[9.235e-9,1.878e-7],"trim":[9.235e-9,1.878e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","edge":850,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[9.321e-9,1.946e-8],"trim":[9.321e-9,1.946e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"60f84235_2022_10_06_17_02_43_0612.stp.SL","trimmedSpcurveEdges":129,"over":28}
+{"part":"85aabbde_84T Gear.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"916d4a0a_36T Gear.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"bc3292d7_12T Gear.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"eb0b2a21_60T Gear.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"073482d3_ReducerBox_1_Reducer.SLDPRT","trimmedSpcurveEdges":32,"over":0}
+{"part":"0d68d32d_6208K696_Clamping Precision Fle","trimmedSpcurveEdges":16,"over":0}
+{"part":"10459a56_A-2605-01_CR1_Right_Angle_Mount","trimmedSpcurveEdges":0,"over":0}
+{"part":"1ee60868_z轴皮带固定.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":1280,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.06e-15,1.621e-8],"trim":[1.06e-15,1.621e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":3362,"surface":"cylinder","tol":0.000001339394196720602,"vtol":[0.000001627607879344875,0.000001339394196720602],"swap":false,"proj":[4.465e-7,8.084e-9],"trim":[4.465e-7,8.084e-9],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":3357,"surface":"cylinder","tol":6.83293651650942e-7,"vtol":[6.83293651650942e-7,0.000001627607879344875],"swap":false,"proj":[3.538e-13,4.465e-7],"trim":[3.538e-13,4.465e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":3355,"surface":"cylinder","tol":8.13803939672436e-7,"vtol":[0.000001627607879344875,8.13803939672436e-7],"swap":false,"proj":[5.425e-7,1e-15],"trim":[5.425e-7,1e-15],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":3420,"surface":"plane","tol":0.000001339187190000854,"vtol":[0.000001627607879344875,0.000001339187190000854],"swap":false,"proj":[4.464e-7,2e-15],"trim":[4.464e-7,2e-15],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":2474,"surface":"cylinder","tol":6.834466320464439e-7,"vtol":[0.00000162807956801493,6.834466320464439e-7],"swap":false,"proj":[4.466e-7,1.601e-13],"trim":[4.466e-7,1.601e-13],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":2476,"surface":"cylinder","tol":8.14039784007465e-7,"vtol":[8.14039784007465e-7,0.00000162807956801493],"swap":false,"proj":[2.119e-15,5.427e-7],"trim":[6.503e-14,5.427e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":2961,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.241e-10,1.872e-8],"trim":[2.241e-10,1.872e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":2667,"surface":"cylinder","tol":0.000001339799021098012,"vtol":[0.000001339799021098012,0.00000162807956801493],"swap":false,"proj":[1.096e-12,4.466e-7],"trim":[1.096e-12,4.466e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":2678,"surface":"cylinder","tol":0.00000162807956801493,"vtol":[0.00000162807956801493,0.00000162807956801493],"swap":false,"proj":[5.427e-7,2.538e-14],"trim":[5.427e-7,2.538e-14],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":2965,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.845e-8,7.999e-16],"trim":[2.845e-8,7.999e-16],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":780,"surface":"plane","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.779e-8,1.18e-15],"trim":[2.779e-8,1.18e-15],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":93,"surface":"plane","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.22e-14,2.779e-8],"trim":[2.22e-14,2.779e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":3426,"surface":"cylinder","tol":0.000001627607879344875,"vtol":[0.000001627607879344875,0.000001627607879344875],"swap":false,"proj":[2.451e-14,5.425e-7],"trim":[2.451e-14,5.425e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","edge":2955,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.872e-8,1.149e-9],"trim":[1.872e-8,1.149e-9],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"24344735_080-1926-000_3.SLDPRT","trimmedSpcurveEdges":48,"over":15}
+{"part":"273a8d53_FG-F1.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"3980555c_RASPBERRY_PI_5+cooler-5.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"3c4752f1_A-2226-01_Input_Inline_Tube_Ada","trimmedSpcurveEdges":20,"over":0}
+{"part":"40e79d45_Fins.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"47b2b860_DIN_Flex_Converter_pad_161.SLDP","trimmedSpcurveEdges":0,"over":0}
+{"part":"5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT","edge":6,"surface":"bspline","tol":0.000015,"vtol":[0.0000153024495570267,0.000020632072417902853],"swap":false,"proj":[3.024e-7,0.00000308],"trim":[3.024e-7,0.00000308],"tProj":[0,0.358481],"tTrim":[0,0.35848]}
+{"part":"5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT","edge":272,"surface":"plane","tol":0.000015,"vtol":[0.0000150006339950615,0.00001530245194282985],"swap":false,"proj":[1.268e-9,3.024e-7],"trim":[1.268e-9,3.024e-7],"tProj":[0.500229,0],"tTrim":[0.500229,1]}
+{"part":"5f8e9db3_-弹簧压棒弹簧-1-V3-V02.SLDPRT","trimmedSpcurveEdges":2,"over":2}
+{"part":"6ccc1814_LB26001-A-04-007.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"84226163_Fin.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"9cc04b03_SO-C1.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"a0ab30c8_LB26001-A-04-022.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"a0fc2e29_Vertical Spar.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"c0ef9eb3_DIN_Flex_Converter_pad_117.SLDP","trimmedSpcurveEdges":0,"over":0}
+{"part":"c72513ca_ASSEMBLY_11.SLDPRT","trimmedSpcurveEdges":6,"over":0}
+{"part":"ceefa2a9_CRP320-05.SLDPRT","trimmedSpcurveEdges":24,"over":0}
+{"part":"d753195d_ServoMount.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"db8a97e2_écrou fileté M5.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"dc265ce1_Fin.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"dd156283_637Z flanzi bearing.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"f8c2df35_2023_10_16_23_28_17_0357_body1.","trimmedSpcurveEdges":0,"over":0}
+{"part":"03764871_BME280.SLDPRT","trimmedSpcurveEdges":12,"over":0}
+{"part":"1759e569_mahatbalam_ex7_beg.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"2f121983_case.SLDPRT","edge":525,"surface":"bspline","tol":0.000004,"vtol":[0.000010005963404457644,0.000004235039123702544],"swap":false,"proj":[3.879e-18,3.503e-8],"trim":[2.77e-15,3.504e-8],"tProj":[0.957083,0.655183],"tTrim":[0.957083,0.655183]}
+{"part":"2f121983_case.SLDPRT","edge":285,"surface":"cylinder","tol":0.000004,"vtol":[0.00001,0.000004296956143909694],"swap":false,"proj":[0,9.692e-8],"trim":[1.917e-8,9.696e-8],"tProj":[0,0.526316],"tTrim":[0,0.526316]}
+{"part":"2f121983_case.SLDPRT","edge":297,"surface":"bspline","tol":0.000004,"vtol":[0.000004005963430625273,0.000004534465876976368],"swap":false,"proj":[9.501e-18,3.344e-7],"trim":[2.759e-15,3.345e-7],"tProj":[0.957083,0.310367],"tTrim":[0.957083,0.310367]}
+{"part":"2f121983_case.SLDPRT","trimmedSpcurveEdges":29,"over":3}
+{"part":"2fd21507_MidplateEM2.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"31596c7e_EC11 Rotary Encoder 15mm.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"3edbf014_TEST shortened Dock (Final).SLD","trimmedSpcurveEdges":0,"over":0}
+{"part":"41b71219_板材-Guidance安装板.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"4803f393_box.SLDPRT","trimmedSpcurveEdges":8,"over":0}
+{"part":"9aeafb66_标准件-30mm管夹.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"d0d61cde_官方元件-定位模块.SLDPRT","trimmedSpcurveEdges":20,"over":0}
+{"part":"d2f7f9bd_iman.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"d77ec77a_TopSheet.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"d8206ed0_J6_Flange_Adapter.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"ef1d5cfe_DS3231.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"03afebf4_Profilringe.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"09d353a9_Elbow_Mount2.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"1e794aad_6344387.SLDPRT","trimmedSpcurveEdges":14,"over":0}
+{"part":"225c13ed_camholder0deg.SLDPRT","trimmedSpcurveEdges":2,"over":0}
+{"part":"2300f35c_Thigh Symétrie.SLDPRT","edge":9931,"surface":"bspline","tol":7.857975322841973e-8,"vtol":[7.857975322841973e-8,9.440284144338916e-8],"swap":false,"proj":[1.845e-9,1.547e-8],"trim":[1.845e-9,1.547e-8],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"2300f35c_Thigh Symétrie.SLDPRT","edge":9838,"surface":"bspline","tol":7.857975322841973e-8,"vtol":[9.440284144338916e-8,7.857975322841973e-8],"swap":false,"proj":[1.286e-8,5.456e-10],"trim":[1.547e-8,5.456e-10],"tProj":[0.999995,0],"tTrim":[1,0]}
+{"part":"2300f35c_Thigh Symétrie.SLDPRT","trimmedSpcurveEdges":20,"over":2}
+{"part":"346a04bc_R01_D_lower_1_140_washer_head.S","trimmedSpcurveEdges":0,"over":0}
+{"part":"37663d8a_Gasket For M12.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"4febfc67_6344149.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"766ad273_WP06_washer_inner_-1_-94.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"7fa6934e_Aluminum Box Pt 2.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"871e670c_servo_adapter.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"951f2bc1_Boitier.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"a4ecc6f5_PP-2074-08.SLDPRT","trimmedSpcurveEdges":842,"over":0}
+{"part":"be0e76cf_WP06_screw_1_-94.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"bf11f45c_shear_clip_1_150_-94.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"f750218b_612-00002.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"05d0b4c3_pin-2-2.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"16f99cd7_装甲板固定（前）.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"3e41786b_LB26001-A-04-002_seed.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"50af9019_7x4 P42a Cell Holder.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"51f01927_Держатель-Фиксатор-Бутылки.SLDP","trimmedSpcurveEdges":484,"over":0}
+{"part":"55c163ac_pin-1-2.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"6fd68589_pin-2-1.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"822f5572_一级挡块-hhr镂空限位.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"8aaecde6_6008内圈下加工件.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"8afc9212_[HEAD-A-B-11-L] Face Block Midd","trimmedSpcurveEdges":0,"over":0}
+{"part":"ac760485_存矿小端.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"c613782b_Крепёжная-Планка.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"e8f16581_Engine Base.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":138,"surface":"bspline","tol":0.000001,"vtol":[0.000001006716531081211,0.000010518806838689596],"swap":false,"proj":[6.712e-9,0.000003653],"trim":[6.717e-9,0.000003653],"tProj":[0.000001,1],"tTrim":[0,1]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":136,"surface":"bspline","tol":0.000001,"vtol":[0.0000010356654993730644,0.000001],"swap":false,"proj":[1.205e-8,9.992e-18],"trim":[1.205e-8,1.007e-17],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":146,"surface":"cylinder","tol":0.0000010154428999679701,"vtol":[0.000001015442899970443,0.000010518806838689596],"swap":false,"proj":[0,0.000003654],"trim":[1.64e-17,0.000003654],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":139,"surface":"cylinder","tol":0.000001,"vtol":[0.000010518806838689596,0.0000010101724825266112],"swap":false,"proj":[0.000003654,1.017e-8],"trim":[0.000003654,1.017e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":152,"surface":"bspline","tol":0.0000010237769995820028,"vtol":[0.0000010237769995844942,0.0000010356654993730644],"swap":false,"proj":[0.0004492,1.397e-9],"trim":[7.373e-19,1.205e-8],"tProj":[0.031642,1],"tTrim":[0.1034,1]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":140,"surface":"cylinder","tol":0.000001,"vtol":[0.0000010101724825266112,0.0000010356654993730644],"swap":false,"proj":[1.017e-8,1.187e-8],"trim":[1.017e-8,1.189e-8],"tProj":[0,0.999996],"tTrim":[0,1]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":1261,"surface":"bspline","tol":0.000001070479303502391,"vtol":[0.0000011057189552537636,0.000001070479303502391],"swap":false,"proj":[3.524e-8,0],"trim":[3.524e-8,0],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":1260,"surface":"plane","tol":0.000001,"vtol":[0.000010500000000000001,0.0000011057189552537636],"swap":false,"proj":[0.000003087,3.562e-8],"trim":[0.000003087,3.562e-8],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":1251,"surface":"plane","tol":0.000001,"vtol":[0.000001,0.000010500000000000001],"swap":false,"proj":[0,0.000003094],"trim":[0,0.000003094],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":1257,"surface":"plane","tol":0.000001,"vtol":[0.0000011057189552537636,0.000001],"swap":false,"proj":[3.523e-8,0],"trim":[3.524e-8,0],"tProj":[0.999997,0],"tTrim":[1,0]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","edge":1252,"surface":"cylinder","tol":0.0000010704793035025442,"vtol":[0.000010500000000000001,0.0000010704793035025442],"swap":false,"proj":[0.000003094,8.119e-18],"trim":[0.000003094,9.601e-18],"tProj":[1,0],"tTrim":[1,0]}
+{"part":"f0b9a118_Standoff_M3x0.5_37 mm_Male to F","trimmedSpcurveEdges":18,"over":11}
+{"part":"f6facc43_[HEAD-A-B-08] Slope Panels.SLDP","trimmedSpcurveEdges":0,"over":0}
+{"part":"0eab6495_A15_KW10_cassette_L_heel.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"2693f32a_GE-26501-02_ Tower Base Angle.S","trimmedSpcurveEdges":0,"over":0}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":1812,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.058e-14,6.762e-8],"trim":[1.058e-14,6.762e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":1603,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.547e-14,2.506e-8],"trim":[2.547e-14,2.506e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":1764,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[5.943e-15,4.368e-8],"trim":[5.943e-15,4.368e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":2090,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[6.761e-8,9.49e-15],"trim":[6.761e-8,9.49e-15],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":1554,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[4.371e-8,9.509e-15],"trim":[4.371e-8,9.509e-15],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":1552,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.09e-7,3.284e-8],"trim":[1.09e-7,3.284e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":1599,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[3.051e-9,1.085e-7],"trim":[3.051e-9,1.085e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":1732,"surface":"plane","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.944e-8,2.944e-8],"trim":[2.944e-8,2.944e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":1730,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[3.28e-8,1.09e-7],"trim":[3.28e-8,1.09e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":2100,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.37e-8,2.092e-10],"trim":[2.37e-8,2.092e-10],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":2088,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.087e-7,3.029e-9],"trim":[1.087e-7,3.029e-9],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":13942,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[3.399e-8,3.051e-7],"trim":[3.399e-8,3.051e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":13894,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[8.076e-8,1.565e-15],"trim":[8.076e-8,1.565e-15],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":13901,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[6.762e-9,3.549e-8],"trim":[6.762e-9,3.549e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":13900,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[4.907e-9,1.612e-8],"trim":[4.907e-9,1.612e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":13897,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.085e-7,6.519e-16],"trim":[1.085e-7,6.519e-16],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":13895,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.676e-8,1.202e-8],"trim":[1.676e-8,1.202e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":11173,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.842e-8,1.59e-12],"trim":[1.842e-8,1.59e-12],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":11183,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[7.858e-15,1.521e-8],"trim":[7.858e-15,1.521e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":11181,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.735e-18,5.358e-8],"trim":[1.735e-18,5.358e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":13933,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.228e-8,1.464e-8],"trim":[1.228e-8,1.464e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":13944,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.786e-8,1.384e-8],"trim":[1.786e-8,1.384e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":13947,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.674e-8,3.405e-8],"trim":[1.674e-8,3.405e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":12851,"surface":"cylinder","tol":8.546392456752759e-7,"vtol":[8.546392456752759e-7,8.546392456752759e-7],"swap":false,"proj":[2.815e-7,2.815e-7],"trim":[2.815e-7,2.815e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":12848,"surface":"cylinder","tol":7.22846015353352e-7,"vtol":[7.22846015353352e-7,7.22846015353352e-7],"swap":false,"proj":[2.375e-7,2.375e-7],"trim":[2.375e-7,2.375e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":12473,"surface":"cylinder","tol":8.546392456752759e-7,"vtol":[8.546392456752759e-7,8.546392456752759e-7],"swap":false,"proj":[2.815e-7,2.815e-7],"trim":[2.815e-7,2.815e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":12470,"surface":"cylinder","tol":7.22846015353352e-7,"vtol":[7.22846015353352e-7,7.22846015353352e-7],"swap":false,"proj":[2.375e-7,2.375e-7],"trim":[2.375e-7,2.375e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","edge":10988,"surface":"bspline","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.651e-8,1.676e-8],"trim":[1.651e-8,1.676e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"2e6e140a_ST3215_C018_04.SLDPRT","trimmedSpcurveEdges":140,"over":28}
+{"part":"4d85599e_base-M4.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"c292e7e2_18t x 15mm Wide Aluminum Pulley","edge":2492,"surface":"cylinder","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[2.48e-7,2.48e-7],"trim":[2.48e-7,2.48e-7],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"c292e7e2_18t x 15mm Wide Aluminum Pulley","edge":3171,"surface":"plane","tol":5e-7,"vtol":[5e-7,5e-7],"swap":false,"proj":[1.244e-8,1.244e-8],"trim":[1.244e-8,1.244e-8],"tProj":[0,1],"tTrim":[0,1]}
+{"part":"c292e7e2_18t x 15mm Wide Aluminum Pulley","trimmedSpcurveEdges":2,"over":2}
+{"part":"c5784ab3_A09_power_and_compute_rack.SLDP","trimmedSpcurveEdges":0,"over":0}
+{"part":"d889c6fc_FE-00001-04_ 1-7_16_ Diameter 6","trimmedSpcurveEdges":0,"over":0}
+{"part":"daa6e9e9_CR26-201-08.SLDPRT","trimmedSpcurveEdges":0,"over":0}
+{"part":"10582557_9271K109_Torsion Spring.SLDPRT","error":"No Config-N-Partition stream"}
+{"part":"8ac95686_separadores.SLDPRT","error":"No Config-N-Partition stream"}
+{"part":"9e494ca4_91169A160_Steel Split Lock Washer.SLDPRT","error":"No Config-N-Partition stream"}
+{"part":"d7b58324_small_motor.rev1.SLDPRT","error":"No Config-N-Partition stream"}
+{"part":"34a1cacb_91202A226_Zinc-Plated Steel Split Lock Washer.Sldprt","error":"No Config-N-Partition stream"}

@@ -1,0 +1,10 @@
+v 0.007338 u 0: radius across u 4.9882 mm, centre on the +n side; offset 4.8260 mm along +n
+v 0.007338 u 0.5: radius across u 4.9907 mm, centre on the +n side; offset 4.8260 mm along +n
+v 0.007338 u 1: radius across u 4.9884 mm, centre on the +n side; offset 4.8260 mm along +n
+v 0.008142 u 0: radius across u 5.2468 mm, centre on the +n side; offset 4.8260 mm along +n
+v 0.008142 u 0.5: radius across u 5.2472 mm, centre on the +n side; offset 4.8260 mm along +n
+v 0.008142 u 1: radius across u 5.2450 mm, centre on the +n side; offset 4.8260 mm along +n
+v 0.008945 u 0: radius across u 5.3340 mm, centre on the +n side; offset 4.8260 mm along +n
+v 0.008945 u 0.5: radius across u 5.3340 mm, centre on the +n side; offset 4.8260 mm along +n
+v 0.008945 u 1: radius across u 5.3340 mm, centre on the +n side; offset 4.8260 mm along +n
+vertex 1 foot: u 0.9999999999998709 v 0.007121960155147527

@@ -1,0 +1,12 @@
+inside, v 0.007348: polynomial against the surface, basis 0.00e+0, offset 1.92e-10
+inside, v 0.007583: polynomial against the surface, basis 0.00e+0, offset 8.15e-10
+inside, v 0.008500: polynomial against the surface, basis 0.00e+0, offset 5.74e-10
+t, v, then for linear | polynomial: distance from the cylinder, from the cylinder fin
+t 0.8300 v 0.007425: linear 7.92e-8, 3.47e-6 | polynomial 7.92e-8, 3.47e-6
+t 0.8200 v 0.007335: linear 9.00e-8, 5.02e-6 | polynomial 9.01e-8, 4.12e-6
+t 0.8100 v 0.007246: linear 1.27e-7, 3.44e-5 | polynomial 9.18e-8, 4.65e-6
+t 0.8000 v 0.007156: linear 2.27e-7, 6.39e-5 | polynomial 8.43e-8, 5.10e-6
+t 0.7900 v 0.007067: linear 3.90e-7, 9.34e-5 | polynomial 6.87e-8, 4.02e-5
+t 0.7870 v 0.007040: linear 4.50e-7, 1.02e-4 | polynomial 6.29e-8, 6.48e-5
+curve end to vertex 1 (tolerance 4.82e-5): linear 1.59e-4, polynomial 8.26e-5
+nearest point of the polynomial curve to vertex 1: 5.09e-5

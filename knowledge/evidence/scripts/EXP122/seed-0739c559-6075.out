@@ -1,0 +1,4 @@
+vertex 0: curveProject t 1.000000000 distance 3.42e-17; dense t 1.000000000 distance 3.10e-13; trim t 1.0000000000389864 distance 3.10e-13
+vertex 1: curveProject t 0.791124149 distance 1.57e-4; dense t 0.791124333 distance 1.57e-4; trim t 0.7870462687740439 distance 1.59e-4
+converter fit: t 1..0, error 1.57e-4
+fit from the trim: error 1.59e-4

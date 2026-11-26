@@ -1,0 +1,8 @@
+basis sense -1, offset d -0.0048259999999999996 (applied 0.0048259999999999996), v range starts 0.007337931111983218
+vertex 1 foot on the offset (seed null): u 1.0000000 v 0.0071220, distance 1.97e-16
+vertex 1 foot on the offset (seed {"u":0,"v":0.00704}): u 1.0000000 v 0.0071220, distance 1.97e-16
+vertex 1 foot on the offset (seed {"u":0,"v":0.0074}): u 1.0000000 v 0.0071220, distance 1.97e-16
+v 0.007338: |dS/dv| 0.6185 m, |dn/dv| 99.1240, radius of curvature 6.239 mm
+v 0.007538: |dS/dv| 0.6453 m, |dn/dv| 118.4090, radius of curvature 5.450 mm
+v 0.008138: |dS/dv| 0.7386 m, |dn/dv| 141.6633, radius of curvature 5.214 mm
+curve end t 0.7870462687740439: uv (-2.6973834947692418e-17, 0.007040355111262308)

@@ -1,0 +1,15 @@
+basis sense -1, offset d -0.0048259999999999996 (applied 0.0048259999999999996), v range starts 0.007337931111983218
+vertex 1 foot on the offset (seed null): u 1.0000000 v 0.0071220, distance 1.97e-16
+vertex 1 foot on the offset (seed {"u":0,"v":0.00704}): u 1.0000000 v 0.0071220, distance 1.97e-16
+vertex 1 foot on the offset (seed {"u":0,"v":0.0074}): u 1.0000000 v 0.0071220, distance 1.97e-16
+v 0.007338: |dS/dv| 0.6185 m, |dn/dv| 99.1240, radius of curvature 6.239 mm
+v 0.007538: |dS/dv| 0.6453 m, |dn/dv| 118.4090, radius of curvature 5.450 mm
+v 0.008138: |dS/dv| 0.7386 m, |dn/dv| 141.6633, radius of curvature 5.214 mm
+curve end t 0.7870462687740439: uv (-2.6973834947692418e-17, 0.007040355111262308)
+u knots [0,0,0,1,1,1], v knots [0.007337931111983218,0.007337931111983218,0.007337931111983218,0.007337931111983218,0.007827126519448765,0.007827126519448765,0.008945287450798589,0.008945287450798589,0.008945287450798589,0.008945287450798589], weights yes
+v 0.008945: basis S(0,v)-S(1,v) 2.76e-3, dS/dv apart 1.08e+0, normals 30.0000 deg apart; offset 2.63e-4
+v 0.008142: basis S(0,v)-S(1,v) 3.07e-3, dS/dv apart 6.52e-1, normals 34.0778 deg apart; offset 2.47e-4
+v 0.007338: basis S(0,v)-S(1,v) 3.23e-3, dS/dv apart 4.46e-1, normals 37.8148 deg apart; offset 1.05e-4
+v 0.007122 (extension): basis S(0,v)-S(1,v) 3.26e-3, dS/dv apart 4.46e-1, normals 38.7737 deg apart; offset 7.56e-5
+v 0.007040 (extension): basis S(0,v)-S(1,v) 3.27e-3, dS/dv apart 4.46e-1, normals 39.1284 deg apart; offset 8.15e-5
+vertex 1 to offset S(0, 0.007122): 7.56e-5; to S(1, 0.007122): 3.93e-8
