@@ -1,3 +1,6 @@
 blend surfaces 296, shared by more than one face 6: blend4004 (2396,2391) blend15324 (12821,12828) blend15483 (13093,13171) blend15460 (13178,13186) blend4163 (2591,2647) blend4140 (2652,2658)
 blend15483 fitted for face 13093: spine range 0.018085817 .. 0.33201103, error 7.03e-9, 131 s
 blend15483 fitted for face 13171: spine range 0.20817364 .. 0.72160515, error 8.40e-9, 1 s
+blend4163 fitted for face 2591: spine range 0.018085817 .. 0.33201103, error 7.03e-9, 120 s
+blend4163 fitted for face 2647: spine range 0.20817364 .. 0.72160515, error 8.40e-9, 1 s
+exit 0

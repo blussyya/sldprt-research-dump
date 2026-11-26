@@ -10,3 +10,31 @@ end 7.5 blendSurface face 9022 blend ms 2593 error 6.38e-9
 start 7.5 blendSurface face 9032 blend
 end 10.7 blendSurface face 9032 blend ms 3194 error 1.72e-9
 start 10.7 blendSurface face 7917 blend
+end 12.3 blendSurface face 7917 blend ms 1666 error 1.98e-9
+start 12.3 blendSurface face 8901 blend
+end 20.1 blendSurface face 8901 blend ms 7773 error 6.08e-9
+start 20.1 blendSurface face 9046 blend
+end 23.7 blendSurface face 9046 blend ms 3624 error 5.58e-9
+start 23.7 blendSurface face 9042 blend
+end 23.8 blendSurface face 9042 blend ms 17 error 5.24e-9
+start 23.8 blendSurface face 7994 blend
+end 27.9 blendSurface face 7994 blend ms 4139 error 2.89e-9
+start 27.9 blendSurface face 8026 blend
+end 29.2 blendSurface face 8026 blend ms 1322 error 1.56e-9
+start 29.2 blendSurface face 8024 blend
+end 30.3 blendSurface face 8024 blend ms 1128 error 1.84e-9
+start 30.4 blendSurface face 8103 blend
+end 34.2 blendSurface face 8103 blend ms 3868 error 7.39e-9
+start 34.2 blendSurface face 8020 blend
+end 43.5 blendSurface face 8020 blend ms 9325 error 4.83e-9
+start 43.5 blendSurface face 8905 blend
+end 43.6 blendSurface face 8905 blend ms 26 error 5.24e-9
+start 43.6 blendSurface face 7861 blend
+end 47.9 blendSurface face 7861 blend ms 4349 error 7.84e-10
+start 47.9 blendSurface face 8913 blend
+end 47.9 blendSurface face 8913 blend ms 20 error 5.24e-9
+start 47.9 blendSurface face 2386 blend
+end 49.5 blendSurface face 2386 blend ms 1563 error 8.89e-9
+start 49.5 blendSurface face 2396 blend
+end 55.3 blendSurface face 2396 blend ms 5778 error 9.94e-9
+start 55.3 blendSurface face 2401 blend
