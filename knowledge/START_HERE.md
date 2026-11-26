@@ -157,5 +157,6 @@ Part files first; assemblies and drawings wait until these are done (the user's 
 7. NQ-070: the dense check makes parts with many intersection curves 2.6 to 3.3 times slower.
 
 Also still open: NQ-071 (IDs for the 190 faces of the 140-byte layout), NQ-057 (the B-rep triangulator on 32 parts), NQ-066 (edge 844's vertex pair),
-NQ-068 (gaps at intersection-edge ends), NQ-074 (bounds word +100 and the cone cosine), and the
+NQ-068 (gaps at intersection-edge ends), NQ-074 (bounds word +100 and the cone cosine), NQ-075
+(display edge ids shifted in two 2013 files), and the
 format remainders in NEXT_QUESTIONS' queue table (NQ-031, 032, 044, 060, 062 to 064).

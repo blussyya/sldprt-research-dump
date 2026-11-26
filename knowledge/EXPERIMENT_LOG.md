@@ -1879,3 +1879,16 @@ edge's 3D curve.
 
 Evidence: [2026-11-24_v0.5-EXP117.md](evidence/2026-11-24_v0.5-EXP117.md).
 
+
+## EXP-118 — The two holes in head_face's display mesh
+
+Not a reading error. Display faces 75 and 448 of `f666f342` are mirror-image screw bores. Each
+has a ring of mesh boundary with no edge id, shared with no other face, up to 1.47 mm from the
+nearest face. They are the only two such faces among 20,501 with edge ids in the corpus. The B-rep
+face's second loop is a 96° arc plus the short branch of a closed intersection curve, which doesn't
+go round the bore. No edge covers the other 264°, so the face has no bottom there. SolidWorks' own
+edge labels in the display put each edge on the same arc and branch. Separately, the file's display
+edge ids differ from the native node ids by 0, −1 or +1 in id ranges; head_back (2013) by 0 to
+−9. No converter output joins edges by id. Not blind-checked.
+
+Evidence: [2026-11-26_v0.5-EXP118.md](evidence/2026-11-26_v0.5-EXP118.md).

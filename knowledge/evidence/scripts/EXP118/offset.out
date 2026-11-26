@@ -1,0 +1,8 @@
+labels 1810 with one analytic match 611 ambiguous 35 none 1164
+offset (label - native id) histogram {"0":312,"1":297,"11":1,"-1":1}
+  from label 322: offset 0
+  from label 1237: offset -1
+  from label 1238: offset 0
+  from label 10941: offset 1
+  from label 11255: offset 11
+  from label 11286: offset 1

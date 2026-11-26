@@ -1,0 +1,3 @@
+ring vertices 46 | on no analytic native surface within 1e-6 m: 21
+   2521 cylinder r=1.350mm 25
+   2516 cylinder r=1.350mm 25

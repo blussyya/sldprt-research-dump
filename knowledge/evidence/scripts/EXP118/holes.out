@@ -1,0 +1,8 @@
+faces 732 | rejected records 0 | overlays 0 | warnings 1
+  warning {"message":"Legacy mesh geometry decoded; downstream surface/edge metadata remains uninterpreted"}
+display face 75: closed chain of 46 vertices, centre [0.04589,0.01131,0.03131] m, radius 1.912 mm
+   native join by edge set: 1 candidate(s); face 2516, cylinder, 2 loop(s) of 1+2 edges; hole centre 7.39e-4 m from its surface
+   other display faces with a vertex on the hole chain: none
+display face 448: closed chain of 40 vertices, centre [-0.04603,0.01152,0.03124] m, radius 1.845 mm
+   native join by edge set: 0 candidate(s)
+   other display faces with a vertex on the hole chain: none

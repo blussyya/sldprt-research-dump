@@ -1,0 +1,18 @@
+face 75: rim segments 46, vertices 46
+  stored box min 0.045065 0.009600 0.029190 max 0.047850 0.012620 0.031449
+  rim x: 0.045162 to 0.047788; vertices on box min 0, on box max 0, outside the box 0
+  rim y: 0.009931 to 0.012583; vertices on box min 0, on box max 0, outside the box 0
+  rim z: 0.030966 to 0.031633; vertices on box min 0, on box max 0, outside the box 10
+  rim height along the bore axis -6.330 to -6.030 mm; axis 0.0000 -0.1627 -0.9867
+  all vertices x: outside the stored box 1 of 139
+  all vertices y: outside the stored box 0 of 139
+  all vertices z: outside the stored box 12 of 139
+face 448: rim segments 40, vertices 40
+  stored box min -0.047850 0.009600 0.029190 max -0.045065 0.012620 0.031449
+  rim x: -0.047790 to -0.045175; vertices on box min 0, on box max 0, outside the box 0
+  rim y: 0.009944 to 0.012518; vertices on box min 0, on box max 0, outside the box 0
+  rim z: 0.030808 to 0.031363; vertices on box min 0, on box max 0, outside the box 0
+  rim height along the bore axis -6.330 to -5.920 mm; axis 0.0000 -0.1627 -0.9867
+  all vertices x: outside the stored box 1 of 135
+  all vertices y: outside the stored box 0 of 135
+  all vertices z: outside the stored box 0 of 135

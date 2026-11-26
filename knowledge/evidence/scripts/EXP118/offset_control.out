@@ -1,0 +1,25 @@
+== 2013/82981f2a_head_back.sldprt
+labels 1299 one match 605 several 10 none 684
+offset (label - native id): {"0":102,"-1":157,"-4":192,"-6":2,"-9":152}
+  label 335: offset 0
+  label 481: offset -1 (previous label 479)
+  label 689: offset -4 (previous label 688)
+  label 962: offset -6 (previous label 958)
+== 2013/92c393f4_camera_support.sldprt
+labels 308 one match 286 several 0 none 22
+offset (label - native id): {"0":286}
+  label 10: offset 0
+== 2011/6ff6c243_通气塞.SLDPRT
+labels 16 one match 0 several 2 none 14
+offset (label - native id): {}
+== 2011/e1f38af5_0000380-01.sldprt
+labels 14 one match 0 several 0 none 14
+offset (label - native id): {}
+== 2014/300f9732_Carter2019.SLDPRT
+labels 212 one match 188 several 0 none 24
+offset (label - native id): {"0":188}
+  label 4: offset 0
+== 2014/68cd51b6_20190309-0049.SLDPRT
+labels 68 one match 60 several 0 none 8
+offset (label - native id): {"0":60}
+  label 4: offset 0

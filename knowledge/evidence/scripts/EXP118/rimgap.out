@@ -1,0 +1,4 @@
+face 75: 46 rim vertices; distance to the nearest other display face: min 1.48e-7, median 1.21e-4, max 1.47e-3 m; nearest face {"56":46}
+  under 1e-6 m: 1  1e-6 to 1e-4: 19  1e-4 and over: 26
+face 448: 40 rim vertices; distance to the nearest other display face: min 1.48e-6, median 2.56e-5, max 1.48e-3 m; nearest face {"429":40}
+  under 1e-6 m: 0  1e-6 to 1e-4: 24  1e-4 and over: 16

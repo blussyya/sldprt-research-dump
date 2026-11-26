@@ -1,0 +1,3 @@
+mirror of 1165: closest label segments 11112 6.6e-10, 11125 1.9e-3, 11136 1.9e-3 | native edge(s) on the mirrored circle: display id 11111
+mirror of 1166: closest label segments 11112 1.9e-3, 11125 6.1e-10, 11136 1.8e-8 | native edge(s) on the mirrored circle: display id 11124
+face 448 labels (segments): {"11112":24,"11125":8,"11136":23}

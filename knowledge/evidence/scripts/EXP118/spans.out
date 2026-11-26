@@ -1,0 +1,12 @@
+V1 -0.0 deg h -6.200 | V2 263.8 deg h -6.200 (angles about the bore axis, measured from V1)
+circle 1166 normal . bore axis -1.000000 edge sameSense true
+circle 1166 from start to end vertex, counter-clockwise about its own normal: 96.2 deg; the other way 263.8 deg
+  point 1/4 along it: 336.0 deg, h -6.200
+  point 2/4 along it: 311.9 deg, h -6.200
+  point 3/4 along it: 287.9 deg, h -6.200
+display face 56 label 1093: 23 segments, angles 263.8 to 360.0, heights -6.314 to -6.200
+display face 75 label 1093: 23 segments, angles 263.8 to 360.0, heights -6.314 to -6.200
+display face 72 label 1166: 8 segments, angles 263.8 to 360.0, heights -6.200 to -6.200
+display face 75 label 1166: 8 segments, angles 263.8 to 360.0, heights -6.200 to -6.200
+display face 66 label 1165: 24 segments, angles 14.3 to 359.3, heights -4.300 to -4.300
+display face 75 label 1165: 24 segments, angles 14.3 to 359.3, heights -4.300 to -4.300

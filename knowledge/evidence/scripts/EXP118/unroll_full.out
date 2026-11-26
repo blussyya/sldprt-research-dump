@@ -1,0 +1,6 @@
+overlay 1166 circle points 361
+overlay 1093 intersection points 33
+face75-unrolled-full.png | unrolled 8.187 x 4.200 mm | red loop 46 vertices, encloses 1.1267 mm² | face triangles inside it: 48 | nearest other face-75 vertex to the loop: 5.05e-6 m
+overlay 11124 circle points 361
+overlay 11135 intersection points 33
+face448-unrolled-full.png | unrolled 8.189 x 4.200 mm | red loop 40 vertices, encloses 0.6924 mm² | face triangles inside it: 46 | nearest other face-75 vertex to the loop: 4.88e-6 m

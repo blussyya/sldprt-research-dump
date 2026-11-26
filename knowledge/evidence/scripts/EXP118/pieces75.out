@@ -1,0 +1,5 @@
+face 75 triangles 105 pieces 1
+ piece: 105 triangles, area 15.5275 mm², vertices max 6.4e-5 m off the native surface
+   loop 46 segments: ids {}, unlabelled 46, max off surface 6.4e-5
+   loop 31 segments: ids {"1093":23,"1166":8}, unlabelled 0, max off surface 8.8e-6
+   loop 24 segments: ids {"1165":24}, unlabelled 0, max off surface 1.7e-9

@@ -1,0 +1,5 @@
+labels 1810 one match 1705 several 42 none 63
+offset (label - native id): {"0":841,"1":858,"-1":6}
+  label 322: offset 0
+  label 9541: offset -1 (previous label 9087)
+  label 10899: offset 1 (previous label 9601)

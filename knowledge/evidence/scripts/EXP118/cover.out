@@ -1,0 +1,5 @@
+display face 56 vertices on the bore near the ring: 17 of 148 | Block1 ids [1009,1093,1153,1158,1092,1152]
+display face 72 vertices on the bore near the ring: 13 of 27 | Block1 ids [1166,1155,1151,1152,1153,1154]
+display face 75 vertices on the bore near the ring: 64 of 139 | Block1 ids [1093,1165,1166]
+native 2516 cylinder axis [ 0, -0.1627, -0.9867 ] p [ 0.0465, 0.01023, 0.02517 ] loops 1165:circle | 1166:circle 1093:intersection
+native 2521 cylinder axis [ 0, -0.1627, -0.9867 ] p [ 0.0465, 0.01023, 0.02517 ] loops 1167:circle | 1133:circle

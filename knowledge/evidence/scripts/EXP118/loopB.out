@@ -1,0 +1,5 @@
+ loop 0 edge 1165 full circle, coedge sense true
+ loop 0: winding around the bore axis 1.000 turns, heights -4.300 to -4.300 mm
+ loop 1 edge 1166 circle: v0->v1 span 96.2 deg (edge sameSense true), coedge sense true
+ loop 1 edge 1093 intersection: 33 chart points, chart starts at v0 (0.0e+0 m), edge sameSense true, coedge sense false; heights -8.200 to -6.200 mm
+ loop 1: winding around the bore axis -0.000 turns, heights -8.200 to -6.200 mm

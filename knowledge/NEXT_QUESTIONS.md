@@ -77,6 +77,7 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-070 | Make the dense fit check cheaper; parts with many intersection curves are 2.6 to 3.3 times slower. |
 | NQ-071 remainder | Find where the 190 faces of the 140-byte layout keep their IDs, if anywhere; the 2025/2026 layout is read (EXP-116). |
 | NQ-074 | Name the low 16 bits of bounds word +100 (they group faces by feature) and find how the cone cosine is computed. |
+| NQ-075 | Find where the display's edge ids part from the native node ids in `f666f342` (0, −1, +1) and head_back 2013 (0 to −9); start with the `(deltas)` section. |
 
 | Blocked on a discriminating file or SolidWorks save | Needed input |
 |---|---|
@@ -1611,6 +1612,9 @@ gap should count the same way.
 
 ## NQ-069 — `f666f342` (head_face) doesn't resolve in 2,400 s
 
+**Lead 2026-11-26 (EXP-118, not tested)**: faces 2516 and 12990 have a second loop that doesn't go
+round their bore, so they have no bottom over 264°. Whether the resolve stalls there isn't known.
+
 **Status**: Open. The part entered the sweep after EXP-086. It times out at 2,400 s on `dev` and on
 the EXP-103 code, so there's no error to look at yet. Find where the time goes first.
 
@@ -1700,3 +1704,17 @@ degree half-arc, a fixed target for working out the rule.
 **Evidence**: [EXP-110](evidence/2026-11-09_v0.5-EXP110.md).
 
 **Date raised**: 2026-11-23.
+
+## NQ-075 — Display edge ids shifted from the native node ids in two 2013 files
+
+**Status**: Open. In `f666f342` the display's edge ids equal the native node ids up to 9087, are one
+lower from 9541 to 9601 and one higher from 10899. Both count the same 1,810 edges, and the shifts
+fall in id ranges with no edge. head_back (`82981f2a`, 2013) shifts by 0, −1, −4, −6 and −9;
+camera_support (2013) and two 2014 files don't. Neither file has a second B-rep copy. Find which
+numbering the display took: the `(deltas)` section of Config-0-Partition is unread. Two 2011 files
+match no edge within ±12, also unexplained. Nothing in the converter joins edges by id today; a
+decoded legacy face id would need the same check.
+
+**Evidence**: [EXP-118](evidence/2026-11-26_v0.5-EXP118.md), "Display edge ids off by one".
+
+**Date raised**: 2026-11-26.

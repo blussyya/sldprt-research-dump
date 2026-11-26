@@ -1,5 +1,18 @@
 # Research Handoff
 
+## Checkpoint — 2026-11-26, EXP-118 (head_face's display holes)
+
+New here? Read [START_HERE.md](START_HERE.md) first.
+
+The two holes in `f666f342`'s display mesh (faces 75 and 448, mirror-image screw bores) are in the
+file. The B-rep face's second loop doesn't go round the bore, so the face has no bottom over 264°,
+and SolidWorks' mesh stops at a ring with no edge id. SolidWorks' display labels agree with the
+B-rep on every edge. No other face in the corpus has unlabelled mesh boundary. The chainwheel fix
+(EXP-117) holds corpus-wide: every face with edge ids gets boundary cycles. New question NQ-075 (display
+edge ids shifted from native node ids in two 2013 files). No converter change.
+
+Evidence: [2026-11-26_v0.5-EXP118.md](evidence/2026-11-26_v0.5-EXP118.md).
+
 ## Checkpoint — 2026-11-23, blind checks of EXP-099 to EXP-112
 
 New here? Read [START_HERE.md](START_HERE.md) first.

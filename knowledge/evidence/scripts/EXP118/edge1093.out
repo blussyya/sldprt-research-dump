@@ -1,0 +1,7 @@
+loop 1165(v null, edge sameSense true, coedge sense true)
+loop 1166(v [1908,1861], edge sameSense true, coedge sense true) -> 1093(v [1908,1861], edge sameSense true, coedge sense false)
+1093 curve type intersection keys type,surfaces,chart,chordalError,start,end,node
+chart points 33
+  chart point 0: edge start vertex 1908 
+  chart point 32: edge start vertex 1908 
+start/end H points: start -> start vertex 7.9e-18, end vertex 2.0e-3 | end -> start vertex 7.9e-18, end vertex 2.0e-3

@@ -1,0 +1,8 @@
+display face 75: labels [1093,1165,1166]; native edges found: 1093:intersection 1165:circle 1166:circle
+   label 1093 (23 segments): worst distance to its own curve 2.07e-5 m; nearest approach to the other edges: 1165 1.9e-3, 1166 4.2e-10
+   label 1165 (24 segments): worst distance to its own curve 1.87e-9 m; nearest approach to the other edges: 1093 1.9e-3, 1166 1.9e-3
+   label 1166 (8 segments): worst distance to its own curve 1.90e-9 m; nearest approach to the other edges: 1093 4.6e-10, 1165 1.9e-3
+display face 448: labels [11136,11112,11125]; native edges found: 11136:circle 11112:line 11125:intersection
+   label 11136 (23 segments): worst distance to its own curve 4.11e-3 m; nearest approach to the other edges: 11112 2.9e-3, 11125 3.8e-3
+   label 11112 (24 segments): worst distance to its own curve 3.95e-3 m; nearest approach to the other edges: 11125 4.4e-3, 11136 2.1e-3
+   label 11125 (8 segments): worst distance to its own curve 5.68e-3 m; nearest approach to the other edges: 11112 2.9e-3, 11136 4.0e-3
