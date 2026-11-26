@@ -1896,6 +1896,19 @@ of 8,293 cylinder and cone faces in the corpus have such a loop.
 
 Evidence: [2026-11-26_v0.5-EXP118.md](evidence/2026-11-26_v0.5-EXP118.md).
 
+## EXP-119 — Why head_face didn't resolve in 2,400 s
+
+A stop test that couldn't pass. On B-surface 15500 (1.5 mm per unit u), the plain foot's Newton
+settles in 3 steps and then jitters by 2e-15 in u, never under the stop test's 1e-15 × (1 + |u|).
+After 30 steps the caller ran a full grid search, thousands of times inside blend 15483's nested
+spines. Stopping when the unclamped step moves the point under 1e-14 m: that spine fits in 55 s
+instead of 189 to 204 s, within 8.8e-17 m of the old one, and the part resolves for the first time
+(3,214 s). Sweep: nothing worse; on 101 parts 1,325 to 1,140 s, the spring 50 to 8 s. Converter
+ab2214a. The finished resolve had 19 edges and 2 blend surfaces over 1e-8 m (EXP-121). Not
+blind-checked.
+
+Evidence: [2026-11-26_v0.5-EXP119.md](evidence/2026-11-26_v0.5-EXP119.md).
+
 ## EXP-120 — 3c4752f1's two edges over 1e-8 m
 
 The curves are right; the over-bar number comes from where the blend touches the plane. From 0.1 µm
@@ -1905,3 +1918,19 @@ that spread. Control: the crossing end is fitted within 1.8e-12 m. Same limit as
 converter change. Not blind-checked.
 
 Evidence: [2026-11-26_v0.5-EXP120.md](evidence/2026-11-26_v0.5-EXP120.md).
+
+## EXP-121 — head_face's SP_CURVE edges millimetres to centimetres off
+
+Three causes in how the converter places SP_CURVEs on blends it fits, none in the file. (1) A
+blend surface shared by two faces was fitted for the first face's stretch of spine only; the
+second face's edges ran off it, up to 4.2 cm. Each face now gets its own fit. (2) Re-anchoring took
+the contact side from Parasolid's 2D v, which runs from either support depending on the blend. Six
+edges were 1.4 to 2.4 mm off, the section's chord; a contact edge now takes the side its vertices
+are on (8.5e-9 m and better). (3) Some edges cross the blend diagonally. Where such an edge has a
+fin on a surface evaluated exactly, the converter fits from that fin (1192: 2.38e-2 to 3.9e-9 m).
+Blend v is the angle fraction across the section; u is within 0.08 to 0.23% of the spine's arc
+length, not exact. Sweeps: nothing worse; only head_face changed, worst curve 4.18e-2 to 9.76e-5 m.
+Converter 32426cb and 31a5f28. Left: three blend-to-blend diagonal edges (3.8e-6 to 9.8e-5 m), two
+blend surfaces at 1.03e-4 m, six intersection edges at 1e-8 to 1.2e-7 m. Not blind-checked.
+
+Evidence: [2026-11-26_v0.5-EXP121.md](evidence/2026-11-26_v0.5-EXP121.md).

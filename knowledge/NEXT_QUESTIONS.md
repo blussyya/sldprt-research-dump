@@ -1617,6 +1617,12 @@ gap should count the same way.
 
 ## NQ-069 — `f666f342` (head_face) doesn't resolve in 2,400 s
 
+**Answered for time 2026-11-26 (EXP-119)**: plain feet on B-surface 15500 never met their stop test
+and fell back to grid searches inside nested blend spines. With a spatial stop the part resolves in
+2,700 to 3,200 s. Its over-bar fits were three converter errors on SP_CURVEs (EXP-121, fixed) and
+what NQ-076 and NQ-077 list. The lead below was not the cause: faces 2516 and 12990 are cylinders
+bounded by exact circles and one intersection edge each, fitted to 1.81e-11 m (`scripts/EXP121/bore.out`).
+
 **Lead 2026-11-26 (EXP-118, not tested)**: faces 2516 and 12990 have a second loop that doesn't go
 round their bore, so they have no bottom over 264°. Whether the resolve stalls there isn't known.
 
@@ -1629,6 +1635,11 @@ the EXP-103 code, so there's no error to look at yet. Find where the time goes f
 **Date raised**: 2026-11-22 (EXP-103).
 
 ## NQ-070 — The dense fit check's cost
+
+**Partly answered 2026-11-26 (EXP-119)**: after the stop-test fix the spring `5f8e9db3` takes 8 s
+(50 s before, 19 s before the dense check), Carter2019 1 s, `073482d3` 20 s, the 101 parts
+resolved in both sweeps 1,140 s instead of 1,325 s. Much of the slowdown was grid searches, not
+dense rounds. `3c4752f1`, `0d68d32d` and `d799e9a3` haven't been timed on their own since.
 
 **Status**: Open. Over the online sample the total time rose 6% (1,417 to 1,496 s), but parts with
 many fitted intersection curves are 2.6 to 3.3 times slower: `3c4752f1` 4 to 13 s, `0d68d32d` 18 to
@@ -1723,5 +1734,23 @@ the other pre-2014 files and find where it sits in the longer tails. A converter
 would need a geometry check for the shift. Two 2011 files match no edge within ±12, unexplained.
 
 **Evidence**: [EXP-118](evidence/2026-11-26_v0.5-EXP118.md), "Display edge ids off by one".
+
+**Date raised**: 2026-11-26.
+
+## NQ-076 — Parasolid's (u, v) on a rolling-ball blend, and the diagonal edges that need it
+
+**Status**: Open. An SP_CURVE on a rolling-ball blend is a 2D curve in Parasolid's own blend
+(u, v). Measured on 57 edges of head_face and head_back (EXP-121): v is the angle across the
+section as a fraction, from one support, the same support for every edge of a blend (15 blends
+start at support 0, 18 at support 1); u is within 0.08 to 0.23% of the spine's arc length in metres
+on 11 long edges, 1.3% on edge 1232, and off by up to 62% on the three shortest. Not good enough to
+place a point to 1e-8 m. Three head_face edges need it: 1171, 11067 and 11272 cross from one
+section to another (9.8e-5, 8.6e-5 and 3.8e-6 m re-anchored), and their other fins are on blends
+too, so the EXP-121 fin fallback can't help. To answer: find what u is (arc length of which curve,
+the spine's chart, the contact curve, a reparametrised spine) and what decides v's starting
+support, from blends with many SP_CURVE edges; then map those three edges exactly.
+
+**Evidence**: [EXP-121](evidence/2026-11-26_v0.5-EXP121.md), `scripts/EXP121/uv_poppy.jsonl`,
+`uv_poppy.summary`, `sect.out`, `fins.out`.
 
 **Date raised**: 2026-11-26.

@@ -1,0 +1,6 @@
+face 2516: cylinder, 2 loops
+  loop: 1165 circle exact
+  loop: 1166 circle exact; 1093 intersection 1.81e-11
+face 12990: cylinder, 2 loops
+  loop: 11111 circle exact
+  loop: 11124 circle exact; 11135 intersection 1.81e-11
