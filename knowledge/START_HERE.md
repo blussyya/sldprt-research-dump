@@ -3,7 +3,7 @@
 This is the briefing for anyone, person or agent, picking the SLDPRT work up cold. Read it first,
 then `RESEARCH_HANDOFF.md` (where things stand) and `NEXT_QUESTIONS.md` (what's open).
 
-Last brought up to date 2026-11-01, after EXP-086.
+Last brought up to date 2026-11-26, after EXP-118.
 
 ## The goal
 
@@ -20,7 +20,7 @@ All four live under `sldprt reverse engineering/` and on GitHub under `blussyya`
 |---|---|---|
 | `sldprt-research-dump` | the source of truth for the research: every experiment (`knowledge/evidence/YYYY-MM-DD_v0.5-EXPnnn.md`), every script and output it used (`knowledge/evidence/scripts/EXPnnn/`), the logs, and the test corpus | `main` |
 | `sldprt-format-research` | the format write-up (`format/`, `export/`, `research/`) and validation tools (`tools/`) | `main` |
-| `solidworks-converters` | the converter code (Node, no dependencies), `npm test` | `dev`; the user merges `dev` into `main` |
+| `solidworks-converters` | the converter code (Node, no dependencies), `npm test` | `main` |
 | `solidworks-mcp` | a separate SolidWorks automation server, not part of this research | leave it alone |
 
 `rollback-bringup`, if it turns up, is an old copy of the docs repo. Ignore it.
@@ -31,7 +31,7 @@ All four live under `sldprt reverse engineering/` and on GitHub under `blussyya`
 2. **Find out, cheaply.** Write a small script under `knowledge/evidence/scripts/EXPnnn/` that
    loads the part and looks at one thing. Hand bulk reading or corpus sweeps to cheap subagents
    (Haiku) in small chunks, and check what they bring back.
-3. **Change the converter** on `dev` only when the cause is understood, not to make a number pass.
+3. **Change the converter** only when the cause is understood, not to make a number pass.
 4. **Check for regressions** before committing: `npm test` in the converter, then the online-sample
    sweep against the last baseline:
 
@@ -49,8 +49,9 @@ All four live under `sldprt reverse engineering/` and on GitHub under `blussyya`
    Format facts go in `sldprt-format-research/format/`, export behaviour in `export/`, and the
    state of things in `research/open-questions.md` and `research/validation.md`. Add a line to the
    handoff log saying what the session did and what's next.
-7. **Commit and push** each repo from the local terminal (`git push`). The converter's commits go
-   to `dev`. Nothing should be left only on the local machine or in a scratch folder.
+7. **Commit and push** each repo to `main`, signed (see the rules). Since 2026-11-23 all three repos
+   work on `main` only; don't create other remote branches. Nothing should be left only on the local
+   machine or in a scratch folder.
 
 ## The research rules
 
@@ -76,6 +77,12 @@ These come from the user and override any habit that conflicts with them.
   all wrong; the real cause was bad points being pinned into the fit.
 - **Say when you were wrong.** Earlier claims that turn out false get corrected in place, with a
   note, not quietly replaced.
+- **Git.** Sign every commit with the user's SSH signing key (`gpg.format ssh`, `commit.gpgsign
+  true`); the user hands the key over at the start of a cloud session. Never print, copy or commit
+  the private key. No attribution lines (no Co-Authored-By, no session links). Work on `main` only
+  and don't create remote branches the user didn't ask for. The user's email is private: never
+  put it in requests to outside services.
+- **Scope.** Part files first. Assemblies and drawings wait until the part work is finished.
 - **Writing voice.** Anything front-facing (evidence, docs, READMEs, commit messages) is written
   plainly, the way a person would say it: short sentences, verbs, real numbers, no hype words. In
   Claude Code, load the `sldprt-research-method` skill (`.claude/skills/` in this repo), which has
@@ -101,7 +108,7 @@ These come from the user and override any habit that conflicts with them.
   const resolved=P.resolve(M);                // fits intersections and blends
   ```
 
-## Where things stand (2026-11-23)
+## Where things stand (2026-11-26)
 
 - 134 of the 136 real online-sample parts resolve. The other 5 of the 141 files, in `not-a-part/`,
   aren't SolidWorks files (4 are STEP text, 1 undecodable). `2f121983` still stops, and `f666f342` (head_face) doesn't finish in 2,400 s. head_back
@@ -115,7 +122,7 @@ These come from the user and override any habit that conflicts with them.
     of a micron of the T point the exact spine can't be found to 1e-8 m, so the number isn't a
     measured accuracy either way (NQ-065).
 - The converter's `main` has all of this (`dev` is merged and deleted; work goes straight to
-  `main` now). The tests pass: 83, 2 skipped.
+  `main` now). The tests pass: 86, 2 skipped (2026-11-24).
 - Every experiment through EXP-112 has had its blind prove and disprove checks, and the format
   pages carry the results. The checks of 2026-11-23 corrected EXP-099 (994 records without an
   id block, not 56), EXP-105 (its 1e-9 m bar was below float32 rounding) and EXP-110 (+128 isn't
@@ -125,6 +132,14 @@ These come from the user and override any habit that conflicts with them.
   EXP-116) and builds boundary cycles on seam faces (EXP-115). The 62 degree cone normals were cone
   apexes, not a bug (EXP-114). Off-surface display vertices are chord points, except the off-chord
   ones, which are points of tolerant B-spline edge curves (EXP-113).
+
+- 2026-11-24: chainwheel's 141 faces without boundary cycles were a reader error in pre-2011
+  control-0 strips (edge ids in a swapped order). Fixed by rule (converter 894360c); over the
+  corpus (216 parts, 20,519 faces) every face with edge ids now closes (EXP-117, EXP-118).
+- 2026-11-26: the two holes in head_face's display mesh (`f666f342` faces 75 and 448) are in the
+  file: the B-rep bore face's second loop doesn't go round the bore (EXP-118). A community member
+  is asked to re-save the part and run Check Entity. The file's display edge ids are shifted from
+  the native ids in id ranges (NQ-075).
 
 Verified format facts, each having survived a blind check (more in the format pages):
 

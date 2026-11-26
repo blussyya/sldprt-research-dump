@@ -115,7 +115,7 @@ writing an evidence section or a commit message.
 |---|---|---|
 | `sldprt-research-dump` | experiments (`knowledge/evidence/YYYY-MM-DD_v0.5-EXPnnn.md`), their scripts and outputs, logs, test corpus | `main` |
 | `sldprt-format-research` | format write-up (`format/`, `export/`, `research/`) and tools | `main` |
-| `solidworks-converters` | the converter (Node, no dependencies), `npm test` | `dev`; the user merges to `main` |
+| `solidworks-converters` | the converter (Node, no dependencies), `npm test` | `main` (since 2026-11-23; no other branches) |
 
 Push everything. Nothing stays only in a scratch folder or a dead container. Change the converter
 only when the cause is understood, and run `npm test` and the sweep (one at a time) first.
