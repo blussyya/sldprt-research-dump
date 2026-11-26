@@ -1,0 +1,20 @@
+vertex 2466: off plane 1.4e-18 m, off blend 8.4e-13 m
+vertex 2463: off plane 1.4e-18 m, off blend 9.5e-13 m
+touching end 0:
+  1e-8 m from the end: normals 2.67e-4 deg apart; 4 exact points spread 2.07e-7 m, furthest from the fit 1.30e-7 m
+  3e-8 m from the end: normals 4.38e-4 deg apart; 4 exact points spread 1.90e-7 m, furthest from the fit 1.14e-7 m
+  1e-7 m from the end: normals 1.67e-3 deg apart; 4 exact points spread 2.74e-13 m, furthest from the fit 6.86e-11 m
+  3e-7 m from the end: normals 5.98e-3 deg apart; 4 exact points spread 5.11e-14 m, furthest from the fit 6.57e-12 m
+  1e-6 m from the end: normals 2.03e-2 deg apart; 4 exact points spread 2.44e-15 m, furthest from the fit 2.03e-11 m
+  3e-6 m from the end: normals 6.08e-2 deg apart; 4 exact points spread 6.09e-16 m, furthest from the fit 1.34e-12 m
+  1e-5 m from the end: normals 2.03e-1 deg apart; 4 exact points spread 3.41e-15 m, furthest from the fit 3.80e-15 m
+  1e-4 m from the end: normals 2.03e+0 deg apart; 4 exact points spread 7.19e-17 m, furthest from the fit 1.52e-11 m
+control end 1:
+  1e-8 m from the end: normals 3.23e+1 deg apart; 4 exact points spread 1.94e-17 m, furthest from the fit 1.77e-12 m
+  3e-8 m from the end: normals 3.23e+1 deg apart; 4 exact points spread 1.91e-17 m, furthest from the fit 1.75e-12 m
+  1e-7 m from the end: normals 3.23e+1 deg apart; 4 exact points spread 1.77e-17 m, furthest from the fit 1.66e-12 m
+  3e-7 m from the end: normals 3.23e+1 deg apart; 4 exact points spread 3.47e-18 m, furthest from the fit 1.40e-12 m
+  1e-6 m from the end: normals 3.23e+1 deg apart; 4 exact points spread 1.10e-17 m, furthest from the fit 5.40e-13 m
+  3e-6 m from the end: normals 3.22e+1 deg apart; 4 exact points spread 1.77e-17 m, furthest from the fit 1.65e-12 m
+  1e-5 m from the end: normals 3.21e+1 deg apart; 4 exact points spread 1.43e-17 m, furthest from the fit 6.59e-12 m
+  1e-4 m from the end: normals 3.01e+1 deg apart; 4 exact points spread 5.20e-18 m, furthest from the fit 1.59e-13 m

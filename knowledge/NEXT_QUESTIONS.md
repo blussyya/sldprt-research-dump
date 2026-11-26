@@ -69,7 +69,7 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-062 | Find how the three per-file signatures follow from the 4-byte key. |
 | NQ-063 | Decode the 4 bytes at the ZIP time/date position of each stream header. |
 | NQ-064 | Map the filler and the bytes after the real end record; check the directory on assemblies and drawings. |
-| NQ-065 | Check head_back's four T-limit blends (1.48e-8 to 1.54e-8 m) within about 1 µm of the T point. |
+| NQ-065 | Check head_back's four T-limit blends (1.48e-8 to 1.54e-8 m) within about 1 µm of the T point; `3c4752f1`'s touching-end edges are the same limit (EXP-120). Decide how the converter reports an undetermined stretch. |
 | NQ-066 | Explain why no section of head_back's fitted blend passes near both of edge 844's vertices (5.7e-7 m); check edge 825. |
 | NQ-067 | Find which is wrong at the two vertices far outside their tolerance: `0739c559` edge 6075, `f0b9a118` edge 152. |
 | NQ-068 | Count the gap at intersection-edge ends the way a pinned SP_CURVE end is now counted. |
@@ -1544,6 +1544,11 @@ needs it, and run the directory rule on assemblies (.SLDASM) and drawings (.SLDD
 **Date raised**: 2026-11-09 (EXP-112).
 
 ## NQ-065 — head_back's T-limit blends within 1 µm of the T point
+
+**Status 2026-11-26 (EXP-120)**: The same limit on intersection edges. `3c4752f1`'s two plane ×
+blend edges (2.53e-8 and 2.03e-8 m) are within 9.8e-11 m of the exact curve from 0.1 µm off the
+touching vertex; inside 30 nm the surfaces don't determine the curve (exact points 2e-7 m apart).
+Open: whether the converter should report such a stretch instead of scoring its samples.
 
 **Status**: Open. With the dense check, blends 9821, 10371, 9931 and 10129 report 1.54e-8,
 1.48e-8, 1.48e-8 and 1.48e-8 m (10349 is 9.98e-9). Their spine curves are the same as on `dev` to

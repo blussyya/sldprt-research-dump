@@ -158,7 +158,8 @@ Verified format facts, each having survived a blind check (more in the format pa
 
 Part files first; assemblies and drawings wait until these are done (the user's call, 2026-11-23).
 
-1. `3c4752f1`: two plane × blend edges where the blend touches the plane (another touching end).
+1. ~~`3c4752f1`'s two plane × blend edges~~: the curves are right; the over-bar number is the
+   check scoring the undetermined 30 nm next to a touching vertex (EXP-120, folded into NQ-065).
 2. NQ-067: the vertices far outside their tolerance on `0739c559` and `f0b9a118`. Check our
    surface evaluation at those points before blaming the file.
 3. NQ-065: accuracy within about 1 µm of a T limit (head_back's four blends). It needs the nested

@@ -1895,3 +1895,13 @@ the legacy record does hold a face id (offset 82 of the tail), shifted the same 
 of 8,293 cylinder and cone faces in the corpus have such a loop.
 
 Evidence: [2026-11-26_v0.5-EXP118.md](evidence/2026-11-26_v0.5-EXP118.md).
+
+## EXP-120 — 3c4752f1's two edges over 1e-8 m
+
+The curves are right; the over-bar number comes from where the blend touches the plane. From 0.1 µm
+off that vertex the exact curve is determined to 3e-13 m and the fits are within 9.8e-11 m of it.
+Within 30 nm, exact points from guesses 1e-7 m apart land 2e-7 m apart, and the fit check scores
+that spread. Control: the crossing end is fitted within 1.8e-12 m. Same limit as NQ-065. No
+converter change. Not blind-checked.
+
+Evidence: [2026-11-26_v0.5-EXP120.md](evidence/2026-11-26_v0.5-EXP120.md).

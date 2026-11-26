@@ -1,0 +1,26 @@
+edge 1655: plane1657 x blend1664, length 1.5454 mm, fit error 2.53e-8, vertex tolerances 0.0e+0 0.0e+0
+  end 0 (vertex 2466): normals 7.39e-6 deg apart, vertex off S1 NaN off S2 8.4e-13
+  end 1 (vertex 2463): normals 3.23e+1 deg apart, vertex off S1 NaN off S2 9.5e-13
+  dense check: 1 of 2001 samples over 1e-8 m; 0 with no exact point
+    s 0.0000: 9.41e-8 m from the exact curve, 0.00 / 1545.42 um from the ends, off the surfaces NaN, normals 7.39e-6 deg apart
+    s 0.0850: 3.14e-11 m from the exact curve, 131.26 / 1414.16 um from the ends, off the surfaces NaN, normals 2.67e+0 deg apart
+    s 0.0845: 3.14e-11 m from the exact curve, 130.49 / 1414.93 um from the ends, off the surfaces NaN, normals 2.65e+0 deg apart
+    s 0.0855: 3.13e-11 m from the exact curve, 132.03 / 1413.39 um from the ends, off the surfaces NaN, normals 2.68e+0 deg apart
+    s 0.0840: 3.13e-11 m from the exact curve, 129.72 / 1415.71 um from the ends, off the surfaces NaN, normals 2.64e+0 deg apart
+    s 0.0860: 3.12e-11 m from the exact curve, 132.81 / 1412.61 um from the ends, off the surfaces NaN, normals 2.70e+0 deg apart
+    s 0.0000: 5 exact points from guesses 1e-7 m apart spread over 1.89e-7 m
+    s 0.0850: 5 exact points from guesses 1e-7 m apart spread over 1.06e-16 m
+    s 0.0845: 5 exact points from guesses 1e-7 m apart spread over 5.42e-17 m
+edge 1601: blend1603 x plane1604, length 1.5454 mm, fit error 2.03e-8, vertex tolerances 0.0e+0 0.0e+0
+  end 0 (vertex 2430): normals 3.23e+1 deg apart, vertex off S1 9.5e-13 off S2 NaN
+  end 1 (vertex 2439): normals 7.39e-6 deg apart, vertex off S1 8.4e-13 off S2 NaN
+  dense check: 1 of 2001 samples over 1e-8 m; 0 with no exact point
+    s 1.0000: 6.26e-8 m from the exact curve, 1545.42 / 0.00 um from the ends, off the surfaces NaN, normals 7.39e-6 deg apart
+    s 0.9150: 3.14e-11 m from the exact curve, 1414.19 / 131.23 um from the ends, off the surfaces NaN, normals 2.67e+0 deg apart
+    s 0.9155: 3.14e-11 m from the exact curve, 1414.96 / 130.46 um from the ends, off the surfaces NaN, normals 2.65e+0 deg apart
+    s 0.9145: 3.13e-11 m from the exact curve, 1413.42 / 132.00 um from the ends, off the surfaces NaN, normals 2.68e+0 deg apart
+    s 0.9160: 3.13e-11 m from the exact curve, 1415.74 / 129.68 um from the ends, off the surfaces NaN, normals 2.63e+0 deg apart
+    s 0.9140: 3.12e-11 m from the exact curve, 1412.65 / 132.78 um from the ends, off the surfaces NaN, normals 2.70e+0 deg apart
+    s 1.0000: 5 exact points from guesses 1e-7 m apart spread over 2.51e-7 m
+    s 0.9150: 5 exact points from guesses 1e-7 m apart spread over 2.25e-16 m
+    s 0.9155: 5 exact points from guesses 1e-7 m apart spread over 1.16e-16 m
