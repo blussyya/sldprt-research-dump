@@ -1,6 +1,6 @@
-// EXP-122 (NQ-067): edge 6075's offset SP_CURVE past the basis's v range. Where vertex 1's foot on the
-// offset is; the basis's curvature across u = 0; and the curve's end evaluated three ways past
-// and seam.js load the part through it.
+// EXP-122 (NQ-067): edge 6075's offset SP_CURVE past the basis's v range. Where vertex 1's foot on
+// the offset is, the basis's curvature in v along u = 0, and the curve end's (u, v). poly.js, ru.js
+// and seam.js load the part through it. CONV picks the converter.
 const R=process.env.CONV||'/home/user/solidworks-converters',S=require(R+'/src'),N=require(R+'/src/brep/native'),G=require(R+'/src/geom/eval'),fs=require('fs');
 const M=N.build(S.readBrep(fs.readFileSync(process.argv[2])).parsed),e=M.edges.get(6075),c=e.curve.basis,O=c.surface,B=O.basis;
 const d=(a,b)=>Math.hypot(a[0]-b[0],a[1]-b[1],a[2]-b[2]),x=v=>v.toExponential(2),V1=M.vertices.get(e.v[1]).p;

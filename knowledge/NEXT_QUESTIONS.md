@@ -1583,6 +1583,13 @@ been checked for the same pattern. SolidWorks 2026's
 
 ## NQ-067 — Two vertices far outside their tolerance
 
+**Status 2026-11-26 (EXP-122)**: two causes. `f0b9a118` edge 152 is a converter error: the end
+projection on a thread settled a coil early; seeded by the file's trim it fits to 9.95e-9 m (change
+pending its sweep and blind check). `0739c559` edge 6075 ends 3e-4 in v past the end of its offset's
+basis, on an offset 4.826 mm towards a basis that curves at 4.99 mm across u. Our linear extension
+gives 1.59e-4 m to the vertex, the end span's polynomial 8.26e-5 m, the tolerance is 4.82e-5 m. Open:
+how Parasolid extends a B-surface under an offset. A SolidWorks export of `0739c559` would show it.
+
 **Status**: Open. With a pinned end's gap counted, two online parts have an SP_CURVE vertex far
 off its curve:
 
