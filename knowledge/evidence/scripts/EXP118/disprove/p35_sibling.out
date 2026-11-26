@@ -1,0 +1,9 @@
+---
+face 2370 centre 20.00,86.70,12.56 axis 0.000,-0.163,-0.987 | 1050:circle(ring) w=360 | 1043:circle(ring) w=360
+face 12790 centre -20.00,86.70,12.56 axis 0.000,-0.163,-0.987 | 11045:circle(ring) w=360 | 11062:circle(ring) w=360
+face 12990 centre -46.50,10.23,25.17 axis 0.000,-0.163,-0.987 | 11111:circle(ring) w=360 | 11124:circle+11135:intersection w=-0
+face 12997 centre -46.50,10.23,25.17 axis 0.000,-0.163,-0.987 | 11098:circle(ring) w=360 | 11136:circle(ring) w=-360
+face 14655 centre -20.00,86.70,12.56 axis 0.000,-0.163,-0.987 | 11770:intersection+11761:circle w=-0
+face 3713 centre 20.00,86.70,12.56 axis 0.000,-0.163,-0.987 | 1703:intersection+1704:circle w=-0
+face 2521 centre 46.50,10.23,25.17 axis 0.000,-0.163,-0.987 | 1167:circle(ring) w=360 | 1133:circle(ring) w=-360
+face 2516 centre 46.50,10.23,25.17 axis 0.000,-0.163,-0.987 | 1165:circle(ring) w=360 | 1166:circle+1093:intersection w=-0

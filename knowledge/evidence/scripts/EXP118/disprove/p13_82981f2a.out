@@ -1,0 +1,488 @@
+nocurve 856 ring [ '860:1.5e-4', '362:1.5e-2' ]
+nocurve 361 ring [ '361:9.8e-5', '1157:5.7e-3' ]
+nocurve 362 ring [ '362:1.1e-4', '1160:6.2e-3' ]
+nocurve 371 ends [ '371:4.3e-4', '372:2.2e-2' ]
+endsFar 381 faces 17/20 nearest native vertices null Infinity 1275 1.74e-9 segs ends 2/2
+nocurve 372 ends [ '372:5.6e-5', '371:5.8e-3' ]
+endsFar 379 faces 17/238 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 380 faces 17/282 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 987 faces 17/237 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 378 faces 17/233 nearest native vertices null Infinity 1235 6.60e-10 segs ends 2/2
+nocurve 861 ring [ '865:1.3e-4', '864:1.9e-2' ]
+nocurve 456 ends [ '456:4.3e-4', '455:2.2e-2' ]
+endsFar 477 faces 19/233 nearest native vertices 1235 6.60e-10 null Infinity segs ends 2/2
+endsFar 986 faces 19/236 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 476 faces 19/235 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 977 faces 19/234 nearest native vertices null Infinity 1518 1.93e-9 segs ends 2/2
+endsFar 475 faces 19/25 nearest native vertices null Infinity null Infinity segs ends 2/2
+nocurve 455 ends [ '455:5.7e-5', '456:5.8e-3' ]
+endsFar 480 faces 20/282 nearest native vertices 1595 2.21e-9 null Infinity segs ends 2/2
+endsFar 483 faces 21/282 nearest native vertices 1276 2.86e-9 null Infinity segs ends 2/2
+endsFar 484 faces 21/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 485 faces 21/33 nearest native vertices 1599 4.82e-10 null Infinity segs ends 2/2
+endsFar 487 faces 22/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 486 faces 22/33 nearest native vertices 1600 2.48e-9 null Infinity segs ends 2/2
+endsFar 488 faces 22/37 nearest native vertices 1601 3.44e-9 null Infinity segs ends 2/2
+endsFar 490 faces 23/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 489 faces 23/37 nearest native vertices 1602 1.76e-9 null Infinity segs ends 2/2
+endsFar 491 faces 23/38 nearest native vertices 1603 1.78e-9 null Infinity segs ends 2/2
+endsFar 492 faces 24/41 nearest native vertices 1613 3.66e-9 null Infinity segs ends 2/2
+endsFar 493 faces 24/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 494 faces 24/235 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 495 faces 24/283 nearest native vertices 1596 1.85e-9 null Infinity segs ends 2/2
+endsFar 501 faces 25/39 nearest native vertices 1608 1.84e-9 1531 1.39e-4 segs ends 2/2
+endsFar 500 faces 25/234 nearest native vertices null Infinity 1531 1.39e-4 segs ends 2/2
+endsFar 498 faces 25/283 nearest native vertices 1282 3.75e-9 null Infinity segs ends 2/2
+endsFar 499 faces 25/235 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 503 faces 26/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 502 faces 26/40 nearest native vertices 1611 1.63e-9 null Infinity segs ends 2/2
+endsFar 504 faces 26/41 nearest native vertices 1612 3.28e-9 null Infinity segs ends 2/2
+endsFar 506 faces 27/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 505 faces 27/39 nearest native vertices 1609 1.20e-9 null Infinity segs ends 2/2
+endsFar 507 faces 27/40 nearest native vertices 1610 1.23e-9 null Infinity segs ends 2/2
+endsFar 509 faces 28/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 508 faces 28/35 nearest native vertices 1623 3.46e-9 null Infinity segs ends 2/2
+endsFar 510 faces 28/32 nearest native vertices 1624 2.51e-9 null Infinity segs ends 2/2
+endsFar 512 faces 29/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 511 faces 29/32 nearest native vertices 1617 4.58e-10 null Infinity segs ends 2/2
+endsFar 513 faces 29/34 nearest native vertices 1618 4.17e-10 null Infinity segs ends 2/2
+endsFar 515 faces 30/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 514 faces 30/34 nearest native vertices 1619 2.49e-9 null Infinity segs ends 2/2
+endsFar 516 faces 30/36 nearest native vertices 1620 3.44e-9 null Infinity segs ends 2/2
+endsFar 518 faces 31/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 517 faces 31/36 nearest native vertices 1621 1.74e-9 null Infinity segs ends 2/2
+endsFar 519 faces 31/35 nearest native vertices 1622 1.75e-9 null Infinity segs ends 2/2
+endsFar 982 faces 32/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 969 faces 33/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 981 faces 34/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 979 faces 35/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 980 faces 36/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 968 faces 37/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 967 faces 38/234 nearest native vertices null Infinity 1274 3.59e-9 segs ends 2/2
+endsFar 976 faces 39/234 nearest native vertices 1531 1.39e-4 null Infinity segs ends 2/2
+endsFar 975 faces 40/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 974 faces 41/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+nocurve 823 ends [ '827:1.7e-4', '832:3.7e-3' ]
+nocurve 828 ends [ '832:1.6e-4', '827:3.6e-3' ]
+nocurve 845 ends [ '849:1.2e-4', '848:2.0e-2' ]
+nocurve 849 ends [ '853:2.4e-4', '852:2.0e-2' ]
+endsFar 961 faces 231/285 nearest native vertices 1517 2.92e-9 null Infinity segs ends 2/2
+endsFar 960 faces 231/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 959 faces 231/284 nearest native vertices 1237 2.92e-9 null Infinity segs ends 2/2
+endsFar 964 faces 233/234 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 973 faces 234/236 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 984 faces 234/235 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 965 faces 234/284 nearest native vertices null Infinity 1379 1.69e-9 segs ends 2/2
+endsFar 978 faces 234/285 nearest native vertices 1598 1.69e-9 null Infinity segs ends 2/2
+endsFar 972 faces 234/237 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 970 faces 234/282 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 971 faces 234/238 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 983 faces 235/283 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 985 faces 235/236 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 988 faces 237/238 nearest native vertices null Infinity null Infinity segs ends 2/2
+endsFar 989 faces 238/282 nearest native vertices null Infinity null Infinity segs ends 2/2
+82981f2a_head_back.sldprt display edge ids 1299 matched 1216 unmatched 83 {"noCurve":12,"endsFar":71} second candidate within 10x 18 diff histogram {"0":108,"275":1,"-44":522,"-4":244,"-1":173,"-9":166,"-6":2} literal id = matched edge 108 not 1108
+native edges matched by >1 display id 0 native edges never matched 92 of 1308
+runs (native id order): 7 333-479:0(108) 482-689:-1(173) 691-691:+275(1) 693-962:-4(244) 968-969:-6(2) 999-1164:-9(166) 7107-13025:-44(522)
+by how:diff {"ring+dist:0":6,"pair:0":102,"pair:-1":157,"ring+dist:-1":16,"pair:275":1,"pair:-4":192,"ring+dist:-4":50,"ends+dist:-4":2,"pair:-6":2,"pair:-9":152,"ring+dist:-9":14,"pair:-44":522}
+curve distance of matched: median 8.56e-6 max Infinity
+{"id":481,"nid":482,"diff":-1,"dv":0.0004292017020969461,"second":null,"how":"pair","type":"intersection"}
+{"id":482,"nid":483,"diff":-1,"dv":0.00020099804445197178,"second":null,"how":"pair","type":"intersection"}
+{"id":496,"nid":497,"diff":-1,"dv":0.0001787835185469946,"second":null,"how":"pair","type":"intersection"}
+{"id":497,"nid":498,"diff":-1,"dv":0.000353529265884747,"second":null,"how":"pair","type":"intersection"}
+{"id":520,"nid":521,"diff":-1,"dv":1.817516651188358e-9,"second":null,"how":"pair","type":"line"}
+{"id":521,"nid":522,"diff":-1,"dv":0.000025642584227361373,"second":null,"how":"pair","type":"circle"}
+{"id":522,"nid":523,"diff":-1,"dv":2.0878453295683785e-9,"second":null,"how":"pair","type":"line"}
+{"id":523,"nid":524,"diff":-1,"dv":1.3033198839581003e-9,"second":null,"how":"pair","type":"line"}
+{"id":524,"nid":525,"diff":-1,"dv":0.00017185875629545974,"second":null,"how":"pair","type":"intersection"}
+{"id":525,"nid":526,"diff":-1,"dv":1.7646866781533804e-9,"second":null,"how":"pair","type":"line"}
+{"id":526,"nid":527,"diff":-1,"dv":0.0004180069106173849,"second":null,"how":"pair","type":"intersection"}
+{"id":527,"nid":528,"diff":-1,"dv":0.00002566405860126513,"second":0.0017500699145452654,"how":"ring+dist","type":"circle"}
+{"id":528,"nid":529,"diff":-1,"dv":0.0002674136217325962,"second":null,"how":"pair","type":"intersection"}
+{"id":529,"nid":530,"diff":-1,"dv":0.00009059372566683054,"second":null,"how":"pair","type":"intersection"}
+{"id":530,"nid":531,"diff":-1,"dv":1.937457504173497e-9,"second":null,"how":"pair","type":"line"}
+{"id":531,"nid":532,"diff":-1,"dv":0.000020071159791430235,"second":null,"how":"pair","type":"intersection"}
+{"id":532,"nid":533,"diff":-1,"dv":1.4668841807769836e-9,"second":null,"how":"pair","type":"line"}
+{"id":533,"nid":534,"diff":-1,"dv":0.000007550427953926025,"second":null,"how":"pair","type":"circle"}
+{"id":534,"nid":535,"diff":-1,"dv":0.00002665582362732979,"second":null,"how":"pair","type":"ellipse"}
+{"id":535,"nid":536,"diff":-1,"dv":0.000004525721400545902,"second":null,"how":"pair","type":"circle"}
+{"id":536,"nid":537,"diff":-1,"dv":0.00001794782188044663,"second":null,"how":"pair","type":"ellipse"}
+{"id":537,"nid":538,"diff":-1,"dv":1.3121237165893088e-9,"second":null,"how":"pair","type":"line"}
+{"id":538,"nid":539,"diff":-1,"dv":0.00004641918604733631,"second":null,"how":"pair","type":"intersection"}
+{"id":539,"nid":540,"diff":-1,"dv":1.707067307288738e-9,"second":null,"how":"pair","type":"line"}
+{"id":540,"nid":541,"diff":-1,"dv":1.5029374106842566e-9,"second":null,"how":"pair","type":"line"}
+{"id":541,"nid":542,"diff":-1,"dv":0.000022720620033880127,"second":null,"how":"pair","type":"intersection"}
+{"id":542,"nid":543,"diff":-1,"dv":1.3126848126402563e-9,"second":null,"how":"pair","type":"line"}
+{"id":543,"nid":544,"diff":-1,"dv":0.00003445479923789277,"second":null,"how":"pair","type":"intersection"}
+{"id":544,"nid":545,"diff":-1,"dv":0.000008555273358672477,"second":null,"how":"pair","type":"circle"}
+{"id":545,"nid":546,"diff":-1,"dv":0.00005236133673580683,"second":null,"how":"pair","type":"intersection"}
+{"id":546,"nid":547,"diff":-1,"dv":0.000027046794925403888,"second":null,"how":"pair","type":"circle"}
+{"id":547,"nid":548,"diff":-1,"dv":0.00000855520831045624,"second":null,"how":"pair","type":"circle"}
+{"id":548,"nid":549,"diff":-1,"dv":0.00002027500321483656,"second":null,"how":"pair","type":"circle"}
+{"id":549,"nid":550,"diff":-1,"dv":0.00005730731988391023,"second":null,"how":"pair","type":"intersection"}
+{"id":550,"nid":551,"diff":-1,"dv":0.00006181671166841206,"second":null,"how":"pair","type":"intersection"}
+{"id":551,"nid":552,"diff":-1,"dv":1.545896920805227e-9,"second":null,"how":"pair","type":"line"}
+{"id":552,"nid":553,"diff":-1,"dv":0.00002062312009739798,"second":null,"how":"pair","type":"intersection"}
+{"id":553,"nid":554,"diff":-1,"dv":1.7516487772933294e-9,"second":null,"how":"pair","type":"line"}
+{"id":554,"nid":555,"diff":-1,"dv":9.355714698096863e-10,"second":null,"how":"pair","type":"line"}
+{"id":555,"nid":556,"diff":-1,"dv":1.2877423113384945e-9,"second":null,"how":"pair","type":"line"}
+{"id":556,"nid":557,"diff":-1,"dv":2.0878453295683785e-9,"second":null,"how":"pair","type":"line"}
+{"id":557,"nid":558,"diff":-1,"dv":0.000010693776981871269,"second":0.0022000263433377184,"how":"ring+dist","type":"circle"}
+{"id":558,"nid":559,"diff":-1,"dv":1.3156286315479199e-9,"second":null,"how":"pair","type":"line"}
+{"id":559,"nid":560,"diff":-1,"dv":1.433760135996483e-9,"second":null,"how":"pair","type":"line"}
+{"id":560,"nid":561,"diff":-1,"dv":1.0911279655697186e-9,"second":null,"how":"pair","type":"line"}
+{"id":561,"nid":562,"diff":-1,"dv":1.0887020088572147e-9,"second":null,"how":"pair","type":"line"}
+{"id":562,"nid":563,"diff":-1,"dv":0.000025642290333002404,"second":null,"how":"pair","type":"circle"}
+{"id":563,"nid":564,"diff":-1,"dv":1.4142951623288938e-9,"second":null,"how":"pair","type":"line"}
+{"id":564,"nid":565,"diff":-1,"dv":1.5606145024252191e-9,"second":null,"how":"pair","type":"line"}
+{"id":565,"nid":566,"diff":-1,"dv":1.5659745203401975e-9,"second":null,"how":"pair","type":"line"}
+{"id":566,"nid":567,"diff":-1,"dv":1.4680663342475394e-9,"second":null,"how":"pair","type":"line"}
+{"id":567,"nid":568,"diff":-1,"dv":0.000010694056615050982,"second":0.0004001433100803338,"how":"ring+dist","type":"circle"}
+{"id":568,"nid":569,"diff":-1,"dv":0.000010693095829370315,"second":0.0004001433269000245,"how":"ring+dist","type":"circle"}
+{"id":569,"nid":570,"diff":-1,"dv":0.000010693948029438123,"second":0.0017605621762473878,"how":"ring+dist","type":"circle"}
+{"id":570,"nid":571,"diff":-1,"dv":0.00002665582362732979,"second":null,"how":"pair","type":"ellipse"}
+{"id":571,"nid":572,"diff":-1,"dv":1.7646866781533804e-9,"second":null,"how":"pair","type":"line"}
+{"id":572,"nid":573,"diff":-1,"dv":0.00006181671166841206,"second":null,"how":"pair","type":"intersection"}
+{"id":573,"nid":574,"diff":-1,"dv":0.00002027500321483656,"second":null,"how":"pair","type":"circle"}
+{"id":574,"nid":575,"diff":-1,"dv":0.00005236133673580683,"second":null,"how":"pair","type":"intersection"}
+{"id":575,"nid":576,"diff":-1,"dv":0.00002566405860126513,"second":0.0017500699145452654,"how":"ring+dist","type":"circle"}
+{"id":576,"nid":577,"diff":-1,"dv":0.000025642290333002404,"second":null,"how":"pair","type":"circle"}
+{"id":577,"nid":578,"diff":-1,"dv":1.3121237165893088e-9,"second":null,"how":"pair","type":"line"}
+{"id":578,"nid":579,"diff":-1,"dv":0.00017185875629483602,"second":null,"how":"pair","type":"intersection"}
+{"id":579,"nid":580,"diff":-1,"dv":1.7516487772933294e-9,"second":null,"how":"pair","type":"line"}
+{"id":580,"nid":581,"diff":-1,"dv":1.5029374106842566e-9,"second":null,"how":"pair","type":"line"}
+{"id":581,"nid":582,"diff":-1,"dv":0.0004180069106166867,"second":null,"how":"pair","type":"intersection"}
+{"id":582,"nid":583,"diff":-1,"dv":1.4668841807769836e-9,"second":null,"how":"pair","type":"line"}
+{"id":583,"nid":584,"diff":-1,"dv":1.817516651188358e-9,"second":null,"how":"pair","type":"line"}
+{"id":584,"nid":585,"diff":-1,"dv":0.000010693948029438123,"second":0.0017605621762473878,"how":"ring+dist","type":"circle"}
+{"id":585,"nid":586,"diff":-1,"dv":1.5458969311672137e-9,"second":null,"how":"pair","type":"line"}
+{"id":586,"nid":587,"diff":-1,"dv":0.0002674136217326115,"second":null,"how":"pair","type":"intersection"}
+{"id":587,"nid":588,"diff":-1,"dv":1.312684807150748e-9,"second":null,"how":"pair","type":"line"}
+{"id":588,"nid":589,"diff":-1,"dv":0.000027046794925403888,"second":null,"how":"pair","type":"circle"}
+{"id":589,"nid":590,"diff":-1,"dv":1.9374575246760973e-9,"second":null,"how":"pair","type":"line"}
+{"id":590,"nid":591,"diff":-1,"dv":0.00009059372566684162,"second":null,"how":"pair","type":"intersection"}
+{"id":591,"nid":592,"diff":-1,"dv":1.707067307288738e-9,"second":null,"how":"pair","type":"line"}
+{"id":592,"nid":593,"diff":-1,"dv":0.00001794782188044663,"second":null,"how":"pair","type":"ellipse"}
+{"id":593,"nid":594,"diff":-1,"dv":0.000020071159791426616,"second":null,"how":"pair","type":"intersection"}
+{"id":594,"nid":595,"diff":-1,"dv":0.000007550427953926025,"second":null,"how":"pair","type":"circle"}
+{"id":595,"nid":596,"diff":-1,"dv":0.00003092491268925774,"second":null,"how":"pair","type":"intersection"}
+{"id":596,"nid":597,"diff":-1,"dv":0.000004525721400545902,"second":null,"how":"pair","type":"circle"}
+{"id":597,"nid":598,"diff":-1,"dv":0.000017277103784970148,"second":null,"how":"pair","type":"intersection"}
+{"id":598,"nid":599,"diff":-1,"dv":0.00003445479923789277,"second":null,"how":"pair","type":"intersection"}
+{"id":599,"nid":600,"diff":-1,"dv":0.000008555273358672477,"second":null,"how":"pair","type":"circle"}
+{"id":600,"nid":601,"diff":-1,"dv":0.00000855520831045624,"second":null,"how":"pair","type":"circle"}
+{"id":601,"nid":602,"diff":-1,"dv":0.000020623120097317103,"second":null,"how":"pair","type":"intersection"}
+{"id":602,"nid":603,"diff":-1,"dv":0.00005730731988391023,"second":null,"how":"pair","type":"intersection"}
+{"id":603,"nid":604,"diff":-1,"dv":1.3033198839581003e-9,"second":null,"how":"pair","type":"line"}
+{"id":604,"nid":605,"diff":-1,"dv":1.3156286315479199e-9,"second":null,"how":"pair","type":"line"}
+{"id":605,"nid":606,"diff":-1,"dv":1.5606145024252191e-9,"second":null,"how":"pair","type":"line"}
+{"id":606,"nid":607,"diff":-1,"dv":2.0878453295683785e-9,"second":null,"how":"pair","type":"line"}
+{"id":607,"nid":608,"diff":-1,"dv":1.0887020088572147e-9,"second":null,"how":"pair","type":"line"}
+{"id":608,"nid":609,"diff":-1,"dv":0.000025642584227361373,"second":null,"how":"pair","type":"circle"}
+{"id":609,"nid":610,"diff":-1,"dv":0.000010693095829370315,"second":0.0004001433269000245,"how":"ring+dist","type":"circle"}
+{"id":610,"nid":611,"diff":-1,"dv":9.355714698096863e-10,"second":null,"how":"pair","type":"line"}
+{"id":611,"nid":612,"diff":-1,"dv":1.4142951623288938e-9,"second":null,"how":"pair","type":"line"}
+{"id":612,"nid":613,"diff":-1,"dv":1.5659745203401975e-9,"second":null,"how":"pair","type":"line"}
+{"id":613,"nid":614,"diff":-1,"dv":2.0878453295683785e-9,"second":null,"how":"pair","type":"line"}
+{"id":614,"nid":615,"diff":-1,"dv":1.433760135996483e-9,"second":null,"how":"pair","type":"line"}
+{"id":615,"nid":616,"diff":-1,"dv":1.4680663342475394e-9,"second":null,"how":"pair","type":"line"}
+{"id":616,"nid":617,"diff":-1,"dv":1.0911279655697186e-9,"second":null,"how":"pair","type":"line"}
+{"id":617,"nid":618,"diff":-1,"dv":1.2877423113384945e-9,"second":null,"how":"pair","type":"line"}
+{"id":618,"nid":619,"diff":-1,"dv":0.000010694056615050982,"second":0.0004001433100803338,"how":"ring+dist","type":"circle"}
+{"id":619,"nid":620,"diff":-1,"dv":0.000010693776981871269,"second":0.0022000263433377184,"how":"ring+dist","type":"circle"}
+{"id":620,"nid":621,"diff":-1,"dv":1.6639281679626295e-9,"second":null,"how":"pair","type":"line"}
+{"id":621,"nid":622,"diff":-1,"dv":1.0803987253948773e-9,"second":null,"how":"pair","type":"trimmed"}
+{"id":622,"nid":623,"diff":-1,"dv":1.532497473207316e-9,"second":null,"how":"pair","type":"trimmed"}
+{"id":623,"nid":624,"diff":-1,"dv":0.00002566371040581627,"second":0.002000165189199592,"how":"ring+dist","type":"circle"}
+{"id":624,"nid":625,"diff":-1,"dv":0.000025663895564586158,"second":0.0017500698397833311,"how":"ring+dist","type":"circle"}
+{"id":625,"nid":626,"diff":-1,"dv":0.000022819445418592546,"second":null,"how":"pair","type":"circle"}
+{"id":626,"nid":627,"diff":-1,"dv":1.5176904980010117e-9,"second":null,"how":"pair","type":"line"}
+{"id":627,"nid":628,"diff":-1,"dv":0.000022819198164542375,"second":null,"how":"pair","type":"circle"}
+{"id":628,"nid":629,"diff":-1,"dv":1.887371754736748e-9,"second":null,"how":"pair","type":"line"}
+{"id":629,"nid":630,"diff":-1,"dv":0.000022819259766053878,"second":null,"how":"pair","type":"circle"}
+{"id":630,"nid":631,"diff":-1,"dv":1.8782903120829095e-9,"second":null,"how":"pair","type":"line"}
+{"id":631,"nid":632,"diff":-1,"dv":0.000022819507399196067,"second":null,"how":"pair","type":"circle"}
+{"id":632,"nid":633,"diff":-1,"dv":1.8004893158847307e-9,"second":null,"how":"pair","type":"line"}
+{"id":633,"nid":634,"diff":-1,"dv":0.00002206254708334912,"second":null,"how":"pair","type":"trimmed"}
+{"id":634,"nid":635,"diff":-1,"dv":6.591717640086869e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":635,"nid":636,"diff":-1,"dv":8.160540294839257e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":636,"nid":637,"diff":-1,"dv":9.244543284158571e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":637,"nid":638,"diff":-1,"dv":0.00002206503349703333,"second":null,"how":"pair","type":"trimmed"}
+{"id":638,"nid":639,"diff":-1,"dv":6.446893708377377e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":639,"nid":640,"diff":-1,"dv":8.25912742499212e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":640,"nid":641,"diff":-1,"dv":8.190334486950316e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":641,"nid":642,"diff":-1,"dv":1.8782903120829095e-9,"second":null,"how":"pair","type":"trimmed"}
+{"id":642,"nid":643,"diff":-1,"dv":0.000022803807850798116,"second":null,"how":"pair","type":"trimmed"}
+{"id":643,"nid":644,"diff":-1,"dv":1.6639281679626295e-9,"second":null,"how":"pair","type":"trimmed"}
+{"id":644,"nid":645,"diff":-1,"dv":0.000022817580053396884,"second":null,"how":"pair","type":"circle"}
+{"id":645,"nid":646,"diff":-1,"dv":1.762914079656429e-9,"second":null,"how":"pair","type":"trimmed"}
+{"id":646,"nid":647,"diff":-1,"dv":0.000022817828007990316,"second":null,"how":"pair","type":"circle"}
+{"id":647,"nid":648,"diff":-1,"dv":0.000022803637447867435,"second":null,"how":"pair","type":"trimmed"}
+{"id":648,"nid":649,"diff":-1,"dv":5.919505267488743e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":649,"nid":650,"diff":-1,"dv":6.014328676249432e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":650,"nid":651,"diff":-1,"dv":3.0856769258649053e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":651,"nid":652,"diff":-1,"dv":0.00001535918129413932,"second":null,"how":"pair","type":"trimmed"}
+{"id":652,"nid":653,"diff":-1,"dv":9.094402353982522e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":653,"nid":654,"diff":-1,"dv":0.00007658731840859955,"second":null,"how":"pair","type":"trimmed"}
+{"id":654,"nid":655,"diff":-1,"dv":6.915576616537508e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":655,"nid":656,"diff":-1,"dv":0.00007155871691030882,"second":null,"how":"pair","type":"trimmed"}
+{"id":656,"nid":657,"diff":-1,"dv":0.00008332628393986607,"second":null,"how":"pair","type":"trimmed"}
+{"id":657,"nid":658,"diff":-1,"dv":8.508526304401516e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":658,"nid":659,"diff":-1,"dv":0.00007452098514660982,"second":null,"how":"pair","type":"trimmed"}
+{"id":659,"nid":660,"diff":-1,"dv":0.000013741118930806715,"second":null,"how":"pair","type":"trimmed"}
+{"id":660,"nid":661,"diff":-1,"dv":0.000014326520307130835,"second":null,"how":"pair","type":"trimmed"}
+{"id":661,"nid":662,"diff":-1,"dv":0.000002504729131104619,"second":null,"how":"pair","type":"trimmed"}
+{"id":662,"nid":663,"diff":-1,"dv":0.0000019127091881048523,"second":null,"how":"pair","type":"trimmed"}
+{"id":663,"nid":664,"diff":-1,"dv":1.2892816954419789e-9,"second":null,"how":"pair","type":"line"}
+{"id":664,"nid":665,"diff":-1,"dv":9.78439819955333e-10,"second":null,"how":"pair","type":"line"}
+{"id":665,"nid":666,"diff":-1,"dv":9.78439819955333e-10,"second":null,"how":"pair","type":"line"}
+{"id":666,"nid":667,"diff":-1,"dv":1.7601918349036073e-9,"second":null,"how":"pair","type":"line"}
+{"id":667,"nid":668,"diff":-1,"dv":0.000022817524353077466,"second":null,"how":"pair","type":"circle"}
+{"id":668,"nid":669,"diff":-1,"dv":2.0257505330014625e-9,"second":null,"how":"pair","type":"line"}
+{"id":669,"nid":670,"diff":-1,"dv":1.7686445529914468e-9,"second":null,"how":"pair","type":"line"}
+{"id":670,"nid":671,"diff":-1,"dv":1.7787919973133062e-9,"second":null,"how":"pair","type":"line"}
+{"id":671,"nid":672,"diff":-1,"dv":1.843573272879301e-9,"second":null,"how":"pair","type":"line"}
+{"id":672,"nid":673,"diff":-1,"dv":0.000022817772307668242,"second":null,"how":"pair","type":"circle"}
+{"id":673,"nid":674,"diff":-1,"dv":0.00001069352257346081,"second":0.00040014311954428056,"how":"ring+dist","type":"circle"}
+{"id":674,"nid":675,"diff":-1,"dv":8.300270645576077e-10,"second":null,"how":"pair","type":"line"}
+{"id":675,"nid":676,"diff":-1,"dv":1.2892816954419789e-9,"second":null,"how":"pair","type":"line"}
+{"id":676,"nid":677,"diff":-1,"dv":8.507587471964379e-10,"second":null,"how":"pair","type":"line"}
+{"id":677,"nid":678,"diff":-1,"dv":7.508889422560076e-10,"second":null,"how":"pair","type":"line"}
+{"id":678,"nid":679,"diff":-1,"dv":0.000010693468616621277,"second":0.00040014361450935057,"how":"ring+dist","type":"circle"}
+{"id":679,"nid":680,"diff":-1,"dv":0.00001069347156589146,"second":0.0022000270642452066,"how":"ring+dist","type":"circle"}
+{"id":680,"nid":681,"diff":-1,"dv":0.000010693389024737246,"second":0.0017605616172403332,"how":"ring+dist","type":"circle"}
+{"id":681,"nid":682,"diff":-1,"dv":0.000004002556081561274,"second":null,"how":"pair","type":"circle"}
+{"id":682,"nid":683,"diff":-1,"dv":1.4241157758126815e-9,"second":null,"how":"pair","type":"line"}
+{"id":683,"nid":684,"diff":-1,"dv":0.000004002509101640055,"second":null,"how":"pair","type":"circle"}
+{"id":684,"nid":685,"diff":-1,"dv":1.022222392751805e-9,"second":null,"how":"pair","type":"line"}
+{"id":685,"nid":686,"diff":-1,"dv":0.000004001477816997892,"second":null,"how":"pair","type":"circle"}
+{"id":686,"nid":687,"diff":-1,"dv":1.1503055927529151e-9,"second":null,"how":"pair","type":"line"}
+{"id":687,"nid":688,"diff":-1,"dv":0.000004001524167860102,"second":null,"how":"pair","type":"circle"}
+{"id":688,"nid":689,"diff":-1,"dv":1.1652160564275708e-9,"second":null,"how":"pair","type":"line"}
+{"id":966,"nid":691,"diff":275,"dv":0.00038467361416858576,"second":null,"how":"pair","type":"intersection"}
+{"id":689,"nid":693,"diff":-4,"dv":0.00008705668422156336,"second":null,"how":"pair","type":"ellipse"}
+{"id":690,"nid":694,"diff":-4,"dv":8.64293941630758e-10,"second":null,"how":"pair","type":"line"}
+{"id":691,"nid":695,"diff":-4,"dv":5.666621866732644e-10,"second":null,"how":"pair","type":"line"}
+{"id":692,"nid":696,"diff":-4,"dv":0.000034218833196491486,"second":null,"how":"pair","type":"circle"}
+{"id":693,"nid":697,"diff":-4,"dv":9.678665820927946e-10,"second":null,"how":"pair","type":"line"}
+{"id":694,"nid":698,"diff":-4,"dv":0.00007512243091198661,"second":null,"how":"pair","type":"circle"}
+{"id":695,"nid":699,"diff":-4,"dv":7.256036662247253e-10,"second":null,"how":"pair","type":"line"}
+{"id":696,"nid":700,"diff":-4,"dv":0.00001882010474504143,"second":0.002500071404492926,"how":"ring+dist","type":"circle"}
+{"id":697,"nid":701,"diff":-4,"dv":0.000018820285308692832,"second":0.0025000714058521843,"how":"ring+dist","type":"circle"}
+{"id":698,"nid":702,"diff":-4,"dv":0.000018820537070080506,"second":0.0025000714077474313,"how":"ring+dist","type":"circle"}
+{"id":699,"nid":703,"diff":-4,"dv":0.000798384783340873,"second":null,"how":"pair","type":"trimmed"}
+{"id":700,"nid":704,"diff":-4,"dv":0.000013604464705053644,"second":null,"how":"pair","type":"circle"}
+{"id":701,"nid":705,"diff":-4,"dv":0.000015404762095255223,"second":null,"how":"pair","type":"trimmed"}
+{"id":702,"nid":706,"diff":-4,"dv":0.000014601719873421085,"second":null,"how":"pair","type":"trimmed"}
+{"id":703,"nid":707,"diff":-4,"dv":0.000008777030797568437,"second":null,"how":"pair","type":"trimmed"}
+{"id":704,"nid":708,"diff":-4,"dv":0.000007672057640361807,"second":null,"how":"pair","type":"trimmed"}
+{"id":705,"nid":709,"diff":-4,"dv":0.000010293174003205138,"second":null,"how":"pair","type":"trimmed"}
+{"id":706,"nid":710,"diff":-4,"dv":8.508886425878018e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":707,"nid":711,"diff":-4,"dv":0.00012331330592930278,"second":null,"how":"pair","type":"trimmed"}
+{"id":708,"nid":712,"diff":-4,"dv":1.6181025613677885e-9,"second":null,"how":"pair","type":"line"}
+{"id":709,"nid":713,"diff":-4,"dv":0.00001881752420210856,"second":null,"how":"pair","type":"circle"}
+{"id":710,"nid":714,"diff":-4,"dv":0.000018820104745040244,"second":0.002500071404492926,"how":"ring+dist","type":"circle"}
+{"id":711,"nid":715,"diff":-4,"dv":0.000018820285308692832,"second":0.0025000714058521843,"how":"ring+dist","type":"circle"}
+{"id":712,"nid":716,"diff":-4,"dv":0.000018820537070080506,"second":0.0025000714077474313,"how":"ring+dist","type":"circle"}
+{"id":713,"nid":717,"diff":-4,"dv":7.235730025881952e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":714,"nid":718,"diff":-4,"dv":0.000013604464705053483,"second":null,"how":"pair","type":"circle"}
+{"id":715,"nid":719,"diff":-4,"dv":0.00007512688739691879,"second":null,"how":"pair","type":"circle"}
+{"id":716,"nid":720,"diff":-4,"dv":0.00003176465259139317,"second":null,"how":"pair","type":"circle"}
+{"id":717,"nid":721,"diff":-4,"dv":0.000798303945062322,"second":null,"how":"pair","type":"intersection"}
+{"id":718,"nid":722,"diff":-4,"dv":0.000018817524202135024,"second":null,"how":"pair","type":"circle"}
+{"id":719,"nid":723,"diff":-4,"dv":1.618107735858923e-9,"second":null,"how":"pair","type":"line"}
+{"id":720,"nid":724,"diff":-4,"dv":1.2092515101140225e-9,"second":null,"how":"pair","type":"line"}
+{"id":721,"nid":725,"diff":-4,"dv":0.00012331330592930612,"second":null,"how":"pair","type":"trimmed"}
+{"id":722,"nid":726,"diff":-4,"dv":0.0000102931740546558,"second":null,"how":"pair","type":"trimmed"}
+{"id":723,"nid":727,"diff":-4,"dv":0.000553129085752327,"second":null,"how":"pair","type":"trimmed"}
+{"id":724,"nid":728,"diff":-4,"dv":0.000026383445110611365,"second":null,"how":"pair","type":"intersection"}
+{"id":725,"nid":729,"diff":-4,"dv":0.0010187486654610238,"second":null,"how":"pair","type":"trimmed"}
+{"id":726,"nid":730,"diff":-4,"dv":0.0011962981286335003,"second":null,"how":"pair","type":"trimmed"}
+{"id":727,"nid":731,"diff":-4,"dv":0.0010965954673081795,"second":null,"how":"pair","type":"trimmed"}
+{"id":728,"nid":732,"diff":-4,"dv":0.0009707727404826231,"second":null,"how":"pair","type":"trimmed"}
+{"id":729,"nid":733,"diff":-4,"dv":0.0005902372759924488,"second":null,"how":"pair","type":"trimmed"}
+{"id":730,"nid":734,"diff":-4,"dv":0.000006215677550979392,"second":null,"how":"pair","type":"intersection"}
+{"id":731,"nid":735,"diff":-4,"dv":null,"second":null,"how":"pair","type":"trimmed"}
+{"id":732,"nid":736,"diff":-4,"dv":0.00004962399113632728,"second":null,"how":"pair","type":"circle"}
+{"id":733,"nid":737,"diff":-4,"dv":0.0000014297151548072054,"second":null,"how":"pair","type":"circle"}
+{"id":734,"nid":738,"diff":-4,"dv":9.678665291135876e-10,"second":null,"how":"pair","type":"line"}
+{"id":735,"nid":739,"diff":-4,"dv":0.000034218833196491486,"second":null,"how":"pair","type":"circle"}
+{"id":736,"nid":740,"diff":-4,"dv":5.666621728057152e-10,"second":null,"how":"pair","type":"line"}
+{"id":737,"nid":741,"diff":-4,"dv":0.000008555447217836072,"second":null,"how":"pair","type":"circle"}
+{"id":738,"nid":742,"diff":-4,"dv":0.000008555694700095339,"second":null,"how":"pair","type":"circle"}
+{"id":739,"nid":743,"diff":-4,"dv":9.44941669669634e-10,"second":null,"how":"pair","type":"line"}
+{"id":740,"nid":744,"diff":-4,"dv":0.000031764652599438074,"second":null,"how":"pair","type":"circle"}
+{"id":741,"nid":745,"diff":-4,"dv":1.1402056183995257e-9,"second":null,"how":"pair","type":"line"}
+{"id":742,"nid":746,"diff":-4,"dv":4.876871736733781e-10,"second":null,"how":"pair","type":"line"}
+{"id":743,"nid":747,"diff":-4,"dv":1.1402056142026408e-9,"second":null,"how":"pair","type":"line"}
+{"id":744,"nid":748,"diff":-4,"dv":9.449416686022034e-10,"second":null,"how":"pair","type":"line"}
+{"id":745,"nid":749,"diff":-4,"dv":0.000008555694700085696,"second":null,"how":"pair","type":"circle"}
+{"id":746,"nid":750,"diff":-4,"dv":0.00000855544721783117,"second":null,"how":"pair","type":"circle"}
+{"id":747,"nid":751,"diff":-4,"dv":1.1119960215403432e-9,"second":null,"how":"pair","type":"line"}
+{"id":748,"nid":752,"diff":-4,"dv":0.000009409938594981389,"second":0.00177502452241909,"how":"ring+dist","type":"circle"}
+{"id":749,"nid":753,"diff":-4,"dv":0.000009410064070669895,"second":0.001775024523084279,"how":"ring+dist","type":"circle"}
+{"id":750,"nid":754,"diff":-4,"dv":0.000009410510092437473,"second":0.001775024525448862,"how":"ring+dist","type":"circle"}
+{"id":751,"nid":755,"diff":-4,"dv":0.000009409960791173791,"second":0.001775024522536759,"how":"ring+dist","type":"circle"}
+{"id":752,"nid":756,"diff":-4,"dv":0.000013604464699759291,"second":null,"how":"pair","type":"circle"}
+{"id":753,"nid":757,"diff":-4,"dv":0.000015454861864966244,"second":null,"how":"pair","type":"trimmed"}
+{"id":754,"nid":758,"diff":-4,"dv":0.000015352918594917727,"second":null,"how":"pair","type":"trimmed"}
+{"id":755,"nid":759,"diff":-4,"dv":0.0001233133059287229,"second":null,"how":"pair","type":"trimmed"}
+{"id":756,"nid":760,"diff":-4,"dv":1.811057213379176e-9,"second":null,"how":"pair","type":"line"}
+{"id":757,"nid":761,"diff":-4,"dv":0.000008481647012722083,"second":null,"how":"pair","type":"circle"}
+{"id":758,"nid":762,"diff":-4,"dv":1.7328832562482228e-9,"second":null,"how":"pair","type":"line"}
+{"id":759,"nid":763,"diff":-4,"dv":7.456868167940289e-10,"second":null,"how":"pair","type":"line"}
+{"id":760,"nid":764,"diff":-4,"dv":0.00000855569466181262,"second":null,"how":"pair","type":"circle"}
+{"id":761,"nid":765,"diff":-4,"dv":0.000008555447179551926,"second":null,"how":"pair","type":"circle"}
+{"id":762,"nid":766,"diff":-4,"dv":7.625347066618828e-10,"second":null,"how":"pair","type":"line"}
+{"id":763,"nid":767,"diff":-4,"dv":1.7328832562482228e-9,"second":null,"how":"pair","type":"line"}
+{"id":764,"nid":768,"diff":-4,"dv":7.456867932874113e-10,"second":null,"how":"pair","type":"line"}
+{"id":765,"nid":769,"diff":-4,"dv":0.000009409938594981389,"second":0.00177502452241909,"how":"ring+dist","type":"circle"}
+{"id":766,"nid":770,"diff":-4,"dv":0.000009410064070669895,"second":0.001775024523084279,"how":"ring+dist","type":"circle"}
+{"id":767,"nid":771,"diff":-4,"dv":0.000009410510092437473,"second":0.001775024525448862,"how":"ring+dist","type":"circle"}
+{"id":768,"nid":772,"diff":-4,"dv":0.000009409960791173791,"second":0.001775024522536759,"how":"ring+dist","type":"circle"}
+{"id":769,"nid":773,"diff":-4,"dv":0.000013604464699759132,"second":null,"how":"pair","type":"circle"}
+{"id":770,"nid":774,"diff":-4,"dv":0.000008555447179549375,"second":null,"how":"pair","type":"circle"}
+{"id":771,"nid":775,"diff":-4,"dv":0.00000855569466180055,"second":null,"how":"pair","type":"circle"}
+{"id":772,"nid":776,"diff":-4,"dv":4.876871664709977e-10,"second":null,"how":"pair","type":"line"}
+{"id":773,"nid":777,"diff":-4,"dv":1.73288324879425e-9,"second":null,"how":"pair","type":"line"}
+{"id":774,"nid":778,"diff":-4,"dv":0.000008481647012735493,"second":null,"how":"pair","type":"circle"}
+{"id":775,"nid":779,"diff":-4,"dv":1.8110603187994747e-9,"second":null,"how":"pair","type":"line"}
+{"id":776,"nid":780,"diff":-4,"dv":0.00012331330592872206,"second":null,"how":"pair","type":"trimmed"}
+{"id":777,"nid":781,"diff":-4,"dv":9.094402366864938e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":778,"nid":782,"diff":-4,"dv":0.00001531922272984298,"second":null,"how":"pair","type":"trimmed"}
+{"id":779,"nid":783,"diff":-4,"dv":0.000015352743735665727,"second":null,"how":"pair","type":"trimmed"}
+{"id":780,"nid":784,"diff":-4,"dv":0.000015130797092720081,"second":null,"how":"pair","type":"trimmed"}
+{"id":781,"nid":785,"diff":-4,"dv":1.5396184322427968e-9,"second":null,"how":"pair","type":"line"}
+{"id":782,"nid":786,"diff":-4,"dv":1.5396184322427968e-9,"second":null,"how":"pair","type":"line"}
+{"id":783,"nid":787,"diff":-4,"dv":1.3097133104146173e-9,"second":null,"how":"pair","type":"line"}
+{"id":784,"nid":788,"diff":-4,"dv":1.0687786233243226e-9,"second":null,"how":"pair","type":"line"}
+{"id":785,"nid":789,"diff":-4,"dv":6.160391481004706e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":786,"nid":790,"diff":-4,"dv":7.235730025881952e-10,"second":null,"how":"pair","type":"line"}
+{"id":787,"nid":791,"diff":-4,"dv":1.4558347600350985e-9,"second":null,"how":"pair","type":"line"}
+{"id":788,"nid":792,"diff":-4,"dv":1.0525351558753054e-9,"second":null,"how":"pair","type":"line"}
+{"id":789,"nid":793,"diff":-4,"dv":1.4558490712935063e-9,"second":null,"how":"pair","type":"line"}
+{"id":790,"nid":794,"diff":-4,"dv":0.000247160374628509,"second":null,"how":"pair","type":"intersection"}
+{"id":791,"nid":795,"diff":-4,"dv":0.0002552594688451425,"second":null,"how":"pair","type":"intersection"}
+{"id":792,"nid":796,"diff":-4,"dv":0.00003077472837147615,"second":null,"how":"pair","type":"intersection"}
+{"id":793,"nid":797,"diff":-4,"dv":null,"second":null,"how":"pair","type":"trimmed"}
+{"id":794,"nid":798,"diff":-4,"dv":0.00003081716636888208,"second":null,"how":"pair","type":"intersection"}
+{"id":799,"nid":803,"diff":-4,"dv":0.00023317064243990392,"second":null,"how":"pair","type":"intersection"}
+{"id":800,"nid":804,"diff":-4,"dv":0.0002004450528943959,"second":null,"how":"pair","type":"trimmed"}
+{"id":801,"nid":805,"diff":-4,"dv":0.00035067536703317355,"second":null,"how":"pair","type":"trimmed"}
+{"id":804,"nid":808,"diff":-4,"dv":0.00003352902774986423,"second":null,"how":"pair","type":"trimmed"}
+{"id":807,"nid":811,"diff":-4,"dv":0.001091968090860902,"second":null,"how":"pair","type":"trimmed"}
+{"id":808,"nid":812,"diff":-4,"dv":0.0007593309491975274,"second":null,"how":"pair","type":"trimmed"}
+{"id":815,"nid":819,"diff":-4,"dv":0.0003749717189848272,"second":null,"how":"pair","type":"trimmed"}
+{"id":816,"nid":820,"diff":-4,"dv":0.0007767887075286564,"second":null,"how":"pair","type":"intersection"}
+{"id":817,"nid":821,"diff":-4,"dv":0.0011916450963996275,"second":null,"how":"pair","type":"trimmed"}
+{"id":818,"nid":822,"diff":-4,"dv":0.0006061013891555014,"second":null,"how":"pair","type":"trimmed"}
+{"id":819,"nid":823,"diff":-4,"dv":0.00009889281788171777,"second":null,"how":"pair","type":"intersection"}
+{"id":820,"nid":824,"diff":-4,"dv":0.001349090394785803,"second":null,"how":"pair","type":"trimmed"}
+{"id":821,"nid":825,"diff":-4,"dv":null,"second":null,"how":"pair","type":"trimmed"}
+{"id":822,"nid":826,"diff":-4,"dv":0.0006061013891555014,"second":null,"how":"pair","type":"trimmed"}
+{"id":824,"nid":828,"diff":-4,"dv":0.0006820872479143755,"second":null,"how":"pair","type":"trimmed"}
+{"id":825,"nid":829,"diff":-4,"dv":0.000028578274447978808,"second":null,"how":"pair","type":"trimmed"}
+{"id":829,"nid":833,"diff":-4,"dv":0.000025489667738223492,"second":null,"how":"pair","type":"trimmed"}
+{"id":832,"nid":836,"diff":-4,"dv":0.000033109968336019175,"second":null,"how":"pair","type":"trimmed"}
+{"id":835,"nid":839,"diff":-4,"dv":0.0001644251496322033,"second":null,"how":"pair","type":"trimmed"}
+{"id":836,"nid":840,"diff":-4,"dv":0.0006301260242092919,"second":null,"how":"pair","type":"trimmed"}
+{"id":837,"nid":841,"diff":-4,"dv":null,"second":null,"how":"pair","type":"trimmed"}
+{"id":838,"nid":842,"diff":-4,"dv":0.0006820872479143755,"second":null,"how":"pair","type":"trimmed"}
+{"id":839,"nid":843,"diff":-4,"dv":0.0000037197058750364177,"second":null,"how":"pair","type":"circle"}
+{"id":840,"nid":844,"diff":-4,"dv":null,"second":null,"how":"pair","type":"trimmed"}
+{"id":841,"nid":845,"diff":-4,"dv":0.0001996433445669601,"second":null,"how":"pair","type":"trimmed"}
+{"id":842,"nid":846,"diff":-4,"dv":0.00010495341725448638,"second":null,"how":"pair","type":"trimmed"}
+{"id":843,"nid":847,"diff":-4,"dv":0.000034095592192640104,"second":null,"how":"pair","type":"intersection"}
+{"id":844,"nid":848,"diff":-4,"dv":0.000040300209345594066,"second":0.004917608351661369,"how":"ends+dist","type":"intersection"}
+{"id":846,"nid":850,"diff":-4,"dv":0.000028009544055792424,"second":null,"how":"pair","type":"intersection"}
+{"id":847,"nid":851,"diff":-4,"dv":0.000026895984047939636,"second":null,"how":"pair","type":"intersection"}
+{"id":848,"nid":852,"diff":-4,"dv":0.00004793922376176382,"second":0.004922065766889795,"how":"ends+dist","type":"intersection"}
+{"id":850,"nid":854,"diff":-4,"dv":0.000029433449597692586,"second":null,"how":"pair","type":"intersection"}
+{"id":851,"nid":855,"diff":-4,"dv":0.00002716255250709568,"second":null,"how":"pair","type":"intersection"}
+{"id":852,"nid":856,"diff":-4,"dv":0.000014815922744165709,"second":0.0025028620139081205,"how":"ring+dist","type":"intersection"}
+{"id":853,"nid":857,"diff":-4,"dv":0.000010693854314977045,"second":0.00029049195122895594,"how":"ring+dist","type":"circle"}
+{"id":854,"nid":858,"diff":-4,"dv":0.000012405145674548696,"second":0.0002829015210833601,"how":"ring+dist","type":"circle"}
+{"id":855,"nid":859,"diff":-4,"dv":0.0000162550406571121,"second":0.00045009487027796103,"how":"ring+dist","type":"circle"}
+{"id":857,"nid":861,"diff":-4,"dv":0.000014815480861631034,"second":0.002502862013908118,"how":"ring+dist","type":"intersection"}
+{"id":858,"nid":862,"diff":-4,"dv":0.000010693854314992124,"second":0.00029049195122896775,"how":"ring+dist","type":"circle"}
+{"id":859,"nid":863,"diff":-4,"dv":0.000012405145674541324,"second":0.0002829015210833601,"how":"ring+dist","type":"circle"}
+{"id":860,"nid":864,"diff":-4,"dv":0.00001625504065708982,"second":0.00045009487027795875,"how":"ring+dist","type":"circle"}
+{"id":862,"nid":866,"diff":-4,"dv":0.00001375048477986958,"second":0.0024712722250109097,"how":"ring+dist","type":"intersection"}
+{"id":863,"nid":867,"diff":-4,"dv":0.000009839438545805234,"second":0.0004312613496713605,"how":"ring+dist","type":"circle"}
+{"id":864,"nid":868,"diff":-4,"dv":0.000012405278675836073,"second":0.00042431881944855895,"how":"ring+dist","type":"circle"}
+{"id":865,"nid":869,"diff":-4,"dv":0.000016254364733920164,"second":0.0004500963012403069,"how":"ring+dist","type":"circle"}
+{"id":866,"nid":870,"diff":-4,"dv":0.00008340770254537697,"second":null,"how":"pair","type":"ellipse"}
+{"id":867,"nid":871,"diff":-4,"dv":1.2092590217997444e-9,"second":null,"how":"pair","type":"line"}
+{"id":868,"nid":872,"diff":-4,"dv":8.642939384731375e-10,"second":null,"how":"pair","type":"line"}
+{"id":869,"nid":873,"diff":-4,"dv":7.235729917279009e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":870,"nid":874,"diff":-4,"dv":7.235729917279009e-10,"second":null,"how":"pair","type":"line"}
+{"id":871,"nid":875,"diff":-4,"dv":6.160391481004706e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":872,"nid":876,"diff":-4,"dv":6.915576691834753e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":873,"nid":877,"diff":-4,"dv":1.1119960245326563e-9,"second":null,"how":"pair","type":"line"}
+{"id":874,"nid":878,"diff":-4,"dv":1.1119960245326563e-9,"second":null,"how":"pair","type":"line"}
+{"id":875,"nid":879,"diff":-4,"dv":1.1119960215403432e-9,"second":null,"how":"pair","type":"line"}
+{"id":876,"nid":880,"diff":-4,"dv":7.625347129284971e-10,"second":null,"how":"pair","type":"line"}
+{"id":877,"nid":881,"diff":-4,"dv":1.539618431792729e-9,"second":null,"how":"pair","type":"line"}
+{"id":878,"nid":882,"diff":-4,"dv":1.0687786233243226e-9,"second":null,"how":"pair","type":"line"}
+{"id":879,"nid":883,"diff":-4,"dv":1.309713302798067e-9,"second":null,"how":"pair","type":"line"}
+{"id":880,"nid":884,"diff":-4,"dv":1.539618431792729e-9,"second":null,"how":"pair","type":"line"}
+{"id":881,"nid":885,"diff":-4,"dv":7.116722927581253e-10,"second":null,"how":"pair","type":"line"}
+{"id":882,"nid":886,"diff":-4,"dv":5.537457992737766e-10,"second":null,"how":"pair","type":"line"}
+{"id":883,"nid":887,"diff":-4,"dv":7.116722927581253e-10,"second":null,"how":"pair","type":"line"}
+{"id":884,"nid":888,"diff":-4,"dv":7.509649869148366e-10,"second":null,"how":"pair","type":"line"}
+{"id":885,"nid":889,"diff":-4,"dv":8.99758179596571e-10,"second":null,"how":"pair","type":"trimmed"}
+{"id":886,"nid":890,"diff":-4,"dv":0.00008111188357656755,"second":null,"how":"pair","type":"trimmed"}
+{"id":887,"nid":891,"diff":-4,"dv":1.2018345170051693e-9,"second":null,"how":"pair","type":"line"}
+{"id":888,"nid":892,"diff":-4,"dv":1.2018345413376174e-9,"second":null,"how":"pair","type":"line"}
+{"id":889,"nid":893,"diff":-4,"dv":0.00006652182531668303,"second":null,"how":"pair","type":"intersection"}
+{"id":890,"nid":894,"diff":-4,"dv":6.13072781288741e-10,"second":null,"how":"pair","type":"line"}
+{"id":891,"nid":895,"diff":-4,"dv":1.0068231502500524e-9,"second":null,"how":"pair","type":"line"}
+{"id":892,"nid":896,"diff":-4,"dv":1.0068231502500524e-9,"second":null,"how":"pair","type":"line"}
+{"id":893,"nid":897,"diff":-4,"dv":5.981882524776671e-10,"second":null,"how":"pair","type":"line"}
+{"id":894,"nid":898,"diff":-4,"dv":4.852237754344949e-10,"second":null,"how":"pair","type":"line"}
+{"id":895,"nid":899,"diff":-4,"dv":5.981882541183805e-10,"second":null,"how":"pair","type":"line"}
+{"id":896,"nid":900,"diff":-4,"dv":1.006823150955088e-9,"second":null,"how":"pair","type":"line"}
+{"id":897,"nid":901,"diff":-4,"dv":1.006823150955088e-9,"second":null,"how":"pair","type":"line"}
+{"id":898,"nid":902,"diff":-4,"dv":8.176084969380334e-10,"second":null,"how":"pair","type":"line"}
+{"id":899,"nid":903,"diff":-4,"dv":0.0011425281210572825,"second":null,"how":"pair","type":"intersection"}
+{"id":900,"nid":904,"diff":-4,"dv":8.176106370555696e-10,"second":null,"how":"pair","type":"line"}
+{"id":901,"nid":905,"diff":-4,"dv":0.001236846261687503,"second":null,"how":"pair","type":"intersection"}
+{"id":902,"nid":906,"diff":-4,"dv":0.00002638344511061219,"second":null,"how":"pair","type":"intersection"}
+{"id":903,"nid":907,"diff":-4,"dv":0.000006215677550937913,"second":null,"how":"pair","type":"intersection"}
+{"id":904,"nid":908,"diff":-4,"dv":6.227894490988559e-10,"second":null,"how":"pair","type":"line"}
+{"id":905,"nid":909,"diff":-4,"dv":1.082590020345456e-9,"second":null,"how":"pair","type":"intersection"}
+{"id":906,"nid":910,"diff":-4,"dv":1.7381606814008335e-9,"second":null,"how":"pair","type":"line"}
+{"id":907,"nid":911,"diff":-4,"dv":0.00007077358729878526,"second":null,"how":"pair","type":"intersection"}
+{"id":908,"nid":912,"diff":-4,"dv":1.7381606814008335e-9,"second":null,"how":"pair","type":"line"}
+{"id":909,"nid":913,"diff":-4,"dv":1.08257787852718e-9,"second":null,"how":"pair","type":"intersection"}
+{"id":910,"nid":914,"diff":-4,"dv":0.00007130385972348732,"second":null,"how":"pair","type":"intersection"}
+{"id":911,"nid":915,"diff":-4,"dv":0.00002679322597956139,"second":null,"how":"pair","type":"intersection"}
+{"id":912,"nid":916,"diff":-4,"dv":0.00002644809562873041,"second":null,"how":"pair","type":"intersection"}
+{"id":913,"nid":917,"diff":-4,"dv":0.000029191751760752812,"second":null,"how":"pair","type":"intersection"}
+{"id":914,"nid":918,"diff":-4,"dv":0.00004022876959003886,"second":null,"how":"pair","type":"circle"}
+{"id":915,"nid":919,"diff":-4,"dv":0.00004022876959006659,"second":null,"how":"pair","type":"circle"}
+{"id":916,"nid":920,"diff":-4,"dv":0.00002305034265139468,"second":null,"how":"pair","type":"intersection"}
+{"id":917,"nid":921,"diff":-4,"dv":0.00003294804815483852,"second":null,"how":"pair","type":"circle"}
+{"id":918,"nid":922,"diff":-4,"dv":0.00003294804814677438,"second":null,"how":"pair","type":"circle"}
+{"id":919,"nid":923,"diff":-4,"dv":0.00003215499233658636,"second":null,"how":"pair","type":"circle"}
+{"id":920,"nid":924,"diff":-4,"dv":0.000009409960805263093,"second":0.00004253096078226151,"how":"ring+dist","type":"circle"}
+{"id":921,"nid":925,"diff":-4,"dv":0.00003478650624733606,"second":null,"how":"pair","type":"intersection"}
+{"id":922,"nid":926,"diff":-4,"dv":0.000009623748282401576,"second":0.00003540742270067369,"how":"ring+dist","type":"circle"}
+{"id":923,"nid":927,"diff":-4,"dv":0.000018820920186089594,"second":0.0010750666535725485,"how":"ring+dist","type":"circle"}
+{"id":924,"nid":928,"diff":-4,"dv":0.000009410510106522975,"second":0.00004253140517506699,"how":"ring+dist","type":"circle"}
+{"id":925,"nid":929,"diff":-4,"dv":0.00000962393422236277,"second":0.00003540734416561549,"how":"ring+dist","type":"circle"}
+{"id":926,"nid":930,"diff":-4,"dv":0.000018820537077513244,"second":0.001075067407362638,"how":"ring+dist","type":"circle"}
+{"id":927,"nid":931,"diff":-4,"dv":0.000009410064084757674,"second":0.00004253104433670483,"how":"ring+dist","type":"circle"}
+{"id":928,"nid":932,"diff":-4,"dv":0.000009623936193133878,"second":0.000035407190924828934,"how":"ring+dist","type":"circle"}
+{"id":929,"nid":933,"diff":-4,"dv":0.000018820285316125668,"second":0.0010750669064241787,"how":"ring+dist","type":"circle"}
+{"id":930,"nid":934,"diff":-4,"dv":0.000009409938609067743,"second":0.00004253094282526721,"how":"ring+dist","type":"circle"}
+{"id":931,"nid":935,"diff":-4,"dv":0.00000962406121312835,"second":0.000035407045208843805,"how":"ring+dist","type":"circle"}
+{"id":932,"nid":936,"diff":-4,"dv":0.00001882010475247434,"second":0.0010750666027906327,"how":"ring+dist","type":"circle"}
+{"id":933,"nid":937,"diff":-4,"dv":0.000009409960805263495,"second":0.00004253096078226151,"how":"ring+dist","type":"circle"}
+{"id":934,"nid":938,"diff":-4,"dv":0.00003763156991596666,"second":null,"how":"pair","type":"intersection"}
+{"id":935,"nid":939,"diff":-4,"dv":0.000009623748282401576,"second":0.000035407422700673544,"how":"ring+dist","type":"circle"}
+{"id":936,"nid":940,"diff":-4,"dv":0.000018820920186089594,"second":0.0010750666535725485,"how":"ring+dist","type":"circle"}
+{"id":937,"nid":941,"diff":-4,"dv":0.000009410510106522975,"second":0.00004253140517506699,"how":"ring+dist","type":"circle"}
+{"id":938,"nid":942,"diff":-4,"dv":0.00000962393422236277,"second":0.00003540734416561549,"how":"ring+dist","type":"circle"}
+{"id":939,"nid":943,"diff":-4,"dv":0.000018820537077513244,"second":0.001075067407362638,"how":"ring+dist","type":"circle"}
+{"id":940,"nid":944,"diff":-4,"dv":0.000009410064084757674,"second":0.00004253104433670587,"how":"ring+dist","type":"circle"}

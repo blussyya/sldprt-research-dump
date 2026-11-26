@@ -1,0 +1,15 @@
+face 27 cylinder r 0.00125 loops 1
+  edge 66 - trimmed circle v [65,161] sweep 45.65 h 0.000 .. 0.000 other face 88:plane
+  edge 146 + trimmed spcurve v [65,160] sweep 4797.18 h 0.000 .. 5.996 other face 175:bspline
+  edge 20 + trimmed circle v [160,160] sweep -360.00 h 6.000 .. 6.000 other face 18:plane
+  edge 139 + trimmed spcurve v [160,162] sweep 0.00 h 5.799 .. 5.996 other face 166:plane
+  edge 140 + trimmed spcurve v [162,157] sweep 0.00 h 5.603 .. 5.799 other face 166:plane
+  edge 152 - trimmed spcurve v [161,157] sweep -4841.61 h -0.448 .. 5.603 other face 169:bspline
+  loop sweep -358.78
+display face 1 rawId 27 tag 4002 boundary segs 3874 unlabelled 0 cycles 1
+  mesh h -0.000 .. 6.000
+display 1 cycle segs 3874 winding 0.00 per id {"20":-360,"66":45.6,"139":0,"140":0,"146":4797.2,"152":-4482.8}
+total 0.00
+display 75 cycle segs 31 winding -0.00 per id {"1093":96.2,"1166":-96.2}
+display 75 cycle segs 24 winding -360.00 per id {"1165":-360}
+total -360.00

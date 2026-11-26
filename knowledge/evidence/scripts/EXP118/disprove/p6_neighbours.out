@@ -1,0 +1,10 @@
+face 75 candidate triangles 110
+label 1093 verts 24 nearest-other-face dist: min 0.00e+0 median 0.00e+0 max 0.00e+0 n<=1e-7 24 nearest faces {"56":24}
+label 1165 verts 24 nearest-other-face dist: min 0.00e+0 median 0.00e+0 max 0.00e+0 n<=1e-7 24 nearest faces {"66":24}
+label 1166 verts 9 nearest-other-face dist: min 0.00e+0 median 0.00e+0 max 0.00e+0 n<=1e-7 9 nearest faces {"56":2,"72":7}
+unlabelled verts 46 nearest-other-face dist: min 1.48e-7 median 1.21e-4 max 1.47e-3 n<=1e-7 0 nearest faces {"56":46}
+face 448 candidate triangles 108
+label 11136 verts 24 nearest-other-face dist: min 0.00e+0 median 0.00e+0 max 0.00e+0 n<=1e-7 24 nearest faces {"429":24}
+label 11112 verts 24 nearest-other-face dist: min 0.00e+0 median 0.00e+0 max 0.00e+0 n<=1e-7 24 nearest faces {"439":24}
+label 11125 verts 9 nearest-other-face dist: min 0.00e+0 median 0.00e+0 max 0.00e+0 n<=1e-7 9 nearest faces {"429":2,"445":7}
+unlabelled verts 40 nearest-other-face dist: min 1.48e-6 median 2.56e-5 max 1.48e-3 n<=1e-7 0 nearest faces {"429":40}

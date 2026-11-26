@@ -1,0 +1,6 @@
+edges 1810 no branch 52 {"trimmed/spcurve:none":34,"trimmed/spcurve:sampled":18} end circle h -6.2000 mm
+samples on the end circle outside the arc (edge:count): {"control 1166":513}
+samples on the cylinder within h_end+0.2 .. h_end-2.5 mm (edge:count): {"1093":6,"1166":513}
+edges 1810 no branch 52 {"trimmed/spcurve:none":34,"trimmed/spcurve:sampled":18} end circle h -6.2000 mm
+samples on the end circle outside the arc (edge:count): {"control 11124":513}
+samples on the cylinder within h_end+0.2 .. h_end-2.5 mm (edge:count): {"11124":513,"11135":6}

@@ -1,0 +1,5 @@
+chordal error stored 0.00008737873445585872 chart nodes radial max 3.25e-18
+display 75 pts 24 to chart: max 2.07e-5 median 4.76e-6 | radial: max |dr| 8.81e-6 n |dr|<1e-7 14
+   on-cylinder subset: to chart max 2.07e-5
+display 56 pts 24 to chart: max 2.07e-5 median 4.76e-6 | radial: max |dr| 8.81e-6 n |dr|<1e-7 14
+   on-cylinder subset: to chart max 2.07e-5

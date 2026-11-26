@@ -1,0 +1,11 @@
+face 75 strip 3 area mm2 1.52e-4 cos(normal, stored) -0.120 -75.0/-6.294 -74.9/-6.330* -75.0/-6.293*
+face 75 strip 9 area mm2 1.66e-3 cos(normal, stored) -0.082 -104.1/-6.204* -105.0/-6.205 -99.8/-6.216
+face 75 strip 14 area mm2 1.10e-4 cos(normal, stored) -0.000 -107.8/-6.202 -105.0/-6.205 -110.5/-6.200
+face 75 strip 14 area mm2 1.87e-3 cos(normal, stored) -0.033 -110.5/-6.200 -105.0/-6.205 -104.1/-6.204*
+face 75 strip 14 area mm2 1.38e-2 cos(normal, stored) -0.745 -110.5/-6.200 -104.1/-6.204* -118.3/-6.055*
+face 242 strip 19 area mm2 5.17e-6 cos(normal, stored) -0.843 
+face 448 strip 12 area mm2 4.67e-5 cos(normal, stored) -0.049 60.1/-6.330* 60.0/-6.310* 60.0/-6.311
+face 521 strip 31 area mm2 5.67e-3 cos(normal, stored) -0.139 
+face 521 strip 31 area mm2 1.20e-2 cos(normal, stored) -0.411 
+face 605 strip 9 area mm2 5.88e-5 cos(normal, stored) -0.012 
+face 605 strip 9 area mm2 7.11e-5 cos(normal, stored) -0.011 

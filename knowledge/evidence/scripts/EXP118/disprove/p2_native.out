@@ -1,0 +1,32 @@
+readBrep 413 ms source Config-0-Partition partition nodes 32159 err null hidden 0 config {"name":"Config-0-Partition","by":"lowest"} partitions ["Config-0-Partition"]
+build 84 ms faces 732 edges 1810 vertices 1071 bodies 1 solid
+edges with displayId!=id 0
+faces with displayId!=id 0
+native face 12743 disp 12743 offset  sameSense true loops 4
+  loop: 11873-[intersection vring]
+  loop: 11002+[intersection v11998>12501]  11916-[intersection v12503>12501]  11836-[intersection v12459>12503]  11839-[intersection v12461>12459]  11840-[intersection v12463>12461]  11891-[intersection v11998>12463]
+  loop: 11087-[intersection v12015>12038]  11096-[intersection v12017>12015]  11704-[intersection v12368>12017]  11707-[intersection v12370>12368]  11710-[intersection v12373>12370]  11093-[intersection v12016>12373]  11125-[intersection v12043>12016]  11122-[intersection v12038>12043]
+  loop: 11872-[intersection v12480>12476]  11868-[trimmed(intersection) v12477>12480]  11003+[trimmed(spcurve) v12477>12008]  11079-[trimmed(intersection) v12007>12008]  11159-[trimmed(intersection) v12054>12007]  11006+[intersection v12054>2153]  11009+[intersection v2153>10897]  10898+[intersection v10897>2148]  11650-[intersection v12335>2148]  11653-[intersection v12337>12335]  11655-[trimmed(intersection) v12338>12337]  11197-[trimmed(spcurve) v12068>12338]  11173-[trimmed(intersection) v12056>12068]  11180-[trimmed(spcurve) v12059>12056]  11034+[trimmed(spcurve) v12059>12000]  11037+[trimmed(spcurve) v12000>12253]  11414-[trimmed(intersection) v12174>12253]  11417-[intersection v12176>12174]  11418-[trimmed(intersection) v12177>12176]  11040+[trimmed(spcurve) v12177>12474]  11867-[trimmed(intersection) v12476>12474]
+native face 12923 disp 12923 plane  sameSense true loops 1
+  loop: 11110+[line v12384>12031]  11117-[line v12033>12031]  11112-[line v12030>12033]  11726-[line v12384>12030]
+native face 12930 disp 12930 plane  sameSense true loops 2
+  loop: 11111+[circle vring]
+  loop: 11718-[trimmed(circle) v12378>12376]  11727-[circle v12030>12378]  11112+[line v12030>12033]  11113+[line v12033>12032]  11114+[line v12032>12034]  11115+[line v12034>12037]  11721-[circle v12379>12037]  11717-[trimmed(circle) v12376>12379]
+native face 12937 disp 12937 plane  sameSense false loops 2
+  loop: 11136-[circle vring]
+  loop: 11731-[trimmed(circle) v12385>12388]  11723-[circle v12380>12385]  11121-[line v12036>12380]  11118-[line v12035>12036]  11116-[line v12031>12035]  11110-[line v12384>12031]  11730-[circle v12383>12384]  11735-[trimmed(circle) v12388>12383]
+native face 12977 disp 12977 plane  sameSense true loops 1
+  loop: 11133-[line v12042>12367]  11123-[line v12043>12042]  11125+[intersection v12043>12016]  11092-[intersection v12040>12016]  11126+[line v12040>12365]  11698-[intersection v12367>12365]
+native face 12997 disp 12997 cylinder r=0.00134999999999999 sameSense false loops 2
+  loop: 11098-[circle vring]
+  loop: 11136+[circle vring]
+native face 2516 disp 2516 cylinder r=0.00134999999999999 sameSense false loops 2
+  loop: 1165+[circle vring]
+  loop: 1166+[circle v1908>1861]  1093-[intersection v1908>1861]
+native face 2502 disp 2502 plane  sameSense true loops 1
+  loop: 1151+[trimmed(circle) v2185>2184]  1152+[intersection v2184>1861]  1166-[circle v1908>1861]  1153+[intersection v1908>1901]  1154+[line v1901>1902]  1155+[trimmed(circle) v1902>2185]
+native face 2474 disp 2474 plane  sameSense true loops 2
+  loop: 1165-[circle vring]
+  loop: 1129+[trimmed(circle) v2186>1885]  1130+[trimmed(circle) v1885>1886]  1131+[circle v1886>1887]  1146-[line v1894>1887]  1144-[line v1893>1894]  1142-[line v1884>1893]  1127-[line v1883>1884]  1132+[circle v1883>2186]
+native face 2427 disp 2427 blend  sameSense false loops 1
+  loop: 1092+[circle v2184>1821]  1009-[intersection v1860>1821]  1158-[intersection v1901>1860]  1153-[intersection v1908>1901]  1093+[intersection v1908>1861]  1152-[intersection v2184>1861]

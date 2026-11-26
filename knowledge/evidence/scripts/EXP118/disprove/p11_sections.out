@@ -1,0 +1,15 @@
+stream Config-0-ResolvedFeatures chain embedded [{"offset":6627,"kind":"plain","bytes":4905561}]
+  section plain bytes 4905561 head PS...3: TRANSMIT FILE created by modeller version 2401264....SCH_2401264_20000_13006.........CCCCCCC
+  parsed nodes 30681 error null types14 732 edges16 1810
+  has node_ids 2516:true 1166:true 1093:true 1165:true 12990:true 11111:true 11124:true 11135:true
+  face 2516 cylinder loops 1165+:circle(ring) | 1166+:circle 1093-:intersection
+  face 12990 cylinder loops 11111-:circle(ring) | 11124-:circle 11135+:intersection
+stream Config-0-Partition chain complete [{"offset":0,"kind":"partition","bytes":4965813},{"offset":4291065,"kind":"deltas","bytes":128965}]
+  section partition bytes 4965813 head PS...?: TRANSMIT FILE (partition) created by modeller version 2401264....SCH_2401264_20000_13006....
+  parsed nodes 32159 error null types14 732 edges16 1810
+  has node_ids 2516:true 1166:true 1093:true 1165:true 12990:true 11111:true 11124:true 11135:true
+  face 2516 cylinder loops 1165+:circle(ring) | 1166+:circle 1093-:intersection
+  face 12990 cylinder loops 11111-:circle(ring) | 11124-:circle 11135+:intersection
+  section deltas bytes 128965 head PS...<: TRANSMIT FILE (deltas) created by modeller version 2401264....SCH_2401264_20000_13006.......
+  parsed nodes 0 error missing base schema for node type 3 at 99 types14 0 edges16 0
+  has node_ids 2516:false 1166:false 1093:false 1165:false 12990:false 11111:false 11124:false 11135:false

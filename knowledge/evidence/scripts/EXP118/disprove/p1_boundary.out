@@ -1,0 +1,13 @@
+format legacy OLE2 DisplayLists stream DisplayLists__ZLB faces 732 rejected 0 warnings 1 overlays 0 ms 227
+{ 'Legacy mesh geometry decoded; downstream surface/edge metada': 1 }
+rejected {}
+75 off 345216 V 139 S 17 controls [ 1 ] cycles 2 err null meta false Legacy metadata grammar is not decoded b3nz 0 ids 1093,1165,1166
+448 off 2506428 V 135 S 19 controls [ 1 ] cycles 2 err null meta false Legacy metadata grammar is not decoded b3nz 0 ids 11112,11125,11136
+file f666f342_head_face.sldprt { faces: 732, withUnl: 2, unlEdges: 86, overused: 0 }
+face 75 bnd 101 unlabelled 46 degenTris 0 edges>2uses 0 labelledInterior 0 unl shared w/ other faces 0 chains [ { n: 46, closed: true, deg: { '2': 46 } } ]
+face 448 bnd 95 unlabelled 40 degenTris 0 edges>2uses 0 labelledInterior 0 unl shared w/ other faces 0 chains [ { n: 40, closed: true, deg: { '2': 40 } } ]
+file f666f342_head_face.sldprt { faces: 732, withUnl: 2, unlEdges: 86, overused: 0 }
+face 75 bnd 101 unlabelled 46 degenTris 0 edges>2uses 0 labelledInterior 0 unl shared w/ other faces 0 chains [ { n: 46, closed: true, deg: { '2': 46 } } ]
+face 448 bnd 95 unlabelled 40 degenTris 0 edges>2uses 0 labelledInterior 0 unl shared w/ other faces 0 chains [ { n: 40, closed: true, deg: { '2': 40 } } ]
+face 0 bnd 11 unlabelled 0 degenTris 0 edges>2uses 0 labelledInterior 0 unl shared w/ other faces 0 chains []
+face 1 bnd 41 unlabelled 0 degenTris 0 edges>2uses 0 labelledInterior 0 unl shared w/ other faces 0 chains []

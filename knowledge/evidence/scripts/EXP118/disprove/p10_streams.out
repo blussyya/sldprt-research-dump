@@ -1,0 +1,10 @@
+OLE2 compound document (legacy) saved {"version":6000,"release":"SolidWorks 2013","history":[{"version":6000,"release":"SolidWorks 2013","date":{"year":2013,"day":273},"created":true,"time":"2014-12-09T17:38:38.000Z","comment":""}]}
+Config-0-Properties 164
+Config-0 21728
+Config-0-ResolvedFeatures 4278808
+Config-0-LWDATA 1415
+Config-0-Partition 4370862
+DisplayLists__ZLB 1720874
+display {"format":"legacy OLE2 DisplayLists","faces":732,"triangles":74026,"surfaceTags":{},"rejected":0,"overlays":0,"warnings":1,"errors":[]}
+partitions [{"stream":"Config-0-ResolvedFeatures","chain":"embedded","sections":["plain"]},{"stream":"Config-0-Partition","chain":"complete","sections":["partition","deltas"]}]
+brep {"source":"Config-0-Partition","schema":"SCH_2401264_20000_13006","nodes":32159,"graphErrors":0}

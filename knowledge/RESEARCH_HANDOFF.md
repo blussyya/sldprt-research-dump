@@ -9,7 +9,9 @@ file. The B-rep face's second loop doesn't go round the bore, so the face has no
 and SolidWorks' mesh stops at a ring with no edge id. SolidWorks' display labels agree with the
 B-rep on every edge. No other face in the corpus has unlabelled mesh boundary. The chainwheel fix
 (EXP-117) holds corpus-wide: every face with edge ids gets boundary cycles. New question NQ-075 (display
-edge ids shifted from native node ids in two 2013 files). No converter change.
+edge ids shifted from native node ids in two 2013 files). No converter change. Blind prove and
+disprove checks the same day hold the finding and correct three details (the mirror, head_back's
+shifts, the legacy face id at offset 82 of the tail).
 
 Evidence: [2026-11-26_v0.5-EXP118.md](evidence/2026-11-26_v0.5-EXP118.md).
 

@@ -1,0 +1,8 @@
+stream DisplayLists__ZLB bytes 4242039 faces 732
+on-cylinder triplets owned by parsed faces (face:count): {"56":30,"57":18,"66":31,"67":33,"72":13,"75":103,"76":37}
+control: face 75 vertices on cylinder 103 found by scan 103
+unowned on-cylinder triplets 0 []
+stream DisplayLists__ZLB bytes 4242039 faces 732
+on-cylinder triplets owned by parsed faces (face:count): {"429":27,"430":14,"439":32,"440":31,"445":11,"448":94,"449":37}
+control: face 448 vertices on cylinder 94 found by scan 94
+unowned on-cylinder triplets 0 []

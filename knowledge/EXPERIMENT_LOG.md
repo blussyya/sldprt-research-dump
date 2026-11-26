@@ -1888,7 +1888,10 @@ nearest face. They are the only two such faces among 20,501 with edge ids in the
 face's second loop is a 96° arc plus the short branch of a closed intersection curve, which doesn't
 go round the bore. No edge covers the other 264°, so the face has no bottom there. SolidWorks' own
 edge labels in the display put each edge on the same arc and branch. Separately, the file's display
-edge ids differ from the native node ids by 0, −1 or +1 in id ranges; head_back (2013) by 0 to
-−9. No converter output joins edges by id. Not blind-checked.
+edge ids differ from the native node ids by 0, −1 or +1 in id ranges. No converter output joins
+edges by id. Blind checks the same day: holds. Corrections: the mirror holds for the B-rep but the
+two meshes' rings differ; head_back's shifts are 0 to −44 and its mesh isn't its body's geometry;
+the legacy record does hold a face id (offset 82 of the tail), shifted the same way. Only these two
+of 8,293 cylinder and cone faces in the corpus have such a loop.
 
 Evidence: [2026-11-26_v0.5-EXP118.md](evidence/2026-11-26_v0.5-EXP118.md).

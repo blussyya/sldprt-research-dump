@@ -1,0 +1,16 @@
+display 75 label 1166 native 1166 circle reader sense   branch length 2.266 mm  display pts 9 max dist to branch 6.90e-9 branch covered by display 100%
+display 75 label 1166 native 1166 circle OPPOSITE sense branch length 6.216 mm  display pts 9 max dist to branch 1.05e-3 branch covered by display 1%
+display 75 label 1093 native 1093 intersection reader sense   branch length 2.269 mm  display pts 24 max dist to branch 2.07e-5 branch covered by display 100%
+display 75 label 1093 native 1093 intersection OPPOSITE sense branch length 8.810 mm  display pts 24 max dist to branch 1.10e-3 branch covered by display 2%
+display 75 label 1165 native 1165 circle reader sense   branch length 8.482 mm  display pts 24 max dist to branch 9.21e-8 branch covered by display 100%
+display 75 label 1165 native 1165 circle OPPOSITE sense branch length 8.482 mm  display pts 24 max dist to branch 9.21e-8 branch covered by display 100%
+display 448 label 11125 native 11124 circle reader sense   branch length 2.266 mm  display pts 9 max dist to branch 6.90e-9 branch covered by display 100%
+display 448 label 11125 native 11124 circle OPPOSITE sense branch length 6.216 mm  display pts 9 max dist to branch 1.05e-3 branch covered by display 1%
+display 448 label 11136 native 11135 intersection reader sense   branch length 2.269 mm  display pts 24 max dist to branch 2.07e-5 branch covered by display 100%
+display 448 label 11136 native 11135 intersection OPPOSITE sense branch length 8.810 mm  display pts 24 max dist to branch 1.10e-3 branch covered by display 2%
+display 448 label 11112 native 11111 circle reader sense   branch length 8.482 mm  display pts 24 max dist to branch 9.21e-8 branch covered by display 100%
+display 448 label 11112 native 11111 circle OPPOSITE sense branch length 8.482 mm  display pts 24 max dist to branch 9.21e-8 branch covered by display 100%
+display 56 label 1093 native 1093 intersection reader sense   branch length 2.269 mm  display pts 24 max dist to branch 2.07e-5 branch covered by display 100%
+display 56 label 1093 native 1093 intersection OPPOSITE sense branch length 8.810 mm  display pts 24 max dist to branch 1.10e-3 branch covered by display 2%
+display 72 label 1166 native 1166 circle reader sense   branch length 2.266 mm  display pts 9 max dist to branch 6.90e-9 branch covered by display 100%
+display 72 label 1166 native 1166 circle OPPOSITE sense branch length 6.216 mm  display pts 9 max dist to branch 1.05e-3 branch covered by display 1%

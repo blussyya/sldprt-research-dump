@@ -1,0 +1,7 @@
+face 75 stored min [ '0.045065', '0.009600', '0.029190' ] max [ '0.047850', '0.012620', '0.031449' ]
+   native edges box min [ '0.045150', '0.009600', '0.029190' ] max [ '0.047850', '0.012532', '0.031369' ]
+   mesh outside stored box by 0.1837 mm
+face 448 stored min [ '-0.047850', '0.009600', '0.029190' ] max [ '-0.045065', '0.012620', '0.031449' ]
+   native edges box min [ '-0.047850', '0.009600', '0.029190' ] max [ '-0.045150', '0.012532', '0.031369' ]
+   mesh outside stored box by 0.0000 mm
+faces whose mesh leaves the stored box by >1e-6 m: 1 top 75:0.1837mm

@@ -1,0 +1,31 @@
+f666f342_head_face.sldprt display edge ids 1810 matched 1808 unmatched 2 {"noCurve":2} second candidate within 10x 12 diff histogram {"0":894,"1":908,"-1":6} literal id = matched edge 894 not 914
+native edges matched by >1 display id 0 native edges never matched 2 of 1810
+runs (native id order): 3 322-9087:0(894) 9542-9602:-1(6) 10898-11961:+1(908)
+by how:diff {"pair:0":843,"ends+dist:0":21,"ring+dist:0":30,"pair:-1":6,"pair:1":862,"ring+dist:1":25,"ends+dist:1":21}
+curve distance of matched: median 8.41e-6 max Infinity
+82981f2a_head_back.sldprt display edge ids 1299 matched 1216 unmatched 83 {"noCurve":12,"endsFar":71} second candidate within 10x 18 diff histogram {"0":108,"275":1,"-44":522,"-4":244,"-1":173,"-9":166,"-6":2} literal id = matched edge 108 not 1108
+native edges matched by >1 display id 0 native edges never matched 92 of 1308
+runs (native id order): 7 333-479:0(108) 482-689:-1(173) 691-691:+275(1) 693-962:-4(244) 968-969:-6(2) 999-1164:-9(166) 7107-13025:-44(522)
+by how:diff {"ring+dist:0":6,"pair:0":102,"pair:-1":157,"ring+dist:-1":16,"pair:275":1,"pair:-4":192,"ring+dist:-4":50,"ends+dist:-4":2,"pair:-6":2,"pair:-9":152,"ring+dist:-9":14,"pair:-44":522}
+curve distance of matched: median 8.56e-6 max Infinity
+92c393f4_camera_support.sldprt display edge ids 308 matched 308 unmatched 0 {} second candidate within 10x 4 diff histogram {"0":308} literal id = matched edge 308 not 0
+native edges matched by >1 display id 0 native edges never matched 0 of 308
+runs (native id order): 1 10-3918:0(308)
+by how:diff {"pair:0":286,"ring+dist:0":22}
+curve distance of matched: median 2.76e-9 max 4.19e-5
+300f9732_Carter2019.SLDPRT display edge ids 212 matched 212 unmatched 0 {} second candidate within 10x 0 diff histogram {"0":212} literal id = matched edge 212 not 0
+native edges matched by >1 display id 0 native edges never matched 0 of 212
+runs (native id order): 1 4-3912:0(212)
+by how:diff {"pair:0":188,"ring+dist:0":24}
+curve distance of matched: median 7.19e-9 max 2.17e-4
+68cd51b6_20190309-0049.SLDPRT display edge ids 68 matched 68 unmatched 0 {} second candidate within 10x 0 diff histogram {"0":68} literal id = matched edge 68 not 0
+native edges matched by >1 display id 0 native edges never matched 0 of 68
+runs (native id order): 1 4-617:0(68)
+by how:diff {"pair:0":60,"ring+dist:0":8}
+curve distance of matched: median 2.54e-9 max 1.01e-4
+using ResolvedFeatures section at 6627
+f666f342_head_face.sldprt display edge ids 1810 matched 1808 unmatched 2 {"noCurve":2} second candidate within 10x 12 diff histogram {"0":894,"1":908,"-1":6} literal id = matched edge 894 not 914
+native edges matched by >1 display id 0 native edges never matched 2 of 1810
+runs (native id order): 3 322-9087:0(894) 9542-9602:-1(6) 10898-11961:+1(908)
+by how:diff {"pair:0":843,"ends+dist:0":21,"ring+dist:0":30,"pair:-1":6,"pair:1":862,"ring+dist:1":25,"ends+dist:1":21}
+curve distance of matched: median 8.41e-6 max Infinity

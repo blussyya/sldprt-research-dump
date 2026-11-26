@@ -1,0 +1,6 @@
+using ResolvedFeatures section at 5573
+82981f2a_head_back.sldprt display edge ids 1299 matched 1216 unmatched 83 {"noCurve":12,"endsFar":71} second candidate within 10x 18 diff histogram {"0":108,"275":1,"-44":522,"-4":244,"-1":173,"-9":166,"-6":2} literal id = matched edge 108 not 1108
+native edges matched by >1 display id 0 native edges never matched 92 of 1308
+runs (native id order): 7 333-479:0(108) 482-689:-1(173) 691-691:+275(1) 693-962:-4(244) 968-969:-6(2) 999-1164:-9(166) 7107-13025:-44(522)
+by how:diff {"ring+dist:0":6,"pair:0":102,"pair:-1":157,"ring+dist:-1":16,"pair:275":1,"pair:-4":192,"ring+dist:-4":50,"ends+dist:-4":2,"pair:-6":2,"pair:-9":152,"ring+dist:-9":14,"pair:-44":522}
+curve distance of matched: median 8.56e-6 max Infinity

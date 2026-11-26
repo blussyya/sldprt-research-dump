@@ -1,0 +1,5 @@
+native 1732 line line c undefined r undefined v [ 2234, 2232 ] same true len mm 0.6246 faces 3787:plane,3790:plane
+native 1733 circle circle c [ '0.059244', '0.065488', '-0.005322' ] r 0.001000000000000001 v [ 2234, 2232 ] same true len mm 0.6352 faces 3790:plane,3793:cylinder
+native 1734 circle circle c [ '0.059244', '0.065488', '-0.005322' ] r 0.001000000000000001 v [ 2232, 2234 ] same true len mm 5.6478 faces 3781:plane,3793:cylinder
+native 1735 circle circle c [ '0.057274', '0.065281', '-0.005598' ] r 0.001000000000000001 v null same true len mm 6.2830 faces 3793:cylinder,3797:plane
+display faces 324:1734 326:1732 327:1733/1732 328:1735/1733/1734 329:1735

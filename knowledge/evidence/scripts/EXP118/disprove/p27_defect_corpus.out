@@ -1,0 +1,46 @@
+{"files":0,"brep":215,"cylFaces":8293,"loops":9587,"unknownLoops":1}
+faces with an odd number of axis-winding loops: 40
+{"file":"6ff6c243_通气塞.SLDPRT","face":274,"type":"cone","loops":"pt,360","edges":"|249"}
+{"file":"f666f342_head_face.sldprt","face":12990,"type":"cylinder","loops":"360,0","edges":"11111|11124+11135"}
+{"file":"f666f342_head_face.sldprt","face":2516,"type":"cylinder","loops":"360,0","edges":"1165|1166+1093"}
+{"file":"118a3cb0_cut-z18-b1xh1xl1.SLDPRT","face":673,"type":"cone","loops":"-360,pt","edges":"566|"}
+{"file":"118a3cb0_cut-z18-b1xh1xl1.SLDPRT","face":696,"type":"cone","loops":"-360,pt","edges":"535|"}
+{"file":"118a3cb0_cut-z18-b1xh1xl1.SLDPRT","face":721,"type":"cone","loops":"-360,pt","edges":"628|"}
+{"file":"118a3cb0_cut-z18-b1xh1xl1.SLDPRT","face":745,"type":"cone","loops":"-360,pt","edges":"597|"}
+{"file":"289756ce_cut-z071-b1-l1-l2-typ.SLDPRT","face":625,"type":"cone","loops":"-360,pt","edges":"530|"}
+{"file":"289756ce_cut-z071-b1-l1-l2-typ.SLDPRT","face":605,"type":"cone","loops":"-360,pt","edges":"563|"}
+{"file":"70477058_mt-cut-z085-l1xb1-typ.SLDPRT","face":728,"type":"cone","loops":"-360,pt","edges":"723|"}
+{"file":"70477058_mt-cut-z085-l1xb1-typ.SLDPRT","face":707,"type":"cone","loops":"-360,pt","edges":"702|"}
+{"file":"70477058_mt-cut-z085-l1xb1-typ.SLDPRT","face":348,"type":"cone","loops":"-360,pt","edges":"273|"}
+{"file":"70477058_mt-cut-z085-l1xb1-typ.SLDPRT","face":371,"type":"cone","loops":"-360,pt","edges":"306|"}
+{"file":"14f9214b_11.SLDPRT","face":620,"type":"cone","loops":"pt,360","edges":"|613"}
+{"file":"14f9214b_11.SLDPRT","face":1869,"type":"cone","loops":"pt,360","edges":"|1862"}
+{"file":"60f84235_2022_10_06_17_02_43_0612.stp.SLDPRT","face":2304,"type":"cone","loops":"360","edges":"227+2303+230"}
+{"file":"a0ab30c8_LB26001-A-04-022.SLDPRT","face":1755,"type":"cone","loops":"pt,360","edges":"|1749"}
+{"file":"a0ab30c8_LB26001-A-04-022.SLDPRT","face":483,"type":"cone","loops":"pt,360","edges":"|477"}
+{"file":"a0ab30c8_LB26001-A-04-022.SLDPRT","face":1716,"type":"cone","loops":"pt,360","edges":"|1710"}
+{"file":"ceefa2a9_CRP320-05.SLDPRT","face":90,"type":"cone","loops":"-360","edges":"115+118+99"}
+{"file":"4803f393_box.SLDPRT","face":3807,"type":"cone","loops":"pt,360","edges":"|3801"}
+{"file":"4803f393_box.SLDPRT","face":3205,"type":"cone","loops":"pt,360","edges":"|3199"}
+{"file":"4803f393_box.SLDPRT","face":3239,"type":"cone","loops":"pt,360","edges":"|3233"}
+{"file":"4803f393_box.SLDPRT","face":3277,"type":"cone","loops":"pt,360","edges":"|3271"}
+{"file":"4803f393_box.SLDPRT","face":3315,"type":"cone","loops":"pt,360","edges":"|3309"}
+{"file":"4803f393_box.SLDPRT","face":3768,"type":"cone","loops":"pt,360","edges":"|3762"}
+{"file":"d0d61cde_官方元件-定位模块.SLDPRT","face":4549,"type":"cone","loops":"360","edges":"4551+4553+4541"}
+{"file":"d0d61cde_官方元件-定位模块.SLDPRT","face":4534,"type":"cone","loops":"360","edges":"4536+4538+4526"}
+{"file":"d0d61cde_官方元件-定位模块.SLDPRT","face":4519,"type":"cone","loops":"360","edges":"4521+4523+4511"}
+{"file":"d0d61cde_官方元件-定位模块.SLDPRT","face":5554,"type":"cone","loops":"360","edges":"4568+4566+5556"}
+{"file":"4febfc67_6344149.SLDPRT","face":211,"type":"cone","loops":"pt,360","edges":"|203"}
+{"file":"be0e76cf_WP06_screw_1_-94.SLDPRT","face":87,"type":"cone","loops":"360,pt","edges":"86+61+68+73+78+83|"}
+{"file":"f0b9a118_Standoff_M3x0.5_37 mm_Male to Female.SLDPRT","face":27,"type":"cylinder","loops":"-359","edges":"66+146+20+139+140+152"}
+{"file":"model.SLDPRT","face":39,"type":"cone","loops":"pt,-360","edges":"|31"}
+{"file":"model.SLDPRT","face":39,"type":"cone","loops":"pt,-360","edges":"|31"}
+{"file":"model.SLDPRT","face":43,"type":"cone","loops":"pt,-360","edges":"|35"}
+{"file":"distributor main boss rev a.SLDPRT","face":861,"type":"cone","loops":"pt,360","edges":"|844"}
+{"file":"distributor main boss rev a.SLDPRT","face":624,"type":"cone","loops":"pt,360","edges":"|607"}
+{"file":"distributor main boss rev a.SLDPRT","face":703,"type":"cone","loops":"pt,360","edges":"|686"}
+{"file":"distributor main boss rev a.SLDPRT","face":782,"type":"cone","loops":"pt,360","edges":"|765"}
+
+real	2m4.538s
+user	2m11.137s
+sys	0m2.522s

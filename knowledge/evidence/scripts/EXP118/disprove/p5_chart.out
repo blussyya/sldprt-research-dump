@@ -1,0 +1,98 @@
+edge 1093 intersection v [ 1908, 1861 ] [
+  {
+    th: -14.329234917118717,
+    h: -6.199999999999995,
+    dr: -6.505213034913027e-13
+  },
+  {
+    th: -110.51952682426554,
+    h: -6.199999999999993,
+    dr: 1.5178830414797062e-12
+  }
+] start lim { th: -14.329234917119013, h: -6.199999999999991, dr: 0 } end lim { th: -14.329234917119013, h: -6.199999999999991, dr: 0 } surfaces [ 'cylinder#3931', 'blend#3930' ]
+ chart 0 th -14.33 h -6.2000 dr -0.00 len 3
+ chart 1 th -32.25 h -6.2381 dr -0.00 len 3
+ chart 2 th -49.99 h -6.2972 dr -0.00 len 3
+ chart 3 th -69.51 h -6.3081 dr -0.00 len 3
+ chart 4 th -86.66 h -6.2594 dr -0.00 len 3
+ chart 5 th -105.24 h -6.2041 dr -0.00 len 3
+ chart 6 th -119.46 h -6.2147 dr -0.00 len 3
+ chart 7 th -133.12 h -6.3143 dr 0.00 len 3
+ chart 8 th -143.25 h -6.4831 dr -0.00 len 3
+ chart 9 th -150.80 h -6.7155 dr -0.00 len 3
+ chart 10 th -155.41 h -7.0166 dr -0.00 len 3
+ chart 11 th -155.63 h -7.3520 dr -0.00 len 3
+ chart 12 th -151.16 h -7.6692 dr 0.00 len 3
+ chart 13 th -142.43 h -7.9350 dr -0.00 len 3
+ chart 14 th -130.97 h -8.1094 dr -0.00 len 3
+ chart 15 th -119.03 h -8.1867 dr 0.00 len 3
+ chart 16 th -106.60 h -8.1977 dr -0.00 len 3
+ chart 17 th -88.58 h -8.1476 dr 0.00 len 3
+ chart 18 th -70.27 h -8.0931 dr 0.00 len 3
+ chart 19 th -51.25 h -8.0998 dr -0.00 len 3
+ chart 20 th -34.20 h -8.1551 dr 0.00 len 3
+ chart 21 th -14.99 h -8.1999 dr -0.00 len 3
+ chart 22 th -1.63 h -8.1687 dr 0.00 len 3
+ chart 23 th 10.90 h -8.0521 dr -0.00 len 3
+ chart 24 th 20.35 h -7.8700 dr -0.00 len 3
+ chart 25 th 27.33 h -7.6214 dr -0.00 len 3
+ chart 26 th 31.05 h -7.3078 dr -0.00 len 3
+ chart 27 th 30.18 h -6.9727 dr 0.00 len 3
+ chart 28 th 24.68 h -6.6643 dr -0.00 len 3
+ chart 29 th 15.13 h -6.4159 dr -0.00 len 3
+ chart 30 th 3.41 h -6.2655 dr 0.00 len 3
+ chart 31 th -8.54 h -6.2059 dr -0.00 len 3
+ chart 32 th -14.33 h -6.2000 dr 0.00 len 3
+display face 75 boundary vertex degrees { '2': 101 }
+ cycle segs 46 winding 360.0 deg ids {"0":46} h -6.3301 -6.0299
+ cycle segs 31 winding -0.0 deg ids {"1093":23,"1166":8} h -6.3136 -6.2000
+ cycle segs 24 winding 360.0 deg ids {"1165":24} h -4.3000 -4.3000
+edge 11135 intersection v [ 12047, 12041 ] [
+  {
+    th: 14.329234917118717,
+    h: -6.199999999999995,
+    dr: -6.505213034913027e-13
+  },
+  {
+    th: 110.51952682426554,
+    h: -6.199999999999993,
+    dr: 1.5178830414797062e-12
+  }
+] start lim { th: 14.329234917119013, h: -6.199999999999991, dr: 0 } end lim { th: 14.329234917119013, h: -6.199999999999991, dr: 0 } surfaces [ 'blend#15250', 'cylinder#15251' ]
+ chart 0 th 14.33 h -6.2000 dr -0.00 len 3
+ chart 1 th 32.25 h -6.2381 dr -0.00 len 3
+ chart 2 th 49.99 h -6.2972 dr -0.00 len 3
+ chart 3 th 69.51 h -6.3081 dr -0.00 len 3
+ chart 4 th 86.66 h -6.2594 dr -0.00 len 3
+ chart 5 th 105.24 h -6.2041 dr -0.00 len 3
+ chart 6 th 119.46 h -6.2147 dr -0.00 len 3
+ chart 7 th 133.12 h -6.3143 dr 0.00 len 3
+ chart 8 th 143.25 h -6.4831 dr -0.00 len 3
+ chart 9 th 150.80 h -6.7155 dr -0.00 len 3
+ chart 10 th 155.41 h -7.0166 dr -0.00 len 3
+ chart 11 th 155.63 h -7.3520 dr -0.00 len 3
+ chart 12 th 151.16 h -7.6692 dr 0.00 len 3
+ chart 13 th 142.43 h -7.9350 dr -0.00 len 3
+ chart 14 th 130.97 h -8.1094 dr -0.00 len 3
+ chart 15 th 119.03 h -8.1867 dr 0.00 len 3
+ chart 16 th 106.60 h -8.1977 dr -0.00 len 3
+ chart 17 th 88.58 h -8.1476 dr 0.00 len 3
+ chart 18 th 70.27 h -8.0931 dr 0.00 len 3
+ chart 19 th 51.25 h -8.0998 dr -0.00 len 3
+ chart 20 th 34.20 h -8.1551 dr 0.00 len 3
+ chart 21 th 14.99 h -8.1999 dr -0.00 len 3
+ chart 22 th 1.63 h -8.1687 dr 0.00 len 3
+ chart 23 th -10.90 h -8.0521 dr -0.00 len 3
+ chart 24 th -20.35 h -7.8700 dr -0.00 len 3
+ chart 25 th -27.33 h -7.6214 dr -0.00 len 3
+ chart 26 th -31.05 h -7.3078 dr -0.00 len 3
+ chart 27 th -30.18 h -6.9727 dr 0.00 len 3
+ chart 28 th -24.68 h -6.6643 dr -0.00 len 3
+ chart 29 th -15.13 h -6.4159 dr -0.00 len 3
+ chart 30 th -3.41 h -6.2655 dr 0.00 len 3
+ chart 31 th 8.54 h -6.2059 dr -0.00 len 3
+ chart 32 th 14.33 h -6.2000 dr 0.00 len 3
+display face 448 boundary vertex degrees { '2': 95 }
+ cycle segs 31 winding 0.0 deg ids {"11125":8,"11136":23} h -6.3136 -6.2000
+ cycle segs 40 winding 360.0 deg ids {"0":40} h -6.3301 -5.9200
+ cycle segs 24 winding -360.0 deg ids {"11112":24} h -4.3000 -4.3000

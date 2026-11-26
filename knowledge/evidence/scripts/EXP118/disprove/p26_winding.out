@@ -1,0 +1,12 @@
+native 2516 loop winding 360.00 deg : 1165+ circle sweep 360.00 h -4.300..-4.300
+native 2516 loop winding -0.02 deg : 1166+ circle sweep -96.19 h -6.200..-6.200 ; 1093- intersection sweep 96.17 h -6.308..-6.200
+coaxial same-radius face 2521 loops 1167 | 1133 h -2.200 .. 0.000
+coaxial same-radius face 2516 loops 1165 | 1166+1093 h -6.308 .. -4.300
+display 75 cycle ids 1093+1166 winding -0.00
+display 75 cycle ids 1165 winding -360.00
+native 12990 loop winding 360.00 deg : 11111- circle sweep 360.00 h -4.300..-4.300
+native 12990 loop winding -0.02 deg : 11124- circle sweep -96.19 h -6.200..-6.200 ; 11135+ intersection sweep 96.17 h -6.308..-6.200
+coaxial same-radius face 12990 loops 11111 | 11124+11135 h -6.308 .. -4.300
+coaxial same-radius face 12997 loops 11098 | 11136 h -2.200 .. 0.000
+display 448 cycle ids 11136+11125 winding 0.00
+display 448 cycle ids 11112 winding 360.00
