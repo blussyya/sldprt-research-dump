@@ -1,0 +1,4 @@
+edge 1192 blend4163: 2D ends (u,v) (0.0300248, 0.2972) and (0.0316433, 0.7714) [basis curve; trimmed]; vertices: 1927 spine t 0.218078 angle fraction 0.7028; 1926 spine t 0.231633 angle fraction 0.2286
+edge 1206 blend4178: 2D ends (u,v) (0.00695539, 0.7389) and (0.00850461, 0.2870) [basis curve; trimmed]; vertices: 2136 spine t 0.0696478 angle fraction 0.7389; 1932 spine t 0.0851509 angle fraction 0.2870
+edge 1171 blend3994: 2D ends (u,v) (0.0671875, 0.0002677) and (0.0672903, 1.000) [basis curve; trimmed]; vertices: 1850 spine t 0.903167 angle fraction 0.0003; 1914 spine t 0.904657 angle fraction 1.0000
+edge 11272 blend15718: 2D ends (u,v) (-9.87450e-7, -0.003529) and (-0.00000432013, 0.9998) [basis curve; trimmed]; vertices: 12079 spine t 0.319910 angle fraction 0.0001; 12158 spine t 0.320025 angle fraction 1.0018

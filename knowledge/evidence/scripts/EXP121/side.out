@@ -1,0 +1,15 @@
+edge 11178 on blend15483 (supports offset15507, blend15482), 2D v 1.000, section chord 2.430e-3 m
+  vertex 12312: to support-0 contact 4.29e-7 m, to support-1 contact 2.43e-3 m
+  vertex 12063: to support-0 contact 6.93e-8 m, to support-1 contact 2.44e-3 m
+edge 11180 on blend15483 (supports offset15507, blend15482), 2D v 0.000, section chord 2.435e-3 m
+  vertex 12059: to support-0 contact 2.44e-3 m, to support-1 contact 7.05e-8 m
+  vertex 12056: to support-0 contact 2.43e-3 m, to support-1 contact 7.11e-9 m
+edge 11196 on blend15483 (supports offset15507, blend15482), 2D v 1.000, section chord 2.432e-3 m
+  vertex 12066: to support-0 contact 6.05e-8 m, to support-1 contact 2.43e-3 m
+  vertex 12317: to support-0 contact 9.44e-9 m, to support-1 contact 2.42e-3 m
+edge 1539 on blend4172 (supports offset4187, blend4171), 2D v 0.000006348, section chord 2.435e-3 m
+  vertex 1757: to support-0 contact 2.44e-3 m, to support-1 contact 6.23e-8 m
+  vertex 1934: to support-0 contact 2.44e-3 m, to support-1 contact 6.94e-8 m
+edge 11860 on blend15058 (supports blend15070, cylinder16012), 2D v 0.000, section chord 1.522e-3 m
+  vertex 12473: to support-0 contact 1.52e-3 m, to support-1 contact 1.08e-9 m
+  vertex 12475: to support-0 contact 1.31e-3 m, to support-1 contact 1.93e-8 m

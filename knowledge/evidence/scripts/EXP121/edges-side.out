@@ -1,0 +1,16 @@
+== solidworks-converters
+edge 11178: error 2.44e-3
+edge 11180: error 2.44e-3
+edge 11196: error 2.43e-3
+edge 11197: error 2.43e-3
+edge 1539: error 2.44e-3
+edge 11860: error 1.41e-3
+edge 11862: error 2.73e-3
+== conv-fix
+edge 11178: error 8.50e-9
+edge 11180: error 8.96e-9
+edge 11196: error 9.67e-9
+edge 11197: error 9.85e-9
+edge 1539: error 3.52e-11
+edge 11860: error 2.62e-9
+edge 11862: error 2.73e-3

@@ -1,0 +1,9 @@
+blend15483 r 0.002, spine range 0.00000..1.00000
+  edge 11178 vertex 12312: spine t 0.218200, distance to spine 2.0000 mm (minus r: 5.04e-11 m)
+  edge 11178 vertex 12063: spine t 0.0241428, distance to spine 2.0000 mm (minus r: 1.23e-12 m)
+  edge 11180 vertex 12059: spine t 0.0241228, distance to spine 2.0000 mm (minus r: -3.49e-8 m)
+  edge 11180 vertex 12056: spine t 0.254842, distance to spine 2.0000 mm (minus r: -6.70e-9 m)
+  edge 11196 vertex 12066: spine t 0.707708, distance to spine 2.0000 mm (minus r: 8.57e-12 m)
+  edge 11196 vertex 12317: spine t 0.325923, distance to spine 2.0000 mm (minus r: -2.76e-12 m)
+  edge 11197 vertex 12068: spine t 0.284702, distance to spine 2.0000 mm (minus r: -8.85e-10 m)
+  edge 11197 vertex 12338: spine t 0.703544, distance to spine 2.0000 mm (minus r: -6.06e-11 m)

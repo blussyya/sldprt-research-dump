@@ -1,0 +1,6 @@
+edge 1192 on blend4163 r 0.002: vertex spine t 0.2180780 / 0.2316326; section centres 1.62e-3 m apart; vertex 1 is 1.58e-3 m from vertex 0's section plane; off the blend -9.8e-11 / -1.4e-10 m; ends 1.999 mm apart
+edge 1232 on blend4163 r 0.002: vertex spine t 0.3113281 / 0.3258963; section centres 1.74e-3 m apart; vertex 1 is 1.66e-3 m from vertex 0's section plane; off the blend 8.4e-13 / -4.9e-11 m; ends 2.077 mm apart
+edge 1206 on blend4178 r 0.002: vertex spine t 0.06964780 / 0.08515085; section centres 1.55e-3 m apart; vertex 1 is 1.53e-3 m from vertex 0's section plane; off the blend -4.5e-12 / -1.9e-12 m; ends 1.926 mm apart
+edge 1171 on blend3994 r 0.0015: vertex spine t 0.9031669 / 0.9046571; section centres 1.03e-4 m apart; vertex 1 is 1.01e-4 m from vertex 0's section plane; off the blend -7.3e-9 / 8.6e-14 m; ends 2.122 mm apart
+edge 11067 on blend15310 r 0.0015: vertex spine t 0.2312443 / 0.2292260; section centres 1.03e-4 m apart; vertex 1 is 1.01e-4 m from vertex 0's section plane; off the blend 8.2e-9 / -5.6e-15 m; ends 2.122 mm apart
+edge 11272 on blend15718 r 0.0003: vertex spine t 0.3199102 / 0.3200245; section centres 3.83e-6 m apart; vertex 1 is 3.84e-6 m from vertex 0's section plane; off the blend 4.5e-12 / 4.2e-8 m; ends 0.475 mm apart
