@@ -1,0 +1,12 @@
+built 0.8 s: faces 732, edges 1810
+start 0.8 blendSurface face 2531 blend
+end 3.0 blendSurface face 2531 blend ms 2198 error 2.91e-9
+start 3.0 blendSurface face 7921 blend
+end 4.8 blendSurface face 7921 blend ms 1794 error 7.95e-10
+start 4.8 blendSurface face 9026 blend
+end 4.9 blendSurface face 9026 blend ms 47 error 5.24e-9
+start 4.9 blendSurface face 9022 blend
+end 7.5 blendSurface face 9022 blend ms 2593 error 6.38e-9
+start 7.5 blendSurface face 9032 blend
+end 10.7 blendSurface face 9032 blend ms 3194 error 1.72e-9
+start 10.7 blendSurface face 7917 blend

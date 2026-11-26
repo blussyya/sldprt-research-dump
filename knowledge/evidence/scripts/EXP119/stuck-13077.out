@@ -1,0 +1,13 @@
+spine intersection16644: surfaces torus15401 x blend15421; chart 11 points; start L end L
+60 s: surfaceInverse 59.0 s / 45818 calls, surfaceEval 0.8 s / 45817 calls, bsplineCurve 0.0 s / 43588 calls, curveRange 0.0 s / 7210 calls, span 0.0 s / 2612 calls, basisFuns 0.0 s / 2612 calls
+120 s: surfaceInverse 118.3 s / 73202 calls, surfaceEval 1.3 s / 73201 calls, bsplineCurve 0.1 s / 73925 calls, curveRange 0.0 s / 11861 calls, span 0.0 s / 4003 calls, basisFuns 0.0 s / 4003 calls
+180 s: surfaceInverse 177.2 s / 120804 calls, surfaceEval 2.2 s / 120803 calls, bsplineCurve 0.2 s / 119989 calls, curveRange 0.0 s / 20060 calls, basisFuns 0.0 s / 5408 calls, span 0.0 s / 5408 calls
+240 s: surfaceInverse 235.0 s / 159120 calls, surfaceEval 3.3 s / 159119 calls, bsplineCurve 0.8 s / 531519 calls, curvePoint 0.1 s / 28124 calls, curveProject 0.0 s / 4 calls, curveRange 0.0 s / 58520 calls
+spine done 246.6 s, error 1.48e-10; surfaceInverse 238.7 s / 210643 calls, surfaceEval 4.7 s / 210643 calls, bsplineCurve 1.8 s / 1306241 calls, curvePoint 0.1 s / 79649 calls, curveProject 0.1 s / 8 calls, curveRange 0.0 s / 126908 calls
+300 s: surfaceInverse 291.2 s / 246328 calls, surfaceEval 5.3 s / 246327 calls, bsplineCurve 1.9 s / 1340803 calls, curveProject 0.2 s / 47 calls, curvePoint 0.1 s / 79720 calls, curveRange 0.0 s / 132455 calls
+360 s: surfaceInverse 350.4 s / 280697 calls, surfaceEval 5.9 s / 280697 calls, bsplineCurve 1.9 s / 1376142 calls, curveProject 0.2 s / 47 calls, curvePoint 0.1 s / 79720 calls, curveRange 0.0 s / 138271 calls
+420 s: surfaceInverse 409.8 s / 306832 calls, surfaceEval 6.4 s / 306831 calls, bsplineCurve 2.0 s / 1404958 calls, curveProject 0.2 s / 47 calls, curvePoint 0.1 s / 79720 calls, curveRange 0.0 s / 142747 calls
+480 s: surfaceInverse 469.0 s / 338200 calls, surfaceEval 7.0 s / 338199 calls, bsplineCurve 2.0 s / 1436461 calls, curveProject 0.2 s / 47 calls, curvePoint 0.1 s / 79720 calls, curveRange 0.0 s / 148122 calls
+surface done 515.7 s, error 6.20e-9; surfaceInverse 499.9 s / 415261 calls, surfaceEval 9.3 s / 415261 calls, bsplineCurve 3.5 s / 2507474 calls, curveProject 0.3 s / 91 calls, curvePoint 0.2 s / 154848 calls, curveRange 0.1 s / 247488 calls
+calls {"surfaceInverse":415261,"surfaceEval":415261,"span":20123,"basisFuns":20123,"curveRange":247488,"bsplineCurve":2507474,"curveProject":91,"curvePoint":154848,"periodic":154742,"bsplineSurface":1386}
+exit 0

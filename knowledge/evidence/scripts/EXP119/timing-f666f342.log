@@ -1,0 +1,337 @@
+built 1.1 s: faces 732, edges 1810
+start 1.1 blendSurface face 2531 blend
+end 2.9 blendSurface face 2531 blend ms 1775 error 2.91e-9
+start 2.9 blendSurface face 7921 blend
+end 4.5 blendSurface face 7921 blend ms 1589 error 7.95e-10
+start 4.5 blendSurface face 9026 blend
+end 4.5 blendSurface face 9026 blend ms 29 error 5.24e-9
+start 4.5 blendSurface face 9022 blend
+end 6.4 blendSurface face 9022 blend ms 1860 error 6.38e-9
+start 6.4 blendSurface face 9032 blend
+end 9.4 blendSurface face 9032 blend ms 3033 error 1.72e-9
+start 9.4 blendSurface face 7917 blend
+end 11.1 blendSurface face 7917 blend ms 1694 error 1.98e-9
+start 11.1 blendSurface face 8901 blend
+end 19.7 blendSurface face 8901 blend ms 8580 error 6.08e-9
+start 19.7 blendSurface face 9046 blend
+end 23.4 blendSurface face 9046 blend ms 3713 error 5.58e-9
+start 23.4 blendSurface face 9042 blend
+end 23.4 blendSurface face 9042 blend ms 20 error 5.24e-9
+start 23.4 blendSurface face 7994 blend
+end 27.9 blendSurface face 7994 blend ms 4475 error 2.89e-9
+start 27.9 blendSurface face 8026 blend
+end 29.6 blendSurface face 8026 blend ms 1688 error 1.56e-9
+start 29.6 blendSurface face 8024 blend
+end 31.0 blendSurface face 8024 blend ms 1406 error 1.84e-9
+start 31.0 blendSurface face 8103 blend
+end 34.9 blendSurface face 8103 blend ms 3890 error 7.39e-9
+start 34.9 blendSurface face 8020 blend
+end 44.1 blendSurface face 8020 blend ms 9204 error 4.83e-9
+start 44.1 blendSurface face 8905 blend
+end 44.1 blendSurface face 8905 blend ms 25 error 5.24e-9
+start 44.1 blendSurface face 7861 blend
+end 48.1 blendSurface face 7861 blend ms 3936 error 7.84e-10
+start 48.1 blendSurface face 8913 blend
+end 48.1 blendSurface face 8913 blend ms 18 error 5.24e-9
+start 48.1 blendSurface face 2386 blend
+end 49.6 blendSurface face 2386 blend ms 1541 error 8.89e-9
+start 49.6 blendSurface face 2396 blend
+end 55.0 blendSurface face 2396 blend ms 5339 error 9.94e-9
+start 55.0 blendSurface face 2401 blend
+end 60.4 blendSurface face 2401 blend ms 5435 error 8.10e-9
+start 60.4 blendSurface face 12814 blend
+end 62.0 blendSurface face 12814 blend ms 1587 error 8.89e-9
+start 62.0 blendSurface face 12821 blend
+end 68.0 blendSurface face 12821 blend ms 6059 error 9.94e-9
+start 68.0 blendSurface face 12835 blend
+end 73.9 blendSurface face 12835 blend ms 5847 error 8.10e-9
+start 73.9 blendSurface face 12856 blend
+end 74.8 blendSurface face 12856 blend ms 928 error 5.89e-10
+start 74.8 blendSurface face 12863 blend
+end 76.0 blendSurface face 12863 blend ms 1159 error 7.57e-9
+start 76.0 blendSurface face 13004 blend
+end 76.4 blendSurface face 13004 blend ms 428 error 8.31e-9
+start 76.4 blendSurface face 13011 blend
+end 78.2 blendSurface face 13011 blend ms 1827 error 2.91e-9
+start 78.2 blendSurface face 13018 blend
+end 79.2 blendSurface face 13018 blend ms 934 error 9.55e-9
+start 79.2 blendSurface face 13025 blend
+end 79.8 blendSurface face 13025 blend ms 621 error 9.01e-9
+start 79.8 blendSurface face 13032 blend
+end 80.9 blendSurface face 13032 blend ms 1129 error 9.59e-9
+start 80.9 blendSurface face 13077 blend
+end 542.0 blendSurface face 13077 blend ms 461044 error 6.20e-9
+start 542.0 blendSurface face 13093 blend
+end 775.1 blendSurface face 13093 blend ms 233103 error 7.08e-9
+start 775.1 blendSurface face 13121 blend
+end 1908.2 blendSurface face 13121 blend ms 1133157 error 9.16e-9
+start 1908.2 blendSurface face 13129 blend
+end 1918.5 blendSurface face 13129 blend ms 10224 error 9.98e-9
+start 1918.5 blendSurface face 13178 blend
+end 1928.6 blendSurface face 13178 blend ms 10186 error 7.52e-9
+start 1928.6 blendSurface face 13194 blend
+end 2103.4 blendSurface face 13194 blend ms 174753 error 1.03e-4
+start 2103.4 blendSurface face 13491 blend
+end 2105.0 blendSurface face 13491 blend ms 1654 error 8.96e-9
+start 2105.0 blendSurface face 13498 blend
+end 2107.3 blendSurface face 13498 blend ms 2249 error 2.82e-9
+start 2107.3 blendSurface face 13505 blend
+end 2108.7 blendSurface face 13505 blend ms 1358 error 7.87e-9
+start 2108.7 blendSurface face 13512 blend
+end 2110.6 blendSurface face 13512 blend ms 1978 error 9.69e-9
+start 2110.6 blendSurface face 13519 blend
+end 2112.8 blendSurface face 13519 blend ms 2190 error 3.27e-9
+start 2112.8 blendSurface face 13526 blend
+end 2115.4 blendSurface face 13526 blend ms 2619 error 8.03e-9
+start 2115.4 blendSurface face 13540 blend
+end 2119.9 blendSurface face 13540 blend ms 4488 error 8.60e-9
+start 2119.9 blendSurface face 13555 blend
+end 2123.1 blendSurface face 13555 blend ms 3180 error 8.34e-9
+start 2123.1 blendSurface face 13563 blend
+end 2125.5 blendSurface face 13563 blend ms 2359 error 2.74e-9
+start 2125.5 blendSurface face 13570 blend
+end 2127.9 blendSurface face 13570 blend ms 2472 error 6.90e-10
+start 2127.9 blendSurface face 13577 blend
+end 2130.1 blendSurface face 13577 blend ms 2186 error 3.25e-9
+start 2130.1 blendSurface face 13584 blend
+end 2132.2 blendSurface face 13584 blend ms 2092 error 6.04e-10
+start 2132.2 blendSurface face 13591 blend
+end 2134.7 blendSurface face 13591 blend ms 2482 error 3.31e-9
+start 2134.7 blendSurface face 13598 blend
+end 2136.4 blendSurface face 13598 blend ms 1675 error 6.59e-10
+start 2136.4 blendSurface face 13605 blend
+end 2138.5 blendSurface face 13605 blend ms 2115 error 3.33e-9
+start 2138.5 blendSurface face 13612 blend
+end 2140.1 blendSurface face 13612 blend ms 1624 error 5.13e-10
+start 2140.1 blendSurface face 13619 blend
+end 2143.3 blendSurface face 13619 blend ms 3135 error 4.39e-9
+start 2143.3 blendSurface face 13626 blend
+end 2144.6 blendSurface face 13626 blend ms 1347 error 1.39e-9
+start 2144.6 blendSurface face 13633 blend
+end 2146.8 blendSurface face 13633 blend ms 2159 error 4.67e-9
+start 2146.8 blendSurface face 13640 blend
+end 2148.1 blendSurface face 13640 blend ms 1293 error 1.27e-9
+start 2148.1 blendSurface face 13647 blend
+end 2150.3 blendSurface face 13647 blend ms 2216 error 4.28e-9
+start 2150.3 blendSurface face 13654 blend
+end 2151.6 blendSurface face 13654 blend ms 1321 error 7.40e-10
+start 2151.6 blendSurface face 13661 blend
+end 2153.8 blendSurface face 13661 blend ms 2217 error 5.43e-9
+start 2153.8 blendSurface face 13668 blend
+end 2155.2 blendSurface face 13668 blend ms 1395 error 7.93e-10
+start 2155.2 blendSurface face 13675 blend
+end 2157.6 blendSurface face 13675 blend ms 2419 error 3.38e-9
+start 2157.6 blendSurface face 13682 blend
+end 2159.1 blendSurface face 13682 blend ms 1507 error 9.21e-10
+start 2159.1 blendSurface face 13689 blend
+end 2160.9 blendSurface face 13689 blend ms 1816 error 3.18e-9
+start 2160.9 blendSurface face 13696 blend
+end 2162.4 blendSurface face 13696 blend ms 1491 error 6.94e-10
+start 2162.4 blendSurface face 13703 blend
+end 2165.1 blendSurface face 13703 blend ms 2658 error 4.01e-9
+start 2165.1 blendSurface face 13710 blend
+end 2166.6 blendSurface face 13710 blend ms 1511 error 2.80e-9
+start 2166.6 blendSurface face 13717 blend
+end 2168.9 blendSurface face 13717 blend ms 2248 error 3.53e-9
+start 2168.9 blendSurface face 13724 blend
+end 2171.1 blendSurface face 13724 blend ms 2221 error 2.58e-9
+start 2171.1 blendSurface face 13731 blend
+end 2174.0 blendSurface face 13731 blend ms 2921 error 7.90e-9
+start 2174.0 blendSurface face 13738 blend
+end 2175.8 blendSurface face 13738 blend ms 1789 error 5.62e-9
+start 2175.8 blendSurface face 13745 blend
+end 2178.4 blendSurface face 13745 blend ms 2633 error 4.86e-9
+start 2178.4 blendSurface face 13752 blend
+end 2180.0 blendSurface face 13752 blend ms 1558 error 5.82e-9
+start 2180.0 blendSurface face 13759 blend
+end 2182.7 blendSurface face 13759 blend ms 2721 error 4.90e-9
+start 2182.7 blendSurface face 13766 blend
+end 2185.1 blendSurface face 13766 blend ms 2427 error 1.84e-9
+start 2185.1 blendSurface face 13773 blend
+end 2187.9 blendSurface face 13773 blend ms 2803 error 4.41e-9
+start 2187.9 blendSurface face 13780 blend
+end 2189.4 blendSurface face 13780 blend ms 1495 error 1.82e-9
+start 2189.4 blendSurface face 13820 blend
+end 2190.9 blendSurface face 13820 blend ms 1487 error 7.81e-9
+start 2190.9 blendSurface face 13827 blend
+end 2194.0 blendSurface face 13827 blend ms 3106 error 3.31e-9
+start 2194.0 blendSurface face 13834 blend
+end 2196.1 blendSurface face 13834 blend ms 2051 error 8.35e-9
+start 2196.1 blendSurface face 13841 blend
+end 2199.7 blendSurface face 13841 blend ms 3668 error 9.26e-9
+start 2199.7 blendSurface face 13849 blend
+end 2202.2 blendSurface face 13849 blend ms 2449 error 3.21e-9
+start 2202.2 blendSurface face 13856 blend
+end 2204.3 blendSurface face 13856 blend ms 2154 error 5.40e-10
+start 2204.3 blendSurface face 13863 blend
+end 2206.8 blendSurface face 13863 blend ms 2445 error 2.96e-9
+start 2206.8 blendSurface face 13870 blend
+end 2208.9 blendSurface face 13870 blend ms 2155 error 3.99e-10
+start 2208.9 blendSurface face 13877 blend
+end 2210.9 blendSurface face 13877 blend ms 1963 error 3.95e-9
+start 2210.9 blendSurface face 13884 blend
+end 2212.5 blendSurface face 13884 blend ms 1596 error 7.12e-10
+start 2212.5 blendSurface face 13891 blend
+end 2214.6 blendSurface face 13891 blend ms 2081 error 3.29e-9
+start 2214.6 blendSurface face 13898 blend
+end 2215.8 blendSurface face 13898 blend ms 1240 error 8.67e-10
+start 2215.8 blendSurface face 13905 blend
+end 2217.9 blendSurface face 13905 blend ms 2056 error 3.74e-9
+start 2217.9 blendSurface face 13912 blend
+end 2219.2 blendSurface face 13912 blend ms 1285 error 1.37e-9
+start 2219.2 blendSurface face 13919 blend
+end 2221.5 blendSurface face 13919 blend ms 2351 error 5.72e-9
+start 2221.5 blendSurface face 13926 blend
+end 2222.8 blendSurface face 13926 blend ms 1288 error 1.37e-9
+start 2222.8 blendSurface face 13933 blend
+end 2225.1 blendSurface face 13933 blend ms 2297 error 3.67e-9
+start 2225.1 blendSurface face 13940 blend
+end 2226.5 blendSurface face 13940 blend ms 1349 error 8.62e-10
+start 2226.5 blendSurface face 13947 blend
+end 2228.6 blendSurface face 13947 blend ms 2183 error 6.63e-9
+start 2228.6 blendSurface face 13954 blend
+end 2230.1 blendSurface face 13954 blend ms 1438 error 7.98e-10
+start 2230.1 blendSurface face 13961 blend
+end 2232.2 blendSurface face 13961 blend ms 2167 error 3.09e-9
+start 2232.2 blendSurface face 13968 blend
+end 2233.6 blendSurface face 13968 blend ms 1394 error 1.07e-9
+start 2233.6 blendSurface face 13975 blend
+end 2235.5 blendSurface face 13975 blend ms 1894 error 3.81e-9
+start 2235.5 blendSurface face 13982 blend
+end 2237.3 blendSurface face 13982 blend ms 1738 error 9.26e-10
+start 2237.3 blendSurface face 13989 blend
+end 2239.8 blendSurface face 13989 blend ms 2548 error 5.08e-9
+start 2239.8 blendSurface face 13996 blend
+end 2241.3 blendSurface face 13996 blend ms 1451 error 2.96e-9
+start 2241.3 blendSurface face 14003 blend
+end 2243.9 blendSurface face 14003 blend ms 2617 error 3.47e-9
+start 2243.9 blendSurface face 14010 blend
+end 2245.4 blendSurface face 14010 blend ms 1521 error 2.98e-9
+start 2245.4 blendSurface face 14017 blend
+end 2247.9 blendSurface face 14017 blend ms 2461 error 8.81e-9
+start 2247.9 blendSurface face 14024 blend
+end 2249.4 blendSurface face 14024 blend ms 1515 error 6.56e-9
+start 2249.4 blendSurface face 14031 blend
+end 2251.8 blendSurface face 14031 blend ms 2422 error 3.93e-9
+start 2251.8 blendSurface face 14038 blend
+end 2253.3 blendSurface face 14038 blend ms 1473 error 6.74e-9
+start 2253.3 blendSurface face 14045 blend
+end 2256.1 blendSurface face 14045 blend ms 2851 error 5.83e-9
+start 2256.1 blendSurface face 14052 blend
+end 2257.8 blendSurface face 14052 blend ms 1677 error 2.05e-9
+start 2257.8 blendSurface face 14059 blend
+end 2260.3 blendSurface face 14059 blend ms 2517 error 3.78e-9
+start 2260.3 blendSurface face 14066 blend
+end 2262.2 blendSurface face 14066 blend ms 1858 error 2.67e-9
+start 2262.2 blendSurface face 14087 blend
+end 2264.3 blendSurface face 14087 blend ms 2116 error 8.39e-9
+start 2264.3 blendSurface face 14094 blend
+end 2266.9 blendSurface face 14094 blend ms 2637 error 3.69e-9
+start 2266.9 blendSurface face 14101 blend
+end 2269.6 blendSurface face 14101 blend ms 2615 error 3.37e-9
+start 2269.6 blendSurface face 14137 blend
+end 2829.9 blendSurface face 14137 blend ms 560333 error 9.99e-10
+start 2829.9 blendSurface face 14145 blend
+end 2832.2 blendSurface face 14145 blend ms 2345 error 5.98e-10
+start 2832.2 blendSurface face 14153 blend
+end 2835.6 blendSurface face 14153 blend ms 3328 error 4.42e-10
+start 2835.6 blendSurface face 14326 blend
+end 2836.7 blendSurface face 14326 blend ms 1170 error 3.48e-10
+start 2836.7 blendSurface face 14333 blend
+end 2847.5 blendSurface face 14333 blend ms 10750 error 1.43e-9
+start 2847.5 blendSurface face 14349 blend
+end 2847.7 blendSurface face 14349 blend ms 228 error 2.61e-9
+start 2847.7 blendSurface face 14357 blend
+end 2848.8 blendSurface face 14357 blend ms 1108 error 4.89e-10
+start 2848.8 blendSurface face 14364 blend
+end 3492.1 blendSurface face 14364 blend ms 643250 error 6.03e-9
+start 3492.1 blendSurface face 14372 blend
+end 3502.4 blendSurface face 14372 blend ms 10296 error 7.35e-9
+start 3502.4 blendSurface face 14380 blend
+end 3503.5 blendSurface face 14380 blend ms 1153 error 7.14e-10
+start 3503.5 blendSurface face 14439 blend
+end 3504.9 blendSurface face 14439 blend ms 1375 error 9.57e-9
+start 3504.9 blendSurface face 14446 blend
+end 3506.2 blendSurface face 14446 blend ms 1349 error 7.27e-9
+start 3506.2 blendSurface face 14453 blend
+end 3507.3 blendSurface face 14453 blend ms 1025 error 1.10e-9
+start 3507.3 blendSurface face 14502 blend
+end 3508.2 blendSurface face 14502 blend ms 890 error 4.66e-10
+start 3508.2 blendSurface face 14508 blend
+end 3509.4 blendSurface face 14508 blend ms 1222 error 1.88e-9
+start 3509.4 blendSurface face 14515 blend
+end 3510.8 blendSurface face 14515 blend ms 1389 error 3.48e-9
+start 3510.8 blendSurface face 14522 blend
+end 3511.8 blendSurface face 14522 blend ms 986 error 2.10e-10
+start 3511.8 blendSurface face 14660 blend
+end 3513.3 blendSurface face 14660 blend ms 1506 error 5.32e-11
+start 3513.3 blendSurface face 14666 blend
+end 3515.7 blendSurface face 14666 blend ms 2425 error 9.65e-9
+start 3515.7 blendSurface face 14671 blend
+end 3517.0 blendSurface face 14671 blend ms 1324 error 9.76e-9
+start 3517.0 blendSurface face 14677 blend
+end 3518.3 blendSurface face 14677 blend ms 1272 error 7.72e-10
+start 3518.3 blendSurface face 14683 blend
+end 3520.1 blendSurface face 14683 blend ms 1790 error 5.79e-9
+start 3520.1 blendSurface face 14689 blend
+end 3535.0 blendSurface face 14689 blend ms 14900 error 3.00e-10
+start 3535.0 blendSurface face 14695 blend
+end 3536.0 blendSurface face 14695 blend ms 1070 error 6.49e-9
+start 3536.0 blendSurface face 14701 blend
+end 3539.3 blendSurface face 14701 blend ms 3263 error 4.89e-10
+start 3539.3 blendSurface face 14707 blend
+end 3540.7 blendSurface face 14707 blend ms 1420 error 5.43e-10
+start 3540.7 blendSurface face 14712 blend
+end 3544.4 blendSurface face 14712 blend ms 3630 error 5.49e-11
+start 3544.4 blendSurface face 14718 blend
+end 3547.5 blendSurface face 14718 blend ms 3146 error 8.31e-9
+start 3547.5 blendSurface face 14813 blend
+end 3552.2 blendSurface face 14813 blend ms 4700 error 7.84e-10
+start 3552.2 blendSurface face 14817 blend
+end 3554.4 blendSurface face 14817 blend ms 2220 error 9.64e-9
+start 3554.4 blendSurface face 14821 blend
+end 3556.1 blendSurface face 14821 blend ms 1673 error 3.77e-10
+start 3556.1 blendSurface face 14825 blend
+end 3557.6 blendSurface face 14825 blend ms 1495 error 2.97e-10
+start 3557.6 blendSurface face 14829 blend
+end 3559.0 blendSurface face 14829 blend ms 1357 error 9.26e-9
+start 3559.0 blendSurface face 14834 blend
+end 3560.1 blendSurface face 14834 blend ms 1193 error 1.98e-9
+start 3560.1 blendSurface face 14839 blend
+end 3561.7 blendSurface face 14839 blend ms 1555 error 3.01e-9
+start 3561.7 blendSurface face 14844 blend
+end 3563.0 blendSurface face 14844 blend ms 1287 error 7.95e-10
+start 3563.0 blendSurface face 14848 blend
+end 3566.7 blendSurface face 14848 blend ms 3759 error 2.89e-9
+start 3566.7 blendSurface face 14852 blend
+end 3574.3 blendSurface face 14852 blend ms 7548 error 4.83e-9
+start 3574.3 blendSurface face 14857 blend
+end 3576.9 blendSurface face 14857 blend ms 2576 error 2.04e-9
+start 3576.9 blendSurface face 14862 blend
+end 3577.9 blendSurface face 14862 blend ms 1051 error 1.84e-9
+start 3577.9 blendSurface face 14867 blend
+end 3579.4 blendSurface face 14867 blend ms 1500 error 1.56e-9
+start 3579.4 blendSurface face 14872 blend
+end 3582.9 blendSurface face 14872 blend ms 3433 error 7.39e-9
+start 3582.9 blendSurface face 14885 blend
+end 3586.1 blendSurface face 14885 blend ms 3217 error 6.08e-9
+start 3586.1 blendSurface face 14894 blend
+end 3586.1 blendSurface face 14894 blend ms 26 error 5.24e-9
+start 3586.1 blendSurface face 14911 blend
+end 3586.1 blendSurface face 14911 blend ms 20 error 5.24e-9
+start 3586.1 blendSurface face 14920 blend
+end 3593.8 blendSurface face 14920 blend ms 7730 error 5.46e-9
+start 3593.9 blendSurface face 14925 blend
+end 3595.6 blendSurface face 14925 blend ms 1728 error 6.38e-9
+start 3595.6 blendSurface face 14934 blend
+end 3595.6 blendSurface face 14934 blend ms 17 error 5.24e-9
+start 3595.6 blendSurface face 14948 blend
+end 3597.0 blendSurface face 14948 blend ms 1389 error 1.72e-9
+start 3597.0 blendSurface face 14953 blend
+end 3598.2 blendSurface face 14953 blend ms 1218 error 1.91e-9
+start 3598.2 blendSurface face 14958 blend
+end 3599.7 blendSurface face 14958 blend ms 1497 error 1.83e-9
+start 3599.7 blendSurface face 14972 blend
+end 3599.7 blendSurface face 14972 blend ms 17 error 5.24e-9
+start 3599.7 blendSurface face 14981 blend
+exit 124

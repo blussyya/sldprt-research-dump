@@ -1,0 +1,4 @@
+support 0 blend15422 r [0,0] spine circle: spineOf(tol 1e-8) 0.0 s, exact control points, error 0.00e+0
+support 0 blend15422 r [0,0] spine circle: spineOf(tol 1e-10) 0.0 s, exact control points, error 0.00e+0
+support 1 blend15483 r [0.002,0.002] spine intersection: spineOf(tol 1e-8) 242.1 s, 213 control points, error 9.31e-10
+support 1 blend15483 r [0.002,0.002] spine intersection: spineOf(tol 1e-10) 274.5 s, 647 control points, error 9.88e-12

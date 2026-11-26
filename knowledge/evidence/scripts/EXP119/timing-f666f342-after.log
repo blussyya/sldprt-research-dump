@@ -1,0 +1,2511 @@
+built 0.7 s: faces 732, edges 1810
+start 0.7 blendSurface face 2531 blend
+end 3.2 blendSurface face 2531 blend ms 2500 error 2.91e-9
+start 3.2 blendSurface face 7921 blend
+end 4.8 blendSurface face 7921 blend ms 1529 error 7.95e-10
+start 4.8 blendSurface face 9026 blend
+end 4.8 blendSurface face 9026 blend ms 28 error 5.24e-9
+start 4.8 blendSurface face 9022 blend
+end 6.9 blendSurface face 9022 blend ms 2099 error 6.38e-9
+start 6.9 blendSurface face 9032 blend
+end 10.3 blendSurface face 9032 blend ms 3391 error 1.72e-9
+start 10.3 blendSurface face 7917 blend
+end 11.9 blendSurface face 7917 blend ms 1601 error 1.98e-9
+start 11.9 blendSurface face 8901 blend
+end 20.7 blendSurface face 8901 blend ms 8811 error 6.08e-9
+start 20.7 blendSurface face 9046 blend
+end 24.9 blendSurface face 9046 blend ms 4155 error 5.58e-9
+start 24.9 blendSurface face 9042 blend
+end 24.9 blendSurface face 9042 blend ms 26 error 5.24e-9
+start 24.9 blendSurface face 7994 blend
+end 29.9 blendSurface face 7994 blend ms 5028 error 2.89e-9
+start 29.9 blendSurface face 8026 blend
+end 31.3 blendSurface face 8026 blend ms 1408 error 1.56e-9
+start 31.3 blendSurface face 8024 blend
+end 32.7 blendSurface face 8024 blend ms 1338 error 1.84e-9
+start 32.7 blendSurface face 8103 blend
+end 36.9 blendSurface face 8103 blend ms 4280 error 7.39e-9
+start 36.9 blendSurface face 8020 blend
+end 45.9 blendSurface face 8020 blend ms 8912 error 4.83e-9
+start 45.9 blendSurface face 8905 blend
+end 45.9 blendSurface face 8905 blend ms 15 error 5.24e-9
+start 45.9 blendSurface face 7861 blend
+end 50.5 blendSurface face 7861 blend ms 4649 error 7.84e-10
+start 50.5 blendSurface face 8913 blend
+end 50.5 blendSurface face 8913 blend ms 30 error 5.24e-9
+start 50.5 blendSurface face 2386 blend
+end 52.4 blendSurface face 2386 blend ms 1859 error 8.89e-9
+start 52.4 blendSurface face 2396 blend
+end 58.8 blendSurface face 2396 blend ms 6397 error 9.94e-9
+start 58.8 blendSurface face 2401 blend
+end 65.1 blendSurface face 2401 blend ms 6246 error 8.10e-9
+start 65.1 blendSurface face 12814 blend
+end 66.8 blendSurface face 12814 blend ms 1701 error 8.89e-9
+start 66.8 blendSurface face 12821 blend
+end 73.3 blendSurface face 12821 blend ms 6575 error 9.94e-9
+start 73.3 blendSurface face 12835 blend
+end 79.7 blendSurface face 12835 blend ms 6418 error 8.10e-9
+start 79.7 blendSurface face 12856 blend
+end 81.1 blendSurface face 12856 blend ms 1314 error 5.89e-10
+start 81.1 blendSurface face 12863 blend
+end 82.3 blendSurface face 12863 blend ms 1274 error 7.57e-9
+start 82.3 blendSurface face 13004 blend
+end 82.8 blendSurface face 13004 blend ms 465 error 8.31e-9
+start 82.8 blendSurface face 13011 blend
+end 84.9 blendSurface face 13011 blend ms 2105 error 2.91e-9
+start 84.9 blendSurface face 13018 blend
+end 85.6 blendSurface face 13018 blend ms 732 error 9.55e-9
+start 85.6 blendSurface face 13025 blend
+end 86.2 blendSurface face 13025 blend ms 520 error 9.01e-9
+start 86.2 blendSurface face 13032 blend
+end 87.2 blendSurface face 13032 blend ms 991 error 9.59e-9
+start 87.2 blendSurface face 13077 blend
+end 246.0 blendSurface face 13077 blend ms 158891 error 6.20e-9
+start 246.0 blendSurface face 13093 blend
+end 315.0 blendSurface face 13093 blend ms 68978 error 7.08e-9
+start 315.0 blendSurface face 13121 blend
+end 599.8 blendSurface face 13121 blend ms 284765 error 9.16e-9
+start 599.8 blendSurface face 13129 blend
+end 608.9 blendSurface face 13129 blend ms 9103 error 9.98e-9
+start 608.9 blendSurface face 13178 blend
+end 616.3 blendSurface face 13178 blend ms 7433 error 7.52e-9
+start 616.3 blendSurface face 13194 blend
+end 814.3 blendSurface face 13194 blend ms 197968 error 1.03e-4
+start 814.3 blendSurface face 13491 blend
+end 816.1 blendSurface face 13491 blend ms 1814 error 8.96e-9
+start 816.1 blendSurface face 13498 blend
+end 818.6 blendSurface face 13498 blend ms 2540 error 2.82e-9
+start 818.6 blendSurface face 13505 blend
+end 820.4 blendSurface face 13505 blend ms 1790 error 7.87e-9
+start 820.4 blendSurface face 13512 blend
+end 822.6 blendSurface face 13512 blend ms 2212 error 9.69e-9
+start 822.6 blendSurface face 13519 blend
+end 825.2 blendSurface face 13519 blend ms 2584 error 3.27e-9
+start 825.2 blendSurface face 13526 blend
+end 827.3 blendSurface face 13526 blend ms 2110 error 8.03e-9
+start 827.3 blendSurface face 13540 blend
+end 831.7 blendSurface face 13540 blend ms 4332 error 8.60e-9
+start 831.7 blendSurface face 13555 blend
+end 834.5 blendSurface face 13555 blend ms 2845 error 8.34e-9
+start 834.5 blendSurface face 13563 blend
+end 836.8 blendSurface face 13563 blend ms 2248 error 2.74e-9
+start 836.8 blendSurface face 13570 blend
+end 839.1 blendSurface face 13570 blend ms 2377 error 6.90e-10
+start 839.1 blendSurface face 13577 blend
+end 842.0 blendSurface face 13577 blend ms 2819 error 3.25e-9
+start 842.0 blendSurface face 13584 blend
+end 844.1 blendSurface face 13584 blend ms 2121 error 6.04e-10
+start 844.1 blendSurface face 13591 blend
+end 846.1 blendSurface face 13591 blend ms 2044 error 3.31e-9
+start 846.1 blendSurface face 13598 blend
+end 847.9 blendSurface face 13598 blend ms 1723 error 6.59e-10
+start 847.9 blendSurface face 13605 blend
+end 850.6 blendSurface face 13605 blend ms 2750 error 3.33e-9
+start 850.6 blendSurface face 13612 blend
+end 852.5 blendSurface face 13612 blend ms 1855 error 5.13e-10
+start 852.5 blendSurface face 13619 blend
+end 854.4 blendSurface face 13619 blend ms 1951 error 4.39e-9
+start 854.4 blendSurface face 13626 blend
+end 856.0 blendSurface face 13626 blend ms 1539 error 1.39e-9
+start 856.0 blendSurface face 13633 blend
+end 858.5 blendSurface face 13633 blend ms 2499 error 4.67e-9
+start 858.5 blendSurface face 13640 blend
+end 859.8 blendSurface face 13640 blend ms 1369 error 1.27e-9
+start 859.8 blendSurface face 13647 blend
+end 862.1 blendSurface face 13647 blend ms 2284 error 4.28e-9
+start 862.1 blendSurface face 13654 blend
+end 864.0 blendSurface face 13654 blend ms 1939 error 7.40e-10
+start 864.0 blendSurface face 13661 blend
+end 866.6 blendSurface face 13661 blend ms 2535 error 5.43e-9
+start 866.6 blendSurface face 13668 blend
+end 868.2 blendSurface face 13668 blend ms 1582 error 7.93e-10
+start 868.2 blendSurface face 13675 blend
+end 870.4 blendSurface face 13675 blend ms 2193 error 3.38e-9
+start 870.4 blendSurface face 13682 blend
+end 872.1 blendSurface face 13682 blend ms 1761 error 9.21e-10
+start 872.1 blendSurface face 13689 blend
+end 874.3 blendSurface face 13689 blend ms 2220 error 3.18e-9
+start 874.3 blendSurface face 13696 blend
+end 875.7 blendSurface face 13696 blend ms 1375 error 6.94e-10
+start 875.7 blendSurface face 13703 blend
+end 878.2 blendSurface face 13703 blend ms 2465 error 4.01e-9
+start 878.2 blendSurface face 13710 blend
+end 879.6 blendSurface face 13710 blend ms 1468 error 2.80e-9
+start 879.6 blendSurface face 13717 blend
+end 881.8 blendSurface face 13717 blend ms 2180 error 3.53e-9
+start 881.8 blendSurface face 13724 blend
+end 883.3 blendSurface face 13724 blend ms 1454 error 2.58e-9
+start 883.3 blendSurface face 13731 blend
+end 885.4 blendSurface face 13731 blend ms 2145 error 7.90e-9
+start 885.4 blendSurface face 13738 blend
+end 887.1 blendSurface face 13738 blend ms 1646 error 5.62e-9
+start 887.1 blendSurface face 13745 blend
+end 889.4 blendSurface face 13745 blend ms 2276 error 4.86e-9
+start 889.4 blendSurface face 13752 blend
+end 891.1 blendSurface face 13752 blend ms 1741 error 5.82e-9
+start 891.1 blendSurface face 13759 blend
+end 894.2 blendSurface face 13759 blend ms 3098 error 4.90e-9
+start 894.2 blendSurface face 13766 blend
+end 896.0 blendSurface face 13766 blend ms 1763 error 1.84e-9
+start 896.0 blendSurface face 13773 blend
+end 898.3 blendSurface face 13773 blend ms 2320 error 4.41e-9
+start 898.3 blendSurface face 13780 blend
+end 899.8 blendSurface face 13780 blend ms 1554 error 1.82e-9
+start 899.8 blendSurface face 13820 blend
+end 901.5 blendSurface face 13820 blend ms 1697 error 7.81e-9
+start 901.5 blendSurface face 13827 blend
+end 904.4 blendSurface face 13827 blend ms 2871 error 3.31e-9
+start 904.4 blendSurface face 13834 blend
+end 906.0 blendSurface face 13834 blend ms 1640 error 8.35e-9
+start 906.0 blendSurface face 13841 blend
+end 909.5 blendSurface face 13841 blend ms 3424 error 9.26e-9
+start 909.5 blendSurface face 13849 blend
+end 912.1 blendSurface face 13849 blend ms 2621 error 3.21e-9
+start 912.1 blendSurface face 13856 blend
+end 914.5 blendSurface face 13856 blend ms 2463 error 5.40e-10
+start 914.5 blendSurface face 13863 blend
+end 917.5 blendSurface face 13863 blend ms 2922 error 2.96e-9
+start 917.5 blendSurface face 13870 blend
+end 919.8 blendSurface face 13870 blend ms 2334 error 3.99e-10
+start 919.8 blendSurface face 13877 blend
+end 922.1 blendSurface face 13877 blend ms 2283 error 3.95e-9
+start 922.1 blendSurface face 13884 blend
+end 923.7 blendSurface face 13884 blend ms 1585 error 7.12e-10
+start 923.7 blendSurface face 13891 blend
+end 925.9 blendSurface face 13891 blend ms 2228 error 3.29e-9
+start 925.9 blendSurface face 13898 blend
+end 927.5 blendSurface face 13898 blend ms 1589 error 8.67e-10
+start 927.5 blendSurface face 13905 blend
+end 929.9 blendSurface face 13905 blend ms 2381 error 3.74e-9
+start 929.9 blendSurface face 13912 blend
+end 931.1 blendSurface face 13912 blend ms 1243 error 1.37e-9
+start 931.1 blendSurface face 13919 blend
+end 933.4 blendSurface face 13919 blend ms 2320 error 5.72e-9
+start 933.4 blendSurface face 13926 blend
+end 934.9 blendSurface face 13926 blend ms 1418 error 1.37e-9
+start 934.9 blendSurface face 13933 blend
+end 937.3 blendSurface face 13933 blend ms 2482 error 3.67e-9
+start 937.3 blendSurface face 13940 blend
+end 938.9 blendSurface face 13940 blend ms 1544 error 8.62e-10
+start 938.9 blendSurface face 13947 blend
+end 941.2 blendSurface face 13947 blend ms 2327 error 6.63e-9
+start 941.2 blendSurface face 13954 blend
+end 942.8 blendSurface face 13954 blend ms 1563 error 7.98e-10
+start 942.8 blendSurface face 13961 blend
+end 944.8 blendSurface face 13961 blend ms 2067 error 3.09e-9
+start 944.8 blendSurface face 13968 blend
+end 946.3 blendSurface face 13968 blend ms 1502 error 1.07e-9
+start 946.3 blendSurface face 13975 blend
+end 948.4 blendSurface face 13975 blend ms 2023 error 3.81e-9
+start 948.4 blendSurface face 13982 blend
+end 950.1 blendSurface face 13982 blend ms 1757 error 9.26e-10
+start 950.1 blendSurface face 13989 blend
+end 953.2 blendSurface face 13989 blend ms 3041 error 5.08e-9
+start 953.2 blendSurface face 13996 blend
+end 954.6 blendSurface face 13996 blend ms 1457 error 2.96e-9
+start 954.6 blendSurface face 14003 blend
+end 956.7 blendSurface face 14003 blend ms 2089 error 3.47e-9
+start 956.7 blendSurface face 14010 blend
+end 958.4 blendSurface face 14010 blend ms 1693 error 2.98e-9
+start 958.4 blendSurface face 14017 blend
+end 961.2 blendSurface face 14017 blend ms 2815 error 8.81e-9
+start 961.2 blendSurface face 14024 blend
+end 962.7 blendSurface face 14024 blend ms 1487 error 6.56e-9
+start 962.7 blendSurface face 14031 blend
+end 965.0 blendSurface face 14031 blend ms 2300 error 3.93e-9
+start 965.0 blendSurface face 14038 blend
+end 966.4 blendSurface face 14038 blend ms 1431 error 6.74e-9
+start 966.4 blendSurface face 14045 blend
+end 969.0 blendSurface face 14045 blend ms 2510 error 5.83e-9
+start 969.0 blendSurface face 14052 blend
+end 970.6 blendSurface face 14052 blend ms 1603 error 2.05e-9
+start 970.6 blendSurface face 14059 blend
+end 973.1 blendSurface face 14059 blend ms 2496 error 3.78e-9
+start 973.1 blendSurface face 14066 blend
+end 974.9 blendSurface face 14066 blend ms 1827 error 2.67e-9
+start 974.9 blendSurface face 14087 blend
+end 977.2 blendSurface face 14087 blend ms 2283 error 8.39e-9
+start 977.2 blendSurface face 14094 blend
+end 979.4 blendSurface face 14094 blend ms 2215 error 3.69e-9
+start 979.4 blendSurface face 14101 blend
+end 981.9 blendSurface face 14101 blend ms 2494 error 3.37e-9
+start 981.9 blendSurface face 14137 blend
+end 1157.6 blendSurface face 14137 blend ms 175681 error 9.99e-10
+start 1157.6 blendSurface face 14145 blend
+end 1159.5 blendSurface face 14145 blend ms 1987 error 5.98e-10
+start 1159.5 blendSurface face 14153 blend
+end 1161.6 blendSurface face 14153 blend ms 2100 error 4.42e-10
+start 1161.6 blendSurface face 14326 blend
+end 1162.7 blendSurface face 14326 blend ms 1043 error 3.48e-10
+start 1162.7 blendSurface face 14333 blend
+end 1172.4 blendSurface face 14333 blend ms 9667 error 1.43e-9
+start 1172.4 blendSurface face 14349 blend
+end 1172.5 blendSurface face 14349 blend ms 124 error 2.61e-9
+start 1172.5 blendSurface face 14357 blend
+end 1173.5 blendSurface face 14357 blend ms 1053 error 4.89e-10
+start 1173.5 blendSurface face 14364 blend
+end 1290.8 blendSurface face 14364 blend ms 117233 error 6.03e-9
+start 1290.8 blendSurface face 14372 blend
+end 1299.4 blendSurface face 14372 blend ms 8683 error 7.35e-9
+start 1299.4 blendSurface face 14380 blend
+end 1300.4 blendSurface face 14380 blend ms 934 error 7.14e-10
+start 1300.4 blendSurface face 14439 blend
+end 1301.7 blendSurface face 14439 blend ms 1294 error 9.57e-9
+start 1301.7 blendSurface face 14446 blend
+end 1302.8 blendSurface face 14446 blend ms 1120 error 7.27e-9
+start 1302.8 blendSurface face 14453 blend
+end 1303.6 blendSurface face 14453 blend ms 819 error 1.10e-9
+start 1303.6 blendSurface face 14502 blend
+end 1304.4 blendSurface face 14502 blend ms 779 error 4.66e-10
+start 1304.4 blendSurface face 14508 blend
+end 1305.4 blendSurface face 14508 blend ms 1010 error 1.88e-9
+start 1305.4 blendSurface face 14515 blend
+end 1306.6 blendSurface face 14515 blend ms 1192 error 3.48e-9
+start 1306.6 blendSurface face 14522 blend
+end 1307.4 blendSurface face 14522 blend ms 819 error 2.10e-10
+start 1307.4 blendSurface face 14660 blend
+end 1308.6 blendSurface face 14660 blend ms 1204 error 5.32e-11
+start 1308.6 blendSurface face 14666 blend
+end 1311.1 blendSurface face 14666 blend ms 2457 error 9.65e-9
+start 1311.1 blendSurface face 14671 blend
+end 1312.2 blendSurface face 14671 blend ms 1167 error 9.76e-9
+start 1312.2 blendSurface face 14677 blend
+end 1313.5 blendSurface face 14677 blend ms 1229 error 7.72e-10
+start 1313.5 blendSurface face 14683 blend
+end 1315.3 blendSurface face 14683 blend ms 1801 error 5.79e-9
+start 1315.3 blendSurface face 14689 blend
+end 1329.3 blendSurface face 14689 blend ms 14024 error 3.00e-10
+start 1329.3 blendSurface face 14695 blend
+end 1330.3 blendSurface face 14695 blend ms 1024 error 6.49e-9
+start 1330.3 blendSurface face 14701 blend
+end 1333.4 blendSurface face 14701 blend ms 3102 error 4.89e-10
+start 1333.4 blendSurface face 14707 blend
+end 1334.8 blendSurface face 14707 blend ms 1407 error 5.43e-10
+start 1334.8 blendSurface face 14712 blend
+end 1338.0 blendSurface face 14712 blend ms 3168 error 5.49e-11
+start 1338.0 blendSurface face 14718 blend
+end 1340.7 blendSurface face 14718 blend ms 2740 error 8.31e-9
+start 1340.7 blendSurface face 14813 blend
+end 1344.5 blendSurface face 14813 blend ms 3764 error 7.84e-10
+start 1344.5 blendSurface face 14817 blend
+end 1346.8 blendSurface face 14817 blend ms 2267 error 9.64e-9
+start 1346.8 blendSurface face 14821 blend
+end 1348.6 blendSurface face 14821 blend ms 1793 error 3.77e-10
+start 1348.6 blendSurface face 14825 blend
+end 1350.0 blendSurface face 14825 blend ms 1403 error 2.97e-10
+start 1350.0 blendSurface face 14829 blend
+end 1351.4 blendSurface face 14829 blend ms 1440 error 9.26e-9
+start 1351.4 blendSurface face 14834 blend
+end 1352.6 blendSurface face 14834 blend ms 1231 error 1.98e-9
+start 1352.6 blendSurface face 14839 blend
+end 1354.0 blendSurface face 14839 blend ms 1352 error 3.01e-9
+start 1354.0 blendSurface face 14844 blend
+end 1355.1 blendSurface face 14844 blend ms 1134 error 7.95e-10
+start 1355.1 blendSurface face 14848 blend
+end 1358.4 blendSurface face 14848 blend ms 3288 error 2.89e-9
+start 1358.4 blendSurface face 14852 blend
+end 1365.4 blendSurface face 14852 blend ms 6950 error 4.83e-9
+start 1365.4 blendSurface face 14857 blend
+end 1367.7 blendSurface face 14857 blend ms 2316 error 2.04e-9
+start 1367.7 blendSurface face 14862 blend
+end 1368.7 blendSurface face 14862 blend ms 990 error 1.84e-9
+start 1368.7 blendSurface face 14867 blend
+end 1369.8 blendSurface face 14867 blend ms 1116 error 1.56e-9
+start 1369.8 blendSurface face 14872 blend
+end 1373.3 blendSurface face 14872 blend ms 3471 error 7.39e-9
+start 1373.3 blendSurface face 14885 blend
+end 1376.2 blendSurface face 14885 blend ms 2970 error 6.08e-9
+start 1376.2 blendSurface face 14894 blend
+end 1376.3 blendSurface face 14894 blend ms 27 error 5.24e-9
+start 1376.3 blendSurface face 14911 blend
+end 1376.3 blendSurface face 14911 blend ms 25 error 5.24e-9
+start 1376.3 blendSurface face 14920 blend
+end 1382.7 blendSurface face 14920 blend ms 6376 error 5.46e-9
+start 1382.7 blendSurface face 14925 blend
+end 1384.2 blendSurface face 14925 blend ms 1496 error 6.38e-9
+start 1384.2 blendSurface face 14934 blend
+end 1384.2 blendSurface face 14934 blend ms 16 error 5.24e-9
+start 1384.2 blendSurface face 14948 blend
+end 1385.3 blendSurface face 14948 blend ms 1169 error 1.72e-9
+start 1385.3 blendSurface face 14953 blend
+end 1386.5 blendSurface face 14953 blend ms 1162 error 1.91e-9
+start 1386.5 blendSurface face 14958 blend
+end 1387.8 blendSurface face 14958 blend ms 1325 error 1.83e-9
+start 1387.8 blendSurface face 14972 blend
+end 1387.9 blendSurface face 14972 blend ms 45 error 5.24e-9
+start 1387.9 blendSurface face 14981 blend
+end 1389.8 blendSurface face 14981 blend ms 1881 error 5.53e-9
+start 1389.8 blendSurface face 9034 blend
+end 1390.9 blendSurface face 9034 blend ms 1136 error 1.91e-9
+start 1390.9 blendSurface face 8917 blend
+end 1397.8 blendSurface face 8917 blend ms 6949 error 5.46e-9
+start 1397.8 blendSurface face 3617 blend
+end 1399.2 blendSurface face 3617 blend ms 1323 error 3.48e-9
+start 1399.2 blendSurface face 3612 blend
+end 1400.3 blendSurface face 3612 blend ms 1153 error 1.88e-9
+start 1400.3 blendSurface face 3508 blend
+end 1621.1 blendSurface face 3508 blend ms 220778 error 6.03e-9
+start 1621.1 blendSurface face 3497 blend
+end 1692.8 blendSurface face 3497 blend ms 71729 error 2.61e-9
+start 1692.8 blendSurface face 3485 blend
+end 1693.0 blendSurface face 3485 blend ms 184 error 1.43e-9
+start 1693.0 blendSurface face 2579 blend
+end 1758.2 blendSurface face 2579 blend ms 65202 error 6.20e-9
+start 1758.2 blendSurface face 2591 blend
+end 1813.8 blendSurface face 2591 blend ms 55558 error 7.08e-9
+start 1813.8 blendSurface face 2611 blend
+end 1926.0 blendSurface face 2611 blend ms 112261 error 9.11e-9
+start 1926.0 blendSurface face 2617 blend
+end 1932.3 blendSurface face 2617 blend ms 6250 error 9.98e-9
+start 1932.3 blendSurface face 2652 blend
+end 1938.8 blendSurface face 2652 blend ms 6489 error 7.52e-9
+start 1938.8 blendSurface face 2664 blend
+end 2078.0 blendSurface face 2664 blend ms 139243 error 1.03e-4
+start 2078.0 blendSurface face 2877 blend
+end 2079.6 blendSurface face 2877 blend ms 1574 error 8.96e-9
+start 2079.6 blendSurface face 2882 blend
+end 2081.7 blendSurface face 2882 blend ms 2068 error 2.82e-9
+start 2081.7 blendSurface face 2887 blend
+end 2083.1 blendSurface face 2887 blend ms 1413 error 7.87e-9
+start 2083.1 blendSurface face 2892 blend
+end 2084.9 blendSurface face 2892 blend ms 1780 error 9.69e-9
+start 2084.9 blendSurface face 2897 blend
+end 2087.0 blendSurface face 2897 blend ms 2145 error 3.27e-9
+start 2087.0 blendSurface face 2902 blend
+end 2089.1 blendSurface face 2902 blend ms 2069 error 8.03e-9
+start 2089.1 blendSurface face 2912 blend
+end 2093.1 blendSurface face 2912 blend ms 3988 error 8.60e-9
+start 2093.1 blendSurface face 2923 blend
+end 2096.1 blendSurface face 2923 blend ms 2984 error 8.34e-9
+start 2096.1 blendSurface face 2929 blend
+end 2098.0 blendSurface face 2929 blend ms 1952 error 2.74e-9
+start 2098.0 blendSurface face 2934 blend
+end 2099.9 blendSurface face 2934 blend ms 1891 error 6.90e-10
+start 2099.9 blendSurface face 2939 blend
+end 2102.0 blendSurface face 2939 blend ms 2123 error 3.25e-9
+start 2102.0 blendSurface face 2944 blend
+end 2103.9 blendSurface face 2944 blend ms 1838 error 6.04e-10
+start 2103.9 blendSurface face 2949 blend
+end 2105.7 blendSurface face 2949 blend ms 1828 error 3.31e-9
+start 2105.7 blendSurface face 2954 blend
+end 2107.0 blendSurface face 2954 blend ms 1334 error 6.59e-10
+start 2107.0 blendSurface face 2959 blend
+end 2109.0 blendSurface face 2959 blend ms 1939 error 3.33e-9
+start 2109.0 blendSurface face 2964 blend
+end 2110.3 blendSurface face 2964 blend ms 1392 error 5.13e-10
+start 2110.3 blendSurface face 2969 blend
+end 2112.4 blendSurface face 2969 blend ms 2071 error 4.39e-9
+start 2112.4 blendSurface face 2974 blend
+end 2113.6 blendSurface face 2974 blend ms 1160 error 1.39e-9
+start 2113.6 blendSurface face 2979 blend
+end 2115.5 blendSurface face 2979 blend ms 1883 error 4.67e-9
+start 2115.5 blendSurface face 2984 blend
+end 2116.6 blendSurface face 2984 blend ms 1152 error 1.27e-9
+start 2116.6 blendSurface face 2989 blend
+end 2118.4 blendSurface face 2989 blend ms 1755 error 4.28e-9
+start 2118.4 blendSurface face 2994 blend
+end 2119.6 blendSurface face 2994 blend ms 1221 error 7.40e-10
+start 2119.6 blendSurface face 2999 blend
+end 2121.5 blendSurface face 2999 blend ms 1928 error 5.43e-9
+start 2121.5 blendSurface face 3004 blend
+end 2122.7 blendSurface face 3004 blend ms 1218 error 7.93e-10
+start 2122.7 blendSurface face 3009 blend
+end 2124.5 blendSurface face 3009 blend ms 1752 error 3.38e-9
+start 2124.5 blendSurface face 3014 blend
+end 2125.9 blendSurface face 3014 blend ms 1393 error 9.21e-10
+start 2125.9 blendSurface face 3019 blend
+end 2127.6 blendSurface face 3019 blend ms 1750 error 3.18e-9
+start 2127.6 blendSurface face 3024 blend
+end 2128.8 blendSurface face 3024 blend ms 1169 error 6.94e-10
+start 2128.8 blendSurface face 3029 blend
+end 2130.5 blendSurface face 3029 blend ms 1714 error 4.01e-9
+start 2130.5 blendSurface face 3034 blend
+end 2131.6 blendSurface face 3034 blend ms 1095 error 2.80e-9
+start 2131.6 blendSurface face 3039 blend
+end 2133.1 blendSurface face 3039 blend ms 1524 error 3.53e-9
+start 2133.1 blendSurface face 3044 blend
+end 2134.2 blendSurface face 3044 blend ms 1061 error 2.58e-9
+start 2134.2 blendSurface face 3049 blend
+end 2135.8 blendSurface face 3049 blend ms 1580 error 7.90e-9
+start 2135.8 blendSurface face 3054 blend
+end 2136.7 blendSurface face 3054 blend ms 919 error 5.62e-9
+start 2136.7 blendSurface face 3059 blend
+end 2138.1 blendSurface face 3059 blend ms 1428 error 4.86e-9
+start 2138.1 blendSurface face 3064 blend
+end 2139.0 blendSurface face 3064 blend ms 920 error 5.82e-9
+start 2139.0 blendSurface face 3069 blend
+end 2140.6 blendSurface face 3069 blend ms 1539 error 4.90e-9
+start 2140.6 blendSurface face 3074 blend
+end 2141.7 blendSurface face 3074 blend ms 1093 error 1.84e-9
+start 2141.7 blendSurface face 3079 blend
+end 2143.4 blendSurface face 3079 blend ms 1727 error 4.41e-9
+start 2143.4 blendSurface face 3084 blend
+end 2144.4 blendSurface face 3084 blend ms 1025 error 1.82e-9
+start 2144.4 blendSurface face 3116 blend
+end 2145.5 blendSurface face 3116 blend ms 1100 error 7.81e-9
+start 2145.5 blendSurface face 3121 blend
+end 2147.3 blendSurface face 3121 blend ms 1777 error 3.31e-9
+start 2147.3 blendSurface face 3126 blend
+end 2148.4 blendSurface face 3126 blend ms 1098 error 8.35e-9
+start 2148.4 blendSurface face 3131 blend
+end 2150.6 blendSurface face 3131 blend ms 2200 error 9.26e-9
+start 2150.6 blendSurface face 3137 blend
+end 2152.2 blendSurface face 3137 blend ms 1634 error 3.21e-9
+start 2152.2 blendSurface face 3142 blend
+end 2153.8 blendSurface face 3142 blend ms 1532 error 5.40e-10
+start 2153.8 blendSurface face 3147 blend
+end 2155.4 blendSurface face 3147 blend ms 1665 error 2.96e-9
+start 2155.4 blendSurface face 3152 blend
+end 2156.9 blendSurface face 3152 blend ms 1461 error 3.99e-10
+start 2156.9 blendSurface face 3157 blend
+end 2158.4 blendSurface face 3157 blend ms 1525 error 3.95e-9
+start 2158.4 blendSurface face 3162 blend
+end 2159.5 blendSurface face 3162 blend ms 1112 error 7.12e-10
+start 2159.5 blendSurface face 3167 blend
+end 2161.2 blendSurface face 3167 blend ms 1661 error 3.29e-9
+start 2161.2 blendSurface face 3172 blend
+end 2162.2 blendSurface face 3172 blend ms 996 error 8.67e-10
+start 2162.2 blendSurface face 3177 blend
+end 2163.6 blendSurface face 3177 blend ms 1439 error 3.74e-9
+start 2163.6 blendSurface face 3182 blend
+end 2164.7 blendSurface face 3182 blend ms 1035 error 1.37e-9
+start 2164.7 blendSurface face 3187 blend
+end 2166.3 blendSurface face 3187 blend ms 1607 error 5.72e-9
+start 2166.3 blendSurface face 3192 blend
+end 2167.3 blendSurface face 3192 blend ms 1019 error 1.37e-9
+start 2167.3 blendSurface face 3197 blend
+end 2168.8 blendSurface face 3197 blend ms 1507 error 3.67e-9
+start 2168.8 blendSurface face 3202 blend
+end 2169.8 blendSurface face 3202 blend ms 973 error 8.62e-10
+start 2169.8 blendSurface face 3207 blend
+end 2171.3 blendSurface face 3207 blend ms 1563 error 6.63e-9
+start 2171.3 blendSurface face 3212 blend
+end 2172.5 blendSurface face 3212 blend ms 1122 error 7.98e-10
+start 2172.5 blendSurface face 3217 blend
+end 2174.0 blendSurface face 3217 blend ms 1555 error 3.09e-9
+start 2174.0 blendSurface face 3222 blend
+end 2175.1 blendSurface face 3222 blend ms 1119 error 1.07e-9
+start 2175.1 blendSurface face 3227 blend
+end 2176.8 blendSurface face 3227 blend ms 1647 error 3.81e-9
+start 2176.8 blendSurface face 3232 blend
+end 2178.2 blendSurface face 3232 blend ms 1395 error 9.26e-10
+start 2178.2 blendSurface face 3237 blend
+end 2180.0 blendSurface face 3237 blend ms 1801 error 5.08e-9
+start 2180.0 blendSurface face 3242 blend
+end 2181.0 blendSurface face 3242 blend ms 1064 error 2.96e-9
+start 2181.0 blendSurface face 3247 blend
+end 2182.7 blendSurface face 3247 blend ms 1655 error 3.47e-9
+start 2182.7 blendSurface face 3252 blend
+end 2183.7 blendSurface face 3252 blend ms 1010 error 2.98e-9
+start 2183.7 blendSurface face 3257 blend
+end 2185.5 blendSurface face 3257 blend ms 1817 error 8.81e-9
+start 2185.5 blendSurface face 3262 blend
+end 2186.7 blendSurface face 3262 blend ms 1210 error 6.56e-9
+start 2186.7 blendSurface face 3267 blend
+end 2189.0 blendSurface face 3267 blend ms 2213 error 3.93e-9
+start 2189.0 blendSurface face 3272 blend
+end 2190.3 blendSurface face 3272 blend ms 1381 error 6.74e-9
+start 2190.3 blendSurface face 3277 blend
+end 2192.2 blendSurface face 3277 blend ms 1851 error 5.83e-9
+start 2192.2 blendSurface face 3282 blend
+end 2193.5 blendSurface face 3282 blend ms 1279 error 2.05e-9
+start 2193.5 blendSurface face 3287 blend
+end 2195.6 blendSurface face 3287 blend ms 2165 error 3.78e-9
+start 2195.6 blendSurface face 3292 blend
+end 2197.0 blendSurface face 3292 blend ms 1384 error 2.67e-9
+start 2197.0 blendSurface face 3307 blend
+end 2198.9 blendSurface face 3307 blend ms 1918 error 8.39e-9
+start 2198.9 blendSurface face 3312 blend
+end 2200.9 blendSurface face 3312 blend ms 1999 error 3.69e-9
+start 2200.9 blendSurface face 3317 blend
+end 2203.0 blendSurface face 3317 blend ms 2066 error 3.37e-9
+start 2203.0 blendSurface face 3343 blend
+end 2373.1 blendSurface face 3343 blend ms 170094 error 9.99e-10
+start 2373.1 blendSurface face 3349 blend
+end 2375.0 blendSurface face 3349 blend ms 1875 error 5.98e-10
+start 2375.0 blendSurface face 3355 blend
+end 2377.2 blendSurface face 3355 blend ms 2277 error 4.42e-10
+start 2377.2 blendSurface face 3480 blend
+end 2378.1 blendSurface face 3480 blend ms 814 error 3.48e-10
+start 2378.1 blendSurface face 3503 blend
+end 2379.0 blendSurface face 3503 blend ms 979 error 4.89e-10
+start 2379.0 blendSurface face 3514 blend
+end 2388.8 blendSurface face 3514 blend ms 9798 error 7.30e-9
+start 2388.8 blendSurface face 3520 blend
+end 2389.9 blendSurface face 3520 blend ms 1093 error 7.14e-10
+start 2389.9 blendSurface face 3563 blend
+end 2391.6 blendSurface face 3563 blend ms 1628 error 9.57e-9
+start 2391.6 blendSurface face 3568 blend
+end 2392.9 blendSurface face 3568 blend ms 1296 error 7.27e-9
+start 2392.9 blendSurface face 3573 blend
+end 2393.9 blendSurface face 3573 blend ms 1084 error 1.10e-9
+start 2393.9 blendSurface face 3608 blend
+end 2394.8 blendSurface face 3608 blend ms 893 error 4.66e-10
+start 2394.8 blendSurface face 3622 blend
+end 2395.9 blendSurface face 3622 blend ms 1031 error 2.10e-10
+start 2395.9 blendSurface face 3716 blend
+end 2397.3 blendSurface face 3716 blend ms 1438 error 5.32e-11
+start 2397.3 blendSurface face 3720 blend
+end 2399.9 blendSurface face 3720 blend ms 2598 error 9.65e-9
+start 2399.9 blendSurface face 3723 blend
+end 2401.2 blendSurface face 3723 blend ms 1344 error 9.76e-9
+start 2401.2 blendSurface face 3727 blend
+end 2402.5 blendSurface face 3727 blend ms 1268 error 7.72e-10
+start 2402.5 blendSurface face 3731 blend
+end 2404.4 blendSurface face 3731 blend ms 1860 error 5.79e-9
+start 2404.4 blendSurface face 3735 blend
+end 2419.2 blendSurface face 3735 blend ms 14795 error 3.00e-10
+start 2419.2 blendSurface face 3739 blend
+end 2420.4 blendSurface face 3739 blend ms 1186 error 6.49e-9
+start 2420.4 blendSurface face 3743 blend
+end 2423.6 blendSurface face 3743 blend ms 3232 error 4.89e-10
+start 2423.6 blendSurface face 3747 blend
+end 2425.2 blendSurface face 3747 blend ms 1573 error 5.43e-10
+start 2425.2 blendSurface face 3750 blend
+end 2428.4 blendSurface face 3750 blend ms 3235 error 5.49e-11
+start 2428.4 blendSurface face 3754 blend
+end 2431.0 blendSurface face 3754 blend ms 2587 error 8.31e-9
+start 2431.0 blendSurface face 9036 blend
+end 2433.5 blendSurface face 9036 blend ms 2482 error 1.83e-9
+start 2433.5 blendSurface face 2546 blend
+end 2434.2 blendSurface face 2546 blend ms 746 error 9.59e-9
+start 2434.2 blendSurface face 2541 blend
+end 2434.6 blendSurface face 2541 blend ms 389 error 9.01e-9
+start 2434.6 blendSurface face 2536 blend
+end 2435.3 blendSurface face 2536 blend ms 676 error 9.55e-9
+start 2435.3 blendSurface face 2526 blend
+end 2435.7 blendSurface face 2526 blend ms 374 error 8.31e-9
+start 2435.7 blendSurface face 2427 blend
+end 2436.6 blendSurface face 2427 blend ms 974 error 7.57e-9
+start 2436.6 blendSurface face 2422 blend
+end 2437.6 blendSurface face 2422 blend ms 975 error 5.89e-10
+start 2437.6 blendSurface face 7913 blend
+end 2437.9 blendSurface face 7913 blend ms 271 error 1.33e-10
+start 2437.9 blendSurface face 7915 blend
+end 2438.2 blendSurface face 7915 blend ms 300 error 9.27e-9
+start 2438.2 blendSurface face 7919 blend
+end 2438.5 blendSurface face 7919 blend ms 299 error 3.01e-9
+start 2438.5 blendSurface face 8022 blend
+end 2441.3 blendSurface face 8022 blend ms 2841 error 2.04e-9
+start 2441.3 blendSurface face 7865 blend
+end 2441.5 blendSurface face 7865 blend ms 233 error 3.14e-11
+start 2441.5 blendSurface face 7863 blend
+end 2444.2 blendSurface face 7863 blend ms 2687 error 9.64e-9
+start 2444.2 edgeCurve edge 8856 (8856) intersection
+end 2449.2 edgeCurve edge 8856 (8856) intersection ms 4942 error 5.58e-9
+start 2449.2 edgeCurve edge 11960 (11960) intersection
+end 2451.4 edgeCurve edge 11960 (11960) intersection ms 2177 error 1.98e-11
+start 2451.4 edgeCurve edge 11961 (11961) intersection
+end 2451.4 edgeCurve edge 11961 (11961) intersection ms 7 error 1.85e-9
+start 2451.4 edgeCurve edge 11382 (11382) spcurve
+end 2451.4 edgeCurve edge 11382 (11382) spcurve ms 1 error 0.00e+0
+start 2451.4 edgeCurve edge 9595 (9595) intersection
+end 2451.4 edgeCurve edge 9595 (9595) intersection ms 81 error 3.19e-11
+start 2451.4 edgeCurve edge 8699 (8699) intersection
+end 2451.5 edgeCurve edge 8699 (8699) intersection ms 42 error 4.99e-9
+start 2451.5 edgeCurve edge 8747 (8747) intersection
+end 2451.5 edgeCurve edge 8747 (8747) intersection ms 6 error 1.28e-10
+start 2451.5 edgeCurve edge 8785 (8785) intersection
+end 2451.6 edgeCurve edge 8785 (8785) intersection ms 63 error 5.00e-10
+start 2451.6 edgeCurve edge 8811 (8811) intersection
+end 2451.7 edgeCurve edge 8811 (8811) intersection ms 94 error 1.96e-10
+start 2451.7 edgeCurve edge 8832 (8832) intersection
+end 2469.0 edgeCurve edge 8832 (8832) intersection ms 17354 error 3.85e-8
+start 2469.0 edgeCurve edge 8840 (8840) intersection
+end 2497.6 edgeCurve edge 8840 (8840) intersection ms 28560 error 1.19e-7
+start 2497.6 edgeCurve edge 8792 (8792) intersection
+end 2497.6 edgeCurve edge 8792 (8792) intersection ms 65 error 1.92e-10
+start 2497.6 edgeCurve edge 8800 (8800) intersection
+end 2497.7 edgeCurve edge 8800 (8800) intersection ms 23 error 1.32e-10
+start 2497.7 edgeCurve edge 7376 (7376) intersection
+end 2497.7 edgeCurve edge 7376 (7376) intersection ms 9 error 7.41e-11
+start 2497.7 edgeCurve edge 8694 (8694) intersection
+end 2497.7 edgeCurve edge 8694 (8694) intersection ms 6 error 1.06e-12
+start 2497.7 edgeCurve edge 7414 (7414) intersection
+end 2497.7 edgeCurve edge 7414 (7414) intersection ms 7 error 1.06e-9
+start 2497.7 edgeCurve edge 7422 (7422) intersection
+end 2497.7 edgeCurve edge 7422 (7422) intersection ms 11 error 9.67e-9
+start 2497.7 edgeCurve edge 7408 (7408) spcurve
+end 2497.7 edgeCurve edge 7408 (7408) spcurve ms 22 error 9.41e-9
+start 2497.7 edgeCurve edge 7402 (7402) intersection
+end 2497.7 edgeCurve edge 7402 (7402) intersection ms 13 error 9.22e-9
+start 2497.7 edgeCurve edge 7389 (7389) intersection
+end 2497.7 edgeCurve edge 7389 (7389) intersection ms 13 error 3.02e-9
+start 2497.7 edgeCurve edge 7465 (7465) intersection
+end 2498.4 edgeCurve edge 7465 (7465) intersection ms 664 error 1.92e-11
+start 2498.4 edgeCurve edge 7460 (7460) intersection
+end 2499.1 edgeCurve edge 7460 (7460) intersection ms 706 error 8.01e-12
+start 2499.1 edgeCurve edge 7336 (7336) intersection
+end 2501.8 edgeCurve edge 7336 (7336) intersection ms 2699 error 1.52e-10
+start 2501.8 edgeCurve edge 8033 (8033) spcurve
+end 2501.9 edgeCurve edge 8033 (8033) spcurve ms 80 error 3.45e-9
+start 2501.9 edgeCurve edge 8036 (8036) spcurve
+end 2502.0 edgeCurve edge 8036 (8036) spcurve ms 117 error 8.55e-9
+start 2502.0 edgeCurve edge 7196 (7196) intersection
+end 2502.0 edgeCurve edge 7196 (7196) intersection ms 11 error 8.25e-12
+start 2502.0 edgeCurve edge 8663 (8663) intersection
+end 2502.0 edgeCurve edge 8663 (8663) intersection ms 13 error 3.20e-10
+start 2502.0 edgeCurve edge 8604 (8604) intersection
+end 2502.1 edgeCurve edge 8604 (8604) intersection ms 63 error 3.00e-9
+start 2502.1 edgeCurve edge 8546 (8546) intersection
+end 2502.1 edgeCurve edge 8546 (8546) intersection ms 15 error 4.70e-10
+start 2502.1 edgeCurve edge 8559 (8559) intersection
+end 2502.2 edgeCurve edge 8559 (8559) intersection ms 44 error 2.73e-9
+start 2502.2 edgeCurve edge 8535 (8535) intersection
+end 2502.2 edgeCurve edge 8535 (8535) intersection ms 16 error 5.39e-10
+start 2502.2 edgeCurve edge 8372 (8372) intersection
+end 2502.2 edgeCurve edge 8372 (8372) intersection ms 44 error 7.62e-11
+start 2502.2 edgeCurve edge 8359 (8359) intersection
+end 2502.2 edgeCurve edge 8359 (8359) intersection ms 17 error 1.69e-10
+start 2502.2 edgeCurve edge 8325 (8325) intersection
+end 2502.3 edgeCurve edge 8325 (8325) intersection ms 19 error 1.51e-11
+start 2502.3 edgeCurve edge 527 (527) intersection
+end 2505.8 edgeCurve edge 527 (527) intersection ms 3506 error 1.58e-11
+start 2505.8 edgeCurve edge 523 (523) spcurve
+end 2505.8 edgeCurve edge 523 (523) spcurve ms 1 error 0.00e+0
+start 2505.8 edgeCurve edge 8654 (8654) intersection
+end 2508.0 edgeCurve edge 8654 (8654) intersection ms 2192 error 4.78e-10
+start 2508.0 edgeCurve edge 8674 (8674) intersection
+end 2508.0 edgeCurve edge 8674 (8674) intersection ms 8 error 4.21e-10
+start 2508.0 edgeCurve edge 8687 (8687) intersection
+end 2508.0 edgeCurve edge 8687 (8687) intersection ms 41 error 4.05e-9
+start 2508.0 edgeCurve edge 8295 (8295) intersection
+end 2508.0 edgeCurve edge 8295 (8295) intersection ms 35 error 7.11e-11
+start 2508.0 edgeCurve edge 1524 (1524) intersection
+end 2510.7 edgeCurve edge 1524 (1524) intersection ms 2663 error 8.44e-11
+start 2510.7 edgeCurve edge 1014 (1014) intersection
+end 2514.4 edgeCurve edge 1014 (1014) intersection ms 3709 error 1.53e-9
+start 2514.4 edgeCurve edge 1361 (1361) intersection
+end 2514.9 edgeCurve edge 1361 (1361) intersection ms 469 error 1.60e-16
+start 2514.9 edgeCurve edge 1515 (1515) intersection
+end 2515.0 edgeCurve edge 1515 (1515) intersection ms 95 error 7.10e-10
+start 2515.0 edgeCurve edge 1175 (1175) intersection
+end 2515.4 edgeCurve edge 1175 (1175) intersection ms 417 error 7.18e-9
+start 2515.4 edgeCurve edge 1017 (1017) intersection
+end 2517.0 edgeCurve edge 1017 (1017) intersection ms 1601 error 6.39e-9
+start 2517.0 edgeCurve edge 1523 (1523) intersection
+end 2517.1 edgeCurve edge 1523 (1523) intersection ms 135 error 4.96e-11
+start 2517.1 edgeCurve edge 1362 (1362) intersection
+end 2517.4 edgeCurve edge 1362 (1362) intersection ms 224 error 6.11e-11
+start 2517.4 edgeCurve edge 1173 (1173) intersection
+end 2517.7 edgeCurve edge 1173 (1173) intersection ms 350 error 5.66e-9
+start 2517.7 edgeCurve edge 1069 (1069) intersection
+end 2517.8 edgeCurve edge 1069 (1069) intersection ms 106 error 3.00e-11
+start 2517.8 edgeCurve edge 1068 (1068) intersection
+end 2518.5 edgeCurve edge 1068 (1068) intersection ms 647 error 6.17e-9
+start 2518.5 edgeCurve edge 1514 (1514) intersection
+end 2518.5 edgeCurve edge 1514 (1514) intersection ms 20 error 1.83e-9
+start 2518.5 edgeCurve edge 1083 (1083) intersection
+end 2518.5 edgeCurve edge 1083 (1083) intersection ms 25 error 5.23e-9
+start 2518.5 edgeCurve edge 1082 (1082) intersection
+end 2518.5 edgeCurve edge 1082 (1082) intersection ms 19 error 8.49e-9
+start 2518.5 edgeCurve edge 1513 (1513) intersection
+end 2518.6 edgeCurve edge 1513 (1513) intersection ms 69 error 9.69e-9
+start 2518.6 edgeCurve edge 1071 (1071) intersection
+end 2519.4 edgeCurve edge 1071 (1071) intersection ms 816 error 8.86e-9
+start 2519.4 edgeCurve edge 1676 (1676) intersection
+end 2519.9 edgeCurve edge 1676 (1676) intersection ms 484 error 7.19e-12
+start 2519.9 edgeCurve edge 1685 (1685) intersection
+end 2520.0 edgeCurve edge 1685 (1685) intersection ms 67 error 2.15e-10
+start 2520.0 edgeCurve edge 1062 (1062) intersection
+end 2520.1 edgeCurve edge 1062 (1062) intersection ms 153 error 2.11e-11
+start 2520.1 edgeCurve edge 1067 (1067) intersection
+end 2520.2 edgeCurve edge 1067 (1067) intersection ms 66 error 6.19e-11
+start 2520.2 edgeCurve edge 1179 (1179) intersection
+end 2520.2 edgeCurve edge 1179 (1179) intersection ms 1 error 1.91e-9
+start 2520.2 edgeCurve edge 1026 (1026) intersection
+end 2520.6 edgeCurve edge 1026 (1026) intersection ms 384 error 8.12e-9
+start 2520.6 edgeCurve edge 1231 (1231) intersection
+end 2520.6 edgeCurve edge 1231 (1231) intersection ms 61 error 1.87e-9
+start 2520.6 edgeCurve edge 1215 (1215) intersection
+end 2520.9 edgeCurve edge 1215 (1215) intersection ms 317 error 8.17e-10
+start 2520.9 edgeCurve edge 1538 (1538) spcurve
+end 2521.0 edgeCurve edge 1538 (1538) spcurve ms 102 error 5.27e-9
+start 2521.0 edgeCurve edge 1220 (1220) intersection
+end 2521.4 edgeCurve edge 1220 (1220) intersection ms 311 error 4.49e-10
+start 2521.4 edgeCurve edge 1219 (1219) spcurve
+end 2521.4 edgeCurve edge 1219 (1219) spcurve ms 73 error 9.00e-10
+start 2521.4 edgeCurve edge 1201 (1201) spcurve
+end 2521.5 edgeCurve edge 1201 (1201) spcurve ms 54 error 7.71e-9
+start 2521.5 edgeCurve edge 1626 (1626) intersection
+end 2523.1 edgeCurve edge 1626 (1626) intersection ms 1622 error 4.77e-9
+start 2523.1 edgeCurve edge 1569 (1569) intersection
+end 2523.3 edgeCurve edge 1569 (1569) intersection ms 167 error 1.16e-9
+start 2523.3 edgeCurve edge 1577 (1577) intersection
+end 2523.3 edgeCurve edge 1577 (1577) intersection ms 47 error 3.26e-12
+start 2523.3 edgeCurve edge 1619 (1619) spcurve
+end 2523.4 edgeCurve edge 1619 (1619) spcurve ms 67 error 5.31e-9
+start 2523.4 edgeCurve edge 1581 (1581) intersection
+end 2525.0 edgeCurve edge 1581 (1581) intersection ms 1612 error 1.28e-12
+start 2525.0 edgeCurve edge 1543 (1543) intersection
+end 2526.4 edgeCurve edge 1543 (1543) intersection ms 1409 error 6.41e-14
+start 2526.4 edgeCurve edge 1549 (1549) intersection
+end 2528.0 edgeCurve edge 1549 (1549) intersection ms 1620 error 4.08e-15
+start 2528.0 edgeCurve edge 1546 (1546) intersection
+end 2529.6 edgeCurve edge 1546 (1546) intersection ms 1619 error 2.34e-12
+start 2529.6 edgeCurve edge 1205 (1205) intersection
+end 2529.7 edgeCurve edge 1205 (1205) intersection ms 45 error 4.97e-9
+start 2529.7 edgeCurve edge 1210 (1210) intersection
+end 2530.1 edgeCurve edge 1210 (1210) intersection ms 426 error 7.47e-11
+start 2530.1 edgeCurve edge 1200 (1200) intersection
+end 2530.8 edgeCurve edge 1200 (1200) intersection ms 643 error 2.61e-10
+start 2530.8 edgeCurve edge 1218 (1218) intersection
+end 2531.1 edgeCurve edge 1218 (1218) intersection ms 360 error 2.41e-10
+start 2531.1 edgeCurve edge 1612 (1612) spcurve
+end 2531.2 edgeCurve edge 1612 (1612) spcurve ms 91 error 5.03e-9
+start 2531.2 edgeCurve edge 1191 (1191) intersection
+end 2531.2 edgeCurve edge 1191 (1191) intersection ms 39 error 8.05e-9
+start 2531.2 edgeCurve edge 1022 (1022) intersection
+end 2532.8 edgeCurve edge 1022 (1022) intersection ms 1506 error 5.34e-9
+start 2532.8 edgeCurve edge 1192 (1192) spcurve
+end 2532.8 edgeCurve edge 1192 (1192) spcurve ms 67 error 2.38e-2
+start 2532.8 edgeCurve edge 1591 (1591) intersection
+end 2532.8 edgeCurve edge 1591 (1591) intersection ms 6 error 1.10e-11
+start 2532.8 edgeCurve edge 1202 (1202) intersection
+end 2533.1 edgeCurve edge 1202 (1202) intersection ms 321 error 2.90e-10
+start 2533.1 edgeCurve edge 1207 (1207) intersection
+end 2533.2 edgeCurve edge 1207 (1207) intersection ms 37 error 6.25e-10
+start 2533.2 edgeCurve edge 1206 (1206) spcurve
+end 2533.2 edgeCurve edge 1206 (1206) spcurve ms 13 error 6.43e-3
+start 2533.2 edgeCurve edge 1618 (1618) spcurve
+end 2533.2 edgeCurve edge 1618 (1618) spcurve ms 43 error 6.34e-9
+start 2533.2 edgeCurve edge 1610 (1610) intersection
+end 2533.4 edgeCurve edge 1610 (1610) intersection ms 110 error 1.05e-10
+start 2533.4 edgeCurve edge 1587 (1587) intersection
+end 2533.4 edgeCurve edge 1587 (1587) intersection ms 85 error 2.60e-10
+start 2533.4 edgeCurve edge 1589 (1589) intersection
+end 2533.5 edgeCurve edge 1589 (1589) intersection ms 46 error 5.31e-10
+start 2533.5 edgeCurve edge 10898 (10898) intersection
+end 2535.2 edgeCurve edge 10898 (10898) intersection ms 1736 error 7.03e-10
+start 2535.2 edgeCurve edge 1239 (1239) intersection
+end 2535.2 edgeCurve edge 1239 (1239) intersection ms 10 error 4.24e-9
+start 2535.2 edgeCurve edge 1368 (1368) intersection
+end 2536.2 edgeCurve edge 1368 (1368) intersection ms 973 error 6.59e-9
+start 2536.2 edgeCurve edge 1418 (1418) intersection
+end 2536.4 edgeCurve edge 1418 (1418) intersection ms 161 error 6.59e-9
+start 2536.4 edgeCurve edge 1419 (1419) intersection
+end 2536.6 edgeCurve edge 1419 (1419) intersection ms 194 error 5.52e-9
+start 2536.6 edgeCurve edge 1420 (1420) intersection
+end 2536.8 edgeCurve edge 1420 (1420) intersection ms 244 error 2.41e-10
+start 2536.8 edgeCurve edge 1337 (1337) intersection
+end 2536.8 edgeCurve edge 1337 (1337) intersection ms 6 error 2.14e-10
+start 2536.8 edgeCurve edge 1319 (1319) intersection
+end 2536.8 edgeCurve edge 1319 (1319) intersection ms 5 error 4.38e-10
+start 2536.8 edgeCurve edge 1316 (1316) intersection
+end 2536.8 edgeCurve edge 1316 (1316) intersection ms 9 error 9.41e-9
+start 2536.8 edgeCurve edge 1315 (1315) intersection
+end 2536.8 edgeCurve edge 1315 (1315) intersection ms 9 error 9.35e-9
+start 2536.8 edgeCurve edge 1318 (1318) intersection
+end 2536.8 edgeCurve edge 1318 (1318) intersection ms 5 error 3.49e-10
+start 2536.8 edgeCurve edge 1313 (1313) intersection
+end 2536.8 edgeCurve edge 1313 (1313) intersection ms 5 error 1.90e-10
+start 2536.8 edgeCurve edge 1295 (1295) intersection
+end 2536.8 edgeCurve edge 1295 (1295) intersection ms 6 error 7.78e-11
+start 2536.8 edgeCurve edge 1292 (1292) intersection
+end 2536.9 edgeCurve edge 1292 (1292) intersection ms 8 error 2.95e-9
+start 2536.9 edgeCurve edge 1291 (1291) intersection
+end 2536.9 edgeCurve edge 1291 (1291) intersection ms 10 error 2.92e-9
+start 2536.9 edgeCurve edge 1294 (1294) intersection
+end 2536.9 edgeCurve edge 1294 (1294) intersection ms 6 error 1.02e-10
+start 2536.9 edgeCurve edge 1289 (1289) intersection
+end 2536.9 edgeCurve edge 1289 (1289) intersection ms 6 error 3.61e-11
+start 2536.9 edgeCurve edge 1271 (1271) intersection
+end 2536.9 edgeCurve edge 1271 (1271) intersection ms 5 error 9.40e-11
+start 2536.9 edgeCurve edge 946 (946) intersection
+end 2537.3 edgeCurve edge 946 (946) intersection ms 387 error 5.42e-9
+start 2537.3 edgeCurve edge 945 (945) intersection
+end 2537.6 edgeCurve edge 945 (945) intersection ms 377 error 7.70e-11
+start 2537.6 edgeCurve edge 944 (944) intersection
+end 2538.0 edgeCurve edge 944 (944) intersection ms 309 error 6.26e-9
+start 2538.0 edgeCurve edge 1280 (1280) intersection
+end 2538.0 edgeCurve edge 1280 (1280) intersection ms 8 error 5.42e-9
+start 2538.0 edgeCurve edge 1279 (1279) intersection
+end 2538.0 edgeCurve edge 1279 (1279) intersection ms 9 error 5.22e-9
+start 2538.0 edgeCurve edge 1274 (1274) intersection
+end 2538.0 edgeCurve edge 1274 (1274) intersection ms 9 error 6.02e-9
+start 2538.0 edgeCurve edge 1273 (1273) intersection
+end 2538.0 edgeCurve edge 1273 (1273) intersection ms 14 error 5.73e-9
+start 2538.0 edgeCurve edge 1357 (1357) intersection
+end 2538.0 edgeCurve edge 1357 (1357) intersection ms 41 error 8.27e-9
+start 2538.0 edgeCurve edge 905 (905) intersection
+end 2538.4 edgeCurve edge 905 (905) intersection ms 338 error 4.98e-9
+start 2538.4 edgeCurve edge 906 (906) intersection
+end 2538.8 edgeCurve edge 906 (906) intersection ms 461 error 6.93e-9
+start 2538.8 edgeCurve edge 1341 (1341) intersection
+end 2538.9 edgeCurve edge 1341 (1341) intersection ms 21 error 2.32e-10
+start 2538.9 edgeCurve edge 955 (955) intersection
+end 2539.3 edgeCurve edge 955 (955) intersection ms 480 error 9.60e-9
+start 2539.3 edgeCurve edge 1241 (1241) intersection
+end 2539.4 edgeCurve edge 1241 (1241) intersection ms 24 error 9.64e-9
+start 2539.4 edgeCurve edge 1240 (1240) intersection
+end 2539.4 edgeCurve edge 1240 (1240) intersection ms 33 error 9.91e-9
+start 2539.4 edgeCurve edge 1237 (1237) intersection
+end 2539.4 edgeCurve edge 1237 (1237) intersection ms 29 error 9.67e-9
+start 2539.4 edgeCurve edge 1346 (1346) intersection
+end 2539.4 edgeCurve edge 1346 (1346) intersection ms 16 error 1.64e-11
+start 2539.4 edgeCurve edge 1347 (1347) intersection
+end 2539.6 edgeCurve edge 1347 (1347) intersection ms 133 error 7.06e-9
+start 2539.6 edgeCurve edge 1417 (1417) intersection
+end 2541.4 edgeCurve edge 1417 (1417) intersection ms 1795 error 2.08e-10
+start 2541.4 edgeCurve edge 1479 (1479) intersection
+end 2551.7 edgeCurve edge 1479 (1479) intersection ms 10296 error 1.02e-8
+start 2551.7 edgeCurve edge 1476 (1476) spcurve
+end 2551.7 edgeCurve edge 1476 (1476) spcurve ms 72 error 2.93e-9
+start 2551.7 edgeCurve edge 1354 (1354) intersection
+end 2551.7 edgeCurve edge 1354 (1354) intersection ms 12 error 3.96e-10
+start 2551.7 edgeCurve edge 1355 (1355) intersection
+end 2551.8 edgeCurve edge 1355 (1355) intersection ms 21 error 8.61e-9
+start 2551.8 edgeCurve edge 1243 (1243) intersection
+end 2551.8 edgeCurve edge 1243 (1243) intersection ms 8 error 2.94e-9
+start 2551.8 edgeCurve edge 1352 (1352) intersection
+end 2551.8 edgeCurve edge 1352 (1352) intersection ms 13 error 3.89e-10
+start 2551.8 edgeCurve edge 1351 (1351) intersection
+end 2551.8 edgeCurve edge 1351 (1351) intersection ms 22 error 6.59e-9
+start 2551.8 edgeCurve edge 1236 (1236) intersection
+end 2551.8 edgeCurve edge 1236 (1236) intersection ms 8 error 4.32e-9
+start 2551.8 edgeCurve edge 1342 (1342) intersection
+end 2551.8 edgeCurve edge 1342 (1342) intersection ms 19 error 6.67e-9
+start 2551.8 edgeCurve edge 1348 (1348) intersection
+end 2551.8 edgeCurve edge 1348 (1348) intersection ms 9 error 3.68e-9
+start 2551.8 edgeCurve edge 1350 (1350) intersection
+end 2551.9 edgeCurve edge 1350 (1350) intersection ms 10 error 3.63e-9
+start 2551.9 edgeCurve edge 907 (907) spcurve
+end 2551.9 edgeCurve edge 907 (907) spcurve ms 32 error 1.83e-11
+start 2551.9 edgeCurve edge 1020 (1020) intersection
+end 2552.2 edgeCurve edge 1020 (1020) intersection ms 339 error 3.83e-10
+start 2552.2 edgeCurve edge 1019 (1019) intersection
+end 2552.5 edgeCurve edge 1019 (1019) intersection ms 283 error 5.44e-9
+start 2552.5 edgeCurve edge 1018 (1018) intersection
+end 2552.8 edgeCurve edge 1018 (1018) intersection ms 331 error 5.59e-10
+start 2552.8 edgeCurve edge 1345 (1345) intersection
+end 2552.9 edgeCurve edge 1345 (1345) intersection ms 12 error 2.50e-10
+start 2552.9 edgeCurve edge 1344 (1344) intersection
+end 2552.9 edgeCurve edge 1344 (1344) intersection ms 18 error 9.03e-9
+start 2552.9 edgeCurve edge 1365 (1365) spcurve
+end 2552.9 edgeCurve edge 1365 (1365) spcurve ms 45 error 3.16e-9
+start 2552.9 edgeCurve edge 1366 (1366) intersection
+end 2554.8 edgeCurve edge 1366 (1366) intersection ms 1909 error 5.63e-9
+start 2554.8 edgeCurve edge 926 (926) intersection
+end 2555.1 edgeCurve edge 926 (926) intersection ms 313 error 8.54e-9
+start 2555.1 edgeCurve edge 925 (925) intersection
+end 2555.5 edgeCurve edge 925 (925) intersection ms 390 error 8.11e-11
+start 2555.5 edgeCurve edge 923 (923) intersection
+end 2555.9 edgeCurve edge 923 (923) intersection ms 378 error 1.85e-10
+start 2555.9 edgeCurve edge 1437 (1437) intersection
+end 2556.2 edgeCurve edge 1437 (1437) intersection ms 275 error 5.93e-9
+start 2556.2 edgeCurve edge 1434 (1434) intersection
+end 2556.4 edgeCurve edge 1434 (1434) intersection ms 242 error 1.12e-10
+start 2556.4 edgeCurve edge 1436 (1436) intersection
+end 2556.8 edgeCurve edge 1436 (1436) intersection ms 335 error 3.11e-10
+start 2556.8 edgeCurve edge 1439 (1439) intersection
+end 2557.0 edgeCurve edge 1439 (1439) intersection ms 264 error 9.09e-9
+start 2557.0 edgeCurve edge 1438 (1438) intersection
+end 2557.3 edgeCurve edge 1438 (1438) intersection ms 260 error 3.11e-10
+start 2557.3 edgeCurve edge 1441 (1441) intersection
+end 2557.5 edgeCurve edge 1441 (1441) intersection ms 228 error 4.94e-9
+start 2557.5 edgeCurve edge 1440 (1440) intersection
+end 2557.8 edgeCurve edge 1440 (1440) intersection ms 255 error 1.51e-10
+start 2557.8 edgeCurve edge 1443 (1443) intersection
+end 2558.0 edgeCurve edge 1443 (1443) intersection ms 247 error 6.36e-9
+start 2558.0 edgeCurve edge 1442 (1442) intersection
+end 2558.3 edgeCurve edge 1442 (1442) intersection ms 262 error 1.66e-10
+start 2558.3 edgeCurve edge 1445 (1445) intersection
+end 2558.5 edgeCurve edge 1445 (1445) intersection ms 252 error 4.79e-9
+start 2558.5 edgeCurve edge 1444 (1444) intersection
+end 2558.8 edgeCurve edge 1444 (1444) intersection ms 253 error 1.24e-10
+start 2558.8 edgeCurve edge 1447 (1447) intersection
+end 2559.1 edgeCurve edge 1447 (1447) intersection ms 314 error 4.59e-9
+start 2559.1 edgeCurve edge 1446 (1446) intersection
+end 2559.8 edgeCurve edge 1446 (1446) intersection ms 729 error 2.40e-11
+start 2559.8 edgeCurve edge 1449 (1449) intersection
+end 2560.1 edgeCurve edge 1449 (1449) intersection ms 248 error 8.39e-9
+start 2560.1 edgeCurve edge 1448 (1448) intersection
+end 2560.3 edgeCurve edge 1448 (1448) intersection ms 278 error 2.00e-11
+start 2560.3 edgeCurve edge 1451 (1451) intersection
+end 2560.6 edgeCurve edge 1451 (1451) intersection ms 270 error 5.83e-9
+start 2560.6 edgeCurve edge 1450 (1450) intersection
+end 2560.9 edgeCurve edge 1450 (1450) intersection ms 270 error 2.90e-11
+start 2560.9 edgeCurve edge 1453 (1453) intersection
+end 2561.1 edgeCurve edge 1453 (1453) intersection ms 232 error 6.38e-9
+start 2561.1 edgeCurve edge 1452 (1452) intersection
+end 2561.4 edgeCurve edge 1452 (1452) intersection ms 296 error 7.44e-11
+start 2561.4 edgeCurve edge 1455 (1455) intersection
+end 2561.7 edgeCurve edge 1455 (1455) intersection ms 260 error 5.47e-9
+start 2561.7 edgeCurve edge 1454 (1454) intersection
+end 2562.0 edgeCurve edge 1454 (1454) intersection ms 326 error 8.95e-11
+start 2562.0 edgeCurve edge 1457 (1457) intersection
+end 2562.3 edgeCurve edge 1457 (1457) intersection ms 256 error 4.66e-9
+start 2562.3 edgeCurve edge 1456 (1456) intersection
+end 2562.5 edgeCurve edge 1456 (1456) intersection ms 273 error 9.01e-11
+start 2562.5 edgeCurve edge 1459 (1459) intersection
+end 2562.8 edgeCurve edge 1459 (1459) intersection ms 242 error 5.05e-9
+start 2562.8 edgeCurve edge 1458 (1458) intersection
+end 2563.0 edgeCurve edge 1458 (1458) intersection ms 268 error 5.96e-11
+start 2563.0 edgeCurve edge 1461 (1461) intersection
+end 2563.3 edgeCurve edge 1461 (1461) intersection ms 242 error 4.39e-9
+start 2563.3 edgeCurve edge 1460 (1460) intersection
+end 2564.0 edgeCurve edge 1460 (1460) intersection ms 698 error 1.44e-11
+start 2564.0 edgeCurve edge 1463 (1463) intersection
+end 2564.2 edgeCurve edge 1463 (1463) intersection ms 233 error 4.37e-9
+start 2564.2 edgeCurve edge 1462 (1462) intersection
+end 2565.3 edgeCurve edge 1462 (1462) intersection ms 1110 error 1.39e-11
+start 2565.3 edgeCurve edge 1464 (1464) intersection
+end 2565.7 edgeCurve edge 1464 (1464) intersection ms 324 error 6.85e-9
+start 2565.7 edgeCurve edge 11387 (11387) spcurve
+end 2565.7 edgeCurve edge 11387 (11387) spcurve ms 14 error 9.20e-9
+start 2565.7 edgeCurve edge 11251 (11251) spcurve
+end 2565.7 edgeCurve edge 11251 (11251) spcurve ms 4 error 4.84e-9
+start 2565.7 edgeCurve edge 11657 (11657) spcurve
+end 2565.7 edgeCurve edge 11657 (11657) spcurve ms 3 error 7.08e-17
+start 2565.7 edgeCurve edge 11009 (11009) intersection
+end 2567.3 edgeCurve edge 11009 (11009) intersection ms 1610 error 1.29e-11
+start 2567.3 edgeCurve edge 11670 (11670) intersection
+end 2569.6 edgeCurve edge 11670 (11670) intersection ms 2312 error 6.38e-10
+start 2569.6 edgeCurve edge 11256 (11256) intersection
+end 2569.6 edgeCurve edge 11256 (11256) intersection ms 10 error 4.24e-9
+start 2569.6 edgeCurve edge 11264 (11264) intersection
+end 2570.7 edgeCurve edge 11264 (11264) intersection ms 1128 error 6.59e-9
+start 2570.7 edgeCurve edge 11260 (11260) intersection
+end 2571.0 edgeCurve edge 11260 (11260) intersection ms 247 error 6.59e-9
+start 2571.0 edgeCurve edge 11257 (11257) intersection
+end 2571.2 edgeCurve edge 11257 (11257) intersection ms 201 error 5.52e-9
+start 2571.2 edgeCurve edge 11255 (11255) intersection
+end 2571.5 edgeCurve edge 11255 (11255) intersection ms 297 error 2.41e-10
+start 2571.5 edgeCurve edge 11518 (11518) intersection
+end 2571.5 edgeCurve edge 11518 (11518) intersection ms 8 error 2.14e-10
+start 2571.5 edgeCurve edge 11499 (11499) intersection
+end 2571.5 edgeCurve edge 11499 (11499) intersection ms 7 error 4.38e-10
+start 2571.5 edgeCurve edge 11496 (11496) intersection
+end 2571.5 edgeCurve edge 11496 (11496) intersection ms 11 error 9.41e-9
+start 2571.5 edgeCurve edge 11358 (11358) intersection
+end 2571.5 edgeCurve edge 11358 (11358) intersection ms 11 error 9.35e-9
+start 2571.5 edgeCurve edge 11366 (11366) intersection
+end 2571.5 edgeCurve edge 11366 (11366) intersection ms 5 error 3.49e-10
+start 2571.5 edgeCurve edge 11248 (11248) intersection
+end 2572.2 edgeCurve edge 11248 (11248) intersection ms 656 error 6.56e-9
+start 2572.2 edgeCurve edge 11148 (11148) intersection
+end 2572.3 edgeCurve edge 11148 (11148) intersection ms 126 error 7.10e-10
+start 2572.3 edgeCurve edge 11149 (11149) intersection
+end 2572.4 edgeCurve edge 11149 (11149) intersection ms 98 error 2.87e-10
+start 2572.4 edgeCurve edge 11080 (11080) intersection
+end 2572.8 edgeCurve edge 11080 (11080) intersection ms 388 error 2.79e-9
+start 2572.8 edgeCurve edge 11078 (11078) intersection
+end 2573.2 edgeCurve edge 11078 (11078) intersection ms 372 error 7.18e-9
+start 2573.2 edgeCurve edge 11079 (11079) intersection
+end 2574.8 edgeCurve edge 11079 (11079) intersection ms 1604 error 6.39e-9
+start 2574.8 edgeCurve edge 11077 (11077) intersection
+end 2574.8 edgeCurve edge 11077 (11077) intersection ms 82 error 4.96e-11
+start 2574.8 edgeCurve edge 11068 (11068) intersection
+end 2574.9 edgeCurve edge 11068 (11068) intersection ms 25 error 1.83e-9
+start 2574.9 edgeCurve edge 11138 (11138) intersection
+end 2574.9 edgeCurve edge 11138 (11138) intersection ms 17 error 3.92e-10
+start 2574.9 edgeCurve edge 11775 (11775) intersection
+end 2574.9 edgeCurve edge 11775 (11775) intersection ms 17 error 8.18e-9
+start 2574.9 edgeCurve edge 11772 (11772) intersection
+end 2574.9 edgeCurve edge 11772 (11772) intersection ms 7 error 3.95e-12
+start 2574.9 edgeCurve edge 11881 (11881) intersection
+end 2574.9 edgeCurve edge 11881 (11881) intersection ms 16 error 1.51e-11
+start 2574.9 edgeCurve edge 11956 (11956) intersection
+end 2574.9 edgeCurve edge 11956 (11956) intersection ms 6 error 3.20e-10
+start 2574.9 edgeCurve edge 11920 (11920) intersection
+end 2574.9 edgeCurve edge 11920 (11920) intersection ms 6 error 4.21e-10
+start 2574.9 edgeCurve edge 11958 (11958) intersection
+end 2575.0 edgeCurve edge 11958 (11958) intersection ms 32 error 4.13e-9
+start 2575.0 edgeCurve edge 11858 (11858) intersection
+end 2575.0 edgeCurve edge 11858 (11858) intersection ms 38 error 3.02e-9
+start 2575.0 edgeCurve edge 11867 (11867) intersection
+end 2575.3 edgeCurve edge 11867 (11867) intersection ms 317 error 6.85e-9
+start 2575.3 edgeCurve edge 11837 (11837) intersection
+end 2575.3 edgeCurve edge 11837 (11837) intersection ms 7 error 9.64e-9
+start 2575.3 edgeCurve edge 11846 (11846) intersection
+end 2575.7 edgeCurve edge 11846 (11846) intersection ms 392 error 6.26e-9
+start 2575.7 edgeCurve edge 11848 (11848) intersection
+end 2576.0 edgeCurve edge 11848 (11848) intersection ms 314 error 2.91e-10
+start 2576.0 edgeCurve edge 11850 (11850) intersection
+end 2576.4 edgeCurve edge 11850 (11850) intersection ms 393 error 4.23e-9
+start 2576.4 edgeCurve edge 11938 (11938) intersection
+end 2576.4 edgeCurve edge 11938 (11938) intersection ms 9 error 3.44e-10
+start 2576.4 edgeCurve edge 11940 (11940) intersection
+end 2576.5 edgeCurve edge 11940 (11940) intersection ms 46 error 5.00e-10
+start 2576.5 edgeCurve edge 10970 (10970) intersection
+end 2578.8 edgeCurve edge 10970 (10970) intersection ms 2308 error 2.95e-12
+start 2578.8 edgeCurve edge 11141 (11141) intersection
+end 2578.9 edgeCurve edge 11141 (11141) intersection ms 70 error 3.19e-11
+start 2578.9 edgeCurve edge 9594 (9594) intersection
+end 2581.1 edgeCurve edge 9594 (9594) intersection ms 2240 error 2.95e-12
+start 2581.1 edgeCurve edge 894 (894) intersection
+end 2581.5 edgeCurve edge 894 (894) intersection ms 439 error 6.67e-10
+start 2581.5 edgeCurve edge 1072 (1072) intersection
+end 2582.3 edgeCurve edge 1072 (1072) intersection ms 784 error 7.77e-13
+start 2582.3 edgeCurve edge 912 (912) intersection
+end 2582.7 edgeCurve edge 912 (912) intersection ms 375 error 7.42e-9
+start 2582.7 edgeCurve edge 1073 (1073) spcurve
+end 2582.7 edgeCurve edge 1073 (1073) spcurve ms 4 error 6.37e-10
+start 2582.7 edgeCurve edge 9542 (9542) spcurve
+end 2582.7 edgeCurve edge 9542 (9542) spcurve ms 5 error 5.68e-9
+start 2582.7 edgeCurve edge 1431 (1431) spcurve
+end 2582.7 edgeCurve edge 1431 (1431) spcurve ms 1 error 0.00e+0
+start 2582.7 edgeCurve edge 1373 (1373) spcurve
+end 2582.7 edgeCurve edge 1373 (1373) spcurve ms 3 error 9.03e-9
+start 2582.7 edgeCurve edge 1085 (1085) intersection
+end 2585.0 edgeCurve edge 1085 (1085) intersection ms 2259 error 8.37e-9
+start 2585.0 edgeCurve edge 1527 (1527) intersection
+end 2586.8 edgeCurve edge 1527 (1527) intersection ms 1855 error 3.06e-9
+start 2586.8 edgeCurve edge 898 (898) spcurve
+end 2586.9 edgeCurve edge 898 (898) spcurve ms 42 error 1.73e-16
+start 2586.9 edgeCurve edge 901 (901) spcurve
+end 2586.9 edgeCurve edge 901 (901) spcurve ms 61 error 3.86e-9
+start 2586.9 edgeCurve edge 7222 (7222) intersection
+end 2587.3 edgeCurve edge 7222 (7222) intersection ms 355 error 9.98e-12
+start 2587.3 edgeCurve edge 7227 (7227) intersection
+end 2587.7 edgeCurve edge 7227 (7227) intersection ms 359 error 5.49e-9
+start 2587.7 edgeCurve edge 8599 (8599) intersection
+end 2588.0 edgeCurve edge 8599 (8599) intersection ms 309 error 1.04e-12
+start 2588.0 edgeCurve edge 7260 (7260) intersection
+end 2588.3 edgeCurve edge 7260 (7260) intersection ms 296 error 9.90e-9
+start 2588.3 edgeCurve edge 7264 (7264) intersection
+end 2588.5 edgeCurve edge 7264 (7264) intersection ms 267 error 1.62e-12
+start 2588.5 edgeCurve edge 7268 (7268) intersection
+end 2588.8 edgeCurve edge 7268 (7268) intersection ms 320 error 6.85e-9
+start 2588.8 edgeCurve edge 8557 (8557) intersection
+end 2588.9 edgeCurve edge 8557 (8557) intersection ms 5 error 4.55e-10
+start 2588.9 edgeCurve edge 7443 (7443) intersection
+end 2588.9 edgeCurve edge 7443 (7443) intersection ms 7 error 9.00e-13
+start 2588.9 edgeCurve edge 8685 (8685) intersection
+end 2589.2 edgeCurve edge 8685 (8685) intersection ms 343 error 4.42e-12
+start 2589.2 edgeCurve edge 7299 (7299) intersection
+end 2589.5 edgeCurve edge 7299 (7299) intersection ms 325 error 6.26e-9
+start 2589.5 edgeCurve edge 7282 (7282) intersection
+end 2589.5 edgeCurve edge 7282 (7282) intersection ms 6 error 9.64e-9
+start 2589.5 edgeCurve edge 7304 (7304) intersection
+end 2589.9 edgeCurve edge 7304 (7304) intersection ms 317 error 2.91e-10
+start 2589.9 edgeCurve edge 7309 (7309) intersection
+end 2590.3 edgeCurve edge 7309 (7309) intersection ms 461 error 4.23e-9
+start 2590.3 edgeCurve edge 7314 (7314) intersection
+end 2590.7 edgeCurve edge 7314 (7314) intersection ms 431 error 5.59e-12
+start 2590.7 edgeCurve edge 7332 (7332) intersection
+end 2591.2 edgeCurve edge 7332 (7332) intersection ms 431 error 2.03e-9
+start 2591.2 edgeCurve edge 957 (957) intersection
+end 2593.7 edgeCurve edge 957 (957) intersection ms 2519 error 1.50e-10
+start 2593.7 edgeCurve edge 1682 (1682) intersection
+end 2594.0 edgeCurve edge 1682 (1682) intersection ms 301 error 4.37e-11
+start 2594.0 edgeCurve edge 1172 (1172) intersection
+end 2594.0 edgeCurve edge 1172 (1172) intersection ms 27 error 1.64e-12
+start 2594.0 edgeCurve edge 1684 (1684) intersection
+end 2594.1 edgeCurve edge 1684 (1684) intersection ms 88 error 9.51e-10
+start 2594.1 edgeCurve edge 1070 (1070) intersection
+end 2594.1 edgeCurve edge 1070 (1070) intersection ms 32 error 8.85e-10
+start 2594.1 edgeCurve edge 1080 (1080) intersection
+end 2594.5 edgeCurve edge 1080 (1080) intersection ms 340 error 1.07e-9
+start 2594.5 edgeCurve edge 1681 (1681) intersection
+end 2594.5 edgeCurve edge 1681 (1681) intersection ms 44 error 2.38e-9
+start 2594.5 edgeCurve edge 913 (913) intersection
+end 2596.9 edgeCurve edge 913 (913) intersection ms 2356 error 8.63e-10
+start 2596.9 edgeCurve edge 1064 (1064) intersection
+end 2597.0 edgeCurve edge 1064 (1064) intersection ms 159 error 5.95e-11
+start 2597.0 edgeCurve edge 911 (911) intersection
+end 2600.1 edgeCurve edge 911 (911) intersection ms 3047 error 3.28e-11
+start 2600.1 edgeCurve edge 1065 (1065) spcurve
+end 2600.1 edgeCurve edge 1065 (1065) spcurve ms 38 error 6.26e-9
+start 2600.1 edgeCurve edge 1338 (1338) intersection
+end 2600.4 edgeCurve edge 1338 (1338) intersection ms 308 error 7.58e-9
+start 2600.4 edgeCurve edge 1168 (1168) intersection
+end 2602.0 edgeCurve edge 1168 (1168) intersection ms 1596 error 7.81e-9
+start 2602.0 edgeCurve edge 1090 (1090) intersection
+end 2602.0 edgeCurve edge 1090 (1090) intersection ms 18 error 2.09e-11
+start 2602.0 edgeCurve edge 1164 (1164) intersection
+end 2602.1 edgeCurve edge 1164 (1164) intersection ms 8 error 1.49e-13
+start 2602.1 edgeCurve edge 1013 (1013) intersection
+end 2603.5 edgeCurve edge 1013 (1013) intersection ms 1441 error 1.19e-9
+start 2603.5 edgeCurve edge 1008 (1008) intersection
+end 2605.0 edgeCurve edge 1008 (1008) intersection ms 1458 error 1.36e-12
+start 2605.0 edgeCurve edge 1157 (1157) intersection
+end 2605.0 edgeCurve edge 1157 (1157) intersection ms 29 error 8.63e-12
+start 2605.0 edgeCurve edge 1671 (1671) intersection
+end 2605.1 edgeCurve edge 1671 (1671) intersection ms 94 error 3.94e-10
+start 2605.1 edgeCurve edge 1668 (1668) intersection
+end 2605.1 edgeCurve edge 1668 (1668) intersection ms 62 error 1.85e-11
+start 2605.1 edgeCurve edge 1672 (1672) spcurve
+end 2605.1 edgeCurve edge 1672 (1672) spcurve ms 5 error 2.21e-9
+start 2605.1 edgeCurve edge 1116 (1116) intersection
+end 2605.2 edgeCurve edge 1116 (1116) intersection ms 6 error 9.64e-12
+start 2605.2 edgeCurve edge 1158 (1158) intersection
+end 2605.3 edgeCurve edge 1158 (1158) intersection ms 170 error 7.40e-12
+start 2605.3 edgeCurve edge 1108 (1108) intersection
+end 2605.3 edgeCurve edge 1108 (1108) intersection ms 8 error 1.01e-10
+start 2605.3 edgeCurve edge 1148 (1148) intersection
+end 2605.4 edgeCurve edge 1148 (1148) intersection ms 52 error 1.43e-10
+start 2605.4 edgeCurve edge 1149 (1149) intersection
+end 2605.4 edgeCurve edge 1149 (1149) intersection ms 25 error 1.14e-11
+start 2605.4 edgeCurve edge 1098 (1098) intersection
+end 2605.5 edgeCurve edge 1098 (1098) intersection ms 84 error 3.42e-11
+start 2605.5 edgeCurve edge 1099 (1099) intersection
+end 2605.6 edgeCurve edge 1099 (1099) intersection ms 153 error 3.61e-11
+start 2605.6 edgeCurve edge 1093 (1093) intersection
+end 2606.9 edgeCurve edge 1093 (1093) intersection ms 1232 error 1.81e-11
+start 2606.9 edgeCurve edge 1667 (1667) spcurve
+end 2606.9 edgeCurve edge 1667 (1667) spcurve ms 5 error 2.21e-9
+start 2606.9 edgeCurve edge 1010 (1010) intersection
+end 2607.2 edgeCurve edge 1010 (1010) intersection ms 293 error 6.27e-9
+start 2607.2 edgeCurve edge 1009 (1009) intersection
+end 2607.5 edgeCurve edge 1009 (1009) intersection ms 349 error 4.27e-10
+start 2607.5 edgeCurve edge 1011 (1011) intersection
+end 2607.9 edgeCurve edge 1011 (1011) intersection ms 391 error 1.74e-10
+start 2607.9 edgeCurve edge 1006 (1006) intersection
+end 2608.3 edgeCurve edge 1006 (1006) intersection ms 336 error 2.62e-11
+start 2608.3 edgeCurve edge 1153 (1153) intersection
+end 2608.3 edgeCurve edge 1153 (1153) intersection ms 5 error 2.18e-11
+start 2608.3 edgeCurve edge 1152 (1152) intersection
+end 2608.3 edgeCurve edge 1152 (1152) intersection ms 7 error 4.37e-12
+start 2608.3 edgeCurve edge 1663 (1663) intersection
+end 2608.3 edgeCurve edge 1663 (1663) intersection ms 9 error 2.67e-9
+start 2608.3 edgeCurve edge 1104 (1104) intersection
+end 2608.3 edgeCurve edge 1104 (1104) intersection ms 6 error 1.69e-10
+start 2608.3 edgeCurve edge 1012 (1012) intersection
+end 2608.7 edgeCurve edge 1012 (1012) intersection ms 380 error 2.05e-11
+start 2608.7 edgeCurve edge 1007 (1007) intersection
+end 2610.3 edgeCurve edge 1007 (1007) intersection ms 1662 error 2.05e-11
+start 2610.3 edgeCurve edge 1673 (1673) intersection
+end 2610.3 edgeCurve edge 1673 (1673) intersection ms 17 error 2.07e-11
+start 2610.3 edgeCurve edge 914 (914) intersection
+end 2612.9 edgeCurve edge 914 (914) intersection ms 2550 error 2.23e-11
+start 2612.9 edgeCurve edge 915 (915) intersection
+end 2615.2 edgeCurve edge 915 (915) intersection ms 2349 error 2.32e-10
+start 2615.2 edgeCurve edge 916 (916) intersection
+end 2615.7 edgeCurve edge 916 (916) intersection ms 451 error 7.73e-9
+start 2615.7 edgeCurve edge 9560 (9560) intersection
+end 2615.7 edgeCurve edge 9560 (9560) intersection ms 5 error 4.49e-9
+start 2615.7 edgeCurve edge 1372 (1372) intersection
+end 2617.0 edgeCurve edge 1372 (1372) intersection ms 1318 error 9.78e-9
+start 2617.0 edgeCurve edge 1471 (1471) intersection
+end 2617.4 edgeCurve edge 1471 (1471) intersection ms 346 error 2.04e-9
+start 2617.4 edgeCurve edge 1371 (1371) intersection
+end 2628.8 edgeCurve edge 1371 (1371) intersection ms 11463 error 7.51e-9
+start 2628.8 edgeCurve edge 1364 (1364) intersection
+end 2639.1 edgeCurve edge 1364 (1364) intersection ms 10292 error 6.99e-9
+start 2639.1 edgeCurve edge 1425 (1425) spcurve
+end 2639.1 edgeCurve edge 1425 (1425) spcurve ms 16 error 9.94e-9
+start 2639.1 edgeCurve edge 11250 (11250) spcurve
+end 2639.1 edgeCurve edge 11250 (11250) spcurve ms 15 error 9.00e-9
+start 2639.1 edgeCurve edge 11527 (11527) intersection
+end 2639.5 edgeCurve edge 11527 (11527) intersection ms 310 error 4.98e-9
+start 2639.5 edgeCurve edge 11524 (11524) intersection
+end 2639.8 edgeCurve edge 11524 (11524) intersection ms 367 error 6.93e-9
+start 2639.8 edgeCurve edge 11420 (11420) intersection
+end 2639.8 edgeCurve edge 11420 (11420) intersection ms 29 error 2.32e-10
+start 2639.8 edgeCurve edge 11421 (11421) intersection
+end 2640.3 edgeCurve edge 11421 (11421) intersection ms 415 error 9.60e-9
+start 2640.3 edgeCurve edge 11422 (11422) intersection
+end 2640.3 edgeCurve edge 11422 (11422) intersection ms 19 error 9.64e-9
+start 2640.3 edgeCurve edge 11281 (11281) intersection
+end 2640.3 edgeCurve edge 11281 (11281) intersection ms 31 error 9.91e-9
+start 2640.3 edgeCurve edge 11419 (11419) intersection
+end 2640.3 edgeCurve edge 11419 (11419) intersection ms 23 error 9.67e-9
+start 2640.3 edgeCurve edge 11254 (11254) intersection
+end 2640.4 edgeCurve edge 11254 (11254) intersection ms 13 error 1.64e-11
+start 2640.4 edgeCurve edge 11259 (11259) intersection
+end 2640.4 edgeCurve edge 11259 (11259) intersection ms 95 error 7.06e-9
+start 2640.4 edgeCurve edge 11263 (11263) intersection
+end 2642.1 edgeCurve edge 11263 (11263) intersection ms 1665 error 2.08e-10
+start 2642.1 edgeCurve edge 11416 (11416) intersection
+end 2654.1 edgeCurve edge 11416 (11416) intersection ms 11994 error 1.02e-8
+start 2654.1 edgeCurve edge 11530 (11530) spcurve
+end 2654.1 edgeCurve edge 11530 (11530) spcurve ms 34 error 2.89e-9
+start 2654.1 edgeCurve edge 11330 (11330) intersection
+end 2654.1 edgeCurve edge 11330 (11330) intersection ms 7 error 2.89e-11
+start 2654.1 edgeCurve edge 11460 (11460) intersection
+end 2654.2 edgeCurve edge 11460 (11460) intersection ms 9 error 5.42e-9
+start 2654.2 edgeCurve edge 11463 (11463) intersection
+end 2654.2 edgeCurve edge 11463 (11463) intersection ms 7 error 3.33e-11
+start 2654.2 edgeCurve edge 11322 (11322) intersection
+end 2654.2 edgeCurve edge 11322 (11322) intersection ms 8 error 5.22e-9
+start 2654.2 edgeCurve edge 11454 (11454) intersection
+end 2654.2 edgeCurve edge 11454 (11454) intersection ms 9 error 6.02e-9
+start 2654.2 edgeCurve edge 11458 (11458) intersection
+end 2654.2 edgeCurve edge 11458 (11458) intersection ms 5 error 1.11e-10
+start 2654.2 edgeCurve edge 11311 (11311) intersection
+end 2654.2 edgeCurve edge 11311 (11311) intersection ms 5 error 1.03e-10
+start 2654.2 edgeCurve edge 11446 (11446) intersection
+end 2654.2 edgeCurve edge 11446 (11446) intersection ms 4 error 8.29e-11
+start 2654.2 edgeCurve edge 11439 (11439) intersection
+end 2654.2 edgeCurve edge 11439 (11439) intersection ms 4 error 1.01e-10
+start 2654.2 edgeCurve edge 11438 (11438) intersection
+end 2654.7 edgeCurve edge 11438 (11438) intersection ms 455 error 5.00e-9
+start 2654.7 edgeCurve edge 11441 (11441) intersection
+end 2655.1 edgeCurve edge 11441 (11441) intersection ms 402 error 1.04e-10
+start 2655.1 edgeCurve edge 11443 (11443) intersection
+end 2655.4 edgeCurve edge 11443 (11443) intersection ms 389 error 4.58e-9
+start 2655.4 edgeCurve edge 11448 (11448) intersection
+end 2655.5 edgeCurve edge 11448 (11448) intersection ms 31 error 4.37e-9
+start 2655.5 edgeCurve edge 11442 (11442) intersection
+end 2655.5 edgeCurve edge 11442 (11442) intersection ms 10 error 3.14e-9
+start 2655.5 edgeCurve edge 11303 (11303) intersection
+end 2655.5 edgeCurve edge 11303 (11303) intersection ms 10 error 3.12e-9
+start 2655.5 edgeCurve edge 11310 (11310) intersection
+end 2655.5 edgeCurve edge 11310 (11310) intersection ms 8 error 4.28e-9
+start 2655.5 edgeCurve edge 11315 (11315) intersection
+end 2655.5 edgeCurve edge 11315 (11315) intersection ms 8 error 5.73e-9
+start 2655.5 edgeCurve edge 11451 (11451) intersection
+end 2655.5 edgeCurve edge 11451 (11451) intersection ms 5 error 9.40e-11
+start 2655.5 edgeCurve edge 11318 (11318) intersection
+end 2655.5 edgeCurve edge 11318 (11318) intersection ms 5 error 8.78e-11
+start 2655.5 edgeCurve edge 11453 (11453) intersection
+end 2655.8 edgeCurve edge 11453 (11453) intersection ms 324 error 7.70e-11
+start 2655.8 edgeCurve edge 11455 (11455) intersection
+end 2656.2 edgeCurve edge 11455 (11455) intersection ms 348 error 6.26e-9
+start 2656.2 edgeCurve edge 11468 (11468) intersection
+end 2656.6 edgeCurve edge 11468 (11468) intersection ms 413 error 3.18e-11
+start 2656.6 edgeCurve edge 11466 (11466) intersection
+end 2656.6 edgeCurve edge 11466 (11466) intersection ms 9 error 8.44e-9
+start 2656.6 edgeCurve edge 11327 (11327) intersection
+end 2656.6 edgeCurve edge 11327 (11327) intersection ms 8 error 7.88e-9
+start 2656.6 edgeCurve edge 11323 (11323) intersection
+end 2656.6 edgeCurve edge 11323 (11323) intersection ms 5 error 3.24e-11
+start 2656.6 edgeCurve edge 11470 (11470) intersection
+end 2656.6 edgeCurve edge 11470 (11470) intersection ms 7 error 3.61e-11
+start 2656.6 edgeCurve edge 11335 (11335) intersection
+end 2656.6 edgeCurve edge 11335 (11335) intersection ms 6 error 1.95e-11
+start 2656.6 edgeCurve edge 11475 (11475) intersection
+end 2656.6 edgeCurve edge 11475 (11475) intersection ms 7 error 7.78e-11
+start 2656.6 edgeCurve edge 11342 (11342) intersection
+end 2656.7 edgeCurve edge 11342 (11342) intersection ms 6 error 1.02e-10
+start 2656.7 edgeCurve edge 11472 (11472) intersection
+end 2656.7 edgeCurve edge 11472 (11472) intersection ms 9 error 2.95e-9
+start 2656.7 edgeCurve edge 11474 (11474) intersection
+end 2657.1 edgeCurve edge 11474 (11474) intersection ms 402 error 4.50e-9
+start 2657.1 edgeCurve edge 11477 (11477) intersection
+end 2657.5 edgeCurve edge 11477 (11477) intersection ms 417 error 1.15e-10
+start 2657.5 edgeCurve edge 11479 (11479) intersection
+end 2657.8 edgeCurve edge 11479 (11479) intersection ms 329 error 4.74e-9
+start 2657.8 edgeCurve edge 11484 (11484) intersection
+end 2657.8 edgeCurve edge 11484 (11484) intersection ms 9 error 5.84e-9
+start 2657.8 edgeCurve edge 11478 (11478) intersection
+end 2657.8 edgeCurve edge 11478 (11478) intersection ms 10 error 3.59e-9
+start 2657.8 edgeCurve edge 11339 (11339) intersection
+end 2657.8 edgeCurve edge 11339 (11339) intersection ms 9 error 3.53e-9
+start 2657.8 edgeCurve edge 11346 (11346) intersection
+end 2657.9 edgeCurve edge 11346 (11346) intersection ms 10 error 5.42e-9
+start 2657.9 edgeCurve edge 11347 (11347) intersection
+end 2657.9 edgeCurve edge 11347 (11347) intersection ms 5 error 2.11e-10
+start 2657.9 edgeCurve edge 11482 (11482) intersection
+end 2657.9 edgeCurve edge 11482 (11482) intersection ms 7 error 3.59e-11
+start 2657.9 edgeCurve edge 11494 (11494) intersection
+end 2657.9 edgeCurve edge 11494 (11494) intersection ms 6 error 1.90e-10
+start 2657.9 edgeCurve edge 11490 (11490) intersection
+end 2657.9 edgeCurve edge 11490 (11490) intersection ms 10 error 3.48e-9
+start 2657.9 edgeCurve edge 11489 (11489) intersection
+end 2658.4 edgeCurve edge 11489 (11489) intersection ms 544 error 1.94e-10
+start 2658.4 edgeCurve edge 11491 (11491) intersection
+end 2658.8 edgeCurve edge 11491 (11491) intersection ms 402 error 4.89e-9
+start 2658.8 edgeCurve edge 11504 (11504) intersection
+end 2659.2 edgeCurve edge 11504 (11504) intersection ms 404 error 4.07e-10
+start 2659.2 edgeCurve edge 11501 (11501) intersection
+end 2659.6 edgeCurve edge 11501 (11501) intersection ms 379 error 4.08e-10
+start 2659.6 edgeCurve edge 11503 (11503) intersection
+end 2660.0 edgeCurve edge 11503 (11503) intersection ms 401 error 5.84e-9
+start 2660.0 edgeCurve edge 11516 (11516) intersection
+end 2660.5 edgeCurve edge 11516 (11516) intersection ms 475 error 1.85e-10
+start 2660.5 edgeCurve edge 11351 (11351) intersection
+end 2660.5 edgeCurve edge 11351 (11351) intersection ms 10 error 3.44e-9
+start 2660.5 edgeCurve edge 11354 (11354) intersection
+end 2660.5 edgeCurve edge 11354 (11354) intersection ms 6 error 1.54e-10
+start 2660.5 edgeCurve edge 11487 (11487) intersection
+end 2660.5 edgeCurve edge 11487 (11487) intersection ms 6 error 2.30e-10
+start 2660.5 edgeCurve edge 11486 (11486) intersection
+end 2661.0 edgeCurve edge 11486 (11486) intersection ms 460 error 6.09e-9
+start 2661.0 edgeCurve edge 11492 (11492) intersection
+end 2661.4 edgeCurve edge 11492 (11492) intersection ms 399 error 1.90e-10
+start 2661.4 edgeCurve edge 11854 (11854) intersection
+end 2661.7 edgeCurve edge 11854 (11854) intersection ms 360 error 5.59e-12
+start 2661.7 edgeCurve edge 11856 (11856) intersection
+end 2662.1 edgeCurve edge 11856 (11856) intersection ms 394 error 2.03e-9
+start 2662.1 edgeCurve edge 11829 (11829) intersection
+end 2664.3 edgeCurve edge 11829 (11829) intersection ms 2147 error 1.52e-10
+start 2664.3 edgeCurve edge 11853 (11853) intersection
+end 2664.3 edgeCurve edge 11853 (11853) intersection ms 7 error 1.06e-12
+start 2664.3 edgeCurve edge 11845 (11845) intersection
+end 2664.3 edgeCurve edge 11845 (11845) intersection ms 7 error 1.32e-10
+start 2664.3 edgeCurve edge 11852 (11852) intersection
+end 2664.3 edgeCurve edge 11852 (11852) intersection ms 8 error 7.41e-11
+start 2664.3 edgeCurve edge 11935 (11935) intersection
+end 2664.3 edgeCurve edge 11935 (11935) intersection ms 6 error 1.20e-10
+start 2664.3 edgeCurve edge 11861 (11861) spcurve
+end 2664.4 edgeCurve edge 11861 (11861) spcurve ms 55 error 3.45e-9
+start 2664.4 edgeCurve edge 11859 (11859) spcurve
+end 2664.4 edgeCurve edge 11859 (11859) spcurve ms 23 error 8.52e-9
+start 2664.4 edgeCurve edge 11855 (11855) intersection
+end 2664.8 edgeCurve edge 11855 (11855) intersection ms 467 error 1.92e-11
+start 2664.8 edgeCurve edge 11857 (11857) intersection
+end 2665.3 edgeCurve edge 11857 (11857) intersection ms 452 error 8.01e-12
+start 2665.3 edgeCurve edge 11844 (11844) intersection
+end 2665.3 edgeCurve edge 11844 (11844) intersection ms 11 error 1.47e-10
+start 2665.3 edgeCurve edge 11834 (11834) intersection
+end 2665.3 edgeCurve edge 11834 (11834) intersection ms 6 error 4.55e-10
+start 2665.3 edgeCurve edge 11874 (11874) intersection
+end 2665.3 edgeCurve edge 11874 (11874) intersection ms 9 error 9.67e-9
+start 2665.3 edgeCurve edge 11870 (11870) intersection
+end 2665.3 edgeCurve edge 11870 (11870) intersection ms 7 error 1.06e-9
+start 2665.3 edgeCurve edge 11860 (11860) spcurve
+end 2665.3 edgeCurve edge 11860 (11860) spcurve ms 21 error 1.41e-3
+start 2665.3 edgeCurve edge 11865 (11865) intersection
+end 2665.4 edgeCurve edge 11865 (11865) intersection ms 14 error 9.22e-9
+start 2665.4 edgeCurve edge 11522 (11522) intersection
+end 2665.6 edgeCurve edge 11522 (11522) intersection ms 260 error 4.37e-11
+start 2665.6 edgeCurve edge 11747 (11747) intersection
+end 2666.1 edgeCurve edge 11747 (11747) intersection ms 428 error 1.07e-9
+start 2666.1 edgeCurve edge 11074 (11074) intersection
+end 2666.1 edgeCurve edge 11074 (11074) intersection ms 74 error 2.38e-9
+start 2666.1 edgeCurve edge 11744 (11744) intersection
+end 2668.7 edgeCurve edge 11744 (11744) intersection ms 2528 error 8.63e-10
+start 2668.7 edgeCurve edge 11743 (11743) intersection
+end 2668.8 edgeCurve edge 11743 (11743) intersection ms 122 error 5.95e-11
+start 2668.8 edgeCurve edge 11081 (11081) intersection
+end 2669.2 edgeCurve edge 11081 (11081) intersection ms 382 error 7.19e-12
+start 2669.2 edgeCurve edge 11076 (11076) intersection
+end 2669.2 edgeCurve edge 11076 (11076) intersection ms 72 error 2.15e-10
+start 2669.2 edgeCurve edge 11755 (11755) intersection
+end 2669.4 edgeCurve edge 11755 (11755) intersection ms 123 error 2.11e-11
+start 2669.4 edgeCurve edge 11741 (11741) intersection
+end 2669.4 edgeCurve edge 11741 (11741) intersection ms 62 error 6.19e-11
+start 2669.4 edgeCurve edge 11740 (11740) intersection
+end 2671.7 edgeCurve edge 11740 (11740) intersection ms 2285 error 2.32e-10
+start 2671.7 edgeCurve edge 11064 (11064) intersection
+end 2671.7 edgeCurve edge 11064 (11064) intersection ms 32 error 8.49e-9
+start 2671.7 edgeCurve edge 11070 (11070) intersection
+end 2672.6 edgeCurve edge 11070 (11070) intersection ms 858 error 8.86e-9
+start 2672.6 edgeCurve edge 11147 (11147) intersection
+end 2672.7 edgeCurve edge 11147 (11147) intersection ms 78 error 9.69e-9
+start 2672.7 edgeCurve edge 11073 (11073) intersection
+end 2673.5 edgeCurve edge 11073 (11073) intersection ms 829 error 8.48e-9
+start 2673.5 edgeCurve edge 11075 (11075) intersection
+end 2673.9 edgeCurve edge 11075 (11075) intersection ms 410 error 7.73e-9
+start 2673.9 edgeCurve edge 11782 (11782) intersection
+end 2674.2 edgeCurve edge 11782 (11782) intersection ms 329 error 1.41e-11
+start 2674.2 edgeCurve edge 11799 (11799) intersection
+end 2674.7 edgeCurve edge 11799 (11799) intersection ms 509 error 8.84e-9
+start 2674.7 edgeCurve edge 11777 (11777) intersection
+end 2675.3 edgeCurve edge 11777 (11777) intersection ms 547 error 9.22e-9
+start 2675.3 edgeCurve edge 11778 (11778) intersection
+end 2675.7 edgeCurve edge 11778 (11778) intersection ms 417 error 5.74e-9
+start 2675.7 edgeCurve edge 11774 (11774) intersection
+end 2676.1 edgeCurve edge 11774 (11774) intersection ms 409 error 2.39e-12
+start 2676.1 edgeCurve edge 11770 (11770) intersection
+end 2679.2 edgeCurve edge 11770 (11770) intersection ms 3070 error 3.12e-12
+start 2679.2 edgeCurve edge 11704 (11704) intersection
+end 2679.5 edgeCurve edge 11704 (11704) intersection ms 302 error 2.05e-11
+start 2679.5 edgeCurve edge 11711 (11711) intersection
+end 2679.5 edgeCurve edge 11711 (11711) intersection ms 7 error 1.49e-13
+start 2679.5 edgeCurve edge 11702 (11702) intersection
+end 2679.5 edgeCurve edge 11702 (11702) intersection ms 6 error 9.64e-12
+start 2679.5 edgeCurve edge 11092 (11092) intersection
+end 2679.6 edgeCurve edge 11092 (11092) intersection ms 125 error 7.40e-12
+start 2679.6 edgeCurve edge 11096 (11096) intersection
+end 2681.3 edgeCurve edge 11096 (11096) intersection ms 1691 error 1.19e-9
+start 2681.3 edgeCurve edge 11125 (11125) intersection
+end 2682.8 edgeCurve edge 11125 (11125) intersection ms 1494 error 1.36e-12
+start 2682.8 edgeCurve edge 11122 (11122) intersection
+end 2684.4 edgeCurve edge 11122 (11122) intersection ms 1600 error 2.05e-11
+start 2684.4 edgeCurve edge 11701 (11701) intersection
+end 2684.6 edgeCurve edge 11701 (11701) intersection ms 155 error 3.61e-11
+start 2684.6 edgeCurve edge 11135 (11135) intersection
+end 2685.9 edgeCurve edge 11135 (11135) intersection ms 1342 error 1.81e-11
+start 2685.9 edgeCurve edge 11086 (11086) intersection
+end 2686.0 edgeCurve edge 11086 (11086) intersection ms 64 error 3.42e-11
+start 2686.0 edgeCurve edge 11713 (11713) intersection
+end 2686.0 edgeCurve edge 11713 (11713) intersection ms 28 error 1.14e-11
+start 2686.0 edgeCurve edge 11088 (11088) intersection
+end 2686.1 edgeCurve edge 11088 (11088) intersection ms 47 error 1.43e-10
+start 2686.1 edgeCurve edge 11093 (11093) intersection
+end 2686.3 edgeCurve edge 11093 (11093) intersection ms 298 error 4.27e-10
+start 2686.3 edgeCurve edge 11087 (11087) intersection
+end 2686.7 edgeCurve edge 11087 (11087) intersection ms 323 error 2.62e-11
+start 2686.7 edgeCurve edge 11710 (11710) intersection
+end 2687.0 edgeCurve edge 11710 (11710) intersection ms 299 error 6.27e-9
+start 2687.0 edgeCurve edge 11091 (11091) intersection
+end 2687.0 edgeCurve edge 11091 (11091) intersection ms 6 error 2.18e-11
+start 2687.0 edgeCurve edge 11090 (11090) intersection
+end 2687.0 edgeCurve edge 11090 (11090) intersection ms 7 error 4.37e-12
+start 2687.0 edgeCurve edge 11708 (11708) intersection
+end 2687.0 edgeCurve edge 11708 (11708) intersection ms 8 error 2.67e-9
+start 2687.0 edgeCurve edge 11705 (11705) intersection
+end 2687.0 edgeCurve edge 11705 (11705) intersection ms 7 error 1.69e-10
+start 2687.0 edgeCurve edge 11716 (11716) spcurve
+end 2687.0 edgeCurve edge 11716 (11716) spcurve ms 6 error 2.21e-9
+start 2687.0 edgeCurve edge 11714 (11714) intersection
+end 2687.1 edgeCurve edge 11714 (11714) intersection ms 101 error 1.85e-11
+start 2687.1 edgeCurve edge 11720 (11720) intersection
+end 2687.2 edgeCurve edge 11720 (11720) intersection ms 74 error 2.02e-10
+start 2687.2 edgeCurve edge 11724 (11724) intersection
+end 2687.3 edgeCurve edge 11724 (11724) intersection ms 75 error 1.23e-10
+start 2687.3 edgeCurve edge 11729 (11729) intersection
+end 2687.4 edgeCurve edge 11729 (11729) intersection ms 107 error 3.94e-10
+start 2687.4 edgeCurve edge 11732 (11732) spcurve
+end 2687.4 edgeCurve edge 11732 (11732) spcurve ms 7 error 2.21e-9
+start 2687.4 edgeCurve edge 11737 (11737) intersection
+end 2687.4 edgeCurve edge 11737 (11737) intersection ms 18 error 2.09e-11
+start 2687.4 edgeCurve edge 11084 (11084) intersection
+end 2687.4 edgeCurve edge 11084 (11084) intersection ms 16 error 2.07e-11
+start 2687.4 edgeCurve edge 11746 (11746) intersection
+end 2690.2 edgeCurve edge 11746 (11746) intersection ms 2776 error 2.23e-11
+start 2690.2 edgeCurve edge 11072 (11072) intersection
+end 2690.6 edgeCurve edge 11072 (11072) intersection ms 468 error 7.42e-9
+start 2690.6 edgeCurve edge 11144 (11144) intersection
+end 2691.1 edgeCurve edge 11144 (11144) intersection ms 415 error 6.67e-10
+start 2691.1 edgeCurve edge 10971 (10971) intersection
+end 2693.3 edgeCurve edge 10971 (10971) intersection ms 2207 error 8.37e-9
+start 2693.3 edgeCurve edge 11521 (11521) intersection
+end 2693.5 edgeCurve edge 11521 (11521) intersection ms 259 error 7.07e-9
+start 2693.5 edgeCurve edge 11523 (11523) intersection
+end 2694.0 edgeCurve edge 11523 (11523) intersection ms 466 error 1.60e-16
+start 2694.0 edgeCurve edge 11159 (11159) intersection
+end 2698.1 edgeCurve edge 11159 (11159) intersection ms 4092 error 1.53e-9
+start 2698.1 edgeCurve edge 11003 (11003) spcurve
+end 2698.1 edgeCurve edge 11003 (11003) spcurve ms 32 error 1.46e-10
+start 2698.1 edgeCurve edge 11156 (11156) intersection
+end 2700.4 edgeCurve edge 11156 (11156) intersection ms 2280 error 8.44e-11
+start 2700.4 edgeCurve edge 11006 (11006) intersection
+end 2702.1 edgeCurve edge 11006 (11006) intersection ms 1747 error 3.06e-9
+start 2702.1 edgeCurve edge 11151 (11151) intersection
+end 2702.2 edgeCurve edge 11151 (11151) intersection ms 46 error 9.97e-9
+start 2702.2 edgeCurve edge 11153 (11153) intersection
+end 2702.5 edgeCurve edge 11153 (11153) intersection ms 285 error 5.66e-9
+start 2702.5 edgeCurve edge 11152 (11152) intersection
+end 2702.6 edgeCurve edge 11152 (11152) intersection ms 72 error 3.00e-11
+start 2702.6 edgeCurve edge 11083 (11083) intersection
+end 2703.2 edgeCurve edge 11083 (11083) intersection ms 651 error 6.17e-9
+start 2703.2 edgeCurve edge 11082 (11082) spcurve
+end 2703.2 edgeCurve edge 11082 (11082) spcurve ms 4 error 5.12e-9
+start 2703.2 edgeCurve edge 11280 (11280) spcurve
+end 2703.2 edgeCurve edge 11280 (11280) spcurve ms 4 error 6.37e-10
+start 2703.2 edgeCurve edge 11239 (11239) spcurve
+end 2703.2 edgeCurve edge 11239 (11239) spcurve ms 2 error 9.03e-9
+start 2703.2 edgeCurve edge 11066 (11066) intersection
+end 2704.4 edgeCurve edge 11066 (11066) intersection ms 1164 error 9.78e-9
+start 2704.4 edgeCurve edge 11240 (11240) intersection
+end 2704.7 edgeCurve edge 11240 (11240) intersection ms 365 error 1.36e-16
+start 2704.7 edgeCurve edge 11414 (11414) intersection
+end 2705.0 edgeCurve edge 11414 (11414) intersection ms 297 error 3.83e-10
+start 2705.0 edgeCurve edge 11277 (11277) intersection
+end 2705.4 edgeCurve edge 11277 (11277) intersection ms 368 error 2.10e-11
+start 2705.4 edgeCurve edge 11276 (11276) intersection
+end 2705.7 edgeCurve edge 11276 (11276) intersection ms 343 error 8.71e-9
+start 2705.7 edgeCurve edge 11279 (11279) intersection
+end 2705.8 edgeCurve edge 11279 (11279) intersection ms 26 error 8.27e-9
+start 2705.8 edgeCurve edge 11278 (11278) intersection
+end 2706.1 edgeCurve edge 11278 (11278) intersection ms 286 error 2.04e-9
+start 2706.1 edgeCurve edge 11205 (11205) intersection
+end 2716.8 edgeCurve edge 11205 (11205) intersection ms 10722 error 7.52e-9
+start 2716.8 edgeCurve edge 11204 (11204) intersection
+end 2726.4 edgeCurve edge 11204 (11204) intersection ms 9619 error 6.99e-9
+start 2726.4 edgeCurve edge 11274 (11274) spcurve
+end 2726.4 edgeCurve edge 11274 (11274) spcurve ms 13 error 7.31e-9
+start 2726.4 edgeCurve edge 11275 (11275) spcurve
+end 2726.4 edgeCurve edge 11275 (11275) spcurve ms 9 error 9.24e-9
+start 2726.4 edgeCurve edge 11241 (11241) spcurve
+end 2726.4 edgeCurve edge 11241 (11241) spcurve ms 1 error 3.02e-10
+start 2726.4 edgeCurve edge 11396 (11396) spcurve
+end 2726.5 edgeCurve edge 11396 (11396) spcurve ms 33 error 9.00e-9
+start 2726.5 edgeCurve edge 11399 (11399) spcurve
+end 2726.5 edgeCurve edge 11399 (11399) spcurve ms 78 error 2.06e-12
+start 2726.5 edgeCurve edge 11402 (11402) spcurve
+end 2726.6 edgeCurve edge 11402 (11402) spcurve ms 22 error 9.60e-9
+start 2726.6 edgeCurve edge 11407 (11407) spcurve
+end 2726.6 edgeCurve edge 11407 (11407) spcurve ms 23 error 6.36e-9
+start 2726.6 edgeCurve edge 11034 (11034) spcurve
+end 2726.6 edgeCurve edge 11034 (11034) spcurve ms 32 error 9.10e-17
+start 2726.6 edgeCurve edge 11037 (11037) spcurve
+end 2726.6 edgeCurve edge 11037 (11037) spcurve ms 27 error 4.82e-10
+start 2726.6 edgeCurve edge 11040 (11040) spcurve
+end 2726.7 edgeCurve edge 11040 (11040) spcurve ms 50 error 2.74e-13
+start 2726.7 edgeCurve edge 11862 (11862) spcurve
+end 2726.7 edgeCurve edge 11862 (11862) spcurve ms 2 error 2.73e-3
+start 2726.7 edgeCurve edge 11531 (11531) intersection
+end 2727.1 edgeCurve edge 11531 (11531) intersection ms 359 error 5.96e-9
+start 2727.1 edgeCurve edge 11515 (11515) intersection
+end 2727.4 edgeCurve edge 11515 (11515) intersection ms 358 error 5.39e-9
+start 2727.4 edgeCurve edge 11513 (11513) intersection
+end 2727.8 edgeCurve edge 11513 (11513) intersection ms 343 error 8.11e-11
+start 2727.8 edgeCurve edge 11510 (11510) intersection
+end 2728.1 edgeCurve edge 11510 (11510) intersection ms 386 error 8.54e-9
+start 2728.1 edgeCurve edge 11508 (11508) intersection
+end 2728.1 edgeCurve edge 11508 (11508) intersection ms 7 error 9.22e-9
+start 2728.1 edgeCurve edge 11370 (11370) intersection
+end 2728.2 edgeCurve edge 11370 (11370) intersection ms 7 error 8.86e-9
+start 2728.2 edgeCurve edge 11378 (11378) intersection
+end 2728.2 edgeCurve edge 11378 (11378) intersection ms 6 error 1.39e-10
+start 2728.2 edgeCurve edge 11502 (11502) intersection
+end 2728.2 edgeCurve edge 11502 (11502) intersection ms 8 error 7.70e-9
+start 2728.2 edgeCurve edge 11363 (11363) intersection
+end 2728.2 edgeCurve edge 11363 (11363) intersection ms 9 error 8.46e-9
+start 2728.2 edgeCurve edge 11506 (11506) intersection
+end 2728.2 edgeCurve edge 11506 (11506) intersection ms 4 error 4.38e-10
+start 2728.2 edgeCurve edge 11359 (11359) intersection
+end 2728.2 edgeCurve edge 11359 (11359) intersection ms 5 error 3.49e-10
+start 2728.2 edgeCurve edge 11371 (11371) intersection
+end 2728.2 edgeCurve edge 11371 (11371) intersection ms 5 error 1.23e-10
+start 2728.2 edgeCurve edge 11375 (11375) intersection
+end 2728.2 edgeCurve edge 11375 (11375) intersection ms 7 error 5.79e-9
+start 2728.2 edgeCurve edge 11511 (11511) intersection
+end 2728.2 edgeCurve edge 11511 (11511) intersection ms 5 error 1.03e-10
+start 2728.2 edgeCurve edge 11514 (11514) intersection
+end 2728.2 edgeCurve edge 11514 (11514) intersection ms 6 error 5.63e-9
+start 2728.2 edgeCurve edge 11273 (11273) intersection
+end 2728.5 edgeCurve edge 11273 (11273) intersection ms 282 error 9.08e-9
+start 2728.5 edgeCurve edge 11270 (11270) intersection
+end 2728.7 edgeCurve edge 11270 (11270) intersection ms 220 error 5.02e-9
+start 2728.7 edgeCurve edge 11267 (11267) intersection
+end 2729.0 edgeCurve edge 11267 (11267) intersection ms 253 error 7.57e-9
+start 2729.0 edgeCurve edge 11374 (11374) intersection
+end 2729.2 edgeCurve edge 11374 (11374) intersection ms 251 error 5.35e-9
+start 2729.2 edgeCurve edge 11376 (11376) intersection
+end 2729.5 edgeCurve edge 11376 (11376) intersection ms 234 error 1.13e-10
+start 2729.5 edgeCurve edge 11368 (11368) intersection
+end 2729.7 edgeCurve edge 11368 (11368) intersection ms 240 error 6.91e-9
+start 2729.7 edgeCurve edge 11373 (11373) intersection
+end 2729.9 edgeCurve edge 11373 (11373) intersection ms 243 error 1.12e-10
+start 2729.9 edgeCurve edge 11362 (11362) intersection
+end 2730.2 edgeCurve edge 11362 (11362) intersection ms 229 error 5.93e-9
+start 2730.2 edgeCurve edge 11364 (11364) intersection
+end 2730.4 edgeCurve edge 11364 (11364) intersection ms 279 error 3.11e-10
+start 2730.4 edgeCurve edge 11356 (11356) intersection
+end 2730.7 edgeCurve edge 11356 (11356) intersection ms 280 error 9.09e-9
+start 2730.7 edgeCurve edge 11361 (11361) intersection
+end 2730.9 edgeCurve edge 11361 (11361) intersection ms 221 error 3.11e-10
+start 2730.9 edgeCurve edge 11350 (11350) intersection
+end 2731.2 edgeCurve edge 11350 (11350) intersection ms 240 error 4.94e-9
+start 2731.2 edgeCurve edge 11352 (11352) intersection
+end 2731.4 edgeCurve edge 11352 (11352) intersection ms 255 error 1.51e-10
+start 2731.4 edgeCurve edge 11344 (11344) intersection
+end 2731.6 edgeCurve edge 11344 (11344) intersection ms 190 error 6.36e-9
+start 2731.6 edgeCurve edge 11349 (11349) intersection
+end 2731.8 edgeCurve edge 11349 (11349) intersection ms 199 error 1.66e-10
+start 2731.8 edgeCurve edge 11338 (11338) intersection
+end 2732.0 edgeCurve edge 11338 (11338) intersection ms 197 error 4.79e-9
+start 2732.0 edgeCurve edge 11340 (11340) intersection
+end 2732.2 edgeCurve edge 11340 (11340) intersection ms 201 error 1.24e-10
+start 2732.2 edgeCurve edge 11332 (11332) intersection
+end 2732.4 edgeCurve edge 11332 (11332) intersection ms 220 error 4.59e-9
+start 2732.4 edgeCurve edge 11337 (11337) intersection
+end 2733.0 edgeCurve edge 11337 (11337) intersection ms 586 error 2.40e-11
+start 2733.0 edgeCurve edge 11326 (11326) intersection
+end 2733.3 edgeCurve edge 11326 (11326) intersection ms 245 error 8.39e-9
+start 2733.3 edgeCurve edge 11328 (11328) intersection
+end 2733.5 edgeCurve edge 11328 (11328) intersection ms 245 error 2.00e-11
+start 2733.5 edgeCurve edge 11320 (11320) intersection
+end 2733.8 edgeCurve edge 11320 (11320) intersection ms 237 error 5.83e-9
+start 2733.8 edgeCurve edge 11325 (11325) intersection
+end 2734.1 edgeCurve edge 11325 (11325) intersection ms 298 error 2.90e-11
+start 2734.1 edgeCurve edge 11314 (11314) intersection
+end 2734.3 edgeCurve edge 11314 (11314) intersection ms 280 error 6.38e-9
+start 2734.3 edgeCurve edge 11316 (11316) intersection
+end 2734.6 edgeCurve edge 11316 (11316) intersection ms 224 error 7.44e-11
+start 2734.6 edgeCurve edge 11308 (11308) intersection
+end 2734.8 edgeCurve edge 11308 (11308) intersection ms 204 error 5.47e-9
+start 2734.8 edgeCurve edge 11313 (11313) intersection
+end 2735.0 edgeCurve edge 11313 (11313) intersection ms 264 error 8.95e-11
+start 2735.0 edgeCurve edge 11302 (11302) intersection
+end 2735.3 edgeCurve edge 11302 (11302) intersection ms 226 error 4.66e-9
+start 2735.3 edgeCurve edge 11304 (11304) intersection
+end 2735.5 edgeCurve edge 11304 (11304) intersection ms 205 error 9.01e-11
+start 2735.5 edgeCurve edge 11296 (11296) intersection
+end 2735.7 edgeCurve edge 11296 (11296) intersection ms 204 error 5.05e-9
+start 2735.7 edgeCurve edge 11301 (11301) intersection
+end 2735.9 edgeCurve edge 11301 (11301) intersection ms 238 error 5.96e-11
+start 2735.9 edgeCurve edge 11290 (11290) intersection
+end 2736.2 edgeCurve edge 11290 (11290) intersection ms 283 error 4.39e-9
+start 2736.2 edgeCurve edge 11292 (11292) intersection
+end 2736.7 edgeCurve edge 11292 (11292) intersection ms 559 error 1.44e-11
+start 2736.7 edgeCurve edge 11284 (11284) intersection
+end 2737.0 edgeCurve edge 11284 (11284) intersection ms 215 error 4.37e-9
+start 2737.0 edgeCurve edge 11289 (11289) intersection
+end 2738.0 edgeCurve edge 11289 (11289) intersection ms 1028 error 1.39e-11
+start 2738.0 edgeCurve edge 11282 (11282) intersection
+end 2738.3 edgeCurve edge 11282 (11282) intersection ms 307 error 6.85e-9
+start 2738.3 edgeCurve edge 11434 (11434) intersection
+end 2738.3 edgeCurve edge 11434 (11434) intersection ms 5 error 1.91e-11
+start 2738.3 edgeCurve edge 11287 (11287) intersection
+end 2738.3 edgeCurve edge 11287 (11287) intersection ms 6 error 1.78e-11
+start 2738.3 edgeCurve edge 11299 (11299) intersection
+end 2738.3 edgeCurve edge 11299 (11299) intersection ms 3 error 7.33e-11
+start 2738.3 edgeCurve edge 11306 (11306) intersection
+end 2738.3 edgeCurve edge 11306 (11306) intersection ms 4 error 9.66e-11
+start 2738.3 edgeCurve edge 11436 (11436) intersection
+end 2738.4 edgeCurve edge 11436 (11436) intersection ms 58 error 3.73e-9
+start 2738.4 edgeCurve edge 11298 (11298) intersection
+end 2738.4 edgeCurve edge 11298 (11298) intersection ms 8 error 3.68e-9
+start 2738.4 edgeCurve edge 11430 (11430) intersection
+end 2738.4 edgeCurve edge 11430 (11430) intersection ms 10 error 2.70e-9
+start 2738.4 edgeCurve edge 11424 (11424) intersection
+end 2738.4 edgeCurve edge 11424 (11424) intersection ms 10 error 2.98e-9
+start 2738.4 edgeCurve edge 11286 (11286) intersection
+end 2738.4 edgeCurve edge 11286 (11286) intersection ms 10 error 2.94e-9
+start 2738.4 edgeCurve edge 11262 (11262) intersection
+end 2738.4 edgeCurve edge 11262 (11262) intersection ms 13 error 3.96e-10
+start 2738.4 edgeCurve edge 11412 (11412) intersection
+end 2738.4 edgeCurve edge 11412 (11412) intersection ms 15 error 3.89e-10
+start 2738.4 edgeCurve edge 11533 (11533) intersection
+end 2738.5 edgeCurve edge 11533 (11533) intersection ms 27 error 6.59e-9
+start 2738.5 edgeCurve edge 11265 (11265) intersection
+end 2738.5 edgeCurve edge 11265 (11265) intersection ms 20 error 8.61e-9
+start 2738.5 edgeCurve edge 11525 (11525) spcurve
+end 2738.6 edgeCurve edge 11525 (11525) spcurve ms 67 error 5.20e-9
+start 2738.6 edgeCurve edge 11529 (11529) intersection
+end 2738.6 edgeCurve edge 11529 (11529) intersection ms 9 error 3.68e-9
+start 2738.6 edgeCurve edge 11268 (11268) intersection
+end 2738.6 edgeCurve edge 11268 (11268) intersection ms 11 error 3.63e-9
+start 2738.6 edgeCurve edge 11271 (11271) intersection
+end 2738.6 edgeCurve edge 11271 (11271) intersection ms 20 error 9.03e-9
+start 2738.6 edgeCurve edge 11253 (11253) intersection
+end 2738.7 edgeCurve edge 11253 (11253) intersection ms 60 error 2.50e-10
+start 2738.7 edgeCurve edge 11418 (11418) intersection
+end 2739.0 edgeCurve edge 11418 (11418) intersection ms 306 error 5.59e-10
+start 2739.0 edgeCurve edge 11417 (11417) intersection
+end 2739.3 edgeCurve edge 11417 (11417) intersection ms 326 error 5.44e-9
+start 2739.3 edgeCurve edge 11415 (11415) intersection
+end 2739.3 edgeCurve edge 11415 (11415) intersection ms 8 error 4.32e-9
+start 2739.3 edgeCurve edge 11526 (11526) intersection
+end 2739.3 edgeCurve edge 11526 (11526) intersection ms 19 error 6.67e-9
+start 2739.3 edgeCurve edge 11272 (11272) spcurve
+end 2739.4 edgeCurve edge 11272 (11272) spcurve ms 80 error 3.76e-6
+start 2739.4 edgeCurve edge 11258 (11258) intersection
+end 2741.1 edgeCurve edge 11258 (11258) intersection ms 1701 error 5.63e-9
+start 2741.1 edgeCurve edge 11379 (11379) intersection
+end 2742.4 edgeCurve edge 11379 (11379) intersection ms 1306 error 4.77e-9
+start 2742.4 edgeCurve edge 11195 (11195) intersection
+end 2742.5 edgeCurve edge 11195 (11195) intersection ms 122 error 3.19e-9
+start 2742.5 edgeCurve edge 11650 (11650) intersection
+end 2742.9 edgeCurve edge 11650 (11650) intersection ms 375 error 8.12e-9
+start 2742.9 edgeCurve edge 11651 (11651) intersection
+end 2742.9 edgeCurve edge 11651 (11651) intersection ms 10 error 4.19e-9
+start 2742.9 edgeCurve edge 11656 (11656) intersection
+end 2742.9 edgeCurve edge 11656 (11656) intersection ms 5 error 1.96e-10
+start 2742.9 edgeCurve edge 11655 (11655) intersection
+end 2743.2 edgeCurve edge 11655 (11655) intersection ms 287 error 3.41e-11
+start 2743.2 edgeCurve edge 11653 (11653) intersection
+end 2743.5 edgeCurve edge 11653 (11653) intersection ms 279 error 7.99e-9
+start 2743.5 edgeCurve edge 11645 (11645) intersection
+end 2744.9 edgeCurve edge 11645 (11645) intersection ms 1401 error 2.75e-11
+start 2744.9 edgeCurve edge 11642 (11642) intersection
+end 2745.1 edgeCurve edge 11642 (11642) intersection ms 180 error 3.76e-9
+start 2745.1 edgeCurve edge 11166 (11166) spcurve
+end 2745.1 edgeCurve edge 11166 (11166) spcurve ms 4 error 2.77e-9
+start 2745.1 edgeCurve edge 11534 (11534) spcurve
+end 2745.1 edgeCurve edge 11534 (11534) spcurve ms 3 error 6.77e-16
+start 2745.1 edgeCurve edge 11162 (11162) spcurve
+end 2745.1 edgeCurve edge 11162 (11162) spcurve ms 11 error 7.99e-9
+start 2745.1 edgeCurve edge 11535 (11535) spcurve
+end 2745.1 edgeCurve edge 11535 (11535) spcurve ms 9 error 9.26e-9
+start 2745.1 edgeCurve edge 11252 (11252) spcurve
+end 2745.1 edgeCurve edge 11252 (11252) spcurve ms 7 error 8.83e-9
+start 2745.1 edgeCurve edge 1356 (1356) spcurve
+end 2745.1 edgeCurve edge 1356 (1356) spcurve ms 1 error 0.00e+0
+start 2745.1 edgeCurve edge 1472 (1472) spcurve
+end 2745.1 edgeCurve edge 1472 (1472) spcurve ms 11 error 9.22e-9
+start 2745.1 edgeCurve edge 1340 (1340) intersection
+end 2745.6 edgeCurve edge 1340 (1340) intersection ms 490 error 8.71e-9
+start 2745.6 edgeCurve edge 1375 (1375) intersection
+end 2745.9 edgeCurve edge 1375 (1375) intersection ms 350 error 2.10e-11
+start 2745.9 edgeCurve edge 1374 (1374) intersection
+end 2746.3 edgeCurve edge 1374 (1374) intersection ms 344 error 1.36e-16
+start 2746.3 edgeCurve edge 1358 (1358) spcurve
+end 2746.3 edgeCurve edge 1358 (1358) spcurve ms 1 error 0.00e+0
+start 2746.3 edgeCurve edge 1424 (1424) spcurve
+end 2746.3 edgeCurve edge 1424 (1424) spcurve ms 12 error 4.74e-9
+start 2746.3 edgeCurve edge 1414 (1414) spcurve
+end 2746.4 edgeCurve edge 1414 (1414) spcurve ms 59 error 9.00e-9
+start 2746.4 edgeCurve edge 1421 (1421) spcurve
+end 2746.4 edgeCurve edge 1421 (1421) spcurve ms 38 error 1.34e-13
+start 2746.4 edgeCurve edge 1376 (1376) spcurve
+end 2746.4 edgeCurve edge 1376 (1376) spcurve ms 20 error 9.80e-9
+start 2746.4 edgeCurve edge 1074 (1074) spcurve
+end 2746.4 edgeCurve edge 1074 (1074) spcurve ms 14 error 8.34e-9
+start 2746.4 edgeCurve edge 9602 (9602) intersection
+end 2746.4 edgeCurve edge 9602 (9602) intersection ms 5 error 1.85e-9
+start 2746.4 edgeCurve edge 9601 (9601) intersection
+end 2748.1 edgeCurve edge 9601 (9601) intersection ms 1706 error 1.98e-11
+start 2748.1 edgeCurve edge 11919 (11919) intersection
+end 2751.9 edgeCurve edge 11919 (11919) intersection ms 3786 error 5.58e-9
+start 2751.9 edgeCurve edge 11142 (11142) intersection
+end 2751.9 edgeCurve edge 11142 (11142) intersection ms 3 error 4.49e-9
+start 2751.9 edgeCurve edge 11957 (11957) intersection
+end 2755.8 edgeCurve edge 11957 (11957) intersection ms 3828 error 5.45e-9
+start 2755.8 edgeCurve edge 11891 (11891) intersection
+end 2772.4 edgeCurve edge 11891 (11891) intersection ms 16621 error 6.10e-8
+start 2772.4 edgeCurve edge 11894 (11894) intersection
+end 2772.4 edgeCurve edge 11894 (11894) intersection ms 7 error 5.39e-10
+start 2772.4 edgeCurve edge 11917 (11917) intersection
+end 2772.4 edgeCurve edge 11917 (11917) intersection ms 7 error 4.70e-10
+start 2772.4 edgeCurve edge 11918 (11918) intersection
+end 2772.4 edgeCurve edge 11918 (11918) intersection ms 24 error 2.73e-9
+start 2772.4 edgeCurve edge 11892 (11892) intersection
+end 2772.5 edgeCurve edge 11892 (11892) intersection ms 29 error 2.98e-9
+start 2772.5 edgeCurve edge 11943 (11943) intersection
+end 2772.5 edgeCurve edge 11943 (11943) intersection ms 48 error 1.96e-10
+start 2772.5 edgeCurve edge 11916 (11916) intersection
+end 2789.8 edgeCurve edge 11916 (11916) intersection ms 17299 error 6.21e-8
+start 2789.8 edgeCurve edge 11002 (11002) intersection
+end 2791.4 edgeCurve edge 11002 (11002) intersection ms 1610 error 1.03e-9
+start 2791.4 edgeCurve edge 10945 (10945) intersection
+end 2793.6 edgeCurve edge 10945 (10945) intersection ms 2151 error 4.78e-10
+start 2793.6 edgeCurve edge 11889 (11889) intersection
+end 2793.6 edgeCurve edge 11889 (11889) intersection ms 17 error 1.51e-11
+start 2793.6 edgeCurve edge 11884 (11884) intersection
+end 2793.6 edgeCurve edge 11884 (11884) intersection ms 14 error 1.69e-10
+start 2793.6 edgeCurve edge 11886 (11886) intersection
+end 2793.6 edgeCurve edge 11886 (11886) intersection ms 30 error 7.62e-11
+start 2793.6 edgeCurve edge 11878 (11878) intersection
+end 2793.7 edgeCurve edge 11878 (11878) intersection ms 27 error 7.11e-11
+start 2793.7 edgeCurve edge 11876 (11876) intersection
+end 2793.7 edgeCurve edge 11876 (11876) intersection ms 15 error 1.62e-10
+start 2793.7 edgeCurve edge 11786 (11786) spcurve
+end 2793.7 edgeCurve edge 11786 (11786) spcurve ms 58 error 5.68e-9
+start 2793.7 edgeCurve edge 11792 (11792) intersection
+end 2793.8 edgeCurve edge 11792 (11792) intersection ms 29 error 4.19e-12
+start 2793.8 edgeCurve edge 11798 (11798) intersection
+end 2793.8 edgeCurve edge 11798 (11798) intersection ms 30 error 6.00e-11
+start 2793.8 edgeCurve edge 11800 (11800) intersection
+end 2793.8 edgeCurve edge 11800 (11800) intersection ms 9 error 9.23e-9
+start 2793.8 edgeCurve edge 11796 (11796) intersection
+end 2793.8 edgeCurve edge 11796 (11796) intersection ms 8 error 2.94e-13
+start 2793.8 edgeCurve edge 11790 (11790) intersection
+end 2793.8 edgeCurve edge 11790 (11790) intersection ms 12 error 4.83e-13
+start 2793.8 edgeCurve edge 11785 (11785) intersection
+end 2793.8 edgeCurve edge 11785 (11785) intersection ms 7 error 1.35e-11
+start 2793.8 edgeCurve edge 11780 (11780) intersection
+end 2793.8 edgeCurve edge 11780 (11780) intersection ms 9 error 5.84e-11
+start 2793.8 edgeCurve edge 11787 (11787) intersection
+end 2793.9 edgeCurve edge 11787 (11787) intersection ms 34 error 2.22e-10
+start 2793.9 edgeCurve edge 11795 (11795) intersection
+end 2793.9 edgeCurve edge 11795 (11795) intersection ms 6 error 5.32e-11
+start 2793.9 edgeCurve edge 11783 (11783) intersection
+end 2794.3 edgeCurve edge 11783 (11783) intersection ms 382 error 5.74e-9
+start 2794.3 edgeCurve edge 11788 (11788) intersection
+end 2794.6 edgeCurve edge 11788 (11788) intersection ms 325 error 5.50e-10
+start 2794.6 edgeCurve edge 11793 (11793) intersection
+end 2794.9 edgeCurve edge 11793 (11793) intersection ms 347 error 2.68e-11
+start 2794.9 edgeCurve edge 11769 (11769) intersection
+end 2796.8 edgeCurve edge 11769 (11769) intersection ms 1838 error 1.28e-12
+start 2796.8 edgeCurve edge 11143 (11143) spcurve
+end 2796.9 edgeCurve edge 11143 (11143) spcurve ms 93 error 4.40e-9
+start 2796.9 edgeCurve edge 11698 (11698) intersection
+end 2796.9 edgeCurve edge 11698 (11698) intersection ms 28 error 8.63e-12
+start 2796.9 edgeCurve edge 11089 (11089) intersection
+end 2796.9 edgeCurve edge 11089 (11089) intersection ms 5 error 1.01e-10
+start 2796.9 edgeCurve edge 11085 (11085) intersection
+end 2796.9 edgeCurve edge 11085 (11085) intersection ms 5 error 9.74e-11
+start 2796.9 edgeCurve edge 11707 (11707) intersection
+end 2797.2 edgeCurve edge 11707 (11707) intersection ms 264 error 1.74e-10
+start 2797.2 edgeCurve edge 11696 (11696) spcurve
+end 2797.2 edgeCurve edge 11696 (11696) spcurve ms 4 error 5.10e-9
+start 2797.2 edgeCurve edge 11632 (11632) intersection
+end 2797.7 edgeCurve edge 11632 (11632) intersection ms 504 error 2.61e-10
+start 2797.7 edgeCurve edge 11179 (11179) spcurve
+end 2797.7 edgeCurve edge 11179 (11179) spcurve ms 33 error 5.27e-9
+start 2797.7 edgeCurve edge 11180 (11180) spcurve
+end 2797.7 edgeCurve edge 11180 (11180) spcurve ms 30 error 2.44e-3
+start 2797.7 edgeCurve edge 10972 (10972) spcurve
+end 2797.8 edgeCurve edge 10972 (10972) spcurve ms 36 error 4.73e-12
+start 2797.8 edgeCurve edge 11590 (11590) intersection
+end 2797.9 edgeCurve edge 11590 (11590) intersection ms 85 error 3.27e-12
+start 2797.9 edgeCurve edge 11595 (11595) intersection
+end 2797.9 edgeCurve edge 11595 (11595) intersection ms 45 error 3.27e-12
+start 2797.9 edgeCurve edge 11563 (11563) intersection
+end 2799.2 edgeCurve edge 11563 (11563) intersection ms 1273 error 1.04e-13
+start 2799.2 edgeCurve edge 11637 (11637) intersection
+end 2799.2 edgeCurve edge 11637 (11637) intersection ms 70 error 1.16e-9
+start 2799.2 edgeCurve edge 11574 (11574) intersection
+end 2799.3 edgeCurve edge 11574 (11574) intersection ms 32 error 3.26e-12
+start 2799.3 edgeCurve edge 11579 (11579) intersection
+end 2799.4 edgeCurve edge 11579 (11579) intersection ms 82 error 3.26e-12
+start 2799.4 edgeCurve edge 11167 (11167) spcurve
+end 2799.4 edgeCurve edge 11167 (11167) spcurve ms 14 error 7.43e-9
+start 2799.4 edgeCurve edge 11628 (11628) intersection
+end 2799.4 edgeCurve edge 11628 (11628) intersection ms 18 error 4.95e-9
+start 2799.4 edgeCurve edge 11629 (11629) intersection
+end 2799.4 edgeCurve edge 11629 (11629) intersection ms 23 error 6.79e-10
+start 2799.4 edgeCurve edge 11634 (11634) intersection
+end 2799.7 edgeCurve edge 11634 (11634) intersection ms 295 error 2.90e-10
+start 2799.7 edgeCurve edge 11633 (11633) intersection
+end 2799.7 edgeCurve edge 11633 (11633) intersection ms 4 error 1.10e-11
+start 2799.7 edgeCurve edge 11631 (11631) intersection
+end 2799.7 edgeCurve edge 11631 (11631) intersection ms 5 error 1.25e-10
+start 2799.7 edgeCurve edge 11173 (11173) intersection
+end 2801.1 edgeCurve edge 11173 (11173) intersection ms 1400 error 5.34e-9
+start 2801.1 edgeCurve edge 11172 (11172) intersection
+end 2801.1 edgeCurve edge 11172 (11172) intersection ms 28 error 1.36e-9
+start 2801.1 edgeCurve edge 11177 (11177) spcurve
+end 2801.2 edgeCurve edge 11177 (11177) spcurve ms 10 error 3.87e-9
+start 2801.2 edgeCurve edge 11174 (11174) intersection
+end 2801.2 edgeCurve edge 11174 (11174) intersection ms 25 error 1.87e-9
+start 2801.2 edgeCurve edge 11618 (11618) spcurve
+end 2801.2 edgeCurve edge 11618 (11618) spcurve ms 8 error 3.95e-9
+start 2801.2 edgeCurve edge 11621 (11621) intersection
+end 2801.2 edgeCurve edge 11621 (11621) intersection ms 27 error 4.74e-10
+start 2801.2 edgeCurve edge 11626 (11626) intersection
+end 2801.5 edgeCurve edge 11626 (11626) intersection ms 256 error 3.34e-9
+start 2801.5 edgeCurve edge 11607 (11607) intersection
+end 2803.3 edgeCurve edge 11607 (11607) intersection ms 1880 error 3.31e-12
+start 2803.3 edgeCurve edge 11181 (11181) intersection
+end 2805.0 edgeCurve edge 11181 (11181) intersection ms 1608 error 1.18e-12
+start 2805.0 edgeCurve edge 11630 (11630) spcurve
+end 2805.0 edgeCurve edge 11630 (11630) spcurve ms 54 error 5.20e-9
+start 2805.0 edgeCurve edge 11168 (11168) spcurve
+end 2805.0 edgeCurve edge 11168 (11168) spcurve ms 5 error 6.19e-9
+start 2805.0 edgeCurve edge 11679 (11679) spcurve
+end 2805.1 edgeCurve edge 11679 (11679) spcurve ms 41 error 3.26e-9
+start 2805.1 edgeCurve edge 11622 (11622) spcurve
+end 2805.1 edgeCurve edge 11622 (11622) spcurve ms 88 error 5.60e-9
+start 2805.1 edgeCurve edge 11619 (11619) spcurve
+end 2805.2 edgeCurve edge 11619 (11619) spcurve ms 4 error 6.10e-9
+start 2805.2 edgeCurve edge 11616 (11616) spcurve
+end 2805.2 edgeCurve edge 11616 (11616) spcurve ms 33 error 5.97e-9
+start 2805.2 edgeCurve edge 11613 (11613) spcurve
+end 2805.2 edgeCurve edge 11613 (11613) spcurve ms 53 error 5.13e-9
+start 2805.2 edgeCurve edge 11562 (11562) intersection
+end 2805.3 edgeCurve edge 11562 (11562) intersection ms 45 error 2.66e-12
+start 2805.3 edgeCurve edge 11583 (11583) intersection
+end 2807.5 edgeCurve edge 11583 (11583) intersection ms 2228 error 6.22e-11
+start 2807.5 edgeCurve edge 11620 (11620) spcurve
+end 2807.5 edgeCurve edge 11620 (11620) spcurve ms 11 error 5.79e-9
+start 2807.5 edgeCurve edge 11170 (11170) spcurve
+end 2807.6 edgeCurve edge 11170 (11170) spcurve ms 75 error 1.84e-9
+start 2807.6 edgeCurve edge 11196 (11196) spcurve
+end 2807.6 edgeCurve edge 11196 (11196) spcurve ms 17 error 4.18e-2
+start 2807.6 edgeCurve edge 11612 (11612) intersection
+end 2807.9 edgeCurve edge 11612 (11612) intersection ms 271 error 2.41e-10
+start 2807.9 edgeCurve edge 11615 (11615) intersection
+end 2808.0 edgeCurve edge 11615 (11615) intersection ms 87 error 8.05e-9
+start 2808.0 edgeCurve edge 11178 (11178) spcurve
+end 2808.0 edgeCurve edge 11178 (11178) spcurve ms 30 error 2.44e-3
+start 2808.0 edgeCurve edge 11540 (11540) intersection
+end 2808.3 edgeCurve edge 11540 (11540) intersection ms 273 error 4.49e-10
+start 2808.3 edgeCurve edge 11200 (11200) intersection
+end 2808.9 edgeCurve edge 11200 (11200) intersection ms 585 error 9.00e-9
+start 2808.9 edgeCurve edge 11544 (11544) intersection
+end 2809.4 edgeCurve edge 11544 (11544) intersection ms 514 error 7.52e-11
+start 2809.4 edgeCurve edge 11203 (11203) intersection
+end 2809.9 edgeCurve edge 11203 (11203) intersection ms 563 error 7.80e-9
+start 2809.9 edgeCurve edge 11546 (11546) intersection
+end 2817.3 edgeCurve edge 11546 (11546) intersection ms 7317 error 7.65e-13
+start 2817.3 edgeCurve edge 11198 (11198) intersection
+end 2817.6 edgeCurve edge 11198 (11198) intersection ms 306 error 7.79e-9
+start 2817.6 edgeCurve edge 11202 (11202) intersection
+end 2817.9 edgeCurve edge 11202 (11202) intersection ms 314 error 9.50e-9
+start 2817.9 edgeCurve edge 11557 (11557) intersection
+end 2818.0 edgeCurve edge 11557 (11557) intersection ms 87 error 8.70e-11
+start 2818.0 edgeCurve edge 11559 (11559) intersection
+end 2818.0 edgeCurve edge 11559 (11559) intersection ms 72 error 1.52e-10
+start 2818.0 edgeCurve edge 11555 (11555) intersection
+end 2819.5 edgeCurve edge 11555 (11555) intersection ms 1498 error 1.28e-12
+start 2819.5 edgeCurve edge 11585 (11585) intersection
+end 2820.8 edgeCurve edge 11585 (11585) intersection ms 1302 error 2.34e-12
+start 2820.8 edgeCurve edge 11584 (11584) intersection
+end 2822.4 edgeCurve edge 11584 (11584) intersection ms 1546 error 4.08e-15
+start 2822.4 edgeCurve edge 11199 (11199) spcurve
+end 2822.4 edgeCurve edge 11199 (11199) spcurve ms 43 error 2.66e-9
+start 2822.4 edgeCurve edge 11560 (11560) intersection
+end 2822.6 edgeCurve edge 11560 (11560) intersection ms 187 error 2.54e-12
+start 2822.6 edgeCurve edge 11556 (11556) intersection
+end 2822.8 edgeCurve edge 11556 (11556) intersection ms 179 error 1.73e-11
+start 2822.8 edgeCurve edge 11558 (11558) intersection
+end 2824.5 edgeCurve edge 11558 (11558) intersection ms 1728 error 1.30e-10
+start 2824.5 edgeCurve edge 11570 (11570) intersection
+end 2824.6 edgeCurve edge 11570 (11570) intersection ms 33 error 3.26e-12
+start 2824.6 edgeCurve edge 11586 (11586) intersection
+end 2825.7 edgeCurve edge 11586 (11586) intersection ms 1182 error 6.41e-14
+start 2825.7 edgeCurve edge 11572 (11572) intersection
+end 2825.8 edgeCurve edge 11572 (11572) intersection ms 30 error 3.26e-12
+start 2825.8 edgeCurve edge 11176 (11176) spcurve
+end 2825.8 edgeCurve edge 11176 (11176) spcurve ms 10 error 5.36e-9
+start 2825.8 edgeCurve edge 11194 (11194) intersection
+end 2827.3 edgeCurve edge 11194 (11194) intersection ms 1553 error 9.95e-10
+start 2827.3 edgeCurve edge 11381 (11381) intersection
+end 2828.7 edgeCurve edge 11381 (11381) intersection ms 1379 error 2.82e-9
+start 2828.7 edgeCurve edge 11641 (11641) intersection
+end 2828.7 edgeCurve edge 11641 (11641) intersection ms 1 error 1.91e-9
+start 2828.7 edgeCurve edge 11201 (11201) intersection
+end 2828.8 edgeCurve edge 11201 (11201) intersection ms 85 error 1.83e-11
+start 2828.8 edgeCurve edge 11189 (11189) intersection
+end 2829.0 edgeCurve edge 11189 (11189) intersection ms 175 error 2.27e-16
+start 2829.0 edgeCurve edge 11643 (11643) intersection
+end 2830.5 edgeCurve edge 11643 (11643) intersection ms 1504 error 4.82e-9
+start 2830.5 edgeCurve edge 11190 (11190) spcurve
+end 2830.5 edgeCurve edge 11190 (11190) spcurve ms 9 error 8.79e-9
+start 2830.5 edgeCurve edge 11192 (11192) spcurve
+end 2830.5 edgeCurve edge 11192 (11192) spcurve ms 5 error 5.73e-9
+start 2830.5 edgeCurve edge 11183 (11183) spcurve
+end 2830.6 edgeCurve edge 11183 (11183) spcurve ms 65 error 9.81e-9
+start 2830.6 edgeCurve edge 11193 (11193) spcurve
+end 2830.6 edgeCurve edge 11193 (11193) spcurve ms 26 error 1.57e-11
+start 2830.6 edgeCurve edge 11682 (11682) spcurve
+end 2830.6 edgeCurve edge 11682 (11682) spcurve ms 8 error 1.05e-12
+start 2830.6 edgeCurve edge 1195 (1195) intersection
+end 2832.4 edgeCurve edge 1195 (1195) intersection ms 1780 error 3.31e-12
+start 2832.4 edgeCurve edge 1606 (1606) intersection
+end 2834.3 edgeCurve edge 1606 (1606) intersection ms 1924 error 1.18e-12
+start 2834.3 edgeCurve edge 1593 (1593) intersection
+end 2834.3 edgeCurve edge 1593 (1593) intersection ms 57 error 3.27e-12
+start 2834.3 edgeCurve edge 1535 (1535) intersection
+end 2834.7 edgeCurve edge 1535 (1535) intersection ms 363 error 3.22e-12
+start 2834.7 edgeCurve edge 1199 (1199) spcurve
+end 2834.7 edgeCurve edge 1199 (1199) spcurve ms 11 error 9.04e-9
+start 2834.7 edgeCurve edge 1221 (1221) spcurve
+end 2834.8 edgeCurve edge 1221 (1221) spcurve ms 49 error 9.16e-9
+start 2834.8 edgeCurve edge 1203 (1203) spcurve
+end 2834.8 edgeCurve edge 1203 (1203) spcurve ms 57 error 6.43e-11
+start 2834.8 edgeCurve edge 1539 (1539) spcurve
+end 2834.8 edgeCurve edge 1539 (1539) spcurve ms 14 error 2.44e-3
+start 2834.8 edgeCurve edge 1204 (1204) spcurve
+end 2834.9 edgeCurve edge 1204 (1204) spcurve ms 23 error 9.86e-9
+start 2834.9 edgeCurve edge 1021 (1021) spcurve
+end 2834.9 edgeCurve edge 1021 (1021) spcurve ms 52 error 7.10e-9
+start 2834.9 edgeCurve edge 1023 (1023) spcurve
+end 2835.0 edgeCurve edge 1023 (1023) spcurve ms 75 error 1.31e-9
+start 2835.0 edgeCurve edge 1176 (1176) spcurve
+end 2835.0 edgeCurve edge 1176 (1176) spcurve ms 12 error 8.06e-9
+start 2835.0 edgeCurve edge 1178 (1178) intersection
+end 2836.4 edgeCurve edge 1178 (1178) intersection ms 1429 error 2.36e-9
+start 2836.4 edgeCurve edge 1465 (1465) intersection
+end 2838.4 edgeCurve edge 1465 (1465) intersection ms 1925 error 4.78e-9
+start 2838.4 edgeCurve edge 1532 (1532) spcurve
+end 2838.4 edgeCurve edge 1532 (1532) spcurve ms 56 error 6.88e-9
+start 2838.4 edgeCurve edge 1229 (1229) spcurve
+end 2838.5 edgeCurve edge 1229 (1229) spcurve ms 67 error 9.76e-9
+start 2838.5 edgeCurve edge 1531 (1531) spcurve
+end 2838.5 edgeCurve edge 1531 (1531) spcurve ms 11 error 9.26e-9
+start 2838.5 edgeCurve edge 1537 (1537) intersection
+end 2838.9 edgeCurve edge 1537 (1537) intersection ms 434 error 8.39e-9
+start 2838.9 edgeCurve edge 1536 (1536) intersection
+end 2839.3 edgeCurve edge 1536 (1536) intersection ms 381 error 2.97e-10
+start 2839.3 edgeCurve edge 1223 (1223) spcurve
+end 2839.3 edgeCurve edge 1223 (1223) spcurve ms 31 error 9.30e-9
+start 2839.3 edgeCurve edge 1233 (1233) intersection
+end 2839.4 edgeCurve edge 1233 (1233) intersection ms 32 error 4.74e-10
+start 2839.4 edgeCurve edge 1224 (1224) intersection
+end 2839.7 edgeCurve edge 1224 (1224) intersection ms 274 error 3.34e-9
+start 2839.7 edgeCurve edge 1615 (1615) spcurve
+end 2839.7 edgeCurve edge 1615 (1615) spcurve ms 76 error 7.33e-9
+start 2839.7 edgeCurve edge 1614 (1614) spcurve
+end 2839.8 edgeCurve edge 1614 (1614) spcurve ms 37 error 6.12e-9
+start 2839.8 edgeCurve edge 1190 (1190) spcurve
+end 2839.8 edgeCurve edge 1190 (1190) spcurve ms 5 error 5.81e-9
+start 2839.8 edgeCurve edge 1616 (1616) spcurve
+end 2839.8 edgeCurve edge 1616 (1616) spcurve ms 21 error 5.60e-9
+start 2839.8 edgeCurve edge 1181 (1181) spcurve
+end 2839.8 edgeCurve edge 1181 (1181) spcurve ms 1 error 0.00e+0
+start 2839.8 edgeCurve edge 11185 (11185) intersection
+end 2839.8 edgeCurve edge 11185 (11185) intersection ms 33 error 5.31e-10
+start 2839.8 edgeCurve edge 11182 (11182) intersection
+end 2840.3 edgeCurve edge 11182 (11182) intersection ms 446 error 1.63e-11
+start 2840.3 edgeCurve edge 11614 (11614) intersection
+end 2840.3 edgeCurve edge 11614 (11614) intersection ms 5 error 3.29e-11
+start 2840.3 edgeCurve edge 11617 (11617) intersection
+end 2840.3 edgeCurve edge 11617 (11617) intersection ms 5 error 1.13e-10
+start 2840.3 edgeCurve edge 11623 (11623) intersection
+end 2840.3 edgeCurve edge 11623 (11623) intersection ms 5 error 5.70e-11
+start 2840.3 edgeCurve edge 11625 (11625) intersection
+end 2840.3 edgeCurve edge 11625 (11625) intersection ms 3 error 2.20e-11
+start 2840.3 edgeCurve edge 11186 (11186) intersection
+end 2842.5 edgeCurve edge 11186 (11186) intersection ms 2231 error 9.65e-9
+start 2842.5 edgeCurve edge 11545 (11545) intersection
+end 2842.9 edgeCurve edge 11545 (11545) intersection ms 340 error 2.97e-10
+start 2842.9 edgeCurve edge 11188 (11188) intersection
+end 2843.2 edgeCurve edge 11188 (11188) intersection ms 379 error 8.39e-9
+start 2843.2 edgeCurve edge 11542 (11542) intersection
+end 2843.6 edgeCurve edge 11542 (11542) intersection ms 322 error 3.22e-12
+start 2843.6 edgeCurve edge 11537 (11537) spcurve
+end 2843.6 edgeCurve edge 11537 (11537) spcurve ms 32 error 6.44e-11
+start 2843.6 edgeCurve edge 11536 (11536) spcurve
+end 2843.6 edgeCurve edge 11536 (11536) spcurve ms 15 error 6.82e-9
+start 2843.6 edgeCurve edge 11539 (11539) spcurve
+end 2843.6 edgeCurve edge 11539 (11539) spcurve ms 6 error 2.46e-9
+start 2843.6 edgeCurve edge 11538 (11538) spcurve
+end 2843.7 edgeCurve edge 11538 (11538) spcurve ms 67 error 9.63e-9
+start 2843.7 edgeCurve edge 11687 (11687) spcurve
+end 2843.7 edgeCurve edge 11687 (11687) spcurve ms 3 error 2.46e-9
+start 2843.7 edgeCurve edge 11543 (11543) spcurve
+end 2843.7 edgeCurve edge 11543 (11543) spcurve ms 34 error 2.63e-9
+start 2843.7 edgeCurve edge 11686 (11686) spcurve
+end 2843.7 edgeCurve edge 11686 (11686) spcurve ms 22 error 3.52e-9
+start 2843.7 edgeCurve edge 1212 (1212) intersection
+end 2844.3 edgeCurve edge 1212 (1212) intersection ms 569 error 7.80e-9
+start 2844.3 edgeCurve edge 1227 (1227) intersection
+end 2844.6 edgeCurve edge 1227 (1227) intersection ms 295 error 7.79e-9
+start 2844.6 edgeCurve edge 1225 (1225) intersection
+end 2844.9 edgeCurve edge 1225 (1225) intersection ms 335 error 9.50e-9
+start 2844.9 edgeCurve edge 1216 (1216) intersection
+end 2845.4 edgeCurve edge 1216 (1216) intersection ms 497 error 7.52e-11
+start 2845.4 edgeCurve edge 1213 (1213) intersection
+end 2846.0 edgeCurve edge 1213 (1213) intersection ms 563 error 9.00e-9
+start 2846.0 edgeCurve edge 1197 (1197) intersection
+end 2854.1 edgeCurve edge 1197 (1197) intersection ms 8079 error 7.65e-13
+start 2854.1 edgeCurve edge 1196 (1196) intersection
+end 2856.4 edgeCurve edge 1196 (1196) intersection ms 2345 error 9.65e-9
+start 2856.4 edgeCurve edge 1541 (1541) spcurve
+end 2856.5 edgeCurve edge 1541 (1541) spcurve ms 48 error 2.66e-9
+start 2856.5 edgeCurve edge 1214 (1214) intersection
+end 2856.7 edgeCurve edge 1214 (1214) intersection ms 218 error 2.54e-12
+start 2856.7 edgeCurve edge 1211 (1211) intersection
+end 2856.9 edgeCurve edge 1211 (1211) intersection ms 256 error 1.73e-11
+start 2856.9 edgeCurve edge 1226 (1226) intersection
+end 2859.0 edgeCurve edge 1226 (1226) intersection ms 2090 error 1.30e-10
+start 2859.0 edgeCurve edge 1579 (1579) intersection
+end 2859.1 edgeCurve edge 1579 (1579) intersection ms 34 error 3.26e-12
+start 2859.1 edgeCurve edge 1578 (1578) intersection
+end 2859.1 edgeCurve edge 1578 (1578) intersection ms 31 error 3.26e-12
+start 2859.1 edgeCurve edge 1232 (1232) spcurve
+end 2859.2 edgeCurve edge 1232 (1232) spcurve ms 67 error 3.40e-2
+start 2859.2 edgeCurve edge 1193 (1193) intersection
+end 2859.3 edgeCurve edge 1193 (1193) intersection ms 84 error 1.36e-9
+start 2859.3 edgeCurve edge 1189 (1189) spcurve
+end 2859.3 edgeCurve edge 1189 (1189) spcurve ms 48 error 1.84e-9
+start 2859.3 edgeCurve edge 1613 (1613) spcurve
+end 2859.3 edgeCurve edge 1613 (1613) spcurve ms 4 error 1.84e-9
+start 2859.3 edgeCurve edge 1185 (1185) spcurve
+end 2859.3 edgeCurve edge 1185 (1185) spcurve ms 1 error 0.00e+0
+start 2859.3 edgeCurve edge 1562 (1562) intersection
+end 2859.3 edgeCurve edge 1562 (1562) intersection ms 5 error 1.13e-10
+start 2859.3 edgeCurve edge 1561 (1561) intersection
+end 2859.3 edgeCurve edge 1561 (1561) intersection ms 6 error 5.70e-11
+start 2859.3 edgeCurve edge 1563 (1563) intersection
+end 2859.3 edgeCurve edge 1563 (1563) intersection ms 4 error 3.29e-11
+start 2859.3 edgeCurve edge 1590 (1590) intersection
+end 2859.7 edgeCurve edge 1590 (1590) intersection ms 405 error 1.63e-11
+start 2859.7 edgeCurve edge 1592 (1592) intersection
+end 2859.7 edgeCurve edge 1592 (1592) intersection ms 6 error 1.25e-10
+start 2859.7 edgeCurve edge 1234 (1234) intersection
+end 2859.8 edgeCurve edge 1234 (1234) intersection ms 111 error 1.52e-10
+start 2859.8 edgeCurve edge 1235 (1235) intersection
+end 2859.9 edgeCurve edge 1235 (1235) intersection ms 82 error 8.70e-11
+start 2859.9 edgeCurve edge 1560 (1560) intersection
+end 2859.9 edgeCurve edge 1560 (1560) intersection ms 4 error 2.20e-11
+start 2859.9 edgeCurve edge 1633 (1633) intersection
+end 2860.1 edgeCurve edge 1633 (1633) intersection ms 196 error 2.27e-16
+start 2860.1 edgeCurve edge 1222 (1222) intersection
+end 2861.6 edgeCurve edge 1222 (1222) intersection ms 1524 error 4.82e-9
+start 2861.7 edgeCurve edge 1634 (1634) intersection
+end 2861.7 edgeCurve edge 1634 (1634) intersection ms 90 error 1.83e-11
+start 2861.7 edgeCurve edge 1636 (1636) intersection
+end 2863.3 edgeCurve edge 1636 (1636) intersection ms 1548 error 2.82e-9
+start 2863.3 edgeCurve edge 1635 (1635) intersection
+end 2864.8 edgeCurve edge 1635 (1635) intersection ms 1537 error 9.95e-10
+start 2864.8 edgeCurve edge 1533 (1533) intersection
+end 2864.9 edgeCurve edge 1533 (1533) intersection ms 120 error 3.76e-9
+start 2864.9 edgeCurve edge 1413 (1413) intersection
+end 2866.3 edgeCurve edge 1413 (1413) intersection ms 1400 error 2.75e-11
+start 2866.3 edgeCurve edge 1025 (1025) intersection
+end 2866.6 edgeCurve edge 1025 (1025) intersection ms 263 error 7.99e-9
+start 2866.6 edgeCurve edge 1024 (1024) intersection
+end 2866.9 edgeCurve edge 1024 (1024) intersection ms 256 error 3.41e-11
+start 2866.9 edgeCurve edge 1637 (1637) intersection
+end 2866.9 edgeCurve edge 1637 (1637) intersection ms 10 error 4.19e-9
+start 2866.9 edgeCurve edge 1628 (1628) intersection
+end 2866.9 edgeCurve edge 1628 (1628) intersection ms 5 error 5.80e-9
+start 2866.9 edgeCurve edge 1230 (1230) intersection
+end 2867.0 edgeCurve edge 1230 (1230) intersection ms 130 error 1.38e-10
+start 2867.0 edgeCurve edge 1522 (1522) intersection
+end 2867.0 edgeCurve edge 1522 (1522) intersection ms 7 error 9.97e-9
+start 2867.0 edgeCurve edge 1521 (1521) intersection
+end 2867.0 edgeCurve edge 1521 (1521) intersection ms 6 error 8.29e-9
+start 2867.0 edgeCurve edge 1363 (1363) intersection
+end 2867.2 edgeCurve edge 1363 (1363) intersection ms 155 error 7.59e-9
+start 2867.2 edgeCurve edge 11249 (11249) intersection
+end 2867.4 edgeCurve edge 11249 (11249) intersection ms 189 error 2.11e-17
+start 2867.4 edgeCurve edge 11154 (11154) intersection
+end 2867.5 edgeCurve edge 11154 (11154) intersection ms 157 error 7.59e-9
+start 2867.5 edgeCurve edge 11155 (11155) intersection
+end 2867.5 edgeCurve edge 11155 (11155) intersection ms 6 error 8.29e-9
+start 2867.5 edgeCurve edge 910 (910) intersection
+end 2867.9 edgeCurve edge 910 (910) intersection ms 336 error 2.79e-9
+start 2867.9 edgeCurve edge 1516 (1516) intersection
+end 2868.0 edgeCurve edge 1516 (1516) intersection ms 100 error 2.87e-10
+start 2868.0 edgeCurve edge 1512 (1512) intersection
+end 2868.4 edgeCurve edge 1512 (1512) intersection ms 466 error 6.56e-9
+start 2868.4 edgeCurve edge 1517 (1517) intersection
+end 2868.7 edgeCurve edge 1517 (1517) intersection ms 226 error 7.07e-9
+start 2868.7 edgeCurve edge 1066 (1066) intersection
+end 2868.7 edgeCurve edge 1066 (1066) intersection ms 57 error 2.22e-10
+start 2868.7 edgeCurve edge 1038 (1038) intersection
+end 2868.7 edgeCurve edge 1038 (1038) intersection ms 16 error 8.18e-9
+start 2868.7 edgeCurve edge 1058 (1058) intersection
+end 2868.7 edgeCurve edge 1058 (1058) intersection ms 5 error 5.84e-11
+start 2868.7 edgeCurve edge 1052 (1052) intersection
+end 2868.7 edgeCurve edge 1052 (1052) intersection ms 6 error 3.95e-12
+start 2868.7 edgeCurve edge 1055 (1055) intersection
+end 2868.8 edgeCurve edge 1055 (1055) intersection ms 6 error 5.32e-11
+start 2868.8 edgeCurve edge 1169 (1169) intersection
+end 2868.8 edgeCurve edge 1169 (1169) intersection ms 16 error 6.00e-11
+start 2868.8 edgeCurve edge 1042 (1042) intersection
+end 2868.8 edgeCurve edge 1042 (1042) intersection ms 7 error 9.23e-9
+start 2868.8 edgeCurve edge 1170 (1170) intersection
+end 2868.8 edgeCurve edge 1170 (1170) intersection ms 22 error 4.19e-12
+start 2868.8 edgeCurve edge 893 (893) intersection
+end 2869.1 edgeCurve edge 893 (893) intersection ms 347 error 8.84e-9
+start 2869.1 edgeCurve edge 917 (917) intersection
+end 2869.5 edgeCurve edge 917 (917) intersection ms 337 error 1.41e-11
+start 2869.5 edgeCurve edge 919 (919) intersection
+end 2869.8 edgeCurve edge 919 (919) intersection ms 292 error 2.39e-12
+start 2869.8 edgeCurve edge 918 (918) intersection
+end 2870.2 edgeCurve edge 918 (918) intersection ms 388 error 9.22e-9
+start 2870.2 edgeCurve edge 920 (920) intersection
+end 2870.5 edgeCurve edge 920 (920) intersection ms 328 error 5.74e-9
+start 2870.5 edgeCurve edge 922 (922) intersection
+end 2870.8 edgeCurve edge 922 (922) intersection ms 293 error 5.50e-10
+start 2870.8 edgeCurve edge 921 (921) intersection
+end 2871.1 edgeCurve edge 921 (921) intersection ms 327 error 5.74e-9
+start 2871.1 edgeCurve edge 892 (892) intersection
+end 2871.4 edgeCurve edge 892 (892) intersection ms 317 error 2.68e-11
+start 2871.4 edgeCurve edge 1693 (1693) intersection
+end 2873.2 edgeCurve edge 1693 (1693) intersection ms 1804 error 1.28e-12
+start 2873.2 edgeCurve edge 1703 (1703) intersection
+end 2875.6 edgeCurve edge 1703 (1703) intersection ms 2419 error 3.12e-12
+start 2875.6 edgeCurve edge 1005 (1005) intersection
+end 2876.6 edgeCurve edge 1005 (1005) intersection ms 931 error 2.21e-10
+start 2876.6 edgeCurve edge 8245 (8245) intersection
+end 2876.6 edgeCurve edge 8245 (8245) intersection ms 61 error 1.51e-11
+start 2876.6 edgeCurve edge 8280 (8280) intersection
+end 2876.7 edgeCurve edge 8280 (8280) intersection ms 14 error 1.62e-10
+start 2876.7 edgeCurve edge 8526 (8526) intersection
+end 2878.2 edgeCurve edge 8526 (8526) intersection ms 1502 error 1.03e-9
+start 2878.2 edgeCurve edge 7204 (7204) spcurve
+end 2878.2 edgeCurve edge 7204 (7204) spcurve ms 52 error 1.37e-11
+start 2878.2 edgeCurve edge 7211 (7211) spcurve
+end 2878.2 edgeCurve edge 7211 (7211) spcurve ms 30 error 6.12e-10
+start 2878.2 edgeCurve edge 1714 (1714) spcurve
+end 2878.3 edgeCurve edge 1714 (1714) spcurve ms 43 error 6.42e-9
+start 2878.3 edgeCurve edge 1060 (1060) intersection
+end 2878.3 edgeCurve edge 1060 (1060) intersection ms 4 error 4.83e-13
+start 2878.3 edgeCurve edge 1059 (1059) intersection
+end 2878.3 edgeCurve edge 1059 (1059) intersection ms 5 error 1.35e-11
+start 2878.3 edgeCurve edge 1041 (1041) intersection
+end 2878.3 edgeCurve edge 1041 (1041) intersection ms 6 error 2.94e-13
+start 2878.3 edgeCurve edge 1079 (1079) intersection
+end 2878.9 edgeCurve edge 1079 (1079) intersection ms 626 error 8.48e-9
+start 2878.9 edgeCurve edge 1084 (1084) intersection
+end 2878.9 edgeCurve edge 1084 (1084) intersection ms 14 error 3.92e-10
+start 2878.9 edgeCurve edge 11145 (11145) intersection
+end 2879.2 edgeCurve edge 11145 (11145) intersection ms 291 error 7.58e-9
+start 2879.2 edgeCurve edge 11139 (11139) intersection
+end 2881.9 edgeCurve edge 11139 (11139) intersection ms 2709 error 3.28e-11
+start 2881.9 edgeCurve edge 11071 (11071) intersection
+end 2883.2 edgeCurve edge 11071 (11071) intersection ms 1256 error 7.81e-9
+start 2883.2 edgeCurve edge 11137 (11137) spcurve
+end 2883.3 edgeCurve edge 11137 (11137) spcurve ms 63 error 8.48e-9
+start 2883.3 edgeCurve edge 11067 (11067) spcurve
+end 2883.4 edgeCurve edge 11067 (11067) spcurve ms 113 error 8.60e-5
+start 2883.4 edgeCurve edge 11752 (11752) intersection
+end 2883.4 edgeCurve edge 11752 (11752) intersection ms 26 error 8.85e-10
+start 2883.4 edgeCurve edge 11069 (11069) intersection
+end 2883.5 edgeCurve edge 11069 (11069) intersection ms 59 error 9.51e-10
+start 2883.5 edgeCurve edge 11751 (11751) intersection
+end 2883.5 edgeCurve edge 11751 (11751) intersection ms 19 error 1.64e-12
+start 2883.5 edgeCurve edge 11065 (11065) intersection
+end 2883.5 edgeCurve edge 11065 (11065) intersection ms 45 error 5.23e-9
+start 2883.5 edgeCurve edge 11150 (11150) intersection
+end 2883.7 edgeCurve edge 11150 (11150) intersection ms 161 error 6.11e-11
+start 2883.7 edgeCurve edge 11140 (11140) intersection
+end 2884.5 edgeCurve edge 11140 (11140) intersection ms 779 error 7.77e-13
+start 2884.5 edgeCurve edge 1664 (1664) spcurve
+end 2884.5 edgeCurve edge 1664 (1664) spcurve ms 4 error 5.10e-9
+start 2884.5 edgeCurve edge 1475 (1475) intersection
+end 2884.7 edgeCurve edge 1475 (1475) intersection ms 243 error 7.57e-9
+start 2884.7 edgeCurve edge 1474 (1474) intersection
+end 2884.9 edgeCurve edge 1474 (1474) intersection ms 216 error 5.02e-9
+start 2884.9 edgeCurve edge 1473 (1473) intersection
+end 2885.1 edgeCurve edge 1473 (1473) intersection ms 220 error 9.08e-9
+start 2885.1 edgeCurve edge 1334 (1334) intersection
+end 2885.2 edgeCurve edge 1334 (1334) intersection ms 5 error 5.63e-9
+start 2885.2 edgeCurve edge 1333 (1333) intersection
+end 2885.2 edgeCurve edge 1333 (1333) intersection ms 6 error 5.79e-9
+start 2885.2 edgeCurve edge 1331 (1331) intersection
+end 2885.2 edgeCurve edge 1331 (1331) intersection ms 4 error 1.03e-10
+start 2885.2 edgeCurve edge 1328 (1328) intersection
+end 2885.2 edgeCurve edge 1328 (1328) intersection ms 23 error 9.22e-9
+start 2885.2 edgeCurve edge 1327 (1327) intersection
+end 2885.2 edgeCurve edge 1327 (1327) intersection ms 6 error 8.86e-9
+start 2885.2 edgeCurve edge 1322 (1322) intersection
+end 2885.2 edgeCurve edge 1322 (1322) intersection ms 8 error 7.70e-9
+start 2885.2 edgeCurve edge 1321 (1321) intersection
+end 2885.2 edgeCurve edge 1321 (1321) intersection ms 7 error 8.46e-9
+start 2885.2 edgeCurve edge 1324 (1324) intersection
+end 2885.2 edgeCurve edge 1324 (1324) intersection ms 3 error 3.49e-10
+start 2885.2 edgeCurve edge 1325 (1325) intersection
+end 2885.2 edgeCurve edge 1325 (1325) intersection ms 4 error 4.38e-10
+start 2885.2 edgeCurve edge 1336 (1336) intersection
+end 2885.2 edgeCurve edge 1336 (1336) intersection ms 4 error 1.23e-10
+start 2885.2 edgeCurve edge 1433 (1433) intersection
+end 2885.4 edgeCurve edge 1433 (1433) intersection ms 183 error 5.35e-9
+start 2885.4 edgeCurve edge 1432 (1432) intersection
+end 2885.6 edgeCurve edge 1432 (1432) intersection ms 230 error 1.13e-10
+start 2885.6 edgeCurve edge 1435 (1435) intersection
+end 2885.8 edgeCurve edge 1435 (1435) intersection ms 203 error 6.91e-9
+start 2885.8 edgeCurve edge 1330 (1330) intersection
+end 2885.8 edgeCurve edge 1330 (1330) intersection ms 4 error 1.39e-10
+start 2885.8 edgeCurve edge 924 (924) intersection
+end 2886.1 edgeCurve edge 924 (924) intersection ms 279 error 5.39e-9
+start 2886.1 edgeCurve edge 904 (904) intersection
+end 2886.5 edgeCurve edge 904 (904) intersection ms 352 error 5.96e-9
+start 2886.5 edgeCurve edge 951 (951) intersection
+end 2886.8 edgeCurve edge 951 (951) intersection ms 310 error 1.46e-11
+start 2886.8 edgeCurve edge 952 (952) intersection
+end 2887.1 edgeCurve edge 952 (952) intersection ms 341 error 4.42e-9
+start 2887.1 edgeCurve edge 10926 (10926) spcurve
+end 2887.1 edgeCurve edge 10926 (10926) spcurve ms 12 error 3.77e-9
+start 2887.1 edgeCurve edge 1250 (1250) intersection
+end 2887.1 edgeCurve edge 1250 (1250) intersection ms 7 error 2.70e-9
+start 2887.1 edgeCurve edge 1249 (1249) intersection
+end 2887.1 edgeCurve edge 1249 (1249) intersection ms 8 error 2.69e-9
+start 2887.1 edgeCurve edge 1247 (1247) intersection
+end 2887.1 edgeCurve edge 1247 (1247) intersection ms 4 error 1.97e-11
+start 2887.1 edgeCurve edge 1244 (1244) intersection
+end 2887.2 edgeCurve edge 1244 (1244) intersection ms 7 error 2.98e-9
+start 2887.2 edgeCurve edge 1246 (1246) intersection
+end 2887.2 edgeCurve edge 1246 (1246) intersection ms 4 error 1.84e-11
+start 2887.2 edgeCurve edge 1256 (1256) intersection
+end 2887.2 edgeCurve edge 1256 (1256) intersection ms 6 error 3.73e-9
+start 2887.2 edgeCurve edge 949 (949) intersection
+end 2887.5 edgeCurve edge 949 (949) intersection ms 293 error 1.04e-10
+start 2887.5 edgeCurve edge 948 (948) intersection
+end 2887.8 edgeCurve edge 948 (948) intersection ms 297 error 4.58e-9
+start 2887.8 edgeCurve edge 943 (943) intersection
+end 2888.0 edgeCurve edge 943 (943) intersection ms 274 error 8.75e-11
+start 2888.0 edgeCurve edge 1265 (1265) intersection
+end 2888.0 edgeCurve edge 1265 (1265) intersection ms 3 error 8.29e-11
+start 2888.0 edgeCurve edge 1262 (1262) intersection
+end 2888.0 edgeCurve edge 1262 (1262) intersection ms 7 error 3.14e-9
+start 2888.0 edgeCurve edge 1264 (1264) intersection
+end 2888.0 edgeCurve edge 1264 (1264) intersection ms 3 error 7.33e-11
+start 2888.0 edgeCurve edge 1253 (1253) intersection
+end 2888.0 edgeCurve edge 1253 (1253) intersection ms 4 error 1.91e-11
+start 2888.0 edgeCurve edge 1261 (1261) intersection
+end 2888.1 edgeCurve edge 1261 (1261) intersection ms 6 error 3.12e-9
+start 2888.1 edgeCurve edge 1259 (1259) intersection
+end 2888.1 edgeCurve edge 1259 (1259) intersection ms 3 error 1.01e-10
+start 2888.1 edgeCurve edge 1258 (1258) intersection
+end 2888.1 edgeCurve edge 1258 (1258) intersection ms 3 error 9.66e-11
+start 2888.1 edgeCurve edge 1255 (1255) intersection
+end 2888.1 edgeCurve edge 1255 (1255) intersection ms 6 error 3.68e-9
+start 2888.1 edgeCurve edge 950 (950) intersection
+end 2888.4 edgeCurve edge 950 (950) intersection ms 307 error 5.00e-9
+start 2888.4 edgeCurve edge 947 (947) intersection
+end 2888.7 edgeCurve edge 947 (947) intersection ms 295 error 7.07e-11
+start 2888.7 edgeCurve edge 953 (953) intersection
+end 2889.0 edgeCurve edge 953 (953) intersection ms 350 error 1.54e-11
+start 2889.0 edgeCurve edge 954 (954) intersection
+end 2889.3 edgeCurve edge 954 (954) intersection ms 278 error 4.36e-9
+start 2889.3 edgeCurve edge 1252 (1252) intersection
+end 2889.3 edgeCurve edge 1252 (1252) intersection ms 6 error 1.78e-11
+start 2889.3 edgeCurve edge 1267 (1267) intersection
+end 2889.3 edgeCurve edge 1267 (1267) intersection ms 7 error 4.28e-9
+start 2889.3 edgeCurve edge 1268 (1268) intersection
+end 2889.3 edgeCurve edge 1268 (1268) intersection ms 9 error 4.37e-9
+start 2889.3 edgeCurve edge 1270 (1270) intersection
+end 2889.3 edgeCurve edge 1270 (1270) intersection ms 5 error 8.78e-11
+start 2889.3 edgeCurve edge 1277 (1277) intersection
+end 2889.3 edgeCurve edge 1277 (1277) intersection ms 5 error 1.11e-10
+start 2889.3 edgeCurve edge 1276 (1276) intersection
+end 2889.3 edgeCurve edge 1276 (1276) intersection ms 5 error 1.03e-10
+start 2889.3 edgeCurve edge 1288 (1288) intersection
+end 2889.3 edgeCurve edge 1288 (1288) intersection ms 5 error 3.24e-11
+start 2889.3 edgeCurve edge 1285 (1285) intersection
+end 2889.3 edgeCurve edge 1285 (1285) intersection ms 8 error 7.88e-9
+start 2889.3 edgeCurve edge 942 (942) intersection
+end 2889.7 edgeCurve edge 942 (942) intersection ms 339 error 5.81e-9
+start 2889.7 edgeCurve edge 941 (941) intersection
+end 2890.0 edgeCurve edge 941 (941) intersection ms 287 error 2.26e-11
+start 2890.0 edgeCurve edge 939 (939) intersection
+end 2890.3 edgeCurve edge 939 (939) intersection ms 368 error 3.18e-11
+start 2890.3 edgeCurve edge 1283 (1283) intersection
+end 2890.3 edgeCurve edge 1283 (1283) intersection ms 10 error 3.33e-11
+start 2890.3 edgeCurve edge 1286 (1286) intersection
+end 2890.4 edgeCurve edge 1286 (1286) intersection ms 14 error 8.44e-9
+start 2890.4 edgeCurve edge 1282 (1282) intersection
+end 2890.4 edgeCurve edge 1282 (1282) intersection ms 9 error 2.89e-11
+start 2890.4 edgeCurve edge 940 (940) intersection
+end 2890.8 edgeCurve edge 940 (940) intersection ms 388 error 8.48e-9
+start 2890.8 edgeCurve edge 935 (935) intersection
+end 2891.1 edgeCurve edge 935 (935) intersection ms 316 error 2.89e-11
+start 2891.1 edgeCurve edge 938 (938) intersection
+end 2891.4 edgeCurve edge 938 (938) intersection ms 340 error 4.50e-9
+start 2891.4 edgeCurve edge 937 (937) intersection
+end 2891.8 edgeCurve edge 937 (937) intersection ms 349 error 1.15e-10
+start 2891.8 edgeCurve edge 936 (936) intersection
+end 2892.1 edgeCurve edge 936 (936) intersection ms 372 error 4.74e-9
+start 2892.1 edgeCurve edge 931 (931) intersection
+end 2892.5 edgeCurve edge 931 (931) intersection ms 388 error 1.90e-10
+start 2892.5 edgeCurve edge 1300 (1300) intersection
+end 2892.5 edgeCurve edge 1300 (1300) intersection ms 7 error 1.95e-11
+start 2892.5 edgeCurve edge 1301 (1301) intersection
+end 2892.5 edgeCurve edge 1301 (1301) intersection ms 7 error 3.59e-11
+start 2892.5 edgeCurve edge 1312 (1312) intersection
+end 2892.5 edgeCurve edge 1312 (1312) intersection ms 5 error 2.11e-10
+start 2892.5 edgeCurve edge 1309 (1309) intersection
+end 2892.6 edgeCurve edge 1309 (1309) intersection ms 9 error 3.44e-9
+start 2892.6 edgeCurve edge 934 (934) intersection
+end 2892.9 edgeCurve edge 934 (934) intersection ms 349 error 6.09e-9
+start 2892.9 edgeCurve edge 933 (933) intersection
+end 2893.3 edgeCurve edge 933 (933) intersection ms 386 error 1.94e-10
+start 2893.3 edgeCurve edge 932 (932) intersection
+end 2893.6 edgeCurve edge 932 (932) intersection ms 326 error 4.89e-9
+start 2893.6 edgeCurve edge 930 (930) intersection
+end 2894.0 edgeCurve edge 930 (930) intersection ms 376 error 9.14e-9
+start 2894.0 edgeCurve edge 929 (929) intersection
+end 2894.4 edgeCurve edge 929 (929) intersection ms 387 error 4.08e-10
+start 2894.4 edgeCurve edge 928 (928) intersection
+end 2894.7 edgeCurve edge 928 (928) intersection ms 288 error 5.84e-9
+start 2894.7 edgeCurve edge 927 (927) intersection
+end 2895.0 edgeCurve edge 927 (927) intersection ms 336 error 4.07e-10
+start 2895.0 edgeCurve edge 1303 (1303) intersection
+end 2895.0 edgeCurve edge 1303 (1303) intersection ms 11 error 5.42e-9
+start 2895.0 edgeCurve edge 1298 (1298) intersection
+end 2895.0 edgeCurve edge 1298 (1298) intersection ms 8 error 3.59e-9
+start 2895.0 edgeCurve edge 1304 (1304) intersection
+end 2895.0 edgeCurve edge 1304 (1304) intersection ms 9 error 5.84e-9
+start 2895.0 edgeCurve edge 1306 (1306) intersection
+end 2895.0 edgeCurve edge 1306 (1306) intersection ms 5 error 1.54e-10
+start 2895.0 edgeCurve edge 1307 (1307) intersection
+end 2895.0 edgeCurve edge 1307 (1307) intersection ms 5 error 2.30e-10
+start 2895.0 edgeCurve edge 1310 (1310) intersection
+end 2895.0 edgeCurve edge 1310 (1310) intersection ms 7 error 3.48e-9
+start 2895.0 edgeCurve edge 1297 (1297) intersection
+end 2895.1 edgeCurve edge 1297 (1297) intersection ms 10 error 3.53e-9
+start 2895.1 edgeCurve edge 11647 (11647) intersection
+end 2895.1 edgeCurve edge 11647 (11647) intersection ms 72 error 5.70e-12
+start 2895.1 edgeCurve edge 11654 (11654) intersection
+end 2895.3 edgeCurve edge 11654 (11654) intersection ms 206 error 1.38e-10
+start 2895.3 edgeCurve edge 11648 (11648) intersection
+end 2895.3 edgeCurve edge 11648 (11648) intersection ms 4 error 5.80e-9
+start 2895.3 edgeCurve edge 11380 (11380) intersection
+end 2896.8 edgeCurve edge 11380 (11380) intersection ms 1505 error 2.36e-9
+start 2896.8 edgeCurve edge 11163 (11163) intersection
+end 2898.8 edgeCurve edge 11163 (11163) intersection ms 2001 error 4.78e-9
+start 2898.8 edgeCurve edge 1631 (1631) intersection
+end 2898.9 edgeCurve edge 1631 (1631) intersection ms 21 error 1.96e-10
+start 2898.9 edgeCurve edge 1632 (1632) intersection
+end 2899.0 edgeCurve edge 1632 (1632) intersection ms 123 error 3.19e-9
+start 2899.0 edgeCurve edge 1570 (1570) intersection
+end 2899.0 edgeCurve edge 1570 (1570) intersection ms 27 error 2.66e-12
+start 2899.0 edgeCurve edge 1568 (1568) intersection
+end 2901.2 edgeCurve edge 1568 (1568) intersection ms 2225 error 6.22e-11
+start 2901.2 edgeCurve edge 1580 (1580) intersection
+end 2902.7 edgeCurve edge 1580 (1580) intersection ms 1486 error 1.04e-13
+start 2902.7 edgeCurve edge 1576 (1576) intersection
+end 2902.8 edgeCurve edge 1576 (1576) intersection ms 37 error 3.26e-12
+start 2902.8 edgeCurve edge 1187 (1187) spcurve
+end 2902.8 edgeCurve edge 1187 (1187) spcurve ms 0 error 0.00e+0
+start 2902.8 edgeCurve edge 1540 (1540) spcurve
+end 2902.8 edgeCurve edge 1540 (1540) spcurve ms 53 error 2.62e-9
+start 2902.8 edgeCurve edge 1208 (1208) spcurve
+end 2902.8 edgeCurve edge 1208 (1208) spcurve ms 29 error 5.25e-9
+start 2902.8 edgeCurve edge 1198 (1198) spcurve
+end 2902.9 edgeCurve edge 1198 (1198) spcurve ms 51 error 7.37e-15
+start 2902.9 edgeCurve edge 1217 (1217) spcurve
+end 2903.0 edgeCurve edge 1217 (1217) spcurve ms 60 error 5.58e-10
+start 2903.0 edgeCurve edge 1228 (1228) spcurve
+end 2903.0 edgeCurve edge 1228 (1228) spcurve ms 28 error 4.91e-9
+start 2903.0 edgeCurve edge 1594 (1594) intersection
+end 2903.0 edgeCurve edge 1594 (1594) intersection ms 40 error 3.27e-12
+start 2903.0 edgeCurve edge 11169 (11169) spcurve
+end 2903.0 edgeCurve edge 11169 (11169) spcurve ms 14 error 7.70e-9
+start 2903.0 edgeCurve edge 10973 (10973) spcurve
+end 2903.1 edgeCurve edge 10973 (10973) spcurve ms 104 error 9.28e-9
+start 2903.1 edgeCurve edge 1534 (1534) spcurve
+end 2903.1 edgeCurve edge 1534 (1534) spcurve ms 2 error 3.15e-17
+start 2903.1 edgeCurve edge 11191 (11191) spcurve
+end 2903.2 edgeCurve edge 11191 (11191) spcurve ms 3 error 3.22e-17
+start 2903.2 edgeCurve edge 11184 (11184) spcurve
+end 2903.2 edgeCurve edge 11184 (11184) spcurve ms 19 error 6.98e-9
+start 2903.2 edgeCurve edge 11624 (11624) intersection
+end 2903.5 edgeCurve edge 11624 (11624) intersection ms 282 error 7.47e-11
+start 2903.5 edgeCurve edge 11611 (11611) intersection
+end 2903.7 edgeCurve edge 11611 (11611) intersection ms 248 error 8.17e-10
+start 2903.7 edgeCurve edge 11175 (11175) spcurve
+end 2903.7 edgeCurve edge 11175 (11175) spcurve ms 4 error 1.84e-9
+start 2903.7 edgeCurve edge 11541 (11541) spcurve
+end 2903.7 edgeCurve edge 11541 (11541) spcurve ms 29 error 5.31e-9
+start 2903.7 edgeCurve edge 11197 (11197) spcurve
+end 2903.8 edgeCurve edge 11197 (11197) spcurve ms 52 error 4.13e-2
+start 2903.8 edgeCurve edge 11840 (11840) intersection
+end 2904.0 edgeCurve edge 11840 (11840) intersection ms 250 error 5.60e-12
+start 2904.0 edgeCurve edge 11839 (11839) intersection
+end 2904.3 edgeCurve edge 11839 (11839) intersection ms 293 error 5.49e-9
+start 2904.3 edgeCurve edge 11836 (11836) intersection
+end 2904.7 edgeCurve edge 11836 (11836) intersection ms 325 error 9.98e-12
+start 2904.7 edgeCurve edge 11873 (11873) intersection
+end 2905.0 edgeCurve edge 11873 (11873) intersection ms 312 error 9.29e-9
+start 2905.0 edgeCurve edge 11872 (11872) intersection
+end 2905.3 edgeCurve edge 11872 (11872) intersection ms 293 error 9.90e-9
+start 2905.3 edgeCurve edge 11868 (11868) intersection
+end 2905.5 edgeCurve edge 11868 (11868) intersection ms 253 error 1.62e-12
+start 2905.5 edgeCurve edge 11841 (11841) intersection
+end 2905.5 edgeCurve edge 11841 (11841) intersection ms 6 error 7.42e-11
+start 2905.5 edgeCurve edge 11824 (11824) intersection
+end 2907.6 edgeCurve edge 11824 (11824) intersection ms 2113 error 1.50e-10
+start 2907.6 edgeCurve edge 11456 (11456) intersection
+end 2908.0 edgeCurve edge 11456 (11456) intersection ms 328 error 8.75e-11
+start 2908.0 edgeCurve edge 11450 (11450) intersection
+end 2908.2 edgeCurve edge 11450 (11450) intersection ms 281 error 5.42e-9
+start 2908.2 edgeCurve edge 11462 (11462) intersection
+end 2908.6 edgeCurve edge 11462 (11462) intersection ms 358 error 5.81e-9
+start 2908.6 edgeCurve edge 11465 (11465) intersection
+end 2908.9 edgeCurve edge 11465 (11465) intersection ms 312 error 2.26e-11
+start 2908.9 edgeCurve edge 11467 (11467) intersection
+end 2909.3 edgeCurve edge 11467 (11467) intersection ms 345 error 8.48e-9
+start 2909.3 edgeCurve edge 11480 (11480) intersection
+end 2909.6 edgeCurve edge 11480 (11480) intersection ms 352 error 2.89e-11
+start 2909.6 edgeCurve edge 11334 (11334) intersection
+end 2909.6 edgeCurve edge 11334 (11334) intersection ms 10 error 2.92e-9
+start 2909.6 edgeCurve edge 10990 (10990) intersection
+end 2910.6 edgeCurve edge 10990 (10990) intersection ms 989 error 2.21e-10
+start 2910.6 edgeCurve edge 10968 (10968) spcurve
+end 2910.6 edgeCurve edge 10968 (10968) spcurve ms 36 error 5.72e-16
+start 2910.6 edgeCurve edge 10969 (10969) intersection
+end 2913.2 edgeCurve edge 10969 (10969) intersection ms 2558 error 1.58e-11
+start 2913.2 edgeCurve edge 11842 (11842) intersection
+end 2913.5 edgeCurve edge 11842 (11842) intersection ms 298 error 7.55e-12
+start 2913.5 edgeCurve edge 11937 (11937) intersection
+end 2913.5 edgeCurve edge 11937 (11937) intersection ms 39 error 1.92e-10
+start 2913.5 edgeCurve edge 11941 (11941) intersection
+end 2913.5 edgeCurve edge 11941 (11941) intersection ms 5 error 1.28e-10
+start 2913.5 edgeCurve edge 11922 (11922) intersection
+end 2913.6 edgeCurve edge 11922 (11922) intersection ms 31 error 4.99e-9
+start 2913.6 edgeCurve edge 11294 (11294) intersection
+end 2913.6 edgeCurve edge 11294 (11294) intersection ms 3 error 1.84e-11
+start 2913.6 edgeCurve edge 11427 (11427) intersection
+end 2913.6 edgeCurve edge 11427 (11427) intersection ms 3 error 1.97e-11
+start 2913.6 edgeCurve edge 11291 (11291) intersection
+end 2913.6 edgeCurve edge 11291 (11291) intersection ms 7 error 2.69e-9
+start 2913.6 edgeCurve edge 11426 (11426) intersection
+end 2913.9 edgeCurve edge 11426 (11426) intersection ms 285 error 4.36e-9
+start 2913.9 edgeCurve edge 11429 (11429) intersection
+end 2914.2 edgeCurve edge 11429 (11429) intersection ms 333 error 1.54e-11
+start 2914.2 edgeCurve edge 11432 (11432) intersection
+end 2914.6 edgeCurve edge 11432 (11432) intersection ms 355 error 1.46e-11
+start 2914.6 edgeCurve edge 11431 (11431) intersection
+end 2914.8 edgeCurve edge 11431 (11431) intersection ms 288 error 4.42e-9
+start 2914.8 edgeCurve edge 11444 (11444) intersection
+end 2915.2 edgeCurve edge 11444 (11444) intersection ms 337 error 7.07e-11
+start 2915.2 edgeCurve edge 11498 (11498) intersection
+end 2915.5 edgeCurve edge 11498 (11498) intersection ms 311 error 9.14e-9
+start 2915.5 edgeCurve edge 1111 (1111) intersection
+end 2915.5 edgeCurve edge 1111 (1111) intersection ms 5 error 9.74e-11
+start 2915.5 edgeCurve edge 1669 (1669) intersection
+end 2915.6 edgeCurve edge 1669 (1669) intersection ms 86 error 2.02e-10
+start 2915.6 edgeCurve edge 1670 (1670) intersection
+end 2915.7 edgeCurve edge 1670 (1670) intersection ms 63 error 1.23e-10
+start 2915.7 edgeCurve edge 1171 (1171) spcurve
+end 2915.7 edgeCurve edge 1171 (1171) spcurve ms 64 error 9.76e-5
+start 2915.7 edgeCurve edge 1063 (1063) spcurve
+end 2915.8 edgeCurve edge 1063 (1063) spcurve ms 42 error 8.48e-9
+start 2915.8 edgeCurve edge 8757 (8757) intersection
+end 2915.8 edgeCurve edge 8757 (8757) intersection ms 22 error 1.20e-10
+start 2915.8 edgeCurve edge 8752 (8752) intersection
+end 2915.8 edgeCurve edge 8752 (8752) intersection ms 5 error 3.44e-10
+start 2915.8 edgeCurve edge 8848 (8848) intersection
+end 2919.6 edgeCurve edge 8848 (8848) intersection ms 3819 error 5.45e-9
+start 2919.6 edgeCurve edge 7245 (7245) intersection
+end 2919.9 edgeCurve edge 7245 (7245) intersection ms 287 error 9.29e-9
+start 2919.9 edgeCurve edge 1478 (1478) spcurve
+end 2919.9 edgeCurve edge 1478 (1478) spcurve ms 27 error 5.15e-9
+done 3213.9 s {"exactEdges":852,"fittedCurves":958,"pcurveEdges":113,"fittedSurfaces":296,"maxError":0.04179302441339158,"errors":{"curve":0.04179302441339158,"surface":0.00010341754860233084},"tolerantEdges":147,"maxEdgeGap":12520.056200444535}
+exit 0

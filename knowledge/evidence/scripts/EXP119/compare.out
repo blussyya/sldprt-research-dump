@@ -1,0 +1,8 @@
+calls in both runs 167 | time before 3599 s, after 1387 s | same error 167 of 167
+blendSurface face 13077 blend: 461 s -> 159 s
+blendSurface face 13093 blend: 233 s -> 69 s
+blendSurface face 13121 blend: 1133 s -> 285 s
+blendSurface face 13194 blend: 175 s -> 198 s
+blendSurface face 14137 blend: 560 s -> 176 s
+blendSurface face 14364 blend: 643 s -> 117 s
+fits finished before the stop: 167 in 775 s; the same 167 fits after the fix took 1387 s
