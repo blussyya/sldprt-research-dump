@@ -1765,17 +1765,18 @@ support, from blends with many SP_CURVE edges; then map those three edges exactl
 ## NQ-077 — head_face's other fits over the bar
 
 **Status**: Open. After EXP-121, `f666f342` still has, besides NQ-076's three edges
-(`scripts/EXP121/timing-f666f342-perface.log`):
+(`scripts/EXP121/timing-f666f342-fins.log`, the resolve on converter 31a5f28):
 
 | fit | error |
 |---|---:|
 | blend surfaces of faces 2664 and 13194 (mirror images) | 1.03e-4 m each |
 | intersection edges 8840, 11916, 11891, 8832 | 1.19e-7, 6.21e-8, 6.10e-8, 3.85e-8 m |
 | intersection edges 1479, 11416 (mirror images) | 1.02e-8 m each |
-| largest gap between a tolerant edge's curve and its other face | 108 m |
+| largest gap between a tolerant edge's curve and its other face | 1.83e-5 m |
 
-A gap of 108 m means something was evaluated far outside its range, not a near miss. Check the
-blend surfaces first: 1.03e-4 m on a face fit is the size of a wrong spine range or a support
+The largest gap was 108 m with only the per-face fits (`timing-f666f342-perface.log`); the contact
+side and the fin fallback took it to 1.83e-5 m. Which edge that is, and whether it's inside its
+tolerance, isn't checked. Check the blend surfaces first: 1.03e-4 m on a face fit is the size of a wrong spine range or a support
 evaluated off its end. Then see whether the intersection edges are touching ends, like EXP-120's.
 
 **Evidence**: [EXP-121](evidence/2026-11-26_v0.5-EXP121.md), [EXP-119](evidence/2026-11-26_v0.5-EXP119.md).
