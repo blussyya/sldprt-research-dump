@@ -117,8 +117,8 @@ These come from the user and override any habit that conflicts with them.
   interval and counts a pinned end's gap to its vertex. Over the bar:
   - `f0b9a118`: 4.49e-4 m, edge 152. A converter error, the end projection a coil early on a
     thread (EXP-122); the fix, seeding it with the file's trim, waits for its sweep.
-  - `0739c559`: 1.57e-4 m, edge 6075 (vertex tolerance 4.8e-5 m). Its end is past the end of its
-    offset's basis, where the answer depends on how the basis is extended (EXP-122, open).
+  - `0739c559`: 1.57e-4 m, edge 6075. A converter error, a u of -2.7e-17 taken as outside the
+    B-surface (EXP-122, corrected); the fix waits for its sweep.
   - `f666f342` (head_face): 9.76e-5 m on three blend-to-blend diagonal SP_CURVEs (NQ-076) and
     1.03e-4 m on two blend surfaces, after EXP-121 fixed shared blends, the contact side and the
     diagonal edges that have an exact fin. These three refuse exact STEP.
@@ -158,9 +158,9 @@ Verified format facts, each having survived a blind check (more in the format pa
 - An OFFSET_SURF lies along its basis's normal, reversed by a `-` sense. Which sense flag it reads
   isn't settled, since they always agree in the sample.
 - Past the end of its knot range, a B-spline surface carries on flat along its edge tangent.
-  (2026-11-26: `0739c559` edge 6075 ends on such an extension under a nearly degenerate offset,
-  and neither this extension nor the end span's polynomial puts it within its vertex's tolerance.
-  Not settled, EXP-122.)
+  (2026-11-27: `0739c559` edge 6075 ends on such an extension, and with its cross-derivative it
+  is within the vertex's tolerance, EXP-122. The file records how far a surface was extended:
+  SURFACE_DATA's `extended_vint`.)
 
 ## Next, in order
 
@@ -168,8 +168,8 @@ Part files first; assemblies and drawings wait until these are done (the user's 
 
 1. ~~`3c4752f1`'s two plane × blend edges~~: the curves are right; the over-bar number is the
    check scoring the undetermined 30 nm next to a touching vertex (EXP-120, folded into NQ-065).
-2. ~~NQ-067~~ in part: `f0b9a118` is a wrong-coil projection, fix pending its sweep (EXP-122).
-   `0739c559` needs Parasolid's extension of a B-surface under an offset, or an export.
+2. ~~NQ-067~~: both are converter errors, a wrong-coil projection and a rounded u (EXP-122).
+   Fixes pending their sweeps.
 3. NQ-065: accuracy within about 1 µm of a T limit (head_back's four blends). It needs the nested
    spines fitted much tighter than 1e-10 m.
 4. `2f121983`: a blend spine on two offset swept surfaces. The foot jumps near the start. It now

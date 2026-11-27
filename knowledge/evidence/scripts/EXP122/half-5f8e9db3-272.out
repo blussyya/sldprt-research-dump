@@ -1,0 +1,2 @@
+main: surface plane, trim 0.500229268539368..1, fit range 0.5002292685450891..0, reported error 0; fit to edge 5.66e-4 m, edge to fit 5.65e-4 m (sampled, chord ~ 6.6e-7 m)
+seeded: surface plane, trim 0.500229268539368..1, fit range 0.5002292685450891..0.9998857762757861, reported error 0; fit to edge 3.02e-7 m, edge to fit 3.02e-7 m (sampled, chord ~ 6.6e-7 m)

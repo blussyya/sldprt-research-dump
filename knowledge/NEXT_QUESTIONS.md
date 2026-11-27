@@ -71,13 +71,15 @@ research history; its old `Active` and `Ready` labels are not the current priori
 | NQ-064 | Map the filler and the bytes after the real end record; check the directory on assemblies and drawings. |
 | NQ-065 | Check head_back's four T-limit blends (1.48e-8 to 1.54e-8 m) within about 1 µm of the T point; `3c4752f1`'s touching-end edges are the same limit (EXP-120). Decide how the converter reports an undetermined stretch. |
 | NQ-066 | Explain why no section of head_back's fitted blend passes near both of edge 844's vertices (5.7e-7 m); check edge 825. |
-| NQ-067 | Find which is wrong at the two vertices far outside their tolerance: `0739c559` edge 6075, `f0b9a118` edge 152. |
+| NQ-067 | Answered by EXP-122 (two converter errors); commit the two fixes once their sweeps pass. |
 | NQ-068 | Count the gap at intersection-edge ends the way a pinned SP_CURVE end is now counted. |
-| NQ-069 | Find why `f666f342` (head_face) doesn't resolve in 2,400 s. |
-| NQ-070 | Make the dense fit check cheaper; parts with many intersection curves are 2.6 to 3.3 times slower. |
+| NQ-069 | Answered for time (EXP-119); what's left over the bar is NQ-076 and NQ-077. |
+| NQ-070 | Retime `3c4752f1`, `0d68d32d` and `d799e9a3` since EXP-119's stop-test fix; make the dense check cheaper if still needed. |
 | NQ-071 remainder | Find where the 190 faces of the 140-byte layout keep their IDs, if anywhere; the 2025/2026 layout is read (EXP-116). |
 | NQ-074 | Name the low 16 bits of bounds word +100 (they group faces by feature) and find how the cone cosine is computed. |
 | NQ-075 | Find where the display's ids part from the native node ids in `f666f342` (0, −1, +1) and head_back 2013 (0 to −44); check offset 82 of the legacy tail as the face id in every pre-2014 file. |
+| NQ-076 | Decode Parasolid's blend u (and which support v starts from), then map head_face's three diagonal blend-to-blend edges. |
+| NQ-077 | Explain head_face's two blend surfaces at 1.03e-4 m, six intersection edges at 1e-8 to 1.2e-7 m, and the 1.83e-5 m edge gap. |
 
 | Blocked on a discriminating file or SolidWorks save | Needed input |
 |---|---|
@@ -1583,14 +1585,14 @@ been checked for the same pattern. SolidWorks 2026's
 
 ## NQ-067 — Two vertices far outside their tolerance
 
-**Status 2026-11-26 (EXP-122)**: two causes. `f0b9a118` edge 152 is a converter error: the end
-projection on a thread settled a coil early; seeded by the file's trim it fits to 9.95e-9 m (change
-pending its sweep and blind check). `0739c559` edge 6075 ends 3e-4 in v past the end of its offset's
-basis, on an offset 4.826 mm towards a basis that curves at 4.99 mm across u. Our linear extension
-gives 1.59e-4 m to the vertex, the end span's polynomial 8.26e-5 m, the tolerance is 4.82e-5 m. Open:
-how Parasolid extends a B-surface under an offset. A SolidWorks export of `0739c559` would show it.
+**Status 2026-11-26 (EXP-122), corrected 2026-11-27**: both are converter errors. `f0b9a118` edge
+152: the end projection on a thread settled a coil early; seeded by the file's trim it fits to
+9.95e-9 m. `0739c559` edge 6075: its 2D u of -2.7e-17 made the B-surface extension take the
+point as a corner and drop the cross-derivative; on the edge it fits to 7.59e-9 m. (The first
+status said 6075 depended on Parasolid's unknown extension; the blind prove agent found the
+rounding.) Both fixes wait for their sweeps.
 
-**Status**: Open. With a pinned end's gap counted, two online parts have an SP_CURVE vertex far
+**Status (2026-11-22)**: Open. With a pinned end's gap counted, two online parts have an SP_CURVE vertex far
 off its curve:
 
 | part, edge | vertex off its curve | edge tolerance | vertex tolerance |

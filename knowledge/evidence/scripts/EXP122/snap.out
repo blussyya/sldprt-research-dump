@@ -1,0 +1,6 @@
+2D control points (u exactly): -2.6973834947692418e-17, -2.6973834947692418e-17
+end (u, v) = (-2.6973834947692418e-17, 0.007040355111262308)
+u -2.6973834947692418e-17: basis du (-0.000852, -0.000513, 0.003076); offset point to vertex 1 1.591e-4 (tolerance 4.821e-5)
+u 0: basis du (-0.000942, -0.000609, 0.003070); offset point to vertex 1 4.559e-5 (tolerance 4.821e-5)
+as stored: converter fit error 1.575e-4; furthest from the cylinder fin 1.021e-4 (edge tolerance 1.000e-5)
+u snapped: converter fit error 7.591e-9; furthest from the cylinder fin 4.051e-6 (edge tolerance 1.000e-5)
